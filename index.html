@@ -3,56 +3,170 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IntensivaHub</title>
+  <meta name="description" content="IntensivaHub: educação médica, protocolos, resumos e atualização contínua em medicina intensiva.">
+  <title>IntensivaHub | Medicina Intensiva</title>
+
   <style>
+    :root {
+      --bg: #07111f;
+      --header: #0f172a;
+      --card: #111827;
+      --card2: #0b2538;
+      --text: #f1f5f9;
+      --muted: #cbd5e1;
+      --blue: #38bdf8;
+      --green: #22c55e;
+      --red: #fb7185;
+      --border: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #07111f;
-      color: #f1f5f9;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #0b2a44 0%, var(--bg) 42%);
+      color: var(--text);
       line-height: 1.6;
     }
 
     header {
-      padding: 32px 20px;
-      background: #0f172a;
-      border-bottom: 1px solid #334155;
+      padding: 42px 20px;
+      background: linear-gradient(135deg, #0f172a, #082f49);
+      border-bottom: 1px solid var(--border);
+      text-align: center;
     }
 
     main {
-      max-width: 900px;
+      max-width: 980px;
       margin: auto;
-      padding: 32px 20px;
+      padding: 28px 20px 48px;
     }
 
     h1 {
-      font-size: 2.4rem;
-      margin-bottom: 8px;
+      font-size: 2.8rem;
+      margin: 0 0 8px;
+      letter-spacing: -1px;
     }
 
     h2 {
-      color: #38bdf8;
-      margin-top: 36px;
+      color: var(--blue);
+      margin-top: 0;
+    }
+
+    h3 {
+      margin-bottom: 6px;
+    }
+
+    p {
+      margin-top: 8px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.1rem;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .doctor-box {
+      margin-top: 22px;
+      color: #e0f2fe;
+      font-size: 0.98rem;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .button {
+      padding: 12px 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.08);
+      font-weight: bold;
+    }
+
+    .button.primary {
+      background: linear-gradient(135deg, var(--blue), #2563eb);
+      color: white;
+      border: none;
     }
 
     .card {
-      background: #111827;
-      border: 1px solid #334155;
+      background: rgba(17, 24, 39, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 22px;
+      margin: 18px 0;
+      box-shadow: 0 14px 38px rgba(0,0,0,0.24);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .mini-card {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--border);
       border-radius: 18px;
-      padding: 20px;
-      margin: 16px 0;
+      padding: 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      color: #bae6fd;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: bold;
     }
 
     .alerta {
-      background: #3f1d2b;
-      border: 1px solid #fb7185;
+      background: rgba(63, 29, 43, 0.82);
+      border: 1px solid var(--red);
+    }
+
+    .safe {
+      background: rgba(20, 83, 45, 0.32);
+      border: 1px solid rgba(34, 197, 94, 0.55);
+    }
+
+    ul {
+      padding-left: 20px;
     }
 
     footer {
-      padding: 24px 20px;
+      padding: 28px 20px;
       color: #94a3b8;
-      border-top: 1px solid #334155;
+      border-top: 1px solid var(--border);
       text-align: center;
+      background: #020617;
+    }
+
+    @media (max-width: 720px) {
+      h1 {
+        font-size: 2.25rem;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -60,58 +174,130 @@
 <body>
   <header>
     <h1>🫁 IntensivaHub</h1>
-    <p>Medicina intensiva, protocolos, resumos e atualização contínua.</p>
+    <p class="subtitle">
+      Educação médica, protocolos, resumos e atualização contínua em medicina intensiva,
+      clínica médica e emergência.
+    </p>
+
+    <div class="doctor-box">
+      <strong>Dr. Aldenir Rocha</strong><br>
+      Médico Clínico Geral • CRM 16587 CREMEC • RQE Clínica Médica 11846
+    </div>
+
+    <div class="buttons">
+      <a class="button primary" href="#protocolos">📚 Protocolos UTI</a>
+      <a class="button" href="#atualizacoes">🔥 Atualizações</a>
+      <a class="button" href="#comunidade">🤝 Comunidade</a>
+      <a class="button" href="#seguranca">🛡️ Segurança</a>
+    </div>
   </header>
 
   <main>
-    <section class="card">
-      <h2>🔥 Atualizações em Medicina Intensiva</h2>
+    <section class="card" id="missao">
+      <h2>🎯 Missão do projeto</h2>
       <p>
-        Este site será um repositório público de educação médica,
-        protocolos de UTI, resumos de evidências, checklists de plantão
-        e conteúdos de interesse comunitário.
+        O IntensivaHub é um repositório público de educação médica criado para organizar
+        conhecimento prático em medicina intensiva, com foco em protocolos, checklists,
+        resumos de evidências, preparação TEMI e conteúdos úteis para profissionais de saúde
+        e comunidade.
+      </p>
+      <p>
+        A proposta é transformar estudo contínuo em material claro, revisável e acessível,
+        sem expor dados de pacientes e sem substituir a avaliação clínica individualizada.
       </p>
     </section>
 
-    <section class="card">
+    <section class="card" id="protocolos">
       <h2>📚 Protocolos em construção</h2>
+      <div class="grid">
+        <div class="mini-card">
+          <span class="tag">Sepse</span>
+          <h3>Sepse e choque séptico</h3>
+          <p>Triagem, lactato, culturas, antimicrobianos, fluidos, vasopressores e reavaliação.</p>
+        </div>
+        <div class="mini-card">
+          <span class="tag">VM</span>
+          <h3>Ventilação mecânica e SDRA</h3>
+          <p>Ventilação protetora, PEEP, driving pressure, prona, assincronias e desmame.</p>
+        </div>
+        <div class="mini-card">
+          <span class="tag">Hemodinâmica</span>
+          <h3>Choque e drogas vasoativas</h3>
+          <p>Choque distributivo, cardiogênico, hipovolêmico e obstrutivo com abordagem prática.</p>
+        </div>
+        <div class="mini-card">
+          <span class="tag">POCUS</span>
+          <h3>Ultrassom à beira-leito</h3>
+          <p>BLUE, RUSH, FOCUS/FATE, VExUS, DVT, FAST/eFAST e avaliação de congestão.</p>
+        </div>
+        <div class="mini-card">
+          <span class="tag">Nephro ICU</span>
+          <h3>IRA e terapia renal substitutiva</h3>
+          <p>Indicações de diálise, hipercalemia, acidose, congestão e cuidados no paciente crítico.</p>
+        </div>
+        <div class="mini-card">
+          <span class="tag">TEMI</span>
+          <h3>Preparação para prova de título</h3>
+          <p>Pérolas, pegadinhas, questões, trials clássicos e revisão de alta utilidade.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="atualizacoes">
+      <h2>🔥 Atualizações contínuas</h2>
+      <p>
+        Esta área será usada para registrar atualizações relevantes de medicina intensiva:
+        diretrizes, consensos, trials, revisões, alertas de segurança e mudanças práticas
+        que possam impactar o cuidado de pacientes críticos.
+      </p>
       <ul>
-        <li>Sepse e choque séptico</li>
-        <li>Ventilação mecânica e SDRA</li>
-        <li>Sedação, analgesia e delirium</li>
-        <li>Choque e drogas vasoativas</li>
-        <li>POCUS na UTI</li>
-        <li>IRA e terapia renal substitutiva</li>
-        <li>Transfusão e hemostasia</li>
-        <li>Preparação TEMI</li>
+        <li>Guideline Watch: principais mudanças de diretrizes.</li>
+        <li>Trial Radar: resumo de estudos importantes.</li>
+        <li>Plantão Seguro: checklists rápidos para uso prático.</li>
+        <li>Critical Facts: conceitos de alta utilidade para UTI.</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2>🧠 Missão</h2>
+    <section class="card" id="comunidade">
+      <h2>🤝 Conteúdo de interesse comunitário</h2>
       <p>
-        Organizar conhecimento médico de forma clara, segura e acessível,
-        ajudando médicos, estudantes, residentes e a comunidade a compreenderem
-        temas importantes da medicina intensiva.
+        Além dos materiais para médicos, o IntensivaHub também poderá oferecer textos educativos
+        em linguagem simples sobre temas importantes para pacientes e familiares.
+      </p>
+      <ul>
+        <li>O que é sepse?</li>
+        <li>Quando procurar emergência?</li>
+        <li>O que significa estar na UTI?</li>
+        <li>Como familiares podem se comunicar melhor com a equipe assistencial?</li>
+        <li>Sinais de alerta em falta de ar, febre, confusão mental e dor torácica.</li>
+      </ul>
+    </section>
+
+    <section class="card safe" id="seguranca">
+      <h2>🛡️ Segurança editorial</h2>
+      <p>
+        O IntensivaHub não deve publicar dados de pacientes, prontuários, imagens identificáveis,
+        exames com nome, informações de plantão ou qualquer dado sensível. Casos clínicos, quando usados,
+        devem ser fictícios ou profundamente modificados para fins exclusivamente educativos.
       </p>
     </section>
 
     <section class="card alerta">
-      <h2>🛡️ Aviso importante</h2>
+      <h2>⚠️ Aviso médico-legal</h2>
       <p>
-        Este conteúdo tem finalidade exclusivamente educativa e científica.
-        Não substitui consulta médica, avaliação individualizada, decisão clínica
-        à beira-leito ou protocolos institucionais locais.
+        Este conteúdo tem finalidade exclusivamente educativa e científica. Não substitui consulta médica,
+        telemedicina, avaliação individualizada, decisão clínica à beira-leito, prescrição médica ou protocolos
+        institucionais locais.
       </p>
       <p>
-        Não devem ser publicados dados de pacientes, prontuários, exames
-        identificáveis ou qualquer informação sensível.
+        Em situações de urgência ou emergência, procure atendimento médico imediatamente.
       </p>
     </section>
   </main>
 
   <footer>
-    IntensivaHub • Educação médica em medicina intensiva
+    IntensivaHub • Medicina intensiva, educação médica e atualização contínua<br>
+    Última atualização: 28/04/2026
   </footer>
 </body>
 </html>
