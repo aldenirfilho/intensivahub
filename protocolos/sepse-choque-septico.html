@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Protocolo educativo de sepse e choque séptico para medicina intensiva.">
+  <title>Sepse e Choque Séptico | IntensivaHub</title>
+
+  <style>
+    :root {
+      --bg: #07111f;
+      --header: #0f172a;
+      --card: #111827;
+      --text: #f1f5f9;
+      --muted: #cbd5e1;
+      --blue: #38bdf8;
+      --green: #22c55e;
+      --yellow: #facc15;
+      --red: #fb7185;
+      --border: #334155;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #1e293b 0%, var(--bg) 42%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 34px 20px;
+      background: linear-gradient(135deg, #450a0a, #0f172a 60%);
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+    }
+
+    main {
+      max-width: 980px;
+      margin: auto;
+      padding: 28px 20px 48px;
+    }
+
+    h1 {
+      font-size: 2.45rem;
+      margin: 0 0 8px;
+      letter-spacing: -0.8px;
+    }
+
+    h2 {
+      color: var(--blue);
+      margin-top: 0;
+    }
+
+    h3 { margin-bottom: 6px; }
+
+    a {
+      color: #bae6fd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      margin-top: 16px;
+      color: #e0f2fe;
+      font-size: 0.94rem;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 22px;
+      margin: 18px 0;
+      box-shadow: 0 14px 38px rgba(0,0,0,0.24);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .mini-card {
+      background: rgba(15, 23, 42, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      color: #bae6fd;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: bold;
+    }
+
+    .danger {
+      background: rgba(127, 29, 29, 0.48);
+      border: 1px solid rgba(251, 113, 133, 0.65);
+    }
+
+    .success {
+      background: rgba(20, 83, 45, 0.32);
+      border: 1px solid rgba(34, 197, 94, 0.55);
+    }
+
+    .yellow {
+      background: rgba(113, 63, 18, 0.35);
+      border: 1px solid rgba(250, 204, 21, 0.55);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 14px;
+      margin-top: 12px;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #0f172a;
+      color: #bae6fd;
+    }
+
+    td {
+      background: rgba(15, 23, 42, 0.72);
+    }
+
+    ul, ol { padding-left: 22px; }
+
+    .checklist li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      padding: 28px 20px;
+      color: #94a3b8;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      background: #020617;
+    }
+
+    @media (max-width: 720px) {
+      h1 { font-size: 2.05rem; }
+      .grid { grid-template-columns: 1fr; }
+      th, td { font-size: 0.92rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🦠 Sepse e Choque Séptico</h1>
+    <p class="subtitle">
+      Protocolo educativo para reconhecimento precoce, ressuscitação inicial, antimicrobianos,
+      controle de foco, vasopressores e reavaliação dinâmica no paciente crítico.
+    </p>
+    <p class="meta">
+      IntensivaHub • Medicina Intensiva • Última atualização: 28/04/2026<br>
+      <a href="../index.html">← Voltar para a página inicial</a>
+    </p>
+  </header>
+
+  <main>
+    <section class="card danger">
+      <h2>🚨 Mensagem central</h2>
+      <p>
+        Sepse é uma emergência tempo-dependente. O objetivo prático é reconhecer rapidamente
+        disfunção orgânica associada à infecção, iniciar antimicrobiano quando indicado,
+        ressuscitar hipoperfusão, controlar foco e reavaliar continuamente resposta clínica,
+        hemodinâmica e laboratorial.
+      </p>
+    </section>
+
+    <section class="card" id="definicoes">
+      <h2>1. Definições rápidas</h2>
+      <div class="grid">
+        <div class="mini-card">
+          <span class="tag">Sepse</span>
+          <h3>Infecção + disfunção orgânica</h3>
+          <p>
+            Disfunção orgânica ameaçadora à vida causada por resposta desregulada do hospedeiro
+            à infecção. Na prática, pensar em aumento do SOFA ≥ 2 pontos quando aplicável.
+          </p>
+        </div>
+        <div class="mini-card">
+          <span class="tag">Choque séptico</span>
+          <h3>Sepse + vasopressor/lactato</h3>
+          <p>
+            Sepse com necessidade de vasopressor para manter PAM ≥ 65 mmHg e lactato > 2 mmol/L,
+            apesar de ressuscitação volêmica adequada, quando não houver outra causa predominante.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card yellow" id="suspeita">
+      <h2>2. Quando suspeitar no plantão?</h2>
+      <ul class="checklist">
+        <li>Infecção suspeita ou confirmada + hipotensão, lactato elevado ou má perfusão.</li>
+        <li>Alteração do sensório, oligúria, hipoxemia, plaquetopenia, bilirrubina elevada ou acidose.</li>
+        <li>Febre ou hipotermia, taquicardia, taquipneia, extremidades frias ou mottling.</li>
+        <li>Paciente idoso, imunossuprimido ou pós-operatório pode apresentar quadro pouco exuberante.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="primeira-hora">
+      <h2>3. Primeira hora: pacote mental de ação</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Ação</th>
+            <th>Objetivo prático</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reconhecer hipoperfusão</td>
+            <td>PA, PAM, lactato, diurese, pele, consciência, acidose, necessidade de O₂/VM.</td>
+          </tr>
+          <tr>
+            <td>Coletar lactato</td>
+            <td>Dosar inicialmente e repetir se elevado ou se houver piora clínica.</td>
+          </tr>
+          <tr>
+            <td>Coletar culturas</td>
+            <td>Preferencialmente antes do antibiótico, sem atrasar terapia antimicrobiana em paciente grave.</td>
+          </tr>
+          <tr>
+            <td>Antimicrobiano precoce</td>
+            <td>Imediato, idealmente em até 1 hora, se choque séptico ou alta probabilidade de sepse.</td>
+          </tr>
+          <tr>
+            <td>Cristaloide balanceado</td>
+            <td>Considerar ressuscitação inicial em hipoperfusão, com reavaliação dinâmica e cuidado com congestão.</td>
+          </tr>
+          <tr>
+            <td>Noradrenalina</td>
+            <td>Vasopressor de primeira linha se hipotensão persistente; alvo inicial comum: PAM ≥ 65 mmHg.</td>
+          </tr>
+          <tr>
+            <td>Controle de foco</td>
+            <td>Drenar, retirar cateter infectado, abordar abdome, via urinária, partes moles ou foco cirúrgico.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card" id="ressuscitacao">
+      <h2>4. Ressuscitação: evitar piloto automático</h2>
+      <p>
+        A expansão volêmica deve ser guiada pela presença de hipoperfusão e pela resposta do paciente.
+        Evite tanto sub-ressuscitação quanto excesso de volume. Reavalie após cada intervenção.
+      </p>
+      <div class="grid">
+        <div class="mini-card">
+          <span class="tag">Sinais de resposta</span>
+          <ul>
+            <li>Melhora da PAM/perfusão.</li>
+            <li>Queda do lactato.</li>
+            <li>Melhora da diurese.</li>
+            <li>Menor necessidade de vasopressor.</li>
+            <li>Melhora de consciência e extremidades.</li>
+          </ul>
+        </div>
+        <div class="mini-card">
+          <span class="tag">Sinais de risco</span>
+          <ul>
+            <li>Crepitações, B-lines difusas, hipoxemia.</li>
+            <li>Congestão venosa, VExUS alterado.</li>
+            <li>Disfunção ventricular importante.</li>
+            <li>Pressão venosa elevada com má perfusão.</li>
+            <li>Edema periférico progressivo.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="antibiotico">
+      <h2>5. Antimicrobiano: raciocínio prático</h2>
+      <ol>
+        <li>Identificar foco provável: pulmonar, urinário, abdominal, pele/partes moles, SNC, cateter, corrente sanguínea.</li>
+        <li>Avaliar gravidade: choque, VM, imunossupressão, neutropenia, risco de MDR.</li>
+        <li>Checar história local: internação recente, antibiótico recente, colonização, culturas prévias.</li>
+        <li>Iniciar cobertura empírica adequada e ajustar após culturas, imagem e evolução.</li>
+        <li>Descalonar assim que possível, conforme microbiologia e estabilidade clínica.</li>
+      </ol>
+    </section>
+
+    <section class="card" id="erros">
+      <h2>6. Erros comuns que matam tempo</h2>
+      <ul class="checklist">
+        <li>Esperar febre para suspeitar de sepse.</li>
+        <li>Aguardar cultura ou imagem em paciente chocado antes de antibiótico.</li>
+        <li>Fazer volume sem reavaliar responsividade e congestão.</li>
+        <li>Atrasar noradrenalina em hipotensão persistente.</li>
+        <li>Esquecer controle de foco.</li>
+        <li>Não repetir lactato quando inicialmente elevado.</li>
+        <li>Não revisar antibiótico em 24–72 horas.</li>
+      </ul>
+    </section>
+
+    <section class="card success" id="checklist">
+      <h2>7. Checklist bolso — sepse no plantão</h2>
+      <ul class="checklist">
+        <li>☐ Infecção provável?</li>
+        <li>☐ Há disfunção orgânica?</li>
+        <li>☐ Lactato coletado?</li>
+        <li>☐ Culturas coletadas sem atrasar antibiótico?</li>
+        <li>☐ Antibiótico iniciado se choque ou alta probabilidade?</li>
+        <li>☐ Hipoperfusão: considerar cristaloide e reavaliar resposta?</li>
+        <li>☐ PAM baixa persistente: noradrenalina?</li>
+        <li>☐ Foco precisa drenar, retirar, operar ou desobstruir?</li>
+        <li>☐ Reavaliou lactato, diurese, pele, consciência, gasometria e congestão?</li>
+        <li>☐ Plano registrado e comunicado à equipe?</li>
+      </ul>
+    </section>
+
+    <section class="card" id="referencias">
+      <h2>8. Referências essenciais</h2>
+      <ul>
+        <li>Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021.</li>
+        <li>Evans L, Rhodes A, Alhazzani W, et al. Intensive Care Medicine. 2021;47:1181–1247. DOI: 10.1007/s00134-021-06506-y.</li>
+        <li>Society of Critical Care Medicine / European Society of Intensive Care Medicine.</li>
+        <li>ILAS — Instituto Latino Americano de Sepse: materiais educativos e tradução das diretrizes SSC 2021.</li>
+      </ul>
+    </section>
+
+    <section class="card danger">
+      <h2>⚠️ Aviso médico-legal</h2>
+      <p>
+        Este material tem finalidade educativa e científica. Não substitui julgamento clínico,
+        avaliação individualizada, prescrição médica, discussão com especialista, protocolos locais
+        ou conduta à beira-leito. Não utilize este conteúdo como orientação isolada para pacientes.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    IntensivaHub • Protocolo educativo de Sepse e Choque Séptico<br>
+    <a href="../index.html">← Voltar para a página inicial</a>
+  </footer>
+</body>
+</html>
