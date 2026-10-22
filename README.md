@@ -1,5 +1,9 @@
 # IntensivaHub 🫁⚡
 
+[🧭 Portfólio Projeto 360X](https://github.com/aldenirfilho/aldenirmed89/blob/main/docs_usuario/PORTFOLIO_GITHUB/README.md) · [👤 Aldenir Rocha](https://github.com/aldenirfilho)
+
+**Área:** Medicina e educação · terapia intensiva
+
 Repositório público de educação médica, protocolos, resumos e atualização contínua em medicina intensiva.
 
 ## Objetivo
