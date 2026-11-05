@@ -24,13 +24,13 @@
    "id": "ia360c",
    "nome": "IAs 360X ✅ curados",
    "icone": "✅",
-   "cards": 519
+   "cards": 1539
   },
   {
    "id": "ia360",
    "nome": "IAs 360X 5000+5000 (não revisado)",
    "icone": "🗃️",
-   "cards": 5404
+   "cards": 3043
   }
  ],
  "decks": [
@@ -1731,176 +1731,6 @@
   },
   {
    "colecao": "ia360",
-   "arquivo": "data/decks/ia360-r3-clnica-mdica-32-pneumologia-clnica.json",
-   "tema": "IAs 360X › R3 Clínica Médica › 32 Pneumologia clínica",
-   "cards": 175,
-   "subtemas": [
-    "Apneia obstrutiva do sono",
-    "Asma grave e difícil tratamento",
-    "Aspergilose broncopulmonar alérgica",
-    "Avaliação clínica da DPOC",
-    "Bronquiectasias no adulto",
-    "Classificação do líquido pleural",
-    "Confirmação de asma no adulto",
-    "Confirmação de restrição",
-    "Controle de asma",
-    "Corticoide inalatório na DPOC",
-    "Deficiência de alfa 1 antitripsina",
-    "Derrame pleural maligno",
-    "Diagnóstico de DPOC",
-    "Difusão de monóxido de carbono",
-    "Doença intersticial autoimune",
-    "Doença respiratória exacerbada por AINE",
-    "Espirometria obstrutiva",
-    "Fibrose cística no adulto",
-    "Fibrose pulmonar idiopática",
-    "Grupos da hipertensão pulmonar",
-    "Hemodinâmica da hipertensão pulmonar",
-    "Hemoptise no adulto",
-    "Hipertensão pulmonar tromboembólica crônica",
-    "Infecção pleural e pH",
-    "Oxigênio domiciliar prolongado",
-    "Pneumoconioses",
-    "Pneumonia eosinofílica",
-    "Pneumonite de hipersensibilidade",
-    "Pneumotoxicidade medicamentosa",
-    "Pneumotórax espontâneo primário",
-    "Quilotórax e pseudoquilotórax",
-    "Resgate anti-inflamatório",
-    "Sarcoidose pulmonar",
-    "Síndrome de hipoventilação da obesidade",
-    "Tuberculose pleural"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-r3-clnica-mdica-33-infectologia-clnica.json",
-   "tema": "IAs 360X › R3 Clínica Médica › 33 Infectologia clínica",
-   "cards": 300,
-   "subtemas": [
-    "Avaliação inicial do HIV",
-    "Bacteremia por Staphylococcus aureus",
-    "Candidíase esofágica",
-    "Chikungunya",
-    "Citomegalovírus gastrointestinal",
-    "Clostridioides difficile",
-    "Coinfecção HIV e tuberculose",
-    "Criptococose: diagnóstico",
-    "Criptococose: pressão liquórica",
-    "Criptococose: terapia e TARV",
-    "Dengue: choque e hematócrito",
-    "Dengue: confirmação laboratorial",
-    "Dengue: fases clínicas",
-    "Dengue: sinais de alarme",
-    "Doença de Chagas aguda",
-    "Doença de Chagas crônica",
-    "Encefalite herpética",
-    "Endocardite com culturas negativas",
-    "Endocardite: complicações e cirurgia",
-    "Endocardite: critérios diagnósticos",
-    "Endocardite: hemoculturas e eco",
-    "Esporotricose linfocutânea",
-    "Esquema básico da tuberculose",
-    "Esquistossomose hepatoesplênica",
-    "Estrongiloidíase e corticoide",
-    "Febre maculosa",
-    "Herpes-zóster e imunossupressão",
-    "Histoplasmose disseminada",
-    "Infecção gonocócica",
-    "Infecção latente por tuberculose",
-    "Infecção pelo vírus Zika",
-    "Início da terapia antirretroviral",
-    "Leishmaniose visceral",
-    "Leptospirose após enchente",
-    "Leucoencefalopatia multifocal progressiva",
-    "Listeria em meningite",
-    "MAC disseminado no HIV",
-    "Malária por Plasmodium vivax",
-    "Malária: diagnóstico e gravidade",
-    "Meningite bacteriana comunitária",
-    "Neurocisticercose",
-    "Neurossífilis e sífilis ocular",
-    "Neurotoxoplasmose: probabilidade",
-    "Neurotoxoplasmose: resposta",
-    "Paracoccidioidomicose crônica",
-    "Pneumocistose: apresentação",
-    "Pneumocistose: manejo e gravidade",
-    "Pneumocistose: profilaxia",
-    "Reconstituição imune",
-    "Retinite por citomegalovírus",
-    "Sífilis: sorologia e seguimento",
-    "Síndrome cardiopulmonar por hantavírus",
-    "Síndrome retroviral aguda",
-    "Teste molecular para tuberculose",
-    "Testes de HIV e janela",
-    "Toxicidade dos fármacos da TB",
-    "Tuberculose meníngea",
-    "Tuberculose miliar",
-    "Tuberculose pulmonar: suspeita",
-    "Tuberculose resistente"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-r3-clnica-mdica-34-nefrologia-clnica.json",
-   "tema": "IAs 360X › R3 Clínica Médica › 34 Nefrologia clínica",
-   "cards": 255,
-   "subtemas": [
-    "AINE e função renal",
-    "ATR tipo 4",
-    "Acesso vascular para diálise",
-    "Acidose tubular distal",
-    "Acidose tubular proximal",
-    "Amiloidose renal",
-    "Anemia da DRC",
-    "Anti membrana basal glomerular",
-    "Biópsia renal",
-    "Bloqueio renina angiotensina",
-    "Categorias de albuminúria",
-    "Categorias de filtração",
-    "Congestão e rim",
-    "Cálculos infecciosos",
-    "DRC definição",
-    "DRC e metabolismo mineral",
-    "Diálise e adequação clínica",
-    "Doença policística hereditária",
-    "Doença renal diabética",
-    "Estenose de artéria renal",
-    "Excreção fracionada de sódio",
-    "GESF primária e secundária",
-    "GN relacionada à infecção",
-    "Hematúria glomerular",
-    "Hipercalemia crônica e fármacos",
-    "Imagens renais e cronicidade",
-    "Infecção de cisto renal",
-    "Interpretação da creatinina",
-    "Lesões mínimas",
-    "Litíase cálcica",
-    "Litíase de ácido úrico",
-    "Medicamentos na DRC",
-    "Nefrite intersticial medicamentosa",
-    "Nefropatia membranosa",
-    "Nefropatia por IgA",
-    "Nefropatia por cadeias leves",
-    "Obstrução urinária",
-    "Padrões de imunofluorescência",
-    "Prognóstico renal",
-    "Proteinúria glomerular e tubular",
-    "Proteção renal e estilo de vida",
-    "SGLT2 na nefroproteção",
-    "Sedimento e lesão tubular",
-    "Síndrome de Bartter",
-    "Síndrome de Gitelman",
-    "Síndrome de Liddle",
-    "Síndrome nefrítica",
-    "Síndrome nefrótica",
-    "Síndrome urêmica",
-    "Tolvaptana na DRPAD",
-    "Transplante renal e creatinina"
-   ]
-  },
-  {
-   "colecao": "ia360",
    "arquivo": "data/decks/ia360-r3-clnica-mdica-35-endocrinologia-clnica.json",
    "tema": "IAs 360X › R3 Clínica Médica › 35 Endocrinologia clínica",
    "cards": 245,
@@ -2188,204 +2018,6 @@
     "Artrites inflamatórias",
     "Conectivopatias",
     "Espondiloartrites"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-16-distrbios-eletrolticos.json",
-   "tema": "IAs 360X › TEMI 2028 › 16 Distúrbios eletrolíticos",
-   "cards": 103,
-   "subtemas": [
-    "Cálcio",
-    "Fósforo",
-    "Magnésio",
-    "Potássio",
-    "Sódio"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-17-cardiologia-crtica.json",
-   "tema": "IAs 360X › TEMI 2028 › 17 Cardiologia crítica",
-   "cards": 101,
-   "subtemas": [
-    "Aorta",
-    "Choque",
-    "Insuficiência cardíaca",
-    "Pericárdio",
-    "SCA",
-    "TEP",
-    "Valvas"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-18-arritmias-e-pcr.json",
-   "tema": "IAs 360X › TEMI 2028 › 18 Arritmias e PCR",
-   "cards": 104,
-   "subtemas": [
-    "Bradicardias",
-    "ECG",
-    "PCR",
-    "Taquicardias"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-19-neurologia-crtica.json",
-   "tema": "IAs 360X › TEMI 2028 › 19 Neurologia crítica",
-   "cards": 106,
-   "subtemas": [
-    "Crises",
-    "Delirium",
-    "Fraqueza",
-    "Hemorragia",
-    "Isquemia",
-    "Morte encefálica",
-    "Pressão intracraniana"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-20-tce-e-avc.json",
-   "tema": "IAs 360X › TEMI 2028 › 20 TCE e AVC",
-   "cards": 107,
-   "subtemas": [
-    "AVC",
-    "Neurovascular",
-    "Pós-parada",
-    "TCE",
-    "Trauma"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-21-sedao-e-analgesia.json",
-   "tema": "IAs 360X › TEMI 2028 › 21 Sedação e analgesia",
-   "cards": 120,
-   "subtemas": [
-    "Analgesia",
-    "Delirium",
-    "Mobilidade",
-    "Sedação"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-22-hematologia-e-coagulao.json",
-   "tema": "IAs 360X › TEMI 2028 › 22 Hematologia e coagulação",
-   "cards": 114,
-   "subtemas": [
-    "Anticoagulação",
-    "CIVD",
-    "Coagulação",
-    "Plaquetas",
-    "TVP",
-    "Transfusão"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-23-endocrinologia.json",
-   "tema": "IAs 360X › TEMI 2028 › 23 Endocrinologia",
-   "cards": 106,
-   "subtemas": [
-    "Adrenal",
-    "Cálcio",
-    "Glicemia",
-    "Metabolismo",
-    "Tireoide"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-24-gastro-e-hepatologia.json",
-   "tema": "IAs 360X › TEMI 2028 › 24 Gastro e hepatologia",
-   "cards": 103,
-   "subtemas": [
-    "Abdome",
-    "Cirrose",
-    "Hemorragia",
-    "Pâncreas"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-25-emergncias-oncolgicas.json",
-   "tema": "IAs 360X › TEMI 2028 › 25 Emergências oncológicas",
-   "cards": 106,
-   "subtemas": [
-    "Compressão",
-    "Cálcio",
-    "Hematologia",
-    "Infecção",
-    "Metabolismo",
-    "Tratamento"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-26-trauma-e-ps-operatrio.json",
-   "tema": "IAs 360X › TEMI 2028 › 26 Trauma e pós-operatório",
-   "cards": 106,
-   "subtemas": [
-    "Hemorragia",
-    "Pós-operatório",
-    "Queimaduras",
-    "Trauma"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-27-pneumologia-clnica.json",
-   "tema": "IAs 360X › TEMI 2028 › 27 Pneumologia clínica",
-   "cards": 108,
-   "subtemas": [
-    "Asma",
-    "Aspiração",
-    "DPOC",
-    "Hipertensão pulmonar",
-    "Interstício",
-    "Oxigenação",
-    "Pleura",
-    "SAOS",
-    "TEP"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-28-clnica-mdica-integrada.json",
-   "tema": "IAs 360X › TEMI 2028 › 28 Clínica médica integrada",
-   "cards": 104,
-   "subtemas": [
-    "Dermato/infecto",
-    "Geriatria",
-    "Infectologia",
-    "Reumatologia",
-    "Risco CV"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-29-nutrio-e-preveno.json",
-   "tema": "IAs 360X › TEMI 2028 › 29 Nutrição e prevenção",
-   "cards": 120,
-   "subtemas": [
-    "Nutrição",
-    "Prevenção",
-    "Qualidade"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-30-procedimentos-e-tica.json",
-   "tema": "IAs 360X › TEMI 2028 › 30 Procedimentos e ética",
-   "cards": 123,
-   "subtemas": [
-    "Pesquisa",
-    "Procedimentos",
-    "Segurança",
-    "Ética"
    ]
   },
   {
@@ -2780,6 +2412,204 @@
   },
   {
    "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-16-distrbios-eletrolticos.json",
+   "tema": "IAs 360X ✅ › 16 Distúrbios eletrolíticos",
+   "cards": 20,
+   "subtemas": [
+    "Cálcio",
+    "Fósforo",
+    "Magnésio",
+    "Potássio",
+    "Sódio"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-17-cardiologia-crtica.json",
+   "tema": "IAs 360X ✅ › 17 Cardiologia crítica",
+   "cards": 20,
+   "subtemas": [
+    "Aorta",
+    "Choque",
+    "Insuficiência cardíaca",
+    "Pericárdio",
+    "SCA",
+    "TEP",
+    "Valvas"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-18-arritmias-e-pcr.json",
+   "tema": "IAs 360X ✅ › 18 Arritmias e PCR",
+   "cards": 21,
+   "subtemas": [
+    "Bradicardias",
+    "ECG",
+    "PCR",
+    "Taquicardias"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-19-neurologia-crtica.json",
+   "tema": "IAs 360X ✅ › 19 Neurologia crítica",
+   "cards": 20,
+   "subtemas": [
+    "Crises",
+    "Delirium",
+    "Fraqueza",
+    "Hemorragia",
+    "Isquemia",
+    "Morte encefálica",
+    "Pressão intracraniana"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-20-tce-e-avc.json",
+   "tema": "IAs 360X ✅ › 20 TCE e AVC",
+   "cards": 20,
+   "subtemas": [
+    "AVC",
+    "Neurovascular",
+    "Pós-parada",
+    "TCE",
+    "Trauma"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-21-sedao-e-analgesia.json",
+   "tema": "IAs 360X ✅ › 21 Sedação e analgesia",
+   "cards": 20,
+   "subtemas": [
+    "Analgesia",
+    "Delirium",
+    "Mobilidade",
+    "Sedação"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-22-hematologia-e-coagulao.json",
+   "tema": "IAs 360X ✅ › 22 Hematologia e coagulação",
+   "cards": 22,
+   "subtemas": [
+    "Anticoagulação",
+    "CIVD",
+    "Coagulação",
+    "Plaquetas",
+    "TVP",
+    "Transfusão"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-23-endocrinologia.json",
+   "tema": "IAs 360X ✅ › 23 Endocrinologia",
+   "cards": 20,
+   "subtemas": [
+    "Adrenal",
+    "Cálcio",
+    "Glicemia",
+    "Metabolismo",
+    "Tireoide"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-24-gastro-e-hepatologia.json",
+   "tema": "IAs 360X ✅ › 24 Gastro e hepatologia",
+   "cards": 20,
+   "subtemas": [
+    "Abdome",
+    "Cirrose",
+    "Hemorragia",
+    "Pâncreas"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-25-emergncias-oncolgicas.json",
+   "tema": "IAs 360X ✅ › 25 Emergências oncológicas",
+   "cards": 20,
+   "subtemas": [
+    "Compressão",
+    "Cálcio",
+    "Hematologia",
+    "Infecção",
+    "Metabolismo",
+    "Tratamento"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-26-trauma-e-ps-operatrio.json",
+   "tema": "IAs 360X ✅ › 26 Trauma e pós-operatório",
+   "cards": 20,
+   "subtemas": [
+    "Hemorragia",
+    "Pós-operatório",
+    "Queimaduras",
+    "Trauma"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-27-pneumologia-clnica.json",
+   "tema": "IAs 360X ✅ › 27 Pneumologia clínica",
+   "cards": 20,
+   "subtemas": [
+    "Asma",
+    "Aspiração",
+    "DPOC",
+    "Hipertensão pulmonar",
+    "Interstício",
+    "Oxigenação",
+    "Pleura",
+    "SAOS",
+    "TEP"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-28-clnica-mdica-integrada.json",
+   "tema": "IAs 360X ✅ › 28 Clínica médica integrada",
+   "cards": 20,
+   "subtemas": [
+    "Dermato/infecto",
+    "Geriatria",
+    "Infectologia",
+    "Reumatologia",
+    "Risco CV"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-29-nutrio-e-preveno.json",
+   "tema": "IAs 360X ✅ › 29 Nutrição e prevenção",
+   "cards": 21,
+   "subtemas": [
+    "Nutrição",
+    "Prevenção",
+    "Qualidade"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-30-procedimentos-e-tica.json",
+   "tema": "IAs 360X ✅ › 30 Procedimentos e ética",
+   "cards": 20,
+   "subtemas": [
+    "Pesquisa",
+    "Procedimentos",
+    "Segurança",
+    "Ética"
+   ]
+  },
+  {
+   "colecao": "ia360c",
    "arquivo": "data/decks/ia360c-r3-clnica-mdica-31-cardiologia-clnica.json",
    "tema": "IAs 360X ✅ › R3 › 31 Cardiologia clínica",
    "cards": 220,
@@ -2829,6 +2659,176 @@
     "Síndrome taquicárdica postural",
     "Tamponamento subagudo",
     "Terapia de ressincronização"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-r3-clnica-mdica-32-pneumologia-clnica.json",
+   "tema": "IAs 360X ✅ › R3 › 32 Pneumologia clínica",
+   "cards": 171,
+   "subtemas": [
+    "Apneia obstrutiva do sono",
+    "Asma grave e difícil tratamento",
+    "Aspergilose broncopulmonar alérgica",
+    "Avaliação clínica da DPOC",
+    "Bronquiectasias no adulto",
+    "Classificação do líquido pleural",
+    "Confirmação de asma no adulto",
+    "Confirmação de restrição",
+    "Controle de asma",
+    "Corticoide inalatório na DPOC",
+    "Deficiência de alfa 1 antitripsina",
+    "Derrame pleural maligno",
+    "Diagnóstico de DPOC",
+    "Difusão de monóxido de carbono",
+    "Doença intersticial autoimune",
+    "Doença respiratória exacerbada por AINE",
+    "Espirometria obstrutiva",
+    "Fibrose cística no adulto",
+    "Fibrose pulmonar idiopática",
+    "Grupos da hipertensão pulmonar",
+    "Hemodinâmica da hipertensão pulmonar",
+    "Hemoptise no adulto",
+    "Hipertensão pulmonar tromboembólica crônica",
+    "Infecção pleural e pH",
+    "Oxigênio domiciliar prolongado",
+    "Pneumoconioses",
+    "Pneumonia eosinofílica",
+    "Pneumonite de hipersensibilidade",
+    "Pneumotoxicidade medicamentosa",
+    "Pneumotórax espontâneo primário",
+    "Quilotórax e pseudoquilotórax",
+    "Resgate anti-inflamatório",
+    "Sarcoidose pulmonar",
+    "Síndrome de hipoventilação da obesidade",
+    "Tuberculose pleural"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-r3-clnica-mdica-33-infectologia-clnica.json",
+   "tema": "IAs 360X ✅ › R3 › 33 Infectologia clínica",
+   "cards": 292,
+   "subtemas": [
+    "Avaliação inicial do HIV",
+    "Bacteremia por Staphylococcus aureus",
+    "Candidíase esofágica",
+    "Chikungunya",
+    "Citomegalovírus gastrointestinal",
+    "Clostridioides difficile",
+    "Coinfecção HIV e tuberculose",
+    "Criptococose: diagnóstico",
+    "Criptococose: pressão liquórica",
+    "Criptococose: terapia e TARV",
+    "Dengue: choque e hematócrito",
+    "Dengue: confirmação laboratorial",
+    "Dengue: fases clínicas",
+    "Dengue: sinais de alarme",
+    "Doença de Chagas aguda",
+    "Doença de Chagas crônica",
+    "Encefalite herpética",
+    "Endocardite com culturas negativas",
+    "Endocardite: complicações e cirurgia",
+    "Endocardite: critérios diagnósticos",
+    "Endocardite: hemoculturas e eco",
+    "Esporotricose linfocutânea",
+    "Esquema básico da tuberculose",
+    "Esquistossomose hepatoesplênica",
+    "Estrongiloidíase e corticoide",
+    "Febre maculosa",
+    "Herpes-zóster e imunossupressão",
+    "Histoplasmose disseminada",
+    "Infecção gonocócica",
+    "Infecção latente por tuberculose",
+    "Infecção pelo vírus Zika",
+    "Início da terapia antirretroviral",
+    "Leishmaniose visceral",
+    "Leptospirose após enchente",
+    "Leucoencefalopatia multifocal progressiva",
+    "Listeria em meningite",
+    "MAC disseminado no HIV",
+    "Malária por Plasmodium vivax",
+    "Malária: diagnóstico e gravidade",
+    "Meningite bacteriana comunitária",
+    "Neurocisticercose",
+    "Neurossífilis e sífilis ocular",
+    "Neurotoxoplasmose: probabilidade",
+    "Neurotoxoplasmose: resposta",
+    "Paracoccidioidomicose crônica",
+    "Pneumocistose: apresentação",
+    "Pneumocistose: manejo e gravidade",
+    "Pneumocistose: profilaxia",
+    "Reconstituição imune",
+    "Retinite por citomegalovírus",
+    "Sífilis: sorologia e seguimento",
+    "Síndrome cardiopulmonar por hantavírus",
+    "Síndrome retroviral aguda",
+    "Teste molecular para tuberculose",
+    "Testes de HIV e janela",
+    "Toxicidade dos fármacos da TB",
+    "Tuberculose meníngea",
+    "Tuberculose miliar",
+    "Tuberculose pulmonar: suspeita",
+    "Tuberculose resistente"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-r3-clnica-mdica-34-nefrologia-clnica.json",
+   "tema": "IAs 360X ✅ › R3 › 34 Nefrologia clínica",
+   "cards": 253,
+   "subtemas": [
+    "AINE e função renal",
+    "ATR tipo 4",
+    "Acesso vascular para diálise",
+    "Acidose tubular distal",
+    "Acidose tubular proximal",
+    "Amiloidose renal",
+    "Anemia da DRC",
+    "Anti membrana basal glomerular",
+    "Biópsia renal",
+    "Bloqueio renina angiotensina",
+    "Categorias de albuminúria",
+    "Categorias de filtração",
+    "Congestão e rim",
+    "Cálculos infecciosos",
+    "DRC definição",
+    "DRC e metabolismo mineral",
+    "Diálise e adequação clínica",
+    "Doença policística hereditária",
+    "Doença renal diabética",
+    "Estenose de artéria renal",
+    "Excreção fracionada de sódio",
+    "GESF primária e secundária",
+    "GN relacionada à infecção",
+    "Hematúria glomerular",
+    "Hipercalemia crônica e fármacos",
+    "Imagens renais e cronicidade",
+    "Infecção de cisto renal",
+    "Interpretação da creatinina",
+    "Lesões mínimas",
+    "Litíase cálcica",
+    "Litíase de ácido úrico",
+    "Medicamentos na DRC",
+    "Nefrite intersticial medicamentosa",
+    "Nefropatia membranosa",
+    "Nefropatia por IgA",
+    "Nefropatia por cadeias leves",
+    "Obstrução urinária",
+    "Padrões de imunofluorescência",
+    "Prognóstico renal",
+    "Proteinúria glomerular e tubular",
+    "Proteção renal e estilo de vida",
+    "SGLT2 na nefroproteção",
+    "Sedimento e lesão tubular",
+    "Síndrome de Bartter",
+    "Síndrome de Gitelman",
+    "Síndrome de Liddle",
+    "Síndrome nefrítica",
+    "Síndrome nefrótica",
+    "Síndrome urêmica",
+    "Tolvaptana na DRPAD",
+    "Transplante renal e creatinina"
    ]
   }
  ]

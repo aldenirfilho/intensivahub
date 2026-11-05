@@ -66,13 +66,18 @@ def curate(path):
 
 def curate_flat(path):
     """Blocos R3 (1 conceito por card): só revisão — remove duplicatas (DROP 'tema#i') e aplica FIX."""
-    d = json.load(open(path)); tema = d["baralho"].split("::")[-1]; cards = []
+    d = json.load(open(path)); tema = d["baralho"].split("::")[-1]; cards = []; seen = set()
     for i, c in enumerate(d["cards"]):
         key = f"{tema}#{i}"
         if key in DROP: continue
         fx = FIX.get(key, {}); tag, front, ans, imgs = parts(c)
         v = c["verso"][2:] if c["verso"].startswith("✅ ") else c["verso"]
-        v = clean_ans(re.sub(r'<div class="(imgcap|source-note)">.*?</div>', "", v))
+        v = re.sub(r'<div class="(imgcap|source-note)">.*?</div>', "", v)
+        v = re.sub(r"<p>🧠 Fundamento fisiopatológico e semiológico;.*?</p>", "", v)   # rodapé genérico repetido
+        for t in re.findall(r"<table>.*?</table>", v):                                  # tabela idêntica: só no 1º card
+            if t in seen: v = v.replace(t, "")
+            seen.add(t)
+        v = clean_ans(v)
         cards.append({"subtema": c["subtema"], "frente": clean_ans(fx.get("front", front)), "verso": "✅ " + fx.get("ans", v), "pegadinha": fx.get("nota", ""),
                       "fonte": re.sub(r"\s*·\s*⚠️ Gerado por outra IA · não revisado", "", c["fonte"]) + " · ✅ revisado por Claude", "tags": ["IA360C", "R3"], "_k": key})
     return d, tema, cards

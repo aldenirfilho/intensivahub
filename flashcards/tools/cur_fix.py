@@ -1,5 +1,5 @@
 """Correções manuais da curadoria IAs 360X (chave = 'tema#índice do conceito'; 'd' = card de aprofundamento; 'x' = extra)."""
-DONE = {f"{i:02d}" for i in range(1, 16)}
+DONE = {f"{i:02d}" for i in range(1, 31)}
 V1, V2, V3, V4, V5 = "01 Ventilação mecânica", "02 Assincronias", "03 Estratégias ventilatórias", "04 SDRA e oxigenação", "05 Via aérea e suporte"
 FIX = {
     f"{V1}#0": {"img": "vm_vcv_curvas.png", "nota": "Resistência = (Ppico − Pplatô)/fluxo em L/s. Gradiente pico-platô > 10 cmH₂O sugere problema de via aérea/tubo."},
@@ -53,8 +53,38 @@ FIX.update({
 })
 DROP |= {f"{C10}#x0", f"{C10}#x1", f"{C10}#8d"}
 
-DONE_R3 = {"31"}
+DONE_R3 = {"31", "32", "33", "34"}
 R31 = "31 Cardiologia clínica"
 DROP |= {f"{R31}#{i}" for i in (54, 64, 69, 149, 159)}   # perguntas duplicadas
 FIX.update({f"{R31}#16": {"nota": "Washout de 36 h IECA → ARNI: risco de angioedema pela inibição combinada de ECA e neprilisina."},
             f"{R31}#60": {"nota": "Benefício também em BRE com QRS 130–149 ms (menor) e em não-BRE com QRS ≥ 150 ms (classe IIa)."}})
+
+# ── TEMI 16–30 (lote 3) ──
+E16, K17, A18, N19, T20 = "16 Distúrbios eletrolíticos", "17 Cardiologia crítica", "18 Arritmias e PCR", "19 Neurologia crítica", "20 TCE e AVC"
+S21, H22, E23, G24, O25 = "21 Sedação e analgesia", "22 Hematologia e coagulação", "23 Endocrinologia", "24 Gastro e hepatologia", "25 Emergências oncológicas"
+T26, P27, M28, U29, Q30 = "26 Trauma e pós-operatório", "27 Pneumologia clínica", "28 Clínica médica integrada", "29 Nutrição e prevenção", "30 Procedimentos e ética"
+FIX.update({
+    f"{E16}#0": {"img": "img_hipona.png"},
+    f"{E16}#4": {"img": "img_hiperk.png"},
+    f"{K17}#6": {"img": "pc_vd_dsign.png", "nota": "AHA/ACC 2026 (Circulation, 19/02/2026): categorias A–E substituem baixo/intermediário/alto risco; D = choque normotenso incipiente, E = hipotensão persistente/PCR. PERT classe 1 em C–E."},
+    f"{S21}#2": {"img": "img_rass.png"},
+    f"{S21}#5d": {"nota": "PADIS focused update (Crit Care Med, mar/2025). Contraponto: o ensaio A2B (2025) não mostrou extubação mais rápida com α2-agonistas × propofol."},
+    f"{H22}#0d": {"nota": "AABB (Ann Intern Med, ago/2025), baseada em MINT + REALITY (4.311 pacientes): mortalidade em 30 d 81 × 93/1.000 com estratégia liberal."},
+    f"{H22}#4": {"nota": "ISTH 2025: fases pré-CIVD → CIVD precoce → CIVD franca; no escore franco, D-dímero > 3× LSN = 2 pts e > 7× LSN = 3 pts (≥ 5 = CIVD franca)."},
+    f"{T26}#0": {"img": "pc_efast.png"},
+    f"{T26}#1": {"img": "pc_linhas_ab.png"},
+})
+DROP |= {f"{H22}#x0", f"{G24}#x0", f"{Q30}#x0"}   # duplicavam 0d, 9d e o card 7
+
+# ── R3 32–34 ──
+R32, R33, R34 = "32 Pneumologia clínica", "33 Infectologia clínica", "34 Nefrologia clínica"
+DROP |= {f"{R32}#{i}" for i in (46, 131, 156, 166)}
+DROP |= {f"{R33}#{i}" for i in (16, 32, 77, 101, 134, 154, 167, 201)}
+DROP |= {f"{R34}#{i}" for i in (112, 214)}
+FIX.update({
+    f"{R32}#16": {"front": "Confirmação de asma no adulto — Qual reversibilidade broncodilatadora a GINA usa em adultos?",
+                  "nota": "ERS/ATS 2021 propõe outro critério: ↑ > 10% do previsto (VEF1 ou CVF)."},
+    f"{R32}#150": {"nota": "ESC/ERS 2022: HP = PAPm > 20 mmHg; pré-capilar = POAP ≤ 15 + RVP > 2 UW."},
+    f"{R33}#40": {"front": "Pneumocistose: profilaxia — Segundo as diretrizes NIH de infecções oportunistas, quando iniciar profilaxia em quem está sem TARV ou iniciando?"},
+    f"{R33}#36": {"nota": "Prednisona 40 mg 2×/dia (d1–5) → 40 mg/dia (d6–10) → 20 mg/dia (d11–21)."},
+})
