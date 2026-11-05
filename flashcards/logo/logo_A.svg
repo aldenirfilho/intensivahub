@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs>
+<radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#1c2635"/><stop offset=".6" stop-color="#0d121a"/><stop offset="1" stop-color="#05070a"/></radialGradient>
+<linearGradient id="au" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff1b8"/><stop offset=".45" stop-color="#e6c25a"/><stop offset="1" stop-color="#8f6a14"/></linearGradient>
+<linearGradient id="cy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22b8f0"/><stop offset=".5" stop-color="#9bf0ff"/><stop offset="1" stop-color="#22b8f0"/></linearGradient>
+<linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2a3b"/><stop offset="1" stop-color="#0e1520"/></linearGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".6"/></filter>
+</defs><rect width="512" height="512" rx="112" fill="url(#bg)"/><circle cx="256" cy="256" r="222" fill="none" stroke="url(#au)" stroke-width="5" stroke-dasharray="1180 215" transform="rotate(-62 256 256)" opacity=".9"/>
+<circle cx="256" cy="256" r="222" fill="none" stroke="#e6c25a" stroke-width="2" stroke-dasharray="2 14" opacity=".35"/>
+<circle cx="452" cy="152" r="11" fill="#9bf0ff" filter="url(#glow)"/>
+<g filter="url(#sh)"><path d="M256 62 L404 112 V246 C404 350 338 420 256 452 C174 420 108 350 108 246 V112 Z" fill="#0d141e" stroke="url(#au)" stroke-width="13" stroke-linejoin="round"/></g>
+<path d="M256 90 L380 132 V246 C380 334 324 394 256 422 C188 394 132 334 132 246 V132 Z" fill="none" stroke="#e6c25a" stroke-width="3" opacity=".5"/>
+<path d="M256 118 l10 24 24 10 -24 10 -10 24 -10 -24 -24 -10 24 -10z" fill="url(#au)"/>
+<path d="M256 330 C222 308 186 304 152 312 V214 C186 206 222 210 256 232 Z" fill="url(#pg)" stroke="url(#au)" stroke-width="8" stroke-linejoin="round"/>
+<path d="M256 330 C290 308 326 304 360 312 V214 C326 206 290 210 256 232 Z" fill="url(#pg)" stroke="url(#au)" stroke-width="8" stroke-linejoin="round"/>
+<path d="M172 238 C196 233 216 236 236 246 M172 290 C196 285 216 288 236 298 M340 238 C316 233 296 236 276 246 M340 290 C316 285 296 288 276 298" stroke="#e6c25a" stroke-width="4" opacity=".45" fill="none" stroke-linecap="round"/>
+<polyline points="140,268 196,268 212,244 228,300 248,200 266,318 282,268 372,268" fill="none" stroke="url(#cy)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+<path d="M196 364 H316" stroke="url(#au)" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+</svg>
