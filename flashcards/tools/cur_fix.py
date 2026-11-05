@@ -88,3 +88,12 @@ FIX.update({
     f"{R33}#40": {"front": "Pneumocistose: profilaxia — Segundo as diretrizes NIH de infecções oportunistas, quando iniciar profilaxia em quem está sem TARV ou iniciando?"},
     f"{R33}#36": {"nota": "Prednisona 40 mg 2×/dia (d1–5) → 40 mg/dia (d6–10) → 20 mg/dia (d11–21)."},
 })
+
+# ── R3 35–36 ──
+DONE_R3 |= {"35", "36"}
+R35, R36 = "35 Endocrinologia clínica", "36 Gastroenterologia e hepatologia"
+FIX.update({
+    f"{R35}#97": {"nota": "Limiar mudou: ADA 2009 segurava a insulina com K⁺ < 3,3; o consenso ADA/EASD 2024 usa K⁺ < 3,5 mmol/L. Prova antiga pode cobrar 3,3."},
+    f"{R35}#86": {"nota": "Consenso hiperglicêmico 2024 (ADA/EASD/JBDS/AACE/DTS): BHB ≥ 3,0 mmol/L ou cetonúria ≥ 2+."},
+    f"{R36}#57": {"nota": "ICA/ADQI 2024: avaliar volemia; se indicado, reposição (albumina ou cristaloide) e reavaliar em 24 h — o antigo 'albumina 1 g/kg por 48 h' saiu."},
+})
