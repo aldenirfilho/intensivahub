@@ -120,6 +120,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 <main>
 <!-- INÍCIO -->
 <section class="view" id="v-inicio">
+ <div id="resumeBox"></div>
  <div class="stats" id="stats"></div>
  <div class="panel"><div class="charts" id="charts"></div></div>
  <div class="panel">
@@ -135,15 +136,17 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 <section class="view" id="v-estudar">
  <div id="studyTop"><div id="studyDeck" class="grow"></div><div id="studyCounts"></div></div>
  <div class="progress"><i id="prog"></i></div>
+ <div id="histBanner" style="display:none;border-color:var(--cy);padding:10px 12px;font-size:14px" class="panel"></div>
  <div id="cardHost"></div>
- <div id="studyEmpty" class="empty" style="display:none"></div>
+  <div id="studyEmpty" class="empty" style="display:none"></div>
  <div class="row" id="studyTools" style="margin-top:12px;justify-content:center">
+  <button class="btn sm cy" id="bBack" title="Voltar ao card anterior (←)">⬅️ Voltar</button>
   <button class="btn sm" id="bUndo" title="Desfazer (Z)">↩️ Desfazer</button>
   <button class="btn sm" id="bMark" title="Marcar (M)">🚩 Marcar</button>
   <button class="btn sm" id="bSusp" title="Suspender (S)">⏸️ Suspender</button>
   <button class="btn sm" id="bEnd">⏹️ Encerrar</button>
  </div>
- <div class="foot">Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer</div>
+ <div class="foot">Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer · <span class="kbd">←</span> voltar · <span class="kbd">→</span> continuar</div>
 </section>
 
 <!-- BUSCAR -->
@@ -163,8 +166,17 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 <section class="view" id="v-importar">
  <h2>📥 Importar cards</h2>
  <div class="panel">
-  <div class="drop" id="drop">📦 Arraste aqui ou <b style="color:var(--gold2)">toque para escolher</b><br><small>.apkg (Anki) · .json (formato CÓDICE / qualquer IA) · .txt/.csv (frente;verso)</small></div>
-  <input type="file" id="file" accept=".apkg,.colpkg,.json,.txt,.csv,.tsv" multiple hidden>
+  <div class="drop" id="drop">📦 Arraste aqui ou <b style="color:var(--gold2)">toque para escolher o arquivo</b><br><small>.apkg (Anki) · .json (formato CÓDICE / qualquer IA) · .txt/.csv (frente;verso)</small></div>
+  <input type="file" id="file" multiple hidden>
+ </div>
+ <div class="panel" style="font-size:14px">
+  <b>📱 Recebeu um .apkg de outra IA (ChatGPT, Grok, Gemini…)?</b>
+  <ol style="margin:6px 0 0;padding-left:20px;color:var(--mut)">
+   <li>Baixe o arquivo no celular (ele vai para <b>Arquivos › Downloads</b>).</li>
+   <li>Toque na área 📦 acima → escolha o arquivo <b>.apkg</b> (ou .json/.txt).</li>
+   <li>Pronto: os cards entram com imagens e <b>☁️ sincronizam em todos os aparelhos</b>.</li>
+  </ol>
+  <div style="margin-top:6px;color:var(--mut)">Também pode mandar o arquivo para o Claude na conversa e pedir para incorporar ao baralho oficial.</div>
  </div>
  <div class="panel">
   <h3 style="margin-top:0">📋 Colar a resposta da IA</h3>
@@ -235,6 +247,10 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
  <button class="btn g2" data-g="2"><b>Difícil</b><small id="i2"></small></button>
  <button class="btn g3" data-g="3"><b>Bom</b><small id="i3"></small></button>
  <button class="btn g4" data-g="4"><b>Fácil</b><small id="i4"></small></button></div></div>
+<div class="bar" id="barHist"><div class="in" style="grid-template-columns:1fr 1fr 1.3fr">
+ <button class="btn cy" id="hBack" style="justify-content:center">⬅️ Anterior</button>
+ <button class="btn" id="hRedo" style="justify-content:center">🔁 Refazer este</button>
+ <button class="btn gold" id="hCont" style="justify-content:center">Continuar ▶</button></div></div>
 <div class="toast" id="toast"></div>
 
 <script src="lib/jszip.min.js"></script>

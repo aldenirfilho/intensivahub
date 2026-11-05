@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "2.0.0";
+const APP_VERSION = "2.1.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -172,6 +172,8 @@ const Cloud = {
     if (id === "state") {
       if ((data.settingsMod || 0) > S.settingsMod && data.settings) { S.settings = Object.assign({}, DEFAULTS, data.settings); S.settingsMod = data.settingsMod; DB.setMeta("settings", { v: data.settings, mod: data.settingsMod }); changed = true; }
       for (const [d, l] of Object.entries(data.logs || {})) { const cur = S.logs[d]; if (!cur || (l.nAns || 0) > (cur.nAns || 0)) { S.logs[d] = l; changed = true; } }
+      if (data.session && (!S.session || data.session.mod > S.session.mod)) { S.session = data.session; DB.setMeta("session", S.session); changed = true; }
+      if (S.session && (!data.session || S.session.mod > data.session.mod)) this.dirty.st = true;
       if (changed) DB.setMeta("logs", S.logs);
       // se meu log local de algum dia é maior, preciso enviar
       for (const [d, l] of Object.entries(S.logs)) if (!data.logs || !data.logs[d] || (data.logs[d].nAns || 0) < l.nAns) this.dirty.st = true;
@@ -203,6 +205,16 @@ const Cloud = {
     }
     return changed;
   },
+  async pull() {
+    if (!this.on || this.busy) return;
+    try {
+      const snap = await this.col.get(); let ch = false;
+      for (const d of snap.docs) if (this.applyDoc(d.id, d.data(), null)) ch = true;
+      this.lastSync = Date.now(); this.setStatus("ok", "☁️ Sincronizado " + new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }));
+      if (ch) { rebuildCards(); if (location.hash !== "#estudar") rerender(); }
+      if (this.dirty.p.size || this.dirty.u.size || this.dirty.st) this.schedule(300);
+    } catch (e) { this.setStatus("err", "⚠️ Sem conexão — salvo no aparelho"); }
+  },
   markP(id) { this.dirty.p.add(shardP(id)); this.schedule(); },
   markU(id) { this.dirty.u.add(shardU(id)); this.schedule(); },
   markSt() { this.dirty.st = true; this.schedule(); },
@@ -228,10 +240,10 @@ const Cloud = {
         this.dirty.st = false; const ref = this.col.doc("state"); const r = await ref.get(); if (r.exists) this.applyDoc("state", r.data(), null); this.dirty.st = false;
         const keep = Object.keys(S.logs).sort().slice(-120); const logs = {}; keep.forEach(k => logs[k] = S.logs[k]);
         const { cols, newPerDay, revPerDay, steps, grad, easy } = S.settings;
-        await ref.set({ settings: { cols, newPerDay, revPerDay, steps, grad, easy }, settingsMod: S.settingsMod, logs, app: APP_VERSION });
+        await ref.set({ settings: { cols, newPerDay, revPerDay, steps, grad, easy }, settingsMod: S.settingsMod, logs, session: S.session || null, app: APP_VERSION });
       }
       if (this.dirty.media) { this.dirty.media = false; await this.col.doc("media").set({ m: this.mediaMap }); }
-      this.lastSync = Date.now(); this.err = ""; this.setStatus("ok", "☁️ Sincronizado");
+      this.lastSync = Date.now(); this.err = ""; this.setStatus("ok", "☁️ Sincronizado " + new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }));
     } catch (e) {
       console.warn("flush", e); this.err = e.code || e.message || String(e);
       this.setStatus("err", e.code === "quota_exceeded" ? "⚠️ Nuvem cheia" : "⚠️ Erro de sync"); this.schedule(20000);
@@ -660,6 +672,14 @@ function treeHTML(node, depth = 0) {
 }
 function refreshHome() {
   const all = counts(null), L = L0(), tot = S.cards.length;
+  const ss = S.session; let rb = "";
+  if (ss) {
+    const pend = ss.ids ? ss.ids.filter(id => { const c = S.byId.get(id); return c && !c.susp && (c.srs.st === "new" || c.srs.due <= endOfDay()); }).length : (() => { const k = counts(ss.prefix); return k.n + k.l + k.r; })();
+    const when = new Date(ss.mod).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+    if (pend) rb = `<div class="panel" style="border-color:var(--gold);display:flex;gap:10px;align-items:center;flex-wrap:wrap"><div class="grow">▶️ <b>Continuar de onde parou</b><br><small style="color:var(--mut)">${esc(ss.ids ? "🔎 Estudo filtrado" : (ss.prefix || "Todos os baralhos"))} · ${pend} pendente(s) · ${when}</small></div><button class="btn gold" id="resumeBtn">▶️ Continuar</button></div>`;
+  }
+  $("#resumeBox").innerHTML = rb;
+  if (rb) $("#resumeBtn").onclick = () => startStudy(ss.prefix, ss.ids, true);
   const mature = S.cards.filter(c => c.srs.st === "review" && c.srs.ivl >= 21).length, acc = L.nAns ? Math.round(100 * L.nOk / L.nAns) : 0;
   $("#stats").innerHTML = `<div class="stat"><b class="n">${all.n}</b><span>novos hoje</span></div><div class="stat"><b class="rv">${all.r + all.l}</b><span>revisões pendentes</span></div>
    <div class="stat"><b>${L.nAns}</b><span>respondidos hoje · ${acc}% ✓</span></div><div class="stat"><b style="color:var(--gold2)">${tot}</b><span>cards · ${mature} maduros</span></div>`;
@@ -683,12 +703,18 @@ $("#tree").addEventListener("click", e => {
 $("#studyAll").onclick = () => startStudy(null);
 
 /* ---------------- UI: Estudo ---------------- */
-function startStudy(prefix, ids) {
+function saveSession(prefix, ids) {
+  S.session = { prefix: prefix || null, ids: ids ? ids.slice(0, 400) : null, mod: Date.now() };
+  DB.setMeta("session", S.session); Cloud.markSt();
+}
+function startStudy(prefix, ids, resume) {
+  if (!resume) saveSession(prefix, ids);
   Study.prefix = prefix; Study.ids = ids ? new Set(ids) : null; Study.seen = new Set(); Study.undo = []; Study.done = 0; Study.started = true;
   const c = counts(prefix); Study.total = ids ? ids.length : c.n + c.l + c.r;
   if (location.hash !== "#estudar") location.hash = "estudar"; else showCard();
 }
 async function showCard() {
+  Study.view = null; $("#histBanner").style.display = "none";
   const c = nextCard(); Study.cur = c; Study.shown = false;
   $("#studyDeck").textContent = Study.ids ? "🔎 Estudo filtrado (resultados da busca)" : "📚 " + (Study.prefix || "Todos os baralhos");
   const cc = counts(Study.prefix), L = L0();
@@ -707,8 +733,44 @@ async function showCard() {
   Study.t0 = Date.now(); bars("show"); window.scrollTo({ top: 0 });
 }
 function bars(which) {
-  $("#barShow").classList.toggle("on", which === "show" && location.hash === "#estudar");
-  $("#barAns").classList.toggle("on", which === "ans" && location.hash === "#estudar");
+  const st = location.hash === "#estudar";
+  $("#barShow").classList.toggle("on", which === "show" && st);
+  $("#barAns").classList.toggle("on", which === "ans" && st);
+  $("#barHist").classList.toggle("on", which === "hist" && st);
+}
+/* ---------- Voltar / Continuar (histórico da sessão) ---------- */
+const GN = { 1: "De novo", 2: "Difícil", 3: "Bom", 4: "Fácil" };
+async function histShow() {
+  const h = Study.undo[Study.view], c = h && S.byId.get(h.id);
+  if (!c) { Study.view = null; return histContinue(); }
+  $("#cardHost").style.display = "block"; $("#studyEmpty").style.display = "none"; $("#studyTools").style.display = "flex";
+  $("#histBanner").style.display = "block";
+  $("#histBanner").innerHTML = `⬅️ <b>Revendo card anterior</b> ${Study.undo.length - Study.view} de ${Study.undo.length} · você respondeu <b>${GN[h.g] || "?"}</b> · próximo em ${c.srs.st === "review" ? fmtIvl(c.srs.ivl * DAY) : fmtIvl(Math.max(MIN, c.srs.due - Date.now()))}`;
+  await renderInto($("#cardHost"), c.a, c.style, c.deck);
+  $("#hBack").disabled = Study.view <= 0; bars("hist"); window.scrollTo({ top: 0 });
+}
+function histBack() {
+  if (!Study.undo.length) return toast("Ainda não há card anterior nesta sessão.");
+  Study.view = Study.view == null ? Study.undo.length - 1 : Math.max(0, Study.view - 1);
+  histShow();
+}
+async function histContinue() {
+  Study.view = null; $("#histBanner").style.display = "none";
+  const c = Study.cur;
+  if (!c) return showCard();
+  await renderInto($("#cardHost"), Study.shown ? c.a : c.q, c.style, c.deck);
+  bars(Study.shown ? "ans" : "show");
+}
+async function histRedo() {
+  const i = Study.view; const h = Study.undo[i]; if (!h) return;
+  const c = S.byId.get(h.id); if (!c) return;
+  c.srs = h.srs; // volta ao estado de antes da resposta
+  const L = S.logs[h.day]; if (L) { L.nAns = Math.max(0, L.nAns - 1); if (h.g > 1) L.nOk = Math.max(0, L.nOk - 1); if (h.wasNew) L.nNew = Math.max(0, L.nNew - 1); if (h.wasRev) L.nRev = Math.max(0, L.nRev - 1); }
+  Study.undo.splice(i, 1); Study.done = Math.max(0, Study.done - 1); Study.seen.delete(c.id);
+  await saveProg(c); await saveLog();
+  Study.view = null; $("#histBanner").style.display = "none";
+  Study.cur = c; Study.shown = false; await renderInto($("#cardHost"), c.q, c.style, c.deck); Study.t0 = Date.now(); bars("show");
+  toast("🔁 Responda este card de novo");
 }
 async function reveal() {
   const c = Study.cur; if (!c || Study.shown) return; Study.shown = true;
@@ -719,8 +781,8 @@ async function reveal() {
 }
 async function answer(g) {
   const c = Study.cur; if (!c || !Study.shown) return; const L = L0();
-  Study.undo.push({ id: c.id, srs: Object.assign({}, c.srs), log: Object.assign({}, L) });
   const wasNew = c.srs.st === "new", wasRev = c.srs.st === "review";
+  Study.undo.push({ id: c.id, srs: Object.assign({}, c.srs), log: Object.assign({}, L), g, wasNew, wasRev, day: today() });
   c.srs = schedule(c.srs, g);
   if (wasNew) L.nNew++; if (wasRev) L.nRev++; L.nAns++; if (g > 1) L.nOk++; L.ms += Math.min(60000, Date.now() - Study.t0);
   Study.seen.add(c.id); if (g > 1 || Study.ids) Study.done++;
@@ -728,18 +790,22 @@ async function answer(g) {
 }
 async function undo() {
   const u = Study.undo.pop(); if (!u) return toast("Nada para desfazer.");
-  const c = S.byId.get(u.id); c.srs = u.srs; S.logs[today()] = u.log; Study.done = Math.max(0, Study.done - 1);
+  const c = S.byId.get(u.id); c.srs = u.srs; S.logs[u.day || today()] = u.log; Study.view = null; $("#histBanner").style.display = "none"; Study.done = Math.max(0, Study.done - 1);
   await saveProg(c); await saveLog(); Study.cur = c; Study.shown = false;
   await renderInto($("#cardHost"), c.q, c.style, c.deck); bars("show"); toast("↩️ Desfeito");
 }
 $("#bShow").onclick = reveal;
 $$("#barAns [data-g]").forEach(b => b.onclick = () => answer(+b.dataset.g));
 $("#bUndo").onclick = undo;
+$("#bBack").onclick = histBack; $("#hBack").onclick = histBack; $("#hCont").onclick = histContinue; $("#hRedo").onclick = histRedo;
 $("#bEnd").onclick = () => { location.hash = "inicio"; };
 $("#bSusp").onclick = async () => { const c = Study.cur; if (!c) return; c.susp = true; await saveProg(c); toast("⏸️ Suspenso (reative em 🔎 Buscar → is:suspenso)"); showCard(); };
 $("#bMark").onclick = async () => { const c = Study.cur; if (!c) return; c.marked = !c.marked; await saveProg(c); $("#bMark").textContent = c.marked ? "🚩 Desmarcar" : "🚩 Marcar"; toast(c.marked ? "🚩 Marcado" : "Desmarcado"); };
 document.addEventListener("keydown", e => {
   if (location.hash !== "#estudar" || /input|textarea|select/i.test(e.target.tagName)) return;
+  if (e.key === "ArrowLeft") { e.preventDefault(); return histBack(); }
+  if (e.key === "ArrowRight") { e.preventDefault(); if (Study.view != null) { if (Study.view < Study.undo.length - 1) { Study.view++; histShow(); } else histContinue(); } return; }
+  if (Study.view != null) { if (e.code === "Space" || e.key === "Enter") { e.preventDefault(); histContinue(); } return; }
   if ((e.code === "Space" || e.key === "Enter") && !Study.shown) { e.preventDefault(); reveal(); }
   else if (Study.shown && ["1", "2", "3", "4"].includes(e.key)) answer(+e.key);
   else if (Study.shown && (e.code === "Space" || e.key === "Enter")) { e.preventDefault(); answer(3); }
@@ -900,13 +966,16 @@ function route() {
   $$(".view").forEach(s => s.classList.toggle("on", s.id === "v-" + view));
   $$("#nav a").forEach(a => a.classList.toggle("on", a.dataset.v === view));
   if (view === "inicio") refreshHome();
-  if (view === "estudar") { if (!Study.started) { startStudy(null); return; } showCard(); } else bars(null);
+  if (view === "estudar") { if (!Study.started) { const ss = S.session; startStudy(ss ? ss.prefix : null, ss && ss.ids ? ss.ids : null, true); return; } Study.view != null ? histShow() : (Study.cur && Study.shown ? histContinue() : showCard()); } else bars(null);
   if (view === "buscar") search();
   if (view === "prompt") updPrompt();
   if (view === "ajustes") fillSettings();
 }
 window.addEventListener("hashchange", route);
-document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") Cloud.flush(); });
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") Cloud.flush(); else Cloud.pull(); });
+window.addEventListener("online", () => { Cloud.flush(); Cloud.pull(); });
+window.addEventListener("pageshow", () => Cloud.pull());
+setInterval(() => { if (document.visibilityState === "visible") Cloud.pull(); }, 45000);
 
 (async function init() {
   try {
@@ -915,6 +984,7 @@ document.addEventListener("visibilitychange", () => { if (document.visibilitySta
     if (st && st.v) { S.settings = Object.assign({}, DEFAULTS, st.v); S.settingsMod = st.mod || 0; } else S.settings = Object.assign({}, DEFAULTS, st || {});
     S.settings.cols = Object.assign({ temi: true, cm: true }, S.settings.cols || {});
     S.logs = await DB.meta("logs", {});
+    S.session = await DB.meta("session", null);
     const old = await DB.get("meta", "log:" + today()); if (old && !S.logs[today()]) S.logs[today()] = old.v; // migração v1
     S.prog = new Map((await DB.all("prog")).map(p => [p.id, p]));
     S.user = new Map((await DB.all("user")).map(u => [u.id, u]));
