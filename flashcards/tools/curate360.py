@@ -3,7 +3,7 @@ Funde os 10 ângulos de cada conceito em 1 card completo + 1 card de aprofundame
 aplica correções manuais (cur_fix.py) e só inclui temas listados em DONE (lidos e revisados)."""
 import json, glob, re, os, sys
 OUT = sys.argv[1] if len(sys.argv) > 1 else "/home/claude/app2"
-from cur_fix import FIX, DROP, EXTRA, DONE
+from cur_fix import FIX, DROP, EXTRA, DONE, DONE_R3
 TAG = re.compile(r"^<div style='font-size:13px;opacity:.8'>(.*?)</div>")
 strip = lambda h: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h or "")).strip()
 ROWS = [("ENTENDER", "🧠 Mecanismo"), ("IDENTIFICAR", "🔎 Achado-chave"), ("VERIFICAR", "🧪 Verificar"), ("DECIDIR", "✅ Conduta"),
@@ -51,17 +51,30 @@ def curate(path):
         verso = f"<b>{fx.get('ans', g['ans'])}</b>" + tab + "".join(img)
         nota = fx.get("nota", "")
         cards.append({"subtema": g["sub"], "frente": clean_ans(fx.get("front", g["front"])), "verso": verso, "pegadinha": nota,
-                      "fonte": re.sub(r"\s*·\s*⚠️ Gerado por outra IA · não revisado", "", g["fonte"]) + " · ✅ revisado/curado por Claude", "tags": ["IA360C", "TEMI"]})
+                      "fonte": re.sub(r"\s*·\s*⚠️ Gerado por outra IA · não revisado", "", g["fonte"]) + " · ✅ revisado/curado por Claude", "tags": ["IA360C", "TEMI"], "_k": key})
         if g["deep"] and f"{key}d" not in DROP:
             q, a = g["deep"]; fd = FIX.get(f"{key}d", {})
             cards.append({"subtema": g["sub"], "frente": "🎯 " + fd.get("front", q), "verso": f"<b>{fd.get('ans', a)}</b>", "pegadinha": fd.get("nota", f"Conceito: {g['concept'] or ''}"),
-                          "fonte": cards[-1]["fonte"], "tags": ["IA360C", "TEMI"]})
+                          "fonte": cards[-1]["fonte"], "tags": ["IA360C", "TEMI"], "_k": f"{key}d"})
     deep_txt = " ".join(strip(c["verso"]) for c in cards)
     for j, e in enumerate(extras):
         num = re.findall(r"\d+[,.]?\d*", e["ans"])[:1]
         if num and num[0] in deep_txt or f"{tema}#x{j}" in DROP: continue
-        cards.append({"subtema": e["sub"], "frente": "🧮 " + e["front"], "verso": f"<b>{e['ans']}</b>", "pegadinha": "", "fonte": e["fonte"] + " · ✅ revisado", "tags": ["IA360C", "TEMI"]})
+        cards.append({"subtema": e["sub"], "frente": "🧮 " + e["front"], "verso": f"<b>{e['ans']}</b>", "pegadinha": "", "fonte": e["fonte"] + " · ✅ revisado", "tags": ["IA360C", "TEMI"], "_k": f"{tema}#x{j}"})
     for x in EXTRA.get(tema, []): cards.append(dict(x, fonte=x.get("fonte", "") + " · ✅ acrescentado na curadoria", tags=["IA360C", "TEMI"]))
+    return d, tema, cards
+
+def curate_flat(path):
+    """Blocos R3 (1 conceito por card): só revisão — remove duplicatas (DROP 'tema#i') e aplica FIX."""
+    d = json.load(open(path)); tema = d["baralho"].split("::")[-1]; cards = []
+    for i, c in enumerate(d["cards"]):
+        key = f"{tema}#{i}"
+        if key in DROP: continue
+        fx = FIX.get(key, {}); tag, front, ans, imgs = parts(c)
+        v = c["verso"][2:] if c["verso"].startswith("✅ ") else c["verso"]
+        v = clean_ans(re.sub(r'<div class="(imgcap|source-note)">.*?</div>', "", v))
+        cards.append({"subtema": c["subtema"], "frente": clean_ans(fx.get("front", front)), "verso": "✅ " + fx.get("ans", v), "pegadinha": fx.get("nota", ""),
+                      "fonte": re.sub(r"\s*·\s*⚠️ Gerado por outra IA · não revisado", "", c["fonte"]) + " · ✅ revisado por Claude", "tags": ["IA360C", "R3"], "_k": key})
     return d, tema, cards
 
 if __name__ == "__main__":
@@ -71,13 +84,27 @@ if __name__ == "__main__":
         num = re.search(r"ia360-temi-2028-(\d\d)-", path)
         if not num or num.group(1) not in DONE: continue
         d, tema, cards = curate(path)
+        _save = True
         media = sorted({m for c in cards for m in re.findall(r'data-m="([^"]+)"', c["verso"])})
         fn = os.path.basename(path).replace("ia360-", "ia360c-")
+        for c in cards: c.pop("_k", None)
         json.dump({"formato": "codice360x-v1", "baralho": f"IAs 360X ✅ curados::TEMI 2028::{tema}", "cards": cards, "midia": {m: f"data/media/{m}" for m in media}},
                   open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
         files.append({"colecao": "ia360c", "arquivo": f"data/decks/{fn}", "tema": "IAs 360X ✅ › " + tema, "cards": len(cards), "subtemas": sorted({c["subtema"] for c in cards})})
         removed.append(f"data/decks/{os.path.basename(path)}")
         print(f"{tema}: {len(d['cards'])} → {len(cards)}")
+    for path in sorted(glob.glob(f"{OUT}/data/decks/ia360-r3-*.json")):
+        num = re.search(r"ia360-r3-clnica-mdica-(\d\d)-", path)
+        if not num or num.group(1) not in DONE_R3: continue
+        d, tema, cards = curate_flat(path)
+        for c in cards: c.pop("_k", None)
+        media = sorted({m for c in cards for m in re.findall(r'data-m="([^"]+)"', c["verso"])})
+        fn = os.path.basename(path).replace("ia360-", "ia360c-")
+        json.dump({"formato": "codice360x-v1", "baralho": f"IAs 360X ✅ curados::R3 Clínica Médica::{tema}", "cards": cards, "midia": {m: f"data/media/{m}" for m in media}},
+                  open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
+        files.append({"colecao": "ia360c", "arquivo": f"data/decks/{fn}", "tema": "IAs 360X ✅ › R3 › " + tema, "cards": len(cards), "subtemas": sorted({c["subtema"] for c in cards})})
+        removed.append(f"data/decks/{os.path.basename(path)}")
+        print(f"R3 {tema}: {len(d['cards'])} → {len(cards)}")
     # tira da coleção bruta os temas já curados (evita duplicar)
     idx["decks"] = [x for x in idx["decks"] if x["arquivo"] not in removed and x.get("colecao") != "ia360c"] + files
     raw = sum(x["cards"] for x in idx["decks"] if x.get("colecao") == "ia360")

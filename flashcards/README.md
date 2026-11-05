@@ -1,7 +1,7 @@
 # 🛡️ CÓDICE 360X · Flashcards TEMI
 
 > App próprio de flashcards com **repetição espaçada** (estilo Anki) para a prova **TEMI 2028** (AMIB) e o **R3 de Clínica Médica**.
-> **v4 · 13.056 cards** — 🏛️ TEMI 2028 **1.625** (inclui 🫁 VM 500 + 🔊 POCUS 500) · 🩺 R3 Clínica Médica **334** · 📦 Outras IAs **3.864** · ✅ IAs 360X curados **100** (temas 01–05) · 🗃️ IAs 360X brutos **6.691** (não revisados, liga/desliga em ⚙️) · 62 ilustrações · 🖍️ destaques · sincronização entre aparelhos.
+> **v4 · 13.056 cards** — 🏛️ TEMI 2028 **1.625** (inclui 🫁 VM 500 + 🔊 POCUS 500) · 🩺 R3 Clínica Médica **334** · 📦 Outras IAs **3.864** · ✅ IAs 360X curados **519** (TEMI 01–15 + R3 Cardiologia) · 🗃️ IAs 360X brutos **5.404** (não revisados, liga/desliga em ⚙️) · 62 ilustrações · 🖍️ destaques · sincronização entre aparelhos.
 
 ☁️ **Versão com sincronização automática entre aparelhos:** página do Claude (privada, abre logado) — o progresso fica na sua conta.
 💾 **Esta versão (GitHub Pages):** mesma interface, salva só no aparelho (use Backup para levar o progresso).

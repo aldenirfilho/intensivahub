@@ -1,5 +1,5 @@
 """Correções manuais da curadoria IAs 360X (chave = 'tema#índice do conceito'; 'd' = card de aprofundamento; 'x' = extra)."""
-DONE = {"01", "02", "03", "04", "05"}
+DONE = {f"{i:02d}" for i in range(1, 16)}
 V1, V2, V3, V4, V5 = "01 Ventilação mecânica", "02 Assincronias", "03 Estratégias ventilatórias", "04 SDRA e oxigenação", "05 Via aérea e suporte"
 FIX = {
     f"{V1}#0": {"img": "vm_vcv_curvas.png", "nota": "Resistência = (Ppico − Pplatô)/fluxo em L/s. Gradiente pico-platô > 10 cmH₂O sugere problema de via aérea/tubo."},
@@ -25,3 +25,36 @@ FIX = {
 }
 DROP = {f"{V5}#x0"}   # duplicava o aprofundamento do corpo estranho
 EXTRA = {}
+
+C6, C7, C8, C9, C10 = "06 Choque e perfusão", "07 Hemodinâmica e vasoativos", "08 Sepse SSC 2026", "09 Antimicrobianos", "10 Infecções de UTI"
+P11, P12, P13, N14, A15 = "11 POCUS pulmonar", "12 POCUS cardíaco", "13 POCUS hemodinâmico", "14 Nefrologia crítica", "15 Equilíbrio ácido-base"
+FIX.update({
+    f"{C6}#2": {"img": "img_sepsis3.png"},
+    f"{C6}#3": {"img": "pc_rush.png"},
+    f"{C6}#7": {"nota": "ScvO₂ < 70% = oferta insuficiente para o consumo; ScvO₂ alta (> 80%) na sepse pode refletir extração prejudicada."},
+    f"{C6}#8": {"nota": "Gap PvCO₂ − PaCO₂ > 6 mmHg sugere fluxo (DC) insuficiente, mesmo com ScvO₂ normal."},
+    f"{C6}#9": {"nota": "ANDROMEDA-SHOCK (2019): ressuscitação guiada por TEC × lactato → tendência a menor mortalidade com TEC."},
+    f"{C7}#0": {"img": "img_vasopressores.png", "nota": "SSC 2026: PAM inicial 65 mmHg; em ≥ 65 anos, sugere faixa 60–65 mmHg."},
+    f"{C7}#4": {"img": "pc_vti.png", "nota": "EPP: medir VS/VTI em tempo real (60–90 s); ↑ ≥ 10–15% = responsivo. Não usar a PA isolada como desfecho."},
+    f"{C7}#5": {"nota": "VPP > 12–13% com VT ≥ 8 mL/kg, ritmo sinusal e sem esforço. Com VT 6: 'tidal volume challenge' (↑ VPP ≥ 3,5%)."},
+    f"{C8}#0": {"img": "img_sepsis3.png", "nota": "SSC 2026 (publicada em 23/03/2026, Crit Care Med): NEWS/MEWS/SIRS em vez de qSOFA isolado para triagem."},
+    f"{C8}#3": {"img": "img_hora1.png"},
+    f"{C9}#5": {"VERIFICAR": "Hemoculturas de controle até o clareamento e ecocardiograma (ETT; ETE conforme risco e achados)",
+                "DIFERENCIAR": "Estafilococo coagulase-negativo (frequente contaminante) — S. aureus no sangue quase nunca é contaminação"},
+    f"{C9}#4": {"nota": "Vancomicina em MRSA invasivo: AUC24/MIC 400–600 (assumindo MIC 1 mg/L), preferível ao vale isolado."},
+    f"{P11}#0": {"img": "pc_linhas_ab.png"}, f"{P11}#2": {"img": "pc_linhas_ab.png"}, f"{P11}#4": {"img": "pc_derrame.png"},
+    f"{P11}#6": {"img": "pc_blue.png"}, f"{P11}#7": {"img": "pc_lus_score.png"},
+    f"{P12}#0": {"img": "pc_janelas.png"}, f"{P12}#1": {"img": "pc_vd_dsign.png"},
+    f"{P12}#5": {"IDENTIFICAR": "TAPSE < 17 mm sugere disfunção sistólica do VD; medir corretamente e integrar outros índices (S', FAC, septo)"},
+    f"{P12}#7": {"img": "pc_tamponamento.png"},
+    f"{P13}#0": {"img": "pc_vti.png"}, f"{P13}#2": {"img": "pc_vexus.png"}, f"{P13}#6": {"img": "pc_vci.png"},
+    f"{P13}#7": {"img": "pc_rush.png"}, f"{P13}#8": {"img": "pc_tvp.png"}, f"{P13}#9": {"img": "pc_efast.png"},
+    f"{A15}#0": {"img": "img_acidobase.png"},
+})
+DROP |= {f"{C10}#x0", f"{C10}#x1", f"{C10}#8d"}
+
+DONE_R3 = {"31"}
+R31 = "31 Cardiologia clínica"
+DROP |= {f"{R31}#{i}" for i in (54, 64, 69, 149, 159)}   # perguntas duplicadas
+FIX.update({f"{R31}#16": {"nota": "Washout de 36 h IECA → ARNI: risco de angioedema pela inibição combinada de ECA e neprilisina."},
+            f"{R31}#60": {"nota": "Benefício também em BRE com QRS 130–149 ms (menor) e em não-BRE com QRS ≥ 150 ms (classe IIa)."}})

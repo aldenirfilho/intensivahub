@@ -24,13 +24,13 @@
    "id": "ia360c",
    "nome": "IAs 360X ✅ curados",
    "icone": "✅",
-   "cards": 100
+   "cards": 519
   },
   {
    "id": "ia360",
    "nome": "IAs 360X 5000+5000 (não revisado)",
    "icone": "🗃️",
-   "cards": 6691
+   "cards": 5404
   }
  ],
  "decks": [
@@ -1731,59 +1731,6 @@
   },
   {
    "colecao": "ia360",
-   "arquivo": "data/decks/ia360-r3-clnica-mdica-31-cardiologia-clnica.json",
-   "tema": "IAs 360X › R3 Clínica Médica › 31 Cardiologia clínica",
-   "cards": 225,
-   "subtemas": [
-    "Aneurisma de aorta",
-    "Angina microvascular",
-    "Angina vasoespástica",
-    "Antagonista mineralocorticoide na ICFEr",
-    "Avental branco e hipertensão mascarada",
-    "Betabloqueadores na ICFEr",
-    "CDI na prevenção primária",
-    "Cardiomiopatia hipertrófica obstrutiva",
-    "Deficiência de ferro na IC",
-    "Dissecção de aorta",
-    "Diurético e descongestão",
-    "Doença coronariana crônica",
-    "Escolha de anticoagulante na FA",
-    "Estatinas e prevenção",
-    "Estenose aórtica baixo fluxo",
-    "Estenose aórtica clínica",
-    "Estenose mitral reumática",
-    "Estágios da insuficiência cardíaca",
-    "FA e prevenção de AVC",
-    "Fenótipos de insuficiência cardíaca",
-    "Hiperaldosteronismo primário",
-    "Hipercolesterolemia familiar",
-    "Hipertensão resistente",
-    "Hipertensão secundária",
-    "Hipotensão ortostática",
-    "IC com fração preservada",
-    "Inibidores SGLT2 e IC",
-    "Insuficiência aórtica crônica",
-    "Insuficiência mitral primária",
-    "Insuficiência mitral secundária",
-    "Insuficiência tricúspide",
-    "Medida da pressão arterial",
-    "Miocardite",
-    "Peptídeos natriuréticos",
-    "Pericardite aguda",
-    "Pericardite constritiva",
-    "Prótese valvar mecânica",
-    "Quatro pilares da ICFEr",
-    "Risco na cardiomiopatia hipertrófica",
-    "Sacubitril valsartana",
-    "Suspeita de amiloidose cardíaca",
-    "Síncope clínica",
-    "Síndrome taquicárdica postural",
-    "Tamponamento subagudo",
-    "Terapia de ressincronização"
-   ]
-  },
-  {
-   "colecao": "ia360",
    "arquivo": "data/decks/ia360-r3-clnica-mdica-32-pneumologia-clnica.json",
    "tema": "IAs 360X › R3 Clínica Médica › 32 Pneumologia clínica",
    "cards": 175,
@@ -2241,132 +2188,6 @@
     "Artrites inflamatórias",
     "Conectivopatias",
     "Espondiloartrites"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-06-choque-e-perfuso.json",
-   "tema": "IAs 360X › TEMI 2028 › 06 Choque e perfusão",
-   "cards": 105,
-   "subtemas": [
-    "Fenótipos",
-    "Perfusão"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-07-hemodinmica-e-vasoativos.json",
-   "tema": "IAs 360X › TEMI 2028 › 07 Hemodinâmica e vasoativos",
-   "cards": 108,
-   "subtemas": [
-    "Cardíaco",
-    "Fluidos",
-    "Inotrópicos",
-    "Vasopressores"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-08-sepse-ssc-2026.json",
-   "tema": "IAs 360X › TEMI 2028 › 08 Sepse SSC 2026",
-   "cards": 111,
-   "subtemas": [
-    "Antibióticos",
-    "Controle de foco",
-    "Fluidos",
-    "Reavaliação",
-    "Reconhecimento",
-    "Suporte",
-    "Vasopressores"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-09-antimicrobianos.json",
-   "tema": "IAs 360X › TEMI 2028 › 09 Antimicrobianos",
-   "cards": 108,
-   "subtemas": [
-    "Antifúngicos",
-    "Antivirais",
-    "PK/PD",
-    "Patógenos",
-    "Princípios"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-10-infeces-de-uti.json",
-   "tema": "IAs 360X › TEMI 2028 › 10 Infecções de UTI",
-   "cards": 103,
-   "subtemas": [
-    "Dispositivos",
-    "Focos"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-11-pocus-pulmonar.json",
-   "tema": "IAs 360X › TEMI 2028 › 11 POCUS pulmonar",
-   "cards": 105,
-   "subtemas": [
-    "Artefatos",
-    "Congestão",
-    "Consolidação",
-    "Derrame",
-    "Pneumotórax",
-    "Protocolos",
-    "Segurança"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-12-pocus-cardaco.json",
-   "tema": "IAs 360X › TEMI 2028 › 12 POCUS cardíaco",
-   "cards": 102,
-   "subtemas": [
-    "Contratilidade",
-    "Janelas",
-    "Pericárdio",
-    "VD",
-    "Valvas"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-13-pocus-hemodinmico.json",
-   "tema": "IAs 360X › TEMI 2028 › 13 POCUS hemodinâmico",
-   "cards": 110,
-   "subtemas": [
-    "Congestão",
-    "RUSH",
-    "VTI",
-    "Vascular",
-    "Volume"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-14-nefrologia-crtica.json",
-   "tema": "IAs 360X › TEMI 2028 › 14 Nefrologia crítica",
-   "cards": 103,
-   "subtemas": [
-    "Critérios",
-    "DRC",
-    "Diagnóstico",
-    "Obstrução",
-    "TRS"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-15-equilbrio-cido-base.json",
-   "tema": "IAs 360X › TEMI 2028 › 15 Equilíbrio ácido-base",
-   "cards": 107,
-   "subtemas": [
-    "Cálculos",
-    "Lactato",
-    "Metabolismo",
-    "Passos"
    ]
   },
   {
@@ -2829,6 +2650,185 @@
     "Oxigênio",
     "Pré-oxigenação",
     "VNI"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-06-choque-e-perfuso.json",
+   "tema": "IAs 360X ✅ › 06 Choque e perfusão",
+   "cards": 20,
+   "subtemas": [
+    "Fenótipos",
+    "Perfusão"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-07-hemodinmica-e-vasoativos.json",
+   "tema": "IAs 360X ✅ › 07 Hemodinâmica e vasoativos",
+   "cards": 20,
+   "subtemas": [
+    "Cardíaco",
+    "Fluidos",
+    "Inotrópicos",
+    "Vasopressores"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-08-sepse-ssc-2026.json",
+   "tema": "IAs 360X ✅ › 08 Sepse SSC 2026",
+   "cards": 19,
+   "subtemas": [
+    "Antibióticos",
+    "Controle de foco",
+    "Fluidos",
+    "Reavaliação",
+    "Reconhecimento",
+    "Suporte",
+    "Vasopressores"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-09-antimicrobianos.json",
+   "tema": "IAs 360X ✅ › 09 Antimicrobianos",
+   "cards": 20,
+   "subtemas": [
+    "Antifúngicos",
+    "Antivirais",
+    "PK/PD",
+    "Patógenos",
+    "Princípios"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-10-infeces-de-uti.json",
+   "tema": "IAs 360X ✅ › 10 Infecções de UTI",
+   "cards": 20,
+   "subtemas": [
+    "Dispositivos",
+    "Focos"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-11-pocus-pulmonar.json",
+   "tema": "IAs 360X ✅ › 11 POCUS pulmonar",
+   "cards": 20,
+   "subtemas": [
+    "Artefatos",
+    "Congestão",
+    "Consolidação",
+    "Derrame",
+    "Pneumotórax",
+    "Protocolos",
+    "Segurança"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-12-pocus-cardaco.json",
+   "tema": "IAs 360X ✅ › 12 POCUS cardíaco",
+   "cards": 20,
+   "subtemas": [
+    "Contratilidade",
+    "Janelas",
+    "Pericárdio",
+    "VD",
+    "Valvas"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-13-pocus-hemodinmico.json",
+   "tema": "IAs 360X ✅ › 13 POCUS hemodinâmico",
+   "cards": 20,
+   "subtemas": [
+    "Congestão",
+    "RUSH",
+    "VTI",
+    "Vascular",
+    "Volume"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-14-nefrologia-crtica.json",
+   "tema": "IAs 360X ✅ › 14 Nefrologia crítica",
+   "cards": 20,
+   "subtemas": [
+    "Critérios",
+    "DRC",
+    "Diagnóstico",
+    "Obstrução",
+    "TRS"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-15-equilbrio-cido-base.json",
+   "tema": "IAs 360X ✅ › 15 Equilíbrio ácido-base",
+   "cards": 20,
+   "subtemas": [
+    "Cálculos",
+    "Lactato",
+    "Metabolismo",
+    "Passos"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-r3-clnica-mdica-31-cardiologia-clnica.json",
+   "tema": "IAs 360X ✅ › R3 › 31 Cardiologia clínica",
+   "cards": 220,
+   "subtemas": [
+    "Aneurisma de aorta",
+    "Angina microvascular",
+    "Angina vasoespástica",
+    "Antagonista mineralocorticoide na ICFEr",
+    "Avental branco e hipertensão mascarada",
+    "Betabloqueadores na ICFEr",
+    "CDI na prevenção primária",
+    "Cardiomiopatia hipertrófica obstrutiva",
+    "Deficiência de ferro na IC",
+    "Dissecção de aorta",
+    "Diurético e descongestão",
+    "Doença coronariana crônica",
+    "Escolha de anticoagulante na FA",
+    "Estatinas e prevenção",
+    "Estenose aórtica baixo fluxo",
+    "Estenose aórtica clínica",
+    "Estenose mitral reumática",
+    "Estágios da insuficiência cardíaca",
+    "FA e prevenção de AVC",
+    "Fenótipos de insuficiência cardíaca",
+    "Hiperaldosteronismo primário",
+    "Hipercolesterolemia familiar",
+    "Hipertensão resistente",
+    "Hipertensão secundária",
+    "Hipotensão ortostática",
+    "IC com fração preservada",
+    "Inibidores SGLT2 e IC",
+    "Insuficiência aórtica crônica",
+    "Insuficiência mitral primária",
+    "Insuficiência mitral secundária",
+    "Insuficiência tricúspide",
+    "Medida da pressão arterial",
+    "Miocardite",
+    "Peptídeos natriuréticos",
+    "Pericardite aguda",
+    "Pericardite constritiva",
+    "Prótese valvar mecânica",
+    "Quatro pilares da ICFEr",
+    "Risco na cardiomiopatia hipertrófica",
+    "Sacubitril valsartana",
+    "Suspeita de amiloidose cardíaca",
+    "Síncope clínica",
+    "Síndrome taquicárdica postural",
+    "Tamponamento subagudo",
+    "Terapia de ressincronização"
    ]
   }
  ]
