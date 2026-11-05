@@ -99,7 +99,7 @@ R3 = {
  ("Meta pressórica na maioria dos adultos hipertensos: < {{c1::130/80 mmHg}}.", "", "AHA/ACC 2025; SBC"),
  ("LDL no muito alto risco: < {{c1::55 mg/dL}} e redução ≥ {{c2::50%}}.", "", "ESC/EAS 2019; SBC"),
  ("IC aguda improvável com BNP < {{c1::100 pg/mL}} ou NT-proBNP < {{c2::300 pg/mL}}.", "Obesidade reduz BNP.", "ESC 2021"),
- ("Fenótipos de IC: reduzida ≤ {{c1::40%}}; levemente reduzida {{c2::41–49%}}; preservada ≥ 50%.", "", "Definição universal de IC"),
+ ("ESC 2026: IC com FE reduzida passou a ser FE < {{c1::50%}} — a categoria levemente reduzida (41–49%) foi {{c2::eliminada}}.", "AHA/ACC/HFSA 2022 ainda usa ≤ 40% / 41–49% / ≥ 50%. Leia qual diretriz a questão cita.", "ESC HF 2026 (Køber/Adamo, Eur Heart J)"),
  ("CDI na prevenção primária: FE ≤ {{c1::35%}} apesar de terapia otimizada; TRC com BRE e QRS ≥ {{c2::150 ms}}.", "", "ESC/AHA"),
  ("DPOC (GOLD): VEF1/CVF pós-broncodilatador < {{c1::0,70}}.", "", "GOLD 2026"),
  ("Reversibilidade na asma (GINA): VEF1 ↑ ≥ {{c1::12%}} e ≥ {{c2::200 mL}}.", "", "GINA"),

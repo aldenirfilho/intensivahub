@@ -4,6 +4,10 @@ aplica correções manuais (cur_fix.py) e só inclui temas listados em DONE (lid
 import json, glob, re, os, sys
 OUT = sys.argv[1] if len(sys.argv) > 1 else "/home/claude/app2"
 from cur_fix import FIX, DROP, EXTRA, DONE, DONE_R3
+try:
+    from cur_fix import DONE_NAMED
+except ImportError:
+    DONE_NAMED = False
 TAG = re.compile(r"^<div style='font-size:13px;opacity:.8'>(.*?)</div>")
 strip = lambda h: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h or "")).strip()
 ROWS = [("ENTENDER", "🧠 Mecanismo"), ("IDENTIFICAR", "🔎 Achado-chave"), ("VERIFICAR", "🧪 Verificar"), ("DECIDIR", "✅ Conduta"),
@@ -64,11 +68,12 @@ def curate(path):
     for x in EXTRA.get(tema, []): cards.append(dict(x, fonte=x.get("fonte", "") + " · ✅ acrescentado na curadoria", tags=["IA360C", "TEMI"]))
     return d, tema, cards
 
-def curate_flat(path):
+def curate_flat(path, pref=None):
     """Blocos R3 (1 conceito por card): só revisão — remove duplicatas (DROP 'tema#i') e aplica FIX."""
     d = json.load(open(path)); tema = d["baralho"].split("::")[-1]; cards = []; seen = set()
+    kt = pref or tema
     for i, c in enumerate(d["cards"]):
-        key = f"{tema}#{i}"
+        key = f"{kt}#{i}"
         if key in DROP: continue
         fx = FIX.get(key, {}); tag, front, ans, imgs = parts(c)
         v = c["verso"][2:] if c["verso"].startswith("✅ ") else c["verso"]
@@ -110,6 +115,23 @@ if __name__ == "__main__":
         files.append({"colecao": "ia360c", "arquivo": f"data/decks/{fn}", "tema": "IAs 360X ✅ › R3 › " + tema, "cards": len(cards), "subtemas": sorted({c["subtema"] for c in cards})})
         removed.append(f"data/decks/{os.path.basename(path)}")
         print(f"R3 {tema}: {len(d['cards'])} → {len(cards)}")
+    if DONE_NAMED:
+        for path in sorted(glob.glob(f"{OUT}/data/decks/ia360-*.json")):
+            b = os.path.basename(path)
+            if re.search(r"ia360-(temi-2028|r3-clnica-mdica)-\d\d-", b): continue
+            root = "TEMI 2028" if b.startswith("ia360-temi") else "R3 Clínica Médica"
+            tema0 = json.load(open(path))["baralho"].split("::")[-1]
+            d, tema, cards = curate_flat(path, ("TEMI/" if root.startswith("TEMI") else "R3/") + tema0)
+            for c in cards:
+                c.pop("_k", None)
+                if root.startswith("TEMI"): c["tags"] = ["IA360C", "TEMI"]
+            media = sorted({m for c in cards for m in re.findall(r'data-m="([^"]+)"', c["verso"])})
+            fn = b.replace("ia360-", "ia360c-")
+            json.dump({"formato": "codice360x-v1", "baralho": f"IAs 360X ✅ curados::{root}::{tema}", "cards": cards, "midia": {m: f"data/media/{m}" for m in media}},
+                      open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
+            files.append({"colecao": "ia360c", "arquivo": f"data/decks/{fn}", "tema": f"IAs 360X ✅ › {root.split()[0]} › {tema}", "cards": len(cards), "subtemas": sorted({c["subtema"] for c in cards})})
+            removed.append(f"data/decks/{b}")
+            print(f"{root} {tema}: {len(d['cards'])} → {len(cards)}")
     # tira da coleção bruta os temas já curados (evita duplicar)
     idx["decks"] = [x for x in idx["decks"] if x["arquivo"] not in removed and x.get("colecao") != "ia360c"] + files
     raw = sum(x["cards"] for x in idx["decks"] if x.get("colecao") == "ia360")
@@ -118,5 +140,6 @@ if __name__ == "__main__":
     idx["colecoes"] = [c for c in idx["colecoes"] if c["id"] != "ia360c"]
     pos = next(i for i, c in enumerate(idx["colecoes"]) if c["id"] == "ia360")
     idx["colecoes"].insert(pos, {"id": "ia360c", "nome": "IAs 360X ✅ curados", "icone": "✅", "cards": sum(f["cards"] for f in files)})
+    if raw == 0: idx["colecoes"] = [c for c in idx["colecoes"] if c["id"] != "ia360"]   # coleção bruta zerada
     json.dump(idx, open(f"{OUT}/data/index.json", "w"), ensure_ascii=False, indent=1)
     print("curados", sum(f["cards"] for f in files), "| brutos restantes", raw)

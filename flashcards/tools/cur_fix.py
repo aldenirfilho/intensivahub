@@ -97,3 +97,13 @@ FIX.update({
     f"{R35}#86": {"nota": "Consenso hiperglicêmico 2024 (ADA/EASD/JBDS/AACE/DTS): BHB ≥ 3,0 mmol/L ou cetonúria ≥ 2+."},
     f"{R36}#57": {"nota": "ICA/ADQI 2024: avaliar volemia; se indicado, reposição (albumina ou cristaloide) e reavaliar em 24 h — o antigo 'albumina 1 g/kg por 48 h' saiu."},
 })
+
+# ── Lote final: R3 37–40 + todos os blocos nomeados (zera a coleção bruta) ──
+DONE_R3 |= {"37", "38", "39", "40"}
+DONE_NAMED = True   # cura todos os ia360-*.json sem número (TEMI e R3) com chave "TEMI/<tema>" ou "R3/<tema>"
+FIX.update({
+    "TEMI/Hematologia e oncologia#148": {"nota": "Exceção atual: AABB (Ann Intern Med, ago/2025) sugere estratégia liberal (Hb < 10 g/dL) no IAM hospitalizado."},
+    "TEMI/Cardiologia R3#9": {"nota": "ESC 2026 (Køber/Adamo, ago/2026) eliminou a IC levemente reduzida: FE < 50% = reduzida; ≥ 50% = preservada."},
+    "TEMI/Nefrologia e metabolismo renal#219": {"nota": "BICARICU-2 (JAMA 2025): diálise até o dia 28 em 35% × 50% — bicarbonato pode adiar/evitar TRS, sem mudar mortalidade."},
+    "TEMI/Pneumologia R3#36": {"nota": "GOLD 2026 rebaixou o limiar do grupo E para ≥ 1 exacerbação moderada ou grave no último ano (antes: ≥ 2 moderadas ou ≥ 1 internação)."},
+})
