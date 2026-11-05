@@ -21,10 +21,16 @@
    "cards": 3864
   },
   {
+   "id": "ia360c",
+   "nome": "IAs 360X ✅ curados",
+   "icone": "✅",
+   "cards": 100
+  },
+  {
    "id": "ia360",
    "nome": "IAs 360X 5000+5000 (não revisado)",
    "icone": "🗃️",
-   "cards": 7233
+   "cards": 6691
   }
  ],
  "decks": [
@@ -2239,69 +2245,6 @@
   },
   {
    "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-01-ventilao-mecnica.json",
-   "tema": "IAs 360X › TEMI 2028 › 01 Ventilação mecânica",
-   "cards": 111,
-   "subtemas": [
-    "Mecânica"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-02-assincronias.json",
-   "tema": "IAs 360X › TEMI 2028 › 02 Assincronias",
-   "cards": 101,
-   "subtemas": [
-    "Ciclagem",
-    "Drive",
-    "Fluxo",
-    "Ritmo",
-    "Trigger"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-03-estratgias-ventilatrias.json",
-   "tema": "IAs 360X › TEMI 2028 › 03 Estratégias ventilatórias",
-   "cards": 109,
-   "subtemas": [
-    "Desmame",
-    "Modos",
-    "Obstrução",
-    "Proteção"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-04-sdra-e-oxigenao.json",
-   "tema": "IAs 360X › TEMI 2028 › 04 SDRA e oxigenação",
-   "cards": 113,
-   "subtemas": [
-    "Definição",
-    "Fisiologia",
-    "Gravidade",
-    "Monitorização",
-    "Prona",
-    "Recrutamento"
-   ]
-  },
-  {
-   "colecao": "ia360",
-   "arquivo": "data/decks/ia360-temi-2028-05-via-area-e-suporte.json",
-   "tema": "IAs 360X › TEMI 2028 › 05 Via aérea e suporte",
-   "cards": 108,
-   "subtemas": [
-    "Avaliação",
-    "CNAF",
-    "Confirmação",
-    "Obstrução",
-    "Oxigênio",
-    "Pré-oxigenação",
-    "VNI"
-   ]
-  },
-  {
-   "colecao": "ia360",
    "arquivo": "data/decks/ia360-temi-2028-06-choque-e-perfuso.json",
    "tema": "IAs 360X › TEMI 2028 › 06 Choque e perfusão",
    "cards": 105,
@@ -2823,6 +2766,69 @@
     "Salicilatos",
     "Toxíndromes",
     "Álcoois tóxicos"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-01-ventilao-mecnica.json",
+   "tema": "IAs 360X ✅ › 01 Ventilação mecânica",
+   "cards": 20,
+   "subtemas": [
+    "Mecânica"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-02-assincronias.json",
+   "tema": "IAs 360X ✅ › 02 Assincronias",
+   "cards": 20,
+   "subtemas": [
+    "Ciclagem",
+    "Drive",
+    "Fluxo",
+    "Ritmo",
+    "Trigger"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-03-estratgias-ventilatrias.json",
+   "tema": "IAs 360X ✅ › 03 Estratégias ventilatórias",
+   "cards": 20,
+   "subtemas": [
+    "Desmame",
+    "Modos",
+    "Obstrução",
+    "Proteção"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-04-sdra-e-oxigenao.json",
+   "tema": "IAs 360X ✅ › 04 SDRA e oxigenação",
+   "cards": 20,
+   "subtemas": [
+    "Definição",
+    "Fisiologia",
+    "Gravidade",
+    "Monitorização",
+    "Prona",
+    "Recrutamento"
+   ]
+  },
+  {
+   "colecao": "ia360c",
+   "arquivo": "data/decks/ia360c-temi-2028-05-via-area-e-suporte.json",
+   "tema": "IAs 360X ✅ › 05 Via aérea e suporte",
+   "cards": 20,
+   "subtemas": [
+    "Avaliação",
+    "CNAF",
+    "Confirmação",
+    "Obstrução",
+    "Oxigênio",
+    "Pré-oxigenação",
+    "VNI"
    ]
   }
  ]
