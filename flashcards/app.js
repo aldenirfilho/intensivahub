@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "3.1.0";
+const APP_VERSION = "3.2.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -87,6 +87,7 @@ const DEFAULTS = { newPerDay: 20, revPerDay: 300, steps: [1, 10], relearn: [10],
 const S = { cards: [], byId: new Map(), official: [], user: new Map(), prog: new Map(), styles: new Map(), mediaURL: new Map(), mediaPath: {}, settings: null, settingsMod: 0, logs: {}, index: null };
 const emptyLog = () => ({ nNew: 0, nRev: 0, nAns: 0, nOk: 0, ms: 0 });
 const L0 = () => (S.logs[today()] = S.logs[today()] || emptyLog());
+const limNew = L => S.settings.newPerDay + (L.xNew || 0), limRev = L => S.settings.revPerDay + (L.xRev || 0);
 
 /* ---------------- Repetição espaçada (SM-2 estilo Anki) ---------------- */
 function newSRS() { return { st: "new", due: 0, ivl: 0, ease: S.settings?.startEase || 2.5, reps: 0, lapses: 0, step: 0 }; }
@@ -688,7 +689,7 @@ function counts(prefix) {
     else if (s.st === "learn" || s.st === "relearn") { if (s.due <= now + S.settings.learnAhead * MIN) l++; }
     else if (s.due <= eod) r++;
   }
-  return { n: Math.min(n, Math.max(0, S.settings.newPerDay - L.nNew)), l, r: Math.min(r, Math.max(0, S.settings.revPerDay - L.nRev)), nAll: n };
+  return { n: Math.min(n, Math.max(0, limNew(L) - L.nNew)), l, r: Math.min(r, Math.max(0, limRev(L) - L.nRev)), nAll: n, rAll: r };
 }
 const Study = { prefix: null, ids: null, cur: null, shown: false, undo: [], t0: 0, total: 0, done: 0, seen: new Set() };
 function nextCard() {
@@ -701,8 +702,8 @@ function nextCard() {
   }
   const learnDue = pool.filter(c => (c.srs.st === "learn" || c.srs.st === "relearn") && c.srs.due <= now).sort((a, b) => a.srs.due - b.srs.due);
   if (learnDue.length) return learnDue[0];
-  const rev = st.revPerDay - L.nRev > 0 ? pool.filter(c => c.srs.st === "review" && c.srs.due <= eod).sort((a, b) => a.srs.due - b.srs.due) : [];
-  const nw = st.newPerDay - L.nNew > 0 ? pool.filter(c => c.srs.st === "new").sort((a, b) => a.ord - b.ord) : [];
+  const rev = limRev(L) - L.nRev > 0 ? pool.filter(c => c.srs.st === "review" && c.srs.due <= eod).sort((a, b) => a.srs.due - b.srs.due) : [];
+  const nw = limNew(L) - L.nNew > 0 ? pool.filter(c => c.srs.st === "new").sort((a, b) => a.ord - b.ord) : [];
   if (rev.length && (!nw.length || (L.nRev % 5 !== 4))) return rev[0];
   if (nw.length) return nw[0];
   if (rev.length) return rev[0];
@@ -821,8 +822,31 @@ async function showCard() {
   if (!c) {
     $("#cardHost").style.display = "none"; $("#studyTools").style.display = "none"; $("#studyEmpty").style.display = "block";
     const nxt = S.cards.filter(x => !x.susp && x.srs.st !== "new" && inDeck(x, Study.prefix)).map(x => x.srs.due).sort((a, b) => a - b)[0];
+    const ca = counts(Study.prefix), ahead = S.cards.filter(x => !x.susp && x.srs.st === "review" && x.srs.due > endOfDay() && inDeck(x, Study.prefix)).length;
+    const metaOk = !Study.ids && (ca.nAll > 0 || ca.rAll > 0);
     $("#studyEmpty").innerHTML = `<div style="font-size:46px">🏆</div><h2>Missão cumprida!</h2><p>Hoje: <b>${L.nAns}</b> respostas · <b>${L.nAns ? Math.round(100 * L.nOk / L.nAns) : 0}%</b> de acerto.</p>
-      ${nxt ? `<p style="color:var(--mut)">Próximo card vence em <b>${fmtIvl(Math.max(MIN, nxt - Date.now()))}</b>.</p>` : ""}<a class="btn gold" href="#inicio">🏠 Voltar ao início</a>`;
+      ${nxt ? `<p style="color:var(--mut)">Próximo card vence em <b>${fmtIvl(Math.max(MIN, nxt - Date.now()))}</b>.</p>` : ""}
+      <div class="metaBox">
+        <h3>🎯 Meta diária</h3>
+        <p class="metaNow">🆕 Novos hoje: <b>${L.nNew}</b> / ${limNew(L)} · 🔁 Revisões hoje: <b>${L.nRev}</b> / ${limRev(L)}</p>
+        <p class="metaNow">📦 Neste baralho ainda há <b>${ca.nAll}</b> novos e <b>${ca.rAll}</b> revisões vencidas à espera${ahead ? ` · <b>${ahead}</b> revisões futuras` : ""}.</p>
+        ${metaOk ? `<div class="metaRow"><span>⏩ Continuar hoje:</span>
+          <button class="btn" data-x="10">+10 novos</button><button class="btn" data-x="20">+20 novos</button><button class="btn" data-x="50">+50 novos</button>
+          ${ca.rAll ? `<button class="btn" data-xr="100">+100 revisões</button>` : ""}</div>
+        <div class="metaRow"><label>✏️ Quantos a mais hoje?</label><input type="number" id="mxNew" min="1" max="999" value="25" style="width:90px"><button class="btn gold" id="mxGo">▶️ Continuar estudando</button></div>` : `<p class="metaNow">✅ Nada pendente aqui além da meta.</p>`}
+        ${ahead ? `<div class="metaRow"><button class="btn" id="mAhead">📖 Adiantar as próximas revisões (até 50)</button></div>` : ""}
+        <div class="metaRow"><label>💾 Meta fixa (todos os dias):</label>
+          <span>🆕 <input type="number" id="mNew" min="0" max="999" value="${S.settings.newPerDay}" style="width:80px"></span>
+          <span>🔁 <input type="number" id="mRev" min="0" max="9999" value="${S.settings.revPerDay}" style="width:90px"></span>
+          <button class="btn" id="mSave">Salvar meta</button></div>
+      </div>
+      <a class="btn gold" href="#inicio">🏠 Voltar ao início</a>`;
+    const ext = async (xn, xr) => { const L1 = L0(); L1.xNew = (L1.xNew || 0) + xn; L1.xRev = (L1.xRev || 0) + xr; await saveLog(); const c2 = counts(Study.prefix); Study.total = Study.done + c2.n + c2.l + c2.r; toast(`⏩ Meta de hoje ampliada${xn ? ` +${xn} novos` : ""}${xr ? ` +${xr} revisões` : ""}.`); showCard(); };
+    $("#studyEmpty").querySelectorAll("[data-x]").forEach(b => b.onclick = () => ext(+b.dataset.x, 0));
+    $("#studyEmpty").querySelectorAll("[data-xr]").forEach(b => b.onclick = () => ext(0, +b.dataset.xr));
+    const go = $("#mxGo"); if (go) go.onclick = () => { const v = Math.max(1, Math.min(999, +$("#mxNew").value || 0)); ext(v, ca.rAll ? v : 0); };
+    const ah = $("#mAhead"); if (ah) ah.onclick = () => { const ids = S.cards.filter(x => !x.susp && x.srs.st === "review" && x.srs.due > endOfDay() && inDeck(x, Study.prefix)).sort((a, b) => a.srs.due - b.srs.due).slice(0, 50).map(x => x.id); startStudy(Study.prefix, ids); };
+    $("#mSave").onclick = async () => { S.settings.newPerDay = Math.max(0, +$("#mNew").value || 0); S.settings.revPerDay = Math.max(0, +$("#mRev").value || 0); await saveSettings(); toast("💾 Meta diária salva."); const c2 = counts(Study.prefix); Study.total = Study.done + c2.n + c2.l + c2.r; showCard(); };
     bars(null); return;
   }
   $("#cardHost").style.display = "block"; $("#studyTools").style.display = "flex"; $("#studyEmpty").style.display = "none";
