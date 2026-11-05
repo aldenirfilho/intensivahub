@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "3.0.0";
+const APP_VERSION = "3.1.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -133,8 +133,8 @@ const NP = 32, NU = 48;
 const shardP = id => "p" + String(hnum(id) % NP).padStart(2, "0");
 const shardU = id => "u" + String(hnum(id) % NU).padStart(2, "0");
 const ST = { new: "n", learn: "l", review: "r", relearn: "rl" }, STR = { n: "new", l: "learn", r: "review", rl: "relearn" };
-const encP = p => [ST[p.s.st] || "n", Math.round(p.s.due), p.s.ivl, Math.round(p.s.ease * 100) / 100, p.s.reps, p.s.lapses, p.s.step, p.susp ? 1 : 0, p.mk ? 1 : 0, p.mod];
-const decP = (id, a) => ({ id, s: { st: STR[a[0]] || "new", due: a[1], ivl: a[2], ease: a[3], reps: a[4], lapses: a[5], step: a[6] }, susp: !!a[7], mk: !!a[8], mod: a[9] });
+const encP = p => [ST[p.s.st] || "n", Math.round(p.s.due), p.s.ivl, Math.round(p.s.ease * 100) / 100, p.s.reps, p.s.lapses, p.s.step, p.susp ? 1 : 0, p.mk ? 1 : 0, p.mod, p.hl && p.hl.length ? p.hl : 0];
+const decP = (id, a) => ({ id, s: { st: STR[a[0]] || "new", due: a[1], ivl: a[2], ease: a[3], reps: a[4], lapses: a[5], step: a[6] }, susp: !!a[7], mk: !!a[8], mod: a[9], hl: Array.isArray(a[10]) ? a[10] : [] });
 const Cloud = {
   db: null, col: null, uid: null, assets: null, dl: null, on: false, busy: false, timer: null, lastSync: 0, err: "", mediaMap: {},
   dirty: { p: new Set(), u: new Set(), st: false, media: false },
@@ -265,7 +265,7 @@ const Cloud = {
 function progOf(id) { return S.prog.get(id); }
 function cardFrom(base) {
   const p = progOf(base.id);
-  return Object.assign(base, { srs: p ? p.s : newSRS(), susp: p ? p.susp : false, marked: p ? p.mk : false });
+  return Object.assign(base, { srs: p ? p.s : newSRS(), susp: p ? p.susp : false, marked: p ? p.mk : false, hl: p && p.hl ? p.hl : [] });
 }
 function rebuildCards() {
   const cols = S.settings.cols || {};
@@ -277,7 +277,7 @@ function rebuildCards() {
   S.cards = list; S.byId = new Map(list.map(c => [c.id, c]));
 }
 async function saveProg(c) {
-  const p = { id: c.id, s: c.srs, susp: !!c.susp, mk: !!c.marked, mod: Date.now() };
+  const p = { id: c.id, s: c.srs, susp: !!c.susp, mk: !!c.marked, hl: c.hl || [], mod: Date.now() };
   S.prog.set(c.id, p); await DB.put("prog", p); Cloud.markP(c.id);
 }
 async function saveLog() { await DB.setMeta("logs", S.logs); Cloud.markSt(); }
@@ -426,12 +426,106 @@ async function renderInto(host, html, styleId, deck) {
   const root = host.shadowRoot || host.attachShadow({ mode: "open" });
   const css = S.styles.get(styleId) || CODICE_CSS;
   const extra = styleId === "codice" ? "" : `.card{border-radius:14px;padding:14px 16px;min-height:200px;overflow-x:auto} img{max-width:100%;height:auto} table{max-width:100%}`;
-  root.innerHTML = `<style>:host{display:block}${extra}${css}</style><div class="card nightMode night_mode" style="--acc:${accentFor(deck)}">${sanitize(html)}</div>`;
+  root.innerHTML = `<style>:host{display:block}${extra}${css}${HL_CSS}</style><div class="card nightMode night_mode" style="--acc:${accentFor(deck)}">${sanitize(html)}</div>`;
   for (const img of root.querySelectorAll("[data-m]")) {
     const u = await mediaURL(img.getAttribute("data-m"));
     if (u) img.setAttribute("src", u); else img.setAttribute("alt", "🖼️ imagem ausente: " + img.getAttribute("data-m"));
   }
+  if (host.id === "cardHost") { HL.apply(root, HL.card()); HL.count(); }
 }
+
+
+/* ---------------- 🖍️ Destaques (amarelo / verde) ---------------- */
+const HL_CSS = `mark.hl{color:#111!important;border-radius:3px;padding:0 1px;box-decoration-break:clone;-webkit-box-decoration-break:clone;cursor:pointer}
+mark.hl.y{background:#fde047!important}mark.hl.g{background:#86efac!important}mark.hl *{color:#111!important}`;
+const HL = {
+  pend: "", sel: null, hideT: 0, from: 0,
+  norm: t => String(t || "").replace(/\s+/g, ""),
+  card() { if (Study.view != null && Study.undo[Study.view]) return S.byId.get(Study.undo[Study.view].id); return Study.cur; },
+  apply(root, c) {
+    const box = root.querySelector(".card"); if (!box || !c || !c.hl || !c.hl.length) return;
+    const nodes = [], w = document.createTreeWalker(box, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentNode.closest("style,script,svg") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    let n, N = "", map = [], off = 0;
+    while ((n = w.nextNode())) { const v = n.nodeValue; nodes.push({ n, o: off, L: v.length }); for (let i = 0; i < v.length; i++) if (!/\s/.test(v[i])) { N += v[i]; map.push(off + i); } off += v.length; }
+    const rg = [];
+    for (const [t, col] of c.hl) {
+      const k = this.norm(t); if (k.length < 2) continue;
+      let i = N.indexOf(k);
+      while (i >= 0) { rg.push([map[i], map[i + k.length - 1] + 1, col === "g" ? "g" : "y", t]); i = N.indexOf(k, i + k.length); }
+    }
+    if (!rg.length) return;
+    rg.sort((a, b) => a[0] - b[0]); const ok = []; let end = -1; for (const r of rg) if (r[0] >= end) { ok.push(r); end = r[1]; }
+    for (const { n, o, L } of nodes) {
+      const seg = ok.filter(r => r[0] < o + L && r[1] > o); if (!seg.length) continue;
+      const v = n.nodeValue, frag = document.createDocumentFragment(); let p = 0;
+      for (const [a, b, col, t] of seg) {
+        const s0 = Math.max(0, a - o), s1 = Math.min(L, b - o);
+        if (s0 > p) frag.appendChild(document.createTextNode(v.slice(p, s0)));
+        const m = document.createElement("mark"); m.className = "hl " + col; m.dataset.t = t; m.textContent = v.slice(s0, s1); frag.appendChild(m); p = s1;
+      }
+      if (p < L) frag.appendChild(document.createTextNode(v.slice(p)));
+      n.parentNode.replaceChild(frag, n);
+    }
+  },
+  text() {
+    const host = $("#cardHost"), root = host.shadowRoot; if (!root) return "";
+    const sel = (root.getSelection && root.getSelection()) || document.getSelection(); if (!sel || sel.isCollapsed) return "";
+    const a = sel.anchorNode, inside = a && (root.contains(a) || host.contains(a) || a === host);
+    if (!inside && Date.now() - this.from > 15000) return "";
+    return sel.toString().replace(/\s+/g, " ").trim().slice(0, 400);
+  },
+  show(mode, t) {
+    const b = $("#hlBar"); clearTimeout(this.hideT);
+    this.pend = t; this.sel = mode === "edit" ? t : null;
+    $("#hlTxt").textContent = "“" + (t.length > 60 ? t.slice(0, 58) + "…" : t) + "”";
+    $("#hlDel").style.display = mode === "edit" ? "" : "none";
+    b.classList.add("on");
+  },
+  hide(ms) { clearTimeout(this.hideT); this.hideT = setTimeout(() => $("#hlBar").classList.remove("on"), ms || 0); },
+  async set(col) {
+    const c = this.card(), t = this.pend; if (!c || !t) return this.hide();
+    if (this.norm(t).length < 2) return toast("Selecione pelo menos 2 letras.");
+    const k = this.norm(t);
+    c.hl = (c.hl || []).filter(([x]) => this.norm(x) !== k && !(this.sel && this.norm(x) === this.norm(this.sel)));
+    if (col) c.hl.push([t, col]);
+    await saveProg(c); this.redraw(); this.hide();
+    try { (($("#cardHost").shadowRoot.getSelection && $("#cardHost").shadowRoot.getSelection()) || document.getSelection()).removeAllRanges(); } catch (e) {}
+    toast(col ? (col === "g" ? "🟩 Destacado em verde" : "🟨 Destacado em amarelo") : "🧽 Destaque removido");
+  },
+  async clearAll() {
+    const c = this.card(); if (!c || !(c.hl && c.hl.length)) return toast("Este card não tem destaques.");
+    c.hl = []; await saveProg(c); this.redraw(); toast("🧽 Destaques do card apagados");
+  },
+  redraw() {
+    const c = this.card(); if (!c) return;
+    const html = Study.view != null || Study.shown ? c.a : c.q;
+    const y = scrollY; renderInto($("#cardHost"), html, c.style, c.deck).then(() => scrollTo(0, y));
+    this.count();
+  },
+  count() { const c = this.card(), n = c && c.hl ? c.hl.length : 0; $("#bHl").textContent = n ? `🧽 Limpar destaques (${n})` : "🖍️ Destacar"; },
+  init() {
+    const host = $("#cardHost");
+    host.addEventListener("pointerdown", () => { this.from = Date.now(); });
+    host.addEventListener("touchstart", () => { this.from = Date.now(); }, { passive: true });
+    let t0 = 0;
+    document.addEventListener("selectionchange", () => {
+      clearTimeout(t0); t0 = setTimeout(() => {
+        if (location.hash !== "#estudar") return;
+        const t = this.text(); if (t && this.norm(t).length >= 2) this.show("new", t); else if (!this.sel) this.hide(450);
+      }, 180);
+    });
+    host.addEventListener("click", e => {
+      const m = e.composedPath().find(x => x.tagName === "MARK" && x.classList && x.classList.contains("hl"));
+      if (m && !this.text()) { e.stopPropagation(); this.show("edit", m.dataset.t || m.textContent); }
+    });
+    const bar = $("#hlBar");
+    bar.addEventListener("pointerdown", e => { clearTimeout(this.hideT); e.preventDefault(); });
+    bar.addEventListener("mousedown", e => e.preventDefault());
+    $("#hlY").onclick = () => this.set("y"); $("#hlG").onclick = () => this.set("g");
+    $("#hlDel").onclick = () => this.set(null); $("#hlX").onclick = () => { this.sel = null; this.hide(); };
+    $("#bHl").onclick = () => { const c = this.card(); if (c && c.hl && c.hl.length) confirmAction(`Apagar os <b>${c.hl.length}</b> destaques deste card?`, () => this.clearAll()); else toast("🖍️ Selecione um trecho do card (arraste ou pressione e segure) e escolha 🟨 ou 🟩."); };
+  },
+};
 
 /* ---------------- .apkg ---------------- */
 let SQLp = null;
@@ -733,7 +827,7 @@ async function showCard() {
   }
   $("#cardHost").style.display = "block"; $("#studyTools").style.display = "flex"; $("#studyEmpty").style.display = "none";
   $("#bMark").textContent = c.marked ? "🚩 Desmarcar" : "🚩 Marcar";
-  await renderInto($("#cardHost"), c.q, c.style, c.deck);
+  await renderInto($("#cardHost"), c.q, c.style, c.deck); HL.count(); HL.sel = null; HL.hide();
   Study.t0 = Date.now(); bars("show"); window.scrollTo({ top: 0 });
 }
 function bars(which) {
@@ -751,7 +845,7 @@ async function histShow() {
   $("#histBanner").style.display = "block";
   $("#histBanner").innerHTML = `⬅️ <b>Revendo card anterior</b> ${Study.undo.length - Study.view} de ${Study.undo.length} · você respondeu <b>${GN[h.g] || "?"}</b> · próximo em ${c.srs.st === "review" ? fmtIvl(c.srs.ivl * DAY) : fmtIvl(Math.max(MIN, c.srs.due - Date.now()))}`;
   await renderInto($("#cardHost"), c.a, c.style, c.deck);
-  $("#hBack").disabled = Study.view <= 0; bars("hist"); window.scrollTo({ top: 0 });
+  $("#hBack").disabled = Study.view <= 0; HL.count(); bars("hist"); window.scrollTo({ top: 0 });
 }
 function histBack() {
   if (!Study.undo.length) return toast("Ainda não há card anterior nesta sessão.");
@@ -835,6 +929,7 @@ function search() {
       if (i === "suspenso" && !c.susp) return false;
       if (i === "dificil" && c.srs.lapses < 3) return false;
       if (i === "meu" && !c.user) return false;
+      if (i === "destaque" && !(c.hl && c.hl.length)) return false;
     }
     if (nterms.length) { const t = norm(c.txt || ""); if (!nterms.every(x => t.includes(x))) return false; }
     return true;
@@ -954,7 +1049,7 @@ function confirmAction(msg, fn) {
 }
 $("#delGo").onclick = () => { const d = $("#delDeck").value; if (!d) return; const ids = [...S.user.values()].filter(u => u.deck === d || u.deck.startsWith(d + "::")).map(u => u.id);
   confirmAction(`Apagar <b>${ids.length}</b> cards próprios de <b>${esc(d)}</b>?`, async () => { await deleteUserCards(ids); toast("🗑️ Baralho apagado"); }); };
-$("#resetProg").onclick = () => confirmAction("Zerar o progresso de <b>todos</b> os cards (em todos os aparelhos)?", async () => { const now = Date.now(); S.cards.forEach(c => { c.srs = newSRS(); c.susp = false; c.marked = false; S.prog.set(c.id, { id: c.id, s: c.srs, susp: false, mk: false, mod: now }); Cloud.markP(c.id); }); await DB.putMany("prog", [...S.prog.values()]); toast("♻️ Progresso zerado"); });
+$("#resetProg").onclick = () => confirmAction("Zerar o progresso de <b>todos</b> os cards (em todos os aparelhos)?", async () => { const now = Date.now(); S.cards.forEach(c => { c.srs = newSRS(); c.susp = false; c.marked = false; S.prog.set(c.id, { id: c.id, s: c.srs, susp: false, mk: false, hl: c.hl || [], mod: now }); Cloud.markP(c.id); }); await DB.putMany("prog", [...S.prog.values()]); toast("♻️ Progresso zerado"); });
 $("#wipe").onclick = () => confirmAction("Apagar <b>todos os seus cards próprios e o progresso</b>? (as coleções oficiais continuam). Faça backup antes.", async () => {
   const ids = [...S.user.keys()]; await deleteUserCards(ids); const now = Date.now();
   S.prog.forEach(p => { p.s = newSRS(); p.susp = false; p.mk = false; p.mod = now; Cloud.markP(p.id); }); await DB.putMany("prog", [...S.prog.values()]); rebuildCards(); toast("💣 Apagado");
@@ -996,6 +1091,7 @@ setInterval(() => { if (document.visibilityState === "visible") Cloud.pull(); },
     Cloud.tomb = new Map(await DB.meta("tomb", []));
   } catch (e) { $("main").innerHTML = `<div class="panel">❌ O navegador bloqueou o armazenamento local (modo privado?).<br><small>${esc(e.message || e)}</small></div>`; return; }
   await loadOfficial(); rebuildCards(); route();
+  HL.init();
   Cloud.init();
   if (window.__selftest) window.__selftest();
 })();

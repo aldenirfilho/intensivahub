@@ -73,6 +73,11 @@ label{font-size:13px;color:var(--mut);font-weight:600}
 #cardHost{min-height:280px}
 .bar{position:fixed;left:0;right:0;bottom:0;z-index:15;background:rgba(11,14,19,.96);border-top:1px solid var(--line);padding:10px 12px calc(10px + var(--safe-b));display:none}
 .bar.on{display:block}
+#hlBar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(132px + var(--safe-b));z-index:40;display:none;align-items:center;gap:6px;flex-wrap:wrap;justify-content:center;background:rgba(11,14,19,.97);border:1px solid var(--gold,#d4af37);border-radius:14px;padding:8px 10px;box-shadow:0 10px 34px #000a;max-width:94vw;-webkit-user-select:none;user-select:none}
+#hlBar.on{display:flex}
+#hlBar #hlTxt{font-size:12px;color:var(--mut);max-width:60vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;text-align:center}
+#hlBar button{font-size:15px;padding:8px 12px;border-radius:10px;border:1px solid #0006;font-weight:700;cursor:pointer}
+#hlY{background:#fde047;color:#111}#hlG{background:#86efac;color:#111}#hlDel{background:#2a1416;color:#fca5a5;border-color:#7f1d1d!important}#hlX{background:#1f2a37;color:#ddd}
 .bar .in{max-width:1000px;margin:0 auto;display:grid;gap:8px}
 .ans{grid-template-columns:repeat(4,1fr)}
 .ans .btn{flex-direction:column;justify-content:center;gap:0;padding:8px 4px}
@@ -143,10 +148,12 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <button class="btn sm cy" id="bBack" title="Voltar ao card anterior (←)">⬅️ Voltar</button>
   <button class="btn sm" id="bUndo" title="Desfazer (Z)">↩️ Desfazer</button>
   <button class="btn sm" id="bMark" title="Marcar (M)">🚩 Marcar</button>
+  <button class="btn sm" id="bHl" title="Selecione um trecho do card para destacar">🖍️ Destacar</button>
   <button class="btn sm" id="bSusp" title="Suspender (S)">⏸️ Suspender</button>
   <button class="btn sm" id="bEnd">⏹️ Encerrar</button>
  </div>
- <div class="foot">Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer · <span class="kbd">←</span> voltar · <span class="kbd">→</span> continuar</div>
+ <div id="hlBar" role="toolbar" aria-label="Destacar texto"><div id="hlTxt"></div><button id="hlY">🟨 Amarelo</button><button id="hlG">🟩 Verde</button><button id="hlDel">🧽 Remover</button><button id="hlX" aria-label="Fechar">✖️</button></div>
+ <div class="foot">🖍️ <b>Destacar:</b> selecione um trecho do card → 🟨/🟩 · toque no destaque para trocar ou remover · Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer · <span class="kbd">←</span> voltar · <span class="kbd">→</span> continuar</div>
 </section>
 
 <!-- BUSCAR -->
@@ -156,7 +163,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <input type="search" id="q" placeholder="Ex.: noradrenalina · 'driving pressure' · tag:marcado · deck:Sepse · is:due · is:new">
   <div class="row" style="margin-top:8px"><select id="qDeck" class="grow"></select>
    <button class="btn sm cy" id="qStudy">🎴 Estudar resultados</button></div>
-  <div style="margin-top:6px;font-size:12px;color:var(--mut)">Busca em pergunta, resposta, pegadinha, fonte e tags. Filtros: <b>tag:</b>x · <b>deck:</b>x · <b>is:new</b> · <b>is:due</b> · <b>is:marcado</b> · <b>is:suspenso</b> · <b>is:dificil</b> (errou ≥ 3×)</div>
+  <div style="margin-top:6px;font-size:12px;color:var(--mut)">Busca em pergunta, resposta, pegadinha, fonte e tags. Filtros: <b>tag:</b>x · <b>deck:</b>x · <b>is:new</b> · <b>is:due</b> · <b>is:marcado</b> · <b>is:suspenso</b> · <b>is:dificil</b> (errou ≥ 3×) · <b>is:destaque</b> (cards com 🖍️)</div>
  </div>
  <div id="qInfo" style="color:var(--mut);margin:6px 2px"></div>
  <div id="qRes"></div>
