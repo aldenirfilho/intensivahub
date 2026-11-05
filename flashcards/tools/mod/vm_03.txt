@@ -1,0 +1,224 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## C | 🎚️ Ajuste inicial, oxigenação e gasometria | Diretrizes Brasileiras de Ventilação Mecânica (AMIB/SBPT 2013); ESICM ARDS 2023
+
+Q: 🚀 Ajuste inicial da VM em adulto <b>sem SDRA</b> (pós-intubação)?
+A: | Parâmetro | Ajuste |
+| Modo | VCV ou PCV A/C |
+| VT | 6–8 mL/kg PBW |
+| FR | 14–18 (ajustar por pH/PaCO₂) |
+| PEEP | 5–8 cmH₂O |
+| FiO₂ | 1,0 inicial → reduzir rápido para SpO₂ 92–96% |
+| Fluxo/Ti | 40–60 L/min · Ti 0,8–1,2 s |
+➡️ Gasometria em 20–30 min; medir platô e ΔP.
+
+Q: 🧪 VT baixo em pacientes <b>sem SDRA</b>: o que mostrou o PReVENT?
+A: VT 4–6 vs 8–10 mL/kg em pacientes sem SDRA: <b>sem diferença</b> em dias livres de VM ou mortalidade.
+➡️ Ainda assim, evite VT > 8–10 mL/kg e monitore ΔP.
+S: Writing Group for the PReVENT Investigators, JAMA 2018
+
+Q: 🎯 Alvo de <b>SpO₂</b> em pacientes críticos ventilados (adultos)?
+A: Faixa conservadora habitual <b>92–96%</b> (evitar hiperóxia e hipoxemia).
+| Ensaio | Mensagem |
+| ICU-ROX 2020 | conservador × usual: sem diferença |
+| HOT-ICU 2021 | PaO₂ 60 × 90: sem diferença em 90 dias |
+| PILOT 2022 | SpO₂ 88–92 × 92–96 × 96–100: sem diferença |
+X: Em DPOC hipercápnico: SpO₂ 88–92%. Cuidado com oxímetro em pele escura (superestima).
+
+Q: 🩸 Por que evitar <b>hiperóxia</b> (PaO₂ > 150–300)?
+A: Estresse oxidativo, atelectasia de absorção, vasoconstrição coronária/cerebral, ↓ drive (hipercapnia em DPOC).
+Associação com ↑ mortalidade pós-PCR, AVC e na UTI geral (metanálise IOTA).
+S: Chu DK, Lancet 2018 (IOTA)
+
+Q: 🧮 Como calcular a <b>relação PaO₂/FiO₂</b> e o que ela classifica?
+A: P/F = PaO₂ ÷ FiO₂ (fração). Ex.: PaO₂ 90 / 0,6 = 150.
+| P/F (PEEP ≥ 5) | SDRA (Berlim) |
+| 201–300 | leve |
+| 101–200 | moderada |
+| ≤ 100 | grave |
+
+Q: 🧮 O que é a relação <b>SpO₂/FiO₂</b> e quando usar?
+A: Alternativa sem gasometria (definição global de SDRA 2023): <b>S/F ≤ 315 com SpO₂ ≤ 97%</b> equivale a P/F ≤ 300.
+X: Válida só com SpO₂ ≤ 97% (acima disso a curva de dissociação fica plana).
+S: Matthay MA et al., AJRCCM 2024 (global definition)
+
+Q: 🧮 Como ajustar <b>FiO₂ e PEEP</b> para corrigir hipoxemia?
+A: 1️⃣ Garantir via aérea (tubo pérvio, posição) · 2️⃣ ↑ FiO₂ · 3️⃣ ↑ PEEP se recrutável · 4️⃣ tratar causa (secreção, derrame, PNTX, broncoespasmo) · 5️⃣ prona/BNM na SDRA moderada-grave.
+
+Q: 💨 Como corrigir <b>hipercapnia</b> na VM?
+A: ↑ volume-minuto: ↑ FR (primeiro, se VT já protetor) ou ↑ VT (se ΔP permite).
+Antes: ↓ espaço morto (trocar HME, encurtar circuito), checar auto-PEEP (FR alta pode piorar).
+
+Q: 🌀 O que é <b>hipercapnia permissiva</b>?
+A: Aceitar PaCO₂ elevada (pH ≥ 7,15–7,20) para manter VT e pressões protetoras.
+❌ Contraindicação relativa: <b>HIC</b>, hipertensão pulmonar/disfunção grave de VD, arritmias, gestação.
+S: ARDSNet; Hickling KG 1990
+
+Q: 🧪 Gasometria: pH 7,25, PaCO₂ 60, HCO₃ 26. Qual o distúrbio?
+A: <b>Acidose respiratória aguda</b>: para cada ↑ 10 de PaCO₂, HCO₃ sobe ~1 (agudo) → esperado ~26. ✅ Compatível.
+| Compensação | ↑ HCO₃ por ↑10 PaCO₂ |
+| Aguda | +1 |
+| Crônica | +3,5 a 4 |
+
+Q: 🧪 DPOC crônico com PaCO₂ basal 60: qual pH/PaCO₂ alvo na VM?
+A: Buscar a <b>PaCO₂ basal</b> do paciente (pH normal), não 40.
+⚠️ Hiperventilar para PaCO₂ 40 → alcalose metabólica pós-hipercápnica, perda de HCO₃ e falha no desmame.
+
+Q: 🧯 O que é <b>alcalose pós-hipercápnica</b>?
+A: Correção rápida da PaCO₂ em hipercápnico crônico com HCO₃ alto → alcalose metabólica (convulsões, arritmias, ↓ drive).
+Tratamento: corrigir lentamente, repor Cl⁻/volume, considerar acetazolamida.
+
+Q: 🫁 Quanto tempo após mudança de ventilação colher <b>nova gasometria</b>?
+A: PaCO₂ estabiliza em ~10–20 min (normal) e até <b>30 min ou mais</b> em DPOC; PaO₂ após mudança de PEEP pode levar 30–60 min para refletir recrutamento.
+
+Q: 🩸 Qual a correlação <b>EtCO₂ × PaCO₂</b>?
+A: Normal: gradiente PaCO₂ − EtCO₂ ≈ <b>2–5 mmHg</b>.
+↑ gradiente = ↑ espaço morto (SDRA, TEP, ↓ DC, hipovolemia, hiperdistensão).
+X: Na SDRA, EtCO₂ não substitui a gasometria.
+I: vm_capnografia.png
+
+Q: 📉 Queda súbita do <b>EtCO₂</b> na VM: diagnósticos?
+A: | EtCO₂ → | Pensar em |
+| Zero | extubação/desconexão, obstrução total do tubo |
+| Queda abrupta | TEP maciço, PCR, ↓ grave DC, hipotensão |
+| Queda gradual | hiperventilação, ↓ metabolismo, hipotermia |
+
+Q: 📈 Aumento progressivo do <b>EtCO₂</b>?
+A: Hipoventilação, ↑ produção (febre, sepse, convulsão, <b>hipertermia maligna</b>), absorção de CO₂ (laparoscopia), reinalação (linha de base ↑), bicarbonato IV.
+
+Q: 🌡️ Qual a regra para estimar <b>PaO₂ esperada</b> pela FiO₂?
+A: PaO₂ esperada ≈ <b>FiO₂ (%) × 5</b> (pulmão normal). Ex.: FiO₂ 40% → ~200 mmHg.
+➡️ PaO₂ muito abaixo disso = doença de troca.
+
+Q: 🧮 Por que a P/F varia com a <b>PEEP e a FiO₂</b>?
+A: P/F não é constante: muda com PEEP (recrutamento), FiO₂ (curva não linear em shunt) e DC.
+➡️ Definição de SDRA exige P/F medida com <b>PEEP ≥ 5</b> (ou CNAF ≥ 30 L/min na definição global).
+
+Q: 🛑 Quando a <b>FiO₂ 1,0</b> é aceitável e quando reduzir?
+A: Na intubação/ressuscitação inicial e hipoxemia grave. Reduzir para ≤ 0,6 o quanto antes guiado por SpO₂ (atelectasia de absorção e toxicidade com FiO₂ alta prolongada).
+
+Q: 🩸 SpO₂ 99% com FiO₂ 0,8: o que fazer?
+A: <b>Reduzir FiO₂</b> (titular para 92–96%). SpO₂ ≥ 97–98% não informa a PaO₂ real (pode ser 100 ou 400).
+
+Q: 🧪 Hipoxemia súbita no ventilado: mnemônico <b>DOPE</b>?
+A: | Letra | Causa |
+| D | Deslocamento do tubo (extubação, seletiva) |
+| O | Obstrução (secreção, rolha, mordida) |
+| P | Pneumotórax |
+| E | Equipamento (desconexão, O₂, ventilador) |
+➡️ Desconectar e ventilar com Ambu + O₂ 100%; checar com capnografia, ausculta, POCUS.
+
+Q: 🗺️ Intubação <b>seletiva</b>: como suspeitar e corrigir?
+A: Hipoxemia + pico/platô ↑ + MV abolido à esquerda + tubo profundo (marca > 23 cm ♂ / > 21 cm ♀ na rima).
+POCUS: deslizamento ausente à E com <b>pulso pulmonar</b>. Recuar o tubo 1–2 cm.
+
+Q: 📏 Posição ideal da ponta do <b>tubo</b> na radiografia?
+A: <b>3–5 cm acima da carina</b> (ou na altura de T2–T4 / clavículas), com cabeça neutra.
+X: Flexão do pescoço avança o tubo ~2 cm; extensão recua.
+
+Q: 🎈 Pressão ideal do <b>cuff</b>?
+A: <b>20–30 cmH₂O</b> (medir com manômetro, 3×/dia ou contínuo).
+- < 20 → microaspiração (PAV)
+- > 30 → isquemia traqueal, estenose, fístula
+
+Q: 💤 Analgossedação inicial na VM: qual estratégia?
+A: <b>Analgesia primeiro</b> (fentanil/remifentanil) + sedação <b>leve</b> (RASS 0 a −2) com propofol ou dexmedetomidina; evitar benzodiazepínicos.
+S: PADIS 2018 (SCCM)
+
+Q: 🧮 Peso predito 60 kg na SDRA: qual VT inicial e máximo?
+A: Inicial <b>6 mL/kg = 360 mL</b>; reduzir até <b>4 mL/kg = 240 mL</b> se platô > 30; aceitar até 8 mL/kg se platô < 25 e assincronia grave por fome de volume (protocolo ARDSNet).
+
+Q: 📋 Metas do protocolo <b>ARDSNet</b>?
+A: | Meta | Alvo |
+| VT | 6 mL/kg PBW (4–8) |
+| Platô | ≤ 30 cmH₂O |
+| Oxigenação | PaO₂ 55–80 ou SpO₂ 88–95% |
+| pH | 7,30–7,45 (FR até 35) |
+| I:E | 1:1 a 1:3 |
+S: ARDS Network, NEJM 2000
+I: vm_peep_tabela.png
+
+Q: 🧮 Na SDRA, pH 7,18 com FR 35 e VT 6 mL/kg: próximos passos?
+A: 1️⃣ ↓ espaço morto do circuito · 2️⃣ checar auto-PEEP · 3️⃣ ↑ VT para 7–8 mL/kg se platô/ΔP permitirem · 4️⃣ bicarbonato se pH < 7,15 (opcional, controverso) · 5️⃣ prona · 6️⃣ ECCO₂R/ECMO se refratário.
+S: ARDSNet; ESICM 2023
+
+Q: 🧯 Bicarbonato na acidose respiratória por hipercapnia permissiva?
+A: Pode ser usado se pH < 7,15 (protocolo ARDSNet), mas gera CO₂ → exige ventilação para eliminar. Infusão lenta.
+X: Não há evidência de benefício em desfechos.
+
+Q: ⚖️ Qual a relação entre <b>PEEP e CRF</b>?
+A: PEEP ↑ CRF, recruta alvéolos colapsados e reduz shunt. A resposta depende da <b>recrutabilidade</b>: em pulmões pouco recrutáveis, PEEP alta só hiperdistende.
+
+Q: 🧠 Neurocrítico ventilado: alvo de PaCO₂ e PaO₂?
+A: | Alvo | Faixa |
+| PaCO₂ | <b>35–45</b> (normocapnia) |
+| PaO₂ | 80–120 (evitar hipóxia e hiperóxia) |
+| Hiperventilação 30–35 | só como ponte em herniação iminente |
+S: Brain Trauma Foundation 2016; ESICM 2020 (consenso)
+
+Q: 💡 Paciente pós-PCR ventilado: alvo de oxigenação?
+A: Evitar hipoxemia e hiperóxia: <b>SpO₂ 92–98%</b> / PaO₂ 75–100 mmHg; normocapnia (PaCO₂ 35–45).
+S: ERC/ESICM post-resuscitation care 2021/2025
+
+Q: 🧮 Ventilado com acidose metabólica grave (CAD, pH 6,9): ajuste?
+A: Manter o <b>volume-minuto alto</b> pré-intubação (FR 25–30, VT 7–8 mL/kg) para preservar a compensação respiratória (PaCO₂ esperada pela fórmula de Winter).
+⚠️ Ajuste “padrão” (FR 14) → queda do pH e PCR.
+
+Q: 🧮 Fórmula de <b>Winter</b>?
+A: PaCO₂ esperada = <b>1,5 × HCO₃ + 8 ± 2</b>
+Ex.: HCO₃ 8 → PaCO₂ esperada 18–22. Se o paciente está em 40 = acidose respiratória associada.
+
+Q: 🧪 Qual o valor do <b>lactato</b> na hipoxemia?
+A: Hipoxemia isolada raramente eleva lactato se DC e Hb estão preservados (DO₂ mantido). Lactato alto sugere <b>hipoperfusão</b>, não só hipoxemia.
+
+Q: 🩸 Qual a fórmula do <b>DO₂</b>?
+A: DO₂ = DC × CaO₂ × 10
+CaO₂ = (1,34 × Hb × SaO₂) + (0,003 × PaO₂)
+➡️ A <b>Hb</b> e o <b>DC</b> pesam muito mais que a PaO₂ dissolvida.
+
+Q: 🧮 Hb 10, SaO₂ 98%, PaO₂ 100: qual o CaO₂?
+A: 1,34 × 10 × 0,98 = 13,1 + 0,003 × 100 = 0,3 → <b>CaO₂ ≈ 13,4 mL O₂/dL</b>.
+
+Q: 🫁 Para que serve a <b>SvO₂/SvcO₂</b> no ventilado?
+A: Reflete o balanço oferta/consumo: <b>SvcO₂ < 70%</b> sugere oferta insuficiente (↓ DC, ↓ Hb, ↓ SaO₂) ou ↑ consumo.
+X: Valor alto (> 80%) pode indicar shunt periférico/sepse com extração prejudicada.
+
+Q: 🧮 O que é o <b>gap venoarterial de CO₂</b> (ΔPCO₂)?
+A: PcvCO₂ − PaCO₂. Normal < 6 mmHg.
+> 6 mmHg = fluxo sanguíneo (DC) insuficiente para lavar o CO₂ tecidual, mesmo com SvcO₂ normal.
+
+Q: 💨 Paciente “brigando” com o ventilador logo após intubação: abordagem?
+A: 1️⃣ Excluir causas graves (DOPE, hipoxemia, PNTX, auto-PEEP) · 2️⃣ <b>analgesia</b> · 3️⃣ ajustar fluxo/disparo/Ti para a demanda · 4️⃣ sedação · 5️⃣ BNM só se SDRA grave/refratário.
+
+Q: 🧮 Volume-minuto normal e por que aumenta na sepse?
+A: Normal ~ 5–8 L/min (~ 100 mL/kg/min). Sepse/febre ↑ produção de CO₂ e acidose metabólica → demanda de VE 10–15 L/min.
+
+Q: 🔥 Febre de 1 °C aumenta o VCO₂ em quanto?
+A: ~ <b>10–13%</b> → exige maior volume-minuto para manter a PaCO₂.
+
+Q: 🧯 Por que medir a <b>pressão de platô em toda mudança</b> de VT/PEEP?
+A: Garante que platô ≤ 30 e ΔP ≤ 15 após cada ajuste; o pico isolado não informa a pressão alveolar.
+
+Q: ⚡ PEEP na <b>intubação</b> do paciente hipoxêmico: por quê?
+A: Pré-oxigenação com PEEP (VNI) e iniciar VM com PEEP ≥ 5–10 evita desrecrutamento e dessaturação pós-intubação.
+S: PREOXI (VNI vs máscara), NEJM 2024
+
+Q: 🫧 O que é <b>atelectasia de absorção</b>?
+A: Com FiO₂ alta, o O₂ (sem N₂ “de suporte”) é absorvido do alvéolo mal ventilado → colapso.
+➡️ Mais um motivo para reduzir FiO₂ e usar PEEP.
+
+Q: 🌍 Qual a influência da <b>altitude</b> na P/F?
+A: Patm menor → PaO₂ menor para a mesma FiO₂. Definições ajustam P/F × (Patm/760) em altitude > 1.000 m.
+
+Q: 🧪 Por que a gasometria <b>venosa</b> pode substituir a arterial em parte?
+A: pH venoso ≈ arterial − 0,03–0,05; PvCO₂ ≈ PaCO₂ + 4–6 (boa para triagem/tendência).
+❌ Não serve para avaliar oxigenação.
+
+Q: 🧮 Ventilado com SDRA: SpO₂ 89%, FiO₂ 0,6, PEEP 10. Pela tabela ARDSNet (PEEP baixa), próximo passo?
+A: Combinação 0,6/10 → seguir a tabela: <b>FiO₂ 0,7 com PEEP 10</b>, depois 0,7/12, 0,7/14 até atingir SpO₂ 88–95%.
+I: vm_peep_tabela.png
+
+Q: 🧮 Tabela ARDSNet de <b>PEEP alta</b> (ALVEOLI): exemplos?
+A: | FiO₂ | 0,3 | 0,4 | 0,5 | 0,6 | 0,7 | 0,8 | 0,9 | 1,0 |
+| PEEP | 12–14 | 14–16 | 16–18 | 20 | 20 | 22 | 22 | 22–24 |
+Sem diferença de mortalidade vs tabela baixa no ALVEOLI.
+S: Brower RG, NEJM 2004

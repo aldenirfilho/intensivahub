@@ -1,12 +1,12 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.05-v3",
+ "versao": "2026.11.05-v4",
  "colecoes": [
   {
    "id": "temi",
    "nome": "TEMI 2028",
    "icone": "🏥",
-   "cards": 620
+   "cards": 1625
   },
   {
    "id": "cm",
@@ -18,7 +18,13 @@
    "id": "ia",
    "nome": "Outras IAs (não revisado)",
    "icone": "📦",
-   "cards": 3658
+   "cards": 3864
+  },
+  {
+   "id": "ia360",
+   "nome": "IAs 360X 5000+5000 (não revisado)",
+   "icone": "🗃️",
+   "cards": 7233
   }
  ],
  "decks": [
@@ -217,6 +223,42 @@
     "POCUS e procedimentos",
     "Ética, legislação e terminalidade",
     "Pós-UTI e reabilitação"
+   ]
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-17-pocus500.json",
+   "tema": "17 🔊 USG POCUS — Módulo 500",
+   "cards": 503,
+   "subtemas": [
+    "⚙️ Física, sondas, botões e artefatos",
+    "🫁 Pulmão I: semiologia normal e pneumotórax",
+    "🌫️ Pulmão II: síndrome intersticial, consolidação, derrame e protocolos",
+    "❤️ Coração I: janelas e função do VE",
+    "🫀 Coração II: VD, TEP, pericárdio e tamponamento",
+    "💧 Hemodinâmica: VCI, VTI e fluido-responsividade",
+    "🌊 Congestão venosa: VExUS, Doppler venoso e rim",
+    "🚨 Choque, PCR e trauma: RUSH, FAST e eFAST",
+    "🩸 Vascular e procedimentos guiados",
+    "🧠 Diafragma, olho, estômago, rim e outros"
+   ]
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-16-vm500.json",
+   "tema": "16 🫁 Ventilação Mecânica — Módulo 500",
+   "cards": 502,
+   "subtemas": [
+    "⚙️ Física, equação do movimento e mecânica",
+    "🎛️ Modos ventilatórios",
+    "🎚️ Ajuste inicial, oxigenação e gasometria",
+    "🔴 SDRA: definição, ventilação protetora, prona e resgate",
+    "📊 Monitorização avançada à beira-leito",
+    "🔀 Assincronias paciente-ventilador",
+    "🌬️ Doença obstrutiva: asma, DPOC e hiperinsuflação",
+    "😷 VNI, CNAF e intubação",
+    "🏁 Desmame, extubação e traqueostomia",
+    "🧩 Situações especiais, PAV e complicações"
    ]
   },
   {
@@ -786,7 +828,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-r3-clnica-mdica-a-cardio-pneumo-gastro.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 📘 A Cardio-Pneumo-Gastro",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 📘 A Cardio-Pneumo-Gastro",
    "cards": 31,
    "subtemas": [
     "Cardio — FA",
@@ -817,7 +859,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-r3-clnica-mdica-b-nefro-endcrino-hemato-infeccioso.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 📘 B Nefro-Endócrino-Hemato-Infeccioso",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 📘 B Nefro-Endócrino-Hemato-Infeccioso",
    "cards": 28,
    "subtemas": [
     "Endócrino — DM",
@@ -849,7 +891,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-r3-clnica-mdica-c-reuma-neuro-transversais.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 📘 C Reuma-Neuro-Transversais",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 📘 C Reuma-Neuro-Transversais",
    "cards": 24,
    "subtemas": [
     "Dermato — básico",
@@ -881,7 +923,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-12-tica-e-diversos.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › ⚖️ 12 Ética e Diversos",
+   "tema": "TEMI + R3 Dr Aldenir (864) › ⚖️ 12 Ética e Diversos",
    "cards": 20,
    "subtemas": [
     "Desastre/overcrowding",
@@ -908,7 +950,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-13-extras-de-alto-rendimento.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › ⚡ 13 Extras de Alto Rendimento",
+   "tema": "TEMI + R3 Dr Aldenir (864) › ⚡ 13 Extras de Alto Rendimento",
    "cards": 30,
    "subtemas": [
     "Acid-base — mista",
@@ -938,7 +980,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-11-cardiologia-e-trax.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › ❤️ 11 Cardiologia e Tórax",
+   "tema": "TEMI + R3 Dr Aldenir (864) › ❤️ 11 Cardiologia e Tórax",
    "cards": 20,
    "subtemas": [
     "Asma grave",
@@ -962,7 +1004,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-08-nutrio-e-endcrino.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🍎 08 Nutrição e Endócrino",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🍎 08 Nutrição e Endócrino",
    "cards": 20,
    "subtemas": [
     "Endócrino — DKA",
@@ -986,7 +1028,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-casos-clnicos-infeces-cardio-e-endcrino.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🎬 Casos Clínicos — Infecções, Cardio e Endócrino",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🎬 Casos Clínicos — Infecções, Cardio e Endócrino",
    "cards": 51,
    "subtemas": [
     "Caso 101",
@@ -1045,7 +1087,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-casos-clnicos-nutrio-hepato-pediatria-e-tica.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🎬 Casos Clínicos — Nutrição, Hepato, Pediatria e Ética",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🎬 Casos Clínicos — Nutrição, Hepato, Pediatria e Ética",
    "cards": 51,
    "subtemas": [
     "Caso 151",
@@ -1104,7 +1146,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-casos-clnicos-sepse-e-choque.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🎬 Casos Clínicos — Sepse e Choque",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🎬 Casos Clínicos — Sepse e Choque",
    "cards": 51,
    "subtemas": [
     "Caso 1",
@@ -1163,7 +1205,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-casos-clnicos-vm-hemodinmica-e-neuro.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🎬 Casos Clínicos — VM, Hemodinâmica e Neuro",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🎬 Casos Clínicos — VM, Hemodinâmica e Neuro",
    "cards": 51,
    "subtemas": [
     "Caso 100",
@@ -1222,7 +1264,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-06-sedao-e-delirium.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 😴 06 Sedação e Delirium",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 😴 06 Sedação e Delirium",
    "cards": 22,
    "subtemas": [
     "Abstinência",
@@ -1246,7 +1288,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-01-sepse-e-choque.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🦠 01 Sepse e Choque",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🦠 01 Sepse e Choque",
    "cards": 54,
    "subtemas": [
     "Anafilaxia",
@@ -1280,7 +1322,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-07-infeces-e-antibiticos.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🦠 07 Infecções e Antibióticos",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🦠 07 Infecções e Antibióticos",
    "cards": 35,
    "subtemas": [
     "Bacteriemia",
@@ -1313,7 +1355,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-05-neurointensivo.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🧠 05 Neurointensivo",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🧠 05 Neurointensivo",
    "cards": 27,
    "subtemas": [
     "ACV — hemorrágico",
@@ -1343,7 +1385,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-10-hematologia-e-transfuso.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🩸 10 Hematologia e Transfusão",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🩸 10 Hematologia e Transfusão",
    "cards": 22,
    "subtemas": [
     "Anemia na UTI",
@@ -1364,7 +1406,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-09-gastro-e-hepatologia.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🩺 09 Gastro e Hepatologia",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🩺 09 Gastro e Hepatologia",
    "cards": 18,
    "subtemas": [
     "Coagulopatia hepática",
@@ -1386,8 +1428,207 @@
   },
   {
    "colecao": "ia",
+   "arquivo": "data/decks/ia-b-temi-2028-pocus-abdome-vasos-e-volume.json",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🩻 POCUS — Abdome, Vasos e Volume",
+   "cards": 44,
+   "subtemas": [
+    "Abscesso",
+    "Aorta abdominal",
+    "Aorta — dissecção",
+    "Apendicite",
+    "Ascite",
+    "Bexiga",
+    "Colecistite",
+    "Colecistite — acalculosa",
+    "DVT — 3 pontos",
+    "DVT — bilateral",
+    "DVT — compressão",
+    "Diverticulite",
+    "FAST — básico",
+    "FAST — negativo",
+    "FAST — positivo",
+    "Imagem",
+    "Obstrução intestinal",
+    "Pancreatitis",
+    "Pneumoperitônio",
+    "Procedimento — cateter arterial",
+    "Procedimento — dreno",
+    "Procedimento — paracentese",
+    "Procedimento — toracocentese",
+    "Prova TEMI",
+    "RUSH — integração",
+    "Rins — ATN",
+    "Rins — hidronefrose",
+    "Rins — tamanho",
+    "Volume — B-lines",
+    "Volume — PLR",
+    "Volume — VCI",
+    "Íleo",
+    "🏁 Comece aqui"
+   ]
+  },
+  {
+   "colecao": "ia",
+   "arquivo": "data/decks/ia-b-temi-2028-pocus-ecocardiografia.json",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🩻 POCUS — Ecocardiografia",
+   "cards": 50,
+   "subtemas": [
+    "Amiloidose",
+    "Cardiomiopatias",
+    "Causas de choque",
+    "Dissecção aórtica",
+    "ECMO — POCUS",
+    "FAST",
+    "FE — estimativa",
+    "FE — quantificação",
+    "FE — sepse",
+    "FE — trauma",
+    "Janelas",
+    "LVOT VTI",
+    "Massas",
+    "PLR",
+    "Pericardio — constritiva",
+    "Pericárdio",
+    "Procedimento",
+    "Prova TEMI",
+    "RUSH — pipes",
+    "RUSH — pump",
+    "RUSH — tank",
+    "Regurgitação",
+    "Resposta a fluido",
+    "Shock index",
+    "Shunts",
+    "TAPSE",
+    "Tamponamento",
+    "Trombo embolia",
+    "Trombo intracardíaco",
+    "VD — avaliação",
+    "Valva aórtica",
+    "Valva mitral",
+    "Veia cava",
+    "eFAST",
+    "🏁 Comece aqui"
+   ]
+  },
+  {
+   "colecao": "ia",
+   "arquivo": "data/decks/ia-b-temi-2028-pocus-nmeros-artefatos-e-vinhetas-rpidas.json",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🩻 POCUS — Números, Artefatos e Vinhetas Rápidas",
+   "cards": 31,
+   "subtemas": [
+    "Artefatos",
+    "Doppler",
+    "Números-chave",
+    "VTI — LVOT",
+    "Vigneta rápida 1",
+    "Vigneta rápida 10",
+    "Vigneta rápida 11",
+    "Vigneta rápida 12",
+    "Vigneta rápida 13",
+    "Vigneta rápida 14",
+    "Vigneta rápida 15",
+    "Vigneta rápida 16",
+    "Vigneta rápida 17",
+    "Vigneta rápida 18",
+    "Vigneta rápida 19",
+    "Vigneta rápida 2",
+    "Vigneta rápida 20",
+    "Vigneta rápida 3",
+    "Vigneta rápida 4",
+    "Vigneta rápida 5",
+    "Vigneta rápida 6",
+    "Vigneta rápida 7",
+    "Vigneta rápida 8",
+    "Vigneta rápida 9",
+    "🏁 Comece aqui"
+   ]
+  },
+  {
+   "colecao": "ia",
+   "arquivo": "data/decks/ia-b-temi-2028-pocus-pulmonar-e-via-area.json",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🩻 POCUS — Pulmonar e Via Aérea",
+   "cards": 41,
+   "subtemas": [
+    "A-lines",
+    "Atelectasia — round",
+    "B-lines",
+    "Blue protocol",
+    "Consolidação",
+    "Derrame pleural",
+    "Derrame — empiema",
+    "Derrame — malignant",
+    "Derrame — transudato",
+    "Deslizamento",
+    "Diagnóstico — SDRA",
+    "Diagnóstico — aspiração",
+    "Diagnóstico — contusão",
+    "Fibrose",
+    "Hemotórax",
+    "LUS score",
+    "POCUS — desmame",
+    "POCUS — limitações",
+    "POCUS — velocidade",
+    "Pneumonia — complicated",
+    "Pneumonia — necrotizante",
+    "Pneumotórax",
+    "Pneumotórax — catamenial",
+    "Pneumotórax — primary",
+    "Pneumotórax — tension",
+    "Prova TEMI",
+    "Sinal do pulmão",
+    "Toracocentese",
+    "Via aérea",
+    "🏁 Comece aqui"
+   ]
+  },
+  {
+   "colecao": "ia",
+   "arquivo": "data/decks/ia-b-temi-2028-pocus-tee-ecmo-e-casos-integradores.json",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🩻 POCUS — TEE, ECMO e Casos Integradores",
+   "cards": 40,
+   "subtemas": [
+    "POCUS — ECMO VA",
+    "POCUS — ECMO VV",
+    "POCUS — ECMO desmame",
+    "POCUS — SDRA",
+    "POCUS — TBI",
+    "POCUS — VAP",
+    "POCUS — arritmia",
+    "POCUS — cardiomiopatia periparto",
+    "POCUS — derrame",
+    "POCUS — desmame",
+    "POCUS — dialisando",
+    "POCUS — embolia",
+    "POCUS — hemopericárdio",
+    "POCUS — hemorragia",
+    "POCUS — hipertensão",
+    "POCUS — miocardite",
+    "POCUS — morte encefálica",
+    "POCUS — neuro",
+    "POCUS — obstetrícia",
+    "POCUS — pediatria",
+    "POCUS — pneumonia",
+    "POCUS — pneumotórax",
+    "POCUS — queimado",
+    "POCUS — sangramento GI",
+    "POCUS — sepse",
+    "POCUS — sepse abdominal",
+    "POCUS — sepse pediátrica",
+    "POCUS — trauma",
+    "POCUS — trombolítico",
+    "POVA TEMI",
+    "TEE — complicações",
+    "TEE — dissecção",
+    "TEE — endocardite",
+    "TEE — indicação",
+    "TEE — trombo LA",
+    "🏁 Comece aqui"
+   ]
+  },
+  {
+   "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-03-hemodinmica-e-pocus.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🫀 03 Hemodinâmica e POCUS",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🫀 03 Hemodinâmica e POCUS",
    "cards": 31,
    "subtemas": [
     "Arritmias",
@@ -1416,7 +1657,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-02-ventilao-e-sdra.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🫁 02 Ventilação e SDRA",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🫁 02 Ventilação e SDRA",
    "cards": 45,
    "subtemas": [
     "Acidose respiratória",
@@ -1458,7 +1699,7 @@
   {
    "colecao": "ia",
    "arquivo": "data/decks/ia-b-temi-2028-04-nefrologia-e-trs.json",
-   "tema": "TEMI + R3 Dr Aldenir (658) › 🫘 04 Nefrologia e TRS",
+   "tema": "TEMI + R3 Dr Aldenir (864) › 🫘 04 Nefrologia e TRS",
    "cards": 27,
    "subtemas": [
     "AKI — contraste",
@@ -1480,6 +1721,1108 @@
     "TRS — início",
     "TRS — modalidades",
     "🏁 Comece aqui"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-31-cardiologia-clnica.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 31 Cardiologia clínica",
+   "cards": 225,
+   "subtemas": [
+    "Aneurisma de aorta",
+    "Angina microvascular",
+    "Angina vasoespástica",
+    "Antagonista mineralocorticoide na ICFEr",
+    "Avental branco e hipertensão mascarada",
+    "Betabloqueadores na ICFEr",
+    "CDI na prevenção primária",
+    "Cardiomiopatia hipertrófica obstrutiva",
+    "Deficiência de ferro na IC",
+    "Dissecção de aorta",
+    "Diurético e descongestão",
+    "Doença coronariana crônica",
+    "Escolha de anticoagulante na FA",
+    "Estatinas e prevenção",
+    "Estenose aórtica baixo fluxo",
+    "Estenose aórtica clínica",
+    "Estenose mitral reumática",
+    "Estágios da insuficiência cardíaca",
+    "FA e prevenção de AVC",
+    "Fenótipos de insuficiência cardíaca",
+    "Hiperaldosteronismo primário",
+    "Hipercolesterolemia familiar",
+    "Hipertensão resistente",
+    "Hipertensão secundária",
+    "Hipotensão ortostática",
+    "IC com fração preservada",
+    "Inibidores SGLT2 e IC",
+    "Insuficiência aórtica crônica",
+    "Insuficiência mitral primária",
+    "Insuficiência mitral secundária",
+    "Insuficiência tricúspide",
+    "Medida da pressão arterial",
+    "Miocardite",
+    "Peptídeos natriuréticos",
+    "Pericardite aguda",
+    "Pericardite constritiva",
+    "Prótese valvar mecânica",
+    "Quatro pilares da ICFEr",
+    "Risco na cardiomiopatia hipertrófica",
+    "Sacubitril valsartana",
+    "Suspeita de amiloidose cardíaca",
+    "Síncope clínica",
+    "Síndrome taquicárdica postural",
+    "Tamponamento subagudo",
+    "Terapia de ressincronização"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-32-pneumologia-clnica.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 32 Pneumologia clínica",
+   "cards": 175,
+   "subtemas": [
+    "Apneia obstrutiva do sono",
+    "Asma grave e difícil tratamento",
+    "Aspergilose broncopulmonar alérgica",
+    "Avaliação clínica da DPOC",
+    "Bronquiectasias no adulto",
+    "Classificação do líquido pleural",
+    "Confirmação de asma no adulto",
+    "Confirmação de restrição",
+    "Controle de asma",
+    "Corticoide inalatório na DPOC",
+    "Deficiência de alfa 1 antitripsina",
+    "Derrame pleural maligno",
+    "Diagnóstico de DPOC",
+    "Difusão de monóxido de carbono",
+    "Doença intersticial autoimune",
+    "Doença respiratória exacerbada por AINE",
+    "Espirometria obstrutiva",
+    "Fibrose cística no adulto",
+    "Fibrose pulmonar idiopática",
+    "Grupos da hipertensão pulmonar",
+    "Hemodinâmica da hipertensão pulmonar",
+    "Hemoptise no adulto",
+    "Hipertensão pulmonar tromboembólica crônica",
+    "Infecção pleural e pH",
+    "Oxigênio domiciliar prolongado",
+    "Pneumoconioses",
+    "Pneumonia eosinofílica",
+    "Pneumonite de hipersensibilidade",
+    "Pneumotoxicidade medicamentosa",
+    "Pneumotórax espontâneo primário",
+    "Quilotórax e pseudoquilotórax",
+    "Resgate anti-inflamatório",
+    "Sarcoidose pulmonar",
+    "Síndrome de hipoventilação da obesidade",
+    "Tuberculose pleural"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-33-infectologia-clnica.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 33 Infectologia clínica",
+   "cards": 300,
+   "subtemas": [
+    "Avaliação inicial do HIV",
+    "Bacteremia por Staphylococcus aureus",
+    "Candidíase esofágica",
+    "Chikungunya",
+    "Citomegalovírus gastrointestinal",
+    "Clostridioides difficile",
+    "Coinfecção HIV e tuberculose",
+    "Criptococose: diagnóstico",
+    "Criptococose: pressão liquórica",
+    "Criptococose: terapia e TARV",
+    "Dengue: choque e hematócrito",
+    "Dengue: confirmação laboratorial",
+    "Dengue: fases clínicas",
+    "Dengue: sinais de alarme",
+    "Doença de Chagas aguda",
+    "Doença de Chagas crônica",
+    "Encefalite herpética",
+    "Endocardite com culturas negativas",
+    "Endocardite: complicações e cirurgia",
+    "Endocardite: critérios diagnósticos",
+    "Endocardite: hemoculturas e eco",
+    "Esporotricose linfocutânea",
+    "Esquema básico da tuberculose",
+    "Esquistossomose hepatoesplênica",
+    "Estrongiloidíase e corticoide",
+    "Febre maculosa",
+    "Herpes-zóster e imunossupressão",
+    "Histoplasmose disseminada",
+    "Infecção gonocócica",
+    "Infecção latente por tuberculose",
+    "Infecção pelo vírus Zika",
+    "Início da terapia antirretroviral",
+    "Leishmaniose visceral",
+    "Leptospirose após enchente",
+    "Leucoencefalopatia multifocal progressiva",
+    "Listeria em meningite",
+    "MAC disseminado no HIV",
+    "Malária por Plasmodium vivax",
+    "Malária: diagnóstico e gravidade",
+    "Meningite bacteriana comunitária",
+    "Neurocisticercose",
+    "Neurossífilis e sífilis ocular",
+    "Neurotoxoplasmose: probabilidade",
+    "Neurotoxoplasmose: resposta",
+    "Paracoccidioidomicose crônica",
+    "Pneumocistose: apresentação",
+    "Pneumocistose: manejo e gravidade",
+    "Pneumocistose: profilaxia",
+    "Reconstituição imune",
+    "Retinite por citomegalovírus",
+    "Sífilis: sorologia e seguimento",
+    "Síndrome cardiopulmonar por hantavírus",
+    "Síndrome retroviral aguda",
+    "Teste molecular para tuberculose",
+    "Testes de HIV e janela",
+    "Toxicidade dos fármacos da TB",
+    "Tuberculose meníngea",
+    "Tuberculose miliar",
+    "Tuberculose pulmonar: suspeita",
+    "Tuberculose resistente"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-34-nefrologia-clnica.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 34 Nefrologia clínica",
+   "cards": 255,
+   "subtemas": [
+    "AINE e função renal",
+    "ATR tipo 4",
+    "Acesso vascular para diálise",
+    "Acidose tubular distal",
+    "Acidose tubular proximal",
+    "Amiloidose renal",
+    "Anemia da DRC",
+    "Anti membrana basal glomerular",
+    "Biópsia renal",
+    "Bloqueio renina angiotensina",
+    "Categorias de albuminúria",
+    "Categorias de filtração",
+    "Congestão e rim",
+    "Cálculos infecciosos",
+    "DRC definição",
+    "DRC e metabolismo mineral",
+    "Diálise e adequação clínica",
+    "Doença policística hereditária",
+    "Doença renal diabética",
+    "Estenose de artéria renal",
+    "Excreção fracionada de sódio",
+    "GESF primária e secundária",
+    "GN relacionada à infecção",
+    "Hematúria glomerular",
+    "Hipercalemia crônica e fármacos",
+    "Imagens renais e cronicidade",
+    "Infecção de cisto renal",
+    "Interpretação da creatinina",
+    "Lesões mínimas",
+    "Litíase cálcica",
+    "Litíase de ácido úrico",
+    "Medicamentos na DRC",
+    "Nefrite intersticial medicamentosa",
+    "Nefropatia membranosa",
+    "Nefropatia por IgA",
+    "Nefropatia por cadeias leves",
+    "Obstrução urinária",
+    "Padrões de imunofluorescência",
+    "Prognóstico renal",
+    "Proteinúria glomerular e tubular",
+    "Proteção renal e estilo de vida",
+    "SGLT2 na nefroproteção",
+    "Sedimento e lesão tubular",
+    "Síndrome de Bartter",
+    "Síndrome de Gitelman",
+    "Síndrome de Liddle",
+    "Síndrome nefrítica",
+    "Síndrome nefrótica",
+    "Síndrome urêmica",
+    "Tolvaptana na DRPAD",
+    "Transplante renal e creatinina"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-35-endocrinologia-clnica.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 35 Endocrinologia clínica",
+   "cards": 245,
+   "subtemas": [
+    "Acromegalia",
+    "Agonistas de GLP1",
+    "Amiodarona e tireoide",
+    "Apoplexia hipofisária",
+    "Armadilhas laboratoriais da tireoide",
+    "Cetoacidose euglicêmica",
+    "Classificação do diabetes",
+    "Corticoide e supressão adrenal",
+    "Crise adrenal",
+    "Critérios de diabetes",
+    "Denosumabe e sequência terapêutica",
+    "Diabetes insípido central",
+    "Diabetes monogênico e pancreático",
+    "Diagnóstico da cetoacidose",
+    "Doença de Graves",
+    "Estado hiperosmolar",
+    "Feocromocitoma",
+    "Hiperaldosteronismo primário",
+    "Hipercalcemia hipocalciúrica familiar",
+    "Hiperparatireoidismo primário",
+    "Hiperprolactinemia",
+    "Hipoglicemia",
+    "Hipogonadismo masculino",
+    "Hipotireoidismo central",
+    "Hipotireoidismo primário",
+    "Hipotireoidismo subclínico",
+    "Incidentaloma adrenal",
+    "Inibidores de DPP4",
+    "Insuficiência adrenal central",
+    "Insuficiência adrenal primária",
+    "Insulina basal e prandial",
+    "Limitações da HbA1c",
+    "Metas glicêmicas individualizadas",
+    "Metformina",
+    "Neuropatia autonômica diabética",
+    "Nódulo tireoidiano",
+    "Nódulos tóxicos",
+    "Osteomalácia",
+    "Osteoporose diagnóstico",
+    "Potássio nas crises hiperglicêmicas",
+    "Pré-diabetes",
+    "Pé diabético",
+    "SGLT2 no diabetes",
+    "Segurança dos antitireoidianos",
+    "Sulfonilureias",
+    "Síndrome de Cushing",
+    "Tempestade tireotóxica",
+    "Tiazolidinedionas",
+    "Tireoidites destrutivas"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-36-gastroenterologia-e-hepatologia.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 36 Gastroenterologia e hepatologia",
+   "cards": 200,
+   "subtemas": [
+    "Ascite na cirrose",
+    "Bilirrubina e icterícia",
+    "Cirrose compensada e descompensada",
+    "Colangite aguda e obstrução biliar",
+    "Colangite biliar primária",
+    "Colangite esclerosante primária",
+    "Coleções pancreáticas",
+    "Colite microscópica",
+    "Colite ulcerativa aguda grave",
+    "Diagnóstico de hepatite C",
+    "Diagnóstico de pancreatite aguda",
+    "Doença celíaca",
+    "Doença de Crohn",
+    "Doença de Wilson",
+    "Encefalopatia hepática",
+    "Esofagite eosinofílica",
+    "Esteatose hepática metabólica",
+    "FIB4",
+    "Gradiente de albumina na ascite",
+    "Gravidade da pancreatite",
+    "Helicobacter pylori",
+    "Hemocromatose hereditária",
+    "Hemorragia digestiva alta não varicosa",
+    "Hemorragia varicosa",
+    "Hepatite autoimune",
+    "Hipertensão portal e varizes",
+    "Insuficiência hepática aguda",
+    "Insuficiência pancreática exócrina",
+    "Lesão hepática induzida por fármacos",
+    "Nutrição na pancreatite aguda",
+    "Padrões de lesão hepática",
+    "Pancreatite de origem biliar",
+    "Peritonite bacteriana espontânea",
+    "Peritonite secundária",
+    "Reativação de hepatite B",
+    "Refluxo gastroesofágico",
+    "Retocolite ulcerativa",
+    "Sorologia da hepatite B",
+    "Síndrome hepatorrenal",
+    "Vigilância de carcinoma hepatocelular"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-37-hematologia-e-oncologia.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 37 Hematologia e oncologia",
+   "cards": 150,
+   "subtemas": [
+    "Amiloidose e tipagem",
+    "Deficiência de vitamina B12",
+    "Esferócitos e esquizócitos",
+    "Ferropriva e investigação etiológica",
+    "HIT e escolhas de anticoagulação",
+    "HIT e probabilidade clínica",
+    "Hemólise autoimune quente",
+    "Hemólise e seus marcadores",
+    "LMA e definição integrada",
+    "LMC e BCR ABL1",
+    "LMC e seleção terapêutica",
+    "Leucemia promielocítica",
+    "Leucocitose e reação leucemoide",
+    "Linfoma e comprometimento extranodal",
+    "Linfoma e diagnóstico tecidual",
+    "MGUS e mieloma indolente",
+    "Mieloma e dano orgânico",
+    "Neutropenia e risco infeccioso",
+    "PTI e diagnóstico de exclusão",
+    "Pancitopenia e esplenomegalia",
+    "Pseudotrombocitopenia",
+    "Reticulócitos e produção eritroide",
+    "SLiM no mieloma",
+    "Sangramento mucocutâneo e hemostasia",
+    "Síndrome antifosfolípide",
+    "Síndrome de lise tumoral",
+    "TEV provocado e não provocado",
+    "TP e TTPa na interpretação inicial",
+    "Trombofilias e indicação de testes",
+    "Trombose associada ao câncer"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-38-reumatologia-e-imunologia.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 38 Reumatologia e imunologia",
+   "cards": 150,
+   "subtemas": [
+    "Arterite de células gigantes",
+    "Artrite inflamatória e padrão clínico",
+    "Artrite psoriásica e entesite",
+    "Artrite reumatoide e sorologia",
+    "Artrite reumatoide e tratamento",
+    "Autoanticorpos e probabilidade pré-teste",
+    "Crise renal esclerodérmica",
+    "Dermatomiosite e anticorpos",
+    "Doença por cristais de CPP",
+    "Esclerose sistêmica e fenótipo",
+    "Espondiloartrite axial",
+    "Fibromialgia e sensibilização",
+    "Glicocorticoides e dano cumulativo",
+    "Gota e cristais",
+    "Gota e redução de urato",
+    "Granulomatose com poliangiite",
+    "Granulomatose eosinofílica com poliangiite",
+    "Imunobiológicos e infecção",
+    "Lúpus e avaliação renal",
+    "Lúpus e dano versus atividade",
+    "Lúpus e interpretação do FAN",
+    "Metotrexato e segurança",
+    "Miopatias inflamatórias",
+    "Monoartrite e artrite séptica",
+    "Osteoartrite e dor mecânica",
+    "Poliangiite microscópica",
+    "Polimialgia reumática",
+    "Síndrome de Sjögren",
+    "Takayasu e poliarterite nodosa",
+    "Vasculites e tamanho do vaso"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-39-neurologia-clnica.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 39 Neurologia clínica",
+   "cards": 150,
+   "subtemas": [
+    "AIT e risco precoce",
+    "AVC e localização cortical",
+    "AVC e prevenção secundária etiológica",
+    "Anticrise e escolha individualizada",
+    "Aura migranosa e diagnóstico diferencial",
+    "Cauda equina",
+    "Cefaleia e sinais de alarme",
+    "Cefaleia em salvas e tensional",
+    "Crise miastênica e proteção ventilatória",
+    "Crises focais e semiologia",
+    "Demência com corpos de Lewy",
+    "Demência e autonomia",
+    "Esclerose lateral amiotrófica",
+    "Esclerose múltipla e apresentação",
+    "Esclerose múltipla e surtos",
+    "Guillain-Barré e deterioração",
+    "Guillain-Barré e diagnóstico",
+    "Miastenia gravis e fatigabilidade",
+    "Mielopatia e nível sensitivo",
+    "Migrânea sem aura",
+    "Mononeuropatia e radiculopatia",
+    "Neuropatia periférica distal",
+    "Paralisia facial periférica",
+    "Parkinson e manejo dos sintomas",
+    "Parkinsonismo e sinais cardinais",
+    "Primeira crise epiléptica",
+    "Síncope versus crise",
+    "Síndrome vestibular aguda e AVC",
+    "Tremor de ação e repouso",
+    "Vertigem posicional paroxística benigna"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-40-clnica-integrada-e-evidncia.json",
+   "tema": "IAs 360X › R3 Clínica Médica › 40 Clínica integrada e evidência",
+   "cards": 150,
+   "subtemas": [
+    "Celulite e abscesso",
+    "Delirium e intervenções não farmacológicas",
+    "Delirium e reconhecimento no idoso",
+    "Desenhos observacionais e causalidade",
+    "Desfechos compostos e substitutos",
+    "Efeito absoluto, NNT e NNH",
+    "Ensaios randomizados e ocultação",
+    "Escabiose e controle de transmissão",
+    "Fragilidade e estado funcional basal",
+    "Fratura por fragilidade e prevenção",
+    "GRADE e aplicabilidade",
+    "Herpes-zóster e urgência ocular",
+    "Hipotensão ortostática e quedas",
+    "Incontinência e funcionalidade",
+    "Intervalo de confiança e valor de p",
+    "Limiar de teste e curva ROC",
+    "Melanoma e lesão pigmentada",
+    "Metanálise e heterogeneidade",
+    "Multimorbidade e objetivos de cuidado",
+    "Não inferioridade e equivalência",
+    "Polifarmácia e desprescrição",
+    "Quedas e avaliação multifatorial",
+    "Quedas e prevenção individualizada",
+    "Razões de verossimilhança e Bayes",
+    "Risco relativo e odds ratio",
+    "Sensibilidade e especificidade",
+    "Subgrupos e interação",
+    "Urticária e angioedema",
+    "Valores preditivos e prevalência",
+    "Vieses e estudos diagnósticos"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-gastroenterologia-e-hepatologia.json",
+   "tema": "IAs 360X › R3 Clínica Médica › Gastroenterologia e hepatologia",
+   "cards": 40,
+   "subtemas": [
+    "Distúrbios funcionais",
+    "Esôfago",
+    "Oncologia digestiva"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-neurologia.json",
+   "tema": "IAs 360X › R3 Clínica Médica › Neurologia",
+   "cards": 40,
+   "subtemas": [
+    "Cefaleias",
+    "Cognição",
+    "Desmielinização",
+    "Distúrbios do movimento"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-r3-clnica-mdica-reumatologia-e-imunologia.json",
+   "tema": "IAs 360X › R3 Clínica Médica › Reumatologia e imunologia",
+   "cards": 40,
+   "subtemas": [
+    "Artrites inflamatórias",
+    "Conectivopatias",
+    "Espondiloartrites"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-01-ventilao-mecnica.json",
+   "tema": "IAs 360X › TEMI 2028 › 01 Ventilação mecânica",
+   "cards": 111,
+   "subtemas": [
+    "Mecânica"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-02-assincronias.json",
+   "tema": "IAs 360X › TEMI 2028 › 02 Assincronias",
+   "cards": 101,
+   "subtemas": [
+    "Ciclagem",
+    "Drive",
+    "Fluxo",
+    "Ritmo",
+    "Trigger"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-03-estratgias-ventilatrias.json",
+   "tema": "IAs 360X › TEMI 2028 › 03 Estratégias ventilatórias",
+   "cards": 109,
+   "subtemas": [
+    "Desmame",
+    "Modos",
+    "Obstrução",
+    "Proteção"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-04-sdra-e-oxigenao.json",
+   "tema": "IAs 360X › TEMI 2028 › 04 SDRA e oxigenação",
+   "cards": 113,
+   "subtemas": [
+    "Definição",
+    "Fisiologia",
+    "Gravidade",
+    "Monitorização",
+    "Prona",
+    "Recrutamento"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-05-via-area-e-suporte.json",
+   "tema": "IAs 360X › TEMI 2028 › 05 Via aérea e suporte",
+   "cards": 108,
+   "subtemas": [
+    "Avaliação",
+    "CNAF",
+    "Confirmação",
+    "Obstrução",
+    "Oxigênio",
+    "Pré-oxigenação",
+    "VNI"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-06-choque-e-perfuso.json",
+   "tema": "IAs 360X › TEMI 2028 › 06 Choque e perfusão",
+   "cards": 105,
+   "subtemas": [
+    "Fenótipos",
+    "Perfusão"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-07-hemodinmica-e-vasoativos.json",
+   "tema": "IAs 360X › TEMI 2028 › 07 Hemodinâmica e vasoativos",
+   "cards": 108,
+   "subtemas": [
+    "Cardíaco",
+    "Fluidos",
+    "Inotrópicos",
+    "Vasopressores"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-08-sepse-ssc-2026.json",
+   "tema": "IAs 360X › TEMI 2028 › 08 Sepse SSC 2026",
+   "cards": 111,
+   "subtemas": [
+    "Antibióticos",
+    "Controle de foco",
+    "Fluidos",
+    "Reavaliação",
+    "Reconhecimento",
+    "Suporte",
+    "Vasopressores"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-09-antimicrobianos.json",
+   "tema": "IAs 360X › TEMI 2028 › 09 Antimicrobianos",
+   "cards": 108,
+   "subtemas": [
+    "Antifúngicos",
+    "Antivirais",
+    "PK/PD",
+    "Patógenos",
+    "Princípios"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-10-infeces-de-uti.json",
+   "tema": "IAs 360X › TEMI 2028 › 10 Infecções de UTI",
+   "cards": 103,
+   "subtemas": [
+    "Dispositivos",
+    "Focos"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-11-pocus-pulmonar.json",
+   "tema": "IAs 360X › TEMI 2028 › 11 POCUS pulmonar",
+   "cards": 105,
+   "subtemas": [
+    "Artefatos",
+    "Congestão",
+    "Consolidação",
+    "Derrame",
+    "Pneumotórax",
+    "Protocolos",
+    "Segurança"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-12-pocus-cardaco.json",
+   "tema": "IAs 360X › TEMI 2028 › 12 POCUS cardíaco",
+   "cards": 102,
+   "subtemas": [
+    "Contratilidade",
+    "Janelas",
+    "Pericárdio",
+    "VD",
+    "Valvas"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-13-pocus-hemodinmico.json",
+   "tema": "IAs 360X › TEMI 2028 › 13 POCUS hemodinâmico",
+   "cards": 110,
+   "subtemas": [
+    "Congestão",
+    "RUSH",
+    "VTI",
+    "Vascular",
+    "Volume"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-14-nefrologia-crtica.json",
+   "tema": "IAs 360X › TEMI 2028 › 14 Nefrologia crítica",
+   "cards": 103,
+   "subtemas": [
+    "Critérios",
+    "DRC",
+    "Diagnóstico",
+    "Obstrução",
+    "TRS"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-15-equilbrio-cido-base.json",
+   "tema": "IAs 360X › TEMI 2028 › 15 Equilíbrio ácido-base",
+   "cards": 107,
+   "subtemas": [
+    "Cálculos",
+    "Lactato",
+    "Metabolismo",
+    "Passos"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-16-distrbios-eletrolticos.json",
+   "tema": "IAs 360X › TEMI 2028 › 16 Distúrbios eletrolíticos",
+   "cards": 103,
+   "subtemas": [
+    "Cálcio",
+    "Fósforo",
+    "Magnésio",
+    "Potássio",
+    "Sódio"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-17-cardiologia-crtica.json",
+   "tema": "IAs 360X › TEMI 2028 › 17 Cardiologia crítica",
+   "cards": 101,
+   "subtemas": [
+    "Aorta",
+    "Choque",
+    "Insuficiência cardíaca",
+    "Pericárdio",
+    "SCA",
+    "TEP",
+    "Valvas"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-18-arritmias-e-pcr.json",
+   "tema": "IAs 360X › TEMI 2028 › 18 Arritmias e PCR",
+   "cards": 104,
+   "subtemas": [
+    "Bradicardias",
+    "ECG",
+    "PCR",
+    "Taquicardias"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-19-neurologia-crtica.json",
+   "tema": "IAs 360X › TEMI 2028 › 19 Neurologia crítica",
+   "cards": 106,
+   "subtemas": [
+    "Crises",
+    "Delirium",
+    "Fraqueza",
+    "Hemorragia",
+    "Isquemia",
+    "Morte encefálica",
+    "Pressão intracraniana"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-20-tce-e-avc.json",
+   "tema": "IAs 360X › TEMI 2028 › 20 TCE e AVC",
+   "cards": 107,
+   "subtemas": [
+    "AVC",
+    "Neurovascular",
+    "Pós-parada",
+    "TCE",
+    "Trauma"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-21-sedao-e-analgesia.json",
+   "tema": "IAs 360X › TEMI 2028 › 21 Sedação e analgesia",
+   "cards": 120,
+   "subtemas": [
+    "Analgesia",
+    "Delirium",
+    "Mobilidade",
+    "Sedação"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-22-hematologia-e-coagulao.json",
+   "tema": "IAs 360X › TEMI 2028 › 22 Hematologia e coagulação",
+   "cards": 114,
+   "subtemas": [
+    "Anticoagulação",
+    "CIVD",
+    "Coagulação",
+    "Plaquetas",
+    "TVP",
+    "Transfusão"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-23-endocrinologia.json",
+   "tema": "IAs 360X › TEMI 2028 › 23 Endocrinologia",
+   "cards": 106,
+   "subtemas": [
+    "Adrenal",
+    "Cálcio",
+    "Glicemia",
+    "Metabolismo",
+    "Tireoide"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-24-gastro-e-hepatologia.json",
+   "tema": "IAs 360X › TEMI 2028 › 24 Gastro e hepatologia",
+   "cards": 103,
+   "subtemas": [
+    "Abdome",
+    "Cirrose",
+    "Hemorragia",
+    "Pâncreas"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-25-emergncias-oncolgicas.json",
+   "tema": "IAs 360X › TEMI 2028 › 25 Emergências oncológicas",
+   "cards": 106,
+   "subtemas": [
+    "Compressão",
+    "Cálcio",
+    "Hematologia",
+    "Infecção",
+    "Metabolismo",
+    "Tratamento"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-26-trauma-e-ps-operatrio.json",
+   "tema": "IAs 360X › TEMI 2028 › 26 Trauma e pós-operatório",
+   "cards": 106,
+   "subtemas": [
+    "Hemorragia",
+    "Pós-operatório",
+    "Queimaduras",
+    "Trauma"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-27-pneumologia-clnica.json",
+   "tema": "IAs 360X › TEMI 2028 › 27 Pneumologia clínica",
+   "cards": 108,
+   "subtemas": [
+    "Asma",
+    "Aspiração",
+    "DPOC",
+    "Hipertensão pulmonar",
+    "Interstício",
+    "Oxigenação",
+    "Pleura",
+    "SAOS",
+    "TEP"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-28-clnica-mdica-integrada.json",
+   "tema": "IAs 360X › TEMI 2028 › 28 Clínica médica integrada",
+   "cards": 104,
+   "subtemas": [
+    "Dermato/infecto",
+    "Geriatria",
+    "Infectologia",
+    "Reumatologia",
+    "Risco CV"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-29-nutrio-e-preveno.json",
+   "tema": "IAs 360X › TEMI 2028 › 29 Nutrição e prevenção",
+   "cards": 120,
+   "subtemas": [
+    "Nutrição",
+    "Prevenção",
+    "Qualidade"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-30-procedimentos-e-tica.json",
+   "tema": "IAs 360X › TEMI 2028 › 30 Procedimentos e ética",
+   "cards": 123,
+   "subtemas": [
+    "Pesquisa",
+    "Procedimentos",
+    "Segurança",
+    "Ética"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-cardiologia-r3.json",
+   "tema": "IAs 360X › TEMI 2028 › Cardiologia R3",
+   "cards": 250,
+   "subtemas": [
+    "Aorta e vasos",
+    "Arritmias",
+    "Coronariopatia",
+    "Hipertensão",
+    "Infecção cardiovascular",
+    "Insuficiência cardíaca",
+    "Miocárdio",
+    "Pericárdio",
+    "Prevenção cardiovascular",
+    "Valvopatias"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-endocrinologia-e-metabolismo.json",
+   "tema": "IAs 360X › TEMI 2028 › Endocrinologia e metabolismo",
+   "cards": 249,
+   "subtemas": [
+    "Adrenal",
+    "Crises hiperglicêmicas",
+    "Diabetes",
+    "Diabetes hospitalar",
+    "Hipoglicemia",
+    "Hipófise",
+    "Obesidade",
+    "Osso",
+    "Paratireoide e cálcio",
+    "Tireoide"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-gastroenterologia-e-hepatologia.json",
+   "tema": "IAs 360X › TEMI 2028 › Gastroenterologia e hepatologia",
+   "cards": 159,
+   "subtemas": [
+    "Cirrose",
+    "Diarreia",
+    "Doença inflamatória intestinal",
+    "Doenças hepáticas crônicas",
+    "Estômago",
+    "Esôfago",
+    "Falência hepática",
+    "Hemorragia digestiva",
+    "Hepatites",
+    "Intestino delgado",
+    "Pâncreas",
+    "Vias biliares"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-hematologia-e-oncologia.json",
+   "tema": "IAs 360X › TEMI 2028 › Hematologia e oncologia",
+   "cards": 150,
+   "subtemas": [
+    "Anemias",
+    "Coagulação",
+    "Emergências oncológicas",
+    "Gamopatias",
+    "Hemoglobinopatias",
+    "Hemostasia",
+    "Leucemias",
+    "Leucemias e linfomas",
+    "Microangiopatias",
+    "Plaquetas",
+    "Transfusão",
+    "Trombose"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-infectologia.json",
+   "tema": "IAs 360X › TEMI 2028 › Infectologia",
+   "cards": 200,
+   "subtemas": [
+    "Arboviroses",
+    "Doenças tropicais",
+    "HIV",
+    "Infecções hospitalares",
+    "Infecções sistêmicas",
+    "Micoses invasivas",
+    "Resistência bacteriana",
+    "Sistema nervoso",
+    "Tuberculose",
+    "Viroses respiratórias",
+    "Zoonoses"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-medicina-baseada-em-evidncias.json",
+   "tema": "IAs 360X › TEMI 2028 › Medicina baseada em evidências",
+   "cards": 40,
+   "subtemas": [
+    "Diagnóstico",
+    "Ensaios",
+    "Síntese",
+    "Tratamento"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-medicina-intensiva.json",
+   "tema": "IAs 360X › TEMI 2028 › Medicina intensiva",
+   "cards": 40,
+   "subtemas": [
+    "Nutrição",
+    "Ética"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-nefrologia-e-metabolismo-renal.json",
+   "tema": "IAs 360X › TEMI 2028 › Nefrologia e metabolismo renal",
+   "cards": 250,
+   "subtemas": [
+    "DRC",
+    "Glomerulopatias",
+    "LRA",
+    "Minerais",
+    "Obstrução e cálculos",
+    "Potássio",
+    "Sódio",
+    "Terapia renal substitutiva",
+    "Transplante",
+    "Tubulointerstício",
+    "Urina e proteinúria",
+    "Ácido-base"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-neurologia.json",
+   "tema": "IAs 360X › TEMI 2028 › Neurologia",
+   "cards": 110,
+   "subtemas": [
+    "Coma",
+    "Crises epilépticas",
+    "Doença cerebrovascular",
+    "Doenças neuromusculares",
+    "Trauma",
+    "UTI"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-pneumologia-r3.json",
+   "tema": "IAs 360X › TEMI 2028 › Pneumologia R3",
+   "cards": 250,
+   "subtemas": [
+    "Asma",
+    "Circulação pulmonar",
+    "DPOC",
+    "Doenças intersticiais",
+    "Função pulmonar",
+    "Hemorragia respiratória",
+    "Infecções respiratórias",
+    "Nódulos e neoplasia",
+    "Pleura",
+    "Sono",
+    "Tromboembolismo",
+    "Vias aéreas"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-reumatologia-e-imunologia.json",
+   "tema": "IAs 360X › TEMI 2028 › Reumatologia e imunologia",
+   "cards": 110,
+   "subtemas": [
+    "Artrites por cristais",
+    "Conectivopatias",
+    "Miopatias",
+    "Monoartrite",
+    "Segurança terapêutica",
+    "Trombose autoimune",
+    "Vasculites"
+   ]
+  },
+  {
+   "colecao": "ia360",
+   "arquivo": "data/decks/ia360-temi-2028-toxicologia.json",
+   "tema": "IAs 360X › TEMI 2028 › Toxicologia",
+   "cards": 70,
+   "subtemas": [
+    "Analgésicos",
+    "Cardiotóxicos",
+    "Colinérgicos",
+    "Depressores",
+    "Salicilatos",
+    "Toxíndromes",
+    "Álcoois tóxicos"
    ]
   }
  ]

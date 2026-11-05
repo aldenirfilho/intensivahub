@@ -1,0 +1,181 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## D | ❤️ Coração I: janelas e função do VE | ASE Focused Cardiac Ultrasound 2013; ASE chamber quantification 2015
+
+Q: 🪟 Quais as <b>4 janelas</b> básicas do ecocardiograma focado?
+A: | Janela | Posição | Vê |
+| Paraesternal eixo longo (PEL) | 3º–4º EIC esquerdo, marcador → ombro D | VE, VD, AE, valvas aórtica/mitral, pericárdio |
+| Paraesternal eixo curto (PEC) | girar 90° (marcador → ombro E) | VE em “rosquinha”, septo (D-sign) |
+| Apical 4 câmaras (A4C) | ictus, marcador → axila E | 4 câmaras, VD/VE, TAPSE, Doppler |
+| Subcostal (S4C) | subxifoide, marcador → E do paciente | 4 câmaras, derrame, VCI |
+I: pc_janelas.png
+
+Q: 🚑 Qual janela é a mais útil na <b>PCR e no trauma</b>?
+A: <b>Subcostal</b>: não interfere nas compressões (pausa ≤ 10 s), boa para derrame pericárdico e atividade cardíaca.
+
+Q: 🫀 Qual janela é a melhor para comparar <b>VD × VE</b>?
+A: <b>Apical 4 câmaras</b>: VD normal tem ≤ 2/3 do diâmetro do VE (relação VD/VE < 0,6).
+
+Q: 🍩 O que se avalia no <b>paraesternal eixo curto</b> no nível dos músculos papilares?
+A: Contratilidade global e segmentar do VE (territórios coronarianos), forma do septo (sinal do D), espessura de parede.
+
+Q: 👁️ Como se faz a <b>avaliação visual</b> (“eyeballing”) da função do VE?
+A: Espessamento das paredes + redução da cavidade + movimento do folheto anterior mitral em direção ao septo.
+| Categoria | FEVE aproximada |
+| Hiperdinâmica | > 70% (cavidade quase oblitera) |
+| Normal | 50–70% |
+| Reduzida moderada | 30–50% |
+| Muito reduzida | < 30% |
+X: Avaliadores treinados têm boa concordância com a FE medida.
+
+Q: 📏 O que é o <b>EPSS</b>?
+A: E-Point Septal Separation: distância entre o ponto E do folheto anterior mitral e o septo, no modo M (PEL).
+| EPSS | Sugere |
+| < 7 mm | FEVE normal |
+| > 7 mm | FEVE reduzida |
+| > 12–13 mm | FEVE < 30% (grave) |
+X: Inválido em estenose mitral, insuficiência aórtica grave e hipertrofia septal assimétrica.
+
+Q: 📐 Fórmula de <b>Simpson biplanar</b>?
+A: Método recomendado para FEVE: traçar endocárdio em A4C e A2C na diástole e na sístole → volumes e FE.
+Normal: FE ≥ 52% (♂) / ≥ 54% (♀) (ASE 2015).
+
+Q: 📉 O que é o <b>MAPSE</b>?
+A: Excursão sistólica do anel mitral (modo M em A4C, parede lateral):
+Normal > <b>10 mm</b>; < 8 mm sugere FEVE reduzida — útil quando a janela é ruim para Simpson.
+
+Q: 🌀 O que é o <b>strain longitudinal global</b> (GLS)?
+A: Deformação miocárdica pelo speckle tracking: normal ≈ <b>−18 a −20%</b> ou mais negativo; menos negativo (ex.: −12%) = disfunção sistólica precoce mesmo com FE normal.
+
+Q: 🧮 O que é <b>FAC</b> e para que ventrículo é usada?
+A: Fractional Area Change = (área diastólica − sistólica) / área diastólica × 100. Usada principalmente no <b>VD</b> (normal ≥ 35%).
+
+Q: 📏 Dimensões normais do VE no PEL?
+A: Diâmetro diastólico do VE: ~ 42–58 mm (♂) / 38–52 mm (♀); septo e parede posterior ≤ 10–11 mm.
+S: ASE 2015
+
+Q: 🧱 <b>Hipertrofia</b> com cavidade pequena e obliteração sistólica: o que pensar?
+A: Hipovolemia/estado hiperdinâmico, cardiomiopatia hipertrófica, risco de <b>obstrução dinâmica da VSVE</b> (SAM) com inotrópicos.
+
+Q: ⚠️ O que é a <b>obstrução dinâmica da VSVE</b> (SAM) no choque?
+A: Movimento anterior sistólico da mitral obstruindo a via de saída em VE hipertrofiado e hipovolêmico, agravado por inotrópicos/taquicardia.
+Conduta: <b>volume, suspender inotrópico, β-bloqueador, fenilefrina/vasopressor puro</b>.
+X: Gradiente alto na VSVE pelo CW (> 30–50 mmHg) + hipotensão.
+
+Q: 🫀 Alteração <b>segmentar</b> da contratilidade: correlação com coronárias?
+A: | Território | Paredes |
+| DA | anterior, septo anterior, ápice |
+| CX | lateral, posterior/inferolateral |
+| CD | inferior, septo inferior, VD |
+
+Q: 🎈 O que é <b>Takotsubo</b> no eco?
+A: Acinesia/balonamento <b>apical</b> com hipercinesia basal (padrão clássico), não respeitando um território coronariano; desencadeado por estresse.
+⚠️ Pode ter obstrução dinâmica da VSVE.
+
+Q: 🧠 <b>Cardiomiopatia séptica</b>: como aparece?
+A: Disfunção sistólica (e/ou diastólica) do VE e/ou VD, reversível em 7–10 dias, VE frequentemente não dilatado; FE pode parecer normal com pós-carga baixa (vasoplegia).
+
+Q: 💓 Como avaliar a <b>função diastólica</b> à beira-leito?
+A: Doppler mitral (E, A, E/A) + Doppler tecidual (e' septal e lateral) → <b>E/e'</b>.
+| E/e' médio | Pressões de enchimento |
+| < 8 | normais |
+| > 14 | elevadas |
+S: ASE/EACVI 2016
+
+Q: 🧮 Valores normais de <b>e'</b> (Doppler tecidual)?
+A: e' septal ≥ 7 cm/s e lateral ≥ 10 cm/s; valores menores = relaxamento prejudicado.
+
+Q: 📊 Padrões do <b>fluxo mitral</b>?
+A: | Padrão | E/A | Significado |
+| Normal | 0,8–2 | — |
+| Alteração de relaxamento (grau I) | ≤ 0,8 | pressões normais |
+| Pseudonormal (II) | 0,8–2 com E/e' ↑ | pressões ↑ |
+| Restritivo (III) | ≥ 2 | pressões muito ↑ |
+
+Q: 🧪 Para que serve o <b>VTI da VSVE</b>?
+A: Estimar volume sistólico e DC: VS = VTI × área da VSVE (π × (D/2)²). Normal VTI <b>18–22 cm</b>; < 10–12 cm sugere baixo débito.
+I: pc_vti.png
+
+Q: 🧮 Calcule o DC: VTI 20 cm, VSVE 2,0 cm, FC 80.
+A: Área = π × 1² = 3,14 cm² → VS = 20 × 3,14 = <b>62,8 mL</b> → DC = 62,8 × 80 = <b>5,0 L/min</b>.
+X: Erro na medida do diâmetro é elevado ao quadrado → no seguimento, usar o VTI sozinho.
+
+Q: 🫀 Onde posicionar a amostra do <b>Doppler pulsado</b> para o VTI?
+A: Janela <b>apical 5 câmaras</b>, amostra ~ 0,5 cm abaixo da valva aórtica, na VSVE, alinhada ao fluxo.
+
+Q: 💡 Qual achado sugere <b>choque cardiogênico</b> no eco focado?
+A: VE dilatado e hipocinético (EPSS ↑, VTI baixo), VCI pletórica, linhas B difusas, eventualmente derrame/IM grave.
+
+Q: 🧯 Achado de <b>VE hiperdinâmico e pequeno</b> (“kissing walls”) em choque: interpretação?
+A: Hipovolemia ou vasoplegia (distributivo), ou obstrução dinâmica → ↑ chance de responder a volume (avaliar VTI/EPP).
+
+Q: 🔍 Como avaliar a <b>valva aórtica</b> no POCUS?
+A: PEL e PEC: abertura das cúspides, calcificação; Doppler CW em apical 5C para gradiente (estenose grave: Vmax ≥ 4 m/s, gradiente médio ≥ 40 mmHg, área < 1 cm²).
+
+Q: 🌀 Insuficiência mitral grave aguda: pistas no POCUS?
+A: Jato de cor amplo no AE, folheto instável (“flail”/rotura de músculo papilar pós-IAM), VE hiperdinâmico, EAP grave.
+➡️ Emergência cirúrgica (balão intra-aórtico como ponte).
+
+Q: 🩸 Endocardite: o que o POCUS pode mostrar?
+A: Vegetações móveis nas valvas (melhor no ETE), regurgitação nova, abscesso. POCUS não exclui endocardite.
+
+Q: 🧠 <b>Trombo intracavitário</b> no VE: onde procurar?
+A: Ápice acinético/aneurismático pós-IAM anterior; massa ecogênica aderida; usar contraste se duvidoso.
+
+Q: 📏 Medida do <b>átrio esquerdo</b>: significado de AE dilatado?
+A: Volume indexado > 34 mL/m² → pressões de enchimento elevadas cronicamente, disfunção diastólica, FA, valvopatia mitral.
+
+Q: 🧭 PEL: qual estrutura fica <b>posterior ao AE</b> e serve para diferenciar derrame pleural de pericárdico?
+A: <b>Aorta descendente</b>: derrame pericárdico passa <b>anterior</b> à aorta descendente; derrame pleural fica <b>posterior</b> a ela.
+
+Q: 🧪 Por que a <b>FE pode estar normal</b> no choque séptico com disfunção miocárdica?
+A: Pós-carga muito baixa (vasoplegia) “mascara” a disfunção; ao corrigir PAM com noradrenalina, a FE pode cair.
+
+Q: 🧮 FC alta e VTI baixo: como interpretar?
+A: VS baixo compensado por FC (DC pode estar normal). VTI < 10 cm com sinais de hipoperfusão = baixo débito → avaliar pré-carga e contratilidade.
+
+Q: 🫀 O que é <b>dP/dt</b> e como estimar?
+A: Velocidade de aumento da pressão do VE na isovolumetria, pelo jato de IM no CW: tempo para ir de 1 a 3 m/s. > 1.200 mmHg/s normal; < 800 = disfunção grave.
+
+Q: 🩺 Qual o papel do POCUS na <b>dor torácica</b>?
+A: Derrame pericárdico, alteração segmentar, VD dilatado (TEP), dissecção (raiz dilatada > 4 cm, flap, IA, derrame) → acelera decisão.
+
+Q: 🩸 Sinais de <b>dissecção aórtica</b> no POCUS?
+A: Raiz aórtica dilatada (> 4 cm no PEL), <b>flap</b> intimal, insuficiência aórtica nova, derrame pericárdico; aorta abdominal com flap.
+X: POCUS negativo não exclui dissecção → angio-TC.
+
+Q: 🧭 Quando a janela <b>apical</b> é difícil?
+A: Lateralizar o paciente para a esquerda (decúbito lateral E), procurar o ictus, abaixar 1 EIC.
+
+Q: 🧭 Como melhorar a janela <b>subcostal</b>?
+A: Joelhos fletidos (relaxar abdome), sonda quase paralela à pele apontando para o ombro E, inspiração profunda (se colaborativo), usar o fígado como janela.
+
+Q: ⚡ <b>Fibrilação atrial</b>: impacto nas medidas?
+A: Variabilidade batimento a batimento → medir média de 3–5 ciclos (VTI, E/e'); ausência de onda A no Doppler mitral.
+
+Q: 🧮 Qual o normal da <b>FC</b> e do índice cardíaco?
+A: IC normal 2,5–4,0 L/min/m²; < 2,2 com sinais de hipoperfusão = choque cardiogênico (com pressões ↑).
+
+Q: 🔁 POCUS seriado em <b>sepse</b>: para que?
+A: Detectar disfunção miocárdica nova (inotrópico?), VD dilatado, derrame, guiar fluidos (VTI, VCI, VExUS), avaliar resposta.
+
+Q: 🧪 O que mostrou o uso de <b>POCUS no choque indiferenciado</b> (SHoC-ED)?
+A: Protocolo POCUS × cuidado padrão no PS: <b>sem diferença</b> de sobrevida em 30 dias, embora mude diagnósticos e condutas.
+S: Atkinson PR, Ann Emerg Med 2018
+
+Q: 💡 Achado de <b>“cavidade obliterada”</b> + VCI colapsada: conduta?
+A: Hipovolemia provável → prova de volume com reavaliação (VTI/PA/perfusão).
+
+Q: 🫀 Pós-PCR: quando avaliar a <b>função do VE</b>?
+A: Precoce (nas primeiras horas) e repetida; atordoamento miocárdico pós-PCR melhora em 24–72 h.
+
+Q: 🧠 Quais os limites do POCUS cardíaco do <b>intensivista</b> (básico)?
+A: Não quantifica valvopatias complexas, não exclui endocardite, dissecção ou trombo; dúvidas → eco formal/ETE.
+
+Q: 📏 <b>Espessura</b> parietal do VE > 12–15 mm: diferenciais?
+A: Hipertensão crônica, estenose aórtica, cardiomiopatia hipertrófica, amiloidose (aspecto “granular”, baixa voltagem no ECG).
+
+Q: 🌀 Movimento <b>paradoxal do septo</b> pós-cirurgia cardíaca: significado?
+A: Frequentemente normal após pericardiotomia; também ocorre em BRE, marcapasso e sobrecarga de VD.
+
+Q: 🧮 Qual o normal do <b>diâmetro da VSVE</b>?
+A: ~ 1,8–2,2 cm em adultos (medida em mesossístole no PEL, borda interna a interna, logo abaixo da valva).

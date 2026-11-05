@@ -1,7 +1,7 @@
 # 🛡️ CÓDICE 360X · Flashcards TEMI
 
 > App próprio de flashcards com **repetição espaçada** (estilo Anki) para a prova **TEMI 2028** (AMIB) e o **R3 de Clínica Médica**.
-> **v3.1 · 4.612 cards** — 🏛️ TEMI 2028 **620** · 🩺 R3 Clínica Médica **334** · 📦 Outras IAs **3.658** (não revisados, liga/desliga em ⚙️) · 33 ilustrações · sincronização automática entre aparelhos · 🖍️ destaques amarelo/verde nos cards.
+> **v4 · 13.056 cards** — 🏛️ TEMI 2028 **1.625** (inclui 🫁 VM 500 + 🔊 POCUS 500) · 🩺 R3 Clínica Médica **334** · 📦 Outras IAs **3.864** · 🗃️ IAs 360X **7.233** (não revisados, liga/desliga em ⚙️) · 62 ilustrações · 🖍️ destaques · sincronização entre aparelhos.
 
 ☁️ **Versão com sincronização automática entre aparelhos:** página do Claude (privada, abre logado) — o progresso fica na sua conta.
 💾 **Esta versão (GitHub Pages):** mesma interface, salva só no aparelho (use Backup para levar o progresso).
@@ -22,7 +22,7 @@
 
 | Recurso | Detalhe |
 |---|---|
-| 🏛️ Coleções oficiais | **TEMI 2028: 620 cards** (Sepse aprimorada v3 + 20 novos) · **R3 Clínica Médica: 334 cards** (Cardio + 34 novos) · **Outras IAs: 3.658 cards** importados de 2 `.apkg` (Dr Aldenir ampliado com 204 casos clínicos) (marcados “não revisado”) · 33 ilustrações |
+| 🏛️ Coleções oficiais | **TEMI 2028: 1.625 cards** (15 temas + 16 🫁 Ventilação Mecânica 502 + 17 🔊 USG POCUS 503) · **R3 Clínica Médica: 334** · **Outras IAs: 3.864** (Dr Aldenir 864 + 3000) · **IAs 360X: 7.233** (2 baralhos de 5.000 sem duplicatas; só no GitHub Pages) |
 | 📊 Painel | Previsão de revisões (14 dias), atividade dos últimos 30 dias com % de acerto, progresso por coleção e por tema |
 | 🧠 Repetição espaçada | Algoritmo SM-2 estilo Anki (De novo / Difícil / Bom / Fácil), limites diários configuráveis |
 | 📦 Importa `.apkg` | Pacotes do Anki (legado e Anki 2.1.50+), com imagens, cloze e estilos |
@@ -31,7 +31,7 @@
 | 🔎 Busca | Texto livre + filtros `tag:` `deck:` `is:new` `is:due` `is:marcado` `is:dificil` → **estudar os resultados** |
 | 🚩 Marcar / ⏸️ Suspender / ↩️ Desfazer | Durante o estudo (atalhos M, S, Z) |
 | 🛟 Backup | Exporta/restaura tudo (cards + imagens + progresso) em um `.json` → leva para outro aparelho |
-| 📥 Também para o Anki | [`TEMI_2028_600`](downloads/TEMI_2028_600_flashcards.apkg) · [`R3_Clinica_Medica_300`](downloads/R3_Clinica_Medica_300_flashcards.apkg) |
+| 📥 Também para o Anki | [`TEMI_2028_1625`](downloads/TEMI_2028_1625_flashcards.apkg) · [`TEMI_VM_POCUS_1005`](downloads/TEMI_2028_VM_POCUS_1005_flashcards.apkg) · [`R3_Clinica_Medica_334`](downloads/R3_Clinica_Medica_334_flashcards.apkg) |
 
 ## ➕ Adicionar mais cards
 
@@ -41,7 +41,7 @@ Veja **[COMO_ADICIONAR.md](COMO_ADICIONAR.md)** — resumo:
 2. Cole no Claude / ChatGPT / Grok / Gemini
 3. Copie o bloco JSON da resposta → aba **📥 Importar** → **Colar** → **✅ Importar**
 
-Prompt-mestre completo: **[PROMPT_IA.md](PROMPT_IA.md)** · Método de pesquisa: **[METODO_PESQUISA.md](METODO_PESQUISA.md)** · Lista dos 600 cards: **[INDICE_CARDS.md](INDICE_CARDS.md)**
+Prompt-mestre completo: **[PROMPT_IA.md](PROMPT_IA.md)** · Método de pesquisa: **[METODO_PESQUISA.md](METODO_PESQUISA.md)** · Lista dos cards oficiais: **[INDICE_CARDS.md](INDICE_CARDS.md)**
 
 ## 🗂️ Estrutura
 

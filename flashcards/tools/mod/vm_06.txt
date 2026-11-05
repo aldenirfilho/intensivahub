@@ -1,0 +1,192 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## F | 🔀 Assincronias paciente-ventilador | Thille AW, ICM 2006; Subirà C, Respir Care 2018 (revisão)
+
+Q: 🔀 Quais os <b>grupos</b> de assincronia?
+A: | Fase | Tipos |
+| 🚦 Disparo | esforço ineficaz, autodisparo, atraso de disparo, disparo reverso |
+| 🌬️ Fluxo | fome de fluxo, fluxo excessivo |
+| 🔚 Ciclagem | ciclagem precoce, ciclagem tardia, duplo disparo |
+I: vm_assincronias.png
+
+Q: 😶 O que é <b>esforço ineficaz</b> e como reconhecer?
+A: Esforço inspiratório que <b>não dispara</b> o ventilador: deflexão negativa na pressão e/ou aumento transitório do fluxo expiratório sem ciclo.
+Causa principal: <b>auto-PEEP</b> + suporte excessivo.
+I: vm_assincronias.png
+
+Q: 🛠️ Como corrigir <b>esforço ineficaz</b>?
+A: 1️⃣ ↓ auto-PEEP (↓ VT/PS, ↑ Te, broncodilatador) · 2️⃣ PEEP externa ~70–80% da PEEPi · 3️⃣ ↓ PS se excessiva · 4️⃣ ↑ sensibilidade de disparo · 5️⃣ ↓ sedação excessiva · 6️⃣ ciclagem mais precoce na PSV.
+
+Q: 🤖 O que é <b>autodisparo</b>?
+A: Ciclo disparado <b>sem esforço</b> do paciente: vazamento, água no circuito, oscilação cardíaca, trigger sensível demais.
+Sinal: FR acima da do paciente, sem deflexão prévia na pressão.
+➡️ Corrigir vazamento/água, reduzir sensibilidade.
+
+Q: ⏳ O que é <b>atraso de disparo</b>?
+A: Tempo longo entre o início do esforço e o ciclo (auto-PEEP, trigger pouco sensível, válvulas lentas).
+↑ trabalho isométrico.
+
+Q: 🔁 O que é <b>duplo disparo</b>?
+A: Dois ciclos para um único esforço, separados por expiração curta (< 50% do Ti médio).
+Causa: Ti do ventilador <b>menor</b> que o tempo neural (VT baixo + drive alto).
+➡️ Risco de VT empilhado (volutrauma).
+I: vm_assincronias.png
+
+Q: 🛠️ Como corrigir <b>duplo disparo</b> na SDRA?
+A: ↑ Ti (ou pausa), ↑ VT discretamente (até 7–8 mL/kg se ΔP permitir), mudar para PCV/PSV, tratar drive (analgesia, sedação) e, se grave, BNM.
+S: Pohlman MC, Crit Care Med 2008
+
+Q: 🔄 O que é <b>disparo reverso</b> e como diferenciar de duplo disparo?
+A: Esforço do paciente <b>após</b> o início do ciclo da máquina (disparado pelo ventilador), por entrainment.
+| Duplo disparo | Reverso |
+| esforço inicia o 1º ciclo | 1º ciclo é da máquina |
+| paciente com drive alto | paciente sedado em modo controlado |
+S: Akoumianaki E, Chest 2013
+
+Q: 🧠 Por que o <b>disparo reverso</b> é perigoso?
+A: Pode gerar contração excêntrica (diafragma contraindo enquanto alonga) → lesão muscular; empilhamento de VT; ↑ PL regional.
+➡️ Ajustar sedação (mais leve ou mais profunda), FR, Ti; ou permitir modo espontâneo.
+
+Q: ⏱️ O que é <b>ciclagem precoce</b>?
+A: Ventilador encerra a inspiração <b>antes</b> do fim do esforço neural: “entalhe” na curva de fluxo expiratório; pode virar duplo disparo.
+➡️ PSV: ↓ % de ciclagem (Esens 10–15%); PCV: ↑ Ti.
+I: vm_assincronias.png
+
+Q: ⏱️ O que é <b>ciclagem tardia</b>?
+A: Inspiração da máquina continua após o paciente terminar: pico de pressão no fim da inspiração (paciente expirando ativamente).
+Típica do <b>DPOC</b> em PSV (fluxo cai lentamente até 25%).
+➡️ ↑ Esens para 40–60%, ↓ PS.
+
+Q: 🍽️ Como reconhecer <b>fome de fluxo</b> em VCV?
+A: Curva de pressão “escavada” (côncava) durante a inspiração, com esforço visível.
+➡️ ↑ fluxo, fluxo desacelerado, mudar para PCV/PSV.
+X: Na SDRA, pressões falsamente “boas” escondem PL alta.
+
+Q: 🌊 O que é <b>fluxo excessivo</b>?
+A: Fluxo/rise time alto demais → overshoot de pressão inicial, desconforto, ciclagem precoce.
+➡️ Tornar o rise time mais lento.
+
+Q: 📊 Qual a prevalência e impacto das <b>assincronias</b>?
+A: ~25% dos pacientes têm índice de assincronia > 10% → associado a ↑ duração da VM, ↑ traqueostomia e possivelmente ↑ mortalidade.
+S: Thille AW, ICM 2006; Blanch L, ICM 2015
+
+Q: 💊 Qual a relação entre <b>sedação e esforço ineficaz</b>?
+A: Sedação mais profunda ↓ drive → ↑ esforços ineficazes (e não o contrário); aprofundar sedação para “acalmar” piora a sincronia em PSV.
+S: de Wit M, Crit Care Med 2009
+
+Q: 🧠 Assincronia por <b>drive alto</b>: quais as causas tratáveis?
+A: Dor, ansiedade, delirium, febre, acidose metabólica, hipoxemia, sepse, estímulo de receptores J (edema), hipercapnia, distensão abdominal.
+➡️ Tratar a causa antes de ajustar só o ventilador.
+
+Q: 🎛️ Qual modo tem <b>menor índice</b> de assincronia?
+A: <b>NAVA</b> e <b>PAV+</b> (proporcionais) reduzem assincronias de disparo e ciclagem vs PSV.
+X: Benefício em desfechos duros ainda incerto.
+
+Q: 🔍 Como reconhecer assincronia <b>sem manometria</b>?
+A: Observar o paciente (musculatura acessória, abdome) + curvas de pressão e fluxo simultâneas + Edi/Pes quando disponíveis.
+
+Q: 🌀 Assincronia em <b>VNI</b>: principal causa?
+A: <b>Vazamento</b> → ciclagem tardia e autodisparo.
+➡️ Ajustar máscara, Ti máximo, ciclagem precoce, compensação de vazamento.
+
+Q: 🧮 Como estimar o <b>tempo neural</b> à beira-leito?
+A: Pelo Edi (NAVA), pela pressão esofágica ou pela observação clínica/curvas (deflexões). Ti ventilador deve ser próximo ao Ti neural.
+
+Q: 💤 Paciente em PSV 18 com FR 10 e esforços ineficazes: o que fazer?
+A: Sinal de <b>suporte excessivo</b> → ↓ PS em degraus (ex.: 14, 12) até FR 20–30 e desaparecimento dos esforços ineficazes; checar auto-PEEP.
+
+Q: 🧯 Paciente em VCV “lutando” com pressão escavada e taquipneia na SDRA: ação?
+A: 1️⃣ Analgesia/sedação conforme drive · 2️⃣ ↑ fluxo ou mudar para PCV · 3️⃣ se persistir drive extremo e P/F < 150 → considerar BNM por 24–48 h.
+
+Q: 🔁 Qual assincronia causa <b>falsa taquipneia</b> no monitor?
+A: <b>Autodisparo</b> e <b>duplo disparo</b> (FR do ventilador > FR neural).
+X: Esforço ineficaz faz o contrário: FR do ventilador < FR real do paciente.
+
+Q: 🔊 O que é <b>“entrainment”</b> respiratório?
+A: Acoplamento do ritmo neural do paciente ao ritmo da máquina (reflexo de estiramento/vagal) → base do disparo reverso.
+
+Q: 🩻 Por que assincronias aumentam o <b>tempo de VM</b>?
+A: ↑ trabalho, lesão muscular, sono fragmentado, necessidade de mais sedação, dano pulmonar (VT empilhado, PL alta).
+
+Q: 🔚 Em PSV, como a <b>ciclagem a fluxo</b> se comporta na doença restritiva?
+A: Fluxo cai rápido (constante de tempo curta) → atinge 25% cedo → <b>ciclagem precoce</b> e Ti curto.
+➡️ Reduzir Esens (10–15%).
+
+Q: 🔚 E na doença <b>obstrutiva</b>?
+A: Constante de tempo longa → fluxo cai devagar → <b>ciclagem tardia</b> (paciente já expirando).
+➡️ Aumentar Esens (40–60%).
+
+Q: 🧮 O que é <b>índice de esforço ineficaz</b> (IEI)?
+A: IEI = esforços ineficazes / (ciclos disparados + esforços ineficazes) × 100. > 10% = clinicamente relevante.
+
+Q: 🧠 Em qual situação o duplo disparo é <b>mais comum</b>?
+A: SDRA com VT baixo (6 mL/kg ou menos) e drive alto, em VCV com Ti curto.
+X: Ocorre em até ~ 1/3 dos pacientes no protocolo ARDSNet.
+
+Q: 🛑 Quando o <b>BNM</b> é a melhor solução para assincronia?
+A: SDRA moderada-grave precoce com assincronia que gera VT empilhado ou esforço lesivo apesar de ajustes e sedação adequada; por tempo limitado (24–48 h).
+
+Q: 🧷 Diferença entre <b>esforço ineficaz inspiratório</b> e <b>trigger reverso</b> na curva?
+A: Esforço ineficaz: deflexão durante a <b>expiração</b>, sem ciclo.
+Reverso: deflexão durante/logo após a <b>inspiração da máquina</b>, podendo gerar segundo ciclo.
+
+Q: 💨 Assincronia por <b>expiração ativa</b>: o que pode ocorrer?
+A: Paciente contrai abdome na expiração → ↑ pressão de via aérea no fim da inspiração (ciclagem tardia) e falsa auto-PEEP.
+
+Q: 🎛️ Ajuste prático do <b>trigger a fluxo</b>?
+A: 1–3 L/min (adultos). Se há autodisparo: ↑ para 3–5 L/min; se esforço ineficaz por trigger: ↓.
+X: O trigger quase nunca é a causa principal do esforço ineficaz — é a auto-PEEP.
+
+Q: 🔍 Como saber se o paciente está <b>“confortável”</b> no ventilador?
+A: FR 15–30, VT adequado, sem uso de acessória, sem assincronias frequentes, P0.1 < 3,5, sinais vitais estáveis, relato do paciente (quando possível).
+
+Q: 🌡️ A <b>febre</b> pode causar assincronia?
+A: Sim: ↑ VCO₂ e drive → fome de fluxo, duplo disparo, taquipneia.
+➡️ Tratar febre e ajustar suporte.
+
+Q: 🍽️ <b>Distensão abdominal</b> e assincronia?
+A: ↓ complacência da parede, ↑ trabalho → drive alto; distensão gástrica (VNI) → vômito/aspiração.
+➡️ Sonda gástrica, procinéticos, tratar íleo.
+
+Q: 🧮 Qual a importância do <b>Ti máximo</b> na PSV?
+A: Limita a inspiração (ex.: 1,5–2 s) quando há vazamento ou fluxo que não atinge o critério de ciclagem → evita ciclagem tardia prolongada.
+
+Q: 🧪 Assincronia e <b>delirium</b>: relação?
+A: Delirium hiperativo → padrão respiratório errático e drive alto; assincronia → desconforto e mais sedação → ciclo vicioso.
+➡️ Dexmedetomidina pode ajudar a sincronizar (sem deprimir drive).
+
+Q: 🧠 O que o <b>Edi</b> (NAVA) acrescenta na detecção de assincronia?
+A: Mostra o esforço neural real → identifica esforços ineficazes, atrasos e ciclagens erradas com precisão; Edi plano = apneia central/sedação.
+
+Q: 🔀 Paciente com <b>FR do ventilador 12 e FR clínica 24</b>: diagnóstico?
+A: <b>Esforços ineficazes</b> (metade dos esforços não dispara) → procurar auto-PEEP e suporte excessivo.
+
+Q: 📌 Por que o <b>duplo disparo</b> burla a ventilação protetora?
+A: VT efetivo pode chegar a 10–12 mL/kg mesmo com VT programado de 6 → volutrauma sem que o monitor alerte.
+
+Q: 🧯 Assincronia súbita + dessaturação: primeiro passo?
+A: Excluir emergência (<b>DOPE</b>): deslocamento, obstrução, pneumotórax, equipamento; ventilar manualmente com O₂ 100% se necessário.
+
+Q: 🧮 Qual a influência da <b>PEEP externa</b> no esforço ineficaz do DPOC?
+A: PEEP externa até ~80% da PEEPi reduz o limiar de disparo sem aumentar a hiperinsuflação (efeito “cachoeira”).
+X: PEEP acima da PEEPi aumenta o volume pulmonar.
+
+Q: 🔁 Qual assincronia é típica da <b>alcalose respiratória/sono</b>?
+A: Apneias centrais e respiração periódica em PSV com suporte alto → ↑ despertares.
+
+Q: 🎛️ Como o <b>rise time</b> influencia a ciclagem?
+A: Rise rápido → pico de fluxo maior → critério de 25% atingido mais cedo → Ti mais curto (ciclagem mais precoce).
+
+Q: 🧪 Qual achado da curva sugere <b>esforço expiratório ativo</b> na PSV?
+A: Pico de pressão (“overshoot”) no fim da inspiração + fluxo caindo abruptamente → paciente “empurrando” para expirar.
+
+Q: 🩺 Assincronia e <b>desmame</b>: relação?
+A: Índice de assincronia alto associa-se a desmame prolongado; ajustar PSV/ciclagem pode encurtar a VM.
+
+Q: 💡 Qual a primeira abordagem quando se encontra <b>qualquer</b> assincronia?
+A: Perguntar: <b>é problema do paciente (drive) ou do ajuste?</b> Tratar dor/ansiedade/febre/acidose e depois ajustar disparo, fluxo, ciclagem e nível de suporte.
+
+Q: 🧮 Duplo disparo: fórmula prática para <b>ajustar o Ti</b>?
+A: Aproximar o Ti do ventilador do tempo neural (observado pela duração do esforço): ↑ Ti em 0,2–0,3 s ou adicionar pausa de 0,2–0,3 s.
+
+Q: 🧬 Assincronia em <b>neuromusculares</b> (SGB, miastenia)?
+A: Esforço fraco → <b>esforço ineficaz/atraso</b> de disparo; trigger mais sensível, modos com FR de backup, suporte adequado.

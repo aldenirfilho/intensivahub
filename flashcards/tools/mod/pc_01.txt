@@ -1,0 +1,188 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## A | ⚙️ Física, sondas, botões e artefatos | Edler/Wells — Physics of ultrasound; ACEP Ultrasound Guidelines 2023
+
+Q: 🔊 O que é <b>ultrassom</b> e qual faixa de frequência se usa em medicina?
+A: Ondas mecânicas acima de 20 kHz; em diagnóstico, <b>2–15 MHz</b> (até 20+ MHz em pele/olho).
+➡️ O transdutor (cristal piezoelétrico) emite e recebe o eco.
+
+Q: ⚖️ Relação <b>frequência × resolução × penetração</b>?
+A: | Frequência | Resolução | Penetração |
+| ↑ alta (linear 7–15 MHz) | ↑ melhor | ↓ superficial (vasos, pleura) |
+| ↓ baixa (setorial/convexo 1–5 MHz) | ↓ | ↑ profunda (coração, abdome) |
+I: pc_fisica.png
+
+Q: 🧭 Quais são os 3 transdutores básicos do POCUS?
+A: | Sonda | Frequência | Uso |
+| Linear | 5–15 MHz | vasos, pleura (PNTX), acesso, nervo, olho |
+| Convexo (curvo) | 2–5 MHz | abdome, FAST, pulmão, bexiga |
+| Setorial (phased array) | 1–5 MHz | coração (janela intercostal pequena), pulmão |
+
+Q: 📏 Qual a velocidade média do som nos tecidos moles assumida pelo aparelho?
+A: <b>1.540 m/s</b> → o aparelho calcula a profundidade pelo tempo de retorno do eco.
+X: No osso ~ 4.000 m/s; no ar ~ 330 m/s.
+
+Q: 🌫️ O que é <b>impedância acústica</b> e por que o ar atrapalha?
+A: Impedância = densidade × velocidade. Interfaces com grande diferença (tecido-ar, tecido-osso) refletem quase tudo → sombra/artefato.
+➡️ Por isso usamos <b>gel</b> (elimina o ar entre sonda e pele).
+
+Q: 🎨 Nomenclatura da <b>ecogenicidade</b>?
+A: | Termo | Aparência | Exemplo |
+| Anecoico | preto | líquido simples (bexiga, derrame, sangue fresco) |
+| Hipoecoico | cinza-escuro | músculo, linfonodo |
+| Isoecoico | igual ao vizinho | — |
+| Hiperecoico | branco | osso, pleura, gordura, cálculo |
+
+Q: 🎛️ Para que serve o <b>ganho</b> (gain)?
+A: Amplifica <b>todos</b> os ecos recebidos (brilho global). Ganho alto apaga detalhes e cria falso conteúdo; baixo esconde estruturas.
+➡️ Líquido deve aparecer preto.
+
+Q: 🎚️ O que é <b>TGC</b> (compensação ganho-tempo)?
+A: Ajuste de ganho por profundidade para compensar a atenuação (ecos profundos chegam mais fracos).
+
+Q: 📐 Ajuste de <b>profundidade</b>: regra prática?
+A: Colocar a estrutura de interesse no <b>centro/terço médio</b> da tela, mostrando um pouco além dela (ex.: pericárdio posterior no paraesternal).
+
+Q: 🎯 O que é o <b>foco</b>?
+A: Zona de maior resolução lateral; posicionar no nível da estrutura-alvo (alguns aparelhos ajustam automaticamente).
+
+Q: 🧭 O que é o <b>marcador de orientação</b> da sonda?
+A: Saliência/luz na sonda que corresponde ao ponto marcado na tela.
+| Convenção | Marcador na tela |
+| Geral (radiológica/abdome) | à <b>esquerda</b> da tela |
+| Cardiológica | à <b>direita</b> da tela |
+X: Em POCUS cardíaco com preset abdominal, as imagens ficam espelhadas — atenção!
+
+Q: 🔁 O que é <b>modo B</b>?
+A: Brightness: imagem bidimensional em escala de cinza — o modo padrão.
+
+Q: 📈 O que é <b>modo M</b>?
+A: Motion: registra o movimento ao longo de <b>uma única linha</b> no tempo.
+Usos: deslizamento pleural (praia × código de barras), TAPSE, EPSS, excursão diafragmática, VCI.
+I: pc_linhas_ab.png
+
+Q: 🌈 O que é o <b>Doppler colorido</b>?
+A: Codifica a velocidade média do fluxo em cores: <b>BART</b> — Blue Away, Red Toward (azul se afasta, vermelho se aproxima da sonda).
+X: Cor não indica artéria ou veia, só direção!
+
+Q: 📊 Diferença entre <b>Doppler pulsado (PW) e contínuo (CW)</b>?
+A: | PW | CW |
+| mede velocidade em ponto específico (amostra) | mede ao longo de toda a linha |
+| sofre <b>aliasing</b> em altas velocidades | mede velocidades altas (estenose, IT) |
+| VTI na VSVE, E/A, Doppler venoso | gradiente aórtico, PSAP pela IT |
+
+Q: 🌀 O que é <b>aliasing</b>?
+A: Velocidade acima do limite de Nyquist (½ PRF) → sinal “dobra” e aparece com direção errada (mosaico no colorido).
+Corrigir: ↑ escala (PRF), ↓ profundidade, mudar linha de base, usar CW.
+
+Q: 📐 Por que o <b>ângulo de insonação</b> importa no Doppler?
+A: Velocidade medida = v × cos θ. Ângulo ideal ~0° (paralelo ao fluxo); > 60° gera erro grande.
+➡️ No coração, alinhar o feixe com o fluxo; no vascular, corrigir o ângulo ≤ 60°.
+
+Q: 🌑 O que é <b>sombra acústica posterior</b>?
+A: Faixa escura atrás de estrutura muito refletora (osso, cálculo, gás) → útil para identificar cálculos biliares/renais.
+
+Q: 💡 O que é <b>reforço acústico posterior</b>?
+A: Área mais brilhante atrás de estrutura líquida (pouca atenuação) → confirma que é cística/líquida (vesícula, bexiga, cisto).
+
+Q: 🪞 O que é <b>artefato de reverberação</b>?
+A: Ecos repetidos entre duas interfaces muito refletoras → linhas paralelas equidistantes. No pulmão = <b>linhas A</b>.
+
+Q: ☄️ O que é <b>cauda de cometa / ring-down</b>?
+A: Reverberação intensa em pequena interface (líquido-ar, metal) → linha vertical brilhante; no pulmão, as <b>linhas B</b> são artefatos verticais que partem da pleura.
+
+Q: 🪞 O que é <b>artefato de espelho</b>?
+A: Estrutura refletida do outro lado de uma interface forte (ex.: fígado “acima” do diafragma). Perda do espelho + líquido = <b>derrame pleural</b>.
+
+Q: 🌊 O que é <b>artefato de lóbulo lateral / espessura de corte</b>?
+A: Ecos falsos dentro de estruturas anecoicas (bexiga, vesícula) que simulam debris/sedimento.
+➡️ Confirmar em dois planos.
+
+Q: ↔️ Planos <b>longitudinal e transversal</b>: como confirmar uma estrutura?
+A: Toda estrutura deve ser vista em <b>dois planos ortogonais</b> (ex.: veia comprimível e tubular no longitudinal).
+
+Q: 🧭 O que significa <b>in-plane × out-of-plane</b> em procedimentos?
+A: | Técnica | Agulha | Vantagem |
+| In-plane (longitudinal) | vista em toda a extensão | vê a ponta o tempo todo |
+| Out-of-plane (transversal) | vista como ponto | relação com estruturas vizinhas |
+X: Out-of-plane: o “ponto” pode ser a haste, não a ponta → técnica de “caminhar” a ponta.
+
+Q: 🧯 O que é o princípio <b>ALARA</b>?
+A: As Low As Reasonably Achievable: menor potência e tempo de exposição possíveis (importante em olho e gestação).
+Índices: <b>MI</b> (mecânico) e <b>TI</b> (térmico).
+
+Q: 👁️ Por que reduzir o <b>MI/TI</b> no ultrassom ocular?
+A: Cristalino e retina são sensíveis ao aquecimento → usar preset ocular/baixa potência (MI < 0,23).
+
+Q: 🎞️ Por que <b>gravar clipes</b> (loops) em POCUS?
+A: Achados dinâmicos (deslizamento, contratilidade, colapso de VCI) não são capturados por imagem estática; permite revisão e documentação.
+
+Q: 🧪 O que é <b>resolução axial × lateral</b>?
+A: Axial: separar estruturas ao longo do feixe (depende do comprimento do pulso → ↑ frequência). Lateral: separar lado a lado (depende da largura do feixe → foco).
+
+Q: 🎛️ O que é <b>frame rate</b> e como aumentá-lo?
+A: Quadros por segundo; ↑ ao reduzir profundidade, largura do setor e número de focos.
+➡️ Importante em coração e para ver movimento pleural.
+
+Q: 🌡️ O que é <b>atenuação</b>?
+A: Perda de energia com a profundidade (absorção, reflexão, espalhamento); maior em frequências altas e em gordura/osso.
+
+Q: 🧭 Como segurar a sonda para <b>estabilidade</b>?
+A: Como uma caneta, com a mão apoiada no paciente (“ancorada”) → evita movimento e permite ajustes finos.
+
+Q: 🔄 Quais os 4 movimentos básicos da sonda?
+A: | Movimento | Descrição |
+| Deslizar (slide) | mover a sonda sobre a pele |
+| Inclinar (tilt/fan) | varrer o feixe sem mover o ponto de contato |
+| Rodar (rotate) | girar no próprio eixo |
+| Balançar (rock/heel-toe) | inclinar no plano do feixe |
+
+Q: 📌 Por que o <b>POCUS</b> não substitui o exame formal?
+A: É focado em perguntas binárias à beira-leito (sim/não), dependente do operador; achados duvidosos ou não esperados → exame completo/especialista.
+
+Q: 🎯 Qual o conceito de <b>pergunta binária</b> em POCUS?
+A: Exemplos: “há derrame pericárdico?”, “há pneumotórax?”, “há líquido livre?”, “o VE contrai mal?” → aumenta acurácia e reprodutibilidade.
+
+Q: 🦴 Por que é difícil ver o coração <b>através das costelas</b>?
+A: Osso reflete/atenua; por isso a sonda setorial tem “pegada” pequena para passar entre costelas.
+
+Q: 🧪 Diferença entre <b>Doppler de potência</b> (power) e colorido?
+A: Power Doppler: mais sensível a fluxos lentos, sem direção — útil para fluxo testicular, ovariano, renal, inflamação.
+
+Q: 🔍 O que é o artefato de <b>“imagem em espelho”</b> no Doppler (crosstalk)?
+A: Sinal espectral aparecendo acima e abaixo da linha de base por ganho alto ou ângulo ~90°.
+
+Q: 🧷 O que é o <b>“sinal da cortina”</b>?
+A: Pulmão aerado descendo na inspiração e “cobrindo” o fígado/baço na janela costofrênica → recesso normal; ausência = derrame/consolidação/paralisia.
+
+Q: 📏 Como medir corretamente uma estrutura?
+A: Perpendicular ao eixo, em congelamento no momento certo (fim de diástole/expiração), da borda interna à interna (ou conforme padrão), na maior dimensão.
+
+Q: 🧯 Fatores do paciente que <b>dificultam</b> a janela?
+A: Obesidade, enfisema/hiperinsuflação, VM com PEEP alta, curativos, drenos, enfisema subcutâneo, posição supina obrigatória.
+
+Q: 🔀 O que é <b>anisotropia</b>?
+A: Tendões/nervos mudam de ecogenicidade conforme o ângulo da sonda (hipoecoico se oblíquo) → pode simular lesão.
+
+Q: 📺 O que é o artefato de <b>refração</b> (lente)?
+A: Desvio do feixe em interfaces (músculo reto abdominal) → duplicação de estruturas (ex.: duplo saco gestacional).
+
+Q: 🔊 Por que o <b>líquido</b> transmite melhor o som?
+A: Pouca atenuação → serve de “janela acústica” (bexiga cheia para pelve, derrame para ver o pulmão colapsado).
+
+Q: 🧠 Qual o maior <b>viés</b> do POCUS?
+A: Viés de confirmação e “satisfação de busca”: ver o que se espera e parar no primeiro achado.
+➡️ Protocolo sistemático e integração clínica.
+
+Q: 🧽 Como prevenir <b>infecção cruzada</b> com a sonda?
+A: Limpeza/desinfecção entre pacientes (baixo/intermediário nível na pele íntegra; alto nível em mucosa); capa estéril + gel estéril em procedimentos.
+
+Q: 🎓 Competência em POCUS: o que recomendam as sociedades?
+A: Treinamento estruturado com número mínimo de exames supervisionados por aplicação (ex.: 25–50) e revisão de qualidade; certificação (ESICM, ACEP, SCCM).
+S: ACEP 2023; ESICM basic critical care US
+
+Q: 📏 Qual o <b>“normal”</b> do diâmetro aórtico abdominal?
+A: < <b>3,0 cm</b> (parede externa a externa). ≥ 3 cm = aneurisma; > 5–5,5 cm = indicação cirúrgica eletiva.
+X: Medir sempre do lado externo ao externo, no transversal, perpendicular.
+
+Q: 🔁 Qual a diferença entre <b>estudo qualitativo e quantitativo</b>?
+A: Qualitativo: “olhômetro” treinado (função VE boa/reduzida, derrame sim/não) — rápido e reprodutível. Quantitativo: medidas (VTI, TAPSE, FE) — mais objetivo, mais tempo.

@@ -1,0 +1,158 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## G | 🌊 Congestão venosa: VExUS, Doppler venoso e rim | Beaubien-Souligny W, Ultrasound J 2020 (VExUS); Rola P, Koratala A
+
+Q: 🌊 O que é o <b>VExUS</b>?
+A: Venous Excess Ultrasound Score: gradua a <b>congestão venosa sistêmica</b> combinando VCI + Doppler das veias hepática, porta e intrarrenal.
+S: Beaubien-Souligny W, Ultrasound J 2020
+I: pc_vexus.png
+
+Q: 🧮 Como graduar o <b>VExUS</b>?
+A: | Grau | Critério |
+| 0 | VCI < 2 cm |
+| 1 | VCI ≥ 2 cm + Doppler normal ou levemente alterado |
+| 2 | VCI ≥ 2 cm + <b>1</b> padrão gravemente anormal |
+| 3 | VCI ≥ 2 cm + <b>≥ 2</b> padrões gravemente anormais |
+➡️ Grau 3 associou-se a LRA pós-cirurgia cardíaca (HR ~ 3,7).
+
+Q: 💧 Doppler da <b>veia hepática</b>: padrões?
+A: | Padrão | Significado |
+| S > D | normal |
+| S < D | alteração leve (↑ PAD ou IT) |
+| S reverso | grave (IT importante/congestão grave) |
+X: O traçado normal tem ondas S e D abaixo da linha de base (fluxo para o coração) e onda A acima.
+
+Q: 💧 Doppler da <b>veia porta</b>: padrões?
+A: Índice de pulsatilidade = (Vmax − Vmin)/Vmax:
+| Pulsatilidade | Grau |
+| < 30% | normal (fluxo contínuo) |
+| 30–49% | leve |
+| ≥ 50% | grave |
+X: Fluxo hepatofugal na cirrose é outra coisa (hipertensão portal).
+
+Q: 💧 Doppler <b>venoso intrarrenal</b>: padrões?
+A: | Padrão | Grau |
+| Contínuo | normal |
+| Bifásico (S e D) | leve |
+| Monofásico (só D) | grave |
+
+Q: 🫀 Por que a congestão venosa causa <b>LRA</b>?
+A: ↑ pressão venosa renal → ↓ gradiente de perfusão (PAM − PVC), edema intersticial em órgão encapsulado → ↓ TFG (“rim congesto”).
+
+Q: 🧮 O que é a <b>pressão de perfusão renal</b>?
+A: PPR ≈ PAM − PVC (ou PAM − PIA). PVC alta reduz a perfusão mesmo com PAM “boa”.
+
+Q: 🧭 Quando suspeitar de congestão como causa da <b>piora renal</b>?
+A: LRA + balanço positivo + VCI pletórica + VExUS ≥ 2 → descongestão (diurético/UF) em vez de mais volume.
+
+Q: 🩺 VExUS orientando <b>diurético</b>: o que mostram estudos?
+A: Melhora do VExUS com descongestão acompanha melhora da função renal em IC/cardiorrenal (estudos observacionais e pequenos ensaios).
+
+Q: 💡 Limitações do <b>VExUS</b>?
+A: Cirrose (porta alterada), FA (veia hepática), IT grave crônica, ventilação com pressões altas, gestação, trombose de porta, janela ruim; operador-dependente.
+
+Q: 🧪 Como posicionar a sonda para a <b>veia hepática</b>?
+A: Subcostal/intercostal direito, veia hepática média próxima à VCI; Doppler pulsado com ECG simultâneo para identificar S e D.
+
+Q: 🧪 Como obter o Doppler <b>da porta</b>?
+A: Intercostal direito (linha axilar média), porta no hilo hepático, Doppler pulsado alinhado.
+X: Em magros/saudáveis a porta pode ser discretamente pulsátil (até ~ 30%).
+
+Q: 🧪 Como obter o Doppler <b>intrarrenal</b>?
+A: Janela lateral (rim direito ou esquerdo), Doppler colorido para achar vasos interlobares, pulsado; artéria acima e veia abaixo da linha de base.
+
+Q: 🫀 Por que <b>IT grave</b> altera o VExUS?
+A: Onda S reversa na hepática e porta pulsátil por transmissão da pressão do VD — reflete congestão real, mas pode ser crônica.
+
+Q: 🧯 VExUS 3 + hipotensão: conduta?
+A: Não dar volume; suporte com vasopressor/inotrópico, tratar a causa (VD, tamponamento), descongestão cuidadosa (UF se necessário).
+
+Q: 🩸 <b>Veia jugular interna</b> no POCUS: como estimar pressão venosa?
+A: Altura da coluna da VJI (sonda linear, paciente a 30–45°): topo > 7–8 cm acima do ângulo esternal ≈ PVC alta; VJI pletórica que não colapsa com Valsalva/inspiração.
+
+Q: 🧮 O que é a <b>razão de distensibilidade da VJI</b> (Valsalva)?
+A: Aumento da área da VJI com Valsalva < 17% sugere PAD elevada (veia já “cheia”).
+
+Q: 🫁 Congestão <b>pulmonar × sistêmica</b>: como diferenciar no USG?
+A: | Pulmonar (lado esquerdo) | Sistêmica (lado direito) |
+| linhas B, derrame, E/e' ↑ | VCI pletórica, VExUS, ascite, edema |
+
+Q: 🧭 <b>Cardiorrenal</b> tipo 1: abordagem guiada por USG?
+A: Avaliar VE/VD, VCI, VExUS, linhas B → se congestão: diurético em dose adequada (furosemida + natriurese guiada), considerar acetazolamida/tiazídico, UF se refratário.
+
+Q: 🧪 O que é o <b>índice de resistividade renal</b> (IR)?
+A: IR = (Vsist − Vdiast)/Vsist da artéria interlobar. Normal < 0,7; > 0,7–0,8 associado a LRA persistente/pior desfecho (marcador inespecífico).
+
+Q: 💧 VCI pletórica + VExUS 0–1: interpretar?
+A: VCI alta sem tradução nas veias intra-abdominais → congestão pouco relevante para órgãos (ex.: atleta, ventilação com PEEP) — “VCI isolada engana”.
+
+Q: 🌊 O que é <b>fluxo hepatofugal</b> na porta?
+A: Fluxo invertido (para fora do fígado) → hipertensão portal grave (cirrose), não necessariamente congestão cardíaca.
+
+Q: 🩺 VExUS na <b>IC aguda</b>: utilidade prática?
+A: Ajuda a decidir intensidade/duração da descongestão e a diferenciar piora renal por congestão (tratar com mais diurese) vs hipovolemia.
+
+Q: 🧮 Ascite em paciente cardiopata: o POCUS diferencia de cirrose?
+A: Congestão cardíaca: VCI pletórica, veias hepáticas dilatadas, VExUS alterado. Cirrose: fígado nodular, esplenomegalia, porta dilatada, fluxo hepatofugal, VCI normal.
+
+Q: 🫀 Onda A <b>proeminente</b> na veia hepática?
+A: Contração atrial contra VD rígido/ HP ou estenose tricúspide; ausente em FA.
+
+Q: 🧯 Paciente em <b>diálise</b> com hipotensão intradialítica: POCUS?
+A: Avaliar VCI (fina?), linhas B (ainda congesto?), função de VE → ajustar peso seco e UF.
+
+Q: 🧪 Pressão <b>intra-abdominal</b> alta pode imitar congestão no VExUS?
+A: Pode alterar fluxos venosos (compressão) — interpretar com PIA medida.
+
+Q: 💡 Por que o VExUS ganhou destaque na <b>desressuscitação</b>?
+A: Mostra o “custo” do volume em órgãos (fígado, intestino, rim) antes do edema pulmonar aparecer.
+
+Q: 🧮 VExUS pós-cirurgia cardíaca: qual achado tem maior associação com LRA?
+A: Grau <b>3</b> (≥ 2 padrões graves) e o padrão intrarrenal monofásico.
+
+Q: 🌊 Edema de <b>alça intestinal</b>/parede espessa no USG: significado em choque?
+A: Congestão esplâncnica ou isquemia; pode reduzir absorção (nutrição) e aumentar PIA.
+
+Q: 🧭 Qual a sequência do <b>exame VExUS</b>?
+A: 1️⃣ VCI (≥ 2 cm?) · se sim → 2️⃣ veia hepática · 3️⃣ veia porta · 4️⃣ intrarrenal → graduar.
+
+Q: 🫀 Congestão venosa e <b>delirium/encefalopatia</b>?
+A: Congestão hepática e esplâncnica podem contribuir para disfunção de múltiplos órgãos; evidência emergente.
+
+Q: 🩺 Edema periférico × congestão intravascular: o POCUS diferencia?
+A: Sim: edema com VCI fina e VExUS 0 = fluido no interstício (hipoalbuminemia, extravasamento) → diurético pode causar hipovolemia.
+
+Q: 🧮 Veia femoral comum com fluxo <b>pulsátil</b>: significado?
+A: Pressão venosa sistêmica alta (IT, falência de VD) — sinal adicional de congestão (pulsatilidade > 50%).
+
+Q: 🫀 Tamponamento e VExUS?
+A: VCI pletórica e padrões venosos alterados (diminuição da onda D na hepática, fluxo predominantemente sistólico) — mas a conduta é drenar.
+
+Q: 🧯 Paciente com LRA oligúrica, VCI 2,6 cm fixa, linhas B e VExUS 3: conduta?
+A: Congestão → <b>descongestão</b> (diurético em dose alta/combinação ou UF), não volume.
+
+Q: 🧪 O Doppler venoso tem <b>reprodutibilidade</b> boa?
+A: Moderada a boa com treinamento; padrões graves são mais reprodutíveis que os leves.
+
+Q: 💧 Ventilação mecânica com PEEP alta e VExUS: cuidado?
+A: PEEP ↑ PAD e altera fluxos venosos → padrões anormais podem refletir pressão torácica, não sobrecarga de volume.
+
+Q: 🫁 VExUS em <b>cirrose</b>: qual componente é menos confiável?
+A: <b>Porta</b> (alterada pela hipertensão portal e rigidez hepática) e veia hepática (fibrose).
+
+Q: 🩺 Congestão e <b>LRA</b> em sepse: qual o papel?
+A: Após ressuscitação, congestão iatrogênica contribui para LRA persistente; VExUS ajuda a identificar quem se beneficia de balanço negativo.
+
+Q: 🧮 VExUS grau 2: exemplo?
+A: VCI 2,4 cm + veia hepática com S reversa (grave) + porta pulsatilidade 35% (leve) + intrarrenal bifásico (leve) → <b>1 grave = grau 2</b>.
+
+Q: 🧮 VExUS grau 3: exemplo?
+A: VCI 2,5 cm + porta pulsatilidade 60% (grave) + intrarrenal monofásico (grave) → <b>≥ 2 graves = grau 3</b>.
+
+Q: 💡 Por que medir a VCI <b>primeiro</b> no VExUS?
+A: VCI < 2 cm = grau 0 (sem congestão relevante), dispensando o restante do exame.
+
+Q: 🫀 Qual o significado de onda S <b>reduzida</b> na hepática em FA?
+A: Em FA a onda S fica menor naturalmente (perda da contração atrial e do relaxamento) → classificação limitada.
+
+Q: 🌊 Como o tratamento muda o VExUS?
+A: Descongestão eficaz normaliza progressivamente (intrarrenal volta a contínuo, porta perde pulsatilidade) — monitorar diariamente.

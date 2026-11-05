@@ -1,0 +1,172 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## F | 💧 Hemodinâmica: VCI, VTI e fluido-responsividade | Monnet X, Teboul JL — Ann Intensive Care 2016; Cecconi M, ICM 2014 (consenso de choque)
+
+Q: 💧 Definição de <b>fluido-responsividade</b>?
+A: ↑ do volume sistólico/DC ≥ <b>10–15%</b> após bolus de fluido (ou teste equivalente).
+X: Ser responsivo não significa que precisa de volume — só que o coração está na parte ascendente da curva de Frank-Starling.
+
+Q: 📏 Como medir a <b>VCI</b> corretamente?
+A: Subcostal longitudinal, <b>1–2 cm da junção com o AD</b> (ou logo distal às veias hepáticas), modo M ou B, fim da expiração.
+X: Medida em corte oblíquo (efeito cilindro) subestima o diâmetro.
+I: pc_vci.png
+
+Q: 🫁 VCI em <b>ventilação espontânea</b>: índice de colapsabilidade?
+A: <b>(Dmáx − Dmín)/Dmáx</b>. Colapso > 50% sugere PAD baixa; > 40–50% pode sugerir responsividade, mas com baixa acurácia (esforço respiratório altera muito).
+S: Via G, ICM 2016
+
+Q: 🫁 VCI na <b>VM controlada</b>: índice de distensibilidade?
+A: <b>(Dmáx − Dmín)/Dmín > 18%</b> (Barbier) ou variação > 12% (Feissel) → fluido-responsividade, em paciente passivo, VT ≥ 8, sem HIA.
+S: Barbier C, ICM 2004; Feissel M, ICM 2004
+
+Q: ⚠️ Limitações da <b>VCI</b> para guiar volume?
+A: Esforço respiratório intenso, VM com VT baixo, HIA, falência de VD/IT grave, tamponamento, PEEP alta, obesidade.
+➡️ VCI pletórica e fixa tem mais valor (“não dar volume”) que VCI fina (“dar volume”).
+
+Q: 🦵 O que é a <b>elevação passiva das pernas</b> (EPP)?
+A: Autotransfusão de ~ 300 mL: tronco de 45° para supino com pernas a 45°, medindo DC/VS em <b>tempo real</b> (VTI, monitor de DC) em 60–90 s.
+✅ ↑ VTI ≥ <b>10–15%</b> = responsivo (sensibilidade ~ 85%, especificidade ~ 91%).
+X: Não usar PA isolada como desfecho. Contraindicado em HIC; HIA reduz a acurácia.
+S: Monnet X, ICM 2016 (metanálise)
+
+Q: 🧪 Qual a vantagem da <b>EPP</b> sobre a prova de volume?
+A: Reversível (sem dar fluido de verdade), funciona em respiração espontânea e arritmia; evita sobrecarga em não responsivos.
+
+Q: 💉 O que é o <b>minibolus</b> (mini fluid challenge)?
+A: 100 mL de cristaloide em 1 min: ↑ VTI ≥ 10% prediz resposta a bolus maior.
+X: Exige medida precisa (variação pequena ~ erro de medida).
+S: Muller L, Anesthesiology 2011
+
+Q: 🫀 O que é a <b>variação do VTI/Vmax aórtico</b> respiratória na VM?
+A: Variação respiratória do pico de velocidade aórtica > 12–14% em VM controlada → responsividade (mesmas limitações da VPP).
+
+Q: 🧮 VTI basal 14 cm → 17 cm após EPP: interpretação?
+A: Aumento de <b>21%</b> → fluido-responsivo. Decidir volume conforme <b>necessidade</b> (hipoperfusão) e <b>tolerância</b> (sem congestão).
+
+Q: 🚦 Conceito de <b>tolerância a fluidos</b>?
+A: Capacidade de receber volume sem dano (congestão venosa, edema pulmonar). Avaliar: linhas B, VExUS, VCI pletórica, E/e', disfunção de VD.
+S: Kattan E, Crit Care 2022
+
+Q: 🧭 Fluxo de decisão para dar volume no choque?
+A: 1️⃣ Há hipoperfusão? · 2️⃣ É fluido-responsivo (EPP/VTI)? · 3️⃣ Tolera volume (sem congestão)? · Sim nas três → bolus pequeno e reavaliar.
+
+Q: 🧮 Qual a relação entre <b>VCI e PVC</b>?
+A: VCI estima a PAD (≈ PVC) de forma grosseira; nem PVC nem VCI isoladas predizem bem a responsividade.
+S: Marik PE, Chest 2008 (PVC não prediz)
+
+Q: 📏 VCI < 1 cm e colabável na <b>hipotensão</b>: interpretação?
+A: Sugere pré-carga baixa (hipovolemia) — boa probabilidade de responder a volume, mas confirmar com VTI/EPP se possível.
+
+Q: 📏 VCI > 2,5 cm sem variação + VD dilatado: interpretação?
+A: Pressão venosa alta (falência de VD, tamponamento, TEP, sobrecarga) → <b>volume provavelmente prejudicial</b>.
+
+Q: 🫀 Qual é o <b>VTI</b> normal e o que indica VTI < 10 cm?
+A: Normal 18–22 cm (> 18 em geral). < 10–12 cm = <b>baixo débito</b> (choque cardiogênico/obstrutivo/hipovolêmico grave).
+I: pc_vti.png
+
+Q: 🫀 Como o VTI ajuda a escolher entre <b>volume, inotrópico e vasopressor</b>?
+A: | Achado | Sugere |
+| VTI baixo + responsivo | volume |
+| VTI baixo + não responsivo + VE fraco | inotrópico |
+| VTI normal/alto + PAM baixa | vasopressor (vasoplegia) |
+
+Q: 🧪 Fluidos guiados por <b>responsividade</b> (FRESH trial)?
+A: Ressuscitação guiada por EPP/DC em sepse → ↓ balanço hídrico, ↓ TRS e VM vs cuidado usual.
+S: Douglas IS, Chest 2020
+
+Q: 🧮 Qual a variação mínima <b>detectável</b> do VTI?
+A: Erro intraobservador ~ 5–10% → usar média de 3 batimentos (5 em FA) e manter a mesma posição da sonda e amostra.
+
+Q: 🌀 VCI em <b>hipertensão intra-abdominal</b>?
+A: Pode estar falsamente pequena (compressão) ou com variação alterada → baixa confiabilidade.
+
+Q: 🫁 VCI × <b>veia jugular interna</b> e veia subclávia: alternativas?
+A: Colapso respiratório da subclávia/VJI e distensão da VJI (pressão venosa) podem ser usados quando a VCI não é visível (abdome aberto, obesidade).
+
+Q: 🧠 Por que <b>não</b> confiar na “VCI cheia = não precisa de volume” em todos?
+A: VM com PEEP alta e SDRA, falência de VD crônica, IT, tamponamento → VCI dilatada mesmo com hipovolemia relativa.
+
+Q: 🧮 <b>Variação de pressão de pulso</b> (VPP) e pré-requisitos?
+A: VPP > 13% (paciente em VM controlada, VT ≥ 8, ritmo sinusal, tórax fechado, sem esforço, FC/FR > 3,6) → responsivo; zona cinzenta 9–13%.
+S: Cannesson M, Anesthesiology 2011
+
+Q: 🫀 Por que <b>arritmia</b> invalida VPP, mas não a EPP?
+A: VPP depende de variação respiratória batimento a batimento; arritmia cria variação própria. EPP usa média de vários batimentos antes/depois.
+
+Q: 💧 Quantos pacientes em choque são <b>fluido-responsivos</b>?
+A: Apenas ~ <b>50%</b> → metade dos bolus não aumenta o DC (e só acrescenta edema).
+S: Michard F, Teboul JL, Chest 2002
+
+Q: 🧯 <b>Sobrecarga hídrica</b> > 10% do peso: impacto?
+A: Associada a ↑ mortalidade, ↑ tempo de VM, LRA e complicações (metanálises observacionais).
+
+Q: 🌡️ Por que o lactato isolado não deve guiar o volume?
+A: Lactato pode subir por causas não hipóxicas (adrenalina, β2, fígado) e cai lentamente; usar perfusão periférica (TEC) e DC.
+S: ANDROMEDA-SHOCK, JAMA 2019
+
+Q: 🩸 Na hemorragia, a VCI colapsada exige o quê?
+A: <b>Controle do sangramento</b> + hemoderivados (não cristaloide em excesso); POCUS acompanha resposta.
+
+Q: 🧭 O que é a técnica de <b>VTI na carótida</b> (VTI carotídeo/tempo de fluxo corrigido)?
+A: Doppler na artéria carótida comum: variação do pico de velocidade/tempo de fluxo corrigido (FTc) após EPP como alternativa ao VTI cardíaco; acurácia moderada.
+
+Q: 🧮 FTc (tempo de fluxo corrigido) carotídeo normal?
+A: ~ 330–360 ms; valores menores sugerem pré-carga baixa; ↑ ≥ 7–10 ms após EPP sugere resposta (evidência moderada).
+
+Q: 🫀 Monitorização do <b>débito cardíaco</b> por eco × cateter de artéria pulmonar?
+A: Eco (VTI) tem boa concordância para <b>tendências</b>; valores absolutos dependem da medida da VSVE.
+
+Q: 💉 Teste do <b>VT challenge</b> (6 → 8 mL/kg): o que avaliar?
+A: ↑ absoluto da VPP ≥ 3,5% (ou VVS ≥ 2,5%) após 1 min com VT 8 → responsivo em VM com VT baixo.
+S: Myatra SN, Crit Care Med 2017
+
+Q: 🧮 Pressão de enchimento elevada do VE: qual combinação ecográfica sugere?
+A: <b>E/e' > 14</b>, E/A ≥ 2, AE dilatado, VCI pletórica, linhas B difusas.
+
+Q: 🧠 Responsivo a volume <b>e</b> com linhas B: dar volume?
+A: Cautela: há risco de piorar o pulmão. Se hipoperfusão importante, considerar vasopressor/inotrópico e pequenos bolus monitorados.
+
+Q: 🫀 <b>Choque distributivo</b> no eco: padrão?
+A: VE hiperdinâmico, cavidades normais/pequenas, VTI normal/alto (DC alto), VCI variável; PAM baixa por vasoplegia → vasopressor.
+
+Q: 🫀 <b>Choque hipovolêmico</b> no eco?
+A: VE pequeno e hiperdinâmico, VCI fina e colapsável, VTI baixo que aumenta com EPP.
+
+Q: 🧮 VCI de 1,2 cm em paciente <b>atleta jovem</b> sem choque: interpretação?
+A: Pode ser normal; e VCI larga (até 2,5 cm) é comum em atletas (VCI “de atleta”) — contexto clínico sempre.
+
+Q: 🔍 Como medir <b>VTI</b> em <b>FA</b>?
+A: Média de 5 batimentos (ou batimentos após R-R semelhantes); variação do VTI entre batimentos é grande.
+
+Q: 🧭 Vantagem do <b>VTI</b> em relação ao cateter de PA?
+A: Não invasivo, repetível, avalia também causas (VE, VD, derrame); limitação: janela apical e treinamento.
+
+Q: 🫁 VCI muito pletórica + TEP: por que não dar volume?
+A: VD já distendido; volume aumenta o desvio septal e reduz o enchimento do VE (piora o DC).
+
+Q: 🧯 <b>Desressuscitação</b>: quando iniciar?
+A: Após estabilização (fase de manutenção/descalonamento): balanço negativo guiado por sinais de congestão (linhas B, VExUS, peso), diurético ou UF.
+S: Malbrain ML, Ann Intensive Care 2018
+
+Q: 🧮 VCI e <b>PEEP</b>: efeito?
+A: PEEP aumenta o diâmetro e reduz a variação da VCI → interpretar com cautela em VM.
+
+Q: 🧠 Por que olhar o <b>paciente</b> além dos números (TEC)?
+A: Tempo de enchimento capilar normaliza rápido com ressuscitação adequada; ANDROMEDA-SHOCK: alvo TEC × lactato → tendência a menor mortalidade com TEC.
+S: Hernández G, JAMA 2019
+
+Q: 🫀 Eco no choque: <b>sequência de perguntas</b> (RUSH simplificado)?
+A: 1️⃣ Derrame pericárdico/tamponamento? · 2️⃣ VE: função? · 3️⃣ VD: dilatado? · 4️⃣ VCI/tanque? · 5️⃣ Pulmões (PNTX, B)? · 6️⃣ Abdome/aorta/TVP?
+I: pc_rush.png
+
+Q: 💧 Quanto volume dar em cada <b>prova</b>?
+A: 250–500 mL de cristaloide em 10–15 min (ou minibolus de 100 mL), reavaliando VS/perfusão logo após.
+
+Q: 🧮 Fórmula do <b>índice de colapsabilidade</b>: VCI 2,0 → 0,8 cm?
+A: (2,0 − 0,8)/2,0 = <b>60%</b> → colapso > 50%, PAD estimada baixa (se diâmetro ≤ 2,1).
+
+Q: 🌀 Em respiração espontânea com <b>esforço intenso</b>, a VCI colapsa mesmo se?
+A: Com PAD normal/alta: a Ppl muito negativa “suga” a VCI → falso sinal de hipovolemia.
+
+Q: 🧭 Valor do eco na <b>sepse precoce</b> (primeiras 6 h)?
+A: Detecta disfunção de VE/VD, guia volume vs vasopressor vs inotrópico; SSC recomenda reavaliação dinâmica (preferir parâmetros dinâmicos aos estáticos).
+S: SSC 2021

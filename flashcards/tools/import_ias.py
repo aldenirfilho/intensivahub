@@ -1,7 +1,7 @@
 """Converte os .apkg de outras IAs para o formato codice360x-v1 (coleção 'ia')."""
 import sqlite3, json, re, os, shutil, sys
 OUT = sys.argv[1] if len(sys.argv) > 1 else "/home/claude/app2"
-SRC = {"a": "/home/claude/imp/a", "b": "/home/claude/imp/c"}
+SRC = {"a": "/home/claude/imp/a", "b": "/home/claude/imp/f"}
 os.makedirs(f"{OUT}/data/decks", exist_ok=True); os.makedirs(f"{OUT}/data/media", exist_ok=True)
 AVISO = "⚠️ gerado por outra IA — não revisado"
 
@@ -67,7 +67,7 @@ for (root, tema), g in sorted(groups.items()):
     fn = f"ia-b-{slug}.json"
     json.dump({"formato": "codice360x-v1", "baralho": f"Outras IAs::Baralho TEMI + R3 (454)::{root}::{tema}", "cards": g["cards"], "midia": {m: f"data/media/{m}" for m in sorted(g["used"])}},
               open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
-    files.append({"colecao": "ia", "arquivo": f"data/decks/{fn}", "tema": "TEMI + R3 Dr Aldenir (658) › " + tema, "cards": len(g["cards"]), "subtemas": sorted({x["subtema"] for x in g["cards"]})})
+    files.append({"colecao": "ia", "arquivo": f"data/decks/{fn}", "tema": "TEMI + R3 Dr Aldenir (864) › " + tema, "cards": len(g["cards"]), "subtemas": sorted({x["subtema"] for x in g["cards"]})})
 
 idx = json.load(open(f"{OUT}/data/index.json"))
 idx["decks"] = [d for d in idx["decks"] if d.get("colecao") != "ia"] + files

@@ -808,6 +808,1055 @@
 - 🚶 Mobilização precoce intensiva?
 - 📔 Diário de UTI?
 
+## 17 🔊 USG POCUS — Módulo 500 (503)
+
+### ⚙️ Física, sondas, botões e artefatos
+- 🔊 O que é ultrassom e qual faixa de frequência se usa em medicina?
+- ⚖️ Relação frequência × resolução × penetração? 🖼️
+- 🧭 Quais são os 3 transdutores básicos do POCUS?
+- 📏 Qual a velocidade média do som nos tecidos moles assumida pelo aparelho?
+- 🌫️ O que é impedância acústica e por que o ar atrapalha?
+- 🎨 Nomenclatura da ecogenicidade?
+- 🎛️ Para que serve o ganho (gain)?
+- 🎚️ O que é TGC (compensação ganho-tempo)?
+- 📐 Ajuste de profundidade: regra prática?
+- 🎯 O que é o foco?
+- 🧭 O que é o marcador de orientação da sonda?
+- 🔁 O que é modo B?
+- 📈 O que é modo M? 🖼️
+- 🌈 O que é o Doppler colorido?
+- 📊 Diferença entre Doppler pulsado (PW) e contínuo (CW)?
+- 🌀 O que é aliasing?
+- 📐 Por que o ângulo de insonação importa no Doppler?
+- 🌑 O que é sombra acústica posterior?
+- 💡 O que é reforço acústico posterior?
+- 🪞 O que é artefato de reverberação?
+- ☄️ O que é cauda de cometa / ring-down?
+- 🪞 O que é artefato de espelho?
+- 🌊 O que é artefato de lóbulo lateral / espessura de corte?
+- ↔️ Planos longitudinal e transversal: como confirmar uma estrutura?
+- 🧭 O que significa in-plane × out-of-plane em procedimentos?
+- 🧯 O que é o princípio ALARA?
+- 👁️ Por que reduzir o MI/TI no ultrassom ocular?
+- 🎞️ Por que gravar clipes (loops) em POCUS?
+- 🧪 O que é resolução axial × lateral?
+- 🎛️ O que é frame rate e como aumentá-lo?
+- 🌡️ O que é atenuação?
+- 🧭 Como segurar a sonda para estabilidade?
+- 🔄 Quais os 4 movimentos básicos da sonda?
+- 📌 Por que o POCUS não substitui o exame formal?
+- 🎯 Qual o conceito de pergunta binária em POCUS?
+- 🦴 Por que é difícil ver o coração através das costelas?
+- 🧪 Diferença entre Doppler de potência (power) e colorido?
+- 🔍 O que é o artefato de “imagem em espelho” no Doppler (crosstalk)?
+- 🧷 O que é o “sinal da cortina”?
+- 📏 Como medir corretamente uma estrutura?
+- 🧯 Fatores do paciente que dificultam a janela?
+- 🔀 O que é anisotropia?
+- 📺 O que é o artefato de refração (lente)?
+- 🔊 Por que o líquido transmite melhor o som?
+- 🧠 Qual o maior viés do POCUS?
+- 🧽 Como prevenir infecção cruzada com a sonda?
+- 🎓 Competência em POCUS: o que recomendam as sociedades?
+- 📏 Qual o “normal” do diâmetro aórtico abdominal?
+- 🔁 Qual a diferença entre estudo qualitativo e quantitativo?
+
+### 🫁 Pulmão I: semiologia normal e pneumotórax
+- 🦇 O que é o “sinal do morcego” (bat sign)?
+- ✨ O que é o deslizamento pleural (lung sliding)?
+- 🏖️ Modo M do pulmão normal: qual o padrão? 🖼️
+- 📶 Padrão “código de barras” / estratosfera no modo M?
+- 〰️ O que são linhas A?
+- 💓 O que é o pulso pulmonar (lung pulse)?
+- 📍 O que é o lung point?
+- 🧮 Qual a acurácia do USG para pneumotórax vs radiografia em supino?
+- 🧭 Onde procurar PNTX no paciente supino?
+- 🗺️ Algoritmo do pneumotórax no USG?
+- ☄️ Linhas B excluem pneumotórax?
+- 📏 Como estimar o tamanho do PNTX pelo lung point?
+- 🩻 Causas de ausência de deslizamento sem pneumotórax?
+- 🌫️ Por que o enfisema subcutâneo atrapalha?
+- 🧪 Qual a linha pleural normal?
+- 🔍 Diferença entre linha pleural na SDRA × EAP cardiogênico?
+- 🫁 Qual sonda preferir para pleura e PNTX?
+- ⏱️ Em quantos segundos se faz a triagem de PNTX?
+- 🩺 PNTX após procedimento (CVC, toracocentese): como rastrear?
+- 🚑 PNTX hipertensivo: o diagnóstico é clínico ou ecográfico?
+- 📍 Zonas do BLUE points?
+- 🫁 O que é PLAPS?
+- 📈 Linhas A com deslizamento + dispneia aguda: diagnósticos (BLUE)? 🖼️
+- 🫁 Qual o ponto ideal para derrame pleural no paciente supino?
+- 💓 Na intubação seletiva à direita, o que se vê no pulmão esquerdo?
+- 🔁 O USG pode confirmar a posição do tubo traqueal?
+- 🧮 Pneumotórax oculto (só na TC) no trauma: o que fazer em VM?
+- 🔍 O que é o “sinal do sanduíche” / sinal Q (quad sign) no derrame?
+- 〰️ O que é o sinal sinusoide?
+- 🦴 USG detecta fratura de costela?
+- 🧪 USG e bolha × PNTX: como diferenciar?
+- 🧯 Qual o papel do USG para remover o dreno de PNTX?
+- 🫁 O que é o “sinal da estratosfera”?
+- 🌫️ Ausência de deslizamento no pulmão inteiro de um lado + pulso pulmonar: diagnóstico mais provável?
+- 🧭 Por que examinar vários espaços intercostais?
+- 📌 Linhas Z e linhas E: o que são?
+- ☄️ Critérios de uma linha B verdadeira?
+- 🧮 Quantas linhas B são normais?
+- 🌐 Por que o USG pulmonar é chamado de “estetoscópio visual”?
+- 🔁 USG para guiar a drenagem do PNTX?
+- 🧪 PNTX bilateral no ventilado: o que vem antes, USG ou descompressão?
+- 🧭 Profundidade adequada para pleura com linear?
+- 🌀 O preset “pulmão” nos aparelhos: por que usar?
+- 📏 Medir a espessura da linha pleural tem valor?
+- 💥 Contusão pulmonar no USG?
+- 🩸 Hemotórax no USG?
+- 🧪 USG pulmonar em gestantes e crianças: vantagem?
+- 🛰️ Pneumotórax após biópsia pulmonar transtorácica: método de controle preferido?
+- 🔊 Paciente em VNI: o deslizamento pode ficar reduzido?
+- 🧯 O que é um falso lung point?
+
+### 🌫️ Pulmão II: síndrome intersticial, consolidação, derrame e protocolos
+- 🌫️ O que é a síndrome intersticial no USG? 🖼️
+- 🫀 USG pulmonar no diagnóstico de ICC descompensada?
+- 🧮 O que é o LUS score (aeração)? 🖼️
+- 📈 Utilidades do LUS score na UTI?
+- 🫁 O que é consolidação no USG?
+- 🧩 O que é o “shred sign” (sinal do fragmento)?
+- 🌬️ Broncograma aéreo dinâmico × estático: diferença?
+- 🫁 Broncograma fluido: o que sugere?
+- 🌀 Consolidação × atelectasia: como diferenciar no USG?
+- 🧮 Qual a acurácia do USG para pneumonia?
+- 💧 Como identificar derrame pleural?
+- 🦴 O que é o “spine sign”?
+- 🧪 Aparência ecográfica do derrame e natureza?
+- 🧮 Fórmula de Balik para volume do derrame? 🖼️
+- 🧭 Separação pleural que sugere drenagem/toracocentese segura?
+- 💉 Toracocentese guiada por USG: benefício?
+- 🩸 USG antes de punção: o que procurar com o Doppler?
+- 🫁 O que é o protocolo BLUE? 🖼️
+- 🩸 O que é o protocolo FALLS?
+- 🫀 Perfil B com deslizamento abolido (B'): o que sugere?
+- 🧩 Perfil A/B no BLUE?
+- 🧩 Perfil C no BLUE?
+- 🌫️ USG pulmonar na COVID-19: padrão típico?
+- 🫁 USG pulmonar na fibrose pulmonar?
+- 📉 O que acontece com as linhas B após diurese/diálise?
+- 🧮 Quantos campos no protocolo de 8 zonas (Volpicelli)?
+- 🩻 Empiema no USG: aparência?
+- 🌀 O que é o sinal do plâncton?
+- 💧 Derrame pleural no ventilado: drenar melhora a oxigenação?
+- 🧯 Paciente com hemitórax “branco” no RX: o USG diferencia o quê?
+- 🫁 O que é o “pulmão flutuante” (jelly-fish sign)?
+- 🫀 Linhas B unilaterais focais: diagnósticos?
+- 🧠 Por que linhas B surgem no EAP?
+- 🌐 USG pulmonar e TEP: achados?
+- 🫁 Consolidação subpleural triangular com base na pleura: sugere?
+- 🧪 USG na pneumonia associada à VM: o que acrescenta?
+- 🧮 LUS score e prona: o que se observa?
+- 🔍 USG pulmonar após recrutamento/PEEP: limitação principal?
+- 🌧️ Pulmão branco (white lung) no USG?
+- 📊 USG pulmonar × TC na SDRA?
+- 🦠 Abscesso pulmonar no USG?
+- 🩸 USG e quilotórax ou derrame lipídico?
+- 🧭 Toracocentese no paciente ventilado: posição e ponto?
+- 📌 Linhas B difusas + VCI fina + eco normal: considerar?
+- 🧯 Linhas B + derrame bilateral + VE hipocinético + VCI pletórica: diagnóstico?
+- 🔍 Consolidação com fluxo Doppler interno: sugere?
+- 🧮 Escore de reaeração (Bouhemad): como funciona?
+- 💧 USG para derrame pequeno × RX: qual detecta mais?
+- 🫁 O que é o sinal da tetrafusão/hepatização clássica?
+- 🌊 Derrame com septações + febre + pH < 7,2: conduta?
+
+### ❤️ Coração I: janelas e função do VE
+- 🪟 Quais as 4 janelas básicas do ecocardiograma focado? 🖼️
+- 🚑 Qual janela é a mais útil na PCR e no trauma?
+- 🫀 Qual janela é a melhor para comparar VD × VE?
+- 🍩 O que se avalia no paraesternal eixo curto no nível dos músculos papilares?
+- 👁️ Como se faz a avaliação visual (“eyeballing”) da função do VE?
+- 📏 O que é o EPSS?
+- 📐 Fórmula de Simpson biplanar?
+- 📉 O que é o MAPSE?
+- 🌀 O que é o strain longitudinal global (GLS)?
+- 🧮 O que é FAC e para que ventrículo é usada?
+- 📏 Dimensões normais do VE no PEL?
+- 🧱 Hipertrofia com cavidade pequena e obliteração sistólica: o que pensar?
+- ⚠️ O que é a obstrução dinâmica da VSVE (SAM) no choque?
+- 🫀 Alteração segmentar da contratilidade: correlação com coronárias?
+- 🎈 O que é Takotsubo no eco?
+- 🧠 Cardiomiopatia séptica: como aparece?
+- 💓 Como avaliar a função diastólica à beira-leito?
+- 🧮 Valores normais de e' (Doppler tecidual)?
+- 📊 Padrões do fluxo mitral?
+- 🧪 Para que serve o VTI da VSVE? 🖼️
+- 🧮 Calcule o DC: VTI 20 cm, VSVE 2,0 cm, FC 80.
+- 🫀 Onde posicionar a amostra do Doppler pulsado para o VTI?
+- 💡 Qual achado sugere choque cardiogênico no eco focado?
+- 🧯 Achado de VE hiperdinâmico e pequeno (“kissing walls”) em choque: interpretação?
+- 🔍 Como avaliar a valva aórtica no POCUS?
+- 🌀 Insuficiência mitral grave aguda: pistas no POCUS?
+- 🩸 Endocardite: o que o POCUS pode mostrar?
+- 🧠 Trombo intracavitário no VE: onde procurar?
+- 📏 Medida do átrio esquerdo: significado de AE dilatado?
+- 🧭 PEL: qual estrutura fica posterior ao AE e serve para diferenciar derrame pleural de pericárdico?
+- 🧪 Por que a FE pode estar normal no choque séptico com disfunção miocárdica?
+- 🧮 FC alta e VTI baixo: como interpretar?
+- 🫀 O que é dP/dt e como estimar?
+- 🩺 Qual o papel do POCUS na dor torácica?
+- 🩸 Sinais de dissecção aórtica no POCUS?
+- 🧭 Quando a janela apical é difícil?
+- 🧭 Como melhorar a janela subcostal?
+- ⚡ Fibrilação atrial: impacto nas medidas?
+- 🧮 Qual o normal da FC e do índice cardíaco?
+- 🔁 POCUS seriado em sepse: para que?
+- 🧪 O que mostrou o uso de POCUS no choque indiferenciado (SHoC-ED)?
+- 💡 Achado de “cavidade obliterada” + VCI colapsada: conduta?
+- 🫀 Pós-PCR: quando avaliar a função do VE?
+- 🧠 Quais os limites do POCUS cardíaco do intensivista (básico)?
+- 📏 Espessura parietal do VE > 12–15 mm: diferenciais?
+- 🌀 Movimento paradoxal do septo pós-cirurgia cardíaca: significado?
+- 🧮 Qual o normal do diâmetro da VSVE?
+- 🧭 Como obter o PEL passo a passo?
+- 🧭 Como obter o apical 4C?
+- 🫀 Paciente em choque com FE muito reduzida e lactato alto: primeiro passo além de vasopressor?
+
+### 🫀 Coração II: VD, TEP, pericárdio e tamponamento
+- 📏 Como saber se o VD está dilatado? 🖼️
+- 🅳 O que é o sinal do D? 🖼️
+- 📈 O que é o TAPSE e o valor normal?
+- 🧮 Qual o normal da onda S' tricúspide (Doppler tecidual)?
+- 🧮 Como estimar a PSAP?
+- 🦵 Sinal de McConnell?
+- 🔢 O que é o sinal 60/60?
+- 🫀 Por que no TEP agudo a PSAP raramente passa de 60?
+- 🧱 Espessura da parede livre do VD: o que diferencia?
+- 🫀 Qual o papel do eco no TEP de alto risco?
+- 🧮 Estratificação de TEP: onde entra o eco?
+- 🦵 TVP + VD dilatado em paciente em choque: conduta?
+- 🌀 Trombo em trânsito no AD/VD: significado?
+- 💧 Como reconhecer derrame pericárdico?
+- 🧭 Coxim gorduroso epicárdico × derrame: diferença?
+- 🫀 Sinais ecográficos de tamponamento? 🖼️
+- ⚠️ Tamponamento é diagnóstico ecográfico ou clínico?
+- 🏥 Tamponamento com derrame pequeno: é possível?
+- 💉 Pericardiocentese guiada: qual acesso preferir?
+- 🧯 Tamponamento por dissecção tipo A: pericardiocentese?
+- 🩹 Pós-cirurgia cardíaca: tamponamento localizado?
+- 🌀 Pericardite constritiva no eco?
+- 🧮 Constrição × restrição (miocardiopatia restritiva)?
+- 🫀 Sinais de falência de VD na SDRA ventilada?
+- 💉 Tratamento da falência aguda de VD?
+- 💧 Na falência de VD, volume ajuda?
+- 🩺 Infarto de VD no eco?
+- 🧮 Como medir TAPSE corretamente?
+- 🔍 O que é o tempo de aceleração pulmonar (AcT)?
+- 🧠 HP crônica + choque séptico: cuidado com o quê?
+- 🫀 Swinging heart: o que é e que achado do ECG acompanha?
+- 💉 Derrame pericárdico em urêmico: conduta?
+- 🧪 Derrame pericárdico hemorrágico no USG?
+- 🫀 Pós-IAM com choque súbito e derrame: pensar em?
+- 🧮 Qual o valor da pressão de AD pela VCI no cálculo da PSAP? 🖼️
+- 🌀 Dilatação do VD em paciente com CIA: que sinal do D?
+- 🫁 Pneumotórax × tamponamento no choque obstrutivo: como o POCUS diferencia?
+- 🧯 PCR com derrame pericárdico: conduta?
+- 📏 Qual o normal da área do AD e o significado de AD dilatado?
+- 💡 TEP sem disfunção de VD no eco: exclui TEP?
+- 🧪 Qual o achado ecográfico de dilatação da artéria pulmonar?
+- 🫀 Paciente com marca-passo e derrame novo: pensar em?
+- 🧠 Interdependência ventricular: o que é?
+- 🩸 Trauma penetrante precordial + derrame no FAST: conduta?
+- 🧮 Qual a pressão estimada de AD com VCI 2,5 cm e colapso 20%?
+- 🫀 Qual é a melhor janela para derrame pericárdico no PEL e a principal armadilha?
+- 🧮 Classificação ecográfica do cor pulmonale agudo na SDRA?
+- 💉 Tamponamento confirmado com hipotensão: medidas até a drenagem?
+- 🧪 Derrame pericárdico loculado posterior após cirurgia: qual janela ajuda?
+- 🫀 PCR durante intubação de paciente com tamponamento: mecanismo?
+
+### 💧 Hemodinâmica: VCI, VTI e fluido-responsividade
+- 💧 Definição de fluido-responsividade?
+- 📏 Como medir a VCI corretamente? 🖼️
+- 🫁 VCI em ventilação espontânea: índice de colapsabilidade?
+- 🫁 VCI na VM controlada: índice de distensibilidade?
+- ⚠️ Limitações da VCI para guiar volume?
+- 🦵 O que é a elevação passiva das pernas (EPP)?
+- 🧪 Qual a vantagem da EPP sobre a prova de volume?
+- 💉 O que é o minibolus (mini fluid challenge)?
+- 🫀 O que é a variação do VTI/Vmax aórtico respiratória na VM?
+- 🧮 VTI basal 14 cm → 17 cm após EPP: interpretação?
+- 🚦 Conceito de tolerância a fluidos?
+- 🧭 Fluxo de decisão para dar volume no choque?
+- 🧮 Qual a relação entre VCI e PVC?
+- 📏 VCI hipotensão: interpretação?
+- 📏 VCI > 2,5 cm sem variação + VD dilatado: interpretação?
+- 🫀 Qual é o VTI normal e o que indica VTI < 10 cm? 🖼️
+- 🫀 Como o VTI ajuda a escolher entre volume, inotrópico e vasopressor?
+- 🧪 Fluidos guiados por responsividade (FRESH trial)?
+- 🧮 Qual a variação mínima detectável do VTI?
+- 🌀 VCI em hipertensão intra-abdominal?
+- 🫁 VCI × veia jugular interna e veia subclávia: alternativas?
+- 🧠 Por que não confiar na “VCI cheia = não precisa de volume” em todos?
+- 🧮 Variação de pressão de pulso (VPP) e pré-requisitos?
+- 🫀 Por que arritmia invalida VPP, mas não a EPP?
+- 💧 Quantos pacientes em choque são fluido-responsivos?
+- 🧯 Sobrecarga hídrica > 10% do peso: impacto?
+- 🌡️ Por que o lactato isolado não deve guiar o volume?
+- 🩸 Na hemorragia, a VCI colapsada exige o quê?
+- 🧭 O que é a técnica de VTI na carótida (VTI carotídeo/tempo de fluxo corrigido)?
+- 🧮 FTc (tempo de fluxo corrigido) carotídeo normal?
+- 🫀 Monitorização do débito cardíaco por eco × cateter de artéria pulmonar?
+- 💉 Teste do VT challenge (6 → 8 mL/kg): o que avaliar?
+- 🧮 Pressão de enchimento elevada do VE: qual combinação ecográfica sugere?
+- 🧠 Responsivo a volume e com linhas B: dar volume?
+- 🫀 Choque distributivo no eco: padrão?
+- 🫀 Choque hipovolêmico no eco?
+- 🧮 VCI de 1,2 cm em paciente atleta jovem sem choque: interpretação?
+- 🔍 Como medir VTI em FA?
+- 🧭 Vantagem do VTI em relação ao cateter de PA?
+- 🫁 VCI muito pletórica + TEP: por que não dar volume?
+- 🧯 Desressuscitação: quando iniciar?
+- 🧮 VCI e PEEP: efeito?
+- 🧠 Por que olhar o paciente além dos números (TEC)?
+- 🫀 Eco no choque: sequência de perguntas (RUSH simplificado)? 🖼️
+- 💧 Quanto volume dar em cada prova?
+- 🧮 Fórmula do índice de colapsabilidade: VCI 2,0 → 0,8 cm?
+- 🌀 Em respiração espontânea com esforço intenso, a VCI colapsa mesmo se?
+- 🧭 Valor do eco na sepse precoce (primeiras 6 h)?
+- 🧭 Sequência prática de EPP com VTI?
+- 🧮 Para que serve repetir o VTI após o bolus?
+
+### 🌊 Congestão venosa: VExUS, Doppler venoso e rim
+- 🌊 O que é o VExUS? 🖼️
+- 🧮 Como graduar o VExUS?
+- 💧 Doppler da veia hepática: padrões?
+- 💧 Doppler da veia porta: padrões?
+- 💧 Doppler venoso intrarrenal: padrões?
+- 🫀 Por que a congestão venosa causa LRA?
+- 🧮 O que é a pressão de perfusão renal?
+- 🧭 Quando suspeitar de congestão como causa da piora renal?
+- 🩺 VExUS orientando diurético: o que mostram estudos?
+- 💡 Limitações do VExUS?
+- 🧪 Como posicionar a sonda para a veia hepática?
+- 🧪 Como obter o Doppler da porta?
+- 🧪 Como obter o Doppler intrarrenal?
+- 🫀 Por que IT grave altera o VExUS?
+- 🧯 VExUS 3 + hipotensão: conduta?
+- 🩸 Veia jugular interna no POCUS: como estimar pressão venosa?
+- 🧮 O que é a razão de distensibilidade da VJI (Valsalva)?
+- 🫁 Congestão pulmonar × sistêmica: como diferenciar no USG?
+- 🧭 Cardiorrenal tipo 1: abordagem guiada por USG?
+- 🧪 O que é o índice de resistividade renal (IR)?
+- 💧 VCI pletórica + VExUS 0–1: interpretar?
+- 🌊 O que é fluxo hepatofugal na porta?
+- 🩺 VExUS na IC aguda: utilidade prática?
+- 🧮 Ascite em paciente cardiopata: o POCUS diferencia de cirrose?
+- 🫀 Onda A proeminente na veia hepática?
+- 🧯 Paciente em diálise com hipotensão intradialítica: POCUS?
+- 🧪 Pressão intra-abdominal alta pode imitar congestão no VExUS?
+- 💡 Por que o VExUS ganhou destaque na desressuscitação?
+- 🧮 VExUS pós-cirurgia cardíaca: qual achado tem maior associação com LRA?
+- 🌊 Edema de alça intestinal/parede espessa no USG: significado em choque?
+- 🧭 Qual a sequência do exame VExUS?
+- 🫀 Congestão venosa e delirium/encefalopatia?
+- 🩺 Edema periférico × congestão intravascular: o POCUS diferencia?
+- 🧮 Veia femoral comum com fluxo pulsátil: significado?
+- 🫀 Tamponamento e VExUS?
+- 🧯 Paciente com LRA oligúrica, VCI 2,6 cm fixa, linhas B e VExUS 3: conduta?
+- 🧪 O Doppler venoso tem reprodutibilidade boa?
+- 💧 Ventilação mecânica com PEEP alta e VExUS: cuidado?
+- 🫁 VExUS em cirrose: qual componente é menos confiável?
+- 🩺 Congestão e LRA em sepse: qual o papel?
+- 🧮 VExUS grau 2: exemplo?
+- 🧮 VExUS grau 3: exemplo?
+- 💡 Por que medir a VCI primeiro no VExUS?
+- 🫀 Qual o significado de onda S reduzida na hepática em FA?
+- 🌊 Como o tratamento muda o VExUS?
+- 🗺️ Mapa rápido do VExUS em uma tabela? 🖼️
+- 🧭 Por que usar ECG simultâneo no Doppler venoso?
+- 🩺 VExUS e prognóstico em IC aguda: o que se observou?
+- 🧮 Veia hepática com S FA: interpretar?
+- 🧯 Congestão com hipotensão e VExUS 3 em VD falente: estratégia?
+
+### 🚨 Choque, PCR e trauma: RUSH, FAST e eFAST
+- 🚨 O que é o protocolo RUSH? 🖼️
+- 🧭 Padrão RUSH do choque hipovolêmico?
+- 🧭 Padrão RUSH do choque cardiogênico?
+- 🧭 Padrão RUSH do choque obstrutivo?
+- 🧭 Padrão RUSH do choque distributivo?
+- 🩸 O que é o FAST? 🖼️
+- ➕ O que o eFAST acrescenta?
+- 🎯 Qual janela do FAST é a mais sensível para hemoperitônio?
+- 🧮 Quanto líquido o FAST detecta?
+- 🚑 Trauma instável com FAST abdominal positivo: conduta?
+- 🚑 Trauma instável com FAST negativo: o que considerar?
+- ⚠️ Limitações do FAST?
+- 🔁 Por que repetir o FAST?
+- 🫀 FAST com derrame pericárdico em trauma penetrante: conduta?
+- 🩸 Como diferenciar sangue × ascite × urina no USG?
+- 🧯 Mulher em idade fértil com dor e hipotensão + líquido livre na pelve: pensar em?
+- ❤️ POCUS na PCR: objetivos?
+- ⏱️ Regra da pausa para POCUS na PCR?
+- 💓 O que é standstill cardíaco e seu valor prognóstico?
+- ⚡ O que é a pseudo-AESP?
+- 🌀 FV fina no USG?
+- 🧭 Protocolo SESAME (Lichtenstein) na PCR?
+- 🧪 POCUS para confirmar retorno de circulação (RCE)?
+- 🎯 Ultrassom transesofágico (ETE) na PCR: vantagens?
+- 🫀 Compressão torácica sobre a VSVE/raiz aórtica: por que importa?
+- 🩸 Aorta abdominal no RUSH: o que procurar?
+- 🧮 Como medir a aorta abdominal?
+- 🦵 Nos canos do RUSH: TVP — técnica rápida? 🖼️
+- 🫁 eFAST para PNTX: qual a vantagem sobre RX em supino?
+- 🩸 eFAST para hemotórax?
+- 🧯 Choque após cirurgia abdominal: o que buscar no POCUS?
+- 🫀 Pericardiocentese na PCR por tamponamento: guiada ou às cegas?
+- 🧮 Sensibilidade do eco para tamponamento?
+- 🧪 Choque de causa não clara: qual o maior impacto do POCUS?
+- 🩺 Choque com VCI pletórica e VE hiperdinâmico: pensar em?
+- 🦴 Fratura de fêmur/pelve: o USG ajuda?
+- 🧭 Trauma estável com FAST positivo: conduta?
+- 💧 Líquido livre mínimo na pelve de mulher jovem sem trauma relevante: interpretação?
+- 🧮 Posição de Trendelenburg no FAST: por que?
+- 🫀 Choque com derrame pericárdico pequeno e colapso do AD em pós-operatório cardíaco: conduta?
+- 🧪 eFAST e intubação: o que checar após IOT no trauma?
+- 🩸 Hematoma retroperitoneal: o USG detecta?
+- 🧯 PCR com VD muito dilatado no POCUS: conduta?
+- 🧠 Por que o VD dilata após alguns minutos de PCR?
+- 💓 Qual o melhor local para checar pulso por USG?
+- 🧮 FAST indeterminado: o que fazer?
+- 🩺 Choque séptico de foco desconhecido: o POCUS pode achar o quê?
+- 🦠 USG em fasciíte necrosante?
+- 💉 Achado de colecistite no POCUS?
+- 🧪 Hidronefrose no POCUS: graus?
+- 🧮 FAST em gestante traumatizada?
+- 🫁 Choque + ausência de deslizamento à D + desvio traqueal: conduta?
+
+### 🩸 Vascular e procedimentos guiados
+- 🦵 Técnica de compressão em 2 pontos para TVP? 🖼️
+- 🧮 Acurácia do POCUS de 2 pontos para TVP proximal?
+- 🔍 Sinais de trombo no USG venoso?
+- 🩸 Por que não usar Doppler colorido como critério principal de TVP?
+- 🦵 Exame de 2 pontos negativo com alta suspeita: o que fazer?
+- 🫁 TVP + dispneia + VD dilatado: diagnóstico mais provável?
+- 💉 Acesso venoso central guiado por USG: benefício?
+- 🔎 Como diferenciar veia × artéria no USG?
+- 🧭 Posição da VJI em relação à carótida?
+- 🎯 Técnica dinâmica × estática na punção guiada?
+- 🧷 Como confirmar o fio-guia na veia antes de dilatar?
+- 💨 Teste das microbolhas (soro agitado) após CVC?
+- 🫁 Após CVC jugular/subclávio, o USG pode substituir o RX?
+- 🧮 Qual o diâmetro venoso mínimo desejável para PICC?
+- 🧭 Veia axilar guiada por USG: vantagens?
+- 🫀 Acesso arterial guiado por USG: benefício?
+- 💪 Acesso venoso periférico difícil guiado por USG?
+- 🧮 Profundidade da veia e comprimento do cateter periférico?
+- 💧 Toracocentese guiada: técnica segura?
+- 🧯 Volume máximo retirado de uma vez na toracocentese?
+- 🍺 Paracentese guiada: benefício?
+- 🫀 Pericardiocentese guiada: técnica?
+- 🧠 Punção lombar guiada: quando ajuda?
+- 💉 Bloqueios regionais em UTI/emergência guiados por USG?
+- 🩸 Arteria femoral × veia femoral: posição?
+- 🧷 Complicação de CVC detectável por USG à beira-leito?
+- 🧭 Como detectar cateter subclávio que subiu para a VJI?
+- 🩸 Trombose associada a cateter: achado e conduta?
+- 🫀 ECMO: papel do USG?
+- 🦵 TVP de membro superior: onde examinar?
+- 🧮 Técnica out-of-plane com “walk-down”: como evitar transfixar?
+- 💡 Melhor visualização da agulha: dicas?
+- 🧯 Por que Trendelenburg ajuda no CVC jugular/subclávio?
+- 🩸 Embolia gasosa pelo CVC: prevenção e manejo?
+- 🧭 Aorta: quando o POCUS sugere dissecção abdominal?
+- 🧮 Índice tornozelo-braquial com Doppler portátil: valores?
+- 🦵 Isquemia arterial aguda de membro: o USG mostra?
+- 💉 Punção arterial radial: técnica com USG?
+- 🧠 Sinal de pseudoaneurisma após punção femoral?
+- 🩸 Fístula arteriovenosa pós-punção: achado?
+- 🫀 Cardioversão elétrica em FA e trombo: o POCUS (ETT) exclui trombo no AE?
+- 🧮 Compressão em 2 pontos: onde ficam as armadilhas?
+- 🦵 Diferença entre veia femoral superficial e profunda?
+- 🧯 USG no acesso intraósseo?
+- 🧮 Diâmetro mínimo da VJI para canulação de hemodiálise?
+- 🫁 Drenagem torácica guiada: ponto seguro?
+- 💧 USG após drenagem de derrame: o que reavaliar?
+- 🧠 USG para inserção de cateter de PIC/DVE?
+- 💉 Por que a VJI direita é preferida para CVC?
+- 🦵 USG para síndrome compartimental?
+
+### 🧠 Diafragma, olho, estômago, rim e outros
+- 🫁 Como avaliar a excursão diafragmática? 🖼️
+- 📏 Como medir a fração de espessamento do diafragma?
+- 💪 Espessura diafragmática caindo > 10% na primeira semana de VM: significado?
+- 🧭 Por que a excursão diafragmática em VM não mede força?
+- 🧠 Paralisia diafragmática unilateral: teste ecográfico?
+- 👁️ Como medir o DBNO (diâmetro da bainha do nervo óptico)? 🖼️
+- 🧮 Qual valor de DBNO sugere HIC?
+- 👁️ Outros usos do USG ocular na emergência?
+- 🧠 Doppler transcraniano (DTC): usos na UTI?
+- 🧮 Índice de Lindegaard?
+- 🧠 Padrão de DTC na parada circulatória cerebral?
+- 🧪 O que é o índice de pulsatilidade (IP) no DTC?
+- 🍽️ USG gástrico: para que serve?
+- 🧮 Classificação de Perlas (antro gástrico)?
+- 🧮 Fórmula do volume gástrico (Perlas)?
+- 🍽️ USG gástrico em nutrição enteral?
+- 🫘 Avaliação renal no POCUS: o que buscar?
+- 🧭 Rins pequenos (< 9 cm) e ecogênicos: significado?
+- 💧 Bexiga com sonda e hidronefrose bilateral: pensar em?
+- 🍺 Ascite no POCUS: onde procurar e como puncionar?
+- 🧮 Hipertensão intra-abdominal: o USG mede a PIA?
+- 🌀 USG de alças intestinais no crítico?
+- 🫁 USG para guiar fisioterapia/mobilização de secreções?
+- 🧪 USG de partes moles: abscesso × celulite?
+- 🧠 USG pupilar (reflexo fotomotor) no edema palpebral?
+- 💉 Cefaleia + febre + rigidez: o USG ajuda na punção lombar?
+- 🧮 Bexiga “vazia” com sonda e oligúria: o USG ajuda?
+- 🫀 USG na gestante crítica: o que acrescentar?
+- 🦴 USG para fraturas de ossos longos/costelas?
+- 🧭 USG esplênico no trauma: o que observar?
+- 🧪 Colecistite alitiásica no crítico: critérios ecográficos?
+- 💛 Dilatação das vias biliares no USG?
+- 🧠 USG para o nervo óptico em pacientes com hipertensão intracraniana idiopática?
+- 🫁 USG em derrame + diafragma: por que olhar os dois juntos?
+- 🩸 Testículo agudo no POCUS?
+- 🍽️ USG para posicionar sonda pós-pilórica?
+- 🧮 Volume vesical pós-miccional normal?
+- 💡 Qual a vantagem do USG diafragmático no TRE versus índice de Tobin?
+- 🧮 O que é o D-RSBI?
+- 🧠 USG em doença neuromuscular com insuficiência respiratória?
+- 🌀 USG de tireoide na UTI?
+- 🩸 USG hepático na sepse: achados importantes?
+- 🦠 USG na pielonefrite?
+- 🧯 USG em sondas e drenos: o que verificar no plantão?
+- 🫁 USG laríngeo antes da extubação?
+- 🧠 POCUS em sedação/ventilação de neurocrítico: uso combinado?
+- 🧮 Integração do POCUS: qual a regra de ouro?
+- 🧮 Como medir o volume vesical?
+- 🧭 Cateter de diálise/PICC com ponta no AD: o USG confirma?
+- 🧠 Qual a vantagem do DBNO na beira do leito?
+- 👁️ Erro técnico mais comum ao medir o DBNO?
+- 🍽️ Paciente para intubação de urgência com estômago cheio no USG: conduta?
+
+## 16 🫁 Ventilação Mecânica — Módulo 500 (502)
+
+### ⚙️ Física, equação do movimento e mecânica
+- 🧮 Qual é a equação do movimento do sistema respiratório? 🖼️
+- 📏 O que a pressão de pico representa?
+- ⏸️ O que é a pressão de platô e como medir? 🖼️
+- 🔀 Pico ↑ e platô normal: qual o problema?
+- 🔀 Pico ↑ e platô ↑ (gradiente normal): qual o problema?
+- 📐 Fórmula da complacência estática do sistema respiratório?
+- 📐 Fórmula da resistência inspiratória das vias aéreas?
+- 🎯 O que é driving pressure (ΔP)? 🖼️
+- 👶 O que é o conceito de “baby lung” (Gattinoni)?
+- ⏸️ Como medir a auto-PEEP? 🖼️
+- 📉 Sinal de auto-PEEP na curva de fluxo? 🖼️
+- ⏱️ Qual é a constante de tempo (τ) e por que importa?
+- 🔁 Em VCV, se a complacência cai, o que acontece com as pressões?
+- 🔁 Em PCV, se a complacência cai, o que acontece?
+- 🧮 Qual é a fórmula do peso predito (PBW)?
+- 📏 Qual a relação do pulmão com a altura e não com o peso?
+- 🧠 Quais os 4 mecanismos da VILI?
+- ⚡ O que é potência mecânica (mechanical power)?
+- 🫧 Qual a diferença entre espaço morto anatômico e alveolar?
+- 🧮 Equação de Bohr-Enghoff?
+- 🔧 Qual a resistência de um tubo traqueal pela lei de Poiseuille?
+- 📈 Para que serve a curva pressão-volume quase-estática? 🖼️
+- 🔄 O que é o índice R/I (Recruitment-to-Inflation ratio)?
+- 🫁 Diferença entre complacência pulmonar e da parede?
+- 🧲 Por que a pressão transpulmonar é a que lesa o pulmão? 🖼️
+- 💪 Por que esforço inspiratório intenso pode lesar mesmo em PSV com pressões baixas?
+- 🌀 O que é pendelluft?
+- 🫀 Efeitos hemodinâmicos da pressão positiva?
+- 🫀 Por que a VPP é benéfica no EAP cardiogênico?
+- ❤️ PEEP alta em falência de VD: qual o risco?
+- 🫁 Qual a RVP em relação ao volume pulmonar?
+- 🧪 O que é vasoconstrição pulmonar hipóxica e o que a inibe?
+- 🩸 Quais os 5 mecanismos de hipoxemia?
+- 🧮 Fórmula do gradiente alvéolo-arterial?
+- 🧮 O que é o índice de oxigenação (IO)?
+- 📊 Por que a pressão média de via aérea importa?
+- ⚖️ Qual a relação I:E normal e quando inverter?
+- 🧮 Como calcular o tempo expiratório em VCV?
+- 🌬️ Qual o efeito do formato de fluxo (quadrado × desacelerado)? 🖼️
+- 🫧 Qual a Pmédia mínima que mantém os alvéolos abertos?
+- 🚪 O que é pressão de abertura da via aérea (AOP)?
+- 🎛️ O que é Pmus e como estimar em PSV?
+- 🧭 O que é P0.1?
+- 🧮 Como estimar a pressão transpulmonar dinâmica em PSV sem balão?
+- 🔬 Qual a diferença entre estresse e strain pulmonar?
+- 🏔️ O que é hiperinsuflação dinâmica?
+- 🆘 Paciente ventilado com hipotensão súbita após intubação de asmático: primeira manobra?
+- 🌡️ Por que a umidificação é obrigatória na VM?
+- 🔁 Qual o efeito do espaço morto do equipamento (HME, conector)?
+- 🧮 Como estimar a nova FR para atingir uma PaCO₂ alvo?
+- 🧮 Como estimar o novo VT para corrigir a PaCO₂?
+
+### 🎛️ Modos ventilatórios
+- 🧩 Quais as 3 variáveis de fase de um ciclo ventilatório?
+- 📦 Como se classifica VCV (volume controlado) pelas variáveis de fase? 🖼️
+- 📦 Como se classifica PCV (pressão controlada)?
+- 📦 Como se classifica PSV (pressão de suporte)?
+- 🆚 VCV × PCV: qual reduz mais a mortalidade na SDRA?
+- 🔄 O que é A/C (assistido-controlado)?
+- 🔄 O que é SIMV?
+- 🤖 O que é PRVC / VC+ / AutoFlow (volume-alvo com pressão regulada)?
+- 🧠 O que é NAVA?
+- 📐 O que é PAV+ (ventilação proporcional assistida)?
+- 🎢 O que é APRV?
+- 🔁 O que é BIPAP / Bilevel no ventilador de UTI?
+- 🫁 O que é CPAP?
+- 🚦 Disparo a pressão × a fluxo: qual é melhor?
+- 🔚 Como ajustar a ciclagem da PSV (Esens / % do pico de fluxo)?
+- 📈 Para que serve o rise time (tempo de subida / slope)?
+- 🍽️ O que é “fome de fluxo” (flow starvation) em VCV?
+- 🧮 Como ajustar o fluxo inspiratório em VCV?
+- ⏱️ Como programar o Ti em PCV?
+- 🤝 PSV x A/C em paciente desperto e com drive normal?
+- 🧩 O que é ASV / INTELLiVENT?
+- 🔒 O que é ventilação de backup / apneia?
+- 🧯 Modo mais adequado no transporte de paciente instável?
+- 🎯 Em qual modo o VT é a variável dependente?
+- 🎯 Em qual modo a pressão é a variável dependente?
+- 🧠 Por que a atrofia diafragmática ocorre rápido na VM controlada?
+- 🛡️ O que é ventilação “pulmão e diafragma protetora”?
+- ⚙️ Qual é o PEEP intrínseco e por que dificulta o disparo?
+- 💧 Como o vazamento afeta a PSV?
+- 🧮 Em PSV, o que determina o VT?
+- 😴 Sinais de suporte excessivo em PSV?
+- 😮‍💨 Sinais de suporte insuficiente em PSV?
+- 🎛️ O que é compensação automática do tubo (ATC/TC)?
+- 🔀 Em qual modo é possível medir platô e resistência com precisão?
+- 🧪 HFOV (oscilação de alta frequência) em adultos com SDRA?
+- 🔢 Quais alarmes essenciais configurar no ventilador?
+- 🧭 Ao trocar VCV → PCV, como escolher a pressão inspiratória?
+- 🧭 Ao trocar A/C → PSV, qual nível inicial de PS?
+- 🔋 O que é “modo espontâneo com sinais de dissincronia grave”: o que fazer?
+- 🔁 O que é “ciclo de suspiro” (sigh) e há benefício?
+- 🧮 Como o volume compressível do circuito afeta o VT?
+- 🫁 Ventilação em decúbito e diferenças regionais: onde o pulmão colapsa em supino?
+- 🧯 Paciente em PSV fica apneico após sedação: o que acontece?
+- 🧷 O que é “disparo reverso” (reverse triggering)? 🖼️
+- 🧠 Em qual paciente o VCV é preferível ao PCV?
+- 🧠 Em qual paciente o PCV costuma ser preferível?
+- 🔁 O que é “VT empilhado” e por que é perigoso na SDRA?
+- 🧯 Desconexão inadvertida do circuito: quais alarmes tocam primeiro?
+- 🧭 Paciente em PSV com FR 38, VT 280 mL (PBW 70 kg): interpretação e ação?
+- 🎛️ Qual a diferença entre PEEP e EPAP?
+
+### 🎚️ Ajuste inicial, oxigenação e gasometria
+- 🚀 Ajuste inicial da VM em adulto sem SDRA (pós-intubação)?
+- 🧪 VT baixo em pacientes sem SDRA: o que mostrou o PReVENT?
+- 🎯 Alvo de SpO₂ em pacientes críticos ventilados (adultos)?
+- 🩸 Por que evitar hiperóxia (PaO₂ > 150–300)?
+- 🧮 Como calcular a relação PaO₂/FiO₂ e o que ela classifica?
+- 🧮 O que é a relação SpO₂/FiO₂ e quando usar?
+- 🧮 Como ajustar FiO₂ e PEEP para corrigir hipoxemia?
+- 💨 Como corrigir hipercapnia na VM?
+- 🌀 O que é hipercapnia permissiva?
+- 🧪 Gasometria: pH 7,25, PaCO₂ 60, HCO₃ 26. Qual o distúrbio?
+- 🧪 DPOC crônico com PaCO₂ basal 60: qual pH/PaCO₂ alvo na VM?
+- 🧯 O que é alcalose pós-hipercápnica?
+- 🫁 Quanto tempo após mudança de ventilação colher nova gasometria?
+- 🩸 Qual a correlação EtCO₂ × PaCO₂? 🖼️
+- 📉 Queda súbita do EtCO₂ na VM: diagnósticos?
+- 📈 Aumento progressivo do EtCO₂?
+- 🌡️ Qual a regra para estimar PaO₂ esperada pela FiO₂?
+- 🧮 Por que a P/F varia com a PEEP e a FiO₂?
+- 🛑 Quando a FiO₂ 1,0 é aceitável e quando reduzir?
+- 🩸 SpO₂ 99% com FiO₂ 0,8: o que fazer?
+- 🧪 Hipoxemia súbita no ventilado: mnemônico DOPE?
+- 🗺️ Intubação seletiva: como suspeitar e corrigir?
+- 📏 Posição ideal da ponta do tubo na radiografia?
+- 🎈 Pressão ideal do cuff?
+- 💤 Analgossedação inicial na VM: qual estratégia?
+- 🧮 Peso predito 60 kg na SDRA: qual VT inicial e máximo?
+- 📋 Metas do protocolo ARDSNet? 🖼️
+- 🧮 Na SDRA, pH 7,18 com FR 35 e VT 6 mL/kg: próximos passos?
+- 🧯 Bicarbonato na acidose respiratória por hipercapnia permissiva?
+- ⚖️ Qual a relação entre PEEP e CRF?
+- 🧠 Neurocrítico ventilado: alvo de PaCO₂ e PaO₂?
+- 💡 Paciente pós-PCR ventilado: alvo de oxigenação?
+- 🧮 Ventilado com acidose metabólica grave (CAD, pH 6,9): ajuste?
+- 🧮 Fórmula de Winter?
+- 🧪 Qual o valor do lactato na hipoxemia?
+- 🩸 Qual a fórmula do DO₂?
+- 🧮 Hb 10, SaO₂ 98%, PaO₂ 100: qual o CaO₂?
+- 🫁 Para que serve a SvO₂/SvcO₂ no ventilado?
+- 🧮 O que é o gap venoarterial de CO₂ (ΔPCO₂)?
+- 💨 Paciente “brigando” com o ventilador logo após intubação: abordagem?
+- 🧮 Volume-minuto normal e por que aumenta na sepse?
+- 🔥 Febre de 1 °C aumenta o VCO₂ em quanto?
+- 🧯 Por que medir a pressão de platô em toda mudança de VT/PEEP?
+- ⚡ PEEP na intubação do paciente hipoxêmico: por quê?
+- 🫧 O que é atelectasia de absorção?
+- 🌍 Qual a influência da altitude na P/F?
+- 🧪 Por que a gasometria venosa pode substituir a arterial em parte?
+- 🧮 Ventilado com SDRA: SpO₂ 89%, FiO₂ 0,6, PEEP 10. Pela tabela ARDSNet (PEEP baixa), próximo passo? 🖼️
+- 🧮 Tabela ARDSNet de PEEP alta (ALVEOLI): exemplos?
+
+### 🔴 SDRA: definição, ventilação protetora, prona e resgate
+- 📜 Critérios de Berlim (2012) para SDRA?
+- 🌍 O que mudou na definição global de SDRA (2023/2024)?
+- 🧪 Qual estudo estabeleceu VT 6 mL/kg na SDRA e qual o ganho?
+- 🛏️ Qual o resultado do PROSEVA?
+- 🛏️ Por que a prona melhora a oxigenação e a sobrevida?
+- 🛏️ Critérios para sair da prona?
+- ⚠️ Contraindicações à prona?
+- 🛏️ Complicações mais comuns da prona?
+- 💉 Bloqueio neuromuscular na SDRA: ACURASYS × ROSE?
+- 💊 Corticoide na SDRA: o que dizem as diretrizes recentes?
+- 🫁 Manobras de recrutamento com PEEP escalonada alta: o que mostrou o ART?
+- 📊 PEEP alta × baixa na SDRA: qual a evidência agregada?
+- 🎯 O que é a titulação da PEEP pela melhor complacência?
+- 🎯 Titulação de PEEP por pressão esofágica: o que mostraram os EPVent?
+- 🧭 O que é titulação de PEEP por TIE (tomografia de impedância)?
+- 💨 Óxido nítrico inalatório na SDRA?
+- 🫀 Quando indicar ECMO VV na SDRA (critérios EOLIA)?
+- 🫀 Resultado do EOLIA?
+- 🫀 Ventilação “ultraprotetora” durante ECMO VV?
+- 🧪 O que é ECCO₂R e o que mostrou o REST?
+- 💧 Estratégia de fluidos na SDRA: o que mostrou o FACTT?
+- 🧬 O que são os subfenótipos hiper e hipoinflamatório da SDRA?
+- 🫁 SDRA “focal × não focal” (LIVE trial)?
+- 🫁 Qual a prioridade terapêutica na SDRA grave (ordem prática)?
+- 🦠 SDRA por COVID-19: o que foi diferente?
+- 🛏️ Prona acordado (awake prone) em IRpA por COVID em CNAF?
+- 🌡️ Qual a mortalidade aproximada da SDRA (LUNG SAFE)?
+- 🎯 Por que limitar a ΔP mesmo com platô < 30? 🖼️
+- 🔢 PEEP subiu de 10 para 14 e a ΔP caiu de 16 para 13: o que significa?
+- 🛑 Platô 33 com VT 6 mL/kg: o que fazer?
+- 🫁 Quanto tempo manter a prona por sessão?
+- 🧯 Hipoxemia grave refratária: lista de terapias de resgate?
+- 🫁 Qual a relação entre cor pulmonale agudo e SDRA?
+- 🧪 Qual a principal causa de SDRA direta e indireta?
+- 💉 O que é TRALI?
+- 🦴 SDRA no paciente obeso: particularidades?
+- 🤰 SDRA na gestante: metas específicas?
+- 🧪 Vitamina C, estatinas, surfactante e β2-agonistas na SDRA?
+- 🫁 Ventilação protetora no intraoperatório: o que se recomenda?
+- 🧮 Por que a FR alta não é “gratuita” na SDRA?
+- 🩻 Qual achado de TC define pulmão recrutável?
+- 🧭 SDRA com pneumotórax durante VM: conduta?
+- 📈 Fases evolutivas da SDRA?
+- 🧠 Sequelas a longo prazo dos sobreviventes de SDRA?
+- 🫁 SDRA leve (P/F 250) em CNAF: deve intubar?
+- 💤 Sedação profunda × leve na SDRA?
+- 🧯 Durante a prona, a P/F não melhorou. Interromper?
+- 🧪 Qual a utilidade da broncoscopia/LBA na SDRA?
+- 🩸 Hemorragia alveolar difusa: pistas e tratamento?
+
+### 📊 Monitorização avançada à beira-leito
+- 📊 Quais são as 3 curvas básicas do ventilador? 🖼️
+- 💧 Como identificar vazamento na curva de volume?
+- 📐 O que é o stress index? 🖼️
+- 🔒 Como medir a Pocc (pressão de oclusão expiratória)?
+- 🚨 ΔPocc de −22 cmH₂O em PSV: significado?
+- ⏸️ O que a pausa inspiratória em PSV pode revelar?
+- 🎈 Como se faz a manometria esofágica?
+- 🧮 Como calcular a PL inspiratória pelo método da elastância?
+- 🧭 Como a PL expiratória orienta a PEEP?
+- 💪 O que é o PTP (produto pressão-tempo)?
+- 🧠 Para que medir a P0.1?
+- 🫧 O que a capnografia volumétrica mede?
+- 📈 O que significa EtCO₂ subindo durante RCP ou após prova de volume?
+- 🖥️ O que é a TIE (tomografia de impedância elétrica)?
+- 🩻 O ultrassom pulmonar pode monitorar o recrutamento?
+- 🧮 Como estimar a auto-PEEP em paciente com esforço?
+- 🌡️ Fatores que causam falsa leitura do platô?
+- 📏 Platô que cai continuamente durante a pausa: o que sugere?
+- 🧮 O que é a complacência dinâmica?
+- 🔁 Como monitorar tendência da mecânica no plantão?
+- 🩺 Qual o papel da pressão intra-abdominal na mecânica?
+- 🫀 O que é a variação de pressão de pulso (VPP) e limitações na VM?
+- 🧪 O que é o teste de oclusão expiratória fim (EEOT)?
+- 🔊 O que monitorar no balonete de alta frequência (pressão do cuff contínua)?
+- 📉 Queda progressiva da complacência após prona: o que pode significar?
+- 🧠 Qual o índice de Pmus derivado da pausa inspiratória (PMI)?
+- 🩸 Para que serve a SpO₂ contínua com pletismografia no ventilado?
+- 🧮 Ventilatory ratio (VR): fórmula e interpretação?
+- 🧪 Como detectar esforço expiratório ativo?
+- 🫁 O que é o índice de recrutamento (R/I) e como executar?
+- 🫧 Auto-PEEP regional e heterogeneidade: por que a pausa pode subestimar?
+- 🧭 Como interpretar o platô em PCV?
+- 📏 Qual é o trabalho respiratório normal?
+- 🔊 O que significa oscilação cardiogênica na curva de fluxo?
+- 🧪 O que é a hiperdistensão vista na curva pressão-volume dinâmica?
+- 🔁 Alça fluxo-volume com “serrilhado”: o que sugere?
+- 🧯 Alça fluxo-volume com escavação expiratória (concavidade)?
+- 🩺 Como monitorar assincronia de forma sistemática?
+- 💤 Por que as assincronias aumentam durante o sono?
+- 🎛️ Qual alarme indica obstrução do tubo em VCV × PCV?
+- 🧮 Qual o valor da complacência para diferenciar SDRA tipo “L” e “H” na COVID?
+- 🧠 Ventilado com HIC: o que monitorar continuamente?
+- ⚙️ Por que calibrar o sensor de fluxo e checar o ventilador (autoteste)?
+- 🌐 Como monitorar potência mecânica à beira-leito?
+- 🔍 Qual sinal de pneumotórax na mecânica do ventilado?
+- 📌 Qual a CRF e como medir no ventilado?
+- 🩸 Por que medir gasometria + mecânica juntos após mudança de PEEP?
+- 🧮 VCV: VT 450, Ppico 38, Pplatô 30, PEEP 10, fluxo 60 L/min. Calcule Crs, R e ΔP.
+- 🔁 Qual a ordem prática da avaliação diária da mecânica?
+- 🌡️ Por que reavaliar a mecânica após mudança de decúbito?
+
+### 🔀 Assincronias paciente-ventilador
+- 🔀 Quais os grupos de assincronia? 🖼️
+- 😶 O que é esforço ineficaz e como reconhecer? 🖼️
+- 🛠️ Como corrigir esforço ineficaz?
+- 🤖 O que é autodisparo?
+- ⏳ O que é atraso de disparo?
+- 🔁 O que é duplo disparo? 🖼️
+- 🛠️ Como corrigir duplo disparo na SDRA?
+- 🔄 O que é disparo reverso e como diferenciar de duplo disparo?
+- 🧠 Por que o disparo reverso é perigoso?
+- ⏱️ O que é ciclagem precoce? 🖼️
+- ⏱️ O que é ciclagem tardia?
+- 🍽️ Como reconhecer fome de fluxo em VCV?
+- 🌊 O que é fluxo excessivo?
+- 📊 Qual a prevalência e impacto das assincronias?
+- 💊 Qual a relação entre sedação e esforço ineficaz?
+- 🧠 Assincronia por drive alto: quais as causas tratáveis?
+- 🎛️ Qual modo tem menor índice de assincronia?
+- 🔍 Como reconhecer assincronia sem manometria?
+- 🌀 Assincronia em VNI: principal causa?
+- 🧮 Como estimar o tempo neural à beira-leito?
+- 💤 Paciente em PSV 18 com FR 10 e esforços ineficazes: o que fazer?
+- 🧯 Paciente em VCV “lutando” com pressão escavada e taquipneia na SDRA: ação?
+- 🔁 Qual assincronia causa falsa taquipneia no monitor?
+- 🔊 O que é “entrainment” respiratório?
+- 🩻 Por que assincronias aumentam o tempo de VM?
+- 🔚 Em PSV, como a ciclagem a fluxo se comporta na doença restritiva?
+- 🔚 E na doença obstrutiva?
+- 🧮 O que é índice de esforço ineficaz (IEI)?
+- 🧠 Em qual situação o duplo disparo é mais comum?
+- 🛑 Quando o BNM é a melhor solução para assincronia?
+- 🧷 Diferença entre esforço ineficaz inspiratório e trigger reverso na curva?
+- 💨 Assincronia por expiração ativa: o que pode ocorrer?
+- 🎛️ Ajuste prático do trigger a fluxo?
+- 🔍 Como saber se o paciente está “confortável” no ventilador?
+- 🌡️ A febre pode causar assincronia?
+- 🍽️ Distensão abdominal e assincronia?
+- 🧮 Qual a importância do Ti máximo na PSV?
+- 🧪 Assincronia e delirium: relação?
+- 🧠 O que o Edi (NAVA) acrescenta na detecção de assincronia?
+- 🔀 Paciente com FR do ventilador 12 e FR clínica 24: diagnóstico?
+- 📌 Por que o duplo disparo burla a ventilação protetora?
+- 🧯 Assincronia súbita + dessaturação: primeiro passo?
+- 🧮 Qual a influência da PEEP externa no esforço ineficaz do DPOC?
+- 🔁 Qual assincronia é típica da alcalose respiratória/sono?
+- 🎛️ Como o rise time influencia a ciclagem?
+- 🧪 Qual achado da curva sugere esforço expiratório ativo na PSV?
+- 🩺 Assincronia e desmame: relação?
+- 💡 Qual a primeira abordagem quando se encontra qualquer assincronia?
+- 🧮 Duplo disparo: fórmula prática para ajustar o Ti?
+- 🧬 Assincronia em neuromusculares (SGB, miastenia)?
+
+### 🌬️ Doença obstrutiva: asma, DPOC e hiperinsuflação
+- 🌬️ Objetivo principal da VM no asmático grave?
+- 🧮 Qual a medida-chave de segurança na asma ventilada?
+- 🌡️ Hipercapnia na asma ventilada: até quanto aceitar?
+- 💉 Indução para intubar o asmático: drogas preferidas?
+- 🫁 Qual a definição de status asmaticus grave e sinais de PCR iminente?
+- 💊 Terapia adjuvante no asmático ventilado?
+- 🧪 Por que usar heliox?
+- 🫁 Indicação clássica de VNI na DPOC exacerbada?
+- 🫁 DPOC com pH : VNI ainda é opção?
+- ⚙️ Ajuste inicial de VNI na DPOC?
+- 🎛️ PEEP externa no DPOC em ventilação espontânea (PSV/VNI)?
+- 🔚 PSV no DPOC: qual o ajuste de ciclagem?
+- 🧮 Como reduzir a auto-PEEP? (ordem de impacto)
+- 🧮 FR 12, Ti 1 s: qual o Te? E com FR 20?
+- 🆘 Hipotensão no asmático ventilado: teste da apneia?
+- 💥 Por que o asmático ventilado tem alto risco de barotrauma?
+- 🫧 O que é Vei (volume no fim da inspiração)?
+- 🧯 Asma refratária com acidose grave: opções de resgate?
+- 🌬️ Por que a sedação profunda é frequentemente necessária na asma intubada?
+- 💪 Asma ventilada + BNM + corticoide alto: complicação típica?
+- 🎯 Alvo de SpO₂ no DPOC hipercápnico?
+- 🧪 O que é o efeito Haldane?
+- 🫁 DPOC intubado: alvo de PaCO₂?
+- 🔁 Qual o risco do broncodilatador no circuito com HME?
+- 💨 Melhor forma de administrar β2 no ventilado?
+- 🧮 DPOC em PSV com esforços ineficazes: ajuste completo?
+- 🩻 Achado clássico de hiperinsuflação no POCUS/raio X do asmático?
+- 🧪 Exacerbação de DPOC: quais preditores de falha da VNI?
+- ⏱️ Por quanto tempo manter a VNI na DPOC exacerbada?
+- 🏠 VNI domiciliar após exacerbação hipercápnica?
+- 🧠 DPOC + hipercapnia + rebaixamento (Glasgow 9): VNI?
+- 💥 Pneumotórax no DPOC/bolhoso ventilado: como diferenciar de bolha no POCUS?
+- 🧮 Asma grave: VT 8 mL/kg e FR 10 → volume-minuto?
+- 🧪 Qual o papel da cetamina na asma refratária?
+- 🌡️ Lactato elevado na asma grave em tratamento: causa comum?
+- 🧯 Asmático intubado com PCR: causas específicas a pensar?
+- 🫁 Diferença de mecânica: asma × DPOC?
+- 🏥 DPOC em VNI: quando a CNAF é alternativa?
+- 🧪 O que é flow limitation expiratória?
+- 🧮 Como medir a auto-PEEP no DPOC em PSV (paciente ativo)?
+- 🌬️ Extubação de DPOC: melhor estratégia?
+- 🔁 Uso de VNI na asma aguda?
+- 🧠 Por que o PCO₂ normal numa crise asmática grave é alarmante?
+- 💉 Corticoide na exacerbação de DPOC ventilada: dose e duração?
+- 💊 Antibiótico na exacerbação de DPOC que precisa de VM?
+- 🌀 Por que a bradipneia programada não lesa o pulmão do asmático?
+- 🔍 Asmático com tubo fino (7,0): impacto?
+- 🫧 Sinal de rolha de muco na mecânica?
+- 🧮 Qual a regra prática da PEEP externa no paciente passivo obstrutivo?
+- 🧪 DPOC + pneumonia + SDRA: qual estratégia prevalece?
+- 🩺 Melhor indicador clínico de sucesso da VNI na DPOC em 1 h?
+
+### 😷 VNI, CNAF e intubação
+- 😷 Indicações com evidência forte de VNI?
+- 🚫 Contraindicações à VNI?
+- 😷 Escolha da interface na VNI aguda?
+- 🌊 Como funciona a CNAF?
+- 📊 Resultado do FLORALI?
+- 🧮 O que é o índice ROX?
+- 🧮 O que é o escore HACOR?
+- ⏱️ Por que a intubação tardia após falha de CNAF/VNI é perigosa?
+- 🪖 VNI com helmet na IRpA hipoxêmica: evidência?
+- 😷 VNI na IRpA hipoxêmica “de novo”: risco?
+- 🫀 CPAP × BiPAP no EAP cardiogênico?
+- 🧑‍⚕️ VNI no paciente imunossuprimido?
+- 🛫 Pré-oxigenação para intubação: melhores métodos?
+- 🔁 O que é oxigenação apneica?
+- 💨 Ventilação com bolsa-válvula-máscara entre indução e laringoscopia?
+- 🎥 Videolaringoscópio × laringoscopia direta na UTI/emergência?
+- 🧷 Bougie na primeira tentativa?
+- 💉 Etomidato × cetamina na intubação de críticos?
+- 💧 Bolus de fluido pré-intubação previne colapso?
+- 🩸 Fatores do colapso pós-intubação?
+- 🧮 Mnemônico HEAVEN (via aérea difícil fisiológica/anatômica)?
+- 🗣️ Mnemônico LEMON (via aérea difícil anatômica)?
+- 🧪 Confirmação da posição do tubo: padrão ouro?
+- 🧯 “Não intubo, não oxigeno” (CICO): conduta?
+- 🛠️ Algoritmo DAS: planos A, B, C, D?
+- 😷 CNAF pós-extubação em baixo risco: evidência?
+- 😷 CNAF × VNI pós-extubação em alto risco?
+- 🚫 VNI de resgate na insuficiência respiratória pós-extubação já estabelecida?
+- 🧮 Ajuste inicial de CNAF na IRpA hipoxêmica?
+- 🧮 Como fazer o desmame da CNAF?
+- 😷 Complicações da VNI?
+- 🔁 VNI em obesidade-hipoventilação (SHO) agudizada?
+- 🧠 VNI em doença neuromuscular (ELA, miastenia, SGB)?
+- 🧮 Critérios 20/30/40 para intubar na SGB?
+- 🌀 CNAF na DPOC hipercápnica?
+- 🧮 FiO₂ real do cateter nasal e da máscara?
+- 🧯 IRpA hipoxêmica: sinais para intubar sem esperar?
+- 🫁 Posição do paciente durante a pré-oxigenação?
+- 🧮 Sequência rápida: princípios no crítico?
+- 💉 Rocurônio × succinilcolina na SRI?
+- 😷 VNI no pós-operatório de cirurgia abdominal com hipoxemia?
+- 🫧 CNAF e pressão positiva: quanto gera?
+- 😷 VNI e pneumonia comunitária grave?
+- 🔊 Qual a melhor monitorização da VNI na 1ª hora?
+- 🧠 Sedação para tolerar VNI?
+- 🧷 Laringoespasmo pós-extubação: manejo?
+- 🧪 Teste de vazamento do cuff (cuff leak) antes da extubação?
+- 🗣️ Estridor pós-extubação: tratamento?
+- 🏥 Onde iniciar VNI na IRpA?
+- 🌀 Por que a umidificação é importante na CNAF?
+- 😷 VNI no trauma torácico (contusão, fraturas de costelas)?
+- 🗺️ Resumo visual: quem se beneficia de VNI × CNAF? 🖼️
+
+### 🏁 Desmame, extubação e traqueostomia
+- 🏁 Critérios de triagem diária para TRE? 🖼️
+- 🧪 Qual o melhor tipo de TRE: PSV ou tubo T?
+- ⏱️ Duração do TRE?
+- 🚦 Critérios de falha no TRE?
+- 🧮 O que é o índice de Tobin (IRRS)?
+- 📊 Classificação do desmame (Boles)?
+- 🌍 Classificação WIND (2017)?
+- 🔍 Falha no TRE: principais causas a investigar?
+- ❤️ O que é EAP induzido pelo desmame?
+- 🫁 Papel do ultrassom no desmame? 🖼️
+- 💪 Qual a melhor medida de força muscular inspiratória à beira-leito?
+- 🌬️ Qual o papel da tosse na extubação?
+- 🧠 Glasgow baixo contraindica extubação em neurocríticos?
+- 📈 Critérios de alto risco de reintubação?
+- ⏱️ Qual o tempo usual para considerar falha de extubação?
+- 🧪 Protocolo ABCDEF (A2F bundle)?
+- 🛌 O que mostrou o ABC trial (Girard 2008)?
+- 🧷 Quando indicar traqueostomia?
+- 📅 Traqueostomia precoce × tardia: o que mostrou o TracMan?
+- 🧠 Traqueostomia precoce em AVC grave (SETPOINT2)?
+- 🛠️ Percutânea × cirúrgica?
+- 🚨 Complicações da traqueostomia?
+- 🆘 Decanulação acidental de traqueostomia recente (< 7 dias): conduta?
+- 🩸 Fístula traqueoinominada: sinal clássico?
+- 🗣️ Válvula de fala em traqueostomizados: quando usar?
+- 🧮 Desmame prolongado em traqueostomizados: PSV gradual × TRE diários com colar?
+- 💪 Papel da mobilização precoce?
+- 🍽️ Qual eletrólito é clássico na falha de desmame?
+- 🧪 Alcalose metabólica e desmame?
+- 🫀 Levosimendana no desmame difícil?
+- 💊 Dexmedetomidina em pacientes agitados que impedem extubação?
+- 🧯 Paciente falhou 3 TRE: o que fazer?
+- 🫁 Extubar para VNI no DPOC que falhou no TRE?
+- 🧮 Qual o papel do balanço hídrico no desmame?
+- 🎛️ Desmame guiado por protocolo × julgamento clínico?
+- 📉 O que é o índice integrado CROP?
+- 🧠 Extubação de pacientes com lesão medular alta?
+- 🧯 Edema laríngeo: fatores de risco?
+- 🔍 O que é disfunção diafragmática induzida pelo ventilador (VIDD)?
+- 🧪 Treinamento muscular inspiratório no desmame?
+- 🚑 Extubação em pacientes obesos: estratégia?
+- 🗓️ O que é SAT (spontaneous awakening trial)?
+- 🧮 TRE com PSV 8 / PEEP 5 superestima a tolerância?
+- 📌 Após extubação, quais sinais indicam reintubação precoce?
+- 🧠 Delirium e desmame: relação?
+- 🧷 Em traqueostomizado, quando decanular?
+- 🫁 Ventilação domiciliar após UTI: critérios?
+- 🧪 Hipotireoidismo e desmame?
+- 🧮 Qual a taxa esperada de reintubação em UTI?
+
+### 🧩 Situações especiais, PAV e complicações
+- 🧠 Ventilação no TCE grave: metas principais?
+- 🧠 Hiperventilação no neurocrítico: quando usar?
+- 🫁 PEEP aumenta a PIC?
+- 💀 Ventilação no potencial doador (morte encefálica)?
+- 🧪 Como fazer o teste de apneia com segurança?
+- 🦠 Definição de PAV (pneumonia associada à VM)?
+- 🧯 Bundle de prevenção de PAV?
+- 🦷 Clorexidina oral na prevenção de PAV?
+- 💊 Tratamento empírico de PAV (ATS/IDSA 2016)?
+- 🧪 Diagnóstico microbiológico da PAV?
+- 🩻 O que é VAE (evento associado à VM)?
+- 🫁 Traqueobronquite associada à VM (VAT): tratar?
+- 💉 Antibiótico inalatório na PAV?
+- 💥 Fatores de risco de barotrauma?
+- 🫧 Pneumotórax no ventilado: conduta?
+- 🩸 Fístula broncopleural de alto débito: ajustes?
+- 🤰 VM na gestante: particularidades?
+- 🍔 VM no obeso: ajustes?
+- 🔥 VM na lesão inalatória (queimado)?
+- ☠️ Intoxicação por CO: ventilação?
+- 🌊 Afogamento: VM?
+- 🧯 VM em hipotermia/PCR: gasometria — alfa-stat ou pH-stat?
+- 🫀 VM no choque cardiogênico?
+- 🫀 VM na hipertensão pulmonar/falência de VD?
+- 🩻 VM pós-pneumectomia?
+- 🫁 O que é ventilação pulmonar independente (ILV)?
+- 🩸 Hemoptise maciça no ventilado: manobras?
+- 🧪 Hipertermia maligna sob VM: sinais e tratamento?
+- 🧯 Transporte intra-hospitalar do ventilado: riscos?
+- 🏥 VM e nutrição: impacto da dieta rica em carboidratos?
+- 🔁 Profilaxia de úlcera de estresse no ventilado?
+- 🩸 Profilaxia de TEV no ventilado?
+- 💧 Por que a VM causa retenção hídrica?
+- 👁️ Complicação ocular comum no ventilado sedado?
+- 🦴 Lesão por pressão relacionada ao tubo?
+- 🗣️ Lesão laríngea pós-intubação: sintomas tardios?
+- 🌀 O que é P-SILI e como prevenir em IRpA não intubada?
+- 🧯 Ventilado em pronação: como manejar PCR?
+- 🫁 VM com ECMO VA: particularidades?
+- 🧠 VM no status epilepticus?
+- 🦠 VM em tuberculose/infecções transmissíveis por aerossol?
+- 🔁 Aspiração aberta × fechada?
+- 🧪 Instilação de soro fisiológico antes de aspirar?
+- 🫁 Fisioterapia respiratória no ventilado: benefícios?
+- 🧯 Alarme de pressão alta súbito: checklist em 30 s?
+- 🧮 VM na acidose metabólica grave (intoxicação por salicilato): risco?
+- ⏰ VM prolongada (> 21 dias): definição e destino?
+- 🕊️ Extubação paliativa: princípios?
+- 🧪 Por que sedação profunda precoce piora desfechos?
+- 🧠 Ventilação e AVC isquêmico extenso?
+- 🦠 COVID-19 ventilado: prona em quem?
+
 # 🩺 R3 Clínica Médica
 
 ## 01 🫀 Cardiologia (54)

@@ -1,0 +1,302 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## A | ⚙️ Física, equação do movimento e mecânica | Tobin, Principles and Practice of Mechanical Ventilation, 3ª ed.
+
+Q: 🧮 Qual é a <b>equação do movimento</b> do sistema respiratório?
+A: <b>Pva + Pmus = VT/C + Fluxo × R + PEEPtotal</b>
+| Termo | Significado |
+| VT/C | 🟡 pressão elástica (→ platô) |
+| Fluxo × R | 🔵 pressão resistiva (→ pico − platô) |
+| PEEPtotal | 🟣 PEEP externa + auto-PEEP |
+X: Em paciente passivo, Pmus = 0 → toda a pressão vem do ventilador. É a base para medir complacência e resistência.
+I: vm_equacao.png
+
+Q: 📏 O que a <b>pressão de pico</b> representa?
+A: Soma das pressões <b>resistiva + elástica + PEEP</b> no fim da inspiração com fluxo ainda presente.
+✅ Sobe com resistência (tubo, secreção, broncoespasmo) <b>e</b> com complacência baixa.
+X: Pico isolado não diz se o problema é via aérea ou pulmão → faça a pausa inspiratória.
+
+Q: ⏸️ O que é a <b>pressão de platô</b> e como medir?
+A: Pressão alveolar com <b>fluxo zero</b>: pausa inspiratória de 0,3–0,5 s (até 2 s), paciente <b>passivo</b>.
+🎯 Alvo na SDRA: <b>≤ 30 cmH₂O</b>.
+X: Esforço do paciente durante a pausa falseia o platô → curva de pressão deve ficar plana.
+I: vm_vcv_curvas.png
+
+Q: 🔀 Pico ↑ e platô <b>normal</b>: qual o problema?
+A: <b>Resistência ↑</b> (gradiente pico − platô > 10 cmH₂O)
+| Causa | Exemplo |
+| Tubo | dobra, mordida, secreção, tubo fino |
+| Via aérea | broncoespasmo, secreção |
+| Circuito | filtro HME saturado, água no circuito |
+X: Conduta imediata: aspirar, checar tubo, broncodilatador.
+
+Q: 🔀 Pico ↑ e platô <b>↑</b> (gradiente normal): qual o problema?
+A: <b>Complacência ↓</b> (problema elástico):
+- Pulmão: SDRA, edema, pneumonia, atelectasia, intubação seletiva
+- Pleura: pneumotórax, derrame
+- Parede/abdome: obesidade, HIA, queimadura circunferencial
+- Auto-PEEP (aumenta platô também)
+X: Pneumotórax hipertensivo: platô sobe subitamente + hipotensão → descomprimir.
+
+Q: 📐 Fórmula da <b>complacência estática</b> do sistema respiratório?
+A: <b>Cst = VT / (Pplatô − PEEPtotal)</b>
+Normal no intubado: <b>~50–80 mL/cmH₂O</b> · SDRA grave: frequentemente < 30–40.
+X: Use PEEP <b>total</b> (com auto-PEEP), senão superestima a complacência.
+
+Q: 📐 Fórmula da <b>resistência</b> inspiratória das vias aéreas?
+A: <b>R = (Ppico − Pplatô) / Fluxo</b> (em L/s)
+Ex.: (35 − 25)/1 L/s = <b>10 cmH₂O/L/s</b> (normal intubado ≈ 5–10; > 15–20 = elevada).
+X: Fluxo em L/min ÷ 60 → L/s. 60 L/min = 1 L/s.
+
+Q: 🎯 O que é <b>driving pressure</b> (ΔP)?
+A: <b>ΔP = Pplatô − PEEP = VT / Crs</b>
+Representa o VT “ajustado” ao tamanho do pulmão funcional (baby lung).
+🎯 Manter <b>≤ 15 cmH₂O</b>.
+S: Amato MB et al., NEJM 2015
+I: vm_driving.png
+
+Q: 👶 O que é o conceito de <b>“baby lung”</b> (Gattinoni)?
+A: Na SDRA, o pulmão <b>aerado</b> funcional é pequeno (como o de uma criança), mas com complacência específica <b>quase normal</b>.
+➡️ O problema é o <b>volume</b> disponível, não a “rigidez” → por isso VT baixo.
+S: Gattinoni L, Intensive Care Med 2005
+
+Q: ⏸️ Como medir a <b>auto-PEEP</b>?
+A: <b>Pausa expiratória</b> (0,5–2 s) em paciente <b>passivo</b>: a pressão de equilíbrio − PEEP externa = auto-PEEP (PEEPi).
+X: Se o paciente tem esforço expiratório ativo, a medida superestima a PEEPi.
+I: vm_autopeep.png
+
+Q: 📉 Sinal de auto-PEEP na curva de <b>fluxo</b>?
+A: Fluxo expiratório <b>não retorna a zero</b> antes do próximo ciclo.
+X: Pode existir auto-PEEP mesmo com curva aparentemente “zerando” em pacientes com esforço ativo — confirme com pausa.
+I: vm_autopeep.png
+
+Q: ⏱️ Qual é a <b>constante de tempo</b> (τ) e por que importa?
+A: <b>τ = R × C</b>. Em 3 τ o pulmão esvazia ~95%; em 5 τ, ~99%.
+➡️ Tempo expiratório deve ser ≥ 3–5 τ para evitar auto-PEEP.
+| R × C | τ |
+| 10 cmH₂O/L/s × 0,05 L/cmH₂O | 0,5 s |
+| 30 × 0,07 (DPOC) | 2,1 s |
+X: DPOC: R alta + C alta → τ longo → precisa de tempo expiratório longo.
+
+Q: 🔁 Em VCV, se a complacência cai, o que acontece com as pressões?
+A: VT é fixo → <b>platô e pico sobem</b> (pressão é a variável dependente).
+⚠️ Alarme de pressão alta é o sinal de alerta.
+
+Q: 🔁 Em PCV, se a complacência cai, o que acontece?
+A: Pressão é fixa → <b>VT cai</b> (volume é a variável dependente) → risco de hipoventilação.
+⚠️ Monitorar VT expirado e volume-minuto.
+
+Q: 🧮 Qual é a <b>fórmula do peso predito</b> (PBW)?
+A: | Sexo | Fórmula |
+| ♂ Homem | 50 + 0,91 × (altura cm − 152,4) |
+| ♀ Mulher | 45,5 + 0,91 × (altura cm − 152,4) |
+Ex.: homem 175 cm → ~70,6 kg → VT 6 mL/kg ≈ 420 mL.
+X: Nunca use peso real: o pulmão não engorda. Mulheres baixas recebem VT excessivo com frequência.
+S: ARDSNet, NEJM 2000
+
+Q: 📏 Qual a relação do <b>pulmão com a altura</b> e não com o peso?
+A: Volumes pulmonares (CPT, CRF) dependem de <b>altura e sexo</b>, não de peso. Por isso VT é indexado ao <b>peso predito</b>.
+X: Medir a altura (fita, ulna, altura do joelho) — estimar “no olho” erra muito.
+
+Q: 🧠 Quais os 4 mecanismos da <b>VILI</b>?
+A: | Mecanismo | Causa |
+| 🎈 Volutrauma | hiperdistensão (VT/platô alto) |
+| 🔁 Atelectrauma | abertura/fechamento cíclico (PEEP baixa) |
+| 💥 Barotrauma | ruptura alveolar → PNTX, enfisema |
+| 🔥 Biotrauma | liberação de citocinas → DMOS |
+S: Slutsky AS, Ranieri VM. NEJM 2013
+
+Q: ⚡ O que é <b>potência mecânica</b> (mechanical power)?
+A: Energia entregue ao pulmão por minuto (J/min), integra VT, ΔP, fluxo, FR e PEEP.
+Fórmula simplificada (VCV): <b>0,098 × FR × VT(L) × (Ppico − ½ ΔP)</b>
+⚠️ Valores > <b>17 J/min</b> associados a ↑ mortalidade (estudos observacionais).
+X: FR entra quase linear — subir FR para “lavar CO₂” também aumenta a energia.
+S: Gattinoni L, ICM 2016; Serpa Neto A, ICM 2018
+
+Q: 🫧 Qual a diferença entre <b>espaço morto anatômico e alveolar</b>?
+A: | Tipo | Definição |
+| Anatômico | vias aéreas de condução (~2 mL/kg) |
+| Alveolar | alvéolos ventilados sem perfusão (TEP, ↓DC, hiperdistensão) |
+| Fisiológico | soma dos dois → Vd/Vt (Bohr-Enghoff) |
+Normal Vd/Vt ≈ 0,3. SDRA: Vd/Vt ↑ associa-se a mortalidade.
+S: Nuckton TJ, NEJM 2002
+
+Q: 🧮 Equação de <b>Bohr-Enghoff</b>?
+A: <b>Vd/Vt = (PaCO₂ − PeCO₂) / PaCO₂</b>
+PeCO₂ = CO₂ expirado misto (capnografia volumétrica).
+X: Proxy à beira-leito: <b>ventilatory ratio</b> = (VE × PaCO₂)/(PBW × 100 × 37,5); normal ≈ 1.
+
+Q: 🔧 Qual a <b>resistência</b> de um tubo traqueal pela lei de Poiseuille?
+A: R ∝ comprimento / <b>raio⁴</b> → reduzir o raio pela metade aumenta a resistência <b>16 ×</b>.
+➡️ Preferir tubo ≥ 7,5–8,0 em adultos (facilita broncoscopia e desmame).
+X: Fluxo turbulento (alto) aumenta ainda mais a resistência.
+
+Q: 📈 Para que serve a <b>curva pressão-volume</b> quase-estática?
+A: Identifica o <b>ponto de inflexão inferior</b> (recrutamento) e <b>superior</b> (hiperdistensão).
+Ventilar entre os dois = “zona segura”.
+X: Na prática, histerese e heterogeneidade limitam; hoje se usa mais ΔP, PL e índice de recrutamento.
+I: vm_pv_inflexao.png
+
+Q: 🔄 O que é o <b>índice R/I</b> (Recruitment-to-Inflation ratio)?
+A: Manobra à beira-leito: reduz PEEP de 15 → 5 em um só passo e mede o volume liberado.
+| R/I | Interpretação |
+| ≥ 0,5 | alto potencial de recrutamento → PEEP mais alta |
+| < 0,5 | baixo → PEEP mais baixa |
+S: Chen L et al., AJRCCM 2020
+
+Q: 🫁 Diferença entre <b>complacência pulmonar e da parede</b>?
+A: 1/Crs = 1/CL + 1/Ccw
+Pressão esofágica separa os componentes: CL = VT/ΔPL; Ccw = VT/ΔPes.
+X: Obesidade e hipertensão abdominal reduzem Ccw → platô alto sem lesão pulmonar proporcional.
+
+Q: 🧲 Por que a <b>pressão transpulmonar</b> é a que lesa o pulmão?
+A: O alvéolo distende pela diferença <b>Palv − Ppleural</b> (PL), não pela pressão da via aérea isolada.
+➡️ Platô 32 em obeso pode significar PL baixa e segura; platô 28 com esforço intenso pode significar PL perigosa.
+I: vm_transpulmonar.png
+
+Q: 💪 Por que esforço inspiratório intenso pode lesar mesmo em PSV com pressões baixas?
+A: Pmus muito negativa → ↑ <b>PL</b> (Ppl muito negativa) e ↑ pressão transvascular → edema e lesão = <b>P-SILI</b> (patient self-inflicted lung injury).
+Ainda há o efeito <b>pendelluft</b> (ar migra entre regiões).
+S: Brochard L, Slutsky A, Pesenti A. AJRCCM 2017
+
+Q: 🌀 O que é <b>pendelluft</b>?
+A: Movimento de ar de regiões <b>não dependentes</b> para <b>dependentes</b> no início da inspiração, sem mudar o VT total → hiperdistensão oculta regional.
+Detectável por <b>TIE</b> (tomografia de impedância elétrica).
+S: Yoshida T, AJRCCM 2013
+
+Q: 🫀 Efeitos hemodinâmicos da <b>pressão positiva</b>?
+A: | Efeito | Consequência |
+| ↑ Ppl → ↓ retorno venoso | ↓ pré-carga VD → ↓ DC (hipovolêmicos!) |
+| ↑ volume pulmonar → ↑ RVP | ↑ pós-carga VD |
+| ↓ pressão transmural VE | ↓ pós-carga VE → bom na IC |
+X: Por isso a PEEP melhora o EAP cardiogênico e piora o choque hipovolêmico.
+
+Q: 🫀 Por que a VPP é benéfica no <b>EAP cardiogênico</b>?
+A: ↓ pós-carga do VE (↓ pressão transmural), ↓ pré-carga, ↑ CRF, ↓ trabalho respiratório.
+✅ VNI/CPAP reduz intubação e provavelmente mortalidade no EAP.
+S: ERS/ATS NIV guideline 2017
+
+Q: ❤️ PEEP alta em <b>falência de VD</b>: qual o risco?
+A: ↑ RVP → ↑ pós-carga do VD → dilatação, desvio septal, ↓ DC.
+➡️ Na SDRA com cor pulmonale agudo: limitar ΔP e PaCO₂, considerar <b>prona</b> (descarrega o VD).
+S: Vieillard-Baron A, ICM 2016
+
+Q: 🫁 Qual a <b>RVP</b> em relação ao volume pulmonar?
+A: Curva em “U”: mínima na <b>CRF</b>.
+- Volume baixo (atelectasia) → vasoconstrição hipóxica + compressão de extra-alveolares
+- Volume alto (hiperdistensão) → compressão de capilares alveolares
+X: PEEP ideal = a que restaura a CRF sem hiperdistender.
+
+Q: 🧪 O que é <b>vasoconstrição pulmonar hipóxica</b> e o que a inibe?
+A: Reflexo que desvia sangue de alvéolos hipóxicos → reduz shunt.
+Inibida por: <b>nitroprussiato, nitroglicerina, BCC, inalatórios, sepse</b> → piora PaO₂.
+X: Vasodilatador IV pode piorar a oxigenação; óxido nítrico inalatório faz o contrário (vasodilata só onde ventila).
+
+Q: 🩸 Quais os 5 mecanismos de <b>hipoxemia</b>?
+A: | Mecanismo | Corrige com O₂? | Gradiente A-a |
+| ↓ PiO₂ (altitude) | sim | normal |
+| Hipoventilação | sim | normal |
+| Distúrbio V/Q | sim | ↑ |
+| Shunt | <b>não</b> (pouco) | ↑ |
+| Difusão | sim | ↑ |
+X: Shunt > 30% praticamente não responde a FiO₂ → precisa de PEEP/recrutamento.
+
+Q: 🧮 Fórmula do <b>gradiente alvéolo-arterial</b>?
+A: PAO₂ = FiO₂ × (Patm − 47) − PaCO₂/0,8
+<b>G(A-a) = PAO₂ − PaO₂</b>
+Normal em ar ambiente ≈ idade/4 + 4.
+X: Ao nível do mar, ar ambiente: PAO₂ ≈ 150 − 1,25 × PaCO₂.
+
+Q: 🧮 O que é o <b>índice de oxigenação</b> (IO)?
+A: <b>IO = (Pmédia via aérea × FiO₂ × 100) / PaO₂</b>
+Incorpora o “custo” de pressão. IO > 25–40 = grave (pediatria/ECMO).
+X: OSI usa SpO₂ no lugar da PaO₂ (útil sem gasometria).
+
+Q: 📊 Por que a <b>pressão média de via aérea</b> importa?
+A: Principal determinante da <b>oxigenação</b> na VPP (junto com FiO₂): ↑ Pmédia = ↑ volume pulmonar médio = ↑ área de troca.
+Aumentar: PEEP, tempo inspiratório, relação I:E.
+X: Mas ↑ Pmédia também reduz retorno venoso.
+
+Q: ⚖️ Qual a <b>relação I:E</b> normal e quando inverter?
+A: Normal <b>1:2 a 1:3</b>.
+- Obstrutivo: 1:4 ou mais (mais tempo expiratório)
+- Inversão (2:1) = PCV-IRV/APRV, raramente usada; ↑ Pmédia à custa de auto-PEEP e hemodinâmica
+X: Sem benefício de mortalidade comprovado para relação invertida.
+
+Q: 🧮 Como calcular o <b>tempo expiratório</b> em VCV?
+A: Ti = VT / fluxo; ciclo = 60/FR; <b>Te = ciclo − Ti</b>.
+Ex.: VT 0,5 L, fluxo 60 L/min (1 L/s) → Ti 0,5 s; FR 20 → ciclo 3 s → Te 2,5 s (I:E 1:5).
+X: ↑ fluxo inspiratório encurta Ti → ↑ Te (estratégia no broncoespasmo).
+
+Q: 🌬️ Qual o efeito do <b>formato de fluxo</b> (quadrado × desacelerado)?
+A: | Fluxo | Efeito |
+| Quadrado | pico ↑; permite medir R e stress index |
+| Desacelerado | pico ↓, Pmédia ↑, distribuição mais homogênea |
+X: Pico menor no desacelerado NÃO significa menos lesão — o platô é o mesmo para o mesmo VT.
+I: vm_vcv_pcv.png
+
+Q: 🫧 Qual a <b>Pmédia</b> mínima que mantém os alvéolos abertos?
+A: Não existe valor único: depende da <b>recrutabilidade</b> e da pressão de fechamento das vias aéreas (AOP).
+➡️ Na SDRA ~30–40% dos pacientes têm <b>fechamento completo de via aérea</b> com AOP > PEEP.
+S: Chen L et al., AJRCCM 2018
+
+Q: 🚪 O que é <b>pressão de abertura da via aérea</b> (AOP)?
+A: Pressão abaixo da qual há <b>fechamento total</b> das vias aéreas; visto em curva P-V de baixo fluxo (5 L/min) como um platô inicial.
+➡️ Se AOP > PEEP, platô e complacência estão subestimados/errados → ajustar PEEP ≥ AOP.
+
+Q: 🎛️ O que é <b>Pmus</b> e como estimar em PSV?
+A: Pressão gerada pelos músculos inspiratórios.
+Estimativa pela <b>Pocc</b> (oclusão expiratória): <b>Pmus ≈ −0,75 × Pocc</b>.
+| Pmus | Interpretação |
+| < 5 | esforço baixo (risco de atrofia) |
+| 5–10 | ✅ alvo |
+| > 13–15 | esforço excessivo (P-SILI) |
+S: Bertoni M, Crit Care 2019
+
+Q: 🧭 O que é <b>P0.1</b>?
+A: Queda de pressão nos primeiros 100 ms de uma inspiração ocluída → reflete o <b>drive</b> respiratório.
+| P0.1 | Interpretação |
+| < 1 | drive baixo (sedação excessiva) |
+| 1–3,5 | ✅ adequado |
+| > 3,5–4 | drive alto (risco P-SILI / falha no desmame) |
+S: Telias I, AJRCCM 2018
+
+Q: 🧮 Como estimar a <b>pressão transpulmonar dinâmica</b> em PSV sem balão?
+A: <b>ΔPL,dyn ≈ (PEEP + PS − PEEP) + ⅔ × |Pocc|</b>
+Valores > 15–20 cmH₂O sugerem estresse pulmonar elevado.
+S: Bertoni M, Crit Care 2019
+
+Q: 🔬 Qual a diferença entre <b>estresse e strain</b> pulmonar?
+A: | Conceito | Fórmula | Limite |
+| Stress | PL (pressão transpulmonar) | ~ 20–25 cmH₂O |
+| Strain | VT / CRF | ~ 1,5–2 (lesivo) |
+Relação: stress = k × strain (k ≈ 13,5 cmH₂O).
+S: Chiumello D, AJRCCM 2008
+
+Q: 🏔️ O que é <b>hiperinsuflação dinâmica</b>?
+A: Aprisionamento progressivo de ar quando o tempo expiratório é menor que o necessário → ↑ volume no fim da expiração → <b>auto-PEEP</b>.
+Consequências: ↓ retorno venoso, hipotensão, barotrauma, esforço ineficaz.
+
+Q: 🆘 Paciente ventilado com hipotensão súbita após intubação de asmático: primeira manobra?
+A: <b>Desconectar do ventilador</b> por 30–60 s (comprimir o tórax se necessário) → se PA melhora = hiperinsuflação dinâmica.
+Depois: ↓ FR, ↓ VT, ↑ fluxo, broncodilatador.
+X: Diferencial: pneumotórax hipertensivo (não melhora com desconexão).
+
+Q: 🌡️ Por que a <b>umidificação</b> é obrigatória na VM?
+A: Tubo pula a via aérea superior → gás seco/frio → ressecamento, ↑ secreção espessa, oclusão do tubo, atelectasia.
+| Sistema | Uso |
+| HME (nariz artificial) | curto prazo, sem secreção espessa |
+| Umidificador aquecido | secreção espessa, VM longa, hipotermia |
+X: Nunca HME + umidificador aquecido juntos (oclusão do filtro).
+
+Q: 🔁 Qual o efeito do <b>espaço morto do equipamento</b> (HME, conector)?
+A: HME adiciona ~50–100 mL de espaço morto → ↑ PaCO₂ em VT baixo.
+➡️ Na SDRA com hipercapnia: trocar por umidificador aquecido e encurtar circuito antes de subir VT/FR.
+
+Q: 🧮 Como estimar a <b>nova FR</b> para atingir uma PaCO₂ alvo?
+A: <b>FRnova = FRatual × PaCO₂ atual / PaCO₂ desejada</b> (VT fixo, espaço morto constante).
+Ex.: FR 20, PaCO₂ 60, alvo 45 → FR ≈ 27.
+X: Na SDRA o ganho é menor que o previsto (↑ espaço morto, auto-PEEP com FR alta).
+
+Q: 🧮 Como estimar o <b>novo VT</b> para corrigir a PaCO₂?
+A: <b>VT novo = VT atual × PaCO₂ atual / PaCO₂ desejada</b> (simplificação; ignora o espaço morto).
+⚠️ Na SDRA, priorize FR e reduzir espaço morto antes de aumentar VT acima de 6–8 mL/kg PBW.

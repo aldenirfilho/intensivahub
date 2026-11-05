@@ -1,0 +1,199 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## G | 🌬️ Doença obstrutiva: asma, DPOC e hiperinsuflação | GINA 2024; GOLD 2025; Leatherman J, Crit Care Med 2015
+
+Q: 🌬️ Objetivo principal da VM no <b>asmático grave</b>?
+A: Evitar <b>hiperinsuflação dinâmica</b>: ↓ volume-minuto e ↑ tempo expiratório, aceitando hipercapnia.
+| Parâmetro | Ajuste |
+| VT | 6–8 mL/kg PBW |
+| FR | 8–12 |
+| Fluxo | 80–100 L/min (Ti curto) |
+| I:E | ≥ 1:4 |
+| PEEP | 0–5 (passivo) |
+
+Q: 🧮 Qual a medida-chave de segurança na asma ventilada?
+A: <b>Pplatô < 30</b> e auto-PEEP < 10 cmH₂O (ou Vei < 20 mL/kg).
+X: Pico alto (até 50–60) é aceitável se o platô estiver baixo — reflete resistência.
+
+Q: 🌡️ Hipercapnia na asma ventilada: até quanto aceitar?
+A: PaCO₂ alta (até 80–90) é tolerada se <b>pH ≥ 7,15–7,20</b> e sem HIC/instabilidade.
+X: Ao forçar volume-minuto para normalizar PaCO₂, a hiperinsuflação causa hipotensão e barotrauma.
+
+Q: 💉 Indução para <b>intubar o asmático</b>: drogas preferidas?
+A: <b>Cetamina</b> (broncodilatadora) ± propofol; BNM de ação rápida; evitar morfina (histamina).
+Pós-intubação: ventilar <b>lentamente</b> (FR 8–10) — a hiperventilação manual com Ambu é causa clássica de PCR.
+
+Q: 🫁 Qual a definição de <b>status asmaticus</b> grave e sinais de PCR iminente?
+A: Sinais de risco: tórax silencioso, confusão, bradicardia, cianose, PaCO₂ normal ou alta (fadiga), incapacidade de falar.
+➡️ Intubação imediata (se possível eletiva, por mão experiente).
+
+Q: 💊 Terapia adjuvante no asmático ventilado?
+A: β2 inalatório contínuo/frequente (no circuito, inspiratório), ipratrópio, corticoide sistêmico, <b>sulfato de magnésio</b> 2 g IV, cetamina em infusão, heliox (ponte), anestésicos inalatórios (sevoflurano) em refratários.
+S: GINA 2024
+
+Q: 🧪 Por que usar <b>heliox</b>?
+A: Hélio tem baixa densidade → fluxo mais laminar, ↓ resistência e ↓ trabalho; melhora a entrega de aerossóis.
+⚠️ Exige FiO₂ ≤ 0,3–0,4 (mistura 70:30) e calibração do ventilador.
+
+Q: 🫁 Indicação clássica de <b>VNI na DPOC exacerbada</b>?
+A: <b>pH 7,25–7,35</b> com PaCO₂ > 45 (acidose respiratória) e taquipneia, apesar de tratamento.
+✅ ↓ intubação, ↓ mortalidade (benefício mais forte de toda a VNI).
+S: ERS/ATS 2017; GOLD 2025
+
+Q: 🫁 DPOC com <b>pH < 7,25</b>: VNI ainda é opção?
+A: Pode ser tentada em ambiente de UTI com intubação imediata disponível (falha mais frequente); se rebaixamento, instabilidade ou secreção abundante → intubar.
+
+Q: ⚙️ Ajuste inicial de <b>VNI na DPOC</b>?
+A: IPAP 10–12 → titular até <b>15–20</b> (alvo VT 6–8 mL/kg, ↓ FR); EPAP 4–6 (contrabalança PEEPi); FiO₂ para SpO₂ <b>88–92%</b>.
+➡️ Gasometria em 1–2 h.
+
+Q: 🎛️ PEEP externa no DPOC <b>em ventilação espontânea</b> (PSV/VNI)?
+A: ~ <b>70–80% da auto-PEEP</b> (ou 5–8 cmH₂O): reduz o esforço para disparar sem piorar a hiperinsuflação.
+X: Em paciente passivo (modo controlado) a PEEP externa geralmente não ajuda e pode aumentar volume.
+
+Q: 🔚 PSV no DPOC: qual o ajuste de ciclagem?
+A: <b>Esens alto (40–60%)</b> → ciclagem mais precoce, mais tempo expiratório, menos ciclagem tardia.
+
+Q: 🧮 Como reduzir a auto-PEEP? (ordem de impacto)
+A: | Medida | Impacto |
+| ↓ volume-minuto (FR e VT) | 🔥 maior |
+| ↑ fluxo / ↓ Ti | moderado |
+| broncodilatador, aspirar | trata a causa |
+| ↓ VCO₂ (febre, dieta rica em carboidrato) | auxiliar |
+X: Reduzir a FR de 20 para 10 ganha muito mais Te que aumentar o fluxo.
+
+Q: 🧮 FR 12, Ti 1 s: qual o Te? E com FR 20?
+A: FR 12 → ciclo 5 s → <b>Te 4 s</b>. FR 20 → ciclo 3 s → <b>Te 2 s</b>.
+➡️ Na asma, FR baixa é a ferramenta mais potente.
+
+Q: 🆘 Hipotensão no asmático ventilado: <b>teste da apneia</b>?
+A: Desconectar por 30–60 s: se PA sobe = hiperinsuflação dinâmica → reduzir FR/VT.
+Se não melhora: pensar em <b>pneumotórax</b> (POCUS), hipovolemia, arritmia.
+
+Q: 💥 Por que o asmático ventilado tem alto risco de <b>barotrauma</b>?
+A: Hiperinsuflação + heterogeneidade + pressões altas → ruptura alveolar (PNTX, pneumomediastino, enfisema).
+➡️ Monitorar platô/auto-PEEP e fazer POCUS se piora súbita.
+
+Q: 🫧 O que é <b>Vei</b> (volume no fim da inspiração)?
+A: Volume liberado em apneia prolongada (40–60 s) acima da CRF. <b>Vei > 20 mL/kg</b> associou-se a complicações (barotrauma, hipotensão) na asma.
+S: Tuxen DV, Am Rev Respir Dis 1992
+
+Q: 🧯 Asma refratária com acidose grave: opções de resgate?
+A: Anestesia inalatória (sevoflurano/isoflurano), cetamina em altas doses, BNM curto, broncoscopia (rolhas), <b>ECMO VV/ECCO₂R</b>.
+X: Asma é uma das melhores indicações de ECMO (alta sobrevida).
+
+Q: 🌬️ Por que a <b>sedação profunda</b> é frequentemente necessária na asma intubada?
+A: Para permitir hipoventilação controlada (FR baixa) sem esforço/assincronia que aumente hiperinsuflação.
+⚠️ Corticoide + BNM prolongado → <b>miopatia</b>: usar BNM pelo menor tempo possível.
+
+Q: 💪 Asma ventilada + BNM + corticoide alto: complicação típica?
+A: <b>Miopatia do paciente crítico</b> (fraqueza prolongada, desmame difícil). Evitar BNM ou limitar a < 24–48 h.
+
+Q: 🎯 Alvo de SpO₂ no <b>DPOC hipercápnico</b>?
+A: <b>88–92%</b>.
+O₂ excessivo → ↑ PaCO₂ (↓ drive, efeito Haldane e piora V/Q).
+S: BTS/GOLD
+
+Q: 🧪 O que é o <b>efeito Haldane</b>?
+A: Hb oxigenada tem menor afinidade por CO₂ → ao ↑ O₂, libera CO₂ no sangue → ↑ PaCO₂ (relevante no DPOC).
+
+Q: 🫁 DPOC intubado: alvo de PaCO₂?
+A: PaCO₂ que normalize o <b>pH</b> considerando o HCO₃ crônico (PaCO₂ basal do paciente), evitando alcalose.
+
+Q: 🔁 Qual o risco do <b>broncodilatador</b> no circuito com HME?
+A: HME filtra/retém o aerossol → dose não chega ao paciente. Remover HME durante a nebulização ou usar umidificador aquecido + espaçador/MDI no ramo inspiratório.
+
+Q: 💨 Melhor forma de administrar <b>β2 no ventilado</b>?
+A: MDI com espaçador no ramo inspiratório (4–8 jatos) ou nebulizador de malha vibratória perto do Y; sincronizar com a inspiração.
+
+Q: 🧮 DPOC em PSV com <b>esforços ineficazes</b>: ajuste completo?
+A: ↓ PS (VT 6–8), ↑ Esens (40–50%), PEEP externa 5–8 (≈ 80% PEEPi), tratar broncoespasmo, ↓ sedação.
+
+Q: 🩻 Achado clássico de <b>hiperinsuflação</b> no POCUS/raio X do asmático?
+A: RX: hipertransparência, diafragmas retificados, ↑ espaços intercostais. POCUS: linhas A, deslizamento reduzido; se ausente + lung point → PNTX.
+
+Q: 🧪 Exacerbação de DPOC: quais <b>preditores de falha da VNI</b>?
+A: pH < 7,25 após 1–2 h, FR > 35, Glasgow baixo, pneumonia, secreção abundante, má adaptação à máscara, APACHE alto.
+➡️ HACOR > 5 em 1 h = alto risco.
+
+Q: ⏱️ Por quanto tempo manter a VNI na DPOC exacerbada?
+A: Uso contínuo inicial (≥ 12–24 h nas primeiras 24 h, com pausas), desmame gradual conforme pH e clínica.
+
+Q: 🏠 VNI <b>domiciliar</b> após exacerbação hipercápnica?
+A: Hipercapnia persistente (PaCO₂ > 53) 2–4 semanas após alta → VNI domiciliar de alta intensidade ↓ readmissão e morte (HOT-HMV).
+S: Murphy PB, JAMA 2017
+
+Q: 🧠 DPOC + <b>hipercapnia + rebaixamento</b> (Glasgow 9): VNI?
+A: Rebaixamento por <b>narcose de CO₂</b> não contraindica absolutamente — teste cauteloso de VNI em UTI com reavaliação em 1 h pode reverter; se não melhora → intubar.
+
+Q: 💥 Pneumotórax no DPOC/bolhoso ventilado: como diferenciar de bolha no POCUS?
+A: Lung point é <b>específico de PNTX</b>; bolha gigante não tem lung point típico. TC se estável.
+X: Drenar uma bolha confundida com PNTX causa fístula grave.
+
+Q: 🧮 Asma grave: <b>VT 8 mL/kg e FR 10</b> → volume-minuto?
+A: PBW 70 kg × 8 = 560 mL × 10 = <b>5,6 L/min</b> (baixo, intencional) → hipercapnia permissiva.
+
+Q: 🧪 Qual o papel da <b>cetamina</b> na asma refratária?
+A: Broncodilatação (simpaticomimética e antagonismo NMDA), sedação sem deprimir o drive; bolus 1–2 mg/kg + infusão 0,5–2 mg/kg/h.
+⚠️ ↑ secreção, PA, FC; delírio.
+
+Q: 🌡️ Lactato elevado na asma grave em tratamento: causa comum?
+A: <b>β2-agonista</b> em altas doses (salbutamol) → acidose lática tipo B; cede ao reduzir a dose.
+X: Pode simular fadiga/choque e induzir aumento indevido da ventilação.
+
+Q: 🧯 Asmático intubado com <b>PCR</b>: causas específicas a pensar?
+A: Hiperinsuflação dinâmica (desconectar!), pneumotórax hipertensivo (bilateral?), hipoxemia, acidose/hiperK, auto-PEEP impedindo retorno venoso.
+
+Q: 🫁 Diferença de mecânica: <b>asma × DPOC</b>?
+A: | | Asma | DPOC |
+| Resistência | muito alta (broncoespasmo/rolhas) | alta (colapso dinâmico) |
+| Complacência | normal/baixa (hiperinsuflação) | alta (enfisema) |
+| Auto-PEEP | alta, muito heterogênea | moderada, flow-limited |
+| Resposta à PEEP externa | geralmente não | sim (em espontânea) |
+
+Q: 🏥 DPOC em VNI: quando a <b>CNAF</b> é alternativa?
+A: Intolerância à VNI ou exacerbação leve (pH 7,30–7,35): CNAF reduz PaCO₂ modestamente (lavagem de espaço morto). Não substitui VNI em acidose moderada/grave.
+S: ERS guideline on HFNC 2022
+
+Q: 🧪 O que é <b>flow limitation</b> expiratória?
+A: Fluxo expiratório não aumenta mesmo com maior esforço/pressão (colapso dinâmico); identificado pela técnica de NEP ou pela PEEP: ↑ PEEP sem ↑ volume = flow limited.
+
+Q: 🧮 Como medir a auto-PEEP no <b>DPOC em PSV</b> (paciente ativo)?
+A: Difícil sem Pes: ↑ PEEP externa progressivamente; quando os esforços ineficazes somem e o VT não aumenta = PEEP ≈ PEEPi.
+
+Q: 🌬️ Extubação de DPOC: melhor estratégia?
+A: Extubar para <b>VNI imediata</b> em hipercápnicos ou alto risco (↓ reintubação), ou VNI como estratégia de desmame (“extubar precoce para VNI”).
+S: Ferrer M, AJRCCM 2009; Burns KE, Cochrane 2013
+
+Q: 🔁 Uso de <b>VNI na asma</b> aguda?
+A: Evidência <b>fraca</b>; pode ser tentada em casos selecionados sob monitorização intensa, sem atrasar intubação.
+S: ERS/ATS 2017 (sem recomendação)
+
+Q: 🧠 Por que o <b>PCO₂ normal</b> numa crise asmática grave é alarmante?
+A: Na crise, a hiperventilação reduz PaCO₂; PaCO₂ “normal” (40) indica <b>fadiga</b> e falência iminente.
+
+Q: 💉 Corticoide na exacerbação de DPOC ventilada: dose e duração?
+A: Prednisona 40 mg/dia (ou equivalente) por <b>5 dias</b> (REDUCE); em UTI, doses maiores sem benefício claro.
+S: Leuppi JD, JAMA 2013
+
+Q: 💊 Antibiótico na exacerbação de DPOC que precisa de VM?
+A: <b>Sim</b>: reduz mortalidade e falha de tratamento em exacerbações graves ventiladas.
+S: Nouira S, Lancet 2001; GOLD 2025
+
+Q: 🌀 Por que a <b>bradipneia</b> programada não lesa o pulmão do asmático?
+A: Menor FR com VT moderado reduz potência mecânica e auto-PEEP; hipercapnia é bem tolerada na ausência de HIC.
+
+Q: 🔍 Asmático com tubo <b>fino (7,0)</b>: impacto?
+A: ↑ resistência resistiva (mas a maior parte é das vias aéreas distais); dificulta broncoscopia e aspiração de rolhas.
+✅ Preferir tubo ≥ 8,0.
+
+Q: 🫧 Sinal de <b>rolha de muco</b> na mecânica?
+A: ↑ pico e resistência súbitos, atelectasia lobar, hipoxemia; aspirar, fisioterapia, broncoscopia se lobar.
+
+Q: 🧮 Qual a regra prática da PEEP externa no <b>paciente passivo</b> obstrutivo?
+A: Geralmente PEEP 0–5; aplicar PEEP só se não aumentar o platô (teste: subir 2–3 cmH₂O e observar platô/volume).
+
+Q: 🧪 DPOC + pneumonia + SDRA: qual estratégia prevalece?
+A: Ventilação <b>protetora</b> (VT 6, platô ≤ 30) com atenção ao Te; PEEP individualizada (pode ser menor que na SDRA “pura”).
+
+Q: 🩺 Melhor indicador clínico de sucesso da VNI na DPOC em 1 h?
+A: ↓ FR, ↑ pH (e ↓ PaCO₂), melhora do sensório e do conforto.

@@ -28,9 +28,12 @@ for th in temi:
             for k, img in TEMI_IMG.items():
                 if k in c["f"]: c["i"] = img; used_img += 1
 assert used_img == len(TEMI_IMG), f"imagens encaixadas {used_img}/{len(TEMI_IMG)}"
+from modparse import load as _load_mods
+MODS = _load_mods("mod/*.txt")  # 16 VM (502) + 17 POCUS (503)
+temi += MODS
 
 COLS = [("TEMI 2028", "🏥", "temi", temi, "TEMI2028"), ("R3 Clínica Médica", "🩺", "cm", cm_themes(), "R3CM")]
-index = {"formato": "codice360x-index-v2", "versao": "2026.11.05-v3", "colecoes": [], "decks": []}
+index = {"formato": "codice360x-index-v2", "versao": "2026.11.05-v4", "colecoes": [], "decks": []}
 md = []
 for root, icon, key, themes, tag in COLS:
     index["colecoes"].append({"id": key, "nome": root, "icone": icon, "cards": sum(len(t["cards"]) for t in themes)})
@@ -65,7 +68,14 @@ for root, icon, key, themes, tag in COLS:
                 md.append(f"- {re.sub('<[^>]+>', '', html.unescape(c['f']))}{' 🖼️' if c['i'] else ''}\n")
             decks.append(dk)
     pkg = genanki.Package(decks); pkg.media_files = sorted(media)
-    pkg.write_to_file(f"{OUT}/downloads/{'TEMI_2028_600' if key == 'temi' else 'R3_Clinica_Medica_300'}_flashcards.apkg")
+    for old in os.listdir(f"{OUT}/downloads"):
+        if old.startswith("TEMI_2028_" if key == "temi" else "R3_Clinica_Medica_"): os.remove(f"{OUT}/downloads/{old}")
+    pkg.write_to_file(f"{OUT}/downloads/{'TEMI_2028' if key == 'temi' else 'R3_Clinica_Medica'}_{total}_flashcards.apkg")
+    if key == "temi":
+        md_names = {f"{icon} {root}::{t['num']} {t['emo']} {t['nome']}" for t in MODS}
+        sub = [d for d in decks if any(d.name.startswith(n) for n in md_names)]
+        pm = genanki.Package(sub); pm.media_files = sorted({f"{MEDIA}/{c['i']}" for t in MODS for c in t["cards"] if c["i"]})
+        pm.write_to_file(f"{OUT}/downloads/TEMI_2028_VM_POCUS_{sum(len(t['cards']) for t in MODS)}_flashcards.apkg")
     print(root, total, "cards ·", len(decks), "subbaralhos ·", len(media), "imagens")
 json.dump(index, open(f"{OUT}/data/index.json", "w"), ensure_ascii=False, indent=1)
 open(f"{OUT}/INDICE_CARDS.md", "w").write("# 📚 Índice dos flashcards · CÓDICE 360X\n\n🖼️ = card com ilustração · organizados por coleção › tema › subtema\n" + "".join(md))

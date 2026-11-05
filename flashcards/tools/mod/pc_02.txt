@@ -1,0 +1,177 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## B | 🫁 Pulmão I: semiologia normal e pneumotórax | Volpicelli G et al., International recommendations for lung ultrasound, ICM 2012
+
+Q: 🦇 O que é o <b>“sinal do morcego”</b> (bat sign)?
+A: Imagem longitudinal intercostal: duas costelas (asas, com sombra) e a <b>linha pleural</b> hiperecoica entre elas (corpo do morcego), ~0,5 cm abaixo das costelas.
+➡️ Ponto de partida de toda análise pulmonar.
+
+Q: ✨ O que é o <b>deslizamento pleural</b> (lung sliding)?
+A: Movimento cintilante da linha pleural sincronizado com a respiração = pleura visceral deslizando sobre a parietal.
+✅ Presente = <b>exclui pneumotórax</b> naquele ponto (VPN ~ 100%).
+
+Q: 🏖️ Modo M do pulmão normal: qual o padrão?
+A: <b>“Sinal da praia” (seashore)</b>: acima da pleura linhas horizontais (ondas/tecido parado), abaixo padrão granular (areia) pelo movimento pulmonar.
+I: pc_linhas_ab.png
+
+Q: 📶 Padrão <b>“código de barras” / estratosfera</b> no modo M?
+A: Linhas horizontais acima <b>e abaixo</b> da pleura = <b>ausência de deslizamento</b>.
+X: Não é sinônimo de PNTX: também ocorre em apneia, intubação seletiva, pleurodese, SDRA grave, bolhas.
+
+Q: 〰️ O que são <b>linhas A</b>?
+A: Reverberações horizontais da pleura, equidistantes (múltiplos da distância pele-pleura) → indicam <b>ar</b> abaixo da pleura.
+| Linhas A + | Interpretação |
+| com deslizamento | pulmão normalmente aerado (ou DPOC/asma/TEP) |
+| sem deslizamento | sugere pneumotórax → procurar lung point |
+
+Q: 💓 O que é o <b>pulso pulmonar</b> (lung pulse)?
+A: Movimento sutil da pleura sincronizado com o <b>batimento cardíaco</b> em pulmão que não ventila mas está encostado na parede.
+✅ Presença <b>exclui PNTX</b> (pleuras em contato). Ex.: intubação seletiva do outro lado, apneia.
+
+Q: 📍 O que é o <b>lung point</b>?
+A: Ponto de transição onde o padrão de pneumotórax (sem deslizamento) alterna com o pulmão deslizando, ciclicamente com a respiração.
+✅ <b>Especificidade ~ 100%</b> para pneumotórax; sensibilidade ~ 66% (ausente no PNTX total).
+S: Lichtenstein D, ICM 2000
+
+Q: 🧮 Qual a acurácia do USG para <b>pneumotórax</b> vs radiografia em supino?
+A: USG: sensibilidade ~ <b>90%</b> e especificidade ~ 98%; RX em supino: sensibilidade ~ 50% (PNTX anterior oculto).
+S: Alrajhi K, Chest 2012 (metanálise)
+
+Q: 🧭 Onde procurar PNTX no paciente <b>supino</b>?
+A: Pontos <b>anteriores</b> não dependentes (2º–4º EIC na linha hemiclavicular) — o ar sobe; depois deslizar lateralmente buscando o lung point.
+
+Q: 🗺️ Algoritmo do <b>pneumotórax</b> no USG?
+A: 1️⃣ Deslizamento? Sim → exclui · 2️⃣ Linhas B ou pulso pulmonar? Sim → exclui · 3️⃣ Não → suspeita · 4️⃣ Lung point? Sim → <b>confirma</b> · Não → PNTX total ou outra causa de ausência de deslizamento (clínica!).
+S: Volpicelli ICM 2012
+
+Q: ☄️ Linhas B <b>excluem</b> pneumotórax?
+A: <b>Sim</b>: linhas B nascem na pleura visceral; se elas aparecem, as pleuras estão em contato no ponto examinado.
+
+Q: 📏 Como estimar o <b>tamanho do PNTX</b> pelo lung point?
+A: Quanto mais <b>lateral/posterior</b> o lung point, maior o PNTX (lung point na linha axilar média/posterior = PNTX grande).
+
+Q: 🩻 Causas de <b>ausência de deslizamento</b> sem pneumotórax?
+A: Intubação seletiva/brônquio ocluído, apneia/BNM sem ventilação, pleurodese/aderências, SDRA grave/fibrose, enfisema bolhoso, hiperinsuflação grave, enfisema subcutâneo (impede a imagem).
+
+Q: 🌫️ Por que o <b>enfisema subcutâneo</b> atrapalha?
+A: Ar no subcutâneo gera reverberações (linhas “E”) acima da pleura → linha pleural não visualizada (sem sinal do morcego).
+
+Q: 🧪 Qual a <b>linha pleural</b> normal?
+A: Fina (< 2 mm), regular, hiperecoica, deslizante.
+Espessada/irregular/fragmentada = processo intersticial inflamatório (SDRA, pneumonia, fibrose), não cardiogênico.
+
+Q: 🔍 Diferença entre linha pleural na SDRA × EAP cardiogênico?
+A: | SDRA | EAP cardiogênico |
+| linha pleural irregular/espessada | linha pleural fina e regular |
+| B não homogêneas, áreas poupadas | B difusas e homogêneas |
+| consolidações subpleurais | raras |
+| deslizamento ↓ | preservado |
+S: Copetti R, Cardiovasc Ultrasound 2008
+
+Q: 🫁 Qual sonda preferir para <b>pleura e PNTX</b>?
+A: <b>Linear</b> (alta frequência) para ver a pleura em detalhe; setorial/convexa para panorama e linhas B.
+
+Q: ⏱️ Em quantos segundos se faz a triagem de PNTX?
+A: Poucos segundos por campo: observar 3–5 ciclos respiratórios em 2–4 pontos anteriores de cada lado.
+
+Q: 🩺 PNTX após <b>procedimento</b> (CVC, toracocentese): como rastrear?
+A: USG imediato antes e após o procedimento: comparar deslizamento anterior. Ausência nova → lung point.
+
+Q: 🚑 PNTX hipertensivo: o diagnóstico é <b>clínico ou ecográfico</b>?
+A: <b>Clínico</b>: hipotensão + ausência de MV + desvio + ↑ pressões. USG confirma rapidamente, mas não deve atrasar a descompressão.
+
+Q: 📍 Zonas do <b>BLUE points</b>?
+A: Mãos do paciente sobre o tórax (sem polegares): <b>ponto azul superior</b> (base do dedo médio da mão superior), <b>inferior</b> (palma da mão inferior), <b>PLAPS</b> (posterolateral, na altura do inferior, linha axilar posterior).
+S: Lichtenstein D, Chest 2008
+
+Q: 🫁 O que é <b>PLAPS</b>?
+A: PosteroLateral Alveolar and/or Pleural Syndrome: consolidação e/ou derrame no ponto posterolateral.
+➡️ No BLUE, perfil A + PLAPS sugere <b>pneumonia</b>.
+
+Q: 📈 Linhas A com deslizamento + dispneia aguda: diagnósticos (BLUE)?
+A: Perfil A: <b>DPOC/asma</b>, <b>TEP</b> (procurar TVP), pneumonia (se PLAPS), causas não pulmonares.
+I: pc_blue.png
+
+Q: 🫁 Qual o ponto ideal para <b>derrame pleural</b> no paciente supino?
+A: Posterolateral, nas bases (recesso costofrênico), na linha axilar posterior — o líquido escorre para a região dependente.
+
+Q: 💓 Na intubação seletiva à direita, o que se vê no pulmão <b>esquerdo</b>?
+A: Ausência de deslizamento com <b>pulso pulmonar</b> presente → pulmão não ventilado (não é PNTX).
+✅ Recuar o tubo → deslizamento retorna.
+
+Q: 🔁 O USG pode confirmar a posição do <b>tubo traqueal</b>?
+A: Sim: sonda linear transversal no pescoço (acima da fúrcula) → tubo na traqueia (uma linha hiperecoica), não no esôfago (“sinal do duplo trato”); depois deslizamento bilateral.
+X: Capnografia continua padrão-ouro.
+
+Q: 🧮 Pneumotórax oculto (só na TC) no trauma: o que fazer em VM?
+A: Pequenos podem ser observados (OPTICC: observação sem dreno foi segura na maioria), com USG seriado; dreno se crescer ou instabilidade.
+
+Q: 🔍 O que é o <b>“sinal do sanduíche”</b> / sinal Q (quad sign) no derrame?
+A: Coleção limitada por linha pleural, sombras costais e linha pulmonar profunda (pulmão) = <b>quad sign</b>; no modo M, a linha pulmonar oscila na respiração (<b>sinusoide</b>).
+✅ Sinais de derrame.
+
+Q: 〰️ O que é o <b>sinal sinusoide</b>?
+A: No modo M sobre o derrame: a linha pulmonar (pleura visceral) se aproxima e afasta da parietal com a respiração → confirma líquido livre (não espesso/septado em geral).
+
+Q: 🦴 USG detecta <b>fratura de costela</b>?
+A: Sim, com sonda linear: descontinuidade da cortical, degrau, hematoma → mais sensível que RX simples.
+
+Q: 🧪 USG e <b>bolha × PNTX</b>: como diferenciar?
+A: Ambos podem não ter deslizamento e ter linhas A; o <b>lung point</b> é próprio do PNTX (na bolha geralmente não há transição cíclica típica). Na dúvida e estabilidade → TC.
+
+Q: 🧯 Qual o papel do USG para <b>remover o dreno</b> de PNTX?
+A: Reaparecimento do deslizamento anterior sugere reexpansão; ainda se usa RX na maioria dos protocolos.
+
+Q: 🫁 O que é o <b>“sinal da estratosfera”</b>?
+A: Outro nome do código de barras no modo M (ausência de deslizamento).
+
+Q: 🌫️ Ausência de deslizamento no pulmão inteiro de um lado + pulso pulmonar: diagnóstico mais provável?
+A: <b>Atelectasia completa</b>/intubação seletiva contralateral/rolha de muco no brônquio principal.
+
+Q: 🧭 Por que examinar <b>vários espaços intercostais</b>?
+A: PNTX pode ser localizado (loculado) e o deslizamento pode estar presente em um ponto e ausente em outro.
+
+Q: 📌 Linhas Z e linhas E: o que são?
+A: <b>Linhas Z</b>: artefatos verticais curtos que não apagam as linhas A e não se movem com o deslizamento (sem significado patológico). <b>Linhas E</b>: verticais de enfisema subcutâneo, acima da pleura.
+X: Não confundir com linhas B (longas, até o fundo da tela, apagam A, movem-se com o deslizamento).
+
+Q: ☄️ Critérios de uma <b>linha B</b> verdadeira?
+A: Artefato vertical, hiperecoico, em “raio laser”, que <b>nasce da linha pleural</b>, chega até a borda da tela sem esmaecer, <b>apaga as linhas A</b> e <b>move-se</b> com o deslizamento.
+
+Q: 🧮 Quantas linhas B são normais?
+A: Até <b>2 por campo</b> (especialmente nas bases). ≥ 3 por espaço intercostal = padrão B (síndrome intersticial) naquele campo.
+
+Q: 🌐 Por que o USG pulmonar é chamado de <b>“estetoscópio visual”</b>?
+A: Responde rapidamente às perguntas de dispneia (PNTX, edema, consolidação, derrame) à beira-leito, sem radiação e repetível.
+
+Q: 🔁 USG para guiar a <b>drenagem</b> do PNTX?
+A: Identifica o ponto de inserção seguro (local sem pulmão aderido, sem órgãos abdominais), evitando lesão.
+
+Q: 🧪 PNTX bilateral no ventilado: o que vem antes, USG ou descompressão?
+A: Instável → descomprimir (clínica + USG de 10 s se disponível imediatamente); estável → USG/RX para confirmar e localizar.
+
+Q: 🧭 Profundidade adequada para <b>pleura</b> com linear?
+A: ~ 4–6 cm, foco na linha pleural; para linhas B, aumentar a profundidade (10–15 cm com setorial/convexo).
+
+Q: 🌀 O <b>preset “pulmão”</b> nos aparelhos: por que usar?
+A: Desliga filtros e harmônicas que “limpam” artefatos — e os artefatos (A, B) são justamente o que se avalia no pulmão.
+
+Q: 📏 Medir a <b>espessura da linha pleural</b> tem valor?
+A: > 2–3 mm e irregularidade sugerem processo inflamatório (SDRA, pneumonia, COVID) ou fibrose.
+
+Q: 💥 Contusão pulmonar no USG?
+A: Linhas B focais e consolidações subpleurais na área do trauma, às vezes com derrame/hemotórax; mais sensível que RX nas primeiras horas.
+
+Q: 🩸 <b>Hemotórax</b> no USG?
+A: Derrame no recesso costofrênico (eFAST); sangue fresco anecoico, coágulos ecogênicos/heterogêneos; “sinal do plâncton” em celular.
+
+Q: 🧪 USG pulmonar em <b>gestantes e crianças</b>: vantagem?
+A: Sem radiação; acurácia semelhante ou superior ao RX para pneumonia, PNTX e derrame.
+
+Q: 🛰️ <b>Pneumotórax</b> após biópsia pulmonar transtorácica: método de controle preferido?
+A: USG ou RX; USG à beira-leito é rápido e detecta pequenos PNTX anteriores.
+
+Q: 🔊 Paciente em <b>VNI</b>: o deslizamento pode ficar reduzido?
+A: Sim, com hiperinsuflação e pressões altas o deslizamento é menor, mas ainda presente; lung point continua sendo o sinal confirmatório.
+
+Q: 🧯 O que é um <b>falso lung point</b>?
+A: Transição entre pulmão e coração/diafragma ou bolha × pulmão; analisar com cuidado a localização (bordas cardíacas, base) e o padrão.

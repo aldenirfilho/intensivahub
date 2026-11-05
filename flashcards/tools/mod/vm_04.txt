@@ -1,0 +1,229 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## D | 🔴 SDRA: definição, ventilação protetora, prona e resgate | ESICM ARDS Guidelines 2023; ATS ARDS Guideline 2024
+
+Q: 📜 Critérios de <b>Berlim</b> (2012) para SDRA?
+A: | Critério | Definição |
+| ⏱️ Tempo | até 1 semana de insulto conhecido ou sintomas novos/piores |
+| 🩻 Imagem | opacidades bilaterais não explicadas por derrame, colapso ou nódulos |
+| 💧 Origem | não totalmente explicada por IC ou sobrecarga (eco se não houver fator de risco) |
+| 🩸 Oxigenação | P/F ≤ 300 com PEEP/CPAP ≥ 5 |
+S: ARDS Definition Task Force, JAMA 2012
+
+Q: 🌍 O que mudou na <b>definição global</b> de SDRA (2023/2024)?
+A: - Inclui pacientes em <b>CNAF ≥ 30 L/min</b> (SDRA não intubada)
+- Aceita <b>SpO₂/FiO₂ ≤ 315</b> (com SpO₂ ≤ 97%)
+- Aceita <b>ultrassom pulmonar</b> como imagem
+- Categoria para locais com poucos recursos (sem exigir PEEP)
+S: Matthay MA et al., AJRCCM 2024
+
+Q: 🧪 Qual estudo estabeleceu <b>VT 6 mL/kg</b> na SDRA e qual o ganho?
+A: <b>ARMA (ARDSNet 2000)</b>: VT 6 vs 12 mL/kg PBW + platô ≤ 30 → mortalidade <b>31% vs 39,8%</b> (redução absoluta ~9%, NNT ≈ 11).
+S: ARDS Network, NEJM 2000
+
+Q: 🛏️ Qual o resultado do <b>PROSEVA</b>?
+A: Prona ≥ 16 h/dia em SDRA com <b>P/F < 150</b> (FiO₂ ≥ 0,6, PEEP ≥ 5), iniciada nas primeiras 36 h → mortalidade em 28 dias <b>16% vs 32,8%</b>.
+S: Guérin C et al., NEJM 2013
+
+Q: 🛏️ Por que a <b>prona</b> melhora a oxigenação e a sobrevida?
+A: - Distribuição mais <b>homogênea</b> do estresse/strain (forma do tórax)
+- Recruta regiões dorsais (onde está a maior parte da perfusão)
+- Melhora V/Q, drenagem de secreção e descarga do VD
+➡️ Benefício de sobrevida vem da <b>menor VILI</b>, não só da PaO₂.
+
+Q: 🛏️ Critérios para <b>sair da prona</b>?
+A: Após voltar a supino: <b>P/F ≥ 150 com PEEP ≤ 10 e FiO₂ ≤ 0,6</b> mantida por ≥ 4 h → não repetir a prona.
+
+Q: ⚠️ <b>Contraindicações</b> à prona?
+A: | Absolutas (principais) | Relativas |
+| instabilidade de coluna | HIC não controlada |
+| fratura pélvica/facial instável | hemoptise maciça, cirurgia traqueal recente |
+| abdome aberto / tórax aberto | instabilidade hemodinâmica grave, gestação avançada |
+X: ECMO e obesidade NÃO contraindicam prona em centros experientes.
+
+Q: 🛏️ Complicações mais comuns da prona?
+A: Lesões por pressão (face, tórax, joelhos), deslocamento do tubo/cateteres, edema facial, intolerância alimentar, lesão de plexo braquial, ocular.
+✅ Equipe de 4–5 pessoas, checklist, coxins.
+
+Q: 💉 Bloqueio neuromuscular na SDRA: ACURASYS × ROSE?
+A: | Ensaio | Resultado |
+| ACURASYS 2010 | cisatracúrio 48 h em P/F < 150 → ↓ mortalidade ajustada |
+| ROSE 2019 | cisatracúrio vs sedação leve (PEEP alta) → <b>sem benefício</b> |
+➡️ Hoje: BNM <b>não de rotina</b>; considerar em SDRA grave com assincronia/esforço intenso.
+S: Papazian L, NEJM 2010; NHLBI PETAL, NEJM 2019
+
+Q: 💊 Corticoide na SDRA: o que dizem as diretrizes recentes?
+A: | Diretriz | Recomendação |
+| ATS 2024 | <b>sugere</b> corticoide na SDRA (condicional) |
+| ESICM 2023 | sem recomendação geral (exceto COVID/pneumonia grave) |
+DEXA-ARDS: dexametasona 20 → 10 mg/dia por 10 dias → ↑ dias livres de VM e ↓ mortalidade.
+S: Villar J, Lancet Respir Med 2020; Qadir N, AJRCCM 2024
+
+Q: 🫁 Manobras de recrutamento com <b>PEEP escalonada alta</b>: o que mostrou o ART?
+A: Recrutamento máximo (PEEP até 45 cmH₂O) + titulação pela melhor complacência → <b>↑ mortalidade</b> em 28 dias e ↑ barotrauma.
+➡️ ESICM 2023: <b>recomenda contra</b> manobras de recrutamento prolongadas de alta pressão.
+S: ART Investigators, JAMA 2017
+
+Q: 📊 PEEP alta × baixa na SDRA: qual a evidência agregada?
+A: ALVEOLI, LOVS e EXPRESS isolados não mostraram diferença; metanálise de dados individuais (Briel 2010) sugere benefício com PEEP alta em <b>P/F ≤ 200</b>.
+➡️ ATS 2024: sugere PEEP <b>mais alta</b> sem manobras prolongadas na SDRA moderada-grave.
+S: Briel M, JAMA 2010
+
+Q: 🎯 O que é a titulação da PEEP pela <b>melhor complacência</b>?
+A: PEEP decremental (ex.: 20 → 6 em passos de 2) medindo Crs: escolhe-se a PEEP com <b>maior complacência</b> (+ 2 cmH₂O).
+X: Foi a estratégia usada no braço que teve pior desfecho do ART (associada ao recrutamento agressivo).
+
+Q: 🎯 Titulação de PEEP por <b>pressão esofágica</b>: o que mostraram os EPVent?
+A: EPVent-1: melhor oxigenação. EPVent-2 (2019): PEEP por PL vs tabela de PEEP alta → <b>sem diferença</b> de mortalidade (análise post hoc: possível benefício com PEEP perto de PL exp ~0).
+S: Beitler JR, JAMA 2019
+
+Q: 🧭 O que é titulação de PEEP por <b>TIE</b> (tomografia de impedância)?
+A: Escolhe a PEEP que equilibra <b>colapso</b> (regiões dependentes) e <b>hiperdistensão</b> (não dependentes) — cruzamento das curvas.
+X: Ainda sem ensaios definitivos de mortalidade; útil para individualizar.
+
+Q: 💨 Óxido nítrico inalatório na SDRA?
+A: ↑ PaO₂ transitoriamente, <b>sem benefício</b> de mortalidade; risco de LRA.
+➡️ Uso como <b>resgate</b> em hipoxemia refratária ou falência de VD (ponte para ECMO).
+S: Gebistorf F, Cochrane 2016
+
+Q: 🫀 Quando indicar <b>ECMO VV</b> na SDRA (critérios EOLIA)?
+A: Apesar de otimização (prona, PEEP, BNM):
+| Critério | Corte |
+| P/F < 50 | por > 3 h |
+| P/F < 80 | por > 6 h |
+| pH < 7,25 com PaCO₂ ≥ 60 | por > 6 h (FR 35, platô ≤ 32) |
+S: Combes A, NEJM 2018 (EOLIA)
+
+Q: 🫀 Resultado do <b>EOLIA</b>?
+A: Mortalidade 60 dias <b>35% (ECMO) vs 46% (controle)</b>, p = 0,09 (não significativo), com crossover de 28%. Análise bayesiana posterior sugere benefício provável.
+S: Combes A, NEJM 2018; Goligher EC, JAMA 2018
+
+Q: 🫀 Ventilação “ultraprotetora” durante ECMO VV?
+A: Repouso pulmonar: platô ≤ 24–25, ΔP ≤ 14–15, FR 10–14, PEEP ≥ 10, FiO₂ baixa.
+S: ELSO guidelines 2021
+
+Q: 🧪 O que é <b>ECCO₂R</b> e o que mostrou o REST?
+A: Remoção extracorpórea de CO₂ com baixo fluxo para permitir VT ~3 mL/kg.
+REST (2021): <b>sem benefício</b> de mortalidade, mais eventos adversos (sangramento).
+S: McNamee JJ, JAMA 2021
+
+Q: 💧 Estratégia de fluidos na SDRA: o que mostrou o FACTT?
+A: Estratégia <b>conservadora</b> (após resolução do choque) → ↑ dias livres de VM e de UTI, sem ↑ de LRA.
+S: NHLBI ARDS Network, NEJM 2006
+
+Q: 🧬 O que são os <b>subfenótipos</b> hiper e hipoinflamatório da SDRA?
+A: Hiperinflamatório (~30%): ↑ IL-6, ↑ sTNFR1, ↓ bicarbonato, ↑ vasopressor, maior mortalidade.
+Análises secundárias: respostas diferentes a PEEP alta, fluidos e sinvastatina.
+S: Calfee CS, Lancet Respir Med 2014
+
+Q: 🫁 SDRA “<b>focal × não focal</b>” (LIVE trial)?
+A: Individualizar pela morfologia (TC/RX/LUS): focal → PEEP baixa + prona; não focal → PEEP alta + recrutamento.
+LIVE: sem diferença global, mas <b>erro de classificação</b> em 21% piorou desfecho → personalizar exige classificar bem.
+S: Constantin JM, Lancet Respir Med 2019
+
+Q: 🫁 Qual a <b>prioridade terapêutica</b> na SDRA grave (ordem prática)?
+A: 1️⃣ VT 6 + platô ≤ 30 + ΔP ≤ 15 · 2️⃣ PEEP adequada · 3️⃣ <b>prona precoce</b> (P/F < 150) · 4️⃣ BNM se assincronia · 5️⃣ fluidos conservadores · 6️⃣ corticoide (conforme diretriz/causa) · 7️⃣ ECMO VV.
+
+Q: 🦠 SDRA por <b>COVID-19</b>: o que foi diferente?
+A: Mesmos princípios de proteção; benefício de <b>dexametasona 6 mg/dia</b> (RECOVERY) e imunomoduladores (tocilizumabe, baricitinibe). Prona acordado em CNAF reduziu intubação (metanálise).
+S: RECOVERY, NEJM 2021; Ehrmann S, Lancet Respir Med 2021
+
+Q: 🛏️ <b>Prona acordado</b> (awake prone) em IRpA por COVID em CNAF?
+A: Meta-trial: ↓ intubação (33% vs 40%), maior benefício com ≥ 8 h/dia; sem efeito claro de mortalidade.
+S: Ehrmann S et al., Lancet Respir Med 2021
+
+Q: 🌡️ Qual a mortalidade aproximada da SDRA (LUNG SAFE)?
+A: Hospitalar ≈ <b>35% (leve) → 40% (moderada) → 46% (grave)</b>; subdiagnosticada pelos clínicos em ~40%.
+S: Bellani G, JAMA 2016
+
+Q: 🎯 Por que limitar a <b>ΔP</b> mesmo com platô < 30?
+A: ΔP foi o parâmetro mais associado à sobrevida (Amato 2015): ↓ de VT ou ↑ de PEEP só ajudaram se reduziram a ΔP.
+➡️ Alvo <b>≤ 15 cmH₂O</b>.
+S: Amato MB, NEJM 2015
+I: vm_driving.png
+
+Q: 🔢 PEEP subiu de 10 para 14 e a ΔP caiu de 16 para 13: o que significa?
+A: Houve <b>recrutamento</b> (↑ complacência) → PEEP benéfica. Se a ΔP tivesse subido, haveria hiperdistensão.
+
+Q: 🛑 Platô 33 com VT 6 mL/kg: o que fazer?
+A: Reduzir VT em 1 mL/kg (até <b>4 mL/kg</b>) e compensar com FR (até 35); se platô alto por parede rígida/obesidade, considerar pressão esofágica.
+S: Protocolo ARDSNet
+
+Q: 🫁 Quanto tempo manter a <b>prona</b> por sessão?
+A: <b>≥ 16 h</b> consecutivas (PROSEVA média ~17 h); alguns centros usam sessões mais longas (até 24–48 h) com segurança.
+
+Q: 🧯 Hipoxemia grave refratária: lista de <b>terapias de resgate</b>?
+A: | Resgate | Evidência |
+| Prona | ✅ ↓ mortalidade (P/F < 150) |
+| BNM | ± (ROSE neutro) |
+| PEEP alta | ± benefício em moderada-grave |
+| NO inalatório | só melhora PaO₂ |
+| ECMO VV | provável benefício (EOLIA + bayesiana) |
+| Recrutamento máximo | ❌ dano (ART) |
+| HFOV | ❌ dano (OSCILLATE) |
+
+Q: 🫁 Qual a relação entre <b>cor pulmonale agudo</b> e SDRA?
+A: Ocorre em ~20–25% das SDRA moderada-grave; fatores: P/F < 150, PaCO₂ ≥ 48, ΔP ≥ 18, pneumonia.
+➡️ Ventilação “VD-protetora”: limitar ΔP e PaCO₂, prona.
+S: Mekontso Dessap A, ICM 2016
+
+Q: 🧪 Qual a principal causa de <b>SDRA direta</b> e indireta?
+A: | Direta (pulmonar) | Indireta (extrapulmonar) |
+| <b>pneumonia</b> (mais comum), aspiração, contusão, inalação, afogamento | <b>sepse</b> (mais comum), pancreatite, trauma grave, TRALI, queimadura |
+
+Q: 💉 O que é <b>TRALI</b>?
+A: Lesão pulmonar aguda até <b>6 h</b> após transfusão (anticorpos anti-HLA/HNA do doador, plasma de doadoras multíparas).
+Tratamento: suporte (ventilação protetora); notificar hemovigilância.
+X: TACO = sobrecarga circulatória (hipertensão, BNP ↑, responde a diurético).
+
+Q: 🦴 SDRA no paciente <b>obeso</b>: particularidades?
+A: Parede pesada → Ppl alta → platô alto sem hiperdistensão. Pode precisar de <b>PEEP mais alta</b> (titular por PL ou TIE), cabeceira elevada/proclive, VT pelo PBW.
+X: Não “aceitar” platô alto sem medir a PL quando possível.
+
+Q: 🤰 SDRA na <b>gestante</b>: metas específicas?
+A: PaO₂ > 70 / SpO₂ ≥ 95% (oxigenação fetal); PaCO₂ alvo ~ 30–32 (normal da gestação) — hipercapnia permissiva limitada; prona com adaptações; considerar parto se melhora materna.
+
+Q: 🧪 Vitamina C, estatinas, surfactante e β2-agonistas na SDRA?
+A: <b>Sem benefício</b>: CITRIS-ALI (vit C), HARP-2 (sinvastatina), SAILS (rosuvastatina), BALTI-2 (salbutamol IV — dano), surfactante em adultos.
+X: Ótima pergunta de prova: “qual terapia farmacológica reduz mortalidade na SDRA?” → nenhuma consagrada (corticoide em debate).
+
+Q: 🫁 Ventilação protetora no <b>intraoperatório</b>: o que se recomenda?
+A: VT 6–8 mL/kg PBW, PEEP ≥ 5 individualizada, evitar ΔP alta.
+PROVHILO: PEEP 12 + recrutamento vs PEEP ≤ 2 → sem benefício, mais hipotensão.
+S: PROVE Network, Lancet 2014
+
+Q: 🧮 Por que a <b>FR alta</b> não é “gratuita” na SDRA?
+A: ↑ potência mecânica, ↑ auto-PEEP (Te curto), ↑ espaço morto relativo. FR > 30–35 raramente melhora a PaCO₂.
+
+Q: 🩻 Qual achado de TC define <b>pulmão recrutável</b>?
+A: Grande proporção de tecido <b>não aerado</b> que reaera com aumento da pressão (ex.: 5 → 45 cmH₂O). Recrutabilidade média ~13% do peso pulmonar, variando muito.
+S: Gattinoni L, NEJM 2006
+
+Q: 🧭 SDRA com <b>pneumotórax</b> durante VM: conduta?
+A: Drenagem torácica; reduzir pressões (ΔP, PEEP se possível); fístula de alto débito → PCV, menor PEEP, considerar ECMO.
+
+Q: 📈 Fases evolutivas da SDRA?
+A: | Fase | Tempo | Histologia |
+| Exsudativa | 0–7 dias | dano alveolar difuso, membranas hialinas |
+| Proliferativa | 7–21 dias | pneumócitos tipo II, organização |
+| Fibrótica | > 3 semanas | fibrose (nem sempre ocorre) |
+
+Q: 🧠 Sequelas a longo prazo dos sobreviventes de SDRA?
+A: Fraqueza muscular, <b>déficit cognitivo</b>, ansiedade/depressão/TEPT (síndrome pós-UTI), redução da qualidade de vida por anos; função pulmonar costuma recuperar quase totalmente.
+S: Herridge MS, NEJM 2011
+
+Q: 🫁 SDRA leve (P/F 250) em CNAF: deve intubar?
+A: Não obrigatoriamente: monitorar <b>trabalho respiratório</b>, ROX, esforço (P-SILI) e evolução; intubar se piora ou falha (evitar intubação tardia).
+X: HACOR/ROX ajudam; a intubação precoce “por protocolo” não tem evidência clara.
+
+Q: 💤 Sedação profunda × leve na SDRA?
+A: Sedação leve associa-se a menos VM e menor mortalidade em geral; na SDRA grave inicial pode ser necessária sedação mais profunda para controlar o esforço — reavaliar diariamente.
+
+Q: 🧯 Durante a prona, a P/F não melhorou. Interromper?
+A: <b>Não necessariamente</b>: o benefício de mortalidade não depende da resposta oxigenatória; manter se houver indicação e tolerância (melhora de PaCO₂ pode indicar recrutamento).
+
+Q: 🧪 Qual a utilidade da <b>broncoscopia/LBA</b> na SDRA?
+A: Diagnóstico etiológico (infecção oportunista, hemorragia alveolar — hemossiderófagos, pneumonia eosinofílica — eosinófilos > 25%) em SDRA sem causa clara.
+
+Q: 🩸 Hemorragia alveolar difusa: pistas e tratamento?
+A: Opacidades bilaterais + queda de Hb + LBA progressivamente hemorrágico; causas: vasculites ANCA, anti-MBG, LES, coagulopatia.
+Tratamento: pulso de corticoide, ciclofosfamida/rituximabe, plasmaférese (anti-MBG).

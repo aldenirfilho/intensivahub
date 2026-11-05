@@ -1,0 +1,177 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## E | 🫀 Coração II: VD, TEP, pericárdio e tamponamento | ASE Right Heart Guidelines 2010/2015; ESC Pericardial 2015; ESC PE 2019
+
+Q: 📏 Como saber se o <b>VD está dilatado</b>?
+A: Apical 4C: <b>VD/VE ≥ 1</b> (diâmetro basal) = dilatação importante; > 0,6 já sugere aumento. Diâmetro basal do VD > 41 mm.
+I: pc_vd_dsign.png
+
+Q: 🅳 O que é o <b>sinal do D</b>?
+A: No PEC, septo <b>retificado</b> → VE em forma de “D”:
+| Fase | Significado |
+| Sístole | sobrecarga de <b>pressão</b> (TEP, HP) |
+| Diástole | sobrecarga de <b>volume</b> (IT grave, CIA) |
+I: pc_vd_dsign.png
+
+Q: 📈 O que é o <b>TAPSE</b> e o valor normal?
+A: Excursão sistólica do anel tricúspide (modo M em A4C, parede livre do VD):
+Normal ≥ <b>17 mm</b>; < 17 = disfunção sistólica do VD.
+S: ASE 2015
+
+Q: 🧮 Qual o normal da <b>onda S'</b> tricúspide (Doppler tecidual)?
+A: S' ≥ <b>9,5 cm/s</b>; menor = disfunção sistólica de VD.
+
+Q: 🧮 Como estimar a <b>PSAP</b>?
+A: <b>PSAP = 4 × (Vmax IT)² + PAD</b> (Bernoulli simplificada; PAD estimada pela VCI).
+Ex.: Vmax 3,5 m/s → 4 × 12,25 = 49 + PAD 10 = <b>59 mmHg</b>.
+| Vmax IT | Probabilidade de HP |
+| ≤ 2,8 m/s | baixa |
+| 2,9–3,4 | intermediária |
+| > 3,4 | alta |
+S: ESC/ERS PH 2022
+
+Q: 🦵 Sinal de <b>McConnell</b>?
+A: Acinesia da parede livre médio-basal do VD com <b>ápice preservado/hipercinético</b> → sugestivo de <b>TEP agudo</b> (especificidade alta, sensibilidade baixa).
+S: McConnell MV, Am J Cardiol 1996
+
+Q: 🔢 O que é o sinal <b>60/60</b>?
+A: Tempo de aceleração pulmonar (via de saída do VD) <b>< 60 ms</b> + gradiente de IT <b>< 60 mmHg</b> → sugere <b>TEP agudo</b> (VD não “aguenta” gerar pressão alta).
+S: Kurzyna M, Am J Cardiol 2002
+
+Q: 🫀 Por que no <b>TEP agudo</b> a PSAP raramente passa de 60?
+A: VD não hipertrofiado não consegue gerar pressões altas; PSAP muito alta com VD hipertrófico (parede > 5 mm) sugere <b>HP crônica</b>.
+
+Q: 🧱 Espessura da parede livre do VD: o que diferencia?
+A: > <b>5 mm</b> = hipertrofia → sobrecarga <b>crônica</b> (HP crônica, CPCTE). VD dilatado de parede fina = sobrecarga aguda (TEP).
+
+Q: 🫀 Qual o papel do eco no <b>TEP de alto risco</b>?
+A: Paciente instável sem possibilidade de angio-TC: <b>disfunção de VD</b> no eco justifica trombólise; ausência praticamente exclui TEP como causa do choque.
+S: ESC PE 2019
+
+Q: 🧮 Estratificação de TEP: onde entra o eco?
+A: TEP intermediário: disfunção de VD (eco/TC) + troponina ↑ = <b>intermediário-alto</b> → monitorização, trombólise de resgate se piorar.
+S: ESC 2019
+
+Q: 🦵 TVP + VD dilatado em paciente em choque: conduta?
+A: Alta probabilidade de TEP maciço → <b>trombólise sistêmica</b> (alteplase 100 mg em 2 h; na PCR, 50 mg em bolus) se sem contraindicação.
+
+Q: 🌀 Trombo <b>em trânsito</b> no AD/VD: significado?
+A: Alto risco de embolia maciça e mortalidade elevada → trombólise ou embolectomia urgente.
+
+Q: 💧 Como reconhecer <b>derrame pericárdico</b>?
+A: Espaço anecoico entre o pericárdio parietal (brilhante) e o epicárdio, geralmente começando posterior (dependente).
+| Tamanho (diástole) | Classificação |
+| < 10 mm | pequeno |
+| 10–20 mm | moderado |
+| > 20 mm | grande |
+
+Q: 🧭 <b>Coxim gorduroso</b> epicárdico × derrame: diferença?
+A: Gordura: anterior, hipoecoica com textura, move-se com o coração, sem derrame posterior. Derrame: anecoico, circunferencial ou posterior primeiro.
+
+Q: 🫀 Sinais ecográficos de <b>tamponamento</b>?
+A: | Sinal | Comentário |
+| Colapso sistólico do AD | precoce, sensível (> 1/3 do ciclo = específico) |
+| Colapso diastólico do VD | mais específico |
+| VCI pletórica sem variação | sensível (~ 97%), pouco específico |
+| Variação respiratória mitral > 25% / tricúspide > 40% | pulso paradoxal ecográfico |
+| Swinging heart | derrames grandes |
+I: pc_tamponamento.png
+
+Q: ⚠️ Tamponamento é diagnóstico <b>ecográfico ou clínico</b>?
+A: <b>Clínico-hemodinâmico</b>: hipotensão/choque + sinais ecográficos. Derrame grande sem repercussão não é tamponamento.
+
+Q: 🏥 Tamponamento com <b>derrame pequeno</b>: é possível?
+A: Sim, se o acúmulo é <b>rápido</b> (trauma, pós-cirurgia cardíaca, rotura de parede, dissecção) — o pericárdio não distende.
+
+Q: 💉 Pericardiocentese guiada: qual acesso preferir?
+A: Ponto com <b>maior coleção mais próxima da pele</b> sem estruturas no trajeto: frequentemente <b>apical</b> ou paraesternal; subxifoide clássico.
+➡️ Confirmar posição com soro agitado (bolhas no pericárdio) ou guia visto.
+
+Q: 🧯 Tamponamento por <b>dissecção tipo A</b>: pericardiocentese?
+A: Evitar/limitar (drenagem pequena e controlada se PCR iminente) → <b>cirurgia de emergência</b>.
+
+Q: 🩹 Pós-<b>cirurgia cardíaca</b>: tamponamento localizado?
+A: Coleção pode ser <b>localizada</b> (posterior, junto ao AE/AD) → ETT pode não ver; ETE se suspeita clínica.
+
+Q: 🌀 <b>Pericardite constritiva</b> no eco?
+A: Pericárdio espesso, bounce septal (movimento septal respiratório), VCI pletórica, e' medial preservado/↑ (annulus reversus), variação respiratória mitral > 25%.
+
+Q: 🧮 Constrição × <b>restrição</b> (miocardiopatia restritiva)?
+A: | Constrição | Restrição |
+| e' medial normal/↑ (> 8 cm/s) | e' ↓ (< 8 cm/s) |
+| variação respiratória ↑ | pouca variação |
+| septal bounce | sem bounce |
+| pericárdio espesso | miocárdio anormal (amiloidose) |
+
+Q: 🫀 Sinais de <b>falência de VD</b> na SDRA ventilada?
+A: VD/VE > 0,6 com septo paradoxal (cor pulmonale agudo); ↓ TAPSE; VCI pletórica.
+➡️ Limitar ΔP e PaCO₂, prona, otimizar pré-carga, vasopressor para PPC do VD.
+S: Mekontso Dessap A, ICM 2016
+
+Q: 💉 Tratamento da <b>falência aguda de VD</b>?
+A: 1️⃣ Tratar causa (TEP → reperfusão) · 2️⃣ evitar sobrecarga de volume (geralmente diurese) · 3️⃣ <b>noradrenalina</b> para PAM/perfusão coronária do VD · 4️⃣ inotrópico (dobutamina, milrinona, levosimendana) · 5️⃣ vasodilatador pulmonar (NO, prostaciclina) · 6️⃣ ECMO VA/suporte de VD.
+
+Q: 💧 Na falência de VD, <b>volume</b> ajuda?
+A: Raramente: VD dilatado + VCI pletórica → volume piora a interdependência ventricular (desvio septal, ↓ DC do VE). Só se VCI pequena e VD não dilatado.
+
+Q: 🩺 Infarto de <b>VD</b> no eco?
+A: VD dilatado e hipocinético com IAM inferior; TAPSE ↓; dependente de pré-carga (cuidado com nitrato/diurético).
+
+Q: 🧮 Como medir <b>TAPSE</b> corretamente?
+A: A4C focado no VD, cursor do modo M no anel tricúspide lateral, alinhado ao movimento longitudinal; medir do ponto mais baixo ao mais alto.
+X: Erro comum: cursor oblíquo → subestima.
+
+Q: 🔍 O que é o <b>tempo de aceleração pulmonar</b> (AcT)?
+A: Doppler pulsado na via de saída do VD (PEC): normal > 130 ms; < 100 ms sugere HP; < 60 ms (TEP agudo, sinal 60/60). Entalhe mesossistólico (notching) = HP pré-capilar.
+
+Q: 🧠 HP crônica + choque séptico: cuidado com o quê?
+A: VD já no limite: evitar hipotensão (perfusão coronária do VD), hipoxemia, hipercapnia, PEEP alta, sobrecarga de volume; vasopressor precoce.
+
+Q: 🫀 <b>Swinging heart</b>: o que é e que achado do ECG acompanha?
+A: Coração “balançando” em derrame volumoso → <b>alternância elétrica</b> no ECG.
+
+Q: 💉 Derrame pericárdico em <b>urêmico</b>: conduta?
+A: Pericardite urêmica/de diálise → intensificar diálise; drenagem se tamponamento ou derrame grande refratário.
+
+Q: 🧪 Derrame pericárdico hemorrágico no USG?
+A: Pode ter ecos internos, coágulos (ecogênicos), especialmente pós-trauma/cirurgia/rotura. Sangue fresco pode ser anecoico.
+
+Q: 🫀 Pós-IAM com choque súbito e derrame: pensar em?
+A: <b>Rotura de parede livre</b> do VE (tamponamento hemorrágico), rotura de septo (CIV, shunt E→D ao Doppler) ou de músculo papilar (IM aguda).
+➡️ Cirurgia emergencial.
+
+Q: 🧮 Qual o valor da <b>pressão de AD</b> pela VCI no cálculo da PSAP?
+A: VCI ≤ 2,1 cm com colapso > 50% → PAD 3; intermediária → 8; > 2,1 cm e colapso < 50% → 15 mmHg.
+I: pc_vci.png
+
+Q: 🌀 Dilatação do VD em paciente com <b>CIA</b>: que sinal do D?
+A: Septo retificado na <b>diástole</b> (sobrecarga de volume); Doppler colorido pode mostrar shunt interatrial.
+
+Q: 🫁 <b>Pneumotórax</b> × tamponamento no choque obstrutivo: como o POCUS diferencia?
+A: PNTX: ausência de deslizamento + lung point, coração normal. Tamponamento: derrame + colapso de câmaras direitas. Ambos: VCI pletórica.
+
+Q: 🧯 PCR com derrame pericárdico: conduta?
+A: Possível tamponamento → <b>pericardiocentese imediata</b> (preferencialmente guiada) como causa reversível (4 Ts).
+
+Q: 📏 Qual o normal da <b>área do AD</b> e o significado de AD dilatado?
+A: Área AD > 18 cm² (A4C) = dilatação → HP, IT, disfunção de VD, FA crônica.
+
+Q: 💡 TEP <b>sem</b> disfunção de VD no eco: exclui TEP?
+A: <b>Não</b>: eco normal ocorre em TEP pequeno/estável. Eco só “exclui” TEP como causa de <b>choque</b>.
+
+Q: 🧪 Qual o achado ecográfico de <b>dilatação da artéria pulmonar</b>?
+A: Tronco pulmonar > 25–29 mm (PEC basal) → sugere hipertensão pulmonar.
+
+Q: 🫀 Paciente com <b>marca-passo</b> e derrame novo: pensar em?
+A: Perfuração do VD pelo eletrodo (principalmente dias após implante) → risco de tamponamento.
+
+Q: 🧠 Interdependência ventricular: o que é?
+A: VD e VE compartilham septo e pericárdio: VD dilatado comprime o VE (↓ enchimento e DC) — base do choque no TEP e na falência de VD.
+
+Q: 🩸 Trauma penetrante precordial + derrame no FAST: conduta?
+A: <b>Toracotomia/esternotomia de emergência</b> (instável) ou janela pericárdica; pericardiocentese é ponte.
+
+Q: 🧮 Qual a pressão estimada de AD com <b>VCI 2,5 cm e colapso 20%</b>?
+A: ~ <b>15 mmHg</b> (10–20) → pressão elevada.
+
+Q: 🫀 Qual é a melhor janela para <b>derrame pericárdico</b> no PEL e a principal armadilha?
+A: PEL: derrame anterior à aorta descendente (pericárdico) vs posterior (pleural); armadilha: confundir derrame pleural esquerdo com pericárdico.

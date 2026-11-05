@@ -1,0 +1,207 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## H | 😷 VNI, CNAF e intubação | ERS/ATS NIV Guideline 2017; ERS HFNC Guideline 2022; SCCM airway
+
+Q: 😷 Indicações com <b>evidência forte</b> de VNI?
+A: | Indicação | Evidência |
+| DPOC exacerbada com acidose (pH 7,25–7,35) | ✅✅ forte |
+| EAP cardiogênico | ✅ forte (CPAP ou BiPAP) |
+| Imunossuprimido com IRpA | condicional |
+| Pós-extubação de alto risco | condicional (profilática) |
+| Pós-operatório abdominal/torácico | condicional |
+S: Rochwerg B, Eur Respir J 2017
+
+Q: 🚫 <b>Contraindicações</b> à VNI?
+A: PCR/apneia, rebaixamento sem capacidade de proteger via aérea (exceto narcose de CO₂), vômitos/HDA, instabilidade grave, obstrução de via aérea superior, trauma/cirurgia facial, secreção abundante incontrolável, recusa/intolerância.
+
+Q: 😷 Escolha da <b>interface</b> na VNI aguda?
+A: <b>Oronasal</b> (facial) é a primeira escolha na IRpA (menos vazamento oral). Helmet: opção na hipoxêmica (HENIVOT/COVID); nasal: crônicos/estáveis.
+
+Q: 🌊 Como funciona a <b>CNAF</b>?
+A: Fluxo até 60 L/min aquecido/umidificado com FiO₂ precisa:
+- Lavagem do espaço morto nasofaríngeo (↓ PaCO₂)
+- PEEP leve (~1 cmH₂O a cada 10 L/min, boca fechada)
+- Atende a demanda de fluxo (FiO₂ real estável)
+- Conforto e depuração de secreção
+
+Q: 📊 Resultado do <b>FLORALI</b>?
+A: IRpA hipoxêmica não hipercápnica (P/F ≤ 300): CNAF × O₂ padrão × VNI → intubação semelhante no total, mas <b>mortalidade em 90 dias menor com CNAF</b>; benefício na intubação em P/F ≤ 200.
+S: Frat JP, NEJM 2015
+
+Q: 🧮 O que é o <b>índice ROX</b>?
+A: <b>ROX = (SpO₂/FiO₂) / FR</b>
+| ROX | Interpretação |
+| ≥ 4,88 (2, 6 ou 12 h) | baixo risco de intubação |
+| < 3,85 em 12 h | alto risco de falha |
+S: Roca O, AJRCCM 2019
+
+Q: 🧮 O que é o <b>escore HACOR</b>?
+A: Heart rate, Acidosis (pH), Consciousness (Glasgow), Oxygenation (P/F), Respiratory rate em VNI.
+<b>HACOR > 5 em 1 h</b> → alto risco de falha (> 80%) → considerar intubação precoce.
+S: Duan J, ICM 2017
+
+Q: ⏱️ Por que a <b>intubação tardia</b> após falha de CNAF/VNI é perigosa?
+A: Associada a ↑ mortalidade (Kang 2015: intubação > 48 h após CNAF), possivelmente por P-SILI e piora progressiva.
+S: Kang BJ, ICM 2015
+
+Q: 🪖 VNI com <b>helmet</b> na IRpA hipoxêmica: evidência?
+A: Patel 2016 (SDRA): helmet × máscara → ↓ intubação e mortalidade. HENIVOT (COVID): helmet × CNAF → ↓ intubação, sem diferença de dias livres de suporte.
+S: Patel BK, JAMA 2016; Grieco DL, JAMA 2021
+
+Q: 😷 VNI na IRpA hipoxêmica “de novo”: risco?
+A: VT alto (> 9–9,5 mL/kg) em VNI associa-se à falha e maior mortalidade (P-SILI).
+➡️ Monitorar VT expirado; se VT alto persistente com esforço intenso → intubar.
+S: Carteaux G, Crit Care Med 2016
+
+Q: 🫀 CPAP × BiPAP no <b>EAP cardiogênico</b>?
+A: Ambos ↓ intubação; sem diferença consistente entre eles. CPAP 10 cmH₂O é suficiente na maioria.
+X: BiPAP útil se hipercapnia associada.
+
+Q: 🧑‍⚕️ VNI no paciente <b>imunossuprimido</b>?
+A: Benefício inicial (Hilbert 2001), mas estudos recentes (IVNIctus 2015) sem diferença vs O₂ padrão. CNAF é opção comum.
+S: Lemiale V, JAMA 2015
+
+Q: 🛫 <b>Pré-oxigenação</b> para intubação: melhores métodos?
+A: | Método | Comentário |
+| VNI (PREOXI 2024) | ↓ hipoxemia na intubação vs máscara facial |
+| CNAF | oxigenação apneica, boa em hipoxemia leve-moderada |
+| Máscara com reservatório | padrão (mínimo 3 min ou 8 respirações profundas) |
+S: Gibbs KW, NEJM 2024 (PREOXI)
+
+Q: 🔁 O que é <b>oxigenação apneica</b>?
+A: Fluxo de O₂ nasal (CNAF até 60 L/min ou cateter 15 L/min) durante a apneia da laringoscopia → prolonga o tempo até dessaturar.
+
+Q: 💨 Ventilação com bolsa-válvula-máscara <b>entre indução e laringoscopia</b>?
+A: PreVent: ventilação com bolsa (cuidadosa) → ↓ hipoxemia grave sem ↑ aspiração.
+S: Casey JD, NEJM 2019
+
+Q: 🎥 <b>Videolaringoscópio × laringoscopia direta</b> na UTI/emergência?
+A: DEVICE (2023): videolaringoscópio → ↑ sucesso na primeira tentativa (85% vs 71%).
+S: Prekker ME, NEJM 2023
+
+Q: 🧷 <b>Bougie</b> na primeira tentativa?
+A: BOUGIE (2021): bougie × estilete → <b>sem diferença</b> de sucesso na primeira tentativa em adultos críticos.
+S: Driver BE et al., JAMA 2021 (BOUGIE)
+
+Q: 💉 <b>Etomidato × cetamina</b> na intubação de críticos?
+A: RSI trial (2025) e estudos anteriores: sem diferença clara de mortalidade; ambos aceitáveis (etomidato pode suprimir adrenal transitoriamente).
+X: Escolha conforme hemodinâmica e experiência; doses menores no choque.
+
+Q: 💧 <b>Bolus de fluido</b> pré-intubação previne colapso?
+A: PREPARE II (2022): bolus de 500 mL de cristaloide <b>não</b> reduziu colapso cardiovascular.
+S: Russell DW, JAMA 2022
+
+Q: 🩸 Fatores do <b>colapso pós-intubação</b>?
+A: Sedativo + perda do tônus simpático + VPP (↓ retorno venoso) + hipoxemia/acidose.
+➡️ Vasopressor pronto (ou já em curso), doses reduzidas, ressuscitação prévia.
+
+Q: 🧮 Mnemônico <b>HEAVEN</b> (via aérea difícil fisiológica/anatômica)?
+A: Hypoxemia · Extremos de tamanho · Anatomia alterada · Vômito/sangue · Exsanguinação/anemia · Neck (mobilidade cervical).
+
+Q: 🗣️ Mnemônico <b>LEMON</b> (via aérea difícil anatômica)?
+A: Look externally · Evaluate 3-3-2 · Mallampati · Obstruction · Neck mobility.
+
+Q: 🧪 Confirmação da <b>posição do tubo</b>: padrão ouro?
+A: <b>Capnografia com onda</b> por ≥ 6 ciclos (EtCO₂ persistente).
+Complementares: ausculta, POCUS (tubo na traqueia, deslizamento bilateral), RX (profundidade).
+X: Na PCR, EtCO₂ pode ser baixo mesmo com tubo traqueal.
+
+Q: 🧯 <b>“Não intubo, não oxigeno”</b> (CICO): conduta?
+A: <b>Cricotireoidostomia</b> cirúrgica (bisturi-bougie-tubo 6,0) imediatamente.
+S: DAS 2015
+
+Q: 🛠️ Algoritmo DAS: planos A, B, C, D?
+A: A: laringoscopia (≤ 3 tentativas, máx 4) · B: dispositivo supraglótico · C: máscara facial (acordar se possível) · D: acesso frontal do pescoço (cricotireoidostomia).
+S: Frerk C, Br J Anaesth 2015
+
+Q: 😷 CNAF <b>pós-extubação</b> em baixo risco: evidência?
+A: Hernández 2016 (JAMA): CNAF × O₂ convencional → ↓ reintubação em 72 h (4,9% vs 12,2%).
+S: Hernández G, JAMA 2016
+
+Q: 😷 CNAF × VNI pós-extubação em <b>alto risco</b>?
+A: Hernández 2016 (JAMA): CNAF <b>não inferior</b> à VNI. Thille 2019 (HIGH-WEAN): VNI + CNAF intercaladas → ↓ reintubação vs CNAF isolada.
+S: Thille AW, JAMA 2019
+
+Q: 🚫 VNI <b>de resgate</b> na insuficiência respiratória pós-extubação já estabelecida?
+A: <b>Não recomendada</b>: Esteban 2004 mostrou ↑ mortalidade (atraso da reintubação).
+X: Diferente da VNI profilática (logo após extubar, em alto risco), que é benéfica.
+S: Esteban A, NEJM 2004
+
+Q: 🧮 Ajuste inicial de CNAF na IRpA hipoxêmica?
+A: Fluxo <b>50–60 L/min</b>, FiO₂ para SpO₂ 92–96% (88–92% em hipercápnicos), temperatura 37 °C (ou 34 se desconforto).
+
+Q: 🧮 Como fazer o <b>desmame da CNAF</b>?
+A: Primeiro ↓ FiO₂ até ≤ 0,4–0,5, depois ↓ fluxo em degraus de 5–10 L/min até ~20–30 L/min → cateter nasal.
+
+Q: 😷 Complicações da VNI?
+A: Lesão de pele (ponte nasal), aerofagia/distensão gástrica, ressecamento, aspiração, claustrofobia, assincronia por vazamento, intubação tardia.
+
+Q: 🔁 VNI em <b>obesidade-hipoventilação</b> (SHO) agudizada?
+A: Indicada: IPAP mais alto (18–25) e EPAP mais alto (8–10) para vencer obstrução de VAS e carga da parede.
+
+Q: 🧠 VNI em <b>doença neuromuscular</b> (ELA, miastenia, SGB)?
+A: Crônica/ELA: útil. Na <b>SGB e crise miastênica</b> com piora rápida, bulbar ou CVF < 15–20 mL/kg → <b>intubação</b> eletiva (VNI pode atrasar).
+X: Na crise miastênica sem disfunção bulbar, VNI pode evitar intubação.
+
+Q: 🧮 Critérios <b>20/30/40</b> para intubar na SGB?
+A: CVF < <b>20 mL/kg</b>, PImáx menos negativa que <b>−30 cmH₂O</b>, PEmáx < <b>40 cmH₂O</b> (ou queda > 30%).
+S: Lawn ND, Arch Neurol 2001
+
+Q: 🌀 CNAF na <b>DPOC hipercápnica</b>?
+A: Alternativa quando a VNI não é tolerada ou para pausas da VNI; reduz PaCO₂ modestamente. Não substitui VNI em pH < 7,30.
+
+Q: 🧮 FiO₂ real do <b>cateter nasal</b> e da máscara?
+A: | Dispositivo | FiO₂ aproximada |
+| Cateter nasal 1–6 L/min | 24–44% (+4% por L) |
+| Máscara simples 5–10 L/min | 35–55% |
+| Venturi | 24–60% (precisa) |
+| Máscara com reservatório 10–15 L/min | 60–90% |
+| CNAF | 21–100% (precisa) |
+
+Q: 🧯 IRpA hipoxêmica: sinais para <b>intubar sem esperar</b>?
+A: Rebaixamento, instabilidade hemodinâmica, SpO₂ < 88–90% apesar de FiO₂ alta, FR > 35–40 com esforço intenso, ROX baixo/HACOR alto, fadiga, pH caindo.
+
+Q: 🫁 Posição do paciente durante a <b>pré-oxigenação</b>?
+A: <b>Cabeceira elevada 20–30°</b> (ou proclive) → ↑ CRF, ↑ tempo de apneia segura (principalmente obesos).
+
+Q: 🧮 Sequência rápida: princípios no crítico?
+A: Preparar (SOAP-ME), pré-oxigenar, posicionar, otimizar hemodinâmica, indução + BNM, laringoscopia por operador experiente, confirmação por capnografia, plano pós-intubação (sedação, VM, PA).
+
+Q: 💉 <b>Rocurônio × succinilcolina</b> na SRI?
+A: Ambos adequados; rocurônio 1,2 mg/kg tem condições semelhantes e é revertido por <b>sugamadex</b>.
+❌ Succinilcolina contraindicada: hiperK, queimadura/esmagamento > 24–72 h, denervação, miopatias, história de hipertermia maligna.
+
+Q: 😷 VNI no <b>pós-operatório</b> de cirurgia abdominal com hipoxemia?
+A: NIVAS (Jaber 2016): VNI → ↓ reintubação vs O₂ padrão.
+S: Jaber S, JAMA 2016
+
+Q: 🫧 CNAF e <b>pressão positiva</b>: quanto gera?
+A: ~ 1 cmH₂O a cada 10 L/min (boca fechada) → 60 L/min ≈ 3–6 cmH₂O; menos com boca aberta.
+
+Q: 😷 VNI e <b>pneumonia comunitária</b> grave?
+A: Taxa de falha alta; usar com cautela, preferindo CNAF ou helmet, e intubar precocemente se sem resposta.
+
+Q: 🔊 Qual a melhor monitorização da VNI na 1ª hora?
+A: À beira-leito: FR, uso de acessória, conforto, SpO₂, VT expirado, vazamento, gasometria em 1–2 h, sensório.
+
+Q: 🧠 Sedação para tolerar VNI?
+A: <b>Dexmedetomidina</b> ou baixas doses de opioide (remifentanil) podem melhorar a tolerância; evitar sedação que deprima drive/proteção de via aérea.
+
+Q: 🧷 Laringoespasmo pós-extubação: manejo?
+A: Elevação da mandíbula + <b>CPAP com O₂ 100%</b>; se persiste: propofol em dose baixa, succinilcolina 0,1–0,5 mg/kg e reintubação se necessário.
+
+Q: 🧪 Teste de <b>vazamento do cuff</b> (cuff leak) antes da extubação?
+A: Volume de vazamento < 110 mL ou < 10–25% do VT sugere edema laríngeo/risco de estridor.
+➡️ Alto risco: <b>metilprednisolona</b> 20–40 mg 4/4 h por 12–24 h antes de extubar.
+S: François B, Lancet 2007
+
+Q: 🗣️ Estridor pós-extubação: tratamento?
+A: Adrenalina nebulizada, corticoide IV, heliox; VNI/CNAF não resolvem obstrução alta — reintubar se piora.
+
+Q: 🏥 Onde iniciar <b>VNI na IRpA</b>?
+A: Ambiente com monitorização contínua e possibilidade de intubação imediata (UTI ou sala de emergência/semi-intensiva).
+
+Q: 🌀 Por que a <b>umidificação</b> é importante na CNAF?
+A: Gás a 37 °C e 44 mg H₂O/L preserva a função mucociliar, melhora o conforto e permite fluxos altos sem lesão de mucosa.
+
+Q: 😷 VNI no <b>trauma torácico</b> (contusão, fraturas de costelas)?
+A: Pode reduzir intubação e pneumonia em pacientes com hipoxemia e analgesia adequada (bloqueios), sem contraindicações.

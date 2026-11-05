@@ -1,0 +1,78 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## D | ❤️ Coração I: janelas e função do VE | ASE Focused Cardiac Ultrasound 2013; ASE chamber quantification 2015
+
+Q: 🧭 Como obter o <b>PEL</b> passo a passo?
+A: Sonda setorial no 3º–4º EIC esquerdo junto ao esterno, marcador para o <b>ombro direito</b>; ajustar até ver VE, valva mitral, valva aórtica e aorta ascendente alinhados horizontalmente.
+X: Se o VE aparece “inclinado” (ápice para baixo), a janela está alta demais ou oblíqua.
+
+Q: 🧭 Como obter o <b>apical 4C</b>?
+A: Sonda no ictus (geralmente 5º EIC, linha hemiclavicular/axilar anterior), marcador para a <b>axila esquerda</b>, feixe apontando para o ombro direito; ápice no topo da tela, septo vertical.
+X: VE “encurtado” (foreshortening) superestima a função e subestima volumes.
+
+Q: 🫀 Paciente em choque com <b>FE muito reduzida</b> e lactato alto: primeiro passo além de vasopressor?
+A: Considerar <b>inotrópico</b> (dobutamina) ou suporte mecânico se hipoperfusão persistir com PAM adequada; buscar causa (SCA → cateterismo; miocardite; tóxica).
+
+## E | 🫀 Coração II: VD, TEP, pericárdio e tamponamento | ASE Right Heart Guidelines 2010/2015; ESC Pericardial 2015; ESC PE 2019
+
+Q: 🧮 Classificação ecográfica do <b>cor pulmonale agudo</b> na SDRA?
+A: | Grau | Critério (A4C + PEC) |
+| Moderado | VD/VE 0,6–1 + discinesia septal |
+| Grave | VD/VE > 1 + discinesia septal |
+S: Vieillard-Baron A, ICM 2016
+
+Q: 💉 Tamponamento confirmado com hipotensão: medidas até a drenagem?
+A: Volume (pequenos bolus podem ajudar), evitar VPP/intubação se possível (↓ retorno venoso — PCR na indução!), vasopressor; <b>drenagem urgente</b>.
+
+Q: 🧪 Derrame pericárdico <b>loculado posterior</b> após cirurgia: qual janela ajuda?
+A: Subcostal e apical modificada; ETE muitas vezes necessária para coleções atrás do AE/AD.
+
+Q: 🫀 PCR durante intubação de paciente com tamponamento: mecanismo?
+A: VPP + sedação reduzem ainda mais o retorno venoso já limitado → colapso; drenar <b>antes</b> de intubar sempre que possível.
+
+## F | 💧 Hemodinâmica: VCI, VTI e fluido-responsividade | Monnet X, Teboul JL — Ann Intensive Care 2016; Cecconi M, ICM 2014 (consenso de choque)
+
+Q: 🧭 Sequência prática de <b>EPP com VTI</b>?
+A: 1️⃣ VTI basal (semi-sentado 45°) · 2️⃣ inclinar a cama: tronco plano e pernas a 45° · 3️⃣ VTI após 60–90 s (máximo efeito) · 4️⃣ voltar à posição inicial · ↑ ≥ 10–15% = responsivo.
+X: Não levantar as pernas manualmente (dor/estímulo adrenérgico falseia).
+
+Q: 🧮 Para que serve repetir o VTI <b>após o bolus</b>?
+A: Confirmar a resposta real (↑ VS) e decidir se novo bolus é útil; sem aumento → parar volume.
+
+## G | 🌊 Congestão venosa: VExUS, Doppler venoso e rim | Beaubien-Souligny W, Ultrasound J 2020 (VExUS); Rola P, Koratala A
+
+Q: 🗺️ Mapa rápido do <b>VExUS</b> em uma tabela?
+A: | Veia | Normal | Grave |
+| Hepática | S > D | S reverso |
+| Porta | pulsatilidade < 30% | ≥ 50% |
+| Intrarrenal | contínuo | monofásico (só D) |
+I: pc_vexus.png
+
+Q: 🧭 Por que usar <b>ECG simultâneo</b> no Doppler venoso?
+A: Para identificar corretamente as ondas S (sístole) e D (diástole) na veia hepática e intrarrenal.
+
+Q: 🩺 VExUS e <b>prognóstico</b> em IC aguda: o que se observou?
+A: VExUS alto na admissão e persistente associa-se a pior função renal e maior readmissão/mortalidade (observacional).
+
+Q: 🧮 Veia hepática com S < D em paciente com <b>FA</b>: interpretar?
+A: Em FA a onda S fica menor naturalmente → não classificar como congestão só por isso; valorizar porta e intrarrenal.
+
+Q: 🧯 Congestão com <b>hipotensão</b> e VExUS 3 em VD falente: estratégia?
+A: Vasopressor para PAM/perfusão coronária do VD + inotrópico + descongestão cuidadosa (UF), tratar causa (TEP/VM).
+
+## J | 🧠 Diafragma, olho, estômago, rim e outros | Matamis D, ICM 2013 (diafragma); Robba C, ICM 2018 (ONSD); Perlas A (gástrico)
+
+Q: 🧮 Como medir o <b>volume vesical</b>?
+A: Volume ≈ <b>comprimento × largura × altura × 0,52</b> (elipsoide), medidas transversal e longitudinal.
+Ex.: 10 × 8 × 7 × 0,52 ≈ 290 mL.
+
+Q: 🧭 Cateter de <b>diálise/PICC</b> com ponta no AD: o USG confirma?
+A: Soro agitado (microbolhas) chegando ao AD em < 2 s + ausência de cateter visível na VJI/subclávia contralateral sugere boa posição central.
+
+Q: 🧠 Qual a <b>vantagem</b> do DBNO na beira do leito?
+A: Não invasivo, rápido, repetível, sem transporte — útil na triagem de HIC em pacientes sem monitor de PIC ou em coagulopatia.
+
+Q: 👁️ Erro técnico mais comum ao medir o <b>DBNO</b>?
+A: Medir na sombra artefatual (não na bainha) ou a uma distância diferente de 3 mm do globo; corte oblíquo do nervo superestima o diâmetro.
+
+Q: 🍽️ Paciente para <b>intubação de urgência</b> com estômago cheio no USG: conduta?
+A: Sequência rápida com cabeceira elevada, considerar descompressão por sonda gástrica antes, aspiração pronta; evitar ventilação com pressões altas antes da intubação.

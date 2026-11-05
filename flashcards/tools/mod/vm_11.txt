@@ -1,0 +1,35 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## B | 🎛️ Modos ventilatórios | Chatburn RL, Respir Care 2014 (taxonomia); Tobin 3ª ed.
+
+Q: 🧭 Paciente em PSV com <b>FR 38, VT 280 mL</b> (PBW 70 kg): interpretação e ação?
+A: f/VT ≈ 136 → padrão rápido e superficial (suporte insuficiente ou carga alta).
+➡️ ↑ PS em 2–4 cmH₂O, procurar causa (dor, secreção, broncoespasmo, febre, acidose); se persistir, voltar a A/C.
+
+Q: 🎛️ Qual a diferença entre <b>PEEP e EPAP</b>?
+A: Na prática, a mesma pressão expiratória positiva: <b>PEEP</b> no ventilador invasivo e <b>EPAP</b> na VNI. Na VNI, <b>IPAP − EPAP = pressão de suporte</b>.
+X: IPAP 14 / EPAP 6 equivale a PSV 8 com PEEP 6.
+
+## E | 📊 Monitorização avançada à beira-leito | Telias I, Brochard L — monitoring respiratory effort (Crit Care/ICM 2019–2023)
+
+Q: 🧮 VCV: VT 450, Ppico 38, Pplatô 30, PEEP 10, fluxo 60 L/min. Calcule Crs, R e ΔP.
+A: | Parâmetro | Cálculo | Resultado |
+| ΔP | 30 − 10 | <b>20 cmH₂O</b> ⚠️ |
+| Crs | 450 / 20 | <b>22,5 mL/cmH₂O</b> |
+| R | (38 − 30) / 1 L/s | <b>8 cmH₂O/L/s</b> |
+➡️ Problema elástico grave; ΔP acima do alvo → ↓ VT e/ou ajustar PEEP.
+
+Q: 🔁 Qual a ordem prática da <b>avaliação diária</b> da mecânica?
+A: 1️⃣ Pausa inspiratória → platô, ΔP, Crs · 2️⃣ pausa expiratória → auto-PEEP · 3️⃣ resistência · 4️⃣ curvas (assincronia) · 5️⃣ esforço (P0.1/Pocc) em modos espontâneos · 6️⃣ gasometria + P/F.
+
+Q: 🌡️ Por que reavaliar a mecânica após <b>mudança de decúbito</b>?
+A: Complacência e ΔP mudam com a posição (prona, lateral, sentado) → reajustar PEEP/VT conforme a nova mecânica.
+
+## H | 😷 VNI, CNAF e intubação | ERS/ATS NIV Guideline 2017; ERS HFNC Guideline 2022; SCCM airway
+
+Q: 🗺️ Resumo visual: <b>quem se beneficia</b> de VNI × CNAF?
+A: | Suporte | Melhor cenário |
+| VNI | DPOC com acidose, EAP cardiogênico |
+| CNAF | IRpA hipoxêmica, pós-extubação de baixo risco |
+| ⚠️ Evitar VNI | rebaixamento, vômitos, instabilidade, secreção abundante |
+➡️ Reavaliar em 1–2 h: sem melhora = intubar.
+I: vm_vni_cnaf.png

@@ -1,0 +1,218 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## B | 🎛️ Modos ventilatórios | Chatburn RL, Respir Care 2014 (taxonomia); Tobin 3ª ed.
+
+Q: 🧩 Quais as 3 <b>variáveis de fase</b> de um ciclo ventilatório?
+A: | Fase | Pergunta | Exemplos |
+| 🚦 Disparo (trigger) | o que inicia? | tempo, pressão, fluxo, sinal neural |
+| 🎯 Limite (target) | o que é controlado? | volume/fluxo, pressão |
+| 🔚 Ciclagem | o que encerra? | volume, tempo, fluxo, pressão |
+
+Q: 📦 Como se classifica <b>VCV</b> (volume controlado) pelas variáveis de fase?
+A: Disparo: <b>tempo</b> (controlado) ou paciente (assistido)
+Limite: <b>fluxo</b>
+Ciclagem: <b>volume</b> (ou tempo, com pausa)
+➡️ VT garantido; pressão variável.
+I: vm_vcv_pcv.png
+
+Q: 📦 Como se classifica <b>PCV</b> (pressão controlada)?
+A: Disparo: tempo ou paciente · Limite: <b>pressão</b> · Ciclagem: <b>tempo</b> (Ti ajustado)
+➡️ Pressão garantida; VT depende de complacência, resistência e esforço.
+
+Q: 📦 Como se classifica <b>PSV</b> (pressão de suporte)?
+A: Disparo: <b>paciente</b> (sempre) · Limite: <b>pressão</b> · Ciclagem: <b>fluxo</b> (% do pico, padrão 25%)
+⚠️ Sem FR de backup → apneia aciona alarme/backup.
+X: PSV não é um modo para paciente sem drive (sedação profunda, BNM).
+
+Q: 🆚 VCV × PCV: qual reduz mais a mortalidade na SDRA?
+A: <b>Nenhum</b> se o VT e o platô forem os mesmos. O que importa é o <b>VT/ΔP</b> e a PEEP, não o modo.
+X: Em PCV o VT pode exceder o alvo quando o paciente faz esforço vigoroso — vigiar VT expirado.
+
+Q: 🔄 O que é <b>A/C</b> (assistido-controlado)?
+A: Todo ciclo, seja disparado pela máquina (FR mínima) ou pelo paciente, recebe o <b>mesmo ciclo completo</b> (VT ou pressão programados).
+X: Paciente taquipneico em A/C-VCV → hiperventilação e auto-PEEP.
+
+Q: 🔄 O que é <b>SIMV</b>?
+A: Ciclos mandatórios <b>sincronizados</b> em FR programada + respirações espontâneas entre eles (com ou sem PSV).
+⚠️ SIMV foi o <b>pior</b> método de desmame nos estudos clássicos (Brochard 1994; Esteban 1995).
+S: Esteban A, NEJM 1995; Brochard L, AJRCCM 1994
+
+Q: 🤖 O que é <b>PRVC / VC+ / AutoFlow</b> (volume-alvo com pressão regulada)?
+A: Modo <b>dual</b>: ciclo controlado a pressão, com o ventilador ajustando a pressão ciclo a ciclo para atingir o VT alvo.
+⚠️ Se o paciente faz esforço forte, o ventilador <b>reduz o suporte</b> (acha que o VT veio “fácil”) → ↑ trabalho respiratório.
+
+Q: 🧠 O que é <b>NAVA</b>?
+A: Ventilação assistida ajustada <b>neuralmente</b>: o ventilador lê a atividade elétrica do diafragma (<b>Edi</b>) por sonda nasogástrica especial e entrega pressão <b>proporcional</b> ao Edi.
+✅ Melhor sincronia (disparo e ciclagem neurais).
+X: Edi baixo pode indicar sedação excessiva ou alcalose; Edi alto = drive alto.
+
+Q: 📐 O que é <b>PAV+</b> (ventilação proporcional assistida)?
+A: Ventilador mede R e C continuamente e entrega pressão <b>proporcional ao esforço</b> instantâneo (ganho de 5–95% do trabalho).
+✅ Mais sincronia; o paciente controla VT e FR.
+⚠️ Se o drive for excessivo, “amplifica” o esforço (runaway).
+
+Q: 🎢 O que é <b>APRV</b>?
+A: CPAP alto (Phigh) por tempo longo (Thigh 4–6 s) com breves liberações (Tlow 0,4–0,8 s) para Plow ~0, permitindo respiração espontânea em qualquer fase.
+| Parâmetro | Típico |
+| Phigh | ≈ platô anterior (20–30) |
+| Tlow | encerrar a liberação a 50–75% do pico de fluxo expiratório |
+X: Sem benefício de mortalidade comprovado vs ventilação protetora convencional; VT na liberação pode ser alto.
+
+Q: 🔁 O que é <b>BIPAP / Bilevel</b> no ventilador de UTI?
+A: Dois níveis de pressão (alta e baixa) ciclados a tempo, com respiração espontânea livre nos dois níveis (pode ter PSV sobre o nível baixo).
+X: Não confundir com “BiPAP” de VNI (marca; IPAP/EPAP).
+
+Q: 🫁 O que é <b>CPAP</b>?
+A: Pressão positiva <b>constante</b> durante todo o ciclo, sem suporte inspiratório; o paciente gera todo o VT.
+✅ EAP cardiogênico, apneia obstrutiva, TRE (CPAP 5).
+
+Q: 🚦 <b>Disparo a pressão × a fluxo</b>: qual é melhor?
+A: Disparo a <b>fluxo</b> (1–3 L/min) costuma exigir menos esforço e ter menor atraso que o disparo a pressão (−1 a −2 cmH₂O).
+X: Disparo sensível demais → <b>autodisparo</b> (vazamento, água no circuito, oscilação cardíaca).
+
+Q: 🔚 Como ajustar a <b>ciclagem</b> da PSV (Esens / % do pico de fluxo)?
+A: | Situação | Ajuste |
+| DPOC (ciclagem tardia) | ↑ Esens para 40–60% (cicla mais cedo) |
+| Restritivo/SDRA (ciclagem precoce) | ↓ Esens para 10–20% |
+| Padrão | 25% |
+
+Q: 📈 Para que serve o <b>rise time</b> (tempo de subida / slope)?
+A: Velocidade com que a pressão atinge o alvo.
+- Rápido → atende alta demanda de fluxo (dispneia)
+- Lento demais → “fome de fluxo”, ↑ trabalho
+- Rápido demais → overshoot de pressão, desconforto, ciclagem precoce
+
+Q: 🍽️ O que é <b>“fome de fluxo”</b> (flow starvation) em VCV?
+A: Fluxo programado menor que a demanda → curva de pressão <b>côncava</b> (“escavada”) durante a inspiração.
+Correção: ↑ fluxo, usar fluxo desacelerado, mudar para PCV/PSV, tratar a causa do drive alto.
+X: Escavação da curva de pressão = esforço do paciente “puxando” o ar.
+
+Q: 🧮 Como ajustar o <b>fluxo inspiratório</b> em VCV?
+A: Habitual 40–60 L/min (adulto); 60–100 L/min em obstrutivos para encurtar Ti.
+➡️ Ti resultante deve ficar ~0,8–1,2 s.
+X: Fluxo muito alto ↑ pico (resistivo), mas não o platô.
+
+Q: ⏱️ Como programar o <b>Ti</b> em PCV?
+A: Habitual 0,8–1,2 s. Observar a curva de fluxo:
+- Fluxo inspiratório zera antes do fim → Ti longo (pausa “gratuita”)
+- Fluxo não zera → Ti curto (VT incompleto)
+
+Q: 🤝 <b>PSV x A/C</b> em paciente desperto e com drive normal?
+A: PSV permite sincronismo, menor sedação e uso do diafragma (evita atrofia).
+⚠️ Mas PSV com drive excessivo → VT alto e P-SILI → nesses casos, controlar o drive (analgesia, sedação, febre, acidose) ou voltar a modo controlado.
+
+Q: 🧩 O que é <b>ASV / INTELLiVENT</b>?
+A: Modos de <b>malha fechada</b>: ventilador escolhe FR e VT pelo menor trabalho respiratório (Otis) com base no volume-minuto alvo; INTELLiVENT também ajusta PEEP/FiO₂ pela SpO₂ e EtCO₂.
+X: Reduz ajustes manuais; sem benefício duro de mortalidade.
+
+Q: 🔒 O que é <b>ventilação de backup / apneia</b>?
+A: Parâmetros que o ventilador assume se não detectar ciclo espontâneo por um tempo (ex.: 20 s) em PSV/CPAP.
+✅ Sempre conferir o backup ao trocar para modo espontâneo.
+
+Q: 🧯 Modo mais adequado no <b>transporte</b> de paciente instável?
+A: Modo <b>controlado</b> (VCV ou PCV A/C) com alarmes ajustados, oxigênio suficiente e ventilador de transporte testado.
+X: Ambu manual → VT e PEEP imprevisíveis, risco de hiperventilação e desrecrutamento (válvula de PEEP!).
+
+Q: 🎯 Em qual modo o <b>VT é a variável dependente</b>?
+A: Nos modos limitados a <b>pressão</b>: PCV, PSV, APRV, BIPAP. O VT depende de R, C, Ti e esforço.
+
+Q: 🎯 Em qual modo a <b>pressão é a variável dependente</b>?
+A: Nos modos limitados a <b>volume/fluxo</b>: VCV (A/C e SIMV). A pressão depende de R, C e esforço.
+
+Q: 🧠 Por que a <b>atrofia diafragmática</b> ocorre rápido na VM controlada?
+A: Inatividade → proteólise e estresse oxidativo; biópsias mostram atrofia após <b>18–69 h</b> de VM controlada.
+➡️ Estratégia “diafragma-protetora”: permitir esforço leve-moderado assim que possível.
+S: Levine S, NEJM 2008; Goligher EC, AJRCCM 2018
+
+Q: 🛡️ O que é ventilação <b>“pulmão e diafragma protetora”</b>?
+A: Equilibrar os dois riscos:
+| Pouco esforço | Esforço excessivo |
+| atrofia (“disuse”) | lesão por sobrecarga, P-SILI |
+Alvo: Pmus ~5–10 cmH₂O, P0.1 ~1–3,5, ΔPL < 15–20.
+S: Goligher EC et al., Lancet Respir Med 2020
+
+Q: ⚙️ Qual é o <b>PEEP intrínseco</b> e por que dificulta o disparo?
+A: Com auto-PEEP, o paciente precisa primeiro gerar pressão igual à PEEPi antes que a pressão do circuito caia para disparar → <b>esforço ineficaz</b>.
+✅ Aplicar PEEP externa ~70–80% da PEEPi (DPOC em ventilação espontânea).
+
+Q: 💧 Como o <b>vazamento</b> afeta a PSV?
+A: Vazamento mantém fluxo → ventilador não atinge o critério de ciclagem → <b>inspiração prolongada</b> (ciclagem tardia) + autodisparo.
+Solução: corrigir vazamento (cuff, máscara), ciclagem por tempo máximo (Ti max), compensação de vazamento.
+
+Q: 🧮 Em PSV, o que determina o VT?
+A: Nível de PS + <b>esforço do paciente</b> + complacência/resistência + critério de ciclagem.
+X: PS alta + paciente com drive baixo → VT alto, FR baixa, apneias centrais e esforços ineficazes.
+
+Q: 😴 Sinais de <b>suporte excessivo</b> em PSV?
+A: FR < 15, VT > 8–10 mL/kg, esforços ineficazes, apneias (principalmente no sono), alcalose respiratória.
+➡️ Reduzir PS em degraus de 2 cmH₂O.
+
+Q: 😮‍💨 Sinais de <b>suporte insuficiente</b> em PSV?
+A: FR > 30–35, VT < 5 mL/kg, uso de musculatura acessória, P0.1 > 3,5–4, Pocc muito negativa, sudorese, taquicardia.
+➡️ ↑ PS, tratar drive (dor, febre, ansiedade, acidose).
+
+Q: 🎛️ O que é <b>compensação automática do tubo</b> (ATC/TC)?
+A: Ventilador calcula a resistência do tubo e aplica pressão proporcional ao fluxo para anular esse trabalho extra.
+✅ Útil no TRE para simular extubação.
+
+Q: 🔀 Em qual modo é possível medir <b>platô e resistência com precisão</b>?
+A: <b>VCV com fluxo quadrado</b> e paciente passivo + pausa inspiratória.
+X: Em PCV/PSV a pausa também dá platô, mas a resistência exige fluxo conhecido no fim da inspiração.
+
+Q: 🧪 HFOV (oscilação de alta frequência) em adultos com SDRA?
+A: <b>Não recomendada de rotina</b>: OSCILLATE mostrou ↑ mortalidade; OSCAR, sem benefício.
+S: Ferguson ND, NEJM 2013; Young D, NEJM 2013
+
+Q: 🔢 Quais <b>alarmes essenciais</b> configurar no ventilador?
+A: | Alarme | Ajuste prático |
+| Pressão alta | ~10 cmH₂O acima do pico habitual |
+| Volume-minuto baixo/alto | ±20–30% do basal |
+| VT expirado baixo | detecta vazamento/desconexão |
+| FR alta | taquipneia/autodisparo |
+| Apneia | 15–20 s |
+| PEEP baixa | desconexão |
+
+Q: 🧭 Ao trocar <b>VCV → PCV</b>, como escolher a pressão inspiratória?
+A: Programar a pressão acima da PEEP igual à <b>ΔP</b> que produzia o mesmo VT (Pplatô − PEEP) e Ti semelhante; depois ajustar pelo VT expirado.
+
+Q: 🧭 Ao trocar <b>A/C → PSV</b>, qual nível inicial de PS?
+A: Começar ~ <b>ΔP</b> anterior (ou 10–14 cmH₂O) e titular por FR (20–30), VT (6–8 mL/kg), conforto e Pocc/P0.1.
+
+Q: 🔋 O que é <b>“modo espontâneo com sinais de dissincronia grave”</b>: o que fazer?
+A: Procurar causa (dor, delirium, auto-PEEP, febre, acidose), ajustar disparo/ciclagem/rise, considerar NAVA/PAV.
+➡️ Se persistir com esforço excessivo na SDRA moderada-grave: voltar a modo controlado com sedação/analgesia adequadas.
+
+Q: 🔁 O que é <b>“ciclo de suspiro”</b> (sigh) e há benefício?
+A: Ciclo periódico com VT maior para recrutar.
+PROTECTION (2023): suspiros em pacientes de trauma em risco de SDRA <b>não</b> aumentaram dias livres de VM, mas pareceram seguros.
+S: Albert RK et al., NEJM 2023
+
+Q: 🧮 Como o <b>volume compressível</b> do circuito afeta o VT?
+A: Parte do volume entregue fica no circuito (≈ 2–3 mL/cmH₂O de pressão). Ventiladores modernos <b>compensam</b>; em circuitos longos/pediatria isso é relevante.
+
+Q: 🫁 Ventilação em <b>decúbito</b> e diferenças regionais: onde o pulmão colapsa em supino?
+A: Regiões <b>dorsais/dependentes</b> (peso do pulmão edemaciado + coração + abdome) → PEEP e prona recrutam essas áreas.
+
+Q: 🧯 Paciente em PSV fica <b>apneico</b> após sedação: o que acontece?
+A: Sem disparo → ventilador entra em <b>ventilação de backup</b> (se configurada) e alarma. Risco de hipoventilação se o backup estiver mal ajustado.
+✅ Ao aprofundar sedação, trocar para modo controlado.
+
+Q: 🧷 O que é <b>“disparo reverso”</b> (reverse triggering)?
+A: Contração diafragmática <b>disparada pelo ciclo da máquina</b> (reflexo/entrainment) em paciente sedado em modo controlado.
+Pode gerar <b>empilhamento</b> (breath stacking) e lesão.
+S: Akoumianaki E, Chest 2013
+I: vm_assincronias.png
+
+Q: 🧠 Em qual paciente o <b>VCV</b> é preferível ao PCV?
+A: Quando se quer <b>VT e PaCO₂ estáveis</b> (neurocrítico com HIC), medir mecânica (platô, R), ou complacência flutuante.
+X: Em PCV, mudança de complacência altera VT e PaCO₂ sem aviso.
+
+Q: 🧠 Em qual paciente o <b>PCV</b> costuma ser preferível?
+A: Grande <b>vazamento</b> (fístula broncopleural, tubo sem cuff), necessidade de limitar pressão com segurança, demanda de fluxo variável.
+
+Q: 🔁 O que é “<b>VT empilhado</b>” e por que é perigoso na SDRA?
+A: Dois ciclos sem expiração completa (duplo disparo ou reverso) → VT efetivo pode chegar a ~2× o programado → volutrauma.
+Correção: ↑ Ti, ↑ VT discretamente, sedação/analgesia, BNM se SDRA grave.
+
+Q: 🧯 <b>Desconexão inadvertida</b> do circuito: quais alarmes tocam primeiro?
+A: <b>Pressão baixa / PEEP baixa</b>, volume-minuto baixo, VT expirado baixo, apneia.
+X: Desconexões repetidas → desrecrutamento grave na SDRA (usar clampeamento do tubo em trocas).

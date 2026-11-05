@@ -1,0 +1,204 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## E | 📊 Monitorização avançada à beira-leito | Telias I, Brochard L — monitoring respiratory effort (Crit Care/ICM 2019–2023)
+
+Q: 📊 Quais são as <b>3 curvas</b> básicas do ventilador?
+A: | Curva | Informa |
+| Pressão × tempo | modo, pico, platô, PEEP, esforço (escavação) |
+| Fluxo × tempo | auto-PEEP, disparo, ciclagem, vazamento |
+| Volume × tempo | VT, vazamento (curva não volta a zero) |
+I: vm_vcv_curvas.png
+
+Q: 💧 Como identificar <b>vazamento</b> na curva de volume?
+A: A curva de volume <b>não retorna à linha de base</b> no fim da expiração (VT expirado < inspirado).
+Causas: cuff, fístula broncopleural, dreno de tórax borbulhando, desconexão parcial.
+
+Q: 📐 O que é o <b>stress index</b>?
+A: Forma da curva pressão-tempo em VCV com fluxo constante (paciente passivo):
+| SI | Forma | Significado |
+| < 1 | convexa (para baixo) | recrutamento tidal → ↑ PEEP |
+| = 1 | linear | ✅ |
+| > 1 | côncava (para cima) | hiperdistensão → ↓ PEEP/VT |
+S: Grasso S, AJRCCM 2007
+I: vm_stress_index.png
+
+Q: 🔒 Como medir a <b>Pocc</b> (pressão de oclusão expiratória)?
+A: Pausa/oclusão <b>expiratória</b> e esperar um esforço do paciente → a deflexão negativa máxima = Pocc (ΔPocc).
+Usada para estimar Pmus (≈ 0,75 × |ΔPocc|) e ΔPL dinâmica.
+S: Bertoni M, Crit Care 2019
+
+Q: 🚨 ΔPocc de −22 cmH₂O em PSV: significado?
+A: Esforço muito alto (Pmus estimada ≈ 16) → risco de <b>P-SILI</b> e lesão diafragmática.
+| ΔPocc | Esforço |
+| > −8 | baixo |
+| −8 a −20 | adequado |
+| < −20 | excessivo |
+
+Q: ⏸️ O que a <b>pausa inspiratória em PSV</b> pode revelar?
+A: Pressão de platô em modo espontâneo: se platô > Pva (PEEP+PS), há <b>contração muscular</b> — ou esforço expiratório; se o paciente relaxa, permite estimar ΔP e Crs.
+X: Platô em PSV > 30 é sinal de alerta mesmo em modo “espontâneo”.
+
+Q: 🎈 Como se faz a <b>manometria esofágica</b>?
+A: Balão esofágico no terço inferior; teste de oclusão (Baydur): ΔPes/ΔPva ≈ 0,8–1,2 durante esforço contra via ocluída.
+Fornece Ppl estimada → PL, Pmus, trabalho respiratório, PEEPi real.
+
+Q: 🧮 Como calcular a <b>PL inspiratória</b> pelo método da elastância?
+A: <b>PL,insp = Pplatô × (EL / Ers)</b>, com EL = Ers − Ecw.
+Alvo: PL,insp < 20–25 cmH₂O.
+X: O método direto (Palv − Pes) estima PL nas regiões médias/dependentes; o de elastância, nas não dependentes.
+
+Q: 🧭 Como a <b>PL expiratória</b> orienta a PEEP?
+A: <b>PL,exp = PEEP total − Pes,exp</b>
+Ajustar PEEP para PL,exp ≈ 0 a +5 → evita colapso das regiões dependentes.
+S: Talmor D, NEJM 2008 (EPVent)
+
+Q: 💪 O que é o <b>PTP</b> (produto pressão-tempo)?
+A: Integral da Pmus no tempo (cmH₂O·s/min) → estima o <b>custo energético</b> da respiração.
+Normal ~ 50–150; > 200–300 = sobrecarga.
+
+Q: 🧠 Para que medir a <b>P0.1</b>?
+A: Drive respiratório independente do esforço muscular (oclusão de 100 ms). Disponível automaticamente em muitos ventiladores.
+| P0.1 | Ação |
+| > 3,5–4 | drive alto → investigar (dor, acidose, febre), ↑ suporte/sedação |
+| < 1 | drive baixo → reduzir sedação/suporte |
+S: Telias I, AJRCCM 2018
+
+Q: 🫧 O que a <b>capnografia volumétrica</b> mede?
+A: CO₂ eliminado × volume expirado: VCO₂, espaço morto (Vd/Vt Bohr), ponto de equilíbrio PEEP (menor Vd).
+✅ Útil para titular PEEP e monitorar perfusão pulmonar (TEP).
+
+Q: 📈 O que significa <b>EtCO₂ subindo durante RCP</b> ou após prova de volume?
+A: Aumento do <b>débito cardíaco</b> (mantida a ventilação): EtCO₂ é marcador de fluxo pulmonar.
+➡️ ↑ EtCO₂ ≥ 5% após elevação passiva das pernas sugere fluido-responsividade.
+
+Q: 🖥️ O que é a <b>TIE</b> (tomografia de impedância elétrica)?
+A: Cinta de eletrodos no tórax → imagem em tempo real da ventilação regional, sem radiação.
+Usos: titular PEEP (colapso × hiperdistensão), pendelluft, PNTX, perfusão (com bolus salino).
+
+Q: 🩻 O <b>ultrassom pulmonar</b> pode monitorar o recrutamento?
+A: Sim: <b>reaeração</b> (escore de reaeração) após PEEP/prona; não detecta hiperdistensão.
+X: LUS score mede aeração, não pressão — combinar com ΔP/complacência.
+
+Q: 🧮 Como estimar a <b>auto-PEEP em paciente com esforço</b>?
+A: Com manometria esofágica: queda de Pes necessária antes do início do fluxo inspiratório = PEEPi dinâmica (descontando atividade expiratória).
+
+Q: 🌡️ Fatores que causam <b>falsa leitura do platô</b>?
+A: Esforço inspiratório/expiratório durante a pausa, vazamento (platô cai continuamente), pausa curta demais (< 0,3 s), auto-PEEP não medida.
+
+Q: 📏 Platô que <b>cai continuamente</b> durante a pausa: o que sugere?
+A: <b>Vazamento</b> (cuff, fístula) ou redistribuição (pendelluft em pulmões heterogêneos); se cai muito, a medida não é confiável.
+
+Q: 🧮 O que é a <b>complacência dinâmica</b>?
+A: Cdin = VT / (Ppico − PEEP). Inclui o componente resistivo → sempre menor que a estática.
+➡️ Cdin ↓ com Cst estável = problema de via aérea.
+
+Q: 🔁 Como monitorar <b>tendência</b> da mecânica no plantão?
+A: Registrar a cada turno/mudança: VT, FR, PEEP, platô, ΔP, Crs, resistência, auto-PEEP, P/F.
+➡️ Queda de Crs sem mudança de ajuste = piora (edema, atelectasia, PNTX, derrame, HIA).
+
+Q: 🩺 Qual o papel da <b>pressão intra-abdominal</b> na mecânica?
+A: HIA ↓ complacência da parede e ↑ platô; PIA > 12 mmHg = HIA; > 20 com nova disfunção = SCA.
+➡️ Medir pela bexiga (25 mL SF, fim de expiração, supino, zero na linha axilar média).
+S: WSACS 2013
+
+Q: 🫀 O que é a <b>variação de pressão de pulso</b> (VPP) e limitações na VM?
+A: VPP > 12–13% prediz fluido-responsividade, mas exige: VM controlada, <b>VT ≥ 8 mL/kg</b>, ritmo sinusal, tórax fechado, sem esforço.
+➡️ Com VT 6: usar <b>“tidal volume challenge”</b> (VT 6→8 por 1 min: ↑ VPP ≥ 3,5% = responsivo).
+S: Myatra SN, Crit Care Med 2017
+
+Q: 🧪 O que é o <b>teste de oclusão expiratória fim (EEOT)</b>?
+A: Pausa expiratória de 15 s em paciente ventilado: ↑ do índice cardíaco/VTI ≥ 5% prediz fluido-responsividade.
+S: Monnet X, Crit Care Med 2009
+
+Q: 🔊 O que monitorar no <b>balonete de alta frequência</b> (pressão do cuff contínua)?
+A: Manter 20–30 cmH₂O; dispositivos contínuos reduzem flutuações e possivelmente PAV.
+
+Q: 📉 Queda progressiva da <b>complacência após prona</b>: o que pode significar?
+A: Posição da parede (complacência do tórax cai na prona) — avaliar ΔP e oxigenação em conjunto; não é necessariamente piora pulmonar.
+
+Q: 🧠 Qual o índice de <b>Pmus</b> derivado da pausa inspiratória (PMI)?
+A: <b>PMI = Pplatô − (PEEP + PS)</b> em PSV. PMI > 0 indica esforço inspiratório persistente no fim da inspiração; PMI alto → ↑ esforço.
+S: Foti G, ICM 1997
+
+Q: 🩸 Para que serve a <b>SpO₂ contínua com pletismografia</b> no ventilado?
+A: Oxigenação contínua; a variação respiratória da onda pleth (PVI) estima fluido-responsividade com as mesmas limitações da VPP.
+X: Hipoperfusão periférica e vasoconstrição tornam a SpO₂ pouco confiável.
+
+Q: 🧮 Ventilatory ratio (VR): fórmula e interpretação?
+A: <b>VR = (VE × PaCO₂) / (PBW × 100 × 37,5)</b>
+Normal ~ 1; > 2 = espaço morto elevado e maior mortalidade na SDRA.
+S: Sinha P, AJRCCM 2019
+
+Q: 🧪 Como detectar <b>esforço expiratório ativo</b>?
+A: ↑ pressão gástrica na expiração, contração abdominal visível, Pes positiva na expiração; falseia auto-PEEP e platô.
+➡️ Sugere drive alto ou dispneia.
+
+Q: 🫁 O que é o <b>índice de recrutamento (R/I) e como executar</b>?
+A: PEEP 15 → 5 em um passo; medir o volume expirado extra; comparar com o previsto pela complacência na PEEP baixa.
+R/I ≥ 0,5 = recrutável.
+S: Chen L, AJRCCM 2020
+
+Q: 🫧 Auto-PEEP <b>regional</b> e heterogeneidade: por que a pausa pode subestimar?
+A: Unidades com vias aéreas fechadas não se comunicam com a via aérea durante a pausa → PEEPi “escondida”.
+X: Asma grave pode ter auto-PEEP real maior que a medida.
+
+Q: 🧭 Como interpretar o <b>platô em PCV</b>?
+A: Se o fluxo inspiratório zera antes do fim do Ti, a pressão programada (PEEP + Pinsp) = platô.
+Senão, fazer pausa inspiratória.
+
+Q: 📏 Qual é o <b>trabalho respiratório</b> normal?
+A: ~ 0,35–0,7 J/L (respiração espontânea normal). Valores > 1,0–1,5 J/L associam-se à falha no desmame.
+
+Q: 🔊 O que significa <b>oscilação cardiogênica</b> na curva de fluxo?
+A: Pequenas oscilações sincronizadas com o batimento cardíaco no fim da expiração → podem causar <b>autodisparo</b> com trigger sensível (comum em hipovolêmicos, DC alto, morte encefálica).
+X: Autodisparo pode simular drive respiratório em avaliação de morte encefálica → desconectar para teste de apneia adequado.
+
+Q: 🧪 O que é a <b>hiperdistensão</b> vista na curva pressão-volume dinâmica?
+A: Formato de “bico de pato” (beaking) no fim da inspiração da alça P-V → aumento de pressão sem ganho de volume.
+➡️ Reduzir VT ou PEEP.
+
+Q: 🔁 Alça fluxo-volume com <b>“serrilhado”</b>: o que sugere?
+A: <b>Secreção</b> ou água no circuito → aspirar/drenar.
+X: Também aparece na curva de fluxo como oscilação grosseira.
+
+Q: 🧯 Alça fluxo-volume com <b>escavação expiratória</b> (concavidade)?
+A: Limitação de fluxo expiratório (DPOC/asma) — colapso dinâmico das vias aéreas.
+
+Q: 🩺 Como monitorar <b>assincronia</b> de forma sistemática?
+A: Inspeção das curvas por 3–5 min a cada avaliação; <b>índice de assincronia</b> = eventos / (ciclos + esforços ineficazes) × 100.
+> 10% = assincronia grave → ↑ tempo de VM e mortalidade.
+S: Thille AW, ICM 2006; Blanch L, ICM 2015
+
+Q: 💤 Por que as assincronias aumentam <b>durante o sono</b>?
+A: Drive cai, PS proporcionalmente alta → hiperventilação → apneias centrais e esforços ineficazes.
+➡️ Ajustar PS à noite, considerar modo com FR de backup.
+
+Q: 🎛️ Qual alarme indica <b>obstrução do tubo</b> em VCV × PCV?
+A: | Modo | Sinal |
+| VCV | pressão alta (pico ↑) |
+| PCV/PSV | VT baixo e volume-minuto baixo |
+➡️ Passar sonda de aspiração: se não passa = obstrução → trocar tubo.
+
+Q: 🧮 Qual o valor da <b>complacência</b> para diferenciar SDRA tipo “L” e “H” na COVID?
+A: Proposta (Gattinoni 2020): L = complacência alta (> 50), baixo recrutamento; H = complacência baixa, recrutável.
+X: Fenotipagem não validada como guia terapêutico; os princípios gerais de proteção se mantêm.
+
+Q: 🧠 Ventilado com HIC: o que monitorar continuamente?
+A: PIC/PPC, <b>EtCO₂</b> (normocapnia), PaO₂, PAM; efeito da PEEP na PIC (geralmente pequeno se PEEP < PIC e euvolemia); posição da cabeça a 30°.
+
+Q: ⚙️ Por que <b>calibrar o sensor de fluxo</b> e checar o ventilador (autoteste)?
+A: Erros de VT, PEEP e alarmes falsos; autoteste antes de conectar o paciente detecta vazamento do circuito e falha de válvulas.
+
+Q: 🌐 Como monitorar <b>potência mecânica</b> à beira-leito?
+A: Ventiladores modernos calculam; ou fórmula simplificada: <b>0,098 × FR × VT × (Ppico − ½ ΔP)</b> (J/min).
+⚠️ > 17 J/min = associação com mortalidade (observacional).
+
+Q: 🔍 Qual sinal de <b>pneumotórax</b> na mecânica do ventilado?
+A: ↑ súbito de pico <b>e</b> platô (↓ complacência), ↓ VT em PCV, hipoxemia, hipotensão, enfisema subcutâneo.
+POCUS: ausência de deslizamento + lung point.
+
+Q: 📌 Qual a <b>CRF</b> e como medir no ventilado?
+A: Volume no fim da expiração; medida por lavagem de nitrogênio (alguns ventiladores) ou TC.
+Strain = VT/CRF; útil para individualizar VT.
+
+Q: 🩸 Por que medir <b>gasometria + mecânica juntos</b> após mudança de PEEP?
+A: Oxigenação pode melhorar por recrutamento (bom) ou por desvio de fluxo/↓ DC (ruim). Complacência e ΔP diferenciam: recrutamento ↑ Crs.

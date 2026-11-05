@@ -1,0 +1,196 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## C | 🌫️ Pulmão II: síndrome intersticial, consolidação, derrame e protocolos | Volpicelli ICM 2012; Mojoli F, AJRCCM 2019 (LUS em UTI)
+
+Q: 🌫️ O que é a <b>síndrome intersticial</b> no USG?
+A: ≥ 2 regiões com <b>padrão B</b> (≥ 3 linhas B) bilaterais.
+Causas: EAP cardiogênico, SDRA, pneumonia intersticial/viral, fibrose, contusão.
+I: pc_linhas_ab.png
+
+Q: 🫀 USG pulmonar no diagnóstico de <b>ICC descompensada</b>?
+A: Linhas B difusas bilaterais: sensibilidade ~ <b>94%</b> e especificidade ~ 92% para EAP (melhor que RX).
+➡️ Integrar com eco (VE, VCI) e BNP.
+S: Al Deeb M, Acad Emerg Med 2014
+
+Q: 🧮 O que é o <b>LUS score</b> (aeração)?
+A: 12 regiões (6 por hemitórax: anterior, lateral, posterior × superior/inferior), cada uma 0–3:
+| Pontos | Padrão |
+| 0 | linhas A (≤ 2 B) |
+| 1 | ≥ 3 B bem separadas |
+| 2 | B coalescentes / pulmão branco |
+| 3 | consolidação |
+Total 0–36.
+I: pc_lus_score.png
+
+Q: 📈 Utilidades do <b>LUS score</b> na UTI?
+A: Quantificar aeração na SDRA, monitorar recrutamento (PEEP, prona), prever falha de extubação (<b>> 17 no fim do TRE</b>), acompanhar pneumonia/COVID.
+S: Soummer A, Crit Care Med 2012
+
+Q: 🫁 O que é <b>consolidação</b> no USG?
+A: Pulmão com aparência de tecido sólido (“<b>hepatização</b>”), frequentemente com broncograma aéreo; pode ser subpleural pequena (“shred sign”) ou lobar.
+
+Q: 🧩 O que é o <b>“shred sign”</b> (sinal do fragmento)?
+A: Borda profunda irregular, fragmentada, entre a consolidação e o pulmão aerado → consolidação não translobar.
+✅ Muito específico de consolidação.
+
+Q: 🌬️ <b>Broncograma aéreo dinâmico</b> × estático: diferença?
+A: | Dinâmico | Estático |
+| pontos brilhantes que se movem com a respiração (ar entrando em brônquio pérvio) | não se movem |
+| ✅ favorece <b>pneumonia</b> (VPP ~ 97%) | favorece <b>atelectasia</b> obstrutiva/reabsortiva |
+S: Lichtenstein D, Chest 2009
+
+Q: 🫁 <b>Broncograma fluido</b>: o que sugere?
+A: Brônquios anecoicos cheios de líquido dentro da consolidação → pneumonia pós-obstrutiva (obstrução brônquica).
+
+Q: 🌀 Consolidação × <b>atelectasia</b>: como diferenciar no USG?
+A: Atelectasia: volume ↓, broncograma estático, sem fluxo/pulso pulmonar, resposta rápida a recrutamento/fisioterapia; pneumonia: broncograma dinâmico, contornos irregulares, fluxo ao Doppler.
+
+Q: 🧮 Qual a acurácia do USG para <b>pneumonia</b>?
+A: Sensibilidade ~ <b>85–95%</b>, especificidade ~ 90–95% em adultos (metanálises), superior ao RX em muitos cenários.
+S: Llamas-Álvarez AM, Chest 2017
+
+Q: 💧 Como identificar <b>derrame pleural</b>?
+A: Espaço <b>anecoico/hipoecoico</b> acima do diafragma, limitado pelo pulmão; sinal do quadrilátero (quad) e sinusoide no modo M; perda do espelho hepático; coluna vertebral visível acima do diafragma (<b>sinal da coluna</b>).
+
+Q: 🦴 O que é o <b>“spine sign”</b>?
+A: Coluna torácica visível acima do diafragma (normalmente escondida pelo ar) → indica <b>líquido ou consolidação</b> na base.
+
+Q: 🧪 Aparência ecográfica do derrame e natureza?
+A: | Padrão | Natureza provável |
+| Anecoico simples | transudato ou exsudato (não exclui exsudato) |
+| Complexo não septado / ecogênico | exsudato, hemotórax |
+| Septado / loculado | exsudato (parapneumônico complicado, empiema) |
+| Homogeneamente ecogênico | empiema ou hemorragia |
+S: Yang PC, AJR 1992
+
+Q: 🧮 Fórmula de <b>Balik</b> para volume do derrame?
+A: Volume (mL) ≈ <b>20 × Sep (mm)</b>, separação máxima entre pleuras na base, em supino, fim da expiração.
+Ex.: 50 mm ≈ 1.000 mL.
+S: Balik M, ICM 2006
+I: pc_derrame.png
+
+Q: 🧭 Separação pleural que sugere drenagem/toracocentese segura?
+A: Derrame com <b>≥ 10–15 mm</b> de profundidade no ponto de punção, sem estrutura vital no trajeto, ao longo da respiração.
+S: BTS Pleural Guideline 2023
+
+Q: 💉 Toracocentese guiada por USG: benefício?
+A: ↓ pneumotórax iatrogênico (~ 4% vs ~ 9%) e ↑ sucesso; recomendada sempre que disponível.
+S: Gordon CE, Arch Intern Med 2010 (metanálise)
+
+Q: 🩸 USG antes de punção: o que procurar com o <b>Doppler</b>?
+A: Artéria intercostal (pode estar no meio do espaço em idosos) — evitar; puncionar na <b>borda superior da costela inferior</b>.
+
+Q: 🫁 O que é o <b>protocolo BLUE</b>?
+A: Algoritmo para dispneia aguda (Lichtenstein 2008) combinando deslizamento, perfis A/B/C, PLAPS e Doppler venoso → ~ <b>90% de acurácia</b>.
+| Perfil | Diagnóstico |
+| B (bilateral, com deslizamento) | EAP hemodinâmico |
+| A + TVP | TEP |
+| A sem TVP + PLAPS | pneumonia |
+| A sem TVP sem PLAPS | DPOC/asma |
+| A' + lung point | PNTX |
+| B', A/B, C | pneumonia |
+S: Lichtenstein D, Mezière G, Chest 2008
+I: pc_blue.png
+
+Q: 🩸 O que é o <b>protocolo FALLS</b>?
+A: Fluid Administration Limited by Lung Sonography (Lichtenstein): no choque, administrar volume enquanto o pulmão mantém <b>perfil A</b>; surgimento de linhas B (transição A→B) = parar volume.
+X: Conceito útil, mas linhas B são marcador tardio de congestão.
+
+Q: 🫀 Perfil B com <b>deslizamento abolido</b> (B'): o que sugere?
+A: <b>Pneumonia</b> (processo inflamatório com aderência/redução de deslizamento) mais do que EAP.
+
+Q: 🧩 Perfil <b>A/B</b> no BLUE?
+A: Linhas A de um lado e B do outro (assimetria) → <b>pneumonia</b>.
+
+Q: 🧩 Perfil <b>C</b> no BLUE?
+A: Consolidação <b>anterior</b> → pneumonia (ou atelectasia).
+
+Q: 🌫️ USG pulmonar na <b>COVID-19</b>: padrão típico?
+A: Linhas B multifocais/coalescentes com áreas poupadas, linha pleural irregular, consolidações subpleurais posteriores e basais; derrame incomum.
+
+Q: 🫁 USG pulmonar na <b>fibrose pulmonar</b>?
+A: Linhas B basais bilaterais crônicas, linha pleural espessada e irregular, sem mudança com diurético (≠ EAP).
+
+Q: 📉 O que acontece com as linhas B após <b>diurese/diálise</b>?
+A: Diminuem rapidamente (minutos a horas) no edema cardiogênico/hipervolemia → monitorar descongestão.
+S: Noble VE, Chest 2009
+
+Q: 🧮 Quantos <b>campos</b> no protocolo de 8 zonas (Volpicelli)?
+A: 4 por hemitórax (anterior superior/inferior, lateral superior/inferior). Positivo para síndrome intersticial se ≥ 2 zonas B por lado.
+
+Q: 🩻 <b>Empiema</b> no USG: aparência?
+A: Derrame ecogênico/septado, espessamento pleural, “sinal do plâncton” (partículas em turbilhão), loculações.
+➡️ Drenagem com dreno; fibrinolítico + DNase intrapleural se loculado (MIST-2).
+S: Rahman NM, NEJM 2011
+
+Q: 🌀 O que é o <b>sinal do plâncton</b>?
+A: Partículas ecogênicas em movimento dentro do derrame (com respiração/batimento) → exsudato, hemotórax ou empiema.
+
+Q: 💧 Derrame pleural no <b>ventilado</b>: drenar melhora a oxigenação?
+A: Drenar derrames moderados-grandes melhora a oxigenação e a mecânica em parte dos pacientes; segura com guia de USG mesmo em VM.
+S: Goligher EC, Crit Care 2011 (metanálise)
+
+Q: 🧯 Paciente com hemitórax “branco” no RX: o USG diferencia o quê?
+A: Derrame grande (anecoico, pulmão flutuando), atelectasia total (consolidação com broncograma estático, desvio mediastinal ipsilateral), consolidação (pneumonia) ou massa.
+
+Q: 🫁 O que é o <b>“pulmão flutuante”</b> (jelly-fish sign)?
+A: Pulmão atelectasiado ondulando dentro de grande derrame → derrame volumoso, pulmão compressivo.
+
+Q: 🫀 Linhas B <b>unilaterais</b> focais: diagnósticos?
+A: Pneumonia, contusão, atelectasia, infarto pulmonar, neoplasia (linfangite), EAP unilateral (raro: IM grave posterior).
+
+Q: 🧠 Por que linhas B surgem no <b>EAP</b>?
+A: Septos interlobulares espessados por líquido + alvéolos parcialmente preenchidos → interface líquido-ar que gera reverberação vertical.
+
+Q: 🌐 USG pulmonar e <b>TEP</b>: achados?
+A: Pulmão frequentemente com perfil A; às vezes consolidações subpleurais triangulares periféricas (infartos). Associar com TVP e eco (VD).
+
+Q: 🫁 Consolidação <b>subpleural triangular</b> com base na pleura: sugere?
+A: <b>Infarto pulmonar</b> (TEP) — especialmente se múltiplas, posterobasais, com dor pleurítica.
+
+Q: 🧪 USG na <b>pneumonia associada à VM</b>: o que acrescenta?
+A: Consolidação nova com broncograma dinâmico sugere PAV (escore VPLUS combina USG + aspirado traqueal Gram).
+S: Mongodi S, Chest 2016
+
+Q: 🧮 LUS score e <b>prona</b>: o que se observa?
+A: Reaeração posterior (↓ score dorsal) e piora anterior discreta; reaeração ecográfica correlaciona com resposta oxigenatória.
+
+Q: 🔍 USG pulmonar após <b>recrutamento/PEEP</b>: limitação principal?
+A: Detecta reaeração (ganho), mas <b>não detecta hiperdistensão</b> → combinar com complacência/ΔP.
+
+Q: 🌧️ <b>Pulmão branco</b> (white lung) no USG?
+A: Linhas B coalescentes que tornam o campo inteiro hiperecoico (score 2) → edema intersticial-alveolar grave (SDRA, EAP grave).
+
+Q: 📊 USG pulmonar × <b>TC</b> na SDRA?
+A: Boa correlação com aeração regional (exceto hiperdistensão); permite seguimento sem transporte.
+
+Q: 🦠 Abscesso pulmonar no USG?
+A: Lesão periférica hipoecoica com parede espessa e conteúdo complexo, às vezes com nível hidroaéreo; pode guiar punção se encostado na pleura.
+
+Q: 🩸 USG e <b>quilotórax</b> ou derrame lipídico?
+A: Pode ser ecogênico homogêneo, mas USG não define natureza → toracocentese com análise (TG > 110 mg/dL).
+
+Q: 🧭 Toracocentese no paciente ventilado: posição e ponto?
+A: Decúbito dorsal com cabeceira elevada ou lateral, ponto <b>posterior/axilar posterior</b> com maior coleção, guiado em tempo real ou marcado imediatamente antes.
+
+Q: 📌 Linhas B difusas + VCI fina + eco normal: considerar?
+A: Causa <b>não cardiogênica</b> (SDRA, pneumonia viral, pneumonite) — não é congestão.
+
+Q: 🧯 Linhas B + derrame bilateral + VE hipocinético + VCI pletórica: diagnóstico?
+A: <b>Congestão cardiogênica</b> (IC descompensada) → diurético/vasodilatador.
+
+Q: 🔍 Consolidação com <b>fluxo Doppler</b> interno: sugere?
+A: Pneumonia (vascularização preservada) vs infarto/necrose (sem fluxo).
+
+Q: 🧮 Escore de <b>reaeração</b> (Bouhemad): como funciona?
+A: Compara LUS antes e depois de intervenção (ATB, PEEP): pontua a mudança de cada região (+1 a +5 por melhora; −1 a −3 por piora) → resposta terapêutica.
+S: Bouhemad B, AJRCCM 2010
+
+Q: 💧 USG para <b>derrame pequeno</b> × RX: qual detecta mais?
+A: USG detecta a partir de <b>~ 5–20 mL</b>; RX em PA precisa de ~ 200 mL (perfil ~ 50 mL); RX em supino muito menos sensível.
+
+Q: 🫁 O que é o <b>sinal da tetrafusão</b>/hepatização clássica?
+A: Pulmão consolidado com ecotextura semelhante ao fígado → “hepatização” (tissue-like sign).
+
+Q: 🌊 Derrame com <b>septações</b> + febre + pH < 7,2: conduta?
+A: Parapneumônico complicado/empiema → <b>drenagem</b> + antibiótico; considerar fibrinolítico + DNase.
+S: BTS 2023

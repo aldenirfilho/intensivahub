@@ -1,0 +1,204 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## I | 🏁 Desmame, extubação e traqueostomia | Boles JM, Eur Respir J 2007; ATS/ACCP Liberation Guideline 2017
+
+Q: 🏁 Critérios de <b>triagem diária</b> para TRE?
+A: | Domínio | Critério |
+| Causa | em resolução |
+| Oxigenação | P/F ≥ 150–200, FiO₂ ≤ 0,4–0,5, PEEP ≤ 5–8 |
+| Hemodinâmica | estável, sem/baixa dose de vasopressor |
+| Neurológico | desperto (RASS 0 a −1), drive presente |
+| Outros | sem acidose relevante, tosse presente |
+I: vm_desmame.png
+
+Q: 🧪 Qual o melhor tipo de <b>TRE</b>: PSV ou tubo T?
+A: Subirà 2019: <b>PSV 8 / PEEP 0 por 30 min</b> → mais extubações bem-sucedidas que tubo T por 2 h, sem ↑ reintubação.
+S: Subirà C, JAMA 2019
+
+Q: ⏱️ Duração do TRE?
+A: <b>30 min a 2 h</b>. 30 min é suficiente para a maioria; 2 h em casos difíceis/alto risco.
+S: Esteban A, AJRCCM 1999
+
+Q: 🚦 Critérios de <b>falha</b> no TRE?
+A: | Sinal | Corte |
+| FR | > 35 por > 5 min |
+| SpO₂ | < 90% |
+| FC | > 140 ou ↑ > 20% |
+| PAS | > 180 ou < 90 |
+| Clínica | agitação, sudorese, uso de acessória, rebaixamento, arritmia |
+
+Q: 🧮 O que é o índice de <b>Tobin</b> (IRRS)?
+A: <b>f/VT</b> (FR ÷ VT em litros) em respiração espontânea.
+<b>> 105</b> → alta probabilidade de falha. Ex.: FR 30 / 0,25 L = 120.
+S: Yang KL, Tobin MJ, NEJM 1991
+
+Q: 📊 Classificação do desmame (<b>Boles</b>)?
+A: | Grupo | Definição | Frequência |
+| Simples | extubado no 1º TRE | ~ 55–60% |
+| Difícil | até 3 TRE ou ≤ 7 dias | ~ 25–30% |
+| Prolongado | > 3 TRE ou > 7 dias | ~ 10–15% |
+S: Boles JM, ERJ 2007
+
+Q: 🌍 Classificação <b>WIND</b> (2017)?
+A: Baseada no tempo após a primeira tentativa de separação: grupo 1 (< 24 h), 2 (1–7 dias), 3 (> 7 dias), grupo 0 sem tentativa.
+S: Béduneau G, AJRCCM 2017
+
+Q: 🔍 Falha no TRE: principais causas a investigar?
+A: | Causa | Exemplos |
+| ❤️ Cardíaca | disfunção diastólica, isquemia, EAP de desmame |
+| 💪 Muscular | disfunção diafragmática, miopatia/polineuropatia |
+| 🫁 Carga | broncoespasmo, secreção, auto-PEEP, derrame |
+| 🧠 Neuro/psiq | delirium, ansiedade, sedação |
+| 🧪 Metabólica | alcalose, hipoP, hipoK, hipoMg, hipotireoidismo, desnutrição |
+
+Q: ❤️ O que é <b>EAP induzido pelo desmame</b>?
+A: Na transição para respiração espontânea: ↑ retorno venoso, ↑ pós-carga VE (Ppl negativa), ↑ adrenérgico → congestão.
+Pistas: ↑ BNP > 12% no TRE, hemoconcentração (↑ proteínas/Hb > 5%), ↑ E/e', linhas B.
+➡️ Diurético, vasodilatador, extubar para VNI.
+
+Q: 🫁 Papel do <b>ultrassom</b> no desmame?
+A: | Achado | Sugere falha |
+| LUS score > 17 no fim do TRE | perda de aeração |
+| Excursão diafragmática < 10 mm | disfunção diafragmática |
+| Fração de espessamento < 30% | disfunção diafragmática |
+| E/e' > 14 / ↑ no TRE | EAP de desmame |
+I: pc_diafragma.png
+
+Q: 💪 Qual a melhor medida de <b>força</b> muscular inspiratória à beira-leito?
+A: <b>PImáx</b> (pressão inspiratória máxima): normal < −60 a −80; < −20 a −30 sugere fraqueza importante (baixa acurácia isolada).
+
+Q: 🌬️ Qual o papel da <b>tosse</b> na extubação?
+A: Pico de fluxo de tosse < 60 L/min, secreção abundante (aspiração > a cada 2 h) e tosse fraca → ↑ risco de falha de extubação.
+
+Q: 🧠 Glasgow baixo contraindica extubação em <b>neurocríticos</b>?
+A: Não necessariamente: Glasgow ≥ 8 com reflexos de via aérea, tosse e secreção controlada podem permitir extubação (escores como VISAGE).
+S: Asehnoune K, Anesthesiology 2017
+
+Q: 📈 Critérios de <b>alto risco</b> de reintubação?
+A: Idade > 65 anos, IC, DPOC, APACHE alto, IMC > 30, hipercapnia, tosse fraca, secreção abundante, > 1 TRE falho, VM prolongada, comorbidades.
+➡️ Extubar para <b>VNI profilática</b> ou VNI + CNAF.
+
+Q: ⏱️ Qual o tempo usual para considerar <b>falha de extubação</b>?
+A: Reintubação em <b>48–72 h</b> (algumas definições até 7 dias). Falha associa-se a ↑ mortalidade (até 25–50%).
+
+Q: 🧪 Protocolo <b>ABCDEF</b> (A2F bundle)?
+A: A: avaliar/tratar dor · B: <b>despertar + TRE coordenados</b> · C: escolha da sedação · D: delirium · E: mobilização precoce · F: família.
+S: Pun BT, Crit Care Med 2019
+
+Q: 🛌 O que mostrou o <b>ABC trial</b> (Girard 2008)?
+A: Despertar diário (SAT) <b>pareado</b> com TRE (SBT) → ↓ tempo de VM, ↓ UTI e ↓ mortalidade em 1 ano.
+S: Girard TD, Lancet 2008
+
+Q: 🧷 Quando indicar <b>traqueostomia</b>?
+A: VM prolongada prevista (> 10–14 dias), desmame difícil/prolongado, incapacidade de proteger a via aérea, secreção abundante, obstrução de VAS.
+
+Q: 📅 Traqueostomia <b>precoce × tardia</b>: o que mostrou o TracMan?
+A: Precoce (≤ 4 dias) × tardia (≥ 10 dias): <b>sem diferença</b> de mortalidade em 30 dias; ↓ sedação com precoce.
+S: Young D, JAMA 2013
+
+Q: 🧠 Traqueostomia precoce em <b>AVC grave</b> (SETPOINT2)?
+A: Precoce (≤ 5 dias) × tardia: sem diferença de função em 6 meses.
+S: Bösel J, JAMA 2022
+
+Q: 🛠️ Percutânea × cirúrgica?
+A: Percutânea à beira-leito (guiada por broncoscopia ± USG) é segura e comum; complicações similares ou menores; cirúrgica se anatomia difícil, obesidade cervical extrema, coagulopatia grave.
+
+Q: 🚨 Complicações da traqueostomia?
+A: | Precoces | Tardias |
+| sangramento, PNTX, enfisema, falso trajeto, decanulação acidental (risco alto < 7 dias) | estenose traqueal, traqueomalácia, fístula traqueoesofágica, fístula traqueoinominada (sangramento sentinela!) |
+
+Q: 🆘 Decanulação acidental de traqueostomia <b>recente</b> (< 7 dias): conduta?
+A: Trajeto imaturo → <b>não</b> forçar recolocar às cegas; oxigenar por cima (boca/nariz) e pelo estoma; intubar pela boca se necessário.
+S: NTSP guidelines (UK)
+
+Q: 🩸 <b>Fístula traqueoinominada</b>: sinal clássico?
+A: Sangramento “sentinela” pela traqueostomia (geralmente 3 dias a 6 semanas pós) → hiperinsuflar o cuff, compressão digital (manobra de Utley), cirurgia de emergência.
+
+Q: 🗣️ Válvula de fala em traqueostomizados: quando usar?
+A: Paciente desperto, cuff <b>desinsuflado</b> tolerado, sem secreção excessiva, sem obstrução alta. Melhora comunicação e deglutição.
+X: Nunca usar com cuff insuflado (asfixia).
+
+Q: 🧮 Desmame <b>prolongado</b> em traqueostomizados: PSV gradual × TRE diários com colar?
+A: Jubran 2013: <b>colar de traqueostomia</b> (TRE com períodos crescentes) → desmame mais rápido que redução gradual da PSV.
+S: Jubran A, JAMA 2013
+
+Q: 💪 Papel da <b>mobilização precoce</b>?
+A: ↓ duração do delirium e ↑ independência funcional na alta (Schweickert 2009); TEAM (2022): mobilização intensiva sem melhora de desfechos e mais eventos adversos.
+S: Schweickert WD, Lancet 2009; TEAM, NEJM 2022
+
+Q: 🍽️ Qual eletrólito é clássico na <b>falha de desmame</b>?
+A: <b>Hipofosfatemia</b> (fraqueza diafragmática), além de hipoK, hipoMg, hipoCa.
+X: Síndrome de realimentação no início da nutrição → queda brusca de fósforo.
+
+Q: 🧪 Alcalose metabólica e desmame?
+A: Alcalose ↓ drive → hipoventilação compensatória, hipercapnia e falha. Corrigir (cloreto, acetazolamida) antes do TRE.
+
+Q: 🫀 <b>Levosimendana</b> no desmame difícil?
+A: LEVOWEAN 2022: sem redução do tempo até extubação em pacientes com falha de TRE.
+S: LEVOWEAN trial, Intensive Care Med 2022
+
+Q: 💊 <b>Dexmedetomidina</b> em pacientes agitados que impedem extubação?
+A: DahLIA (2016): dexmedetomidina → ↑ horas livres de VM em pacientes com delirium agitado.
+S: Reade MC, JAMA 2016
+
+Q: 🧯 Paciente falhou 3 TRE: o que fazer?
+A: Investigação sistemática (cardíaca, muscular, carga, metabólica, neuro); otimizar; considerar traqueostomia, desmame gradual (PSV ou colar), VNI pós-extubação.
+
+Q: 🫁 Extubar para <b>VNI no DPOC</b> que falhou no TRE?
+A: Estratégia de desmame com VNI em hipercápnicos → ↓ mortalidade, ↓ pneumonia e ↓ duração da VM invasiva (metanálise).
+S: Burns KE, Cochrane 2013
+
+Q: 🧮 Qual o papel do <b>balanço hídrico</b> no desmame?
+A: Balanço positivo associa-se à falha; diurese/balanço negativo guiado (BNP) pode acelerar o desmame.
+S: Mekontso Dessap A, AJRCCM 2012
+
+Q: 🎛️ Desmame guiado por <b>protocolo</b> × julgamento clínico?
+A: Protocolos conduzidos por enfermagem/fisioterapia ↓ duração da VM em ~ 25% (metanálise), principalmente onde há menos médicos dedicados.
+S: Blackwood B, BMJ 2011
+
+Q: 📉 O que é o <b>índice integrado CROP</b>?
+A: CROP = (Cdin × PImáx × PaO₂/PAO₂) / FR. > 13 mL/irpm sugere sucesso (pouco usado hoje).
+
+Q: 🧠 Extubação de pacientes com <b>lesão medular alta</b>?
+A: Lesão ≥ C5 → alto risco de falha (paralisia diafragmática parcial, tosse ineficaz); considerar traqueostomia precoce.
+
+Q: 🧯 Edema laríngeo: <b>fatores de risco</b>?
+A: Intubação > 6 dias, tubo grande, mulher, intubação traumática, cuff hiperinsuflado, agitação com tubo.
+➡️ Teste de vazamento e corticoide profilático em risco.
+
+Q: 🔍 O que é <b>disfunção diafragmática induzida pelo ventilador</b> (VIDD)?
+A: Perda de força diafragmática por VM controlada/inativa; presente em ~ 60–80% dos pacientes em VM prolongada; ↑ falha de desmame.
+➡️ USG: espessura que diminui > 10% na primeira semana.
+S: Goligher EC, AJRCCM 2018
+
+Q: 🧪 Treinamento muscular inspiratório no desmame?
+A: Pode ↑ força inspiratória e ↓ duração do desmame em pacientes difíceis (evidência moderada).
+
+Q: 🚑 Extubação em <b>pacientes obesos</b>: estratégia?
+A: Cabeceira elevada, extubar para <b>VNI</b> (ou CNAF + VNI), considerar extubação na posição sentada.
+S: EXTUB-OBESE trial, 2023 (VNI profilática > O₂ convencional em obesos)
+
+Q: 🗓️ O que é <b>SAT</b> (spontaneous awakening trial)?
+A: Interrupção diária da sedação; falha se agitação, dor, SpO₂ < 88%, arritmia, desconforto respiratório; reiniciar com metade da dose.
+
+Q: 🧮 TRE com <b>PSV 8 / PEEP 5</b> superestima a tolerância?
+A: Sim, em parte: a PSV reduz o trabalho respiratório comparado à respiração pós-extubação (especialmente com edema de VAS); tubo T é mais “exigente”.
+S: Sklar MC, AJRCCM 2017
+
+Q: 📌 Após extubação, quais sinais indicam <b>reintubação</b> precoce?
+A: FR > 35, SpO₂ < 90% com O₂ alto, hipercapnia/acidose, rebaixamento, estridor progressivo, fadiga.
+➡️ Não atrasar com VNI de resgate.
+
+Q: 🧠 <b>Delirium</b> e desmame: relação?
+A: Delirium ↑ duração da VM e falha de extubação; prevenção (A2F), dexmedetomidina e evitar benzodiazepínicos.
+
+Q: 🧷 Em traqueostomizado, quando <b>decanular</b>?
+A: Sem necessidade de ventilação, tosse eficaz, deglutição segura/aspiração controlada, tolerância a cuff desinsuflado e oclusão da cânula por 24–48 h.
+
+Q: 🫁 Ventilação <b>domiciliar</b> após UTI: critérios?
+A: Falha de desmame prolongada com estabilidade clínica, doença neuromuscular/caixa torácica, SHO grave → centros de desmame prolongado.
+
+Q: 🧪 Hipotireoidismo e desmame?
+A: Hipotireoidismo grave ↓ drive e força → hipoventilação; suspeitar em falha inexplicada (TSH/T4).
+
+Q: 🧮 Qual a taxa esperada de <b>reintubação</b> em UTI?
+A: ~ 10–20% (varia com risco); taxas muito baixas podem indicar extubação tardia demais.

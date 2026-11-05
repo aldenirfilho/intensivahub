@@ -1,0 +1,187 @@
+# 16 | 🫁 | Ventilação Mecânica — Módulo 500 | vm500
+## J | 🧩 Situações especiais, PAV e complicações | ATS/IDSA HAP-VAP 2016; ESICM/ERS; SHEA VAP prevention 2022
+
+Q: 🧠 Ventilação no <b>TCE grave</b>: metas principais?
+A: | Meta | Alvo |
+| PaCO₂ | 35–45 (normocapnia) |
+| PaO₂ | 80–120 |
+| PEEP | permitida (até ~ 10–15) se não ↑ PIC/↓ PAM |
+| VT | protetor (6–8 mL/kg) |
+| Cabeceira | 30° |
+X: Hiperventilação profilática piora isquemia cerebral.
+
+Q: 🧠 Hiperventilação no neurocrítico: quando usar?
+A: Apenas como <b>ponte</b> em herniação iminente/HIC refratária: PaCO₂ 30–35 por curto período, idealmente com monitorização (SjO₂, PbtO₂).
+S: Brain Trauma Foundation 2016
+
+Q: 🫁 PEEP aumenta a <b>PIC</b>?
+A: Efeito pequeno quando PEEP < PIC, paciente euvolêmico e complacência pulmonar baixa (pouca transmissão). Monitorar PIC e PPC ao subir PEEP.
+
+Q: 💀 Ventilação no <b>potencial doador</b> (morte encefálica)?
+A: Estratégia protetora (VT 6–8, PEEP 8–10, recrutamento após desconexões, teste de apneia com CPAP) → ↑ pulmões elegíveis para transplante.
+S: Mascia L, JAMA 2010
+
+Q: 🧪 Como fazer o <b>teste de apneia</b> com segurança?
+A: Pré-oxigenar FiO₂ 1,0 por 10 min, PaCO₂ basal 35–45; O₂ por cateter traqueal ou CPAP; positivo se PaCO₂ ≥ 55 (ou ↑ ≥ 20) sem movimentos respiratórios.
+S: CFM Resolução 2.173/2017
+
+Q: 🦠 Definição de <b>PAV</b> (pneumonia associada à VM)?
+A: Pneumonia em paciente intubado há <b>> 48 h</b>: infiltrado novo/progressivo + ≥ 2 de febre, leucocitose/leucopenia, secreção purulenta, piora da oxigenação.
+
+Q: 🧯 <b>Bundle de prevenção</b> de PAV?
+A: | Medida | Comentário |
+| Cabeceira 30–45° | ↓ aspiração |
+| Interrupção diária da sedação + TRE | ↓ tempo de VM (o que mais pesa) |
+| Pressão do cuff 20–30 | ↓ microaspiração |
+| Aspiração subglótica | ↓ PAV (tubos com lúmen dorsal) |
+| Higiene oral (sem clorexidina de rotina) | escovação |
+| Evitar trocas desnecessárias do circuito | só se sujo/danificado |
+| Mobilização precoce | — |
+S: SHEA/IDSA/APIC 2022
+
+Q: 🦷 <b>Clorexidina oral</b> na prevenção de PAV?
+A: Metanálises recentes: <b>sem redução</b> de PAV em não cardíacos e possível ↑ mortalidade → não recomendada de rotina (SHEA 2022).
+S: Klompas M, JAMA Intern Med 2014; SHEA 2022
+
+Q: 💊 Tratamento empírico de <b>PAV</b> (ATS/IDSA 2016)?
+A: Cobrir <b>S. aureus</b>, Pseudomonas e Gram-negativos conforme ecologia local:
+- MRSA se fatores de risco ou > 10–20% local: vancomicina ou linezolida
+- 2 antipseudomonas de classes diferentes se: choque, risco MDR, > 10% resistência local
+➡️ Duração: <b>7 dias</b>.
+S: Kalil AC, Clin Infect Dis 2016
+
+Q: 🧪 Diagnóstico microbiológico da PAV?
+A: Aspirado traqueal <b>semiquantitativo</b> (preferido pela ATS/IDSA) ou quantitativo (≥ 10⁵–10⁶ UFC/mL); LBA ≥ 10⁴; minilavado ≥ 10³ (escovado protegido).
+
+Q: 🩻 O que é <b>VAE</b> (evento associado à VM)?
+A: Vigilância do CDC: piora sustentada da oxigenação (↑ PEEP ≥ 3 ou FiO₂ ≥ 0,2 por ≥ 2 dias) após ≥ 2 dias de estabilidade → VAC → IVAC → possível PAV.
+
+Q: 🫁 Traqueobronquite associada à VM (<b>VAT</b>): tratar?
+A: Sem consenso; não recomendada antibioticoterapia de rotina (ATS/IDSA 2016).
+
+Q: 💉 Antibiótico <b>inalatório</b> na PAV?
+A: Adjuvante em <b>Gram-negativos sensíveis apenas a aminoglicosídeos/polimixinas</b> (ATS/IDSA 2016). AMIKINHAL (2023): amicacina inalatória profilática ↓ PAV.
+S: Ehrmann S, NEJM 2023
+
+Q: 💥 Fatores de risco de <b>barotrauma</b>?
+A: Platô alto, ΔP alta, auto-PEEP, SDRA, asma, pneumonia necrotizante, PCP, bolhas, punções (CVC subclávio, toracocentese).
+
+Q: 🫧 Pneumotórax no ventilado: <b>conduta</b>?
+A: Hipertensivo/instável → <b>descompressão imediata</b> (agulha 2º EIC LHC ou 4–5º EIC LAM) + dreno. Estável → dreno torácico (no ventilado quase sempre necessário).
+
+Q: 🩸 <b>Fístula broncopleural</b> de alto débito: ajustes?
+A: ↓ pressões (VT, PEEP, Ti, FR), PCV, ↓ aspiração negativa do dreno, considerar ventilação pulmonar independente, válvulas endobrônquicas, ECMO.
+
+Q: 🤰 VM na <b>gestante</b>: particularidades?
+A: CRF ↓, consumo de O₂ ↑, via aérea difícil (edema), PaCO₂ normal 28–32; deslocar útero para a esquerda (> 20 semanas), SpO₂ ≥ 95%, evitar hipocapnia extrema (vasoconstrição uterina).
+
+Q: 🍔 VM no <b>obeso</b>: ajustes?
+A: VT pelo <b>PBW</b> (não pelo peso real), PEEP mais alta (8–15 ou titulada), posição proclive/cabeceira elevada, recrutamento cuidadoso, platô pode ser alto por parede (PL!).
+
+Q: 🔥 VM na <b>lesão inalatória</b> (queimado)?
+A: Intubação precoce se queimadura de face/estridor/fuligem; broncoscopia; heparina + N-acetilcisteína nebulizadas (evidência limitada); ventilação protetora; considerar intoxicação por CO e cianeto (hidroxocobalamina).
+
+Q: ☠️ Intoxicação por <b>CO</b>: ventilação?
+A: FiO₂ 1,0 (meia-vida do COHb cai de ~ 300 para ~ 75–90 min); oxigenoterapia hiperbárica em casos graves (síncope, coma, gestante, COHb > 25%).
+X: SpO₂ é falsamente normal no CO — usar cooxímetro.
+
+Q: 🌊 <b>Afogamento</b>: VM?
+A: SDRA frequente; PEEP precoce, ventilação protetora, não há indicação de antibiótico profilático; aspiração de água doce × salgada não muda a conduta.
+
+Q: 🧯 VM em <b>hipotermia/PCR</b>: gasometria — alfa-stat ou pH-stat?
+A: Adultos: <b>alfa-stat</b> (gasometria não corrigida para temperatura) é o habitual; manter normocapnia.
+
+Q: 🫀 VM no <b>choque cardiogênico</b>?
+A: PEEP ↓ pós-carga do VE (bom), mas pode ↓ pré-carga; evitar hipercapnia/hipoxemia (↑ RVP); no infarto de VD, PEEP alta e VT alto podem piorar.
+
+Q: 🫀 VM na <b>hipertensão pulmonar/falência de VD</b>?
+A: Evitar hipoxemia, hipercapnia, acidose, PEEP excessiva e VT alto (↑ RVP); manter volume pulmonar próximo da CRF; considerar NO inalatório.
+
+Q: 🩻 VM pós-<b>pneumectomia</b>?
+A: VT baixo (4–6 mL/kg PBW do pulmão restante), platô < 25, PEEP baixa-moderada, evitar sobrecarga hídrica (edema pós-pneumectomia), extubação precoce.
+
+Q: 🫁 O que é <b>ventilação pulmonar independente</b> (ILV)?
+A: Dois ventiladores via tubo de duplo lúmen: doença pulmonar assimétrica grave, fístula broncopleural, hemoptise maciça, lavagem pulmonar total.
+
+Q: 🩸 Hemoptise maciça no ventilado: manobras?
+A: Decúbito com o lado que sangra <b>para baixo</b>; intubação seletiva do pulmão sadio ou bloqueador endobrônquico; broncoscopia; embolização arterial brônquica.
+
+Q: 🧪 <b>Hipertermia maligna</b> sob VM: sinais e tratamento?
+A: ↑ EtCO₂ precoce e refratário, rigidez, taquicardia, hipertermia, acidose mista, hiperK, CK ↑.
+➡️ Suspender gatilho, hiperventilar com FiO₂ 1,0, <b>dantrolene 2,5 mg/kg</b> IV (repetir até 10 mg/kg), resfriamento.
+
+Q: 🧯 Transporte intra-hospitalar do ventilado: riscos?
+A: Desconexão/desrecrutamento, extubação acidental, hipoxemia, hipotensão, arritmia.
+✅ Checklist, ventilador de transporte, O₂ suficiente, monitorização, clamp do tubo na troca de circuito.
+
+Q: 🏥 VM e <b>nutrição</b>: impacto da dieta rica em carboidratos?
+A: ↑ produção de CO₂ (QR > 1 com hiperalimentação) → ↑ demanda ventilatória → pode atrasar o desmame em hipercápnicos.
+➡️ Evitar hiperalimentação; não há necessidade de fórmulas especiais ricas em lipídios.
+
+Q: 🔁 Profilaxia de <b>úlcera de estresse</b> no ventilado?
+A: VM > 48 h é fator de risco de HDA; REVISE (2024): pantoprazol ↓ sangramento clinicamente importante sem ↑ mortalidade (↑ discreto de PAV não significativo).
+S: Cook D, NEJM 2024
+
+Q: 🩸 Profilaxia de <b>TEV</b> no ventilado?
+A: HBPM/heparina não fracionada em todos sem contraindicação; compressão pneumática se sangramento.
+
+Q: 💧 Por que a VM causa <b>retenção hídrica</b>?
+A: ↑ Ppl → ↓ retorno venoso → ↑ ADH, ↑ renina-angiotensina, ↓ PNA → retenção de sódio e água.
+
+Q: 👁️ Complicação ocular comum no ventilado sedado?
+A: <b>Ceratopatia de exposição</b> → lubrificação/fechamento palpebral (especialmente com BNM/prona).
+
+Q: 🦴 Lesão por pressão relacionada ao <b>tubo</b>?
+A: Comissura labial, lábios, língua; reposicionar o tubo a cada 24 h, fixadores adequados.
+
+Q: 🗣️ Lesão laríngea pós-intubação: sintomas tardios?
+A: Disfonia, disfagia, estridor tardio (estenose subglótica/traqueal semanas depois) → nasofibrolaringoscopia.
+
+Q: 🌀 O que é <b>P-SILI</b> e como prevenir em IRpA não intubada?
+A: Lesão por esforço inspiratório vigoroso (Ppl muito negativa, PL alta, ↑ pressão transvascular).
+Prevenir: monitorar esforço (ΔPes, VT expirado em VNI), tratar drive, não atrasar intubação.
+S: Brochard L, AJRCCM 2017
+
+Q: 🧯 Ventilado em <b>pronação</b>: como manejar PCR?
+A: Iniciar <b>RCP em prona</b> (compressões entre as escápulas, contrapressão no esterno) se a supinação atrasar; desfibrilar com pás posteroanterior/biaxilar.
+S: ERC 2021
+
+Q: 🫁 VM com <b>ECMO VA</b>: particularidades?
+A: Evitar hipoxemia da metade superior (síndrome arlequim: sangue do pulmão nativo não oxigenado ejetado pelo VE); monitorar SpO₂ na mão direita; ventilação protetora.
+
+Q: 🧠 VM no <b>status epilepticus</b>?
+A: Intubação para proteção de via aérea; evitar hipoxemia/hipercapnia; EEG contínuo se BNM; normocapnia.
+
+Q: 🦠 VM em <b>tuberculose/infecções transmissíveis</b> por aerossol?
+A: Filtro HEPA/HMEF no ramo expiratório, circuito fechado de aspiração, evitar desconexões, quarto com pressão negativa.
+
+Q: 🔁 Aspiração <b>aberta × fechada</b>?
+A: Fechada reduz desrecrutamento e exposição a aerossóis (preferida na SDRA e em infecções transmissíveis); não reduz PAV de forma consistente.
+
+Q: 🧪 Instilação de <b>soro fisiológico</b> antes de aspirar?
+A: Não recomendada de rotina (↓ SpO₂, contaminação); fluidificação depende de umidificação adequada.
+
+Q: 🫁 <b>Fisioterapia respiratória</b> no ventilado: benefícios?
+A: Mobilização de secreções, reexpansão, treinamento muscular, mobilização precoce → contribui para ↓ tempo de VM e de UTI.
+
+Q: 🧯 Alarme de <b>pressão alta</b> súbito: checklist em 30 s?
+A: 1️⃣ Olhar o paciente (tosse, mordida, assincronia) · 2️⃣ circuito (dobra, água) · 3️⃣ passar sonda (obstrução do tubo) · 4️⃣ ausculta/POCUS (PNTX, seletiva) · 5️⃣ pausa inspiratória (R × C).
+
+Q: 🧮 VM na <b>acidose metabólica grave</b> (intoxicação por salicilato): risco?
+A: Intubar pode piorar a acidose (perda da hiperventilação compensatória) → ↑ salicilato no SNC. Manter volume-minuto muito alto e alcalinizar; hemodiálise.
+
+Q: ⏰ VM <b>prolongada</b> (> 21 dias): definição e destino?
+A: ≥ 21 dias com ≥ 6 h/dia de VM (NAMDRC). Mortalidade em 1 ano ~ 50%; centros de desmame especializados; discutir objetivos de cuidado.
+
+Q: 🕊️ <b>Extubação paliativa</b>: princípios?
+A: Discussão com família, controle de sintomas (opioide/benzodiazepínico para dispneia), suspender BNM antes, preparar ambiente, sem atrasar por exames.
+
+Q: 🧪 Por que <b>sedação profunda</b> precoce piora desfechos?
+A: Associada a ↑ tempo de VM, ↑ delirium e ↑ mortalidade em 180 dias (estudos observacionais e de interrupção diária).
+S: Shehabi Y, AJRCCM 2012
+
+Q: 🧠 Ventilação e <b>AVC isquêmico</b> extenso?
+A: Proteção de via aérea; normocapnia, normoxemia; traqueostomia se disfagia/rebaixamento prolongado.
+
+Q: 🦠 COVID-19 ventilado: <b>prona</b> em quem?
+A: Mesmos critérios do PROSEVA (P/F < 150): benefício consistente com redução de mortalidade em estudos observacionais.

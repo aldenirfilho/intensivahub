@@ -1,0 +1,165 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## I | 🩸 Vascular e procedimentos guiados | SCCM/WINFOCUS Vascular Access 2012; AIUM; ACCP DVT; Lamperti M, ICM 2012
+
+Q: 🦵 Técnica de <b>compressão em 2 pontos</b> para TVP?
+A: Sonda linear transversal: <b>veia femoral comum</b> (na junção safeno-femoral até a bifurcação) e <b>veia poplítea</b> (até a trifurcação). Comprimir até a artéria deformar levemente.
+✅ Veia que colaba totalmente = sem trombo.
+I: pc_tvp.png
+
+Q: 🧮 Acurácia do <b>POCUS de 2 pontos</b> para TVP proximal?
+A: Sensibilidade ~ <b>90–95%</b> e especificidade ~ 95–98% em mãos treinadas (metanálises).
+S: Pomero F, Thromb Haemost 2013 (metanálise)
+
+Q: 🔍 Sinais de <b>trombo</b> no USG venoso?
+A: Veia <b>não compressível</b> (principal), material ecogênico intraluminal (trombo crônico mais ecogênico; agudo pode ser anecoico!), veia distendida, ausência de fluxo ao Doppler.
+X: Trombo agudo pode ser invisível → a compressão é o critério.
+
+Q: 🩸 Por que não usar <b>Doppler colorido</b> como critério principal de TVP?
+A: Trombo não oclusivo mantém fluxo; o critério validado é a compressibilidade no modo B.
+
+Q: 🦵 Exame de 2 pontos <b>negativo</b> com alta suspeita: o que fazer?
+A: Repetir em <b>5–7 dias</b> ou exame completo (inclui panturrilha), ou D-dímero conforme probabilidade.
+
+Q: 🫁 TVP + dispneia + VD dilatado: diagnóstico mais provável?
+A: <b>TEP</b> (protocolo BLUE: perfil A + TVP → TEP).
+
+Q: 💉 Acesso venoso central guiado por USG: benefício?
+A: ↓ falhas, ↓ punções arteriais, ↓ PNTX e hematomas, ↑ sucesso na 1ª tentativa — <b>recomendado</b> na jugular interna (evidência forte) e possível em subclávia/axilar e femoral.
+S: Lamperti M, ICM 2012 (recomendações internacionais)
+
+Q: 🔎 Como diferenciar <b>veia × artéria</b> no USG?
+A: | Veia | Artéria |
+| compressível | não compressível |
+| paredes finas, formato oval | parede espessa, redonda |
+| varia com respiração/Valsalva | pulsátil |
+| Doppler: fluxo contínuo/fásico | fluxo pulsátil |
+
+Q: 🧭 Posição da <b>VJI</b> em relação à carótida?
+A: Geralmente <b>anterolateral</b> à carótida comum, mas pode estar sobreposta (anterior) — risco de transfixar e puncionar a carótida.
+➡️ Rotação excessiva da cabeça aumenta a sobreposição.
+
+Q: 🎯 Técnica <b>dinâmica × estática</b> na punção guiada?
+A: Dinâmica (tempo real, agulha visível) > estática (marcar e puncionar) em sucesso e complicações.
+
+Q: 🧷 Como <b>confirmar o fio-guia</b> na veia antes de dilatar?
+A: Ver o fio no lúmen venoso em eixo longo (e transversal) no sítio de punção; no subxifoide/VCI ou AD (bolhas de soro agitado após passar o cateter).
+
+Q: 💨 Teste das <b>microbolhas</b> (soro agitado) após CVC?
+A: Injetar 10 mL de soro agitado pelo cateter: aparecimento de bolhas no <b>AD em < 2 s</b> confirma posição venosa central (sensível, rápido).
+S: Ablordeppey EA, Crit Care Med 2017 (metanálise)
+
+Q: 🫁 Após CVC jugular/subclávio, o USG pode substituir o RX?
+A: Sim (crescente evidência): deslizamento pleural presente (exclui PNTX) + microbolhas no AD (posição) dispensam o RX em muitos protocolos.
+
+Q: 🧮 Qual o diâmetro venoso mínimo desejável para <b>PICC</b>?
+A: Relação cateter/veia ≤ <b>45%</b> (ex.: 4 Fr ≈ 1,33 mm → veia ≥ 3 mm) para reduzir trombose.
+
+Q: 🧭 Veia <b>axilar</b> guiada por USG: vantagens?
+A: Fora do tórax (menor risco de PNTX que a subclávia às cegas), menor infecção que femoral, confortável; técnica in-plane recomendada.
+
+Q: 🫀 Acesso <b>arterial</b> guiado por USG: benefício?
+A: ↑ sucesso na 1ª tentativa e ↓ tempo e hematomas na artéria radial (metanálises).
+S: Gu WJ, Chest 2016
+
+Q: 💪 Acesso venoso <b>periférico</b> difícil guiado por USG?
+A: Veias basílica/braquial/cefálica no braço; cateteres longos (≥ 4,8–6 cm) para garantir 2/3 dentro do vaso → ↓ falha precoce.
+
+Q: 🧮 Profundidade da veia e <b>comprimento do cateter</b> periférico?
+A: Veia a > 1,2–1,5 cm de profundidade exige cateter longo; pelo menos 65% do cateter deve ficar dentro da veia.
+
+Q: 💧 <b>Toracocentese</b> guiada: técnica segura?
+A: Marcar no mesmo posicionamento da punção, ≥ 1 cm de líquido, ponto acima da costela, Doppler para artéria intercostal, avaliar diafragma/órgãos em toda a respiração.
+S: BTS 2023
+
+Q: 🧯 Volume máximo retirado de uma vez na <b>toracocentese</b>?
+A: Habitualmente ≤ <b>1,5 L</b> (risco de edema de reexpansão), ou parar se dor torácica/tosse/pressão pleural cair muito.
+
+Q: 🍺 <b>Paracentese</b> guiada: benefício?
+A: ↓ complicações hemorrágicas e falhas; identificar bolsão, alças e a <b>artéria epigástrica inferior</b> (Doppler) — ponto lateral ao reto abdominal no QIE.
+
+Q: 🫀 <b>Pericardiocentese</b> guiada: técnica?
+A: Escolher ponto com maior coleção e trajeto livre (subxifoide, apical ou paraesternal), agulha in-plane, confirmar com soro agitado ou fio-guia no saco pericárdico, colocar pigtail.
+
+Q: 🧠 <b>Punção lombar</b> guiada: quando ajuda?
+A: Obesidade, escoliose, falha prévia → marcar linha média (processos espinhosos) e espaço interlaminar; ↑ sucesso e ↓ tentativas.
+
+Q: 💉 <b>Bloqueios regionais</b> em UTI/emergência guiados por USG?
+A: Fratura de fêmur (bloqueio fascia ilíaca/femoral), fraturas de costela (serrátil anterior, eretor da espinha) → ↓ opioides, ↓ complicações respiratórias.
+
+Q: 🩸 Arteria femoral × veia femoral: posição?
+A: <b>NAVEL</b> (lateral → medial): Nervo, Artéria, Veia, Espaço vazio, Linfáticos. Veia femoral medial à artéria; abaixo do ligamento inguinal, a artéria femoral superficial pode sobrepor a veia.
+
+Q: 🧷 Complicação de CVC detectável por USG à beira-leito?
+A: PNTX (sem deslizamento), hemotórax, hematoma, punção arterial (fluxo pulsátil no cateter), mau posicionamento (cateter na VJI contralateral/ascendente), trombose.
+
+Q: 🧭 Como detectar <b>cateter subclávio</b> que subiu para a VJI?
+A: Sonda linear no pescoço: cateter visível dentro da VJI ipsilateral; soro agitado não chega rápido ao AD.
+
+Q: 🩸 Trombose associada a <b>cateter</b>: achado e conduta?
+A: Veia com trombo ao redor do cateter (não compressível); anticoagular se sintomática; retirar o cateter se não for necessário/infectado.
+
+Q: 🫀 <b>ECMO</b>: papel do USG?
+A: Avaliar vasos (diâmetro para cânulas), guiar punção, posicionar cânulas (VCI/AD com eco), detectar complicações (trombose, tamponamento).
+
+Q: 🦵 TVP de <b>membro superior</b>: onde examinar?
+A: Veias jugular interna, subclávia (difícil de comprimir — usar Doppler/fluxo e respiração), axilar, braquial; associada a cateteres/marca-passos.
+
+Q: 🧮 Técnica <b>out-of-plane</b> com “walk-down”: como evitar transfixar?
+A: Avançar a agulha e a sonda alternadamente, mantendo a ponta (ponto brilhante) sempre visível até “tenda” na parede anterior e entrada no lúmen.
+
+Q: 💡 Melhor visualização da agulha: dicas?
+A: Ângulo menor (agulha mais paralela ao transdutor), agulhas ecogênicas, movimentos de “jiggle”, injeção de pequena quantidade de líquido (hidrolocalização).
+
+Q: 🧯 Por que <b>Trendelenburg</b> ajuda no CVC jugular/subclávio?
+A: Aumenta o diâmetro venoso (↑ sucesso) e reduz o risco de embolia gasosa.
+
+Q: 🩸 <b>Embolia gasosa</b> pelo CVC: prevenção e manejo?
+A: Trendelenburg na inserção/retirada, ocluir conexões, retirar o cateter com paciente em expiração/Valsalva. Manejo: decúbito lateral esquerdo + Trendelenburg, O₂ 100%, aspirar ar pelo cateter, oxigenoterapia hiperbárica se neurológico.
+
+Q: 🧭 Aorta: quando o POCUS sugere <b>dissecção abdominal</b>?
+A: Flap intimal móvel com dois lúmens (verdadeiro e falso), às vezes com fluxo diferente ao Doppler.
+
+Q: 🧮 <b>Índice tornozelo-braquial</b> com Doppler portátil: valores?
+A: ITB 0,9–1,3 normal; < 0,9 doença arterial periférica; < 0,4 isquemia crítica; > 1,3 artérias incompressíveis (calcificadas).
+
+Q: 🦵 Isquemia arterial aguda de membro: o USG mostra?
+A: Ausência de fluxo distal ao trombo/êmbolo; mas não deve atrasar heparina + avaliação vascular urgente (angio-TC/arteriografia).
+
+Q: 💉 Punção <b>arterial radial</b>: técnica com USG?
+A: Sonda linear transversal no punho; artéria pulsátil e não compressível com 2 veias satélites; out-of-plane dinâmico ou in-plane.
+
+Q: 🧠 Sinal de <b>pseudoaneurisma</b> após punção femoral?
+A: Massa pulsátil com fluxo “yin-yang” ao Doppler colorido e colo comunicando com a artéria → compressão guiada ou injeção de trombina.
+
+Q: 🩸 Fístula arteriovenosa pós-punção: achado?
+A: Fluxo turbulento contínuo, arterialização do fluxo venoso, sopro; tratamento conforme repercussão.
+
+Q: 🫀 <b>Cardioversão elétrica</b> em FA e trombo: o POCUS (ETT) exclui trombo no AE?
+A: <b>Não</b>: apêndice atrial esquerdo exige <b>ETE</b> para excluir trombo.
+
+Q: 🧮 Compressão em 2 pontos: onde ficam as <b>armadilhas</b>?
+A: Duplicação da veia femoral/poplítea (examinar ambas), cisto de Baker (não é veia), linfonodos inguinais (sem continuidade tubular), trombose isolada da femoral profunda/panturrilha (não avaliada).
+
+Q: 🦵 Diferença entre veia <b>femoral superficial</b> e profunda?
+A: A “femoral superficial” é uma <b>veia profunda</b> (nome antigo; hoje “veia femoral”) — trombo nela é TVP proximal, tratar com anticoagulação.
+
+Q: 🧯 USG no <b>acesso intraósseo</b>?
+A: Confirmar posição (fluxo de flush na medular/ausência de extravasamento subcutâneo) em casos duvidosos.
+
+Q: 🧮 Diâmetro mínimo da VJI para canulação de <b>hemodiálise</b>?
+A: Avaliar diâmetro e patência; preferir VJI direita (trajeto retilíneo); evitar subclávia (estenose compromete futura FAV).
+
+Q: 🫁 <b>Drenagem torácica</b> guiada: ponto seguro?
+A: “Triângulo de segurança” (4º–5º EIC, entre linhas axilares anterior e média), confirmar líquido/ar e ausência de órgãos (diafragma, baço, fígado) ao longo da respiração.
+
+Q: 💧 USG após <b>drenagem</b> de derrame: o que reavaliar?
+A: Volume residual, loculações, posição do dreno, reexpansão pulmonar e PNTX.
+
+Q: 🧠 USG para inserção de <b>cateter de PIC/DVE</b>?
+A: Não é rotina em adultos (crânio fechado); usado em neonatos (fontanela) e em cirurgia.
+
+Q: 💉 Por que a VJI <b>direita</b> é preferida para CVC?
+A: Trajeto mais retilíneo até a VCS, menor risco de mau posicionamento e de lesão do ducto torácico (à esquerda).
+
+Q: 🦵 USG para <b>síndrome compartimental</b>?
+A: Pode mostrar edema muscular, mas o diagnóstico é clínico/pressão compartimental — não atrasar fasciotomia.

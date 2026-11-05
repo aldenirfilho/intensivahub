@@ -1,0 +1,171 @@
+# 17 | 🔊 | USG POCUS — Módulo 500 | pocus500
+## H | 🚨 Choque, PCR e trauma: RUSH, FAST e eFAST | Perera P, Emerg Med Clin N Am 2010 (RUSH); ATLS 10ª ed.; ERC 2021
+
+Q: 🚨 O que é o protocolo <b>RUSH</b>?
+A: Rapid Ultrasound in Shock: <b>Bomba</b> (coração) · <b>Tanque</b> (VCI, pulmões, cavidades) · <b>Canos</b> (aorta, TVP).
+I: pc_rush.png
+
+Q: 🧭 Padrão RUSH do <b>choque hipovolêmico</b>?
+A: Bomba hiperdinâmica e pequena · VCI fina/colapsável · FAST + (hemorragia) ou perdas · aorta rota/dissecção nos canos.
+
+Q: 🧭 Padrão RUSH do <b>choque cardiogênico</b>?
+A: VE hipocinético/dilatado · VCI pletórica · linhas B, derrame pleural · canos normais.
+
+Q: 🧭 Padrão RUSH do <b>choque obstrutivo</b>?
+A: Tamponamento (derrame + colapso AD/VD) · VD dilatado (TEP) · PNTX (sem deslizamento) · VCI pletórica · TVP.
+
+Q: 🧭 Padrão RUSH do <b>choque distributivo</b>?
+A: VE hiperdinâmico (inicial) · VCI normal/fina · foco infeccioso (pneumonia, ascite, abscesso, hidronefrose) · canos normais.
+
+Q: 🩸 O que é o <b>FAST</b>?
+A: Focused Assessment with Sonography for Trauma: 4 janelas para líquido livre/sangue:
+1️⃣ Pericárdio (subxifoide) · 2️⃣ <b>QSD</b> — espaço de Morison · 3️⃣ QSE — esplenorrenal · 4️⃣ Pelve (retovesical/Douglas).
+I: pc_efast.png
+
+Q: ➕ O que o <b>eFAST</b> acrescenta?
+A: Janelas torácicas: <b>pneumotórax</b> (anterior bilateral) e <b>hemotórax</b> (recessos costofrênicos).
+
+Q: 🎯 Qual janela do FAST é a <b>mais sensível</b> para hemoperitônio?
+A: <b>Quadrante superior direito (Morison)</b>, especialmente a ponta inferior do fígado (borda caudal).
+X: No QSE, o sangue acumula primeiro <b>acima do baço</b> (subfrênico) — examinar o polo superior.
+
+Q: 🧮 Quanto líquido o FAST detecta?
+A: ~ <b>200–250 mL</b> no Morison (mais sensível com Trendelenburg); a pelve detecta volumes menores (~ 100 mL) com bexiga cheia.
+
+Q: 🚑 Trauma <b>instável</b> com FAST abdominal positivo: conduta?
+A: <b>Laparotomia</b> (ou controle de dano/angioembolização conforme recurso), sem atraso para TC.
+S: ATLS 10ª ed.
+
+Q: 🚑 Trauma instável com FAST <b>negativo</b>: o que considerar?
+A: Outras fontes: tórax (hemotórax), pelve (fratura com sangramento retroperitoneal), ossos longos, externa; PNTX hipertensivo, tamponamento, choque neurogênico.
+X: FAST não avalia retroperitônio.
+
+Q: ⚠️ Limitações do <b>FAST</b>?
+A: Não detecta lesões de víscera sem líquido livre, retroperitônio, diafragma; sensibilidade ↓ em trauma penetrante e precocemente; obesidade/enfisema subcutâneo.
+
+Q: 🔁 Por que <b>repetir o FAST</b>?
+A: Sangramento evolui; FAST seriado aumenta a sensibilidade em pacientes estáveis com suspeita persistente.
+
+Q: 🫀 FAST com derrame pericárdico em trauma <b>penetrante</b>: conduta?
+A: Alta suspeita de lesão cardíaca → cirurgia (janela pericárdica/toracotomia); instável → toracotomia de reanimação.
+
+Q: 🩸 Como diferenciar <b>sangue × ascite × urina</b> no USG?
+A: USG não diferencia o tipo de líquido; contexto clínico (trauma, cirrose, bexiga rota). Sangue coagulado pode ser ecogênico.
+
+Q: 🧯 Mulher em idade fértil com dor e hipotensão + líquido livre na pelve: pensar em?
+A: <b>Gravidez ectópica rota</b> → β-hCG, USG pélvico, cirurgia.
+
+Q: ❤️ POCUS na <b>PCR</b>: objetivos?
+A: Identificar causas reversíveis: <b>tamponamento</b>, <b>PNTX</b>, <b>TEP</b> (VD dilatado), hipovolemia; avaliar atividade cardíaca; confirmar intubação.
+S: ERC 2021
+
+Q: ⏱️ Regra da <b>pausa</b> para POCUS na PCR?
+A: Pausa nas compressões ≤ <b>10 s</b>: posicionar a sonda antes da pausa, gravar clipe e interpretar após retomar as compressões.
+X: POCUS associou-se a pausas prolongadas → usar com disciplina (ou ETE).
+S: Huis in ’t Veld MA, Resuscitation 2017
+
+Q: 💓 O que é <b>standstill cardíaco</b> e seu valor prognóstico?
+A: Ausência de movimento miocárdico organizado. Associa-se a baixíssima sobrevida, mas <b>não</b> deve ser critério isolado para encerrar a RCP.
+S: Gaspari R, Resuscitation 2016 (REASON)
+
+Q: ⚡ O que é a <b>pseudo-AESP</b>?
+A: Atividade elétrica com contração cardíaca visível no USG, mas sem pulso palpável → estado de baixo débito extremo; manejo com vasopressor/causas (melhor prognóstico que AESP verdadeira).
+
+Q: 🌀 <b>FV fina</b> no USG?
+A: Movimento fibrilatório do miocárdio visível no POCUS em ritmo aparentemente “assistolia” no monitor → desfibrilar.
+
+Q: 🧭 Protocolo <b>SESAME</b> (Lichtenstein) na PCR?
+A: Sequência: pulmões (PNTX) → abdome/aorta (hemorragia) → pericárdio (tamponamento) → coração; prioriza causas tratáveis rapidamente.
+
+Q: 🧪 POCUS para confirmar <b>retorno de circulação</b> (RCE)?
+A: Pode demonstrar contração organizada + fluxo carotídeo (Doppler) quando o pulso é duvidoso; EtCO₂ súbito ↑ também sugere RCE.
+
+Q: 🎯 Ultrassom <b>transesofágico</b> (ETE) na PCR: vantagens?
+A: Imagem contínua sem pausar compressões, avalia o local da compressão (comprimir o VE, não a aorta/VSVE), detecta FV fina e tamponamento.
+
+Q: 🫀 Compressão torácica sobre a <b>VSVE/raiz aórtica</b>: por que importa?
+A: Estudos com ETE mostram que em parte dos pacientes a compressão obstrui a VSVE → reposicionar as mãos melhora o fluxo.
+
+Q: 🩸 Aorta abdominal no RUSH: o que procurar?
+A: Aneurisma (≥ 3 cm), especialmente > 5 cm com hipotensão e dor lombar/abdominal → <b>AAA roto</b> até prova em contrário → cirurgia vascular.
+X: Ruptura costuma ser retroperitoneal → FAST pode ser negativo.
+
+Q: 🧮 Como medir a <b>aorta abdominal</b>?
+A: Transversal da junção diafragmática até a bifurcação (proximal, média, distal), parede externa a externa; longitudinal para confirmar.
+
+Q: 🦵 Nos <b>canos</b> do RUSH: TVP — técnica rápida?
+A: Compressão em 2 pontos (femoral comum + poplítea) com sonda linear.
+I: pc_tvp.png
+
+Q: 🫁 eFAST para <b>PNTX</b>: qual a vantagem sobre RX em supino?
+A: Sensibilidade muito maior (≈ 90% vs ≈ 50%) e rapidez na sala de trauma.
+
+Q: 🩸 eFAST para <b>hemotórax</b>?
+A: Líquido acima do diafragma (perda do espelho, sinal da coluna); sensível a partir de ~ 20 mL.
+
+Q: 🧯 Choque após <b>cirurgia abdominal</b>: o que buscar no POCUS?
+A: Coleção/sangue intra-abdominal, VCI, função cardíaca, PNTX (acesso central), TEP (VD), tamponamento (cirurgia cardíaca).
+
+Q: 🫀 Pericardiocentese na PCR por tamponamento: guiada ou às cegas?
+A: Guiada por USG sempre que possível (↑ sucesso, ↓ complicações); se indisponível e PCR, abordagem subxifoide às cegas.
+
+Q: 🧮 Sensibilidade do eco para <b>tamponamento</b>?
+A: Muito alta para derrame; o diagnóstico de tamponamento combina derrame + colapso de câmaras direitas + VCI pletórica + clínica.
+
+Q: 🧪 Choque de causa <b>não clara</b>: qual o maior impacto do POCUS?
+A: Estreitar diagnósticos diferenciais (mudança de diagnóstico em ~ 25–50% dos casos) e identificar causas que exigem procedimento imediato (tamponamento, PNTX, AAA, TEP maciço).
+
+Q: 🩺 Choque com <b>VCI pletórica e VE hiperdinâmico</b>: pensar em?
+A: Obstrução do lado direito (TEP, tamponamento, PNTX hipertensivo) ou falência de VD.
+
+Q: 🦴 Fratura de <b>fêmur/pelve</b>: o USG ajuda?
+A: Fratura de ossos longos pode ser vista (descontinuidade cortical); pelve exige TC/RX — FAST não detecta sangramento retroperitoneal pélvico.
+
+Q: 🧭 Trauma <b>estável</b> com FAST positivo: conduta?
+A: <b>TC</b> com contraste para graduar lesões; muitos tratados de forma não operatória (baço/fígado) com angioembolização se necessário.
+
+Q: 💧 Líquido livre <b>mínimo</b> na pelve de mulher jovem sem trauma relevante: interpretação?
+A: Pode ser fisiológico (ovulação); valorizar contexto.
+
+Q: 🧮 Posição de <b>Trendelenburg</b> no FAST: por que?
+A: Sangue migra para o QSD (Morison) → aumenta a sensibilidade nessa janela.
+
+Q: 🫀 Choque com <b>derrame pericárdico pequeno</b> e colapso do AD em pós-operatório cardíaco: conduta?
+A: Coleção pode ser localizada e compressiva → reabordagem cirúrgica/ETE; não descartar pelo tamanho.
+
+Q: 🧪 eFAST e <b>intubação</b>: o que checar após IOT no trauma?
+A: Deslizamento bilateral (excluir seletiva/PNTX), capnografia; eFAST repetido.
+
+Q: 🩸 <b>Hematoma retroperitoneal</b>: o USG detecta?
+A: Pouco sensível; TC é o exame de escolha. Rim e psoas podem mostrar coleção, mas USG negativo não exclui.
+
+Q: 🧯 PCR com <b>VD muito dilatado</b> no POCUS: conduta?
+A: Suspeita de TEP maciço → considerar <b>trombólise</b> durante a RCP (e manter RCP por 60–90 min após).
+X: VD dilata também na PCR prolongada de qualquer causa → interpretar com contexto.
+
+Q: 🧠 Por que o VD <b>dilata após alguns minutos de PCR</b>?
+A: Sangue se redistribui para o sistema venoso/direito sem fluxo → VD dilatado não é específico de TEP na PCR prolongada.
+
+Q: 💓 Qual o melhor local para checar <b>pulso por USG</b>?
+A: Artéria femoral ou carótida com sonda linear/Doppler → pausa curta e mais confiável que palpação em alguns estudos.
+
+Q: 🧮 FAST <b>indeterminado</b>: o que fazer?
+A: Repetir, mudar janela/posição, ou TC se estável; instável → decisão clínica (lavado/laparotomia exploradora em centros sem TC).
+
+Q: 🩺 Choque séptico de <b>foco desconhecido</b>: o POCUS pode achar o quê?
+A: Pneumonia (consolidação), empiema, colecistite (parede > 3 mm, Murphy US, líquido), hidronefrose (obstrução + ITU), abscessos, ascite (PBE), endocardite (vegetação grande), partes moles (abscesso/fasciíte).
+
+Q: 🦠 USG em <b>fasciíte necrosante</b>?
+A: Espessamento subcutâneo, líquido na fáscia (> 2–4 mm), gás com sombra suja; achados sugestivos não substituem exploração cirúrgica.
+
+Q: 💉 Achado de <b>colecistite</b> no POCUS?
+A: Cálculos com sombra, parede > 3 mm, líquido perivesicular, <b>Murphy ultrassonográfico</b> +, vesícula distendida. Alitiásica no crítico: distensão + parede espessa + lama.
+
+Q: 🧪 <b>Hidronefrose</b> no POCUS: graus?
+A: Leve (dilatação da pelve), moderada (cálices arredondados), grave (adelgaçamento do córtex). Hidronefrose + febre/sepse = pielonefrite obstrutiva → <b>desobstrução</b> urgente.
+
+Q: 🧮 FAST em <b>gestante</b> traumatizada?
+A: Mesmas janelas (útero deslocado); avaliar também batimentos fetais; líquido livre = mesma interpretação.
+
+Q: 🫁 Choque + <b>ausência de deslizamento à D + desvio traqueal</b>: conduta?
+A: PNTX hipertensivo → <b>descompressão imediata</b> (não aguardar RX).
