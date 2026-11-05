@@ -63,6 +63,73 @@
    ]
   },
   {
+   "subtema": "Hipertensão arterial",
+   "frente": "🚨 <b>Emergência × urgência</b> hipertensiva?",
+   "verso": "<table class=t><tr><th></th><th>Emergência</th><th>Urgência</th></tr><tr><td>Lesão aguda de órgão-alvo</td><td><b class=r>Sim</b> (EAP, SCA, AVC, dissecção, encefalopatia)</td><td>Não</td></tr><tr><td>Tratamento</td><td>IV, UTI, ↓ PA controlada</td><td><b>VO</b>, reavaliar em 24–48 h</td></tr></table>",
+   "pegadinha": "Não reduzir PA bruscamente na urgência (risco de isquemia).",
+   "fonte": "Diretriz Brasileira de HAS 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "🎯 Lesões de <b>órgão-alvo</b> na HAS crônica?",
+   "verso": "<table class=t><tr><th>Órgão</th><th>Achado</th></tr><tr><td>❤️ Coração</td><td>HVE (ECG/ECO)</td></tr><tr><td>🫘 Rim</td><td>Albuminúria, TFG &lt; 60</td></tr><tr><td>👁️ Retina</td><td>Retinopatia hipertensiva</td></tr><tr><td>🦵 Artérias</td><td>ITB &lt; 0,9, VOP ↑</td></tr></table>",
+   "fonte": "Diretriz Brasileira de HAS 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "💧 <b>Diuréticos tiazídicos</b>: preferência e efeitos?",
+   "verso": "Preferir <b>clortalidona/indapamida</b> (ação longa)<br>⚠️ HipoK, hipoNa, hiperuricemia, hiperglicemia, hipercalcemia",
+   "fonte": "SBC 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "💊 Efeitos adversos do <b>IECA</b>?",
+   "verso": "<table class=t><tr><th>Efeito</th><th>Mecanismo/nota</th></tr><tr><td>Tosse seca</td><td>Bradicinina → trocar por BRA</td></tr><tr><td>Angioedema</td><td>Bradicinina → suspender para sempre</td></tr><tr><td>HiperK / LRA</td><td>Estenose bilateral de artéria renal</td></tr><tr><td>Teratogenicidade</td><td>Contraindicado na gestação</td></tr></table>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "🤰 Anti-hipertensivo na <b>gestação</b>?",
+   "verso": "✅ <b>Metildopa, nifedipina, labetalol</b><br>❌ <b class=r>IECA, BRA, espironolactona</b>",
+   "fonte": "FEBRASGO",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "🏠 Protocolo da <b>MRPA</b>?",
+   "verso": "3 medidas pela manhã + 3 à noite por <b>5 dias</b> → média ≥ 130/80 = HAS.",
+   "fonte": "Diretriz Brasileira de HAS 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
    "subtema": "Insuficiência cardíaca crônica",
    "frente": "🫀 4 pilares da <b>ICFEr</b>?",
    "verso": "<table class=t><tr><th>Classe</th><th>Exemplos</th></tr><tr><td>ARNI / IECA / BRA</td><td>Sacubitril-valsartana (preferido)</td></tr><tr><td>Betabloqueador</td><td>Carvedilol, bisoprolol, succinato de metoprolol</td></tr><tr><td>Antagonista mineralocorticoide</td><td>Espironolactona, eplerenona</td></tr><tr><td>iSGLT2</td><td>Dapagliflozina, empagliflozina</td></tr></table>",
@@ -106,6 +173,85 @@
     "R3CM",
     "T01",
     "cm1"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "🧪 <b>BNP/NT-proBNP</b>: cortes para excluir IC?",
+   "verso": "<table class=t><tr><th>Cenário</th><th>BNP</th><th>NT-proBNP</th></tr><tr><td>Ambulatorial (crônico)</td><td>&lt; 35</td><td>&lt; 125</td></tr><tr><td>Agudo (emergência)</td><td>&lt; 100</td><td>&lt; 300</td></tr></table>",
+   "pegadinha": "Obesidade ↓ BNP; DRC, idade e FA ↑.",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "📋 Critérios de <b>Framingham</b> (IC)?",
+   "verso": "Maiores: dispneia paroxística noturna, turgência jugular, estertores, cardiomegalia, EAP, <b>B3</b>, refluxo hepatojugular<br>Diagnóstico: 2 maiores ou 1 maior + 2 menores",
+   "fonte": "Framingham",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "🚫 Drogas que <b>pioram a IC</b>?",
+   "verso": "AINE, glitazonas, BCC não di-hidropiridínicos (verapamil/diltiazem na ICFEr), dronedarona, itraconazol, alguns quimioterápicos.",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "🩸 <b>Ferro</b> na IC?",
+   "verso": "Ferritina &lt; 100 ou 100–299 com saturação &lt; 20% → <b>carboximaltose/derisomaltose férrica IV</b> (↓ hospitalização).",
+   "pegadinha": "Ferro oral não funciona na IC.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "⚡ <b>CDI e TRC</b> na ICFEr?",
+   "verso": "<table class=t><tr><th>Dispositivo</th><th>Indicação principal</th></tr><tr><td>CDI (prevenção primária)</td><td>FE ≤ 35%, NYHA II–III, após ≥ 3 meses de tratamento otimizado</td></tr><tr><td>TRC</td><td>FE ≤ 35% + <b>BRE com QRS ≥ 150 ms</b> (130–149 em casos selecionados)</td></tr></table>",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "🚀 Titulação rápida dos 4 pilares?",
+   "verso": "STRONG-HF: titulação intensiva em até 6 semanas após internação → <b>↓ morte/reinternação</b>.",
+   "fonte": "STRONG-HF Lancet 2022",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "⚠️ <b>Espironolactona</b> e potássio?",
+   "verso": "Monitorar K e creatinina (1 semana, 1 mês, depois periódico) → K &gt; 5,5: reduzir; &gt; 6: suspender.",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
    ]
   },
   {
@@ -154,6 +300,73 @@
    ]
   },
   {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "🎯 Alvo de <b>frequência</b> na FA?",
+   "verso": "Controle leniente: <b>FC &lt; 110 em repouso</b> é aceitável se assintomático (RACE II).",
+   "fonte": "RACE II NEJM 2010",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "⚡ <b>Cardioversão</b> de FA &gt; 48 h?",
+   "verso": "Anticoagular <b>3 semanas antes</b> (ou ETE sem trombo) e <b>4 semanas depois</b>.",
+   "fonte": "ESC 2024",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "🦷 <b>Flutter típico</b>: tratamento definitivo?",
+   "verso": "<b>Ablação do istmo cavotricuspídeo</b> (sucesso &gt; 90%).",
+   "fonte": "ESC 2019",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "💓 <b>TSV paroxística</b> recorrente?",
+   "verso": "Manobras vagais/adenosina na crise → <b>ablação por cateter</b> é curativa.",
+   "fonte": "ESC 2019",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "📏 <b>QT longo</b>: quando preocupar?",
+   "verso": "QTc (Bazett) &gt; <b>500 ms</b> ou aumento &gt; 60 ms → risco de torsades: suspender drogas, corrigir K/Mg.",
+   "fonte": "AHA",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "🔺 ECG da <b>pré-excitação (WPW)</b>?",
+   "verso": "PR curto (&lt; 120 ms) + <b>onda delta</b> + QRS alargado.",
+   "pegadinha": "FA pré-excitada: evitar bloqueadores do nó AV.",
+   "fonte": "Cardiologia",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
    "subtema": "Valvopatias",
    "frente": "❤️ <b>Estenose aórtica</b>?",
    "verso": "Tríade: angina, síncope, dispneia; sopro sistólico ejetivo irradiando para carótidas; pulso <i>parvus et tardus</i><br>🔴 Grave: área &lt; 1 cm², gradiente médio ≥ 40, Vmáx ≥ 4 m/s<br>🔧 Sintomática → TAVI ou troca valvar",
@@ -199,6 +412,50 @@
    ]
   },
   {
+   "subtema": "Valvopatias",
+   "frente": "📋 Critérios de <b>Duke</b> (endocardite)?",
+   "verso": "<table class=t><tr><th>Maiores</th><th>Menores</th></tr><tr><td>Hemoculturas com germe típico (2 amostras)</td><td>Predisposição (valva, drogas IV)</td></tr><tr><td>Imagem (ECO/PET) com vegetação/abscesso</td><td>Febre ≥ 38 °C</td></tr><tr><td></td><td>Fenômenos vasculares e imunológicos</td></tr></table>Definitiva: 2 maiores, ou 1 maior + 3 menores, ou 5 menores",
+   "fonte": "Duke-ISCVID 2023",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Valvopatias",
+   "frente": "🦠 Agentes da <b>endocardite</b>?",
+   "verso": "<table class=t><tr><th>Agente</th><th>Pista</th></tr><tr><td>S. aureus</td><td>Aguda, usuário de droga IV (tricúspide)</td></tr><tr><td>Estreptococo viridans</td><td>Subaguda, dentes</td></tr><tr><td>S. gallolyticus (bovis)</td><td>→ <b>colonoscopia</b> (câncer colorretal)</td></tr><tr><td>Enterococo</td><td>Idoso, manipulação GU</td></tr><tr><td>HACEK</td><td>Hemocultura 'negativa'</td></tr></table>",
+   "fonte": "ESC 2023",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Valvopatias",
+   "frente": "⚙️ Anticoagulação na <b>prótese mecânica</b>?",
+   "verso": "<b>Varfarina</b>: INR 2,0–3,0 (aórtica) / 2,5–3,5 (mitral ou fatores de risco)<br>❌ <b class=r>DOAC contraindicado</b>",
+   "fonte": "ESC/EACTS 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Valvopatias",
+   "frente": "🔊 <b>Prolapso da valva mitral</b>?",
+   "verso": "Clique mesossistólico ± sopro telessistólico; geralmente benigno.",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
    "subtema": "Coronariopatia crônica e lipídios",
    "frente": "🎯 Metas de <b>LDL</b> por risco?",
    "verso": "<table class=t><tr><th>Risco</th><th>LDL alvo</th></tr><tr><td>Muito alto</td><td>&lt; 50 mg/dL</td></tr><tr><td>Alto</td><td>&lt; 70</td></tr><tr><td>Intermediário</td><td>&lt; 100</td></tr><tr><td>Baixo</td><td>&lt; 130</td></tr></table>",
@@ -230,6 +487,130 @@
     "R3CM",
     "T01",
     "cm1"
+   ]
+  },
+  {
+   "subtema": "Coronariopatia crônica e lipídios",
+   "frente": "🦴 <b>Escore de cálcio</b> coronário?",
+   "verso": "CAC = 0 → baixo risco (pode adiar estatina em risco intermediário) | ≥ 100 → favorece estatina.",
+   "fonte": "ACC/AHA 2019",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Coronariopatia crônica e lipídios",
+   "frente": "🧬 <b>Lipoproteína(a)</b>?",
+   "verso": "Dosar <b>uma vez na vida</b>; ≥ 50 mg/dL ↑ risco CV (genético) → controle agressivo dos outros fatores.",
+   "fonte": "ESC 2022 consenso",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Coronariopatia crônica e lipídios",
+   "frente": "🧈 <b>Hipertrigliceridemia</b>?",
+   "verso": "<table class=t><tr><th>TG (mg/dL)</th><th>Conduta</th></tr><tr><td>150–499</td><td>Estilo de vida; estatina pelo risco; icosapenta etil (REDUCE-IT) se DCV</td></tr><tr><td>≥ 500</td><td><b>Fibrato</b> (risco de pancreatite)</td></tr><tr><td>≥ 1.000</td><td>Dieta muito pobre em gordura; pancreatite → insulina IV</td></tr></table>",
+   "fonte": "SBC; REDUCE-IT 2019",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Coronariopatia crônica e lipídios",
+   "frente": "🔗 Duração da <b>dupla antiagregação</b>?",
+   "verso": "Após stent: SCA <b>12 meses</b> | DAC estável <b>6 meses</b> (encurtar se alto risco de sangramento).",
+   "fonte": "ESC 2023/2024",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Coronariopatia crônica e lipídios",
+   "frente": "🏃 <b>Teste ergométrico</b> positivo?",
+   "verso": "Infra ST ≥ 1 mm horizontal/descendente a 80 ms do ponto J, angina limitante, queda da PA ao esforço.",
+   "fonte": "SBC",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Pericárdio e cardiomiopatias",
+   "frente": "🫀 <b>Pericardite aguda</b>?",
+   "verso": "Dor pleurítica que melhora inclinado para frente, atrito, <b>supra ST difuso + infra PR</b><br>💊 AINE + <b>colchicina 3 meses</b>",
+   "pegadinha": "Colchicina ↓ recorrência (COPE/ICAP).",
+   "fonte": "ESC 2015",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Pericárdio e cardiomiopatias",
+   "frente": "🧱 <b>Pericardite constritiva</b>?",
+   "verso": "Sinal de <b>Kussmaul</b> (↑ jugular na inspiração), knock pericárdico, calcificação → pericardiectomia.",
+   "fonte": "ESC 2015",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Pericárdio e cardiomiopatias",
+   "frente": "💪 <b>Cardiomiopatia hipertrófica</b>?",
+   "verso": "Sopro que <b>↑ com Valsalva/ortostase</b> e ↓ ao agachar; morte súbita em jovem atleta → BB, mavacamten, CDI se alto risco.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Pericárdio e cardiomiopatias",
+   "frente": "🔥 <b>Miocardite</b>?",
+   "verso": "Troponina ↑ + RM (critérios de Lake Louise: edema + realce tardio) → biópsia se grave/atípica.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "ECG e síncope",
+   "frente": "🧍 <b>Hipotensão ortostática</b>?",
+   "verso": "Queda da PAS ≥ <b>20</b> ou PAD ≥ <b>10 mmHg</b> em até 3 min em pé.",
+   "pegadinha": "Causas: hipovolemia, drogas, disautonomia (DM, Parkinson).",
+   "fonte": "ESC 2018",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "ECG e síncope",
+   "frente": "📈 <b>Bloqueio de ramo direito</b>?",
+   "verso": "QRS ≥ 120 ms + <b>rSR' em V1</b> + S alargada em DI/V6; pode ser normal, mas BRD novo → pensar em TEP, CIA, isquemia.",
+   "pegadinha": "BRE novo + dor torácica → equivalente de IAMCSST (critérios de Sgarbossa).",
+   "fonte": "Cardiologia",
+   "tags": [
+    "R3CM",
+    "T01",
+    "v3"
    ]
   }
  ],

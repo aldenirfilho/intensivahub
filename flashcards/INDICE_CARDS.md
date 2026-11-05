@@ -4,21 +4,25 @@
 
 # 🏥 TEMI 2028
 
-## 01 🦠 Sepse e Choque Séptico (40)
+## 01 🦠 Sepse e Choque Séptico (60)
 
 ### Definições e triagem
-- 🦠 Definição de SEPSE pela Sepsis-3?
+- 🦠 Definição de SEPSE pela Sepsis-3? 🖼️
 - 🩸 Definição de CHOQUE SÉPTICO (Sepsis-3)?
 - ⚡ Quais os 3 itens do qSOFA? Deve ser usado como triagem isolada?
 - 📋 Critérios de SIRS?
 - 🧪 Lactato ≥ 4 mmol/L na sepse: o que significa?
 - 🧫 Hemoculturas na sepse: como colher?
 - 🦠 Infecção × sepse: qual a diferença?
+- 🚦 qSOFA × SIRS × NEWS na triagem?
+- 🩺 Sinais clínicos de hipoperfusão?
+- 🦵 Escore de moteamento (mottling)?
+- 🫁 Focos mais comuns de sepse?
 
 ### Ressuscitação hemodinâmica
 - 💧 Volume inicial de cristaloide na hipoperfusão/choque séptico (SSC 2021)?
 - 🧪 Qual cristaloide preferir? E coloides?
-- 💉 Vasopressor de 1ª linha e alvo de PAM no choque séptico?
+- 💉 Vasopressor de 1ª linha e alvo de PAM no choque séptico? 🖼️
 - ➕ Quando associar VASOPRESSINA e qual a dose?
 - 📉 PAM inadequada apesar de NA + vasopressina; e se houver disfunção cardíaca?
 - 🧭 Como guiar a ressuscitação: lactato e TEC?
@@ -28,9 +32,15 @@
 - 🎯 PAM 65 × 80–85 na sepse?
 - 💉 Angiotensina II no choque vasoplégico?
 - 🔵 Azul de metileno no choque refratário?
+- 📏 Medidas estáticas × dinâmicas de volume?
+- 💧 ALBIOS: albumina na sepse?
+- ⏱️ Noradrenalina precoce?
+- ⚖️ Adrenalina × noradrenalina?
+- 💉 VANISH: vasopressina precoce?
+- 💔 Cardiomiopatia séptica?
 
 ### Antimicrobianos e controle de foco
-- ⏱️ Prazo para o antimicrobiano na sepse (SSC 2021)?
+- ⏱️ Prazo para o antimicrobiano na sepse (SSC 2021)? 🖼️
 - 🦠 Cobertura empírica para MRSA e dupla cobertura de gram-negativo: quando?
 - ⏳ Forma de infusão sugerida para betalactâmicos na sepse?
 - 🧪 Procalcitonina na sepse: iniciar ou suspender ATB?
@@ -39,6 +49,10 @@
 - 💊 Primeira dose do ATB na LRA séptica: reduzir?
 - ⏳ Duração do ATB na sepse?
 - 🍄 Antifúngico empírico na sepse?
+- 💊 ATB empírico por foco (exemplos)?
+- 📉 Procalcitonina para suspender o ATB?
+- 🧪 TDM de betalactâmicos?
+- 🟢 Fatores de risco para Pseudomonas?
 
 ### Terapias adjuvantes e suporte
 - 💊 Corticoide no choque séptico: quando e qual dose?
@@ -53,6 +67,12 @@
 - 🫁 SDRA induzida por sepse: ventilação?
 - 🗣️ Metas de cuidado na sepse?
 - 🫀 Choque séptico com FA de alta resposta?
+- 📉 Desmame da hidrocortisona?
+- 🚫 Terapias sem benefício na sepse?
+- 😴 Sedação no choque séptico?
+- 🫘 TRS na LRA séptica?
+- 🩸 PFC e plaquetas na sepse?
+- 🏠 Sobreviventes de sepse?
 
 ## 02 🫁 Ventilação Mecânica e SDRA (40)
 
@@ -790,7 +810,7 @@
 
 # 🩺 R3 Clínica Médica
 
-## 01 🫀 Cardiologia (20)
+## 01 🫀 Cardiologia (54)
 
 ### Hipertensão arterial
 - 🩺 Diagnóstico de HAS por método? 🖼️
@@ -798,29 +818,67 @@
 - 💊 Tratamento inicial da HAS?
 - 🔒 HAS resistente: definição e 4ª droga?
 - 🔍 Pistas de HAS secundária?
+- 🚨 Emergência × urgência hipertensiva?
+- 🎯 Lesões de órgão-alvo na HAS crônica?
+- 💧 Diuréticos tiazídicos: preferência e efeitos?
+- 💊 Efeitos adversos do IECA?
+- 🤰 Anti-hipertensivo na gestação?
+- 🏠 Protocolo da MRPA?
 
 ### Insuficiência cardíaca crônica
 - 🫀 4 pilares da ICFEr?
 - 📊 Classificação da IC pela fração de ejeção?
 - 🚶 Classes funcionais NYHA?
 - 💓 Quando usar ivabradina e hidralazina + nitrato?
+- 🧪 BNP/NT-proBNP: cortes para excluir IC?
+- 📋 Critérios de Framingham (IC)?
+- 🚫 Drogas que pioram a IC?
+- 🩸 Ferro na IC?
+- ⚡ CDI e TRC na ICFEr?
+- 🚀 Titulação rápida dos 4 pilares?
+- ⚠️ Espironolactona e potássio?
 
 ### Fibrilação atrial e anticoagulação
 - 💊 DOAC × varfarina na FA?
 - 🩸 Para que serve o HAS-BLED?
 - ⏱️ Controle de ritmo precoce na FA?
 - ⚖️ Dose reduzida de apixabana?
+- 🎯 Alvo de frequência na FA?
+- ⚡ Cardioversão de FA > 48 h?
+- 🦷 Flutter típico: tratamento definitivo?
+- 💓 TSV paroxística recorrente?
+- 📏 QT longo: quando preocupar?
+- 🔺 ECG da pré-excitação (WPW)?
 
 ### Valvopatias
 - ❤️ Estenose aórtica?
 - 💧 Sinais de insuficiência aórtica?
 - 🫀 Estenose mitral?
 - 🦷 Profilaxia de endocardite em procedimento dentário?
+- 📋 Critérios de Duke (endocardite)?
+- 🦠 Agentes da endocardite?
+- ⚙️ Anticoagulação na prótese mecânica?
+- 🔊 Prolapso da valva mitral?
 
 ### Coronariopatia crônica e lipídios
 - 🎯 Metas de LDL por risco?
 - 💊 Escalonamento hipolipemiante?
 - 💔 Angina estável: tratamento?
+- 🦴 Escore de cálcio coronário?
+- 🧬 Lipoproteína(a)?
+- 🧈 Hipertrigliceridemia?
+- 🔗 Duração da dupla antiagregação?
+- 🏃 Teste ergométrico positivo?
+
+### Pericárdio e cardiomiopatias
+- 🫀 Pericardite aguda?
+- 🧱 Pericardite constritiva?
+- 💪 Cardiomiopatia hipertrófica?
+- 🔥 Miocardite?
+
+### ECG e síncope
+- 🧍 Hipotensão ortostática?
+- 📈 Bloqueio de ramo direito?
 
 ## 02 🫁 Pneumologia (20)
 

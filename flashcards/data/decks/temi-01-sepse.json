@@ -5,9 +5,10 @@
   {
    "subtema": "Definições e triagem",
    "frente": "🦠 Definição de <b>SEPSE</b> pela Sepsis-3?",
-   "verso": "Disfunção orgânica <b class=r>ameaçadora à vida</b> causada por resposta <b>desregulada</b> do hospedeiro à infecção.<br>🔢 Operacional: <b class=y>↑ SOFA ≥ 2 pontos</b> agudo.<br>💀 Mortalidade hospitalar &gt;10%.",
+   "verso": "<table class=t><tr><th>Conceito</th><th>Definição (Sepsis-3)</th></tr><tr><td>🦠 Infecção</td><td>Sem disfunção orgânica → <b class=g>não é sepse</b></td></tr><tr><td>🔥 <b>Sepse</b></td><td>Disfunção orgânica ameaçadora à vida por resposta <b>desregulada</b> → <b class=y>↑ SOFA ≥ 2</b></td></tr><tr><td>💀 Choque séptico</td><td>Sepse + vasopressor p/ PAM ≥ 65 + <b class=r>lactato &gt; 2</b></td></tr></table>📉 Mortalidade hospitalar da sepse &gt; 10%",
    "pegadinha": "SIRS saiu da definição em 2016 (Sepsis-3). Prova adora comparar SIRS × SOFA.",
    "fonte": "Singer et al., JAMA 2016 (Sepsis-3)",
+   "imagem": "img_sepsis3.png",
    "tags": [
     "TEMI2028",
     "T01",
@@ -53,7 +54,7 @@
   {
    "subtema": "Definições e triagem",
    "frente": "🧪 Lactato <b>≥ 4 mmol/L</b> na sepse: o que significa?",
-   "verso": "Hipoperfusão importante → <b>ressuscitação volêmica imediata</b> (30 mL/kg nas primeiras 3 h) mesmo sem hipotensão ('choque críptico').",
+   "verso": "<table class=t><tr><th>Lactato (mmol/L)</th><th>Interpretação</th></tr><tr><td>&lt; 2</td><td>Normal</td></tr><tr><td>2–4</td><td><b class=y>Hiperlactatemia</b> → investigar, repetir</td></tr><tr><td>≥ 4</td><td><b class=r>Hipoperfusão grave</b> → ressuscitar já, mesmo com PA normal (choque críptico)</td></tr></table>",
    "pegadinha": "Sepsis-3 usa lactato &gt; 2 apenas para definir choque séptico.",
    "fonte": "SSC 2021",
    "tags": [
@@ -65,7 +66,7 @@
   {
    "subtema": "Definições e triagem",
    "frente": "🧫 Hemoculturas na sepse: como colher?",
-   "verso": "✅ <b>≥ 2 pares</b> (aeróbio + anaeróbio) <b>antes do ATB</b>, desde que não atrase o ATB (&gt; 45 min).<br>➕ Colher do cateter + periférica se suspeita de infecção do cateter.",
+   "verso": "<table class=t><tr><th>Item</th><th>Como</th></tr><tr><td>Quantidade</td><td><b>≥ 2 pares</b> (aeróbio + anaeróbio)</td></tr><tr><td>Quando</td><td>Antes do ATB, <b class=r>sem atrasar &gt; 45 min</b></td></tr><tr><td>Cateter</td><td>Colher pelo cateter + periférico (tempo diferencial)</td></tr></table>",
    "fonte": "SSC 2021",
    "tags": [
     "TEMI2028",
@@ -85,9 +86,56 @@
    ]
   },
   {
+   "subtema": "Definições e triagem",
+   "frente": "🚦 <b>qSOFA × SIRS × NEWS</b> na triagem?",
+   "verso": "<table class=t><tr><th>Ferramenta</th><th>Ponto forte</th><th>Limite</th></tr><tr><td>qSOFA</td><td>Específico para mortalidade</td><td><b class=r>Pouco sensível</b> → não usar isolado</td></tr><tr><td>SIRS</td><td>Sensível</td><td>Pouco específico</td></tr><tr><td>NEWS/MEWS</td><td>Bom desempenho na enfermaria</td><td>Precisa de protocolo</td></tr></table>",
+   "pegadinha": "SSC 2021: não usar qSOFA como ferramenta única de triagem.",
+   "fonte": "SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Definições e triagem",
+   "frente": "🩺 Sinais clínicos de <b>hipoperfusão</b>?",
+   "verso": "<table class=t><tr><th>Órgão</th><th>Sinal</th></tr><tr><td>🧠 Cérebro</td><td>Confusão, sonolência</td></tr><tr><td>🫘 Rim</td><td>Diurese &lt; 0,5 mL/kg/h</td></tr><tr><td>🖐️ Pele</td><td>Moteamento, TEC &gt; 3 s, extremidades frias</td></tr><tr><td>🧪 Metabólico</td><td>Lactato &gt; 2</td></tr></table>",
+   "pegadinha": "Hipotensão é sinal tardio.",
+   "fonte": "SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Definições e triagem",
+   "frente": "🦵 <b>Escore de moteamento</b> (mottling)?",
+   "verso": "Escala 0–5 pela extensão a partir do joelho → quanto <b class=r>maior</b>, maior a mortalidade; reavaliável à beira-leito.",
+   "pegadinha": "Moteamento persistente após 6 h de ressuscitação = mau prognóstico.",
+   "fonte": "Ait-Oufella ICM 2011",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Definições e triagem",
+   "frente": "🫁 Focos mais comuns de sepse?",
+   "verso": "<table class=t><tr><th>Foco</th><th>Frequência aproximada</th></tr><tr><td>🫁 Pulmonar</td><td><b>~40–50%</b></td></tr><tr><td>🫃 Abdominal</td><td>~20%</td></tr><tr><td>🚽 Urinário</td><td>~10–15%</td></tr><tr><td>🩹 Pele/partes moles, cateter</td><td>Restante</td></tr></table>",
+   "fonte": "Epidemiologia (SOAP, EPIC)",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "💧 Volume inicial de cristaloide na hipoperfusão/choque séptico (SSC 2021)?",
-   "verso": "<b class=c>30 mL/kg</b> de cristaloide nas <b>primeiras 3 h</b> (sugestão fraca, baixa qualidade).<br>➡️ Depois: guiar por <b>medidas dinâmicas</b> de fluido-responsividade.",
+   "verso": "<table class=t><tr><th>Momento</th><th>Conduta</th></tr><tr><td>⏱️ 1ª–3ª hora</td><td><b class=c>30 mL/kg</b> de cristaloide (sugestão fraca)</td></tr><tr><td>🔁 Depois</td><td>Bolus guiados por <b>medidas dinâmicas</b> (elevação passiva de pernas, VPP, ΔVTI)</td></tr><tr><td>🛑 Parar</td><td>Sem resposta ao volume, congestão (B-lines, VExUS) ou sem hipoperfusão</td></tr></table>",
    "pegadinha": "Pegadinha: é 'sugestão', não 'recomendação forte'.",
    "fonte": "SSC 2021",
    "tags": [
@@ -99,7 +147,7 @@
   {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "🧪 Qual cristaloide preferir? E coloides?",
-   "verso": "<ul><li>✅ <b class=g>Balanceados</b> (Ringer lactato/Plasma-Lyte) &gt; SF 0,9% (sugestão)</li><li>✅ <b>Albumina</b> se grandes volumes de cristaloide</li><li>❌ <b class=r>Amidos (HES): recomendação forte CONTRA</b> (LRA, TRS)</li><li>❌ Gelatinas: sugere contra</li></ul>",
+   "verso": "<table class=t><tr><th>Fluido</th><th>SSC 2021</th></tr><tr><td>🟢 Balanceado (RL, Plasma-Lyte)</td><td><b class=g>Preferir</b> (sugestão)</td></tr><tr><td>⚪ SF 0,9%</td><td>Aceitável; risco de acidose hiperclorêmica</td></tr><tr><td>💧 Albumina</td><td>Se <b>grandes volumes</b> de cristaloide</td></tr><tr><td>🔴 Amidos (HES)</td><td><b class=r>Recomendação forte CONTRA</b></td></tr><tr><td>🟠 Gelatinas</td><td>Sugere contra</td></tr></table>",
    "pegadinha": "🤓 Nerd: SF 0,9% tem SID ≈ 0 → acidose hiperclorêmica.",
    "fonte": "SSC 2021",
    "tags": [
@@ -111,9 +159,10 @@
   {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "💉 Vasopressor de 1ª linha e alvo de PAM no choque séptico?",
-   "verso": "🥇 <b class=c>NORADRENALINA</b> (recomendação forte)<br>🎯 PAM inicial <b>≥ 65 mmHg</b>.<br>✅ Pode iniciar em <b>veia periférica</b> (proximal à fossa antecubital) para não atrasar.",
+   "verso": "<table class=t><tr><th>Item</th><th>Recomendação</th></tr><tr><td>🥇 Droga</td><td><b class=c>Noradrenalina</b> (forte)</td></tr><tr><td>🎯 Alvo inicial</td><td>PAM <b>≥ 65 mmHg</b></td></tr><tr><td>🩸 Acesso</td><td>Pode iniciar em <b>veia periférica</b> proximal enquanto se obtém CVC</td></tr><tr><td>⚠️ Evitar</td><td>Dopamina como 1ª linha (↑ arritmias)</td></tr></table>",
    "pegadinha": "Dopamina saiu de cena (mais arritmias – SOAP II).",
    "fonte": "SSC 2021; De Backer NEJM 2010",
+   "imagem": "img_vasopressores.png",
    "tags": [
     "TEMI2028",
     "T01",
@@ -123,7 +172,7 @@
   {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "➕ Quando associar <b>VASOPRESSINA</b> e qual a dose?",
-   "verso": "Quando a NA estiver em <b class=y>0,25–0,5 mcg/kg/min</b> → adicionar vasopressina (em vez de escalar NA).<br>💉 Dose: <b>até 0,03 U/min</b> (não titulada).",
+   "verso": "<table class=t><tr><th>Quando</th><th>Como</th></tr><tr><td>NA <b class=y>0,25–0,5 mcg/kg/min</b></td><td>Adicionar <b>vasopressina</b> (não escalar NA indefinidamente)</td></tr><tr><td>Dose</td><td><b>Até 0,03 U/min</b>, fixa (não titular)</td></tr><tr><td>Receptor</td><td>V1 → vasoconstrição</td></tr><tr><td>Risco</td><td>Isquemia digital/mesentérica</td></tr></table>",
    "pegadinha": "⚠️ Efeitos: isquemia digital/mesentérica. Receptor V1 = vasoconstrição.",
    "fonte": "SSC 2021; VASST",
    "tags": [
@@ -146,7 +195,7 @@
   {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "🧭 Como guiar a ressuscitação: lactato e TEC?",
-   "verso": "✅ Guiar pela <b>redução do lactato</b> (sugestão).<br>✅ <b>Tempo de enchimento capilar</b> como adjunto – normal <b class=g>≤ 3 s</b>.",
+   "verso": "<table class=t><tr><th>Marcador</th><th>Meta / uso</th></tr><tr><td>🧪 Lactato</td><td>Guiar a ressuscitação pela <b>queda</b> (repetir em 2–4 h)</td></tr><tr><td>👆 Tempo de enchimento capilar</td><td>Normal <b class=g>≤ 3 s</b>; reavaliar a cada 30 min</td></tr><tr><td>🫀 Dinâmicos</td><td>Avaliar fluido-responsividade antes de novos bolus</td></tr></table>",
    "pegadinha": "🤓 ANDROMEDA-SHOCK (2019): TEC × lactato → tendência a menor mortalidade com TEC; mais simples e sem custo.",
    "fonte": "SSC 2021; ANDROMEDA-SHOCK JAMA 2019",
    "tags": [
@@ -158,7 +207,7 @@
   {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "📍 Monitorização invasiva e acesso no choque séptico?",
-   "verso": "<ul><li>✅ Cateter arterial <b>assim que possível</b> (sugestão)</li><li>✅ Vasopressor periférico permitido enquanto se obtém CVC</li><li>📊 Preferir parâmetros <b>dinâmicos</b> (VPP, ΔVS, elevação de pernas) a estáticos (PVC)</li></ul>",
+   "verso": "<table class=t><tr><th>Monitorização</th><th>Recomendação</th></tr><tr><td>📈 Pressão arterial invasiva</td><td><b>Assim que possível</b> no choque</td></tr><tr><td>💉 Vasopressor periférico</td><td>Permitido até ter CVC</td></tr><tr><td>📊 Fluidos</td><td>Preferir medidas <b>dinâmicas</b> às estáticas (PVC)</td></tr></table>",
    "pegadinha": "PVC isolada NÃO prediz responsividade a volume.",
    "fonte": "SSC 2021",
    "tags": [
@@ -170,7 +219,7 @@
   {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "📉 EGDT (Rivers): o que mostraram ProCESS, ARISE e ProMISe?",
-   "verso": "Ressuscitação por protocolo de metas precoces (PVC, SvcO₂) <b>sem benefício</b> sobre o cuidado usual moderno.",
+   "verso": "<table class=t><tr><th>Estudo</th><th>Resultado</th></tr><tr><td>Rivers 2001</td><td>EGDT ↓ mortalidade (centro único)</td></tr><tr><td>ProCESS 2014</td><td>Sem benefício</td></tr><tr><td>ARISE 2014</td><td>Sem benefício</td></tr><tr><td>ProMISe 2015</td><td>Sem benefício</td></tr></table>➡️ Abandonadas metas obrigatórias de PVC e SvcO₂",
    "pegadinha": "Rivers 2001 deu origem aos bundles; a era pós-2014 abandonou a meta obrigatória de PVC e SvcO₂.",
    "fonte": "ProCESS 2014; ARISE 2014; ProMISe 2015",
    "tags": [
@@ -182,7 +231,7 @@
   {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "💧 CLOVERS e CLASSIC: fluidos liberais × restritivos?",
-   "verso": "<b>Sem diferença de mortalidade</b> entre estratégias restritivas e liberais após a ressuscitação inicial.",
+   "verso": "<table class=t><tr><th>Ensaio</th><th>Comparação</th><th>Resultado</th></tr><tr><td>CLASSIC 2022</td><td>Restrição × padrão (após ressuscitação)</td><td>Sem diferença</td></tr><tr><td>CLOVERS 2023</td><td>Vasopressor precoce/restritivo × liberal</td><td>Sem diferença</td></tr></table>🎯 Individualizar: responsividade + tolerância a fluido",
    "pegadinha": "Mensagem: individualizar, guiar por fluido-responsividade e tolerância.",
    "fonte": "CLOVERS NEJM 2023; CLASSIC NEJM 2022",
    "tags": [
@@ -194,7 +243,7 @@
   {
    "subtema": "Ressuscitação hemodinâmica",
    "frente": "🎯 PAM 65 × 80–85 na sepse?",
-   "verso": "SEPSISPAM: sem diferença de mortalidade; <b>hipertensos crônicos</b> com PAM alta tiveram menos TRS, porém mais FA.<br>65 trial (≥ 65 anos): PAM 60–65 permissiva sem dano.",
+   "verso": "<table class=t><tr><th>Estudo</th><th>Achado</th></tr><tr><td>SEPSISPAM 2014</td><td>PAM 80–85 × 65: mortalidade igual; hipertensos crônicos ↓ TRS, ↑ FA</td></tr><tr><td>65 trial 2020</td><td>≥ 65 anos: PAM 60–65 permissiva sem dano</td></tr></table>",
    "fonte": "SEPSISPAM NEJM 2014; 65 trial JAMA 2020",
    "tags": [
     "TEMI2028",
@@ -227,11 +276,82 @@
    ]
   },
   {
+   "subtema": "Ressuscitação hemodinâmica",
+   "frente": "📏 Medidas <b>estáticas × dinâmicas</b> de volume?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Exemplos</th><th>Prediz resposta?</th></tr><tr><td>Estáticas</td><td>PVC, POAP, diâmetro fixo da VCI</td><td><b class=r>Mal</b></td></tr><tr><td>Dinâmicas</td><td>Elevação passiva de pernas, VPP, VVS, ΔVTI, oclusão expiratória</td><td><b class=g>Bem</b></td></tr></table>",
+   "fonte": "SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Ressuscitação hemodinâmica",
+   "frente": "💧 <b>ALBIOS</b>: albumina na sepse?",
+   "verso": "Albumina (alvo 3 g/dL) × cristaloide: <b>sem ↓ mortalidade</b> geral; análise de subgrupo sugeriu benefício no choque séptico.",
+   "pegadinha": "Por isso a SSC sugere albumina apenas com grandes volumes.",
+   "fonte": "ALBIOS NEJM 2014",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Ressuscitação hemodinâmica",
+   "frente": "⏱️ Noradrenalina <b>precoce</b>?",
+   "verso": "CENSER: NA em baixa dose precoce → <b class=g>↑ controle do choque em 6 h</b> e menos EAP/arritmia.",
+   "pegadinha": "Não esperar 'terminar o volume' para iniciar vasopressor na hipotensão grave.",
+   "fonte": "CENSER AJRCCM 2019",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Ressuscitação hemodinâmica",
+   "frente": "⚖️ <b>Adrenalina × noradrenalina</b>?",
+   "verso": "<table class=t><tr><th></th><th>Adrenalina</th><th>Noradrenalina</th></tr><tr><td>Eficácia</td><td>Semelhante</td><td>Semelhante</td></tr><tr><td>Lactato</td><td><b class=y>↑</b> (β2, aeróbio)</td><td>Neutro</td></tr><tr><td>Arritmia/taquicardia</td><td>Mais</td><td>Menos</td></tr></table>Adrenalina: 2ª/3ª droga ou disfunção cardíaca",
+   "pegadinha": "CAT trial 2008",
+   "fonte": "SSC 2021; CAT 2008",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Ressuscitação hemodinâmica",
+   "frente": "💉 <b>VANISH</b>: vasopressina precoce?",
+   "verso": "Vasopressina × NA como 1ª droga: <b>sem diferença</b> em dias livres de falência renal; menos TRS entre sobreviventes.",
+   "fonte": "VANISH JAMA 2016",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Ressuscitação hemodinâmica",
+   "frente": "💔 <b>Cardiomiopatia séptica</b>?",
+   "verso": "Disfunção sistólica/diastólica reversível (ECO) → se hipoperfusão persistente com volume e PAM ok: <b>dobutamina</b> ou trocar para adrenalina.",
+   "pegadinha": "Reversível em 7–10 dias nos sobreviventes.",
+   "fonte": "SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
    "subtema": "Antimicrobianos e controle de foco",
    "frente": "⏱️ Prazo para o antimicrobiano na sepse (SSC 2021)?",
-   "verso": "<table class=t><tr><th>Situação</th><th>Prazo</th></tr><tr><td>🔴 Choque provável / sepse provável</td><td><b class=r>≤ 1 h</b></td></tr><tr><td>🟡 Sepse possível sem choque</td><td>Avaliação rápida → ATB em <b>≤ 3 h</b> se suspeita persistir</td></tr></table>",
+   "verso": "<table class=t><tr><th>Situação</th><th>Prazo</th></tr><tr><td>🔴 Choque possível <u>ou</u> sepse provável</td><td><b class=r>≤ 1 h</b></td></tr><tr><td>🟡 Sepse possível sem choque</td><td>Investigar rápido → ATB em <b>≤ 3 h</b> se a suspeita persistir</td></tr><tr><td>🧫 Culturas</td><td>Antes do ATB, <b>sem atrasá-lo</b></td></tr></table>",
    "pegadinha": "Colher hemoculturas antes, SEM atrasar o ATB.",
    "fonte": "SSC 2021",
+   "imagem": "img_hora1.png",
    "tags": [
     "TEMI2028",
     "T01",
@@ -252,7 +372,7 @@
   {
    "subtema": "Antimicrobianos e controle de foco",
    "frente": "⏳ Forma de infusão sugerida para betalactâmicos na sepse?",
-   "verso": "<b class=c>Infusão prolongada</b> (estendida/contínua) na manutenção, <u>após bolus inicial</u> (sugestão).",
+   "verso": "<table class=t><tr><th>Fase</th><th>Como infundir</th></tr><tr><td>1ª dose</td><td><b>Bolus</b> (atingir concentração rápido)</td></tr><tr><td>Manutenção</td><td><b class=c>Infusão prolongada</b> (3–4 h) ou contínua</td></tr><tr><td>Racional</td><td>Betalactâmico = tempo-dependente (<b>fT &gt; MIC</b>)</td></tr></table>",
    "pegadinha": "🤓 Betalactâmico = tempo-dependente (fT &gt; MIC). BLING III (2024): tendência a ↓ mortalidade.",
    "fonte": "SSC 2021; BLING III JAMA 2024",
    "tags": [
@@ -276,7 +396,7 @@
   {
    "subtema": "Antimicrobianos e controle de foco",
    "frente": "🔪 <b>Controle de foco</b> na sepse: quando?",
-   "verso": "<b>O mais rápido possível</b> (idealmente em ≤ 6–12 h): drenar abscesso, desbridar necrose, remover dispositivo infectado.",
+   "verso": "<table class=t><tr><th>Foco</th><th>Controle</th></tr><tr><td>Abscesso / empiema</td><td>Drenagem percutânea/cirúrgica</td></tr><tr><td>Necrose (fasciíte, pancreatite infectada)</td><td>Desbridamento</td></tr><tr><td>Colangite obstrutiva</td><td>Descompressão biliar (CPRE)</td></tr><tr><td>Dispositivo infectado</td><td>Retirar após novo acesso</td></tr></table>⏱️ Idealmente em <b>≤ 6–12 h</b>",
    "pegadinha": "Sem controle de foco, nenhum ATB resolve.",
    "fonte": "SSC 2021",
    "tags": [
@@ -299,7 +419,7 @@
   {
    "subtema": "Antimicrobianos e controle de foco",
    "frente": "💊 Primeira dose do ATB na LRA séptica: reduzir?",
-   "verso": "<b>Não!</b> Dose de ataque <b>cheia</b> (↑ volume de distribuição); ajustar só a manutenção.",
+   "verso": "<table class=t><tr><th>Dose</th><th>Ajustar pela função renal?</th></tr><tr><td>1ª dose (ataque)</td><td><b class=r>Não</b> — dose cheia (↑ volume de distribuição)</td></tr><tr><td>Manutenção</td><td>Sim, após 24–48 h</td></tr></table>",
    "pegadinha": "Subdose no 1º dia ↑ falha terapêutica.",
    "fonte": "Roberts, Lancet ID 2014",
    "tags": [
@@ -322,7 +442,7 @@
   {
    "subtema": "Antimicrobianos e controle de foco",
    "frente": "🍄 Antifúngico empírico na sepse?",
-   "verso": "Apenas em <b>alto risco de Candida</b> (colonização multifocal, NPT, cirurgia abdominal, imunossupressão, ATB amplo prolongado).",
+   "verso": "<table class=t><tr><th>Fator de risco p/ Candida</th><th>Exemplo</th></tr><tr><td>Colonização multifocal</td><td>Vários sítios positivos</td></tr><tr><td>NPT / cateter central</td><td>—</td></tr><tr><td>Cirurgia abdominal / pancreatite</td><td>Perfuração recorrente</td></tr><tr><td>ATB amplo prolongado, imunossupressão</td><td>—</td></tr></table>💊 Equinocandina se alto risco",
    "fonte": "SSC 2021",
    "tags": [
     "TEMI2028",
@@ -331,9 +451,56 @@
    ]
   },
   {
+   "subtema": "Antimicrobianos e controle de foco",
+   "frente": "💊 ATB empírico por foco (exemplos)?",
+   "verso": "<table class=t><tr><th>Foco</th><th>Esquema típico</th></tr><tr><td>PAC grave</td><td>Ceftriaxona + macrolídeo (± cobertura de MRSA/Pseudomonas se risco)</td></tr><tr><td>Intra-abdominal comunitária</td><td>Ceftriaxona + metronidazol ou pip-tazo</td></tr><tr><td>Urinário</td><td>Ceftriaxona (ajustar por cultura e resistência local)</td></tr><tr><td>Pele necrosante</td><td>Pip-tazo/carbapenêmico + clindamicina ± vancomicina</td></tr></table>",
+   "pegadinha": "Sempre adaptar ao perfil local de resistência.",
+   "fonte": "IDSA; SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e controle de foco",
+   "frente": "📉 <b>Procalcitonina</b> para suspender o ATB?",
+   "verso": "Suspender quando cai <b>≥ 80%</b> do pico ou fica <b>≤ 0,5 ng/mL</b> (com melhora clínica).",
+   "pegadinha": "SAPS: ↓ duração do ATB e ↓ mortalidade.",
+   "fonte": "SAPS Lancet ID 2016",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e controle de foco",
+   "frente": "🧪 <b>TDM</b> de betalactâmicos?",
+   "verso": "Dosar nível sérico ajuda a atingir fT &gt; MIC no crítico (↑ Vd, hiperfiltração renal, ECMO, TRS).",
+   "pegadinha": "Clearance renal aumentado (&gt; 130 mL/min) → subdose comum.",
+   "fonte": "Roberts 2014",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e controle de foco",
+   "frente": "🟢 Fatores de risco para <b>Pseudomonas</b>?",
+   "verso": "<ul><li>ATB IV nos últimos 90 dias</li><li>Isolamento prévio de Pseudomonas</li><li>Doença pulmonar estrutural (bronquiectasias, DPOC grave)</li><li>Internação recente, imunossupressão</li></ul>",
+   "fonte": "IDSA/ATS",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
    "subtema": "Terapias adjuvantes e suporte",
    "frente": "💊 Corticoide no choque séptico: quando e qual dose?",
-   "verso": "<b class=c>Hidrocortisona 200 mg/dia</b> (50 mg 6/6h ou infusão contínua)<br>📌 Indicação: NA ou adrenalina <b class=y>≥ 0,25 mcg/kg/min por ≥ 4 h</b>.",
+   "verso": "<table class=t><tr><th>Item</th><th>Detalhe</th></tr><tr><td>💊 Droga</td><td><b class=c>Hidrocortisona 200 mg/dia</b> (50 mg 6/6 h ou infusão)</td></tr><tr><td>📌 Indicação</td><td>NA/adrenalina <b class=y>≥ 0,25 mcg/kg/min por ≥ 4 h</b></td></tr><tr><td>➕ Opção</td><td>Fludrocortisona 50 mcg/dia (APROCCHSS)</td></tr><tr><td>🎯 Efeito</td><td>↓ tempo de choque (ADRENAL); ↓ mortalidade com fludro (APROCCHSS)</td></tr></table>",
    "pegadinha": "ADRENAL: ↓ tempo de choque, sem ↓ mortalidade. APROCCHSS (+ fludrocortisona 50 mcg): ↓ mortalidade 90 d.",
    "fonte": "SSC 2021; ADRENAL e APROCCHSS NEJM 2018",
    "tags": [
@@ -345,7 +512,7 @@
   {
    "subtema": "Terapias adjuvantes e suporte",
    "frente": "🧂 Bicarbonato de sódio no choque séptico: quando?",
-   "verso": "❌ NÃO para acidemia láctica por hipoperfusão.<br>✅ Sugere usar se <b class=r>pH ≤ 7,2</b> + <b>LRA AKIN 2–3</b>.",
+   "verso": "<table class=t><tr><th>Cenário</th><th>Bicarbonato?</th></tr><tr><td>Acidose lática por hipoperfusão</td><td><b class=r>❌ Não</b></td></tr><tr><td>pH ≤ 7,2 + LRA AKIN 2–3</td><td><b class=g>✅ Sugere usar</b> (BICAR-ICU)</td></tr></table>",
    "pegadinha": "Baseado no BICAR-ICU (Lancet 2018).",
    "fonte": "SSC 2021",
    "tags": [
@@ -357,7 +524,7 @@
   {
    "subtema": "Terapias adjuvantes e suporte",
    "frente": "🍬 Alvo glicêmico na sepse?",
-   "verso": "Iniciar insulina se glicemia <b class=r>≥ 180 mg/dL</b> → alvo <b class=g>144–180 mg/dL</b>.",
+   "verso": "<table class=t><tr><th>Glicemia (mg/dL)</th><th>Conduta</th></tr><tr><td>≥ 180</td><td><b class=y>Iniciar insulina</b></td></tr><tr><td>144–180</td><td><b class=g>Alvo</b></td></tr><tr><td>&lt; 110</td><td><b class=r>Evitar</b> (NICE-SUGAR: ↑ mortalidade com 81–108)</td></tr></table>",
    "pegadinha": "NICE-SUGAR: controle intensivo (81–108) ↑ mortalidade e hipoglicemia.",
    "fonte": "SSC 2021; NICE-SUGAR 2009",
    "tags": [
@@ -369,7 +536,7 @@
   {
    "subtema": "Terapias adjuvantes e suporte",
    "frente": "🍊 Vitamina C na sepse?",
-   "verso": "<b class=r>❌ Sugere CONTRA.</b>",
+   "verso": "<table class=t><tr><th>Terapia</th><th>SSC 2021</th></tr><tr><td>🍊 Vitamina C IV</td><td><b class=r>Sugere contra</b> (LOVIT)</td></tr><tr><td>💉 Imunoglobulina IV</td><td>Sugere contra</td></tr><tr><td>🩸 Polimixina B (hemoperfusão)</td><td>Sugere contra</td></tr><tr><td>⚡ Levosimendana</td><td>Sugere contra</td></tr></table>",
    "pegadinha": "LOVIT (NEJM 2022): ↑ desfecho composto morte/disfunção persistente com vitamina C.",
    "fonte": "SSC 2021; LOVIT 2022",
    "tags": [
@@ -381,7 +548,7 @@
   {
    "subtema": "Terapias adjuvantes e suporte",
    "frente": "🩸 Limiar transfusional de hemácias na sepse?",
-   "verso": "Estratégia <b>restritiva</b>: transfundir se <b class=y>Hb &lt; 7 g/dL</b>.",
+   "verso": "<table class=t><tr><th>Gatilho</th><th>Conduta</th></tr><tr><td>Hb &lt; 7 g/dL</td><td><b class=c>Transfundir</b> (estratégia restritiva)</td></tr><tr><td>Hb ≥ 7 sem sangramento/isquemia</td><td>Não transfundir</td></tr><tr><td>Isquemia miocárdica, hemorragia ativa</td><td>Individualizar</td></tr></table>",
    "pegadinha": "TRISS (2014): 7 × 9 sem diferença de mortalidade.",
    "fonte": "SSC 2021; TRISS NEJM 2014",
    "tags": [
@@ -393,7 +560,7 @@
   {
    "subtema": "Terapias adjuvantes e suporte",
    "frente": "🛡️ Profilaxias na sepse: TEV e úlcera de estresse?",
-   "verso": "<ul><li>🧊 TEV: <b>HBPM</b> preferida sobre HNF</li><li>🫃 Úlcera de estresse: só se <b>fator de risco para sangramento GI</b></li></ul>",
+   "verso": "<table class=t><tr><th>Profilaxia</th><th>Recomendação</th></tr><tr><td>🧊 TEV</td><td><b>HBPM</b> &gt; HNF; mecânica se contraindicação</td></tr><tr><td>🫃 Úlcera de estresse</td><td>IBP/anti-H2 se <b>fator de risco de sangramento</b> (coagulopatia, choque, VM)</td></tr></table>",
    "pegadinha": "REVISE (NEJM 2024): pantoprazol ↓ sangramento GI clinicamente importante em VM, sem efeito em mortalidade.",
    "fonte": "SSC 2021; REVISE 2024",
    "tags": [
@@ -439,7 +606,7 @@
   {
    "subtema": "Terapias adjuvantes e suporte",
    "frente": "🫁 SDRA induzida por sepse: ventilação?",
-   "verso": "Vt <b>6 mL/kg</b>, Pplatô ≤ 30, PEEP alta na moderada/grave, prona se P/F &lt; 150.",
+   "verso": "<table class=t><tr><th>Parâmetro</th><th>Meta</th></tr><tr><td>Vt</td><td><b class=c>6 mL/kg</b> de peso predito</td></tr><tr><td>Pplatô</td><td>≤ 30 cmH₂O</td></tr><tr><td>PEEP</td><td>Mais alta na SDRA moderada/grave</td></tr><tr><td>Prona</td><td>P/F &lt; 150 → ≥ 16 h/dia</td></tr></table>",
    "fonte": "SSC 2021",
    "tags": [
     "TEMI2028",
@@ -461,14 +628,85 @@
   {
    "subtema": "Terapias adjuvantes e suporte",
    "frente": "🫀 Choque séptico com FA de alta resposta?",
-   "verso": "Corrigir gatilhos (volume, eletrólitos, dor) → <b>amiodarona</b> se instável; cardioversão se colapso.<br>Landiolol (STRESS-L): sem benefício.",
+   "verso": "<table class=t><tr><th>Situação</th><th>Conduta</th></tr><tr><td>Instável</td><td>Cardioversão elétrica</td></tr><tr><td>Estável</td><td>Corrigir gatilhos (volume, K, Mg, dor) → <b>amiodarona</b></td></tr><tr><td>Betabloqueador curto (landiolol)</td><td>STRESS-L 2023: sem benefício</td></tr></table>",
    "fonte": "STRESS-L JAMA 2023",
    "tags": [
     "TEMI2028",
     "T01",
     "v2"
    ]
+  },
+  {
+   "subtema": "Terapias adjuvantes e suporte",
+   "frente": "📉 Desmame da <b>hidrocortisona</b>?",
+   "verso": "Suspender quando os vasopressores forem <b>retirados</b> (pode ser abrupto ou gradual).",
+   "fonte": "SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Terapias adjuvantes e suporte",
+   "frente": "🚫 Terapias <b>sem benefício</b> na sepse?",
+   "verso": "<table class=t><tr><th>Terapia</th><th>Estudo</th></tr><tr><td>Vit C + tiamina + hidrocortisona</td><td>VITAMINS 2020</td></tr><tr><td>Vitamina C isolada</td><td>LOVIT 2022</td></tr><tr><td>EGDT</td><td>ProCESS/ARISE/ProMISe</td></tr><tr><td>Polimixina B hemoperfusão</td><td>EUPHRATES 2018</td></tr><tr><td>Amido (HES)</td><td>6S 2012 (dano)</td></tr></table>",
+   "fonte": "Ensaios citados",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Terapias adjuvantes e suporte",
+   "frente": "😴 Sedação no choque séptico?",
+   "verso": "MENDS2: <b>dexmedetomidina × propofol</b> sem diferença de desfechos → sedação leve, analgesia primeiro.",
+   "fonte": "MENDS2 NEJM 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Terapias adjuvantes e suporte",
+   "frente": "🫘 TRS na LRA séptica?",
+   "verso": "<b>Não iniciar</b> só por creatinina/oligúria sem indicação definitiva (sugestão); CRRT ou intermitente conforme estabilidade.",
+   "fonte": "SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Terapias adjuvantes e suporte",
+   "frente": "🩸 PFC e plaquetas na sepse?",
+   "verso": "PFC: <b class=r>não</b> para corrigir coagulograma sem sangramento/procedimento.<br>Plaquetas: profiláticas se &lt; 10.000 (ou &lt; 20.000 com risco); &lt; 50.000 para procedimento/sangramento.",
+   "fonte": "SSC 2016/2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
+  },
+  {
+   "subtema": "Terapias adjuvantes e suporte",
+   "frente": "🏠 Sobreviventes de sepse?",
+   "verso": "Avaliar <b>déficits físicos, cognitivos e emocionais</b> após a alta e encaminhar à reabilitação (PICS).",
+   "pegadinha": "Até 1/3 tem nova incapacidade funcional.",
+   "fonte": "SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T01",
+    "v3"
+   ]
   }
  ],
- "midia": {}
+ "midia": {
+  "img_hora1.png": "data/media/img_hora1.png",
+  "img_sepsis3.png": "data/media/img_sepsis3.png",
+  "img_vasopressores.png": "data/media/img_vasopressores.png"
+ }
 }

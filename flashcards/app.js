@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "2.1.0";
+const APP_VERSION = "3.0.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -39,10 +39,13 @@ table.t td{color:#ece9e1;padding:6px 8px;border:1px solid #2a3442;vertical-align
 table.t tr:nth-child(even) td{background:#121820}
 table.t td:first-child{font-weight:600;color:color-mix(in srgb,var(--acc) 55%,#fff)}
 ul{margin:6px 0;padding-left:22px}li{margin:3px 0}li::marker{color:var(--acc)}
+img,svg{max-width:100%;height:auto}
 .img{margin-top:12px;text-align:center}.img img,.img svg{max-width:100%;height:auto;border-radius:10px;border:1px solid #2a3442}
 .peg{margin-top:12px;background:#2a2210;border-left:4px solid #ffc14d;border-radius:8px;padding:10px 12px;font-size:16px;color:#ffe9b8}
 .src{margin-top:10px;font-size:13px;color:#8a94a3}
 .cloze{color:var(--acc);font-weight:700;border-bottom:2px dotted var(--acc)}
+.pill{display:inline-block;font-size:12px;padding:2px 8px;border-radius:20px;background:color-mix(in srgb,var(--acc) 25%,#1d2a36);color:#fff;margin-right:6px;vertical-align:2px}
+.teaching-img{max-width:100%;border-radius:10px}.imgcap{font-size:12px;color:#8a94a3;text-align:center}
 @media(max-width:560px){.card{font-size:17px;padding:12px}.q{font-size:19px}table.t{font-size:14px}}`;
 
 /* ---------------- IndexedDB (cache local) ---------------- */
@@ -80,7 +83,7 @@ const DB = {
 };
 
 /* ---------------- Estado ---------------- */
-const DEFAULTS = { newPerDay: 20, revPerDay: 300, steps: [1, 10], relearn: [10], grad: 1, easy: 4, startEase: 2.5, maxIvl: 3650, learnAhead: 20, cols: { temi: true, cm: true } };
+const DEFAULTS = { newPerDay: 20, revPerDay: 300, steps: [1, 10], relearn: [10], grad: 1, easy: 4, startEase: 2.5, maxIvl: 3650, learnAhead: 20, cols: { temi: true, cm: true, ia: true } };
 const S = { cards: [], byId: new Map(), official: [], user: new Map(), prog: new Map(), styles: new Map(), mediaURL: new Map(), mediaPath: {}, settings: null, settingsMod: 0, logs: {}, index: null };
 const emptyLog = () => ({ nNew: 0, nRev: 0, nAns: 0, nOk: 0, ms: 0 });
 const L0 = () => (S.logs[today()] = S.logs[today()] || emptyLog());
@@ -170,7 +173,7 @@ const Cloud = {
   applyDoc(id, data, seen) {
     if (!data) return false; let changed = false;
     if (id === "state") {
-      if ((data.settingsMod || 0) > S.settingsMod && data.settings) { S.settings = Object.assign({}, DEFAULTS, data.settings); S.settingsMod = data.settingsMod; DB.setMeta("settings", { v: data.settings, mod: data.settingsMod }); changed = true; }
+      if ((data.settingsMod || 0) > S.settingsMod && data.settings) { const oldCols = JSON.stringify(S.settings.cols); S.settings = Object.assign({}, DEFAULTS, data.settings); S.settings.cols = Object.assign({ temi: true, cm: true, ia: true }, S.settings.cols || {}); S.settingsMod = data.settingsMod; DB.setMeta("settings", { v: data.settings, mod: data.settingsMod }); changed = true; if (JSON.stringify(S.settings.cols) !== oldCols) loadOfficial().then(() => { rebuildCards(); rerender(); }); }
       for (const [d, l] of Object.entries(data.logs || {})) { const cur = S.logs[d]; if (!cur || (l.nAns || 0) > (cur.nAns || 0)) { S.logs[d] = l; changed = true; } }
       if (data.session && (!S.session || data.session.mod > S.session.mod)) { S.session = data.session; DB.setMeta("session", S.session); changed = true; }
       if (S.session && (!data.session || S.session.mod > data.session.mod)) this.dirty.st = true;
@@ -386,7 +389,8 @@ async function loadOfficial() {
   try {
     const idx = await (await fetch("data/index.json", { cache: "no-cache" })).json();
     S.index = idx;
-    const files = await Promise.all(idx.decks.map(d => fetch(d.arquivo).then(r => r.json()).then(j => ({ d, j }))));
+    const cols = (S.settings && S.settings.cols) || {};
+    const files = await Promise.all(idx.decks.filter(d => cols[d.colecao || "temi"] !== false).map(d => fetch(d.arquivo).then(r => r.json()).then(j => ({ d, j }))));
     const list = []; let ord = 0;
     for (const { d, j } of files) {
       Object.assign(S.mediaPath, j.midia || {});
@@ -662,7 +666,7 @@ function treeHTML(node, depth = 0) {
   const kids = [...node.kids.values()].sort((a, b) => a.name.localeCompare(b.name, "pt", { numeric: true }));
   return kids.map(k => {
     const c = counts(k.full), has = k.kids.size > 0, open = openDecks.has(k.full), acc = depth === 0 ? "#d4af37" : accentFor(k.full);
-    const icon = depth === 0 ? (k.name === "TEMI 2028" ? "🏥 " : /cl[ií]nica/i.test(k.name) ? "🩺 " : "✍️ ") : "";
+    const icon = depth === 0 ? (k.name === "TEMI 2028" ? "🏥 " : /cl[ií]nica/i.test(k.name) ? "🩺 " : /outras ias/i.test(k.name) ? "📦 " : "✍️ ") : "";
     const pct = Math.round(100 * k.seen / Math.max(1, k.tot));
     return `<li><div class="dk" data-deck="${esc(k.full)}" style="--acc:${acc}"><span class="tg" data-tg="${esc(k.full)}">${has ? (open ? "▾" : "▸") : "·"}</span><span class="nm">${icon}${esc(k.name)} <small style="color:var(--mut)">${k.tot}</small></span>
       <span class="cnt n">${c.n || ""}</span><span class="cnt l">${c.l || ""}</span><span class="cnt rv">${c.r || ""}</span></div>
@@ -928,7 +932,7 @@ $("#pCopy").onclick = async () => {
 function fillSettings() {
   const s = S.settings; $("#sNew").value = s.newPerDay; $("#sRev").value = s.revPerDay; $("#sSteps").value = s.steps.join(" "); $("#sGrad").value = s.grad + " " + s.easy;
   $("#colsBox").innerHTML = (S.index?.colecoes || []).map(c => `<label class="btn" style="cursor:pointer"><input type="checkbox" data-col="${c.id}" ${s.cols[c.id] !== false ? "checked" : ""}> ${c.icone} ${esc(c.nome)} (${c.cards})</label>`).join("");
-  $$("#colsBox [data-col]").forEach(cb => cb.onchange = async () => { S.settings.cols = Object.assign({}, S.settings.cols, { [cb.dataset.col]: cb.checked }); await saveSettings(); rebuildCards(); toast("✅ Coleções atualizadas"); });
+  $$("#colsBox [data-col]").forEach(cb => cb.onchange = async () => { S.settings.cols = Object.assign({}, S.settings.cols, { [cb.dataset.col]: cb.checked }); await saveSettings(); toast("⏳ Carregando coleções…"); await loadOfficial(); rebuildCards(); toast("✅ Coleções atualizadas"); });
   $("#syncInfo").innerHTML = Cloud.on ? `☁️ Ativa — progresso, ajustes e cards próprios vão para sua conta. Última sincronização: <b>${new Date(Cloud.lastSync).toLocaleTimeString("pt-BR")}</b>.` :
     `💾 Desativada nesta visualização${Cloud.err ? ` (<span style="color:var(--red)">${esc(Cloud.err)}</span>)` : ""}. A sincronização automática funciona quando o app é aberto pela página do Claude, logado.`;
   $("#syncNow").style.display = Cloud.on ? "" : "none";
@@ -982,7 +986,7 @@ setInterval(() => { if (document.visibilityState === "visible") Cloud.pull(); },
     await DB.open();
     const st = await DB.meta("settings", null);
     if (st && st.v) { S.settings = Object.assign({}, DEFAULTS, st.v); S.settingsMod = st.mod || 0; } else S.settings = Object.assign({}, DEFAULTS, st || {});
-    S.settings.cols = Object.assign({ temi: true, cm: true }, S.settings.cols || {});
+    S.settings.cols = Object.assign({ temi: true, cm: true, ia: true }, S.settings.cols || {});
     S.logs = await DB.meta("logs", {});
     S.session = await DB.meta("session", null);
     const old = await DB.get("meta", "log:" + today()); if (old && !S.logs[today()]) S.logs[today()] = old.v; // migração v1

@@ -1,7 +1,7 @@
 # 🛡️ CÓDICE 360X · Flashcards TEMI
 
 > App próprio de flashcards com **repetição espaçada** (estilo Anki) para a prova **TEMI 2028** (AMIB) e o **R3 de Clínica Médica**.
-> **900 cards** (600 TEMI + 300 Clínica Médica) · 132 subtemas · 30 ilustrações e gráficos · uma cor por tema.
+> **v3 · 4.408 cards** — 🏛️ TEMI 2028 **620** · 🩺 R3 Clínica Médica **334** · 📦 Outras IAs **3.454** (não revisados, liga/desliga em ⚙️) · 33 ilustrações · sincronização automática entre aparelhos.
 
 ☁️ **Versão com sincronização automática entre aparelhos:** página do Claude (privada, abre logado) — o progresso fica na sua conta.
 💾 **Esta versão (GitHub Pages):** mesma interface, salva só no aparelho (use Backup para levar o progresso).
@@ -22,7 +22,7 @@
 
 | Recurso | Detalhe |
 |---|---|
-| 🏛️ Coleções oficiais | **TEMI 2028: 600 cards** (15 temas, 77 subtemas) · **R3 Clínica Médica: 300 cards** (15 temas, 55 subtemas) · 30 ilustrações |
+| 🏛️ Coleções oficiais | **TEMI 2028: 620 cards** (Sepse aprimorada v3 + 20 novos) · **R3 Clínica Médica: 334 cards** (Cardio + 34 novos) · **Outras IAs: 3.454 cards** importados de 2 `.apkg` (marcados “não revisado”) · 33 ilustrações |
 | 📊 Painel | Previsão de revisões (14 dias), atividade dos últimos 30 dias com % de acerto, progresso por coleção e por tema |
 | 🧠 Repetição espaçada | Algoritmo SM-2 estilo Anki (De novo / Difícil / Bom / Fácil), limites diários configuráveis |
 | 📦 Importa `.apkg` | Pacotes do Anki (legado e Anki 2.1.50+), com imagens, cloze e estilos |

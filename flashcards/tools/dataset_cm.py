@@ -1,9 +1,11 @@
 from cm_a import CARDIO, PNEUMO, NEFRO, ENDO, GASTRO
 from cm_b import HEMATO, INFECTO, REUMATO, NEURO, ONCO
 from cm_c import GERIATRIA, PSIQ, PREV, DERMATO, FARMACO
+from cm_cardio_v3 import CARDIO3
+CARDIO = CARDIO + [dict(c, orig="v3") for c in CARDIO3]
 
 CM_THEMES = [
- ("01","🫀","Cardiologia","cardio",CARDIO,{"A":"Hipertensão arterial","B":"Insuficiência cardíaca crônica","C":"Fibrilação atrial e anticoagulação","D":"Valvopatias","E":"Coronariopatia crônica e lipídios"}),
+ ("01","🫀","Cardiologia","cardio",CARDIO,{"A":"Hipertensão arterial","B":"Insuficiência cardíaca crônica","C":"Fibrilação atrial e anticoagulação","D":"Valvopatias","E":"Coronariopatia crônica e lipídios","F":"Pericárdio e cardiomiopatias","G":"ECG e síncope"}),
  ("02","🫁","Pneumologia","pneumo",PNEUMO,{"A":"Asma","B":"DPOC","C":"Derrame pleural e nódulo","D":"Intersticiais, sono e circulação pulmonar"}),
  ("03","🫘","Nefrologia","nefro",NEFRO,{"A":"Doença renal crônica","B":"Glomerulopatias","C":"Litíase e infecção urinária","D":"Outras nefropatias"}),
  ("04","🍬","Endocrinologia","endo",ENDO,{"A":"Diabetes tipo 2","B":"Tireoide","C":"Adrenal e hipófise","D":"Osteometabólico"}),
@@ -23,12 +25,12 @@ CM_THEMES = [
 def cm_themes():
     out = []
     for num, emo, nome, slug, cards, subs in CM_THEMES:
-        assert len(cards) == 20, (num, len(cards))
+        assert len(cards) >= 20, (num, len(cards))
         order = list(subs)
         cs = []
         for c in cards:
             assert c["t"] in subs, (num, c["t"])
-            cs.append(dict(c, orig="cm1", sub=subs[c["t"]]))
+            cs.append(dict(c, orig=c.get("orig", "cm1"), sub=subs[c["t"]]))
         cs.sort(key=lambda c: order.index(c["t"]))
         out.append(dict(num=num, emo=emo, nome=nome, slug="cm-" + slug, subs=subs, cards=cs))
     return out

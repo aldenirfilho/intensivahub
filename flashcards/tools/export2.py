@@ -13,7 +13,14 @@ MEDIA = "media" if os.path.isdir("media") else f"{OUT}/data/media"
 if MEDIA == "media":
     for f in os.listdir("media"): shutil.copy(f"media/{f}", f"{OUT}/data/media/{f}")
 
+import cards_a, new_a
+from sepse_v3 import UPG_V1, UPG_V2, SEPSE3
+for i, u in UPG_V1.items(): cards_a.SEPSE[i].update(u)
+for i, u in UPG_V2.items(): new_a.SEPSE2[i].update(u)
 temi = all_themes()
+_s = temi[0]; _order = list(_s["subs"])
+_s["cards"] += [dict(c, orig="v3", sub=_s["subs"][c["t"]]) for c in SEPSE3]
+_s["cards"].sort(key=lambda c: _order.index(c["t"]))
 used_img = 0
 for th in temi:
     for c in th["cards"]:
@@ -23,7 +30,7 @@ for th in temi:
 assert used_img == len(TEMI_IMG), f"imagens encaixadas {used_img}/{len(TEMI_IMG)}"
 
 COLS = [("TEMI 2028", "🏥", "temi", temi, "TEMI2028"), ("R3 Clínica Médica", "🩺", "cm", cm_themes(), "R3CM")]
-index = {"formato": "codice360x-index-v2", "versao": "2026.11.05-900", "colecoes": [], "decks": []}
+index = {"formato": "codice360x-index-v2", "versao": "2026.11.05-v3", "colecoes": [], "decks": []}
 md = []
 for root, icon, key, themes, tag in COLS:
     index["colecoes"].append({"id": key, "nome": root, "icone": icon, "cards": sum(len(t["cards"]) for t in themes)})
