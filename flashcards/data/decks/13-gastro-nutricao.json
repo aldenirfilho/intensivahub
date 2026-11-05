@@ -1,0 +1,457 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::13 🫃 Gastro, Fígado e Nutrição",
+ "cards": [
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "🩸 <b>HDA varicosa</b>: pacote inicial?",
+   "verso": "<ul><li>💉 Vasoativo: <b>terlipressina 2 mg 4/4h</b> ou octreotida 50 mcg bolus + 50 mcg/h</li><li>💊 <b>Ceftriaxona 1 g/dia</b> (profilaxia)</li><li>🔦 EDA em ≤ <b>12 h</b> (ligadura)</li><li>🩸 Hb alvo 7–8</li><li>🔧 <b>TIPS precoce</b> (Child C &lt; 14 ou B &gt; 7 com sangramento ativo)</li></ul>",
+   "pegadinha": "Transfusão liberal ↑ pressão portal e ressangramento.",
+   "fonte": "Baveno VII 2022",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "🎈 <b>Balão de Sengstaken-Blakemore</b>?",
+   "verso": "Ponte (&lt; 24 h) no sangramento varicoso refratário → <b>intubar antes</b>",
+   "pegadinha": "Alternativa: prótese esofágica autoexpansível.",
+   "fonte": "Baveno VII",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "🔦 Classificação de <b>Forrest</b>?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Achado</th><th>Ressangramento</th></tr><tr><td>Ia</td><td>Jato arterial</td><td>Altíssimo</td></tr><tr><td>Ib</td><td>Babando</td><td>Alto</td></tr><tr><td>IIa</td><td>Vaso visível</td><td>Alto</td></tr><tr><td>IIb</td><td>Coágulo aderido</td><td>Intermediário</td></tr><tr><td>IIc</td><td>Mancha pigmentada</td><td>Baixo</td></tr><tr><td>III</td><td>Base limpa</td><td>Baixo</td></tr></table>",
+   "pegadinha": "Ia–IIa: terapia endoscópica. IIb: considerar.",
+   "fonte": "Forrest 1974; ESGE",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "💊 <b>HDA não varicosa</b>?",
+   "verso": "💉 IBP em bolus (80 mg) + 40 mg 12/12h ou infusão<br>🔦 EDA em ≤ 24 h<br>🏠 Glasgow-Blatchford ≤ 1 → alta possível",
+   "fonte": "ESGE 2021",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "🩸 <b>HDB grave</b>?",
+   "verso": "Instável → <b>angio-TC</b> → embolização; estável → colonoscopia em 24 h.<br>⚠️ ~15% da 'HDB' grave é alta → EDA",
+   "fonte": "ACG 2023",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "📊 Escore <b>AIMS65</b>?",
+   "verso": "Albumina &lt; 3, INR &gt; 1,5, alteração mental, PAS ≤ 90, idade ≥ 65 → mortalidade na HDA.",
+   "fonte": "Saltzman 2011",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "💊 <b>Eritromicina</b> antes da EDA?",
+   "verso": "250 mg IV 30–120 min antes → esvazia o estômago e melhora a visualização.",
+   "fonte": "ESGE 2021",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "🛡️ Profilaxia secundária de varizes?",
+   "verso": "<b>Betabloqueador não seletivo</b> (propranolol/carvedilol) + ligadura elástica.",
+   "fonte": "Baveno VII",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Pancreatite",
+   "frente": "🫃 Diagnóstico e gravidade da <b>pancreatite aguda</b>?",
+   "verso": "📌 2 de 3: dor típica | lipase/amilase &gt; 3× | imagem<br><table class=t><tr><th>Atlanta revisada</th><th>Definição</th></tr><tr><td>🟢 Leve</td><td>Sem falência, sem complicação</td></tr><tr><td>🟡 Moderadamente grave</td><td>Falência transitória (&lt; 48 h) ou complicação local</td></tr><tr><td>🔴 Grave</td><td><b>Falência persistente &gt; 48 h</b></td></tr></table>",
+   "fonte": "Atlanta 2012",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Pancreatite",
+   "frente": "💧 Hidratação na <b>pancreatite</b>?",
+   "verso": "Ringer lactato <b>moderado</b>: 1,5 mL/kg/h (bolus 10 mL/kg se hipovolemia)<br>❌ Agressiva = mais sobrecarga, sem benefício",
+   "fonte": "WATERFALL NEJM 2022",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Pancreatite",
+   "frente": "🦠 ATB e necrose na <b>pancreatite</b>?",
+   "verso": "❌ Sem ATB profilático<br>🦠 Necrose infectada (gás na TC): <b>carbapenêmico</b><br>🪜 <b>Step-up</b>: drenagem percutânea/endoscópica → necrosectomia tardia (&gt; 4 semanas, walled-off)",
+   "fonte": "PANTER 2010; IAP/APA",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Pancreatite",
+   "frente": "🍽️ Nutrição na <b>pancreatite</b>?",
+   "verso": "✅ Via oral/enteral <b>precoce</b> (24–72 h) &gt; nutrição parenteral",
+   "fonte": "ACG 2024",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Pancreatite",
+   "frente": "🔎 Causas de <b>pancreatite aguda</b>?",
+   "verso": "Biliar, álcool, hipertrigliceridemia, hipercalcemia, pós-CPRE, drogas, trauma, autoimune.",
+   "fonte": "ACG 2024",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Pancreatite",
+   "frente": "🔦 <b>CPRE</b> na pancreatite biliar?",
+   "verso": "Só se <b>colangite</b> (urgente, ≤ 24 h) ou obstrução persistente – não rotineira.",
+   "fonte": "APEC Lancet 2020",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Pancreatite",
+   "frente": "🫧 Complicações locais da pancreatite?",
+   "verso": "<table class=t><tr><th>&lt; 4 semanas</th><th>&gt; 4 semanas</th></tr><tr><td>Coleção peripancreática aguda</td><td>Pseudocisto</td></tr><tr><td>Necrose aguda</td><td>Necrose encapsulada (WON)</td></tr></table>",
+   "fonte": "Atlanta 2012",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Pancreatite",
+   "frente": "📊 Escore <b>BISAP</b>?",
+   "verso": "BUN &gt; 25, alteração mental, SIRS, idade &gt; 60, derrame pleural → <b>≥ 3 = grave</b>.",
+   "fonte": "Wu 2008",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "🧡 <b>Insuficiência hepática aguda</b>: definição?",
+   "verso": "<b>INR ≥ 1,5 + encefalopatia</b> em paciente sem hepatopatia prévia, com doença &lt; 26 semanas",
+   "fonte": "AASLD",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "👑 Critérios do <b>King's College</b> (paracetamol)?",
+   "verso": "pH <b>&lt; 7,3</b> após ressuscitação <b>OU</b> todos: INR &gt; 6,5 + Cr &gt; 3,4 + encefalopatia III/IV<br>➕ Modificado: lactato &gt; 3,5 (ou &gt; 3,0 após volume)",
+   "pegadinha": "Preenchido → listar para transplante.",
+   "fonte": "O'Grady 1989",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "💊 <b>N-acetilcisteína</b> na intoxicação por paracetamol?",
+   "verso": "⏱️ Esquema 21 h: <b>150 mg/kg/1 h → 50 mg/kg/4 h → 100 mg/kg/16 h</b><br>📈 Nomograma de Rumack-Matthew a partir de 4 h",
+   "pegadinha": "NAC também beneficia IHA não-paracetamol em encefalopatia I–II.",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "🧠 <b>Encefalopatia</b> na IHA × cirrose?",
+   "verso": "Cirrose: lactulose + rifaximina (West Haven I–IV)<br>IHA: amônia <b>&gt; 150–200</b> → risco de HIC → salina hipertônica (Na 145–155), CRRT",
+   "pegadinha": "Edema cerebral é raro na cirrose e comum na IHA hiperaguda.",
+   "fonte": "AASLD/EASL",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "💧 <b>PBE</b>: diagnóstico e tratamento?",
+   "verso": "🔬 <b>PMN ≥ 250/mm³</b> no líquido ascítico<br>💉 Cefotaxima/ceftriaxona<br>🧪 <b>Albumina 1,5 g/kg D1 + 1 g/kg D3</b> (Cr &gt; 1, BUN &gt; 30 ou BT &gt; 4)",
+   "pegadinha": "Albumina ↓ LRA e mortalidade (Sort 1999).",
+   "fonte": "AASLD 2021; Sort NEJM 1999",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "🪣 Albumina na <b>paracentese de grande volume</b>?",
+   "verso": "<b>6–8 g por litro</b> retirado, se &gt; 5 L",
+   "pegadinha": "Previne disfunção circulatória pós-paracentese.",
+   "fonte": "AASLD 2021",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "📊 <b>Child-Pugh × MELD</b>?",
+   "verso": "<table class=t><tr><th>Escore</th><th>Componentes</th></tr><tr><td>Child-Pugh</td><td>Bilirrubina, albumina, INR, ascite, encefalopatia</td></tr><tr><td>MELD</td><td>Bilirrubina, INR, creatinina (+ Na no MELD-Na)</td></tr></table>",
+   "pegadinha": "Mnemônico Child: <b>'BAIAE'</b>.",
+   "fonte": "Hepatologia",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "🍺 <b>ACLF</b>?",
+   "verso": "Cirrose descompensada + falências orgânicas (EASL-CLIF) → mortalidade 28 d alta; transplante.",
+   "fonte": "EASL",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "🫁 Síndrome hepatopulmonar × hipertensão portopulmonar?",
+   "verso": "Hepatopulmonar: dilatação vascular → hipoxemia, <b>platipneia</b>, ortodeoxia<br>Portopulmonar: HAP na hipertensão portal",
+   "fonte": "Hepatologia",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "🍷 <b>Hepatite alcoólica grave</b>?",
+   "verso": "Maddrey ≥ 32 → <b>prednisolona 40 mg × 28 dias</b>; Lille ≥ 0,45 no D7 → suspender.",
+   "fonte": "AASLD/EASL",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "🩸 Coagulação na cirrose?",
+   "verso": "INR <b>não reflete</b> risco de sangramento (equilíbrio rebalanceado) → não corrigir de rotina antes de paracentese; usar TEG.",
+   "fonte": "AASLD 2021",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "🧠 Precipitantes de <b>encefalopatia hepática</b>?",
+   "verso": "HDA, infecção (PBE), constipação, diuréticos/hipoK/hipoNa, sedativos, LRA.",
+   "fonte": "AASLD/EASL",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fígado",
+   "frente": "💓 <b>Hepatite isquêmica</b>?",
+   "verso": "AST/ALT &gt; 1.000 com <b>LDH muito alta</b> precoce após choque → queda rápida em dias.",
+   "fonte": "Hepatologia",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Nutrição",
+   "frente": "🍽️ Metas de <b>nutrição</b> no crítico?",
+   "verso": "⏱️ Enteral precoce em <b>24–48 h</b><br>🔥 Fase aguda: hipocalórica (≤ 70% do gasto)<br>🥩 Proteína progressiva até <b>1,3 g/kg/dia</b>",
+   "pegadinha": "EFFORT Protein (2023): proteína alta sem benefício e pior na LRA.",
+   "fonte": "ESPEN 2023; EFFORT Lancet 2023",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Nutrição",
+   "frente": "💉 <b>Nutrição parenteral</b>: quando?",
+   "verso": "❌ Não precoce rotineira (EPaNIC: NP antes de 7 d pior)<br>✅ Desnutrido grave sem via enteral: considerar cedo<br>🔄 Suplementar: individualizar após 3–7 dias",
+   "fonte": "EPaNIC NEJM 2011; ESPEN 2023",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Nutrição",
+   "frente": "🧴 <b>Volume residual gástrico</b>?",
+   "verso": "❌ Não monitorar rotineiramente (ASPEN) | ESPEN: adiar dieta se &gt; 500 mL/6 h",
+   "fonte": "ASPEN 2016; ESPEN 2023",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Nutrição",
+   "frente": "➡️ Dieta <b>pós-pilórica</b>: quando?",
+   "verso": "Intolerância gástrica persistente ou alto risco de aspiração.",
+   "fonte": "ESPEN 2023",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Nutrição",
+   "frente": "💩 Diarreia com dieta enteral?",
+   "verso": "Investigar ATB, <b>C. difficile</b>, sorbitol em medicações → <b>não suspender</b> a dieta de rotina.",
+   "fonte": "ASPEN",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Nutrição",
+   "frente": "❌ <b>Glutamina</b> no crítico?",
+   "verso": "REDOXS: ↑ mortalidade em falência múltipla → não usar parenteral no choque/falências.",
+   "fonte": "REDOXS NEJM 2013",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Nutrição",
+   "frente": "⚖️ Proteína no <b>obeso</b> crítico?",
+   "verso": "~2–2,5 g/kg de <b>peso ideal</b>/dia; calorias hipocalóricas.",
+   "fonte": "ASPEN 2016",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Nutrição",
+   "frente": "🔬 Padrão-ouro do gasto energético?",
+   "verso": "<b>Calorimetria indireta</b> (VO₂/VCO₂, equação de Weir).",
+   "fonte": "ESPEN 2023",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Abdome agudo e complicações abdominais",
+   "frente": "🩸 <b>Isquemia mesentérica</b>?",
+   "verso": "😖 Dor <b>desproporcional</b> ao exame (FA, embólica)<br>🩻 Angio-TC | lactato ↑ é tardio<br>🔧 Heparina + revascularização/laparotomia",
+   "fonte": "ESVS 2017",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Abdome agudo e complicações abdominais",
+   "frente": "🎈 <b>Síndrome de Ogilvie</b>?",
+   "verso": "Pseudo-obstrução colônica; ceco <b>&gt; 12 cm</b> = risco de perfuração<br>💉 <b>Neostigmina 2 mg IV</b> (monitor; atropina à mão) → descompressão colonoscópica",
+   "fonte": "ASGE 2020",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Abdome agudo e complicações abdominais",
+   "frente": "🫃 Tratamento da <b>síndrome compartimental abdominal</b>?",
+   "verso": "Descompressão gástrica/retal, sedação ± BNM, balanço negativo, paracentese → <b>laparotomia descompressiva</b> se refratária.",
+   "fonte": "WSACS 2013",
+   "tags": [
+    "TEMI2028",
+    "T13",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {}
+}

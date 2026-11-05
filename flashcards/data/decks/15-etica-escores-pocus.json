@@ -1,0 +1,457 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::15 ⚖️ Ética, Escores, Qualidade e POCUS",
+ "cards": [
+  {
+   "subtema": "Escores e qualidade",
+   "frente": "📊 Componentes do <b>SOFA</b>?",
+   "verso": "<table class=t><tr><th>Sistema</th><th>Variável</th></tr><tr><td>🫁 Respiratório</td><td>PaO₂/FiO₂</td></tr><tr><td>🩸 Coagulação</td><td>Plaquetas</td></tr><tr><td>🟡 Hepático</td><td>Bilirrubina</td></tr><tr><td>❤️ Cardiovascular</td><td>PAM / vasopressor</td></tr><tr><td>🧠 SNC</td><td>Glasgow</td></tr><tr><td>🫘 Renal</td><td>Creatinina / diurese</td></tr></table>",
+   "pegadinha": "0–4 pontos cada (total 0–24). Conferir se a versão atualizada (SOFA-2, proposta em 2025) entrou no edital.",
+   "fonte": "Vincent 1996",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Escores e qualidade",
+   "frente": "📊 <b>SAPS 3 × APACHE II</b>?",
+   "verso": "<table class=t><tr><th></th><th>SAPS 3</th><th>APACHE II</th></tr><tr><td>Janela</td><td><b>1ª hora</b> da admissão</td><td>Piores valores em 24 h</td></tr><tr><td>Diferencial</td><td>Customização regional (América Latina)</td><td>12 variáveis + idade + doença crônica</td></tr></table>",
+   "fonte": "Moreno 2005; Knaus 1985",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Escores e qualidade",
+   "frente": "📈 <b>Taxa de mortalidade padronizada</b> (SMR)?",
+   "verso": "SMR = mortalidade <b>observada / esperada</b><br>🟢 &lt; 1 → melhor que o previsto",
+   "fonte": "Qualidade em UTI",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Escores e qualidade",
+   "frente": "🫁 Alvo de <b>oxigenação</b> no crítico?",
+   "verso": "SpO₂ <b>92–96%</b> (evitar hiperóxia) | hipercápnico: 88–92%",
+   "pegadinha": "IOTA (Lancet 2018): liberal ↑ mortalidade. HOT-ICU/ICU-ROX: sem diferença.",
+   "fonte": "IOTA 2018; BTS 2017",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Escores e qualidade",
+   "frente": "📈 Indicadores de qualidade em UTI?",
+   "verso": "Densidade de PAV, ICS e ITU-AC; readmissão &lt; 48 h; extubação não planejada; SMR; úlcera por pressão.",
+   "fonte": "AMIB/ANVISA",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Escores e qualidade",
+   "frente": "🧮 <b>Densidade de incidência</b>?",
+   "verso": "Nº de infecções / nº de dispositivo-dia × <b>1.000</b> (ex.: PAV por 1.000 VM-dia).",
+   "fonte": "ANVISA",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Escores e qualidade",
+   "frente": "👩‍⚕️ <b>NAS</b> (Nursing Activities Score)?",
+   "verso": "Mede carga de trabalho de enfermagem (% do tempo de um profissional em 24 h).",
+   "fonte": "Miranda 2003",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Escores e qualidade",
+   "frente": "🍔 Checklist <b>FAST HUG</b>?",
+   "verso": "Feeding, Analgesia, Sedation, Thromboprophylaxis, Head elevation, Ulcer prophylaxis, Glucose control.",
+   "fonte": "Vincent 2005",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "🔢 <b>NNT</b>: como calcular?",
+   "verso": "<b class=c>NNT = 1 / RRA</b> (redução absoluta de risco)<br>Ex.: mortalidade 32,8% → 16% (PROSEVA): RRA 16,8% → NNT ≈ 6",
+   "fonte": "Bioestatística",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "📐 Tabela 2×2: sensibilidade, especificidade, VPP, VPN?",
+   "verso": "<table class=t><tr><th></th><th>Doente</th><th>Sadio</th></tr><tr><td>Teste +</td><td>a (VP)</td><td>b (FP)</td></tr><tr><td>Teste −</td><td>c (FN)</td><td>d (VN)</td></tr></table>S = a/(a+c) | E = d/(b+d) | VPP = a/(a+b) | VPN = d/(c+d)",
+   "pegadinha": "Valores preditivos dependem da prevalência; S e E, não.",
+   "fonte": "Bioestatística",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "📊 Intenção de tratar × por protocolo?",
+   "verso": "ITT: analisa como randomizado (preserva randomização)<br>Por protocolo: só quem aderiu → útil em <b>não inferioridade</b>",
+   "fonte": "Bioestatística",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "📊 RR, RRR e OR?",
+   "verso": "RR = risco tratado/controle | RRR = 1 − RR | OR = razão de chances (≈ RR se evento raro).",
+   "fonte": "Bioestatística",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "⚠️ Erro tipo I × II?",
+   "verso": "I (α): falso positivo | II (β): falso negativo → <b>poder = 1 − β</b> (geralmente 80%).",
+   "fonte": "Bioestatística",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "📉 <b>Curva ROC</b>?",
+   "verso": "Sensibilidade × (1 − especificidade); AUC 0,5 = acaso, 1,0 = perfeito, &gt; 0,8 bom.",
+   "fonte": "Bioestatística",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "🔢 <b>Razão de verossimilhança</b>?",
+   "verso": "LR+ = S/(1 − E) → &gt; 10 confirma | LR− = (1 − S)/E → &lt; 0,1 exclui.",
+   "fonte": "Bioestatística",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "🧱 <b>Índice de fragilidade</b>?",
+   "verso": "Nº de eventos a mudar para o resultado perder significância → baixo em muitos ECRs de UTI.",
+   "fonte": "Ridgeon 2016",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Bioestatística e evidência",
+   "frente": "🏷️ Sistema <b>GRADE</b>?",
+   "verso": "Qualidade: alta, moderada, baixa, muito baixa | Força: forte ('recomenda') × fraca ('sugere').",
+   "pegadinha": "Diretrizes como a SSC usam essa linguagem.",
+   "fonte": "GRADE",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "🔊 Protocolo <b>BLUE</b> (POCUS pulmonar)?",
+   "verso": "<table class=t><tr><th>Padrão</th><th>Sugere</th></tr><tr><td>Linhas A + deslizamento</td><td>Asma/DPOC (TEP se TVP)</td></tr><tr><td>Linhas B difusas bilaterais</td><td>EAP</td></tr><tr><td>Sem deslizamento + ponto pulmonar</td><td><b>Pneumotórax</b></td></tr><tr><td>Consolidação / derrame</td><td>Pneumonia</td></tr></table>",
+   "fonte": "Lichtenstein 2008",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "🏖️ USG no <b>pneumotórax</b>?",
+   "verso": "❌ Ausência de deslizamento pleural<br>📊 Modo M: <b>'código de barras'</b> (estratosfera) × 'praia' (normal)<br>🎯 <b>Ponto pulmonar = 100% específico</b>",
+   "fonte": "Lichtenstein",
+   "imagem": "img_mmode.png",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "🔊 Janelas do <b>eFAST</b>?",
+   "verso": "<ul><li>Pericárdio (subxifoide)</li><li>Hepatorrenal (Morison)</li><li>Esplenorrenal</li><li>Pelve (retrovesical)</li><li>Pulmões bilaterais (pneumotórax)</li></ul>",
+   "fonte": "ATLS",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "🫀 Sinais ecocardiográficos de <b>TEP</b>?",
+   "verso": "<ul><li>VD dilatado (<b>VD/VE &gt; 1</b>)</li><li><b>Sinal de McConnell</b>: acinesia da parede livre com ápice poupado</li><li>Sinal 60/60</li><li>Septo em 'D'</li></ul>",
+   "fonte": "ESC 2019",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "💉 Melhor sítio de <b>CVC</b>?",
+   "verso": "Subclávia: <b>↓ infecção e trombose</b>, ↑ pneumotórax<br>✅ Guiado por <b>USG</b> sempre que possível",
+   "fonte": "3SITES NEJM 2015",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "🔊 Quantas linhas B indicam síndrome intersticial?",
+   "verso": "≥ <b>3 linhas B</b> por espaço intercostal em ≥ 2 regiões bilaterais.",
+   "fonte": "Volpicelli 2012",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "🫀 <b>TAPSE</b>?",
+   "verso": "Excursão sistólica do anel tricúspide → &lt; <b>17 mm</b> = disfunção de VD.",
+   "fonte": "ASE 2015",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "💉 Pericardiocentese guiada por USG?",
+   "verso": "Via de maior coleção e mais próxima (frequentemente apical/paraesternal) ou subxifoide.",
+   "fonte": "ESC 2015",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "🫧 <b>Embolia gasosa</b> no CVC?",
+   "verso": "Pinçar, O₂ 100%, <b>decúbito lateral esquerdo + Trendelenburg</b> (Durant), aspirar pelo cateter.",
+   "pegadinha": "Prevenir: Trendelenburg na passagem/retirada da jugular/subclávia.",
+   "fonte": "Procedimentos",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "POCUS e procedimentos",
+   "frente": "✅ Confirmação da posição do CVC?",
+   "verso": "USG em tempo real + confirmação venosa (transdução/gasometria) + RX ou USG com bolhas (pneumotórax).",
+   "fonte": "Procedimentos",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "⚖️ Resoluções do <b>CFM</b> sobre terminalidade?",
+   "verso": "<table class=t><tr><th>Resolução</th><th>Tema</th></tr><tr><td>1.805/2006</td><td><b>Ortotanásia</b> – limitar tratamentos fúteis</td></tr><tr><td>1.995/2012</td><td><b>Diretivas antecipadas de vontade</b></td></tr></table>",
+   "pegadinha": "Eutanásia é crime no Brasil; ortotanásia é ética.",
+   "fonte": "CFM",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "🫀 Morte encefálica e <b>doação</b>: obrigação legal?",
+   "verso": "Notificação <b>compulsória</b> à CIHDOTT/OPO (Lei 9.434/1997) e comunicação à família, independente da intenção de doar.",
+   "fonte": "Lei 9.434/1997; CFM 2.173/2017",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "🏥 Critérios de <b>admissão em UTI</b> (CFM 2.156/2016)?",
+   "verso": "<table class=t><tr><th>Prioridade</th><th>Perfil</th></tr><tr><td>1</td><td>Suporte de vida, alta chance de recuperação, sem limitação</td></tr><tr><td>2</td><td>Monitorização (risco de intervenção), sem limitação</td></tr><tr><td>3</td><td>Suporte de vida, baixa chance de recuperação ou com limitação</td></tr><tr><td>4</td><td>Monitorização, com limitação terapêutica</td></tr><tr><td>5</td><td>Terminal sem possibilidade de recuperação (exceto potencial doador)</td></tr></table>",
+   "fonte": "Res. CFM 2.156/2016",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "👥 Dimensionamento mínimo de equipe na UTI (RDC 7/2010)?",
+   "verso": "<table class=t><tr><th>Profissional</th><th>Proporção</th></tr><tr><td>Médico diarista</td><td>1 : 10 leitos (manhã e tarde)</td></tr><tr><td>Médico plantonista</td><td>1 : 10 por turno</td></tr><tr><td>Enfermeiro</td><td>1 : 8 por turno</td></tr><tr><td>Técnico de enfermagem</td><td>1 : 2 por turno</td></tr><tr><td>Fisioterapeuta</td><td>1 : 10, 18 h/dia</td></tr></table>",
+   "pegadinha": "⚠️ Conferir atualizações (RDC 26/2012 e normas posteriores) antes da prova.",
+   "fonte": "ANVISA RDC 7/2010",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "🗣️ Protocolo <b>SPIKES</b> para más notícias?",
+   "verso": "<table class=t><tr><th>Letra</th><th>Etapa</th></tr><tr><td>S</td><td>Setting – ambiente adequado</td></tr><tr><td>P</td><td>Perception – o que a família sabe</td></tr><tr><td>I</td><td>Invitation – quanto querem saber</td></tr><tr><td>K</td><td>Knowledge – informar (sem jargão)</td></tr><tr><td>E</td><td>Emotions – acolher emoções</td></tr><tr><td>S</td><td>Strategy/Summary – plano</td></tr></table>",
+   "fonte": "Baile 2000",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "⚖️ Eutanásia, distanásia, ortotanásia, mistanásia?",
+   "verso": "<table class=t><tr><th>Termo</th><th>Significado</th></tr><tr><td>Eutanásia</td><td>Abreviar a vida (crime no Brasil)</td></tr><tr><td>Distanásia</td><td>Prolongar o morrer com futilidade</td></tr><tr><td>Ortotanásia</td><td>Morte no tempo natural com conforto (ética – CFM 1.805/2006)</td></tr><tr><td>Mistanásia</td><td>Morte evitável por abandono/falta de acesso</td></tr></table>",
+   "fonte": "CFM",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "👪 Quem decide pelo paciente incapaz?",
+   "verso": "Diretivas antecipadas → representante legal/família; sempre registrar no prontuário.",
+   "fonte": "CFM 1.995/2012",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "📁 Guarda do <b>prontuário</b>?",
+   "verso": "Mínimo de <b>20 anos</b> a partir do último registro (papel); digital conforme Lei 13.787/2018.",
+   "fonte": "CFM 1.821/2007",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ética, legislação e terminalidade",
+   "frente": "🩸 Recusa de transfusão (Testemunha de Jeová) adulto capaz?",
+   "verso": "Recusa terapêutica é <b>direito</b> do adulto capaz e informado (CFM 2.232/2019), exceto 'abuso de direito' (ex.: risco à saúde pública, gestante e feto) → documentar.",
+   "fonte": "Res. CFM 2.232/2019",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Pós-UTI e reabilitação",
+   "frente": "👴 <b>Clinical Frailty Scale</b>?",
+   "verso": "Escala 1–9: <b>≥ 5 = frágil</b> → pior prognóstico em idosos críticos",
+   "fonte": "Rockwood 2005",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Pós-UTI e reabilitação",
+   "frente": "🧠 <b>PICS</b> – síndrome pós-cuidados intensivos?",
+   "verso": "Comprometimento <b>cognitivo + psíquico + físico</b> (PICS-F na família)<br>💪 Fraqueza adquirida na UTI: <b>MRC &lt; 48</b>",
+   "fonte": "SCCM 2012",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Pós-UTI e reabilitação",
+   "frente": "🚶 <b>Mobilização precoce</b> intensiva?",
+   "verso": "TEAM (2022): sem ↑ dias vivos fora do hospital e <b>mais eventos adversos</b> → individualizar.",
+   "fonte": "TEAM NEJM 2022",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Pós-UTI e reabilitação",
+   "frente": "📔 <b>Diário de UTI</b>?",
+   "verso": "Reduz sintomas de estresse pós-traumático em pacientes e familiares.",
+   "fonte": "Jones Crit Care 2010",
+   "tags": [
+    "TEMI2028",
+    "T15",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {
+  "img_mmode.png": "data/media/img_mmode.png"
+ }
+}

@@ -1,0 +1,459 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::10 🧫 Infecção e Antimicrobianos",
+ "cards": [
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🫁 <b>PAV</b>: definição e duração do tratamento?",
+   "verso": "Pneumonia após <b>&gt; 48 h de VM</b>.<br>⏱️ Tratamento: <b class=c>7 dias</b>.",
+   "fonte": "IDSA/ATS 2016",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🦠 Fatores de risco para <b>MDR</b> na PAV?",
+   "verso": "<ul><li>ATB IV nos últimos <b>90 dias</b></li><li>Choque séptico no momento da PAV</li><li>SDRA precedendo a PAV</li><li>≥ 5 dias de internação antes</li><li>TRS aguda prévia</li></ul>",
+   "pegadinha": "Com fator de risco: 2 antipseudomonas + cobertura MRSA (se prevalência &gt; 10–20%).",
+   "fonte": "IDSA/ATS 2016",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🛡️ Bundle de <b>prevenção de PAV</b>?",
+   "verso": "<ul><li>🛏️ Cabeceira 30–45°</li><li>⏰ Despertar diário + TRE</li><li>🫧 Aspiração subglótica</li><li>🎈 Cuff 20–30 cmH₂O</li><li>🦷 Higiene oral</li><li>🔄 Não trocar circuito de rotina</li></ul>",
+   "fonte": "SHEA/IDSA 2022",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "💉 <b>Infecção de corrente associada a cateter</b>: prevenção e diagnóstico?",
+   "verso": "🛡️ Inserção: higiene das mãos, barreira máxima, <b>clorexidina alcoólica</b>, evitar femoral, revisar necessidade diária<br>🔬 Diagnóstico: <b>tempo diferencial de positividade ≥ 2 h</b> (cateter × periférica)",
+   "fonte": "IDSA 2009; SHEA 2022",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "💩 <b>C. difficile</b>: tratamento?",
+   "verso": "<table class=t><tr><th>Forma</th><th>Tratamento</th></tr><tr><td>Não grave/grave</td><td><b>Fidaxomicina</b> 200 mg 12/12h ou vancomicina VO 125 mg 6/6h × 10 d</td></tr><tr><td>Fulminante</td><td>Vancomicina VO 500 mg 6/6h + <b>metronidazol IV</b> ± vanco retal</td></tr></table>",
+   "pegadinha": "Metronidazol VO isolado saiu da 1ª linha.",
+   "fonte": "IDSA/SHEA 2021",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🚽 ITU associada a cateter vesical?",
+   "verso": "Urocultura só se <b>sintomático</b>; trocar a SVD antes de colher; ~7 dias de tratamento.",
+   "fonte": "IDSA 2009",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🧫 <b>Bacteriúria assintomática</b>?",
+   "verso": "<b>Não tratar</b> (exceto gestante e antes de procedimento urológico com sangramento de mucosa).",
+   "fonte": "IDSA 2019",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🫁 Pneumonia hospitalar (não PAV): duração?",
+   "verso": "<b>7 dias</b>.",
+   "fonte": "IDSA/ATS 2016",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Resistência bacteriana",
+   "frente": "🔴 Tratamento de <b>KPC</b> e <b>metalo-betalactamase</b> (NDM)?",
+   "verso": "<table class=t><tr><th>Mecanismo</th><th>Opções</th></tr><tr><td>KPC</td><td>Ceftazidima-avibactam, meropenem-vaborbactam, imipenem-relebactam</td></tr><tr><td>NDM/MBL</td><td><b>Ceftazidima-avibactam + aztreonam</b> ou cefiderocol</td></tr></table>",
+   "fonte": "IDSA AMR Guidance 2024",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Resistência bacteriana",
+   "frente": "🟢 <b>Pseudomonas DTR</b> (difícil de tratar)?",
+   "verso": "Ceftolozano-tazobactam, ceftazidima-avibactam, imipenem-relebactam; cefiderocol como alternativa.",
+   "fonte": "IDSA 2024",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Resistência bacteriana",
+   "frente": "🟤 <b>Acinetobacter</b> resistente a carbapenêmico (CRAB)?",
+   "verso": "✅ <b>Sulbactam-durlobactam + carbapenêmico</b> (preferido)<br>🔄 Alternativa: <b>ampicilina-sulbactam alta dose</b> + outro agente (polimixina, minociclina, cefiderocol)",
+   "fonte": "IDSA 2024",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Resistência bacteriana",
+   "frente": "🟣 <b>ESBL</b> em bacteremia: droga?",
+   "verso": "<b class=c>Carbapenêmico</b> (meropenem/ertapenem).",
+   "pegadinha": "MERINO (2018): pip-tazo inferior (↑ mortalidade) em E. coli/Klebsiella R a ceftriaxona.",
+   "fonte": "MERINO JAMA 2018",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Resistência bacteriana",
+   "frente": "☠️ <b>Polimixinas</b>?",
+   "verso": "Nefro e neurotoxicidade; polimixina B preferida a colistina (exceto ITU); dose de ataque; evitar monoterapia quando houver alternativa.",
+   "fonte": "Consenso internacional 2019",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Resistência bacteriana",
+   "frente": "🟢 <b>VRE</b>?",
+   "verso": "Linezolida ou <b>daptomicina em dose alta</b> (8–12 mg/kg).",
+   "fonte": "IDSA",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Resistência bacteriana",
+   "frente": "🫁 Pneumonia por <b>MRSA</b>?",
+   "verso": "Vancomicina ou linezolida (ZEPHyR).<br>❌ <b>Daptomicina não</b> (inativada pelo surfactante)",
+   "fonte": "ZEPHyR 2012",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Resistência bacteriana",
+   "frente": "🟤 <b>Stenotrophomonas</b>?",
+   "verso": "SMX-TMP (base), levofloxacino, minociclina, cefiderocol; casos graves: combinação.",
+   "pegadinha": "Intrinsecamente resistente a carbapenêmicos.",
+   "fonte": "IDSA 2024",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "⏱️ Parâmetros <b>PK/PD</b> dos antimicrobianos?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Parâmetro</th><th>Estratégia</th></tr><tr><td>Betalactâmicos</td><td><b>fT &gt; MIC</b></td><td>Infusão estendida</td></tr><tr><td>Aminoglicosídeos</td><td><b>Cmáx/MIC</b></td><td>Dose única diária</td></tr><tr><td>Vancomicina, quinolonas</td><td><b>AUC/MIC</b></td><td>Dose total adequada</td></tr></table>",
+   "pegadinha": "Sepse ↑ Vd (hidrofílicos) → doses de ataque maiores.",
+   "fonte": "Roberts 2014",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "🧪 Monitorização da <b>vancomicina</b>?",
+   "verso": "🎯 <b>AUC/MIC 400–600</b> (preferível ao vale 15–20, que ↑ nefrotoxicidade)",
+   "fonte": "ASHP/IDSA 2020",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "🧫 Duração curta de ATB: exemplos com evidência?",
+   "verso": "<table class=t><tr><th>Infecção</th><th>Duração</th></tr><tr><td>PAV</td><td>7 dias</td></tr><tr><td>PAC</td><td>5 dias (se estável)</td></tr><tr><td>Intra-abdominal com foco controlado</td><td>4 dias (STOP-IT)</td></tr><tr><td>Bacteremia GN não complicada</td><td>7 dias (BALANCE)</td></tr></table>",
+   "fonte": "IDSA; STOP-IT 2015; BALANCE 2024",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "🔬 Indicação de <b>desescalonamento</b>?",
+   "verso": "Reavaliar ATB em <b>48–72 h</b> com culturas → reduzir espectro, suspender o desnecessário.",
+   "fonte": "SSC 2021",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "💉 Aminoglicosídeo em dose única diária?",
+   "verso": "Gentamicina <b>5–7 mg/kg</b> | Amicacina <b>15–20 mg/kg</b> (25–30 no crítico)",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "⚠️ Toxicidades da <b>linezolida</b>?",
+   "verso": "Mielotoxicidade (trombocitopenia &gt; 10–14 dias), síndrome serotoninérgica, acidose lática, neuropatia.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "🧠 Neurotoxicidade da <b>cefepima</b>?",
+   "verso": "Encefalopatia/mioclonia/EME não convulsivo, sobretudo na <b>IR</b> com dose não ajustada.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "💊 Carbapenêmico + <b>valproato</b>?",
+   "verso": "Carbapenêmico ↓ nível de valproato drasticamente → crises; trocar o ATB ou o anticonvulsivante.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PK/PD e uso de antimicrobianos",
+   "frente": "💪 <b>Daptomicina</b>?",
+   "verso": "Bactericida para gram-positivos; monitorar <b>CPK</b> semanal; não para pneumonia.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Infecções comunitárias graves",
+   "frente": "🟡 <b>Bacteremia por S. aureus</b>?",
+   "verso": "<ul><li>🫀 ECO (transtorácico ± transesofágico)</li><li>🔁 Hemoculturas de controle</li><li>🔪 Remover foco</li><li>💊 MSSA: <b>oxacilina/cefazolina</b> &gt; vancomicina</li><li>⏱️ ≥ 14 dias (não complicada); 4–6 semanas (complicada)</li></ul>",
+   "pegadinha": "Nunca tratar S. aureus em hemocultura como contaminante.",
+   "fonte": "IDSA 2011",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Infecções comunitárias graves",
+   "frente": "🧪 Meningite bacteriana: esquema empírico no adulto?",
+   "verso": "💉 <b>Ceftriaxona 2 g 12/12h + vancomicina</b><br>➕ <b>Ampicilina</b> se &gt; 50 anos, imunossupressão, gestante (Listeria)<br>💊 <b>Dexametasona 0,15 mg/kg 6/6h × 4 dias</b>, antes/junto da 1ª dose",
+   "pegadinha": "Dexametasona ↓ mortalidade e surdez no pneumococo.",
+   "fonte": "IDSA 2004; ESCMID 2016",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Infecções comunitárias graves",
+   "frente": "🩻 Quando fazer <b>TC antes da punção lombar</b>?",
+   "verso": "<ul><li>Imunossupressão</li><li>Doença prévia do SNC</li><li>Crise convulsiva nova (&lt; 1 semana)</li><li>Papiledema</li><li>Rebaixamento</li><li>Déficit focal</li></ul>",
+   "pegadinha": "Nunca atrasar o ATB pela TC.",
+   "fonte": "IDSA 2004",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Infecções comunitárias graves",
+   "frente": "🫁 <b>PAC grave</b>: esquema empírico?",
+   "verso": "Betalactâmico (ceftriaxona/ampicilina-sulbactam) + <b>macrolídeo</b> (ou quinolona respiratória).",
+   "pegadinha": "Critérios maiores IDSA/ATS: VM ou choque séptico.",
+   "fonte": "IDSA/ATS 2019",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Infecções comunitárias graves",
+   "frente": "💊 <b>Hidrocortisona</b> na PAC grave?",
+   "verso": "CAPE COD: hidrocortisona 200 mg/dia (4–8 dias) → <b>↓ mortalidade em 28 dias</b>.",
+   "pegadinha": "Excluídos: influenza e choque séptico na admissão.",
+   "fonte": "CAPE COD NEJM 2023",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Infecções comunitárias graves",
+   "frente": "🫀 <b>Endocardite</b>: indicações de cirurgia?",
+   "verso": "IC, abscesso/bloqueio, infecção não controlada, fungos ou germes resistentes, vegetação &gt; 10 mm com embolia.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fungos e imunossuprimidos",
+   "frente": "🍄 <b>Candidemia</b>: conduta?",
+   "verso": "<ul><li>💊 <b>Equinocandina</b> de 1ª linha</li><li>🔌 Remover CVC</li><li>👁️ Fundoscopia</li><li>⏱️ Tratar <b>14 dias após 1ª hemocultura negativa</b></li></ul>",
+   "fonte": "IDSA 2016",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fungos e imunossuprimidos",
+   "frente": "🌡️ <b>Neutropenia febril</b>: esquema?",
+   "verso": "💉 Betalactâmico antipseudomonas (<b>cefepima, pip-tazo, meropenem</b>) em até <b>1 h</b><br>➕ Vancomicina: instabilidade, mucosite, cateter, pele, pneumonia, MRSA",
+   "fonte": "IDSA 2010; ASCO 2018",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fungos e imunossuprimidos",
+   "frente": "🫁 <b>Pneumocistose</b>?",
+   "verso": "SMX-TMP 15–20 mg/kg/dia de TMP × 21 dias<br>➕ <b>Prednisona</b> se PaO₂ &lt; 70 ou gradiente A-a ≥ 35",
+   "fonte": "CDC/IDSA HIV",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fungos e imunossuprimidos",
+   "frente": "🍄 <b>Aspergilose invasiva</b>?",
+   "verso": "Neutropênico/transplantado, sinal do halo na TC, galactomanana ↑ → <b>voriconazol</b> (ou isavuconazol).",
+   "fonte": "IDSA 2016",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fungos e imunossuprimidos",
+   "frente": "🧠 <b>Criptococose meníngea</b>?",
+   "verso": "Anfotericina lipossomal + flucitosina; <b>punções de alívio</b> se pressão de abertura &gt; 25 cmH₂O.",
+   "fonte": "WHO 2022",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Doenças tropicais e endêmicas",
+   "frente": "🐀 <b>Leptospirose grave</b> (Weil)?",
+   "verso": "🟡 Icterícia rubínica + LRA <b>não oligúrica com hipocalemia</b> + hemorragia pulmonar<br>💉 Penicilina cristalina ou <b>ceftriaxona</b><br>🩸 Diálise precoce",
+   "pegadinha": "Hemorragia pulmonar = principal causa de morte. Ceará: atenção na quadra chuvosa!",
+   "fonte": "MS Brasil",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Doenças tropicais e endêmicas",
+   "frente": "🦟 <b>Dengue</b>: sinais de alarme e grupo D?",
+   "verso": "⚠️ Dor abdominal intensa, vômitos persistentes, acúmulo de líquidos, sangramento de mucosa, letargia, hepatomegalia &gt; 2 cm, ↑ Ht com ↓ plaquetas<br>🔴 <b>Grupo D (choque)</b>: <b>20 mL/kg em 20 min</b>, repetir até 3×",
+   "pegadinha": "Fase crítica = defervescência (3º–7º dia).",
+   "fonte": "MS Brasil 2024",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Doenças tropicais e endêmicas",
+   "frente": "🦟 <b>Malária grave</b> (P. falciparum)?",
+   "verso": "<b>Artesunato IV 2,4 mg/kg</b> em 0, 12 e 24 h, depois 1×/dia.",
+   "fonte": "OMS; MS Brasil",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Doenças tropicais e endêmicas",
+   "frente": "🔩 <b>Tétano</b> na UTI?",
+   "verso": "Metronidazol, imunoglobulina antitetânica, BZD, <b>sulfato de magnésio</b> para espasmos/disautonomia, traqueostomia precoce.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "TEMI2028",
+    "T10",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {}
+}

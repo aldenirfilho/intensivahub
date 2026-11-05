@@ -1,0 +1,466 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::09 ⚡ Cardiointensivismo e PCR",
+ "cards": [
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "⚡ Ritmos <b>chocáveis × não chocáveis</b>?",
+   "verso": "<table class=t><tr><th>Chocáveis ⚡</th><th>Não chocáveis 🚫</th></tr><tr><td>FV</td><td>Assistolia</td></tr><tr><td>TV sem pulso</td><td>AESP</td></tr></table>",
+   "pegadinha": "Assistolia: checar cabos, ganho e derivações (protocolo da linha reta).",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "💪 RCP de <b>alta qualidade</b>?",
+   "verso": "<ul><li>🔁 <b>100–120/min</b></li><li>📏 <b>5–6 cm</b> de profundidade</li><li>↩️ Retorno total do tórax</li><li>⏸️ Pausas &lt; 10 s</li><li>🔄 Trocar compressor a cada 2 min</li><li>🫁 30:2 sem via aérea avançada; com VA avançada: 1 ventilação a cada 6 s</li></ul>",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "💉 <b>Adrenalina</b> na PCR?",
+   "verso": "<b class=c>1 mg IV/IO a cada 3–5 min</b><br>🚫 Não chocável: o mais cedo possível<br>⚡ Chocável: após o 2º choque",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "💉 Antiarrítmicos na FV/TV sem pulso?",
+   "verso": "<table class=t><tr><th>Droga</th><th>1ª dose</th><th>2ª dose</th></tr><tr><td>Amiodarona</td><td><b>300 mg</b></td><td>150 mg</td></tr><tr><td>Lidocaína</td><td>1–1,5 mg/kg</td><td>0,5–0,75 mg/kg</td></tr></table>",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "🔍 Causas reversíveis: <b>5H e 5T</b>?",
+   "verso": "<table class=t><tr><th>5H</th><th>5T</th></tr><tr><td>Hipovolemia</td><td>Tensão (pneumotórax)</td></tr><tr><td>Hipóxia</td><td>Tamponamento</td></tr><tr><td>H⁺ (acidose)</td><td>Toxinas</td></tr><tr><td>Hipo/hipercalemia</td><td>Trombose pulmonar</td></tr><tr><td>Hipotermia</td><td>Trombose coronária</td></tr></table>",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "📈 <b>Capnografia</b> na PCR?",
+   "verso": "🔴 EtCO₂ <b>&lt; 10 mmHg</b> após 20 min → prognóstico ruim<br>🟢 ↑ súbito para <b>&gt; 35–40</b> → provável RCE<br>✅ Confirma posição do tubo",
+   "pegadinha": "Curva em 'barbatana de tubarão' = broncoespasmo.",
+   "fonte": "AHA",
+   "imagem": "img_capno.png",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "⚡ Energia de <b>desfibrilação</b>?",
+   "verso": "Bifásico: <b>120–200 J</b> (recomendação do fabricante) ou máximo | Monofásico: <b>360 J</b>.",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "💉 <b>Vasopressina</b> na PCR?",
+   "verso": "Sem vantagem sobre adrenalina → <b>removida</b> do algoritmo (pode ser associada em contextos específicos).",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "🌀 Quem é candidato a <b>ECPR</b>?",
+   "verso": "PCR presenciada, RCP imediata, ritmo chocável, &lt; 70 anos, causa reversível, tempo de baixo fluxo &lt; 60 min, centro com ECMO.",
+   "fonte": "ELSO; ARREST 2020",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "🤰 PCR na <b>gestante</b>?",
+   "verso": "Deslocamento uterino manual à esquerda; ≥ 20 semanas → <b>cesárea perimortem em 4–5 min</b> se sem RCE.",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "⚡ PCR por <b>hipercalemia</b>?",
+   "verso": "Cálcio IV + bicarbonato + insulina/glicose + diálise (considerar durante RCP prolongada).",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "PCR e ressuscitação",
+   "frente": "💉 Toxicidade por <b>anestésico local</b> (LAST)?",
+   "verso": "<b>Emulsão lipídica 20%</b> 1,5 mL/kg bolus + 0,25 mL/kg/min; adrenalina em doses menores (≤ 1 mcg/kg).",
+   "fonte": "ASRA 2020",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🌡️ Cuidados <b>pós-PCR</b>?",
+   "verso": "<ul><li>🌡️ Controle de temperatura: <b>evitar febre</b> (≤ 37,5 °C) por ≥ 72 h</li><li>🩺 PAM ≥ 65</li><li>🫁 SpO₂ 92–98%, normocapnia</li><li>🫀 ECG/CATE se IAMCSST</li></ul>",
+   "pegadinha": "TTM2 (2021): 33 × 37,5 °C sem diferença.",
+   "fonte": "TTM2 NEJM 2021; ERC-ESICM 2021",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🔮 <b>Prognóstico neurológico</b> pós-PCR?",
+   "verso": "⏱️ ≥ <b>72 h</b> após RCE, multimodal (≥ 2 preditores):<br><ul><li>Ausência de reflexo pupilar e corneano</li><li>NSE &gt; 60 µg/L em 48/72 h</li><li>EEG altamente maligno</li><li>PESS: ausência bilateral de N20</li><li>Edema difuso em TC/RM</li><li>Mioclonia status ≤ 72 h</li></ul>",
+   "fonte": "ERC-ESICM 2021",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🫀 CATE imediato pós-PCR <b>sem</b> supra de ST?",
+   "verso": "COACT e TOMAHAWK: <b>sem benefício</b> da angiografia imediata.",
+   "fonte": "COACT NEJM 2019; TOMAHAWK NEJM 2021",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🎯 Metas pós-PCR: PAM e O₂?",
+   "verso": "BOX: PAM 63 × 77 e PaO₂ 68–75 × 98–105 → <b>sem diferença</b>.",
+   "pegadinha": "Evitar hipotensão e hipóxia/hiperóxia extremas.",
+   "fonte": "BOX NEJM 2022",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "⚡ Crises/mioclonia pós-PCR?",
+   "verso": "Tratar crises eletrográficas; sem profilaxia (TELSTAR: tratar atividade rítmica não melhorou desfecho).",
+   "fonte": "TELSTAR NEJM 2022",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "⚡ <b>Cardioversão sincronizada</b>: energias?",
+   "verso": "<table class=t><tr><th>Ritmo</th><th>Energia (bifásico)</th></tr><tr><td>FA</td><td>120–200 J (tendência a iniciar alto)</td></tr><tr><td>Flutter / TSV</td><td>50–100 J</td></tr><tr><td>TV monomórfica com pulso</td><td>100 J</td></tr><tr><td>TV polimórfica</td><td><b>Desfibrilar</b> (não sincronizar)</td></tr></table>",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "💓 <b>TSV estável</b>: conduta?",
+   "verso": "1️⃣ Manobra vagal (Valsalva modificada)<br>2️⃣ <b>Adenosina 6 mg</b> em bolus rápido + flush → <b>12 mg</b><br>3️⃣ BB/BCC ou cardioversão",
+   "pegadinha": "Valsalva modificada (REVERT): elevar pernas após o esforço → dobra a taxa de reversão.",
+   "fonte": "AHA; REVERT 2015",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "⚠️ <b>FA pré-excitada (WPW)</b>: o que evitar?",
+   "verso": "❌ <b class=r>Bloqueadores do nó AV</b>: adenosina, BB, BCC, digoxina (e amiodarona IV)<br>✅ Procainamida/ibutilida ou <b>cardioversão</b>",
+   "pegadinha": "Bloquear o nó AV → condução pela via acessória → FV.",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🌀 Tratamento de <b>torsades de pointes</b>?",
+   "verso": "<ul><li>💉 Sulfato de Mg 2 g IV</li><li>⚡ Desfibrilar se sem pulso</li><li>🫀 Overdrive pacing / isoproterenol</li><li>🧪 Corrigir K/Mg</li><li>❌ Suspender drogas que ↑ QT</li></ul>",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🐢 <b>Bradicardia instável</b>?",
+   "verso": "💉 <b>Atropina 1 mg</b> a cada 3–5 min (máx 3 mg)<br>⚡ Marca-passo transcutâneo<br>💉 Dopamina 5–20 mcg/kg/min ou adrenalina 2–10 mcg/min",
+   "pegadinha": "Atropina não funciona em BAV de alto grau infranodal nem em transplantado cardíaco.",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "💓 <b>FA de alta resposta</b> na UTI?",
+   "verso": "Instável → cardioversão | Estável: BB/BCC se PA ok; <b>amiodarona</b> se hipotensão/IC; digoxina adjuvante.",
+   "fonte": "ESC 2024",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "📊 <b>CHA₂DS₂-VA</b>?",
+   "verso": "IC, HAS, idade ≥ 75 (2), DM, AVC/AIT (2), doença vascular, idade 65–74 → anticoagular se ≥ 2 (considerar 1).",
+   "pegadinha": "ESC 2024 retirou o sexo feminino (CHA₂DS₂-VA).",
+   "fonte": "ESC 2024",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🦷 <b>Flutter atrial</b>?",
+   "verso": "Ondas F 'dente de serra' ~300 bpm em DII, DIII, aVF; condução 2:1 → FC ≈ <b>150</b>.",
+   "pegadinha": "FC fixa em 150 = pense em flutter.",
+   "fonte": "Cardiologia",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "⚖️ <b>TV × TSV com aberrância</b>?",
+   "verso": "Dissociação AV, batimentos de fusão/captura, concordância precordial → TV.<br>👉 Na dúvida, <b>tratar como TV</b>",
+   "pegadinha": "Verapamil em TV → colapso.",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🧱 <b>Bloqueios AV</b>?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>ECG</th><th>Conduta</th></tr><tr><td>1º grau</td><td>PR &gt; 200 ms</td><td>Observar</td></tr><tr><td>Mobitz I</td><td>PR alarga até falhar</td><td>Geralmente benigno</td></tr><tr><td>Mobitz II</td><td>PR fixo + falha súbita</td><td>Marca-passo</td></tr><tr><td>BAVT</td><td>Dissociação AV</td><td>Marca-passo</td></tr></table>",
+   "fonte": "Cardiologia",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 <b>Síndrome de Brugada</b>?",
+   "verso": "Supra ST côncavo em V1–V2 (tipo 1) → FV; <b>febre desencadeia</b> → antipirético<br>Tempestade: isoproterenol, quinidina",
+   "fonte": "Cardiologia",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Síndrome coronariana aguda",
+   "frente": "🫀 Metas de <b>reperfusão no IAMCSST</b>?",
+   "verso": "<table class=t><tr><th>Estratégia</th><th>Meta</th></tr><tr><td>ICP primária</td><td>Porta-balão ≤ 90 min (≤ 120 se transferência)</td></tr><tr><td>Fibrinólise (se ICP &gt; 120 min)</td><td>Porta-agulha ≤ 30 min</td></tr><tr><td>Tenecteplase</td><td>Por peso (30–50 mg); <b>≥ 75 anos: metade</b></td></tr></table>",
+   "fonte": "ESC 2023; STREAM",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Síndrome coronariana aguda",
+   "frente": "✅ Critérios de <b>reperfusão</b> após fibrinólise?",
+   "verso": "<ul><li>📉 ↓ ST &gt; 50% em 60–90 min</li><li>😌 Alívio da dor</li><li>💓 Arritmia de reperfusão (RIVA)</li><li>📈 Pico precoce de marcadores</li></ul>",
+   "pegadinha": "Falha → <b>ICP de resgate</b>. Sucesso → CATE em 2–24 h.",
+   "fonte": "ESC",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Síndrome coronariana aguda",
+   "frente": "📉 Padrões de ECG de <b>alto risco</b> sem supra clássico?",
+   "verso": "<table class=t><tr><th>Padrão</th><th>Achado</th><th>Significado</th></tr><tr><td>Wellens</td><td>T bifásica/invertida profunda V2–V3</td><td>Estenose crítica proximal de DA</td></tr><tr><td>de Winter</td><td>Infra ST ascendente + T apiculada V1–V6</td><td>Oclusão aguda de DA</td></tr><tr><td>Sgarbossa</td><td>Critérios no BRE/MP</td><td>IAM com BRE</td></tr><tr><td>aVR com supra + infra difuso</td><td>—</td><td>Tronco/multiarterial</td></tr></table>",
+   "fonte": "Cardiologia",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Síndrome coronariana aguda",
+   "frente": "📊 IAMSSST: quando estratégia invasiva precoce?",
+   "verso": "Alto risco (GRACE &gt; 140, troponina dinâmica, alterações de ST) → CATE em <b>&lt; 24 h</b>; muito alto risco (instável) → &lt; 2 h.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Síndrome coronariana aguda",
+   "frente": "🫀 <b>IAM de VD</b>?",
+   "verso": "IAM inferior + hipotensão + pulmões limpos → <b>V4R</b> com supra<br>💧 Volume; ❌ evitar nitrato e diurético",
+   "fonte": "Cardiologia",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Síndrome coronariana aguda",
+   "frente": "💉 <b>Enoxaparina</b> no IAM?",
+   "verso": "1 mg/kg 12/12h | ≥ 75 anos: <b>0,75 mg/kg sem bolus</b> | ClCr &lt; 30: 1 mg/kg 1×/dia",
+   "fonte": "ESC/ACC",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Síndrome coronariana aguda",
+   "frente": "💊 Dupla antiagregação no IAM?",
+   "verso": "AAS 150–300 mg + P2Y12: <b>ticagrelor 180</b> | prasugrel 60 | clopidogrel 300–600",
+   "pegadinha": "Prasugrel: evitar se AVC/AIT prévio.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "IC aguda e emergências cardiovasculares",
+   "frente": "🫀 Perfis hemodinâmicos de <b>Stevenson</b> na IC aguda?",
+   "verso": "<table class=t><tr><th></th><th>Seco</th><th>Úmido</th></tr><tr><td>Quente</td><td>A – ajuste oral</td><td>B – <b>diurético + vasodilatador</b></td></tr><tr><td>Frio</td><td>L – volume cauteloso</td><td>C – <b>inotrópico</b> ± diurético</td></tr></table>",
+   "pegadinha": "Perfil B é o mais comum.",
+   "fonte": "Stevenson 2002",
+   "imagem": "img_stevenson.png",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "IC aguda e emergências cardiovasculares",
+   "frente": "🩸 <b>Dissecção aórtica</b>: alvos iniciais?",
+   "verso": "💉 <b>Betabloqueador IV</b> (esmolol) primeiro → FC <b>&lt; 60</b> e PAS <b>100–120</b><br>➕ Depois vasodilatador se necessário<br>🔪 Stanford A = cirurgia | B = clínico (endovascular se complicada)",
+   "pegadinha": "Vasodilatador antes do BB → taquicardia reflexa → ↑ dP/dt.",
+   "fonte": "AHA/ACC 2022",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "IC aguda e emergências cardiovasculares",
+   "frente": "🚨 <b>Emergência hipertensiva</b>: quanto reduzir?",
+   "verso": "📉 ≤ <b>25%</b> na 1ª hora → 160/100–110 em 2–6 h → normal em 24–48 h<br>⚡ Exceções: dissecção (PAS &lt; 120 em 20 min), pré-eclâmpsia grave, feocromocitoma (&lt; 140 na 1ª h), AVC",
+   "fonte": "AHA 2017",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "IC aguda e emergências cardiovasculares",
+   "frente": "💔 <b>Takotsubo</b> com choque?",
+   "verso": "Balonamento apical, mulher pós-menopausa, estresse<br>⚠️ Se <b>obstrução da VSVE</b>: ❌ evitar catecolaminas inotrópicas → volume, BB, fenilefrina, levosimendana ou suporte mecânico",
+   "fonte": "ESC",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "IC aguda e emergências cardiovasculares",
+   "frente": "🌊 <b>EAP hipertensivo</b> (SCAPE)?",
+   "verso": "<b>Nitroglicerina IV em dose alta</b> + VNI; diurético depois (muitos são normovolêmicos).",
+   "fonte": "Revisões",
+   "tags": [
+    "TEMI2028",
+    "T09",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {
+  "img_capno.png": "data/media/img_capno.png",
+  "img_stevenson.png": "data/media/img_stevenson.png"
+ }
+}

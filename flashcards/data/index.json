@@ -1,0 +1,189 @@
+{
+ "formato": "codice360x-index-v1",
+ "versao": "2026.11.05-600",
+ "titulo": "TEMI 2028 · Baralho oficial",
+ "decks": [
+  {
+   "arquivo": "data/decks/01-sepse.json",
+   "tema": "01 🦠 Sepse e Choque Séptico",
+   "cards": 40,
+   "subtemas": [
+    "Definições e triagem",
+    "Ressuscitação hemodinâmica",
+    "Antimicrobianos e controle de foco",
+    "Terapias adjuvantes e suporte"
+   ]
+  },
+  {
+   "arquivo": "data/decks/02-vm-sdra.json",
+   "tema": "02 🫁 Ventilação Mecânica e SDRA",
+   "cards": 40,
+   "subtemas": [
+    "Definição de SDRA",
+    "Ventilação protetora e modos",
+    "Resgate da hipoxemia",
+    "Desmame e extubação",
+    "VNI, CNAF e via aérea",
+    "Mecânica, monitorização e complicações"
+   ]
+  },
+  {
+   "arquivo": "data/decks/03-hemodinamica.json",
+   "tema": "03 ❤️ Hemodinâmica e Choque",
+   "cards": 40,
+   "subtemas": [
+    "Fisiologia e monitorização",
+    "Fluidorresponsividade",
+    "Drogas vasoativas",
+    "Choque cardiogênico e suporte mecânico",
+    "Choques obstrutivo, distributivo e especiais"
+   ]
+  },
+  {
+   "arquivo": "data/decks/04-acido-base.json",
+   "tema": "04 ⚗️ Distúrbios Ácido-Base",
+   "cards": 40,
+   "subtemas": [
+    "Abordagem e compensação",
+    "Acidose de AG elevado e intoxicações",
+    "Acidose de AG normal e ATR",
+    "Alcalose metabólica",
+    "Distúrbios respiratórios e mistos",
+    "Stewart e lactato"
+   ]
+  },
+  {
+   "arquivo": "data/decks/05-eletrolitos.json",
+   "tema": "05 🧂 Eletrólitos",
+   "cards": 40,
+   "subtemas": [
+    "Sódio",
+    "Potássio",
+    "Cálcio",
+    "Magnésio e fósforo",
+    "Água, osmolalidade e poliúria"
+   ]
+  },
+  {
+   "arquivo": "data/decks/06-renal.json",
+   "tema": "06 🫘 Rim, LRA e TRS",
+   "cards": 40,
+   "subtemas": [
+    "Definição e diagnóstico da LRA",
+    "Causas e síndromes renais",
+    "Terapia renal substitutiva",
+    "Prevenção e manejo hídrico"
+   ]
+  },
+  {
+   "arquivo": "data/decks/07-neuro.json",
+   "tema": "07 🧠 Neurointensivismo",
+   "cards": 40,
+   "subtemas": [
+    "Coma, PIC e HIC",
+    "TCE",
+    "AVC isquêmico e hemorrágico",
+    "Hemorragia subaracnóidea",
+    "Estado de mal epiléptico",
+    "Neuromuscular e encefalopatias",
+    "Morte encefálica"
+   ]
+  },
+  {
+   "arquivo": "data/decks/08-sedacao.json",
+   "tema": "08 😴 Sedação, Analgesia e Delirium",
+   "cards": 40,
+   "subtemas": [
+    "Escalas e monitorização",
+    "Sedativos e analgésicos",
+    "Delirium e bundle ABCDEF",
+    "Via aérea e bloqueio neuromuscular",
+    "Síndromes tóxicas e abstinência"
+   ]
+  },
+  {
+   "arquivo": "data/decks/09-cardio-pcr.json",
+   "tema": "09 ⚡ Cardiointensivismo e PCR",
+   "cards": 40,
+   "subtemas": [
+    "PCR e ressuscitação",
+    "Cuidados pós-PCR",
+    "Arritmias",
+    "Síndrome coronariana aguda",
+    "IC aguda e emergências cardiovasculares"
+   ]
+  },
+  {
+   "arquivo": "data/decks/10-infeccao.json",
+   "tema": "10 🧫 Infecção e Antimicrobianos",
+   "cards": 40,
+   "subtemas": [
+    "Infecções associadas à assistência",
+    "Resistência bacteriana",
+    "PK/PD e uso de antimicrobianos",
+    "Infecções comunitárias graves",
+    "Fungos e imunossuprimidos",
+    "Doenças tropicais e endêmicas"
+   ]
+  },
+  {
+   "arquivo": "data/decks/11-hemato.json",
+   "tema": "11 🩸 Hematologia, Coagulação e Transfusão",
+   "cards": 40,
+   "subtemas": [
+    "Coagulopatias e plaquetopenias",
+    "Transfusão",
+    "Anticoagulação e reversão",
+    "Onco-hematologia de urgência",
+    "Obstetrícia crítica"
+   ]
+  },
+  {
+   "arquivo": "data/decks/12-endocrino.json",
+   "tema": "12 🍬 Endocrinologia no Crítico",
+   "cards": 40,
+   "subtemas": [
+    "CAD e EHH",
+    "Controle glicêmico",
+    "Tireoide",
+    "Adrenal, hipófise e corticoides",
+    "Outras emergências endócrinas"
+   ]
+  },
+  {
+   "arquivo": "data/decks/13-gastro-nutricao.json",
+   "tema": "13 🫃 Gastro, Fígado e Nutrição",
+   "cards": 40,
+   "subtemas": [
+    "Hemorragia digestiva",
+    "Pancreatite",
+    "Fígado",
+    "Nutrição",
+    "Abdome agudo e complicações abdominais"
+   ]
+  },
+  {
+   "arquivo": "data/decks/14-trauma-tox.json",
+   "tema": "14 🚑 Trauma, Toxicologia e Ambiental",
+   "cards": 40,
+   "subtemas": [
+    "Trauma e choque hemorrágico",
+    "Queimados e inalação",
+    "Toxicologia",
+    "Ambiental e animais peçonhentos"
+   ]
+  },
+  {
+   "arquivo": "data/decks/15-etica-escores-pocus.json",
+   "tema": "15 ⚖️ Ética, Escores, Qualidade e POCUS",
+   "cards": 40,
+   "subtemas": [
+    "Escores e qualidade",
+    "Bioestatística e evidência",
+    "POCUS e procedimentos",
+    "Ética, legislação e terminalidade",
+    "Pós-UTI e reabilitação"
+   ]
+  }
+ ]
+}

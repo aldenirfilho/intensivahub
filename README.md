@@ -6,6 +6,10 @@
 
 Repositório público de educação médica, protocolos, resumos e atualização contínua em medicina intensiva.
 
+## 🎴 Novo: Flashcards TEMI
+
+**[CÓDICE 360X · Flashcards](https://aldenirfilho.github.io/intensivahub/flashcards/)** — app de repetição espaçada com **600 cards** para a prova TEMI (15 temas · 77 subtemas), que importa `.apkg` e JSON gerado por qualquer IA. Detalhes em [`flashcards/README.md`](flashcards/README.md).
+
 ## Objetivo
 
 Organizar conteúdos de medicina intensiva, clínica médica, emergência e educação em saúde para consulta rápida, estudo contínuo e apoio à formação médica.

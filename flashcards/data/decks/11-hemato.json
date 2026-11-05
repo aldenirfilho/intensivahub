@@ -1,0 +1,463 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::11 🩸 Hematologia, Coagulação e Transfusão",
+ "cards": [
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "🩸 Escore <b>ISTH</b> para CIVD?",
+   "verso": "<table class=t><tr><th>Item</th><th>Pontos</th></tr><tr><td>Plaquetas &lt; 100k / &lt; 50k</td><td>1 / 2</td></tr><tr><td>D-dímero moderado / muito ↑</td><td>2 / 3</td></tr><tr><td>TP prolongado 3–6 s / &gt; 6 s</td><td>1 / 2</td></tr><tr><td>Fibrinogênio &lt; 100 mg/dL</td><td>1</td></tr></table>🔴 <b>≥ 5 = CIVD franca</b>",
+   "pegadinha": "Tratar a causa! Hemoderivados só se sangramento/procedimento.",
+   "fonte": "ISTH 2001",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "💉 <b>HIT</b> (trombocitopenia induzida por heparina): conduta?",
+   "verso": "⏱️ 5–10 dias após heparina, ↓ plaquetas &gt; 50%, <b>trombose</b> (não sangramento)<br>🛑 Suspender TODA heparina (inclusive flush)<br>💊 Argatrobana, bivalirudina, fondaparinux ou DOAC<br>❌ Não transfundir plaquetas | ❌ Varfarina só com plaquetas ≥ 150k",
+   "fonte": "ASH 2018",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "🔢 Componentes do <b>escore 4Ts</b>?",
+   "verso": "<table class=t><tr><th>T</th><th>Item</th></tr><tr><td>Thrombocytopenia</td><td>Queda &gt; 50% e nadir ≥ 20k = 2 pts</td></tr><tr><td>Timing</td><td>5–10 dias (ou ≤ 1 d se heparina recente) = 2</td></tr><tr><td>Thrombosis</td><td>Nova trombose/necrose cutânea = 2</td></tr><tr><td>oTher causes</td><td>Nenhuma outra causa = 2</td></tr></table>📊 0–3 baixo | 4–5 intermediário | 6–8 alto",
+   "pegadinha": "4Ts baixo tem alto valor preditivo negativo.",
+   "fonte": "Lo 2006",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "🩸 <b>PTT</b> (púrpura trombótica trombocitopênica)?",
+   "verso": "🔍 Anemia hemolítica microangiopática (<b>esquizócitos</b>) + plaquetopenia ± febre, neuro, renal<br>🧪 <b>ADAMTS13 &lt; 10%</b> | escore PLASMIC<br>🚑 <b>Plasmaférese urgente</b> + corticoide + caplacizumabe",
+   "pegadinha": "Plaquetas só em sangramento grave (pode piorar trombose).",
+   "fonte": "ISTH 2020",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "📊 Interpretação do <b>TEG/ROTEM</b>?",
+   "verso": "<table class=t><tr><th>Parâmetro alterado</th><th>Problema</th><th>Tratar com</th></tr><tr><td>R / CT prolongado</td><td>Fatores</td><td>PFC / CCP</td></tr><tr><td>Ângulo α baixo</td><td>Fibrinogênio</td><td>Crio / fibrinogênio</td></tr><tr><td>MA / MCF baixo</td><td>Plaquetas ± fibrinogênio</td><td>Plaquetas</td></tr><tr><td>LY30 &gt; 3% / ML ↑</td><td>Hiperfibrinólise</td><td>Ácido tranexâmico</td></tr></table>",
+   "fonte": "Hemostasia viscoelástica",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "🔬 Marcadores de <b>hemólise</b>?",
+   "verso": "⬆️ LDH | ⬇️ Haptoglobina | ⬆️ BI | ⬆️ Reticulócitos<br>🧪 <b>Coombs direto</b> positivo → autoimune",
+   "fonte": "Hematologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "🔍 Causas de <b>plaquetopenia</b> na UTI?",
+   "verso": "Sepse, CIVD, drogas (heparina, linezolida, vancomicina, betalactâmicos), diluição, hiperesplenismo, microangiopatias, ECMO/BIA.<br>⚠️ <b>Pseudoplaquetopenia</b> por EDTA → colher em citrato",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "🫘 <b>SHU atípico</b>?",
+   "verso": "Microangiopatia + LRA com ADAMTS13 normal (complemento) → <b>eculizumabe</b>.",
+   "pegadinha": "SHU típico (STEC): suporte; sem ATB/antimotilidade.",
+   "fonte": "Hematologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "⚡ <b>SAF catastrófica</b>?",
+   "verso": "Tromboses em ≥ 3 órgãos em &lt; 1 semana → anticoagulação + corticoide + plasmaférese e/ou IgIV.",
+   "fonte": "EULAR",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Coagulopatias e plaquetopenias",
+   "frente": "💧 <b>DDAVP</b> no sangramento urêmico?",
+   "verso": "<b>0,3 mcg/kg</b> IV → ↑ fator de von Willebrand/VIII, melhora a disfunção plaquetária urêmica.",
+   "pegadinha": "Taquifilaxia após 2–3 doses.",
+   "fonte": "Hematologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🩸 Limiares de <b>transfusão de hemácias</b>?",
+   "verso": "<table class=t><tr><th>Cenário</th><th>Limiar Hb</th></tr><tr><td>Geral UTI</td><td><b>&lt; 7 g/dL</b></td></tr><tr><td>Cirurgia cardíaca/ortopédica, DCV</td><td>&lt; 7,5–8</td></tr><tr><td>IAM agudo</td><td>Considerar 8–10 (MINT: tendência favorável ao liberal)</td></tr><tr><td>Sangramento ativo</td><td>Clínica, não número</td></tr></table>",
+   "fonte": "TRICC 1999; AABB 2023; MINT NEJM 2023",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🩹 Limiares de <b>transfusão de plaquetas</b>?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Plaquetas</th></tr><tr><td>Profilática estável</td><td>&lt; 10.000</td></tr><tr><td>CVC</td><td>&lt; 10.000–20.000 (PACER: omitir em 10–50k ↑ sangramento)</td></tr><tr><td>Punção lombar</td><td>&lt; 40.000–50.000</td></tr><tr><td>Sangramento / cirurgia maior</td><td>&lt; 50.000</td></tr><tr><td>Neurocirurgia / SNC</td><td>&lt; 100.000</td></tr></table>",
+   "fonte": "AABB; PACER NEJM 2023",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🫁 <b>TRALI × TACO</b>?",
+   "verso": "<table class=t><tr><th></th><th>TRALI</th><th>TACO</th></tr><tr><td>Início</td><td>≤ 6 h</td><td>≤ 12 h</td></tr><tr><td>PA</td><td><b>Hipotensão</b></td><td><b>Hipertensão</b></td></tr><tr><td>Febre</td><td>Comum</td><td>Rara</td></tr><tr><td>BNP</td><td>Normal</td><td><b>↑</b></td></tr><tr><td>Diurético</td><td>Não responde</td><td><b>Responde</b></td></tr></table>",
+   "fonte": "Hemoterapia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🩸 <b>Transfusão maciça</b> no trauma?",
+   "verso": "⚖️ Razão <b>1:1:1</b> (hemácias:plasma:plaquetas)<br>💉 <b>Ácido tranexâmico 1 g em 10 min + 1 g em 8 h</b>, em até <b>3 h</b> do trauma",
+   "pegadinha": "Após 3 h, TXA pode ↑ mortalidade (CRASH-2).",
+   "fonte": "PROPPR JAMA 2015; CRASH-2 2010",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🧪 Alvo de <b>fibrinogênio</b> no sangramento?",
+   "verso": "<b>&gt; 1,5–2 g/L</b><br>💉 Crioprecipitado <b>1 U/10 kg</b> ou concentrado de fibrinogênio",
+   "pegadinha": "Na hemorragia obstétrica, alvo &gt; 2 g/L.",
+   "fonte": "European Trauma Guideline 2023",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🚨 <b>Reação hemolítica aguda</b>?",
+   "verso": "Incompatibilidade ABO: febre, dor lombar, hipotensão, hemoglobinúria, CIVD → <b>parar</b> a transfusão, volume, manter diurese.",
+   "pegadinha": "Erro de identificação é a causa principal.",
+   "fonte": "Hemoterapia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🐝 Anafilaxia transfusional?",
+   "verso": "Clássica na <b>deficiência de IgA</b> → adrenalina; usar hemocomponentes lavados.",
+   "fonte": "Hemoterapia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🧊 Dose de <b>plasma</b> (PFC)?",
+   "verso": "<b>10–15 mL/kg</b>.",
+   "fonte": "Hemoterapia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔢 Quanto 1 U de hemácias eleva?",
+   "verso": "≈ <b>1 g/dL</b> de Hb (≈ 3% de Ht) no adulto médio.",
+   "fonte": "Hemoterapia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "☢️ Hemácias <b>irradiadas</b>: quando?",
+   "verso": "Prevenção de DECH transfusional: transplante de medula, imunodeficiência grave, doador aparentado, fludarabina, Hodgkin.",
+   "fonte": "Hemoterapia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Anticoagulação e reversão",
+   "frente": "💊 Reversão da <b>varfarina</b> com sangramento grave?",
+   "verso": "<b class=c>CCP 4 fatores</b> (25–50 UI/kg conforme INR) + <b>vitamina K 10 mg IV lenta</b><br>PFC só se CCP indisponível",
+   "pegadinha": "Vitamina K demora 6–24 h – sem ela, o INR volta a subir.",
+   "fonte": "ACC 2020",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Anticoagulação e reversão",
+   "frente": "💉 Reversão de <b>heparina e HBPM</b>?",
+   "verso": "🧪 HNF: <b>protamina 1 mg / 100 UI</b> (das últimas 2–3 h), máx 50 mg<br>🧪 Enoxaparina &lt; 8 h: 1 mg protamina / 1 mg enoxa (reversão parcial ~60%)",
+   "fonte": "ACC 2020",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Anticoagulação e reversão",
+   "frente": "💊 Reversão dos <b>DOACs</b>?",
+   "verso": "<table class=t><tr><th>DOAC</th><th>Antídoto</th></tr><tr><td>Dabigatrana</td><td><b>Idarucizumabe 5 g</b> (ou diálise)</td></tr><tr><td>Rivaroxabana/apixabana</td><td>Andexanet alfa ou CCP 4F 50 UI/kg</td></tr></table>",
+   "fonte": "ACC 2020",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Anticoagulação e reversão",
+   "frente": "🧊 <b>Profilaxia de TEV</b> na UTI?",
+   "verso": "💉 Enoxaparina 40 mg/dia | ClCr &lt; 30: HNF 5.000 UI 8/8–12/12h<br>🦵 Compressão pneumática se sangramento",
+   "pegadinha": "PREVENT (NEJM 2019): compressão adicional à farmacológica sem benefício.",
+   "fonte": "PREVENT 2019",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Anticoagulação e reversão",
+   "frente": "💉 TEP: HNF × HBPM × DOAC?",
+   "verso": "<b>HNF</b>: instável, trombólise possível, ClCr &lt; 30, alto risco de sangramento<br><b>DOAC/HBPM</b>: estável",
+   "fonte": "ESC 2019",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Anticoagulação e reversão",
+   "frente": "🫘 Enoxaparina na <b>IR</b>?",
+   "verso": "ClCr &lt; 30: <b>1 mg/kg 1×/dia</b> (terapêutica) ou 20–30 mg/dia (profilática); dosar anti-Xa se dúvida.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Anticoagulação e reversão",
+   "frente": "🕸️ <b>Filtro de VCI</b>?",
+   "verso": "Só se <b>contraindicação</b> à anticoagulação; retirar assim que possível.",
+   "pegadinha": "PREPIC2: filtro + anticoagulação sem benefício.",
+   "fonte": "PREPIC2 JAMA 2015",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "💥 <b>Síndrome de lise tumoral</b>?",
+   "verso": "⬆️ K, fosfato, ácido úrico + ⬇️ Ca (critérios de Cairo-Bishop)<br>💧 Hidratação vigorosa | 🛡️ Alopurinol (prevenção) | 💉 <b>Rasburicase</b> (tratamento)",
+   "pegadinha": "Rasburicase contraindicada em deficiência de G6PD (hemólise, metemoglobinemia).",
+   "fonte": "Cairo-Bishop 2004",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "🧪 <b>Leucostase</b>?",
+   "verso": "Leucócitos &gt; 100.000 + sintomas pulmonares/neurológicos<br>💊 Hidroxiureia, QT de indução, leucaférese (controversa)<br>⚠️ <b>Evitar transfundir hemácias</b> (↑ viscosidade)",
+   "pegadinha": "Pseudo-hipoxemia na gasometria (leucócitos consomem O₂ na seringa).",
+   "fonte": "Hematologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "🧬 <b>Síndrome torácica aguda</b> na anemia falciforme?",
+   "verso": "Infiltrado novo + febre/sintomas respiratórios<br>💉 O₂, analgesia, ATB (cefalosporina + macrolídeo), espirometria de incentivo<br>🩸 Transfusão / exsanguineotransfusão (alvo HbS &lt; 30%)",
+   "fonte": "Hematologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "🫃 <b>Tiflite</b> (enterocolite neutropênica)?",
+   "verso": "Neutropênico + dor em FID + febre → TC: <b>espessamento do ceco</b><br>💊 Conservador + ATB com cobertura de GN e anaeróbios",
+   "pegadinha": "Cirurgia só se perfuração, sangramento refratário ou deterioração.",
+   "fonte": "Oncologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "📊 Escore <b>MASCC</b>?",
+   "verso": "Neutropenia febril: <b>≥ 21 = baixo risco</b> (candidato a tratamento oral/ambulatorial).",
+   "fonte": "IDSA",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "🫁 <b>Síndrome da VCS</b>?",
+   "verso": "Edema de face/MMSS, circulação colateral → stent endovascular; corticoide/QT/RT conforme histologia (linfoma).",
+   "fonte": "Oncologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "🧬 <b>Síndrome de diferenciação</b> (ATRA na LPA)?",
+   "verso": "Febre, infiltrado, derrame, ganho de peso, LRA → <b>dexametasona 10 mg 12/12h</b>.",
+   "pegadinha": "LPA: risco de CIVD hemorrágica → crio/plaquetas agressivos.",
+   "fonte": "Hematologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "🧪 <b>CAR-T</b>: complicações?",
+   "verso": "Síndrome de liberação de citocinas → <b>tocilizumabe</b> ± corticoide<br>ICANS (neurotoxicidade) → <b>corticoide</b>",
+   "fonte": "ASTCT 2019",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia de urgência",
+   "frente": "🩸 <b>Hiperviscosidade</b> (Waldenström, mieloma)?",
+   "verso": "Sangramento mucoso, alteração visual/neuro → <b>plasmaférese</b>.",
+   "fonte": "Hematologia",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Obstetrícia crítica",
+   "frente": "🤰 <b>HELLP</b> e sulfato de magnésio?",
+   "verso": "🔍 Hemólise + ↑ enzimas hepáticas + plaquetas baixas<br>💉 MgSO₄ <b>Zuspan: 4 g ataque + 1 g/h</b><br>⚠️ Toxicidade: perda do reflexo patelar → <b>gluconato de cálcio 1 g IV</b><br>👶 Resolução da gestação",
+   "pegadinha": "Pritchard: 4 g IV + 10 g IM, depois 5 g IM 4/4h.",
+   "fonte": "FEBRASGO; ACOG",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Obstetrícia crítica",
+   "frente": "🤰 <b>Hemorragia pós-parto</b>?",
+   "verso": "4 Ts: Tônus, Trauma, Tecido, Trombina<br>💉 Ocitocina + <b>ácido tranexâmico 1 g em ≤ 3 h</b> (WOMAN)",
+   "fonte": "WOMAN Lancet 2017",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Obstetrícia crítica",
+   "frente": "🌊 <b>Embolia de líquido amniótico</b>?",
+   "verso": "Colapso cardiorrespiratório súbito no parto + <b>CIVD</b> → suporte avançado, hemocomponentes, ECMO.",
+   "fonte": "SMFM 2016",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Obstetrícia crítica",
+   "frente": "🩺 <b>Pré-eclâmpsia grave</b>: anti-hipertensivo?",
+   "verso": "PA ≥ 160/110 → <b>hidralazina 5 mg IV</b>, labetalol IV ou nifedipina VO; + MgSO₄.",
+   "fonte": "FEBRASGO; ACOG",
+   "tags": [
+    "TEMI2028",
+    "T11",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {}
+}

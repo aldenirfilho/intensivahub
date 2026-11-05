@@ -1,0 +1,476 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::04 ⚗️ Distúrbios Ácido-Base",
+ "cards": [
+  {
+   "subtema": "Abordagem e compensação",
+   "frente": "🧭 Passo a passo da <b>gasometria</b>?",
+   "verso": "1️⃣ pH: acidemia/alcalemia<br>2️⃣ Distúrbio primário (PaCO₂ × HCO₃⁻)<br>3️⃣ Compensação esperada<br>4️⃣ Ânion gap (corrigido pela albumina)<br>5️⃣ Delta-delta<br>6️⃣ Gap osmolar se AG alto inexplicado",
+   "fonte": "Abordagem clássica",
+   "imagem": "img_acidobase.png",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Abordagem e compensação",
+   "frente": "📐 Fórmula de <b>Winter</b>?",
+   "verso": "<b class=c>PaCO₂ esperada = 1,5 × HCO₃⁻ + 8 ± 2</b><br>⬆️ Acima → acidose respiratória associada<br>⬇️ Abaixo → alcalose respiratória associada",
+   "pegadinha": "Atalho: PaCO₂ ≈ 2 últimos dígitos do pH (pH 7,25 → PaCO₂ ~25).",
+   "fonte": "Winter 1967",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Abordagem e compensação",
+   "frente": "📐 Compensação na <b>alcalose metabólica</b>?",
+   "verso": "<b class=c>PaCO₂ esperada = 0,7 × HCO₃⁻ + 21 ± 2</b> (ou ↑ 0,7 por cada ↑ 1 de HCO₃⁻)",
+   "pegadinha": "Raramente a PaCO₂ passa de 55 por compensação.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Abordagem e compensação",
+   "frente": "📐 Compensação nos distúrbios <b>respiratórios</b>?",
+   "verso": "<table class=t><tr><th>Distúrbio</th><th>Aguda</th><th>Crônica</th></tr><tr><td>Acidose resp. (↑ 10 PaCO₂)</td><td>HCO₃⁻ ↑ <b>1</b></td><td>HCO₃⁻ ↑ <b>3,5</b></td></tr><tr><td>Alcalose resp. (↓ 10 PaCO₂)</td><td>HCO₃⁻ ↓ <b>2</b></td><td>HCO₃⁻ ↓ <b>4–5</b></td></tr></table>",
+   "pegadinha": "Mnemônico: <b>1-3,5-2-5</b>.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Abordagem e compensação",
+   "frente": "🧮 [H⁺] pela <b>Henderson</b>?",
+   "verso": "<b>[H⁺] = 24 × PaCO₂ / HCO₃⁻</b> (nEq/L)<br>pH 7,40 = 40 nEq/L | cada 0,01 de pH ≈ 1 nEq/L (entre 7,28 e 7,45)",
+   "pegadinha": "Confere se a gasometria é internamente consistente.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Abordagem e compensação",
+   "frente": "🩸 Gasometria <b>venosa × arterial</b>?",
+   "verso": "pH venoso ≈ 0,03–0,04 menor | HCO₃⁻ ≈ +1–2 | PvCO₂ ≈ +4–6<br>❌ Não substitui para avaliar <b>PaO₂</b>",
+   "pegadinha": "Choque grave: a diferença aumenta.",
+   "fonte": "Byrne 2014",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Abordagem e compensação",
+   "frente": "➖ <b>Excesso de bases</b> (BE)?",
+   "verso": "Normal <b>−2 a +2</b>. BE negativo = acidose metabólica; positivo = alcalose metabólica.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "🔢 Ânion gap: fórmula e correção pela albumina?",
+   "verso": "<b>AG = Na⁺ − (Cl⁻ + HCO₃⁻)</b> → normal ≈ 8–12<br>🔧 <b class=y>AG corrigido = AG + 2,5 × (4 − albumina)</b>",
+   "pegadinha": "Hipoalbuminemia do doente crítico esconde acidose de AG alto!",
+   "fonte": "Figge 1998",
+   "imagem": "img_gamblegram.png",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "🧠 Causas de acidose com <b>AG elevado</b> (GOLDMARK)?",
+   "verso": "<table class=t><tr><th>Letra</th><th>Causa</th></tr><tr><td>G</td><td>Glicóis (etileno/propilenoglicol)</td></tr><tr><td>O</td><td>Oxoprolina (paracetamol crônico)</td></tr><tr><td>L</td><td>L-lactato</td></tr><tr><td>D</td><td>D-lactato</td></tr><tr><td>M</td><td>Metanol</td></tr><tr><td>A</td><td>Aspirina (salicilato)</td></tr><tr><td>R</td><td>Renal (uremia)</td></tr><tr><td>K</td><td>Cetoacidose (Ketoacidosis)</td></tr></table>",
+   "pegadinha": "Propilenoglicol = veículo de lorazepam/diazepam IV em altas doses.",
+   "fonte": "Mehta, Lancet 2008",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "➗ Como interpretar o <b>delta-delta</b>?",
+   "verso": "<b>Δ/Δ = (AG − 12)/(24 − HCO₃⁻)</b><table class=t><tr><th>Valor</th><th>Interpretação</th></tr><tr><td>&lt; 1</td><td>+ acidose de AG normal (hiperclorêmica)</td></tr><tr><td>1–2</td><td>Acidose de AG alto pura</td></tr><tr><td>&gt; 2</td><td>+ alcalose metabólica</td></tr></table>",
+   "pegadinha": "CAD costuma ter Δ/Δ ≈ 1 (cetonas perdidas na urina podem reduzi-lo).",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "🧪 Gap osmolar: fórmula e significado?",
+   "verso": "Osm calc = <b>2 Na + glicose/18 + ureia/6</b><br>GAP = Osm medida − calculada → <b class=r>&gt; 10</b> sugere álcool tóxico (metanol, etilenoglicol, isopropanol, etanol)",
+   "pegadinha": "Gap osmolar normal NÃO exclui intoxicação tardia (já metabolizou em ácido).",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "☠️ Tratamento de intoxicação por <b>metanol/etilenoglicol</b>?",
+   "verso": "<ul><li>🔒 <b>Fomepizol</b> (ou etanol) → bloqueia álcool desidrogenase</li><li>🩸 <b>Hemodiálise</b>: acidose grave, alteração visual, LRA, níveis altos</li><li>💊 Metanol: <b>ácido fólico/folínico</b></li><li>💊 Etilenoglicol: <b>tiamina + piridoxina</b></li></ul>",
+   "pegadinha": "Etilenoglicol → cristais de oxalato de cálcio na urina + LRA. Metanol → cegueira (ácido fórmico).",
+   "fonte": "EXTRIP; toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "🥖 Acidose por <b>D-lactato</b>: contexto?",
+   "verso": "Síndrome do <b>intestino curto</b>/bypass jejunoileal + carboidratos → encefalopatia episódica.<br>⚠️ Lactato de rotina (L-lactato) vem <b>normal</b>.",
+   "fonte": "Gastro/metabolismo",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "💊 Acidose por <b>oxoprolina</b> (ácido piroglutâmico)?",
+   "verso": "Uso <b>crônico de paracetamol</b> em desnutridos, mulheres, sepse, IRC (depleção de glutationa) → AG alto inexplicado.",
+   "pegadinha": "Tratamento: suspender paracetamol; considerar N-acetilcisteína.",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "💊 Acidose lática por <b>metformina</b> (MALA)?",
+   "verso": "Lactato muito alto + IRA → <b>hemodiálise</b> se lactato &gt; 20, pH ≤ 7,0, choque ou rebaixamento.",
+   "fonte": "EXTRIP 2015",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "🧴 <b>Propilenoglicol</b>?",
+   "verso": "Veículo de lorazepam/diazepam/fenobarbital IV em infusão alta → AG alto + <b>gap osmolar</b> alto.",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "🧴 <b>Isopropanol</b>: o que tem de peculiar?",
+   "verso": "Gap osmolar alto <b>SEM acidose</b> (metaboliza em acetona) → cetose sem acidose.",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "🧪 Cetonas na CAD: por que a fita 'piora' no tratamento?",
+   "verso": "Nitroprussiato detecta <b>acetoacetato</b>, não β-OHB; com o tratamento, β-OHB → acetoacetato → fita ↑ falsamente.",
+   "pegadinha": "Usar β-OHB sérico.",
+   "fonte": "ADA",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG elevado e intoxicações",
+   "frente": "🍽️ <b>Cetoacidose de jejum</b> × CAD?",
+   "verso": "Jejum: HCO₃⁻ raramente &lt; 18, glicemia normal/baixa.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG normal e ATR",
+   "frente": "💧 Acidose de <b>AG normal</b>: causas e ânion gap urinário?",
+   "verso": "Causas: diarreia, ATR, excesso de SF, acetazolamida, ureterossigmoidostomia<br>🔢 AGu = Na⁺ + K⁺ − Cl⁻ (urina)<br>➖ <b>Negativo</b> = diarreia (NH₄⁺ ok) | ➕ <b>Positivo</b> = ATR",
+   "pegadinha": "Mnemônico: 'ne-GUT-ivo' = intestino.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG normal e ATR",
+   "frente": "🧬 Tipos de <b>acidose tubular renal</b>?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>K⁺</th><th>pH urinário</th><th>Pistas</th></tr><tr><td>1 (distal)</td><td>⬇️</td><td>&gt; 5,5</td><td>Nefrolitíase, Sjögren</td></tr><tr><td>2 (proximal)</td><td>⬇️</td><td>&lt; 5,5 (após HCO₃⁻ cair)</td><td>Fanconi, mieloma, tenofovir</td></tr><tr><td>4 (hipoaldo)</td><td><b class=r>⬆️</b></td><td>&lt; 5,5</td><td>DM, IECA/BRA, espironolactona, heparina</td></tr></table>",
+   "pegadinha": "Tipo 4 é a mais comum na prática.",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG normal e ATR",
+   "frente": "🔄 Acidose hiperclorêmica na recuperação da CAD?",
+   "verso": "Perda urinária de cetoânions (potenciais HCO₃⁻) + SF → AG normaliza, mas HCO₃⁻ continua baixo.",
+   "pegadinha": "Não confundir com falha do tratamento.",
+   "fonte": "ADA",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG normal e ATR",
+   "frente": "💊 <b>Acetazolamida</b>?",
+   "verso": "Inibe anidrase carbônica → <b>acidose de AG normal</b>; usada na alcalose metabólica pós-hipercápnica.",
+   "pegadinha": "DIABOLO (2016): ↓ HCO₃⁻ sem ↓ tempo de VM.",
+   "fonte": "DIABOLO JAMA 2016",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Acidose de AG normal e ATR",
+   "frente": "🚽 <b>Ureterossigmoidostomia</b>?",
+   "verso": "Urina no cólon → troca Cl⁻/HCO₃⁻ → acidose hiperclorêmica + hipocalemia.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Alcalose metabólica",
+   "frente": "🧂 Alcalose metabólica: o que o <b>cloro urinário</b> diz?",
+   "verso": "<table class=t><tr><th>Cl⁻ urinário</th><th>Tipo</th><th>Exemplos</th></tr><tr><td>&lt; 20</td><td><b class=g>Responsiva a salina</b></td><td>Vômitos, SNG, diurético prévio, pós-hipercapnia</td></tr><tr><td>&gt; 20</td><td><b class=r>Resistente</b></td><td>Hiperaldosteronismo, Cushing, Bartter/Gitelman, diurético em uso, hipoK grave</td></tr></table>",
+   "pegadinha": "Na alcalose, prefira Cl⁻ urinário ao Na⁺ urinário.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Alcalose metabólica",
+   "frente": "💧 Alcalose de <b>contração</b>?",
+   "verso": "Perda de volume sem bicarbonato (diurético) → HCO₃⁻ concentrado + aldosterona ↑.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Alcalose metabólica",
+   "frente": "💉 Tratamento da alcalose metabólica?",
+   "verso": "Responsiva: <b>SF + KCl</b><br>Resistente: espironolactona, acetazolamida; grave (pH &gt; 7,55): HCl IV ou diálise",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Alcalose metabólica",
+   "frente": "🥛 <b>Síndrome leite-álcali</b>?",
+   "verso": "Carbonato de cálcio em excesso → hipercalcemia + alcalose metabólica + LRA.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Distúrbios respiratórios e mistos",
+   "frente": "💊 Gasometria típica da intoxicação por <b>salicilato</b>?",
+   "verso": "<b>Alcalose respiratória</b> (estímulo direto do centro respiratório) + <b>acidose metabólica de AG alto</b> = distúrbio misto.",
+   "pegadinha": "Intubar salicilado é perigoso: se não hiperventilar, pH despenca → considerar hemodiálise.",
+   "fonte": "EXTRIP",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Distúrbios respiratórios e mistos",
+   "frente": "🫁 DPOC com HCO₃⁻ 34 e PaCO₂ 60: o que é?",
+   "verso": "Acidose respiratória <b>crônica compensada</b>: ↑ 20 PaCO₂ → HCO₃⁻ esperado ↑ ~7 (24 → ~31); se 34 → considerar alcalose metabólica associada (diurético?).",
+   "pegadinha": "Na VM, não 'normalizar' PaCO₂ rápido → alcalose pós-hipercápnica.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Distúrbios respiratórios e mistos",
+   "frente": "🧠 Pistas para <b>distúrbio misto</b>?",
+   "verso": "<ul><li>pH normal com PaCO₂ e HCO₃⁻ alterados</li><li>Compensação fora da esperada</li><li>Δ/Δ &lt; 1 ou &gt; 2</li><li>AG alto com HCO₃⁻ normal</li></ul>",
+   "pegadinha": "Compensação NUNCA normaliza o pH totalmente (exceto alcalose resp. crônica).",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Distúrbios respiratórios e mistos",
+   "frente": "🌬️ Causas de <b>alcalose respiratória</b>?",
+   "verso": "Hipoxemia, sepse inicial, hepatopatia, gestação, salicilato, TEP, dor/ansiedade, VM excessiva.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Distúrbios respiratórios e mistos",
+   "frente": "📐 <b>Gradiente A-a</b>?",
+   "verso": "PAO₂ = FiO₂ × (Patm − 47) − PaCO₂/0,8<br>Normal ≈ <b>idade/4 + 4</b><br>↑ = shunt, V/Q, difusão | normal = hipoventilação ou ↓ FiO₂",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Distúrbios respiratórios e mistos",
+   "frente": "🔺 Exemplo de <b>distúrbio triplo</b>?",
+   "verso": "Vômitos (alcalose metabólica) + CAD (acidose de AG alto) + sepse (alcalose respiratória).",
+   "pegadinha": "Δ/Δ &gt; 2 denuncia a alcalose escondida.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Stewart e lactato",
+   "frente": "⚖️ Variáveis independentes de <b>Stewart</b>?",
+   "verso": "<table class=t><tr><th>Variável</th><th>Efeito se ↑</th></tr><tr><td>SID (Na+K+Ca+Mg − Cl − lactato)</td><td>Alcalose (normal ≈ 40–42)</td></tr><tr><td>PaCO₂</td><td>Acidose</td></tr><tr><td>Atot (albumina, fosfato)</td><td>Acidose</td></tr></table>",
+   "pegadinha": "SF 0,9%: SID = 0 → acidose. Hipoalbuminemia ↓ Atot → alcalose.",
+   "fonte": "Stewart 1983",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Stewart e lactato",
+   "frente": "🧪 Lactato <b>tipo A × tipo B</b>?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Mecanismo</th><th>Exemplos</th></tr><tr><td>A</td><td>Hipoperfusão/hipóxia</td><td>Choque, PCR, isquemia mesentérica</td></tr><tr><td>B</td><td>Sem hipóxia global</td><td>Metformina, linezolida, adrenalina, deficiência de tiamina, neoplasia, hepatopatia, propofol (PRIS)</td></tr></table>",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Stewart e lactato",
+   "frente": "🧂 Por que o <b>SF 0,9%</b> causa acidose?",
+   "verso": "Na⁺ 154 e Cl⁻ 154 → <b>SID = 0</b> → dilui o SID plasmático → acidose hiperclorêmica.",
+   "pegadinha": "SMART (2018): balanceados ↓ desfecho renal composto. BaSICS/PLUS: sem diferença de mortalidade.",
+   "fonte": "SMART 2018; BaSICS 2021; PLUS 2022",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Stewart e lactato",
+   "frente": "⚖️ <b>SIG</b> (strong ion gap)?",
+   "verso": "SIDa − SIDe → &gt; 2 sugere ânions não medidos (mais preciso que AG no crítico).",
+   "fonte": "Stewart",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Stewart e lactato",
+   "frente": "🍺 Lactato na <b>insuficiência hepática</b>?",
+   "verso": "Depuração ↓ → lactato persistentemente alto sem hipoperfusão.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Stewart e lactato",
+   "frente": "⚠️ Efeitos adversos do <b>bicarbonato</b>?",
+   "verso": "↑ CO₂ intracelular (acidose paradoxal), hipernatremia, ↓ Ca iônico, sobrecarga de volume, alcalose de rebote.",
+   "pegadinha": "Precisa de ventilação para eliminar o CO₂ gerado.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T04",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {
+  "img_acidobase.png": "data/media/img_acidobase.png",
+  "img_gamblegram.png": "data/media/img_gamblegram.png"
+ }
+}

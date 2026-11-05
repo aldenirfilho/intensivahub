@@ -1,0 +1,481 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::02 🫁 Ventilação Mecânica e SDRA",
+ "cards": [
+  {
+   "subtema": "Definição de SDRA",
+   "frente": "🫁 Critérios de <b>BERLIM</b> para SDRA (2012)?",
+   "verso": "<ul><li>⏱️ Início ≤ 1 semana de insulto conhecido</li><li>🩻 Opacidades bilaterais</li><li>❤️ Não explicada por IC/sobrecarga</li><li>🔢 P/F com PEEP ≥ 5</li></ul><table class=t><tr><th>Gravidade</th><th>PaO₂/FiO₂</th></tr><tr><td>🟢 Leve</td><td>200–300</td></tr><tr><td>🟡 Moderada</td><td>100–200</td></tr><tr><td>🔴 Grave</td><td>≤ 100</td></tr></table>",
+   "pegadinha": "Mortalidade aproximada: 27% / 32% / 45%.",
+   "fonte": "ARDS Definition Task Force, JAMA 2012",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Definição de SDRA",
+   "frente": "🌍 O que mudou na <b>Definição Global de SDRA</b> (2023/2024)?",
+   "verso": "<ul><li>✅ Inclui <b>não intubados</b> em CNAF ≥ 30 L/min ou VNI/CPAP com PEEP ≥ 5</li><li>✅ <b>SpO₂/FiO₂ ≤ 315</b> (se SpO₂ ≤ 97%) vale como critério</li><li>✅ <b>USG pulmonar</b> (linhas B/consolidações) aceita para imagem</li><li>🌎 Versão para locais com recursos limitados: sem exigir PEEP/fluxo</li></ul>",
+   "pegadinha": "Graduação (intubados) S/F: leve 235–315, moderada 148–235, grave ≤ 148.",
+   "fonte": "Matthay et al., AJRCCM 2024",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ventilação protetora e modos",
+   "frente": "🎯 Parâmetros de <b>ventilação protetora</b> na SDRA?",
+   "verso": "<table class=t><tr><th>Parâmetro</th><th>Alvo</th></tr><tr><td>Vt</td><td><b class=c>4–8 mL/kg peso PREDITO</b> (iniciar 6)</td></tr><tr><td>Pplatô</td><td><b class=r>≤ 30 cmH₂O</b></td></tr><tr><td>Driving pressure</td><td><b class=y>≤ 15 cmH₂O</b></td></tr><tr><td>pH</td><td>≥ 7,20–7,25 (hipercapnia permissiva)</td></tr></table>",
+   "pegadinha": "ARMA/ARDSNet 2000: 6 × 12 mL/kg → ↓ mortalidade (31% × 40%).",
+   "fonte": "ARDSNet NEJM 2000",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ventilação protetora e modos",
+   "frente": "📏 Fórmula do <b>peso predito</b>?",
+   "verso": "👨 Homem: <b>50 + 0,91 × (altura cm − 152,4)</b><br>👩 Mulher: <b>45,5 + 0,91 × (altura cm − 152,4)</b>",
+   "pegadinha": "Usa ALTURA, nunca o peso real. Ex.: homem 170 cm ≈ 66 kg → Vt 6 mL/kg ≈ 400 mL.",
+   "fonte": "ARDSNet",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ventilação protetora e modos",
+   "frente": "🔺 O que é <b>driving pressure</b> e por que importa?",
+   "verso": "<b class=c>ΔP = Pplatô − PEEP</b> (= Vt / complacência)<br>🎯 Alvo <b>≤ 15 cmH₂O</b> – variável mais associada à mortalidade na SDRA.",
+   "pegadinha": "🤓 Amato NEJM 2015: ΔP 'normaliza' o Vt pelo tamanho do 'baby lung'.",
+   "fonte": "Amato NEJM 2015",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ventilação protetora e modos",
+   "frente": "🌬️ Ajustes de VM na <b>asma grave</b>?",
+   "verso": "<ul><li>FR baixa <b>10–12</b></li><li>Relação I:E <b>1:4 a 1:5</b></li><li>Vt 6–8 mL/kg</li><li>Pplatô &lt; 30</li><li>✅ Hipercapnia permissiva (pH &gt; 7,15–7,20)</li></ul>",
+   "pegadinha": "Objetivo = tempo expiratório longo para evitar hiperinsuflação dinâmica.",
+   "fonte": "Revisões de VM em asma",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ventilação protetora e modos",
+   "frente": "⚙️ <b>VCV × PCV</b>?",
+   "verso": "<table class=t><tr><th></th><th>VCV (volume)</th><th>PCV (pressão)</th></tr><tr><td>Fixo</td><td>Vt e fluxo</td><td>Pressão inspiratória e Ti</td></tr><tr><td>Varia</td><td>Pressão (com complacência/resistência)</td><td>Vt</td></tr><tr><td>Vantagem</td><td>Garante volume-minuto</td><td>Limita pressão; fluxo desacelerado</td></tr></table>",
+   "pegadinha": "Em VCV, monitore Ppico/Pplatô; em PCV, monitore o Vt exalado.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ventilação protetora e modos",
+   "frente": "🔄 <b>PSV</b>: o que dispara e o que cicla?",
+   "verso": "Disparo: <b>paciente</b> (fluxo/pressão)<br>Ciclagem: <b>queda do fluxo</b> a ~25% do pico (ajustável)",
+   "pegadinha": "DPOC: ↑ % de ciclagem (40–50%) para encurtar a inspiração.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ventilação protetora e modos",
+   "frente": "📊 Tabela <b>PEEP/FiO₂ baixa</b> (ARDSNet)?",
+   "verso": "<table class=t><tr><th>FiO₂</th><th>0,3</th><th>0,4</th><th>0,5</th><th>0,6</th><th>0,7</th><th>0,8</th><th>0,9</th><th>1,0</th></tr><tr><td>PEEP</td><td>5</td><td>5–8</td><td>8–10</td><td>10</td><td>10–14</td><td>14</td><td>14–18</td><td>18–24</td></tr></table>",
+   "pegadinha": "Meta: SpO₂ 88–95% ou PaO₂ 55–80.",
+   "fonte": "ARDSNet NEJM 2000",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ventilação protetora e modos",
+   "frente": "🫁 VM no <b>DPOC</b>?",
+   "verso": "Vt 6–8, FR baixa, ↑ tempo expiratório, alvo = <b>pH</b> (não a PaCO₂ basal 'normal'), PEEP externa ≤ 80% da auto-PEEP.",
+   "pegadinha": "Hiperventilar o DPOC → alcalose pós-hipercápnica.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Resgate da hipoxemia",
+   "frente": "🛏️ <b>PRONA</b>: indicação, duração e evidência?",
+   "verso": "📌 SDRA moderada/grave: <b class=r>P/F &lt; 150</b> com FiO₂ ≥ 0,6 e PEEP ≥ 5<br>⏱️ <b>≥ 16 h/dia</b>, precoce (&lt; 36 h)<br>📉 PROSEVA: mortalidade 28 d <b class=g>16% × 32,8%</b>",
+   "pegadinha": "Melhora homogeneidade da ventilação e relação V/Q; reduz VILI.",
+   "fonte": "PROSEVA, NEJM 2013",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Resgate da hipoxemia",
+   "frente": "💤 Bloqueador neuromuscular de rotina na SDRA?",
+   "verso": "❌ <b>Não rotineiro</b> (ROSE 2019: sem benefício).<br>✅ Considerar em SDRA moderada-grave com <b>dissincronia grave</b>, Pplatô alta ou prona.",
+   "pegadinha": "ACURASYS (2010) mostrou benefício, mas com sedação profunda no controle.",
+   "fonte": "ROSE NEJM 2019; ACURASYS 2010",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Resgate da hipoxemia",
+   "frente": "🫀 Critérios de <b>ECMO VV</b> (EOLIA)?",
+   "verso": "<table class=t><tr><th>Critério</th><th>Duração</th></tr><tr><td>P/F &lt; 50</td><td>&gt; 3 h</td></tr><tr><td>P/F &lt; 80</td><td>&gt; 6 h</td></tr><tr><td>pH &lt; 7,25 + PaCO₂ ≥ 60 (FR 35, Pplatô ≤ 32)</td><td>&gt; 6 h</td></tr></table>",
+   "pegadinha": "EOLIA: mortalidade 35% × 46% (NS no primário, mas análise bayesiana favorável).",
+   "fonte": "EOLIA NEJM 2018",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Resgate da hipoxemia",
+   "frente": "🎚️ PEEP alta × baixa e <b>manobra de recrutamento</b> na SDRA?",
+   "verso": "<ul><li>📊 Meta-análise (Briel 2010): PEEP alta ↓ mortalidade na SDRA <b>moderada/grave</b></li><li>❌ <b>ART (2017)</b>: recrutamento máximo + PEEP titulada → <b class=r>↑ mortalidade</b></li><li>✅ Ajustar PEEP pela tabela PEEP/FiO₂ ou oxigenação/complacência, evitando recrutamento agressivo de rotina</li></ul>",
+   "pegadinha": "ALVEOLI (2004): PEEP alta × baixa sem diferença no geral.",
+   "fonte": "Briel JAMA 2010; ART JAMA 2017",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Resgate da hipoxemia",
+   "frente": "📏 <b>Pressão esofágica</b> / transpulmonar na SDRA?",
+   "verso": "Estima pressão pleural → titular PEEP (Ptp expiratória ≥ 0).<br>EPVent-2: <b>sem benefício</b> de mortalidade.",
+   "pegadinha": "Útil em obesos e na distensão abdominal.",
+   "fonte": "EPVent-2 JAMA 2019",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Resgate da hipoxemia",
+   "frente": "💨 Óxido nítrico inalado na SDRA?",
+   "verso": "↑ Oxigenação transitória, <b>sem ↓ mortalidade</b> (↑ LRA) → só resgate.",
+   "fonte": "Gebistorf, Cochrane 2016",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Resgate da hipoxemia",
+   "frente": "⛔ Contraindicações à <b>prona</b>?",
+   "verso": "<ul><li>Instabilidade de coluna/fratura instável</li><li>HIC não controlada</li><li>Tórax aberto / esternotomia recente</li><li>Fratura pélvica instável</li><li>Instabilidade hemodinâmica grave (relativa)</li></ul>",
+   "pegadinha": "Gestação e obesidade são relativas.",
+   "fonte": "PROSEVA",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Desmame e extubação",
+   "frente": "🚦 Como fazer o <b>Teste de Respiração Espontânea</b> (TRE)?",
+   "verso": "🔧 PSV 5–8 + PEEP 5 <u>ou</u> tubo T, por <b>30–120 min</b>.<br><table class=t><tr><th>Falha se…</th><th></th></tr><tr><td>FR</td><td>&gt; 35 irpm</td></tr><tr><td>SpO₂</td><td>&lt; 90%</td></tr><tr><td>FC</td><td>&gt; 140 ou variação &gt; 20%</td></tr><tr><td>PAS</td><td>&gt; 180 ou &lt; 90</td></tr><tr><td>Clínica</td><td>Agitação, sudorese, uso de musculatura</td></tr></table>",
+   "pegadinha": "Subirana JAMA 2019: PSV 8/PEEP 0 por 30 min → mais sucesso de extubação que tubo T 2 h.",
+   "fonte": "Consenso desmame; Subirana 2019",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Desmame e extubação",
+   "frente": "🔢 Índice de <b>Tobin</b> (IRRS)?",
+   "verso": "<b class=c>IRRS = FR / Vt (L)</b><br>🔴 <b>&gt; 105</b> prediz falha de desmame.",
+   "pegadinha": "Medido em respiração espontânea, 1 min, sem suporte.",
+   "fonte": "Yang & Tobin NEJM 1991",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Desmame e extubação",
+   "frente": "😷 VNI ou CNAF pós-extubação: quem recebe o quê?",
+   "verso": "<table class=t><tr><th>Risco</th><th>Estratégia</th></tr><tr><td>🔴 Alto (hipercápnico, &gt; 65 a, cardiopata, IMC alto)</td><td><b>VNI profilática</b> (± CNAF entre sessões)</td></tr><tr><td>🟢 Baixo</td><td><b>CNAF</b></td></tr><tr><td>⚠️ Falha já instalada</td><td>❌ NÃO insistir em VNI de resgate → reintubar</td></tr></table>",
+   "pegadinha": "Esteban NEJM 2004: VNI de resgate na falha pós-extubação ↑ mortalidade (atrasa IOT).",
+   "fonte": "Esteban 2004; Thille 2019; Hernández 2016",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Desmame e extubação",
+   "frente": "✅ Quando iniciar o <b>TRE</b>?",
+   "verso": "<ul><li>Causa da IRpA em resolução</li><li>P/F &gt; 150–200 com PEEP ≤ 5–8 e FiO₂ ≤ 0,4–0,5</li><li>Estável (sem ou com baixa dose de vasopressor)</li><li>Drive respiratório presente, tosse eficaz</li></ul>",
+   "fonte": "Boles ERJ 2007",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Desmame e extubação",
+   "frente": "🎈 <b>Teste de vazamento do cuff</b>?",
+   "verso": "Vazamento &lt; 110 mL (ou &lt; 12–24% do Vt) → risco de <b>estridor pós-extubação</b><br>💊 Corticoide ≥ 4 h antes da extubação nos de risco",
+   "fonte": "ATS/ACCP 2017",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Desmame e extubação",
+   "frente": "🩺 <b>Traqueostomia precoce</b>?",
+   "verso": "TracMan: precoce (≤ 4 dias) × tardia (≥ 10 dias) → <b>sem ↓ mortalidade</b>.",
+   "pegadinha": "Individualizar: ↓ sedação e conforto.",
+   "fonte": "TracMan JAMA 2013",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Desmame e extubação",
+   "frente": "📊 Classificação do desmame (Boles)?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Definição</th></tr><tr><td>Simples</td><td>Sucesso no 1º TRE</td></tr><tr><td>Difícil</td><td>Até 3 TRE ou ≤ 7 dias</td></tr><tr><td>Prolongado</td><td>&gt; 3 TRE ou &gt; 7 dias</td></tr></table>",
+   "fonte": "Boles ERJ 2007",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "VNI, CNAF e via aérea",
+   "frente": "✅ Indicações de VNI com evidência mais forte?",
+   "verso": "<ul><li>🫁 <b>DPOC exacerbado</b> com acidose respiratória (pH &lt; 7,35 e PaCO₂ &gt; 45)</li><li>❤️ <b>EAP cardiogênico</b></li><li>🛡️ Pós-extubação em alto risco</li><li>🧬 Imunossuprimido hipoxêmico (evidência mais fraca)</li></ul>",
+   "fonte": "ERS/ATS 2017",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "VNI, CNAF e via aérea",
+   "frente": "⛔ Contraindicações à VNI?",
+   "verso": "<ul><li>PCR / parada respiratória</li><li>Instabilidade hemodinâmica grave</li><li>Rebaixamento <u>sem</u> hipercapnia; incapaz de proteger VA</li><li>Vômitos, HDA ativa</li><li>Trauma/cirurgia facial, obstrução de VAS</li><li>Pneumotórax não drenado (relativa)</li></ul>",
+   "pegadinha": "Hipercapnia com rebaixamento pode ser exceção (DPOC) – teste curto com vigilância.",
+   "fonte": "ERS/ATS 2017",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "VNI, CNAF e via aérea",
+   "frente": "💨 CNAF × VNI na IRpA hipoxêmica (não hipercápnica)?",
+   "verso": "<b class=g>CNAF preferida</b> – FLORALI: ↓ mortalidade 90 d e ↓ intubação no subgrupo <b>P/F ≤ 200</b>.",
+   "pegadinha": "🤓 CNAF: lavagem do espaço morto + PEEP leve (~1 cmH₂O/10 L/min) + FiO₂ estável.",
+   "fonte": "FLORALI NEJM 2015; ERS 2022",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "VNI, CNAF e via aérea",
+   "frente": "🪢 Mnemônico dos <b>7 Ps</b> da sequência rápida?",
+   "verso": "Preparação → Pré-oxigenação → Pré-tratamento/otimização → Paralisia com indução → Posicionamento → Passagem do tubo com confirmação (capnografia) → Pós-intubação",
+   "pegadinha": "Pós-IOT: hipotensão é comum → vasopressor pronto.",
+   "fonte": "Walls",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "VNI, CNAF e via aérea",
+   "frente": "🎥 Videolaringoscópio × laringoscopia direta?",
+   "verso": "DEVICE: videolaringoscópio ↑ <b>sucesso na 1ª tentativa</b> no crítico.",
+   "pegadinha": "BOUGIE (2021): bougie de rotina sem ↑ sucesso.",
+   "fonte": "DEVICE NEJM 2023; BOUGIE JAMA 2021",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "VNI, CNAF e via aérea",
+   "frente": "⚙️ Parâmetros iniciais da <b>VNI</b> no DPOC?",
+   "verso": "IPAP <b>10–12</b> → subir até ~20 conforme Vt/FR | EPAP <b>4–5</b> | FiO₂ para SpO₂ 88–92%<br>⏱️ Reavaliar gasometria em <b>1–2 h</b>",
+   "pegadinha": "Sem melhora do pH/FR em 1–2 h → intubar.",
+   "fonte": "BTS/ERS",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "VNI, CNAF e via aérea",
+   "frente": "📐 <b>Índice ROX</b> na CNAF?",
+   "verso": "<b>ROX = (SpO₂/FiO₂)/FR</b><br>🟢 ≥ 4,88 em 2, 6 ou 12 h → sucesso provável<br>🔴 &lt; 3,85 → alto risco de falha",
+   "fonte": "Roca AJRCCM 2019",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "VNI, CNAF e via aérea",
+   "frente": "⏰ Intubação tardia na falha de CNAF?",
+   "verso": "Falha após <b>&gt; 48 h</b> de CNAF associada a ↑ mortalidade → não atrasar a IOT.",
+   "fonte": "Kang ICM 2015",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Mecânica, monitorização e complicações",
+   "frente": "📈 Ppico alta: como diferenciar problema de <b>resistência</b> × <b>complacência</b>?",
+   "verso": "<table class=t><tr><th>Achado</th><th>Interpretação</th><th>Causas</th></tr><tr><td>↑ Ppico, Pplatô normal</td><td><b class=y>↑ Resistência</b></td><td>Broncoespasmo, secreção, tubo dobrado/mordido</td></tr><tr><td>↑ Ppico E ↑ Pplatô</td><td><b class=r>↓ Complacência</b></td><td>SDRA, pneumotórax, intubação seletiva, distensão abdominal</td></tr></table>",
+   "pegadinha": "Faça pausa inspiratória de 0,5–1 s para medir Pplatô.",
+   "fonte": "Fisiologia respiratória",
+   "imagem": "img_vm_pressao.png",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Mecânica, monitorização e complicações",
+   "frente": "🧮 Fórmulas de complacência estática e resistência?",
+   "verso": "📐 <b>Cest = Vt / (Pplatô − PEEP)</b> → normal ≈ 50–100 mL/cmH₂O<br>📐 <b>Rva = (Ppico − Pplatô) / fluxo</b> (L/s) → normal &lt; 10–15 cmH₂O/L/s",
+   "pegadinha": "Fluxo 60 L/min = 1 L/s → fica fácil fazer a conta de cabeça.",
+   "fonte": "Fisiologia respiratória",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Mecânica, monitorização e complicações",
+   "frente": "🎈 <b>Auto-PEEP</b>: como medir e corrigir?",
+   "verso": "📏 <b>Pausa expiratória</b> (2–4 s)<br>🔧 Corrigir: ↓ FR, ↓ Vt, ↑ fluxo inspiratório (↓ Ti → ↑ Te), broncodilatador<br>➕ Em ventilação assistida: PEEP externa ≈ <b>80% da auto-PEEP</b>",
+   "pegadinha": "Hipotensão logo após IOT em asmático/DPOC → desconectar do ventilador por alguns segundos!",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Mecânica, monitorização e complicações",
+   "frente": "🚨 Dessaturação súbita no paciente em VM: mnemônico?",
+   "verso": "<table class=t><tr><th>Letra</th><th>Causa</th></tr><tr><td><b>D</b></td><td>Deslocamento do tubo (extubação/seletiva)</td></tr><tr><td><b>O</b></td><td>Obstrução (secreção, tubo mordido)</td></tr><tr><td><b>P</b></td><td>Pneumotórax</td></tr><tr><td><b>E</b></td><td>Equipamento (ventilador, circuito, O₂)</td></tr><tr><td><b>S</b></td><td>Stacking (auto-PEEP)</td></tr></table>",
+   "pegadinha": "Primeira ação: <b>desconectar e ventilar com AMBU a 100%</b>.",
+   "fonte": "Mnemônico DOPES",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Mecânica, monitorização e complicações",
+   "frente": "💥 Mecanismos de <b>VILI</b>?",
+   "verso": "<ul><li>Volutrauma (hiperdistensão)</li><li>Barotrauma (pressão)</li><li>Atelectrauma (abre-fecha cíclico)</li><li>Biotrauma (inflamação sistêmica)</li><li>Ergotrauma / power mecânico</li></ul>",
+   "fonte": "Slutsky NEJM 2013",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Mecânica, monitorização e complicações",
+   "frente": "⚡ <b>Mechanical power</b>?",
+   "verso": "Energia transferida ao pulmão por minuto (depende de Vt, ΔP, FR, fluxo e PEEP) → &gt; <b>17 J/min</b> associado a ↑ mortalidade.",
+   "fonte": "Gattinoni 2016; Serpa Neto 2018",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Mecânica, monitorização e complicações",
+   "frente": "🤝 Principais <b>dissincronias</b>?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Correção</th></tr><tr><td>Esforço ineficaz</td><td>↓ auto-PEEP, ↓ suporte/sedação</td></tr><tr><td>Duplo disparo</td><td>↑ Vt/Ti ou ↑ suporte</td></tr><tr><td>Autodisparo</td><td>↑ limiar de disparo, corrigir vazamento</td></tr><tr><td>Ciclagem precoce/tardia</td><td>Ajustar Ti ou % de ciclagem</td></tr></table>",
+   "pegadinha": "Duplo disparo na SDRA → 'Vt empilhado' (até 2×).",
+   "fonte": "Revisões",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Mecânica, monitorização e complicações",
+   "frente": "🚨 Pneumotórax hipertensivo na VM?",
+   "verso": "↑ Ppico/Pplatô + hipotensão + ↓ MV unilateral → <b>descompressão imediata</b> e drenagem.",
+   "pegadinha": "USG: sem deslizamento + ponto pulmonar.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T02",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {
+  "img_vm_pressao.png": "data/media/img_vm_pressao.png"
+ }
+}

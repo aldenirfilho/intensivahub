@@ -1,0 +1,471 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::07 🧠 Neurointensivismo",
+ "cards": [
+  {
+   "subtema": "Coma, PIC e HIC",
+   "frente": "🧠 Escala de <b>Glasgow</b>?",
+   "verso": "<table class=t><tr><th>Ocular</th><th>Verbal</th><th>Motora</th></tr><tr><td>4 espontânea</td><td>5 orientado</td><td>6 obedece</td></tr><tr><td>3 ao som</td><td>4 confuso</td><td>5 localiza</td></tr><tr><td>2 à pressão</td><td>3 palavras</td><td>4 flexão normal (retirada)</td></tr><tr><td>1 nenhuma</td><td>2 sons</td><td>3 flexão anormal (decorticação)</td></tr><tr><td></td><td>1 nenhuma</td><td>2 extensão (descerebração)</td></tr><tr><td></td><td></td><td>1 nenhuma</td></tr></table><br>🔦 <b>GCS-P</b> = GCS − nº de pupilas não reativas (0–2)",
+   "pegadinha": "Mínimo 3, máximo 15. Intubado: registrar 'V-T'.",
+   "fonte": "Teasdale 2014/2018",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coma, PIC e HIC",
+   "frente": "📈 Doutrina de <b>Monro-Kellie</b>?",
+   "verso": "Crânio = volume fixo: <b>cérebro + sangue + LCR</b>. ↑ de um exige ↓ de outro.<br>📈 Esgotada a complacência, pequeno ↑ volume → <b class=r>↑↑ PIC</b>",
+   "fonte": "Fisiologia",
+   "imagem": "img_icp_pv.png",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coma, PIC e HIC",
+   "frente": "🪜 Escalonamento do tratamento da <b>HIC</b>?",
+   "verso": "1️⃣ Cabeceira 30°, cabeça neutra, sedoanalgesia, normocapnia, normotermia, Na 140–150<br>2️⃣ <b>Osmoterapia</b>: manitol 0,25–1 g/kg ou salina hipertônica<br>3️⃣ DVE (drenar LCR)<br>4️⃣ Hiperventilação breve (PaCO₂ 30–35) como ponte<br>5️⃣ Coma barbitúrico / <b>craniectomia descompressiva</b>",
+   "pegadinha": "RESCUEicp: craniectomia ↓ mortalidade, mas ↑ estado vegetativo/incapacidade grave.",
+   "fonte": "SIBICC 2019; RESCUEicp NEJM 2016",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coma, PIC e HIC",
+   "frente": "🚨 <b>Tríade de Cushing</b>?",
+   "verso": "⬆️ Hipertensão + ⬇️ Bradicardia + 🌬️ Respiração irregular → <b>herniação iminente</b>",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Coma, PIC e HIC",
+   "frente": "🧂 <b>Osmoterapia</b>: doses e limites?",
+   "verso": "Salina 3% <b>250 mL</b> (periférica ok) ou 23,4% <b>30 mL</b> (central)<br>Manitol 0,25–1 g/kg → suspender se gap osmolar &gt; 20 / Osm &gt; 320<br>🎯 Na 145–155",
+   "fonte": "SIBICC; NCS 2020",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Coma, PIC e HIC",
+   "frente": "👁️ <b>Herniação uncal</b>?",
+   "verso": "Midríase <b>ipsilateral</b> (III par) + hemiparesia contralateral<br>⚠️ Fenômeno de Kernohan: hemiparesia ipsilateral (falso localizador)",
+   "fonte": "Neurologia",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Coma, PIC e HIC",
+   "frente": "🔊 Sinais não invasivos de HIC?",
+   "verso": "USG: <b>diâmetro da bainha do nervo óptico</b> &gt; 5,7–6 mm<br>Doppler transcraniano: IP &gt; 1,2",
+   "pegadinha": "Não substituem a PIC invasiva.",
+   "fonte": "Robba 2018",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Coma, PIC e HIC",
+   "frente": "⚡ <b>Estado de mal não convulsivo</b>?",
+   "verso": "Rebaixamento inexplicado → <b>EEG</b> (presente em ~8–10% dos comatosos na UTI).",
+   "fonte": "Claassen 2004",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "TCE",
+   "frente": "🎯 Alvos de <b>PIC e PPC</b> no TCE grave?",
+   "verso": "📐 <b>PPC = PAM − PIC</b><br>🎯 PPC <b class=c>60–70 mmHg</b><br>🚨 Tratar PIC <b class=r>&gt; 22 mmHg</b>",
+   "pegadinha": "Autorregulação cerebral: fluxo estável com PAM ≈ 50–150 (perdida no TCE).",
+   "fonte": "Brain Trauma Foundation 4ª ed. 2016",
+   "imagem": "img_lassen.png",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "TCE",
+   "frente": "🤕 <b>TCE</b>: profilaxia anticonvulsivante e corticoide?",
+   "verso": "💊 Fenitoína/levetiracetam por <b>7 dias</b> → ↓ crises <b>precoces</b> (não as tardias)<br>❌ <b class=r>Corticoide contraindicado</b> (CRASH: ↑ mortalidade)",
+   "fonte": "BTF 4ª ed.; CRASH Lancet 2004",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "TCE",
+   "frente": "🔢 Gravidade do <b>TCE</b> por Glasgow?",
+   "verso": "<table class=t><tr><th>Gravidade</th><th>GCS</th></tr><tr><td>Leve</td><td>13–15</td></tr><tr><td>Moderado</td><td>9–12</td></tr><tr><td>Grave</td><td>≤ 8 → IOT</td></tr></table>",
+   "fonte": "ATLS",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "TCE",
+   "frente": "📉 Alvos de PA no TCE grave?",
+   "verso": "PAS ≥ <b>100</b> (50–69 anos) | ≥ <b>110</b> (15–49 ou &gt; 70 anos)<br>Evitar hipóxia (SpO₂ &lt; 90)",
+   "pegadinha": "Um único episódio de hipotensão ↑ muito a mortalidade.",
+   "fonte": "BTF 4ª ed.",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "TCE",
+   "frente": "🌬️ Hiperventilação profilática no TCE?",
+   "verso": "<b>❌ Não</b> – PaCO₂ ≤ 25 contraindicada; só breve como ponte na herniação.",
+   "fonte": "BTF 4ª ed.",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "TCE",
+   "frente": "🧊 Hipotermia terapêutica no TCE?",
+   "verso": "<b>Sem benefício</b> (POLAR, Eurotherm3235 – possível dano).",
+   "fonte": "POLAR JAMA 2018; Eurotherm NEJM 2015",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "TCE",
+   "frente": "💉 <b>Ácido tranexâmico</b> no TCE?",
+   "verso": "CRASH-3: ↓ morte relacionada ao TCE em <b>GCS 9–15</b> se dado em ≤ <b>3 h</b>.",
+   "fonte": "CRASH-3 Lancet 2019",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "💉 <b>Trombólise no AVC isquêmico</b>: doses e PA?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Dose</th></tr><tr><td>Alteplase</td><td><b>0,9 mg/kg</b> (máx 90 mg) – 10% bolus + 90% em 60 min</td></tr><tr><td>Tenecteplase</td><td><b>0,25 mg/kg</b> bolus (máx 25 mg)</td></tr></table>⏱️ Até <b>4,5 h</b> | 🩺 PA &lt; 185/110 antes e <b>&lt; 180/105</b> nas 24 h seguintes",
+   "pegadinha": "Tenecteplase ganhou espaço (AcT, ATTEST-2) – bolus único.",
+   "fonte": "AHA/ASA 2019; AcT 2022",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "🪝 <b>Trombectomia mecânica</b>: janelas?",
+   "verso": "✅ Oclusão de grande vaso anterior até <b>6 h</b><br>✅ <b>6–24 h</b> com seleção por imagem (DAWN, DEFUSE-3)<br>✅ Grande core (ASPECTS 3–5): SELECT2, ANGEL-ASPECT",
+   "fonte": "AHA/ASA; DAWN/DEFUSE-3 2018; SELECT2 2023",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "🧠 <b>AVC hemorrágico</b>: PA e reversão de anticoagulante?",
+   "verso": "🎯 PAS ≈ <b>140</b> (evitar &lt; 130)<br><table class=t><tr><th>Anticoagulante</th><th>Reversão</th></tr><tr><td>Varfarina</td><td><b>CCP 4 fatores</b> + vitamina K 10 mg IV</td></tr><tr><td>Dabigatrana</td><td><b>Idarucizumabe 5 g</b></td></tr><tr><td>Anti-Xa (rivaroxabana/apixabana)</td><td>Andexanet alfa ou CCP 4F</td></tr><tr><td>Heparina</td><td>Protamina</td></tr></table>",
+   "pegadinha": "PFC é inferior ao CCP (lento, volume).",
+   "fonte": "AHA/ASA 2022; INTERACT2/3",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "🔢 Componentes do <b>ICH score</b>?",
+   "verso": "<table class=t><tr><th>Item</th><th>Pontos</th></tr><tr><td>GCS 3–4 / 5–12</td><td>2 / 1</td></tr><tr><td>Volume ≥ 30 mL (ABC/2)</td><td>1</td></tr><tr><td>Inundação ventricular</td><td>1</td></tr><tr><td>Infratentorial</td><td>1</td></tr><tr><td>Idade ≥ 80</td><td>1</td></tr></table>",
+   "pegadinha": "Mortalidade 30 d: 0 → 0%; 3 → 72%; 5 → 100%.",
+   "fonte": "Hemphill 2001",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "⛔ Contraindicações principais à <b>trombólise</b>?",
+   "verso": "<ul><li>Hemorragia intracraniana (atual/prévia)</li><li>TCE grave ou AVC isquêmico em 3 meses</li><li>PA &gt; 185/110 refratária</li><li>Plaquetas &lt; 100k, INR &gt; 1,7, DOAC recente</li><li>Glicemia &lt; 50</li><li>Cirurgia intracraniana/raquimedular recente</li></ul>",
+   "fonte": "AHA/ASA 2019",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "🧠 <b>AVC maligno de ACM</b>: craniectomia?",
+   "verso": "≤ 60 anos, em ≤ <b>48 h</b> → ↓ mortalidade (DESTINY, DECIMAL, HAMLET); &gt; 60 anos (DESTINY II) ↓ mortalidade, mais incapacidade.",
+   "fonte": "Vahedi 2007; DESTINY II 2014",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "🩺 PA no AVC isquêmico <b>sem</b> trombólise?",
+   "verso": "Tratar apenas se <b>&gt; 220/120</b> (redução de ~15% nas 24 h).",
+   "fonte": "AHA/ASA 2019",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "💊 Quando anticoagular após AVC com FA?",
+   "verso": "ELAN: início <b>precoce</b> (≤ 48 h em leve/moderado; 6–7 dias em grave) é seguro.",
+   "fonte": "ELAN NEJM 2023",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "AVC isquêmico e hemorrágico",
+   "frente": "🧠 Hemorragia <b>cerebelar</b>: quando operar?",
+   "verso": "&gt; 3 cm, compressão de tronco ou hidrocefalia, ou piora neurológica → <b>evacuação cirúrgica</b>.",
+   "fonte": "AHA/ASA 2022",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Hemorragia subaracnóidea",
+   "frente": "🩸 Escalas na <b>HSA</b>: Hunt-Hess e Fisher modificada?",
+   "verso": "<table class=t><tr><th>Hunt-Hess (clínica)</th><th>Fisher modificada (TC → vasoespasmo)</th></tr><tr><td>I assintomático/cefaleia leve</td><td>0 sem sangue</td></tr><tr><td>II cefaleia intensa, rigidez, par craniano</td><td>1 HSA fina, sem HIV</td></tr><tr><td>III sonolência/confusão, déficit leve</td><td>2 HSA fina + HIV</td></tr><tr><td>IV estupor, hemiparesia</td><td>3 HSA espessa, sem HIV</td></tr><tr><td>V coma, descerebração</td><td>4 HSA espessa + HIV</td></tr></table>",
+   "pegadinha": "HIV = hemorragia intraventricular. WFNS é outra escala clínica (baseada em GCS).",
+   "fonte": "Hunt-Hess 1968; Frontera 2006",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Hemorragia subaracnóidea",
+   "frente": "💊 <b>Nimodipina</b> na HSA?",
+   "verso": "<b class=c>60 mg VO a cada 4 h por 21 dias</b><br>✅ Melhora desfecho neurológico (<u>não</u> reduz vasoespasmo angiográfico)",
+   "pegadinha": "Hipotensão → fracionar 30 mg 2/2h.",
+   "fonte": "AHA/ASA 2023",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Hemorragia subaracnóidea",
+   "frente": "🌀 <b>Vasoespasmo</b> pós-HSA: quando e como detectar?",
+   "verso": "⏱️ Dias <b>3–14</b> (pico 7–10)<br>🔊 Doppler transcraniano: velocidade ACM &gt; 120 cm/s; <b>Lindegaard &gt; 3</b><br>🔧 Euvolemia, hipertensão induzida, terapia endovascular",
+   "pegadinha": "Triplo H (hipervolemia) abandonado – só euvolemia.",
+   "fonte": "AHA/ASA 2023",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Hemorragia subaracnóidea",
+   "frente": "🔁 <b>Ressangramento</b> na HSA?",
+   "verso": "Maior risco nas primeiras <b>24 h</b> → tratar o aneurisma precocemente (clipe/coil).<br>TXA curto: sem melhora de desfecho (ULTRA)",
+   "fonte": "AHA/ASA 2023; ULTRA Lancet 2021",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Hemorragia subaracnóidea",
+   "frente": "💧 <b>Hidrocefalia aguda</b> na HSA?",
+   "verso": "Rebaixamento + ventrículos dilatados → <b>DVE</b>.",
+   "fonte": "AHA/ASA 2023",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Hemorragia subaracnóidea",
+   "frente": "🧂 Hiponatremia na HSA?",
+   "verso": "SIADH ou perda cerebral de sal → <b>não restringir água</b>; salina hipertônica, fludrocortisona.",
+   "fonte": "NCS",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Estado de mal epiléptico",
+   "frente": "⚡ Definição de <b>estado de mal epiléptico</b>?",
+   "verso": "Crise convulsiva ≥ <b>5 min</b> (t1) ou crises recorrentes sem recuperação.<br>🧠 Dano neuronal a partir de <b>30 min</b> (t2).",
+   "fonte": "ILAE 2015",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Estado de mal epiléptico",
+   "frente": "🪜 Tratamento do <b>EME</b> por tempo?",
+   "verso": "<table class=t><tr><th>Tempo</th><th>Conduta</th></tr><tr><td>0–5 min</td><td>ABC, glicemia, tiamina</td></tr><tr><td>5–20 min</td><td><b>BZD</b>: midazolam 10 mg IM | lorazepam 0,1 mg/kg (máx 4) | diazepam 0,15–0,2 mg/kg (máx 10)</td></tr><tr><td>20–40 min</td><td><b>2ª linha</b>: fosfenitoína 20 mg EF/kg | valproato 40 mg/kg | levetiracetam 60 mg/kg</td></tr><tr><td>40–60 min</td><td>Refratário: midazolam/propofol/tiopental + EEG contínuo</td></tr></table>",
+   "pegadinha": "ESETT: as três drogas de 2ª linha são equivalentes (~50% de controle).",
+   "fonte": "AES 2016; ESETT NEJM 2019",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Estado de mal epiléptico",
+   "frente": "⚡ <b>EME super-refratário</b>?",
+   "verso": "Persistência ≥ 24 h após anestésicos → cetamina, dieta cetogênica, imunoterapia se autoimune.",
+   "fonte": "Shorvon",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Neuromuscular e encefalopatias",
+   "frente": "🦵 <b>Guillain-Barré</b>: quando intubar e como tratar?",
+   "verso": "📏 Regra <b>20/30/40</b>: CV &lt; 20 mL/kg | PImáx &gt; −30 | PEmáx &lt; 40<br>💉 <b>IgIV 0,4 g/kg/dia × 5 dias</b> ou plasmaférese<br>❌ Corticoide NÃO",
+   "pegadinha": "Disautonomia pode matar – monitor contínuo.",
+   "fonte": "Neurologia",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Neuromuscular e encefalopatias",
+   "frente": "😴 <b>Crise miastênica</b>: drogas que precipitam?",
+   "verso": "💊 Aminoglicosídeos, fluoroquinolonas, macrolídeos, magnésio, betabloqueadores, BNM<br>🔧 IgIV ou plasmaférese; suspender piridostigmina na VM",
+   "pegadinha": "Resistente à succinilcolina, ultrassensível aos não despolarizantes.",
+   "fonte": "Neurologia",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Neuromuscular e encefalopatias",
+   "frente": "🍷 <b>Encefalopatia de Wernicke</b>?",
+   "verso": "🔺 Confusão + oftalmoplegia + ataxia (tríade em &lt; 20%)<br>💉 <b class=c>Tiamina 500 mg IV 8/8h</b> (2–3 dias) <b>antes de glicose</b>",
+   "pegadinha": "Na dúvida, dê tiamina – é barata e segura.",
+   "fonte": "Royal College; EFNS 2010",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Neuromuscular e encefalopatias",
+   "frente": "🧠 <b>PRES</b>?",
+   "verso": "Cefaleia, convulsão, alteração visual + HAS/eclâmpsia/imunossupressores (tacrolimus) → edema vasogênico <b>parieto-occipital</b><br>🔧 Controlar PA, retirar droga",
+   "pegadinha": "Reversível se tratada cedo.",
+   "fonte": "Neurologia",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Morte encefálica",
+   "frente": "⚰️ <b>Morte encefálica no Brasil</b>: pré-requisitos (CFM 2.173/2017)?",
+   "verso": "<ul><li>Lesão encefálica conhecida, irreversível</li><li>Ausência de fatores tratáveis confundidores</li><li>Observação/tratamento ≥ <b>6 h</b> (≥ 24 h se encefalopatia hipóxico-isquêmica)</li><li>🌡️ T &gt; 35 °C | SatO₂ &gt; 94% | PAS ≥ 100 ou PAM ≥ 65</li></ul>",
+   "pegadinha": "Notificação à CIHDOTT/OPO é obrigatória (Lei 9.434/1997).",
+   "fonte": "Res. CFM 2.173/2017",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Morte encefálica",
+   "frente": "🔍 <b>Protocolo de ME</b>: o que é obrigatório?",
+   "verso": "<ul><li>👨‍⚕️ <b>2 exames clínicos</b> por médicos diferentes (1 capacitado/especialista)</li><li>⏱️ Intervalo mínimo <b>1 h</b> (&gt; 2 anos de idade)</li><li>🫁 <b>1 teste de apneia</b>: PaCO₂ final &gt; 55 mmHg sem movimento</li><li>🖥️ <b>1 exame complementar</b> (Doppler, EEG, arteriografia, cintilografia)</li></ul>",
+   "pegadinha": "Reflexos: fotomotor, córneo-palpebral, oculocefálico, vestíbulo-calórico, tosse.",
+   "fonte": "Res. CFM 2.173/2017",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Morte encefálica",
+   "frente": "🫁 Como fazer o <b>teste de apneia</b>?",
+   "verso": "Pré-oxigenar FiO₂ 100% ≥ 10 min, PaCO₂ basal 35–45 → desconectar com O₂ ~6 L/min pelo tubo → 8–10 min → gasometria<br>✅ Positivo: <b>PaCO₂ &gt; 55</b> sem movimentos respiratórios",
+   "pegadinha": "Instabilidade/dessaturação → interromper e usar exame complementar.",
+   "fonte": "Res. CFM 2.173/2017",
+   "tags": [
+    "TEMI2028",
+    "T07",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {
+  "img_icp_pv.png": "data/media/img_icp_pv.png",
+  "img_lassen.png": "data/media/img_lassen.png"
+ }
+}

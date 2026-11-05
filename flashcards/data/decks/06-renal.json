@@ -1,0 +1,464 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::06 🫘 Rim, LRA e TRS",
+ "cards": [
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "🫘 Definição de <b>LRA</b> (KDIGO)?",
+   "verso": "<ul><li>↑ Cr <b>≥ 0,3 mg/dL em 48 h</b></li><li>↑ Cr <b>≥ 1,5× basal</b> em 7 dias</li><li>Diurese <b>&lt; 0,5 mL/kg/h por 6 h</b></li></ul>",
+   "pegadinha": "Basta UM critério.",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "📊 Estágios <b>KDIGO</b> da LRA?",
+   "verso": "<table class=t><tr><th>Estágio</th><th>Creatinina</th><th>Diurese</th></tr><tr><td>🟢 1</td><td>1,5–1,9× ou ↑ ≥ 0,3</td><td>&lt; 0,5 mL/kg/h 6–12 h</td></tr><tr><td>🟡 2</td><td>2,0–2,9×</td><td>&lt; 0,5 mL/kg/h ≥ 12 h</td></tr><tr><td>🔴 3</td><td>≥ 3× ou Cr ≥ 4 ou TRS</td><td>&lt; 0,3 mL/kg/h ≥ 24 h ou anúria ≥ 12 h</td></tr></table>",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "🧮 <b>FeNa</b> e <b>FeUreia</b>: fórmulas e cortes?",
+   "verso": "FeNa = (UNa × PCr)/(PNa × UCr) × 100<br>🟢 <b>&lt; 1%</b> pré-renal | 🔴 <b>&gt; 2%</b> NTA<br>💊 Em uso de diurético: <b>FeUreia &lt; 35%</b> = pré-renal",
+   "pegadinha": "FeNa baixo também em contraste, rabdomiólise, SHR, GN aguda.",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "💉 <b>Furosemide stress test</b>?",
+   "verso": "Furosemida <b>1 mg/kg</b> (1,5 se uso prévio) → DU <b class=r>&lt; 200 mL em 2 h</b> prediz progressão para KDIGO 3/TRS.",
+   "fonte": "Chawla 2013",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "🔬 Biomarcadores de LRA?",
+   "verso": "<b>[TIMP-2]×[IGFBP7]</b> (NephroCheck) &gt; 0,3 → risco de LRA moderada/grave<br>NGAL, KIM-1, cistatina C",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "🧪 <b>Cistatina C</b>: vantagem?",
+   "verso": "Menos influenciada por <b>massa muscular</b> (útil em sarcopênicos, amputados, cirróticos).",
+   "fonte": "KDIGO",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "📉 Por que a creatinina engana no crítico?",
+   "verso": "↓ Produção (sepse, sarcopenia), diluição por volume, atraso de 24–48 h → subestima a LRA.<br>👉 Diurese é marcador mais precoce.",
+   "fonte": "KDIGO",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "🔬 <b>Sedimento urinário</b> na LRA?",
+   "verso": "<table class=t><tr><th>Achado</th><th>Sugere</th></tr><tr><td>Cilindros granulosos 'marrom-barrento'</td><td>NTA</td></tr><tr><td>Cilindros hemáticos / hemácias dismórficas</td><td>Glomerulonefrite</td></tr><tr><td>Cilindros leucocitários</td><td>Nefrite intersticial / pielonefrite</td></tr><tr><td>Cilindros hialinos</td><td>Pré-renal</td></tr></table>",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Definição e diagnóstico da LRA",
+   "frente": "🩻 Por que fazer <b>USG renal</b> na LRA?",
+   "verso": "Excluir <b>obstrução</b> (hidronefrose) – causa pós-renal reversível; avaliar tamanho e ecogenicidade (IRC).",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "💪 <b>Rabdomiólise</b>: tratamento?",
+   "verso": "CK &gt; 5× LSN (risco de LRA se &gt; 5.000–15.000)<br>💧 Hidratação vigorosa visando <b>DU 200–300 mL/h</b><br>❓ Bicarbonato/manitol: sem evidência robusta",
+   "pegadinha": "Hipocalcemia inicial: NÃO tratar se assintomática (rebote de hipercalcemia).",
+   "fonte": "Bosch NEJM 2009",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "🍺 <b>Síndrome hepatorrenal</b> (HRS-AKI): tratamento?",
+   "verso": "1️⃣ Suspender diuréticos + <b>albumina 1 g/kg</b> (máx 100 g) por 2 dias<br>2️⃣ <b class=c>Terlipressina + albumina</b><br>⚠️ Terlipressina: risco de insuficiência respiratória/sobrecarga",
+   "pegadinha": "Sem terlipressina: noradrenalina + albumina (na UTI).",
+   "fonte": "CONFIRM NEJM 2021; EASL",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "🫃 <b>Hipertensão intra-abdominal</b>: graus e SCA?",
+   "verso": "<table class=t><tr><th>Grau</th><th>PIA (mmHg)</th></tr><tr><td>I</td><td>12–15</td></tr><tr><td>II</td><td>16–20</td></tr><tr><td>III</td><td>21–25</td></tr><tr><td>IV</td><td>&gt; 25</td></tr></table>🚨 <b>Síndrome compartimental</b>: PIA &gt; 20 sustentada + nova disfunção orgânica",
+   "pegadinha": "Medida vesical: ≤ 25 mL SF, supino, final da expiração, zero na linha axilar média.",
+   "fonte": "WSACS 2013",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "💊 <b>Nefrite intersticial aguda</b>: pistas?",
+   "verso": "Febre + rash + eosinofilia (tríade completa &lt; 10%), leucocitúria estéril, <b>cilindros leucocitários</b><br>💊 Drogas: betalactâmicos, <b>IBP</b>, AINE, sulfas<br>🔧 Suspender droga ± corticoide",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "🩸 <b>Síndrome pulmão-rim</b>: causas e tratamento?",
+   "verso": "🔍 Anti-MBG (Goodpasture), vasculites ANCA, LES<br>💉 Pulso de metilprednisolona + ciclofosfamida/rituximabe<br>🔄 <b>Plasmaférese</b> na anti-MBG",
+   "pegadinha": "Hemorragia alveolar: ↓ Hb + infiltrado + ↑ DLCO.",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "⚠️ <b>Vancomicina + piperacilina-tazobactam</b>?",
+   "verso": "Associação com ↑ LRA (pelo menos ↑ de creatinina) vs vanco + cefepima/meropenem.",
+   "fonte": "Observacional; ACORN 2023 (cefepima × pip-tazo)",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "💊 Nefrotoxicidade por <b>aminoglicosídeo</b>?",
+   "verso": "LRA <b>não oligúrica</b> após 5–7 dias + hipoMg/hipoK; dose única diária e duração curta reduzem risco.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "❤️🫘 <b>Síndrome cardiorrenal</b>: tipos?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Sequência</th></tr><tr><td>1</td><td>IC aguda → LRA</td></tr><tr><td>2</td><td>IC crônica → DRC</td></tr><tr><td>3</td><td>LRA → disfunção cardíaca aguda</td></tr><tr><td>4</td><td>DRC → doença cardíaca</td></tr><tr><td>5</td><td>Sistêmica (sepse) → ambos</td></tr></table>",
+   "fonte": "Ronco 2008",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "🔥 <b>GN rapidamente progressiva</b>: tipos?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Exemplo</th><th>Imunofluorescência</th></tr><tr><td>I</td><td>Anti-MBG</td><td>Linear</td></tr><tr><td>II</td><td>Imunocomplexos (LES, pós-infecciosa, IgA)</td><td>Granular</td></tr><tr><td>III</td><td>Pauci-imune (ANCA)</td><td>Negativa</td></tr></table>",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "🧱 <b>Crise renal esclerodérmica</b>?",
+   "verso": "HAS maligna + LRA na esclerodermia → <b>IECA (captopril)</b> mesmo com LRA.",
+   "pegadinha": "Corticoide em dose alta é fator de risco.",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Causas e síndromes renais",
+   "frente": "💎 <b>Nefropatia por cristais</b>?",
+   "verso": "Aciclovir, metotrexato, sulfas, indinavir, oxalato → hidratação, ajuste de dose.",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🚨 Indicações <b>urgentes</b> de diálise (AEIOU)?",
+   "verso": "<table class=t><tr><th>Letra</th><th>Indicação</th></tr><tr><td>A</td><td>Acidose refratária</td></tr><tr><td>E</td><td>Eletrólitos (hipercalemia refratária)</td></tr><tr><td>I</td><td>Intoxicação dialisável</td></tr><tr><td>O</td><td>Overload – hipervolemia refratária</td></tr><tr><td>U</td><td>Uremia: pericardite, encefalopatia, sangramento</td></tr></table>",
+   "fonte": "Clássico",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "⏰ <b>Timing</b> da TRS na LRA sem indicação urgente?",
+   "verso": "STARRT-AKI e AKIKI: estratégia <b>acelerada sem benefício</b> (mais dependência de diálise).<br>⚠️ AKIKI2: adiar <b>demais</b> pode causar dano.",
+   "pegadinha": "Mensagem de prova: 'esperar com vigilância', sem adiar indefinidamente.",
+   "fonte": "STARRT-AKI 2020; AKIKI 2016; AKIKI2 2021",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "☠️ Características de toxina <b>dialisável</b> e exemplos?",
+   "verso": "✅ Baixo peso molecular, <b>baixo Vd</b>, <b>baixa ligação proteica</b>, hidrossolúvel<br>💊 Lítio, salicilato, metanol, etilenoglicol, metformina, valproato, teofilina, fenobarbital",
+   "pegadinha": "Tricíclicos, digoxina, BCC: alto Vd/ligação → NÃO dialisáveis.",
+   "fonte": "EXTRIP",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "💧 Dose de <b>CRRT</b> recomendada?",
+   "verso": "<b class=c>20–25 mL/kg/h</b> de efluente <u>entregue</u> (prescrever 25–30 pelas pausas).",
+   "pegadinha": "RENAL e ATN: dose intensiva sem benefício.",
+   "fonte": "KDIGO; RENAL NEJM 2009; ATN NEJM 2008",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🍋 Anticoagulação <b>regional com citrato</b>: como monitorar acúmulo?",
+   "verso": "Preferida pela KDIGO se sem contraindicação.<br>⚠️ <b>Ca total/Ca iônico &gt; 2,5</b> → acúmulo de citrato (hepatopatia grave, choque com lactato alto).",
+   "pegadinha": "Sinais: ↑ AG, ↓ Ca iônico, ↑ necessidade de Ca, alcalose ou acidose.",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔄 CRRT × hemodiálise intermitente?",
+   "verso": "Sem diferença de mortalidade.<br>✅ CRRT preferida: <b>instabilidade hemodinâmica</b>, <b>HIC/edema cerebral</b>, insuficiência hepática aguda.",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🧠 <b>Síndrome do desequilíbrio dialítico</b>?",
+   "verso": "Edema cerebral na 1ª diálise com <b>ureia muito alta</b> (queda osmolar rápida).<br>🛡️ Prevenir: sessão curta, baixo fluxo de sangue, alvo de ↓ ureia ~30%.",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔄 Modalidades de <b>CRRT</b>?",
+   "verso": "<table class=t><tr><th>Modalidade</th><th>Mecanismo</th></tr><tr><td>CVVH</td><td>Convecção (reposição)</td></tr><tr><td>CVVHD</td><td>Difusão (dialisato)</td></tr><tr><td>CVVHDF</td><td>Convecção + difusão</td></tr><tr><td>SCUF</td><td>Só ultrafiltração</td></tr></table>",
+   "pegadinha": "Convecção remove melhor moléculas médias.",
+   "fonte": "KDIGO",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "⚠️ Efeitos 'esquecidos' da CRRT?",
+   "verso": "Hipofosfatemia, hipomagnesemia, hipotermia, <b>perda de antimicrobianos</b> e aminoácidos.",
+   "pegadinha": "Ajustar ATB pela dose de efluente.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "📍 Sítio do <b>cateter de diálise</b> (KDIGO)?",
+   "verso": "1º <b>jugular interna direita</b> → 2º femoral → 3º jugular esquerda → por último subclávia (lado dominante).",
+   "pegadinha": "Subclávia: estenose venosa compromete futura FAV.",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🐢 <b>SLED</b>?",
+   "verso": "Diálise sustentada de baixa eficiência (6–12 h) → alternativa à CRRT na instabilidade hemodinâmica.",
+   "fonte": "Nefrologia",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "💧 Taxa de <b>ultrafiltração</b> líquida?",
+   "verso": "UF líquida &gt; <b>1,75 mL/kg/h</b> associada a ↑ mortalidade (observacional) → remoção gradual.",
+   "fonte": "Murugan 2019",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🩸 Anticoagulação da CRRT com contraindicação a citrato?",
+   "verso": "HNF sistêmica em baixa dose ou sem anticoagulação (↑ coagulação do filtro, ↑ trocas).",
+   "fonte": "KDIGO",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Prevenção e manejo hídrico",
+   "frente": "🧪 Prevenção de <b>nefropatia por contraste</b>?",
+   "verso": "✅ Hidratação isotônica em alto risco<br>❌ <b>N-acetilcisteína e bicarbonato sem benefício</b> (PRESERVE)",
+   "pegadinha": "Risco real com contraste IV moderno é menor que se pensava.",
+   "fonte": "PRESERVE NEJM 2018",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Prevenção e manejo hídrico",
+   "frente": "💊 Diuréticos para prevenir/tratar LRA?",
+   "verso": "❌ <b>Não</b>, exceto para tratar <b>sobrecarga de volume</b>.",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Prevenção e manejo hídrico",
+   "frente": "⚖️ Balanço hídrico positivo na UTI?",
+   "verso": "Sobrecarga hídrica (&gt; 10% do peso) associada a ↑ mortalidade → fase de <b>desressuscitação</b> (diurético/UF) após estabilização.",
+   "pegadinha": "Modelo ROSE: Ressuscitação → Otimização → Estabilização → Evacuação.",
+   "fonte": "Malbrain 2014/2018",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Prevenção e manejo hídrico",
+   "frente": "🧪 Quem tem maior risco com contraste?",
+   "verso": "TFG &lt; 30, LRA instalada, hipovolemia, uso de nefrotóxicos.",
+   "fonte": "ACR/NKF 2020",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Prevenção e manejo hídrico",
+   "frente": "💊 IECA/BRA e diuréticos na LRA?",
+   "verso": "Suspender <b>temporariamente</b> enquanto a função renal está instável.",
+   "fonte": "KDIGO",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Prevenção e manejo hídrico",
+   "frente": "💉 Ajuste de doses de ATB na LRA?",
+   "verso": "1ª dose <b>cheia</b>; ajustar manutenção após 24–48 h (LRA é dinâmica, muitas resolvem).",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Prevenção e manejo hídrico",
+   "frente": "🛡️ Bundle de prevenção de LRA (KDIGO/PrevAKI)?",
+   "verso": "Evitar nefrotóxicos, otimizar volemia e PAM, monitorar Cr e diurese, evitar hiperglicemia e contraste desnecessário.",
+   "pegadinha": "PrevAKI: ↓ LRA moderada/grave pós-cirurgia cardíaca.",
+   "fonte": "PrevAKI 2017",
+   "tags": [
+    "TEMI2028",
+    "T06",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {}
+}

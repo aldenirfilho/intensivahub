@@ -1,0 +1,463 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::08 😴 Sedação, Analgesia e Delirium",
+ "cards": [
+  {
+   "subtema": "Escalas e monitorização",
+   "frente": "😴 Escala <b>RASS</b>?",
+   "verso": "<table class=t><tr><th>Pontos</th><th>Descrição</th></tr><tr><td>+4</td><td>Combativo</td></tr><tr><td>+3</td><td>Muito agitado (puxa tubos)</td></tr><tr><td>+2</td><td>Agitado</td></tr><tr><td>+1</td><td>Inquieto</td></tr><tr><td><b>0</b></td><td><b>Alerta e calmo</b></td></tr><tr><td>−1</td><td>Sonolento (&gt; 10 s ao chamado)</td></tr><tr><td>−2</td><td>Sedação leve (&lt; 10 s)</td></tr><tr><td>−3</td><td>Moderada (movimento ao chamado, sem contato visual)</td></tr><tr><td>−4</td><td>Profunda (só ao estímulo físico)</td></tr><tr><td>−5</td><td>Não desperta</td></tr></table>",
+   "fonte": "Sessler 2002",
+   "imagem": "img_rass.png",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Escalas e monitorização",
+   "frente": "🎯 Meta de sedação na VM (PADIS)?",
+   "verso": "<b>Analgesia primeiro</b> (analgossedação) + sedação <b>leve</b> (RASS −2 a 0).",
+   "pegadinha": "Sedação profunda precoce associa-se a ↑ mortalidade.",
+   "fonte": "PADIS 2018",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Escalas e monitorização",
+   "frente": "🌀 Algoritmo do <b>CAM-ICU</b>?",
+   "verso": "1️⃣ Alteração aguda/flutuante <b>E</b><br>2️⃣ Desatenção (≥ 3 erros em 'SAVEAHAART') <b>E</b><br>3️⃣ Pensamento desorganizado <b>OU</b> 4️⃣ RASS ≠ 0",
+   "pegadinha": "Não aplicar se RASS −4/−5.",
+   "fonte": "Ely 2001",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Escalas e monitorização",
+   "frente": "😣 Escalas de dor no paciente que não fala?",
+   "verso": "<table class=t><tr><th>Escala</th><th>Faixa</th><th>Dor significativa</th></tr><tr><td>BPS</td><td>3–12</td><td>&gt; 5</td></tr><tr><td>CPOT</td><td>0–8</td><td>&gt; 2</td></tr></table>",
+   "fonte": "PADIS 2018",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Escalas e monitorização",
+   "frente": "📋 <b>ICDSC</b>?",
+   "verso": "Checklist de 8 itens (0–8) → <b>≥ 4 = delirium</b>; avalia o turno inteiro.",
+   "pegadinha": "Alternativa ao CAM-ICU.",
+   "fonte": "Bergeron 2001",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Escalas e monitorização",
+   "frente": "🧠 <b>BIS</b>?",
+   "verso": "Índice bispectral 0–100 → 40–60 = anestesia geral; útil para evitar consciência sob BNM.",
+   "fonte": "Anestesiologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Escalas e monitorização",
+   "frente": "⚡ <b>TOF</b> no bloqueio neuromuscular contínuo?",
+   "verso": "Train-of-four → alvo <b>1–2 respostas de 4</b>.",
+   "fonte": "SCCM 2016",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "💊 Sedativo preferido na VM (PADIS)?",
+   "verso": "<b class=g>Propofol ou dexmedetomidina</b> &gt; benzodiazepínicos.",
+   "pegadinha": "BZD ↑ delirium e tempo de VM.",
+   "fonte": "PADIS 2018",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "⚠️ <b>PRIS</b> – síndrome da infusão do propofol?",
+   "verso": "📌 Dose &gt; <b>4 mg/kg/h por &gt; 48 h</b><br>🔴 Acidose metabólica, rabdomiólise, hipertrigliceridemia, hiperK, arritmias (Brugada-like), LRA, IC",
+   "pegadinha": "Fatores: catecolaminas, corticoide, baixa oferta de carboidrato, jovens.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "🌙 <b>Dexmedetomidina</b>: mecanismo e efeitos?",
+   "verso": "α2-agonista → sedação 'cooperativa' <b>sem depressão respiratória</b><br>⚠️ Bradicardia, hipotensão<br>💉 0,2–1,4 mcg/kg/h",
+   "pegadinha": "SPICE III: sem benefício de mortalidade; possível dano em ≤ 65 anos.",
+   "fonte": "SPICE III NEJM 2019",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "🧊 <b>Cetamina</b> na UTI?",
+   "verso": "Antagonista NMDA → analgesia, preserva drive respiratório, <b>broncodilata</b>, poupa opioide<br>💉 Analgesia: 0,1–0,5 mg/kg/h",
+   "pegadinha": "Mito: não ↑ PIC de forma relevante em pacientes ventilados.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "💉 Fentanil × morfina × remifentanil?",
+   "verso": "<table class=t><tr><th>Opioide</th><th>Particularidade</th></tr><tr><td>Morfina</td><td>Libera histamina; metabólito <b>M6G acumula na LRA</b></td></tr><tr><td>Fentanil</td><td>Lipofílico; acumula em infusão prolongada</td></tr><tr><td>Remifentanil</td><td>Esterases plasmáticas → não acumula</td></tr></table>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "💊 Analgesia multimodal na UTI?",
+   "verso": "Paracetamol, cetamina, lidocaína, gabapentinoides (neuropática), AINE com cautela, bloqueios regionais → <b>poupar opioide</b>",
+   "fonte": "PADIS 2018",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "🥛 <b>Propofol</b> e nutrição?",
+   "verso": "Emulsão lipídica a 10% → <b>1,1 kcal/mL</b> → contar no aporte; monitorar triglicerídeos.",
+   "fonte": "ASPEN",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "🐢 Acúmulo do <b>midazolam</b>?",
+   "verso": "Metabólito ativo (α-hidroximidazolam) acumula na <b>IR</b>; ↑ meia-vida em obesos, idosos, hepatopatas e com inibidores de CYP3A4.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "📉 <b>Abstinência iatrogênica</b> de opioide/BZD?",
+   "verso": "Uso &gt; 5–7 dias → desmame de ~10–20%/dia; metadona/clonidina como apoio.",
+   "fonte": "SCCM",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Sedativos e analgésicos",
+   "frente": "💩 Íleo por opioide?",
+   "verso": "Laxativos estimulantes; <b>metilnaltrexona</b> (antagonista periférico).",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "🌀 Tratamento do <b>delirium</b>?",
+   "verso": "✅ Medidas não farmacológicas (bundle ABCDEF)<br>❌ Antipsicóticos não reduzem duração (MIND-USA)<br>✅ Dexmedetomidina se agitação impede desmame",
+   "pegadinha": "AID-ICU (haloperidol): sem diferença em dias vivos fora do hospital.",
+   "fonte": "PADIS 2018; MIND-USA 2018; AID-ICU 2022",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "🅰️ Componentes do <b>bundle ABCDEF</b>?",
+   "verso": "<table class=t><tr><th>Letra</th><th>Componente</th></tr><tr><td>A</td><td>Assess, prevent, manage pain</td></tr><tr><td>B</td><td>Both SAT e SBT (despertar + TRE)</td></tr><tr><td>C</td><td>Choice of analgesia/sedation</td></tr><tr><td>D</td><td>Delirium: avaliar, prevenir, manejar</td></tr><tr><td>E</td><td>Early mobility</td></tr><tr><td>F</td><td>Family engagement</td></tr></table>",
+   "fonte": "SCCM ICU Liberation",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "⏰ Despertar diário + TRE pareados?",
+   "verso": "Estudo ABC (Girard 2008): <b>↓ mortalidade em 1 ano</b> e ↓ tempo de VM.",
+   "fonte": "Girard Lancet 2008",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "⚠️ Fatores de risco <b>modificáveis</b> de delirium?",
+   "verso": "<b>Benzodiazepínicos</b>, transfusão, sedação profunda, imobilidade, privação de sono, contenção.",
+   "pegadinha": "Não modificáveis: idade, demência, coma prévio, cirurgia de emergência, trauma, gravidade.",
+   "fonte": "PADIS 2018",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "😴 Sono na UTI?",
+   "verso": "Medidas não farmacológicas (luz/ruído, agrupar cuidados); <b>não usar propofol para sono</b>; sem recomendação para melatonina.",
+   "fonte": "PADIS 2018",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "🙂 <b>Delirium hipoativo</b>?",
+   "verso": "Forma mais comum e de <b>pior prognóstico</b>; facilmente não diagnosticado.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "💊 <b>Haloperidol</b> profilático?",
+   "verso": "REDUCE: <b>não reduz</b> delirium nem mortalidade.<br>⚠️ QT longo, extrapiramidais",
+   "fonte": "REDUCE JAMA 2018",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "🔒 <b>Contenção física</b>?",
+   "verso": "↑ Risco de delirium e autoextubação paradoxal → última opção, documentada e reavaliada.",
+   "fonte": "PADIS",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Delirium e bundle ABCDEF",
+   "frente": "😤 Agitação: o que excluir antes de sedar?",
+   "verso": "Dor, hipóxia, hipercapnia, hipoglicemia, retenção urinária, abstinência, delirium.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "⛔ Contraindicações à <b>succinilcolina</b>?",
+   "verso": "<ul><li>Hipercalemia</li><li>Queimados &gt; 24–48 h</li><li>Lesão medular/AVC &gt; 72 h, imobilização prolongada</li><li>Miopatias/distrofias</li><li>História de hipertermia maligna</li></ul>",
+   "pegadinha": "Dose: 1–1,5 mg/kg. Libera K⁺ (~0,5 mEq/L; muito mais com up-regulation de receptores).",
+   "fonte": "Anestesiologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "💉 <b>Rocurônio</b> na SRI e reversão?",
+   "verso": "Dose SRI <b>1,2 mg/kg</b><br>↩️ Reversão imediata: <b class=c>sugamadex 16 mg/kg</b>",
+   "fonte": "Anestesiologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "💉 <b>Etomidato</b>: vantagem e problema?",
+   "verso": "✅ Estabilidade hemodinâmica (0,3 mg/kg)<br>⚠️ Inibe <b>11β-hidroxilase</b> → supressão adrenal transitória",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "😷 Melhor pré-oxigenação na IOT do crítico?",
+   "verso": "<b class=g>VNI</b> &gt; máscara com reservatório → ↓ hipoxemia durante a intubação.",
+   "pegadinha": "PREOXI (NEJM 2024): hipoxemia 9,1% × 18,5%.",
+   "fonte": "PREOXI NEJM 2024",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "📉 IOT no paciente hipotenso?",
+   "verso": "Volume se responsivo, <b>vasopressor pronto/infusão</b>, doses menores de indutor (cetamina/etomidato), pré-oxigenação ótima.",
+   "pegadinha": "Colapso cardiovascular pós-IOT ~20–40%.",
+   "fonte": "Revisões",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "🍋 Preditores de via aérea difícil: <b>LEMON</b>?",
+   "verso": "Look externally, Evaluate 3-3-2, Mallampati, Obstruction/Obesity, Neck mobility.",
+   "fonte": "Walls",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "🔪 Situação <b>CICO</b> (não intubo, não oxigeno)?",
+   "verso": "<b>Cricotireoidostomia cirúrgica</b> (bisturi – bougie – tubo 6,0).",
+   "fonte": "DAS 2015",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "🛏️ Pré-oxigenação no obeso?",
+   "verso": "Posição em rampa/cabeceira 25–30°, VNI/CNAF + <b>oxigenação apneica</b>.",
+   "fonte": "DAS",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "💉 <b>Cisatracúrio</b>?",
+   "verso": "Eliminação de <b>Hofmann</b> (independe de rim e fígado).",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Via aérea e bloqueio neuromuscular",
+   "frente": "💪 <b>Fraqueza adquirida</b> na UTI?",
+   "verso": "Polineuropatia/miopatia do crítico: sepse, BNM + corticoide, hiperglicemia, imobilidade → MRC &lt; 48.",
+   "fonte": "SCCM",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Síndromes tóxicas e abstinência",
+   "frente": "🔥 <b>Hipertermia maligna</b>: tratamento?",
+   "verso": "💉 <b class=r>Dantroleno 2,5 mg/kg IV</b>, repetir até 10 mg/kg<br>Suspender gatilho (halogenado/succinilcolina), resfriar, tratar hiperK",
+   "pegadinha": "Primeiro sinal: ↑ EtCO₂ inexplicado.",
+   "fonte": "MHAUS",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Síndromes tóxicas e abstinência",
+   "frente": "🌡️ <b>SNM × síndrome serotoninérgica</b>?",
+   "verso": "<table class=t><tr><th></th><th>SNM</th><th>Serotoninérgica</th></tr><tr><td>Gatilho</td><td>Antipsicótico</td><td>ISRS, tramadol, linezolida…</td></tr><tr><td>Início</td><td>Dias</td><td><b>Horas</b></td></tr><tr><td>Tônus</td><td>Rigidez 'cano de chumbo'</td><td><b>Clônus</b>, hiperreflexia</td></tr><tr><td>Outros</td><td>Bradicinesia, CK ↑↑</td><td>Midríase, diarreia</td></tr><tr><td>Tratamento</td><td>Bromocriptina/dantroleno</td><td>Ciproeptadina, BZD</td></tr></table>",
+   "fonte": "Boyer NEJM 2005",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Síndromes tóxicas e abstinência",
+   "frente": "🍺 <b>Abstinência alcoólica</b> na UTI?",
+   "verso": "💊 BZD guiado por sintomas (CIWA-Ar); fenobarbital como adjuvante<br>⏱️ <b>Delirium tremens</b>: 48–96 h após a última dose<br>💉 Tiamina sempre",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Síndromes tóxicas e abstinência",
+   "frente": "🧪 <b>Síndrome anticolinérgica</b> central grave?",
+   "verso": "Delirium agitado, midríase, pele seca → <b>fisostigmina</b> (cuidado com QRS largo de tricíclicos).",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T08",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {
+  "img_rass.png": "data/media/img_rass.png"
+ }
+}

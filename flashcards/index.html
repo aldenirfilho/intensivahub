@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e13">
+<meta name="description" content="CÓDICE 360X · Flashcards com repetição espaçada para a prova TEMI. Importa .apkg e JSON gerados por qualquer IA.">
+<title>CÓDICE 360X · Flashcards TEMI</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0e13;--bg2:#11161e;--panel:#151b24;--line:#2a3442;--txt:#ece9e1;--mut:#9aa4b2;--gold:#d4af37;--gold2:#f3d77a;--cy:#4dd4ff;--red:#ff6b6b;--grn:#5be38a;--amb:#ffc14d;
+ --r:14px;--safe-b:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html,body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#18222f 0%,var(--bg) 60%) fixed;color:var(--txt);font:16px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--cy)}
+header{position:sticky;top:0;z-index:20;background:rgba(11,14,19,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:calc(env(safe-area-inset-top,0px) + 8px) 14px 0}
+.brand{display:flex;align-items:center;gap:10px;max-width:1000px;margin:0 auto}
+.brand svg{width:34px;height:34px;flex:none}
+.brand h1{font:700 18px/1.1 Cinzel,serif;letter-spacing:1.5px;margin:0;background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand small{display:block;font:500 11px Inter;color:var(--mut);letter-spacing:.5px;-webkit-text-fill-color:var(--mut)}
+nav{display:flex;gap:4px;overflow-x:auto;max-width:1000px;margin:8px auto 0;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:none;text-decoration:none;color:var(--mut);padding:8px 12px;border-radius:10px 10px 0 0;font-weight:600;font-size:14px;border-bottom:2px solid transparent}
+nav a.on{color:var(--txt);border-bottom-color:var(--gold);background:var(--panel)}
+main{max-width:1000px;margin:0 auto;padding:16px 14px calc(110px + var(--safe-b))}
+.view{display:none}.view.on{display:block}
+h2{font:700 20px Cinzel,serif;letter-spacing:1px;color:var(--gold2);margin:6px 0 12px}
+h3{margin:18px 0 8px;font-size:16px;color:var(--cy)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px;margin-bottom:12px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.grow{flex:1}
+.btn{appearance:none;border:1px solid var(--line);background:#1b2330;color:var(--txt);padding:10px 14px;border-radius:12px;font:600 15px Inter;cursor:pointer;display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+.btn:hover{border-color:var(--cy)}
+.btn.gold{background:linear-gradient(90deg,var(--gold),var(--gold2));color:#14100a;border:0}
+.btn.cy{background:#0f3442;border-color:var(--cy)}
+.btn.sm{padding:6px 10px;font-size:13px;border-radius:9px}
+.btn.danger{border-color:#6b2a2a;color:#ffb3b3}
+.btn:disabled{opacity:.45;cursor:default}
+input[type=text],input[type=number],input[type=search],select,textarea{width:100%;background:#0e131a;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:10px 12px;font:15px Inter}
+textarea{min-height:140px;font:13px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace}
+label{font-size:13px;color:var(--mut);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.stat{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
+.stat b{display:block;font-size:22px}
+.stat span{font-size:12px;color:var(--mut)}
+.n{color:var(--cy)}.l{color:var(--red)}.rv{color:var(--grn)}
+.tree{list-style:none;margin:0;padding:0}
+.tree li{margin:0}
+.dk{display:flex;align-items:center;gap:8px;padding:9px 10px;border-radius:10px;cursor:pointer;border:1px solid transparent}
+.dk:hover{background:var(--bg2);border-color:var(--line)}
+.dk .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dk .tg{width:18px;color:var(--mut);text-align:center;flex:none}
+.cnt{font:600 13px ui-monospace,monospace;min-width:30px;text-align:right}
+.sub{padding-left:22px;display:none}
+.sub.open{display:block}
+.empty{color:var(--mut);text-align:center;padding:30px 10px}
+.drop{border:2px dashed var(--line);border-radius:var(--r);padding:26px;text-align:center;color:var(--mut);cursor:pointer}
+.drop.hov{border-color:var(--gold);background:#1a1810}
+.toast{position:fixed;left:50%;bottom:calc(20px + var(--safe-b));transform:translateX(-50%);background:#1f2a37;border:1px solid var(--cy);padding:10px 16px;border-radius:12px;z-index:99;max-width:92vw;display:none;box-shadow:0 8px 30px #0008}
+/* study */
+#studyTop{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
+#studyDeck{font-weight:600;color:var(--mut);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#cardHost{min-height:280px}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:15;background:rgba(11,14,19,.96);border-top:1px solid var(--line);padding:10px 12px calc(10px + var(--safe-b));display:none}
+.bar.on{display:block}
+.bar .in{max-width:1000px;margin:0 auto;display:grid;gap:8px}
+.ans{grid-template-columns:repeat(4,1fr)}
+.ans .btn{flex-direction:column;justify-content:center;gap:0;padding:8px 4px}
+.ans .btn small{font-weight:500;font-size:11px;color:var(--mut)}
+.g1{border-color:#7a2d2d!important}.g1 b{color:var(--red)}
+.g2{border-color:#7a5a1d!important}.g2 b{color:var(--amb)}
+.g3{border-color:#1f6b3d!important}.g3 b{color:var(--grn)}
+.g4{border-color:#1d5a6b!important}.g4 b{color:var(--cy)}
+.res{border:1px solid var(--line);border-radius:12px;margin-bottom:8px;background:var(--bg2)}
+.res .hd{padding:10px 12px;cursor:pointer;display:flex;gap:8px;align-items:flex-start}
+.res .hd .q{flex:1}
+.res .bd{display:none;padding:0 12px 12px}
+.res.open .bd{display:block}
+.pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;background:#1d2a36;color:var(--cy);margin:2px 4px 2px 0}
+.kbd{font:12px ui-monospace,monospace;border:1px solid var(--line);border-radius:5px;padding:0 5px;color:var(--mut)}
+pre.prompt{white-space:pre-wrap;background:#0e131a;border:1px solid var(--line);border-radius:12px;padding:12px;font:12.5px/1.5 ui-monospace,monospace;max-height:420px;overflow:auto}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:640px){.grid2{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
+.progress{height:4px;background:#1b2330;border-radius:4px;overflow:hidden;margin-bottom:10px}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--cy));width:0}
+details summary{cursor:pointer;color:var(--gold2);font-weight:600}
+.foot{color:var(--mut);font-size:12px;text-align:center;margin-top:20px}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand">
+  <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d77a"/><stop offset="1" stop-color="#b8901f"/></linearGradient></defs>
+   <path d="M32 3 L57 12 V30 C57 45 46 56 32 61 C18 56 7 45 7 30 V12 Z" fill="#0f1620" stroke="url(#gg)" stroke-width="3"/>
+   <path d="M32 14 V50 M20 28 H44" stroke="#4dd4ff" stroke-width="4" stroke-linecap="round"/>
+   <circle cx="32" cy="28" r="6" fill="none" stroke="url(#gg)" stroke-width="2.5"/></svg>
+  <div><h1>CÓDICE 360X</h1><small>Flashcards · TEMI · repetição espaçada</small></div>
+ </div>
+ <nav id="nav">
+  <a href="#inicio" data-v="inicio">🏠 Início</a>
+  <a href="#estudar" data-v="estudar">🎴 Estudar</a>
+  <a href="#buscar" data-v="buscar">🔎 Buscar</a>
+  <a href="#importar" data-v="importar">📥 Importar</a>
+  <a href="#prompt" data-v="prompt">🤖 Prompt IA</a>
+  <a href="#ajustes" data-v="ajustes">⚙️ Ajustes</a>
+ </nav>
+</header>
+
+<main>
+<!-- INÍCIO -->
+<section class="view" id="v-inicio">
+ <div class="stats" id="stats"></div>
+ <div class="panel" id="officialBox"></div>
+ <div class="panel">
+  <div class="row" style="margin-bottom:8px"><h2 class="grow" style="margin:0">📚 Baralhos</h2>
+   <span class="cnt n" title="Novos">Novos</span><span class="cnt l" title="Aprendendo">Apr.</span><span class="cnt rv" title="Revisões">Rev.</span></div>
+  <ul class="tree" id="tree"></ul>
+  <div class="row" style="margin-top:12px"><button class="btn gold grow" id="studyAll">▶️ Estudar tudo que está pendente</button></div>
+ </div>
+ <div class="foot">Seus dados ficam salvos neste aparelho. Para levar o progresso para outro aparelho, use ⚙️ Ajustes → Backup.</div>
+</section>
+
+<!-- ESTUDAR -->
+<section class="view" id="v-estudar">
+ <div id="studyTop"><div id="studyDeck" class="grow"></div><div id="studyCounts"></div></div>
+ <div class="progress"><i id="prog"></i></div>
+ <div id="cardHost"></div>
+ <div id="studyEmpty" class="empty" style="display:none"></div>
+ <div class="row" id="studyTools" style="margin-top:12px;justify-content:center">
+  <button class="btn sm" id="bUndo" title="Desfazer (Z)">↩️ Desfazer</button>
+  <button class="btn sm" id="bMark" title="Marcar (M)">🚩 Marcar</button>
+  <button class="btn sm" id="bSusp" title="Suspender (S)">⏸️ Suspender</button>
+  <button class="btn sm" id="bEnd">⏹️ Encerrar</button>
+ </div>
+ <div class="foot">Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer</div>
+</section>
+
+<!-- BUSCAR -->
+<section class="view" id="v-buscar">
+ <h2>🔎 Buscar nos cards</h2>
+ <div class="panel">
+  <input type="search" id="q" placeholder="Ex.: noradrenalina · 'driving pressure' · tag:marcado · deck:Sepse · is:due · is:new">
+  <div class="row" style="margin-top:8px"><select id="qDeck" class="grow"></select>
+   <button class="btn sm cy" id="qStudy">🎴 Estudar resultados</button></div>
+  <div style="margin-top:6px;font-size:12px;color:var(--mut)">Busca em pergunta, resposta, pegadinha, fonte e tags. Filtros: <b>tag:</b>x · <b>deck:</b>x · <b>is:new</b> · <b>is:due</b> · <b>is:marcado</b> · <b>is:suspenso</b> · <b>is:dificil</b> (errou ≥ 3×)</div>
+ </div>
+ <div id="qInfo" style="color:var(--mut);margin:6px 2px"></div>
+ <div id="qRes"></div>
+</section>
+
+<!-- IMPORTAR -->
+<section class="view" id="v-importar">
+ <h2>📥 Importar cards</h2>
+ <div class="panel">
+  <div class="drop" id="drop">📦 Arraste aqui ou <b style="color:var(--gold2)">toque para escolher</b><br><small>.apkg (Anki) · .json (formato CÓDICE / qualquer IA) · .txt/.csv (frente;verso)</small></div>
+  <input type="file" id="file" accept=".apkg,.colpkg,.json,.txt,.csv,.tsv" multiple hidden>
+ </div>
+ <div class="panel">
+  <h3 style="margin-top:0">📋 Colar a resposta da IA</h3>
+  <textarea id="paste" placeholder='Cole aqui o bloco JSON que a IA gerou (pode colar com ```json e texto em volta — o app limpa sozinho).&#10;Também aceita linhas "frente ; verso".'></textarea>
+  <div class="row" style="margin-top:8px">
+   <input type="text" id="pasteDeck" class="grow" placeholder="Baralho de destino (opcional) — ex.: TEMI 2028::Extras::Hiponatremia">
+   <button class="btn gold" id="pasteGo">✅ Importar</button></div>
+ </div>
+ <div id="impLog"></div>
+</section>
+
+<!-- PROMPT -->
+<section class="view" id="v-prompt">
+ <h2>🤖 Gerar cards com qualquer IA</h2>
+ <div class="panel">
+  <div class="grid2">
+   <div><label>Tema</label><select id="pTema"></select></div>
+   <div><label>Subtema / assunto específico</label><input type="text" id="pSub" placeholder="Ex.: Hiponatremia na HSA"></div>
+   <div><label>Quantidade</label><select id="pN"><option>10</option><option selected>20</option><option>30</option><option>40</option><option>50</option></select></div>
+   <div><label>Nível</label><select id="pNivel"><option>Prova TEMI (AMIB) – avançado</option><option>R3 de Clínica Médica</option><option>Revisão rápida de plantão</option></select></div>
+   <div><label>Estilo</label><select id="pTipo"><option value="misto">Misto (perguntas + algumas lacunas)</option><option value="basico">Só perguntas e respostas</option><option value="cloze">Só lacunas (cloze)</option></select></div>
+   <div><label>Imagens/esquemas SVG</label><select id="pImg"><option value="1">Sim, quando ajudar</option><option value="0">Não</option></select></div>
+  </div>
+  <div style="margin-top:10px"><label>Material de base (opcional) — cole o texto da aula/apostila/diretriz</label>
+   <textarea id="pMat" style="min-height:90px" placeholder="Se colar algo aqui, a IA usa só este material como fonte."></textarea></div>
+  <div class="row" style="margin-top:10px"><button class="btn gold" id="pCopy">📋 Copiar prompt</button>
+   <a class="btn sm" href="https://claude.ai/new" target="_blank" rel="noopener">Claude ↗</a>
+   <a class="btn sm" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT ↗</a>
+   <a class="btn sm" href="https://grok.com/" target="_blank" rel="noopener">Grok ↗</a>
+   <a class="btn sm" href="https://gemini.google.com/" target="_blank" rel="noopener">Gemini ↗</a></div>
+ </div>
+ <div class="panel"><b>Como usar em 4 passos:</b> 1️⃣ Copiar prompt → 2️⃣ colar na IA → 3️⃣ copiar o bloco JSON da resposta → 4️⃣ 📥 Importar → Colar → ✅ Importar.</div>
+ <pre class="prompt" id="pOut"></pre>
+</section>
+
+<!-- AJUSTES -->
+<section class="view" id="v-ajustes">
+ <h2>⚙️ Ajustes</h2>
+ <div class="panel grid2">
+  <div><label>Cards novos por dia</label><input type="number" id="sNew" min="0" max="500"></div>
+  <div><label>Revisões máximas por dia</label><input type="number" id="sRev" min="0" max="9999"></div>
+  <div><label>Passos de aprendizado (min)</label><input type="text" id="sSteps" placeholder="1 10"></div>
+  <div><label>Intervalo de graduação / fácil (dias)</label><input type="text" id="sGrad" placeholder="1 4"></div>
+  <div class="row"><button class="btn gold" id="sSave">💾 Salvar ajustes</button></div>
+ </div>
+ <div class="panel">
+  <h3 style="margin-top:0">🛟 Backup e outros aparelhos</h3>
+  <p style="color:var(--mut);margin:4px 0 10px">O progresso fica neste navegador. Exporte o backup (cards + imagens + progresso) e importe no outro aparelho.</p>
+  <div class="row"><button class="btn cy" id="bkExp">⬇️ Exportar backup</button>
+   <button class="btn" id="bkImp">⬆️ Restaurar backup</button>
+   <input type="file" id="bkFile" accept=".json" hidden></div>
+ </div>
+ <div class="panel">
+  <h3 style="margin-top:0">🧹 Manutenção</h3>
+  <div class="row"><select id="delDeck" class="grow"></select><button class="btn danger" id="delGo">🗑️ Apagar baralho</button></div>
+  <div class="row" style="margin-top:8px"><button class="btn danger" id="resetProg">♻️ Zerar progresso (manter cards)</button><button class="btn danger" id="wipe">💣 Apagar tudo</button></div>
+  <div id="confirmBox" style="margin-top:10px"></div>
+ </div>
+ <div class="panel" id="aboutBox" style="font-size:14px;color:var(--mut)"></div>
+</section>
+</main>
+
+<div class="bar" id="barShow"><div class="in"><button class="btn gold" id="bShow" style="justify-content:center;padding:14px">👁️ Mostrar resposta <span class="kbd" style="color:#3a2f10;border-color:#8a7020">Espaço</span></button></div></div>
+<div class="bar" id="barAns"><div class="in ans">
+ <button class="btn g1" data-g="1"><b>De novo</b><small id="i1"></small></button>
+ <button class="btn g2" data-g="2"><b>Difícil</b><small id="i2"></small></button>
+ <button class="btn g3" data-g="3"><b>Bom</b><small id="i3"></small></button>
+ <button class="btn g4" data-g="4"><b>Fácil</b><small id="i4"></small></button></div></div>
+<div class="toast" id="toast"></div>
+
+<script src="lib/jszip.min.js"></script>
+<script src="lib/fzstd.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,458 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::14 🚑 Trauma, Toxicologia e Ambiental",
+ "cards": [
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "🚑 Sequência do atendimento ao <b>politrauma</b>?",
+   "verso": "<table class=t><tr><th>Letra</th><th>Foco</th></tr><tr><td><b>x</b></td><td>Hemorragia exsanguinante (torniquete)</td></tr><tr><td>A</td><td>Via aérea + coluna cervical</td></tr><tr><td>B</td><td>Ventilação</td></tr><tr><td>C</td><td>Circulação</td></tr><tr><td>D</td><td>Neurológico</td></tr><tr><td>E</td><td>Exposição/hipotermia</td></tr></table>",
+   "fonte": "PHTLS/ATLS",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "🩸 Classes de <b>choque hemorrágico</b>?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Perda</th><th>FC</th><th>PA</th><th>DU</th></tr><tr><td>I</td><td>&lt; 15%</td><td>↔</td><td>↔</td><td>↔</td></tr><tr><td>II</td><td>15–30%</td><td>↑</td><td>↔</td><td>↔/↓</td></tr><tr><td>III</td><td>31–40%</td><td>↑↑</td><td>↓</td><td>↓</td></tr><tr><td>IV</td><td>&gt; 40%</td><td>↑↑↑</td><td>↓↓</td><td>Mínima</td></tr></table>",
+   "pegadinha": "Hipotensão só aparece na classe III!",
+   "fonte": "ATLS 10ª ed.",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "📉 <b>Hipotensão permissiva</b>?",
+   "verso": "PAS <b>80–90</b> (PAM 50–60) até controlar o sangramento<br>❌ <b class=r>Não no TCE</b> (PAS ≥ 100–110)",
+   "fonte": "European Trauma Guideline 2023",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "☠️ <b>Tríade letal</b> do trauma?",
+   "verso": "🧊 Hipotermia + 🧪 Acidose + 🩸 Coagulopatia (+ hipocalcemia = 'diamante letal')",
+   "fonte": "Trauma",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "💨 <b>Pneumotórax hipertensivo</b>: onde descomprimir?",
+   "verso": "🪡 Adulto: <b>4º–5º EIC, linha axilar média/anterior</b> (ATLS 10ª)<br>🧒 Criança: 2º EIC, linha hemiclavicular<br>➡️ Depois: drenagem torácica",
+   "pegadinha": "Diagnóstico é CLÍNICO – não esperar RX.",
+   "fonte": "ATLS 10ª ed.",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "📊 <b>Índice de choque</b>?",
+   "verso": "FC/PAS → <b>&gt; 1</b> sugere hemorragia significativa/necessidade de transfusão.",
+   "fonte": "Trauma",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "🦴 Lesão medular aguda: metilprednisolona?",
+   "verso": "<b>❌ Não recomendada</b> de rotina (NASCIS: benefício marginal, mais complicações).",
+   "fonte": "AANS/CNS 2013",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "🫁 <b>Tórax instável</b> / contusão pulmonar?",
+   "verso": "Analgesia agressiva (bloqueios), fisioterapia, VNI; evitar sobrecarga de volume.",
+   "fonte": "EAST",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "🩸 Hemotórax maciço: toracotomia quando?",
+   "verso": "Drenagem inicial <b>&gt; 1.500 mL</b> ou <b>&gt; 200 mL/h por 2–4 h</b>.",
+   "fonte": "ATLS",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "🦴 Fratura pélvica instável?",
+   "verso": "<b>Cinta/lençol pélvico</b> → angioembolização ou packing pré-peritoneal.",
+   "fonte": "ATLS",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "💪 <b>Síndrome compartimental</b> de membro?",
+   "verso": "Dor desproporcional, dor ao estiramento passivo → pressão &gt; 30 ou ΔP (PAD − pressão) &lt; 30 → <b>fasciotomia</b>.",
+   "fonte": "Ortopedia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Trauma e choque hemorrágico",
+   "frente": "🦴 <b>Embolia gordurosa</b>?",
+   "verso": "24–72 h após fratura de ossos longos: hipoxemia + alteração neurológica + <b>petéquias</b> (axila, conjuntiva).",
+   "fonte": "Gurd",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Queimados e inalação",
+   "frente": "🔥 Reposição volêmica no <b>queimado</b>?",
+   "verso": "🧮 <b>2–4 mL × kg × %SCQ</b> (ATLS 10: 2 mL adulto; Parkland clássico: 4) → metade em 8 h<br>🎯 DU <b>0,5 mL/kg/h</b> (adulto) | 1 mL/kg/h (criança)<br>📏 Regra dos 9: cabeça 9, MMSS 9 cada, tronco anterior 18, posterior 18, MMII 18 cada, períneo 1",
+   "pegadinha": "Contar só 2º e 3º graus.",
+   "fonte": "ATLS 10ª ed.",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Queimados e inalação",
+   "frente": "🔥 Intoxicação por <b>CO</b>?",
+   "verso": "SpO₂ falsamente normal → dosar <b>COHb</b><br>⏱️ Meia-vida: ar ~5 h | O₂ 100% ~60–90 min | hiperbárico ~20–30 min",
+   "pegadinha": "Hiperbárica: síncope, coma, gestante, COHb muito alta, isquemia.",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Queimados e inalação",
+   "frente": "🔥 <b>Cianeto</b> no incêndio?",
+   "verso": "Lactato &gt; 8 + rebaixamento/choque → <b class=c>hidroxocobalamina 5 g IV</b>",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Queimados e inalação",
+   "frente": "🔪 <b>Escarotomia</b>?",
+   "verso": "Queimadura <b>circunferencial</b> profunda de tórax (restrição ventilatória) ou membro (isquemia).",
+   "fonte": "ATLS",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Queimados e inalação",
+   "frente": "⚡ <b>Queimadura elétrica</b>?",
+   "verso": "Lesão interna &gt; superficial: rabdomiólise, arritmias → ECG/monitor, DU ~<b>1–1,5 mL/kg/h</b> até clarear a urina.",
+   "fonte": "ATLS",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Queimados e inalação",
+   "frente": "💧 Albumina no queimado?",
+   "verso": "Resgate após 12–24 h quando há 'fluid creep' (excesso de cristaloide).",
+   "fonte": "ABA",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Queimados e inalação",
+   "frente": "🔥 Quando intubar o queimado?",
+   "verso": "Estridor, rouquidão, queimadura facial profunda, fuligem na via aérea, edema progressivo, &gt; 40–50% SCQ.",
+   "pegadinha": "Via aérea fecha rápido – intubar cedo.",
+   "fonte": "ATLS",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🧪 <b>Toxíndromes</b>?",
+   "verso": "<table class=t><tr><th>Toxíndrome</th><th>Pupila</th><th>Pele</th><th>Pistas</th></tr><tr><td>Colinérgica</td><td>Miose</td><td>Úmida</td><td>SLUDGE, broncorreia, bradicardia</td></tr><tr><td>Anticolinérgica</td><td>Midríase</td><td><b>Seca</b>, quente</td><td>Retenção, delirium, íleo</td></tr><tr><td>Simpatomimética</td><td>Midríase</td><td><b>Úmida</b></td><td>Taquicardia, hipertermia</td></tr><tr><td>Opioide</td><td>Miose puntiforme</td><td>—</td><td>Depressão respiratória</td></tr></table>",
+   "pegadinha": "Anticolinérgico × simpatomimético: diferencie pela <b>sudorese</b>.",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🌾 <b>Organofosforados</b>?",
+   "verso": "💉 <b>Atropina 1–3 mg</b>, dobrando a cada 5 min até <b>secar secreções brônquicas</b><br>💊 Pralidoxima | ❌ Succinilcolina (bloqueio prolongado)",
+   "pegadinha": "Alvo da atropinização: pulmão seco, não a pupila.",
+   "fonte": "Eddleston Lancet 2008",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "💊 Intoxicação por <b>tricíclicos</b>?",
+   "verso": "⚡ <b>QRS &gt; 100 ms</b>, R em aVR &gt; 3 mm<br>💉 <b>Bicarbonato de sódio 1–2 mEq/kg</b> em bolus (pH 7,45–7,55)",
+   "pegadinha": "Flumazenil contraindicado (convulsão).",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "💊 Intoxicação por <b>BB/BCC</b>?",
+   "verso": "<ul><li>Cálcio IV</li><li>Glucagon (BB)</li><li><b>Insulina em alta dose</b>: 1 U/kg bolus + 1–10 U/kg/h + glicose</li><li>Vasopressores</li><li>Emulsão lipídica</li><li>ECMO</li></ul>",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "💊 Intoxicação por <b>digoxina</b>?",
+   "verso": "Bradiarritmias, <b>TV bidirecional</b>, visão amarela<br>⚠️ <b>Hipercalemia</b> = marcador de gravidade<br>💉 Anticorpo antidigoxina (Fab)",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🧂 Intoxicação por <b>lítio</b>: quando dialisar?",
+   "verso": "🩸 Recomendado: Li &gt; <b>4,0</b> com função renal alterada, ou rebaixamento, convulsão, arritmia<br>🔄 Sugerido: Li &gt; 5,0, confusão",
+   "fonte": "EXTRIP 2015",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "💉 <b>Naloxona</b>: dose e infusão?",
+   "verso": "Titular <b>0,04–0,4 mg IV</b> (evitar abstinência)<br>🔁 Infusão: <b>2/3 da dose eficaz por hora</b>",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "💊 <b>Flumazenil</b>: quando evitar?",
+   "verso": "Uso crônico de BZD e co-ingestão pró-convulsivante (tricíclicos) → risco de <b>convulsão</b>",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "💊 Dose tóxica de <b>paracetamol</b>?",
+   "verso": "&gt; <b>150 mg/kg</b> (ou &gt; 7,5–10 g) em ingestão aguda.",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "⚫ <b>Carvão ativado</b>?",
+   "verso": "1 g/kg até 1–2 h, com via aérea protegida<br>❌ Cáusticos, hidrocarbonetos, álcoois, metais (ferro, lítio)",
+   "fonte": "AACT/EAPCCT",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🔵 <b>Metemoglobinemia</b>?",
+   "verso": "Dapsona, nitritos, benzocaína → SpO₂ ~85% fixa, sangue 'chocolate' → <b>azul de metileno 1–2 mg/kg</b> (❌ G6PD).",
+   "fonte": "Toxicologia",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "❄️ Intoxicação por <b>cocaína</b>?",
+   "verso": "<b>Benzodiazepínicos</b> 1ª linha (agitação, taquicardia, HAS, hipertermia); resfriamento; evitar BB puro.",
+   "fonte": "AHA 2008",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🐀 <b>'Chumbinho'</b> (carbamato) no Brasil?",
+   "verso": "Síndrome colinérgica → <b>atropina</b>; pralidoxima geralmente não indicada nos carbamatos.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "💊 Intoxicação por <b>valproato</b>?",
+   "verso": "Hiperamonemia, coma, edema cerebral → <b>L-carnitina</b>; hemodiálise se grave.",
+   "fonte": "EXTRIP 2015",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ambiental e animais peçonhentos",
+   "frente": "🧊 <b>Hipotermia acidental</b>?",
+   "verso": "<table class=t><tr><th>Grau</th><th>Temperatura</th></tr><tr><td>Leve</td><td>32–35 °C</td></tr><tr><td>Moderada</td><td>28–32 °C</td></tr><tr><td>Grave</td><td>&lt; 28 °C</td></tr></table>⚡ ECG: <b>onda J de Osborn</b><br>🫀 PCR hipotérmica → <b>ECLS/ECMO</b>",
+   "pegadinha": "'Ninguém está morto até estar quente e morto.'",
+   "fonte": "ERC 2021",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ambiental e animais peçonhentos",
+   "frente": "🔥 <b>Insolação</b> (heat stroke)?",
+   "verso": "T &gt; 40 °C + disfunção do SNC<br>🧊 <b>Imersão em água fria</b> → &lt; 39 °C em 30 min<br>❌ Antipiréticos e dantroleno ineficazes",
+   "fonte": "Epstein NEJM 2019",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ambiental e animais peçonhentos",
+   "frente": "🐍 <b>Acidentes ofídicos</b> no Brasil?",
+   "verso": "<table class=t><tr><th>Gênero</th><th>Clínica</th><th>Soro</th></tr><tr><td>Bothrops (jararaca)</td><td>Dor, edema, sangramento, tempo de coagulação alargado/incoagulável</td><td>SAB</td></tr><tr><td>Crotalus (cascavel)</td><td>Fácies miastênica, mialgia, <b>urina escura</b>, LRA</td><td>SAC</td></tr><tr><td>Lachesis (surucucu)</td><td>Botrópico + vagal</td><td>SALa</td></tr><tr><td>Micrurus (coral)</td><td>Neurotóxico → IRpA</td><td>SAE</td></tr></table>",
+   "pegadinha": "Bothrops: ~70–90% dos acidentes no Brasil.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ambiental e animais peçonhentos",
+   "frente": "🦂 <b>Escorpionismo</b> grave?",
+   "verso": "Tityus serrulatus: dor local → grave: <b>vômitos profusos</b>, sudorese, EAP, choque cardiogênico (miocardite adrenérgica)<br>💉 Soro antiescorpiônico nos casos moderados/graves",
+   "pegadinha": "Crianças &lt; 7 anos: maior risco. Vômitos = sinal de gravidade.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Ambiental e animais peçonhentos",
+   "frente": "🌊 <b>Afogamento</b>?",
+   "verso": "Lesão central = hipoxemia → O₂, VNI/VM com PEEP; sem Heimlich; ATB profilático não.",
+   "fonte": "ILCOR",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ambiental e animais peçonhentos",
+   "frente": "🕷️ <b>Loxoscelismo</b> (aranha-marrom)?",
+   "verso": "Dermonecrose ('placa marmórea'); forma cutâneo-visceral com <b>hemólise</b> e LRA → soro antiaracnídico/antiloxoscélico + corticoide.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Ambiental e animais peçonhentos",
+   "frente": "🕷️ <b>Phoneutria</b> (armadeira)?",
+   "verso": "Dor local intensa → anestesia local; crianças: sudorese, vômitos, priapismo, choque → soro em casos graves.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "TEMI2028",
+    "T14",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {}
+}

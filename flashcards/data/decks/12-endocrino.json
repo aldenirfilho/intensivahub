@@ -1,0 +1,456 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::12 🍬 Endocrinologia no Crítico",
+ "cards": [
+  {
+   "subtema": "CAD e EHH",
+   "frente": "🍬 Critérios diagnósticos de <b>CAD</b> (2024)?",
+   "verso": "<table class=t><tr><th>Critério</th><th>Corte</th></tr><tr><td>D – Diabetes</td><td>Glicemia <b>≥ 200</b> ou DM conhecido</td></tr><tr><td>K – Cetose</td><td>β-OHB <b>≥ 3,0 mmol/L</b></td></tr><tr><td>A – Acidose</td><td>pH <b>&lt; 7,3</b> e/ou HCO₃⁻ <b>&lt; 18</b></td></tr></table>",
+   "pegadinha": "Consenso 2024 baixou a glicemia de 250 para 200 (iSGLT2!).",
+   "fonte": "ADA/EASD/JBDS 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "💉 Manejo inicial da <b>CAD</b>?",
+   "verso": "1️⃣ Volume: 1–1,5 L na 1ª hora<br>2️⃣ <b class=r>K &lt; 3,5 → NÃO iniciar insulina</b> (repor primeiro)<br>3️⃣ Insulina regular <b>0,1 U/kg/h</b><br>4️⃣ Glicemia &lt; 250 → associar <b>SG 5–10%</b> e manter insulina",
+   "pegadinha": "A cetose resolve depois da glicemia – não desligar insulina quando a glicose cai.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "🧂 Reposição de <b>potássio</b> na CAD?",
+   "verso": "<table class=t><tr><th>K⁺ sérico</th><th>Conduta</th></tr><tr><td>&lt; 3,5</td><td>Repor e <b>adiar insulina</b></td></tr><tr><td>3,5–5,0</td><td>20–30 mEq em cada litro de soro</td></tr><tr><td>&gt; 5,0</td><td>Não repor; dosar a cada 2 h</td></tr></table>",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "✅ Critérios de <b>resolução</b> da CAD?",
+   "verso": "β-OHB <b>&lt; 0,6 mmol/L</b> + pH venoso <b>≥ 7,3</b> ou HCO₃⁻ ≥ 18<br>🔄 Insulina basal SC <b>1–2 h antes</b> de desligar a bomba",
+   "pegadinha": "Iniciar basal precocemente (junto da EV) reduz hiperglicemia rebote.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "🧊 Critérios de <b>EHH</b>?",
+   "verso": "Glicemia <b>≥ 600</b> | Osm efetiva <b>&gt; 300</b> | pH ≥ 7,3, HCO₃⁻ ≥ 15, β-OHB &lt; 3",
+   "pegadinha": "Osm efetiva = 2 Na + glicose/18. Déficit de água maior que na CAD.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "🧪 Bicarbonato e fosfato na CAD?",
+   "verso": "🧂 Bicarbonato: só se <b class=r>pH &lt; 7,0</b><br>🧪 Fosfato: só se &lt; 1 mg/dL, disfunção cardíaca, respiratória ou hemólise",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "⚠️ <b>CAD euglicêmica</b>?",
+   "verso": "Cetoacidose com glicemia &lt; 250 → principal causa: <b>iSGLT2</b> (glifozinas), gestação, jejum<br>🔧 Suspender iSGLT2; insulina + glicose desde o início",
+   "pegadinha": "Suspender iSGLT2 3 dias antes de cirurgia eletiva.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "🍺 <b>Cetoacidose alcoólica</b>?",
+   "verso": "Glicemia normal/baixa, predomínio de <b>β-hidroxibutirato</b> (nitroprussiato subestima)<br>💉 SG 5% + <b>tiamina</b> + volume (geralmente sem insulina)",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "🧂 Qual soro na CAD após a 1ª hora?",
+   "verso": "Na corrigido normal/alto → <b>SF 0,45%</b>; baixo → SF 0,9% (ou balanceado).",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "🧠 <b>Edema cerebral</b> na CAD?",
+   "verso": "Mais em crianças/jovens, nas primeiras 12–24 h → <b>manitol 0,5–1 g/kg</b> ou salina 3%.",
+   "fonte": "ISPAD",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "🔎 Precipitantes da CAD?",
+   "verso": "Infecção, omissão de insulina, IAM, pancreatite, drogas (iSGLT2, corticoide, antipsicóticos atípicos), cocaína.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "💧 Peculiaridades do <b>EHH</b>?",
+   "verso": "Déficit de água ~100–200 mL/kg; <b>volume primeiro</b>; insulina em dose menor (0,05 U/kg/h) quando a glicose parar de cair com fluidos.",
+   "pegadinha": "Correção lenta da osmolalidade (≤ 3–8 mOsm/kg/h).",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "CAD e EHH",
+   "frente": "💉 <b>CAD leve</b>: insulina SC?",
+   "verso": "Análogo rápido SC a cada 1–2 h é alternativa à infusão IV (fora da UTI).",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Controle glicêmico",
+   "frente": "📉 Alvo glicêmico na UTI?",
+   "verso": "<b class=g>140–180 mg/dL</b><br>❌ Controle intensivo (81–108) ↑ mortalidade (NICE-SUGAR)",
+   "fonte": "NICE-SUGAR NEJM 2009",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Controle glicêmico",
+   "frente": "📉 Tratamento da <b>hipoglicemia</b>?",
+   "verso": "💉 Glicose 50% 25–50 mL (ou G10% 100–200 mL)<br>💉 Sem acesso: glucagon 1 mg IM<br>💊 Sulfonilureia: <b>octreotida</b>",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Controle glicêmico",
+   "frente": "💉 Insulina IV × SC no crítico instável?",
+   "verso": "Choque/edema/vasopressor → absorção SC errática → <b>insulina IV contínua</b> com protocolo.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Controle glicêmico",
+   "frente": "⚠️ Fatores de <b>hipoglicemia</b> na UTI?",
+   "verso": "Sepse, IR, hepatopatia, suspensão da dieta com insulina mantida, controle intensivo.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Controle glicêmico",
+   "frente": "💊 Hiperglicemia por <b>corticoide</b>?",
+   "verso": "Pico vespertino → <b>NPH pela manhã</b> junto com o corticoide.",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Controle glicêmico",
+   "frente": "🧪 Para que a <b>HbA1c</b> na admissão?",
+   "verso": "Diferencia hiperglicemia de estresse de DM prévio não diagnosticado.",
+   "fonte": "ADA",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Controle glicêmico",
+   "frente": "⚠️ <b>DM tipo 1</b> sem dieta?",
+   "verso": "<b>Nunca suspender a insulina basal</b> (risco de CAD) → manter basal (ajustada) + glicose.",
+   "fonte": "ADA",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 <b>Crise tireotóxica</b>: tratamento?",
+   "verso": "📊 Burch-Wartofsky ≥ 45<br>1️⃣ <b>Propranolol</b><br>2️⃣ <b>PTU</b> (bloqueia conversão T4 → T3)<br>3️⃣ <b>Iodo 1 h após</b> a tionamida<br>4️⃣ Hidrocortisona | 5️⃣ Tratar o gatilho",
+   "pegadinha": "Iodo antes da tionamida = 'combustível' para mais hormônio.",
+   "fonte": "ATA 2016",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🧊 <b>Coma mixedematoso</b>?",
+   "verso": "Hipotermia, hiponatremia, hipoventilação, bradicardia, rebaixamento<br>💊 <b>Hidrocortisona ANTES</b> da levotiroxina<br>💉 Levotiroxina IV <b>200–400 mcg</b> de ataque",
+   "fonte": "ATA 2014",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🧪 <b>Síndrome do eutireoidiano doente</b>?",
+   "verso": "⬇️ T3, ⬆️ rT3, TSH normal/baixo<br>❌ <b>Não tratar</b>",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "💊 <b>Amiodarona</b> e tireoide?",
+   "verso": "Hipo ou hiper: tipo 1 (excesso de iodo → tionamida) × tipo 2 (tireoidite → <b>prednisona</b>).",
+   "fonte": "ATA",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "📊 Componentes do <b>Burch-Wartofsky</b>?",
+   "verso": "Temperatura, SNC, GI-hepático, FC, IC, FA e precipitante → ≥ 45 crise; 25–44 iminente.",
+   "fonte": "Burch 1993",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Crise tireotóxica refratária?",
+   "verso": "<b>Plasmaférese</b> ou tireoidectomia de urgência.",
+   "fonte": "ATA 2016",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "⚡ <b>Insuficiência adrenal aguda</b>?",
+   "verso": "💉 <b class=c>Hidrocortisona 100 mg IV bolus</b> → 200 mg/dia<br>💧 Volume + glicose<br>⏱️ Não esperar resultado (colher cortisol/ACTH antes, se possível)",
+   "pegadinha": "Dexametasona não interfere no cortisol dosado, mas sem efeito mineralocorticoide.",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "💊 Hidrocortisona ± <b>fludrocortisona</b> no choque séptico?",
+   "verso": "<table class=t><tr><th>Estudo</th><th>Esquema</th><th>Resultado</th></tr><tr><td>ADRENAL 2018</td><td>Hidrocortisona 200 mg/d</td><td>↓ tempo de choque; mortalidade =</td></tr><tr><td>APROCCHSS 2018</td><td>+ fludrocortisona 50 mcg/d</td><td><b>↓ mortalidade 90 d</b></td></tr></table>",
+   "fonte": "NEJM 2018",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "🧨 <b>Feocromocitoma</b> em crise?",
+   "verso": "1️⃣ <b>Bloqueio α primeiro</b> (fentolamina, nitroprussiato, clevidipina; eletivo: doxazosina/fenoxibenzamina)<br>2️⃣ Betabloqueio só depois",
+   "pegadinha": "BB isolado → estímulo α sem oposição → crise hipertensiva.",
+   "fonte": "Endocrine Society 2014",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "💦 <b>Diabetes insípido</b> no neurocrítico/potencial doador?",
+   "verso": "DU &gt; 3–4 mL/kg/h + Uosm baixa + ↑ Na<br>💉 <b>DDAVP 1–4 mcg IV</b> (ou vasopressina se hipotensão)",
+   "fonte": "Neurointensivismo",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "💊 Equivalência dos <b>corticoides</b>?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Dose equivalente</th><th>Mineralocorticoide</th></tr><tr><td>Hidrocortisona</td><td>20 mg</td><td>+++</td></tr><tr><td>Prednisona</td><td>5 mg</td><td>++</td></tr><tr><td>Metilprednisolona</td><td>4 mg</td><td>+</td></tr><tr><td>Dexametasona</td><td>0,75 mg</td><td>0</td></tr></table>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "🧠 <b>Apoplexia hipofisária</b>?",
+   "verso": "Cefaleia súbita + alteração visual + oftalmoplegia (adenoma)<br>💉 <b>Hidrocortisona urgente</b> + avaliação neurocirúrgica",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "🧪 <b>Teste da cortrosina</b> (ACTH 250 mcg)?",
+   "verso": "Cortisol &lt; 18 µg/dL → insuficiência adrenal.<br>❌ Não usar para decidir corticoide no choque séptico",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "🎨 Insuficiência adrenal <b>primária × secundária</b>?",
+   "verso": "Primária: <b>hipercalemia</b>, hiperpigmentação, ACTH ↑ (falta mineralocorticoide)<br>Secundária: sem hiperK, ACTH ↓",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "🔁 <b>Resposta trifásica</b> pós-cirurgia hipofisária?",
+   "verso": "DI (dias 1–5) → SIADH (dias 6–11) → DI permanente.",
+   "fonte": "Neuroendocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "💉 Corticoide de estresse no usuário crônico?",
+   "verso": "Cirurgia maior/doença grave: <b>hidrocortisona 50–100 mg 6/6–8/8h</b> (ou 200 mg/dia em infusão).",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Adrenal, hipófise e corticoides",
+   "frente": "🧪 Diagnóstico de <b>feocromocitoma</b>?",
+   "verso": "<b>Metanefrinas livres plasmáticas</b> (ou urinárias fracionadas) → depois imagem.",
+   "fonte": "Endocrine Society 2014",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Outras emergências endócrinas",
+   "frente": "🌺 <b>Crise carcinoide</b>?",
+   "verso": "Rubor, broncoespasmo, hipotensão (anestesia/procedimento) → <b>octreotida</b> IV.",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Outras emergências endócrinas",
+   "frente": "🍬 Hipoglicemia em não diabético?",
+   "verso": "Tríade de <b>Whipple</b>; insulinoma (insulina + peptídeo C ↑) × insulina exógena (peptídeo C ↓).",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Outras emergências endócrinas",
+   "frente": "🧈 <b>Pancreatite hipertrigliceridêmica</b>?",
+   "verso": "TG &gt; 1.000 mg/dL → <b>insulina IV + glicose</b>; plasmaférese em casos selecionados.",
+   "fonte": "ACG 2024",
+   "tags": [
+    "TEMI2028",
+    "T12",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {}
+}

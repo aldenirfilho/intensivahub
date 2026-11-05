@@ -1,0 +1,477 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::05 🧂 Eletrólitos",
+ "cards": [
+  {
+   "subtema": "Sódio",
+   "frente": "🧂 Hiponatremia <b>grave sintomática</b>: tratamento inicial?",
+   "verso": "💉 <b class=c>Salina 3% 150 mL em 20 min</b> → repetir até 2–3×<br>🎯 Meta: ↑ <b>5 mmol/L</b> na 1ª hora (ou até melhora dos sintomas)",
+   "pegadinha": "Alternativa americana: bolus de 100 mL 3% até 3×.",
+   "fonte": "Diretriz Europeia 2014",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "⚠️ Limite de correção da hiponatremia crônica?",
+   "verso": "🔴 Máximo <b class=r>10 mmol/L/24 h</b> (<b>8</b> em alto risco)<br>⚠️ Alto risco de SDO: Na ≤ 105, alcoolismo, desnutrição, hipocalemia, hepatopatia",
+   "pegadinha": "Corrigir hipocalemia também ↑ Na (K entra na célula, Na sai).",
+   "fonte": "Verbalis 2013; Europeia 2014",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🧠 <b>Síndrome de desmielinização osmótica</b>: clínica e manejo?",
+   "verso": "⏱️ 2–6 dias após correção rápida: disartria, disfagia, tetraparesia, <b>locked-in</b><br>🩻 RM pontina tardia<br>🔄 Correção excessiva → <b>re-baixar Na</b>: SG 5% + DDAVP",
+   "pegadinha": "Estratégia 'clamp' de DDAVP em alto risco.",
+   "fonte": "Sterns",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "📋 Critérios de <b>SIADH</b>?",
+   "verso": "<ul><li>Osm plasmática &lt; 275</li><li>Osm urinária &gt; 100</li><li>Na urinário &gt; 30–40</li><li><b>Euvolemia</b></li><li>Sem hipotireoidismo, insuficiência adrenal ou diurético</li></ul>",
+   "pegadinha": "Ácido úrico baixo (&lt; 4) reforça SIADH.",
+   "fonte": "Europeia 2014",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🍬 Correção do Na na <b>hiperglicemia</b>?",
+   "verso": "Na corrigido = Na medido + <b>1,6</b> (Katz) ou <b>2,4</b> (Hillier) para cada <b>100 mg/dL</b> de glicose acima de 100.",
+   "pegadinha": "Hiponatremia hipertônica ≠ pseudo-hiponatremia (lipídios/proteínas, osm normal).",
+   "fonte": "Katz 1973; Hillier 1999",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🧮 Fórmula de <b>Adrogué-Madias</b>?",
+   "verso": "<b class=c>ΔNa = (Na infusão − Na sérico)/(ACT + 1)</b><br>ACT: 0,6 × peso (homem) | 0,5 (mulher/idoso) | 0,45 (idosa)",
+   "pegadinha": "Na do SF 0,9% = 154; 3% = 513; RL = 130. Superestima/subestima → dosar Na a cada 2–4 h.",
+   "fonte": "Adrogué & Madias NEJM 2000",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "💧 <b>Hipernatremia</b>: velocidade e déficit de água livre?",
+   "verso": "📉 Crônica: ≤ <b>10–12 mmol/L/24 h</b> | Aguda (&lt; 48 h): pode ~1 mmol/L/h<br>🧮 <b>Déficit = ACT × (Na/140 − 1)</b>",
+   "pegadinha": "Estudos recentes sugerem que correção mais rápida em adultos é segura, mas prova cobra o limite clássico.",
+   "fonte": "Adrogué NEJM 2000",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🧭 Hiponatremia hipotônica: o que o <b>Na urinário</b> diz?",
+   "verso": "<table class=t><tr><th>Volemia</th><th>Na urinário</th><th>Causas</th></tr><tr><td>⬇️ Hipovolemia</td><td>&lt; 30</td><td>Perdas GI, terceiro espaço</td></tr><tr><td>⬇️ Hipovolemia</td><td>&gt; 30</td><td>Diurético, perda cerebral de sal, insuf. adrenal</td></tr><tr><td>↔️ Euvolemia</td><td>&gt; 30</td><td>SIADH, hipotireoidismo, insuf. adrenal</td></tr><tr><td>⬆️ Hipervolemia</td><td>&lt; 30</td><td>IC, cirrose, nefrótica</td></tr></table>",
+   "fonte": "Europeia 2014",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🧠 <b>Perda cerebral de sal</b> × SIADH?",
+   "verso": "<table class=t><tr><th></th><th>Perda cerebral de sal</th><th>SIADH</th></tr><tr><td>Volemia</td><td><b class=r>Hipovolemia</b></td><td>Euvolemia</td></tr><tr><td>Contexto</td><td>HSA, TCE</td><td>Variado</td></tr><tr><td>Tratamento</td><td>Volume + sal (± fludrocortisona)</td><td>Restrição hídrica, sal, tolvaptana</td></tr></table>",
+   "pegadinha": "Na HSA, NUNCA restringir água (piora vasoespasmo).",
+   "fonte": "Neurointensivismo",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "💊 <b>Tolvaptana</b>?",
+   "verso": "Antagonista V2 → aquarese na SIADH/IC<br>⚠️ Correção rápida; hepatotoxicidade (evitar em hepatopatas)",
+   "pegadinha": "Não usar em hiponatremia hipovolêmica.",
+   "fonte": "Europeia 2014",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🍬 <b>Ureia oral</b> na SIADH?",
+   "verso": "<b>15–30 g/dia</b> → diurese osmótica, eficaz e barata.",
+   "fonte": "Europeia 2014",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🍺 <b>Potomania de cerveja</b> / tea and toast?",
+   "verso": "Baixa ingestão de solutos → Uosm <b>&lt; 100</b> → hiponatremia.<br>⚠️ Alto risco de supercorreção (aquarese rápida)",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🧮 Relação de <b>Furst</b>?",
+   "verso": "(UNa + UK)/PNa: &gt; 1 → restrição hídrica <b>não</b> funcionará; &lt; 0,5 → restrição eficaz.",
+   "fonte": "Furst 2000",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Sódio",
+   "frente": "🧂 Causas de <b>hipernatremia</b> na UTI?",
+   "verso": "Perdas insensíveis, diurese osmótica, salina hipertônica, bicarbonato, febre, sem acesso à água.",
+   "pegadinha": "Hipernatremia adquirida na UTI ↑ mortalidade.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "⚡ Sequência de alterações no <b>ECG da hipercalemia</b>?",
+   "verso": "1️⃣ <b>T apiculada</b> → 2️⃣ ↑ PR / P achatada → 3️⃣ <b>QRS largo</b> → 4️⃣ <b class=r>Onda sinusoidal</b> → 5️⃣ FV/assistolia",
+   "pegadinha": "ECG normal NÃO exclui hipercalemia grave.",
+   "fonte": "Clínica",
+   "imagem": "img_ecg_k.png",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "🚑 Tratamento da <b>hipercalemia</b> em 3 etapas?",
+   "verso": "<table class=t><tr><th>Etapa</th><th>Droga</th></tr><tr><td>🛡️ Estabilizar membrana</td><td><b>Gluconato de Ca 10% 10–30 mL</b> IV (ou cloreto de Ca 10 mL via central)</td></tr><tr><td>➡️ Shift intracelular</td><td><b>Insulina regular 10 U + glicose 25 g</b>; salbutamol 10–20 mg NBZ; bicarbonato se acidose</td></tr><tr><td>🗑️ Remover</td><td>Furosemida, ciclossilicato de zircônio, patirômero, <b>diálise</b></td></tr></table>",
+   "pegadinha": "Cálcio NÃO baixa o K – só protege o miocárdio (dura 30–60 min).",
+   "fonte": "KDIGO/UK Renal Association",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "🧲 Hipocalemia refratária: o que corrigir antes?",
+   "verso": "<b class=y>MAGNÉSIO!</b> Hipomagnesemia mantém a perda renal de K (canais ROMK).<br>ECG: onda <b>U</b>, T achatada, QT(U) longo.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "💉 Velocidade máxima de <b>KCl IV</b>?",
+   "verso": "<table class=t><tr><th>Acesso</th><th>Velocidade</th></tr><tr><td>Periférico</td><td>Até <b>10 mEq/h</b></td></tr><tr><td>Central</td><td>Até <b>20 mEq/h</b> (40 com monitorização)</td></tr></table>",
+   "pegadinha": "KCl em bolus = PCR. NUNCA.",
+   "fonte": "Segurança do paciente",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "🩸 <b>Pseudo-hipercalemia</b>?",
+   "verso": "Hemólise, garrote prolongado, leucocitose (&gt; 100k) ou trombocitose extremas.",
+   "pegadinha": "ECG normal + K alto → repetir com amostra adequada.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "➡️ Hipocalemia por <b>shift</b>?",
+   "verso": "Insulina, β2-agonistas, alcalose, realimentação, hipotermia, paralisia periódica, tireotoxicose.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "💊 <b>Ciclossilicato de zircônio</b>?",
+   "verso": "Troca K⁺ por Na⁺/H⁺ no intestino → início ~1 h; 10 g 8/8h<br>⚠️ Edema (sódio)",
+   "fonte": "HARMONIZE 2014",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "🧮 Reposição de K: quanto sobe?",
+   "verso": "≈ cada <b>10 mEq</b> de KCl → ↑ ~<b>0,1 mEq/L</b> (aproximação grosseira).",
+   "pegadinha": "Déficit real é maior com K &lt; 3.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Potássio",
+   "frente": "⚡ Hipercalemia e <b>bicarbonato</b>?",
+   "verso": "Efeito pequeno/lento; útil sobretudo com <b>acidose metabólica</b>.",
+   "fonte": "KDIGO",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Cálcio",
+   "frente": "🦴 Tratamento da <b>hipercalcemia grave</b>?",
+   "verso": "<table class=t><tr><th>Medida</th><th>Dose/efeito</th></tr><tr><td>💧 SF 0,9%</td><td>200–300 mL/h (DU 100–150 mL/h)</td></tr><tr><td>💉 Calcitonina</td><td>4 UI/kg SC/IM 12/12h – rápida (horas), taquifilaxia</td></tr><tr><td>💊 Zoledronato</td><td>4 mg IV – efeito em 2–4 dias</td></tr><tr><td>💊 Denosumabe</td><td>Opção na IRC</td></tr><tr><td>💊 Corticoide</td><td>Granulomatoses, linfoma, intox. vit D</td></tr><tr><td>🩸 Diálise</td><td>Refratária/IR grave</td></tr></table>",
+   "pegadinha": "Furosemida só após volemia restaurada.",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Cálcio",
+   "frente": "🧮 Fórmula do <b>cálcio corrigido</b>?",
+   "verso": "<b>Ca corrigido = Ca total + 0,8 × (4 − albumina)</b>",
+   "pegadinha": "Em UTI, prefira <b>cálcio iônico</b> – a fórmula erra muito no crítico.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Cálcio",
+   "frente": "🫨 Hipocalcemia: sinais e tratamento?",
+   "verso": "Sinais: <b>Chvostek</b>, <b>Trousseau</b>, tetania, laringoespasmo, QT longo, convulsão<br>💉 Gluconato de Ca 10% <b>10–20 mL em 10–20 min</b> + infusão",
+   "pegadinha": "Corrigir Mg junto. Pós-tireoidectomia/paratireoidectomia (fome óssea).",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Cálcio",
+   "frente": "🧬 <b>Hipercalcemia</b>: PTH alto × suprimido?",
+   "verso": "<table class=t><tr><th>PTH</th><th>Causas</th></tr><tr><td>↑/normal</td><td>Hiperparatireoidismo primário, lítio</td></tr><tr><td>Suprimido</td><td>PTHrP (neoplasia), metástase óssea, mieloma, vit D, granulomatoses</td></tr></table>",
+   "pegadinha": "Hipercalcemia maligna → PTH suprimido.",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Cálcio",
+   "frente": "🩸 Hipocalcemia na <b>transfusão maciça</b>?",
+   "verso": "Citrato quela Ca → monitorar Ca iônico; manter <b>&gt; 1,1–1,2 mmol/L</b>.",
+   "fonte": "Trauma",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Cálcio",
+   "frente": "💉 Cloreto × gluconato de cálcio?",
+   "verso": "10 mL de <b>cloreto 10% = 270 mg</b> de Ca elementar (via central)<br>10 mL de <b>gluconato 10% = 90 mg</b>",
+   "pegadinha": "Cloreto: 3× mais Ca; necrose se extravasar.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Cálcio",
+   "frente": "⚡ ECG da <b>hipercalcemia</b>?",
+   "verso": "<b>QT curto</b> (e onda J de Osborn em casos extremos).",
+   "pegadinha": "Hipocalcemia → QT longo.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Magnésio e fósforo",
+   "frente": "🧲 <b>Torsades de pointes</b>: dose de magnésio?",
+   "verso": "<b class=c>Sulfato de magnésio 2 g IV</b> (em 1–2 min se sem pulso; 5–20 min se estável)",
+   "pegadinha": "Funciona mesmo com Mg sérico normal.",
+   "fonte": "AHA",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Magnésio e fósforo",
+   "frente": "🍽️ <b>Síndrome de realimentação</b>: alterações e prevenção?",
+   "verso": "⬇️ <b>Fósforo</b>, K, Mg + deficiência de <b>tiamina</b><br>🐢 NICE: alto risco → iniciar <b>10 kcal/kg/dia</b> (5 kcal/kg se extremo)<br>💊 Tiamina antes de iniciar",
+   "pegadinha": "Insulina promove entrada de fosfato na célula → hipofosfatemia.",
+   "fonte": "NICE CG32",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Magnésio e fósforo",
+   "frente": "🔋 Consequências da <b>hipofosfatemia grave</b> (&lt; 1 mg/dL)?",
+   "verso": "<ul><li>🫁 Fraqueza diafragmática → <b>falha de desmame</b></li><li>💪 Rabdomiólise</li><li>🩸 Hemólise</li><li>❤️ Disfunção miocárdica</li><li>🧠 Encefalopatia</li></ul>",
+   "pegadinha": "Pense em fósforo no paciente que 'não desmama'.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Magnésio e fósforo",
+   "frente": "🧲 <b>Hipermagnesemia</b>?",
+   "verso": "<table class=t><tr><th>Mg (mEq/L)</th><th>Efeito</th></tr><tr><td>4–7</td><td>↓ Reflexos, náusea, rubor</td></tr><tr><td>7–10</td><td>Arreflexia, sonolência, hipotensão</td></tr><tr><td>&gt; 10</td><td>Paralisia respiratória</td></tr><tr><td>&gt; 15</td><td>PCR</td></tr></table>",
+   "pegadinha": "Antídoto: <b>gluconato de cálcio</b>.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Magnésio e fósforo",
+   "frente": "🦴 <b>Hiperfosfatemia</b>?",
+   "verso": "Lise tumoral, rabdomiólise, IRC → hipocalcemia secundária; produto Ca × P &gt; 70 → calcificação<br>💊 Quelantes, diálise",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Magnésio e fósforo",
+   "frente": "💉 Reposição de <b>fosfato IV</b>?",
+   "verso": "Fosfato de potássio/sódio ~<b>0,16–0,32 mmol/kg em 4–6 h</b> conforme gravidade.",
+   "pegadinha": "Cuidado com hipocalcemia e com o K do fosfato de potássio.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Água, osmolalidade e poliúria",
+   "frente": "💦 Diabetes insípido central × nefrogênico?",
+   "verso": "Poliúria + Uosm &lt; 300 + hipernatremia<br>💉 Teste da <b>DDAVP</b>: ↑ Uosm &gt; 50% → <b>central</b>; sem resposta → <b>nefrogênico</b>",
+   "pegadinha": "Nefrogênico: lítio, hipercalcemia, hipocalemia. Central: TCE, neurocirurgia, ME.",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Água, osmolalidade e poliúria",
+   "frente": "💧 Osmolalidade <b>efetiva × total</b>?",
+   "verso": "Ureia é osmol <b>ineficaz</b> (atravessa membranas) → Osm efetiva = 2 Na + glicose/18.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Água, osmolalidade e poliúria",
+   "frente": "🧪 Monitorização do <b>manitol</b>?",
+   "verso": "Gap osmolar &gt; 20 (ou Osm &gt; 320) → risco de LRA → suspender.",
+   "fonte": "Neurointensivismo",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Água, osmolalidade e poliúria",
+   "frente": "🚽 Poliúria: <b>osmótica × aquosa</b>?",
+   "verso": "Uosm &gt; 300 → osmótica (glicose, ureia, manitol, pós-obstrutiva)<br>Uosm &lt; 150 → aquosa (DI, polidipsia)",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T05",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {
+  "img_ecg_k.png": "data/media/img_ecg_k.png"
+ }
+}

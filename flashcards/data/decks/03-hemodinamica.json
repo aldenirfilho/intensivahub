@@ -1,0 +1,484 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::03 ❤️ Hemodinâmica e Choque",
+ "cards": [
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "🧭 Perfil hemodinâmico dos <b>4 tipos de choque</b>?",
+   "verso": "<table class=t><tr><th>Choque</th><th>DC</th><th>RVS</th><th>PVC/POAP</th></tr><tr><td>🩸 Hipovolêmico</td><td>⬇️</td><td>⬆️</td><td>⬇️</td></tr><tr><td>❤️ Cardiogênico</td><td>⬇️</td><td>⬆️</td><td>⬆️</td></tr><tr><td>🧱 Obstrutivo</td><td>⬇️</td><td>⬆️</td><td>⬆️ (PVC)</td></tr><tr><td>🌡️ Distributivo</td><td>⬆️/↔️</td><td><b class=r>⬇️</b></td><td>⬇️/↔️</td></tr></table>",
+   "pegadinha": "Choque misto é comum: séptico com cardiomiopatia séptica.",
+   "fonte": "Vincent & De Backer NEJM 2013",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "🧮 Fórmulas de <b>DO₂</b> e <b>CaO₂</b>?",
+   "verso": "🩸 <b>CaO₂ = (1,34 × Hb × SaO₂) + (0,003 × PaO₂)</b><br>🚚 <b>DO₂ = DC × CaO₂ × 10</b> (normal ≈ 1000 mL/min)",
+   "pegadinha": "🤓 O O₂ dissolvido é quase desprezível – Hb e SaO₂ mandam.",
+   "fonte": "Fisiologia",
+   "imagem": "img_o2hb.png",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "🩸 Interpretação da <b>SvcO₂</b>?",
+   "verso": "<table class=t><tr><th>Valor</th><th>Significado</th></tr><tr><td><b class=g>&gt; 70%</b></td><td>Normal (SvO₂ &gt; 65%)</td></tr><tr><td><b class=r>Baixa</b></td><td>↓ DO₂ (anemia, ↓ DC, hipoxemia) ou ↑ VO₂ (febre, dor, tremores)</td></tr><tr><td><b class=y>Alta</b></td><td>Sepse com shunt/disóxia, cianeto, hiperóxia</td></tr></table>",
+   "pegadinha": "SvcO₂ normal NÃO exclui hipoperfusão tecidual.",
+   "fonte": "Rivers 2001 / fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "🌫️ O que é o <b>gap venoarterial de CO₂</b>?",
+   "verso": "<b>Pcv-aCO₂</b> &gt; <b class=r>6 mmHg</b> → sugere <b>fluxo (DC) inadequado</b> para eliminar o CO₂ tecidual.",
+   "pegadinha": "Útil quando SvcO₂ já está &gt; 70% e lactato continua alto.",
+   "fonte": "Vallet 2013; Mallat 2016",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "📊 Fórmulas de <b>PAM</b> e <b>RVS</b>?",
+   "verso": "🩺 <b>PAM = (PAS + 2 × PAD)/3</b><br>📐 <b>RVS = 80 × (PAM − PVC)/DC</b> → normal 800–1200 dyn·s·cm⁻⁵",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "🎈 Valores normais do <b>Swan-Ganz</b>?",
+   "verso": "<table class=t><tr><th>Parâmetro</th><th>Normal</th></tr><tr><td>PAD</td><td>2–6 mmHg</td></tr><tr><td>PAP</td><td>15–30 / 4–12</td></tr><tr><td>POAP</td><td>6–12 mmHg</td></tr><tr><td>DC / IC</td><td>4–8 L/min / 2,5–4 L/min/m²</td></tr><tr><td>SvO₂</td><td>65–75%</td></tr></table>",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "⚠️ Quando a <b>POAP</b> não reflete a pressão diastólica final do VE?",
+   "verso": "PEEP alta, estenose/insuficiência mitral, mixoma de AE, HP grave, taquicardia, ponta fora da zona 3.",
+   "pegadinha": "PAC-Man (2005): o cateter de artéria pulmonar não reduz mortalidade.",
+   "fonte": "PAC-Man Lancet 2005",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "🌡️ Termodiluição transpulmonar (PiCCO)?",
+   "verso": "Mede DC, <b>GEDV</b> (pré-carga) e <b>EVLW</b> (água pulmonar extravascular) → EVLW &gt; 10 mL/kg = edema pulmonar.",
+   "fonte": "Monnet",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e monitorização",
+   "frente": "🔊 <b>VTI</b> da via de saída do VE?",
+   "verso": "Normal <b>18–22 cm</b>; &lt; 10–12 cm = baixo débito.<br>DC = VTI × área da VSVE × FC.",
+   "fonte": "POCUS",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fluidorresponsividade",
+   "frente": "🌊 <b>VPP</b>: como interpretar e quais as limitações?",
+   "verso": "🔢 VPP = (PPmáx − PPmín)/média × 100 → <b class=g>&gt; 13% = responsivo</b><br>⚠️ Só vale com: VM controlada, Vt ≥ 8 mL/kg, ritmo sinusal, tórax fechado, sem esforço, sem cor pulmonale",
+   "pegadinha": "Zona cinzenta: 9–13%.",
+   "fonte": "Michard 2000; Cannesson 2011",
+   "imagem": "img_ppv.png",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fluidorresponsividade",
+   "frente": "🦵 <b>Elevação passiva de pernas</b>: como interpretar?",
+   "verso": "↑ DC/VTI aórtico <b class=g>≥ 10%</b> → responsivo a volume.<br>✅ Funciona em <b>respiração espontânea e arritmia</b>.<br>📌 Medir <b>fluxo</b> (VTI, DC), não PA.",
+   "pegadinha": "Começar em semi-Fowler 45° e elevar pernas 45° (autotransfusão ≈ 300 mL).",
+   "fonte": "Monnet & Teboul",
+   "imagem": "img_starling.png",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fluidorresponsividade",
+   "frente": "⏸️ Teste de oclusão expiratória final (EEO)?",
+   "verso": "Pausa expiratória de <b>15 s</b> na VM → ↑ DC <b class=g>&gt; 5%</b> = responsivo.",
+   "pegadinha": "Funciona mesmo com Vt baixo e alguma arritmia.",
+   "fonte": "Monnet 2009",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fluidorresponsividade",
+   "frente": "🫀 Na lei de <b>Frank-Starling</b>, quem responde a volume?",
+   "verso": "Paciente na <b class=g>porção ascendente (íngreme)</b> da curva: ↑ pré-carga → ↑ VS.<br>No <b class=r>platô</b>: volume só causa congestão.",
+   "pegadinha": "Só ≈ 50% dos pacientes instáveis são fluido-responsivos.",
+   "fonte": "Fisiologia",
+   "imagem": "img_starling.png",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fluidorresponsividade",
+   "frente": "🌊 Delta da VCI na avaliação de volume?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Índice</th><th>Corte</th></tr><tr><td>VM controlada</td><td>Distensibilidade</td><td>&gt; 18% (Barbier) / &gt; 12% (Feissel)</td></tr><tr><td>Respiração espontânea</td><td>Colapsabilidade</td><td>&gt; 40–50% (baixa acurácia)</td></tr></table>",
+   "pegadinha": "VCI &lt; 1 cm colabada sugere hipovolemia; &gt; 2,1 cm sem colapso sugere PVC alta.",
+   "fonte": "Barbier/Feissel 2004",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Fluidorresponsividade",
+   "frente": "💧 <b>Mini fluid challenge</b>?",
+   "verso": "100 mL de cristaloide em ~1 min → ↑ VTI ≥ <b>10%</b> = provável responsivo.",
+   "fonte": "Muller 2011",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fluidorresponsividade",
+   "frente": "⚠️ Limitações da <b>elevação passiva de pernas</b>?",
+   "verso": "Hipertensão intra-abdominal (PIA &gt; 16), dor/agitação, amputação, meias compressivas, trauma de pelve/MMII.",
+   "fonte": "Monnet",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Fluidorresponsividade",
+   "frente": "🌊 <b>VExUS</b>: o que avalia?",
+   "verso": "Congestão venosa por Doppler: VCI + veias <b>hepáticas</b>, <b>porta</b> (pulsatilidade &gt; 30% anormal) e <b>intrarrenais</b> → graus 0–3.",
+   "pegadinha": "Grau 3 (≥ 2 padrões graves) associa-se a LRA cardiorrenal.",
+   "fonte": "Beaubien-Souligny 2020",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Drogas vasoativas",
+   "frente": "💉 Receptores das principais drogas vasoativas?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Receptores</th><th>Efeito</th></tr><tr><td>Noradrenalina</td><td>α1 ≫ β1</td><td>Vasoconstrição + inotropismo leve</td></tr><tr><td>Adrenalina</td><td>β1, β2, α1 (dose-dependente)</td><td>Inotropismo + ↑ lactato</td></tr><tr><td>Dobutamina</td><td>β1 &gt; β2</td><td>Inotropismo + vasodilatação</td></tr><tr><td>Vasopressina</td><td>V1 (vasos), V2 (rim)</td><td>Vasoconstrição</td></tr><tr><td>Fenilefrina</td><td>α1 puro</td><td>Vasoconstrição (bradicardia reflexa)</td></tr></table>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Drogas vasoativas",
+   "frente": "💊 <b>Milrinona</b> × <b>Levosimendana</b>?",
+   "verso": "<table class=t><tr><th></th><th>Milrinona</th><th>Levosimendana</th></tr><tr><td>Mecanismo</td><td>Inibidor PDE3</td><td>Sensibilizador do Ca²⁺ + abre K-ATP</td></tr><tr><td>Vantagem</td><td>Funciona com betabloqueador</td><td>Metabólito ativo (OR-1896) ~80 h</td></tr><tr><td>Cuidado</td><td>Acumula na LRA; hipotensão</td><td>Hipotensão; sem bolus se PA baixa</td></tr></table>",
+   "pegadinha": "SSC 2021 sugere CONTRA levosimendana na sepse.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Drogas vasoativas",
+   "frente": "🧪 Por que a <b>adrenalina eleva o lactato</b>?",
+   "verso": "Estímulo <b>β2</b> → ↑ glicólise aeróbica e Na⁺/K⁺-ATPase → <b>lactato tipo B</b> (sem hipóxia).",
+   "pegadinha": "Não interpretar ↑ lactato com adrenalina como falha de ressuscitação automaticamente.",
+   "fonte": "Fisiologia",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Drogas vasoativas",
+   "frente": "💊 <b>Dopamina</b> por dose?",
+   "verso": "<table class=t><tr><th>Dose (mcg/kg/min)</th><th>Receptor</th></tr><tr><td>1–3</td><td>Dopaminérgico (sem 'proteção renal')</td></tr><tr><td>5–10</td><td>β1</td></tr><tr><td>&gt; 10</td><td>α1</td></tr></table>",
+   "pegadinha": "SOAP II: mais arritmias que noradrenalina.",
+   "fonte": "De Backer NEJM 2010",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Drogas vasoativas",
+   "frente": "💉 Quando preferir <b>fenilefrina</b>?",
+   "verso": "α1 puro: taquiarritmias, <b>estenose aórtica</b>, CMH obstrutiva, hipotensão anestésica.",
+   "pegadinha": "Bradicardia reflexa; pode ↓ DC.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Drogas vasoativas",
+   "frente": "🩹 <b>Extravasamento</b> de noradrenalina?",
+   "verso": "Parar infusão, aspirar, elevar membro → <b>fentolamina 5–10 mg</b> diluída SC no local (ou terbutalina/nitroglicerina tópica).",
+   "fonte": "Segurança",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Drogas vasoativas",
+   "frente": "📉 Desmame de vasopressores: NA ou vasopressina primeiro?",
+   "verso": "Em geral, reduzir a <b>noradrenalina primeiro</b> (retirar vasopressina antes associa-se a mais hipotensão).",
+   "pegadinha": "Evidência observacional.",
+   "fonte": "Bauer 2010; Hammond 2017",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Drogas vasoativas",
+   "frente": "💗 <b>Isoproterenol</b>: quando?",
+   "verso": "β1 + β2 puro → bradicardia instável/torsades por QT longo bradicárdico (ponte para MP).",
+   "pegadinha": "Hipotensão por β2.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Choque cardiogênico e suporte mecânico",
+   "frente": "❤️ Classificação <b>SCAI</b> do choque cardiogênico?",
+   "verso": "<table class=t><tr><th>Estágio</th><th>Descrição</th></tr><tr><td>🟢 A – At risk</td><td>Em risco, sem hipoperfusão</td></tr><tr><td>🟡 B – Beginning</td><td>Hipotensão/taquicardia sem hipoperfusão</td></tr><tr><td>🟠 C – Classic</td><td>Hipoperfusão → precisa de droga/dispositivo</td></tr><tr><td>🔴 D – Deteriorating</td><td>Piora apesar da terapia inicial</td></tr><tr><td>⚫ E – Extremis</td><td>PCR/colapso, múltiplos suportes</td></tr></table>",
+   "pegadinha": "Mnemônico: <b>A-B-C-D-E</b> em ordem de gravidade.",
+   "fonte": "SCAI 2019/2022",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Choque cardiogênico e suporte mecânico",
+   "frente": "🎈 Balão intra-aórtico no choque cardiogênico pós-IAM?",
+   "verso": "❌ <b>Não rotineiro</b> – IABP-SHOCK II: sem redução de mortalidade.",
+   "pegadinha": "Pode ter papel em complicação mecânica (CIV, IM aguda) como ponte.",
+   "fonte": "IABP-SHOCK II NEJM 2012",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Choque cardiogênico e suporte mecânico",
+   "frente": "🌀 Bomba microaxial (Impella) no IAMCSST com choque?",
+   "verso": "✅ <b>DanGer Shock</b> (2024): ↓ mortalidade em 180 dias (≈ 46% × 59%).<br>⚠️ Mais sangramento, isquemia de membro e TRS.",
+   "pegadinha": "Excluiu comatosos pós-PCR extra-hospitalar – seleção é tudo.",
+   "fonte": "DanGer Shock NEJM 2024",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Choque cardiogênico e suporte mecânico",
+   "frente": "💔 <b>Complicações mecânicas</b> do IAM?",
+   "verso": "<table class=t><tr><th>Complicação</th><th>Pistas</th></tr><tr><td>CIV</td><td>Sopro holossistólico novo, salto de SpO₂ na AD→AP</td></tr><tr><td>IM aguda (papilar)</td><td>Sopro novo, EAP súbito</td></tr><tr><td>Ruptura de parede livre</td><td>Tamponamento/AESP</td></tr></table>",
+   "pegadinha": "Dias 2–7. Ponte: BIA/Impella → cirurgia.",
+   "fonte": "ESC",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Choque cardiogênico e suporte mecânico",
+   "frente": "🫀 <b>ECMO VA</b>: complicações típicas?",
+   "verso": "↑ Pós-carga do VE (distensão, edema, trombo) → <b>descompressão</b> (Impella = ECPELLA, septostomia)<br>🔺 <b>Síndrome de Arlequim</b>: hipoxemia do hemicorpo superior (VE ejetando sangue mal oxigenado)",
+   "pegadinha": "Monitorar SpO₂ da mão <b>direita</b>.",
+   "fonte": "ELSO",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Choque cardiogênico e suporte mecânico",
+   "frente": "❌ ECMO VA no IAM com choque cardiogênico?",
+   "verso": "ECLS-SHOCK: <b>sem ↓ mortalidade em 30 dias</b> e mais sangramento.",
+   "fonte": "ECLS-SHOCK NEJM 2023",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Choque cardiogênico e suporte mecânico",
+   "frente": "🫀 Manejo do <b>choque de VD</b>?",
+   "verso": "<ul><li>Volume com cautela (VD dilatado comprime o VE)</li><li>Manter PAM (NA/vasopressina) → perfusão coronária do VD</li><li>↓ Pós-carga: O₂, NO inalado, milrinona</li><li>Evitar hipóxia, hipercapnia, acidose e PEEP alta</li><li>IOT de altíssimo risco</li></ul>",
+   "pegadinha": "Septo em 'D' = sobrecarga de VD.",
+   "fonte": "AHA 2018",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Choques obstrutivo, distributivo e especiais",
+   "frente": "🫀 <b>Tamponamento cardíaco</b>: clínica e ECO?",
+   "verso": "🔺 Tríade de <b>Beck</b>: hipotensão + turgência jugular + bulhas abafadas<br>📉 <b>Pulso paradoxal &gt; 10 mmHg</b><br>🔊 ECO: <b class=r>colapso diastólico de VD</b> (e AD), VCI pletórica<br>🚑 Pericardiocentese",
+   "pegadinha": "ECG: alternância elétrica + baixa voltagem.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Choques obstrutivo, distributivo e especiais",
+   "frente": "🩸 <b>TEP de alto risco</b>: definição e trombólise?",
+   "verso": "📌 Choque, hipotensão (PAS &lt; 90 por ≥ 15 min) ou PCR<br>💉 <b class=c>Alteplase 100 mg em 2 h</b><br>⚡ PCR: alteplase 50 mg em bolus (ou 0,6 mg/kg em 15 min) e manter RCP 60–90 min",
+   "pegadinha": "Risco intermediário-alto: anticoagular e monitorar (PEITHO: trombólise plena ↑ sangramento).",
+   "fonte": "ESC 2019",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Choques obstrutivo, distributivo e especiais",
+   "frente": "🐝 <b>Anafilaxia</b>: droga, via e dose?",
+   "verso": "💉 <b class=r>Adrenalina IM 0,5 mg</b> (0,01 mg/kg, máx 0,5 mg adulto) – vasto lateral da coxa<br>🔁 Repetir a cada 5–15 min<br>🔄 Refratária: adrenalina em infusão IV",
+   "pegadinha": "Anti-H1 e corticoide são adjuvantes – NÃO substituem adrenalina.",
+   "fonte": "WAO 2020",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Choques obstrutivo, distributivo e especiais",
+   "frente": "🦠 Choque séptico refratário: o que mais pensar?",
+   "verso": "<ul><li>Foco não controlado (abscesso, cateter, necrose)</li><li>Insuficiência adrenal (hidrocortisona)</li><li>Disfunção miocárdica (ECO)</li><li>Hipocalcemia, acidose grave</li><li>Tamponamento/pneumotórax/TEP</li><li>Diagnóstico errado (anafilaxia, hipotireoidismo, intoxicação)</li></ul>",
+   "pegadinha": "Sempre: ECO à beira-leito.",
+   "fonte": "Raciocínio clínico",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v1"
+   ]
+  },
+  {
+   "subtema": "Choques obstrutivo, distributivo e especiais",
+   "frente": "🦴 <b>Choque neurogênico</b>?",
+   "verso": "Lesão medular ≥ T6 → hipotensão + <b>bradicardia</b> + pele quente<br>💉 Volume + NA (± atropina)",
+   "pegadinha": "Antes de atribuir à lesão medular, excluir hemorragia!",
+   "fonte": "ATLS",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Choques obstrutivo, distributivo e especiais",
+   "frente": "🦠 <b>Síndrome do choque tóxico</b>?",
+   "verso": "S. aureus/S. pyogenes: febre, rash difuso, choque, falências<br>💊 Betalactâmico + <b>clindamicina</b> (bloqueia toxina) ± IgIV (estreptocócico)",
+   "fonte": "IDSA",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Choques obstrutivo, distributivo e especiais",
+   "frente": "📉 Causas de <b>pulso paradoxal</b>?",
+   "verso": "Tamponamento, asma/DPOC grave, TEP maciço, choque hipovolêmico grave, obesidade grave.",
+   "pegadinha": "Pericardite constritiva → sinal de Kussmaul.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  },
+  {
+   "subtema": "Choques obstrutivo, distributivo e especiais",
+   "frente": "🩸 Choque hemorrágico não traumático (HDA, ruptura de aneurisma)?",
+   "verso": "Controle do sangramento + transfusão precoce (proporcional se maciça) + ↓ cristaloide.",
+   "fonte": "Clínica",
+   "tags": [
+    "TEMI2028",
+    "T03",
+    "v2"
+   ]
+  }
+ ],
+ "midia": {
+  "img_o2hb.png": "data/media/img_o2hb.png",
+  "img_ppv.png": "data/media/img_ppv.png",
+  "img_starling.png": "data/media/img_starling.png"
+ }
+}
