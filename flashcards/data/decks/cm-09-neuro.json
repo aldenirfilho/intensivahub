@@ -1,0 +1,228 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::09 🧠 Neurologia",
+ "cards": [
+  {
+   "subtema": "Cefaleias",
+   "frente": "🚨 Sinais de alarme na <b>cefaleia</b> (SNOOP)?",
+   "verso": "Sistêmicos, Neurológicos, início súbito (<i>Onset</i> em trovoada), &gt; 50 anos (<i>Older</i>), mudança de Padrão, posicional, papiledema.",
+   "fonte": "SNOOP4",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🧠 <b>Enxaqueca</b>: crise e profilaxia?",
+   "verso": "Crise: AINE/triptano (❌ DAC)<br>Profilaxia se ≥ 4 dias/mês: propranolol, amitriptilina, topiramato, anti-CGRP",
+   "fonte": "SBCe",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "👁️ <b>Cefaleia em salvas</b>?",
+   "verso": "Homem, orbitária, com sinais autonômicos, 15–180 min → <b>O₂ 100% 12–15 L/min</b>, sumatriptano SC; profilaxia: verapamil.",
+   "fonte": "ICHD-3",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "💊 Cefaleia por <b>uso excessivo</b> de medicação?",
+   "verso": "Analgésico simples ≥ 15 dias/mês ou triptano/opioide ≥ 10 dias/mês por &gt; 3 meses.",
+   "fonte": "ICHD-3",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "👀 <b>Hipertensão intracraniana idiopática</b>?",
+   "verso": "Mulher jovem obesa, papiledema, pressão de abertura &gt; 25 cmH₂O, RM normal → acetazolamida, perda de peso.",
+   "fonte": "Neurologia",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "⚡ 1ª crise não provocada: tratar?",
+   "verso": "Considerar se EEG epileptiforme, lesão estrutural ou crise noturna (risco de recorrência &gt; 60% = epilepsia).",
+   "fonte": "ILAE 2014",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🤰 Antiepiléptico e gestação?",
+   "verso": "<b class=r>Valproato teratogênico</b> (evitar em idade fértil); preferir lamotrigina/levetiracetam + ácido fólico.",
+   "fonte": "ILAE",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "⚠️ <b>Carbamazepina</b>?",
+   "verso": "Hiponatremia, SSJ (HLA-B*15:02), indutor enzimático (↓ anticoncepcional, varfarina).",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🎭 Crise <b>psicogênica</b> (não epiléptica)?",
+   "verso": "Olhos fechados, movimentos assíncronos/pélvicos, duração longa, prolactina normal → <b>vídeo-EEG</b>.",
+   "fonte": "Neurologia",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças neurodegenerativas e desmielinizantes",
+   "frente": "🫨 <b>Parkinson</b>?",
+   "verso": "Bradicinesia + tremor de repouso/rigidez → levodopa<br>❌ Antipsicóticos típicos/metoclopramida; psicose → quetiapina/clozapina",
+   "fonte": "MDS",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças neurodegenerativas e desmielinizantes",
+   "frente": "🧩 <b>Alzheimer</b>: tratamento?",
+   "verso": "Inibidores de colinesterase (donepezila, rivastigmina, galantamina) leve/moderado; memantina moderado/grave.",
+   "fonte": "Neurologia",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças neurodegenerativas e desmielinizantes",
+   "frente": "🔄 Causas <b>reversíveis</b> de demência?",
+   "verso": "B12, TSH, sífilis (VDRL), HIV, depressão, drogas, hematoma subdural, hidrocefalia de pressão normal.",
+   "fonte": "Neurologia",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças neurodegenerativas e desmielinizantes",
+   "frente": "🚶 <b>Hidrocefalia de pressão normal</b>?",
+   "verso": "Marcha 'magnética' + incontinência + demência → tap test → derivação ventriculoperitoneal.",
+   "fonte": "Neurologia",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças neurodegenerativas e desmielinizantes",
+   "frente": "🧲 <b>Esclerose múltipla</b>?",
+   "verso": "Surtos, neurite óptica, oftalmoplegia internuclear; RM com placas periventriculares; bandas oligoclonais → pulso de metilprednisolona no surto.",
+   "fonte": "McDonald 2017",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças neurodegenerativas e desmielinizantes",
+   "frente": "💪 <b>ELA</b>?",
+   "verso": "Sinais de neurônio motor superior + inferior, <b>sem</b> alteração sensitiva → riluzol, suporte ventilatório.",
+   "fonte": "Neurologia",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Vascular, nervos e síncope",
+   "frente": "⏱️ <b>AIT</b> / AVC menor: antiagregação?",
+   "verso": "Alto risco (ABCD2 ≥ 4 / NIHSS ≤ 3) → <b>AAS + clopidogrel × 21 dias</b>, depois monoterapia.",
+   "fonte": "POINT/CHANCE",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Vascular, nervos e síncope",
+   "frente": "🩺 <b>Estenose carotídea</b> sintomática?",
+   "verso": "70–99% → endarterectomia em <b>≤ 2 semanas</b>.",
+   "fonte": "ESVS 2023",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Vascular, nervos e síncope",
+   "frente": "😐 <b>Paralisia de Bell</b>?",
+   "verso": "Periférica (fronte acometida) × central (poupa a fronte) → prednisona em ≤ 72 h + proteção ocular.",
+   "fonte": "AAN",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Vascular, nervos e síncope",
+   "frente": "🦶 Causas de <b>neuropatia periférica</b>?",
+   "verso": "DM, álcool, B12, hipotireoidismo, HIV, quimioterapia, hanseníase (no Brasil!).",
+   "fonte": "Neurologia",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Vascular, nervos e síncope",
+   "frente": "😵 <b>Síncope</b> de alto risco?",
+   "verso": "Ao esforço, sem pródromo, em decúbito, cardiopatia estrutural, ECG alterado, história familiar de morte súbita → investigar arritmia.",
+   "pegadinha": "ECG em todos.",
+   "fonte": "ESC 2018",
+   "tags": [
+    "R3CM",
+    "T09",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {}
+}

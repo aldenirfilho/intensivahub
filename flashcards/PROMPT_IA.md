@@ -86,6 +86,22 @@ TEMI 2028::12 🍬 Endocrinologia no Crítico
 TEMI 2028::13 🫃 Gastro, Fígado e Nutrição
 TEMI 2028::14 🚑 Trauma, Toxicologia e Ambiental
 TEMI 2028::15 ⚖️ Ética, Escores, Qualidade e POCUS
+
+R3 Clínica Médica::01 🫀 Cardiologia
+R3 Clínica Médica::02 🫁 Pneumologia
+R3 Clínica Médica::03 🫘 Nefrologia
+R3 Clínica Médica::04 🍬 Endocrinologia
+R3 Clínica Médica::05 🫃 Gastroenterologia e Hepatologia
+R3 Clínica Médica::06 🩸 Hematologia
+R3 Clínica Médica::07 🦠 Infectologia
+R3 Clínica Médica::08 🦴 Reumatologia
+R3 Clínica Médica::09 🧠 Neurologia
+R3 Clínica Médica::10 🎗️ Oncologia Clínica
+R3 Clínica Médica::11 👴 Geriatria e Cuidados Paliativos
+R3 Clínica Médica::12 🧘 Psiquiatria na Clínica
+R3 Clínica Médica::13 🩺 Medicina Preventiva
+R3 Clínica Médica::14 🧴 Dermatologia e Alergia
+R3 Clínica Médica::15 💊 Farmacologia, Semiologia e Laboratório
 ```
 
 ## 🧾 Formato aceito pelo app (referência técnica)

@@ -1,0 +1,229 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::15 💊 Farmacologia, Semiologia e Laboratório",
+ "cards": [
+  {
+   "subtema": "Interações medicamentosas",
+   "frente": "⬇️ <b>Indutores</b> do CYP3A4?",
+   "verso": "Rifampicina, carbamazepina, fenitoína, fenobarbital, erva-de-são-joão → ↓ varfarina, DOAC, anticoncepcional, imunossupressores.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Interações medicamentosas",
+   "frente": "⬆️ <b>Inibidores</b> do CYP3A4?",
+   "verso": "Claritromicina, azóis (fluconazol, cetoconazol), ritonavir, amiodarona, diltiazem/verapamil, suco de toranja.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Interações medicamentosas",
+   "frente": "🩸 Drogas que <b>↑ INR</b> da varfarina?",
+   "verso": "Amiodarona, SMX-TMP, metronidazol, fluconazol, quinolonas, macrolídeos.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Interações medicamentosas",
+   "frente": "⚡ Combinações que dão <b>hipercalemia</b>?",
+   "verso": "IECA/BRA + espironolactona + SMX-TMP + AINE (± heparina) — principalmente com DRC.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Interações medicamentosas",
+   "frente": "💪 Estatina + interação → miopatia?",
+   "verso": "<b>Sinvastatina</b>/atorvastatina + claritromicina, azóis, amiodarona, diltiazem → preferir rosuvastatina/pravastatina.",
+   "fonte": "FDA",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Interações medicamentosas",
+   "frente": "🎯 <b>'Triple whammy'</b>?",
+   "verso": "IECA/BRA + diurético + <b>AINE</b> → LRA.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Interações medicamentosas",
+   "frente": "⚠️ Riscos das <b>fluoroquinolonas</b>?",
+   "verso": "Tendinite/ruptura, QT longo, aneurisma/dissecção de aorta, disglicemia, piora da miastenia.",
+   "fonte": "FDA",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Semiologia",
+   "frente": "🔍 Sinais abdominais clássicos?",
+   "verso": "<table class=t><tr><th>Sinal</th><th>Sugere</th></tr><tr><td>Murphy</td><td>Colecistite</td></tr><tr><td>Blumberg</td><td>Peritonite</td></tr><tr><td>Rovsing</td><td>Apendicite</td></tr><tr><td>Giordano</td><td>Pielonefrite/litíase</td></tr><tr><td>Cullen / Grey-Turner</td><td>Hemorragia retroperitoneal (pancreatite)</td></tr></table>",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Semiologia",
+   "frente": "🔊 Sopros cardíacos?",
+   "verso": "<table class=t><tr><th>Sopro</th><th>Lesão</th></tr><tr><td>Sistólico ejetivo, foco aórtico → carótidas</td><td>Estenose aórtica</td></tr><tr><td>Holossistólico, ápice → axila</td><td>Insuficiência mitral</td></tr><tr><td>Diastólico em ruflar + estalido</td><td>Estenose mitral</td></tr><tr><td>Diastólico aspirativo, borda esternal</td><td>Insuficiência aórtica</td></tr></table>",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Semiologia",
+   "frente": "💓 Pulsos clássicos?",
+   "verso": "<b>Paradoxal</b> (tamponamento), <b>alternante</b> (IC grave), <i>parvus et tardus</i> (EAo), <b>bisferiens</b> (IAo/CMH), martelo d'água (IAo).",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Semiologia",
+   "frente": "🥁 Causas de <b>baqueteamento digital</b>?",
+   "verso": "Câncer de pulmão, bronquiectasias, FPI, cardiopatia cianótica, endocardite, DII, cirrose.",
+   "pegadinha": "DPOC isolada <b>não</b> causa — investigar câncer.",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Semiologia",
+   "frente": "🕷️ Estigmas de <b>hepatopatia crônica</b>?",
+   "verso": "Aranhas vasculares, eritema palmar, ginecomastia, cabeça de medusa, asterixe, Dupuytren (álcool).",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Semiologia",
+   "frente": "🧠 Sinais <b>meníngeos</b>?",
+   "verso": "Rigidez de nuca, <b>Kernig</b> (dor à extensão do joelho com quadril fletido), <b>Brudzinski</b> (flexão do pescoço → flexão dos joelhos).",
+   "pegadinha": "Sensibilidade baixa: não excluem meningite.",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Semiologia",
+   "frente": "🦵 Tipos de <b>edema</b>?",
+   "verso": "Com cacifo (volume: IC, nefrótica, cirrose) × linfedema (sinal de Stemmer +) × mixedema (sem cacifo).",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Exames laboratoriais",
+   "frente": "🧪 Padrões do <b>hepatograma</b>?",
+   "verso": "Hepatocelular (AST/ALT ↑↑) × colestático (FA/GGT ↑↑); <b>AST/ALT &gt; 2</b> → álcool.",
+   "fonte": "ACG 2017",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Exames laboratoriais",
+   "frente": "🟡 Bilirrubina <b>indireta</b> isolada?",
+   "verso": "<b>Gilbert</b> (piora com jejum/estresse, benigna) ou hemólise.",
+   "fonte": "Hepatologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Exames laboratoriais",
+   "frente": "📈 <b>VHS × PCR</b>?",
+   "verso": "PCR sobe e cai rápido; VHS ↑ com anemia, idade, gestação, hipergamaglobulinemia<br>VHS &gt; 100: mieloma, arterite de células gigantes, infecção, neoplasia",
+   "fonte": "Laboratório",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Exames laboratoriais",
+   "frente": "🧬 <b>Eletroforese de proteínas</b>?",
+   "verso": "Pico <b>monoclonal</b> estreito = gamopatia (mieloma, MGUS) × aumento policlonal = inflamação, hepatopatia, HIV.",
+   "fonte": "Laboratório",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Exames laboratoriais",
+   "frente": "🦋 Interpretação <b>TSH × T4L</b>?",
+   "verso": "<table class=t><tr><th>TSH</th><th>T4L</th><th>Interpretação</th></tr><tr><td>↑</td><td>↓</td><td>Hipotireoidismo primário</td></tr><tr><td>↓/normal</td><td>↓</td><td>Hipotireoidismo central</td></tr><tr><td>↓</td><td>↑</td><td>Hipertireoidismo primário</td></tr><tr><td>↑/normal</td><td>↑</td><td>TSHoma / resistência</td></tr></table>",
+   "fonte": "Endocrinologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Exames laboratoriais",
+   "frente": "🧫 <b>Leucocitúria estéril</b>?",
+   "verso": "TB renal, nefrite intersticial, clamídia/uretrite, cálculo, ATB prévio.",
+   "fonte": "Nefrologia",
+   "tags": [
+    "R3CM",
+    "T15",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {}
+}

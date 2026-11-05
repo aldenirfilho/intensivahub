@@ -153,6 +153,7 @@
    "frente": "📉 <b>Curva ROC</b>?",
    "verso": "Sensibilidade × (1 − especificidade); AUC 0,5 = acaso, 1,0 = perfeito, &gt; 0,8 bom.",
    "fonte": "Bioestatística",
+   "imagem": "img_roc.png",
    "tags": [
     "TEMI2028",
     "T15",
@@ -187,6 +188,7 @@
    "verso": "Qualidade: alta, moderada, baixa, muito baixa | Força: forte ('recomenda') × fraca ('sugere').",
    "pegadinha": "Diretrizes como a SSC usam essa linguagem.",
    "fonte": "GRADE",
+   "imagem": "img_piramide.png",
    "tags": [
     "TEMI2028",
     "T15",
@@ -452,6 +454,8 @@
   }
  ],
  "midia": {
-  "img_mmode.png": "data/media/img_mmode.png"
+  "img_mmode.png": "data/media/img_mmode.png",
+  "img_piramide.png": "data/media/img_piramide.png",
+  "img_roc.png": "data/media/img_roc.png"
  }
 }

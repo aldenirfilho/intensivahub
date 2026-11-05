@@ -8,7 +8,7 @@ Repositório público de educação médica, protocolos, resumos e atualização
 
 ## 🎴 Novo: Flashcards TEMI
 
-**[CÓDICE 360X · Flashcards](https://aldenirfilho.github.io/intensivahub/flashcards/)** — app de repetição espaçada com **600 cards** para a prova TEMI (15 temas · 77 subtemas), que importa `.apkg` e JSON gerado por qualquer IA. Detalhes em [`flashcards/README.md`](flashcards/README.md).
+**[CÓDICE 360X · Flashcards](https://aldenirfilho.github.io/intensivahub/flashcards/)** — app de repetição espaçada com **900 cards** — 600 TEMI + 300 R3 Clínica Médica (132 subtemas, 30 ilustrações), que importa `.apkg` e JSON gerado por qualquer IA. Detalhes em [`flashcards/README.md`](flashcards/README.md).
 
 ## Objetivo
 

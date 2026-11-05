@@ -1,10 +1,24 @@
 {
- "formato": "codice360x-index-v1",
- "versao": "2026.11.05-600",
- "titulo": "TEMI 2028 · Baralho oficial",
+ "formato": "codice360x-index-v2",
+ "versao": "2026.11.05-900",
+ "colecoes": [
+  {
+   "id": "temi",
+   "nome": "TEMI 2028",
+   "icone": "🏥",
+   "cards": 600
+  },
+  {
+   "id": "cm",
+   "nome": "R3 Clínica Médica",
+   "icone": "🩺",
+   "cards": 300
+  }
+ ],
  "decks": [
   {
-   "arquivo": "data/decks/01-sepse.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-01-sepse.json",
    "tema": "01 🦠 Sepse e Choque Séptico",
    "cards": 40,
    "subtemas": [
@@ -15,7 +29,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/02-vm-sdra.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-02-vm-sdra.json",
    "tema": "02 🫁 Ventilação Mecânica e SDRA",
    "cards": 40,
    "subtemas": [
@@ -28,7 +43,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/03-hemodinamica.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-03-hemodinamica.json",
    "tema": "03 ❤️ Hemodinâmica e Choque",
    "cards": 40,
    "subtemas": [
@@ -40,7 +56,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/04-acido-base.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-04-acido-base.json",
    "tema": "04 ⚗️ Distúrbios Ácido-Base",
    "cards": 40,
    "subtemas": [
@@ -53,7 +70,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/05-eletrolitos.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-05-eletrolitos.json",
    "tema": "05 🧂 Eletrólitos",
    "cards": 40,
    "subtemas": [
@@ -65,7 +83,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/06-renal.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-06-renal.json",
    "tema": "06 🫘 Rim, LRA e TRS",
    "cards": 40,
    "subtemas": [
@@ -76,7 +95,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/07-neuro.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-07-neuro.json",
    "tema": "07 🧠 Neurointensivismo",
    "cards": 40,
    "subtemas": [
@@ -90,7 +110,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/08-sedacao.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-08-sedacao.json",
    "tema": "08 😴 Sedação, Analgesia e Delirium",
    "cards": 40,
    "subtemas": [
@@ -102,7 +123,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/09-cardio-pcr.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-09-cardio-pcr.json",
    "tema": "09 ⚡ Cardiointensivismo e PCR",
    "cards": 40,
    "subtemas": [
@@ -114,7 +136,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/10-infeccao.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-10-infeccao.json",
    "tema": "10 🧫 Infecção e Antimicrobianos",
    "cards": 40,
    "subtemas": [
@@ -127,7 +150,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/11-hemato.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-11-hemato.json",
    "tema": "11 🩸 Hematologia, Coagulação e Transfusão",
    "cards": 40,
    "subtemas": [
@@ -139,7 +163,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/12-endocrino.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-12-endocrino.json",
    "tema": "12 🍬 Endocrinologia no Crítico",
    "cards": 40,
    "subtemas": [
@@ -151,7 +176,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/13-gastro-nutricao.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-13-gastro-nutricao.json",
    "tema": "13 🫃 Gastro, Fígado e Nutrição",
    "cards": 40,
    "subtemas": [
@@ -163,7 +189,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/14-trauma-tox.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-14-trauma-tox.json",
    "tema": "14 🚑 Trauma, Toxicologia e Ambiental",
    "cards": 40,
    "subtemas": [
@@ -174,7 +201,8 @@
    ]
   },
   {
-   "arquivo": "data/decks/15-etica-escores-pocus.json",
+   "colecao": "temi",
+   "arquivo": "data/decks/temi-15-etica-escores-pocus.json",
    "tema": "15 ⚖️ Ética, Escores, Qualidade e POCUS",
    "cards": 40,
    "subtemas": [
@@ -183,6 +211,181 @@
     "POCUS e procedimentos",
     "Ética, legislação e terminalidade",
     "Pós-UTI e reabilitação"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-01-cardio.json",
+   "tema": "01 🫀 Cardiologia",
+   "cards": 20,
+   "subtemas": [
+    "Hipertensão arterial",
+    "Insuficiência cardíaca crônica",
+    "Fibrilação atrial e anticoagulação",
+    "Valvopatias",
+    "Coronariopatia crônica e lipídios"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-02-pneumo.json",
+   "tema": "02 🫁 Pneumologia",
+   "cards": 20,
+   "subtemas": [
+    "Asma",
+    "DPOC",
+    "Derrame pleural e nódulo",
+    "Intersticiais, sono e circulação pulmonar"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-03-nefro.json",
+   "tema": "03 🫘 Nefrologia",
+   "cards": 20,
+   "subtemas": [
+    "Doença renal crônica",
+    "Glomerulopatias",
+    "Litíase e infecção urinária",
+    "Outras nefropatias"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-04-endo.json",
+   "tema": "04 🍬 Endocrinologia",
+   "cards": 20,
+   "subtemas": [
+    "Diabetes tipo 2",
+    "Tireoide",
+    "Adrenal e hipófise",
+    "Osteometabólico"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-05-gastro.json",
+   "tema": "05 🫃 Gastroenterologia e Hepatologia",
+   "cards": 20,
+   "subtemas": [
+    "Esôfago e estômago",
+    "Intestino",
+    "Hepatites",
+    "Cirrose e hepatopatias crônicas"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-06-hemato.json",
+   "tema": "06 🩸 Hematologia",
+   "cards": 20,
+   "subtemas": [
+    "Anemias",
+    "Neoplasias hematológicas",
+    "Hemostasia e trombose"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-07-infecto.json",
+   "tema": "07 🦠 Infectologia",
+   "cards": 20,
+   "subtemas": [
+    "HIV/aids",
+    "Tuberculose",
+    "IST e sífilis",
+    "Doenças endêmicas",
+    "Vacinas e profilaxias"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-08-reumato.json",
+   "tema": "08 🦴 Reumatologia",
+   "cards": 20,
+   "subtemas": [
+    "Artrite reumatoide",
+    "LES e colagenoses",
+    "Gota e cristais",
+    "Espondiloartrites, vasculites e artrite séptica"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-09-neuro.json",
+   "tema": "09 🧠 Neurologia",
+   "cards": 20,
+   "subtemas": [
+    "Cefaleias",
+    "Epilepsia",
+    "Doenças neurodegenerativas e desmielinizantes",
+    "Vascular, nervos e síncope"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-10-onco.json",
+   "tema": "10 🎗️ Oncologia Clínica",
+   "cards": 20,
+   "subtemas": [
+    "Rastreamento e genética",
+    "Marcadores e síndromes paraneoplásicas",
+    "Urgências e suporte oncológico"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-11-geriatria.json",
+   "tema": "11 👴 Geriatria e Cuidados Paliativos",
+   "cards": 20,
+   "subtemas": [
+    "Avaliação geriátrica e síndromes",
+    "Polifarmácia",
+    "Cuidados paliativos"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-12-psiq.json",
+   "tema": "12 🧘 Psiquiatria na Clínica",
+   "cards": 20,
+   "subtemas": [
+    "Depressão e ansiedade",
+    "Psicofármacos",
+    "Álcool e outras drogas"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-13-preventiva.json",
+   "tema": "13 🩺 Medicina Preventiva",
+   "cards": 20,
+   "subtemas": [
+    "Rastreamentos",
+    "Obesidade",
+    "Estilo de vida e tabagismo"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-14-dermato.json",
+   "tema": "14 🧴 Dermatologia e Alergia",
+   "cards": 20,
+   "subtemas": [
+    "Farmacodermias",
+    "Urticária, anafilaxia e alergia a drogas",
+    "Dermatoses e infecções de pele"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/cm-15-farmaco.json",
+   "tema": "15 💊 Farmacologia, Semiologia e Laboratório",
+   "cards": 20,
+   "subtemas": [
+    "Interações medicamentosas",
+    "Semiologia",
+    "Exames laboratoriais"
    ]
   }
  ]

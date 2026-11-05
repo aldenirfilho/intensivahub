@@ -1,0 +1,237 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::06 🩸 Hematologia",
+ "cards": [
+  {
+   "subtema": "Anemias",
+   "frente": "🩸 <b>Anemia ferropriva</b>?",
+   "verso": "Microcítica, RDW ↑, <b>ferritina &lt; 30</b> (&lt; 100 se inflamação), saturação &lt; 20%<br>🔎 Homem ou mulher pós-menopausa → investigar <b>perda gastrointestinal</b> (EDA + colonoscopia)",
+   "fonte": "BSG 2021",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🔥 <b>Anemia de doença crônica</b>?",
+   "verso": "Normo/microcítica, ferritina normal/↑, saturação ↓ — hepcidina ↑ bloqueia o ferro.",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧬 <b>Traço talassêmico</b>?",
+   "verso": "Microcitose acentuada com Hb pouco baixa, RDW normal, eritrócitos ↑, índice de Mentzer (VCM/hemácias) <b>&lt; 13</b>; ferritina normal.",
+   "pegadinha": "Não dar ferro sem deficiência comprovada.",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧠 <b>B12 × folato</b>?",
+   "verso": "<table class=t><tr><th></th><th>B12</th><th>Folato</th></tr><tr><td>Neurológico</td><td><b>Sim</b> (degeneração combinada)</td><td>Não</td></tr><tr><td>Ácido metilmalônico</td><td>↑</td><td>Normal</td></tr><tr><td>Homocisteína</td><td>↑</td><td>↑</td></tr></table>",
+   "pegadinha": "Dar folato isolado na deficiência de B12 piora o quadro neurológico.",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🌡️ AHAI <b>quente × fria</b>?",
+   "verso": "<table class=t><tr><th></th><th>Quente</th><th>Fria</th></tr><tr><td>Anticorpo</td><td>IgG</td><td>IgM (complemento)</td></tr><tr><td>Causas</td><td>LES, LLC, drogas</td><td>Mycoplasma, EBV, linfoma</td></tr><tr><td>Tratamento</td><td>Corticoide, rituximabe</td><td>Evitar frio, rituximabe</td></tr></table>",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🔵 <b>Esferocitose hereditária</b>?",
+   "verso": "CHCM ↑, esferócitos, esplenomegalia, litíase biliar; teste EMA/fragilidade osmótica.",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🫘 Deficiência de <b>G6PD</b>?",
+   "verso": "Hemólise após oxidantes (primaquina, dapsona, sulfas, rasburicase, fava, infecção) → corpos de Heinz, 'bite cells'.",
+   "pegadinha": "Dosar G6PD fora da crise (falso normal na hemólise).",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧮 Abordagem da anemia pelo <b>VCM</b>?",
+   "verso": "<table class=t><tr><th>VCM</th><th>Principais causas</th></tr><tr><td>&lt; 80 (micro)</td><td>Ferro, talassemia, doença crônica, sideroblástica</td></tr><tr><td>80–100 (normo)</td><td>Doença crônica, DRC, hemólise, perda aguda, medula</td></tr><tr><td>&gt; 100 (macro)</td><td>B12/folato, álcool, hepatopatia, hipotireoidismo, SMD, drogas (MTX, hidroxiureia)</td></tr></table>",
+   "pegadinha": "Reticulócitos separam produção (↓) × perda/hemólise (↑).",
+   "fonte": "Hematologia",
+   "imagem": "img_anemia_vcm.png",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Neoplasias hematológicas",
+   "frente": "🧬 <b>LMC</b>?",
+   "verso": "BCR-ABL t(9;22) (Filadélfia); leucocitose com desvio, basofilia, esplenomegalia → <b>imatinibe</b>.",
+   "fonte": "ELN",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Neoplasias hematológicas",
+   "frente": "👴 <b>LLC</b>?",
+   "verso": "Linfocitose B monoclonal &gt; 5.000, <b>smudge cells</b> (manchas de Gumprecht), idosos → observar se assintomático (Binet/Rai).",
+   "fonte": "iwCLL 2018",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Neoplasias hematológicas",
+   "frente": "🦴 <b>Mieloma múltiplo</b>: CRAB?",
+   "verso": "Hiper<b>C</b>alcemia, <b>R</b>enal, <b>A</b>nemia, lesões ósseas líticas (<b>B</b>one) + pico M e plasmócitos ≥ 10%.",
+   "pegadinha": "Rouleaux, VHS muito alta, gap proteico.",
+   "fonte": "IMWG 2014",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Neoplasias hematológicas",
+   "frente": "🔬 <b>Linfoma de Hodgkin</b>?",
+   "verso": "Células de Reed-Sternberg, adenopatia cervical, sintomas B, prurido, dor com álcool; adulto jovem.",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Neoplasias hematológicas",
+   "frente": "🔴 <b>Policitemia vera</b>?",
+   "verso": "JAK2 V617F, prurido aquagênico, eritromelalgia → flebotomia (Ht &lt; 45%) + AAS (± hidroxiureia).",
+   "fonte": "ELN",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Neoplasias hematológicas",
+   "frente": "🟣 <b>Trombocitemia essencial</b>?",
+   "verso": "Plaquetas &gt; 450.000 persistentes, JAK2/CALR/MPL; excluir reacional (ferro, inflamação, esplenectomia).",
+   "fonte": "OMS 2022",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Neoplasias hematológicas",
+   "frente": "🧫 <b>Leucemia aguda</b>?",
+   "verso": "Blastos <b>≥ 20%</b> (OMS) na medula/sangue; bastonetes de Auer → LMA; LLA mais em crianças.",
+   "pegadinha": "LPA t(15;17) → ATRA urgente (CIVD).",
+   "fonte": "OMS 2022",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hemostasia e trombose",
+   "frente": "⏱️ <b>Coagulograma</b>: como interpretar?",
+   "verso": "<table class=t><tr><th>Alteração</th><th>Pensar em</th></tr><tr><td>TP ↑ isolado</td><td>Fator VII: varfarina, vitamina K, hepatopatia</td></tr><tr><td>TTPa ↑ isolado</td><td>VIII, IX, XI, XII, heparina, anticoagulante lúpico</td></tr><tr><td>TP e TTPa ↑</td><td>Via comum, CIVD, hepatopatia grave</td></tr></table>",
+   "pegadinha": "TTPa ↑ que não corrige com plasma normal = inibidor.",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hemostasia e trombose",
+   "frente": "🩸 <b>Doença de von Willebrand</b>?",
+   "verso": "Coagulopatia hereditária mais comum: sangramento <b>mucocutâneo</b>; tipo 1 → DDAVP.",
+   "fonte": "ASH 2021",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hemostasia e trombose",
+   "frente": "🦵 <b>Hemofilias</b>?",
+   "verso": "A (fator VIII) e B (fator IX); ligadas ao X; <b>hemartroses</b>, TTPa ↑.",
+   "fonte": "Hematologia",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hemostasia e trombose",
+   "frente": "🧬 <b>Trombofilia</b>: quando investigar?",
+   "verso": "TEV em jovem, recorrente, sítio incomum, história familiar forte → <b>fora</b> da fase aguda e sem anticoagulação interferente. Mais comum: fator V Leiden.",
+   "fonte": "ASH 2023",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hemostasia e trombose",
+   "frente": "🟣 <b>PTI</b>?",
+   "verso": "Plaquetopenia isolada (diagnóstico de exclusão) → tratar se &lt; 30.000 ou sangramento: prednisona/dexametasona, IgIV.",
+   "fonte": "ASH 2019",
+   "tags": [
+    "R3CM",
+    "T06",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {
+  "img_anemia_vcm.png": "data/media/img_anemia_vcm.png"
+ }
+}

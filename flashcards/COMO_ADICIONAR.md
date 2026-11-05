@@ -37,14 +37,14 @@ Há **3 caminhos**. Escolha pelo objetivo:
 2. GitHub → `intensivahub/flashcards/data/decks/` → **Add file → Upload files** → envie → **Commit**
 3. Abra `flashcards/data/index.json` → ✏️ editar → adicione no fim da lista `decks`:
    ```json
-   ,{"arquivo": "data/decks/16-extras.json", "tema": "16 ➕ Extras", "cards": 20, "subtemas": []}
+   ,{"colecao": "temi", "arquivo": "data/decks/16-extras.json", "tema": "16 ➕ Extras", "cards": 20, "subtemas": []}
    ```
    e altere `"versao"` (ex.: `"2026.11.20-620"`) → **Commit**
 4. Em ~1 min o app mostra **"nova versão disponível"** → **Atualizar baralho oficial**
 
 **Pelo Claude:** mande o JSON (ou o material) e peça: *"adicione estes cards ao baralho oficial do CÓDICE 360X no intensivahub"*.
 
-**Pelo código** (pasta `tools/`): edite os arquivos `new_*.py`/`cards_*.py`, rode `python3 export.py ../` e faça commit — isso regera os JSON, o índice e o `.apkg` de uma vez.
+**Pelo código** (pasta `tools/`): edite os arquivos `new_*.py`/`cards_*.py`, rode `python3 export2.py ..` e faça commit — isso regera os JSON, o índice e o `.apkg` de uma vez.
 
 ---
 

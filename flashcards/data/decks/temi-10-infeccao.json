@@ -188,6 +188,7 @@
    "verso": "<table class=t><tr><th>Classe</th><th>Parâmetro</th><th>Estratégia</th></tr><tr><td>Betalactâmicos</td><td><b>fT &gt; MIC</b></td><td>Infusão estendida</td></tr><tr><td>Aminoglicosídeos</td><td><b>Cmáx/MIC</b></td><td>Dose única diária</td></tr><tr><td>Vancomicina, quinolonas</td><td><b>AUC/MIC</b></td><td>Dose total adequada</td></tr></table>",
    "pegadinha": "Sepse ↑ Vd (hidrofílicos) → doses de ataque maiores.",
    "fonte": "Roberts 2014",
+   "imagem": "img_pk_pd.png",
    "tags": [
     "TEMI2028",
     "T10",
@@ -455,5 +456,7 @@
    ]
   }
  ],
- "midia": {}
+ "midia": {
+  "img_pk_pd.png": "data/media/img_pk_pd.png"
+ }
 }

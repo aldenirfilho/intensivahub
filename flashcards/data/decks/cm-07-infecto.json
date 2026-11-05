@@ -1,0 +1,232 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::07 🦠 Infectologia",
+ "cards": [
+  {
+   "subtema": "HIV/aids",
+   "frente": "💊 TARV inicial no Brasil?",
+   "verso": "<b>Tenofovir + lamivudina + dolutegravir</b> (TDF/3TC + DTG).",
+   "fonte": "MS Brasil PCDT HIV",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "HIV/aids",
+   "frente": "📉 Infecções oportunistas por <b>CD4</b>?",
+   "verso": "<table class=t><tr><th>CD4</th><th>Infecções</th></tr><tr><td>&lt; 200</td><td>Pneumocistose, candidíase esofágica</td></tr><tr><td>&lt; 100</td><td>Toxoplasmose, criptococose</td></tr><tr><td>&lt; 50</td><td>MAC, CMV</td></tr></table>",
+   "pegadinha": "Tuberculose ocorre com qualquer CD4.",
+   "fonte": "CDC/MS",
+   "imagem": "img_cd4.png",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "HIV/aids",
+   "frente": "🛡️ Profilaxias no HIV?",
+   "verso": "<b>SMX-TMP</b> se CD4 &lt; 200 (pneumocistose) e &lt; 100 com IgG toxo + (toxoplasmose).",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "HIV/aids",
+   "frente": "⏱️ <b>PEP × PrEP</b>?",
+   "verso": "PEP: até <b>72 h</b>, TDF/3TC + DTG × 28 dias<br>PrEP: TDF/FTC diária (ou sob demanda em grupos selecionados)",
+   "fonte": "MS Brasil 2024",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "HIV/aids",
+   "frente": "🔁 <b>SIRI</b> e timing da TARV?",
+   "verso": "Tuberculose: iniciar TARV em ~2 semanas (CD4 &lt; 50) | Meningite criptocócica: adiar 4–6 semanas.",
+   "fonte": "MS/OMS",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "💊 Esquema básico da <b>tuberculose</b>?",
+   "verso": "<b>2 RHZE + 4 RH</b> (rifampicina, isoniazida, pirazinamida, etambutol).",
+   "fonte": "MS Brasil 2019",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🔬 Diagnóstico da TB pulmonar?",
+   "verso": "<b>TRM-TB</b> (GeneXpert: detecta TB e resistência à rifampicina) + baciloscopia e cultura.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🟡 Hepatotoxicidade do RHZE?",
+   "verso": "Suspender se transaminases &gt; 3× com sintomas, &gt; 5× sem sintomas ou icterícia → reintrodução sequencial.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🧪 <b>ILTB</b>: tratamento?",
+   "verso": "PT ≥ 5 mm ou IGRA + → isoniazida 6–9 meses, <b>3HP</b> (rifapentina + isoniazida, 12 doses semanais) ou rifampicina 4 meses.",
+   "fonte": "MS Brasil 2022",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "⚠️ Efeitos adversos dos tuberculostáticos?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Efeito</th></tr><tr><td>Isoniazida</td><td>Neuropatia (dar piridoxina), hepatite</td></tr><tr><td>Rifampicina</td><td>Urina laranja, interações (indutor)</td></tr><tr><td>Pirazinamida</td><td>Hiperuricemia, artralgia</td></tr><tr><td>Etambutol</td><td>Neurite óptica</td></tr></table>",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "💉 Tratamento da <b>sífilis</b>?",
+   "verso": "<table class=t><tr><th>Fase</th><th>Esquema</th></tr><tr><td>Recente (1ª, 2ª, latente &lt; 1 ano)</td><td>Penicilina benzatina 2,4 milhões UI dose única</td></tr><tr><td>Tardia/indeterminada</td><td>2,4 milhões UI/semana × 3 (7,2 milhões)</td></tr><tr><td>Neurossífilis</td><td>Penicilina cristalina 18–24 milhões UI/dia × 14 dias</td></tr></table>",
+   "fonte": "MS Brasil PCDT IST 2022",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🧪 Testes da <b>sífilis</b>?",
+   "verso": "Treponêmico (teste rápido, FTA-ABS) = contato | Não treponêmico (VDRL) = <b>titulável</b> → seguimento de cura.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "💧 <b>Uretrite</b>: tratamento empírico?",
+   "verso": "<b>Ceftriaxona 500 mg IM + azitromicina 1 g VO</b> (gonococo + clamídia); tratar parcerias.",
+   "fonte": "MS Brasil PCDT IST 2022",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🌡️ <b>Reação de Jarisch-Herxheimer</b>?",
+   "verso": "Febre, mialgia e piora do rash nas primeiras 24 h após penicilina na sífilis → sintomáticos; não é alergia.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças endêmicas",
+   "frente": "🦟 <b>Chikungunya × Zika</b>?",
+   "verso": "Chikungunya: <b>artralgia</b> intensa que pode cronificar<br>Zika: rash pruriginoso, conjuntivite; microcefalia, Guillain-Barré",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças endêmicas",
+   "frente": "🏜️ <b>Leishmaniose visceral</b>?",
+   "verso": "Febre prolongada, hepatoesplenomegalia, pancitopenia → <b>anfotericina B lipossomal</b>.",
+   "pegadinha": "Nordeste: área endêmica.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Doenças endêmicas",
+   "frente": "🐌 <b>Esquistossomose</b>?",
+   "verso": "Hipertensão portal pré-sinusoidal (fibrose de Symmers), função hepática preservada → <b>praziquantel</b>.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Vacinas e profilaxias",
+   "frente": "💉 Vacinas do adulto?",
+   "verso": "<ul><li>dT a cada 10 anos (dTpa na gestação)</li><li>Influenza anual</li><li>Hepatite B 3 doses</li><li>Pneumocócica ≥ 60 anos</li><li>Herpes-zóster recombinante ≥ 50 anos</li><li>HPV (faixas e imunossuprimidos)</li></ul>",
+   "fonte": "SBIm 2024",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Vacinas e profilaxias",
+   "frente": "⛔ Vacinas <b>vivas</b>: quem não pode?",
+   "verso": "Imunossuprimidos e gestantes → febre amarela, tríplice viral, varicela, dengue (Qdenga).",
+   "fonte": "SBIm",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Vacinas e profilaxias",
+   "frente": "🐕 Profilaxia da <b>raiva</b>?",
+   "verso": "Acidente grave (cabeça, mãos, profundo, múltiplo) com animal suspeito → <b>soro + vacina</b>; leve → vacina/observação do cão/gato por 10 dias.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T07",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {
+  "img_cd4.png": "data/media/img_cd4.png"
+ }
+}

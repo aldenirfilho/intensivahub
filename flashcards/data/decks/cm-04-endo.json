@@ -1,0 +1,234 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::04 🍬 Endocrinologia",
+ "cards": [
+  {
+   "subtema": "Diabetes tipo 2",
+   "frente": "🍬 Critérios de <b>diabetes</b> e pré-diabetes?",
+   "verso": "<table class=t><tr><th>Exame</th><th>Pré-DM</th><th>DM</th></tr><tr><td>Glicemia de jejum</td><td>100–125</td><td>≥ 126</td></tr><tr><td>HbA1c</td><td>5,7–6,4%</td><td>≥ 6,5%</td></tr><tr><td>TOTG 2 h</td><td>140–199</td><td>≥ 200</td></tr><tr><td>Aleatória + sintomas</td><td>—</td><td>≥ 200</td></tr></table>",
+   "pegadinha": "Sem sintomas: confirmar com segundo exame.",
+   "fonte": "ADA 2024; SBD 2024",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Diabetes tipo 2",
+   "frente": "🎯 Meta de <b>HbA1c</b>?",
+   "verso": "Geral <b>&lt; 7%</b> · idoso frágil/expectativa curta: &lt; 8–8,5% (evitar hipoglicemia).",
+   "fonte": "ADA/SBD 2024",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Diabetes tipo 2",
+   "frente": "❤️ DM2 com DCV, IC ou DRC?",
+   "verso": "Metformina + <b>iSGLT2 e/ou aGLP-1</b> com benefício comprovado, <u>independentemente da HbA1c</u>.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Diabetes tipo 2",
+   "frente": "💊 <b>iSGLT2</b>: efeitos adversos?",
+   "verso": "Infecção genital, depleção de volume, <b>cetoacidose euglicêmica</b>; benefício em IC e DRC.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Diabetes tipo 2",
+   "frente": "💉 <b>aGLP-1</b> e tirzepatida?",
+   "verso": "Semaglutida, liraglutida, dulaglutida; tirzepatida (GIP/GLP-1) → ↓ peso, benefício CV<br>⚠️ GI, pancreatite; ❌ carcinoma medular de tireoide/MEN2",
+   "fonte": "ADA 2024",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Diabetes tipo 2",
+   "frente": "💉 Perfis de <b>insulina</b>?",
+   "verso": "<table class=t><tr><th>Insulina</th><th>Início</th><th>Pico</th><th>Duração</th></tr><tr><td>Ultrarrápida (lispro, asparte)</td><td>10–15 min</td><td>~1 h</td><td>3–5 h</td></tr><tr><td>Regular</td><td>30–60 min</td><td>2–3 h</td><td>6–8 h</td></tr><tr><td>NPH</td><td>1–2 h</td><td>4–10 h</td><td>12–18 h</td></tr><tr><td>Glargina/degludeca</td><td>1–2 h</td><td>Sem pico</td><td>24–42 h</td></tr></table>",
+   "pegadinha": "Início de basal: 10 U ou 0,1–0,2 U/kg à noite, titular pela glicemia de jejum.",
+   "fonte": "SBD 2024",
+   "imagem": "img_insulinas.png",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Diabetes tipo 2",
+   "frente": "👣 Rastreamento de complicações do DM?",
+   "verso": "Anual: fundo de olho, albuminúria + TFG, exame do pé (monofilamento), perfil lipídico.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🦋 <b>Hipotireoidismo primário</b>?",
+   "verso": "TSH ↑ + T4L ↓; Hashimoto (anti-TPO)<br>💊 Levotiroxina ~<b>1,6 mcg/kg/dia</b> em jejum; idoso/coronariopata: iniciar 12,5–25 mcg",
+   "pegadinha": "Reavaliar TSH em 6–8 semanas.",
+   "fonte": "ATA 2014; SBEM",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🦋 <b>Hipotireoidismo subclínico</b>: tratar?",
+   "verso": "TSH <b>&gt; 10</b>, gestação/desejo de gestar, sintomas ou anti-TPO+ (individualizar).",
+   "pegadinha": "Idosos: TSH até ~6–7 pode ser normal.",
+   "fonte": "ETA 2013",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 <b>Doença de Graves</b>?",
+   "verso": "TRAb +, bócio difuso, oftalmopatia<br>💊 Metimazol (PTU no 1º trimestre de gestação), iodo radioativo ou cirurgia",
+   "fonte": "ATA 2016",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "⚪ <b>Nódulo tireoidiano</b>?",
+   "verso": "TSH primeiro → se normal/alto: USG → PAAF conforme TI-RADS e tamanho → Bethesda.<br>TSH baixo → cintilografia (nódulo quente raramente maligno)",
+   "fonte": "ATA 2015; ACR TI-RADS",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "😖 <b>Tireoidite subaguda</b> (De Quervain)?",
+   "verso": "Dor cervical pós-viral, VHS alta, tireotoxicose com <b>captação baixa</b> → AINE/prednisona + BB.",
+   "fonte": "ATA 2016",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Adrenal e hipófise",
+   "frente": "🌙 Rastreamento de <b>Cushing</b>?",
+   "verso": "Cortisol salivar noturno, cortisol urinário 24 h ou supressão com <b>1 mg de dexametasona</b> (cortisol &gt; 1,8 mcg/dL = não suprimiu).",
+   "fonte": "Endocrine Society 2008",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Adrenal e hipófise",
+   "frente": "🧂 <b>Hiperaldosteronismo primário</b>?",
+   "verso": "HAS (resistente) ± hipocalemia → <b>relação aldosterona/renina</b> → confirmação → TC/cateterismo de adrenais<br>💊 Espironolactona ou adrenalectomia (unilateral)",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Adrenal e hipófise",
+   "frente": "🫘 <b>Incidentaloma adrenal</b>?",
+   "verso": "Rastrear feocromocitoma (metanefrinas), Cushing (1 mg dexa) e aldosteronismo (se HAS)<br>⚠️ &gt; 4 cm ou &gt; 10 UH sem contraste → suspeita",
+   "fonte": "ESE 2023",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Adrenal e hipófise",
+   "frente": "🍼 <b>Prolactinoma</b>?",
+   "verso": "<b>Cabergolina</b> 1ª linha (inclusive macroadenoma)<br>Excluir drogas: antipsicóticos, metoclopramida, domperidona; hipotireoidismo, gestação",
+   "fonte": "Endocrine Society 2011",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico",
+   "frente": "🦴 Diagnóstico de <b>osteoporose</b>?",
+   "verso": "T-score <b>≤ −2,5</b> (DXA) ou fratura por fragilidade (vertebral/quadril) independentemente do T-score; FRAX estima risco.",
+   "fonte": "OMS; ABRASSO",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico",
+   "frente": "💊 <b>Alendronato</b>: como tomar?",
+   "verso": "70 mg/semana em jejum, com água, ficar <b>30 min em pé</b><br>❌ ClCr &lt; 35, esofagopatia<br>⚠️ Osteonecrose de mandíbula, fratura atípica de fêmur → 'feriado' após ~5 anos",
+   "fonte": "Endocrine Society 2019",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico",
+   "frente": "⚠️ Suspender <b>denosumabe</b>?",
+   "verso": "<b>Não</b> sem transição para bifosfonato → efeito rebote com fraturas vertebrais múltiplas.",
+   "fonte": "Endocrine Society 2020",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico",
+   "frente": "🦴 <b>Hiperparatireoidismo primário</b>: cirurgia quando?",
+   "verso": "Ca &gt; 1 mg/dL acima do limite superior, osteoporose/fratura, litíase ou ClCr &lt; 60, idade &lt; 50 anos, sintomas.",
+   "fonte": "5º Workshop Internacional 2022",
+   "tags": [
+    "R3CM",
+    "T04",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {
+  "img_insulinas.png": "data/media/img_insulinas.png"
+ }
+}

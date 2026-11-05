@@ -1,0 +1,230 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::08 🦴 Reumatologia",
+ "cards": [
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "✋ <b>Artrite reumatoide</b>?",
+   "verso": "Poliartrite simétrica de pequenas articulações, rigidez matinal &gt; 1 h; <b>anti-CCP</b> (específico) e FR.",
+   "fonte": "ACR/EULAR",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "📋 Critérios ACR/EULAR 2010?",
+   "verso": "Articulações + sorologia (FR/anti-CCP) + provas inflamatórias + duração ≥ 6 semanas → <b>≥ 6 pontos</b> = AR.",
+   "fonte": "ACR/EULAR 2010",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "💊 Tratamento da AR?",
+   "verso": "<b>Metotrexato</b> 1ª linha (+ ácido fólico); corticoide como ponte; biológico/alvo-específico se falha.",
+   "fonte": "SBR 2024; EULAR 2022",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "⚠️ Toxicidade do <b>metotrexato</b>?",
+   "verso": "Hepática, pneumonite, mielossupressão; teratogênico; <b>interação com SMX-TMP</b> (pancitopenia).",
+   "pegadinha": "Dose semanal — erro de prescrição diária mata.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🫁 Manifestações extra-articulares da AR?",
+   "verso": "Nódulos, doença intersticial pulmonar, vasculite, Felty (esplenomegalia + neutropenia), Sjögren.",
+   "fonte": "Reumatologia",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "LES e colagenoses",
+   "frente": "🦋 Autoanticorpos do <b>LES</b>?",
+   "verso": "FAN (sensível) | <b>anti-DNA dupla hélice</b> e <b>anti-Sm</b> (específicos) | complemento ↓ na atividade.",
+   "fonte": "EULAR/ACR 2019",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "LES e colagenoses",
+   "frente": "💊 <b>Hidroxicloroquina</b> no LES?",
+   "verso": "Para <b>todos</b> (↓ surtos e mortalidade) → avaliação oftalmológica periódica.",
+   "fonte": "EULAR 2023",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "LES e colagenoses",
+   "frente": "💊 <b>Lúpus induzido</b> por drogas?",
+   "verso": "Hidralazina, procainamida, isoniazida, minociclina, anti-TNF → <b>anti-histona</b>; raramente rim/SNC.",
+   "fonte": "Reumatologia",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "LES e colagenoses",
+   "frente": "🩸 <b>Síndrome antifosfolípide</b>?",
+   "verso": "Trombose ou morbidade gestacional + anticoagulante lúpico/anticardiolipina/anti-β2GP1 em 2 dosagens com ≥ 12 semanas → <b>varfarina</b> (❌ DOAC no triplo positivo).",
+   "fonte": "EULAR 2019",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "LES e colagenoses",
+   "frente": "🧱 <b>Esclerose sistêmica</b>?",
+   "verso": "Anti-Scl-70 (difusa, pulmão) × anticentrômero (limitada/CREST, HP); crise renal → <b>IECA</b>.",
+   "fonte": "ACR/EULAR",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "LES e colagenoses",
+   "frente": "👁️ <b>Sjögren</b>?",
+   "verso": "Xeroftalmia + xerostomia, anti-Ro/La; ↑ risco de linfoma; anti-Ro materno → BAVT congênito.",
+   "fonte": "ACR/EULAR 2016",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Gota e cristais",
+   "frente": "🦶 Crise de <b>gota</b>?",
+   "verso": "Colchicina em dose baixa, AINE ou corticoide; <b>não suspender</b> alopurinol já em uso.",
+   "pegadinha": "ACR 2020 permite iniciar o hipouricemiante durante a crise, com profilaxia.",
+   "fonte": "ACR 2020",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Gota e cristais",
+   "frente": "🎯 Hipouricemiante: indicação e meta?",
+   "verso": "≥ 2 crises/ano, tofos ou dano radiográfico → ácido úrico <b>&lt; 6</b> (&lt; 5 com tofos).",
+   "fonte": "ACR 2020",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Gota e cristais",
+   "frente": "🔬 Cristais: <b>gota × pseudogota</b>?",
+   "verso": "Gota: urato em <b>agulha</b>, birrefringência <b>negativa</b><br>CPPD: <b>romboides</b>, birrefringência positiva fraca; condrocalcinose",
+   "fonte": "Reumatologia",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Gota e cristais",
+   "frente": "💊 <b>Alopurinol</b>?",
+   "verso": "Iniciar ≤ 100 mg e titular; HLA-B*58:01 → SSJ/DRESS; <b class=r>interação com azatioprina</b> (mielotoxicidade).",
+   "fonte": "ACR 2020",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites, vasculites e artrite séptica",
+   "frente": "🧍 <b>Espondilite anquilosante</b>?",
+   "verso": "Lombalgia inflamatória (&lt; 45 anos, melhora com exercício, piora no repouso/noite), HLA-B27, sacroileíte → AINE, anti-TNF/anti-IL-17.",
+   "fonte": "ASAS",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites, vasculites e artrite séptica",
+   "frente": "👁️ <b>Arterite de células gigantes</b>?",
+   "verso": "&gt; 50 anos, cefaleia, claudicação de mandíbula, perda visual, VHS ↑ → <b>prednisona imediata</b> (antes da biópsia).",
+   "pegadinha": "Perda visual é emergência.",
+   "fonte": "ACR 2021",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites, vasculites e artrite séptica",
+   "frente": "💪 <b>Polimialgia reumática</b>?",
+   "verso": "Dor e rigidez de cinturas &gt; 50 anos, VHS ↑ → resposta dramática a prednisona 12,5–25 mg.",
+   "fonte": "EULAR/ACR 2015",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites, vasculites e artrite séptica",
+   "frente": "🩸 Vasculites <b>ANCA</b>?",
+   "verso": "<table class=t><tr><th>Vasculite</th><th>ANCA</th><th>Pistas</th></tr><tr><td>GPA (Wegener)</td><td>c-ANCA/PR3</td><td>Vias aéreas superiores, pulmão, rim</td></tr><tr><td>MPA</td><td>p-ANCA/MPO</td><td>Rim, pulmão</td></tr><tr><td>EGPA (Churg-Strauss)</td><td>p-ANCA</td><td>Asma, eosinofilia</td></tr></table>",
+   "fonte": "ACR/EULAR 2022",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites, vasculites e artrite séptica",
+   "frente": "🦵 <b>Artrite séptica</b>?",
+   "verso": "Monoartrite aguda febril → <b>artrocentese</b> (&gt; 50.000 leucócitos) → drenagem + ATB; jovem sexualmente ativo: gonococo.",
+   "fonte": "Reumatologia",
+   "tags": [
+    "R3CM",
+    "T08",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {}
+}

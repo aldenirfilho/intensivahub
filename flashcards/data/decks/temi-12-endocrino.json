@@ -20,6 +20,7 @@
    "verso": "1️⃣ Volume: 1–1,5 L na 1ª hora<br>2️⃣ <b class=r>K &lt; 3,5 → NÃO iniciar insulina</b> (repor primeiro)<br>3️⃣ Insulina regular <b>0,1 U/kg/h</b><br>4️⃣ Glicemia &lt; 250 → associar <b>SG 5–10%</b> e manter insulina",
    "pegadinha": "A cetose resolve depois da glicemia – não desligar insulina quando a glicose cai.",
    "fonte": "ADA 2024",
+   "imagem": "img_cad.png",
    "tags": [
     "TEMI2028",
     "T12",
@@ -452,5 +453,7 @@
    ]
   }
  ],
- "midia": {}
+ "midia": {
+  "img_cad.png": "data/media/img_cad.png"
+ }
 }

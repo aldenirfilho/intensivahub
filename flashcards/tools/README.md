@@ -18,3 +18,17 @@ python3 export.py ..          # regenera tudo a partir dos .py
 
 Para acrescentar cards a um tema: inclua `N("letra_do_subtema", "pergunta", "resposta", "pegadinha", "fonte")` na lista do tema em `new_*.py`
 (ou crie um subtema novo no dicionário do tema em `dataset.py`), rode `export.py` e altere `"versao"` se quiser forçar o aviso de atualização no app.
+
+## v2 (900 cards)
+
+| Arquivo | Conteúdo |
+|---|---|
+| `cm_a/b/c.py` | 300 cards de R3 Clínica Médica |
+| `dataset_cm.py` | temas/subtemas da CM + mapa de ilustrações extras do TEMI |
+| `images2.py` | 17 gráficos/algoritmos novos |
+| `export2.py` | gera as duas coleções (`data/`), os dois `.apkg` e o índice — **use este** |
+
+```bash
+python3 images.py && python3 images2.py   # (opcional) redesenha as 30 ilustrações em ./media
+python3 export2.py ..
+```

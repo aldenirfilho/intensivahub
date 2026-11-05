@@ -1,0 +1,229 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::13 🩺 Medicina Preventiva",
+ "cards": [
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🍬 Rastreamento de <b>diabetes</b>?",
+   "verso": "Adultos ≥ 35 anos (ADA) ou 35–70 com sobrepeso (USPSTF) → glicemia de jejum/HbA1c a cada 3 anos.",
+   "fonte": "ADA 2024; USPSTF 2021",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🧈 Perfil lipídico: precisa de jejum?",
+   "verso": "<b>Não</b> obrigatório (exceto TG muito altos).",
+   "fonte": "SBC 2017",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "📈 Estratificação de <b>risco cardiovascular</b>?",
+   "verso": "Escore de risco global (10 anos) → define meta de LDL e intensidade do tratamento; agravantes (DRC, história familiar, CAC).",
+   "fonte": "SBC",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "💊 <b>AAS</b> na prevenção primária?",
+   "verso": "<b>Não</b> de rotina (ASPREE, ARRIVE: ↑ sangramento sem benefício claro).",
+   "fonte": "USPSTF 2022",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🫃 Rastreamento de <b>aneurisma de aorta abdominal</b>?",
+   "verso": "Homens <b>65–75 anos</b> que já fumaram → USG uma vez.",
+   "fonte": "USPSTF 2019",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🦴 Rastreamento de <b>osteoporose</b>?",
+   "verso": "Mulheres ≥ 65 anos (ou pós-menopausa com risco) → DXA.",
+   "fonte": "USPSTF 2018",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🩺 Rastreamento de <b>HAS</b>?",
+   "verso": "Adultos ≥ 18 anos: anual (ou a cada 3–5 anos se 18–39 sem risco e PA normal).",
+   "fonte": "USPSTF 2021",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🧪 <b>HIV, hepatite B e C</b>?",
+   "verso": "Testar todos os adultos ao menos uma vez na vida (e repetir conforme risco).",
+   "fonte": "MS Brasil; USPSTF",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Obesidade",
+   "frente": "⚖️ Classes de <b>IMC</b>?",
+   "verso": "<table class=t><tr><th>IMC</th><th>Classe</th></tr><tr><td>25–29,9</td><td>Sobrepeso</td></tr><tr><td>30–34,9</td><td>Obesidade I</td></tr><tr><td>35–39,9</td><td>Obesidade II</td></tr><tr><td>≥ 40</td><td>Obesidade III</td></tr></table>",
+   "pegadinha": "Circunferência abdominal ↑ risco: ≥ 94 cm (H) / ≥ 80 cm (M).",
+   "fonte": "OMS; ABESO",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Obesidade",
+   "frente": "💊 Farmacoterapia da <b>obesidade</b>?",
+   "verso": "IMC ≥ 30 ou ≥ 27 com comorbidade → semaglutida 2,4 mg, tirzepatida, liraglutida, orlistate, sibutramina, naltrexona-bupropiona.",
+   "pegadinha": "SELECT: semaglutida ↓ eventos CV em obesos com DCV sem DM.",
+   "fonte": "ABESO 2022; SELECT NEJM 2023",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Obesidade",
+   "frente": "🔪 <b>Cirurgia bariátrica</b>?",
+   "verso": "IMC ≥ 40, ou ≥ 35 com comorbidade (cirurgia metabólica pode ser indicada em DM2 com IMC menor) → conferir resolução CFM vigente.",
+   "fonte": "CFM; SBCBM",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Obesidade",
+   "frente": "🧪 Deficiências após bariátrica?",
+   "verso": "Ferro, B12, cálcio/vitamina D, tiamina, folato → suplementar e monitorar; síndrome de dumping.",
+   "fonte": "ASMBS 2019",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Obesidade",
+   "frente": "🎯 Meta de perda de peso?",
+   "verso": "<b>5–10%</b> já melhora PA, glicemia e esteatose.",
+   "fonte": "ABESO",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Obesidade",
+   "frente": "🫀 Obesidade e esteatose (MASLD)?",
+   "verso": "Perda de peso ≥ 7–10% melhora a histologia; rastrear fibrose (FIB-4).",
+   "fonte": "AASLD 2023",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Estilo de vida e tabagismo",
+   "frente": "🏃 Atividade física (OMS)?",
+   "verso": "<b>150–300 min</b>/semana moderada ou 75–150 vigorosa + força 2×/semana.",
+   "fonte": "OMS 2020",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Estilo de vida e tabagismo",
+   "frente": "🗣️ Abordagem do tabagismo: <b>5 As</b>?",
+   "verso": "Perguntar, Aconselhar, Avaliar disposição, Ajudar (fármaco + apoio), Acompanhar.",
+   "fonte": "INCA",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Estilo de vida e tabagismo",
+   "frente": "💊 <b>Vareniclina</b>?",
+   "verso": "12 semanas (data de parada após 1 semana); náusea, sonhos vívidos.",
+   "fonte": "INCA",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Estilo de vida e tabagismo",
+   "frente": "📊 Teste de <b>Fagerström</b>?",
+   "verso": "0–10 pontos → <b>≥ 6</b> = dependência elevada (cigarro ao acordar em ≤ 5 min pesa muito).",
+   "fonte": "INCA",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Estilo de vida e tabagismo",
+   "frente": "🍷 <b>Álcool</b>: dose-padrão?",
+   "verso": "1 dose ≈ <b>14 g de etanol</b> (lata de cerveja, taça de vinho, dose de destilado); não há dose segura (OMS).",
+   "fonte": "OMS 2023",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Estilo de vida e tabagismo",
+   "frente": "⏳ Benefícios de parar de fumar?",
+   "verso": "Em ~1 ano, risco coronariano cai ~pela metade; em 10–15 anos, o de câncer de pulmão cai muito.",
+   "fonte": "CDC",
+   "tags": [
+    "R3CM",
+    "T13",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {}
+}

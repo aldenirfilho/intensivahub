@@ -164,6 +164,7 @@
    "verso": "<ul><li>📊 Meta-análise (Briel 2010): PEEP alta ↓ mortalidade na SDRA <b>moderada/grave</b></li><li>❌ <b>ART (2017)</b>: recrutamento máximo + PEEP titulada → <b class=r>↑ mortalidade</b></li><li>✅ Ajustar PEEP pela tabela PEEP/FiO₂ ou oxigenação/complacência, evitando recrutamento agressivo de rotina</li></ul>",
    "pegadinha": "ALVEOLI (2004): PEEP alta × baixa sem diferença no geral.",
    "fonte": "Briel JAMA 2010; ART JAMA 2017",
+   "imagem": "img_pv_pulmao.png",
    "tags": [
     "TEMI2028",
     "T02",
@@ -476,6 +477,7 @@
   }
  ],
  "midia": {
+  "img_pv_pulmao.png": "data/media/img_pv_pulmao.png",
   "img_vm_pressao.png": "data/media/img_vm_pressao.png"
  }
 }

@@ -1,0 +1,229 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::10 🎗️ Oncologia Clínica",
+ "cards": [
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🎗️ Rastreamento de <b>câncer de mama</b>?",
+   "verso": "MS: mamografia 50–69 anos bienal (tradicional) | SBM/CBR: a partir de 40 anos anual → conferir norma vigente.",
+   "fonte": "MS/SBM",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🔬 Rastreamento de <b>câncer do colo</b>?",
+   "verso": "Citologia 25–64 anos a cada 3 anos (após 2 normais anuais) → transição para <b>DNA-HPV a cada 5 anos</b>.",
+   "fonte": "INCA/MS",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "👨 Rastreamento de <b>câncer de próstata</b>?",
+   "verso": "PSA por <b>decisão compartilhada</b> 55–69 anos.",
+   "fonte": "USPSTF 2018",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🚫 Rastreamentos <b>não</b> recomendados?",
+   "verso": "Ovário (CA-125/USG), pâncreas, tireoide em assintomáticos de risco habitual.",
+   "fonte": "USPSTF",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🧬 <b>Síndrome de Lynch</b>?",
+   "verso": "CCR + endométrio em jovens (instabilidade de microssatélites) → colonoscopia a cada 1–2 anos desde 20–25 anos.",
+   "fonte": "NCCN",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🧬 <b>BRCA1/2</b>?",
+   "verso": "Mama, ovário (± próstata, pâncreas) → RM de mama, mastectomia/ooforectomia redutoras.",
+   "fonte": "NCCN",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "⏳ Vieses do rastreamento?",
+   "verso": "<b>Lead-time</b> (antecipa o diagnóstico sem prolongar a vida), <b>length-time</b> (detecta tumores lentos), <b>sobrediagnóstico</b>.",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Marcadores e síndromes paraneoplásicas",
+   "frente": "🧪 <b>Marcadores tumorais</b>?",
+   "verso": "<table class=t><tr><th>Marcador</th><th>Uso</th></tr><tr><td>PSA</td><td>Próstata</td></tr><tr><td>CEA</td><td>Colorretal (seguimento)</td></tr><tr><td>CA-125</td><td>Ovário</td></tr><tr><td>AFP</td><td>Hepatocarcinoma, germinativo</td></tr><tr><td>β-hCG</td><td>Germinativo</td></tr><tr><td>CA 19-9</td><td>Pâncreas/vias biliares</td></tr></table>",
+   "pegadinha": "Servem para seguimento, não para diagnóstico isolado.",
+   "fonte": "Oncologia",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Marcadores e síndromes paraneoplásicas",
+   "frente": "🧂 <b>SIADH</b> paraneoplásica?",
+   "verso": "Carcinoma de <b>pequenas células</b> de pulmão.",
+   "fonte": "Oncologia",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Marcadores e síndromes paraneoplásicas",
+   "frente": "🦴 Hipercalcemia humoral?",
+   "verso": "<b>PTHrP</b>: carcinoma escamoso (pulmão, cabeça e pescoço), rim, mama.",
+   "fonte": "Oncologia",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Marcadores e síndromes paraneoplásicas",
+   "frente": "🌙 <b>Cushing ectópico</b>?",
+   "verso": "ACTH ectópico (pequenas células, carcinoide) → hipocalemia + alcalose intensas, pouca 'cara de Cushing'.",
+   "fonte": "Oncologia",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Marcadores e síndromes paraneoplásicas",
+   "frente": "💪 <b>Lambert-Eaton</b>?",
+   "verso": "Anticorpos contra canais de Ca P/Q; fraqueza proximal que <b>melhora com esforço</b>; pequenas células.",
+   "pegadinha": "Miastenia piora com esforço.",
+   "fonte": "Neurologia",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Marcadores e síndromes paraneoplásicas",
+   "frente": "🩸 <b>Síndrome de Trousseau</b>?",
+   "verso": "Tromboflebite migratória → adenocarcinoma (pâncreas).",
+   "fonte": "Oncologia",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Marcadores e síndromes paraneoplásicas",
+   "frente": "🟣 <b>Dermatomiosite</b> do adulto?",
+   "verso": "Heliótropo, pápulas de Gottron, fraqueza proximal → <b>rastrear neoplasia</b> (ovário, pulmão, GI).",
+   "fonte": "Reumatologia",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urgências e suporte oncológico",
+   "frente": "🦴 <b>Compressão medular</b> maligna?",
+   "verso": "Dor dorsal + déficit → <b>dexametasona</b> + RM de toda a coluna + radioterapia/cirurgia urgente.",
+   "fonte": "NICE 2023",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urgências e suporte oncológico",
+   "frente": "🤢 Antiemese na quimioterapia?",
+   "verso": "Alta emetogenicidade: <b>antagonista 5-HT3 + dexametasona + aprepitanto</b> (± olanzapina).",
+   "fonte": "ASCO 2020",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urgências e suporte oncológico",
+   "frente": "📊 Escala <b>ECOG</b>?",
+   "verso": "<table class=t><tr><th>ECOG</th><th>Status</th></tr><tr><td>0</td><td>Ativo, sem restrição</td></tr><tr><td>1</td><td>Restrição a esforço intenso</td></tr><tr><td>2</td><td>Autocuidado, acamado &lt; 50% do dia</td></tr><tr><td>3</td><td>Acamado &gt; 50%</td></tr><tr><td>4</td><td>Totalmente acamado</td></tr></table>",
+   "fonte": "ECOG",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urgências e suporte oncológico",
+   "frente": "🧪 Eventos <b>imunomediados</b> (anti-PD-1/CTLA-4)?",
+   "verso": "Colite, pneumonite, hepatite, tireoidite, hipofisite, nefrite → <b>corticoide</b> conforme grau; suspender imunoterapia.",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urgências e suporte oncológico",
+   "frente": "🩸 TEV associado a câncer?",
+   "verso": "HBPM ou DOAC (apixabana, rivaroxabana, edoxabana); ⚠️ DOAC ↑ sangramento em tumores GI/GU.",
+   "fonte": "ASCO 2023",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urgências e suporte oncológico",
+   "frente": "❤️ <b>Cardiotoxicidade</b> por quimioterapia?",
+   "verso": "Antraciclinas: dose cumulativa → IC (irreversível) | Trastuzumabe: disfunção geralmente reversível → ECO seriado.",
+   "fonte": "ESC Cardio-Onco 2022",
+   "tags": [
+    "R3CM",
+    "T10",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {}
+}

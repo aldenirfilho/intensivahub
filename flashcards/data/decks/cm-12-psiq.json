@@ -1,0 +1,231 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::12 🧘 Psiquiatria na Clínica",
+ "cards": [
+  {
+   "subtema": "Depressão e ansiedade",
+   "frente": "😔 Critérios de <b>episódio depressivo maior</b>?",
+   "verso": "≥ 5 sintomas por ≥ <b>2 semanas</b>, incluindo humor deprimido <b>ou</b> anedonia.",
+   "fonte": "DSM-5-TR",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Depressão e ansiedade",
+   "frente": "📋 <b>PHQ-9</b>?",
+   "verso": "Cortes 5/10/15/20 = leve/moderado/moderadamente grave/grave; PHQ-2 para rastreio.",
+   "pegadinha": "Item 9 positivo = avaliar risco de suicídio.",
+   "fonte": "Kroenke 2001",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Depressão e ansiedade",
+   "frente": "💊 Tratamento da depressão?",
+   "verso": "<b>ISRS</b> 1ª linha (latência 2–4 semanas) + psicoterapia → manter 6–12 meses após a remissão.",
+   "fonte": "CANMAT 2023",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Depressão e ansiedade",
+   "frente": "🆘 Risco de <b>suicídio</b>?",
+   "verso": "Perguntar diretamente <b>não aumenta</b> o risco; avaliar plano, meios, tentativas prévias, desesperança, álcool, isolamento.",
+   "pegadinha": "CVV 188 (Brasil).",
+   "fonte": "OMS",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Depressão e ansiedade",
+   "frente": "😰 <b>Ansiedade generalizada</b>?",
+   "verso": "ISRS/IRSN + TCC; BZD só curto prazo.",
+   "fonte": "CANMAT",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Depressão e ansiedade",
+   "frente": "🎢 <b>Bipolaridade</b> antes do antidepressivo?",
+   "verso": "Rastrear mania/hipomania; antidepressivo isolado pode virar mania → estabilizador (lítio, quetiapina, lamotrigina).",
+   "fonte": "CANMAT/ISBD 2018",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Depressão e ansiedade",
+   "frente": "🧠 Depressão × demência no idoso?",
+   "verso": "Pseudodemência depressiva: queixa ativa de memória, 'não sei', início mais abrupto, melhora com antidepressivo.",
+   "fonte": "Geriatria",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🧂 <b>Lítio</b>?",
+   "verso": "Nível 0,6–1,2 mEq/L; ↑ nível com <b>IECA, tiazídico, AINE</b>, desidratação; hipotireoidismo, DI nefrogênico, tremor.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "⚖️ Antipsicóticos atípicos?",
+   "verso": "Síndrome metabólica (olanzapina, clozapina) → monitorar peso, glicemia, lipídios<br>Clozapina: <b>agranulocitose</b> (hemograma), miocardite",
+   "fonte": "Psiquiatria",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "📏 Drogas que <b>alongam o QT</b>?",
+   "verso": "Citalopram/escitalopram (dose alta), haloperidol, ondansetrona, macrolídeos, quinolonas, metadona, amiodarona.",
+   "fonte": "CredibleMeds",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🩸 ISRS: riscos 'esquecidos'?",
+   "verso": "↑ Sangramento com AINE/anticoagulante; <b>hiponatremia</b> (SIADH) em idosos.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🔁 <b>Descontinuação</b> de ISRS?",
+   "verso": "Paroxetina/venlafaxina: tontura, 'choques', irritabilidade → reduzir gradualmente.",
+   "pegadinha": "Fluoxetina tem meia-vida longa (menos sintomas).",
+   "fonte": "Psiquiatria",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "☠️ <b>Tricíclicos</b>?",
+   "verso": "Anticolinérgicos, hipotensão, arritmia; <b>letais em overdose</b> → evitar em idosos, cardiopatas e risco de suicídio.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🚭 <b>Bupropiona</b>?",
+   "verso": "Ajuda a parar de fumar, sem disfunção sexual; ⚠️ ↓ limiar convulsivo (evitar em epilepsia/bulimia).",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "😴 <b>Mirtazapina</b>?",
+   "verso": "Sedação e ↑ apetite → útil em idoso deprimido inapetente e insone.",
+   "fonte": "Psiquiatria",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Álcool e outras drogas",
+   "frente": "🍺 Rastreio de <b>uso de álcool</b>?",
+   "verso": "AUDIT/AUDIT-C; CAGE ≥ 2 sugere dependência.",
+   "fonte": "OMS",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Álcool e outras drogas",
+   "frente": "💊 Dependência de <b>álcool</b>: fármacos?",
+   "verso": "Naltrexona, acamprosato (bom na hepatopatia), dissulfiram (supervisionado), topiramato.",
+   "fonte": "APA 2018",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Álcool e outras drogas",
+   "frente": "🫨 <b>Abstinência alcoólica</b> ambulatorial/enfermaria?",
+   "verso": "CIWA-Ar → BZD sintoma-guiado (diazepam; <b>lorazepam se hepatopata</b>) + tiamina antes da glicose.",
+   "fonte": "ASAM 2020",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Álcool e outras drogas",
+   "frente": "🚬 Melhor farmacoterapia para <b>tabagismo</b>?",
+   "verso": "<b>Vareniclina</b> (mais eficaz) ou TRN combinada (adesivo + goma/pastilha); bupropiona alternativa.",
+   "pegadinha": "EAGLES: vareniclina segura em transtornos psiquiátricos.",
+   "fonte": "EAGLES Lancet 2016",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Álcool e outras drogas",
+   "frente": "💉 Dependência de <b>opioides</b>?",
+   "verso": "Buprenorfina ou metadona (manutenção) + naloxona para overdose.",
+   "fonte": "ASAM",
+   "tags": [
+    "R3CM",
+    "T12",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {}
+}

@@ -21,6 +21,12 @@ header{position:sticky;top:0;z-index:20;background:rgba(11,14,19,.92);backdrop-f
 .brand{display:flex;align-items:center;gap:10px;max-width:1000px;margin:0 auto}
 .brand svg{width:34px;height:34px;flex:none}
 .brand h1{font:700 18px/1.1 Cinzel,serif;letter-spacing:1.5px;margin:0;background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.grow{flex:1}.sync{font:600 12px Inter;padding:5px 10px;border-radius:20px;border:1px solid var(--line);color:var(--mut);white-space:nowrap}.sync.ok{color:var(--grn);border-color:#1f6b3d}.sync.busy{color:var(--amb);border-color:#7a5a1d}.sync.err{color:var(--red);border-color:#7a2d2d}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.chart h3{margin:0 0 6px;font-size:14px}.chart svg{width:100%;height:auto;display:block}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mut);margin-top:6px}.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
+.mini{height:4px;border-radius:4px;background:#1b2330;overflow:hidden;margin:2px 0 0 26px}.mini i{display:block;height:100%}
+.dk{border-left:3px solid var(--acc,transparent)}
+@media(max-width:640px){.charts{grid-template-columns:1fr}}
 .brand small{display:block;font:500 11px Inter;color:var(--mut);letter-spacing:.5px;-webkit-text-fill-color:var(--mut)}
 nav{display:flex;gap:4px;overflow-x:auto;max-width:1000px;margin:8px auto 0;scrollbar-width:none}
 nav::-webkit-scrollbar{display:none}
@@ -98,7 +104,8 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
    <path d="M32 3 L57 12 V30 C57 45 46 56 32 61 C18 56 7 45 7 30 V12 Z" fill="#0f1620" stroke="url(#gg)" stroke-width="3"/>
    <path d="M32 14 V50 M20 28 H44" stroke="#4dd4ff" stroke-width="4" stroke-linecap="round"/>
    <circle cx="32" cy="28" r="6" fill="none" stroke="url(#gg)" stroke-width="2.5"/></svg>
-  <div><h1>CÓDICE 360X</h1><small>Flashcards · TEMI · repetição espaçada</small></div>
+  <div class="grow"><h1>CÓDICE 360X</h1><small>Flashcards · TEMI · R3 Clínica Médica</small></div>
+  <span id="sync" class="sync" title="Status da sincronização">💾 Local</span>
  </div>
  <nav id="nav">
   <a href="#inicio" data-v="inicio">🏠 Início</a>
@@ -114,14 +121,14 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 <!-- INÍCIO -->
 <section class="view" id="v-inicio">
  <div class="stats" id="stats"></div>
- <div class="panel" id="officialBox"></div>
+ <div class="panel"><div class="charts" id="charts"></div></div>
  <div class="panel">
   <div class="row" style="margin-bottom:8px"><h2 class="grow" style="margin:0">📚 Baralhos</h2>
    <span class="cnt n" title="Novos">Novos</span><span class="cnt l" title="Aprendendo">Apr.</span><span class="cnt rv" title="Revisões">Rev.</span></div>
   <ul class="tree" id="tree"></ul>
   <div class="row" style="margin-top:12px"><button class="btn gold grow" id="studyAll">▶️ Estudar tudo que está pendente</button></div>
  </div>
- <div class="foot">Seus dados ficam salvos neste aparelho. Para levar o progresso para outro aparelho, use ⚙️ Ajustes → Backup.</div>
+ <div class="foot" id="homeFoot"></div>
 </section>
 
 <!-- ESTUDAR -->
@@ -203,9 +210,11 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <div><label>Intervalo de graduação / fácil (dias)</label><input type="text" id="sGrad" placeholder="1 4"></div>
   <div class="row"><button class="btn gold" id="sSave">💾 Salvar ajustes</button></div>
  </div>
+ <div class="panel"><h3 style="margin-top:0">📚 Coleções oficiais visíveis</h3><div id="colsBox" class="row"></div></div>
+ <div class="panel"><h3 style="margin-top:0">☁️ Sincronização</h3><div id="syncInfo" style="color:var(--mut)"></div><div class="row" style="margin-top:8px"><button class="btn cy" id="syncNow">🔄 Sincronizar agora</button></div></div>
  <div class="panel">
   <h3 style="margin-top:0">🛟 Backup e outros aparelhos</h3>
-  <p style="color:var(--mut);margin:4px 0 10px">O progresso fica neste navegador. Exporte o backup (cards + imagens + progresso) e importe no outro aparelho.</p>
+  <p style="color:var(--mut);margin:4px 0 10px">Cópia de segurança completa (seus cards, imagens e progresso) em um arquivo .json.</p>
   <div class="row"><button class="btn cy" id="bkExp">⬇️ Exportar backup</button>
    <button class="btn" id="bkImp">⬆️ Restaurar backup</button>
    <input type="file" id="bkFile" accept=".json" hidden></div>

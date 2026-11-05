@@ -210,6 +210,7 @@
    "verso": "⏱️ Esquema 21 h: <b>150 mg/kg/1 h → 50 mg/kg/4 h → 100 mg/kg/16 h</b><br>📈 Nomograma de Rumack-Matthew a partir de 4 h",
    "pegadinha": "NAC também beneficia IHA não-paracetamol em encefalopatia I–II.",
    "fonte": "Toxicologia",
+   "imagem": "img_rumack.png",
    "tags": [
     "TEMI2028",
     "T13",
@@ -453,5 +454,7 @@
    ]
   }
  ],
- "midia": {}
+ "midia": {
+  "img_rumack.png": "data/media/img_rumack.png"
+ }
 }

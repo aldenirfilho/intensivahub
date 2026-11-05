@@ -1,0 +1,239 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::01 🫀 Cardiologia",
+ "cards": [
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "🩺 Diagnóstico de <b>HAS</b> por método?",
+   "verso": "<table class=t><tr><th>Método</th><th>Limiar de HAS</th></tr><tr><td>Consultório</td><td>≥ 140/90 (confirmado)</td></tr><tr><td>MAPA 24 h</td><td>≥ 130/80</td></tr><tr><td>MAPA vigília / sono</td><td>≥ 135/85 / ≥ 120/70</td></tr><tr><td>MRPA</td><td>≥ 130/80</td></tr></table>",
+   "pegadinha": "MAPA/MRPA desmascaram avental branco e HAS mascarada.",
+   "fonte": "Diretriz Brasileira de HAS 2020 (conferir atualização)",
+   "imagem": "img_pa_class.png",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "🥼 HAS do <b>avental branco × mascarada</b>?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Consultório</th><th>Fora (MAPA/MRPA)</th></tr><tr><td>Avental branco</td><td>Alta</td><td>Normal</td></tr><tr><td>Mascarada</td><td>Normal</td><td><b class=r>Alta</b></td></tr></table>",
+   "pegadinha": "A mascarada tem risco CV semelhante à HAS sustentada.",
+   "fonte": "Diretriz Brasileira de HAS 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "💊 Tratamento inicial da HAS?",
+   "verso": "Maioria: <b>combinação dupla</b> (IECA ou BRA + BCC di-hidropiridínico ou tiazídico), de preferência em comprimido único.<br>Monoterapia: estágio 1 de baixo risco, idosos frágeis.<br>❌ <b class=r>Nunca IECA + BRA</b>",
+   "pegadinha": "Alvo geral: &lt; 130/80 se tolerado.",
+   "fonte": "Diretriz Brasileira de HAS 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "🔒 <b>HAS resistente</b>: definição e 4ª droga?",
+   "verso": "PA fora do alvo com <b>3 classes</b> (incluindo diurético) em dose otimizada → excluir pseudo-resistência (adesão, técnica, avental branco) → <b class=c>espironolactona</b>.",
+   "pegadinha": "PATHWAY-2: espironolactona foi a melhor 4ª droga.",
+   "fonte": "PATHWAY-2 Lancet 2015",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hipertensão arterial",
+   "frente": "🔍 Pistas de <b>HAS secundária</b>?",
+   "verso": "<table class=t><tr><th>Pista</th><th>Pensar em</th></tr><tr><td>HAS + hipocalemia</td><td>Hiperaldosteronismo primário (aldosterona/renina)</td></tr><tr><td>Ronco, sonolência</td><td>Apneia do sono</td></tr><tr><td>Piora renal com IECA, sopro abdominal</td><td>Estenose de artéria renal</td></tr><tr><td>Paroxismos (cefaleia, sudorese, palpitação)</td><td>Feocromocitoma</td></tr><tr><td>PA MMSS ≫ MMII</td><td>Coarctação da aorta</td></tr></table>",
+   "fonte": "Diretriz Brasileira de HAS 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "🫀 4 pilares da <b>ICFEr</b>?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Exemplos</th></tr><tr><td>ARNI / IECA / BRA</td><td>Sacubitril-valsartana (preferido)</td></tr><tr><td>Betabloqueador</td><td>Carvedilol, bisoprolol, succinato de metoprolol</td></tr><tr><td>Antagonista mineralocorticoide</td><td>Espironolactona, eplerenona</td></tr><tr><td>iSGLT2</td><td>Dapagliflozina, empagliflozina</td></tr></table>",
+   "pegadinha": "Todos reduzem mortalidade; iniciar cedo e em doses baixas (todos juntos).",
+   "fonte": "ESC 2021/2023; SBC 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "📊 Classificação da IC pela <b>fração de ejeção</b>?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>FE</th></tr><tr><td>Reduzida (ICFEr)</td><td>≤ 40%</td></tr><tr><td>Levemente reduzida</td><td>41–49%</td></tr><tr><td>Preservada (ICFEp)</td><td>≥ 50%</td></tr></table>💊 ICFEp: <b>iSGLT2</b> + diurético para congestão.",
+   "pegadinha": "EMPEROR-Preserved e DELIVER: iSGLT2 ↓ hospitalização na ICFEp.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "🚶 Classes funcionais <b>NYHA</b>?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Sintomas</th></tr><tr><td>I</td><td>Sem limitação</td></tr><tr><td>II</td><td>Limitação leve (atividades habituais)</td></tr><tr><td>III</td><td>Limitação acentuada (esforços menores que os habituais)</td></tr><tr><td>IV</td><td>Sintomas em repouso</td></tr></table>",
+   "fonte": "NYHA",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca crônica",
+   "frente": "💓 Quando usar <b>ivabradina</b> e hidralazina + nitrato?",
+   "verso": "Ivabradina: ICFEr em <b>ritmo sinusal com FC ≥ 70</b> apesar de BB em dose máxima.<br>Hidralazina + nitrato: afrodescendentes sintomáticos ou intolerância a IECA/BRA/ARNI.",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "💊 <b>DOAC × varfarina</b> na FA?",
+   "verso": "DOAC preferido, <b>exceto</b>: estenose mitral moderada/grave e prótese valvar mecânica → <b class=r>varfarina</b>.",
+   "fonte": "ESC 2024",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "🩸 Para que serve o <b>HAS-BLED</b>?",
+   "verso": "Estima risco de sangramento; <b>não contraindica</b> anticoagular → corrigir fatores modificáveis (PA, álcool, AINE, labilidade de INR).",
+   "fonte": "ESC",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "⏱️ Controle de ritmo precoce na FA?",
+   "verso": "EAST-AFNET 4: controle de ritmo em FA diagnosticada há <b>&lt; 1 ano</b> → ↓ eventos cardiovasculares.",
+   "fonte": "EAST-AFNET 4 NEJM 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Fibrilação atrial e anticoagulação",
+   "frente": "⚖️ Dose reduzida de <b>apixabana</b>?",
+   "verso": "<b>2,5 mg 12/12h</b> se ≥ 2 de: idade ≥ 80 anos, peso ≤ 60 kg, creatinina ≥ 1,5 mg/dL.",
+   "pegadinha": "Subdose sem critério ↑ AVC.",
+   "fonte": "Bula / ESC",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Valvopatias",
+   "frente": "❤️ <b>Estenose aórtica</b>?",
+   "verso": "Tríade: angina, síncope, dispneia; sopro sistólico ejetivo irradiando para carótidas; pulso <i>parvus et tardus</i><br>🔴 Grave: área &lt; 1 cm², gradiente médio ≥ 40, Vmáx ≥ 4 m/s<br>🔧 Sintomática → TAVI ou troca valvar",
+   "pegadinha": "Após sintomas, sobrevida média de 2–3 anos sem intervenção.",
+   "fonte": "ESC/EACTS 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Valvopatias",
+   "frente": "💧 Sinais de <b>insuficiência aórtica</b>?",
+   "verso": "Sopro diastólico aspirativo; pressão de pulso alargada; pulso em martelo d'água (<b>Corrigan</b>), <b>Musset</b> (cabeça), <b>Quincke</b> (leito ungueal), <b>Duroziez</b> (femoral).",
+   "fonte": "Semiologia",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Valvopatias",
+   "frente": "🫀 <b>Estenose mitral</b>?",
+   "verso": "Ruflar diastólico + estalido de abertura, FA, HP; etiologia reumática<br>🔧 Valvotomia mitral percutânea por balão se anatomia favorável",
+   "fonte": "ESC/EACTS 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Valvopatias",
+   "frente": "🦷 Profilaxia de <b>endocardite</b> em procedimento dentário?",
+   "verso": "Só alto risco (prótese valvar, endocardite prévia, cardiopatia congênita cianótica não corrigida) → <b>amoxicilina 2 g VO</b> 30–60 min antes.",
+   "fonte": "ESC 2023 / AHA 2021",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Coronariopatia crônica e lipídios",
+   "frente": "🎯 Metas de <b>LDL</b> por risco?",
+   "verso": "<table class=t><tr><th>Risco</th><th>LDL alvo</th></tr><tr><td>Muito alto</td><td>&lt; 50 mg/dL</td></tr><tr><td>Alto</td><td>&lt; 70</td></tr><tr><td>Intermediário</td><td>&lt; 100</td></tr><tr><td>Baixo</td><td>&lt; 130</td></tr></table>",
+   "pegadinha": "ESC usa &lt; 55 no muito alto risco. Conferir a diretriz brasileira mais recente.",
+   "fonte": "SBC 2017 (atualização)",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Coronariopatia crônica e lipídios",
+   "frente": "💊 Escalonamento hipolipemiante?",
+   "verso": "Estatina de alta potência (atorva 40–80, rosuva 20–40) → + <b>ezetimiba</b> → + iPCSK9.<br>⚠️ Mialgia: dosar CK; hepatotoxicidade rara",
+   "fonte": "ESC/SBC",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Coronariopatia crônica e lipídios",
+   "frente": "💔 <b>Angina estável</b>: tratamento?",
+   "verso": "AAS + estatina + antianginoso (BB ou BCC) + nitrato SL.<br>ISCHEMIA: estratégia invasiva <b>não reduziu</b> morte/IAM em isquemia moderada/grave estável.",
+   "fonte": "ISCHEMIA NEJM 2020",
+   "tags": [
+    "R3CM",
+    "T01",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {
+  "img_pa_class.png": "data/media/img_pa_class.png"
+ }
+}

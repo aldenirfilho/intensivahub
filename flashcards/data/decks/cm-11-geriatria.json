@@ -1,0 +1,234 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::11 👴 Geriatria e Cuidados Paliativos",
+ "cards": [
+  {
+   "subtema": "Avaliação geriátrica e síndromes",
+   "frente": "👴 Domínios da <b>avaliação geriátrica ampla</b>?",
+   "verso": "<table class=t><tr><th>Domínio</th><th>Instrumento</th></tr><tr><td>Funcionalidade básica / instrumental</td><td>Katz (ABVD) / Lawton (AIVD)</td></tr><tr><td>Cognição</td><td>MEEM, MoCA</td></tr><tr><td>Humor</td><td>GDS-15</td></tr><tr><td>Mobilidade e quedas</td><td>Timed Up and Go</td></tr><tr><td>Nutrição</td><td>MNA</td></tr></table>",
+   "fonte": "Geriatria",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica e síndromes",
+   "frente": "🪫 <b>Fragilidade</b> (fenótipo de Fried)?",
+   "verso": "Perda de peso, exaustão, fraqueza (preensão), lentidão da marcha, baixa atividade → <b>≥ 3 = frágil</b>; 1–2 = pré-frágil.",
+   "fonte": "Fried 2001",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica e síndromes",
+   "frente": "🚶 Prevenção de <b>quedas</b>?",
+   "verso": "Exercício de força/equilíbrio, revisar medicações (BZD, hipotensores), visão, calçados, casa; vitamina D só se deficiente.",
+   "pegadinha": "TUG &gt; 12–13 s = ↑ risco.",
+   "fonte": "World Guidelines for Falls 2022",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica e síndromes",
+   "frente": "🌀 <b>Delirium</b> no idoso?",
+   "verso": "Início agudo + desatenção (CAM) → buscar causa (infecção, drogas, retenção urinária, dor, constipação); medidas não farmacológicas.<br>❌ BZD (exceto abstinência)",
+   "fonte": "AGS/NICE",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica e síndromes",
+   "frente": "🚽 Tipos de <b>incontinência urinária</b>?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Tratamento</th></tr><tr><td>Esforço</td><td>Fisioterapia pélvica, cirurgia</td></tr><tr><td>Urgência</td><td>Treino vesical; <b>mirabegrona</b> (antimuscarínicos pioram cognição)</td></tr><tr><td>Transbordamento</td><td>Tratar obstrução/hipocontratilidade, cateterismo</td></tr><tr><td>Funcional</td><td>Ambiente, rotina</td></tr></table>",
+   "fonte": "Geriatria",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica e síndromes",
+   "frente": "💪 <b>Sarcopenia</b>?",
+   "verso": "↓ Força de preensão + ↓ massa muscular → exercício resistido + proteína 1,0–1,2 g/kg/dia.",
+   "fonte": "EWGSOP2 2019",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica e síndromes",
+   "frente": "🧠 Corte do <b>MEEM</b> por escolaridade (Brucki)?",
+   "verso": "<table class=t><tr><th>Escolaridade</th><th>Corte</th></tr><tr><td>Analfabeto</td><td>20</td></tr><tr><td>1–4 anos</td><td>25</td></tr><tr><td>5–8 anos</td><td>26,5</td></tr><tr><td>9–11 anos</td><td>28</td></tr><tr><td>&gt; 11 anos</td><td>29</td></tr></table>",
+   "fonte": "Brucki 2003",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "🚫 Critérios de <b>Beers</b>: exemplos?",
+   "verso": "Evitar no idoso: BZD, anticolinérgicos (difenidramina, amitriptilina, oxibutinina), <b>glibenclamida</b>, AINE crônico, IBP &gt; 8 semanas sem indicação, relaxantes musculares.",
+   "fonte": "AGS Beers 2023",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "🛑 <b>STOPP/START</b>?",
+   "verso": "STOPP: drogas potencialmente inapropriadas | START: omissões (ex.: estatina, anticoagulante na FA, vitamina D).",
+   "fonte": "O'Mahony 2023",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "🔗 <b>Cascata de prescrição</b>?",
+   "verso": "Efeito adverso tratado como nova doença: BCC → edema → furosemida; IECA → tosse → xarope.",
+   "fonte": "Geriatria",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "✂️ <b>Desprescrição</b>?",
+   "verso": "Revisar indicação, benefício × tempo para benefício, carga anticolinérgica; reduzir gradualmente (BZD, IBP, antipsicóticos).",
+   "fonte": "Geriatria",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "🧮 <b>Cockcroft-Gault</b>?",
+   "verso": "ClCr = (140 − idade) × peso / (72 × Cr) <b>× 0,85 se mulher</b> → muito usado para ajuste de doses.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "🧠 Carga <b>anticolinérgica</b>?",
+   "verso": "↑ Risco de delirium, quedas, demência, constipação, retenção urinária → trocar por alternativas.",
+   "fonte": "AGS Beers",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🪜 <b>Escada analgésica</b> da OMS?",
+   "verso": "1️⃣ Não opioide (± adjuvante) → 2️⃣ opioide fraco (tramadol, codeína) → 3️⃣ opioide forte (morfina, oxicodona, metadona, fentanil) ± adjuvantes.",
+   "pegadinha": "Dor intensa: pode ir direto ao degrau 3.",
+   "fonte": "OMS",
+   "imagem": "img_escada_oms.png",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🔄 Conversão e resgate de opioides?",
+   "verso": "Morfina oral : IV ≈ <b>3 : 1</b> · oxicodona oral ≈ 1,5× morfina oral · resgate = <b>10–15%</b> da dose diária total.",
+   "pegadinha": "Em troca de opioide, reduzir 25–50% (tolerância cruzada incompleta).",
+   "fonte": "Paliativos",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "💩 <b>Constipação</b> por opioide?",
+   "verso": "Sempre prescrever laxativo junto → <b>não há tolerância</b> a esse efeito.",
+   "fonte": "Paliativos",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "😮‍💨 <b>Dispneia</b> no fim de vida?",
+   "verso": "<b>Morfina</b> em dose baixa, ventilador/ar no rosto, posição; O₂ apenas se hipoxêmico.",
+   "fonte": "Paliativos",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🫧 <b>Ronco da morte</b> (sororoca)?",
+   "verso": "Reposicionar, ↓ hidratação, <b>escopolamina</b>; evitar aspiração de rotina; acolher a família.",
+   "fonte": "Paliativos",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "😴 <b>Sedação paliativa</b>?",
+   "verso": "Sintoma refratário (dispneia, delirium, dor) no fim de vida → <b>midazolam</b> titulado, com consentimento e registro.",
+   "pegadinha": "Ética: intenção é aliviar o sintoma, não abreviar a vida.",
+   "fonte": "CFM; EAPC",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "💉 <b>Hipodermóclise</b>?",
+   "verso": "Via SC para hidratação (até ~1.500 mL/24 h por sítio) e drogas: morfina, midazolam, haloperidol, ondansetrona, escopolamina, dexametasona.",
+   "fonte": "ANCP",
+   "tags": [
+    "R3CM",
+    "T11",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {
+  "img_escada_oms.png": "data/media/img_escada_oms.png"
+ }
+}

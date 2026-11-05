@@ -1,0 +1,229 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::05 🫃 Gastroenterologia e Hepatologia",
+ "cards": [
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🔥 <b>DRGE</b>: sinais de alarme?",
+   "verso": "Disfagia, odinofagia, perda de peso, anemia, sangramento, vômitos persistentes → <b>EDA</b>. Sem alarme: IBP 8 semanas.",
+   "fonte": "ACG 2022",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🟠 <b>Esôfago de Barrett</b>?",
+   "verso": "Metaplasia intestinal → vigilância endoscópica; displasia → ablação (radiofrequência) / ressecção.",
+   "fonte": "ACG 2022",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🦠 Erradicação do <b>H. pylori</b>?",
+   "verso": "1ª linha: IBP + amoxicilina + claritromicina × <b>14 dias</b> (ou quádrupla com bismuto)<br>✅ Confirmar cura (teste respiratório/antígeno fecal) ≥ 4 semanas após, sem IBP por 2 semanas",
+   "fonte": "IV Consenso Brasileiro; Maastricht VI",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🕳️ Causas de <b>úlcera péptica</b>?",
+   "verso": "H. pylori e AINE (principais); refratária/múltipla → gastrinoma (Zollinger-Ellison).",
+   "fonte": "ACG",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🐦 <b>Acalasia</b>?",
+   "verso": "Disfagia para sólidos <b>e</b> líquidos, esôfago em 'bico de pássaro' → manometria → POEM, miotomia ou dilatação.",
+   "fonte": "ACG 2020",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intestino",
+   "frente": "🆚 <b>Crohn × RCU</b>?",
+   "verso": "<table class=t><tr><th></th><th>Crohn</th><th>RCU</th></tr><tr><td>Local</td><td>Boca ao ânus, salteado</td><td>Reto, contínuo</td></tr><tr><td>Parede</td><td>Transmural (fístulas)</td><td>Mucosa</td></tr><tr><td>Histologia</td><td>Granulomas</td><td>Abscessos de cripta</td></tr><tr><td>Tabagismo</td><td>Piora</td><td>Protege</td></tr></table>",
+   "fonte": "ECCO",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intestino",
+   "frente": "🌀 <b>Síndrome do intestino irritável</b> (Roma IV)?",
+   "verso": "Dor ≥ 1 dia/semana (3 meses) ligada a ≥ 2: evacuação, mudança de frequência, mudança de forma — <b>sem sinais de alarme</b>.",
+   "fonte": "Roma IV",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intestino",
+   "frente": "🌾 <b>Doença celíaca</b>?",
+   "verso": "Anti-transglutaminase IgA + IgA total → biópsia duodenal (atrofia vilositária) → dieta sem glúten.",
+   "pegadinha": "Deficiência de IgA dá falso negativo.",
+   "fonte": "ACG 2023",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intestino",
+   "frente": "🔎 Rastreamento de <b>câncer colorretal</b>?",
+   "verso": "<b>45–75 anos</b>: colonoscopia a cada 10 anos ou sangue oculto imunoquímico anual.",
+   "fonte": "USPSTF 2021",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intestino",
+   "frente": "💩 Diarreia crônica: osmótica × secretória?",
+   "verso": "Gap osmolar fecal = 290 − 2 × (Na + K fecais) → &gt; 125 osmótica (melhora com jejum) | &lt; 50 secretória",
+   "fonte": "AGA",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hepatites",
+   "frente": "🧪 Sorologia da <b>hepatite B</b>?",
+   "verso": "<table class=t><tr><th>Perfil</th><th>HBsAg</th><th>Anti-HBc</th><th>Anti-HBs</th></tr><tr><td>Aguda</td><td>+</td><td>IgM +</td><td>−</td></tr><tr><td>Crônica</td><td>+</td><td>IgG +</td><td>−</td></tr><tr><td>Cura</td><td>−</td><td>IgG +</td><td>+</td></tr><tr><td>Vacinado</td><td>−</td><td>−</td><td>+</td></tr></table>",
+   "pegadinha": "HBeAg + = alta replicação.",
+   "fonte": "AASLD",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hepatites",
+   "frente": "💊 <b>Hepatite C</b>?",
+   "verso": "Anti-HCV → confirmar com HCV-RNA → DAA pangenotípico (sofosbuvir + velpatasvir 12 semanas) → cura &gt; 95%.",
+   "fonte": "MS Brasil PCDT",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hepatites",
+   "frente": "🍓 <b>Hepatite A</b>?",
+   "verso": "Fecal-oral, autolimitada, IgM anti-HAV; não cronifica; vacina.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hepatites",
+   "frente": "💊 <b>Hepatite B</b>: quando tratar?",
+   "verso": "ALT ↑ + HBV-DNA alto, cirrose, imunossupressão → <b>tenofovir</b> ou entecavir.",
+   "fonte": "AASLD/MS",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Hepatites",
+   "frente": "🛡️ <b>Hepatite autoimune</b>?",
+   "verso": "Mulher, FAN, anti-músculo liso (tipo 1), IgG ↑ → prednisona + azatioprina.",
+   "fonte": "AASLD 2019",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cirrose e hepatopatias crônicas",
+   "frente": "💧 Tratamento da <b>ascite</b>?",
+   "verso": "Sódio 2 g/dia + <b>espironolactona 100 + furosemida 40</b> (proporção 100:40).",
+   "fonte": "AASLD 2021",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cirrose e hepatopatias crônicas",
+   "frente": "🧮 <b>GASA</b>?",
+   "verso": "Albumina sérica − albumina da ascite → <b>≥ 1,1</b> = hipertensão portal.",
+   "fonte": "AASLD",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cirrose e hepatopatias crônicas",
+   "frente": "🔎 Rastreamento de <b>carcinoma hepatocelular</b>?",
+   "verso": "Cirróticos: <b>USG ± AFP a cada 6 meses</b>.",
+   "fonte": "AASLD 2023",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cirrose e hepatopatias crônicas",
+   "frente": "🛡️ Profilaxia primária de <b>varizes</b>?",
+   "verso": "Varizes de médio/grosso calibre: BB não seletivo (carvedilol/propranolol) <b>ou</b> ligadura.",
+   "fonte": "Baveno VII",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Cirrose e hepatopatias crônicas",
+   "frente": "🧲 <b>Hemocromatose × Wilson</b>?",
+   "verso": "<table class=t><tr><th></th><th>Hemocromatose</th><th>Wilson</th></tr><tr><td>Exames</td><td>Saturação de transferrina &gt; 45%, ferritina ↑, HFE C282Y</td><td>Ceruloplasmina ↓, cobre urinário ↑</td></tr><tr><td>Pistas</td><td>DM, pele bronzeada, cardiopatia</td><td>Jovem, anel de Kayser-Fleischer, neuropsiquiátrico</td></tr><tr><td>Tratamento</td><td>Flebotomia</td><td>Quelante (penicilamina), zinco</td></tr></table>",
+   "fonte": "AASLD",
+   "tags": [
+    "R3CM",
+    "T05",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {}
+}

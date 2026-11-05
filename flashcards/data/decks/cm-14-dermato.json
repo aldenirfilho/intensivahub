@@ -1,0 +1,230 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::14 🧴 Dermatologia e Alergia",
+ "cards": [
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🔥 <b>SSJ × NET</b>?",
+   "verso": "<table class=t><tr><th></th><th>Área destacada</th></tr><tr><td>SSJ</td><td>&lt; 10%</td></tr><tr><td>Sobreposição</td><td>10–30%</td></tr><tr><td>NET</td><td>&gt; 30%</td></tr></table>💊 Alopurinol, anticonvulsivantes aromáticos, sulfas, lamotrigina, nevirapina → <b>suspender a droga</b> + UTI/queimados (SCORTEN)",
+   "fonte": "Dermatologia",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🧬 <b>DRESS</b>?",
+   "verso": "2–8 semanas após droga: febre, rash, <b>eosinofilia</b>, linfócitos atípicos, hepatite/nefrite → suspender + corticoide sistêmico.",
+   "fonte": "RegiSCAR",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "👆 Sinal de <b>Nikolsky</b> positivo?",
+   "verso": "NET/SSJ, pênfigo vulgar, síndrome da pele escaldada estafilocócica.",
+   "pegadinha": "Penfigoide bolhoso: Nikolsky negativo.",
+   "fonte": "Dermatologia",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🫧 <b>PEGA</b> (pustulose exantemática)?",
+   "verso": "Pústulas estéreis em horas/dias após droga (betalactâmicos) → resolve ao suspender.",
+   "fonte": "Dermatologia",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🎯 <b>Eritema multiforme</b>?",
+   "verso": "Lesões em <b>alvo típicas</b>, extremidades; associado ao herpes simples.",
+   "fonte": "Dermatologia",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🔴 <b>Síndrome do homem vermelho</b>?",
+   "verso": "Vancomicina em infusão rápida → rubor (liberação de histamina) → infundir em ≥ 1–2 h; não é alergia verdadeira.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urticária, anafilaxia e alergia a drogas",
+   "frente": "🔴 <b>Urticária</b> aguda × crônica?",
+   "verso": "Crônica &gt; 6 semanas → anti-H1 de 2ª geração até <b>4× a dose</b> → omalizumabe.",
+   "fonte": "EAACI 2022",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urticária, anafilaxia e alergia a drogas",
+   "frente": "🎈 Angioedema por <b>bradicinina</b>?",
+   "verso": "IECA ou hereditário: <b>sem urticária</b>, pouca resposta a anti-H1/corticoide → icatibanto, inibidor de C1.<br>IECA: suspender para sempre",
+   "fonte": "WAO 2021",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urticária, anafilaxia e alergia a drogas",
+   "frente": "🐝 Critérios de <b>anafilaxia</b> (WAO)?",
+   "verso": "Pele/mucosa + respiratório ou hipotensão/GI grave; ou hipotensão/broncoespasmo após alérgeno conhecido → <b>adrenalina IM</b>; triptase.",
+   "fonte": "WAO 2020",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urticária, anafilaxia e alergia a drogas",
+   "frente": "💊 Alergia à <b>penicilina</b>?",
+   "verso": "~90% não se confirma; reação cruzada com cefalosporinas ~1–2% (maior se cadeia lateral semelhante); carbapenêmicos &lt; 1%.",
+   "pegadinha": "Desrotular o paciente amplia opções e ↓ resistência.",
+   "fonte": "AAAAI 2022",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urticária, anafilaxia e alergia a drogas",
+   "frente": "🔄 <b>Dessensibilização</b>?",
+   "verso": "Indicação clássica: sífilis na gestante alérgica a penicilina.",
+   "fonte": "MS Brasil",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urticária, anafilaxia e alergia a drogas",
+   "frente": "🧪 Reação prévia a <b>contraste iodado</b>?",
+   "verso": "Pré-medicação (corticoide + anti-H1) reduz reações leves; <b>não</b> previne todas → considerar outro exame/contraste.",
+   "fonte": "ACR Manual 2023",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Urticária, anafilaxia e alergia a drogas",
+   "frente": "🐝 Alergia a <b>himenópteros</b>?",
+   "verso": "Reação sistêmica → <b>imunoterapia com veneno</b> + adrenalina autoinjetável.",
+   "fonte": "EAACI",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Dermatoses e infecções de pele",
+   "frente": "⚡ <b>Herpes-zóster</b>?",
+   "verso": "Aciclovir/valaciclovir em ≤ 72 h; neuralgia pós-herpética; vacina recombinante ≥ 50 anos.",
+   "fonte": "Infectologia",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Dermatoses e infecções de pele",
+   "frente": "🩷 <b>Erisipela × celulite</b>?",
+   "verso": "Erisipela: bordas elevadas e nítidas (estreptococo) → penicilina/cefalexina | Celulite purulenta: considerar MRSA.",
+   "fonte": "IDSA 2014",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Dermatoses e infecções de pele",
+   "frente": "💀 <b>Fasciíte necrosante</b>?",
+   "verso": "Dor desproporcional, crepitação, bolhas, choque → <b>cirurgia urgente</b> + amplo espectro + clindamicina (± vancomicina).",
+   "fonte": "IDSA 2014",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Dermatoses e infecções de pele",
+   "frente": "🦠 <b>Escabiose</b>?",
+   "verso": "Prurido noturno, sulcos interdigitais → <b>permetrina 5%</b> ou ivermectina; tratar contactantes.",
+   "fonte": "Dermatologia",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Dermatoses e infecções de pele",
+   "frente": "🩶 <b>Psoríase</b>?",
+   "verso": "Placas eritematoescamosas em extensoras; artrite psoriásica → MTX/biológicos.<br>❌ Corticoide sistêmico (rebote pustuloso)",
+   "fonte": "SBD",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Dermatoses e infecções de pele",
+   "frente": "🔍 <b>ABCDE</b> do melanoma?",
+   "verso": "Assimetria, Bordas irregulares, Cores variadas, Diâmetro &gt; 6 mm, Evolução.",
+   "pegadinha": "Sinal do 'patinho feio'.",
+   "fonte": "Dermatologia",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Dermatoses e infecções de pele",
+   "frente": "🛏️ <b>Lesão por pressão</b>?",
+   "verso": "Estágios 1 (eritema que não embranquece) a 4 (exposição óssea) → mudança de decúbito 2/2 h, colchão, nutrição.",
+   "fonte": "NPIAP 2019",
+   "tags": [
+    "R3CM",
+    "T14",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {}
+}

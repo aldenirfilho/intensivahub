@@ -91,6 +91,7 @@
    "frente": "🧭 Hiponatremia hipotônica: o que o <b>Na urinário</b> diz?",
    "verso": "<table class=t><tr><th>Volemia</th><th>Na urinário</th><th>Causas</th></tr><tr><td>⬇️ Hipovolemia</td><td>&lt; 30</td><td>Perdas GI, terceiro espaço</td></tr><tr><td>⬇️ Hipovolemia</td><td>&gt; 30</td><td>Diurético, perda cerebral de sal, insuf. adrenal</td></tr><tr><td>↔️ Euvolemia</td><td>&gt; 30</td><td>SIADH, hipotireoidismo, insuf. adrenal</td></tr><tr><td>⬆️ Hipervolemia</td><td>&lt; 30</td><td>IC, cirrose, nefrótica</td></tr></table>",
    "fonte": "Europeia 2014",
+   "imagem": "img_hipona.png",
    "tags": [
     "TEMI2028",
     "T05",
@@ -185,6 +186,7 @@
    "verso": "<table class=t><tr><th>Etapa</th><th>Droga</th></tr><tr><td>🛡️ Estabilizar membrana</td><td><b>Gluconato de Ca 10% 10–30 mL</b> IV (ou cloreto de Ca 10 mL via central)</td></tr><tr><td>➡️ Shift intracelular</td><td><b>Insulina regular 10 U + glicose 25 g</b>; salbutamol 10–20 mg NBZ; bicarbonato se acidose</td></tr><tr><td>🗑️ Remover</td><td>Furosemida, ciclossilicato de zircônio, patirômero, <b>diálise</b></td></tr></table>",
    "pegadinha": "Cálcio NÃO baixa o K – só protege o miocárdio (dura 30–60 min).",
    "fonte": "KDIGO/UK Renal Association",
+   "imagem": "img_hiperk.png",
    "tags": [
     "TEMI2028",
     "T05",
@@ -472,6 +474,8 @@
   }
  ],
  "midia": {
-  "img_ecg_k.png": "data/media/img_ecg_k.png"
+  "img_ecg_k.png": "data/media/img_ecg_k.png",
+  "img_hiperk.png": "data/media/img_hiperk.png",
+  "img_hipona.png": "data/media/img_hipona.png"
  }
 }

@@ -306,6 +306,7 @@
    "verso": "⏱️ Dias <b>3–14</b> (pico 7–10)<br>🔊 Doppler transcraniano: velocidade ACM &gt; 120 cm/s; <b>Lindegaard &gt; 3</b><br>🔧 Euvolemia, hipertensão induzida, terapia endovascular",
    "pegadinha": "Triplo H (hipervolemia) abandonado – só euvolemia.",
    "fonte": "AHA/ASA 2023",
+   "imagem": "img_hsa_timeline.png",
    "tags": [
     "TEMI2028",
     "T07",
@@ -465,6 +466,7 @@
   }
  ],
  "midia": {
+  "img_hsa_timeline.png": "data/media/img_hsa_timeline.png",
   "img_icp_pv.png": "data/media/img_icp_pv.png",
   "img_lassen.png": "data/media/img_lassen.png"
  }

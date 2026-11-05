@@ -1,0 +1,236 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::02 🫁 Pneumologia",
+ "cards": [
+  {
+   "subtema": "Asma",
+   "frente": "🌬️ Mudança-chave do <b>GINA</b> na asma?",
+   "verso": "❌ <b class=r>SABA isolado não</b> (↑ mortalidade)<br>✅ Via preferida: <b>ICS-formoterol</b> sob demanda (etapas 1–2) e manutenção + resgate (MART, etapas 3–5)",
+   "fonte": "GINA 2024",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Asma",
+   "frente": "📈 Prova broncodilatadora positiva?",
+   "verso": "↑ VEF₁ (ou CVF) <b>≥ 12% e ≥ 200 mL</b> após broncodilatador.",
+   "pegadinha": "ATS/ERS 2022 propõe &gt; 10% do previsto.",
+   "fonte": "GINA / ATS",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Asma",
+   "frente": "✅ Controle da asma (GINA) — 4 perguntas?",
+   "verso": "Nas últimas 4 semanas: sintomas diurnos &gt; 2×/semana? despertar noturno? resgate &gt; 2×/semana? limitação de atividade?<br>0 = controlada · 1–2 = parcial · 3–4 = não controlada",
+   "fonte": "GINA",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Asma",
+   "frente": "🚨 <b>Crise asmática grave</b>?",
+   "verso": "SABA + ipratrópio repetidos, O₂ (SpO₂ 93–95%), <b>prednisona 40–50 mg × 5–7 dias</b>, <b>sulfato de Mg 2 g IV</b> se grave.",
+   "pegadinha": "Tórax silencioso e normocapnia/hipercapnia = gravidade extrema.",
+   "fonte": "GINA",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Asma",
+   "frente": "💉 Biológicos na asma grave?",
+   "verso": "<table class=t><tr><th>Alvo</th><th>Droga</th></tr><tr><td>IgE</td><td>Omalizumabe</td></tr><tr><td>IL-5 / receptor</td><td>Mepolizumabe, benralizumabe</td></tr><tr><td>IL-4Rα</td><td>Dupilumabe</td></tr><tr><td>TSLP</td><td>Tezepelumabe</td></tr></table>",
+   "pegadinha": "Escolha pelo fenótipo (alérgico, eosinofílico).",
+   "fonte": "GINA",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "DPOC",
+   "frente": "🫁 Diagnóstico de <b>DPOC</b>?",
+   "verso": "Espirometria pós-BD com <b>VEF₁/CVF &lt; 0,70</b> + sintomas/exposição.",
+   "fonte": "GOLD 2024",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "DPOC",
+   "frente": "🔤 Grupos <b>GOLD ABE</b> e tratamento inicial?",
+   "verso": "<table class=t><tr><th>Grupo</th><th>Critério</th><th>Início</th></tr><tr><td>A</td><td>0–1 exacerbação sem internação; poucos sintomas</td><td>Um broncodilatador</td></tr><tr><td>B</td><td>Mesmas exacerbações; mMRC ≥ 2 ou CAT ≥ 10</td><td><b>LABA + LAMA</b></td></tr><tr><td>E</td><td>≥ 2 exacerbações ou ≥ 1 internação</td><td>LABA + LAMA (+ ICS se eosinófilos ≥ 300)</td></tr></table>",
+   "fonte": "GOLD 2023/2024",
+   "imagem": "img_gold_abe.png",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "DPOC",
+   "frente": "🫧 <b>Oxigenoterapia domiciliar</b> no DPOC?",
+   "verso": "PaO₂ ≤ 55 ou SpO₂ ≤ 88%; ou PaO₂ 56–59 com cor pulmonale/Ht &gt; 55% → <b>≥ 15 h/dia</b> (↓ mortalidade).",
+   "fonte": "GOLD; NOTT/MRC",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "DPOC",
+   "frente": "🔥 Exacerbação do DPOC?",
+   "verso": "Broncodilatadores + <b>prednisona 40 mg × 5 dias</b> (REDUCE) + ATB se escarro purulento com ↑ dispneia/volume (Anthonisen) ou VM.",
+   "fonte": "GOLD; REDUCE JAMA 2013",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "DPOC",
+   "frente": "🛡️ Exacerbador frequente com eosinófilos baixos?",
+   "verso": "Considerar <b>azitromicina</b> (ex-tabagista) ou <b>roflumilaste</b> (VEF₁ &lt; 50% + bronquite crônica).",
+   "fonte": "GOLD 2024",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Derrame pleural e nódulo",
+   "frente": "💧 <b>Critérios de Light</b> (exsudato se ≥ 1)?",
+   "verso": "<ul><li>Proteína líquido/sérica &gt; 0,5</li><li>LDH líquido/sérica &gt; 0,6</li><li>LDH do líquido &gt; 2/3 do limite superior sérico</li></ul>",
+   "pegadinha": "Transudato com diurético pode 'virar' exsudato → gradiente de albumina &gt; 1,2 sugere transudato.",
+   "fonte": "Light 1972",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Derrame pleural e nódulo",
+   "frente": "🦠 Derrame parapneumônico: quando drenar?",
+   "verso": "pH <b>&lt; 7,2</b>, glicose &lt; 60, LDH &gt; 1.000, Gram/cultura positivos ou pus (empiema).",
+   "fonte": "BTS 2023",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Derrame pleural e nódulo",
+   "frente": "🧪 <b>ADA</b> no líquido pleural?",
+   "verso": "ADA &gt; 40 U/L em derrame <b>linfocítico</b> → forte suspeita de tuberculose pleural.",
+   "fonte": "Pneumologia",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Derrame pleural e nódulo",
+   "frente": "⚪ Nódulo pulmonar: sinais de malignidade?",
+   "verso": "Espiculado, &gt; 8 mm, crescimento, lobo superior, tabagismo → seguir Fleischner / PET / biópsia.",
+   "pegadinha": "Calcificação em pipoca = hamartoma (benigno).",
+   "fonte": "Fleischner 2017",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Derrame pleural e nódulo",
+   "frente": "🚬 Rastreamento de <b>câncer de pulmão</b>?",
+   "verso": "TC de baixa dose anual: 50–80 anos, ≥ 20 maços-ano, fumante ou parou há &lt; 15 anos.",
+   "fonte": "USPSTF 2021",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intersticiais, sono e circulação pulmonar",
+   "frente": "🕸️ <b>Fibrose pulmonar idiopática</b>?",
+   "verso": "Padrão PIU (faveolamento basal subpleural) → <b>nintedanibe ou pirfenidona</b>; ❌ corticoide.",
+   "fonte": "ATS/ERS 2022",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intersticiais, sono e circulação pulmonar",
+   "frente": "🫁 <b>Sarcoidose</b>?",
+   "verso": "Linfonodomegalia hilar bilateral, granulomas não caseosos, hipercalcemia, ECA ↑<br>Síndrome de Löfgren: eritema nodoso + adenopatia hilar + artrite (bom prognóstico)",
+   "fonte": "ATS 2020",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intersticiais, sono e circulação pulmonar",
+   "frente": "😴 <b>Apneia obstrutiva do sono</b>: gravidade?",
+   "verso": "<table class=t><tr><th>IAH (eventos/h)</th><th>Gravidade</th></tr><tr><td>5–14</td><td>Leve</td></tr><tr><td>15–29</td><td>Moderada</td></tr><tr><td>≥ 30</td><td>Grave → CPAP</td></tr></table>",
+   "pegadinha": "Rastreio: STOP-BANG.",
+   "fonte": "AASM",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intersticiais, sono e circulação pulmonar",
+   "frente": "📏 Definição hemodinâmica de <b>hipertensão pulmonar</b>?",
+   "verso": "PAPm <b>&gt; 20 mmHg</b> no cateterismo direito (ESC 2022); grupos 1–5 por etiologia.",
+   "fonte": "ESC/ERS 2022",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  },
+  {
+   "subtema": "Intersticiais, sono e circulação pulmonar",
+   "frente": "🩸 <b>TEP</b> estável: diagnóstico e duração da anticoagulação?",
+   "verso": "Wells/PERC → D-dímero (ajustado à idade: idade × 10 se &gt; 50 anos) → angio-TC<br>⏱️ Fator transitório: <b>3 meses</b> | não provocado ou fator persistente: estender (indefinido)",
+   "fonte": "ESC 2019",
+   "tags": [
+    "R3CM",
+    "T02",
+    "cm1"
+   ]
+  }
+ ],
+ "midia": {
+  "img_gold_abe.png": "data/media/img_gold_abe.png"
+ }
+}
