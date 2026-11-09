@@ -95,6 +95,18 @@ html.lay-desktop #v-inicio>#metaHome,html.lay-desktop #v-inicio>#resumeBox,html.
 html.lay-desktop .mcCard,html.lay-desktop .qz{max-width:900px;margin-left:auto;margin-right:auto}
 @media(max-width:640px){.xpBadge small{display:none}.xpBadge{min-width:0;max-width:96px}#layBtn{padding:6px 8px}.layTx{display:none}.brand h1{font-size:15px;white-space:nowrap}.brand small{display:none}#sync{font-size:11px;padding:4px 7px}}
 html.lay-mobile .layTx{display:none}html.lay-mobile .brand h1{font-size:15px;white-space:nowrap}html.lay-mobile #sync{font-size:11px;padding:4px 7px}html.lay-mobile .xpBadge{max-width:96px}html.lay-mobile #layBtn{padding:6px 8px}
+.qzImg{display:block;max-width:100%;margin:12px auto 0;border-radius:10px;border:1px solid var(--line)}
+.chk{font-weight:700;font-size:14px;color:var(--mut)}.chk.on{color:#5be38a}
+.qzWhy{display:grid;gap:4px;margin-top:6px;font-size:14px}.qzWhy div{padding:6px 8px;border-radius:8px;background:#121a24}.qzWhy div.ok{background:#10261a}.qzWhy b{color:var(--gold2);margin-right:4px}
+.qzPega{margin-top:8px;padding:8px 10px;border-radius:8px;background:#2a2210;border:1px solid #6b5520}.mcCom{margin-top:14px;font-size:15px}
+.jrHead{display:flex;gap:14px;align-items:center}.jrBig{font-size:46px}
+.jrRank td,.jrRank th{padding:6px 10px}.jrRank tr.me td{background:#14324066;font-weight:700}
+.achSum{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:6px;color:var(--mut)}.achSum b{color:var(--gold2)}.achH{margin:14px 0 6px;color:var(--gold)}
+.achGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.ach{display:flex;gap:10px;align-items:flex-start;padding:10px;border-radius:12px;border:1px solid var(--line);background:#0f151d;opacity:.6}.ach.on{opacity:1;border-color:#6b5520;background:linear-gradient(135deg,#2a221066,#0f151d)}
+.achIc{font-size:30px;line-height:1}.achTx{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}.achTx small{color:var(--mut);font-size:11.5px}.achTx .achD{color:#5be38a}
+html.lay-mobile .achGrid{grid-template-columns:1fr}
+html{background:#0b0e13}
 .metaBar{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:12px}.metaBar.compact{padding:6px 10px;margin:6px 0 8px;font-size:13px}.mbHead{display:flex;gap:8px;align-items:center;margin-bottom:6px;color:var(--gold)}.mbEdit{margin-left:auto;font-size:13px;color:var(--cy);text-decoration:none}.mbRow{display:flex;gap:14px;flex-wrap:wrap}.mbItem{flex:1;min-width:150px}.mbLbl{font-size:13px;color:var(--mut);margin-bottom:4px}.mbLbl b{color:var(--txt)}.mbTrack{height:7px;background:#1b2330;border-radius:6px;overflow:hidden}.mbTrack i{display:block;height:100%;border-radius:6px;transition:width .3s}
 .metaBox{max-width:640px;margin:18px auto;padding:16px;border:1px solid var(--line);border-radius:14px;background:#111821;text-align:left;color:var(--txt)}.metaBox h3{margin:0 0 8px;color:var(--gold)}.metaNow{margin:6px 0;color:var(--mut)}.metaRow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}.metaRow input{background:#0b1017;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:8px}
 .drop{border:2px dashed var(--line);border-radius:var(--r);padding:26px;text-align:center;color:var(--mut);cursor:pointer}
@@ -149,6 +161,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <a href="#estudar" data-v="estudar">🎴 Estudar</a>
   <a href="#questoes" data-v="questoes">❓ Questões</a>
   <a href="#micro" data-v="micro">💊 Micro</a>
+  <a href="#jornada" data-v="jornada">🏆 Jornada</a>
   <a href="#buscar" data-v="buscar">🔎 Buscar</a>
   <a href="#importar" data-v="importar">📥 Importar</a>
   <a href="#prompt" data-v="prompt">🤖 Prompt IA</a>
@@ -198,6 +211,9 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 
 <!-- MICROPARTÍCULAS -->
 <section class="view" id="v-micro"><div id="mcHost"></div></section>
+
+<!-- JORNADA -->
+<section class="view" id="v-jornada"><div id="jrHost"></div></section>
 
 <!-- BUSCAR -->
 <section class="view" id="v-buscar">

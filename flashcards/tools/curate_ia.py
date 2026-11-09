@@ -81,15 +81,17 @@ if __name__ == "__main__":
         media = sorted({m for c in cards for m in re.findall(r'data-m="([^"]+)"', c["verso"])})
         json.dump({"formato": "codice360x-v1", "baralho": f"Outras IAs ✅ curadas::TEMI 360X 3000::{tema}", "cards": cards, "midia": {m: f"data/media/{m}" for m in media}}, open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
         files.append({"colecao": "iac", "arquivo": f"data/decks/{fn}", "tema": "Outras IAs ✅ › TEMI 360X 3000 › " + tema, "cards": len(cards), "subtemas": sorted({c["subtema"] for c in cards})})
-    for path in sorted(glob.glob(f"{OUT}/data/decks/ia-b-temi-2028-*.json")):
-        m = re.search(r"ia-b-temi-2028-(\d\d)-", path); slug = os.path.basename(path)[len("ia-b-temi-2028-"):-5]
-        kp = f"B{m.group(1)}" if m else NAMED_B.get(slug)
+    for path in sorted(glob.glob(f"{OUT}/data/decks/ia-b-*.json")):
+        b = os.path.basename(path); m = re.search(r"ia-b-temi-2028-(\d\d)-", b); slug = b[len("ia-b-temi-2028-"):-5]
+        r3 = re.match(r"ia-b-r3-clnica-mdica-([abc])-", b)
+        kp = f"B{m.group(1)}" if m else (NAMED_B.get(f"r3-{r3.group(1)}") if r3 else NAMED_B.get(slug))
         if not kp or kp not in DONE_IA: continue
         d, cards = curate_flat_b(path, kp); tema = d["baralho"].split("::")[-1]
         removed.append(f"data/decks/{os.path.basename(path)}"); fn = os.path.basename(path).replace("ia-b-", "iac-b-")
         media = sorted({x for c in cards for x in re.findall(r'data-m="([^"]+)"', c["verso"])})
-        json.dump({"formato": "codice360x-v1", "baralho": f"Outras IAs ✅ curadas::TEMI 2028::{tema}", "cards": cards, "midia": {x: f"data/media/{x}" for x in media}}, open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
-        files.append({"colecao": "iac", "arquivo": f"data/decks/{fn}", "tema": "Outras IAs ✅ › TEMI 2028 › " + tema, "cards": len(cards), "subtemas": sorted({c["subtema"] for c in cards})})
+        root = "R3 Clínica Médica" if r3 else "TEMI 2028"
+        json.dump({"formato": "codice360x-v1", "baralho": f"Outras IAs ✅ curadas::{root}::{tema}", "cards": cards, "midia": {x: f"data/media/{x}" for x in media}}, open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
+        files.append({"colecao": "iac", "arquivo": f"data/decks/{fn}", "tema": f"Outras IAs ✅ › {root} › " + tema, "cards": len(cards), "subtemas": sorted({c["subtema"] for c in cards})})
         print(f"{tema}: {len(d['cards'])} → {len(cards)}")
     if DUMP: open("/home/claude/imp/iaA_unique.txt", "w").write("\n".join(dump))
     print("conceitos", stats[0], "duplicados", stats[1], "cards curados", stats[2])

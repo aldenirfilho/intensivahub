@@ -1,7 +1,7 @@
 # 🛡️ CÓDICE 360X · Flashcards TEMI
 
 > App próprio de flashcards com **repetição espaçada** (estilo Anki) para a prova **TEMI 2028** (AMIB) e o **R3 de Clínica Médica**.
-> **v5.0 · app 4.0.0 · 7.763 notas + 200 questões + 200 micropartículas** — 🏛️ TEMI 2028 **1.625** · 🩺 R3 Clínica Médica **334** · 🧩 Números de ouro **103** · ✅ IAs 360X curados **4.582** · 🤖 Grok **303** · 🧹 Outras IAs curadas **568** · 📦 Outras IAs **248** (R3 A–C e TEMI 07–13) · ❓ Questões (100 TEMI + 100 R3) · 💊 Micropartículas (100 TEMI + 100 R3) · ⚔️ XP e níveis · 📱/🖥️ visualização celular e desktop · 🧪 simulado por tema + histórico semanal · 🎯 meta diária.
+> **v5.1 · app 4.1.0 · 7.732 notas + 260 questões + 200 micropartículas** — 🏛️ TEMI 2028 **1.625** · 🩺 R3 **334** · 🧩 Números de ouro **103** · ✅ IAs 360X curados **4.582** · 🤖 Grok **303** · 🧹 Outras IAs curadas **785** (curadoria 100%) · ❓ Questões 130 TEMI + 130 R3 com comentário por alternativa · 💊 Micropartículas com comentário · 🏆 Jornada: 69 conquistas (medalhas, troféus, títulos, brasões, honrarias), ranking semanal e painel de XP · 📱/🖥️ celular e desktop.
 
 ☁️ **Versão com sincronização automática entre aparelhos:** página do Claude (privada, abre logado) — o progresso fica na sua conta.
 💾 **Esta versão (GitHub Pages):** mesma interface, salva só no aparelho (use Backup para levar o progresso).
