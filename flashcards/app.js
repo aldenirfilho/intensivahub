@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.2.0";
+const APP_VERSION = "4.2.1";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -413,23 +413,68 @@ async function upsertUser(raws) {
 }
 
 /* ---------------- Coleções oficiais ---------------- */
+// Carregamento robusto: concorrência limitada, novas tentativas e cópia local (IndexedDB) de cada baralho.
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+async function fetchJSON(url, tries = 3, fresh = false) {
+  let err;
+  for (let i = 0; i < tries; i++) {
+    try {
+      const r = await fetch(url, { cache: fresh || i ? "no-cache" : "default" });
+      if (!r.ok) throw new Error(r.status + " " + url);
+      return await r.json();
+    } catch (e) { err = e; if (i < tries - 1) await sleep(500 * (i + 1) * (i + 1)); }
+  }
+  throw err;
+}
+let officialRetry = 0;
 async function loadOfficial() {
-  try {
-    const idx = await (await fetch("data/index.json", { cache: "no-cache" })).json();
-    S.index = idx;
-    const cols = (S.settings && S.settings.cols) || {};
-    const files = await Promise.all(idx.decks.filter(d => cols[d.colecao || "temi"] !== false).map(d => fetch(d.arquivo).then(r => r.json()).then(j => ({ d, j }))));
-    const list = []; let ord = 0;
-    for (const { d, j } of files) {
-      Object.assign(S.mediaPath, j.midia || {});
-      for (const r of normalizeCards(j)) {
-        const { q, a } = codiceHTML(r, r.cloze);
-        list.push({ id: rawId(r), deck: r.deck, q, a, style: "codice", tags: r.tags, ord: ord++, col: d.colecao || "temi", official: true,
-          txt: (strip(r.f) + " " + strip(r.b) + " " + strip(r.x) + " " + strip(r.s) + " " + r.tags.join(" ")).toLowerCase() });
+  let idx = null, offline = false;
+  try { idx = await fetchJSON("data/index.json", 3, true); }
+  catch (e) { console.error(e); idx = await DB.meta("offIndex", null).catch(() => null); offline = true; }
+  if (!idx) { toast("⚠️ Sem conexão para baixar as coleções. Seus cards próprios e o progresso continuam salvos."); scheduleOfficialRetry(); return; }
+  S.index = idx;
+  if (!offline) DB.setMeta("offIndex", idx).catch(() => {});
+  const cols = (S.settings && S.settings.cols) || {};
+  const decks = idx.decks.filter(d => cols[d.colecao || "temi"] !== false);
+  const cachedVer = await DB.meta("offCacheVer", "").catch(() => ""), needCache = cachedVer !== idx.versao;
+  const res = new Array(decks.length), failed = []; let next = 0, fromCache = 0;
+  async function worker() {
+    while (next < decks.length) {
+      const i = next++, d = decks[i]; let j = null;
+      if (!offline) {
+        try { j = await fetchJSON(d.arquivo); if (needCache) DB.setMeta("deck:" + d.arquivo, j).catch(() => {}); }
+        catch (e) { console.warn("baralho falhou", d.arquivo, e); }
       }
+      if (!j) { j = await DB.meta("deck:" + d.arquivo, null).catch(() => null); if (j) fromCache++; else failed.push(d.arquivo); }
+      res[i] = j;
     }
-    S.official = list;
-  } catch (e) { console.error(e); toast("⚠️ Não consegui carregar as coleções oficiais."); }
+  }
+  await Promise.all(Array.from({ length: Math.min(6, decks.length) }, worker));
+  if (!failed.length && !offline && needCache) DB.setMeta("offCacheVer", idx.versao).catch(() => {});
+  const list = []; let ord = 0;
+  decks.forEach((d, i) => {
+    const j = res[i]; if (!j) return;
+    Object.assign(S.mediaPath, j.midia || {});
+    for (const r of normalizeCards(j)) {
+      const { q, a } = codiceHTML(r, r.cloze);
+      list.push({ id: rawId(r), deck: r.deck, q, a, style: "codice", tags: r.tags, ord: ord++, col: d.colecao || "temi", official: true,
+        txt: (strip(r.f) + " " + strip(r.b) + " " + strip(r.x) + " " + strip(r.s) + " " + r.tags.join(" ")).toLowerCase() });
+    }
+  });
+  if (list.length || !S.official) S.official = list;
+  if (failed.length) { toast(`⚠️ ${failed.length} de ${decks.length} baralhos não baixaram agora; vou tentar de novo sozinho. O restante já está liberado.`); scheduleOfficialRetry(); }
+  else if (offline || fromCache) toast(`📦 Sem internet estável: usando a cópia salva no aparelho (${fromCache || decks.length} baralhos).`);
+  if (!failed.length) officialRetry = 0;
+}
+document.addEventListener("click", async e => {
+  if (!e.target.closest || !e.target.closest("#reloadCols")) return;
+  toast("⏳ Baixando as coleções de novo…"); await DB.setMeta("offCacheVer", "").catch(() => {});
+  officialRetry = 0; await loadOfficial(); rebuildCards(); try { rerender(); } catch (er) { route(); }
+  toast(`✅ ${S.official.length} cards oficiais carregados`);
+});
+function scheduleOfficialRetry() {
+  if (officialRetry >= 4) return; officialRetry++;
+  setTimeout(async () => { await loadOfficial(); rebuildCards(); try { rerender(); } catch (e) { route(); } }, 15000 * officialRetry);
 }
 
 /* ---------------- Renderização segura ---------------- */
