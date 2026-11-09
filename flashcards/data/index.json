@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.09-r3t",
+ "versao": "2026.11.09-pega",
  "colecoes": [
   {
    "id": "ouro",
@@ -12,13 +12,13 @@
    "id": "temi",
    "nome": "TEMI 2028",
    "icone": "🏥",
-   "cards": 1625
+   "cards": 2025
   },
   {
    "id": "cm",
    "nome": "R3 Clínica Médica",
    "icone": "🩺",
-   "cards": 1334
+   "cards": 1734
   },
   {
    "id": "iac",
@@ -2886,6 +2886,62 @@
     "Intoxicações",
     "Enfermaria e perioperatório",
     "Distúrbios ambientais e outros"
+   ]
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/pega-temi.json",
+   "tema": "🎯 Pegadinhas 360X · 🏥 TEMI",
+   "cards": 400,
+   "subtemas": [
+    "Cardiologia intensiva",
+    "Desmame e VNI",
+    "Eletrólitos",
+    "Endocrinologia",
+    "Estatística",
+    "Gastro e nutrição",
+    "Hematologia",
+    "Hemodinâmica",
+    "Infecções na UTI",
+    "Medicina intensiva geral",
+    "Nefrologia e distúrbios",
+    "Neurointensivismo",
+    "Obstetrícia",
+    "Oncologia na UTI",
+    "PCR e pós-PCR",
+    "POCUS",
+    "Qualidade e segurança",
+    "Sedação e delirium",
+    "Sepse e choque",
+    "Toxicologia",
+    "Trauma e queimados",
+    "Ventilação e SDRA",
+    "Ácido-base",
+    "Ética, paliativos e morte encefálica"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/pega-r3.json",
+   "tema": "🎯 Pegadinhas 360X · 🩺 R3",
+   "cards": 400,
+   "subtemas": [
+    "Cardiologia",
+    "Clínica integrada",
+    "Dermatologia",
+    "Endocrinologia",
+    "Gastroenterologia",
+    "Geriatria",
+    "Hematologia",
+    "Infectologia",
+    "MBE",
+    "Medicina preventiva",
+    "Nefrologia",
+    "Neurologia",
+    "Oncologia",
+    "Pneumologia",
+    "Psiquiatria",
+    "Reumatologia"
    ]
   }
  ]
