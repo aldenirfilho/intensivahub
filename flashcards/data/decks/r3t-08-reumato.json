@@ -1,0 +1,657 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::08 🦴 Reumatologia",
+ "cards": [
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "✋ Critérios ACR/EULAR 2010 para artrite reumatoide?",
+   "verso": "<table class=t><tr><th>Domínio</th><th>Pontos</th></tr><tr><td>Articulações (1 grande a &gt; 10 com ≥ 1 pequena)</td><td>0–5</td></tr><tr><td>Sorologia (FR/anti-CCP baixo ou alto título)</td><td>0–3</td></tr><tr><td>Provas inflamatórias (VHS/PCR alterados)</td><td>0–1</td></tr><tr><td>Duração ≥ 6 semanas</td><td>0–1</td></tr></table><b>≥ 6/10</b> = AR definida (com sinovite em ≥ 1 articulação sem outra causa).",
+   "fonte": "ACR/EULAR 2010",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🧪 Anti-CCP × fator reumatoide?",
+   "verso": "<table class=t><tr><th></th><th>Anti-CCP</th><th>FR</th></tr><tr><td>Especificidade</td><td><b>~95%</b></td><td>~85%</td></tr><tr><td>Precoce</td><td>Sim, anos antes</td><td>Menos</td></tr><tr><td>Prognóstico</td><td>Doença erosiva</td><td>Manifestações extra-articulares</td></tr></table>",
+   "pegadinha": "FR positivo em hepatite C, endocardite, Sjögren, idosos saudáveis.",
+   "fonte": "EULAR",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🎯 Estratégia treat-to-target na AR?",
+   "verso": "Alvo: <b>remissão</b> ou baixa atividade (DAS28, CDAI).<br><ul><li><b>Metotrexato</b> + corticoide em ponte (desmame em 3 meses)</li><li>Sem alvo em 3–6 meses: + biológico (anti-TNF, abatacepte, tocilizumabe, rituximabe) ou JAKi</li></ul>",
+   "fonte": "EULAR 2022",
+   "imagem": "r3t_08_44bcec0e.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "⚠️ Metotrexato: cuidados?",
+   "verso": "<ul><li><b>Ácido fólico</b> semanal (reduz efeitos)</li><li>Hemograma, transaminases, creatinina periódicos</li><li><b>Contraindicado</b>: gestação (suspender 3 meses antes), TFG &lt; 30, hepatopatia, etilismo</li><li>Pneumonite (rara)</li></ul>",
+   "pegadinha": "Interação grave: <b>SMX-TMP</b> (mielotoxicidade).",
+   "fonte": "ACR 2021",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "💊 Inibidores de JAK: alerta de segurança?",
+   "verso": "ORAL Surveillance (tofacitinibe): ↑ eventos CV maiores, câncer, TEV vs anti-TNF em &gt; 50 anos com fator de risco.<br>Reservar em &gt; 65 anos, tabagistas, alto risco CV/câncer.<br><ul><li>Herpes-zóster aumentado</li></ul>",
+   "fonte": "ORAL Surveillance 2022; EMA",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🧪 Corticoide crônico em doença reumatológica: proteção?",
+   "verso": "<ul><li>Cálcio + vitamina D; densitometria; bisfosfonato conforme risco</li><li>Rastrear <b>TB latente</b>, estrongiloidíase (áreas endêmicas)</li><li>Vacinas inativadas; PJP se dose alta + outro imunossupressor</li><li>Glicemia, PA, catarata, glaucoma</li></ul>",
+   "fonte": "ACR 2022",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🧬 Antes de anti-TNF: o que rastrear?",
+   "verso": "<ul><li><b>TB latente</b> (PPD/IGRA + RX)</li><li>Hepatites B e C, HIV</li><li>Vacinas atualizadas</li></ul>",
+   "pegadinha": "Contraindicações relativas: IC classe III–IV, doença desmielinizante, infecção ativa.",
+   "fonte": "SBR; ACR 2021",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🧪 Artrite reumatoide e gestação?",
+   "verso": "Muitas mulheres <b>melhoram</b> na gestação e pioram no pós-parto.<br><ul><li>Permitidos: hidroxicloroquina, sulfassalazina, prednisona, <b>certolizumabe</b></li><li>Suspender <b>MTX</b> e leflunomida (colestiramina para washout)</li></ul>",
+   "fonte": "ACR 2020",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🦋 Critérios EULAR/ACR 2019 para LES?",
+   "verso": "<b>Critério de entrada: FAN ≥ 1:80</b>.<br>Depois, domínios clínicos e imunológicos ponderados; <b>≥ 10 pontos</b> com ≥ 1 critério clínico.<br><ul><li>Maiores pesos: nefrite lúpica classe III/IV (10), classe II/V (8), anti-dsDNA/anti-Sm (6)</li></ul>",
+   "fonte": "EULAR/ACR 2019",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🧪 Autoanticorpos no LES e seu significado?",
+   "verso": "<table class=t><tr><th>Anticorpo</th><th>Significado</th></tr><tr><td>FAN</td><td>Sensível (~98%), pouco específico</td></tr><tr><td><b>Anti-dsDNA</b></td><td>Específico; nefrite; varia com atividade</td></tr><tr><td><b>Anti-Sm</b></td><td>Muito específico</td></tr><tr><td>Anti-Ro/SSA</td><td>Lúpus neonatal (<b>BAV congênito</b>), cutâneo subagudo</td></tr><tr><td>Antifosfolípides</td><td>Trombose, abortamento</td></tr><tr><td>Anti-histona</td><td><b>Lúpus induzido</b></td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_08_f0aa74db.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🔬 Classes da nefrite lúpica (ISN/RPS)?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Lesão</th><th>Conduta</th></tr><tr><td>I–II</td><td>Mesangial</td><td>Sem imunossupressão específica</td></tr><tr><td>III–IV</td><td><b>Proliferativa</b> focal/difusa</td><td>Indução: micofenolato ou ciclofosfamida + corticoide</td></tr><tr><td>V</td><td>Membranosa</td><td>Imunossupressão se nefrótica</td></tr><tr><td>VI</td><td>Esclerose &gt; 90%</td><td>Preparar TRS</td></tr></table>",
+   "fonte": "KDIGO 2024 LES",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🤰 Lúpus e gestação?",
+   "verso": "<ul><li>Planejar com doença <b>inativa há ≥ 6 meses</b></li><li>Manter <b>hidroxicloroquina</b></li><li>Trocar micofenolato/MTX por azatioprina</li><li>AAS em dose baixa (pré-eclâmpsia)</li><li>Anti-Ro: monitorar <b>BAV fetal</b> (eco fetal 16–26 semanas)</li></ul>",
+   "fonte": "EULAR 2017",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🩸 Síndrome antifosfolípide: critérios?",
+   "verso": "Clínico: <b>trombose</b> ou morbidade gestacional (≥ 3 abortos &lt; 10 semanas, óbito fetal ≥ 10 semanas, parto &lt; 34 semanas por pré-eclâmpsia/insuficiência placentária).<br>Laboratório <b>persistente</b> (≥ 12 semanas): anticoagulante lúpico, anticardiolipina ou anti-β2GPI em título médio/alto.",
+   "fonte": "ACR/EULAR 2023; Sydney 2006",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🧪 Marcadores de atividade do LES?",
+   "verso": "<ul><li><b>Anti-dsDNA</b> subindo</li><li><b>C3/C4</b> caindo</li><li>Hematúria, proteinúria, citopenias</li></ul>",
+   "pegadinha": "PCR geralmente normal no surto; PCR muito alta sugere <b>infecção</b> ou serosite.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "💊 Belimumabe e anifrolumabe no LES?",
+   "verso": "<ul><li><b>Belimumabe</b> (anti-BLyS): LES ativo e nefrite lúpica (BLISS-LN)</li><li><b>Anifrolumabe</b> (anti-IFN tipo I): LES moderado-grave sem nefrite grave</li></ul>",
+   "fonte": "EULAR 2023",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🧪 Lúpus neuropsiquiátrico: manifestações?",
+   "verso": "<ul><li>Convulsões, psicose, AVC, mielite, mononeurite</li><li>Cefaleia e transtornos de humor (atribuição difícil)</li></ul>Excluir infecção e drogas; anticorpos antifosfolípides/anti-P ribossomal.",
+   "fonte": "EULAR 2010",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🧪 Anemia hemolítica e plaquetopenia no LES: tratamento?",
+   "verso": "Corticoide; refratários: rituximabe, micofenolato, IgIV; sempre excluir <b>PTT</b> e SAF.",
+   "fonte": "EULAR 2023",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🫁 Esclerose sistêmica: limitada × difusa?",
+   "verso": "<table class=t><tr><th></th><th>Limitada (CREST)</th><th>Difusa</th></tr><tr><td>Pele</td><td>Distal aos cotovelos/joelhos e face</td><td>Proximal, tronco</td></tr><tr><td>Anticorpo</td><td><b>Anticentrômero</b></td><td><b>Anti-Scl-70</b>, anti-RNA pol III</td></tr><tr><td>Complicação</td><td><b>Hipertensão pulmonar</b></td><td>Intersticial, <b>crise renal</b></td></tr></table>",
+   "fonte": "ACR/EULAR 2013",
+   "imagem": "r3t_08_5cdcda84.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "💧 Síndrome de Sjögren?",
+   "verso": "<ul><li>Xeroftalmia e xerostomia</li><li><b>Anti-Ro/SSA</b>, anti-La/SSB, FR positivo</li><li>Teste de Schirmer, biópsia de glândula salivar menor (foco ≥ 1)</li><li>Risco aumentado de <b>linfoma</b> (MALT) — 5–10×</li></ul>",
+   "fonte": "ACR/EULAR 2016",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "💪 Dermatomiosite × polimiosite?",
+   "verso": "<ul><li>Fraqueza <b>proximal simétrica</b>, CK alta</li><li>Dermatomiosite: <b>heliótropo</b>, <b>pápulas de Gottron</b>, sinal do xale</li><li>Anti-Jo-1: síndrome antissintetase (intersticial, mãos de mecânico)</li><li>Anti-MDA5: intersticial rapidamente progressiva</li></ul>Dermatomiosite: rastrear <b>neoplasia</b> (ovário, pulmão, TGI).",
+   "fonte": "EULAR/ACR 2017",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🧪 Doença mista do tecido conjuntivo?",
+   "verso": "Características de LES, esclerodermia e polimiosite + <b>anti-U1-RNP</b> em alto título.<br><ul><li>Raynaud, mãos edemaciadas (\"puffy hands\")</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🖐️ Raynaud primário × secundário?",
+   "verso": "<table class=t><tr><th></th><th>Primário</th><th>Secundário</th></tr><tr><td>Idade</td><td>Jovem</td><td>&gt; 30–40 anos</td></tr><tr><td>FAN</td><td>Negativo</td><td>Positivo</td></tr><tr><td>Capilaroscopia</td><td>Normal</td><td><b>Alterada</b></td></tr><tr><td>Úlceras digitais</td><td>Não</td><td>Sim</td></tr></table>Tratamento: aquecimento, <b>BCC</b> (nifedipino).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🫁 Hipertensão pulmonar na esclerodermia: rastreio?",
+   "verso": "<b>Eco anual</b> + DLCO; algoritmo DETECT.<br>Principal causa de morte junto com doença intersticial.",
+   "fonte": "EULAR 2023",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "💊 Úlceras digitais na esclerodermia?",
+   "verso": "BCC, <b>inibidor de PDE-5</b>, bosentana (prevenção), iloprosta IV.",
+   "fonte": "EULAR 2023",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🧪 Miosite por estatina × miopatia necrosante autoimune?",
+   "verso": "Miopatia necrosante: CK muito alta que <b>persiste após suspender</b> a estatina; <b>anti-HMGCR</b> positivo → imunossupressão.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🧪 Síndrome de Sjögren: manifestações sistêmicas?",
+   "verso": "<ul><li>Nefrite intersticial com <b>ATR distal</b></li><li>Neuropatia sensitiva, crioglobulinemia</li><li>Pneumopatia (PIL), linfoma</li></ul>ESSDAI mede atividade.",
+   "fonte": "EULAR 2019",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🧪 Doença relacionada a IgG4?",
+   "verso": "Pancreatite autoimune, colangite, sialoadenite, fibrose retroperitoneal, aortite; <b>IgG4 sérica alta</b>, plasmócitos IgG4+ e fibrose estoriforme.<br>Corticoide; rituximabe em recidivas.",
+   "fonte": "ACR/EULAR 2019",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🔥 Classificação das vasculites pelo tamanho do vaso?",
+   "verso": "<table class=t><tr><th>Vaso</th><th>Vasculites</th></tr><tr><td>Grande</td><td>Arterite de células gigantes, <b>Takayasu</b></td></tr><tr><td>Médio</td><td><b>Poliarterite nodosa</b>, Kawasaki</td></tr><tr><td>Pequeno ANCA</td><td>Granulomatose com poliangiite, poliangiite microscópica, EGPA</td></tr><tr><td>Pequeno imunocomplexo</td><td><b>IgA (Henoch-Schönlein)</b>, crioglobulinemia, anti-MBG</td></tr></table>",
+   "fonte": "Chapel Hill 2012",
+   "imagem": "r3t_08_737e9cbb.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "👃 Granulomatose com poliangiite (Wegener)?",
+   "verso": "<ul><li><b>Vias aéreas superiores</b> (sinusite, nariz em sela), pulmão (nódulos cavitados), <b>rim</b> (GNRP)</li><li><b>c-ANCA / anti-PR3</b></li><li>Biópsia: granulomas e vasculite necrosante</li></ul>Indução: corticoide + <b>rituximabe</b> ou ciclofosfamida.",
+   "fonte": "ACR/EULAR 2022",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🫁 EGPA (Churg-Strauss)?",
+   "verso": "<ul><li><b>Asma</b> de início tardio + <b>eosinofilia</b> + vasculite</li><li>Neuropatia (mononeurite múltipla), infiltrados pulmonares migratórios, cardiopatia</li><li>p-ANCA/MPO em ~40%</li></ul>Mepolizumabe nas formas recidivantes.",
+   "fonte": "ACR/EULAR 2022",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🧪 Poliarterite nodosa?",
+   "verso": "<ul><li>Vasculite de <b>médios vasos</b>, <b>ANCA negativo</b></li><li>Associação com <b>hepatite B</b></li><li>Mononeurite múltipla, HAS renovascular, dor abdominal, livedo, orquite</li><li><b>Poupa o pulmão</b> e não causa glomerulonefrite</li></ul>Angiografia: microaneurismas.",
+   "fonte": "ACR 2021",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🦵 Vasculite por IgA (Henoch-Schönlein)?",
+   "verso": "<ul><li><b>Púrpura palpável</b> em membros inferiores e nádegas</li><li>Artralgia, dor abdominal (intussuscepção em crianças)</li><li>Nefrite (hematúria)</li><li>Plaquetas <b>normais</b></li></ul>Adulto: maior risco renal.",
+   "fonte": "EULAR/PRINTO",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🧊 Crioglobulinemia mista?",
+   "verso": "<ul><li><b>Hepatite C</b> (principal)</li><li>Púrpura, artralgia, fraqueza (tríade de Meltzer)</li><li>Glomerulonefrite membranoproliferativa</li><li><b>C4 muito baixo</b>, FR positivo</li></ul>Tratar a hepatite C; rituximabe se grave.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "👄 Doença de Behçet?",
+   "verso": "<ul><li><b>Aftas orais recorrentes</b> (critério obrigatório clássico)</li><li>Úlceras genitais, uveíte, eritema nodoso</li><li><b>Patergia</b> positiva</li><li>Trombose venosa, aneurismas de artéria pulmonar</li></ul>",
+   "fonte": "ICBD 2014",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🧪 ANCA: padrões e associações?",
+   "verso": "<table class=t><tr><th>Padrão</th><th>Antígeno</th><th>Doença</th></tr><tr><td>c-ANCA</td><td><b>PR3</b></td><td>Granulomatose com poliangiite</td></tr><tr><td>p-ANCA</td><td><b>MPO</b></td><td>Poliangiite microscópica, EGPA, renal limitada</td></tr></table>Falso-positivo p-ANCA: RCU, colangite esclerosante, drogas (PTU, hidralazina, cocaína com levamisol).",
+   "fonte": "Revisões",
+   "imagem": "r3t_08_5564f663.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🫁 Doença de Kawasaki no adulto?",
+   "verso": "Rara em adultos; febre ≥ 5 dias, conjuntivite, lábios em morango, alterações de extremidades, rash, linfadenopatia; <b>aneurismas coronarianos</b>.<br>IgIV + AAS.",
+   "fonte": "AHA 2017",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🧪 Vasculite cutânea leucocitoclástica isolada?",
+   "verso": "Púrpura palpável após droga/infecção; biópsia; geralmente autolimitada com suspensão do gatilho.",
+   "pegadinha": "Sempre excluir envolvimento sistêmico (urina, função renal).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "🔙 Lombalgia inflamatória × mecânica?",
+   "verso": "<table class=t><tr><th></th><th>Inflamatória</th><th>Mecânica</th></tr><tr><td>Início</td><td><b>&lt; 40–45 anos</b>, insidioso</td><td>Qualquer idade</td></tr><tr><td>Rigidez matinal</td><td>&gt; 30 min</td><td>&lt; 30 min</td></tr><tr><td>Exercício</td><td><b>Melhora</b></td><td>Piora</td></tr><tr><td>Repouso</td><td>Piora</td><td>Melhora</td></tr><tr><td>Despertar noturno</td><td>2ª metade da noite</td><td>Raro</td></tr></table>",
+   "fonte": "ASAS 2009",
+   "imagem": "r3t_08_859828c3.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "🦴 Espondilite anquilosante: achados?",
+   "verso": "<ul><li>HLA-B27 (~90%)</li><li><b>Sacroiliíte</b> (RM detecta precoce), coluna em \"bambu\", sindesmófitos</li><li><b>Uveíte anterior aguda</b>, entesite, dactilite</li><li>Insuficiência aórtica, BAV</li></ul>AINE → anti-TNF/anti-IL-17.",
+   "fonte": "ASAS-EULAR 2022",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "🦵 Artrite reativa?",
+   "verso": "<ul><li>1–4 semanas após <b>uretrite</b> (Chlamydia) ou <b>disenteria</b> (Salmonella, Shigella, Campylobacter, Yersinia)</li><li>Oligoartrite assimétrica de MMII</li><li>Tríade: artrite + uretrite + conjuntivite</li><li>Ceratodermia blenorrágica, balanite circinada</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "🧴 Artrite psoriásica?",
+   "verso": "<ul><li>Comprometimento de <b>IFD</b>, dactilite (\"dedo em salsicha\"), <b>onicólise</b>/pitting</li><li>\"Lápis na xícara\" no RX; artrite mutilante</li><li>Pode preceder a psoríase cutânea</li></ul>CASPAR; MTX, anti-TNF, anti-IL-17, anti-IL-23.",
+   "fonte": "CASPAR 2006; GRAPPA 2021",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "🧪 HLA-B27: associações?",
+   "verso": "<ul><li>Espondilite anquilosante (~90%)</li><li>Artrite reativa</li><li><b>Uveíte anterior aguda</b></li><li>Artrite psoriásica axial e de DII</li></ul>",
+   "pegadinha": "HLA-B27 positivo em ~8% da população saudável: não é diagnóstico isolado.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "💊 Espondiloartrite axial: tratamento?",
+   "verso": "<ul><li><b>AINE</b> em dose plena (≥ 2 diferentes por 4 semanas)</li><li>Falha: anti-TNF ou <b>anti-IL-17</b> (secuquinumabe, ixequizumabe); JAKi</li><li>Exercício e fisioterapia</li></ul>",
+   "pegadinha": "DMARD sintético (MTX, sulfassalazina) <b>não</b> atua no axial.",
+   "fonte": "ASAS-EULAR 2022",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "🧪 Uveíte anterior aguda: emergência?",
+   "verso": "Olho vermelho <b>doloroso</b>, fotofobia, rubor perilímbico, pupila miótica → encaminhar oftalmo no mesmo dia.<br>Associações: HLA-B27, sarcoidose, Behçet, artrite juvenil.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "💎 Gota × pseudogota?",
+   "verso": "<table class=t><tr><th></th><th>Gota</th><th>Pseudogota (CPPD)</th></tr><tr><td>Cristal</td><td>Urato monossódico, <b>agulha</b>, birrefringência <b>negativa</b></td><td>Pirofosfato de cálcio, <b>romboide</b>, birrefringência <b>fracamente positiva</b></td></tr><tr><td>Local</td><td>1ª MTF (podagra)</td><td><b>Joelho</b>, punho</td></tr><tr><td>RX</td><td>Erosões em \"saca-bocado\"</td><td><b>Condrocalcinose</b></td></tr></table>",
+   "fonte": "ACR/EULAR",
+   "imagem": "r3t_08_9f77b46c.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🔬 Pseudogota: investigar o quê?",
+   "verso": "CPPD em &lt; 60 anos ou poliarticular: <b>hemocromatose</b>, <b>hiperparatireoidismo</b>, <b>hipomagnesemia</b>, hipofosfatasia, hipotireoidismo.",
+   "fonte": "EULAR 2011",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "💊 Hipouricemiante na gota: quando e como?",
+   "verso": "<ul><li>Indicações: <b>≥ 2 crises/ano</b>, tofos, erosão radiográfica, (1ª crise com DRC ≥ 3, ácido úrico &gt; 9 ou litíase)</li><li><b>Alopurinol</b> em dose baixa, titular até <b>ácido úrico &lt; 6</b> (&lt; 5 com tofos)</li><li>Profilaxia com colchicina por 3–6 meses ao iniciar</li></ul>",
+   "pegadinha": "Pesquisar HLA-B*58:01 em asiáticos/afrodescendentes (SJS).",
+   "fonte": "ACR 2020",
+   "imagem": "r3t_08_23c0db42.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "⚠️ Drogas que elevam o ácido úrico?",
+   "verso": "<ul><li><b>Tiazídicos</b> e diuréticos de alça</li><li>AAS em dose baixa</li><li>Ciclosporina, tacrolimus</li><li>Pirazinamida, etambutol</li><li>Álcool (cerveja), frutose</li></ul>",
+   "pegadinha": "<b>Losartana</b> e fenofibrato reduzem o ácido úrico.",
+   "fonte": "ACR 2020",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🦠 Artrite séptica: agentes e conduta?",
+   "verso": "<table class=t><tr><th>Contexto</th><th>Agente</th></tr><tr><td>Adulto geral</td><td><b>S. aureus</b></td></tr><tr><td>Jovem sexualmente ativo</td><td>Gonococo (poliartralgia, tenossinovite, pústulas)</td></tr><tr><td>Usuário de drogas IV</td><td>S. aureus, Pseudomonas (esternoclavicular)</td></tr><tr><td>Falciforme</td><td>Salmonella (osteomielite)</td></tr></table>Punção (&gt; 50 mil leucócitos) + ATB + <b>drenagem</b>.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🧪 Líquido sinovial: classificação?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Leucócitos/mm³</th></tr><tr><td>Normal</td><td>&lt; 200</td></tr><tr><td>Não inflamatório (OA)</td><td>200–2.000</td></tr><tr><td>Inflamatório (AR, cristais)</td><td>2.000–50.000</td></tr><tr><td>Séptico</td><td><b>&gt; 50.000</b> (&gt; 75% PMN)</td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_08_64e4e362.png",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "💊 Colchicina: interações perigosas?",
+   "verso": "Inibidores de CYP3A4/P-gp: <b>claritromicina</b>, ciclosporina, verapamil, diltiazem, cetoconazol → toxicidade (miopatia, mielossupressão).<br><ul><li>Reduzir dose na DRC</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "💊 Crise de gota: tratamento?",
+   "verso": "<ul><li><b>Colchicina</b> em dose baixa (1,2 mg + 0,6 mg em 1 h), ou</li><li><b>AINE</b>, ou</li><li><b>Corticoide</b> (oral, intra-articular)</li></ul>Não suspender alopurinol se já em uso.",
+   "fonte": "ACR 2020; AGREE 2010",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🦵 Artrite gonocócica disseminada?",
+   "verso": "<ul><li>Jovem sexualmente ativo</li><li><b>Tríade</b>: poliartralgia migratória, <b>tenossinovite</b>, lesões cutâneas pustulosas</li><li>Hemocultura, culturas de mucosas (NAAT)</li></ul><b>Ceftriaxona</b> 1 g/dia.",
+   "fonte": "CDC 2021",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🧪 Bursite séptica do olécrano × gota?",
+   "verso": "Punção do líquido: cultura e cristais; S. aureus é o agente típico; trauma/apoio repetido.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🦵 Osteoartrite × artrite reumatoide nas mãos?",
+   "verso": "<table class=t><tr><th></th><th>Osteoartrite</th><th>AR</th></tr><tr><td>Articulações</td><td><b>IFD</b> (Heberden), IFP (Bouchard), 1ª carpometacarpal</td><td><b>MCF, IFP, punhos</b></td></tr><tr><td>Rigidez</td><td>&lt; 30 min</td><td>&gt; 1 h</td></tr><tr><td>Laboratório</td><td>Normal</td><td>VHS/PCR, FR, anti-CCP</td></tr><tr><td>RX</td><td>Osteófitos, esclerose</td><td>Erosões, osteopenia periarticular</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "😩 Fibromialgia?",
+   "verso": "<ul><li>Dor difusa &gt; 3 meses, fadiga, sono não reparador, alterações cognitivas</li><li>Índice de dor generalizada + escala de gravidade de sintomas (ACR 2016)</li><li>Exames normais</li></ul><b>Exercício aeróbico</b> (maior evidência), TCC, duloxetina, amitriptilina, pregabalina.",
+   "fonte": "ACR 2016; EULAR 2017",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Doença de Still do adulto?",
+   "verso": "<ul><li>Febre em picos diários, <b>rash asalmonado</b> evanescente, artrite</li><li>Leucocitose neutrofílica, <b>ferritina muito alta</b> (fração glicosilada &lt; 20%)</li><li>FAN e FR negativos (critérios de Yamaguchi)</li></ul>",
+   "pegadinha": "Complicação: síndrome de ativação macrofágica.",
+   "fonte": "Yamaguchi 1992",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🦴 Síndrome do túnel do carpo?",
+   "verso": "<ul><li>Parestesias noturnas em território do <b>mediano</b> (1º ao 3º dedo e metade do 4º)</li><li><b>Tinel</b> e <b>Phalen</b> positivos</li><li>Associações: gestação, hipotireoidismo, DM, acromegalia, amiloidose, AR</li></ul>Eletroneuromiografia confirma.",
+   "fonte": "AAOS 2016",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🧪 Diagnóstico de FAN: padrões e associações?",
+   "verso": "<table class=t><tr><th>Padrão</th><th>Associação</th></tr><tr><td>Homogêneo</td><td>LES, lúpus induzido (anti-dsDNA, histona)</td></tr><tr><td>Pontilhado grosso</td><td>Anti-Sm, anti-RNP</td></tr><tr><td>Pontilhado fino</td><td>Anti-Ro, anti-La (Sjögren)</td></tr><tr><td>Centromérico</td><td><b>Esclerodermia limitada</b></td></tr><tr><td>Nucleolar</td><td>Esclerodermia difusa</td></tr><tr><td>Pontilhado fino denso (DFS70)</td><td><b>Indivíduos saudáveis</b></td></tr></table>",
+   "fonte": "Consenso Brasileiro de FAN (HEp-2)",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🦴 Osteoartrite de joelho: tratamento escalonado?",
+   "verso": "<ul><li><b>Exercício</b> e perda de peso (base)</li><li>AINE tópico → AINE oral</li><li>Corticoide intra-articular (alívio temporário)</li><li>Artroplastia nos refratários</li></ul>",
+   "pegadinha": "Glicosamina/condroitina e ácido hialurônico: evidência fraca.",
+   "fonte": "ACR 2019; OARSI 2019",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🦴 Ombro doloroso no adulto: causas?",
+   "verso": "<ul><li><b>Síndrome do impacto/tendinopatia do manguito</b> (mais comum)</li><li>Capsulite adesiva (DM, hipotireoidismo)</li><li>Ruptura do manguito (idoso, fraqueza)</li><li>Dor referida: cervical, <b>Pancoast</b>, isquemia cardíaca</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🧪 Eritema nodoso: causas?",
+   "verso": "<ul><li>Infecções: <b>estreptococo</b>, TB, hanseníase (ENH), fungos</li><li><b>Sarcoidose</b>, DII, Behçet</li><li>Drogas (anticoncepcional, sulfas), gestação</li></ul>Nódulos dolorosos em face anterior das pernas.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T08"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_08_44bcec0e.png": "data/media/r3t_08_44bcec0e.png",
+  "r3t_08_f0aa74db.png": "data/media/r3t_08_f0aa74db.png",
+  "r3t_08_5cdcda84.png": "data/media/r3t_08_5cdcda84.png",
+  "r3t_08_737e9cbb.png": "data/media/r3t_08_737e9cbb.png",
+  "r3t_08_5564f663.png": "data/media/r3t_08_5564f663.png",
+  "r3t_08_859828c3.png": "data/media/r3t_08_859828c3.png",
+  "r3t_08_9f77b46c.png": "data/media/r3t_08_9f77b46c.png",
+  "r3t_08_23c0db42.png": "data/media/r3t_08_23c0db42.png",
+  "r3t_08_64e4e362.png": "data/media/r3t_08_64e4e362.png"
+ }
+}

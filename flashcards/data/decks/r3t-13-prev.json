@@ -1,0 +1,379 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::13 📊 Preventiva e MBE",
+ "cards": [
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🎯 Princípios de Wilson-Jungner para rastreamento?",
+   "verso": "<ul><li>Doença importante, com fase pré-clínica detectável</li><li>Teste aceitável, sensível, barato</li><li>Tratamento precoce <b>muda o desfecho</b></li><li>Custo-efetivo e contínuo</li></ul>",
+   "fonte": "OMS 1968",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🩺 Rastreamentos recomendados no adulto (resumo USPSTF)?",
+   "verso": "<table class=t><tr><th>Condição</th><th>Quem</th></tr><tr><td>HAS</td><td>Todos ≥ 18 anos</td></tr><tr><td>DM2/pré-DM</td><td>35–70 anos com sobrepeso</td></tr><tr><td>Dislipidemia</td><td>Conforme risco (SBC: todos adultos)</td></tr><tr><td>Colorretal</td><td>45–75 anos</td></tr><tr><td>Pulmão</td><td>50–80, ≥ 20 maços-ano</td></tr><tr><td>HIV, HCV</td><td>Todos (HCV 18–79 anos)</td></tr><tr><td>Aneurisma de aorta</td><td>Homem 65–75 tabagista</td></tr><tr><td>Osteoporose</td><td>Mulher ≥ 65 (ou &lt; 65 com risco)</td></tr></table>",
+   "fonte": "USPSTF 2025",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🩺 Rastreamento de DM2 (ADA)?",
+   "verso": "Todos a partir de <b>35 anos</b>; antes se sobrepeso + fator de risco (familiar, HAS, SOP, DMG prévio, etnia).<br>Repetir a cada <b>3 anos</b> se normal.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🧪 Rastreamento de hepatite C e HIV?",
+   "verso": "Testar <b>todos os adultos</b> pelo menos uma vez (HCV: ≥ 18 anos; Brasil amplia a testagem rápida para população geral).",
+   "fonte": "USPSTF 2020; Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🧠 Rastreamento de depressão e de uso de álcool?",
+   "verso": "Rastrear depressão em adultos (PHQ-2/PHQ-9) quando houver estrutura de seguimento; álcool com <b>AUDIT-C</b>.",
+   "fonte": "USPSTF 2023",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🧪 Rastreio de aneurisma de aorta e de câncer de pele?",
+   "verso": "AAA: USG único em homens 65–75 tabagistas.<br>Pele: evidência insuficiente na população geral (USPSTF); examinar alto risco.",
+   "fonte": "USPSTF",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Vacinação do adulto",
+   "frente": "💉 Hepatite B: resposta vacinal?",
+   "verso": "Anti-HBs <b>≥ 10 mUI/mL</b> = imune.<br><ul><li>Profissionais de saúde: dosar 1–2 meses após o esquema</li><li>Não respondedor: repetir 3 doses; se persistir, considerar não respondedor</li></ul>",
+   "fonte": "PNI",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Vacinação do adulto",
+   "frente": "🦠 Vacina pneumocócica no adulto de risco?",
+   "verso": "Esquemas sequenciais (VPC13/15 → VPP23) ou <b>VPC20</b> isolada, conforme disponibilidade.<br><ul><li>Indicações: ≥ 60/65 anos, DPOC, IC, DM, DRC, asplenia, imunossupressão, fístula liquórica, implante coclear</li></ul>",
+   "fonte": "SBIm 2025; CDC",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Vacinação do adulto",
+   "frente": "💉 Herpes-zóster: vacina recombinante?",
+   "verso": "<b>Shingrix</b>: 2 doses (0 e 2–6 meses), ≥ 50 anos (ou ≥ 18 imunocomprometidos); eficácia &gt; 90%.<br>Pode ser aplicada em quem já teve zóster e em imunossuprimidos (não é viva).",
+   "fonte": "SBIm 2025",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Vacinação do adulto",
+   "frente": "🤰 Vacinas na gestação?",
+   "verso": "<ul><li><b>dTpa</b> a partir de 20 semanas (cada gestação)</li><li><b>Influenza</b> em qualquer idade gestacional</li><li><b>Hepatite B</b> se não vacinada</li><li>COVID-19</li><li><b>VSR</b> (32–36 semanas, onde disponível)</li></ul>",
+   "pegadinha": "Contraindicadas: vivas (tríplice viral, varicela, febre amarela salvo risco alto).",
+   "fonte": "PNI; FEBRASGO",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Vacinação do adulto",
+   "frente": "💉 Tríplice viral no adulto?",
+   "verso": "Até <b>29 anos</b>: 2 doses; <b>30–59 anos</b>: 1 dose (PNI).<br>Contraindicada na gestação e imunossupressão grave.",
+   "fonte": "PNI 2025",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Vacinação do adulto",
+   "frente": "💉 Influenza: grupos prioritários?",
+   "verso": "<ul><li>≥ 60 anos, crianças 6 meses–6 anos</li><li><b>Gestantes e puérperas</b></li><li>Doenças crônicas, imunossuprimidos</li><li>Profissionais de saúde, professores, população privada de liberdade, indígenas</li></ul>",
+   "fonte": "PNI 2025",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "📊 Sensibilidade × especificidade × valores preditivos?",
+   "verso": "<table class=t><tr><th>Medida</th><th>Fórmula</th><th>Uso</th></tr><tr><td>Sensibilidade</td><td>VP/(VP+FN)</td><td><b>Negativo exclui</b> (SnNout)</td></tr><tr><td>Especificidade</td><td>VN/(VN+FP)</td><td><b>Positivo confirma</b> (SpPin)</td></tr><tr><td>VPP</td><td>VP/(VP+FP)</td><td>↑ com prevalência</td></tr><tr><td>VPN</td><td>VN/(VN+FN)</td><td>↓ com prevalência</td></tr></table>",
+   "fonte": "Epidemiologia clínica",
+   "imagem": "r3t_13_1360a9f0.png",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "💊 NNT, RRA e RRR?",
+   "verso": "<ul><li><b>RRA</b> = risco controle − risco tratado</li><li><b>RRR</b> = RRA / risco controle</li><li><b>NNT</b> = 1 / RRA</li></ul>Exemplo: 10% → 6%: RRA 4%, RRR 40%, NNT 25.",
+   "fonte": "Epidemiologia clínica",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔬 Tipos de estudo e medida de associação?",
+   "verso": "<table class=t><tr><th>Estudo</th><th>Medida</th></tr><tr><td>Coorte</td><td><b>Risco relativo</b>, incidência</td></tr><tr><td>Caso-controle</td><td><b>Odds ratio</b></td></tr><tr><td>Transversal</td><td>Razão de prevalência</td></tr><tr><td>Ensaio clínico</td><td>RR, RRA, NNT, HR</td></tr></table>",
+   "fonte": "Epidemiologia clínica",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "📈 Pirâmide de evidências?",
+   "verso": "Base → topo: opinião de especialistas → série de casos → caso-controle → coorte → ensaio clínico randomizado → <b>revisão sistemática/metanálise</b>.<br>GRADE avalia certeza (alta, moderada, baixa, muito baixa).",
+   "fonte": "GRADE",
+   "imagem": "r3t_13_ed727090.png",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔁 Viés × confundimento?",
+   "verso": "<ul><li><b>Viés de seleção</b>: amostra não representativa</li><li><b>Viés de informação/aferição</b>: erro na medida (memória em caso-controle)</li><li><b>Confundimento</b>: terceira variável associada a exposição e desfecho → controlar por randomização, pareamento, estratificação, regressão</li></ul>",
+   "fonte": "Epidemiologia clínica",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "📈 Incidência × prevalência?",
+   "verso": "<b>Incidência</b>: casos <b>novos</b> em um período (risco).<br><b>Prevalência</b>: casos <b>existentes</b> (novos + antigos).<br>Prevalência ≈ incidência × duração; doença crônica com tratamento que prolonga a vida → <b>prevalência sobe</b>.",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🧮 Valor preditivo positivo e prevalência: exemplo?",
+   "verso": "Teste com sensibilidade e especificidade de 95%: com prevalência de <b>1%</b>, o VPP é ~<b>16%</b>; com prevalência de 50%, ~95%.<br>Por isso, rastreio em baixa prevalência gera muitos falsos-positivos.",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "📊 Hazard ratio e intervalo de confiança?",
+   "verso": "HR &lt; 1 favorece a intervenção; IC 95% que <b>cruza 1</b> = sem significância estatística.<br>Para diferenças (RRA): IC que cruza <b>0</b> = não significativo.",
+   "fonte": "Bioestatística",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🧪 Ensaio de não inferioridade?",
+   "verso": "Testa se a nova intervenção <b>não é pior</b> que o padrão além de uma margem predefinida (Δ).<br>Análise por ITT <b>e</b> por protocolo; margem justificada clinicamente.",
+   "fonte": "CONSORT 2010",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔬 Fases dos ensaios clínicos?",
+   "verso": "<table class=t><tr><th>Fase</th><th>Objetivo</th></tr><tr><td>I</td><td>Segurança/dose (poucos voluntários)</td></tr><tr><td>II</td><td>Eficácia preliminar, dose</td></tr><tr><td>III</td><td><b>Eficácia</b> comparativa (registro)</td></tr><tr><td>IV</td><td>Pós-comercialização (eventos raros)</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🧪 Curva ROC: o que mostra?",
+   "verso": "Sensibilidade × (1 − especificidade) em vários pontos de corte; <b>AUC</b> próxima de 1 = ótimo discriminador; 0,5 = acaso.",
+   "fonte": "Bioestatística",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🧪 Viés de publicação e gráfico de funil?",
+   "verso": "Estudos negativos publicados menos → metanálise superestima efeito; <b>funil assimétrico</b> sugere viés.",
+   "fonte": "Cochrane Handbook",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🧪 Estudo de coorte × caso-controle: vantagens?",
+   "verso": "<table class=t><tr><th>Coorte</th><th>Caso-controle</th></tr><tr><td>Calcula incidência e RR</td><td>Bom para <b>doença rara</b></td></tr><tr><td>Temporalidade clara</td><td>Rápido e barato</td></tr><tr><td>Caro, longo; perdas</td><td><b>Viés de memória</b></td></tr></table>",
+   "fonte": "Epidemiologia",
+   "imagem": "r3t_13_1afb8d02.png",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🧪 Validade interna × externa?",
+   "verso": "Interna: o estudo mede corretamente o efeito na amostra (randomização, cegamento).<br>Externa: <b>generalização</b> para outras populações.",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🧪 Teste em série × em paralelo?",
+   "verso": "<b>Série</b> (um após o outro): ↑ especificidade (confirmar).<br><b>Paralelo</b> (ao mesmo tempo): ↑ sensibilidade (não perder casos).",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "🧾 Doenças de notificação compulsória imediata (exemplos)?",
+   "verso": "<ul><li><b>Sarampo</b>, rubéola, poliomielite, raiva, cólera, febre amarela</li><li><b>Meningite meningocócica</b>/doença meningocócica</li><li>Botulismo, antraz, peste</li><li>Dengue/chikungunya <b>óbito</b>, Zika em gestante</li></ul>Notificar em até <b>24 h</b>.",
+   "fonte": "Portaria GM/MS (lista nacional)",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "📜 Atestado de óbito: quem preenche?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Quem preenche</th></tr><tr><td>Morte natural com assistência</td><td>Médico assistente</td></tr><tr><td>Morte natural sem assistência</td><td>SVO (ou médico local)</td></tr><tr><td><b>Morte violenta</b> ou suspeita</td><td><b>IML</b></td></tr></table>",
+   "fonte": "Res. CFM 1.779/2005",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "🤐 Sigilo médico: quando pode ser quebrado?",
+   "verso": "<ul><li><b>Justa causa</b> (risco a terceiros)</li><li><b>Dever legal</b> (notificação compulsória, maus-tratos)</li><li><b>Autorização</b> expressa do paciente</li></ul>",
+   "pegadinha": "Não se quebra sigilo para a polícia sem dever legal; em juízo, o médico pode se recusar a revelar.",
+   "fonte": "Código de Ética Médica 2018",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "🧒 Maus-tratos a criança, idoso ou violência contra a mulher: conduta?",
+   "verso": "<ul><li><b>Notificação compulsória</b> (SINAN)</li><li>Criança/adolescente: comunicar ao <b>Conselho Tutelar</b></li><li>Idoso: notificação e comunicação aos órgãos competentes</li><li>Mulher: notificação; comunicação à autoridade policial em 24 h nos casos de violência (Lei 13.931/2019)</li></ul>",
+   "fonte": "ECA; Estatuto do Idoso; Lei 13.931/2019",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "⚖️ Consentimento informado: exceções?",
+   "verso": "<ul><li><b>Emergência</b> com risco iminente de morte</li><li>Incapacidade sem representante disponível em urgência</li><li>Recusa de transfusão (Testemunha de Jeová): o <b>STF (2024)</b> reconheceu o direito do <b>adulto capaz</b> de recusar, com decisão livre e informada</li><li><b>Menor</b> com risco de morte: o médico deve tratar</li></ul>",
+   "pegadinha": "A Res. CFM 2.232/2019 manda agir no risco iminente de morte; após o STF, o tema está em transição — documentar tudo e acionar o jurídico.",
+   "fonte": "Código de Ética Médica; Res. CFM 2.232/2019; STF Tema 1.069 (2024)",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "🏥 Princípios do SUS?",
+   "verso": "<ul><li>Doutrinários: <b>universalidade, integralidade, equidade</b></li><li>Organizativos: descentralização, regionalização, hierarquização, participação popular</li></ul>",
+   "fonte": "Lei 8.080/1990; Lei 8.142/1990",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "📜 Prevenção primária, secundária, terciária e quaternária?",
+   "verso": "<table class=t><tr><th>Nível</th><th>Exemplo</th></tr><tr><td>Primária</td><td>Vacina, cessar tabagismo</td></tr><tr><td>Secundária</td><td><b>Rastreamento</b>, diagnóstico precoce</td></tr><tr><td>Terciária</td><td>Reabilitação, evitar complicações</td></tr><tr><td><b>Quaternária</b></td><td>Evitar <b>iatrogenia</b> e medicalização excessiva</td></tr></table>",
+   "fonte": "Leavell & Clark; Jamoulle",
+   "imagem": "r3t_13_0b36b728.png",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "⚖️ Atestado médico: pontos do CFM?",
+   "verso": "<ul><li>O médico <b>não pode</b> negar atestado de comparecimento ou de afastamento justificado</li><li>Diagnóstico (CID) só com <b>autorização</b> do paciente</li><li>Proibido atestado sem ter examinado o paciente</li></ul>",
+   "fonte": "Res. CFM 1.658/2002; CEM 2018",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "🧪 Telemedicina no Brasil: regras básicas?",
+   "verso": "Permitida (Res. CFM 2.314/2022 e Lei 14.510/2022): consentimento, registro em prontuário, sigilo; o médico decide se a consulta presencial é necessária.",
+   "fonte": "Res. CFM 2.314/2022; Lei 14.510/2022",
+   "tags": [
+    "R3T360X",
+    "T13"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_13_1360a9f0.png": "data/media/r3t_13_1360a9f0.png",
+  "r3t_13_ed727090.png": "data/media/r3t_13_ed727090.png",
+  "r3t_13_1afb8d02.png": "data/media/r3t_13_1afb8d02.png",
+  "r3t_13_0b36b728.png": "data/media/r3t_13_0b36b728.png"
+ }
+}

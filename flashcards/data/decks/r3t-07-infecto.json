@@ -1,0 +1,958 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::07 🦠 Infectologia",
+ "cards": [
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "💊 Espectro dos β-lactâmicos (resumo)?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Cobre bem</th><th>Não cobre</th></tr><tr><td>Penicilina/amoxicilina</td><td>Estreptococo, enterococo (amoxi)</td><td>S. aureus produtor de penicilinase</td></tr><tr><td>Oxacilina/cefazolina</td><td><b>MSSA</b></td><td>MRSA, enterococo</td></tr><tr><td>Ceftriaxona</td><td>Pneumococo, Gram-negativos comunitários</td><td>Pseudomonas, enterococo</td></tr><tr><td>Cefepima</td><td>Pseudomonas + Gram-positivos</td><td>ESBL (variável), anaeróbios</td></tr><tr><td>Piperacilina-tazobactam</td><td>Pseudomonas + anaeróbios</td><td>ESBL grave (MERINO)</td></tr><tr><td>Meropeném</td><td><b>ESBL</b>, Pseudomonas, anaeróbios</td><td>MRSA, KPC</td></tr></table>",
+   "fonte": "Sanford; IDSA 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🛡️ Bactérias \"ESKAPE\" e a droga de escolha?",
+   "verso": "<table class=t><tr><th>Germe</th><th>Escolha</th></tr><tr><td>MRSA</td><td>Vancomicina, linezolida, daptomicina (não pulmão)</td></tr><tr><td>Enterococo VRE</td><td>Linezolida, daptomicina</td></tr><tr><td>ESBL</td><td><b>Carbapenêmico</b></td></tr><tr><td>KPC</td><td>Ceftazidima-avibactam, meropeném-vaborbactam</td></tr><tr><td>Acinetobacter</td><td>Ampicilina-sulbactam (dose alta), polimixina, cefiderocol</td></tr><tr><td>Pseudomonas DTR</td><td>Ceftolozana-tazobactam, ceftazidima-avibactam</td></tr></table>",
+   "fonte": "IDSA 2024",
+   "imagem": "r3t_07_2a9107ee.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "⚠️ Daptomicina: por que não usar na pneumonia?",
+   "verso": "É <b>inativada pelo surfactante</b> pulmonar.<br><ul><li>Efeitos: CPK ↑ (miopatia), pneumonia eosinofílica</li></ul>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🧪 Vancomicina: monitorização moderna?",
+   "verso": "Alvo <b>AUC/MIC 400–600</b> (por software bayesiano), em vez de vale 15–20.<br><ul><li>Nefrotoxicidade aumenta com piperacilina-tazobactam associada</li></ul>",
+   "fonte": "ASHP/IDSA 2020",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "💉 Aminoglicosídeos: toxicidades?",
+   "verso": "<ul><li><b>Nefrotoxicidade</b> (NTA, reversível)</li><li><b>Ototoxicidade</b> (irreversível, vestibular/coclear)</li><li>Bloqueio neuromuscular (piora miastenia)</li></ul>Dose única diária reduz nefrotoxicidade.",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "⚡ Fluoroquinolonas: efeitos adversos?",
+   "verso": "<ul><li><b>Tendinopatia/ruptura</b> de tendão (idoso, corticoide)</li><li>QT longo, disglicemia</li><li>Aneurisma/dissecção de aorta</li><li>Neuropatia, efeitos no SNC</li><li>C. difficile</li></ul>Evitar em infecções simples (cistite, sinusite) se houver alternativa.",
+   "fonte": "FDA 2018",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🔬 Linezolida: cuidados?",
+   "verso": "<ul><li><b>Mielossupressão</b> (plaquetopenia) após 2 semanas</li><li><b>Síndrome serotoninérgica</b> com ISRS (inibe MAO)</li><li>Neuropatia óptica/periférica, acidose láctica</li></ul>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🧾 SMX-TMP: efeitos importantes?",
+   "verso": "<ul><li><b>Hipercalemia</b> (efeito amilorida-like)</li><li>↑ creatinina sem ↓ TFG</li><li>Rash, Stevens-Johnson, mielossupressão</li><li>Potencializa <b>varfarina</b></li></ul>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🧫 Metronidazol: pontos de prova?",
+   "verso": "<ul><li>Efeito <b>dissulfiram</b> com álcool</li><li>Gosto metálico, neuropatia periférica</li><li>Cobre anaeróbios, Giardia, Trichomonas, ameba</li></ul>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "⏱️ Antibiótico de curta duração: evidências?",
+   "verso": "<table class=t><tr><th>Infecção</th><th>Duração</th></tr><tr><td>PAC</td><td><b>5 dias</b></td></tr><tr><td>Pielonefrite</td><td>7 dias (fluoroquinolona) / 7–14 β-lactâmico</td></tr><tr><td>Celulite</td><td>5–6 dias</td></tr><tr><td>Infecção intra-abdominal com foco controlado</td><td><b>4 dias</b> (STOP-IT)</td></tr><tr><td>Bacteriemia por Gram-negativo não complicada</td><td><b>7 dias</b></td></tr><tr><td>PAV</td><td>7 dias</td></tr></table>",
+   "fonte": "STOP-IT 2015; BALANCE 2024",
+   "imagem": "r3t_07_1d92d893.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🧪 Infecção intra-abdominal comunitária: tratamento?",
+   "verso": "<b>Ceftriaxona + metronidazol</b> (ou amoxicilina-clavulanato) + controle de foco.<br>Grave/hospitalar: piperacilina-tazobactam ou carbapenêmico.",
+   "fonte": "SIS/IDSA 2017",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "💊 Fosfomicina e nitrofurantoína: pontos-chave?",
+   "verso": "<ul><li><b>Nitrofurantoína</b>: só cistite (não atinge rim/sangue); evitar com TFG &lt; 30</li><li><b>Fosfomicina</b> 3 g dose única: cistite, inclusive ESBL</li></ul>",
+   "fonte": "IDSA 2025",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🦠 Agentes de PAC por contexto?",
+   "verso": "<table class=t><tr><th>Contexto</th><th>Agente</th></tr><tr><td>Mais comum geral</td><td><b>Pneumococo</b></td></tr><tr><td>Etilista, aspiração</td><td>Klebsiella, anaeróbios</td></tr><tr><td>DPOC</td><td>H. influenzae, Moraxella</td></tr><tr><td>Pós-influenza</td><td><b>S. aureus</b></td></tr><tr><td>Jovem, sintomas extrapulmonares</td><td>Mycoplasma</td></tr><tr><td>Diarreia, hiponatremia</td><td>Legionella</td></tr></table>",
+   "fonte": "ATS/IDSA 2019",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "💊 PAC ambulatorial sem comorbidade?",
+   "verso": "<b>Amoxicilina</b> 1 g 8/8 h (ou doxiciclina; macrolídeo se resistência local &lt; 25%).<br>Com comorbidade: amoxicilina-clavulanato + macrolídeo, ou fluoroquinolona respiratória.<br><ul><li>Duração <b>5 dias</b></li></ul>",
+   "fonte": "ATS/IDSA 2019",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🏥 Pneumonia hospitalar: definição e tratamento?",
+   "verso": "Surge <b>≥ 48 h</b> após internação (não estava incubando).<br><ul><li>Sem risco de MDR: piperacilina-tazobactam, cefepima, levofloxacino</li><li>Risco de MDR/choque: dupla cobertura Gram-negativa + MRSA</li><li>Duração <b>7 dias</b></li></ul>",
+   "fonte": "IDSA/ATS 2016",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "👂 Faringite estreptocócica: critérios de Centor?",
+   "verso": "<ul><li>Febre &gt; 38 °C</li><li><b>Exsudato</b> tonsilar</li><li>Adenopatia cervical anterior dolorosa</li><li><b>Ausência de tosse</b></li><li>(McIsaac: idade 3–14 +1; ≥ 45 −1)</li></ul>0–1: sem teste; 2–3: teste rápido; 4: testar/tratar.<br>Tratamento: <b>penicilina benzatina</b> ou amoxicilina 10 dias.",
+   "fonte": "IDSA 2012",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🤧 Sinusite aguda bacteriana: quando suspeitar?",
+   "verso": "<ul><li>Sintomas &gt; <b>10 dias</b> sem melhora</li><li>Quadro grave: febre ≥ 39 °C + secreção purulenta ≥ 3–4 dias</li><li><b>\"Dupla piora\"</b> após melhora inicial</li></ul>Amoxicilina ± clavulanato 5–7 dias.",
+   "fonte": "IDSA 2012",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🦠 Influenza: quem trata com oseltamivir?",
+   "verso": "<ul><li><b>Internados</b> e quadros graves</li><li>Grupos de risco: &gt; 65 anos, gestantes, puérperas, imunossuprimidos, doenças crônicas, &lt; 2 anos</li></ul>Iniciar <b>independentemente</b> do tempo de sintomas nesses grupos (ideal &lt; 48 h).",
+   "fonte": "Ministério da Saúde 2023; CDC",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🦠 COVID-19 no paciente ambulatorial de risco?",
+   "verso": "Nirmatrelvir-ritonavir em até 5 dias (alto risco) — atenção às <b>interações</b> (ritonavir).<br>Internado com O₂: <b>dexametasona 6 mg</b> 10 dias (RECOVERY); remdesivir; anticoagulação profilática.",
+   "fonte": "IDSA 2024; RECOVERY 2021",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🤧 Coqueluche no adulto?",
+   "verso": "<ul><li>Tosse paroxística prolongada (&gt; 2 semanas), guincho, vômitos pós-tosse</li><li><b>Azitromicina</b>; profilaxia de contatos</li><li>dTpa na gestação protege o lactente</li></ul>",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🧪 Diagnóstico de HIV no Brasil?",
+   "verso": "2 testes rápidos de fabricantes diferentes (reagentes) ou imunoensaio + <b>carga viral</b>/Western blot.<br><ul><li>Janela: imunoensaio de 4ª geração ~<b>15–20 dias</b></li><li>Infecção aguda: síndrome mono-like, rash, úlceras → carga viral</li></ul>",
+   "fonte": "Ministério da Saúde 2018",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "💊 TARV inicial preferencial no Brasil?",
+   "verso": "<b>Tenofovir + lamivudina + dolutegravir</b> (TDF/3TC + DTG).<br><ul><li>Iniciar em <b>todos</b>, idealmente em até 7 dias</li><li>Exceções para adiar: meningite criptocócica (4–6 semanas), TB meníngea</li></ul>",
+   "fonte": "PCDT HIV 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🦠 Profilaxias primárias no HIV pelo CD4?",
+   "verso": "<table class=t><tr><th>CD4</th><th>Profilaxia</th><th>Contra</th></tr><tr><td>&lt; 200</td><td>SMX-TMP</td><td><b>Pneumocistose</b></td></tr><tr><td>&lt; 100 + IgG toxo +</td><td>SMX-TMP</td><td><b>Toxoplasmose</b></td></tr><tr><td>&lt; 50</td><td>Azitromicina (se TARV não supressora)</td><td>MAC</td></tr></table>TB latente (PPD ≥ 5 mm ou IGRA +): isoniazida ou rifapentina, qualquer CD4.",
+   "fonte": "PCDT HIV 2024",
+   "imagem": "r3t_07_fe897c85.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🧠 Lesões cerebrais no HIV: diagnóstico diferencial?",
+   "verso": "<table class=t><tr><th></th><th>Toxoplasmose</th><th>Linfoma primário do SNC</th></tr><tr><td>Lesões</td><td><b>Múltiplas</b>, anelares, núcleos da base</td><td>Única, periventricular</td></tr><tr><td>Sorologia</td><td>IgG +</td><td>Variável</td></tr><tr><td>Pista</td><td>Melhora com tratamento empírico em 10–14 dias</td><td><b>EBV no LCR</b>, PET/SPECT</td></tr></table>Tratamento: sulfadiazina + pirimetamina + ácido folínico.",
+   "fonte": "PCDT HIV 2024",
+   "imagem": "r3t_07_069c8500.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🍄 Meningite criptocócica: manejo?",
+   "verso": "<ul><li><b>Antígeno criptocócico</b> (soro/LCR), tinta da China</li><li>Pressão de abertura alta → <b>punções de alívio</b></li><li>Indução: anfotericina lipossomal + flucitosina; manutenção: fluconazol</li><li><b>Adiar TARV 4–6 semanas</b> (COAT)</li></ul>",
+   "fonte": "OMS 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🔄 Síndrome inflamatória de reconstituição imune (SIRI)?",
+   "verso": "Piora paradoxal de infecção oportunista semanas após iniciar TARV, com queda da carga viral e subida do CD4.<br><ul><li>Mais com TB, cripto, CMV; CD4 baixo inicial</li><li>Manter TARV; corticoide em casos moderados (TB)</li></ul>",
+   "fonte": "PCDT HIV 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "💊 PrEP e PEP para HIV?",
+   "verso": "<table class=t><tr><th></th><th>PrEP</th><th>PEP</th></tr><tr><td>Quando</td><td>Antes da exposição (contínua ou sob demanda)</td><td>Até <b>72 h</b> após exposição</td></tr><tr><td>Esquema</td><td>TDF + FTC (ou cabotegravir injetável)</td><td>TDF + 3TC + DTG</td></tr><tr><td>Duração</td><td>Contínua</td><td><b>28 dias</b></td></tr></table>",
+   "fonte": "PCDT PrEP/PEP 2024",
+   "imagem": "r3t_07_198f6077.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "👶 Prevenção da transmissão vertical do HIV?",
+   "verso": "<ul><li>TARV na gestante (carga viral indetectável)</li><li><b>Zidovudina IV</b> no parto se carga viral &gt; 1.000 ou desconhecida</li><li>Cesárea eletiva se CV &gt; 1.000 ou desconhecida após 34 semanas</li><li>AZT para o recém-nascido; <b>não amamentar</b></li></ul>",
+   "fonte": "PCDT Transmissão Vertical 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🧪 HIV e TB: quando iniciar TARV?",
+   "verso": "Iniciar TARV em <b>até 2 semanas</b> após início do tratamento da TB se CD4 &lt; 50; demais em até 8 semanas.<br><ul><li>Rifampicina: dobrar o dolutegravir (50 mg 12/12 h)</li></ul>",
+   "pegadinha": "<b>TB meníngea</b>: adiar TARV 4–8 semanas (mortalidade).",
+   "fonte": "PCDT HIV 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🧠 Leucoencefalopatia multifocal progressiva?",
+   "verso": "<ul><li>HIV avançado, natalizumabe, rituximabe</li><li>Déficits focais progressivos; lesões de <b>substância branca</b> sem efeito de massa nem realce</li><li><b>Vírus JC</b> no LCR</li></ul>Restaurar imunidade (TARV).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🦠 Citomegalovírus no HIV?",
+   "verso": "<ul><li><b>Retinite</b> (CD4 &lt; 50): \"queijo com ketchup\", perda visual</li><li>Colite, esofagite (úlceras rasas)</li></ul>Ganciclovir/valganciclovir.",
+   "fonte": "PCDT HIV 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🍄 Candidíase esofágica no HIV?",
+   "verso": "Odinofagia + candidíase oral → <b>fluconazol</b> empírico; EDA se falha.<br>Doença definidora de aids.",
+   "fonte": "PCDT HIV 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🫁 Diagnóstico de tuberculose pulmonar no Brasil?",
+   "verso": "<ul><li><b>Teste rápido molecular (TRM-TB)</b>: detecta TB e resistência à <b>rifampicina</b></li><li>Baciloscopia (2 amostras) onde não há TRM</li><li><b>Cultura</b> com teste de sensibilidade (retratamento, HIV, populações vulneráveis)</li></ul>",
+   "fonte": "Manual de TB MS 2019/2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "💊 Esquema básico de TB e efeitos de cada droga?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Efeito característico</th></tr><tr><td>Rifampicina</td><td>Urina/suor laranja, interações (CYP), hepatite, plaquetopenia</td></tr><tr><td>Isoniazida</td><td><b>Neuropatia periférica</b> (dar piridoxina), hepatite</td></tr><tr><td>Pirazinamida</td><td><b>Hiperuricemia</b>, artralgia, hepatite</td></tr><tr><td>Etambutol</td><td><b>Neurite óptica</b> (cores)</td></tr></table>2 RIPE + 4 RI (6 meses); meníngea e osteoarticular: 2 RIPE + 10 RI.",
+   "fonte": "Manual de TB MS 2019",
+   "imagem": "r3t_07_d5290e98.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🧪 Hepatotoxicidade do RIPE: conduta?",
+   "verso": "Suspender o esquema se:<br><ul><li>ALT/AST &gt; <b>5× LSN</b> sem sintomas</li><li>&gt; <b>3× LSN</b> com sintomas ou icterícia</li></ul>Reintroduzir sequencialmente após normalizar: <b>rifampicina + etambutol</b> → isoniazida → pirazinamida.",
+   "fonte": "Manual de TB MS 2019",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🔬 TB latente: quem tratar?",
+   "verso": "<ul><li>PPD ≥ 5 mm ou IGRA + em: <b>HIV</b>, contatos, imunossupressão, anti-TNF, transplante, alterações fibróticas no RX</li><li>PPD ≥ 10 mm: conversão recente, diabetes, silicose, DRC dialítica</li></ul>Esquemas: <b>3HP</b> (isoniazida + rifapentina semanal, 12 doses), 4R ou 6–9H.",
+   "fonte": "Manual de TB MS 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🫙 TB pleural: diagnóstico?",
+   "verso": "<ul><li>Exsudato <b>linfocítico</b>, ADA &gt; 40</li><li>Baciloscopia do líquido raramente positiva</li><li><b>Biópsia pleural</b>: granuloma caseoso</li><li>Poucas células mesoteliais (&lt; 5%)</li></ul>",
+   "fonte": "Manual de TB MS 2019",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🧠 TB meníngea: pontos-chave?",
+   "verso": "<ul><li>Subaguda, paralisia de pares cranianos (VI), hidrocefalia</li><li>LCR: linfócitos, <b>glicose muito baixa</b>, proteína alta, ADA ↑</li><li>Tratamento 12 meses + <b>corticoide</b> (dexametasona)</li></ul>",
+   "fonte": "Manual de TB MS 2019",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🫁 TB com resistência à rifampicina no TRM: conduta?",
+   "verso": "Encaminhar à referência; cultura com TS e esquemas para TB-RR/MDR (bedaquilina, linezolida, pretomanida — <b>BPaLM</b> 6 meses).",
+   "fonte": "OMS 2022; MS 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🧬 IGRA × PPD?",
+   "verso": "<table class=t><tr><th></th><th>IGRA</th><th>PPD</th></tr><tr><td>BCG prévia</td><td><b>Não interfere</b></td><td>Pode falso-positivo</td></tr><tr><td>Visitas</td><td>1</td><td>2</td></tr><tr><td>Custo</td><td>Maior</td><td>Menor</td></tr></table>Ambos não distinguem TB latente de ativa.",
+   "fonte": "Manual de TB MS 2019",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🧪 Sífilis: interpretação de testes?",
+   "verso": "<table class=t><tr><th>Treponêmico</th><th>Não treponêmico (VDRL)</th><th>Interpretação</th></tr><tr><td>+</td><td>+</td><td>Sífilis ativa (ou recente tratada)</td></tr><tr><td>+</td><td>−</td><td>Cicatriz sorológica, sífilis muito recente ou tardia</td></tr><tr><td>−</td><td>+</td><td>Falso-positivo (gestação, LES, SAF)</td></tr></table>",
+   "fonte": "PCDT IST 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "💉 Tratamento da sífilis por estágio?",
+   "verso": "<table class=t><tr><th>Estágio</th><th>Tratamento</th></tr><tr><td>Recente (primária, secundária, latente &lt; 1 ano)</td><td><b>Penicilina benzatina 2,4 MUI</b> dose única</td></tr><tr><td>Tardia (latente &gt; 1 ano/indeterminada, terciária)</td><td>2,4 MUI semanal por <b>3 semanas</b></td></tr><tr><td>Neurossífilis</td><td>Penicilina cristalina IV 14 dias</td></tr></table>Controle: VDRL trimestral; queda de <b>2 diluições</b> em 6 meses = resposta.",
+   "fonte": "PCDT IST 2022",
+   "imagem": "r3t_07_23f28cd8.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🔴 Úlceras genitais: diferencial?",
+   "verso": "<table class=t><tr><th>Doença</th><th>Úlcera</th><th>Linfonodo</th></tr><tr><td>Sífilis primária</td><td><b>Indolor</b>, endurada, única</td><td>Indolor</td></tr><tr><td>Herpes</td><td><b>Dolorosas</b>, múltiplas vesículas</td><td>Doloroso</td></tr><tr><td>Cancroide</td><td>Dolorosa, base purulenta</td><td>Supurativo</td></tr><tr><td>Linfogranuloma venéreo</td><td>Pequena, transitória</td><td><b>Bubão</b>, fístula</td></tr><tr><td>Donovanose</td><td>Indolor, sangrante, \"vermelho-carne\"</td><td>Pseudobubão</td></tr></table>",
+   "fonte": "PCDT IST 2022",
+   "imagem": "r3t_07_c707a3b0.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "💧 Uretrite: tratamento sindrômico?",
+   "verso": "<b>Ceftriaxona 500 mg IM</b> dose única (gonococo) + <b>azitromicina 1 g</b> VO (clamídia).<br>Alternativa para clamídia: doxiciclina 7 dias.<br><ul><li>Tratar parcerias</li></ul>",
+   "fonte": "PCDT IST 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🧬 HPV: vacinação no Brasil?",
+   "verso": "Dose única para meninos e meninas de <b>9–14 anos</b> (desde 2024), com faixas ampliadas e esquemas para imunossuprimidos.",
+   "fonte": "Ministério da Saúde 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🧪 Sífilis na gestação: tratamento adequado?",
+   "verso": "<b>Penicilina benzatina</b> conforme estágio, iniciada até <b>30 dias antes do parto</b>, com parceiro tratado (para vigilância).",
+   "pegadinha": "Alergia: <b>dessensibilização</b> (só penicilina trata o feto).",
+   "fonte": "PCDT Transmissão Vertical 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🦠 Doença inflamatória pélvica: tratamento ambulatorial?",
+   "verso": "<b>Ceftriaxona 500 mg IM</b> dose única + <b>doxiciclina 100 mg 12/12 h + metronidazol 500 mg 12/12 h</b> por 14 dias.<br><ul><li>Internar: abscesso tubo-ovariano, gestante, falha, grave</li></ul>",
+   "fonte": "PCDT IST 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🧪 Corrimentos vaginais?",
+   "verso": "<table class=t><tr><th></th><th>Vaginose</th><th>Tricomoníase</th><th>Candidíase</th></tr><tr><td>Corrimento</td><td>Acinzentado, <b>odor de peixe</b></td><td>Amarelo-esverdeado, bolhoso</td><td>Branco grumoso</td></tr><tr><td>pH</td><td><b>&gt; 4,5</b></td><td>&gt; 4,5</td><td>&lt; 4,5</td></tr><tr><td>Teste de aminas</td><td><b>Positivo</b></td><td>Positivo</td><td>Negativo</td></tr><tr><td>Tratamento</td><td>Metronidazol</td><td>Metronidazol (tratar parceiro)</td><td>Fluconazol</td></tr></table>",
+   "fonte": "PCDT IST 2022",
+   "imagem": "r3t_07_51aafab9.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🧪 Sífilis secundária: manifestações?",
+   "verso": "<ul><li>Rash maculopapular incluindo <b>palmas e plantas</b></li><li><b>Condiloma plano</b>, placas mucosas</li><li>Alopecia em clareiras, linfadenopatia generalizada</li><li>Hepatite, glomerulonefrite (raras)</li></ul>",
+   "fonte": "PCDT IST 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🦟 Dengue: classificação e grupos de manejo?",
+   "verso": "<table class=t><tr><th>Grupo</th><th>Critério</th><th>Manejo</th></tr><tr><td>A</td><td>Sem sinal de alarme, sem risco</td><td>Hidratação oral, casa</td></tr><tr><td>B</td><td>Comorbidade/risco social ou prova do laço +</td><td>Hemograma, observação</td></tr><tr><td>C</td><td><b>Sinais de alarme</b></td><td>Hidratação IV, internação</td></tr><tr><td>D</td><td><b>Choque</b>/sangramento grave</td><td>UTI, 20 mL/kg em 20 min</td></tr></table>",
+   "fonte": "Ministério da Saúde 2024",
+   "imagem": "r3t_07_a66de00b.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🚨 Sinais de alarme da dengue?",
+   "verso": "<ul><li>Dor abdominal <b>intensa e contínua</b></li><li>Vômitos persistentes</li><li>Acúmulo de líquidos (ascite, derrame)</li><li>Hipotensão postural, lipotimia</li><li>Hepatomegalia &gt; 2 cm</li><li>Sangramento de mucosa</li><li>Letargia/irritabilidade</li><li><b>Aumento progressivo do hematócrito</b></li></ul>",
+   "fonte": "Ministério da Saúde 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🦟 Chikungunya × dengue × Zika?",
+   "verso": "<table class=t><tr><th></th><th>Dengue</th><th>Chikungunya</th><th>Zika</th></tr><tr><td>Febre</td><td>Alta</td><td>Alta</td><td>Baixa/ausente</td></tr><tr><td>Artralgia</td><td>Moderada</td><td><b>Intensa, incapacitante, crônica</b></td><td>Leve</td></tr><tr><td>Exantema</td><td>3º–6º dia</td><td>2º–5º dia</td><td><b>Precoce, pruriginoso</b></td></tr><tr><td>Conjuntivite</td><td>Rara</td><td>Rara</td><td><b>Frequente</b></td></tr><tr><td>Gravidade</td><td>Choque/plasma</td><td>Artrite crônica</td><td>Microcefalia, Guillain-Barré</td></tr></table>",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🐀 Leptospirose: quadro e tratamento?",
+   "verso": "<ul><li>Exposição a enchente/esgoto</li><li>Febre, <b>mialgia de panturrilha</b>, sufusão conjuntival</li><li>Síndrome de Weil: icterícia rubínica, LRA <b>hipocalêmica</b>, hemorragia pulmonar</li></ul>Leve: doxiciclina; grave: <b>penicilina cristalina</b> ou ceftriaxona.",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🦟 Malária: tratamento por espécie no Brasil?",
+   "verso": "<table class=t><tr><th>Espécie</th><th>Tratamento</th></tr><tr><td>P. vivax</td><td>Cloroquina + <b>primaquina</b> (ou tafenoquina) — cura radical dos hipnozoítos</td></tr><tr><td>P. falciparum não grave</td><td>Artemeter-lumefantrina + primaquina dose única</td></tr><tr><td>Grave (qualquer)</td><td><b>Artesunato IV</b></td></tr></table>",
+   "pegadinha": "Primaquina: pesquisar <b>G6PD</b> e contraindicada na gestação.",
+   "fonte": "Guia de Malária MS 2021",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🪱 Esquistossomose mansônica?",
+   "verso": "<ul><li>Hepatoesplenomegalia, <b>hipertensão portal pré-sinusoidal</b> com função hepática preservada</li><li>Fibrose de Symmers; varizes</li><li>Mielorradiculopatia</li></ul><b>Praziquantel</b>.",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🪳 Leishmaniose visceral (calazar)?",
+   "verso": "<ul><li>Febre prolongada, <b>esplenomegalia volumosa</b>, pancitopenia, hipergamaglobulinemia</li><li>Diagnóstico: rK39, aspirado de medula</li></ul><b>Anfotericina B lipossomal</b> (1ª escolha no Brasil em grupos de risco) ou antimonial.",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🐕 Raiva: profilaxia pós-exposição?",
+   "verso": "Depende do animal e do tipo de lesão:<br><ul><li>Cão/gato observável sadio: <b>observar 10 dias</b></li><li>Lesão grave ou animal suspeito/silvestre/morcego: <b>vacina + soro/imunoglobulina</b></li><li>Lavar o ferimento com água e sabão abundante</li></ul>",
+   "fonte": "Ministério da Saúde 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🧫 Febre amarela: pontos de prova?",
+   "verso": "<ul><li>Bifásica; icterícia, hemorragia, LRA; <b>sinal de Faget</b> (bradicardia relativa)</li><li>Transaminases muito altas (AST &gt; ALT)</li></ul>Vacina atenuada: <b>contraindicada</b> em imunossuprimidos e gestantes (avaliar risco).",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🧪 Histoplasmose × paracoccidioidomicose?",
+   "verso": "<table class=t><tr><th></th><th>Histoplasmose</th><th>Paracoccidioidomicose</th></tr><tr><td>Exposição</td><td>Cavernas, morcegos, aves</td><td><b>Trabalhador rural</b>, tabagista</td></tr><tr><td>Clínica</td><td>Pneumonia, disseminada no HIV</td><td>Lesões orais (estomatite moriforme), pulmão, adrenal</td></tr><tr><td>Tratamento</td><td>Itraconazol; anfotericina se grave</td><td>Itraconazol ou SMX-TMP</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🪱 Estrongiloidíase: risco no imunossuprimido?",
+   "verso": "<b>Hiperinfecção</b> com corticoide/HTLV-1: sepse por Gram-negativos, pneumonite.<br>Tratar empiricamente com <b>ivermectina</b> antes de imunossupressão em áreas endêmicas.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🦟 Doença de Chagas aguda: transmissão atual no Brasil?",
+   "verso": "Principalmente <b>oral</b> (açaí, caldo de cana contaminados) na Amazônia.<br><ul><li>Febre, edema facial, miocardite</li></ul><b>Benznidazol</b>.",
+   "fonte": "Diretriz Brasileira de Chagas 2023",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🧫 Hanseníase: diagnóstico clínico?",
+   "verso": "≥ 1 sinal cardinal:<br><ul><li>Lesão com <b>alteração de sensibilidade</b></li><li><b>Espessamento de nervo</b> periférico com alteração sensitiva/motora/autonômica</li><li>Baciloscopia positiva</li></ul>",
+   "fonte": "Ministério da Saúde 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🐀 Hantavirose?",
+   "verso": "<ul><li>Exposição rural a roedores, febre, mialgia</li><li>Fase cardiopulmonar: <b>edema pulmonar não cardiogênico</b>, choque, hemoconcentração, plaquetopenia</li></ul>Suporte em UTI (não há antiviral).",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🧪 Febre maculosa brasileira?",
+   "verso": "<ul><li>Exposição a <b>carrapato</b> (capivara, cavalo), febre, cefaleia, mialgia, exantema maculopapular (palmas/plantas)</li><li>Alta letalidade</li></ul><b>Doxiciclina</b> imediata (qualquer idade), sem esperar exames.",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🌀 Toxoplasmose aguda no imunocompetente?",
+   "verso": "Linfadenopatia cervical, síndrome mono-like; autolimitada.<br>Tratar: gestante, imunossuprimido, <b>coriorretinite</b>.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🧠 Meningite bacteriana: empírico por idade?",
+   "verso": "<table class=t><tr><th>Grupo</th><th>Esquema</th></tr><tr><td>18–50 anos</td><td><b>Ceftriaxona</b> + vancomicina (se pneumococo resistente)</td></tr><tr><td>&gt; 50 anos ou imunossuprimido</td><td>Ceftriaxona + vancomicina + <b>ampicilina</b> (Listeria)</td></tr><tr><td>Pós-neurocirurgia</td><td>Vancomicina + cefepima/meropeném</td></tr></table><b>Dexametasona</b> antes ou com a 1ª dose de ATB (pneumococo).",
+   "fonte": "IDSA; ESCMID 2016",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🧪 Líquor: bacteriana × viral × tuberculosa?",
+   "verso": "<table class=t><tr><th></th><th>Bacteriana</th><th>Viral</th><th>TB/fungo</th></tr><tr><td>Células</td><td>Centenas a milhares, <b>neutrófilos</b></td><td>&lt; 500, linfócitos</td><td>Linfócitos</td></tr><tr><td>Glicose</td><td><b>Baixa</b></td><td>Normal</td><td>Baixa</td></tr><tr><td>Proteína</td><td>Alta</td><td>Normal/levemente alta</td><td><b>Muito alta</b></td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_07_6f3d6d8b.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🖼️ TC antes da punção lombar: quando?",
+   "verso": "<ul><li>Imunossupressão</li><li>Lesão de SNC prévia</li><li><b>Convulsão</b> recente (&lt; 1 semana)</li><li><b>Papiledema</b></li><li>Rebaixamento de consciência</li><li>Déficit focal</li></ul>",
+   "pegadinha": "Nunca atrasar o antibiótico pela TC.",
+   "fonte": "IDSA 2004",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🦠 Celulite × erisipela?",
+   "verso": "<table class=t><tr><th></th><th>Erisipela</th><th>Celulite</th></tr><tr><td>Profundidade</td><td>Derme superficial</td><td>Derme profunda e subcutâneo</td></tr><tr><td>Bordas</td><td><b>Bem delimitadas</b>, elevadas</td><td>Mal delimitadas</td></tr><tr><td>Agente</td><td>Estreptococo</td><td>Estreptococo e S. aureus</td></tr><tr><td>Tratamento</td><td>Penicilina/amoxicilina</td><td>Cefalexina; MRSA se purulenta</td></tr></table>",
+   "fonte": "IDSA 2014",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Fasceíte necrosante: sinais de alerta?",
+   "verso": "<ul><li><b>Dor desproporcional</b> ao exame</li><li>Bolhas, necrose, crepitação, anestesia da pele</li><li>Toxemia, choque, CK alta</li><li>LRINEC ≥ 6 (baixa sensibilidade)</li></ul><b>Desbridamento cirúrgico imediato</b> + ATB amplo + clindamicina.",
+   "fonte": "IDSA 2014",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🦴 Osteomielite vertebral: pistas e agentes?",
+   "verso": "<ul><li>Dor lombar com febre, VHS/PCR altos</li><li><b>RM</b> é o exame de escolha</li><li>S. aureus (maioria), Gram-negativos (ITU), TB (<b>mal de Pott</b>), Brucella</li></ul>Biópsia antes do ATB se estável; 6 semanas de tratamento.",
+   "fonte": "IDSA 2015",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🫀 Bacteriemia por S. aureus: obrigações?",
+   "verso": "<ul><li><b>Ecocardiograma</b> (ETE se alto risco)</li><li>Repetir hemoculturas até negativar</li><li>Remover cateter</li><li>Mínimo <b>14 dias</b> (não complicada) ou 4–6 semanas (complicada)</li><li><b>Oxacilina/cefazolina</b> para MSSA (superiores à vancomicina)</li></ul>",
+   "fonte": "IDSA 2011; Revisões 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🧪 Candidúria: quando tratar?",
+   "verso": "<ul><li><b>Sintomática</b></li><li>Neutropênicos, prematuros</li><li>Antes de procedimento urológico</li></ul>Assintomática: trocar/remover sonda e não tratar.",
+   "fonte": "IDSA 2016",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🦠 Febre de origem indeterminada: definição e causas?",
+   "verso": "Febre ≥ 38,3 °C por &gt; 3 semanas sem diagnóstico após investigação básica.<br><ul><li>Infecções (endocardite, TB, abscesso)</li><li><b>Neoplasias</b> (linfoma)</li><li>Doenças inflamatórias (<b>Still do adulto</b>, arterite de células gigantes)</li></ul>PET-CT tem alto rendimento.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🫁 Sepse: qSOFA × SOFA?",
+   "verso": "<b>qSOFA</b> (≥ 2): FR ≥ 22, PAS ≤ 100, alteração mental → triagem, prognóstico.<br><b>Sepse</b>: infecção + ↑ SOFA ≥ 2. <b>Choque séptico</b>: vasopressor para PAM ≥ 65 + lactato &gt; 2 após volume.",
+   "pegadinha": "SSC 2021 desaconselha qSOFA isolado como triagem.",
+   "fonte": "Sepsis-3 2016; SSC 2021",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🩸 Sepse: pacote da 1ª hora?",
+   "verso": "<ul><li>Lactato (repetir se &gt; 2)</li><li><b>Hemoculturas</b> antes do ATB</li><li><b>Antibiótico</b> de amplo espectro</li><li><b>30 mL/kg</b> de cristaloide se hipotensão ou lactato ≥ 4</li><li>Vasopressor se PAM &lt; 65 após volume</li></ul>",
+   "fonte": "SSC 2018/2021",
+   "imagem": "r3t_07_d53a5c6d.png",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🦷 Infecção de prótese articular: princípios?",
+   "verso": "<ul><li>Precoce (&lt; 3 meses): desbridamento com retenção do implante (DAIR)</li><li>Crônica: troca em 1 ou 2 tempos</li><li><b>Rifampicina</b> associada para estafilococos com implante</li></ul>",
+   "fonte": "IDSA 2013",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🦠 Abscesso hepático piogênico × amebiano?",
+   "verso": "<table class=t><tr><th></th><th>Piogênico</th><th>Amebiano</th></tr><tr><td>Perfil</td><td>Idoso, doença biliar, DM</td><td>Jovem, viagem/área endêmica</td></tr><tr><td>Lesões</td><td>Múltiplas</td><td><b>Única</b>, lobo direito</td></tr><tr><td>Tratamento</td><td><b>Drenagem</b> + ATB</td><td><b>Metronidazol</b> (drenagem raramente)</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🧠 Encefalite herpética?",
+   "verso": "<ul><li>Febre, alteração de comportamento, convulsões, afasia</li><li>RM: <b>lobo temporal</b></li><li>PCR de HSV no LCR</li></ul><b>Aciclovir IV</b> imediato (10 mg/kg 8/8 h, 14–21 dias).",
+   "fonte": "IDSA 2008",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🦠 Infecção de cateter venoso central: quando remover?",
+   "verso": "<ul><li><b>S. aureus</b>, Pseudomonas, fungos, micobactérias</li><li>Sepse grave, tromboflebite séptica, endocardite</li><li>Bacteriemia persistente &gt; 72 h</li></ul>Estafilococo coagulase-negativo: pode tentar lock + ATB em casos selecionados.",
+   "fonte": "IDSA 2009",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "💉 Vacinas do adulto (calendário SUS)?",
+   "verso": "<ul><li><b>dT</b> a cada 10 anos (dTpa na gestante a cada gestação, a partir de 20 semanas)</li><li><b>Hepatite B</b> 3 doses</li><li><b>Febre amarela</b> (dose única em áreas recomendadas)</li><li><b>Tríplice viral</b> (até 59 anos)</li><li><b>Influenza</b> anual (grupos prioritários)</li><li>COVID-19 conforme grupo</li></ul>",
+   "fonte": "PNI 2025",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🧓 Vacinas para idosos?",
+   "verso": "<ul><li>Influenza anual</li><li><b>Pneumocócica</b> (VPC20, ou VPC13/15 + VPP23)</li><li><b>Herpes-zóster</b> recombinante (≥ 50 anos; 2 doses)</li><li>dT/dTpa</li><li>VSR (≥ 60–75 anos conforme risco)</li></ul>",
+   "fonte": "SBIm 2025",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🚫 Vacinas vivas atenuadas: contraindicações?",
+   "verso": "Vacinas: tríplice viral, varicela, febre amarela, BCG, zóster atenuada, dengue (Qdenga), rotavírus.<br><ul><li><b>Gestantes</b></li><li>Imunossupressão grave: quimioterapia, prednisona ≥ 20 mg/dia por ≥ 14 dias, biológicos, HIV com CD4 &lt; 200</li></ul>",
+   "fonte": "PNI; SBIm",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "✂️ Esplenectomizados: vacinas?",
+   "verso": "<ul><li><b>Pneumococo</b></li><li><b>Meningococo</b> ACWY e B</li><li><b>Haemophilus influenzae b</b></li><li>Influenza anual</li></ul>Idealmente <b>2 semanas antes</b> da esplenectomia eletiva (ou 2 semanas depois).",
+   "fonte": "SBIm; CDC",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🐍 Tétano: profilaxia em ferimentos?",
+   "verso": "<table class=t><tr><th>Vacinação</th><th>Ferimento limpo</th><th>Ferimento sujo/grave</th></tr><tr><td>&lt; 3 doses ou ignorada</td><td>Vacina</td><td><b>Vacina + imunoglobulina</b></td></tr><tr><td>≥ 3 doses, última &lt; 5 anos</td><td>Nada</td><td>Nada</td></tr><tr><td>≥ 3 doses, 5–10 anos</td><td>Nada</td><td>Reforço</td></tr><tr><td>≥ 3 doses, &gt; 10 anos</td><td>Reforço</td><td>Reforço</td></tr></table>",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🧑‍⚕️ Acidente com material biológico: condutas?",
+   "verso": "<ul><li>Lavar com água e sabão; não espremer</li><li>Testar paciente-fonte (rápidos: HIV, HBV, HCV, sífilis)</li><li><b>PEP para HIV</b> em até 72 h se fonte positiva/desconhecida com risco</li><li>Hepatite B: vacina ± <b>imunoglobulina</b> se não imune</li><li>Hepatite C: seguimento (sem profilaxia)</li></ul>",
+   "fonte": "PCDT PEP 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🐕 Profilaxia de endocardite × de infecção de prótese articular?",
+   "verso": "Endocardite: só alto risco cardíaco em procedimento dentário.<br>Prótese articular: <b>não</b> há indicação rotineira de profilaxia em procedimentos dentários.",
+   "fonte": "AHA 2021; ADA/AAOS 2015",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🦠 Profilaxia de meningococo em contatos?",
+   "verso": "Contatos íntimos (domicílio, creche, exposição a secreções): <b>rifampicina</b> 600 mg 12/12 h 2 dias, ou ciprofloxacino 500 mg dose única, ou ceftriaxona 250 mg IM.",
+   "pegadinha": "Gestante: ceftriaxona.",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "💉 Vacina da dengue no Brasil?",
+   "verso": "<b>Qdenga</b> (atenuada, 2 doses): SUS para <b>10–14 anos</b> em municípios prioritários; contraindicada em imunossuprimidos e gestantes.",
+   "fonte": "Ministério da Saúde 2024",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🧪 Profilaxia de raiva pré-exposição?",
+   "verso": "Veterinários, profissionais de laboratório, espeleólogos: <b>2 doses</b> (0 e 7) com sorologia de controle conforme risco.",
+   "fonte": "Ministério da Saúde 2022",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🦠 Profilaxia de pneumocistose fora do HIV?",
+   "verso": "Prednisona ≥ <b>20 mg/dia por ≥ 4 semanas</b> associada a outro imunossupressor, transplantes, rituximabe + corticoide, LLA → <b>SMX-TMP</b>.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🦠 Hepatite B e imunossupressão (rituximabe)?",
+   "verso": "Rastrear HBsAg e <b>anti-HBc</b> antes.<br><ul><li>HBsAg + ou anti-HBc + com rituximabe: <b>profilaxia com entecavir/tenofovir</b> (risco de reativação alto)</li></ul>",
+   "fonte": "AGA 2015; EASL 2025",
+   "tags": [
+    "R3T360X",
+    "T07"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_07_2a9107ee.png": "data/media/r3t_07_2a9107ee.png",
+  "r3t_07_1d92d893.png": "data/media/r3t_07_1d92d893.png",
+  "r3t_07_fe897c85.png": "data/media/r3t_07_fe897c85.png",
+  "r3t_07_069c8500.png": "data/media/r3t_07_069c8500.png",
+  "r3t_07_198f6077.png": "data/media/r3t_07_198f6077.png",
+  "r3t_07_d5290e98.png": "data/media/r3t_07_d5290e98.png",
+  "r3t_07_23f28cd8.png": "data/media/r3t_07_23f28cd8.png",
+  "r3t_07_c707a3b0.png": "data/media/r3t_07_c707a3b0.png",
+  "r3t_07_51aafab9.png": "data/media/r3t_07_51aafab9.png",
+  "r3t_07_a66de00b.png": "data/media/r3t_07_a66de00b.png",
+  "r3t_07_6f3d6d8b.png": "data/media/r3t_07_6f3d6d8b.png",
+  "r3t_07_d53a5c6d.png": "data/media/r3t_07_d53a5c6d.png"
+ }
+}

@@ -1,0 +1,859 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::04 🍬 Endocrinologia",
+ "cards": [
+  {
+   "subtema": "Diabetes",
+   "frente": "🍬 Critérios diagnósticos de diabetes?",
+   "verso": "<table class=t><tr><th>Exame</th><th>Diabetes</th><th>Pré-diabetes</th></tr><tr><td>Glicemia de jejum</td><td>≥ 126</td><td>100–125</td></tr><tr><td>TOTG 2 h</td><td>≥ 200</td><td>140–199</td></tr><tr><td>HbA1c</td><td>≥ 6,5%</td><td>5,7–6,4%</td></tr><tr><td>Glicemia ao acaso + sintomas</td><td>≥ 200</td><td>—</td></tr></table>Sem sintomas: confirmar com 2º exame alterado.",
+   "fonte": "ADA 2025; SBD 2024",
+   "imagem": "r3t_04_8a2c0d70.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🩸 Quando a HbA1c não é confiável?",
+   "verso": "<ul><li>Anemia ferropriva (↑ falsa), hemólise e perda sanguínea (↓ falsa)</li><li>Hemoglobinopatias, transfusão recente</li><li>Gestação, DRC avançada, eritropoetina</li></ul>Usar glicemias, frutosamina ou CGM.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🎯 Metas glicêmicas no DM2?",
+   "verso": "<table class=t><tr><th>Parâmetro</th><th>Meta geral</th></tr><tr><td>HbA1c</td><td>&lt; 7% (idoso frágil &lt; 8–8,5%)</td></tr><tr><td>Jejum/pré-prandial</td><td>80–130 mg/dL</td></tr><tr><td>Pós-prandial</td><td>&lt; 180 mg/dL</td></tr><tr><td>CGM: tempo no alvo (70–180)</td><td>&gt; 70%</td></tr><tr><td>Tempo &lt; 70</td><td>&lt; 4%</td></tr></table>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "💊 Escolha da 2ª droga no DM2 por comorbidade?",
+   "verso": "<table class=t><tr><th>Comorbidade</th><th>Preferir</th></tr><tr><td>DCV aterosclerótica</td><td><b>GLP-1 RA</b> ou iSGLT2</td></tr><tr><td>IC</td><td><b>iSGLT2</b></td></tr><tr><td>DRC</td><td><b>iSGLT2</b> (± GLP-1 RA)</td></tr><tr><td>Obesidade</td><td>Tirzepatida, semaglutida</td></tr><tr><td>Custo</td><td>Sulfonilureia, pioglitazona, NPH</td></tr></table>",
+   "fonte": "ADA 2025",
+   "imagem": "r3t_04_914d7b00.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "⚠️ Efeitos adversos importantes dos antidiabéticos?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Efeito</th></tr><tr><td>Metformina</td><td>Diarreia, ↓ B12, acidose láctica (rara)</td></tr><tr><td>Sulfonilureia</td><td><b>Hipoglicemia</b>, ganho de peso</td></tr><tr><td>Pioglitazona</td><td>Edema, <b>IC</b>, fratura, ganho de peso</td></tr><tr><td>iSGLT2</td><td>Infecção genital, cetoacidose euglicêmica</td></tr><tr><td>GLP-1 RA</td><td>Náusea, pancreatite (?), colelitíase</td></tr><tr><td>iDPP-4</td><td>Saxagliptina: ↑ internação por IC</td></tr></table>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "💉 Insulinização no DM2: como iniciar?",
+   "verso": "Basal <b>10 U</b> ou <b>0,1–0,2 U/kg</b> à noite, titulando 2 U a cada 3 dias até jejum no alvo.<br><ul><li>Indicação: HbA1c &gt; 10% ou glicemia ≥ 300, sintomas catabólicos</li><li>Se basal &gt; 0,5 U/kg sem controle: adicionar prandial ou GLP-1</li></ul>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🌙 Fenômeno do alvorecer × efeito Somogyi?",
+   "verso": "<table class=t><tr><th></th><th>Alvorecer</th><th>Somogyi</th></tr><tr><td>Glicemia às 3 h</td><td>Normal</td><td><b>Baixa</b></td></tr><tr><td>Mecanismo</td><td>Hormônios contrarreguladores</td><td>Hipoglicemia noturna → rebote</td></tr><tr><td>Conduta</td><td>↑ basal ou ajustar horário</td><td><b>↓ insulina noturna</b></td></tr></table>",
+   "pegadinha": "CGM praticamente desmistificou o Somogyi, mas cai em prova.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🧊 Hipoglicemia: classificação e tratamento?",
+   "verso": "<table class=t><tr><th>Nível</th><th>Glicemia</th></tr><tr><td>1</td><td>&lt; 70 mg/dL</td></tr><tr><td>2</td><td>&lt; 54 mg/dL</td></tr><tr><td>3</td><td>Grave: precisa de ajuda de terceiros</td></tr></table>Regra dos 15: <b>15 g de carboidrato</b>, reavaliar em 15 min. Inconsciente: glicose IV ou glucagon.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "👁️ Rastreamento de complicações microvasculares no DM2?",
+   "verso": "<ul><li><b>Fundo de olho</b> ao diagnóstico e anual</li><li><b>Albuminúria + TFG</b> anual</li><li><b>Pé</b>: monofilamento + pulsos anual (cada consulta se risco)</li></ul>No DM1: iniciar 5 anos após o diagnóstico.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🦶 Pé diabético infectado: classificação e tratamento?",
+   "verso": "<ul><li>Leve: celulite &lt; 2 cm → cefalexina/amoxicilina-clavulanato oral</li><li>Moderada: &gt; 2 cm ou profunda → considerar internação</li><li>Grave: SIRS → internar, ATB IV amplo</li><li><b>Osteomielite</b>: probe-to-bone, RM; 6 semanas de ATB ou ressecção</li></ul>",
+   "fonte": "IWGDF/IDSA 2023",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🧬 Suspeita de DM1 ou LADA no adulto?",
+   "verso": "<ul><li>Magro, jovem, perda de peso, cetose</li><li>Rápida falência de orais</li><li><b>Anti-GAD</b>, anti-IA2, anti-ZnT8 positivos; peptídeo C baixo</li></ul>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🤰 Diabetes gestacional: diagnóstico (Brasil)?",
+   "verso": "Jejum na 1ª consulta: <b>92–125</b> = DMG; ≥ 126 = DM prévio.<br>TOTG 75 g entre <b>24–28 semanas</b>: jejum ≥ 92, 1 h ≥ 180, 2 h ≥ 153 (1 valor basta).<br><ul><li>Tratamento: dieta, exercício; <b>insulina</b> 1ª linha farmacológica (metformina alternativa)</li></ul>",
+   "fonte": "FEBRASGO/SBD/OPAS 2017",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🧪 Neuropatia diabética dolorosa: tratamento?",
+   "verso": "<ul><li><b>Duloxetina</b>, <b>pregabalina/gabapentina</b>, amitriptilina (1ª linha)</li><li>Capsaicina tópica</li></ul>",
+   "pegadinha": "Opioide não é recomendado de rotina.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "💉 Tipos de insulina e perfil?",
+   "verso": "<table class=t><tr><th>Insulina</th><th>Início</th><th>Pico</th><th>Duração</th></tr><tr><td>Ultrarrápida (lispro, asparte, glulisina)</td><td>10–15 min</td><td>1–2 h</td><td>3–5 h</td></tr><tr><td>Regular</td><td>30 min</td><td>2–3 h</td><td>6–8 h</td></tr><tr><td>NPH</td><td>1–2 h</td><td>4–8 h</td><td>10–16 h</td></tr><tr><td>Glargina U100 / detemir</td><td>1–2 h</td><td>Sem pico</td><td>~24 h</td></tr><tr><td>Degludeca / glargina U300</td><td>—</td><td>Sem pico</td><td>&gt; 24–42 h</td></tr></table>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🧪 Cetoacidose euglicêmica: pistas?",
+   "verso": "Acidose com cetonemia e glicemia <b>&lt; 250</b>.<br><ul><li><b>iSGLT2</b>, gestação, jejum prolongado, álcool, cirurgia</li></ul>Tratar com insulina <b>+ glicose</b> desde o início.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🍬 Estado hiperglicêmico hiperosmolar?",
+   "verso": "<ul><li>Glicemia <b>&gt; 600</b>, osmolalidade efetiva &gt; 300, sem cetoacidose importante</li><li>Idosos, desidratação grave, rebaixamento</li></ul>Prioridade: <b>volume</b> (déficit ~ 8–10 L); insulina em dose menor depois de iniciar hidratação.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🧓 Metas do DM no idoso?",
+   "verso": "<table class=t><tr><th>Perfil</th><th>HbA1c</th></tr><tr><td>Saudável</td><td>&lt; 7,0–7,5%</td></tr><tr><td>Complexo/intermediário</td><td>&lt; 8,0%</td></tr><tr><td>Muito complexo/frágil</td><td>Evitar hipoglicemia e hiperglicemia sintomática</td></tr></table>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔬 MODY: quando pensar?",
+   "verso": "<ul><li>Diagnóstico <b>&lt; 25–35 anos</b>, magro, sem autoimunidade</li><li><b>Herança autossômica dominante</b> (3 gerações)</li><li>MODY 3 (HNF1A): ótima resposta a <b>sulfonilureia</b></li><li>MODY 2 (GCK): hiperglicemia leve estável, geralmente sem tratamento</li></ul>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🧪 iSGLT2 e cirurgia: quando suspender?",
+   "verso": "<b>3 dias</b> antes (ertugliflozina 4 dias) para evitar cetoacidose euglicêmica.",
+   "fonte": "FDA 2023; ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🍬 Insulina no internado com dieta zero?",
+   "verso": "Manter <b>basal</b> (reduzir ~20%) + correção; suspender prandial.",
+   "pegadinha": "Suspender a basal no DM1 precipita cetoacidose.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🦋 Interpretação de TSH e T4 livre?",
+   "verso": "<table class=t><tr><th>TSH</th><th>T4L</th><th>Diagnóstico</th></tr><tr><td>↑</td><td>↓</td><td>Hipotireoidismo primário</td></tr><tr><td>↑</td><td>Normal</td><td>Hipotireoidismo subclínico</td></tr><tr><td>↓</td><td>↑</td><td>Hipertireoidismo primário</td></tr><tr><td>↓</td><td>Normal</td><td>Hipertireoidismo subclínico (ver T3)</td></tr><tr><td>↓ ou normal</td><td>↓</td><td><b>Hipotireoidismo central</b></td></tr><tr><td>Normal/↑</td><td>↑</td><td>TSH-oma, resistência</td></tr></table>",
+   "fonte": "ATA",
+   "imagem": "r3t_04_3138685e.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "💊 Levotiroxina: como usar?",
+   "verso": "<ul><li>Dose plena ~<b>1,6 µg/kg/dia</b>; idoso/cardiopata: 12,5–25 µg e titular</li><li>Jejum, 30–60 min antes do café</li><li>Separar 4 h de <b>cálcio, ferro</b>, IBP, sucralfato</li><li>Ajustar TSH a cada <b>6–8 semanas</b></li></ul>",
+   "fonte": "ATA 2014",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Causas de tireotoxicose pela captação de iodo?",
+   "verso": "<table class=t><tr><th>Captação</th><th>Causa</th></tr><tr><td><b>Alta difusa</b></td><td>Graves</td></tr><tr><td>Alta focal</td><td>Adenoma tóxico, bócio multinodular tóxico</td></tr><tr><td><b>Baixa</b></td><td>Tireoidite (subaguda, pós-parto, silenciosa, amiodarona tipo 2), iodo exógeno, factícia</td></tr></table>",
+   "fonte": "ATA 2016",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "💊 Tionamidas: efeitos adversos graves?",
+   "verso": "<ul><li><b>Agranulocitose</b> (febre, dor de garganta → hemograma e suspender)</li><li>Hepatotoxicidade: <b>PTU</b> (necrose hepática) &gt; metimazol (colestase)</li><li>Vasculite ANCA (PTU)</li></ul>PTU: 1º trimestre e tempestade tireoidiana; metimazol nos demais.",
+   "fonte": "ATA 2016",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🎯 Nódulo tireoidiano: quando puncionar?",
+   "verso": "<table class=t><tr><th>Classificação USG</th><th>PAAF se</th></tr><tr><td>TI-RADS 5</td><td>≥ 1,0 cm</td></tr><tr><td>TI-RADS 4</td><td>≥ 1,5 cm</td></tr><tr><td>TI-RADS 3</td><td>≥ 2,5 cm</td></tr><tr><td>TI-RADS 1–2</td><td>Não</td></tr></table>TSH baixo: cintilografia antes (nódulo quente raramente é maligno).",
+   "fonte": "ACR TI-RADS 2017",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "📑 Classificação de Bethesda?",
+   "verso": "<table class=t><tr><th>Categoria</th><th>Conduta</th></tr><tr><td>I Não diagnóstica</td><td>Repetir</td></tr><tr><td>II Benigno</td><td>Seguimento</td></tr><tr><td>III AUS</td><td>Repetir/molecular</td></tr><tr><td>IV Neoplasia folicular</td><td>Lobectomia/molecular</td></tr><tr><td>V Suspeito</td><td>Cirurgia</td></tr><tr><td>VI Maligno</td><td>Cirurgia</td></tr></table>",
+   "fonte": "Bethesda 2023",
+   "imagem": "r3t_04_be722531.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "👀 Oftalmopatia de Graves: cuidados?",
+   "verso": "<ul><li>Exclusiva de <b>Graves</b></li><li>Piora com <b>tabagismo</b> e iodo radioativo</li><li>Moderada-grave ativa: corticoide IV (metilprednisolona); teprotumumabe</li></ul>Iodo radioativo em oftalmopatia ativa: profilaxia com prednisona.",
+   "fonte": "EUGOGO 2021",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🤰 Tireoide na gestação?",
+   "verso": "<ul><li>Hipotireoidia em uso: <b>↑ dose 25–30%</b> ao confirmar gravidez</li><li>TSH alvo &lt; 2,5 no 1º trimestre (ou limite do método)</li><li>Hipertireoidismo: PTU no 1º trimestre, metimazol depois</li></ul>",
+   "pegadinha": "Hiperêmese gravídica e hCG: TSH baixo transitório (não tratar).",
+   "fonte": "ATA 2017 gestação",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🧊 Coma mixedematoso: tratamento?",
+   "verso": "<ul><li><b>Levotiroxina IV</b> (ataque 200–400 µg)</li><li><b>Hidrocortisona</b> até excluir insuficiência adrenal</li><li>Suporte ventilatório, reaquecimento passivo</li><li>Tratar fator precipitante (infecção)</li></ul>",
+   "fonte": "ATA 2014",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Tempestade tireoidiana: tratamento em ordem?",
+   "verso": "<ul><li><b>Betabloqueador</b> (propranolol)</li><li><b>Tionamida</b> (PTU preferível)</li><li><b>Iodo</b> ≥ 1 h após a tionamida</li><li><b>Corticoide</b></li><li>Suporte e resfriamento</li></ul>",
+   "fonte": "ATA 2016",
+   "imagem": "r3t_04_5d9baba9.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🧪 Eutireoidiano doente (síndrome do T3 baixo)?",
+   "verso": "Doença grave: <b>T3 baixo</b>, rT3 alto, TSH normal/baixo, T4 normal ou baixo.<br><b>Não tratar</b>; reavaliar após recuperação.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🎗️ Câncer de tireoide: tipos?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Pista</th></tr><tr><td>Papilífero</td><td>Mais comum, <b>corpos de psamoma</b>, linfonodos, bom prognóstico</td></tr><tr><td>Folicular</td><td>Disseminação <b>hematogênica</b> (osso, pulmão)</td></tr><tr><td>Medular</td><td><b>Calcitonina</b>, CEA, NEM 2 (RET)</td></tr><tr><td>Anaplásico</td><td>Idoso, crescimento rápido, péssimo prognóstico</td></tr></table>",
+   "fonte": "ATA 2015",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🧪 Tireoidite pós-parto?",
+   "verso": "Tireotoxicose transitória 1–4 meses pós-parto → hipotireoidismo 4–8 meses; anti-TPO positivo.<br>Betabloqueador na fase tóxica; levotiroxina se hipotireoidismo sintomático.",
+   "pegadinha": "Diferencial com Graves: captação baixa e TRAb negativo.",
+   "fonte": "ATA 2017",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🧪 Interferência da biotina nos exames?",
+   "verso": "Doses altas de <b>biotina</b> (suplementos capilares) causam resultados falsos em imunoensaios: <b>TSH falsamente baixo</b>, T4/T3 falsamente altos, troponina falsa.<br>Suspender 2–3 dias antes da coleta.",
+   "fonte": "FDA 2019",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🧪 Resistência ao hormônio tireoidiano × TSH-oma?",
+   "verso": "<table class=t><tr><th></th><th>Resistência</th><th>TSH-oma</th></tr><tr><td>TSH</td><td>Normal/alto</td><td>Normal/alto</td></tr><tr><td>Subunidade alfa</td><td>Normal</td><td><b>Alta</b></td></tr><tr><td>RM de sela</td><td>Normal</td><td>Adenoma</td></tr><tr><td>Familiar</td><td>Sim (THRB)</td><td>Não</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "💊 Iodo radioativo: contraindicações?",
+   "verso": "<ul><li><b>Gestação</b> e amamentação</li><li>Oftalmopatia ativa moderada-grave (relativa)</li><li>Câncer suspeito associado</li></ul>Evitar gravidez por 6 meses após.",
+   "fonte": "ATA 2016",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🌗 Síndrome de Cushing: testes de rastreio?",
+   "verso": "<ul><li><b>Cortisol salivar noturno</b> (2 dosagens)</li><li><b>Cortisol livre urinário</b> 24 h (2 dosagens)</li><li><b>Supressão com 1 mg de dexametasona</b>: cortisol &gt; 1,8 µg/dL = não suprimiu</li></ul>Excluir uso de corticoide exógeno (causa mais comum).",
+   "fonte": "Endocrine Society 2008",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🧭 Cushing: localização após confirmação?",
+   "verso": "<table class=t><tr><th>ACTH</th><th>Causa</th><th>Próximo passo</th></tr><tr><td>Baixo</td><td>Adrenal (adenoma/carcinoma)</td><td>TC de adrenal</td></tr><tr><td>Alto/normal</td><td>Doença de Cushing (hipófise)</td><td>RM de sela, cateterismo de seio petroso</td></tr><tr><td>Muito alto</td><td>ACTH ectópico (pequenas células, carcinoide)</td><td>TC/PET</td></tr></table>",
+   "fonte": "Endocrine Society 2015",
+   "imagem": "r3t_04_1768d348.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🧪 Diagnóstico de insuficiência adrenal?",
+   "verso": "<ul><li>Cortisol matinal <b>&lt; 3–5 µg/dL</b>: provável; &gt; 15–18 exclui</li><li><b>Teste da cortrosina</b> (250 µg): pico &lt; 18 µg/dL confirma</li><li>ACTH distingue primária e secundária</li></ul>",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🏥 Dose de estresse de corticoide?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Conduta</th></tr><tr><td>Doença leve (febre)</td><td>Dobrar ou triplicar a dose oral por 2–3 dias</td></tr><tr><td>Vômitos</td><td>Hidrocortisona IM/IV</td></tr><tr><td>Cirurgia maior/choque</td><td><b>Hidrocortisona 100 mg IV</b> e 50 mg 6/6 h (ou 200 mg/24 h)</td></tr></table>",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🔎 Incidentaloma adrenal: avaliação?",
+   "verso": "<ul><li><b>Funcionalidade</b>: dexametasona 1 mg (todos), metanefrinas, aldosterona/renina se HAS ou hipocalemia</li><li><b>Imagem</b>: &lt; 10 UH na TC sem contraste = adenoma benigno</li><li>Cirurgia: funcionante, &gt; 4 cm ou imagem suspeita</li></ul>",
+   "fonte": "ESE 2023",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🧬 Hiperplasia adrenal congênita não clássica?",
+   "verso": "Deficiência de <b>21-hidroxilase</b>: hirsutismo, irregularidade menstrual, acne (simula SOP).<br>Dosar <b>17-OH-progesterona</b> basal pela manhã na fase folicular.",
+   "fonte": "Endocrine Society 2018",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🧬 NEM 1 × NEM 2?",
+   "verso": "<table class=t><tr><th>NEM 1 (3 Ps)</th><th>NEM 2A</th><th>NEM 2B</th></tr><tr><td>Paratireoide</td><td>Medular de tireoide</td><td>Medular de tireoide</td></tr><tr><td>Pâncreas (gastrinoma, insulinoma)</td><td>Feocromocitoma</td><td>Feocromocitoma</td></tr><tr><td>Pituitária</td><td>Hiperparatireoidismo</td><td>Neuromas mucosos, habitus marfanoide</td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_04_30a56cbe.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🧪 Hiperaldosteronismo primário: confirmação e tratamento?",
+   "verso": "<ul><li>Teste confirmatório (infusão salina, captopril, sobrecarga de sal)</li><li>TC de adrenais; <b>cateterismo de veias adrenais</b> antes de cirurgia</li><li>Adenoma unilateral: <b>adrenalectomia</b></li><li>Hiperplasia bilateral: <b>espironolactona</b></li></ul>",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "💊 Insulinoma: tríade de Whipple?",
+   "verso": "<ul><li>Sintomas de hipoglicemia</li><li><b>Glicemia baixa</b> documentada</li><li>Alívio com glicose</li></ul>Insulina e <b>peptídeo C altos</b> na hipoglicemia (factícia com insulina: peptídeo C baixo).",
+   "fonte": "Endocrine Society 2009",
+   "imagem": "r3t_04_3910f2c2.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🧪 Insuficiência adrenal relativa no paciente crítico?",
+   "verso": "Choque séptico refratário (noradrenalina ≥ 0,25 por ≥ 4 h): <b>hidrocortisona 200 mg/dia</b> sem necessidade de dosar cortisol.",
+   "fonte": "SSC 2021",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🧪 Hiperplasia adrenal congênita clássica: perdedora de sal?",
+   "verso": "Recém-nascido com <b>hiponatremia, hipercalemia</b>, desidratação; genitália ambígua em meninas.<br>17-OH-progesterona elevada (teste do pezinho).",
+   "fonte": "Endocrine Society 2018",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🧪 Dexametasona e fludrocortisona: quando cada uma?",
+   "verso": "Insuficiência adrenal primária: hidrocortisona (glicocorticoide) + <b>fludrocortisona</b> (mineralocorticoide).<br>Teste diagnóstico em curso: <b>dexametasona</b> não interfere na dosagem de cortisol.",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🍼 Prolactinoma: diagnóstico e tratamento?",
+   "verso": "<ul><li>Galactorreia, amenorreia, infertilidade, ↓ libido</li><li>Prolactina geralmente &gt; 200 em macroadenoma</li><li>Tratamento: <b>cabergolina</b> (mesmo em macroadenoma)</li></ul>",
+   "pegadinha": "Excluir: gestação, hipotireoidismo, drogas (antipsicóticos, metoclopramida), DRC, macroprolactina, efeito gancho.",
+   "fonte": "Endocrine Society 2011",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🧠 Causas de hiperprolactinemia não tumoral?",
+   "verso": "<ul><li><b>Gestação</b>, amamentação</li><li><b>Drogas</b>: risperidona, haloperidol, metoclopramida, domperidona, ISRS</li><li><b>Hipotireoidismo primário</b> (TRH ↑)</li><li>DRC, cirrose, estresse</li><li>Efeito haste (compressão da haste por massa não secretora)</li></ul>",
+   "fonte": "Endocrine Society 2011",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🦍 Acromegalia: rastreio e confirmação?",
+   "verso": "Rastreio: <b>IGF-1</b> elevado.<br>Confirmação: <b>GH não suprime</b> (&lt; 1 ng/mL) no TOTG.<br><ul><li>Complicações: DM, HAS, cardiomiopatia, apneia, pólipos/câncer colorretal (colonoscopia)</li></ul>",
+   "fonte": "Endocrine Society 2014",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🤱 Síndrome de Sheehan?",
+   "verso": "Necrose hipofisária pós-hemorragia periparto: <b>agalactia</b>, amenorreia, hipotireoidismo e insuficiência adrenal secundários.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🔁 Ordem de reposição no hipopituitarismo?",
+   "verso": "Repor <b>corticoide antes</b> da levotiroxina.",
+   "pegadinha": "Levotiroxina primeiro acelera metabolismo do cortisol e pode precipitar crise adrenal.",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🧠 SIADH × diabetes insípido no pós-operatório de hipófise?",
+   "verso": "Resposta trifásica: <b>DI</b> (dias 1–5) → <b>SIADH</b> (dias 5–10) → DI permanente.",
+   "pegadinha": "Monitorar Na diariamente.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🧪 Hipopituitarismo: hormônios afetados primeiro?",
+   "verso": "Ordem típica de perda: <b>GH → LH/FSH → TSH → ACTH</b> (prolactina pode subir por efeito haste).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🧠 Síndrome da sela vazia?",
+   "verso": "Achado de RM frequente (aracnoide herniada); geralmente <b>função normal</b>; avaliar eixos se sintomas ou HIC idiopática.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🧪 Craniofaringioma?",
+   "verso": "Tumor suprasselar (crianças e 50–70 anos): cefaleia, hemianopsia bitemporal, <b>diabetes insípido</b>, hipopituitarismo; <b>calcificações</b> na imagem.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🦴 Diagnóstico de osteoporose pela densitometria?",
+   "verso": "<table class=t><tr><th>T-score</th><th>Diagnóstico</th></tr><tr><td>≥ −1,0</td><td>Normal</td></tr><tr><td>−1,0 a −2,5</td><td>Osteopenia</td></tr><tr><td>≤ −2,5</td><td><b>Osteoporose</b></td></tr></table>Fratura por fragilidade de quadril ou vértebra = osteoporose independente do T-score.",
+   "pegadinha": "Pré-menopausa e homens &lt; 50: usar Z-score.",
+   "fonte": "OMS; Endocrine Society 2019",
+   "imagem": "r3t_04_ad0e32b9.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "💊 Bisfosfonatos: cuidados?",
+   "verso": "<ul><li>Alendronato em <b>jejum</b>, com água, 30 min em pé</li><li>Contraindicado: TFG &lt; 30–35, esofagopatia, hipocalcemia</li><li>Efeitos raros: <b>osteonecrose de mandíbula</b>, fratura atípica de fêmur</li></ul>Drug holiday após 5 anos (oral) ou 3 (zoledronato) se baixo risco.",
+   "fonte": "Endocrine Society 2020",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🏗️ Anabólicos na osteoporose de muito alto risco?",
+   "verso": "<ul><li><b>Teriparatida</b> / abaloparatida</li><li><b>Romosozumabe</b> (contraindicado com IAM/AVC no último ano)</li></ul>Iniciar com anabólico, depois antirreabsortivo.",
+   "pegadinha": "Denosumabe: não interromper sem transição (efeito rebote com fraturas vertebrais).",
+   "fonte": "AACE 2020; ARCH 2017",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🦴 Hiperparatireoidismo primário: indicações cirúrgicas?",
+   "verso": "<ul><li>Cálcio &gt; <b>1 mg/dL acima</b> do limite superior</li><li>Osteoporose ou fratura vertebral</li><li>TFG &lt; 60, nefrolitíase, hipercalciúria &gt; 400 mg/24 h</li><li>Idade <b>&lt; 50 anos</b></li><li>Sintomático</li></ul>",
+   "fonte": "5th International Workshop 2022",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🧪 Hipercalcemia hipocalciúrica familiar?",
+   "verso": "PTH normal/alto, cálcio levemente alto, <b>relação clearance Ca/Cr &lt; 0,01</b>.<br>Benigna, mutação do receptor sensor de cálcio: <b>não operar</b>.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "☀️ Vitamina D: níveis e reposição?",
+   "verso": "<table class=t><tr><th>25-OH-vitamina D (ng/mL)</th><th>Interpretação</th></tr><tr><td>&lt; 20</td><td>Deficiência</td></tr><tr><td>20–30</td><td>Adequado para população geral</td></tr><tr><td>30–60</td><td>Alvo em grupos de risco (osteoporose, DRC, idosos)</td></tr><tr><td>&gt; 100</td><td>Risco de toxicidade</td></tr></table>",
+   "fonte": "SBEM/SBPC 2020",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🦴 Osteomalácia × osteoporose?",
+   "verso": "<table class=t><tr><th></th><th>Osteomalácia</th><th>Osteoporose</th></tr><tr><td>Defeito</td><td>Mineralização</td><td>Massa óssea</td></tr><tr><td>Cálcio/fósforo</td><td>↓</td><td>Normais</td></tr><tr><td>Fosfatase alcalina</td><td><b>↑</b></td><td>Normal</td></tr><tr><td>PTH</td><td>↑</td><td>Normal</td></tr><tr><td>Achado</td><td>Pseudofraturas (Looser)</td><td>Fraturas por fragilidade</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🦴 Doença de Paget óssea?",
+   "verso": "<ul><li>Idoso, dor óssea, deformidade, ↑ chapéu</li><li><b>Fosfatase alcalina isolada elevada</b></li><li>Cintilografia e RX: lesões líticas/escleróticas</li></ul>Tratamento: <b>zoledronato</b>.",
+   "fonte": "Endocrine Society 2014",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🦴 Hipocalcemia pós-tireoidectomia?",
+   "verso": "Hipoparatireoidismo (transitório ou permanente): parestesias, Chvostek, Trousseau.<br>Cálcio oral + <b>calcitriol</b>; IV se sintomática grave.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🧪 Osteoporose secundária: o que investigar?",
+   "verso": "<ul><li><b>Corticoide</b>, hipogonadismo, hipertireoidismo, hiperparatireoidismo</li><li>Deficiência de vitamina D, doença celíaca</li><li>Mieloma, DRC, álcool, IBP crônico, inibidores de aromatase</li></ul>Exames: cálcio, fósforo, PTH, 25-OH-D, TSH, creatinina, eletroforese.",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🧮 FRAX: para que serve?",
+   "verso": "Probabilidade em <b>10 anos</b> de fratura maior e de quadril; orienta tratamento em osteopenia.<br>No Brasil, usa-se o FRAX Brasil com limiares do ABOM/SBEM.",
+   "fonte": "FRAX",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "💊 Osteoporose induzida por corticoide?",
+   "verso": "Prednisona ≥ <b>2,5–5 mg/dia por ≥ 3 meses</b>: cálcio, vitamina D, densitometria; bisfosfonato conforme risco.",
+   "fonte": "ACR 2022",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🧪 Hipoparatireoidismo × pseudo-hipoparatireoidismo?",
+   "verso": "Hipo: PTH <b>baixo</b>, Ca baixo, P alto.<br>Pseudo: PTH <b>alto</b> (resistência), Ca baixo, P alto; fenótipo de Albright.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "⚖️ Classificação da obesidade pelo IMC?",
+   "verso": "<table class=t><tr><th>IMC</th><th>Classe</th></tr><tr><td>25–29,9</td><td>Sobrepeso</td></tr><tr><td>30–34,9</td><td>Obesidade grau I</td></tr><tr><td>35–39,9</td><td>Grau II</td></tr><tr><td>≥ 40</td><td>Grau III</td></tr></table>Circunferência abdominal: ≥ 94 cm (H) / ≥ 80 cm (M) aumenta risco.",
+   "fonte": "OMS; ABESO 2022",
+   "imagem": "r3t_04_598ee283.png",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "💉 Farmacoterapia da obesidade: indicação e opções?",
+   "verso": "IMC ≥ 30, ou ≥ 27 com comorbidade.<br><table class=t><tr><th>Droga</th><th>Perda média</th></tr><tr><td>Tirzepatida</td><td>~20%</td></tr><tr><td>Semaglutida 2,4 mg</td><td>~15%</td></tr><tr><td>Liraglutida 3,0 mg</td><td>~8%</td></tr><tr><td>Naltrexona-bupropiona</td><td>~6%</td></tr><tr><td>Orlistate</td><td>~3%</td></tr></table>",
+   "fonte": "SURMOUNT-1; STEP-1; ABESO",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🏥 Critérios para cirurgia bariátrica?",
+   "verso": "<ul><li>IMC <b>≥ 40</b></li><li>IMC <b>≥ 35</b> com comorbidade</li><li>IMC 30–35 com DM2 de difícil controle (metabólica, critérios específicos)</li></ul>",
+   "fonte": "Resolução CFM (2025); ASMBS/IFSO 2022",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🔩 Deficiências após bypass gástrico?",
+   "verso": "<ul><li><b>Ferro</b>, <b>B12</b>, cálcio, vitamina D</li><li>Tiamina (vômitos), cobre, folato</li><li>Hipoglicemia pós-prandial tardia (dumping tardio)</li></ul>Suplementação e monitoramento por toda a vida.",
+   "fonte": "ASMBS 2019",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🧬 Síndrome metabólica (IDF/NCEP)?",
+   "verso": "≥ 3 de 5:<br><ul><li>Circunferência abdominal aumentada</li><li>TG ≥ 150</li><li>HDL &lt; 40 (H) / &lt; 50 (M)</li><li>PA ≥ 130/85</li><li>Glicemia ≥ 100</li></ul>",
+   "fonte": "NCEP-ATP III; IDF 2009",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🍳 Esteatose hepática (MASLD): estratificação de fibrose?",
+   "verso": "<b>FIB-4</b>: &lt; 1,3 baixo risco; &gt; 2,67 alto risco → elastografia.<br><ul><li>Pilar: perda de peso de 7–10%</li><li>Resmetirom e semaglutida para MASH com fibrose F2–F3</li></ul>",
+   "fonte": "AASLD 2023; ESSENCE 2025",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "👩 Síndrome dos ovários policísticos (Rotterdam)?",
+   "verso": "2 de 3:<br><ul><li>Oligo/anovulação</li><li>Hiperandrogenismo clínico ou laboratorial</li><li>Ovários policísticos no USG (ou AMH elevado)</li></ul>Excluir HAC não clássica, hiperprolactinemia, tireoide.",
+   "fonte": "International PCOS Guideline 2023",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🧔 Hipogonadismo masculino: diagnóstico?",
+   "verso": "Sintomas + <b>testosterona total baixa</b> (&lt; 264–300 ng/dL) em <b>2 dosagens matinais</b>.<br><ul><li>LH/FSH distinguem primário (alto) e secundário (baixo)</li></ul>",
+   "pegadinha": "Contraindicações à reposição: câncer de próstata/mama, hematócrito &gt; 54%, desejo de fertilidade.",
+   "fonte": "Endocrine Society 2018",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🧂 Hirsutismo: quando investigar tumor?",
+   "verso": "<ul><li>Início <b>rápido</b>, virilização (clitoromegalia, voz grave)</li><li>Testosterona &gt; 150–200 ng/dL (ovário)</li><li><b>DHEA-S</b> &gt; 700 µg/dL (adrenal)</li></ul>",
+   "fonte": "Endocrine Society 2018",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🧪 Ginecomastia: causas?",
+   "verso": "<ul><li>Fisiológica (puberdade, idoso), obesidade</li><li>Drogas: <b>espironolactona</b>, cetoconazol, cimetidina, antiandrogênicos, anabolizantes, maconha</li><li>Cirrose, hipertireoidismo, hipogonadismo</li><li>Tumores produtores de <b>hCG</b> (testículo, pulmão)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🧪 Hipoglicemia no não diabético: investigação?",
+   "verso": "Documentar tríade de <b>Whipple</b>; dosar na hipoglicemia: insulina, <b>peptídeo C</b>, pró-insulina, β-hidroxibutirato, sulfonilureia.<br>Jejum prolongado de 72 h se necessário.",
+   "fonte": "Endocrine Society 2009",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🔥 Síndrome de dumping pós-gastrectomia?",
+   "verso": "<table class=t><tr><th></th><th>Precoce</th><th>Tardio</th></tr><tr><td>Tempo</td><td>15–30 min</td><td>1–3 h</td></tr><tr><td>Mecanismo</td><td>Desvio de fluido para o lúmen</td><td><b>Hipoglicemia</b> reativa</td></tr><tr><td>Manejo</td><td>Refeições pequenas, sem açúcar simples</td><td>Idem; acarbose</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T04"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_04_8a2c0d70.png": "data/media/r3t_04_8a2c0d70.png",
+  "r3t_04_914d7b00.png": "data/media/r3t_04_914d7b00.png",
+  "r3t_04_3138685e.png": "data/media/r3t_04_3138685e.png",
+  "r3t_04_be722531.png": "data/media/r3t_04_be722531.png",
+  "r3t_04_5d9baba9.png": "data/media/r3t_04_5d9baba9.png",
+  "r3t_04_1768d348.png": "data/media/r3t_04_1768d348.png",
+  "r3t_04_30a56cbe.png": "data/media/r3t_04_30a56cbe.png",
+  "r3t_04_3910f2c2.png": "data/media/r3t_04_3910f2c2.png",
+  "r3t_04_ad0e32b9.png": "data/media/r3t_04_ad0e32b9.png",
+  "r3t_04_598ee283.png": "data/media/r3t_04_598ee283.png"
+ }
+}

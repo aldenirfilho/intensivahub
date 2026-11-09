@@ -1,0 +1,454 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::10 🎗️ Oncologia Clínica",
+ "cards": [
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🎗️ Rastreamento de câncer de mama no Brasil?",
+   "verso": "Ministério da Saúde/INCA: mamografia <b>bienal 50–69 anos</b>; desde 2025 o SUS garante acesso a partir dos <b>40 anos</b> sob demanda.<br>SBM/CBR/FEBRASGO: anual a partir dos 40 anos.<br>Alto risco (BRCA, radioterapia torácica jovem): RM + mamografia anual a partir de 25–30 anos.",
+   "fonte": "INCA; Ministério da Saúde 2025; SBM 2023",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🎗️ Rastreamento de câncer de colo uterino?",
+   "verso": "SUS: citologia <b>25–64 anos</b>, a cada 3 anos após 2 normais anuais; transição para <b>teste de DNA-HPV</b> a cada 5 anos.<br><ul><li>Imunossuprimidas: início após início da vida sexual, anual</li><li>Não rastrear &lt; 25 anos nem histerectomia total por doença benigna</li></ul>",
+   "fonte": "INCA 2016; Diretriz HPV 2024",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🎗️ Câncer de próstata: rastreamento?",
+   "verso": "<b>Decisão compartilhada</b> 55–69 anos (USPSTF); Ministério da Saúde/INCA não recomendam rastreio populacional.<br><ul><li>PSA ± toque retal</li><li>Benefício pequeno, risco de sobrediagnóstico e sobretratamento</li></ul>",
+   "fonte": "USPSTF 2018; INCA",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🧬 Síndromes hereditárias de câncer?",
+   "verso": "<table class=t><tr><th>Síndrome</th><th>Gene</th><th>Tumores</th></tr><tr><td>Mama-ovário hereditário</td><td><b>BRCA1/2</b></td><td>Mama, ovário, próstata, pâncreas</td></tr><tr><td>Lynch</td><td><b>MLH1, MSH2, MSH6, PMS2</b></td><td>Colorretal (direito), endométrio, ovário, estômago</td></tr><tr><td>Polipose adenomatosa familiar</td><td><b>APC</b></td><td>Centenas de pólipos, colorretal ~100%</td></tr><tr><td>Li-Fraumeni</td><td><b>TP53</b></td><td>Sarcoma, mama, cérebro, adrenal</td></tr></table>",
+   "fonte": "NCCN 2025",
+   "imagem": "r3t_10_6ed33272.png",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🧪 Critérios de Amsterdam II (Lynch)? Regra 3-2-1",
+   "verso": "<ul><li><b>3</b> familiares com câncer associado a Lynch (1 deles parente de 1º grau dos outros 2)</li><li><b>2</b> gerações sucessivas</li><li><b>1</b> diagnosticado antes dos <b>50 anos</b></li><li>PAF excluída</li></ul>",
+   "fonte": "Amsterdam II 1999",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🚬 Fatores de risco evitáveis de câncer?",
+   "verso": "<ul><li><b>Tabaco</b> (principal)</li><li>Álcool, obesidade, sedentarismo</li><li>Infecções: <b>HPV</b> (colo, orofaringe), <b>HBV/HCV</b> (fígado), <b>H. pylori</b> (estômago), EBV, HTLV-1</li><li>Radiação UV, carnes processadas</li></ul>",
+   "fonte": "OMS/IARC",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🧬 Testagem genética germinativa: quem encaminhar?",
+   "verso": "<ul><li>Câncer de mama &lt; 45–50 anos, triplo-negativo, masculino, bilateral</li><li><b>Ovário</b> (qualquer idade), pâncreas, próstata metastático</li><li>Colorretal/endométrio com <b>instabilidade de microssatélites</b> (Lynch)</li><li>Familiares com mutação conhecida</li></ul>",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🍷 Álcool e câncer?",
+   "verso": "Associado a câncer de boca, faringe, laringe, <b>esôfago (escamoso)</b>, fígado, colorretal e <b>mama</b> — sem dose segura.",
+   "fonte": "OMS/IARC",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🫃 Câncer colorretal: lado direito × esquerdo?",
+   "verso": "<table class=t><tr><th></th><th>Direito</th><th>Esquerdo</th></tr><tr><td>Apresentação</td><td><b>Anemia ferropriva</b>, massa</td><td>Alteração do hábito intestinal, obstrução, sangue vivo</td></tr><tr><td>Biologia</td><td>MSI-H, BRAF</td><td>KRAS, melhor prognóstico</td></tr></table>",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🎗️ CEA: utilidade?",
+   "verso": "<b>Seguimento</b> pós-tratamento do câncer colorretal (recidiva).",
+   "pegadinha": "Não serve para rastreio: eleva em tabagistas, cirrose, DII.",
+   "fonte": "ASCO",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🫁 Estadiamento do câncer de pulmão de pequenas células?",
+   "verso": "<table class=t><tr><th>Limitado</th><th>Extenso</th></tr><tr><td>Um hemitórax, um campo de radioterapia</td><td>Além de um campo</td></tr><tr><td>Quimiorradioterapia</td><td>Quimioimunoterapia</td></tr></table>Muito sensível à quimioterapia, mas recidiva precoce; metástase cerebral frequente.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🧪 Câncer de testículo: marcadores?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Marcador</th></tr><tr><td>Seminoma puro</td><td><b>β-hCG</b> pode subir; <b>AFP normal</b></td></tr><tr><td>Não seminomatoso</td><td><b>AFP</b> e/ou β-hCG</td></tr><tr><td>Todos</td><td>LDH (carga tumoral)</td></tr></table>",
+   "pegadinha": "AFP elevada exclui seminoma puro.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🎗️ Câncer de ovário?",
+   "verso": "<ul><li>Sintomas vagos: distensão, saciedade precoce, dor pélvica</li><li><b>CA-125</b> (seguimento; elevado também em endometriose, ascite)</li><li>BRCA: testagem para todas com carcinoma epitelial</li></ul>Inibidores de PARP na manutenção.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🧪 Carcinoma renal: tríade clássica e paraneoplásicas?",
+   "verso": "Hematúria + dor lombar + massa (rara completa).<br><ul><li><b>Policitemia</b> (EPO), hipercalcemia (PTHrp), HAS (renina)</li><li>Disfunção hepática sem metástase (Stauffer)</li><li><b>Varicocele</b> à esquerda que não esvazia deitado</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🧪 Tumores neuroendócrinos/carcinoide?",
+   "verso": "<ul><li>Síndrome carcinoide: <b>flushing</b>, diarreia, broncoespasmo, valvopatia direita</li><li>Geralmente com <b>metástase hepática</b> (escapa do metabolismo hepático)</li><li><b>5-HIAA urinário</b> elevado; cromogranina A</li></ul>Análogos de somatostatina.",
+   "fonte": "ENETS",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🎗️ Câncer de mama: subtipos e terapia-alvo?",
+   "verso": "<table class=t><tr><th>Subtipo</th><th>Terapia</th></tr><tr><td>RH+/HER2− (luminal)</td><td><b>Hormonioterapia</b> (tamoxifeno, inibidor de aromatase) ± inibidor de CDK4/6</td></tr><tr><td>HER2+</td><td><b>Trastuzumabe</b>, pertuzumabe, T-DXd</td></tr><tr><td>Triplo-negativo</td><td>Quimioterapia, imunoterapia, sacituzumabe, PARP (BRCA)</td></tr></table>",
+   "fonte": "NCCN 2025",
+   "imagem": "r3t_10_b6894007.png",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "💊 Tamoxifeno × inibidores de aromatase: efeitos?",
+   "verso": "<table class=t><tr><th>Tamoxifeno</th><th>Inibidores de aromatase</th></tr><tr><td><b>TEV</b>, câncer de <b>endométrio</b></td><td><b>Osteoporose</b>, artralgia</td></tr><tr><td>Fogachos</td><td>Fogachos, dislipidemia</td></tr><tr><td>Pré e pós-menopausa</td><td>Só pós-menopausa (ou supressão ovariana)</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🎗️ Câncer de próstata metastático: base do tratamento?",
+   "verso": "<b>Privação androgênica</b> (análogo de GnRH ou orquiectomia) + intensificação (abiraterona, enzalutamida, darolutamida, docetaxel).",
+   "pegadinha": "Flare com agonista GnRH: antiandrógeno nas primeiras semanas.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🎗️ Câncer de cabeça e pescoço: HPV?",
+   "verso": "Orofaringe HPV+: <b>não fumantes</b>, jovens, <b>melhor prognóstico</b>.<br>Tabaco/álcool: laringe, boca, hipofaringe.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🧠 Síndromes paraneoplásicas e tumores associados?",
+   "verso": "<table class=t><tr><th>Síndrome</th><th>Tumor típico</th></tr><tr><td>SIADH</td><td>Pequenas células</td></tr><tr><td>Cushing ectópico</td><td>Pequenas células, carcinoide</td></tr><tr><td>Hipercalcemia (PTHrp)</td><td>Escamoso (pulmão, cabeça e pescoço), mama, rim</td></tr><tr><td>Lambert-Eaton</td><td>Pequenas células</td></tr><tr><td>Dermatomiosite</td><td>Ovário, pulmão, TGI</td></tr><tr><td>Policitemia</td><td>Rim, fígado, hemangioblastoma</td></tr><tr><td>Acantose nigricans maligna</td><td>Gástrico</td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_10_42d4e1e4.png",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🦠 Trousseau: síndrome?",
+   "verso": "<b>Tromboflebite migratória</b> associada a adenocarcinoma (pâncreas, estômago, pulmão).<br>Tratamento com <b>HBPM</b> (resistente à varfarina).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🧪 Marcadores tumorais: associação?",
+   "verso": "<table class=t><tr><th>Marcador</th><th>Tumor</th></tr><tr><td>CEA</td><td>Colorretal (seguimento)</td></tr><tr><td>CA 19-9</td><td>Pâncreas, vias biliares</td></tr><tr><td>CA-125</td><td>Ovário</td></tr><tr><td>CA 15-3</td><td>Mama</td></tr><tr><td>AFP</td><td>Hepatocarcinoma, testículo não seminoma</td></tr><tr><td>β-hCG</td><td>Testículo, coriocarcinoma</td></tr><tr><td>PSA</td><td>Próstata</td></tr></table>",
+   "fonte": "ASCO",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🔎 Metástase de sítio primário desconhecido: abordagem?",
+   "verso": "<ul><li>Biópsia com <b>imuno-histoquímica</b> (CK7/CK20, TTF-1, PSA)</li><li>TC de tórax, abdome e pelve; mamografia; PSA</li><li>Identificar subgrupos tratáveis (linfoma, germinativo, mama, próstata)</li></ul>",
+   "fonte": "ESMO 2023",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🧪 Hipoglicemia tumoral (tumores não ilhotas)?",
+   "verso": "Grandes tumores mesenquimais/fibroso solitário produzindo <b>IGF-2</b>: insulina e peptídeo C <b>baixos</b>.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🧠 Degeneração cerebelar paraneoplásica?",
+   "verso": "Ataxia subaguda com anticorpos <b>anti-Yo</b> (mama, ovário) ou anti-Hu (pequenas células).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🧊 Neutropenia febril: definição e escore de risco?",
+   "verso": "Neutrófilos <b>&lt; 500</b> (ou &lt; 1.000 com queda prevista) + T ≥ 38,3 °C ou ≥ 38 °C por 1 h.<br><b>MASCC ≥ 21</b>: baixo risco → tratamento oral ambulatorial possível (amoxicilina-clavulanato + ciprofloxacino).<br>Alto risco: <b>cefepima/piperacilina-tazobactam IV em até 1 h</b>.",
+   "fonte": "IDSA 2010; ASCO 2018",
+   "imagem": "r3t_10_e37a3e74.png",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🔥 Síndrome de lise tumoral: critérios laboratoriais (Cairo-Bishop)?",
+   "verso": "≥ 2 em até 3 dias antes ou 7 após a quimioterapia:<br><ul><li><b>Ácido úrico</b> ≥ 8</li><li><b>Potássio</b> ≥ 6</li><li><b>Fósforo</b> ≥ 4,5</li><li><b>Cálcio</b> ≤ 7 (cai)</li></ul>Clínica: LRA, arritmia, convulsão.",
+   "fonte": "Cairo-Bishop 2004",
+   "imagem": "r3t_10_dc189527.png",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🦴 Compressão medular metastática?",
+   "verso": "<ul><li>Dor dorsal que <b>piora deitado</b>, depois déficit motor, sensitivo, esfíncteres</li><li><b>RM de toda a coluna</b> urgente</li><li><b>Dexametasona</b> imediata</li><li>Radioterapia ± cirurgia descompressiva</li></ul>",
+   "fonte": "NICE 2023",
+   "imagem": "r3t_10_00243896.png",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🫀 Síndrome de veia cava superior?",
+   "verso": "<ul><li>Edema facial e de MMSS, pletora, circulação colateral</li><li>Causas: câncer de pulmão (pequenas células), linfoma, trombose de cateter</li></ul>Obter <b>histologia</b> antes do corticoide (linfoma); <b>stent</b> para alívio rápido.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🧠 Metástases cerebrais: manejo inicial?",
+   "verso": "<ul><li><b>Dexametasona</b> se edema sintomático</li><li>Anticonvulsivante só se crise (não profilático)</li><li>Radiocirurgia, radioterapia, ressecção conforme número/tamanho</li></ul>",
+   "fonte": "ASCO/SNO 2022",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🩸 Hiperleucocitose/leucostase?",
+   "verso": "Leucócitos &gt; 100 mil (LMA) com dispneia, hipoxemia, confusão, AVC.<br><b>Hidroxiureia</b>, quimioterapia urgente, hidratação; leucaférese em casos selecionados.",
+   "pegadinha": "Evitar transfusão de hemácias (↑ viscosidade).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🫀 Tamponamento neoplásico?",
+   "verso": "Derrame pericárdico maligno (pulmão, mama, linfoma): <b>pericardiocentese</b> + janela pericárdica se recorrente.",
+   "fonte": "ESC 2015",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🧪 Hipercalcemia da malignidade: mecanismos?",
+   "verso": "<table class=t><tr><th>Mecanismo</th><th>Tumor</th></tr><tr><td><b>PTHrp</b> (humoral, 80%)</td><td>Escamosos, mama, rim</td></tr><tr><td>Osteólise local</td><td>Mieloma, mama</td></tr><tr><td>Calcitriol</td><td><b>Linfomas</b></td></tr><tr><td>PTH ectópico</td><td>Raro</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "💊 Imunoterapia (checkpoint): eventos adversos imunomediados?",
+   "verso": "<ul><li><b>Colite</b>, <b>hepatite</b>, <b>pneumonite</b></li><li>Endócrinos: <b>hipofisite</b>, tireoidite, insuficiência adrenal, <b>DM1 fulminante</b></li><li>Miocardite (rara e grave), nefrite, rash</li></ul>Grau ≥ 2: suspender e <b>corticoide</b>; endocrinopatias: reposição hormonal.",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🤢 Náusea e vômito por quimioterapia: profilaxia?",
+   "verso": "<table class=t><tr><th>Risco emético</th><th>Profilaxia</th></tr><tr><td>Alto (cisplatina)</td><td><b>Antagonista 5-HT3 + NK1 (aprepitanto) + dexametasona + olanzapina</b></td></tr><tr><td>Moderado</td><td>5-HT3 + dexametasona (± NK1)</td></tr><tr><td>Baixo</td><td>Dexametasona ou 5-HT3</td></tr></table>",
+   "fonte": "ASCO 2020",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🫀 Cardiotoxicidade dos quimioterápicos?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Efeito</th></tr><tr><td><b>Antraciclinas</b> (doxorrubicina)</td><td>Cardiomiopatia <b>dose-dependente</b>, irreversível</td></tr><tr><td><b>Trastuzumabe</b></td><td>Disfunção <b>reversível</b>, não dose-dependente</td></tr><tr><td>5-FU/capecitabina</td><td>Vasoespasmo coronariano</td></tr><tr><td>Inibidores de checkpoint</td><td>Miocardite</td></tr></table>",
+   "fonte": "ESC 2022 cardio-oncologia",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "💊 Toxicidades clássicas de quimioterápicos?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Toxicidade</th></tr><tr><td>Cisplatina</td><td><b>Nefrotoxicidade</b>, ototoxicidade, hipomagnesemia</td></tr><tr><td>Ciclofosfamida/ifosfamida</td><td><b>Cistite hemorrágica</b> (mesna)</td></tr><tr><td>Bleomicina</td><td><b>Fibrose pulmonar</b></td></tr><tr><td>Vincristina</td><td><b>Neuropatia</b>, SIADH</td></tr><tr><td>Metotrexato</td><td>Mucosite, mielotoxicidade (resgate com ácido folínico)</td></tr><tr><td>Oxaliplatina</td><td>Neuropatia ao frio</td></tr></table>",
+   "fonte": "Farmacologia oncológica",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🦷 Mucosite e hipercalcemia: manejo resumido?",
+   "verso": "Mucosite: higiene oral, crioterapia, analgesia.<br>Hipercalcemia da malignidade: <b>soro + calcitonina + zoledronato</b> (ou denosumabe na DRC).",
+   "fonte": "MASCC; Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🩸 Fatores de crescimento (G-CSF): quando?",
+   "verso": "Profilaxia primária se risco de neutropenia febril <b>≥ 20%</b> pelo esquema (ou 10–20% com fatores do paciente).",
+   "fonte": "ASCO 2015",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "💉 Extravasamento de quimioterápico vesicante?",
+   "verso": "Parar infusão, aspirar, <b>não lavar</b>; antraciclina: <b>dexrazoxano</b>; compressas frias (antraciclinas) ou quentes (alcaloides da vinca).",
+   "fonte": "ESMO-EONS 2012",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🩹 Síndrome mão-pé?",
+   "verso": "Eritrodisestesia palmoplantar com <b>capecitabina</b>, 5-FU, doxorrubicina lipossomal, multiquinases.<br>Reduzir dose, emolientes, ureia tópica.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🧪 Colite por inibidor de checkpoint: manejo?",
+   "verso": "<table class=t><tr><th>Grau</th><th>Conduta</th></tr><tr><td>1</td><td>Sintomático, manter</td></tr><tr><td>2</td><td>Suspender; <b>prednisona 1 mg/kg</b></td></tr><tr><td>3–4</td><td>Metilprednisolona IV; refratário: <b>infliximabe</b> ou vedolizumabe</td></tr></table>",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🧠 Fadiga oncológica: abordagem?",
+   "verso": "<ul><li>Tratar anemia, hipotireoidismo, depressão, dor, insônia</li><li><b>Exercício</b> (maior evidência)</li><li>Metilfenidato em casos selecionados</li></ul>",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T10"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_10_6ed33272.png": "data/media/r3t_10_6ed33272.png",
+  "r3t_10_b6894007.png": "data/media/r3t_10_b6894007.png",
+  "r3t_10_42d4e1e4.png": "data/media/r3t_10_42d4e1e4.png",
+  "r3t_10_e37a3e74.png": "data/media/r3t_10_e37a3e74.png",
+  "r3t_10_dc189527.png": "data/media/r3t_10_dc189527.png",
+  "r3t_10_00243896.png": "data/media/r3t_10_00243896.png"
+ }
+}

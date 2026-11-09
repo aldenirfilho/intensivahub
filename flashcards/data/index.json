@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.05-v4",
+ "versao": "2026.11.09-r3t",
  "colecoes": [
   {
    "id": "ouro",
@@ -18,7 +18,7 @@
    "id": "cm",
    "nome": "R3 Clínica Médica",
    "icone": "🩺",
-   "cards": 334
+   "cards": 1334
   },
   {
    "id": "iac",
@@ -2682,6 +2682,210 @@
     "TEE — endocardite",
     "TEE — indicação",
     "TEE — trombo LA"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-01-cardio.json",
+   "tema": "⚡ Turbo 360X · 01 🫀 Cardiologia",
+   "cards": 139,
+   "subtemas": [
+    "Hipertensão",
+    "Insuficiência cardíaca",
+    "Doença coronariana",
+    "ECG e arritmias",
+    "Valvopatias e endocardite",
+    "Lipídios e prevenção",
+    "Pericárdio, miocárdio e vascular"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-02-pneumo.json",
+   "tema": "⚡ Turbo 360X · 02 🫁 Pneumologia",
+   "cards": 74,
+   "subtemas": [
+    "Asma",
+    "DPOC",
+    "Pleura, nódulo e câncer",
+    "Intersticiais e sarcoidose",
+    "Circulação pulmonar e sono",
+    "Infecções e função pulmonar"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-03-nefro.json",
+   "tema": "⚡ Turbo 360X · 03 🫘 Nefrologia",
+   "cards": 88,
+   "subtemas": [
+    "Lesão renal aguda",
+    "Doença renal crônica",
+    "Glomerulopatias",
+    "Sódio e água",
+    "Potássio, cálcio, fósforo e magnésio",
+    "Ácido-base",
+    "Litíase, ITU e túbulo-intersticial"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-04-endo.json",
+   "tema": "⚡ Turbo 360X · 04 🍬 Endocrinologia",
+   "cards": 82,
+   "subtemas": [
+    "Diabetes",
+    "Tireoide",
+    "Adrenal",
+    "Hipófise",
+    "Osteometabólico e paratireoide",
+    "Obesidade e outros"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-05-gastro.json",
+   "tema": "⚡ Turbo 360X · 05 🫃 Gastroenterologia e Hepatologia",
+   "cards": 82,
+   "subtemas": [
+    "Esôfago e estômago",
+    "Hemorragia digestiva",
+    "Intestino e DII",
+    "Pâncreas e vias biliares",
+    "Hepatites e fígado",
+    "Cirrose e complicações"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-06-hemato.json",
+   "tema": "⚡ Turbo 360X · 06 🩸 Hematologia",
+   "cards": 77,
+   "subtemas": [
+    "Anemias",
+    "Hemólise e hemoglobinopatias",
+    "Plaquetas e hemostasia",
+    "Trombose e anticoagulação",
+    "Leucemias e mieloproliferativas",
+    "Linfomas e mieloma",
+    "Transfusão"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-07-infecto.json",
+   "tema": "⚡ Turbo 360X · 07 🦠 Infectologia",
+   "cards": 92,
+   "subtemas": [
+    "Antimicrobianos",
+    "Pneumonia e vias aéreas",
+    "HIV",
+    "Tuberculose",
+    "IST e sífilis",
+    "Endemias tropicais",
+    "SNC, pele e outros sítios",
+    "Imunização e profilaxias"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-08-reumato.json",
+   "tema": "⚡ Turbo 360X · 08 🦴 Reumatologia",
+   "cards": 62,
+   "subtemas": [
+    "Artrite reumatoide",
+    "LES e SAF",
+    "Outras colagenoses",
+    "Vasculites",
+    "Espondiloartrites",
+    "Cristais e artrites",
+    "Partes moles e osteoartrite"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-09-neuro.json",
+   "tema": "⚡ Turbo 360X · 09 🧠 Neurologia",
+   "cards": 67,
+   "subtemas": [
+    "AVC",
+    "Cefaleias",
+    "Epilepsia",
+    "Demências e movimento",
+    "Neuroimunologia e neuromuscular",
+    "Coma, delirium e outros"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-10-onco.json",
+   "tema": "⚡ Turbo 360X · 10 🎗️ Oncologia Clínica",
+   "cards": 43,
+   "subtemas": [
+    "Rastreamento e genética",
+    "Tumores sólidos",
+    "Paraneoplásicas e marcadores",
+    "Urgências oncológicas",
+    "Toxicidade e suporte"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-11-geriatria.json",
+   "tema": "⚡ Turbo 360X · 11 👴 Geriatria e Paliativos",
+   "cards": 35,
+   "subtemas": [
+    "Avaliação geriátrica",
+    "Síndromes geriátricas",
+    "Polifarmácia",
+    "Cuidados paliativos"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-12-psiq.json",
+   "tema": "⚡ Turbo 360X · 12 🧘 Psiquiatria na Clínica",
+   "cards": 34,
+   "subtemas": [
+    "Humor e ansiedade",
+    "Psicofármacos",
+    "Substâncias",
+    "Urgências psiquiátricas"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-13-prev.json",
+   "tema": "⚡ Turbo 360X · 13 📊 Preventiva e MBE",
+   "cards": 36,
+   "subtemas": [
+    "Rastreamentos",
+    "Vacinação do adulto",
+    "Epidemiologia e MBE",
+    "Ética e saúde pública"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-14-dermato.json",
+   "tema": "⚡ Turbo 360X · 14 🧴 Dermatologia e Alergia",
+   "cards": 35,
+   "subtemas": [
+    "Farmacodermias",
+    "Alergia e urticária",
+    "Dermatoses na clínica"
+   ]
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3t-15-emerg.json",
+   "tema": "⚡ Turbo 360X · 15 🚑 Emergências e Enfermaria",
+   "cards": 54,
+   "subtemas": [
+    "Emergências clínicas",
+    "Intoxicações",
+    "Enfermaria e perioperatório",
+    "Distúrbios ambientais e outros"
    ]
   }
  ]

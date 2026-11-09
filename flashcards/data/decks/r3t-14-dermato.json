@@ -1,0 +1,373 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::14 🧴 Dermatologia e Alergia",
+ "cards": [
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🔥 Stevens-Johnson × NET?",
+   "verso": "<table class=t><tr><th></th><th>SSJ</th><th>Sobreposição</th><th>NET</th></tr><tr><td>Descolamento da SC</td><td><b>&lt; 10%</b></td><td>10–30%</td><td><b>&gt; 30%</b></td></tr></table>Mucosas acometidas (≥ 2), <b>Nikolsky +</b>, 4–28 dias após a droga.<br>Drogas: alopurinol, <b>anticonvulsivantes aromáticos</b>, lamotrigina, sulfas, nevirapina, AINE oxicam.<br>Suspender droga, unidade de queimados, SCORTEN.",
+   "fonte": "Revisões",
+   "imagem": "r3t_14_6fbd1ad5.png",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🧬 DRESS: quadro?",
+   "verso": "<ul><li><b>2–8 semanas</b> após a droga (latência longa)</li><li>Febre, rash morbiliforme, <b>edema facial</b></li><li><b>Eosinofilia</b>, linfócitos atípicos</li><li>Hepatite (mais comum), nefrite, pneumonite</li><li>Drogas: <b>anticonvulsivantes</b>, alopurinol, sulfas, vancomicina, minociclina</li></ul>Suspender + corticoide sistêmico.",
+   "fonte": "RegiSCAR",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🌡️ PEGA (pustulose exantemática generalizada aguda)?",
+   "verso": "Dezenas de <b>pústulas estéreis</b> sobre eritema, febre, neutrofilia, <b>1–2 dias</b> após a droga (β-lactâmicos, macrolídeos, BCC).<br>Resolução em 1–2 semanas após suspensão.",
+   "fonte": "RegiSCAR",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "💊 Erupção fixa por droga?",
+   "verso": "Placa(s) eritematovioláceas que <b>recorrem no mesmo local</b> a cada exposição; deixa hiperpigmentação.<br><ul><li>Drogas: sulfas, AINE, tetraciclinas, dipirona</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🩺 Síndrome do homem vermelho (vancomicina)?",
+   "verso": "Liberação de histamina <b>não alérgica</b>: rubor em face e tronco durante a infusão rápida.<br><b>Reduzir a velocidade</b> de infusão (≥ 1–2 h) + anti-histamínico; não é contraindicação.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "💊 Drogas mais associadas a reações cutâneas graves?",
+   "verso": "<ul><li><b>Alopurinol</b></li><li><b>Carbamazepina</b>, fenitoína, lamotrigina, fenobarbital</li><li><b>Sulfametoxazol</b>, sulfassalazina</li><li>Nevirapina, AINE oxicam, beta-lactâmicos (PEGA)</li></ul>",
+   "fonte": "RegiSCAR",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🚨 Anafilaxia: critérios e tratamento?",
+   "verso": "Início agudo com pele/mucosa + respiratório ou hipotensão; ou hipotensão/broncoespasmo após alérgeno conhecido.<br><ul><li><b>Adrenalina IM 0,01 mg/kg</b> (máx. 0,5 mg adulto) na coxa, repetir a cada 5–15 min</li><li>Decúbito com pernas elevadas, O₂, volume</li><li>Anti-histamínico e corticoide são <b>adjuvantes</b></li><li>Observar 4–6 h (reação bifásica)</li></ul>",
+   "fonte": "WAO 2020",
+   "imagem": "r3t_14_ae172503.png",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "💓 Anafilaxia em uso de betabloqueador refratária à adrenalina?",
+   "verso": "<b>Glucagon</b> IV 1–5 mg em 5 min (efeito independente do receptor β).",
+   "fonte": "WAO 2020",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🧪 Triptase sérica na anafilaxia?",
+   "verso": "Colher em <b>30 min a 2 h</b> do início; elevação confirma ativação mastocitária.<br>Basal persistentemente alta (&gt; 20): investigar <b>mastocitose</b>.",
+   "fonte": "WAO 2020",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🤧 Angioedema sem urticária: pensar em?",
+   "verso": "<ul><li><b>IECA</b> (bradicinina) — não responde a adrenalina/anti-histamínico</li><li><b>Angioedema hereditário</b> (deficiência de C1-inibidor): <b>C4 baixo</b></li></ul>Tratamento da bradicinina: icatibanto, concentrado de C1-INH, plasma.",
+   "fonte": "WAO/EAACI 2021",
+   "imagem": "r3t_14_38b9b990.png",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🌸 Urticária crônica espontânea: tratamento?",
+   "verso": "&gt; 6 semanas sem gatilho identificável.<br><ul><li><b>Anti-histamínico de 2ª geração</b> em dose padrão → até <b>4×</b> a dose</li><li>Refratária: <b>omalizumabe</b> → ciclosporina</li><li>Corticoide só em curtos períodos</li></ul>",
+   "fonte": "EAACI/GA²LEN 2022",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "💊 Alergia à penicilina: risco cruzado com cefalosporinas?",
+   "verso": "Reação cruzada <b>&lt; 2%</b>, determinada pela <b>cadeia lateral R1</b>.<br><ul><li>Cefazolina tem cadeia única (pode usar na maioria)</li><li>Evitar cefalosporinas de cadeia semelhante (cefalexina com amoxicilina)</li></ul>Carbapenêmicos: &lt; 1%.",
+   "pegadinha": "Mais de 90% dos rotulados como alérgicos toleram penicilina após avaliação.",
+   "fonte": "AAAAI 2022",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🥜 Alergia alimentar IgE: alimentos mais comuns no adulto?",
+   "verso": "<ul><li>Frutos do mar (crustáceos)</li><li>Amendoim, castanhas</li><li>Peixe</li></ul>Síndrome alergia oral (pólen-alimento): frutas cruas, prurido oral.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🤧 Rinite alérgica: tratamento?",
+   "verso": "<b>Corticoide nasal</b> (mais eficaz) ± anti-histamínico oral de 2ª geração; imunoterapia alérgeno-específica nos selecionados.",
+   "pegadinha": "Descongestionante nasal tópico &gt; 5 dias: rinite medicamentosa.",
+   "fonte": "ARIA 2020",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🐝 Alergia a veneno de himenóptero: imunoterapia?",
+   "verso": "Indicada após <b>reação sistêmica</b> com IgE específica positiva; reduz recorrência de anafilaxia de ~60% para &lt; 5%.<br>Prescrever <b>adrenalina autoinjetável</b>.",
+   "fonte": "EAACI 2018",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "💉 Reação a contraste iodado prévia: conduta?",
+   "verso": "Leve prévia: considerar troca do contraste ± pré-medicação (prednisona 50 mg 13, 7 e 1 h + anti-histamínico).",
+   "pegadinha": "Alergia a frutos do mar <b>não</b> contraindica contraste.",
+   "fonte": "ACR Manual on Contrast Media 2024",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔴 Psoríase: tratamento por gravidade?",
+   "verso": "<table class=t><tr><th>Gravidade</th><th>Tratamento</th></tr><tr><td>Leve (&lt; 3% SC)</td><td>Tópico: corticoide + calcipotriol</td></tr><tr><td>Moderada-grave</td><td>Fototerapia, <b>MTX</b>, ciclosporina, acitretina</td></tr><tr><td>Grave/refratária</td><td>Biológicos: anti-TNF, anti-IL-17, anti-IL-23</td></tr></table>",
+   "pegadinha": "Corticoide <b>sistêmico</b> pode desencadear psoríase pustulosa no desmame.",
+   "fonte": "SBD 2020; AAD 2019",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "💧 Pênfigo vulgar × penfigoide bolhoso?",
+   "verso": "<table class=t><tr><th></th><th>Pênfigo vulgar</th><th>Penfigoide bolhoso</th></tr><tr><td>Bolha</td><td><b>Flácida</b>, intraepidérmica</td><td><b>Tensa</b>, subepidérmica</td></tr><tr><td>Nikolsky</td><td><b>Positivo</b></td><td>Negativo</td></tr><tr><td>Mucosas</td><td><b>Frequentes</b></td><td>Raras</td></tr><tr><td>Idade</td><td>40–60</td><td><b>Idosos</b> (&gt; 70)</td></tr><tr><td>Anticorpo</td><td>Antidesmogleína 3</td><td>Anti-BP180/BP230</td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_14_dfe0993e.png",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🦠 Hanseníase: classificação operacional?",
+   "verso": "<table class=t><tr><th></th><th>Paucibacilar</th><th>Multibacilar</th></tr><tr><td>Lesões</td><td><b>≤ 5</b></td><td><b>&gt; 5</b></td></tr><tr><td>Baciloscopia</td><td>Negativa</td><td>Positiva (qualquer número de lesões)</td></tr><tr><td>Tratamento</td><td>PQT-U <b>6 doses</b></td><td>PQT-U <b>12 doses</b></td></tr></table>PQT-U: rifampicina + dapsona + clofazimina (Brasil, desde 2021).",
+   "fonte": "Ministério da Saúde 2022",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "⚡ Reações hansênicas?",
+   "verso": "<table class=t><tr><th></th><th>Tipo 1 (reversa)</th><th>Tipo 2 (eritema nodoso hansênico)</th></tr><tr><td>Mecanismo</td><td>Imunidade celular</td><td>Imunocomplexos</td></tr><tr><td>Clínica</td><td>Lesões antigas inflamam, <b>neurite</b></td><td>Nódulos dolorosos, febre, artrite, orquite</td></tr><tr><td>Tratamento</td><td><b>Prednisona</b></td><td><b>Talidomida</b> (homens/mulheres sem risco de gestar) ou prednisona</td></tr></table>",
+   "fonte": "Ministério da Saúde 2022",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🧴 Herpes-zóster: tratamento e complicações?",
+   "verso": "<b>Valaciclovir 1 g 8/8 h</b> (ou aciclovir) por 7 dias, idealmente em até 72 h.<br><ul><li>Neuralgia pós-herpética: gabapentinoides, tricíclico, lidocaína tópica</li><li>Zóster oftálmico (<b>sinal de Hutchinson</b>: ponta do nariz) → oftalmologia</li><li>Ramsay Hunt: paralisia facial + vesículas no pavilhão auditivo</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🍄 Tinha × candidíase cutânea?",
+   "verso": "<table class=t><tr><th></th><th>Tinha (dermatófito)</th><th>Candidíase</th></tr><tr><td>Borda</td><td>Ativa, descamativa, centro claro</td><td>Eritema vivo</td></tr><tr><td>Lesões satélites</td><td>Não</td><td><b>Sim</b></td></tr><tr><td>Tratamento</td><td>Terbinafina/azol</td><td>Azol (nistatina)</td></tr></table>",
+   "pegadinha": "Corticoide tópico na tinha → tinha incógnita.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔍 Melanoma: regra ABCDE?",
+   "verso": "<ul><li><b>A</b>ssimetria</li><li><b>B</b>ordas irregulares</li><li><b>C</b>ores múltiplas</li><li><b>D</b>iâmetro &gt; 6 mm</li><li><b>E</b>volução (mudança)</li></ul>Prognóstico: <b>espessura de Breslow</b>.",
+   "fonte": "AAD",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🌞 Carcinoma basocelular × espinocelular?",
+   "verso": "<table class=t><tr><th></th><th>Basocelular</th><th>Espinocelular</th></tr><tr><td>Frequência</td><td><b>Mais comum</b></td><td>2º</td></tr><tr><td>Aspecto</td><td>Pápula perolada, telangiectasias, ulceração central</td><td>Lesão queratósica, ulcerada</td></tr><tr><td>Metástase</td><td><b>Rara</b></td><td>Possível</td></tr><tr><td>Precursor</td><td>—</td><td><b>Ceratose actínica</b></td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "💧 Celulite × dermatite de estase × TVP no membro inferior?",
+   "verso": "Bilateral simétrico: quase nunca celulite (dermatite de estase, edema).<br>Unilateral com dor e empastamento: <b>USG para TVP</b>.",
+   "pegadinha": "Pseudocelulite é causa frequente de ATB desnecessário.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🦟 Escabiose: tratamento?",
+   "verso": "<ul><li><b>Permetrina 5%</b> do pescoço para baixo, repetir em 7 dias</li><li><b>Ivermectina</b> oral 200 µg/kg, repetir em 7–14 dias</li><li>Tratar contatos e lavar roupas</li></ul>Sarna crostosa (imunossuprimidos): ivermectina + tópico, isolamento.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🧓 Acantose nigricans: significado?",
+   "verso": "<ul><li>Mais comum: <b>resistência insulínica</b> (obesidade, DM2, SOP)</li><li>Maligna: início súbito, extensa, em mucosas → <b>adenocarcinoma gástrico</b></li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🦠 Impetigo e foliculite: tratamento?",
+   "verso": "<ul><li>Localizado: <b>mupirocina</b> ou retapamulina tópica</li><li>Extenso/bolhoso: cefalexina (ou SMX-TMP se MRSA)</li></ul>",
+   "fonte": "IDSA 2014",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔴 Rosácea × acne?",
+   "verso": "<table class=t><tr><th></th><th>Rosácea</th><th>Acne</th></tr><tr><td>Idade</td><td>&gt; 30 anos</td><td>Adolescente</td></tr><tr><td>Comedões</td><td><b>Não</b></td><td><b>Sim</b></td></tr><tr><td>Gatilhos</td><td>Calor, álcool, sol</td><td>Hormonal</td></tr><tr><td>Tratamento</td><td>Metronidazol/ivermectina tópica, doxiciclina</td><td>Retinoide, peróxido de benzoíla, isotretinoína</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🧴 Dermatite seborreica grave e súbita: pensar em?",
+   "verso": "<b>HIV</b>, Parkinson.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔍 Púrpura palpável × não palpável?",
+   "verso": "Palpável: <b>vasculite</b> de pequenos vasos.<br>Não palpável: plaquetopenia, fragilidade capilar (senil, corticoide, escorbuto).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🍂 Vitiligo e associações autoimunes?",
+   "verso": "Tireoidite autoimune, DM1, anemia perniciosa, Addison, alopecia areata.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🧓 Prurido sem lesão primária: investigar?",
+   "verso": "<ul><li><b>Colestase</b>, DRC</li><li><b>Ferropenia</b>, policitemia vera (aquagênico), linfoma de Hodgkin</li><li>Hipotireoidismo/hipertireoidismo</li><li>Drogas (opioides), HIV, xerose senil</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "💊 Isotretinoína: cuidados?",
+   "verso": "<ul><li><b>Teratogênica</b>: 2 métodos contraceptivos, β-hCG mensal</li><li>Hipertrigliceridemia, transaminases</li><li>Ressecamento, alteração de humor (monitorar)</li></ul>",
+   "pegadinha": "Não associar a tetraciclinas (hipertensão intracraniana).",
+   "fonte": "SBD",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🧪 Síndrome de Sweet?",
+   "verso": "Placas eritematosas dolorosas + febre + <b>neutrofilia</b>; associada a <b>leucemia mieloide</b>, infecções, drogas (G-CSF).<br>Responde a corticoide.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T14"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_14_6fbd1ad5.png": "data/media/r3t_14_6fbd1ad5.png",
+  "r3t_14_ae172503.png": "data/media/r3t_14_ae172503.png",
+  "r3t_14_38b9b990.png": "data/media/r3t_14_38b9b990.png",
+  "r3t_14_dfe0993e.png": "data/media/r3t_14_dfe0993e.png"
+ }
+}

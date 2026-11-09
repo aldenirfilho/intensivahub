@@ -1,0 +1,574 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::15 🚑 Emergências e Enfermaria",
+ "cards": [
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🚑 PCR: ritmos chocáveis e drogas?",
+   "verso": "<table class=t><tr><th>Ritmo</th><th>Conduta</th></tr><tr><td>FV/TV sem pulso</td><td><b>Choque</b> imediato → RCP 2 min → adrenalina após o 2º choque → amiodarona 300 mg após o 3º</td></tr><tr><td>AESP/assistolia</td><td>RCP + <b>adrenalina</b> o quanto antes (1 mg a cada 3–5 min)</td></tr></table>Compressões 100–120/min, 5–6 cm, pausas &lt; 10 s.",
+   "fonte": "AHA 2020/2025",
+   "imagem": "r3t_15_ab69df59.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "⚡ Taquicardia instável: conduta?",
+   "verso": "Instabilidade (hipotensão, choque, dor isquêmica, IC aguda, alteração de consciência) atribuída à taquicardia → <b>cardioversão elétrica sincronizada</b>.<br><table class=t><tr><th>Ritmo</th><th>Energia inicial (bifásico)</th></tr><tr><td>QRS estreito regular</td><td>50–100 J</td></tr><tr><td>FA</td><td>120–200 J</td></tr><tr><td>QRS largo regular</td><td>100 J</td></tr><tr><td>QRS largo irregular (polimórfica)</td><td><b>Desfibrilação</b> (não sincronizada)</td></tr></table>",
+   "fonte": "AHA 2020",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🫀 Bradicardia sintomática: sequência?",
+   "verso": "<ul><li><b>Atropina 1 mg</b> a cada 3–5 min (máx. 3 mg)</li><li>Falha: <b>marca-passo transcutâneo</b> ou infusão de <b>dopamina</b> (5–20 µg/kg/min) ou <b>adrenalina</b> (2–10 µg/min)</li><li>Preparar marca-passo transvenoso</li></ul>",
+   "pegadinha": "BAV de alto grau infranodal responde pouco à atropina.",
+   "fonte": "AHA 2020",
+   "imagem": "r3t_15_81844d6f.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🫁 Edema agudo de pulmão hipertensivo?",
+   "verso": "<ul><li>Sentar, <b>VNI (CPAP/BiPAP)</b></li><li><b>Nitroglicerina</b> IV em dose alta (vasodilatação)</li><li>Furosemida IV</li></ul>",
+   "pegadinha": "Morfina não é rotina (associada a pior desfecho).",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🩸 Hemorragia digestiva alta varicosa: pacote inicial?",
+   "verso": "<ul><li>Ressuscitação, transfusão restritiva (Hb 7–8)</li><li><b>Terlipressina/octreotida</b> imediata</li><li><b>Ceftriaxona</b> profilática</li><li>EDA com <b>ligadura</b> em até 12 h</li><li>TIPS precoce (&lt; 72 h) em Child C 10–13 ou B com sangramento ativo</li></ul>",
+   "fonte": "Baveno VII 2022",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🧠 Crise convulsiva prolongada: tempos de ação?",
+   "verso": "<table class=t><tr><th>Tempo</th><th>Conduta</th></tr><tr><td>0–5 min</td><td>ABC, glicemia (tiamina + glicose se hipoglicemia)</td></tr><tr><td>5–20 min</td><td><b>Benzodiazepínico</b> (midazolam IM 10 mg, lorazepam ou diazepam IV)</td></tr><tr><td>20–40 min</td><td><b>Levetiracetam</b>, fosfenitoína ou valproato</td></tr><tr><td>&gt; 40 min</td><td>Anestésico (midazolam, propofol) + EEG</td></tr></table>",
+   "fonte": "AES 2016; ESETT 2019",
+   "imagem": "r3t_15_6436d1bc.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🍬 Cetoacidose diabética: critérios e metas?",
+   "verso": "Glicemia &gt; 250 (ou DM conhecido), <b>pH &lt; 7,3</b>, <b>HCO₃ &lt; 18</b>, cetonemia.<br><ul><li>SF 0,9% 1–1,5 L na 1ª hora</li><li><b>K &lt; 3,3: repor antes da insulina</b></li><li>Insulina regular 0,1 U/kg/h</li><li>Glicose quando glicemia &lt; 250; manter insulina até fechar o ânion gap</li></ul>",
+   "fonte": "ADA 2024 crises hiperglicêmicas",
+   "imagem": "r3t_15_8691e72c.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🧭 Escalas pré-hospitalares de AVC?",
+   "verso": "<b>Cincinnati/SAMU</b>: queda facial, fraqueza no braço, fala alterada.<br>Sinais de oclusão de grande vaso (RACE, VAN) → centro com trombectomia.",
+   "fonte": "AHA/ASA",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🩺 Dor torácica no PS: causas que matam?",
+   "verso": "<ul><li><b>SCA</b></li><li><b>Dissecção de aorta</b></li><li><b>TEP</b></li><li><b>Pneumotórax hipertensivo</b></li><li><b>Tamponamento</b></li><li><b>Ruptura de esôfago</b> (Boerhaave)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🫁 Insuficiência respiratória: tipo 1 × tipo 2?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Gasometria</th><th>Exemplos</th></tr><tr><td>1 (hipoxêmica)</td><td>PaO₂ &lt; 60, PaCO₂ normal/baixa</td><td>Pneumonia, SDRA, EAP, TEP</td></tr><tr><td>2 (hipercápnica)</td><td><b>PaCO₂ &gt; 45–50</b>, pH ↓</td><td>DPOC, neuromuscular, sedação, obesidade-hipoventilação</td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_15_df083200.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "💨 Cateter nasal de alto fluxo: indicação?",
+   "verso": "Insuficiência respiratória <b>hipoxêmica</b> (FLORALI) e pós-extubação; conforto e menos intubação em selecionados.<br>Índice <b>ROX</b> (SpO₂/FiO₂ ÷ FR) &lt; 3,85 em 12 h prevê falha.",
+   "fonte": "FLORALI 2015; Roca 2019",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🧠 Rebaixamento de consciência: primeiras medidas?",
+   "verso": "<ul><li>ABC, <b>glicemia capilar</b></li><li><b>Tiamina</b> antes de glicose em etilista/desnutrido</li><li>Naloxona se suspeita de opioide</li><li>TC de crânio, eletrólitos, gasometria, toxicológico</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🫀 Síncope no PS: escores?",
+   "verso": "<b>San Francisco</b> (CHESS): ICC, Hematócrito &lt; 30, ECG anormal, dispneia (Shortness of breath), PAS &lt; 90.<br>Canadian Syncope Risk Score.",
+   "fonte": "ESC 2018",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🩸 Choque: classificação hemodinâmica?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>DC</th><th>RVS</th><th>Pressão de enchimento</th></tr><tr><td>Hipovolêmico</td><td>↓</td><td>↑</td><td>↓</td></tr><tr><td>Cardiogênico</td><td>↓</td><td>↑</td><td><b>↑</b></td></tr><tr><td>Distributivo</td><td>↑ (ou normal)</td><td><b>↓</b></td><td>↓/normal</td></tr><tr><td>Obstrutivo</td><td>↓</td><td>↑</td><td>↑ (VD)</td></tr></table>",
+   "fonte": "Vincent NEJM 2013",
+   "imagem": "r3t_15_b6c71217.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "💉 Noradrenalina em acesso periférico?",
+   "verso": "Aceitável por curto período (&lt; 24 h) em veia calibrosa proximal, com vigilância de extravasamento (fentolamina se ocorrer).",
+   "fonte": "SSC 2021",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🧪 Lactato elevado sem hipoperfusão?",
+   "verso": "<ul><li><b>Metformina</b>, adrenalina (β2)</li><li>Hepatopatia, convulsão</li><li>Linezolida, deficiência de tiamina</li><li>Neoplasias (efeito Warburg)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🫀 Ultrassom no choque (protocolo RUSH)?",
+   "verso": "<ul><li><b>Bomba</b>: derrame, VD dilatado, contratilidade</li><li><b>Tanque</b>: VCI, linhas B, líquido livre</li><li><b>Canos</b>: aorta (aneurisma/dissecção), TVP</li></ul>",
+   "fonte": "Perera 2010",
+   "imagem": "r3t_15_a60d0b71.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🧪 Hipoglicemia grave no PS: conduta?",
+   "verso": "<b>Glicose 50% 50 mL IV</b> (ou 10% 250 mL); sem acesso: glucagon 1 mg IM/SC.<br><ul><li>Sulfonilureia: observação prolongada; <b>octreotida</b> se recorrente</li></ul>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "💊 Antídotos essenciais?",
+   "verso": "<table class=t><tr><th>Tóxico</th><th>Antídoto</th></tr><tr><td>Paracetamol</td><td><b>N-acetilcisteína</b></td></tr><tr><td>Opioides</td><td><b>Naloxona</b></td></tr><tr><td>Benzodiazepínicos</td><td>Flumazenil (cuidado)</td></tr><tr><td>Organofosforados</td><td><b>Atropina</b> + pralidoxima</td></tr><tr><td>Metanol/etilenoglicol</td><td><b>Fomepizol</b>/etanol + diálise</td></tr><tr><td>Betabloqueador</td><td><b>Glucagon</b>, insulina em alta dose</td></tr><tr><td>Digoxina</td><td><b>Anticorpo antidigoxina</b> (Fab)</td></tr><tr><td>Varfarina</td><td>Vitamina K, CCP</td></tr><tr><td>Heparina</td><td><b>Protamina</b></td></tr><tr><td>Cianeto</td><td><b>Hidroxocobalamina</b></td></tr><tr><td>Metemoglobinemia</td><td><b>Azul de metileno</b></td></tr><tr><td>Tricíclicos</td><td><b>Bicarbonato de sódio</b></td></tr></table>",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🥃 Intoxicação por metanol: pistas?",
+   "verso": "<ul><li><b>Alteração visual</b> (\"tempestade de neve\"), cegueira</li><li>Acidose metabólica de <b>ânion gap alto + gap osmolar alto</b></li><li>Lesão de putâmen</li></ul>Fomepizol ou etanol + <b>hemodiálise</b>; ácido fólico.",
+   "fonte": "EXTRIP",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "💉 Intoxicação digitálica?",
+   "verso": "<ul><li>Náusea, vômito, <b>alterações visuais (xantopsia)</b>, confusão</li><li>Arritmias: <b>taquicardia atrial com BAV</b>, bidirecional, extrassístoles</li><li><b>Hipercalemia</b> na aguda (prognóstico)</li><li>Fatores: hipocalemia, hipomagnesemia, DRC, amiodarona, verapamil</li></ul>Anticorpo antidigoxina.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🌫️ Intoxicação por monóxido de carbono?",
+   "verso": "<ul><li>Cefaleia, náusea, confusão; vários na mesma casa (inverno, aquecedor)</li><li><b>Oxímetro de pulso normal</b> (falso) → dosar <b>carboxi-hemoglobina</b></li></ul><b>O₂ 100%</b>; câmara hiperbárica se COHb &gt; 25%, gestante, síncope, déficit.",
+   "fonte": "UHMS",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🌿 Intoxicação por salicilato?",
+   "verso": "<ul><li><b>Zumbido</b>, vômitos, hipertermia</li><li><b>Alcalose respiratória + acidose metabólica de AG alto</b></li></ul>Alcalinização urinária com bicarbonato; <b>hemodiálise</b> se grave.",
+   "fonte": "EXTRIP",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🐍 Acidente botrópico × crotálico?",
+   "verso": "<table class=t><tr><th></th><th>Botrópico (jararaca)</th><th>Crotálico (cascavel)</th></tr><tr><td>Local</td><td><b>Dor, edema, bolhas, necrose</b></td><td>Pouca reação local</td></tr><tr><td>Sistêmico</td><td>Coagulopatia, sangramento</td><td><b>Neurotóxico</b> (fácies miastênica, ptose), <b>rabdomiólise</b>, LRA</td></tr><tr><td>Soro</td><td>Antibotrópico</td><td>Anticrotálico</td></tr></table>",
+   "fonte": "Ministério da Saúde",
+   "imagem": "r3t_15_50897173.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🧪 Intoxicação por benzodiazepínico: flumazenil?",
+   "verso": "Suporte ventilatório é a base; flumazenil em casos selecionados (ex. sedação iatrogênica em não dependentes).",
+   "pegadinha": "Pode precipitar <b>convulsões</b> em dependentes crônicos ou coingestão de tricíclicos/pró-convulsivantes.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "💊 Intoxicação por betabloqueador/BCC?",
+   "verso": "<ul><li>Bradicardia, hipotensão, hipoglicemia (β), <b>hiperglicemia</b> (BCC)</li></ul>Cálcio IV, <b>glucagon</b>, <b>insulina em alta dose</b> (1 U/kg/h + glicose), vasopressor, emulsão lipídica, ECMO.",
+   "fonte": "Goldfrank; Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🧪 Intoxicação por paraquat?",
+   "verso": "<ul><li>Lesão cáustica oral, vômitos, LRA, hepatite</li><li><b>Fibrose pulmonar</b> progressiva (dias a semanas), alta letalidade</li></ul>",
+   "pegadinha": "<b>Evitar oxigênio suplementar</b> liberal (potencializa radicais livres) — tolerar SpO₂ mais baixa.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🧪 Intoxicação por isoniazida?",
+   "verso": "<b>Convulsões refratárias</b> + acidose láctica.<br><b>Piridoxina</b> (vitamina B6) em dose igual à de isoniazida ingerida (ou 5 g).",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🧪 Carvão ativado: quando usar?",
+   "verso": "Ingestão potencialmente tóxica em <b>até 1 h</b>, via aérea protegida.",
+   "pegadinha": "Não adsorve: <b>ferro, lítio, álcoois</b>, ácidos/álcalis, metais.",
+   "fonte": "AACT/EAPCCT",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🩺 Profilaxias na internação clínica: checklist diário?",
+   "verso": "<ul><li><b>TEV</b> (Pádua)</li><li>Úlcera de estresse só se indicação (VM &gt; 48 h, coagulopatia)</li><li><b>Lesão por pressão</b> (mudança de decúbito)</li><li>Delirium (sono, óculos, mobilização)</li><li>Revisar sondas, cateteres, antibiótico (dias)</li><li>Quedas</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🍬 Hiperglicemia hospitalar: alvo e insulina?",
+   "verso": "Alvo <b>140–180 mg/dL</b> em internados.<br><ul><li><b>Basal-bolus</b> (± correção) &gt; insulina só de correção (\"sliding scale\")</li><li>Suspender a maioria dos orais</li></ul>",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "💧 Soro de manutenção no adulto?",
+   "verso": "Necessidade hídrica ~<b>25–30 mL/kg/dia</b>; Na 1 mEq/kg/dia; K 1 mEq/kg/dia; glicose 50–100 g/dia.",
+   "pegadinha": "Soluções hipotônicas aumentam risco de hiponatremia: preferir <b>isotônicas</b>.",
+   "fonte": "NICE 2017",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🩸 Perioperatório: suspensão de anticoagulantes?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Suspender antes (risco baixo/alto de sangramento)</th></tr><tr><td>Varfarina</td><td><b>5 dias</b> (RNI &lt; 1,5)</td></tr><tr><td>Apixabana/rivaroxabana</td><td>1 dia / <b>2 dias</b></td></tr><tr><td>Dabigatrana (ClCr &gt; 50)</td><td>1–2 dias / 2–4 dias</td></tr><tr><td>Enoxaparina terapêutica</td><td>24 h</td></tr></table>Ponte com heparina só em prótese mecânica mitral, AVC recente, alto risco.",
+   "fonte": "PAUSE 2019; BRIDGE 2015; ACC 2017",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🫁 Prevenção de complicações pulmonares pós-operatórias?",
+   "verso": "<ul><li>Fisioterapia, <b>espirometria de incentivo</b>, deambulação precoce</li><li>Cessar tabagismo ≥ 4–8 semanas antes</li><li>Analgesia adequada</li><li>Tratar AOS (CPAP)</li></ul>",
+   "fonte": "ACP 2006",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🧪 Corticoide crônico e cirurgia?",
+   "verso": "Prednisona ≥ 20 mg/dia por &gt; 3 semanas ou cushingoide: supressão provável → dose de estresse conforme porte.<br>&lt; 5 mg/dia: sem supressão relevante.",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "💊 Medicações a manter × suspender na cirurgia?",
+   "verso": "<table class=t><tr><th>Manter</th><th>Suspender</th></tr><tr><td>Betabloqueador</td><td><b>iSGLT2</b> (3 dias antes)</td></tr><tr><td>Estatina</td><td>Metformina (dia da cirurgia)</td></tr><tr><td>Anticonvulsivantes, antiparkinsonianos</td><td>IECA/BRA (24 h, conforme risco de hipotensão)</td></tr><tr><td>Levotiroxina</td><td><b>GLP-1 semanal</b> (1 semana — risco de aspiração, cada vez mais individualizado)</td></tr></table>",
+   "fonte": "ACC/AHA 2024; ASA 2023",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🌙 Insônia no internado: conduta?",
+   "verso": "<ul><li>Higiene do sono hospitalar (luz, ruído, horários de sinais vitais)</li><li>Evitar benzodiazepínicos e difenidramina em idosos</li><li><b>Melatonina</b> ou trazodona em dose baixa se necessário</li></ul>",
+   "fonte": "AGS Beers 2023",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🌡️ Febre no internado: causas não infecciosas?",
+   "verso": "<ul><li><b>TEV</b>, flebite</li><li><b>Drogas</b> (febre medicamentosa: β-lactâmicos, anticonvulsivantes)</li><li>Transfusão, pancreatite, gota</li><li>Neoplasia, abstinência, insuficiência adrenal</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "💩 Constipação no internado: escalonamento?",
+   "verso": "<ul><li>Mobilização, hidratação, revisar drogas</li><li><b>Macrogol</b> ou lactulose; bisacodil/sene</li><li>Opioide: metilnaltrexona/naloxegol se refratária</li></ul>",
+   "pegadinha": "Fecaloma: toque retal antes de laxativos estimulantes.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🧠 Alta hospitalar segura: checklist?",
+   "verso": "<ul><li><b>Reconciliação medicamentosa</b></li><li>Plano escrito e sinais de alarme</li><li>Consulta de retorno marcada (7–14 dias)</li><li>Pendências de exames</li><li>Rede de cuidado/cuidador</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "💊 Reconciliação medicamentosa: para que serve?",
+   "verso": "Comparar medicações de casa × prescrição hospitalar × alta para evitar <b>omissões, duplicidades e interações</b> (principal erro na transição de cuidado).",
+   "fonte": "OMS High 5s",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🦠 Precauções de isolamento?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Exemplos</th></tr><tr><td>Contato</td><td>MRSA, ESBL/KPC, C. difficile (sabão), escabiose</td></tr><tr><td>Gotículas</td><td>Influenza, meningococo, coqueluche</td></tr><tr><td><b>Aerossóis</b> (N95, quarto pressão negativa)</td><td><b>TB</b>, sarampo, varicela</td></tr></table>",
+   "fonte": "CDC/ANVISA",
+   "imagem": "r3t_15_ffc70cf8.png",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🧼 Higienização das mãos: 5 momentos (OMS)?",
+   "verso": "<ul><li>Antes de tocar o paciente</li><li>Antes de procedimento asséptico</li><li>Após risco de exposição a fluidos</li><li>Após tocar o paciente</li><li>Após tocar superfícies próximas</li></ul>",
+   "pegadinha": "C. difficile: <b>água e sabão</b> (álcool não mata esporos).",
+   "fonte": "OMS 2009",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "💉 Sondagem vesical de demora: indicações apropriadas?",
+   "verso": "<ul><li>Retenção/obstrução</li><li>Débito urinário em críticos</li><li>Cirurgias selecionadas</li><li>Lesão sacral/perineal em incontinente</li><li>Cuidados de fim de vida</li></ul>Remover <b>o quanto antes</b> (ITU associada).",
+   "fonte": "CDC 2009",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🧪 Hiponatremia pós-operatória: prevenção?",
+   "verso": "Usar soluções <b>isotônicas</b> de manutenção; ADH elevado por dor, náusea e opioides.",
+   "fonte": "NICE 2017",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Golpe de calor?",
+   "verso": "<ul><li>Temperatura <b>&gt; 40 °C</b> + <b>disfunção do SNC</b></li><li>Clássico (idoso, onda de calor) × de esforço (atleta)</li><li>Rabdomiólise, LRA, CIVD, hepatite</li></ul><b>Resfriamento rápido</b>: imersão em água fria (esforço) ou evaporativo; antitérmico <b>não</b> funciona.",
+   "fonte": "Wilderness Medical Society 2019",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🐝 Picada de himenópteros (abelha) múltipla?",
+   "verso": "Toxicidade por veneno: <b>hemólise, rabdomiólise, LRA</b>, independente de alergia.<br><ul><li>Retirar ferrões raspando (não pinçar)</li><li>Anafilaxia: adrenalina</li><li>Hidratação e monitorar CK, função renal</li></ul>",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "⚡ Afogamento: prioridade?",
+   "verso": "<b>Hipóxia</b> é o problema central: ventilação precoce (5 ventilações de resgate na PCR).<br><ul><li>Coluna cervical só se trauma suspeito (mergulho)</li><li>Observar 6–8 h: edema pulmonar tardio</li></ul>",
+   "fonte": "ERC 2021",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🧠 Hiponatremia associada ao exercício (maratonistas)?",
+   "verso": "Ingestão excessiva de água + ADH; confusão, convulsão.<br>Tratar com <b>salina 3%</b> em bolus (100 mL); restrição hídrica.",
+   "fonte": "Consenso 2015",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🌡️ Hipertermia maligna × síndrome neuroléptica?",
+   "verso": "<table class=t><tr><th></th><th>Hipertermia maligna</th><th>Neuroléptica maligna</th></tr><tr><td>Gatilho</td><td><b>Anestésicos inalatórios, succinilcolina</b></td><td>Antipsicótico</td></tr><tr><td>Início</td><td>Minutos a horas, intraoperatório</td><td>Dias</td></tr><tr><td>Sinal precoce</td><td><b>↑ EtCO₂</b>, rigidez de masseter</td><td>Rigidez, rebaixamento</td></tr><tr><td>Tratamento</td><td><b>Dantrolene</b></td><td>Suspensão, dantrolene, bromocriptina</td></tr></table>",
+   "fonte": "MHAUS",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "⛰️ Mal agudo da montanha?",
+   "verso": "Cefaleia + náusea/fadiga após subida &gt; 2.500 m; edema pulmonar e cerebral nas formas graves.<br><b>Descer</b>, O₂; acetazolamida (prevenção), dexametasona (cerebral), nifedipino (pulmonar).",
+   "fonte": "WMS 2019",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "⚡ Choque elétrico e raio: cuidados?",
+   "verso": "<ul><li><b>ECG</b> e monitorização (arritmias)</li><li>CK, função renal (rabdomiólise)</li><li>Queimaduras de entrada/saída; síndrome compartimental</li><li>Raio: assistolia/apneia → priorizar RCP nas vítimas \"aparentemente mortas\" (triagem reversa)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🧊 Congelamento: tratamento?",
+   "verso": "Reaquecimento rápido em água a <b>37–39 °C</b>; evitar recongelar; analgesia; iloprosta/trombólise em casos graves.",
+   "fonte": "WMS 2019",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🧪 Rabdomiólise de esforço: alta e retorno?",
+   "verso": "CK em queda e função renal normal; retorno gradual à atividade; investigar miopatia se recorrente.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T15"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_15_ab69df59.png": "data/media/r3t_15_ab69df59.png",
+  "r3t_15_81844d6f.png": "data/media/r3t_15_81844d6f.png",
+  "r3t_15_6436d1bc.png": "data/media/r3t_15_6436d1bc.png",
+  "r3t_15_8691e72c.png": "data/media/r3t_15_8691e72c.png",
+  "r3t_15_df083200.png": "data/media/r3t_15_df083200.png",
+  "r3t_15_b6c71217.png": "data/media/r3t_15_b6c71217.png",
+  "r3t_15_a60d0b71.png": "data/media/r3t_15_a60d0b71.png",
+  "r3t_15_50897173.png": "data/media/r3t_15_50897173.png",
+  "r3t_15_ffc70cf8.png": "data/media/r3t_15_ffc70cf8.png"
+ }
+}

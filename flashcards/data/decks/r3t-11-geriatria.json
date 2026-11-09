@@ -1,0 +1,370 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::11 👴 Geriatria e Paliativos",
+ "cards": [
+  {
+   "subtema": "Avaliação geriátrica",
+   "frente": "🧓 Avaliação geriátrica ampla: domínios?",
+   "verso": "<ul><li>Funcionalidade: <b>ABVD (Katz)</b> e <b>AIVD (Lawton)</b></li><li>Cognição (MEEM, MoCA), humor (GDS)</li><li>Mobilidade e quedas (TUG)</li><li>Nutrição (MAN), visão, audição, continência</li><li>Polifarmácia, suporte social</li></ul>",
+   "fonte": "SBGG",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica",
+   "frente": "🛁 Katz × Lawton?",
+   "verso": "<table class=t><tr><th></th><th>Katz (ABVD)</th><th>Lawton (AIVD)</th></tr><tr><td>Atividades</td><td>Banho, vestir, higiene, transferência, continência, alimentação</td><td>Telefone, compras, finanças, medicação, transporte, cozinhar</td></tr><tr><td>Perda</td><td>Tardia (dependência grave)</td><td><b>Precoce</b> (declínio cognitivo inicial)</td></tr></table>",
+   "fonte": "Katz 1963; Lawton 1969",
+   "imagem": "r3t_11_c64f5563.png",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica",
+   "frente": "⏱️ Timed Up and Go?",
+   "verso": "Levantar, andar 3 m, voltar e sentar.<br><b>&gt; 12–13,5 s</b>: risco aumentado de quedas (&gt; 20 s: dependência).",
+   "fonte": "Podsiadlo 1991",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica",
+   "frente": "🧠 Mini-mental: cortes por escolaridade (Brasil)?",
+   "verso": "<table class=t><tr><th>Escolaridade</th><th>Corte sugestivo</th></tr><tr><td>Analfabeto</td><td>&lt; 20</td></tr><tr><td>1–4 anos</td><td>&lt; 25</td></tr><tr><td>5–8 anos</td><td>&lt; 26,5</td></tr><tr><td>9–11 anos</td><td>&lt; 28</td></tr><tr><td>≥ 12 anos</td><td>&lt; 29</td></tr></table>",
+   "fonte": "Brucki 2003",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica",
+   "frente": "🧠 MoCA × MEEM?",
+   "verso": "<b>MoCA</b> é mais sensível para <b>comprometimento cognitivo leve</b> e disfunção executiva.<br>MEEM sofre efeito-teto em alta escolaridade.",
+   "fonte": "Nasreddine 2005",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica",
+   "frente": "🍽️ Desnutrição no idoso: triagem?",
+   "verso": "<b>MAN</b> (Mini Avaliação Nutricional): &lt; 17 desnutrido; 17–23,5 risco.<br><ul><li>Perda de peso &gt; 5% em 6 meses é alarme</li></ul>",
+   "fonte": "Nestlé MNA",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🤕 Quedas no idoso: avaliação após queda?",
+   "verso": "<ul><li>Medicamentos (benzodiazepínicos, antipsicóticos, anti-hipertensivos, hipnóticos)</li><li><b>Hipotensão ortostática</b>, visão, pés/calçados</li><li>Força, equilíbrio, marcha (TUG)</li><li>Ambiente doméstico; vitamina D se deficiente</li></ul>Intervenção com maior evidência: <b>exercício</b> de equilíbrio e força.",
+   "fonte": "World Falls Guidelines 2022",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "💧 Incontinência urinária: tipos e tratamento?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Clínica</th><th>1ª linha</th></tr><tr><td>Esforço</td><td>Perda com tosse/espirro</td><td>Fisioterapia do assoalho pélvico</td></tr><tr><td>Urgência</td><td>Bexiga hiperativa</td><td>Treino vesical; <b>mirabegrona</b> (antimuscarínico com cautela em idoso)</td></tr><tr><td>Transbordamento</td><td>Resíduo alto, gotejamento</td><td>Desobstruir (HPB), cateterismo</td></tr><tr><td>Funcional</td><td>Barreiras físicas/cognitivas</td><td>Medidas comportamentais</td></tr></table>",
+   "fonte": "AUA/SUFU 2024",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🛏️ Lesão por pressão: estágios?",
+   "verso": "<table class=t><tr><th>Estágio</th><th>Achado</th></tr><tr><td>1</td><td>Eritema que <b>não embranquece</b>, pele íntegra</td></tr><tr><td>2</td><td>Perda parcial da derme</td></tr><tr><td>3</td><td>Perda total da pele, gordura visível</td></tr><tr><td>4</td><td>Exposição de <b>osso, tendão ou músculo</b></td></tr><tr><td>Não classificável</td><td>Coberta por esfacelo/escara</td></tr></table>",
+   "fonte": "NPIAP 2016",
+   "imagem": "r3t_11_e1b578c4.png",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🦴 Sarcopenia (EWGSOP2)?",
+   "verso": "<b>Força reduzida</b> (preensão palmar &lt; 27 kg H / &lt; 16 kg M) + massa muscular reduzida; desempenho baixo = grave.<br>Tratamento: <b>exercício resistido</b> + proteína adequada (1–1,2 g/kg).",
+   "fonte": "EWGSOP2 2019",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "😔 Depressão no idoso: particularidades?",
+   "verso": "<ul><li>Queixas somáticas, cognitivas e apatia em vez de tristeza</li><li><b>GDS-15</b> (&gt; 5 sugestivo)</li><li>ISRS de 1ª linha (sertralina, escitalopram); atenção à <b>hiponatremia</b> e quedas</li></ul>",
+   "pegadinha": "Evitar tricíclicos (anticolinérgicos).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🛏️ Imobilidade: complicações?",
+   "verso": "<ul><li>Lesão por pressão, <b>TEV</b>, pneumonia</li><li>Sarcopenia, contraturas, osteoporose</li><li>Constipação, retenção urinária, delirium</li><li>Hipotensão ortostática</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🧠 Comprometimento cognitivo leve × demência?",
+   "verso": "CCL: declínio cognitivo objetivo <b>sem</b> perda de funcionalidade (AIVD preservadas).<br>Demência: declínio <b>com</b> prejuízo funcional.",
+   "fonte": "NIA-AA",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "💤 Insônia no idoso: tratamento?",
+   "verso": "<b>TCC para insônia</b> (1ª linha).<br><ul><li>Evitar benzodiazepínicos, Z-drugs, difenidramina</li><li>Opções: <b>doxepina em dose baixa</b>, melatonina, suvorexanto/lemborexanto</li></ul>",
+   "fonte": "AASM 2017; Beers 2023",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🧪 Sinais de fim de vida (últimos dias)?",
+   "verso": "<ul><li>Diminuição da ingesta, sonolência</li><li>Respiração de <b>Cheyne-Stokes</b>, apneias</li><li>Extremidades frias, livedo, oligúria</li></ul>Suspender intervenções fúteis; focar em conforto e família.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "💊 Critérios de Beers: exemplos de drogas a evitar no idoso?",
+   "verso": "<ul><li><b>Benzodiazepínicos</b> e hipnóticos Z (quedas, delirium)</li><li><b>Anticolinérgicos</b>: difenidramina, hidroxizina, prometazina, amitriptilina, oxibutinina</li><li>Sulfonilureias de longa ação (glibenclamida)</li><li>AINE crônico</li><li>Antipsicóticos na demência (mortalidade)</li><li>Relaxantes musculares</li></ul>",
+   "fonte": "AGS Beers 2023",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "📉 Cascata de prescrição: exemplos?",
+   "verso": "<table class=t><tr><th>Droga inicial</th><th>Efeito tratado como doença</th><th>Droga adicionada</th></tr><tr><td>Anlodipino</td><td>Edema</td><td>Furosemida</td></tr><tr><td>Metoclopramida</td><td>Parkinsonismo</td><td>Levodopa</td></tr><tr><td>Inibidor de colinesterase</td><td>Incontinência urinária</td><td>Antimuscarínico</td></tr><tr><td>AINE</td><td>HAS</td><td>Anti-hipertensivo</td></tr></table>",
+   "fonte": "Rochon 1997",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "🧮 Escala de carga anticolinérgica: por que importa?",
+   "verso": "Somatório de drogas anticolinérgicas associa-se a <b>delirium, declínio cognitivo, quedas e retenção urinária</b>.<br>Desprescrever sempre que possível.",
+   "fonte": "ACB Scale",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "✂️ Desprescrição: como fazer?",
+   "verso": "<ul><li>Revisar indicação, benefício remanescente e expectativa de vida</li><li>Priorizar drogas de alto risco</li><li><b>Retirar uma de cada vez</b>, gradualmente (benzodiazepínicos, ISRS, betabloqueadores)</li><li>Monitorar abstinência/retorno de sintomas</li></ul>",
+   "fonte": "Scott 2015",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "💊 STOPP/START: exemplos de START?",
+   "verso": "<ul><li><b>Estatina</b> na DCV (se expectativa de vida razoável)</li><li><b>IECA</b> na IC/DRC com albuminúria</li><li><b>Anticoagulante</b> na FA</li><li><b>Laxante</b> com opioide</li><li>Vitamina D + cálcio em osteoporose</li></ul>",
+   "fonte": "STOPP/START v3 2023",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "💊 Hipoglicemiantes no idoso frágil: o que evitar?",
+   "verso": "<ul><li><b>Glibenclamida</b> e sulfonilureias de longa ação</li><li>Esquemas complexos de insulina</li><li>Metas rígidas de HbA1c</li></ul>Preferir iDPP-4, metformina (se TFG ok), insulina basal simples.",
+   "fonte": "ADA 2025; Beers 2023",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🕊️ Cuidados paliativos: quem indicar?",
+   "verso": "<b>Precocemente</b>, junto com tratamento modificador de doença, em qualquer doença grave ameaçadora da vida.<br><ul><li>Pergunta surpresa: \"Você se surpreenderia se o paciente morresse em 12 meses?\"</li><li>Ferramentas: SPICT, PPS, KPS</li></ul>",
+   "pegadinha": "Temel 2010: paliativo precoce em câncer de pulmão melhorou qualidade de vida e sobrevida.",
+   "fonte": "OMS; Temel NEJM 2010",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "💊 Conversão de opioides: morfina oral equivalente?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Equivalência aproximada</th></tr><tr><td>Morfina oral 30 mg</td><td>= morfina IV/SC 10 mg</td></tr><tr><td>Oxicodona oral 20 mg</td><td>= morfina oral 30 mg</td></tr><tr><td>Tramadol oral 300 mg</td><td>≈ morfina oral 30–60 mg</td></tr><tr><td>Metadona</td><td><b>Não linear</b> (especialista)</td></tr></table>Na troca de opioide, reduzir <b>25–50%</b> (tolerância cruzada incompleta).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "📈 Titulação de opioide e resgate?",
+   "verso": "<ul><li>Dose de resgate: <b>10–15%</b> da dose diária, a cada 1–4 h</li><li>Somar resgates de 24 h à dose fixa</li><li>Sempre <b>laxante</b> associado</li><li>Insuficiência renal: evitar morfina e codeína (metabólitos); preferir <b>metadona, fentanil</b> ou hidromorfona</li></ul>",
+   "fonte": "EAPC 2012",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🔊 Sororoca (ronco da morte)?",
+   "verso": "Secreções acumuladas nas vias aéreas superiores nas últimas horas/dias.<br><ul><li>Posicionar em decúbito lateral; orientar família</li><li><b>Escopolamina</b> (butilbrometo) ou glicopirrolato</li></ul>",
+   "pegadinha": "Aspiração profunda causa desconforto.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🌀 Delirium terminal: tratamento?",
+   "verso": "<ul><li>Buscar causas reversíveis compatíveis com objetivos</li><li><b>Haloperidol</b> (ou levomepromazina, clorpromazina)</li><li>Sintoma refratário: <b>sedação paliativa</b> com midazolam</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "⚖️ Ortotanásia × eutanásia × distanásia?",
+   "verso": "<table class=t><tr><th>Termo</th><th>Definição</th></tr><tr><td><b>Ortotanásia</b></td><td>Morte natural sem prolongamento artificial (permitida — CFM 1.805/2006)</td></tr><tr><td>Eutanásia</td><td>Abreviar a vida intencionalmente (crime no Brasil)</td></tr><tr><td>Distanásia</td><td>Prolongamento fútil do sofrimento</td></tr><tr><td>Mistanásia</td><td>Morte evitável por abandono/desassistência</td></tr></table>",
+   "fonte": "Res. CFM 1.805/2006; Código de Ética Médica",
+   "imagem": "r3t_11_eb43bf9e.png",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "📝 Diretivas antecipadas de vontade?",
+   "verso": "Desejos do paciente sobre cuidados em incapacidade futura; prevalecem sobre a vontade de familiares.<br>Registrar no <b>prontuário</b> (Res. CFM 1.995/2012); pode nomear representante.",
+   "fonte": "Res. CFM 1.995/2012",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🍽️ Nutrição e hidratação artificial na demência avançada?",
+   "verso": "Gastrostomia <b>não</b> prolonga sobrevida nem reduz aspiração/lesões por pressão.<br>Preferir <b>alimentação de conforto</b> por via oral assistida.",
+   "fonte": "AGS 2014",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "💊 Opioides: efeitos adversos e manejo?",
+   "verso": "<table class=t><tr><th>Efeito</th><th>Manejo</th></tr><tr><td><b>Constipação</b> (não há tolerância)</td><td>Laxante regular, metilnaltrexona</td></tr><tr><td>Náusea (inicial)</td><td>Antiemético; tolerância em dias</td></tr><tr><td>Sonolência</td><td>Reduzir dose, rodízio</td></tr><tr><td>Neurotoxicidade (mioclonias, delirium)</td><td>Rodízio de opioide, hidratação</td></tr><tr><td>Depressão respiratória</td><td>Naloxona titulada</td></tr></table>",
+   "fonte": "EAPC 2012",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🤢 Náusea em cuidados paliativos: antiemético pelo mecanismo?",
+   "verso": "<table class=t><tr><th>Mecanismo</th><th>Droga</th></tr><tr><td>Gástrico (estase)</td><td><b>Metoclopramida</b></td></tr><tr><td>Químico (opioide, uremia)</td><td><b>Haloperidol</b></td></tr><tr><td>Vestibular</td><td>Anti-histamínico</td></tr><tr><td>Obstrução intestinal maligna</td><td>Octreotida, dexametasona, haloperidol</td></tr><tr><td>Hipertensão intracraniana</td><td>Dexametasona</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🧾 Escala de desempenho paliativo (PPS)?",
+   "verso": "0–100% (deambulação, atividade, autocuidado, ingesta, consciência).<br><b>PPS ≤ 30–40%</b>: prognóstico de semanas.",
+   "fonte": "Victoria Hospice",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🗣️ Comunicação de más notícias: protocolo SPIKES?",
+   "verso": "<ul><li><b>S</b>etting (ambiente)</li><li><b>P</b>ercepção do paciente</li><li><b>I</b>nvitation (o quanto quer saber)</li><li><b>K</b>nowledge (informar)</li><li><b>E</b>mpatia</li><li><b>S</b>trategy e Summary</li></ul>",
+   "fonte": "Baile 2000",
+   "imagem": "r3t_11_dc3a8817.png",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "💊 Hipodermóclise: drogas compatíveis?",
+   "verso": "<ul><li>Morfina, <b>midazolam</b>, haloperidol, escopolamina, ondansetrona, dexametasona, ceftriaxona, furosemida</li><li>Soro fisiológico até ~1.500 mL/dia por sítio</li></ul>",
+   "pegadinha": "Não usar: diazepam, fenitoína, soluções hipertônicas/eletrólitos concentrados.",
+   "fonte": "ANCP",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🧪 Cuidado com a família após o óbito (luto)?",
+   "verso": "<ul><li>Comunicar com clareza, oferecer tempo e privacidade</li><li>Orientar trâmites (declaração de óbito)</li><li>Identificar <b>luto complicado</b> (&gt; 6–12 meses, prejuízo funcional) e encaminhar</li></ul>",
+   "fonte": "ANCP; DSM-5-TR",
+   "tags": [
+    "R3T360X",
+    "T11"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_11_c64f5563.png": "data/media/r3t_11_c64f5563.png",
+  "r3t_11_e1b578c4.png": "data/media/r3t_11_e1b578c4.png",
+  "r3t_11_eb43bf9e.png": "data/media/r3t_11_eb43bf9e.png",
+  "r3t_11_dc3a8817.png": "data/media/r3t_11_dc3a8817.png"
+ }
+}

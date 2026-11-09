@@ -1,0 +1,363 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::12 🧘 Psiquiatria na Clínica",
+ "cards": [
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "😔 Episódio depressivo maior (DSM-5)?",
+   "verso": "≥ 5 sintomas por ≥ <b>2 semanas</b>, incluindo <b>humor deprimido ou anedonia</b>:<br><ul><li>Alteração de sono, apetite/peso</li><li>Fadiga, culpa, concentração</li><li>Agitação/lentificação psicomotora</li><li>Ideação suicida</li></ul>",
+   "fonte": "DSM-5-TR",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "📋 PHQ-9: interpretação?",
+   "verso": "<table class=t><tr><th>Escore</th><th>Gravidade</th></tr><tr><td>5–9</td><td>Leve</td></tr><tr><td>10–14</td><td>Moderada</td></tr><tr><td>15–19</td><td>Moderadamente grave</td></tr><tr><td>≥ 20</td><td>Grave</td></tr></table>Item 9 positivo (ideação suicida): avaliar risco <b>no mesmo dia</b>.",
+   "fonte": "Kroenke 2001",
+   "imagem": "r3t_12_8ea608a0.png",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "💊 Depressão: tratamento inicial e tempo?",
+   "verso": "<ul><li><b>ISRS</b> (sertralina, escitalopram) 1ª linha</li><li>Resposta em <b>4–6 semanas</b>; ajustar dose antes de trocar</li><li>Manter <b>6–12 meses</b> após remissão (1º episódio); ≥ 2 anos se recorrente</li><li>Psicoterapia (TCC) tão eficaz quanto em leve-moderada</li></ul>",
+   "fonte": "CANMAT 2023",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "⚡ Transtorno bipolar: o que evitar?",
+   "verso": "<b>Antidepressivo em monoterapia</b> (virada maníaca, ciclagem rápida).<br><ul><li>Mania: lítio, valproato, antipsicótico atípico</li><li>Depressão bipolar: quetiapina, lurasidona, lamotrigina (manutenção)</li></ul>",
+   "fonte": "CANMAT/ISBD 2018",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "😰 Transtorno de ansiedade generalizada?",
+   "verso": "<ul><li>Preocupação excessiva, difícil de controlar, por ≥ <b>6 meses</b></li><li>Inquietação, fadiga, tensão muscular, insônia</li><li><b>GAD-7</b></li></ul>ISRS/IRSN + TCC; benzodiazepínico só por curto período.",
+   "fonte": "DSM-5-TR; CANMAT 2014",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "💓 Ataque de pânico × SCA?",
+   "verso": "Pânico: pico em <b>10 min</b>, medo de morrer, parestesias, despersonalização.",
+   "pegadinha": "Sempre excluir causas orgânicas (SCA, arritmia, hipertireoidismo, feocromocitoma, abstinência) antes de rotular.",
+   "fonte": "DSM-5-TR",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🌀 Escolha do antidepressivo por perfil?",
+   "verso": "<table class=t><tr><th>Perfil</th><th>Opção</th></tr><tr><td>Dor crônica/neuropatia</td><td><b>Duloxetina</b>, venlafaxina</td></tr><tr><td>Insônia, perda de peso</td><td><b>Mirtazapina</b></td></tr><tr><td>Disfunção sexual, ganho de peso a evitar</td><td><b>Bupropiona</b></td></tr><tr><td>Tabagismo</td><td>Bupropiona</td></tr><tr><td>Cardiopata</td><td><b>Sertralina</b></td></tr></table>",
+   "fonte": "CANMAT 2023",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🧠 Depressão resistente: opções?",
+   "verso": "Falha de ≥ 2 antidepressivos adequados:<br><ul><li>Potencializar: <b>lítio</b>, aripiprazol, quetiapina</li><li><b>Escetamina</b> intranasal</li><li><b>ECT</b> (mais eficaz, inclusive em psicose e catatonia)</li></ul>",
+   "fonte": "CANMAT 2023",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🤱 Depressão pós-parto?",
+   "verso": "Rastrear com <b>EPDS</b>; ISRS (sertralina compatível com amamentação).",
+   "pegadinha": "Psicose puerperal: emergência (risco de infanticídio/suicídio) — internação.",
+   "fonte": "ACOG 2023",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🧠 Transtorno de estresse pós-traumático?",
+   "verso": "Revivescências, evitação, alterações negativas de humor e hiperexcitação &gt; 1 mês após trauma.<br><b>Psicoterapia focada no trauma</b> (1ª linha), ISRS, prazosina para pesadelos.",
+   "fonte": "APA 2017",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🧪 Transtorno de ajustamento × depressão maior?",
+   "verso": "Ajustamento: sintomas em até <b>3 meses</b> após estressor identificável, sem preencher critérios de depressão maior; psicoterapia de apoio.",
+   "fonte": "DSM-5-TR",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🔥 Síndrome neuroléptica maligna?",
+   "verso": "<ul><li><b>Rigidez em \"cano de chumbo\"</b>, hipertermia, rebaixamento, disautonomia</li><li><b>CK muito alta</b>, leucocitose</li><li>Instalação em <b>dias</b>, após antipsicótico (ou retirada de levodopa)</li></ul>Suspender, suporte, dantrolene, bromocriptina.",
+   "fonte": "Revisões",
+   "imagem": "r3t_12_726aea99.png",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🧂 Lítio: faixa terapêutica e toxicidade?",
+   "verso": "Nível <b>0,6–1,2 mEq/L</b> (agudo até 1,2; manutenção 0,6–0,8).<br><ul><li>Toxicidade: tremor grosseiro, ataxia, confusão, diarreia</li><li>Crônico: <b>hipotireoidismo</b>, <b>diabetes insípido nefrogênico</b>, hiperparatireoidismo, DRC</li></ul>",
+   "pegadinha": "Aumentam o nível: <b>tiazídicos</b>, IECA/BRA, AINE, desidratação.",
+   "fonte": "Revisões",
+   "imagem": "r3t_12_1548c1e4.png",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "⚠️ Antipsicóticos atípicos: efeitos metabólicos e outros?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Destaque</th></tr><tr><td><b>Olanzapina</b>, clozapina</td><td>Ganho de peso, DM, dislipidemia</td></tr><tr><td>Risperidona</td><td><b>Hiperprolactinemia</b>, sintomas extrapiramidais</td></tr><tr><td>Quetiapina</td><td>Sedação, hipotensão</td></tr><tr><td>Ziprasidona</td><td>QT longo</td></tr><tr><td>Aripiprazol</td><td>Acatisia; metabolicamente neutro</td></tr><tr><td><b>Clozapina</b></td><td><b>Agranulocitose</b> (hemograma), miocardite, convulsão</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🧪 ISRS: efeitos adversos de destaque?",
+   "verso": "<ul><li>Disfunção sexual, náusea</li><li><b>Hiponatremia</b> (idosos)</li><li><b>Sangramento</b> (com AAS/anticoagulante)</li><li>QT longo (citalopram/escitalopram)</li><li>Síndrome de descontinuação (paroxetina)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "💤 Benzodiazepínicos: riscos e retirada?",
+   "verso": "<ul><li>Quedas, fraturas, delirium, dependência</li><li>Retirada abrupta: ansiedade, <b>convulsões</b></li></ul>Desmame <b>gradual</b> (10–25% a cada 2–4 semanas).<br><ul><li>Overdose: depressão respiratória com opioide/álcool; antídoto <b>flumazenil</b> (cuidado: convulsão em dependentes)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "💊 Síndrome de descontinuação de ISRS?",
+   "verso": "Tontura, \"choques\", irritabilidade, insônia — maior com <b>paroxetina</b> e venlafaxina.<br>Retirada gradual; fluoxetina tem menor risco (meia-vida longa).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🧪 Clozapina: monitorização?",
+   "verso": "<ul><li><b>Hemograma</b> (neutrófilos) semanal nos primeiros meses</li><li>Miocardite (troponina, PCR nas primeiras semanas)</li><li>Constipação grave (íleo), sialorreia, convulsão</li></ul>Indicada na <b>esquizofrenia refratária</b> e risco de suicídio.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "💊 Lítio e função renal/tireoide: seguimento?",
+   "verso": "Litemia, <b>creatinina</b>, <b>TSH</b> e cálcio a cada 6–12 meses.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "💊 Valproato: efeitos adversos?",
+   "verso": "<ul><li><b>Hepatotoxicidade</b>, pancreatite</li><li>Teratogenicidade (tubo neural)</li><li>Trombocitopenia, ganho de peso, tremor, alopecia</li><li><b>Hiperamonemia</b> (encefalopatia)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🧪 Mirtazapina e trazodona: perfis?",
+   "verso": "<b>Mirtazapina</b>: sono, apetite e peso ↑, pouca disfunção sexual.<br><b>Trazodona</b>: hipnótica em dose baixa; priapismo (raro), hipotensão.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "💊 Tratamento da dependência de álcool (prevenção de recaída)?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Mecanismo</th><th>Atenção</th></tr><tr><td><b>Naltrexona</b></td><td>Antagonista opioide</td><td>Contraindicada com opioides, hepatopatia grave</td></tr><tr><td><b>Acamprosato</b></td><td>Modulador glutamatérgico</td><td>Ajuste renal</td></tr><tr><td>Dissulfiram</td><td>Aversivo</td><td>Só com adesão supervisionada</td></tr><tr><td>Topiramato</td><td>Off-label</td></tr></table>",
+   "fonte": "APA 2018",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🥶 Abstinência alcoólica: linha do tempo?",
+   "verso": "<table class=t><tr><th>Tempo após última dose</th><th>Manifestação</th></tr><tr><td>6–24 h</td><td>Tremor, ansiedade, taquicardia</td></tr><tr><td>12–48 h</td><td><b>Convulsões</b></td></tr><tr><td>12–48 h</td><td>Alucinose alcoólica (consciência preservada)</td></tr><tr><td><b>48–96 h</b></td><td><b>Delirium tremens</b></td></tr></table>CIWA-Ar ≥ 8–10: benzodiazepínico guiado por sintoma.",
+   "fonte": "ASAM 2020",
+   "imagem": "r3t_12_9e337fcc.png",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🌿 Intoxicação por cocaína: tratamento da HAS/taquicardia?",
+   "verso": "<ul><li><b>Benzodiazepínico</b> (1ª linha)</li><li>Nitrato, BCC, fentolamina</li><li>Dor torácica: AAS + nitrato; considerar IAM por vasoespasmo/trombose</li></ul>",
+   "pegadinha": "<b>Evitar betabloqueador</b> puro (alfa sem oposição) — controverso, mas cai em prova.",
+   "fonte": "AHA 2008",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "💉 Dependência de opioides: tratamento?",
+   "verso": "<ul><li><b>Buprenorfina</b> (± naloxona) ou <b>metadona</b></li><li>Naltrexona após desintoxicação</li><li>Kit de <b>naloxona</b> para casa</li></ul>",
+   "fonte": "ASAM 2020",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🌿 Intoxicação por cannabis e síndrome de hiperêmese?",
+   "verso": "Hiperêmese canabinoide: vômitos cíclicos em usuário crônico, alívio com <b>banho quente</b>.<br>Haloperidol, capsaicina tópica; cessar o uso.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "💉 Overdose de opioide: naloxona?",
+   "verso": "0,04–0,4 mg IV titulado (até 2 mg), repetir; IN 4 mg.",
+   "pegadinha": "Meia-vida curta (30–90 min): <b>renarcotização</b> com metadona/opioides de longa ação → observar ou infusão.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🧪 Abstinência de benzodiazepínicos?",
+   "verso": "Ansiedade, tremor, insônia, <b>convulsões</b>, delirium (semelhante ao álcool).<br>Reintroduzir benzodiazepínico de meia-vida longa e desmamar.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🧪 Delirium tremens: tratamento?",
+   "verso": "Benzodiazepínico em doses altas (diazepam/lorazepam) guiado por sintomas, tiamina, eletrólitos; refratário: <b>fenobarbital</b>/propofol em UTI.",
+   "fonte": "ASAM 2020",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Urgências psiquiátricas",
+   "frente": "🆘 Avaliação de risco de suicídio: fatores?",
+   "verso": "<ul><li><b>Tentativa prévia</b> (maior preditor)</li><li>Plano, acesso a meios letais, desesperança</li><li>Transtorno mental, abuso de substâncias</li><li>Homem idoso, isolamento, dor crônica, doença grave</li></ul>Perguntar diretamente <b>não</b> aumenta o risco; restringir meios; não deixar sozinho se alto risco.",
+   "fonte": "APA 2003; Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Urgências psiquiátricas",
+   "frente": "😡 Agitação psicomotora: manejo farmacológico?",
+   "verso": "<ul><li>Abordagem verbal primeiro</li><li><b>Haloperidol + prometazina</b> IM, ou <b>midazolam</b> IM, ou olanzapina IM</li><li>Intoxicação/abstinência: benzodiazepínico</li></ul>",
+   "pegadinha": "Evitar olanzapina IM + benzodiazepínico parenteral (depressão respiratória).",
+   "fonte": "ABP 2019",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Urgências psiquiátricas",
+   "frente": "🎭 Transtornos somatoformes × factícios × simulação?",
+   "verso": "<table class=t><tr><th>Transtorno</th><th>Produção dos sintomas</th><th>Motivação</th></tr><tr><td>Sintomas somáticos/conversivo</td><td><b>Inconsciente</b></td><td>Inconsciente</td></tr><tr><td>Factício (Munchausen)</td><td>Consciente</td><td><b>Papel de doente</b></td></tr><tr><td>Simulação</td><td>Consciente</td><td><b>Ganho externo</b> (dinheiro, atestado)</td></tr></table>",
+   "fonte": "DSM-5-TR",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Urgências psiquiátricas",
+   "frente": "🧠 Catatonia?",
+   "verso": "<ul><li>Mutismo, estupor, negativismo, <b>flexibilidade cérea</b>, ecolalia</li><li>Escala de Bush-Francis</li></ul>Teste com <b>lorazepam</b> IV (diagnóstico e tratamento); ECT se refratária.",
+   "pegadinha": "Antipsicóticos podem piorar (risco de SNM).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  },
+  {
+   "subtema": "Urgências psiquiátricas",
+   "frente": "🧪 Primeiro episódio psicótico: exames orgânicos?",
+   "verso": "<ul><li>Toxicológico, glicemia, eletrólitos, cálcio</li><li>TSH, <b>B12</b>, <b>sífilis</b>, <b>HIV</b></li><li>Neuroimagem se sinais focais/atípicos</li><li>EEG se suspeita de crise</li></ul>",
+   "fonte": "NICE 2014",
+   "tags": [
+    "R3T360X",
+    "T12"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_12_8ea608a0.png": "data/media/r3t_12_8ea608a0.png",
+  "r3t_12_726aea99.png": "data/media/r3t_12_726aea99.png",
+  "r3t_12_1548c1e4.png": "data/media/r3t_12_1548c1e4.png",
+  "r3t_12_9e337fcc.png": "data/media/r3t_12_9e337fcc.png"
+ }
+}

@@ -1,0 +1,807 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::06 🩸 Hematologia",
+ "cards": [
+  {
+   "subtema": "Anemias",
+   "frente": "🔍 Classificação das anemias pelo VCM?",
+   "verso": "<table class=t><tr><th>Microcítica (&lt; 80)</th><th>Normocítica</th><th>Macrocítica (&gt; 100)</th></tr><tr><td>Ferropriva</td><td>Doença crônica</td><td>B12/folato (megaloblástica)</td></tr><tr><td>Talassemia</td><td>Perda aguda, DRC</td><td>Álcool, hepatopatia</td></tr><tr><td>Doença crônica (às vezes)</td><td>Hemólise (reticulócitos ↑)</td><td>Hipotireoidismo, SMD</td></tr><tr><td>Sideroblástica</td><td>Medula (aplasia, infiltração)</td><td>Drogas (MTX, hidroxiureia, zidovudina)</td></tr></table>",
+   "fonte": "Harrison",
+   "imagem": "r3t_06_71ec63b2.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧪 Ferropriva × anemia de doença crônica?",
+   "verso": "<table class=t><tr><th></th><th>Ferropriva</th><th>Doença crônica</th></tr><tr><td>Ferritina</td><td><b>&lt; 30</b></td><td>Normal ou <b>↑</b></td></tr><tr><td>Saturação de transferrina</td><td>↓</td><td>↓</td></tr><tr><td>Transferrina/TIBC</td><td><b>↑</b></td><td>↓</td></tr><tr><td>RDW</td><td>↑</td><td>Normal</td></tr></table>",
+   "pegadinha": "Inflamação: ferritina &lt; 100 com saturação &lt; 20% ainda sugere ferropenia.",
+   "fonte": "Harrison",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🔁 Ferropriva × talassemia minor?",
+   "verso": "<ul><li><b>Índice de Mentzer</b>: VCM/hemácias &lt; 13 sugere talassemia; &gt; 13, ferropriva</li><li>Talassemia: hemácias <b>normais ou altas</b>, RDW normal, ferritina normal</li><li>Beta-talassemia minor: <b>HbA2 &gt; 3,5%</b> na eletroforese</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🩸 Anemia ferropriva em homem ou mulher pós-menopausa?",
+   "verso": "Investigar <b>trato gastrointestinal</b>: EDA + colonoscopia (± sorologia de doença celíaca).",
+   "fonte": "BSG 2021; AGA 2020",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧠 Deficiência de B12 × folato?",
+   "verso": "<table class=t><tr><th></th><th>B12</th><th>Folato</th></tr><tr><td>Neurológico (degeneração combinada da medula)</td><td><b>Sim</b></td><td>Não</td></tr><tr><td>Ácido metilmalônico</td><td><b>↑</b></td><td>Normal</td></tr><tr><td>Homocisteína</td><td>↑</td><td>↑</td></tr><tr><td>Causas</td><td>Anemia perniciosa, metformina, IBP, gastrectomia, vegano</td><td>Álcool, má nutrição, gestação, MTX</td></tr></table>",
+   "fonte": "BMJ 2014",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "💉 Reposição de B12: oral ou parenteral?",
+   "verso": "Oral em <b>dose alta</b> (1.000–2.000 µg/dia) é eficaz mesmo na anemia perniciosa (absorção passiva ~1%).<br>Parenteral: sintomas neurológicos graves, má adesão, má absorção grave.",
+   "fonte": "Cochrane 2018",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🔢 Índice de reticulócitos: para que serve?",
+   "verso": "Reticulócitos corrigidos = % × (Ht/45); dividir por fator de maturação.<br><table class=t><tr><th>IPR</th><th>Interpretação</th></tr><tr><td>&gt; 2–3</td><td>Medula responde: <b>hemólise ou perda</b></td></tr><tr><td>&lt; 2</td><td><b>Hipoproliferativa</b> (deficiência, medula, DRC)</td></tr></table>",
+   "fonte": "Harrison",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🦴 Aplasia de medula: diagnóstico e causas?",
+   "verso": "Pancitopenia + reticulócitos baixos + <b>medula hipocelular</b> (&lt; 25%).<br><ul><li>Idiopática (autoimune), drogas (cloranfenicol, sulfas, anticonvulsivantes), vírus (hepatite, parvovírus B19), HPN</li></ul>Tratamento: transplante (jovens) ou ATG + ciclosporina + eltrombopague.",
+   "fonte": "BSH 2024",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧪 Esfregaço de sangue periférico: achados e significados?",
+   "verso": "<table class=t><tr><th>Achado</th><th>Significado</th></tr><tr><td><b>Esquizócitos</b></td><td>Microangiopatia (PTT, SHU, CIVD, prótese)</td></tr><tr><td>Esferócitos</td><td>AHAI, esferocitose</td></tr><tr><td>Dacriócitos</td><td><b>Mielofibrose</b>, infiltração medular</td></tr><tr><td>Corpúsculos de Howell-Jolly</td><td><b>Asplenia</b></td></tr><tr><td>Hipersegmentação neutrofílica</td><td>Megaloblástica</td></tr><tr><td>Bastonetes de Auer</td><td>Leucemia mieloide aguda</td></tr><tr><td>Hemácias em alvo</td><td>Talassemia, hepatopatia</td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_06_7447e5bf.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧬 Talassemias: tipos e clínica?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Clínica</th></tr><tr><td>Alfa: 1 gene deletado</td><td>Silenciosa</td></tr><tr><td>Alfa: 2 genes</td><td>Traço (microcitose leve)</td></tr><tr><td>Alfa: 3 genes</td><td><b>Doença da HbH</b></td></tr><tr><td>Alfa: 4 genes</td><td>Hidropsia fetal (Hb Bart)</td></tr><tr><td>Beta minor</td><td>Microcitose, <b>HbA2 ↑</b></td></tr><tr><td>Beta major</td><td>Anemia grave, transfusões, sobrecarga de ferro</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧪 Anemia sideroblástica?",
+   "verso": "<ul><li><b>Sideroblastos em anel</b> na medula (coloração de Perls)</li><li>Causas: álcool, <b>isoniazida</b> (sem piridoxina), chumbo, deficiência de cobre, SMD, hereditária</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🩸 Anemia na gestação: definição e conduta?",
+   "verso": "Hb <b>&lt; 11</b> (1º e 3º trimestres) ou &lt; 10,5 (2º).<br>Ferro profilático; ferro IV no 2º/3º trimestre se intolerância/grave.",
+   "fonte": "OMS; FEBRASGO",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧪 Anemia da inflamação: hepcidina?",
+   "verso": "IL-6 ↑ <b>hepcidina</b> → bloqueia ferroportina → ferro preso em macrófagos e enterócitos.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🧪 Anemia por doença renal × outras no idoso?",
+   "verso": "Anemia normocítica com reticulócitos baixos e <b>EPO inapropriadamente normal</b>; excluir ferro, B12, mieloma, SMD antes de atribuir à DRC.",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🧪 Anemia hemolítica autoimune quente × fria?",
+   "verso": "<table class=t><tr><th></th><th>Quente (IgG)</th><th>Fria (IgM)</th></tr><tr><td>Coombs direto</td><td>IgG ± C3</td><td><b>C3</b></td></tr><tr><td>Causas</td><td>Idiopática, LES, LLC, drogas</td><td>Mycoplasma, EBV, linfoma</td></tr><tr><td>Esfregaço</td><td>Esferócitos</td><td>Aglutinação</td></tr><tr><td>Tratamento</td><td><b>Corticoide</b>, rituximabe</td><td>Evitar frio, rituximabe, sutimlimabe</td></tr></table>",
+   "fonte": "BSH 2017",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🌙 Hemoglobinúria paroxística noturna?",
+   "verso": "<ul><li>Hemólise intravascular, <b>trombose em sítios atípicos</b> (Budd-Chiari, mesentérica)</li><li>Pancitopenia/aplasia</li></ul>Diagnóstico: <b>citometria de fluxo</b> (perda de CD55/CD59).<br>Tratamento: eculizumabe/ravulizumabe.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🧬 Anemia falciforme: complicações agudas?",
+   "verso": "<ul><li><b>Crise álgica</b> vaso-oclusiva</li><li><b>Síndrome torácica aguda</b> (dor torácica, infiltrado, hipoxemia)</li><li>Sequestro esplênico, crise aplásica (parvovírus B19)</li><li>AVC, priapismo</li></ul>Hidroxiureia reduz crises e mortalidade.",
+   "fonte": "ASH 2020",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🫁 Síndrome torácica aguda na falciforme: tratamento?",
+   "verso": "<ul><li>O₂, analgesia, incentivo respiratório</li><li><b>Antibiótico</b> (cefalosporina + macrolídeo)</li><li><b>Transfusão</b> simples; exsanguineotransfusão se grave</li></ul>",
+   "pegadinha": "Hidratação excessiva piora.",
+   "fonte": "ASH 2020",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🧪 Hemólise por prótese valvar ou microangiopatia mecânica?",
+   "verso": "Esquizócitos, LDH alto, haptoglobina baixa; avaliar disfunção/vazamento paravalvar.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🧪 Crise aplásica na falciforme?",
+   "verso": "Queda súbita da Hb com <b>reticulócitos baixos</b> após <b>parvovírus B19</b>; transfusão de suporte.",
+   "fonte": "ASH",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🧪 Teste de Coombs direto × indireto?",
+   "verso": "<table class=t><tr><th></th><th>Direto</th><th>Indireto</th></tr><tr><td>Pesquisa</td><td>Anticorpo/complemento <b>na hemácia</b> do paciente</td><td>Anticorpo <b>livre no soro</b></td></tr><tr><td>Uso</td><td><b>AHAI</b>, reação transfusional, doença hemolítica do RN</td><td>Prova cruzada, pré-natal (aloimunização)</td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_06_b6e4cb8e.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🧪 Traço falciforme (HbAS): é mesmo benigno?",
+   "verso": "<ul><li><b>Hematúria</b> e necrose de papila renal</li><li><b>Isostenúria</b> (não concentra urina)</li><li>Rabdomiólise e morte súbita em <b>esforço extremo</b> com desidratação</li><li>Carcinoma medular renal (raro)</li></ul>",
+   "fonte": "ASH; Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🩸 Plaquetopenia: primeiro passo?",
+   "verso": "Excluir <b>pseudoplaquetopenia</b> (agregação por EDTA): esfregaço e coleta com citrato.<br><ul><li>Avaliar drogas (heparina, linezolida, sulfas, quinina)</li><li>Esfregaço: esquizócitos (PTT/SHU/CIVD), blastos</li></ul>",
+   "fonte": "ASH",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧪 PTI: tratamento de 1ª linha?",
+   "verso": "Tratar se plaquetas &lt; 30 mil ou sangramento.<br><ul><li><b>Corticoide</b>: dexametasona 40 mg 4 dias ou prednisona 1 mg/kg</li><li><b>IgIV</b>: resposta rápida (sangramento, pré-operatório)</li><li>2ª linha: agonistas de trombopoetina (eltrombopague, romiplostim), rituximabe, esplenectomia</li></ul>",
+   "fonte": "ASH 2019",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧱 PTT × SHU × CIVD?",
+   "verso": "<table class=t><tr><th></th><th>PTT</th><th>SHU típica</th><th>CIVD</th></tr><tr><td>Causa</td><td>↓ ADAMTS13</td><td>Shiga toxina (E. coli O157)</td><td>Sepse, trauma, câncer, obstetrícia</td></tr><tr><td>Coagulação (TP/TTPa)</td><td><b>Normal</b></td><td>Normal</td><td><b>Alargada</b></td></tr><tr><td>Fibrinogênio</td><td>Normal</td><td>Normal</td><td><b>↓</b></td></tr><tr><td>Rim</td><td>Leve</td><td><b>Grave</b></td><td>Variável</td></tr><tr><td>Tratamento</td><td>Plasmaférese</td><td>Suporte</td><td>Tratar a causa</td></tr></table>",
+   "fonte": "ISTH; BSH",
+   "imagem": "r3t_06_f6166973.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧮 Escore PLASMIC?",
+   "verso": "Plaquetas &lt; 30 mil, hemólise, sem câncer ativo, sem transplante, VCM &lt; 90, RNI &lt; 1,5, creatinina &lt; 2,0.<br><b>6–7 pontos</b>: alta probabilidade de PTT.",
+   "fonte": "Bendapudi 2017",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "⏱️ TP × TTPa alargados: raciocínio?",
+   "verso": "<table class=t><tr><th>TP</th><th>TTPa</th><th>Pensar em</th></tr><tr><td>↑</td><td>Normal</td><td>Fator VII, varfarina, hepatopatia inicial, vitamina K</td></tr><tr><td>Normal</td><td>↑</td><td>Heparina, hemofilia (VIII, IX, XI), FvW, anticoagulante lúpico</td></tr><tr><td>↑</td><td>↑</td><td>Hepatopatia, CIVD, fatores comuns (X, V, II), anticoagulação excessiva</td></tr></table><b>Teste de mistura</b>: corrige = deficiência; não corrige = inibidor.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧪 Trombocitose: reativa × primária?",
+   "verso": "<table class=t><tr><th></th><th>Reativa</th><th>Primária (TE)</th></tr><tr><td>Causas</td><td>Ferropenia, infecção, inflamação, esplenectomia, câncer</td><td>JAK2/CALR/MPL</td></tr><tr><td>Trombose</td><td>Rara</td><td><b>Sim</b></td></tr><tr><td>PCR/VHS</td><td>Altos</td><td>Normais</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🩸 Trombocitopenia induzida por heparina: escore 4T?",
+   "verso": "<ul><li><b>T</b>rombocitopenia (queda &gt; 50%)</li><li><b>T</b>iming: <b>5–10 dias</b> após início</li><li><b>T</b>rombose nova</li><li>ou<b>T</b>ras causas ausentes</li></ul>Alta probabilidade: suspender <b>toda</b> heparina, iniciar não heparínico (argatrobana, fondaparinux, DOAC).",
+   "fonte": "ASH 2018",
+   "imagem": "r3t_06_ea38b168.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧪 CIVD: escore ISTH?",
+   "verso": "Plaquetas, <b>D-dímero</b>, TP e <b>fibrinogênio</b>; ≥ 5 pontos = CIVD manifesta.<br>Tratar a causa; repor plaquetas/crio/plasma se sangramento.",
+   "fonte": "ISTH 2001",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "💊 Reversão dos anticoagulantes?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Reversão</th></tr><tr><td>Varfarina</td><td><b>CCP 4F</b> + vitamina K IV</td></tr><tr><td>Dabigatrana</td><td><b>Idarucizumabe</b></td></tr><tr><td>Anti-Xa (apixabana, rivaroxabana)</td><td><b>Andexanet</b> ou CCP 4F</td></tr><tr><td>Heparina não fracionada</td><td>Protamina (total)</td></tr><tr><td>Enoxaparina</td><td>Protamina (parcial)</td></tr></table>",
+   "fonte": "ASH 2018; ACC 2020",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧪 Púrpura pós-transfusional?",
+   "verso": "Plaquetopenia grave <b>5–10 dias</b> após transfusão, em mulheres multíparas (anti-HPA-1a); <b>IgIV</b>.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧪 Avaliação pré-operatória da hemostasia?",
+   "verso": "<b>História</b> de sangramento (questionário estruturado) vale mais que TP/TTPa de rotina em assintomáticos.",
+   "fonte": "BSH 2008",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧪 Deficiência de vitamina K: causas?",
+   "verso": "<ul><li>Antibiótico + jejum prolongado</li><li>Colestase, má absorção</li><li>Varfarina, raticidas (superwarfarínicos)</li></ul>TP alargado → vitamina K IV/oral.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🧪 Hemofilia adquirida A?",
+   "verso": "Idoso/puérpera com <b>hematomas extensos</b>, TTPa alargado que <b>não corrige</b> no teste de mistura; inibidor anti-fator VIII.<br>Agentes bypass (fator VII ativado, FEIBA), emicizumabe; imunossupressão.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🧮 Escore de Wells para TEP?",
+   "verso": "<table class=t><tr><th>Item</th><th>Pontos</th></tr><tr><td>Sinais de TVP</td><td>3</td></tr><tr><td>TEP mais provável que outro diagnóstico</td><td>3</td></tr><tr><td>FC &gt; 100</td><td>1,5</td></tr><tr><td>Imobilização/cirurgia recente</td><td>1,5</td></tr><tr><td>TVP/TEP prévio</td><td>1,5</td></tr><tr><td>Hemoptise</td><td>1</td></tr><tr><td>Câncer ativo</td><td>1</td></tr></table>≤ 4: improvável (D-dímero); &gt; 4: provável (angio-TC).",
+   "fonte": "Wells 2000; ESC 2019",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🧪 D-dímero ajustado à idade?",
+   "verso": "&gt; 50 anos: corte = <b>idade × 10 µg/L</b> (FEU).<br>Aumenta especificidade sem perder segurança (ADJUST-PE).<br><ul><li>Regras de exclusão: PERC (baixa probabilidade), YEARS</li></ul>",
+   "fonte": "ADJUST-PE 2014",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "⏳ Duração da anticoagulação no TEV?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Duração</th></tr><tr><td>Fator transitório maior (cirurgia)</td><td><b>3 meses</b></td></tr><tr><td>Fator transitório menor</td><td>3 meses (considerar mais)</td></tr><tr><td>Não provocado</td><td>≥ 3 meses → considerar <b>estendida</b></td></tr><tr><td>Câncer ativo</td><td>Enquanto o câncer estiver ativo</td></tr><tr><td>Recorrente sem fator</td><td>Indefinida</td></tr></table>",
+   "fonte": "ESC 2019; CHEST 2021",
+   "imagem": "r3t_06_1481a906.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🎗️ TEV associado a câncer: anticoagulante?",
+   "verso": "<b>DOAC</b> (apixabana, rivaroxabana, edoxabana) ou HBPM.",
+   "pegadinha": "Tumores do TGI/urogenital com lesão luminal: preferir apixabana ou HBPM (mais sangramento com edoxabana/rivaroxabana).",
+   "fonte": "ASCO 2023; CARAVAGGIO 2020",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🤰 Anticoagulação na gestação?",
+   "verso": "<b>HBPM</b> (enoxaparina): escolha.<br>Prótese mecânica: regime específico (pode usar varfarina no 2º trimestre se dose baixa).",
+   "pegadinha": "Varfarina: teratogênica (1º trimestre); DOAC contraindicados.",
+   "fonte": "ESC 2018 gestação",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🔬 Trombofilias: quando pesquisar?",
+   "verso": "<ul><li>TEV em <b>jovem</b> (&lt; 50) sem fator</li><li>TEV em sítio <b>incomum</b> (cerebral, mesentérico)</li><li>Recorrente, história familiar forte</li><li>Perdas gestacionais (SAF)</li></ul>",
+   "pegadinha": "Não testar na fase aguda nem em uso de anticoagulante (proteína C/S, antitrombina).",
+   "fonte": "BSH 2022",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "💉 Profilaxia de TEV no paciente clínico internado?",
+   "verso": "Escore de <b>Pádua ≥ 4</b> (ou IMPROVE) sem alto risco de sangramento → enoxaparina 40 mg/dia ou heparina 5.000 UI 8/8–12/12 h.<br>Contraindicação: compressão pneumática intermitente.",
+   "fonte": "ASH 2018; CHEST 2012",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🧪 SAF: anticoagulante de escolha?",
+   "verso": "<b>Varfarina</b> (RNI 2–3) na SAF trombótica.",
+   "pegadinha": "DOAC: mais eventos na SAF <b>tripla positiva</b> e trombose arterial (TRAPS) — evitar.",
+   "fonte": "EULAR 2019",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🦵 TVP distal isolada (panturrilha)?",
+   "verso": "Sintomática com risco de extensão: anticoagular 3 meses; baixo risco: <b>USG seriado</b> em 2 semanas.",
+   "fonte": "CHEST 2021",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🫁 TEP subsegmentar isolado?",
+   "verso": "Sem TVP e baixo risco de recorrência: <b>vigilância</b> pode ser opção; câncer/internado: anticoagular.",
+   "fonte": "CHEST 2021",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🧪 Filtro de veia cava: indicação?",
+   "verso": "<b>Contraindicação absoluta</b> à anticoagulação em TEV agudo (proximal).<br>Retirar assim que possível anticoagular.",
+   "pegadinha": "Não reduz mortalidade (PREPIC 2).",
+   "fonte": "ESC 2019; PREPIC 2 2015",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🦵 Síndrome pós-trombótica?",
+   "verso": "Dor, edema, varizes e úlcera após TVP; tratar com compressão e exercício.",
+   "pegadinha": "Meias de compressão rotineiras não preveniram (SOX).",
+   "fonte": "SOX 2014",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🧪 Anticoagulação em obesos e extremos de peso?",
+   "verso": "DOAC (apixabana/rivaroxabana) aceitáveis até IMC 40/peso 120 kg e após (ISTH 2021 com cautela); evitar <b>pós-bariátrica</b> (absorção).",
+   "fonte": "ISTH 2021",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🦠 Leucemia aguda: sinais e diagnóstico?",
+   "verso": "<ul><li><b>Pancitopenia</b> ou leucocitose com <b>blastos</b></li><li>Infecções, sangramento, anemia, dor óssea, hiperplasia gengival (LMA M4/M5)</li></ul>Diagnóstico: <b>≥ 20% de blastos</b> na medula (OMS).",
+   "pegadinha": "Leucocitose &gt; 100 mil: leucostase (dispneia, confusão) → citorredução.",
+   "fonte": "OMS 2022; ELN 2022",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🧬 LMC: marcador e tratamento?",
+   "verso": "<ul><li>Leucocitose com <b>desvio à esquerda escalonado</b>, basofilia, esplenomegalia</li><li><b>Cromossomo Philadelphia</b> t(9;22) — <b>BCR-ABL1</b></li></ul>Inibidores de tirosina-quinase: <b>imatinibe</b>, dasatinibe, nilotinibe.",
+   "fonte": "ELN 2020",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔴 Neoplasias mieloproliferativas: JAK2?",
+   "verso": "<table class=t><tr><th>Doença</th><th>Achado principal</th><th>Mutação</th></tr><tr><td>Policitemia vera</td><td><b>Hb/Ht elevados</b>, prurido aquagênico</td><td>JAK2 (~95%)</td></tr><tr><td>Trombocitemia essencial</td><td>Plaquetas &gt; 450 mil</td><td>JAK2, CALR, MPL</td></tr><tr><td>Mielofibrose</td><td>Hemácias em lágrima, esplenomegalia maciça</td><td>JAK2, CALR, MPL</td></tr></table>",
+   "fonte": "OMS 2022",
+   "imagem": "r3t_06_cb5f7f4d.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🩸 Policitemia vera: tratamento?",
+   "verso": "<ul><li><b>Flebotomia</b>: alvo Ht &lt; 45%</li><li><b>AAS</b> em dose baixa</li><li>Citorredução (hidroxiureia) se alto risco: &gt; 60 anos ou trombose prévia</li></ul>",
+   "fonte": "ELN 2018",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔁 Policitemia secundária: causas?",
+   "verso": "<ul><li>Hipoxemia: DPOC, AOS, altitude, cardiopatia cianótica</li><li>Tabagismo (carboxi-hemoglobina)</li><li><b>Testosterona</b> exógena</li><li>Tumores com EPO: carcinoma renal, hepatocarcinoma, hemangioblastoma</li></ul>EPO <b>normal/alta</b> (na PV está baixa).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🧪 Síndrome mielodisplásica?",
+   "verso": "<ul><li>Idoso, citopenias, <b>macrocitose</b></li><li>Displasia na medula, blastos &lt; 20%</li><li>Del(5q): resposta à lenalidomida</li></ul>Risco de evolução para LMA (IPSS-R).",
+   "fonte": "OMS 2022",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔬 LMA: o que muda o prognóstico?",
+   "verso": "<table class=t><tr><th>Favorável</th><th>Desfavorável</th></tr><tr><td>t(15;17) — LPA</td><td>Cariótipo complexo</td></tr><tr><td>t(8;21), inv(16)</td><td>TP53, FLT3-ITD alto</td></tr><tr><td>NPM1 sem FLT3</td><td>Monossomia 5/7</td></tr></table>",
+   "fonte": "ELN 2022",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🧬 Leucemia de células pilosas?",
+   "verso": "Homem de meia-idade, <b>pancitopenia + esplenomegalia maciça</b>, monocitopenia, medula \"seca\"; <b>BRAF V600E</b>, TRAP+.<br>Cladribina.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🧪 Leucocitose: reação leucemoide × LMC?",
+   "verso": "<table class=t><tr><th></th><th>Reação leucemoide</th><th>LMC</th></tr><tr><td>Fosfatase alcalina leucocitária</td><td><b>Alta</b></td><td><b>Baixa</b></td></tr><tr><td>Basofilia</td><td>Não</td><td><b>Sim</b></td></tr><tr><td>BCR-ABL</td><td>Negativo</td><td>Positivo</td></tr><tr><td>Causas</td><td>Infecção grave, C. difficile, corticoide</td><td>Neoplasia</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🧪 Linfocitose: reativa × clonal?",
+   "verso": "Reativa: viral (EBV, CMV), coqueluche — atípicos, transitória.<br>Clonal: LLC (persistente, <b>imunofenotipagem</b>).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🧪 Linfocitose de grandes linfócitos granulares (LGL)?",
+   "verso": "Neutropenia + <b>artrite reumatoide</b> + esplenomegalia (simula Felty).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🦴 Mieloma múltiplo: critérios CRAB?",
+   "verso": "<ul><li><b>C</b>álcio elevado</li><li><b>R</b>enal (creatinina &gt; 2 ou ClCr &lt; 40)</li><li><b>A</b>nemia (Hb &lt; 10)</li><li><b>B</b>one (lesões líticas)</li></ul>+ biomarcadores SLiM: plasmócitos ≥ 60%, cadeia leve envolvida/não envolvida ≥ 100, &gt; 1 lesão focal na RM.",
+   "fonte": "IMWG 2014",
+   "imagem": "r3t_06_ca9f22a7.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🔬 MGUS × mieloma latente × mieloma?",
+   "verso": "<table class=t><tr><th></th><th>Proteína M</th><th>Plasmócitos</th><th>CRAB</th></tr><tr><td>MGUS</td><td>&lt; 3 g/dL</td><td>&lt; 10%</td><td>Não</td></tr><tr><td>Mieloma latente</td><td>≥ 3 g/dL ou</td><td>10–60%</td><td>Não</td></tr><tr><td>Mieloma</td><td>—</td><td>≥ 10%</td><td><b>Sim</b> (ou SLiM)</td></tr></table>MGUS evolui ~1%/ano.",
+   "fonte": "IMWG 2014",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🌡️ Sintomas B no linfoma?",
+   "verso": "<ul><li><b>Febre</b> &gt; 38 °C</li><li><b>Sudorese noturna</b> profusa</li><li><b>Perda de peso &gt; 10%</b> em 6 meses</li></ul>Modificam o estadiamento (sufixo B) e o prognóstico.",
+   "fonte": "Lugano 2014",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🧬 Linfomas não Hodgkin: associações etiológicas?",
+   "verso": "<table class=t><tr><th>Linfoma</th><th>Associação</th></tr><tr><td>MALT gástrico</td><td><b>H. pylori</b> (erradicar pode curar)</td></tr><tr><td>Burkitt</td><td>EBV, t(8;14), MYC</td></tr><tr><td>Linfoma de células T do adulto</td><td><b>HTLV-1</b></td></tr><tr><td>Primário de SNC</td><td>HIV/imunossupressão (EBV)</td></tr><tr><td>Folicular</td><td>t(14;18), BCL2</td></tr></table>",
+   "fonte": "OMS 2022",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🫙 Amiloidose AL?",
+   "verso": "<ul><li>Proteinúria nefrótica, cardiomiopatia restritiva, <b>macroglossia</b>, púrpura periorbitária</li><li>Neuropatia, hepatomegalia</li></ul>Biópsia (gordura abdominal) com <b>vermelho Congo</b> (birrefringência verde-maçã).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🔥 Síndrome de hiperviscosidade?",
+   "verso": "<ul><li>Waldenström (IgM), mieloma</li><li>Cefaleia, alteração visual (veias retinianas em \"salsicha\"), sangramento mucoso</li></ul><b>Plasmaférese</b> urgente.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🧪 Linfadenopatia: quando biopsiar?",
+   "verso": "<ul><li>Linfonodo &gt; <b>2 cm</b>, duro, aderido, &gt; 4–6 semanas</li><li>Supraclavicular (alto risco de malignidade)</li><li>Sintomas B, idade &gt; 40</li></ul>Preferir <b>biópsia excisional</b> (arquitetura) a PAAF.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🧪 Gamopatia: eletroforese e imunofixação?",
+   "verso": "Pico monoclonal na eletroforese (gama) → <b>imunofixação</b> identifica a cadeia; <b>cadeias leves livres</b> séricas (kappa/lambda) completam.",
+   "pegadinha": "Mieloma de cadeias leves pode ter eletroforese \"normal\".",
+   "fonte": "IMWG",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "💊 Mieloma: tratamento e suporte?",
+   "verso": "<ul><li>Indução com tripla/quádrupla (daratumumabe, lenalidomida, bortezomibe, dexametasona)</li><li>Transplante autólogo em elegíveis</li><li><b>Bisfosfonato</b>/denosumabe (doença óssea)</li><li>Profilaxia de TEV (lenalidomida), aciclovir (bortezomibe)</li></ul>",
+   "fonte": "IMWG 2024",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🎗️ Linfoma: estadiamento de Lugano?",
+   "verso": "<table class=t><tr><th>Estádio</th><th>Extensão</th></tr><tr><td>I</td><td>Uma região linfonodal</td></tr><tr><td>II</td><td>≥ 2 regiões do <b>mesmo lado</b> do diafragma</td></tr><tr><td>III</td><td><b>Ambos os lados</b> do diafragma</td></tr><tr><td>IV</td><td>Acometimento extralinfático difuso (medula, fígado)</td></tr></table>PET-CT no estadiamento dos linfomas ávidos por FDG.",
+   "fonte": "Lugano 2014",
+   "imagem": "r3t_06_c0bfa193.png",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🧪 Linfoma difuso de grandes células B: tratamento padrão?",
+   "verso": "<b>R-CHOP</b> (ou Pola-R-CHP); alta curabilidade em estágio inicial.<br>Escore IPI para prognóstico.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🧊 Transfusão de plaquetas: limiares?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Limiar</th></tr><tr><td>Profilática (estável)</td><td>&lt; 10 mil</td></tr><tr><td>Febre/sepse</td><td>&lt; 20 mil</td></tr><tr><td>Punção lombar</td><td>&lt; 40–50 mil</td></tr><tr><td>CVC</td><td>&lt; 10–20 mil</td></tr><tr><td>Cirurgia maior/sangramento</td><td>&lt; 50 mil</td></tr><tr><td>Neurocirurgia</td><td>&lt; 100 mil</td></tr></table>",
+   "pegadinha": "Não transfundir em PTT e TIH (exceto sangramento grave).",
+   "fonte": "AABB 2025",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🩸 Plasma × crioprecipitado × complexo protrombínico?",
+   "verso": "<table class=t><tr><th>Produto</th><th>Contém</th><th>Uso</th></tr><tr><td>Plasma</td><td>Todos os fatores</td><td>Coagulopatia com sangramento</td></tr><tr><td>Crioprecipitado</td><td><b>Fibrinogênio</b>, VIII, XIII, FvW</td><td>Fibrinogênio &lt; 150–200</td></tr><tr><td>CCP 4F</td><td>II, VII, IX, X</td><td><b>Reversão de varfarina</b></td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🧬 Hemácias irradiadas e filtradas: quando?",
+   "verso": "<table class=t><tr><th>Irradiadas (prevenir DECH)</th><th>Filtradas/leucorreduzidas</th></tr><tr><td>Transplante de medula</td><td>Transplante, politransfundidos</td></tr><tr><td>Imunodeficiência grave</td><td>Reação febril prévia</td></tr><tr><td>Doadores parentes</td><td>Evitar CMV e aloimunização HLA</td></tr><tr><td>Fludarabina, Hodgkin</td></tr></table>",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🧪 Prova cruzada e tipagem: compatibilidade ABO?",
+   "verso": "<table class=t><tr><th>Receptor</th><th>Hemácias compatíveis</th><th>Plasma compatível</th></tr><tr><td>O</td><td>O</td><td><b>Todos</b></td></tr><tr><td>A</td><td>A, O</td><td>A, AB</td></tr><tr><td>B</td><td>B, O</td><td>B, AB</td></tr><tr><td>AB</td><td><b>Todos</b></td><td>AB</td></tr></table>Doador universal de hemácias: <b>O negativo</b>; de plasma: <b>AB</b>.",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🩸 Transfusão maciça: protocolo?",
+   "verso": "≥ 10 CH em 24 h (ou ≥ 4 em 1 h).<br><ul><li>Razão <b>1:1:1</b> (CH:plasma:plaquetas)</li><li><b>Ácido tranexâmico</b> em até 3 h (trauma)</li><li>Corrigir <b>cálcio</b> (citrato), hipotermia, acidose</li><li>Fibrinogênio guiado por ROTEM/Clauss</li></ul>",
+   "fonte": "PROPPR 2015; CRASH-2",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🩸 Reação transfusional hemolítica aguda: conduta?",
+   "verso": "<ul><li><b>Parar a transfusão</b>, manter acesso com SF</li><li>Conferir identificação, Coombs direto, hemólise, coagulação</li><li>Hidratação para diurese &gt; 1 mL/kg/h; tratar CIVD</li><li>Notificar (hemovigilância)</li></ul>",
+   "fonte": "Ministério da Saúde",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🧪 Doença do enxerto contra hospedeiro transfusional?",
+   "verso": "Linfócitos do doador atacam receptor imunossuprimido: febre, rash, diarreia, <b>pancitopenia</b>; letal.<br>Prevenção: hemocomponentes <b>irradiados</b>.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T06"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_06_71ec63b2.png": "data/media/r3t_06_71ec63b2.png",
+  "r3t_06_7447e5bf.png": "data/media/r3t_06_7447e5bf.png",
+  "r3t_06_b6e4cb8e.png": "data/media/r3t_06_b6e4cb8e.png",
+  "r3t_06_f6166973.png": "data/media/r3t_06_f6166973.png",
+  "r3t_06_ea38b168.png": "data/media/r3t_06_ea38b168.png",
+  "r3t_06_1481a906.png": "data/media/r3t_06_1481a906.png",
+  "r3t_06_cb5f7f4d.png": "data/media/r3t_06_cb5f7f4d.png",
+  "r3t_06_ca9f22a7.png": "data/media/r3t_06_ca9f22a7.png",
+  "r3t_06_c0bfa193.png": "data/media/r3t_06_c0bfa193.png"
+ }
+}

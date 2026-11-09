@@ -1,0 +1,706 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::⚡ Turbo 360X::09 🧠 Neurologia",
+ "cards": [
+  {
+   "subtema": "AVC",
+   "frente": "🧠 Critérios para trombólise no AVC isquêmico?",
+   "verso": "<ul><li>Déficit neurológico mensurável</li><li>Início (ou último momento visto bem) <b>≤ 4,5 h</b></li><li>TC sem hemorragia</li><li>PA <b>&lt; 185/110</b> antes e &lt; 180/105 por 24 h após</li><li>Glicemia &gt; 50</li></ul>Alteplase 0,9 mg/kg (10% bolus) ou <b>tenecteplase 0,25 mg/kg</b> bolus.",
+   "fonte": "AHA/ASA 2019; ESO 2023",
+   "imagem": "r3t_09_579f894c.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "⏱️ Contraindicações à trombólise no AVC?",
+   "verso": "<ul><li>Hemorragia intracraniana (atual ou prévia)</li><li>AVC ou TCE grave nos últimos <b>3 meses</b></li><li>Cirurgia intracraniana/medular nos últimos 3 meses</li><li>Plaquetas &lt; 100 mil, RNI &gt; 1,7, DOAC &lt; 48 h</li><li>Sangramento ativo, dissecção de aorta</li><li>Hipodensidade extensa (&gt; 1/3 da ACM)</li></ul>",
+   "fonte": "AHA/ASA 2019",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔍 Escala NIHSS: para que serve?",
+   "verso": "Quantifica o déficit (0–42); orienta trombólise/trombectomia e prognóstico.<br><ul><li>Itens: consciência, olhar, campos visuais, face, força, ataxia, sensibilidade, linguagem, disartria, negligência</li></ul>",
+   "pegadinha": "NIHSS baixo com déficit incapacitante (afasia, hemianopsia) ainda justifica trombólise.",
+   "fonte": "NIH",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🧩 Síndromes vasculares: território e achados?",
+   "verso": "<table class=t><tr><th>Território</th><th>Achados</th></tr><tr><td>ACM</td><td>Hemiparesia/hipoestesia <b>face e braço</b>, afasia (esquerdo), negligência (direito)</td></tr><tr><td>ACA</td><td>Hemiparesia de <b>perna</b>, abulia</td></tr><tr><td>ACP</td><td><b>Hemianopsia</b> homônima, alexia sem agrafia</td></tr><tr><td>Lacunar</td><td>Motor puro, sensitivo puro, ataxia-hemiparesia</td></tr><tr><td>Tronco</td><td>Sinais <b>cruzados</b>, vertigem, disfagia, diplopia</td></tr></table>",
+   "fonte": "Semiologia neurológica",
+   "imagem": "r3t_09_d60f1cac.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "💊 Prevenção secundária após AVC/AIT não cardioembólico?",
+   "verso": "<ul><li>AIT de alto risco/AVC leve (NIHSS ≤ 3): <b>AAS + clopidogrel por 21 dias</b> (CHANCE, POINT), depois monoterapia</li><li><b>Estatina</b> de alta intensidade (LDL &lt; 70)</li><li>PA &lt; 130/80</li><li>Estenose carotídea sintomática ≥ 70%: <b>endarterectomia</b> em até 2 semanas</li></ul>",
+   "fonte": "AHA/ASA 2021; THALES",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🧮 Escore ABCD² no AIT?",
+   "verso": "<ul><li><b>A</b>ge ≥ 60 (1)</li><li><b>B</b>lood pressure ≥ 140/90 (1)</li><li><b>C</b>línica: déficit motor (2), fala isolada (1)</li><li><b>D</b>uração ≥ 60 min (2), 10–59 (1)</li><li><b>D</b>iabetes (1)</li></ul>≥ 4: alto risco de AVC precoce (investigar com urgência).",
+   "fonte": "Johnston 2007",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🫀 AVC criptogênico em jovem com forame oval patente?",
+   "verso": "Fechamento percutâneo em <b>&lt; 60 anos</b> com AVC embólico e FOP de alto risco (aneurisma de septo, shunt grande) — CLOSE, REDUCE, RESPECT.",
+   "fonte": "AHA/ASA 2021",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🩸 Hemorragia intracerebral: causas por localização?",
+   "verso": "<table class=t><tr><th>Local</th><th>Causa principal</th></tr><tr><td>Profunda (núcleos da base, tálamo, ponte)</td><td><b>Hipertensão</b></td></tr><tr><td>Lobar em idoso</td><td><b>Angiopatia amiloide</b></td></tr><tr><td>Jovem</td><td>Malformação, drogas (cocaína)</td></tr></table>Reverter anticoagulação; PAS alvo ~140.",
+   "fonte": "AHA/ASA 2022",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🧠 Trombose venosa cerebral?",
+   "verso": "<ul><li>Cefaleia, convulsões, papiledema, déficits</li><li>Fatores: <b>anticoncepcional</b>, gestação/puerpério, trombofilia, infecção</li><li>Diagnóstico: <b>angio-RM venosa</b> ou angio-TC venosa</li></ul>Anticoagular <b>mesmo com hemorragia</b> associada.",
+   "fonte": "ESO 2017; AHA 2024",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "💊 Antitrombótico após AVC cardioembólico por FA?",
+   "verso": "<b>DOAC</b>; início precoce conforme gravidade (ELAN: ≤ 48 h no leve/moderado; 6–7 dias no grave).",
+   "fonte": "ELAN 2023",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🧪 Investigação etiológica do AVC isquêmico (TOAST)?",
+   "verso": "<ul><li><b>Doppler/angio</b> de carótidas e vertebrais</li><li><b>ECG</b> e Holter (FA paroxística)</li><li><b>Ecocardiograma</b> (ETE no jovem/criptogênico)</li><li>Perfil lipídico, HbA1c</li><li>Jovem: trombofilias, vasculites, dissecção, drogas</li></ul>",
+   "fonte": "TOAST 1993",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🧠 Dissecção arterial cervical?",
+   "verso": "<ul><li>Jovem, trauma leve (quiropraxia), cefaleia/cervicalgia</li><li>Carótida: <b>Horner</b> ipsilateral; vertebral: AVC de circulação posterior</li></ul>Antiagregante ou anticoagulante (CADISS: semelhantes).",
+   "fonte": "CADISS 2015",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🧠 AVC e disfagia: rastreio?",
+   "verso": "Teste de deglutição <b>antes</b> de liberar dieta/medicação oral; reduz pneumonia aspirativa.",
+   "fonte": "AHA/ASA 2019",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🧠 Edema cerebral maligno da ACM: conduta?",
+   "verso": "Infarto extenso da ACM em &lt; 60 anos: <b>craniectomia descompressiva</b> em até 48 h reduz mortalidade (DECIMAL, DESTINY, HAMLET).",
+   "fonte": "AHA/ASA 2019",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🚩 Cefaleia: sinais de alarme (SNOOP)?",
+   "verso": "<ul><li><b>S</b>istêmicos: febre, perda de peso, câncer, HIV</li><li><b>N</b>eurológicos: déficit, confusão</li><li><b>O</b>nset súbito (thunderclap)</li><li><b>O</b>lder: início &gt; 50 anos</li><li><b>P</b>adrão novo/progressivo, posicional, Valsalva, papiledema, gestação</li></ul>",
+   "fonte": "Do 2019",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🌀 Enxaqueca: critérios e tratamento agudo?",
+   "verso": "≥ 5 crises de 4–72 h, com 2 de: unilateral, pulsátil, moderada/intensa, piora com atividade; + náusea/vômito ou foto/fonofobia.<br><ul><li>Agudo: AINE/paracetamol; <b>triptanos</b>; gepantes, lasmiditana</li><li>Antiemético (metoclopramida)</li></ul>",
+   "pegadinha": "Triptano contraindicado em DAC, AVC, HAS não controlada.",
+   "fonte": "ICHD-3",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🛡️ Profilaxia de enxaqueca: quando e com quê?",
+   "verso": "≥ 4 dias/mês de crise, crises incapacitantes ou falha do agudo.<br><table class=t><tr><th>1ª linha</th><th>Alternativas</th></tr><tr><td>Propranolol, topiramato</td><td>Amitriptilina, venlafaxina, flunarizina</td></tr><tr><td>Anticorpos anti-CGRP</td><td>Toxina botulínica (crônica)</td></tr></table>",
+   "fonte": "AHS 2021",
+   "imagem": "r3t_09_0f7b0ef3.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "⚡ Neuralgia do trigêmeo?",
+   "verso": "<ul><li>Dor em <b>choque</b>, segundos, V2/V3, gatilhos (mastigar, escovar)</li><li>Jovem ou bilateral: pensar em <b>esclerose múltipla</b></li></ul><b>Carbamazepina</b> (1ª escolha) ou oxcarbazepina.",
+   "fonte": "ICHD-3; EAN 2019",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🌀 Cefaleia tensional?",
+   "verso": "Bilateral, em <b>aperto</b>, leve-moderada, não piora com atividade, sem náusea.<br>Analgésico simples; profilaxia com <b>amitriptilina</b> se crônica.",
+   "fonte": "ICHD-3",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🤰 Cefaleia na gestação/puerpério: alarmes?",
+   "verso": "<ul><li><b>Pré-eclâmpsia</b>/eclâmpsia</li><li><b>Trombose venosa cerebral</b></li><li>Síndrome de vasoconstrição cerebral reversível (thunderclap recorrente)</li><li>Apoplexia hipofisária, cefaleia pós-punção</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "💉 Cefaleia pós-punção dural?",
+   "verso": "Piora em <b>ortostase</b>, melhora deitado; até 5 dias após.<br>Hidratação, cafeína, analgesia; <b>tampão sanguíneo</b> se persistente.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🧪 Arterite de células gigantes e cefaleia nova &gt; 50 anos: exame de triagem?",
+   "verso": "VHS/PCR — mas tratar empiricamente se suspeita alta (perda visual é irreversível).",
+   "pegadinha": "Nunca atrasar corticoide pela biópsia.",
+   "fonte": "EULAR 2023",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "⚡ Primeira crise convulsiva: investigação?",
+   "verso": "<ul><li>Glicemia, eletrólitos (Na, Ca, Mg), toxicológico</li><li><b>Neuroimagem</b> (RM preferível)</li><li><b>EEG</b></li><li>Gestação, drogas, abstinência</li></ul>Iniciar anticonvulsivante após 1ª crise se: lesão estrutural, EEG epileptiforme, crise noturna.",
+   "fonte": "ILAE 2014; AAN 2015",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "💊 Escolha do anticonvulsivante?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Preferir</th></tr><tr><td>Focal</td><td><b>Lamotrigina</b>, levetiracetam, carbamazepina</td></tr><tr><td>Generalizada</td><td><b>Valproato</b> (homem), levetiracetam, lamotrigina</td></tr><tr><td>Mulher em idade fértil</td><td><b>Lamotrigina</b>, levetiracetam</td></tr><tr><td>Idoso</td><td>Lamotrigina, levetiracetam</td></tr></table>",
+   "pegadinha": "Valproato: teratogênico (defeito de tubo neural, autismo) — evitar em mulheres férteis.",
+   "fonte": "SANAD II 2021; ILAE",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "⚠️ Anticonvulsivantes indutores enzimáticos?",
+   "verso": "<ul><li><b>Carbamazepina</b>, <b>fenitoína</b>, fenobarbital, oxcarbazepina (fraco)</li></ul>Reduzem eficácia de <b>anticoncepcional</b>, varfarina, DOAC, imunossupressores.",
+   "pegadinha": "Valproato é <b>inibidor</b> (aumenta lamotrigina: risco de Stevens-Johnson).",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🧬 Fenitoína: efeitos adversos?",
+   "verso": "<ul><li><b>Hiperplasia gengival</b>, hirsutismo, face grosseira</li><li>Nistagmo, ataxia (tóxica)</li><li>Cinética <b>não linear</b></li><li>Hipotensão e arritmia IV (infundir ≤ 50 mg/min)</li><li>Síndrome da luva roxa</li></ul>",
+   "fonte": "Farmacologia",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🚗 Crise × síncope: diferenças?",
+   "verso": "<table class=t><tr><th></th><th>Crise epiléptica</th><th>Síncope</th></tr><tr><td>Pródromo</td><td>Aura</td><td>Calor, náusea, escurecimento visual</td></tr><tr><td>Duração</td><td>1–3 min</td><td>Segundos</td></tr><tr><td>Mordedura de língua</td><td><b>Lateral</b></td><td>Rara</td></tr><tr><td>Pós-evento</td><td><b>Confusão prolongada</b></td><td>Recuperação rápida</td></tr><tr><td>Movimentos</td><td>Tônico-clônicos sustentados</td><td>Mioclonias breves (possíveis)</td></tr></table>",
+   "fonte": "ESC 2018 síncope",
+   "imagem": "r3t_09_4d7bed36.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🤰 Epilepsia e gestação?",
+   "verso": "<ul><li>Preferir <b>lamotrigina</b> ou levetiracetam</li><li><b>Ácido fólico 4–5 mg/dia</b> pré-concepção</li><li>Lamotrigina: níveis caem na gestação (ajustar)</li></ul>",
+   "pegadinha": "Valproato: maior teratogenicidade.",
+   "fonte": "ILAE 2019",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🚗 Epilepsia e direção no Brasil?",
+   "verso": "Em geral, <b>1 ano sem crises</b> (com tratamento) para habilitação categorias A e B, conforme resolução do CONTRAN/ABRAMET.",
+   "fonte": "ABRAMET/CONTRAN",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🧪 Crise sintomática aguda × epilepsia?",
+   "verso": "Crise provocada por insulto agudo (hipoglicemia, hiponatremia, álcool, AVC &lt; 7 dias) <b>não</b> define epilepsia; tratar a causa.",
+   "fonte": "ILAE 2014",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🧩 Tipos de demência: pistas clínicas?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Pista</th></tr><tr><td>Alzheimer</td><td><b>Memória episódica</b> precoce, progressão gradual</td></tr><tr><td>Vascular</td><td>Degraus, sinais focais, disfunção executiva</td></tr><tr><td>Corpos de Lewy</td><td><b>Flutuação</b>, alucinações visuais, parkinsonismo, sensibilidade a antipsicótico</td></tr><tr><td>Frontotemporal</td><td><b>Comportamento</b>/linguagem, jovem (&lt; 65)</td></tr><tr><td>Hidrocefalia de pressão normal</td><td>Marcha + incontinência + demência</td></tr></table>",
+   "fonte": "DSM-5; Revisões",
+   "imagem": "r3t_09_7d579370.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🧪 Demência: causas reversíveis a excluir?",
+   "verso": "<ul><li><b>B12</b>, <b>TSH</b>, sífilis (VDRL), HIV</li><li><b>Depressão</b> (pseudodemência)</li><li>Drogas (anticolinérgicos, benzodiazepínicos)</li><li>Hidrocefalia de pressão normal, hematoma subdural</li></ul>Neuroimagem em todos.",
+   "fonte": "AAN",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "💊 Tratamento sintomático do Alzheimer?",
+   "verso": "<ul><li><b>Inibidores da colinesterase</b> (donepezila, rivastigmina, galantamina): leve a grave</li><li><b>Memantina</b> (antagonista NMDA): moderada a grave</li><li>Anti-amiloide (lecanemabe, donanemabe): fase inicial com amiloide confirmado; risco de <b>ARIA</b></li></ul>",
+   "pegadinha": "Inibidores de colinesterase: bradicardia, síncope.",
+   "fonte": "AAN; Clarity AD 2023",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🧠 Parkinsonismo atípico: sinais de alerta?",
+   "verso": "<ul><li>Má resposta à levodopa</li><li>Quedas precoces</li><li><b>Paralisia supranuclear progressiva</b>: olhar vertical para baixo limitado</li><li><b>Atrofia de múltiplos sistemas</b>: disautonomia grave, ataxia</li><li>Degeneração corticobasal: apraxia, membro alienígena</li></ul>",
+   "fonte": "MDS",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🎲 Tremor essencial × parkinsoniano?",
+   "verso": "<table class=t><tr><th></th><th>Essencial</th><th>Parkinsoniano</th></tr><tr><td>Tipo</td><td><b>Postural/ação</b></td><td><b>Repouso</b></td></tr><tr><td>Local</td><td>Mãos, cabeça, voz</td><td>Mãos (\"contar dinheiro\"), assimétrico</td></tr><tr><td>Álcool</td><td>Melhora</td><td>—</td></tr><tr><td>Tratamento</td><td><b>Propranolol</b>, primidona</td><td>Levodopa, agonistas</td></tr></table>",
+   "fonte": "MDS 2018",
+   "imagem": "r3t_09_478e30c8.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "💊 Complicações da levodopa?",
+   "verso": "<ul><li>Flutuações: <b>wearing-off</b>, on-off</li><li><b>Discinesias</b> de pico de dose</li><li>Hipotensão ortostática, náusea, alucinações</li></ul>Agonistas dopaminérgicos: <b>transtorno de controle de impulsos</b> (jogo, compras).",
+   "fonte": "MDS 2018",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🧠 Antipsicótico em paciente com Parkinson/Lewy?",
+   "verso": "Preferir <b>quetiapina</b> ou <b>clozapina</b> (pimavanserina onde disponível).",
+   "pegadinha": "Haloperidol e risperidona: piora grave do parkinsonismo e síndrome neuroléptica.",
+   "fonte": "MDS 2019",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🦵 Síndrome das pernas inquietas?",
+   "verso": "<ul><li>Urgência de mover as pernas, piora em repouso e à <b>noite</b>, alivia com movimento</li><li>Dosar <b>ferritina</b>: repor ferro se &lt; 75 ng/mL</li><li>Associações: DRC, gestação, neuropatia</li></ul>Gabapentinoides (1ª linha); agonistas dopaminérgicos (risco de augmentation).",
+   "fonte": "AASM 2024",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🧠 Doença de Creutzfeldt-Jakob?",
+   "verso": "<ul><li><b>Demência rapidamente progressiva</b> (semanas a meses)</li><li><b>Mioclonias</b></li><li>EEG: complexos periódicos; RM: hipersinal em córtex (fita cortical) e núcleos da base na difusão</li><li>LCR: <b>RT-QuIC</b>, proteína 14-3-3</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🧠 Demência rapidamente progressiva: investigar?",
+   "verso": "<ul><li><b>Encefalites autoimunes</b> (anti-NMDA, anti-LGI1)</li><li>Príon (Creutzfeldt-Jakob)</li><li>Infecções (sífilis, HIV), deficiências (B1, B12)</li><li>Neoplasia, vasculite, Hashimoto (SREAT)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🎭 Coreia: causas?",
+   "verso": "<ul><li><b>Huntington</b> (autossômica dominante, CAG)</li><li><b>Sydenham</b> (febre reumática)</li><li>Gestação/anticoncepcional, LES/SAF</li><li>Hiperglicemia não cetótica (hemicoreia), hipertireoidismo</li><li>Drogas (levodopa)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "💊 Discinesia tardia?",
+   "verso": "Movimentos orofaciais involuntários após uso <b>crônico</b> de antipsicótico/metoclopramida.<br>Reduzir/trocar droga (clozapina, quetiapina); <b>valbenazina/deutetrabenazina</b>.",
+   "pegadinha": "Anticolinérgicos pioram.",
+   "fonte": "APA 2020",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "💊 Distonia aguda e acatisia?",
+   "verso": "<table class=t><tr><th></th><th>Distonia aguda</th><th>Acatisia</th></tr><tr><td>Início</td><td>Horas a dias</td><td>Dias a semanas</td></tr><tr><td>Clínica</td><td>Torcicolo, crise oculógira, trismo</td><td><b>Inquietação</b> motora subjetiva</td></tr><tr><td>Tratamento</td><td><b>Biperideno</b> ou difenidramina IV</td><td>Propranolol, reduzir dose</td></tr></table>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🧪 Demência frontotemporal: variantes?",
+   "verso": "<ul><li>Comportamental (desinibição, apatia, hiperoralidade)</li><li>Afasia progressiva primária não fluente e semântica</li></ul>Associação com <b>ELA</b> (C9orf72).",
+   "fonte": "Rascovsky 2011",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🧩 Esclerose múltipla: critérios e exames?",
+   "verso": "Disseminação no <b>espaço</b> e no <b>tempo</b> (McDonald 2017).<br><ul><li>RM: lesões periventriculares, justacorticais, infratentoriais, medulares</li><li><b>Bandas oligoclonais</b> no LCR substituem disseminação temporal</li><li>Clínica: neurite óptica, mielite, oftalmoplegia internuclear, Lhermitte, Uhthoff</li></ul>",
+   "fonte": "McDonald 2017",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "💊 Surto de EM: tratamento?",
+   "verso": "<b>Metilprednisolona 1 g/dia por 3–5 dias</b>; plasmaférese se refratário.<br>Terapia modificadora para reduzir surtos (interferon, glatirâmer, fingolimode, natalizumabe, ocrelizumabe).",
+   "pegadinha": "Natalizumabe: risco de <b>LEMP</b> (JC vírus).",
+   "fonte": "ECTRIMS/EAN 2018",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "👁️ Neuromielite óptica × esclerose múltipla?",
+   "verso": "<table class=t><tr><th></th><th>NMO</th><th>EM</th></tr><tr><td>Anticorpo</td><td><b>Anti-aquaporina 4</b></td><td>Bandas oligoclonais</td></tr><tr><td>Mielite</td><td><b>Longitudinal extensa</b> (≥ 3 segmentos)</td><td>Curta</td></tr><tr><td>Neurite óptica</td><td>Grave, bilateral</td><td>Unilateral, leve</td></tr><tr><td>Interferon</td><td><b>Piora</b></td><td>Benefício</td></tr></table>",
+   "fonte": "IPND 2015",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "⚡ Guillain-Barré: quadro e diagnóstico?",
+   "verso": "<ul><li>Fraqueza <b>ascendente simétrica</b>, <b>arreflexia</b>, após infecção (Campylobacter, Zika)</li><li>LCR: <b>dissociação proteinocitológica</b> (proteína ↑, células normais)</li><li>ENMG: desmielinizante ou axonal</li><li>Disautonomia</li></ul><b>IgIV</b> ou plasmaférese; corticoide <b>não</b>.",
+   "fonte": "EAN/PNS 2023",
+   "imagem": "r3t_09_ecf4df68.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "😴 Miastenia gravis?",
+   "verso": "<ul><li>Fraqueza <b>fatigável</b>, ptose, diplopia, piora ao fim do dia</li><li>Anticorpos <b>anti-receptor de acetilcolina</b> (ou anti-MuSK)</li><li>ENMG com estimulação repetitiva (decremento)</li><li>TC de tórax: <b>timoma</b></li></ul>Piridostigmina, corticoide, imunossupressor; timectomia.",
+   "fonte": "MGFA 2020",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "💊 Drogas que pioram a miastenia?",
+   "verso": "<ul><li><b>Aminoglicosídeos</b>, fluoroquinolonas, macrolídeos</li><li><b>Magnésio</b></li><li>Betabloqueadores, BCC</li><li>Bloqueadores neuromusculares</li><li>Contraste iodado (raro), estatinas, checkpoint inhibitors</li></ul>",
+   "fonte": "MGFA 2020",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🎗️ Lambert-Eaton × miastenia?",
+   "verso": "<table class=t><tr><th></th><th>Lambert-Eaton</th><th>Miastenia</th></tr><tr><td>Anticorpo</td><td>Anti-<b>canal de cálcio</b> pré-sináptico</td><td>Anti-receptor de ACh</td></tr><tr><td>Fraqueza</td><td>Proximal de MMII</td><td>Ocular, bulbar</td></tr><tr><td>Esforço repetido</td><td><b>Melhora</b> (facilitação)</td><td>Piora</td></tr><tr><td>Reflexos</td><td><b>Diminuídos</b></td><td>Normais</td></tr><tr><td>Associação</td><td><b>Pequenas células</b></td><td>Timoma</td></tr></table>",
+   "fonte": "Revisões",
+   "imagem": "r3t_09_b1b15c57.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🦵 ELA (esclerose lateral amiotrófica)?",
+   "verso": "<ul><li>Sinais de <b>neurônio motor superior e inferior</b> juntos</li><li>Fasciculações, atrofia, hiper-reflexia, Babinski</li><li><b>Poupa</b> sensibilidade, motricidade ocular e esfíncteres</li></ul>Riluzol, edaravona; VNI e gastrostomia.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔦 Neuropatia periférica: causas mais comuns?",
+   "verso": "<ul><li><b>Diabetes</b> (sensitiva distal em \"bota e luva\")</li><li>Álcool, deficiência de <b>B12</b></li><li>Hipotireoidismo, DRC, HIV, hanseníase (Brasil)</li><li>Drogas: quimioterapia, isoniazida, metronidazol</li></ul>",
+   "fonte": "AAN",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🧪 Encefalite autoimune anti-NMDA?",
+   "verso": "<ul><li>Mulher jovem, sintomas <b>psiquiátricos</b>, discinesias orofaciais, convulsões, disautonomia</li><li>Associação com <b>teratoma de ovário</b></li></ul>Imunoterapia + ressecção do tumor.",
+   "fonte": "Graus 2016",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "⚡ Mielopatia aguda: causas a pesquisar?",
+   "verso": "<ul><li><b>Compressiva</b> (RM urgente): tumor, abscesso epidural, hérnia</li><li>Mielite transversa (EM, NMO, viral)</li><li>Isquêmica (artéria espinhal anterior: poupa propriocepção)</li><li>Deficiência de B12/cobre (subaguda)</li></ul>",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🦠 Abscesso epidural espinhal?",
+   "verso": "Tríade: <b>dor nas costas + febre + déficit neurológico</b>; fatores: drogas IV, DM, procedimento.<br>RM urgente; cirurgia + ATB (cobrir S. aureus).",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🩹 Síndrome da cauda equina?",
+   "verso": "<ul><li><b>Anestesia em sela</b></li><li>Retenção urinária (ou incontinência por transbordamento), incontinência fecal</li><li>Fraqueza bilateral de MMII, arreflexia</li></ul>RM urgente e <b>descompressão cirúrgica</b>.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🧪 Polineuropatia desmielinizante inflamatória crônica (PIDC)?",
+   "verso": "Fraqueza proximal e distal progressiva &gt; <b>8 semanas</b>, arreflexia, proteína liquórica alta.<br><b>IgIV</b>, corticoide ou plasmaférese (diferente de Guillain-Barré, corticoide funciona).",
+   "fonte": "EAN/PNS 2021",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🧠 Escala de coma de Glasgow?",
+   "verso": "<table class=t><tr><th>Item</th><th>Pontos</th></tr><tr><td>Abertura ocular</td><td>1–4</td></tr><tr><td>Resposta verbal</td><td>1–5</td></tr><tr><td>Resposta motora</td><td>1–6</td></tr></table>≤ 8: coma → considerar via aérea definitiva. Versão atual inclui <b>reatividade pupilar</b> (GCS-P).",
+   "fonte": "Teasdale 1974/2014",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🌀 Delirium: diagnóstico e causas?",
+   "verso": "Início <b>agudo</b>, curso <b>flutuante</b>, <b>desatenção</b> + pensamento desorganizado ou alteração de consciência (CAM).<br><ul><li>Causas: infecção, drogas (anticolinérgicos, benzodiazepínicos, opioides), retenção urinária, dor, hipóxia, distúrbios metabólicos, abstinência</li></ul>",
+   "fonte": "CAM; NICE 2023",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "💫 Vertigem central × periférica (HINTS)?",
+   "verso": "<table class=t><tr><th></th><th>Periférica</th><th>Central</th></tr><tr><td><b>H</b>ead Impulse</td><td><b>Anormal</b> (sacada corretiva)</td><td>Normal</td></tr><tr><td><b>N</b>istagmo</td><td>Unidirecional, horizontal</td><td>Muda de direção, vertical</td></tr><tr><td><b>T</b>est of Skew</td><td>Normal</td><td>Desvio presente</td></tr></table>HINTS sugestivo de central → RM (AVC de fossa posterior).",
+   "fonte": "Kattah 2009",
+   "imagem": "r3t_09_2e173218.png",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🔄 Vertigem posicional paroxística benigna?",
+   "verso": "<ul><li>Vertigem de segundos ao <b>mudar a posição da cabeça</b></li><li><b>Dix-Hallpike</b> positivo (nistagmo torcional com latência)</li></ul>Manobra de <b>Epley</b> (canal posterior); sem medicação.",
+   "fonte": "AAO-HNS 2017",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "😐 Paralisia facial periférica × central?",
+   "verso": "<table class=t><tr><th></th><th>Periférica (Bell)</th><th>Central</th></tr><tr><td>Fronte</td><td><b>Acometida</b></td><td>Poupada</td></tr><tr><td>Causa</td><td>Bell, zóster (Ramsay Hunt), Lyme</td><td>AVC, tumor</td></tr></table>Bell: <b>prednisona</b> em até 72 h (± antiviral em casos graves); proteger a córnea.",
+   "fonte": "AAO-HNS 2013",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🧠 Morte encefálica no Brasil: requisitos?",
+   "verso": "<ul><li>Coma não perceptivo com causa conhecida e irreversível</li><li>Observação ≥ 6 h (24 h na encefalopatia hipóxico-isquêmica)</li><li><b>2 exames clínicos</b> por médicos diferentes + <b>teste de apneia</b></li><li><b>Exame complementar</b></li></ul>",
+   "fonte": "Res. CFM 2.173/2017",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🫥 Síncope vasovagal: tratamento?",
+   "verso": "<ul><li>Educação, reconhecer pródromo</li><li><b>Manobras de contrapressão</b> (cruzar pernas, apertar mãos)</li><li>Hidratação e sal</li><li>Casos refratários: midodrina, fludrocortisona</li></ul>",
+   "fonte": "ESC 2018",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🧓 Hipotensão ortostática: definição e manejo?",
+   "verso": "Queda de <b>PAS ≥ 20</b> ou PAD ≥ 10 em até 3 min em pé.<br><ul><li>Revisar drogas (alfa-bloqueadores, diuréticos, nitratos)</li><li>Hidratação, meias, elevar cabeceira</li><li><b>Midodrina</b>, fludrocortisona, droxidopa</li></ul>Neurogênica: FC não sobe (Parkinson, atrofia de múltiplos sistemas, DM).",
+   "fonte": "ESC 2018",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🧪 Síndrome de encefalopatia posterior reversível (PRES)?",
+   "verso": "Cefaleia, alteração visual, convulsões, confusão com <b>edema parieto-occipital</b> na RM.<br><ul><li>Gatilhos: HAS grave, eclâmpsia, tacrolimus/ciclosporina, quimioterapia</li></ul>Controle da PA e retirada do gatilho.",
+   "fonte": "Revisões",
+   "tags": [
+    "R3T360X",
+    "T09"
+   ]
+  }
+ ],
+ "midia": {
+  "r3t_09_579f894c.png": "data/media/r3t_09_579f894c.png",
+  "r3t_09_d60f1cac.png": "data/media/r3t_09_d60f1cac.png",
+  "r3t_09_0f7b0ef3.png": "data/media/r3t_09_0f7b0ef3.png",
+  "r3t_09_4d7bed36.png": "data/media/r3t_09_4d7bed36.png",
+  "r3t_09_7d579370.png": "data/media/r3t_09_7d579370.png",
+  "r3t_09_478e30c8.png": "data/media/r3t_09_478e30c8.png",
+  "r3t_09_ecf4df68.png": "data/media/r3t_09_ecf4df68.png",
+  "r3t_09_b1b15c57.png": "data/media/r3t_09_b1b15c57.png",
+  "r3t_09_2e173218.png": "data/media/r3t_09_2e173218.png"
+ }
+}

@@ -1,5 +1,4 @@
 import genanki
-
 CSS = """
 .card{font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:19px;line-height:1.5;
  text-align:left;color:#ece9e1;background:#0e1116;padding:14px 16px;}
