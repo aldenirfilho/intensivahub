@@ -65,6 +65,7 @@ label{font-size:13px;color:var(--mut);font-weight:600}
 .sub{padding-left:22px;display:none}
 .sub.open{display:block}
 .empty{color:var(--mut);text-align:center;padding:30px 10px}
+.metaBar{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:12px}.metaBar.compact{padding:6px 10px;margin:6px 0 8px;font-size:13px}.mbHead{display:flex;gap:8px;align-items:center;margin-bottom:6px;color:var(--gold)}.mbEdit{margin-left:auto;font-size:13px;color:var(--cy);text-decoration:none}.mbRow{display:flex;gap:14px;flex-wrap:wrap}.mbItem{flex:1;min-width:150px}.mbLbl{font-size:13px;color:var(--mut);margin-bottom:4px}.mbLbl b{color:var(--txt)}.mbTrack{height:7px;background:#1b2330;border-radius:6px;overflow:hidden}.mbTrack i{display:block;height:100%;border-radius:6px;transition:width .3s}
 .metaBox{max-width:640px;margin:18px auto;padding:16px;border:1px solid var(--line);border-radius:14px;background:#111821;text-align:left;color:var(--txt)}.metaBox h3{margin:0 0 8px;color:var(--gold)}.metaNow{margin:6px 0;color:var(--mut)}.metaRow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}.metaRow input{background:#0b1017;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:8px}
 .drop{border:2px dashed var(--line);border-radius:var(--r);padding:26px;text-align:center;color:var(--mut);cursor:pointer}
 .drop.hov{border-color:var(--gold);background:#1a1810}
@@ -124,6 +125,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 <main>
 <!-- INÍCIO -->
 <section class="view" id="v-inicio">
+ <div id="metaHome"></div>
  <div id="resumeBox"></div>
  <div class="stats" id="stats"></div>
  <div class="panel"><div class="charts" id="charts"></div></div>
@@ -131,7 +133,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <div class="row" style="margin-bottom:8px"><h2 class="grow" style="margin:0">📚 Baralhos</h2>
    <span class="cnt n" title="Novos">Novos</span><span class="cnt l" title="Aprendendo">Apr.</span><span class="cnt rv" title="Revisões">Rev.</span></div>
   <ul class="tree" id="tree"></ul>
-  <div class="row" style="margin-top:12px"><button class="btn gold grow" id="studyAll">▶️ Estudar tudo que está pendente</button></div>
+  <div class="row" style="margin-top:12px"><button class="btn gold grow" id="studyAll">▶️ Estudar tudo que está pendente</button><button class="btn" id="simBtn" title="50 cards sorteados de todas as coleções ativas, sem alterar agenda nem meta">🧪 Simulado (50)</button></div>
  </div>
  <div class="foot" id="homeFoot"></div>
 </section>
@@ -139,6 +141,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 <!-- ESTUDAR -->
 <section class="view" id="v-estudar">
  <div id="studyTop"><div id="studyDeck" class="grow"></div><div id="studyCounts"></div></div>
+ <div id="studyMeta"></div>
  <div class="progress"><i id="prog"></i></div>
  <div id="histBanner" style="display:none;border-color:var(--cy);padding:10px 12px;font-size:14px" class="panel"></div>
  <div id="cardHost"></div>

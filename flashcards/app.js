@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "3.2.0";
+const APP_VERSION = "3.3.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -88,6 +88,18 @@ const S = { cards: [], byId: new Map(), official: [], user: new Map(), prog: new
 const emptyLog = () => ({ nNew: 0, nRev: 0, nAns: 0, nOk: 0, ms: 0 });
 const L0 = () => (S.logs[today()] = S.logs[today()] || emptyLog());
 const limNew = L => S.settings.newPerDay + (L.xNew || 0), limRev = L => S.settings.revPerDay + (L.xRev || 0);
+function metaBarHTML(compact) {
+  const L = L0(), ln = limNew(L), lr = limRev(L), pn = ln ? Math.min(100, 100 * L.nNew / ln) : 100, pr = lr ? Math.min(100, 100 * L.nRev / lr) : 100;
+  const col = p => p >= 100 ? "var(--ok,#5be38a)" : p >= 80 ? "var(--gold2)" : "var(--cy)";
+  const b = (ic, lb, v, lim, pc) => `<div class="mbItem"><div class="mbLbl">${ic} ${lb} <b>${v}</b>/${lim}${pc >= 100 ? " ✅" : ""}</div><div class="mbTrack"><i style="width:${pc}%;background:${col(pc)}"></i></div></div>`;
+  return `<div class="metaBar${compact ? " compact" : ""}">${compact ? "" : `<div class="mbHead">🎯 <b>Meta de hoje</b> <a href="#" class="mbEdit" data-medit="1">✏️ editar</a></div>`}<div class="mbRow">${b("🆕", "Novos", L.nNew, ln, pn)}${b("🔁", "Revisões", L.nRev, lr, pr)}</div></div>`;
+}
+function metaWarn() {
+  const L = L0(), ln = limNew(L), lr = limRev(L); let msg = "";
+  if (ln && !L.w80n && L.nNew >= Math.ceil(0.8 * ln) && L.nNew < ln) { L.w80n = 1; msg = `🔔 80% da meta de novos (${L.nNew}/${ln})`; }
+  if (lr >= 10 && !L.w80r && L.nRev >= Math.ceil(0.8 * lr) && L.nRev < lr) { L.w80r = 1; msg = msg ? msg + " · " : ""; msg += `🔔 80% da meta de revisões (${L.nRev}/${lr})`; }
+  if (msg) toast(msg + " — ao chegar em 100% você pode ampliar.", 3800);
+}
 
 /* ---------------- Repetição espaçada (SM-2 estilo Anki) ---------------- */
 function newSRS() { return { st: "new", due: 0, ivl: 0, ease: S.settings?.startEase || 2.5, reps: 0, lapses: 0, step: 0 }; }
@@ -695,6 +707,7 @@ const Study = { prefix: null, ids: null, cur: null, shown: false, undo: [], t0: 
 function nextCard() {
   const now = Date.now(), eod = endOfDay(), st = S.settings, L = L0();
   const pool = S.cards.filter(c => !c.susp && (Study.ids ? Study.ids.has(c.id) : inDeck(c, Study.prefix)));
+  if (Study.sim) { const id = Study.simOrder.find(i => !Study.seen.has(i) && S.byId.get(i)); return id ? S.byId.get(id) : null; }
   if (Study.ids) {
     const nd = pool.filter(c => !Study.seen.has(c.id) || ((c.srs.st === "learn" || c.srs.st === "relearn") && c.srs.due <= now + st.learnAhead * MIN));
     nd.sort((a, b) => (Study.seen.has(a.id) - Study.seen.has(b.id)) || a.srs.due - b.srs.due);
@@ -777,7 +790,7 @@ function refreshHome() {
     const when = new Date(ss.mod).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
     if (pend) rb = `<div class="panel" style="border-color:var(--gold);display:flex;gap:10px;align-items:center;flex-wrap:wrap"><div class="grow">▶️ <b>Continuar de onde parou</b><br><small style="color:var(--mut)">${esc(ss.ids ? "🔎 Estudo filtrado" : (ss.prefix || "Todos os baralhos"))} · ${pend} pendente(s) · ${when}</small></div><button class="btn gold" id="resumeBtn">▶️ Continuar</button></div>`;
   }
-  $("#resumeBox").innerHTML = rb;
+  $("#resumeBox").innerHTML = rb; $("#metaHome").innerHTML = metaBarHTML(false);
   if (rb) $("#resumeBtn").onclick = () => startStudy(ss.prefix, ss.ids, true);
   const mature = S.cards.filter(c => c.srs.st === "review" && c.srs.ivl >= 21).length, acc = L.nAns ? Math.round(100 * L.nOk / L.nAns) : 0;
   $("#stats").innerHTML = `<div class="stat"><b class="n">${all.n}</b><span>novos hoje</span></div><div class="stat"><b class="rv">${all.r + all.l}</b><span>revisões pendentes</span></div>
@@ -800,25 +813,44 @@ $("#tree").addEventListener("click", e => {
   const dk = e.target.closest("[data-deck]"); if (dk) startStudy(dk.dataset.deck);
 });
 $("#studyAll").onclick = () => startStudy(null);
+$("#simBtn").onclick = () => startSim();
+document.addEventListener("click", e => { const a = e.target.closest("[data-medit]"); if (!a) return; e.preventDefault(); location.hash = "ajustes"; setTimeout(() => { const i = $("#sNew"); if (i) { i.focus(); i.scrollIntoView({ block: "center" }); } }, 150); });
 
 /* ---------------- UI: Estudo ---------------- */
 function saveSession(prefix, ids) {
   S.session = { prefix: prefix || null, ids: ids ? ids.slice(0, 400) : null, mod: Date.now() };
   DB.setMeta("session", S.session); Cloud.markSt();
 }
-function startStudy(prefix, ids, resume) {
-  if (!resume) saveSession(prefix, ids);
+function startStudy(prefix, ids, resume, sim) {
+  if (!resume && !sim) saveSession(prefix, ids);
+  Study.sim = sim ? { ok: 0, n: 0, miss: [] } : null; Study.simOrder = sim ? ids.slice() : null;
   Study.prefix = prefix; Study.ids = ids ? new Set(ids) : null; Study.seen = new Set(); Study.undo = []; Study.done = 0; Study.started = true;
   const c = counts(prefix); Study.total = ids ? ids.length : c.n + c.l + c.r;
   if (location.hash !== "#estudar") location.hash = "estudar"; else showCard();
 }
+function startSim(ids) {
+  if (!ids) { const pool = S.cards.filter(c => !c.susp); for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; } ids = pool.slice(0, 50).map(c => c.id); }
+  if (!ids.length) return toast("Nenhum card disponível para o simulado.");
+  startStudy(null, ids, false, true); toast(`🧪 Simulado com ${ids.length} cards — não altera agenda nem meta.`);
+}
 async function showCard() {
   Study.view = null; $("#histBanner").style.display = "none";
   const c = nextCard(); Study.cur = c; Study.shown = false;
-  $("#studyDeck").textContent = Study.ids ? "🔎 Estudo filtrado (resultados da busca)" : "📚 " + (Study.prefix || "Todos os baralhos");
+  $("#studyDeck").textContent = Study.sim ? "🧪 Simulado — sem efeito na agenda" : Study.ids ? "🔎 Estudo filtrado (resultados da busca)" : "📚 " + (Study.prefix || "Todos os baralhos");
+  $("#studyMeta").innerHTML = Study.sim ? `<div class="metaBar compact"><div class="mbLbl">🧪 Acertos: <b>${Study.sim.ok}</b>/${Study.sim.n}</div></div>` : metaBarHTML(true);
   const cc = counts(Study.prefix), L = L0();
   $("#studyCounts").innerHTML = Study.ids ? `<span class="cnt">${Study.done}/${Study.total}</span>` : `<span class="cnt n">${cc.n}</span> <span class="cnt l">${cc.l}</span> <span class="cnt rv">${cc.r}</span>`;
   $("#prog").style.width = Study.total ? Math.min(100, 100 * Study.done / Math.max(Study.total, Study.done + 1)) + "%" : "0";
+  if (!c && Study.sim) {
+    $("#cardHost").style.display = "none"; $("#studyTools").style.display = "none"; $("#studyEmpty").style.display = "block";
+    const m = Study.sim, pc = m.n ? Math.round(100 * m.ok / m.n) : 0, miss = m.miss.slice();
+    $("#studyEmpty").innerHTML = `<div style="font-size:46px">🧪</div><h2>Simulado concluído</h2><p>Acertos: <b>${m.ok}</b>/${m.n} · <b>${pc}%</b> ${pc >= 85 ? "🟢" : pc >= 70 ? "🟡" : "🔴"}</p>
+      <p style="color:var(--mut)">Nada foi alterado na sua agenda nem na meta de hoje.</p>
+      <div class="metaRow" style="justify-content:center">${miss.length ? `<button class="btn" id="simMiss">🔁 Refazer os ${miss.length} errados</button>` : ""}<button class="btn" id="simNew">🎲 Novo simulado</button><a class="btn gold" href="#inicio">🏠 Início</a></div>`;
+    if (miss.length) $("#simMiss").onclick = () => startSim(miss);
+    $("#simNew").onclick = () => startSim();
+    bars(null); return;
+  }
   if (!c) {
     $("#cardHost").style.display = "none"; $("#studyTools").style.display = "none"; $("#studyEmpty").style.display = "block";
     const nxt = S.cards.filter(x => !x.susp && x.srs.st !== "new" && inDeck(x, Study.prefix)).map(x => x.srs.due).sort((a, b) => a - b)[0];
@@ -841,7 +873,7 @@ async function showCard() {
           <button class="btn" id="mSave">Salvar meta</button></div>
       </div>
       <a class="btn gold" href="#inicio">🏠 Voltar ao início</a>`;
-    const ext = async (xn, xr) => { const L1 = L0(); L1.xNew = (L1.xNew || 0) + xn; L1.xRev = (L1.xRev || 0) + xr; await saveLog(); const c2 = counts(Study.prefix); Study.total = Study.done + c2.n + c2.l + c2.r; toast(`⏩ Meta de hoje ampliada${xn ? ` +${xn} novos` : ""}${xr ? ` +${xr} revisões` : ""}.`); showCard(); };
+    const ext = async (xn, xr) => { const L1 = L0(); if (xn) L1.w80n = 0; if (xr) L1.w80r = 0; L1.xNew = (L1.xNew || 0) + xn; L1.xRev = (L1.xRev || 0) + xr; await saveLog(); const c2 = counts(Study.prefix); Study.total = Study.done + c2.n + c2.l + c2.r; toast(`⏩ Meta de hoje ampliada${xn ? ` +${xn} novos` : ""}${xr ? ` +${xr} revisões` : ""}.`); showCard(); };
     $("#studyEmpty").querySelectorAll("[data-x]").forEach(b => b.onclick = () => ext(+b.dataset.x, 0));
     $("#studyEmpty").querySelectorAll("[data-xr]").forEach(b => b.onclick = () => ext(0, +b.dataset.xr));
     const go = $("#mxGo"); if (go) go.onclick = () => { const v = Math.max(1, Math.min(999, +$("#mxNew").value || 0)); ext(v, ca.rAll ? v : 0); };
@@ -902,15 +934,18 @@ async function reveal() {
   const ans = $("#cardHost").shadowRoot.querySelector("#answer"); if (ans && ans.getBoundingClientRect().top > innerHeight * 0.6) ans.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 async function answer(g) {
-  const c = Study.cur; if (!c || !Study.shown) return; const L = L0();
+  const c = Study.cur; if (!c || !Study.shown) return;
+  if (Study.sim) { Study.sim.n++; if (g > 1) Study.sim.ok++; else Study.sim.miss.push(c.id); Study.seen.add(c.id); Study.done++; return showCard(); }
+  const L = L0();
   const wasNew = c.srs.st === "new", wasRev = c.srs.st === "review";
   Study.undo.push({ id: c.id, srs: Object.assign({}, c.srs), log: Object.assign({}, L), g, wasNew, wasRev, day: today() });
   c.srs = schedule(c.srs, g);
   if (wasNew) L.nNew++; if (wasRev) L.nRev++; L.nAns++; if (g > 1) L.nOk++; L.ms += Math.min(60000, Date.now() - Study.t0);
   Study.seen.add(c.id); if (g > 1 || Study.ids) Study.done++;
-  await saveProg(c); await saveLog(); showCard();
+  metaWarn(); await saveProg(c); await saveLog(); showCard();
 }
 async function undo() {
+  if (Study.sim) return toast("🧪 No simulado não há desfazer — nada é gravado.");
   const u = Study.undo.pop(); if (!u) return toast("Nada para desfazer.");
   const c = S.byId.get(u.id); c.srs = u.srs; S.logs[u.day || today()] = u.log; Study.view = null; $("#histBanner").style.display = "none"; Study.done = Math.max(0, Study.done - 1);
   await saveProg(c); await saveLog(); Study.cur = c; Study.shown = false;
