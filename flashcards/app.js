@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.1.0";
+const APP_VERSION = "4.2.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -760,6 +760,7 @@ const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i
       <div class="stat"><b class="rv">${feitas.length ? Math.round(100 * certas / feitas.length) : 0}%</b><span>acerto (última tentativa)</span></div><div class="stat"><b style="color:var(--gold2)">${all.length - feitas.length}</b><span>inéditas</span></div></div>
      <div class="panel"><div class="metaRow"><label>📚 Tema:</label><select id="qzTema"><option value="">Todos os temas (${all.length})</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""}>${esc(t)}</option>`).join("")}</select></div>
       <div class="metaRow"><button class="btn gold" data-st="10">▶️ Bloco de 10</button><button class="btn" data-st="20">▶️ Bloco de 20</button><button class="btn" data-st="new">🆕 Inéditas (${pend})</button><button class="btn" data-st="err" ${err ? "" : "disabled"}>🔁 Só as erradas (${err})</button><button class="btn" data-st="all">📚 Todas em ordem (${lst.length})</button></div>
+      <p class="metaNow">🗺️ Veja onde você acerta e erra em <a href="#jornada" style="color:var(--cy)">Jornada › Mapa de domínio</a>.</p>
       <p class="metaNow">⌨️ Atalhos: <span class="kbd">A</span>–<span class="kbd">E</span> ou <span class="kbd">1</span>–<span class="kbd">5</span> responder · <span class="kbd">Enter</span> próxima · ✨ +15 XP por acerto, +5 por tentativa.</p></div>`;
     $$("#qzHost [data-div]").forEach(b => b.onclick = () => { this.div = b.dataset.div; lsSet("qzDiv", this.div); this.tema = ""; this.home(); });
     $("#qzTema").onchange = e => { this.tema = e.target.value; this.home(); };
@@ -892,7 +893,7 @@ const ACH = { list: [],
     if (location.hash === "#jornada") JR.render();
   } };
 const JR = {
-  render() {
+  async render() { await QZ.load();
     if (!ACH.list.length) ACH.build();
     const st = jStats(), G = ACH.got(), L = levelOf(st.xp), now = Date.now(), wNow = isoWeek(now);
     const d14 = []; for (let i = 13; i >= 0; i--) d14.push(dayKey(now - i * DAY));
@@ -913,6 +914,7 @@ const JR = {
       <div class="chart"><h3>🗓️ XP por semana (12 semanas)</h3>${barSVG(wv, W.map(lab), W.map(w => w === wNow ? "#4dd4ff" : "#e8c56a"))}</div>
       <div class="chart" style="grid-column:1/-1"><h3>🧭 De onde vem seu XP</h3>${stackSVG(src.map(x => ({ n: x.n, v: x.v, c: x.c })))}
        <div class="legend">${src.map(x => `<span><i style="background:${x.c}"></i>${x.n}: <b>${x.v.toLocaleString("pt-BR")}</b> (${Math.round(100 * x.v / tot)}%)</span>`).join("")}</div></div></div></div>
+     ${DOM.html()}
      <div class="panel"><h2 style="margin-top:0">🏟️ Ranking semanal de XP</h2><p class="metaNow">Suas semanas competem entre si: supere seu próprio recorde. 🥇🥈🥉</p>
       <table class="t jrRank"><tr><th>#</th><th>Semana</th><th>XP</th></tr>${rank.slice(0, 10).map(([w, v], i) => `<tr class="${+w === wNow ? "me" : ""}"><td>${["🥇", "🥈", "🥉"][i] || i + 1 + "º"}</td><td>${lab(w)}${+w === wNow ? " · esta semana" : ""}</td><td><b>${v.toLocaleString("pt-BR")}</b></td></tr>`).join("") || `<tr><td colspan=3>Estude para abrir o ranking.</td></tr>`}</table></div>
      <div class="panel"><h2 style="margin-top:0">🏰 Salão de troféus · Temporada I (nov/2026)</h2>
@@ -920,6 +922,36 @@ const JR = {
       ${Object.entries(ACH_T).map(([t, n]) => `<h3 class="achH">${n}</h3><div class="achGrid">${by(t).sort((a, b) => (!!G[b.id]) - (!!G[a.id])).map(card).join("")}</div>`).join("")}
       <p class="metaNow">✨ Bônus por conquista: medalha +20, troféu +40, título +50, brasão +80, honraria +150 XP. Novas conquistas chegam a cada atualização do app.</p></div>`;
   } };
+
+
+/* ---------------- Mapa de domínio (questões + simulados) ---------------- */
+const DOM = {
+  col: p => p == null ? "#2a3442" : p >= 85 ? "#5be38a" : p >= 70 ? "#ffc14d" : "#ff6b6b",
+  rows() {
+    const out = [], R = S.logs._q || {}, data = QZ.data || { temi: [], r3: [] };
+    for (const div of ["temi", "r3"]) {
+      const by = {};
+      for (const q of data[div] || []) { const t = by[q.tema] = by[q.tema] || { tot: 0, feitas: 0, ult: 0, at: 0, ok: 0 }; t.tot++; const r = R[q.id]; if (r) { t.feitas++; t.ult += r[0]; t.at += r[1]; t.ok += r[2]; } }
+      for (const [tema, t] of Object.entries(by)) out.push({ fonte: div === "temi" ? "❓ TEMI" : "❓ R3", div, tema, n: t.feitas, tot: t.tot, pct: t.feitas ? Math.round(100 * t.ult / t.feitas) : null, hist: t.at ? Math.round(100 * t.ok / t.at) : null });
+    }
+    const sd = {}; for (const [, l] of dayLogs()) for (const [k, [ok, n]] of Object.entries(l.sd || {})) { const v = sd[k] = sd[k] || [0, 0]; v[0] += ok; v[1] += n; }
+    for (const [k, [ok, n]] of Object.entries(sd)) out.push({ fonte: "🧪 Simulado", tema: k.replace("::", " › "), n, tot: null, pct: n ? Math.round(100 * ok / n) : null, hist: null });
+    return out;
+  },
+  html(limit) {
+    const rows = this.rows(), done = rows.filter(r => r.n > 0).sort((a, b) => a.pct - b.pct), todo = rows.filter(r => !r.n && r.tot);
+    const forte = done.filter(r => r.pct >= 85).length, medio = done.filter(r => r.pct >= 70 && r.pct < 85).length, fraco = done.filter(r => r.pct < 70).length;
+    const row = r => `<tr><td>${r.fonte}</td><td><b>${esc(r.tema)}</b></td><td>${r.n}${r.tot ? "/" + r.tot : ""}</td><td><span class="domBar"><i style="width:${r.pct || 0}%;background:${this.col(r.pct)}"></i></span> <b style="color:${this.col(r.pct)}">${r.pct}%</b>${r.hist != null && r.hist !== r.pct ? `<small> · histórico ${r.hist}%</small>` : ""}</td><td>${r.div ? `<button class="btn sm" data-dom="${r.div}|${esc(r.tema)}">🎯 Treinar</button>` : ""}</td></tr>`;
+    return `<div class="panel" id="domPanel"><h2 style="margin-top:0">🗺️ Mapa de domínio por tema</h2>
+      <p class="metaNow">Ordenado do mais fraco para o mais forte. Questões: acerto na última tentativa de cada questão. Simulados: acerto por baralho. 🟢 ≥ 85% · 🟡 70–84% · 🔴 &lt; 70%.</p>
+      <div class="achSum"><span>🔴 A reforçar: <b>${fraco}</b></span><span>🟡 Em consolidação: <b>${medio}</b></span><span>🟢 Dominados: <b>${forte}</b></span><span>⚪ Ainda não testados: <b>${todo.length}</b></span></div>
+      ${done.length ? `<table class="t domT"><tr><th>Fonte</th><th>Tema</th><th>Feitas</th><th>Acerto</th><th></th></tr>${(limit ? done.slice(0, limit) : done).map(row).join("")}</table>` : `<p class="metaNow">Responda questões ou faça simulados para montar o mapa.</p>`}
+      ${todo.length ? `<details><summary class="metaNow">⚪ Temas ainda não testados (${todo.length})</summary><div class="domTodo">${todo.map(r => `<button class="btn sm" data-dom="${r.div}|${esc(r.tema)}">${r.fonte} · ${esc(r.tema)} (${r.tot})</button>`).join("")}</div></details>` : ""}</div>`;
+  } };
+document.addEventListener("click", async e => {
+  const b = e.target.closest("[data-dom]"); if (!b) return;
+  const [div, tema] = b.dataset.dom.split("|"); await QZ.load(); QZ.div = div; lsSet("qzDiv", div); QZ.tema = tema; QZ.block = null; location.hash = "questoes"; setTimeout(() => QZ.home(), 50);
+});
 
 /* ---------------- Gráficos (SVG) ---------------- */
 function barSVG(vals, labels, colors, h = 120, fmt = v => v) {
@@ -1147,7 +1179,7 @@ async function reveal() {
 }
 async function answer(g) {
   const c = Study.cur; if (!c || !Study.shown) return;
-  if (Study.sim) { Study.sim.n++; if (g > 1) Study.sim.ok++; else Study.sim.miss.push(c.id); Study.seen.add(c.id); Study.done++; addXP(g > 1 ? 5 : 3, "", "s"); saveLog(); return showCard(); }
+  if (Study.sim) { { const k = c.deck.split("::").slice(0, 2).join("::"), Ls = L0(); Ls.sd = Ls.sd || {}; const v = Ls.sd[k] = Ls.sd[k] || [0, 0]; v[1]++; if (g > 1) v[0]++; } Study.sim.n++; if (g > 1) Study.sim.ok++; else Study.sim.miss.push(c.id); Study.seen.add(c.id); Study.done++; addXP(g > 1 ? 5 : 3, "", "s"); saveLog(); return showCard(); }
   const L = L0();
   const wasNew = c.srs.st === "new", wasRev = c.srs.st === "review";
   Study.undo.push({ id: c.id, srs: Object.assign({}, c.srs), log: Object.assign({}, L), g, wasNew, wasRev, day: today() });

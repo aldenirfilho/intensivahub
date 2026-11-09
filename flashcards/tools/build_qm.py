@@ -2,7 +2,9 @@
 import json, random, re, sys, importlib, hashlib, shutil, os
 sys.path.insert(0, "/home/claude/anki/qm")
 OUT = sys.argv[1] if len(sys.argv) > 1 else "/home/claude/app2"
+TEMA_MAP = {"Endócrino e metabólico": "Endocrinologia", "Gastro intensiva": "Gastro e nutrição", "Nutrição": "Gastro e nutrição", "Obstetrícia na UTI": "Obstetrícia", "Ética e morte encefálica": "Ética, paliativos e morte encefálica", "Ética e cuidados paliativos": "Ética, paliativos e morte encefálica", "LRA e diálise": "Nefrologia e distúrbios"}
 def mk(qid, tema, enun, alts, gab, com, porque=None, pega="", img=None):
+    tema = TEMA_MAP.get(tema, tema)
     correct = alts["ABCDE".index(gab)]; pairs = list(zip(alts, porque or [""] * 5))
     if not all(re.match(r"^[~\d]", a) for a in alts):
         random.Random(int(hashlib.md5(qid.encode()).hexdigest(), 16)).shuffle(pairs)
@@ -24,7 +26,7 @@ def qs(mods, xmods, pref, newmods):
         for tema, enun, alts, gab, com, porque, pega, img in importlib.import_module(m).Q:
             out.append(mk(f"{pref}{len(out)+1:03d}", tema, enun, alts, gab, com, porque, pega, img))
     return out
-Q = {"temi": qs(["qt1", "qt2", "qt3", "qt4"], ["xt1", "xt2"], "QT", ["nqt1"]), "r3": qs(["qr1", "qr2", "qr3", "qr4"], ["xr1", "xr2"], "QR", ["nqr1"])}
+Q = {"temi": qs(["qt1", "qt2", "qt3", "qt4"], ["xt1", "xt2"], "QT", ["nqt1","nqt2","nqt3","nqt4","nqt5"]), "r3": qs(["qr1", "qr2", "qr3", "qr4"], ["xr1", "xr2"], "QR", ["nqr1","nqr2","nqr3","nqr4","nqr5"])}
 from mt import M as MT
 from mr import M as MR
 from cmt import C
