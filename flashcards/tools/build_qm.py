@@ -26,7 +26,7 @@ def qs(mods, xmods, pref, newmods):
         for tema, enun, alts, gab, com, porque, pega, img in importlib.import_module(m).Q:
             out.append(mk(f"{pref}{len(out)+1:03d}", tema, enun, alts, gab, com, porque, pega, img))
     return out
-Q = {"temi": qs(["qt1", "qt2", "qt3", "qt4"], ["xt1", "xt2"], "QT", ["nqt1","nqt2","nqt3","nqt4","nqt5"]), "r3": qs(["qr1", "qr2", "qr3", "qr4"], ["xr1", "xr2"], "QR", ["nqr1","nqr2","nqr3","nqr4","nqr5"])}
+Q = {"temi": qs(["qt1", "qt2", "qt3", "qt4"], ["xt1", "xt2"], "QT", ["nqt1","nqt2","nqt3","nqt4","nqt5","nqt6","nqt7","nqt8","nqt9","nqt10","nqt11","nqt12"]), "r3": qs(["qr1", "qr2", "qr3", "qr4"], ["xr1", "xr2"], "QR", ["nqr1","nqr2","nqr3","nqr4","nqr5","nqr6","nqr7","nqr8","nqr9","nqr10","nqr11","nqr12"])}
 from mt import M as MT
 from mr import M as MR
 from cmt import C
