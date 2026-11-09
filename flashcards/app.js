@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "3.3.0";
+const APP_VERSION = "4.0.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -87,6 +87,20 @@ const DEFAULTS = { newPerDay: 20, revPerDay: 300, steps: [1, 10], relearn: [10],
 const S = { cards: [], byId: new Map(), official: [], user: new Map(), prog: new Map(), styles: new Map(), mediaURL: new Map(), mediaPath: {}, settings: null, settingsMod: 0, logs: {}, index: null };
 const emptyLog = () => ({ nNew: 0, nRev: 0, nAns: 0, nOk: 0, ms: 0 });
 const L0 = () => (S.logs[today()] = S.logs[today()] || emptyLog());
+/* ---------- XP · níveis · registro de atividade (sincroniza junto com os logs) ---------- */
+const act = l => !l ? 0 : (l.nAns === undefined && !l.xp ? Object.keys(l).length : (l.nAns || 0) + (l.qN || 0) + (l.mN || 0) + (l.sims || []).length + (l.xp || 0) / 1000);
+const dayLogs = () => Object.entries(S.logs).filter(([k]) => /^\d/.test(k));
+const QRES = () => (S.logs._q = S.logs._q || {}), MRES = () => (S.logs._m = S.logs._m || {});
+const RANKS = ["🪶 Aprendiz", "🛡️ Escudeiro", "⚔️ Cavaleiro", "🏰 Paladino", "📜 Mestre", "👑 Grão-Mestre", "🐉 Lenda"];
+function xpTotal() { return dayLogs().reduce((s, [, l]) => s + (l.xp || 0), 0); }
+function levelOf(xp) { let lv = 1, need = 100, acc = 0; while (xp >= acc + need) { acc += need; lv++; need = 100 + 50 * (lv - 1); } return { lv, cur: xp - acc, need, rank: RANKS[Math.min(RANKS.length - 1, Math.floor((lv - 1) / 5))] }; }
+function xpBadge() { const el = $("#xpBadge"); if (!el) return; const t = xpTotal(), L = levelOf(t), d = (S.logs[today()] || {}).xp || 0; el.innerHTML = `<b>${L.rank} · Nv ${L.lv}</b><span class="xpTrack"><i style="width:${Math.round(100 * L.cur / L.need)}%"></i></span><small>${t.toLocaleString("pt-BR")} XP · hoje +${d}</small>`; el.title = `Faltam ${L.need - L.cur} XP para o nível ${L.lv + 1}`; }
+function addXP(n, why) {
+  if (!n) return; const L = L0(), before = levelOf(xpTotal()).lv; L.xp = (L.xp || 0) + n; xpBadge();
+  const pop = $("#xpPop"); if (pop) { pop.textContent = `+${n} XP${why ? " · " + why : ""}`; pop.classList.remove("go"); void pop.offsetWidth; pop.classList.add("go"); }
+  const after = levelOf(xpTotal()); if (after.lv > before) toast(`🎉 Subiu para o nível ${after.lv} — ${after.rank}!`, 4000);
+}
+function addSim(rec) { const L = L0(); (L.sims = L.sims || []).push(Object.assign({ t: Date.now() }, rec)); }
 const limNew = L => S.settings.newPerDay + (L.xNew || 0), limRev = L => S.settings.revPerDay + (L.xRev || 0);
 function metaBarHTML(compact) {
   const L = L0(), ln = limNew(L), lr = limRev(L), pn = ln ? Math.min(100, 100 * L.nNew / ln) : 100, pr = lr ? Math.min(100, 100 * L.nRev / lr) : 100;
@@ -187,12 +201,12 @@ const Cloud = {
     if (!data) return false; let changed = false;
     if (id === "state") {
       if ((data.settingsMod || 0) > S.settingsMod && data.settings) { const oldCols = JSON.stringify(S.settings.cols); S.settings = Object.assign({}, DEFAULTS, data.settings); S.settings.cols = Object.assign({ temi: true, cm: true, ia: true }, S.settings.cols || {}); S.settingsMod = data.settingsMod; DB.setMeta("settings", { v: data.settings, mod: data.settingsMod }); changed = true; if (JSON.stringify(S.settings.cols) !== oldCols) loadOfficial().then(() => { rebuildCards(); rerender(); }); }
-      for (const [d, l] of Object.entries(data.logs || {})) { const cur = S.logs[d]; if (!cur || (l.nAns || 0) > (cur.nAns || 0)) { S.logs[d] = l; changed = true; } }
+      for (const [d, l] of Object.entries(data.logs || {})) { const cur = S.logs[d]; if (!cur || act(l) > act(cur)) { S.logs[d] = l; changed = true; } }
       if (data.session && (!S.session || data.session.mod > S.session.mod)) { S.session = data.session; DB.setMeta("session", S.session); changed = true; }
       if (S.session && (!data.session || S.session.mod > data.session.mod)) this.dirty.st = true;
       if (changed) DB.setMeta("logs", S.logs);
       // se meu log local de algum dia é maior, preciso enviar
-      for (const [d, l] of Object.entries(S.logs)) if (!data.logs || !data.logs[d] || (data.logs[d].nAns || 0) < l.nAns) this.dirty.st = true;
+      for (const [d, l] of Object.entries(S.logs)) if (!data.logs || !data.logs[d] || act(data.logs[d]) < act(l)) this.dirty.st = true;
       if ((data.settingsMod || 0) < S.settingsMod) this.dirty.st = true;
     } else if (/^p\d\d$/.test(id)) {
       const put = [];
@@ -723,10 +737,100 @@ function nextCard() {
   return pool.filter(c => (c.srs.st === "learn" || c.srs.st === "relearn") && c.srs.due <= now + st.learnAhead * MIN).sort((a, b) => a.srs.due - b.srs.due)[0] || null;
 }
 
+
+/* ---------------- Layout celular / desktop ---------------- */
+const LAY = { modes: ["auto", "mobile", "desktop"], ic: { auto: "🔄 Auto", mobile: "📱 Celular", desktop: "🖥️ Desktop" },
+  apply() { const m = lsGet("layout") || "auto"; document.documentElement.classList.toggle("lay-mobile", m === "mobile"); document.documentElement.classList.toggle("lay-desktop", m === "desktop"); const b = $("#layBtn"); if (b) { const [ic, ...tx] = this.ic[m].split(" "); b.innerHTML = `${ic}<span class="layTx"> ${tx.join(" ")}</span>`; b.title = "Visualização: " + this.ic[m] + " — toque para alternar"; } },
+  next() { const m = lsGet("layout") || "auto"; const n = this.modes[(this.modes.indexOf(m) + 1) % 3]; lsSet("layout", n); this.apply(); toast("Visualização: " + this.ic[n]); } };
+LAY.apply(); $("#layBtn").onclick = () => LAY.next();
+
+/* ---------------- Questões (TEMI / R3) ---------------- */
+const DIVS = { temi: "🏛️ TEMI 2028", r3: "🩺 R3 Clínica Médica" };
+const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i: 0, ok: 0, done: false, pickd: null,
+  async load() { if (!this.data) this.data = await fetch("data/questoes.json").then(r => r.json()).catch(() => ({ temi: [], r3: [] })); },
+  async open() { await this.load(); this.block ? this.show() : this.home(); },
+  list() { return (this.data[this.div] || []).filter(q => !this.tema || q.tema === this.tema); },
+  home() {
+    this.block = null; const all = this.data[this.div] || [], R = QRES(), feitas = all.filter(q => R[q.id]), certas = feitas.filter(q => R[q.id][0]).length;
+    const temas = [...new Set(all.map(q => q.tema))].sort((a, b) => a.localeCompare(b, "pt"));
+    const lst = this.list(), pend = lst.filter(q => !R[q.id]).length, err = lst.filter(q => R[q.id] && !R[q.id][0]).length;
+    $("#qzHost").innerHTML = `<div class="divTabs">${Object.entries(DIVS).map(([k, v]) => `<button class="btn ${k === this.div ? "gold" : ""}" data-div="${k}">${v}</button>`).join("")}</div>
+     <div class="stats" style="margin:12px 0"><div class="stat"><b>${all.length}</b><span>questões</span></div><div class="stat"><b class="n">${feitas.length}</b><span>respondidas</span></div>
+      <div class="stat"><b class="rv">${feitas.length ? Math.round(100 * certas / feitas.length) : 0}%</b><span>acerto (última tentativa)</span></div><div class="stat"><b style="color:var(--gold2)">${all.length - feitas.length}</b><span>inéditas</span></div></div>
+     <div class="panel"><div class="metaRow"><label>📚 Tema:</label><select id="qzTema"><option value="">Todos os temas (${all.length})</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""}>${esc(t)}</option>`).join("")}</select></div>
+      <div class="metaRow"><button class="btn gold" data-st="10">▶️ Bloco de 10</button><button class="btn" data-st="20">▶️ Bloco de 20</button><button class="btn" data-st="new">🆕 Inéditas (${pend})</button><button class="btn" data-st="err" ${err ? "" : "disabled"}>🔁 Só as erradas (${err})</button><button class="btn" data-st="all">📚 Todas em ordem (${lst.length})</button></div>
+      <p class="metaNow">⌨️ Atalhos: <span class="kbd">A</span>–<span class="kbd">E</span> ou <span class="kbd">1</span>–<span class="kbd">5</span> responder · <span class="kbd">Enter</span> próxima · ✨ +15 XP por acerto, +5 por tentativa.</p></div>`;
+    $$("#qzHost [data-div]").forEach(b => b.onclick = () => { this.div = b.dataset.div; lsSet("qzDiv", this.div); this.tema = ""; this.home(); });
+    $("#qzTema").onchange = e => { this.tema = e.target.value; this.home(); };
+    $$("#qzHost [data-st]").forEach(b => b.onclick = () => {
+      const R = QRES(), l = this.list(), k = b.dataset.st, sh = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+      const fresh = sh(l.filter(q => !R[q.id])), old = sh(l.filter(q => R[q.id]));
+      const pick = k === "all" ? l : k === "new" ? fresh : k === "err" ? sh(l.filter(q => R[q.id] && !R[q.id][0])) : fresh.concat(old).slice(0, +k);
+      if (!pick.length) return toast("Nenhuma questão nesse filtro.");
+      this.block = pick; this.i = 0; this.ok = 0; this.pickd = null; this.show();
+    });
+  },
+  show() {
+    const q = this.block[this.i]; if (!q) return this.end();
+    this.pickd = null;
+    $("#qzHost").innerHTML = `<div id="studyTop"><div class="grow">❓ ${DIVS[this.div]} · <b>${esc(q.tema)}</b></div><div class="cnt">${this.i + 1}/${this.block.length} · ✅ ${this.ok}</div></div>
+     <div class="progress"><i style="width:${100 * this.i / this.block.length}%"></i></div>
+     <div class="panel qz"><div class="qzEnun">${q.enun}</div><div class="qzAlts">${q.alts.map((a, i) => `<button class="qzAlt" data-a="${i}"><b>${"ABCDE"[i]}</b><span>${a}</span></button>`).join("")}</div><div id="qzCom"></div></div>
+     <div class="metaRow" style="justify-content:center"><button class="btn" id="qzQuit">⏹️ Encerrar bloco</button></div>`;
+    $$("#qzHost .qzAlt").forEach(b => b.onclick = () => this.pick(+b.dataset.a));
+    $("#qzQuit").onclick = () => this.end(); window.scrollTo({ top: 0 });
+  },
+  pick(i) {
+    const q = this.block && this.block[this.i]; if (!q || this.pickd != null || i >= q.alts.length) return; this.pickd = i;
+    const ok = i === q.gab, R = QRES(), prev = R[q.id], L = L0();
+    R[q.id] = [ok ? 1 : 0, (prev ? prev[1] : 0) + 1, (prev ? prev[2] : 0) + (ok ? 1 : 0), Date.now()]; L.qN = (L.qN || 0) + 1;
+    if (ok) this.ok++;
+    addXP(ok ? (prev && prev[2] ? 5 : 15) : 5, ok ? "acerto" : "tentativa"); saveLog();
+    $$("#qzHost .qzAlt").forEach((b, k) => { b.disabled = true; if (k === q.gab) b.classList.add("ok"); else if (k === i) b.classList.add("bad"); });
+    $("#qzCom").innerHTML = `<div class="qzRes ${ok ? "ok" : "bad"}">${ok ? "✅ Correto!" : `❌ Gabarito: <b>${"ABCDE"[q.gab]}</b>`}</div><div class="qzExp">💡 ${q.com}</div>${q.ref ? `<div class="qzRef">📚 ${esc(q.ref)}</div>` : ""}<div class="metaRow" style="justify-content:flex-end"><button class="btn gold" id="qzNext">${this.i + 1 < this.block.length ? "Próxima ▶" : "🏁 Ver resultado"}</button></div>`;
+    $("#qzNext").onclick = () => this.next();
+  },
+  next() { if (this.pickd == null) return; this.i++; this.show(); },
+  end() {
+    const n = this.i + (this.pickd != null && this.block[this.i] ? 1 : 0), pc = n ? Math.round(100 * this.ok / n) : 0;
+    if (n) { addSim({ k: "q", deck: `Questões ${this.div === "temi" ? "TEMI" : "R3"}${this.tema ? "::" + this.tema : ""}`, ok: this.ok, n }); saveLog(); }
+    this.block = null;
+    $("#qzHost").innerHTML = `<div class="empty"><div style="font-size:46px">${pc >= 85 ? "🏆" : pc >= 70 ? "🎯" : "📚"}</div><h2>Bloco concluído</h2><p>Acertos: <b>${this.ok}</b>/${n} · <b>${pc}%</b> ${pc >= 85 ? "🟢" : pc >= 70 ? "🟡" : "🔴"}</p><div class="metaRow" style="justify-content:center"><button class="btn gold" id="qzBack">❓ Voltar às questões</button><a class="btn" href="#inicio">🏠 Início</a></div></div>`;
+    $("#qzBack").onclick = () => this.home();
+  } };
+
+/* ---------------- Micropartículas (TEMI / R3) ---------------- */
+const MC = { div: lsGet("mcDiv") || "temi", tema: "", data: null, i: 0, t0: 0,
+  async load() { if (!this.data) this.data = await fetch("data/micro.json").then(r => r.json()).catch(() => ({ temi: [], r3: [] })); },
+  async open() { await this.load(); this.render(); },
+  list() { return (this.data[this.div] || []).filter(m => !this.tema || m.tema === this.tema); },
+  render() {
+    const all = this.data[this.div] || [], M = MRES(), lidas = all.filter(m => M[m.id]).length, l = this.list();
+    if (this.i >= l.length) this.i = Math.max(0, l.length - 1);
+    const m = l[this.i], temas = [...new Set(all.map(x => x.tema))].sort((a, b) => a.localeCompare(b, "pt"));
+    $("#mcHost").innerHTML = `<div class="divTabs">${Object.entries(DIVS).map(([k, v]) => `<button class="btn ${k === this.div ? "gold" : ""}" data-div="${k}">${v}</button>`).join("")}</div>
+     <div class="metaRow"><select id="mcTema"><option value="">Todos os temas (${all.length})</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""}>${esc(t)}</option>`).join("")}</select><span class="metaNow">📖 Lidas: <b>${lidas}</b>/${all.length}</span><button class="btn sm" id="mcJump">⏭️ Próxima não lida</button></div>
+     <div class="progress"><i style="width:${l.length ? 100 * (this.i + 1) / l.length : 0}%"></i></div>
+     ${m ? `<div class="mcCard ${M[m.id] ? "lida" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mcN">${this.i + 1}/${l.length}${M[m.id] ? " · ✅ lida" : ""}</span></div>
+       <div class="mcEmoji">${m.emoji || "💊"}</div><h2 class="mcTit">${m.titulo}</h2><div class="mcTxt">${m.texto}</div>${m.gancho ? `<div class="mcHook">🧠 ${m.gancho}</div>` : ""}</div>` : `<p class="empty">Nenhuma micropartícula.</p>`}
+     <div class="metaRow" style="justify-content:center"><button class="btn" id="mcPrev">◀ Anterior</button><button class="btn gold" id="mcNext">Próxima ▶</button></div>
+     <p class="metaNow" style="text-align:center">⌨️ <span class="kbd">←</span> <span class="kbd">→</span> ou <span class="kbd">Espaço</span> · ✨ +2 XP por micropartícula nova</p>`;
+    $$("#mcHost [data-div]").forEach(b => b.onclick = () => { this.div = b.dataset.div; lsSet("mcDiv", this.div); this.tema = ""; this.i = 0; this.render(); });
+    $("#mcTema").onchange = e => { this.tema = e.target.value; this.i = 0; this.render(); };
+    $("#mcPrev").onclick = () => this.go(-1); $("#mcNext").onclick = () => this.go(1);
+    $("#mcJump").onclick = () => { const k = l.findIndex(x => !MRES()[x.id]); if (k < 0) return toast("🎉 Todas lidas neste filtro!"); this.i = k; this.render(); };
+    this.t0 = Date.now();
+  },
+  go(d) {
+    const l = this.list(), m = l[this.i];
+    if (d > 0 && m && !MRES()[m.id]) { MRES()[m.id] = Date.now(); const L = L0(); L.mN = (L.mN || 0) + 1; addXP(2); saveLog(); }
+    this.i = Math.max(0, Math.min(l.length - 1, this.i + d)); this.render();
+  } };
+
 /* ---------------- Gráficos (SVG) ---------------- */
 function barSVG(vals, labels, colors, h = 120, fmt = v => v) {
   const W = 320, max = Math.max(1, ...vals), bw = W / vals.length;
-  return `<svg viewBox="0 0 ${W} ${h + 26}" role="img">` + vals.map((v, i) => {
+  return `<svg viewBox="0 -12 ${W} ${h + 38}" role="img">` + vals.map((v, i) => {
     const bh = Math.round((v / max) * h), x = i * bw + 2, y = h - bh;
     return `<rect x="${x}" y="${y}" width="${bw - 4}" height="${Math.max(bh, v ? 2 : 0)}" rx="3" fill="${colors[i] || colors[0]}"><title>${labels[i]}: ${fmt(v)}</title></rect>` +
       (v && vals.length <= 16 ? `<text x="${x + (bw - 4) / 2}" y="${y - 3}" font-size="9" text-anchor="middle" fill="#9aa4b2">${fmt(v)}</text>` : "") +
@@ -755,7 +859,17 @@ function renderCharts() {
     return `<div style="margin-top:6px"><b>${col.icone} ${esc(col.nome)}</b> <span style="color:var(--mut);font-size:12px">${cs.length - n}/${cs.length} vistos</span>${stackSVG([{ n: "novos", v: n, c: "#2a3442" }, { n: "aprendendo", v: l, c: "#ff6b6b" }, { n: "jovens", v: y, c: "#ffc14d" }, { n: "maduros", v: m, c: "#5be38a" }])}</div>`;
   }).join("");
   const own = S.user.size ? `<div style="margin-top:6px"><b>✍️ Meus cards</b> <span style="color:var(--mut);font-size:12px">${S.user.size} cards</span></div>` : "";
-  $("#charts").innerHTML = `
+  const sims = dayLogs().flatMap(([, l]) => l.sims || []).sort((a, b) => a.t - b.t);
+  const wk = t => { const d = new Date(t); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getTime(); };
+  const W = []; for (let i = 11; i >= 0; i--) W.push(wk(Date.now() - i * 7 * DAY));
+  const wv = W.map(w => { const xs = sims.filter(x => wk(x.t) === w); const n = xs.reduce((a, x) => a + x.n, 0); return n ? Math.round(100 * xs.reduce((a, x) => a + x.ok, 0) / n) : 0; });
+  const pcol = v => v >= 85 ? "#5be38a" : v >= 70 ? "#ffc14d" : v ? "#ff6b6b" : "#2a3442";
+  const last = sims.slice(-12);
+  const simHTML = sims.length ? `<div class="chart"><h3>🧪 Nota semanal · simulados + questões (12 semanas)</h3>${barSVG(wv, W.map(w => { const d = new Date(w); return String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0"); }), wv.map(pcol), 120, v => v + "%")}</div>
+    <div class="chart"><h3>📋 Últimas ${last.length} sessões</h3>${barSVG(last.map(x => Math.round(100 * x.ok / x.n)), last.map(x => (x.k === "q" ? "❓" : "🧪") + new Date(x.t).getDate()), last.map(x => pcol(Math.round(100 * x.ok / x.n))), 120, v => v + "%")}
+    <div class="legend">${last.slice(-3).reverse().map(x => `<span>${x.k === "q" ? "❓" : "🧪"} ${esc((x.deck || "").split("::").pop())} ${x.ok}/${x.n}</span>`).join("")}</div></div>` :
+    `<div class="chart" style="grid-column:1/-1"><h3>🧪 Histórico de simulados</h3><p style="color:var(--mut);margin:0">Faça um 🧪 simulado ou um bloco de ❓ questões para ver sua nota semana a semana.</p></div>`;
+  $("#charts").innerHTML = simHTML + `
    <div class="chart"><h3>📅 Previsão de revisões (14 dias)</h3>${barSVG(fc, fl, ["#4dd4ff"])}</div>
    <div class="chart"><h3>🔥 Últimos 30 dias · sequência: ${streak} dia(s)</h3>${barSVG(ans, days.map(d => d.slice(8) + "/" + d.slice(5, 7)), accCol)}
      <div class="legend"><span><i style="background:#5be38a"></i>≥ 85% acerto</span><span><i style="background:#ffc14d"></i>70–84%</span><span><i style="background:#ff6b6b"></i>&lt; 70%</span></div></div>
@@ -804,6 +918,7 @@ function fillDeckSelects() {
   const names = [...new Set(S.cards.flatMap(c => { const p = c.deck.split("::"); return p.map((_, i) => p.slice(0, i + 1).join("::")); }))].sort((a, b) => a.localeCompare(b, "pt", { numeric: true }));
   const opts = names.map(n => `<option value="${esc(n)}">${esc(n.replace(/[^:]+::/g, "· "))}</option>`).join("");
   $("#qDeck").innerHTML = `<option value="">Todos os baralhos</option>` + opts;
+  const sd = $("#simDeck"); if (sd) { const keep = sd.value; sd.innerHTML = `<option value="">🎲 Todas as coleções</option>` + names.filter(n => n.split("::").length <= 2).map(n => `<option value="${esc(n)}">${esc(n.replace(/[^:]+::/g, "· "))}</option>`).join(""); sd.value = keep; }
   const own = [...new Set([...S.user.values()].flatMap(u => { const p = u.deck.split("::"); return p.map((_, i) => p.slice(0, i + 1).join("::")); }))].sort();
   $("#delDeck").innerHTML = `<option value="">Escolha um baralho próprio…</option>` + own.map(n => `<option value="${esc(n)}">${esc(n.replace(/[^:]+::/g, "· "))}</option>`).join("");
 }
@@ -813,7 +928,7 @@ $("#tree").addEventListener("click", e => {
   const dk = e.target.closest("[data-deck]"); if (dk) startStudy(dk.dataset.deck);
 });
 $("#studyAll").onclick = () => startStudy(null);
-$("#simBtn").onclick = () => startSim();
+$("#simBtn").onclick = () => startSim(null, $("#simDeck").value || null, +$("#simN").value || 50);
 document.addEventListener("click", e => { const a = e.target.closest("[data-medit]"); if (!a) return; e.preventDefault(); location.hash = "ajustes"; setTimeout(() => { const i = $("#sNew"); if (i) { i.focus(); i.scrollIntoView({ block: "center" }); } }, 150); });
 
 /* ---------------- UI: Estudo ---------------- */
@@ -828,10 +943,11 @@ function startStudy(prefix, ids, resume, sim) {
   const c = counts(prefix); Study.total = ids ? ids.length : c.n + c.l + c.r;
   if (location.hash !== "#estudar") location.hash = "estudar"; else showCard();
 }
-function startSim(ids) {
-  if (!ids) { const pool = S.cards.filter(c => !c.susp); for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; } ids = pool.slice(0, 50).map(c => c.id); }
+function startSim(ids, prefix, n, retry) {
+  if (!ids) { const pool = S.cards.filter(c => !c.susp && inDeck(c, prefix || null)); for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; } ids = pool.slice(0, n || 50).map(c => c.id); }
   if (!ids.length) return toast("Nenhum card disponível para o simulado.");
-  startStudy(null, ids, false, true); toast(`🧪 Simulado com ${ids.length} cards — não altera agenda nem meta.`);
+  startStudy(null, ids, false, true); Study.sim.deck = prefix || "Todas as coleções"; Study.sim.retry = !!retry;
+  toast(`🧪 Simulado com ${ids.length} cards — não altera agenda nem meta.`);
 }
 async function showCard() {
   Study.view = null; $("#histBanner").style.display = "none";
@@ -844,11 +960,13 @@ async function showCard() {
   if (!c && Study.sim) {
     $("#cardHost").style.display = "none"; $("#studyTools").style.display = "none"; $("#studyEmpty").style.display = "block";
     const m = Study.sim, pc = m.n ? Math.round(100 * m.ok / m.n) : 0, miss = m.miss.slice();
+    if (!m.saved && m.n && !m.retry) { m.saved = 1; addSim({ k: "sim", deck: m.deck, ok: m.ok, n: m.n }); saveLog(); }
     $("#studyEmpty").innerHTML = `<div style="font-size:46px">🧪</div><h2>Simulado concluído</h2><p>Acertos: <b>${m.ok}</b>/${m.n} · <b>${pc}%</b> ${pc >= 85 ? "🟢" : pc >= 70 ? "🟡" : "🔴"}</p>
       <p style="color:var(--mut)">Nada foi alterado na sua agenda nem na meta de hoje.</p>
       <div class="metaRow" style="justify-content:center">${miss.length ? `<button class="btn" id="simMiss">🔁 Refazer os ${miss.length} errados</button>` : ""}<button class="btn" id="simNew">🎲 Novo simulado</button><a class="btn gold" href="#inicio">🏠 Início</a></div>`;
-    if (miss.length) $("#simMiss").onclick = () => startSim(miss);
-    $("#simNew").onclick = () => startSim();
+    const dk = m.deck === "Todas as coleções" ? null : m.deck;
+    if (miss.length) $("#simMiss").onclick = () => startSim(miss, dk, null, true);
+    $("#simNew").onclick = () => startSim(null, dk, Study.simOrder.length);
     bars(null); return;
   }
   if (!c) {
@@ -935,14 +1053,14 @@ async function reveal() {
 }
 async function answer(g) {
   const c = Study.cur; if (!c || !Study.shown) return;
-  if (Study.sim) { Study.sim.n++; if (g > 1) Study.sim.ok++; else Study.sim.miss.push(c.id); Study.seen.add(c.id); Study.done++; return showCard(); }
+  if (Study.sim) { Study.sim.n++; if (g > 1) Study.sim.ok++; else Study.sim.miss.push(c.id); Study.seen.add(c.id); Study.done++; addXP(g > 1 ? 5 : 3); saveLog(); return showCard(); }
   const L = L0();
   const wasNew = c.srs.st === "new", wasRev = c.srs.st === "review";
   Study.undo.push({ id: c.id, srs: Object.assign({}, c.srs), log: Object.assign({}, L), g, wasNew, wasRev, day: today() });
   c.srs = schedule(c.srs, g);
   if (wasNew) L.nNew++; if (wasRev) L.nRev++; L.nAns++; if (g > 1) L.nOk++; L.ms += Math.min(60000, Date.now() - Study.t0);
   Study.seen.add(c.id); if (g > 1 || Study.ids) Study.done++;
-  metaWarn(); await saveProg(c); await saveLog(); showCard();
+  addXP((wasNew ? 10 : 5) + (g > 1 ? 2 : 0)); metaWarn(); await saveProg(c); await saveLog(); showCard();
 }
 async function undo() {
   if (Study.sim) return toast("🧪 No simulado não há desfazer — nada é gravado.");
@@ -959,6 +1077,9 @@ $("#bEnd").onclick = () => { location.hash = "inicio"; };
 $("#bSusp").onclick = async () => { const c = Study.cur; if (!c) return; c.susp = true; await saveProg(c); toast("⏸️ Suspenso (reative em 🔎 Buscar → is:suspenso)"); showCard(); };
 $("#bMark").onclick = async () => { const c = Study.cur; if (!c) return; c.marked = !c.marked; await saveProg(c); $("#bMark").textContent = c.marked ? "🚩 Desmarcar" : "🚩 Marcar"; toast(c.marked ? "🚩 Marcado" : "Desmarcado"); };
 document.addEventListener("keydown", e => {
+  if (/input|textarea|select/i.test(e.target.tagName)) return;
+  if (location.hash === "#questoes") { const k = e.key.toUpperCase(), i = "ABCDE".indexOf(k) >= 0 ? "ABCDE".indexOf(k) : "12345".indexOf(e.key); if (i >= 0 && k.length === 1) { e.preventDefault(); QZ.pick(i); } else if (e.key === "Enter" || e.key === "ArrowRight") { e.preventDefault(); QZ.next(); } return; }
+  if (location.hash === "#micro") { if (e.key === "ArrowRight" || e.code === "Space") { e.preventDefault(); MC.go(1); } else if (e.key === "ArrowLeft") { e.preventDefault(); MC.go(-1); } return; }
   if (location.hash !== "#estudar" || /input|textarea|select/i.test(e.target.tagName)) return;
   if (e.key === "ArrowLeft") { e.preventDefault(); return histBack(); }
   if (e.key === "ArrowRight") { e.preventDefault(); if (Study.view != null) { if (Study.view < Study.undo.length - 1) { Study.view++; histShow(); } else histContinue(); } return; }
@@ -1120,12 +1241,15 @@ function rerender() {
   if (v === "inicio" || !v) refreshHome(); else if (v === "buscar") search(); else if (v === "ajustes") fillSettings();
 }
 function route() {
-  const v = (location.hash || "#inicio").slice(1), valid = ["inicio", "estudar", "buscar", "importar", "prompt", "ajustes"], view = valid.includes(v) ? v : "inicio";
+  const v = (location.hash || "#inicio").slice(1), valid = ["inicio", "estudar", "questoes", "micro", "buscar", "importar", "prompt", "ajustes"], view = valid.includes(v) ? v : "inicio";
   $$(".view").forEach(s => s.classList.toggle("on", s.id === "v-" + view));
   $$("#nav a").forEach(a => a.classList.toggle("on", a.dataset.v === view));
   if (view === "inicio") refreshHome();
   if (view === "estudar") { if (!Study.started) { const ss = S.session; startStudy(ss ? ss.prefix : null, ss && ss.ids ? ss.ids : null, true); return; } Study.view != null ? histShow() : (Study.cur && Study.shown ? histContinue() : showCard()); } else bars(null);
   if (view === "buscar") search();
+  if (view === "questoes") QZ.open();
+  if (view === "micro") MC.open();
+  xpBadge();
   if (view === "prompt") updPrompt();
   if (view === "ajustes") fillSettings();
 }

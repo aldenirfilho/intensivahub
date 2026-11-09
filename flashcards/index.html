@@ -65,6 +65,36 @@ label{font-size:13px;color:var(--mut);font-weight:600}
 .sub{padding-left:22px;display:none}
 .sub.open{display:block}
 .empty{color:var(--mut);text-align:center;padding:30px 10px}
+
+.xpBadge{display:flex;flex-direction:column;gap:2px;min-width:150px;font-size:12px;line-height:1.1}.xpBadge b{color:var(--gold2);font-size:12px}.xpBadge small{color:var(--mut);font-size:10.5px}
+.xpTrack{display:block;height:5px;background:#1b2330;border-radius:4px;overflow:hidden}.xpTrack i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--cy))}
+#xpPop{position:fixed;right:16px;top:86px;z-index:60;background:linear-gradient(90deg,var(--gold),var(--gold2));color:#14100a;font:700 13px Inter;padding:5px 10px;border-radius:20px;opacity:0;pointer-events:none}
+#xpPop.go{animation:xpup 1.3s ease-out}@keyframes xpup{0%{opacity:0;transform:translateY(8px)}15%{opacity:1;transform:none}75%{opacity:1}100%{opacity:0;transform:translateY(-14px)}}
+.simRow{margin-top:10px}.simRow select,#qzTema,#mcTema{background:#0b1017;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:8px;max-width:100%}
+.divTabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.qzEnun{font-size:17px;line-height:1.55;margin-bottom:14px}.qzAlts{display:grid;gap:8px}
+.qzAlt{display:flex;gap:10px;align-items:flex-start;text-align:left;background:#121a24;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:11px 12px;font:15px/1.45 Inter;cursor:pointer}
+.qzAlt b{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#1f2a37;color:var(--gold2)}.qzAlt:hover:not(:disabled){border-color:var(--cy)}
+.qzAlt.ok{border-color:#5be38a;background:#10261a}.qzAlt.ok b{background:#5be38a;color:#08130c}.qzAlt.bad{border-color:#ff6b6b;background:#2a1215}.qzAlt.bad b{background:#ff6b6b;color:#1a0708}
+.qzRes{margin-top:14px;font-weight:700;font-size:16px}.qzRes.ok{color:#5be38a}.qzRes.bad{color:#ff6b6b}.qzExp{margin-top:8px;line-height:1.55;background:#0f1620;border-left:3px solid var(--gold);padding:10px 12px;border-radius:8px}.qzRef{margin-top:6px;font-size:12px;color:var(--mut)}
+.mcCard{background:radial-gradient(120% 90% at 0% 0%,#14324066,transparent),var(--bg2);border:1px solid var(--line);border-radius:18px;padding:22px 20px;margin:12px 0;min-height:260px}.mcCard.lida{border-color:#2f5b45}
+.mcTop{display:flex;justify-content:space-between;align-items:center;gap:8px}.mcN{color:var(--mut);font-size:12px}.mcEmoji{font-size:44px;margin:14px 0 4px}
+.mcTit{font:700 21px/1.25 Inter;margin:4px 0 10px;color:var(--gold2)}.mcTxt{font-size:17px;line-height:1.6}.mcHook{margin-top:14px;padding:10px 12px;border-radius:10px;background:#0f1620;border:1px dashed var(--cy);color:var(--cy);font-size:14px}
+/* 📱 modelo celular */
+html.lay-mobile body{background:#05070a}
+html.lay-mobile header .brand,html.lay-mobile nav,html.lay-mobile main,html.lay-mobile .bar .in{max-width:430px}
+html.lay-mobile main{border-left:1px solid var(--line);border-right:1px solid var(--line);background:var(--bg,#0b0e13);min-height:100vh}
+html.lay-mobile .stats{grid-template-columns:repeat(2,1fr)}html.lay-mobile .charts{grid-template-columns:1fr}html.lay-mobile .grid2{grid-template-columns:1fr}
+html.lay-mobile .xpBadge{min-width:0}html.lay-mobile .xpBadge small{display:none}html.lay-mobile .brand small{display:none}
+html.lay-mobile nav a{padding:8px 9px;font-size:13px}html.lay-mobile .qzEnun,html.lay-mobile .mcTxt{font-size:16px}
+/* 🖥️ modelo desktop */
+html.lay-desktop header .brand,html.lay-desktop nav,html.lay-desktop main,html.lay-desktop .bar .in{max-width:1280px}
+html.lay-desktop .stats{grid-template-columns:repeat(4,1fr)}html.lay-desktop .charts{grid-template-columns:1fr 1fr}
+html.lay-desktop #v-inicio.on{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 14px;align-items:start}
+html.lay-desktop #v-inicio>#metaHome,html.lay-desktop #v-inicio>#resumeBox,html.lay-desktop #v-inicio>.stats,html.lay-desktop #v-inicio>.foot{grid-column:1/-1}
+html.lay-desktop .mcCard,html.lay-desktop .qz{max-width:900px;margin-left:auto;margin-right:auto}
+@media(max-width:640px){.xpBadge small{display:none}.xpBadge{min-width:0;max-width:96px}#layBtn{padding:6px 8px}.layTx{display:none}.brand h1{font-size:15px;white-space:nowrap}.brand small{display:none}#sync{font-size:11px;padding:4px 7px}}
+html.lay-mobile .layTx{display:none}html.lay-mobile .brand h1{font-size:15px;white-space:nowrap}html.lay-mobile #sync{font-size:11px;padding:4px 7px}html.lay-mobile .xpBadge{max-width:96px}html.lay-mobile #layBtn{padding:6px 8px}
 .metaBar{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:12px}.metaBar.compact{padding:6px 10px;margin:6px 0 8px;font-size:13px}.mbHead{display:flex;gap:8px;align-items:center;margin-bottom:6px;color:var(--gold)}.mbEdit{margin-left:auto;font-size:13px;color:var(--cy);text-decoration:none}.mbRow{display:flex;gap:14px;flex-wrap:wrap}.mbItem{flex:1;min-width:150px}.mbLbl{font-size:13px;color:var(--mut);margin-bottom:4px}.mbLbl b{color:var(--txt)}.mbTrack{height:7px;background:#1b2330;border-radius:6px;overflow:hidden}.mbTrack i{display:block;height:100%;border-radius:6px;transition:width .3s}
 .metaBox{max-width:640px;margin:18px auto;padding:16px;border:1px solid var(--line);border-radius:14px;background:#111821;text-align:left;color:var(--txt)}.metaBox h3{margin:0 0 8px;color:var(--gold)}.metaNow{margin:6px 0;color:var(--mut)}.metaRow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}.metaRow input{background:#0b1017;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:8px}
 .drop{border:2px dashed var(--line);border-radius:var(--r);padding:26px;text-align:center;color:var(--mut);cursor:pointer}
@@ -110,11 +140,15 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
  <div class="brand">
   <img src="icon.svg" alt="" aria-hidden="true" class="logo">
   <div class="grow"><h1>CÓDICE 360X</h1><small>Flashcards · TEMI · R3 Clínica Médica</small></div>
+  <div id="xpBadge" class="xpBadge"></div>
+  <button class="btn sm" id="layBtn" title="Alternar visualização celular/desktop">🔄 Auto</button>
   <span id="sync" class="sync" title="Status da sincronização">💾 Local</span>
  </div>
  <nav id="nav">
   <a href="#inicio" data-v="inicio">🏠 Início</a>
   <a href="#estudar" data-v="estudar">🎴 Estudar</a>
+  <a href="#questoes" data-v="questoes">❓ Questões</a>
+  <a href="#micro" data-v="micro">💊 Micro</a>
   <a href="#buscar" data-v="buscar">🔎 Buscar</a>
   <a href="#importar" data-v="importar">📥 Importar</a>
   <a href="#prompt" data-v="prompt">🤖 Prompt IA</a>
@@ -133,7 +167,8 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <div class="row" style="margin-bottom:8px"><h2 class="grow" style="margin:0">📚 Baralhos</h2>
    <span class="cnt n" title="Novos">Novos</span><span class="cnt l" title="Aprendendo">Apr.</span><span class="cnt rv" title="Revisões">Rev.</span></div>
   <ul class="tree" id="tree"></ul>
-  <div class="row" style="margin-top:12px"><button class="btn gold grow" id="studyAll">▶️ Estudar tudo que está pendente</button><button class="btn" id="simBtn" title="50 cards sorteados de todas as coleções ativas, sem alterar agenda nem meta">🧪 Simulado (50)</button></div>
+  <div class="row" style="margin-top:12px"><button class="btn gold grow" id="studyAll">▶️ Estudar tudo que está pendente</button></div>
+  <div class="metaRow simRow"><span>🧪 <b>Simulado</b></span><select id="simDeck" class="grow"></select><select id="simN"><option>25</option><option selected>50</option><option>100</option></select><button class="btn" id="simBtn" title="Cards sorteados do baralho escolhido; não altera agenda nem meta">▶️ Iniciar simulado</button></div>
  </div>
  <div class="foot" id="homeFoot"></div>
 </section>
@@ -157,6 +192,12 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
  <div id="hlBar" role="toolbar" aria-label="Destacar texto"><div id="hlTxt"></div><button id="hlY">🟨 Amarelo</button><button id="hlG">🟩 Verde</button><button id="hlDel">🧽 Remover</button><button id="hlX" aria-label="Fechar">✖️</button></div>
  <div class="foot">🖍️ <b>Destacar:</b> selecione um trecho do card → 🟨/🟩 · toque no destaque para trocar ou remover · Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer · <span class="kbd">←</span> voltar · <span class="kbd">→</span> continuar</div>
 </section>
+
+<!-- QUESTÕES -->
+<section class="view" id="v-questoes"><div id="qzHost"></div></section>
+
+<!-- MICROPARTÍCULAS -->
+<section class="view" id="v-micro"><div id="mcHost"></div></section>
 
 <!-- BUSCAR -->
 <section class="view" id="v-buscar">
@@ -265,5 +306,6 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 <script src="lib/jszip.min.js"></script>
 <script src="lib/fzstd.js"></script>
 <script src="app.js"></script>
+<div id="xpPop"></div>
 </body>
 </html>

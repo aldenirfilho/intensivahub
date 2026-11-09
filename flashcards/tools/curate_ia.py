@@ -5,7 +5,7 @@ import json, glob, re, os, sys
 OUT = sys.argv[1] if len(sys.argv) > 1 else "/home/claude/app2"
 DUMP = "--dump" in sys.argv
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from cur_fix_ia import FIX, DROP, DONE_IA
+from cur_fix_ia import FIX, DROP, DONE_IA, NAMED_B
 st = lambda h: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h or "")).strip()
 ROWS = [("ENTENDER", "🧠 Mecanismo"), ("IDENTIFICAR", "🔎 Achado-chave"), ("VERIFICAR", "🧪 Verificar"), ("DECIDIR", "✅ Conduta"),
         ("EVITAR", "⚠️ Evitar"), ("MONITORAR", "📊 Monitorar"), ("PREVER", "🚨 Complicação"), ("DIFERENCIAR", "🔀 Diferencial")]
@@ -82,9 +82,10 @@ if __name__ == "__main__":
         json.dump({"formato": "codice360x-v1", "baralho": f"Outras IAs ✅ curadas::TEMI 360X 3000::{tema}", "cards": cards, "midia": {m: f"data/media/{m}" for m in media}}, open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
         files.append({"colecao": "iac", "arquivo": f"data/decks/{fn}", "tema": "Outras IAs ✅ › TEMI 360X 3000 › " + tema, "cards": len(cards), "subtemas": sorted({c["subtema"] for c in cards})})
     for path in sorted(glob.glob(f"{OUT}/data/decks/ia-b-temi-2028-*.json")):
-        m = re.search(r"ia-b-temi-2028-(\d\d)-", path)
-        if not m or f"B{m.group(1)}" not in DONE_IA: continue
-        d, cards = curate_flat_b(path, f"B{m.group(1)}"); tema = d["baralho"].split("::")[-1]
+        m = re.search(r"ia-b-temi-2028-(\d\d)-", path); slug = os.path.basename(path)[len("ia-b-temi-2028-"):-5]
+        kp = f"B{m.group(1)}" if m else NAMED_B.get(slug)
+        if not kp or kp not in DONE_IA: continue
+        d, cards = curate_flat_b(path, kp); tema = d["baralho"].split("::")[-1]
         removed.append(f"data/decks/{os.path.basename(path)}"); fn = os.path.basename(path).replace("ia-b-", "iac-b-")
         media = sorted({x for c in cards for x in re.findall(r'data-m="([^"]+)"', c["verso"])})
         json.dump({"formato": "codice360x-v1", "baralho": f"Outras IAs ✅ curadas::TEMI 2028::{tema}", "cards": cards, "midia": {x: f"data/media/{x}" for x in media}}, open(f"{OUT}/data/decks/{fn}", "w"), ensure_ascii=False)
