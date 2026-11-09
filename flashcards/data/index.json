@@ -12,13 +12,13 @@
    "id": "temi",
    "nome": "TEMI 2028",
    "icone": "🏥",
-   "cards": 2025
+   "cards": 2225
   },
   {
    "id": "cm",
    "nome": "R3 Clínica Médica",
    "icone": "🩺",
-   "cards": 1734
+   "cards": 1934
   },
   {
    "id": "iac",
@@ -3046,7 +3046,7 @@
    "colecao": "temi",
    "arquivo": "data/decks/pega-temi.json",
    "tema": "🎯 Pegadinhas 360X · 🏥 TEMI",
-   "cards": 400,
+   "cards": 600,
    "subtemas": [
     "Cardiologia intensiva",
     "Desmame e VNI",
@@ -3079,7 +3079,7 @@
    "colecao": "cm",
    "arquivo": "data/decks/pega-r3.json",
    "tema": "🎯 Pegadinhas 360X · 🩺 R3",
-   "cards": 400,
+   "cards": 600,
    "subtemas": [
     "Cardiologia",
     "Clínica integrada",
@@ -3112,11 +3112,11 @@
    "gz": "data/packs/pack-1-temi.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-1-temi.json",
-   "sha": "680b56146c393395",
+   "sha": "f73a962e9b9effa4",
    "decks": 20,
-   "cards": 2128,
-   "bytes": 896051,
-   "gzbytes": 305576
+   "cards": 2328,
+   "bytes": 983478,
+   "gzbytes": 332360
   },
   {
    "nome": "pack-2-r3",
@@ -3127,11 +3127,11 @@
    "gz": "data/packs/pack-2-r3.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-2-r3.json",
-   "sha": "8b6db4a84b2905a1",
+   "sha": "d3c38d34ee6abfe4",
    "decks": 31,
-   "cards": 1734,
-   "bytes": 718221,
-   "gzbytes": 273808
+   "cards": 1934,
+   "bytes": 800162,
+   "gzbytes": 298696
   },
   {
    "nome": "pack-3-ia360c",

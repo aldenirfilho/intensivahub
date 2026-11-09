@@ -519,6 +519,342 @@
    ]
   },
   {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 72 anos, IC com FE 55%, obesa, dispneia. Medicação com benefício em desfecho?",
+   "verso": "<b class=c>✅ Resposta:</b> iSGLT2 (empagliflozina/dapagliflozina)<br><br>💬 EMPEROR-Preserved, DELIVER.",
+   "pegadinha": "Semaglutida para sintomas em obesos (STEP-HFpEF).",
+   "fonte": "Banco de questões CÓDICE 360X · QR402",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR402"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 65 anos, FA, ClCr 25, sem prótese valvar, CHA₂DS₂-VASc 4. Anticoagulante?",
+   "verso": "<b class=c>✅ Resposta:</b> Apixabana com ajuste se critérios (ou varfarina)<br><br>💬 Apixabana tem menor excreção renal.",
+   "pegadinha": "Ajuste: 2 de 3 (idade ≥ 80, peso ≤ 60, Cr ≥ 1,5).",
+   "fonte": "Banco de questões CÓDICE 360X · QR403",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR403"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 30 anos, palpitações, ECG com PR curto e onda delta. FA pré-excitada com QRS largo irregular. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Procainamida ou cardioversão elétrica; evitar bloqueadores do nó AV<br><br>💬 Bloquear nó AV favorece via acessória.",
+   "pegadinha": "Ablação definitiva.",
+   "fonte": "Banco de questões CÓDICE 360X · QR404",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR404"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 50 anos, LDL 160, diabético, sem doença aterosclerótica. Meta de LDL (SBC)?",
+   "verso": "<b class=c>✅ Resposta:</b> &lt; 70 mg/dL (alto risco) ou &lt; 50 se muito alto risco<br><br>💬 Estratificação por risco.",
+   "pegadinha": "Lesão de órgão-alvo eleva risco.",
+   "fonte": "Banco de questões CÓDICE 360X · QR405",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR405"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 68 anos, estenose aórtica grave sintomática, alto risco cirúrgico. Opção?",
+   "verso": "<b class=c>✅ Resposta:</b> TAVI<br><br>💬 Sintomas: sobrevida média curta sem troca.",
+   "pegadinha": "Síncope, angina, IC.",
+   "fonte": "Banco de questões CÓDICE 360X · QR406",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR406"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 35 anos, dor torácica pleurítica que melhora inclinando para frente, supra de ST difuso, infra de PR. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Pericardite: AINE (ou AAS) + colchicina 3 meses<br><br>💬 Colchicina reduz recorrência.",
+   "pegadinha": "Troponina alta: miopericardite.",
+   "fonte": "Banco de questões CÓDICE 360X · QR408",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR408"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 60 anos, HAS estágio 2, sem comorbidades. Tratamento inicial?",
+   "verso": "<b class=c>✅ Resposta:</b> Combinação de 2 classes em baixa dose (IECA/BRA + BCC ou tiazídico)<br><br>💬 Combinação precoce melhora controle.",
+   "pegadinha": "Combinação em comprimido único.",
+   "fonte": "Banco de questões CÓDICE 360X · QR410",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR410"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 55 anos, angina estável, sem alto risco anatômico, otimizado clinicamente. ISCHEMIA trial mostrou:",
+   "verso": "<b class=c>✅ Resposta:</b> Estratégia invasiva inicial não reduziu morte/IAM vs clínica otimizada<br><br>💬 Melhora de angina com invasiva.",
+   "pegadinha": "Tronco excluído.",
+   "fonte": "Banco de questões CÓDICE 360X · QR411",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR411"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 45 anos, dor torácica após estresse emocional, supra de ST, coronárias normais, balonamento apical. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Takotsubo<br><br>💬 Recuperação em semanas.",
+   "pegadinha": "Evitar inotrópico se obstrução de VSVE.",
+   "fonte": "Banco de questões CÓDICE 360X · QR412",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR412"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 38 anos, puérpera, IAM, coronariografia com dissecção coronária espontânea, fluxo preservado, estável. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Tratamento conservador (cura espontânea), betabloqueador<br><br>💬 SCAD: típica em mulheres jovens.",
+   "pegadinha": "Rastrear displasia fibromuscular.",
+   "fonte": "Banco de questões CÓDICE 360X · QR413",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR413"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 60 anos, bradicardia sinusal 40, assintomático, atleta. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Observação — sem indicação na ausência de sintomas<br><br>💬 Indicação depende de sintomas.",
+   "pegadinha": "Mobitz II e BAVT indicam mesmo assintomáticos.",
+   "fonte": "Banco de questões CÓDICE 360X · QR415",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR415"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 28 anos, gestante, estenose mitral moderada, dispneia. Conduta clínica inicial?",
+   "verso": "<b class=c>✅ Resposta:</b> Betabloqueador (prolonga diástole) + diurético; valvoplastia se refratária<br><br>💬 Taquicardia piora gradiente.",
+   "pegadinha": "Gestação aumenta volume e FC.",
+   "fonte": "Banco de questões CÓDICE 360X · QR416",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR416"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 70 anos, ECG com BRE novo e dor típica. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Critérios de Sgarbossa; se positivos ou instável, tratar como IAM com supra<br><br>💬 BRE novo isolado não é mais equivalente automático.",
+   "pegadinha": "Smith-Sgarbossa: razão ST/S.",
+   "fonte": "Banco de questões CÓDICE 360X · QR417",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR417"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 55 anos, dislipidemia, estatina em dose alta, LDL 90 com doença coronária. Próximo passo?",
+   "verso": "<b class=c>✅ Resposta:</b> Ezetimiba; depois inibidor de PCSK9 se não atingir meta<br><br>💬 Meta &lt; 50–55.",
+   "pegadinha": "Inclisirana a cada 6 meses.",
+   "fonte": "Banco de questões CÓDICE 360X · QR418",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR418"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 45 anos, PA 220/130, assintomático, sem lesão de órgão-alvo aguda. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Urgência hipertensiva (elevação grave sem lesão aguda): anti-hipertensivo oral e reavaliação<br><br>💬 Redução gradual.",
+   "pegadinha": "Investigar adesão.",
+   "fonte": "Banco de questões CÓDICE 360X · QR419",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR419"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 65 anos, IC FE reduzida, ferritina 80, saturação de transferrina 15%, sem anemia. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Ferro IV (carboximaltose/derisomaltose)<br><br>💬 Ferropenia em IC: ferritina &lt; 100 ou 100–299 com TSAT &lt; 20%.",
+   "pegadinha": "Melhora capacidade funcional.",
+   "fonte": "Banco de questões CÓDICE 360X · QR420",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR420"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 30 anos, morte súbita abortada, ECG com supra de ST em V1–V2 em sela convexa após febre. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome de Brugada — CDI<br><br>💬 Padrão tipo 1 desmascarado por febre.",
+   "pegadinha": "Antitérmico na febre.",
+   "fonte": "Banco de questões CÓDICE 360X · QR421",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR421"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 58 anos, IAM com supra há 2 h, centro sem hemodinâmica a 3 h de distância. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Trombólise imediata (porta-agulha &lt; 30 min) e transferir para estratégia fármaco-invasiva<br><br>💬 Atraso > 120 min favorece trombólise.",
+   "pegadinha": "Cateterismo em 2–24 h.",
+   "fonte": "Banco de questões CÓDICE 360X · QR422",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR422"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 62 anos, IAM sem supra, alto risco. Momento do cateterismo?",
+   "verso": "<b class=c>✅ Resposta:</b> Precoce (&lt; 24 h); imediato (&lt; 2 h) se instável<br><br>💬 GRACE > 140.",
+   "pegadinha": "Instabilidade elétrica: imediato.",
+   "fonte": "Banco de questões CÓDICE 360X · QR423",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR423"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 40 anos, febre reumática prévia, sem cardite. Duração da profilaxia secundária?",
+   "verso": "<b class=c>✅ Resposta:</b> Até 21 anos ou 5 anos após último surto (o que for maior)<br><br>💬 Sem cardite: menor duração.",
+   "pegadinha": "Penicilina benzatina a cada 21 dias.",
+   "fonte": "Banco de questões CÓDICE 360X · QR424",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR424"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 75 anos, FA, quedas frequentes, sem sangramento prévio. Anticoagular?",
+   "verso": "<b class=c>✅ Resposta:</b> Sim — benefício supera risco; quedas isoladas não contraindicam<br><br>💬 Seria necessário cair ~300 vezes/ano para anular benefício.",
+   "pegadinha": "Prevenção de quedas.",
+   "fonte": "Banco de questões CÓDICE 360X · QR425",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR425"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 70 anos, Parkinson, tonturas ao levantar, queda de PAS de 30 mmHg sem aumento de FC. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Hipotensão ortostática neurogênica: medidas não farmacológicas, fludrocortisona, midodrina ou droxidopa<br><br>💬 Falha autonômica: FC não sobe.",
+   "pegadinha": "Hipertensão supina com midodrina.",
+   "fonte": "Banco de questões CÓDICE 360X · QR454",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR454"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 78 anos, IC com FE preservada, síndrome do túnel do carpo bilateral prévia, baixa voltagem no ECG com hipertrofia no eco, cintilografia com pirofosfato grau 3. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Amiloidose cardíaca por transtirretina — tafamidis (excluir gamopatia antes)<br><br>💬 Discrepância voltagem × massa.",
+   "pegadinha": "Pesquisar cadeias leves para excluir AL.",
+   "fonte": "Banco de questões CÓDICE 360X · QR456",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR456"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 30 anos, CIV não corrigida, cianose, baqueteamento, policitemia, hipertensão pulmonar com shunt invertido. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome de Eisenmenger — não fechar defeito; vasodilatador pulmonar, evitar gestação/desidratação<br><br>💬 Fechamento é contraindicado.",
+   "pegadinha": "Bosentana melhora capacidade (BREATHE-5).",
+   "fonte": "Banco de questões CÓDICE 360X · QR478",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR478"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 45 anos, dispneia postural, síncope, sopro diastólico variável com 'tumor plop', massa em átrio esquerdo aderida ao septo. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Mixoma atrial — ressecção cirúrgica<br><br>💬 Tumor cardíaco primário mais comum.",
+   "pegadinha": "Embolização sistêmica.",
+   "fonte": "Banco de questões CÓDICE 360X · QR527",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR527"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 60 anos, dissecção aórtica tipo B não complicada, dor controlada. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Tratamento clínico: betabloqueador IV (FC &lt; 60, PAS 100–120), analgesia; TEVAR se complicada<br><br>💬 Complicada: má perfusão, ruptura, dor refratária.",
+   "pegadinha": "Betabloqueador antes de vasodilatador.",
+   "fonte": "Banco de questões CÓDICE 360X · QR539",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR539"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Mulher, 20 anos, síncope ao ouvir despertador, QTc 520 ms, irmão com morte súbita. Tratamento inicial?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome do QT longo congênito (LQT2) — betabloqueador (nadolol/propranolol), evitar drogas que prolongam QT; CDI se alto risco<br><br>💬 Gatilho auditivo: LQT2.",
+   "pegadinha": "LQT1: natação; LQT3: sono.",
+   "fonte": "Banco de questões CÓDICE 360X · QR568",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR568"
+   ]
+  },
+  {
+   "subtema": "Cardiologia",
+   "frente": "🎯 Homem, 70 anos, tabagista, aneurisma de aorta abdominal de 5,8 cm assintomático. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Reparo eletivo (≥ 5,5 cm em homens) — endovascular ou aberto<br><br>💬 Risco de ruptura aumenta exponencialmente.",
+   "pegadinha": "Mulheres: ≥ 5,0 cm.",
+   "fonte": "Banco de questões CÓDICE 360X · QR578",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR578"
+   ]
+  },
+  {
    "subtema": "Clínica integrada",
    "frente": "🎯 Homem, 68 anos, perda de peso de 10 kg em 6 meses, anemia ferropriva, sangue oculto positivo. Próximo passo?",
    "verso": "<b class=c>✅ Resposta:</b> Colonoscopia e endoscopia digestiva alta<br><br>💬 Anemia ferropriva em homem idoso = sangramento GI até prova contrária, especialmente câncer colorretal.",
@@ -987,6 +1323,258 @@
    ]
   },
   {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 40 anos, 2 anos após bypass gástrico, confusão, ataxia, neuropatia, anemia. Deficiências a pesquisar?",
+   "verso": "<b class=c>✅ Resposta:</b> Tiamina, B12, cobre, ferro, folato e vitamina D<br><br>💬 Mielopatia por cobre mimetiza B12.",
+   "pegadinha": "Suplementação vitalícia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR541",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR541"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 60 anos, dispneia súbita, escore de Wells 6, estável. Exame?",
+   "verso": "<b class=c>✅ Resposta:</b> AngioTC de tórax<br><br>💬 Alta probabilidade: imagem direta.",
+   "pegadinha": "PERC em baixíssima probabilidade.",
+   "fonte": "Banco de questões CÓDICE 360X · QR576",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR576"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 70 anos, TEP de baixo risco (sPESI 0), estável. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Tratamento ambulatorial com DOAC<br><br>💬 Seguro em selecionados.",
+   "pegadinha": "Hestia como alternativa.",
+   "fonte": "Banco de questões CÓDICE 360X · QR577",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR577"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 30 anos, síncope ao levantar, pródromo, ECG normal. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Síncope vasovagal/ortostática: orientação, hidratação, sal; sem investigação extensa<br><br>💬 Baixo risco.",
+   "pegadinha": "Sinais de alarme: esforço, palpitação, cardiopatia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR579",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR579"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 55 anos, anafilaxia após dipirona, hipotensão, sibilância. Primeira medida?",
+   "verso": "<b class=c>✅ Resposta:</b> Adrenalina 0,5 mg IM (vasto lateral)<br><br>💬 Adrenalina é a única que reduz mortalidade.",
+   "pegadinha": "Repetir a cada 5–15 min.",
+   "fonte": "Banco de questões CÓDICE 360X · QR580",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR580"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 40 anos, angioedema sem urticária em uso de enalapril. Mecanismo e conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Bradicinina — suspender IECA, proteger via aérea; icatibanto/plasma<br><br>💬 Resposta pobre a adrenalina/anti-histamínico.",
+   "pegadinha": "Pode ocorrer anos após início.",
+   "fonte": "Banco de questões CÓDICE 360X · QR581",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR581"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 70 anos, internado, Na 150, desidratado, consciente. Correção?",
+   "verso": "<b class=c>✅ Resposta:</b> Água livre (VO/SNE ou SG 5%), reduzir ≤ 10–12 mEq/L/24 h<br><br>💬 Déficit de água livre.",
+   "pegadinha": "Crônica: correção lenta.",
+   "fonte": "Banco de questões CÓDICE 360X · QR582",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR582"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 65 anos, hiponatremia 118 crônica assintomática. Velocidade de correção?",
+   "verso": "<b class=c>✅ Resposta:</b> ≤ 8–10 mEq/L em 24 h (≤ 8 se alto risco para desmielinização)<br><br>💬 Síndrome de desmielinização osmótica.",
+   "pegadinha": "Hipocalemia, alcoolismo, desnutrição: alto risco.",
+   "fonte": "Banco de questões CÓDICE 360X · QR583",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR583"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 50 anos, LRA, FeNa 0,5%, ureia/creatinina alta. Etiologia?",
+   "verso": "<b class=c>✅ Resposta:</b> Pré-renal<br><br>💬 FeNa &lt; 1%.",
+   "pegadinha": "Diurético: usar FeUreia &lt; 35%.",
+   "fonte": "Banco de questões CÓDICE 360X · QR584",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR584"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 25 anos, lúpus, febre, plaquetopenia, anemia hemolítica, LRA, esquizócitos. Diferencial crítico?",
+   "verso": "<b class=c>✅ Resposta:</b> Microangiopatia trombótica (PTT/SAF catastrófica) — ADAMTS13, anticorpos antifosfolípide<br><br>💬 Esquizócitos mudam o raciocínio.",
+   "pegadinha": "SAF catastrófica: anticoagulação + corticoide + plasmaférese.",
+   "fonte": "Banco de questões CÓDICE 360X · QR587",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR587"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 65 anos, dispneia, edema, B3, BNP 1.200, congestão. Diurético inicial IV?",
+   "verso": "<b class=c>✅ Resposta:</b> Furosemida IV ≥ 1–2,5× a dose oral diária (DOSE trial), avaliar natriurese em 2 h<br><br>💬 Natriurese urinária &lt; 50–70 mEq/L: intensificar.",
+   "pegadinha": "Associar acetazolamida (ADVOR).",
+   "fonte": "Banco de questões CÓDICE 360X · QR588",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR588"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 55 anos, artrite monoarticular de joelho, febre, líquido com 80.000 leucócitos. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Artrite séptica: drenagem/artrocentese seriada + antibiótico empírico após cultura<br><br>💬 Cristais não excluem infecção.",
+   "pegadinha": "S. aureus é o mais comum.",
+   "fonte": "Banco de questões CÓDICE 360X · QR589",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR589"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 45 anos, hipotireoidismo tratado, TSH alto apesar de dose crescente. Investigar?",
+   "verso": "<b class=c>✅ Resposta:</b> Adesão, ingestão com alimentos/café/ferro/cálcio/IBP, celíaca, gastrite atrófica<br><br>💬 Má absorção.",
+   "pegadinha": "Tomar em jejum 30–60 min.",
+   "fonte": "Banco de questões CÓDICE 360X · QR591",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR591"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 30 anos, hemoptise, LRA, ANCA negativo, anti-MBG negativo, FAN positivo. Hipótese?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome pulmão-rim por lúpus (capilarite)<br><br>💬 Diferenciais: ANCA, anti-MBG, lúpus.",
+   "pegadinha": "Biópsia renal define.",
+   "fonte": "Banco de questões CÓDICE 360X · QR592",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR592"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 80 anos, constipação, hipercalcemia leve, anemia, proteína total alta. Exame inicial?",
+   "verso": "<b class=c>✅ Resposta:</b> Eletroforese de proteínas + cadeias leves livres<br><br>💬 Gap proteico sugere gamopatia.",
+   "pegadinha": "MGUS: progressão 1%/ano.",
+   "fonte": "Banco de questões CÓDICE 360X · QR593",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR593"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 40 anos, febre, artralgia, rash evanescente salmão, ferritina 8.000. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Doença de Still do adulto<br><br>💬 Ferritina glicosilada baixa.",
+   "pegadinha": "Risco de síndrome de ativação macrofágica.",
+   "fonte": "Banco de questões CÓDICE 360X · QR595",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR595"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 60 anos, DM2, pé com úlcera plantar, osso palpável com probe. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Osteomielite (probe-to-bone positivo) — RM, biópsia óssea, antibiótico prolongado<br><br>💬 Alta especificidade.",
+   "pegadinha": "Offloading é essencial.",
+   "fonte": "Banco de questões CÓDICE 360X · QR596",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR596"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 35 anos, fadiga, TSH normal, ferritina 15, sem anemia. Repor ferro?",
+   "verso": "<b class=c>✅ Resposta:</b> Sim — ferropenia sem anemia pode causar fadiga; investigar causa<br><br>💬 Benefício em sintomas.",
+   "pegadinha": "Ferritina &lt; 30 indica deficiência.",
+   "fonte": "Banco de questões CÓDICE 360X · QR597",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR597"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 70 anos, uso de amiodarona há 2 anos, dispneia, infiltrado intersticial. Hipótese?",
+   "verso": "<b class=c>✅ Resposta:</b> Toxicidade pulmonar por amiodarona — suspender, corticoide<br><br>💬 Dose cumulativa.",
+   "pegadinha": "Tireoide e fígado também.",
+   "fonte": "Banco de questões CÓDICE 360X · QR598",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR598"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Mulher, 50 anos, edema de MMII bilateral, usando anlodipino 10 mg. Causa?",
+   "verso": "<b class=c>✅ Resposta:</b> Efeito adverso do bloqueador de canal de cálcio (vasodilatação arteriolar)<br><br>💬 Diurético não resolve bem.",
+   "pegadinha": "Associar IECA reduz.",
+   "fonte": "Banco de questões CÓDICE 360X · QR599",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR599"
+   ]
+  },
+  {
+   "subtema": "Clínica integrada",
+   "frente": "🎯 Homem, 65 anos, tosse seca, hiponatremia, diarreia, confusão, pneumonia. Agente?",
+   "verso": "<b class=c>✅ Resposta:</b> Legionella — antígeno urinário; macrolídeo/quinolona<br><br>💬 Sintomas extrapulmonares.",
+   "pegadinha": "Água de ar-condicionado.",
+   "fonte": "Banco de questões CÓDICE 360X · QR600",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR600"
+   ]
+  },
+  {
    "subtema": "Dermatologia",
    "frente": "🎯 Mulher, 30 anos, febre, rash com bolhas, descolamento de 15% da pele, mucosas, 2 semanas após lamotrigina. Conduta?",
    "verso": "<b class=c>✅ Resposta:</b> SSJ/NET (sobreposição): suspender lamotrigina, unidade de queimados, suporte<br><br>💬 Suspensão imediata reduz mortalidade.",
@@ -1020,6 +1608,114 @@
     "PEGA360X",
     "R3",
     "QR383"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Homem, 70 anos, pápula perolada com telangiectasias em asa nasal, crescimento lento. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Carcinoma basocelular — excisão/cirurgia de Mohs<br><br>💬 Raramente metastatiza.",
+   "pegadinha": "Mohs em área de risco facial.",
+   "fonte": "Banco de questões CÓDICE 360X · QR452",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR452"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Mulher, 22 anos, placa-mãe ovalada descamativa em tronco seguida de lesões em 'árvore de Natal'. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Pitiríase rósea — autolimitada; sintomáticos; VDRL se dúvida<br><br>💬 Medalhão inicial.",
+   "pegadinha": "Sífilis secundária é o diferencial.",
+   "fonte": "Banco de questões CÓDICE 360X · QR531",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR531"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Homem, 80 anos, institucionalizado, lesões crostosas espessas em mãos e tronco, pouco prurido, cuidadores com prurido. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Escabiose crostosa (norueguesa) — ivermectina oral repetida + permetrina tópica, isolamento<br><br>💬 Milhões de ácaros: altamente contagiosa.",
+   "pegadinha": "Tratar contactantes.",
+   "fonte": "Banco de questões CÓDICE 360X · QR532",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR532"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Mulher, 20 anos, acne nodulocística grave refratária. Tratamento e cuidado?",
+   "verso": "<b class=c>✅ Resposta:</b> Isotretinoína com contracepção eficaz (teratogenicidade) e monitorar lipídios/TGO<br><br>💬 Programa de prevenção de gravidez.",
+   "pegadinha": "Não associar a tetraciclina (hipertensão intracraniana).",
+   "fonte": "Banco de questões CÓDICE 360X · QR534",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR534"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Homem, 60 anos, lesão pigmentada assimétrica, bordas irregulares, várias cores, 8 mm, crescendo. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Biópsia excisional (suspeita de melanoma)<br><br>💬 ABCDE.",
+   "pegadinha": "Breslow define prognóstico.",
+   "fonte": "Banco de questões CÓDICE 360X · QR563",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR563"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Mulher, 30 anos, febre, lesões em alvo atípicas, descolamento epidérmico 40%, após lamotrigina. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Necrólise epidérmica tóxica — suspender droga, unidade de queimados<br><br>💬 > 30% SCQ.",
+   "pegadinha": "SCORTEN prognóstico.",
+   "fonte": "Banco de questões CÓDICE 360X · QR564",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR564"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Homem, 40 anos, placas eritematodescamativas em cotovelos e joelhos, unhas com pitting. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Psoríase<br><br>💬 Artrite psoriásica em 30%.",
+   "pegadinha": "Corticoide sistêmico: rebote.",
+   "fonte": "Banco de questões CÓDICE 360X · QR565",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR565"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Mulher, 50 anos, febre, eosinofilia, hepatite, rash após 3 semanas de alopurinol. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> DRESS — suspender droga, corticoide sistêmico<br><br>💬 Latência 2–8 semanas.",
+   "pegadinha": "RegiSCAR.",
+   "fonte": "Banco de questões CÓDICE 360X · QR566",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR566"
+   ]
+  },
+  {
+   "subtema": "Dermatologia",
+   "frente": "🎯 Mulher, 28 anos, nódulos dolorosos recorrentes e fístulas em axilas e virilhas. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Hidradenite supurativa — antibiótico tópico/oral, adalimumabe em grave, cessação do tabagismo<br><br>💬 Doença do folículo, não da glândula apócrina.",
+   "pegadinha": "Estadiamento de Hurley.",
+   "fonte": "Banco de questões CÓDICE 360X · QR594",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR594"
    ]
   },
   {
@@ -1416,6 +2112,126 @@
     "PEGA360X",
     "R3",
     "QR364"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 30 anos, carcinoma medular de tireoide, feocromocitoma e hiperparatireoidismo. Síndrome e gene?",
+   "verso": "<b class=c>✅ Resposta:</b> NEM 2A (RET)<br><br>💬 Rastrear familiares para RET.",
+   "pegadinha": "Operar feocromocitoma antes da tireoide.",
+   "fonte": "Banco de questões CÓDICE 360X · QR429",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR429"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 70 anos, TSH 7, T4L normal, assintomático, sem anti-TPO. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Observar e repetir (TSH &lt; 10 em idoso geralmente sem tratamento)<br><br>💬 TSH sobe com a idade.",
+   "pegadinha": "TSH > 10: considerar tratar.",
+   "fonte": "Banco de questões CÓDICE 360X · QR453",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR453"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 40 anos, obesidade central, estrias violáceas, fraqueza proximal, HAS, hipocalemia. Rastreio?",
+   "verso": "<b class=c>✅ Resposta:</b> Cortisol salivar noturno, cortisol urinário 24 h ou supressão com dexametasona 1 mg<br><br>💬 Confirmar hipercortisolismo antes de localizar.",
+   "pegadinha": "Excluir uso de corticoide exógeno.",
+   "fonte": "Banco de questões CÓDICE 360X · QR455",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR455"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 60 anos, incidentaloma adrenal 3 cm, &lt; 10 UH. Investigação?",
+   "verso": "<b class=c>✅ Resposta:</b> Supressão com dexametasona 1 mg, metanefrinas; aldosterona/renina se HAS<br><br>💬 Avaliar funcionalidade.",
+   "pegadinha": "&lt; 10 UH: adenoma rico em lipídio.",
+   "fonte": "Banco de questões CÓDICE 360X · QR457",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR457"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 45 anos, hipercalcemia leve, PTH alto, assintomático. Indicação cirúrgica?",
+   "verso": "<b class=c>✅ Resposta:</b> Sim — idade &lt; 50 anos é critério cirúrgico no hiperparatireoidismo primário<br><br>💬 Critérios: Ca > 1 acima do normal, osteoporose, ClCr &lt; 60, litíase, &lt; 50 anos.",
+   "pegadinha": "Sestamibi localiza.",
+   "fonte": "Banco de questões CÓDICE 360X · QR459",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR459"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Mulher, 28 anos, DM1, glicemia em jejum alta, hipoglicemia às 3 h. Fenômeno?",
+   "verso": "<b class=c>✅ Resposta:</b> Efeito Somogyi — reduzir insulina noturna<br><br>💬 Hipoglicemia noturna com rebote.",
+   "pegadinha": "CGM diferencia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR460",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR460"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 50 anos, fadiga, hiperpigmentação, hipotensão, Na baixo, K alto. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Doença de Addison (primária)<br><br>💬 Hiperpigmentação por ACTH alto.",
+   "pegadinha": "Autoimune é a causa mais comum.",
+   "fonte": "Banco de questões CÓDICE 360X · QR461",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR461"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Mulher, 30 anos, hirsutismo, oligomenorreia, ovários policísticos. Critérios de Rotterdam exigem:",
+   "verso": "<b class=c>✅ Resposta:</b> 2 de 3: oligo/anovulação, hiperandrogenismo, ovários policísticos (excluídas outras causas)<br><br>💬 Diagnóstico de exclusão.",
+   "pegadinha": "Metformina para resistência insulínica.",
+   "fonte": "Banco de questões CÓDICE 360X · QR462",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR462"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Mulher, 22 anos, diabetes leve, sem obesidade, anti-GAD negativo, mãe e avó com diabetes jovem. Hipótese e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> MODY (ex.: HNF1A) — sulfonilureia em dose baixa<br><br>💬 Herança autossômica dominante.",
+   "pegadinha": "GCK-MODY geralmente não precisa tratar.",
+   "fonte": "Banco de questões CÓDICE 360X · QR511",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR511"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Mulher, 20 anos, hipocalcemia, fósforo alto, PTH alto, baixa estatura, quarto metacarpo curto. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Pseudo-hipoparatireoidismo (osteodistrofia de Albright)<br><br>💬 Resistência ao PTH.",
+   "pegadinha": "Mutação GNAS.",
+   "fonte": "Banco de questões CÓDICE 360X · QR567",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR567"
    ]
   },
   {
@@ -1923,6 +2739,174 @@
    ]
   },
   {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Homem, 45 anos, dispepsia, H. pylori positivo. Tratamento de primeira linha atual?",
+   "verso": "<b class=c>✅ Resposta:</b> Quadruplo (IBP + bismuto + tetraciclina + metronidazol) ou IBP + amoxicilina + claritromicina se baixa resistência, 14 dias<br><br>💬 Resistência à claritromicina crescente.",
+   "pegadinha": "Teste respiratório 4 semanas após.",
+   "fonte": "Banco de questões CÓDICE 360X · QR463",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR463"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Mulher, 50 anos, fosfatase alcalina alta, prurido, AMA positivo. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Colangite biliar primária — ácido ursodesoxicólico<br><br>💬 AMA anti-M2.",
+   "pegadinha": "Refratária: elafibranor/seladelpar.",
+   "fonte": "Banco de questões CÓDICE 360X · QR464",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR464"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Homem, 35 anos, RCU, colangiografia com estenoses multifocais. Diagnóstico e risco?",
+   "verso": "<b class=c>✅ Resposta:</b> Colangite esclerosante primária — risco de colangiocarcinoma e câncer colorretal<br><br>💬 Colonoscopia anual.",
+   "pegadinha": "Sem tratamento clínico eficaz.",
+   "fonte": "Banco de questões CÓDICE 360X · QR465",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR465"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Mulher, 30 anos, diarreia crônica, anemia ferropriva, anti-transglutaminase IgA alto. Confirmar com?",
+   "verso": "<b class=c>✅ Resposta:</b> Endoscopia com biópsia duodenal (atrofia vilositária) em dieta com glúten<br><br>💬 Doença celíaca.",
+   "pegadinha": "Dosar IgA total.",
+   "fonte": "Banco de questões CÓDICE 360X · QR466",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR466"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Homem, 28 anos, Crohn ileal moderado a grave. Tratamento indutor?",
+   "verso": "<b class=c>✅ Resposta:</b> Anti-TNF (infliximabe/adalimumabe) ± imunomodulador, ou outros biológicos<br><br>💬 Top-down em fatores de risco.",
+   "pegadinha": "Rastrear TB latente antes.",
+   "fonte": "Banco de questões CÓDICE 360X · QR467",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR467"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Mulher, 55 anos, esteatose, ALT alta, FIB-4 2,8. Próximo passo?",
+   "verso": "<b class=c>✅ Resposta:</b> Elastografia (FibroScan) para estratificar fibrose<br><br>💬 FIB-4 > 1,3: avaliar.",
+   "pegadinha": "Resmetirom aprovado para MASH F2–F3.",
+   "fonte": "Banco de questões CÓDICE 360X · QR468",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR468"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Homem, 60 anos, cirrose Child A, sem varizes de alto risco, rastreio de CHC?",
+   "verso": "<b class=c>✅ Resposta:</b> US de abdome ± AFP a cada 6 meses<br><br>💬 Cirrose de qualquer causa.",
+   "pegadinha": "LI-RADS na TC/RM.",
+   "fonte": "Banco de questões CÓDICE 360X · QR469",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR469"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Mulher, 40 anos, dor abdominal recorrente ≥ 1 dia/semana há 3 meses, ligada à evacuação, sem sinais de alarme. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome do intestino irritável (Roma IV)<br><br>💬 Diagnóstico clínico com exames mínimos.",
+   "pegadinha": "Dieta low-FODMAP.",
+   "fonte": "Banco de questões CÓDICE 360X · QR470",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR470"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Homem, 70 anos, sangue vivo nas fezes, anemia, emagrecimento. Exame?",
+   "verso": "<b class=c>✅ Resposta:</b> Colonoscopia<br><br>💬 Sinais de alarme.",
+   "pegadinha": "Rastreio a partir dos 45 anos.",
+   "fonte": "Banco de questões CÓDICE 360X · QR473",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR473"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Mulher, 60 anos, disfagia para sólidos e líquidos, regurgitação, manometria com ausência de relaxamento do EEI. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Acalasia — dilatação pneumática, POEM ou miotomia de Heller<br><br>💬 Bico de pássaro no esofagograma.",
+   "pegadinha": "Doença de Chagas no Brasil.",
+   "fonte": "Banco de questões CÓDICE 360X · QR474",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR474"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Homem, 25 anos, disfagia, impactação alimentar, atopia, biópsia > 15 eos/campo. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> IBP, corticoide tópico deglutido ou dieta de eliminação; dupilumabe em refratários<br><br>💬 Esofagite eosinofílica.",
+   "pegadinha": "Anéis traqueais no esôfago.",
+   "fonte": "Banco de questões CÓDICE 360X · QR475",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR475"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Mulher, 72 anos, dor abdominal em fossa ilíaca esquerda súbita seguida de hematoquezia, estável. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Colite isquêmica — suporte, colonoscopia; cirurgia se gangrena<br><br>💬 Ângulo esplênico (área de Griffiths).",
+   "pegadinha": "Diferente da isquemia mesentérica (dor desproporcional).",
+   "fonte": "Banco de questões CÓDICE 360X · QR507",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR507"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Mulher, 50 anos, DM1 de longa data, náuseas, saciedade precoce, vômitos de alimentos ingeridos horas antes. Exame e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Cintilografia de esvaziamento gástrico; controle glicêmico, refeições pequenas, metoclopramida/domperidona<br><br>💬 Gastroparesia diabética.",
+   "pegadinha": "Agonista GLP-1 piora esvaziamento.",
+   "fonte": "Banco de questões CÓDICE 360X · QR508",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR508"
+   ]
+  },
+  {
+   "subtema": "Gastroenterologia",
+   "frente": "🎯 Homem, 60 anos, cirurgia gástrica prévia, distensão, diarreia, deficiência de B12 com folato alto. Hipótese?",
+   "verso": "<b class=c>✅ Resposta:</b> Supercrescimento bacteriano do intestino delgado — teste respiratório; rifaximina<br><br>💬 Bactérias produzem folato e consomem B12.",
+   "pegadinha": "Alça cega e hipomotilidade.",
+   "fonte": "Banco de questões CÓDICE 360X · QR542",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR542"
+   ]
+  },
+  {
    "subtema": "Geriatria",
    "frente": "🎯 Idoso com delirium hiperativo agitado sem risco iminente. Primeira medida:",
    "verso": "<b class=c>✅ Resposta:</b> Medidas não farmacológicas e tratar a causa (infecção, retenção, fármacos)<br><br>💬 Benzodiazepínico só na abstinência alcoólica ou de BZD. Rever lista de Beers.",
@@ -2052,6 +3036,78 @@
     "PEGA360X",
     "R3",
     "QR399"
+   ]
+  },
+  {
+   "subtema": "Geriatria",
+   "frente": "🎯 Mulher, 82 anos, 9 medicamentos, quedas. Ferramenta para revisar medicação inapropriada?",
+   "verso": "<b class=c>✅ Resposta:</b> Critérios de Beers / STOPP-START<br><br>💬 Desprescrição.",
+   "pegadinha": "Benzodiazepínico e anticolinérgico: alvos.",
+   "fonte": "Banco de questões CÓDICE 360X · QR551",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR551"
+   ]
+  },
+  {
+   "subtema": "Geriatria",
+   "frente": "🎯 Homem, 85 anos, perda de peso, lentidão de marcha, fraqueza de preensão, exaustão. Síndrome?",
+   "verso": "<b class=c>✅ Resposta:</b> Fragilidade (fenótipo de Fried, ≥ 3 critérios)<br><br>💬 Cinco critérios.",
+   "pegadinha": "Exercício resistido é intervenção central.",
+   "fonte": "Banco de questões CÓDICE 360X · QR552",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR552"
+   ]
+  },
+  {
+   "subtema": "Geriatria",
+   "frente": "🎯 Mulher, 80 anos, internada, desatenção aguda, pensamento desorganizado, flutuação. Diagnóstico e manejo?",
+   "verso": "<b class=c>✅ Resposta:</b> Delirium (CAM) — tratar causa, medidas não farmacológicas<br><br>💬 Haloperidol só se agitação perigosa.",
+   "pegadinha": "Delirium hipoativo é subdiagnosticado.",
+   "fonte": "Banco de questões CÓDICE 360X · QR553",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR553"
+   ]
+  },
+  {
+   "subtema": "Geriatria",
+   "frente": "🎯 Homem, 78 anos, Alzheimer moderado. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Inibidor de colinesterase (donepezila) ± memantina<br><br>💬 Benefício modesto.",
+   "pegadinha": "Lecanemabe/donanemabe em fase inicial (ARIA).",
+   "fonte": "Banco de questões CÓDICE 360X · QR554",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR554"
+   ]
+  },
+  {
+   "subtema": "Geriatria",
+   "frente": "🎯 Mulher, 75 anos, incontinência urinária ao tossir. Tipo e tratamento inicial?",
+   "verso": "<b class=c>✅ Resposta:</b> Esforço — fisioterapia de assoalho pélvico<br><br>💬 Treino muscular.",
+   "pegadinha": "Antimuscarínico piora cognição.",
+   "fonte": "Banco de questões CÓDICE 360X · QR555",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR555"
+   ]
+  },
+  {
+   "subtema": "Geriatria",
+   "frente": "🎯 Homem, 80 anos, lesão por pressão sacral estágio 3. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Alívio de pressão, nutrição, desbridamento de tecido inviável, curativo úmido<br><br>💬 Perda total da pele sem exposição óssea.",
+   "pegadinha": "Mudança de decúbito a cada 2 h.",
+   "fonte": "Banco de questões CÓDICE 360X · QR556",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR556"
    ]
   },
   {
@@ -2400,6 +3456,138 @@
     "PEGA360X",
     "R3",
     "QR394"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 30 anos, anemia microcítica, ferritina 8. Investigação além de reposição?",
+   "verso": "<b class=c>✅ Resposta:</b> Buscar causa: perda menstrual, celíaca, H. pylori; em homem/pós-menopausa, EDA + colonoscopia<br><br>💬 Ferropenia é sinal, não diagnóstico.",
+   "pegadinha": "Ferro em dias alternados melhora absorção.",
+   "fonte": "Banco de questões CÓDICE 360X · QR476",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR476"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 60 anos, macrocitose, glossite, parestesias, ataxia. Exame e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Vitamina B12 (± ácido metilmalônico) — reposição de B12<br><br>💬 Neurológico sugere B12.",
+   "pegadinha": "Folato isolado pode piorar neuropatia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR477",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR477"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 65 anos, leucocitose 50 mil com linfócitos maduros, células borradas, assintomático, Binet A. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> LLC: observação ('watch and wait')<br><br>💬 Tratamento precoce sem benefício.",
+   "pegadinha": "del17p/TP53: inibidor de BTK.",
+   "fonte": "Banco de questões CÓDICE 360X · QR479",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR479"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 55 anos, hemoglobina 18, prurido aquagênico, esplenomegalia, JAK2 V617F. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Policitemia vera: flebotomia (Ht &lt; 45%) + AAS; hidroxiureia se alto risco<br><br>💬 Neoplasia mieloproliferativa.",
+   "pegadinha": "Alto risco: > 60 anos ou trombose prévia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR480",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR480"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 35 anos, trombose venosa profunda, abortos de repetição, anticardiolipina positivo. Anticoagulação?",
+   "verso": "<b class=c>✅ Resposta:</b> Varfarina (SAF de alto risco/triplo positivo)<br><br>💬 DOAC inferior em SAF triplo positivo.",
+   "pegadinha": "Confirmar após 12 semanas.",
+   "fonte": "Banco de questões CÓDICE 360X · QR482",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR482"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 60 anos, TVP com câncer ativo. Anticoagulante?",
+   "verso": "<b class=c>✅ Resposta:</b> HBPM ou DOAC (apixabana/edoxabana/rivaroxabana)<br><br>💬 DOAC não inferior; cuidado em câncer gastrointestinal/urológico.",
+   "pegadinha": "Caravaggio: apixabana.",
+   "fonte": "Banco de questões CÓDICE 360X · QR484",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR484"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 55 anos, pancitopenia, esplenomegalia volumosa, monocitopenia, aspirado seco, células com projeções. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Tricoleucemia (BRAF V600E) — cladribina<br><br>💬 Monocitopenia é pista.",
+   "pegadinha": "Excelente prognóstico.",
+   "fonte": "Banco de questões CÓDICE 360X · QR485",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR485"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 25 anos, anemia falciforme, dor torácica, febre, infiltrado novo, hipoxemia. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome torácica aguda — O₂, analgesia, antibiótico, transfusão/exsanguineotransfusão<br><br>💬 Causa importante de morte.",
+   "pegadinha": "Hidroxiureia reduz crises.",
+   "fonte": "Banco de questões CÓDICE 360X · QR486",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR486"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 50 anos, pancitopenia, sem esplenomegalia, medula hipocelular. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Anemia aplásica — transplante (jovem) ou imunossupressão (ATG + ciclosporina + eltrombopague)<br><br>💬 Medula vazia.",
+   "pegadinha": "Pesquisar HPN.",
+   "fonte": "Banco de questões CÓDICE 360X · QR487",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR487"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 45 anos, flushing, urticária pigmentosa (sinal de Darier), anafilaxias, triptase 60. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Mastocitose sistêmica — pesquisa de KIT D816V na medula<br><br>💬 Triptase basal elevada.",
+   "pegadinha": "Adrenalina autoinjetável.",
+   "fonte": "Banco de questões CÓDICE 360X · QR524",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR524"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 25 anos, menorragia, epistaxes, TS prolongado, plaquetas normais, fator VIII baixo, cirurgia dentária programada. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Doença de von Willebrand tipo 1 — desmopressina (DDAVP) ± antifibrinolítico<br><br>💬 Testar resposta ao DDAVP antes.",
+   "pegadinha": "Hiponatremia com DDAVP.",
+   "fonte": "Banco de questões CÓDICE 360X · QR560",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR560"
    ]
   },
   {
@@ -2979,6 +4167,306 @@
    ]
   },
   {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 40 anos, arranhão de gato, nódulos ulcerados ascendentes em trajeto linfático no braço. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Esporotricose — itraconazol<br><br>💬 Forma linfocutânea; epidemia felina no Brasil.",
+   "pegadinha": "Notificação em vários estados.",
+   "fonte": "Banco de questões CÓDICE 360X · QR414",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR414"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 45 anos, consumo de queijo cru, febre ondulante, sudorese, espondilite lombar. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Brucelose — doxiciclina + rifampicina (ou estreptomicina/gentamicina)<br><br>💬 Zoonose de laticínios.",
+   "pegadinha": "Avisar laboratório (risco biológico).",
+   "fonte": "Banco de questões CÓDICE 360X · QR427",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR427"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 30 anos, baixa visual, retinocoroidite focal com vitreíte ('farol na neblina'), cicatriz adjacente. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Toxoplasmose ocular — SMX-TMP ou sulfadiazina + pirimetamina ± corticoide<br><br>💬 Reativação junto a cicatriz.",
+   "pegadinha": "Corticoide nunca sem antiparasitário.",
+   "fonte": "Banco de questões CÓDICE 360X · QR471",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR471"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 40 anos, HIV, CD4 30, febre, pancitopenia, hepatoesplenomegalia, úlceras orais, lesões de pele. Viagem a área de cavernas. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Histoplasmose disseminada — anfotericina B lipossomal, depois itraconazol<br><br>💬 Antígeno urinário de Histoplasma.",
+   "pegadinha": "Comum no Nordeste brasileiro.",
+   "fonte": "Banco de questões CÓDICE 360X · QR490",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR490"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 35 anos, hanseníase multibacilar em tratamento, nódulos eritematosos dolorosos, febre, neurite. Reação e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Eritema nodoso hansênico (reação tipo 2) — talidomida (homens/não gestantes) ou corticoide<br><br>💬 Não suspender PQT.",
+   "pegadinha": "Talidomida teratogênica.",
+   "fonte": "Banco de questões CÓDICE 360X · QR493",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR493"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 35 anos, HIV, CD4 80, cefaleia, febre, PL com pressão de abertura 35 cmH₂O. Diagnóstico e manejo?",
+   "verso": "<b class=c>✅ Resposta:</b> Meningite criptocócica — anfotericina + flucitosina; punções de alívio para hipertensão intracraniana<br><br>💬 Tinta da China, antígeno criptocócico.",
+   "pegadinha": "Dose única de anfotericina lipossomal (AMBITION-cm).",
+   "fonte": "Banco de questões CÓDICE 360X · QR502",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR502"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 40 anos, HIV, CD4 50, hemiparesia, lesões com realce anelar múltiplas. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Tratamento empírico para neurotoxoplasmose (sulfadiazina + pirimetamina + ácido folínico); reavaliar em 2 semanas<br><br>💬 Sem melhora: biópsia (linfoma).",
+   "pegadinha": "Profilaxia com SMX-TMP se CD4 &lt; 100.",
+   "fonte": "Banco de questões CÓDICE 360X · QR503",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR503"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 28 anos, exposição sexual de risco há 24 h. Profilaxia?",
+   "verso": "<b class=c>✅ Resposta:</b> PEP: TDF/3TC + dolutegravir por 28 dias<br><br>💬 Até 72 h.",
+   "pegadinha": "Testar HIV, sífilis, hepatites.",
+   "fonte": "Banco de questões CÓDICE 360X · QR504",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR504"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 25 anos, úlcera genital indolor, base limpa, linfonodo inguinal. VDRL 1:32. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Penicilina benzatina 2,4 milhões UI dose única<br><br>💬 Sífilis primária.",
+   "pegadinha": "Jarisch-Herxheimer.",
+   "fonte": "Banco de questões CÓDICE 360X · QR505",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR505"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 40 anos, sífilis com alteração visual e auditiva. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Penicilina cristalina IV 14 dias (neurossífilis/ocular/ótica)<br><br>💬 Benzatina não atinge LCR.",
+   "pegadinha": "PL para VDRL no líquor.",
+   "fonte": "Banco de questões CÓDICE 360X · QR506",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR506"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 70 anos, bacteriúria assintomática, sonda vesical crônica. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Não tratar<br><br>💬 Tratar só gestantes e antes de procedimento urológico.",
+   "pegadinha": "Febre: trocar sonda antes da cultura.",
+   "fonte": "Banco de questões CÓDICE 360X · QR509",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR509"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 60 anos, celulite em perna, sem purulência, estável. Antibiótico?",
+   "verso": "<b class=c>✅ Resposta:</b> Cefalexina (cobertura estreptocócica)<br><br>💬 Estreptococo predominante.",
+   "pegadinha": "Purulenta: drenar + cobrir S. aureus.",
+   "fonte": "Banco de questões CÓDICE 360X · QR510",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR510"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 50 anos, endocardite em valva nativa por S. aureus sensível. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Oxacilina ou cefazolina 6 semanas<br><br>💬 Gentamicina aumenta nefrotoxicidade.",
+   "pegadinha": "Indicação cirúrgica: IC, abscesso, embolia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR512",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR512"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 40 anos, febre após viagem à Amazônia, gota espessa com P. vivax. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Cloroquina + primaquina (ou tafenoquina) — testar G6PD<br><br>💬 Erradicar hipnozoítos.",
+   "pegadinha": "Primaquina contraindicada na gestação.",
+   "fonte": "Banco de questões CÓDICE 360X · QR513",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR513"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 30 anos, malária por P. falciparum grave. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Artesunato IV<br><br>💬 SEAQUAMAT/AQUAMAT.",
+   "pegadinha": "Hemólise tardia pós-artesunato.",
+   "fonte": "Banco de questões CÓDICE 360X · QR514",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR514"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 25 anos, febre, artralgia intensa incapacitante, edema de punhos, exantema. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Chikungunya — analgesia, evitar AINE na fase aguda até excluir dengue<br><br>💬 Artralgia crônica em até 50%.",
+   "pegadinha": "Hidroxicloroquina em fase crônica.",
+   "fonte": "Banco de questões CÓDICE 360X · QR516",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR516"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 30 anos, febre, hepatoesplenomegalia, pancitopenia, perda de peso, área endêmica. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Leishmaniose visceral — anfotericina B lipossomal<br><br>💬 Calazar.",
+   "pegadinha": "Teste rK39.",
+   "fonte": "Banco de questões CÓDICE 360X · QR517",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR517"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 40 anos, Chagas crônica, ECG com BRD + BDAS, assintomática. Forma?",
+   "verso": "<b class=c>✅ Resposta:</b> Cardíaca<br><br>💬 Alteração eletrocardiográfica define forma cardíaca.",
+   "pegadinha": "Benznidazol: benefício limitado na cardiopatia (BENEFIT).",
+   "fonte": "Banco de questões CÓDICE 360X · QR518",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR518"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 50 anos, diarreia após antibiótico, toxina de C. difficile positiva, primeiro episódio. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Fidaxomicina (ou vancomicina VO)<br><br>💬 Fidaxomicina reduz recorrência.",
+   "pegadinha": "Recorrência múltipla: transplante fecal.",
+   "fonte": "Banco de questões CÓDICE 360X · QR519",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR519"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 60 anos, herpes-zóster em dermátomo torácico há 2 dias. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Valaciclovir 7 dias (até 72 h)<br><br>💬 Reduz dor aguda.",
+   "pegadinha": "Vacina recombinante ≥ 50 anos.",
+   "fonte": "Banco de questões CÓDICE 360X · QR520",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR520"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 35 anos, contato domiciliar de TB bacilífera, PPD 12 mm, RX normal. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Tratamento de ILTB (3HP, 4R ou 6–9H)<br><br>💬 PPD ≥ 5 mm em contato.",
+   "pegadinha": "Excluir TB ativa antes.",
+   "fonte": "Banco de questões CÓDICE 360X · QR521",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR521"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Mulher, 45 anos, febre, dor em hipocôndrio direito, lesão hepática cística, diabética, sem viagem recente. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Abscesso hepático piogênico (Klebsiella) — drenagem + antibiótico<br><br>💬 Klebsiella hipervirulenta em diabéticos.",
+   "pegadinha": "Endoftalmite metastática.",
+   "fonte": "Banco de questões CÓDICE 360X · QR522",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR522"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 30 anos, mordedura de cão desconhecido, ferimento profundo. Conduta antirrábica?",
+   "verso": "<b class=c>✅ Resposta:</b> Lavar, soro/imunoglobulina antirrábica + vacina (cão não observável, ferimento grave)<br><br>💬 Grave e animal não observável.",
+   "pegadinha": "Amoxicilina-clavulanato profilático.",
+   "fonte": "Banco de questões CÓDICE 360X · QR523",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR523"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 60 anos, esplenectomizado, febre e choque. Germe mais temido?",
+   "verso": "<b class=c>✅ Resposta:</b> Streptococcus pneumoniae (OPSI)<br><br>💬 Encapsulados.",
+   "pegadinha": "Vacinar pneumococo, meningococo, Hib.",
+   "fonte": "Banco de questões CÓDICE 360X · QR525",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR525"
+   ]
+  },
+  {
+   "subtema": "Infectologia",
+   "frente": "🎯 Homem, 60 anos, DPOC em corticoide, choque, pneumonia, meningite por E. coli, larvas no escarro. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Hiperinfecção por Strongyloides — ivermectina; reduzir imunossupressão<br><br>💬 Larvas levam Gram-negativos.",
+   "pegadinha": "Tratar empiricamente antes de corticoide em área endêmica.",
+   "fonte": "Banco de questões CÓDICE 360X · QR586",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR586"
+   ]
+  },
+  {
    "subtema": "MBE",
    "frente": "🎯 Ensaio de não inferioridade: qual cuidado de interpretação?",
    "verso": "<b class=c>✅ Resposta:</b> A margem de não inferioridade deve ser pré-definida e clinicamente aceitável; olhar também a análise por protocolo<br><br>💬 Na não inferioridade, ITT pode favorecer falsamente a equivalência (diluição); reportar ITT e PP.",
@@ -3099,6 +4587,78 @@
    ]
   },
   {
+   "subtema": "MBE",
+   "frente": "🎯 Estudo conclui que não há diferença quando, na verdade, existe. Erro?",
+   "verso": "<b class=c>✅ Resposta:</b> Tipo II (β) — aumenta com amostra pequena<br><br>💬 Poder = 1 − β.",
+   "pegadinha": "Poder usual: 80–90%.",
+   "fonte": "Banco de questões CÓDICE 360X · QR401",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR401"
+   ]
+  },
+  {
+   "subtema": "MBE",
+   "frente": "🎯 Teste com sensibilidade 95% e especificidade 80%. Teste negativo serve para:",
+   "verso": "<b class=c>✅ Resposta:</b> Excluir doença (SnNout)<br><br>💬 Alta sensibilidade: negativo afasta.",
+   "pegadinha": "VPP/VPN dependem de prevalência.",
+   "fonte": "Banco de questões CÓDICE 360X · QR570",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR570"
+   ]
+  },
+  {
+   "subtema": "MBE",
+   "frente": "🎯 Viés em que doença é diagnosticada mais cedo pelo rastreio, aumentando sobrevida aparente sem mudar a morte:",
+   "verso": "<b class=c>✅ Resposta:</b> Viés de antecipação (lead time)<br><br>💬 Clássico de rastreio.",
+   "pegadinha": "Mortalidade é o desfecho correto.",
+   "fonte": "Banco de questões CÓDICE 360X · QR572",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR572"
+   ]
+  },
+  {
+   "subtema": "MBE",
+   "frente": "🎯 Estudo que parte de doentes e controles e investiga exposição passada:",
+   "verso": "<b class=c>✅ Resposta:</b> Caso-controle — mede odds ratio<br><br>💬 Bom para doenças raras.",
+   "pegadinha": "Viés de memória.",
+   "fonte": "Banco de questões CÓDICE 360X · QR573",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR573"
+   ]
+  },
+  {
+   "subtema": "MBE",
+   "frente": "🎯 Intervalo de confiança de 95% do risco relativo: 0,85–1,10. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Não significativo (inclui 1)<br><br>💬 IC inclui nulidade.",
+   "pegadinha": "Ausência de evidência ≠ evidência de ausência.",
+   "fonte": "Banco de questões CÓDICE 360X · QR574",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR574"
+   ]
+  },
+  {
+   "subtema": "MBE",
+   "frente": "🎯 Análise por intenção de tratar (ITT) significa:",
+   "verso": "<b class=c>✅ Resposta:</b> Analisar todos conforme alocação randômica, independentemente da adesão<br><br>💬 Preserva randomização.",
+   "pegadinha": "Não inferioridade: olhar também por protocolo.",
+   "fonte": "Banco de questões CÓDICE 360X · QR575",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR575"
+   ]
+  },
+  {
    "subtema": "Medicina preventiva",
    "frente": "🎯 Rastreamento de câncer colorretal em adulto de risco médio:",
    "verso": "<b class=c>✅ Resposta:</b> A partir de 45 anos (USPSTF) — colonoscopia a cada 10 anos ou sangue oculto/FIT anual<br><br>💬 USPSTF 2021 reduziu para 45 anos. No SUS, o rastreamento organizado ainda é oferecido a partir dos 50.",
@@ -3216,6 +4776,30 @@
     "PEGA360X",
     "R3",
     "QR384"
+   ]
+  },
+  {
+   "subtema": "Medicina preventiva",
+   "frente": "🎯 Fumante de 30 cigarros/dia, motivado a parar. Farmacoterapia de maior eficácia?",
+   "verso": "<b class=c>✅ Resposta:</b> Vareniclina (ou terapia de reposição de nicotina combinada)<br><br>💬 EAGLES: segura em doença psiquiátrica.",
+   "pegadinha": "Iniciar 1 semana antes do dia D.",
+   "fonte": "Banco de questões CÓDICE 360X · QR529",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR529"
+   ]
+  },
+  {
+   "subtema": "Medicina preventiva",
+   "frente": "🎯 Adulto de 65 anos. Vacina pneumocócica?",
+   "verso": "<b class=c>✅ Resposta:</b> Conjugada (PCV20 ou PCV15 seguida de VPP23)<br><br>💬 ≥ 65 anos.",
+   "pegadinha": "PCV21 recentemente.",
+   "fonte": "Banco de questões CÓDICE 360X · QR569",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR569"
    ]
   },
   {
@@ -3528,6 +5112,186 @@
     "PEGA360X",
     "R3",
     "QR391"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Mulher, 25 anos, hipocalemia, alcalose metabólica, hipomagnesemia, hipocalciúria, PA normal. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome de Gitelman<br><br>💬 Defeito do cotransportador NaCl (tipo tiazídico).",
+   "pegadinha": "Rastrear diurético/laxante oculto.",
+   "fonte": "Banco de questões CÓDICE 360X · QR409",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR409"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Homem, 60 anos, DM2, TFG 45, albuminúria 500 mg/g. Medicações com proteção renal?",
+   "verso": "<b class=c>✅ Resposta:</b> IECA/BRA + iSGLT2 + finerenona (± agonista GLP-1)<br><br>💬 CREDENCE, FIDELIO, FLOW.",
+   "pegadinha": "Monitorar K com finerenona.",
+   "fonte": "Banco de questões CÓDICE 360X · QR438",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR438"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Mulher, 45 anos, edema, proteinúria 6 g/24h, albumina 1,8, hipercolesterolemia, sem diabetes. Causas primárias mais comuns em adultos?",
+   "verso": "<b class=c>✅ Resposta:</b> Glomerulopatia membranosa (dosar anti-PLA2R) ou GESF<br><br>💬 Em adultos, membranosa e GESF são mais comuns.",
+   "pegadinha": "Membranosa: risco de trombose de veia renal.",
+   "fonte": "Banco de questões CÓDICE 360X · QR439",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR439"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Homem, 20 anos, hematúria macroscópica 2 dias após IVAS. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Nefropatia por IgA<br><br>💬 Sinfaringítica.",
+   "pegadinha": "Complemento normal.",
+   "fonte": "Banco de questões CÓDICE 360X · QR440",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR440"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Mulher, 45 anos, hemoptise, GN rapidamente progressiva, anti-MBG positivo. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Plasmaférese + corticoide + ciclofosfamida<br><br>💬 Síndrome de Goodpasture.",
+   "pegadinha": "Tabagismo associado a hemorragia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR441",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR441"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Homem, 70 anos, DRC 4, Hb 8,5, ferritina 300, TSAT 25%. Conduta para anemia?",
+   "verso": "<b class=c>✅ Resposta:</b> Agente estimulador de eritropoiese, meta Hb 10–11,5<br><br>💬 Meta alta aumenta eventos (TREAT).",
+   "pegadinha": "Roxadustate é inibidor de HIF.",
+   "fonte": "Banco de questões CÓDICE 360X · QR442",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR442"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Mulher, 40 anos, litíase recorrente por oxalato de cálcio, hipercalciúria. Prevenção?",
+   "verso": "<b class=c>✅ Resposta:</b> Hidratação, tiazídico, citrato, dieta normal em cálcio e pobre em sódio/proteína animal<br><br>💬 Restrição de Ca aumenta oxalato.",
+   "pegadinha": "Diurese > 2,5 L/dia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR443",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR443"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Homem, 50 anos, DRC, PTH alto, fósforo 6,5. Conduta inicial?",
+   "verso": "<b class=c>✅ Resposta:</b> Restrição dietética de fósforo + quelante (sevelâmer/carbonato)<br><br>💬 DMO-DRC.",
+   "pegadinha": "Cinacalcete em diálise.",
+   "fonte": "Banco de questões CÓDICE 360X · QR444",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR444"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Mulher, 30 anos, cistos renais bilaterais, pai com doença renal. Tratamento modificador?",
+   "verso": "<b class=c>✅ Resposta:</b> Tolvaptano em progressão rápida<br><br>💬 DRPAD.",
+   "pegadinha": "Rastrear aneurisma cerebral se história familiar.",
+   "fonte": "Banco de questões CÓDICE 360X · QR445",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR445"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Homem, 75 anos, câncer de pulmão, Na 125, euvolêmico, sem diurético, osmolaridade urinária 500, Na urinário 50. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> SIADH — restrição hídrica; ureia ou tolvaptano<br><br>💬 Carcinoma de pequenas células.",
+   "pegadinha": "Excluir hipotireoidismo e insuficiência adrenal.",
+   "fonte": "Banco de questões CÓDICE 360X · QR446",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR446"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Mulher, 60 anos, K 6,8, ECG com onda T apiculada. Ordem de tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Gluconato de cálcio → insulina + glicose/β2 → remoção (diurético, ciclossilicato/patiromer, diálise)<br><br>💬 Estabilizar membrana primeiro.",
+   "pegadinha": "Poliestireno: risco de necrose intestinal.",
+   "fonte": "Banco de questões CÓDICE 360X · QR447",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR447"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Homem, 45 anos, hipocalemia refratária. Corrigir também?",
+   "verso": "<b class=c>✅ Resposta:</b> Magnésio<br><br>💬 Hipomagnesemia causa perda renal de K.",
+   "pegadinha": "Diuréticos e álcool.",
+   "fonte": "Banco de questões CÓDICE 360X · QR448",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR448"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Mulher, 30 anos, vômitos, pH 7,52, HCO₃ 38, Cl urinário 10. Tipo?",
+   "verso": "<b class=c>✅ Resposta:</b> Alcalose metabólica responsiva a cloreto — SF + K<br><br>💬 Cl urinário &lt; 20.",
+   "pegadinha": "Bulimia: Cl urinário baixo; diurético: alto.",
+   "fonte": "Banco de questões CÓDICE 360X · QR449",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR449"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Homem, 50 anos, diarreia, acidose metabólica, gap normal, gap urinário negativo. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Perda gastrointestinal de bicarbonato (excreção de NH₄⁺ preservada)<br><br>💬 Gap urinário negativo = NH₄⁺ alto.",
+   "pegadinha": "Mnemônico 'neGUTive'.",
+   "fonte": "Banco de questões CÓDICE 360X · QR450",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR450"
+   ]
+  },
+  {
+   "subtema": "Nefrologia",
+   "frente": "🎯 Homem, 30 anos, dor neuropática em extremidades desde a infância, angioqueratomas, proteinúria, HVE. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Doença de Fabry — dosar alfa-galactosidase A; terapia de reposição enzimática/migalastate<br><br>💬 Ligada ao X.",
+   "pegadinha": "Córnea verticilada.",
+   "fonte": "Banco de questões CÓDICE 360X · QR590",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR590"
    ]
   },
   {
@@ -3939,6 +5703,162 @@
    ]
   },
   {
+   "subtema": "Neurologia",
+   "frente": "🎯 Mulher, 30 anos, neurite óptica bilateral grave e mielite transversa longitudinalmente extensa (> 3 segmentos). Exame?",
+   "verso": "<b class=c>✅ Resposta:</b> Anticorpo anti-aquaporina-4 (neuromielite óptica) — evitar drogas de EM<br><br>💬 Interferon/natalizumabe pioram NMO.",
+   "pegadinha": "Anti-MOG é diferencial.",
+   "fonte": "Banco de questões CÓDICE 360X · QR407",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR407"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Mulher, 55 anos, tremor de ação bilateral em mãos, melhora com álcool, história familiar. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Tremor essencial — propranolol ou primidona<br><br>💬 Postural/cinético.",
+   "pegadinha": "Refratário: DBS ou ultrassom focado.",
+   "fonte": "Banco de questões CÓDICE 360X · QR426",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR426"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Mulher, 35 anos, paralisia facial periférica súbita, incluindo fronte, sem outros déficits. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Paralisia de Bell — prednisona em até 72 h; proteção ocular<br><br>💬 Fronte acometida = periférica.",
+   "pegadinha": "Vesículas no ouvido: Ramsay Hunt.",
+   "fonte": "Banco de questões CÓDICE 360X · QR481",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR481"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Mulher, 50 anos, desconforto nas pernas à noite, urgência de mover, alívio ao andar. Exame laboratorial essencial?",
+   "verso": "<b class=c>✅ Resposta:</b> Ferritina (repor ferro se &lt; 75 µg/L)<br><br>💬 Síndrome das pernas inquietas.",
+   "pegadinha": "Agonista dopaminérgico: risco de augmentation.",
+   "fonte": "Banco de questões CÓDICE 360X · QR483",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR483"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Homem, 58 anos, mudança de personalidade, desinibição, apatia, hiperoralidade, memória relativamente preservada. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Demência frontotemporal (variante comportamental)<br><br>💬 Atrofia frontal/temporal anterior.",
+   "pegadinha": "Inibidores de colinesterase sem benefício.",
+   "fonte": "Banco de questões CÓDICE 360X · QR501",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR501"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Homem, 40 anos, movimentos coreicos, declínio cognitivo, depressão, pai com quadro semelhante. Exame confirmatório?",
+   "verso": "<b class=c>✅ Resposta:</b> Teste genético (expansão CAG no HTT) — doença de Huntington<br><br>💬 Antecipação genética.",
+   "pegadinha": "Tetrabenazina para coreia.",
+   "fonte": "Banco de questões CÓDICE 360X · QR538",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR538"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Mulher, 25 anos, fraqueza flutuante, ptose e diplopia que pioram ao final do dia. Exame?",
+   "verso": "<b class=c>✅ Resposta:</b> Anticorpo antirreceptor de acetilcolina + estimulação repetitiva + TC de tórax<br><br>💬 Miastenia gravis.",
+   "pegadinha": "Timoma em 10–15%.",
+   "fonte": "Banco de questões CÓDICE 360X · QR540",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR540"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Homem, 70 anos, AIT há 2 h, ABCD² 5. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Investigação urgente (imagem vascular, ECG) + AAS + clopidogrel por 21 dias<br><br>💬 CHANCE/POINT.",
+   "pegadinha": "Estenose carotídea > 70%: endarterectomia precoce.",
+   "fonte": "Banco de questões CÓDICE 360X · QR543",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR543"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Mulher, 60 anos, demência progressiva, mioclonias, EEG com complexos periódicos, RM com restrição em núcleos da base. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Doença de Creutzfeldt-Jakob<br><br>💬 Proteína 14-3-3 e RT-QuIC.",
+   "pegadinha": "Rapidamente progressiva.",
+   "fonte": "Banco de questões CÓDICE 360X · QR544",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR544"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Homem, 75 anos, marcha magnética, incontinência urinária, demência. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Hidrocefalia de pressão normal — tap test, DVP<br><br>💬 Tríade de Hakim.",
+   "pegadinha": "Potencialmente reversível.",
+   "fonte": "Banco de questões CÓDICE 360X · QR545",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR545"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Homem, 40 anos, primeira crise convulsiva tônico-clônica, exame e RM normais, EEG normal. Antiepiléptico?",
+   "verso": "<b class=c>✅ Resposta:</b> Geralmente não — risco de recorrência baixo; discutir<br><br>💬 Recorrência ~30–40%.",
+   "pegadinha": "Orientar direção veicular.",
+   "fonte": "Banco de questões CÓDICE 360X · QR547",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR547"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Homem, 50 anos, dor facial lancinante desencadeada por mastigação. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Carbamazepina<br><br>💬 Neuralgia do trigêmeo.",
+   "pegadinha": "Jovem: pensar EM.",
+   "fonte": "Banco de questões CÓDICE 360X · QR549",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR549"
+   ]
+  },
+  {
+   "subtema": "Neurologia",
+   "frente": "🎯 Mulher, 55 anos, fraqueza de neurônio motor superior e inferior, fasciculações, sem alteração sensitiva. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Esclerose lateral amiotrófica — riluzol, suporte multidisciplinar<br><br>💬 Sem sensibilidade.",
+   "pegadinha": "VNI prolonga sobrevida.",
+   "fonte": "Banco de questões CÓDICE 360X · QR550",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR550"
+   ]
+  },
+  {
    "subtema": "Oncologia",
    "frente": "🎯 Mulher, 58 anos, câncer de mama metastático, dor lombar, fraqueza de membros inferiores e retenção urinária. Conduta?",
    "verso": "<b class=c>✅ Resposta:</b> Dexametasona IV imediata e RM de toda coluna urgente; radioterapia/cirurgia<br><br>💬 Compressão medular: emergência; prognóstico depende da função na apresentação.",
@@ -4020,6 +5940,138 @@
     "PEGA360X",
     "R3",
     "QR400"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Mulher, 50 anos, rastreio de câncer de mama (Brasil, Ministério da Saúde):",
+   "verso": "<b class=c>✅ Resposta:</b> Mamografia bienal dos 50 aos 69 anos (MS; sociedades recomendam a partir de 40)<br><br>💬 Divergência MS vs SBM.",
+   "pegadinha": "BRCA: RM anual.",
+   "fonte": "Banco de questões CÓDICE 360X · QR488",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR488"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Homem, 55 anos, rastreio de câncer de próstata:",
+   "verso": "<b class=c>✅ Resposta:</b> Decisão compartilhada sobre PSA (55–69 anos), discutindo benefícios e sobrediagnóstico<br><br>💬 USPSTF C.",
+   "pegadinha": "Negros e história familiar: mais cedo.",
+   "fonte": "Banco de questões CÓDICE 360X · QR489",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR489"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Homem, 65 anos, câncer colorretal estádio III operado. Tratamento adjuvante?",
+   "verso": "<b class=c>✅ Resposta:</b> Quimioterapia (CAPOX/FOLFOX) 3–6 meses<br><br>💬 Linfonodo positivo.",
+   "pegadinha": "IDEA: 3 meses em baixo risco.",
+   "fonte": "Banco de questões CÓDICE 360X · QR491",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR491"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Mulher, 45 anos, câncer de mama HER2 positivo. Terapia-alvo?",
+   "verso": "<b class=c>✅ Resposta:</b> Trastuzumabe (± pertuzumabe)<br><br>💬 Monitorar FE.",
+   "pegadinha": "Cardiotoxicidade reversível.",
+   "fonte": "Banco de questões CÓDICE 360X · QR492",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR492"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Mulher, 60 anos, câncer metastático, dor 8/10 em uso de dipirona. Próximo degrau?",
+   "verso": "<b class=c>✅ Resposta:</b> Opioide forte (morfina) + adjuvantes + laxante<br><br>💬 Dor intensa vai direto ao opioide forte.",
+   "pegadinha": "Constipação: sempre prescrever laxante.",
+   "fonte": "Banco de questões CÓDICE 360X · QR494",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR494"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Homem, 50 anos, neutropenia febril, baixo risco (MASCC ≥ 21), estável. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Ambulatorial com quinolona + amoxicilina-clavulanato, se seguimento garantido<br><br>💬 Seleção de baixo risco.",
+   "pegadinha": "Profilaxia não substitui.",
+   "fonte": "Banco de questões CÓDICE 360X · QR495",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR495"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Mulher, 55 anos, hipercalcemia e nódulo pulmonar, PTH baixo. Mecanismo?",
+   "verso": "<b class=c>✅ Resposta:</b> PTHrP (carcinoma epidermoide)<br><br>💬 Humoral.",
+   "pegadinha": "Escamoso: PTHrP; pequenas células: SIADH.",
+   "fonte": "Banco de questões CÓDICE 360X · QR496",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR496"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Homem, 30 anos, massa testicular, β-hCG e AFP altos. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Orquiectomia radical inguinal<br><br>💬 Biópsia escrotal contraindicada.",
+   "pegadinha": "AFP alta exclui seminoma puro.",
+   "fonte": "Banco de questões CÓDICE 360X · QR497",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR497"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Mulher, 40 anos, câncer de colo do útero, rastreio no Brasil (MS):",
+   "verso": "<b class=c>✅ Resposta:</b> Teste de DNA-HPV a cada 5 anos (25–64 anos) ou citologia trienal após 2 anuais normais<br><br>💬 Transição para DNA-HPV no SUS.",
+   "pegadinha": "Vacina HPV ampliada.",
+   "fonte": "Banco de questões CÓDICE 360X · QR498",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR498"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Homem, 60 anos, câncer de próstata metastático sensível à castração. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Bloqueio androgênico + inibidor de AR (abiraterona/enzalutamida/apalutamida) ± docetaxel<br><br>💬 Intensificação melhora sobrevida.",
+   "pegadinha": "Flare com agonista de LHRH.",
+   "fonte": "Banco de questões CÓDICE 360X · QR499",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR499"
+   ]
+  },
+  {
+   "subtema": "Oncologia",
+   "frente": "🎯 Mulher, 70 anos, câncer avançado, anorexia, caquexia. Medicação com evidência para apetite?",
+   "verso": "<b class=c>✅ Resposta:</b> Acetato de megestrol ou corticoide (curto prazo); olanzapina em baixa dose<br><br>💬 Melhora apetite, não sobrevida.",
+   "pegadinha": "Megestrol: risco de TEV.",
+   "fonte": "Banco de questões CÓDICE 360X · QR500",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR500"
    ]
   },
   {
@@ -4359,6 +6411,186 @@
    ]
   },
   {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Mulher, 55 anos, tosse, febre baixa, consolidações migratórias que não respondem a antibióticos, biópsia com tampões de fibroblastos (corpos de Masson). Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Pneumonia em organização — corticoide<br><br>💬 Pode ser secundária a drogas, colagenose.",
+   "pegadinha": "Recidiva ao reduzir corticoide.",
+   "fonte": "Banco de questões CÓDICE 360X · QR428",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR428"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 50 anos, sequela de TB com cavidade, hemoptises recorrentes, massa móvel dentro da cavidade (sinal do crescente). Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Aspergiloma (bola fúngica) — embolização/ressecção se hemoptise grave<br><br>💬 Colonização de cavidade.",
+   "pegadinha": "Antifúngico pouco eficaz isolado.",
+   "fonte": "Banco de questões CÓDICE 360X · QR430",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR430"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Mulher, 45 anos, derrame pleural, proteína líquido/soro 0,7, LDH líquido/soro 0,8. Classificação?",
+   "verso": "<b class=c>✅ Resposta:</b> Exsudato (critérios de Light)<br><br>💬 Qualquer critério positivo = exsudato.",
+   "pegadinha": "Diurético pode falsear: gradiente de albumina.",
+   "fonte": "Banco de questões CÓDICE 360X · QR431",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR431"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 50 anos, derrame com pH 7,0, glicose 30, pus. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Drenagem torácica + antibiótico; fibrinolítico (tPA + DNase) se loculado<br><br>💬 MIST2.",
+   "pegadinha": "pH &lt; 7,2 indica drenagem.",
+   "fonte": "Banco de questões CÓDICE 360X · QR432",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR432"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Mulher, 55 anos, roncos, sonolência diurna, IAH 35. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> CPAP<br><br>💬 SAOS grave.",
+   "pegadinha": "Tirzepatida aprovada para SAOS em obesos.",
+   "fonte": "Banco de questões CÓDICE 360X · QR433",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR433"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 40 anos, TB pulmonar, BAAR positivo. Esquema básico Brasil?",
+   "verso": "<b class=c>✅ Resposta:</b> RIPE 2 meses + RI 4 meses<br><br>💬 Fase intensiva + manutenção.",
+   "pegadinha": "Meningite: 12 meses.",
+   "fonte": "Banco de questões CÓDICE 360X · QR434",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR434"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Mulher, 60 anos, hipertensão pulmonar grupo 1 (HAP), teste de vasorreatividade negativo. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Terapia combinada inicial (antagonista de endotelina + inibidor de PDE5)<br><br>💬 AMBITION.",
+   "pegadinha": "Sotatercepte é nova classe.",
+   "fonte": "Banco de questões CÓDICE 360X · QR435",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR435"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 30 anos, alto, magro, dor torácica súbita, pneumotórax espontâneo primário pequeno, estável. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Observação ou aspiração; drenagem se grande/sintomático<br><br>💬 Conservador é seguro.",
+   "pegadinha": "Parar de fumar reduz recidiva.",
+   "fonte": "Banco de questões CÓDICE 360X · QR436",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR436"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Mulher, 50 anos, tosse crônica, RX normal, sem tabagismo, sem IECA. Três causas mais comuns?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome da tosse de vias aéreas superiores, asma e DRGE<br><br>💬 Tosse > 8 semanas.",
+   "pegadinha": "IECA: tosse em até 20%.",
+   "fonte": "Banco de questões CÓDICE 360X · QR437",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR437"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 55 anos, trabalhador de pedreira, nódulos em lobos superiores, linfonodos hilares com calcificação em casca de ovo. Diagnóstico e risco?",
+   "verso": "<b class=c>✅ Resposta:</b> Silicose — risco aumentado de tuberculose<br><br>💬 Rastrear TB latente.",
+   "pegadinha": "Fibrose maciça progressiva.",
+   "fonte": "Banco de questões CÓDICE 360X · QR451",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR451"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 30 anos, tabagista, múltiplos nódulos e cistos de formas bizarras em lobos superiores, pneumotórax. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Histiocitose de células de Langerhans pulmonar — cessação do tabagismo<br><br>💬 Poupa ângulos costofrênicos.",
+   "pegadinha": "Diabetes insípido em formas sistêmicas.",
+   "fonte": "Banco de questões CÓDICE 360X · QR458",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR458"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 40 anos, enfisema panlobular de bases, não tabagista pesado, hepatopatia. Investigação?",
+   "verso": "<b class=c>✅ Resposta:</b> Dosagem de alfa-1 antitripsina (genotipagem)<br><br>💬 Enfisema precoce de bases.",
+   "pegadinha": "Reposição IV em PiZZ com obstrução.",
+   "fonte": "Banco de questões CÓDICE 360X · QR546",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR546"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 45 anos, dispneia, TC com 'crazy paving', lavado leitoso PAS positivo, anti-GM-CSF positivo. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Proteinose alveolar autoimune — lavagem pulmonar total; GM-CSF inalatório<br><br>💬 Surfactante acumulado.",
+   "pegadinha": "Infecção por Nocardia associada.",
+   "fonte": "Banco de questões CÓDICE 360X · QR548",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR548"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Mulher, 38 anos, dispneia progressiva, pneumotórax recorrente, cistos difusos de paredes finas, quilotórax. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Linfangioleiomiomatose — sirolimo<br><br>💬 Associação com esclerose tuberosa; VEGF-D elevado.",
+   "pegadinha": "Estrogênio piora.",
+   "fonte": "Banco de questões CÓDICE 360X · QR571",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR571"
+   ]
+  },
+  {
+   "subtema": "Pneumologia",
+   "frente": "🎯 Homem, 30 anos, asma grave, infiltrados migratórios, bronquiectasias centrais, IgE > 1.000, IgE específica para Aspergillus. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Aspergilose broncopulmonar alérgica — corticoide oral ± itraconazol<br><br>💬 Hipersensibilidade, não invasão.",
+   "pegadinha": "Fibrose cística também predispõe.",
+   "fonte": "Banco de questões CÓDICE 360X · QR585",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR585"
+   ]
+  },
+  {
    "subtema": "Psiquiatria",
    "frente": "🎯 Mulher, 35 anos, depressão moderada, insônia, perda de peso, sem resposta parcial a sertralina por 2 semanas. Conduta?",
    "verso": "<b class=c>✅ Resposta:</b> Manter e otimizar dose; avaliar resposta em 4–6 semanas; psicoterapia<br><br>💬 Tempo de resposta 4–6 semanas.",
@@ -4404,6 +6636,78 @@
     "PEGA360X",
     "R3",
     "QR380"
+   ]
+  },
+  {
+   "subtema": "Psiquiatria",
+   "frente": "🎯 Homem, 30 anos, esquizofrenia, mutismo, posturas fixas, flexibilidade cérea, negativismo. Tratamento inicial?",
+   "verso": "<b class=c>✅ Resposta:</b> Catatonia — lorazepam (teste e tratamento); ECT se refratária<br><br>💬 Antipsicótico pode precipitar catatonia maligna/SNM.",
+   "pegadinha": "Escala de Bush-Francis.",
+   "fonte": "Banco de questões CÓDICE 360X · QR515",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR515"
+   ]
+  },
+  {
+   "subtema": "Psiquiatria",
+   "frente": "🎯 Mulher, 35 anos, humor deprimido, anedonia, insônia há 1 mês, sem ideação. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> ISRS (sertralina/escitalopram) + psicoterapia<br><br>💬 Resposta em 4–6 semanas.",
+   "pegadinha": "Avaliar bipolaridade antes.",
+   "fonte": "Banco de questões CÓDICE 360X · QR557",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR557"
+   ]
+  },
+  {
+   "subtema": "Psiquiatria",
+   "frente": "🎯 Homem, 25 anos, episódio de euforia, gastos excessivos, insônia sem cansaço por 10 dias. Diagnóstico e tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Mania (bipolar tipo I) — lítio ou valproato/antipsicótico<br><br>💬 ≥ 7 dias.",
+   "pegadinha": "Antidepressivo isolado induz virada.",
+   "fonte": "Banco de questões CÓDICE 360X · QR558",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR558"
+   ]
+  },
+  {
+   "subtema": "Psiquiatria",
+   "frente": "🎯 Mulher, 30 anos, lítio, poliúria, polidipsia. Efeito?",
+   "verso": "<b class=c>✅ Resposta:</b> Diabetes insípido nefrogênico<br><br>💬 Amilorida pode ajudar.",
+   "pegadinha": "Monitorar TSH, Ca e função renal.",
+   "fonte": "Banco de questões CÓDICE 360X · QR559",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR559"
+   ]
+  },
+  {
+   "subtema": "Psiquiatria",
+   "frente": "🎯 Mulher, 50 anos, uso de clozapina, febre, dor de garganta. Exame urgente?",
+   "verso": "<b class=c>✅ Resposta:</b> Hemograma — agranulocitose<br><br>💬 Monitorar neutrófilos.",
+   "pegadinha": "Miocardite também.",
+   "fonte": "Banco de questões CÓDICE 360X · QR561",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR561"
+   ]
+  },
+  {
+   "subtema": "Psiquiatria",
+   "frente": "🎯 Homem, 20 anos, ataques súbitos de medo, taquicardia, sensação de morte, recorrentes. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> ISRS + TCC (benzodiazepínico só curto prazo)<br><br>💬 Transtorno de pânico.",
+   "pegadinha": "Excluir causas orgânicas.",
+   "fonte": "Banco de questões CÓDICE 360X · QR562",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR562"
    ]
   },
   {
@@ -4800,6 +7104,102 @@
     "PEGA360X",
     "R3",
     "QR397"
+   ]
+  },
+  {
+   "subtema": "Reumatologia",
+   "frente": "🎯 Mulher, 45 anos, dor difusa há 6 meses, fadiga, sono não reparador, exames normais. Tratamento com melhor evidência?",
+   "verso": "<b class=c>✅ Resposta:</b> Fibromialgia: exercício aeróbico gradual + educação; amitriptilina/duloxetina/pregabalina como adjuvantes<br><br>💬 Dor nociplástica.",
+   "pegadinha": "Diagnóstico clínico (ACR 2016).",
+   "fonte": "Banco de questões CÓDICE 360X · QR472",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR472"
+   ]
+  },
+  {
+   "subtema": "Reumatologia",
+   "frente": "🎯 Homem, 65 anos, em atorvastatina, fraqueza proximal progressiva mesmo após suspender, CPK 8.000, anti-HMGCR positivo. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Miopatia necrotizante imunomediada — imunossupressão (corticoide + IVIG/MTX)<br><br>💬 Persistência após suspensão diferencia de mialgia tóxica.",
+   "pegadinha": "Rastrear câncer.",
+   "fonte": "Banco de questões CÓDICE 360X · QR526",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR526"
+   ]
+  },
+  {
+   "subtema": "Reumatologia",
+   "frente": "🎯 Mulher, 25 anos, rash malar, artrite, proteinúria, FAN 1:640, anti-dsDNA alto, C3 baixo. Medicação para todos?",
+   "verso": "<b class=c>✅ Resposta:</b> Hidroxicloroquina<br><br>💬 Reduz flares e mortalidade.",
+   "pegadinha": "Exame oftalmológico anual após 5 anos.",
+   "fonte": "Banco de questões CÓDICE 360X · QR528",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR528"
+   ]
+  },
+  {
+   "subtema": "Reumatologia",
+   "frente": "🎯 Mulher, 65 anos, dor e rigidez em cinturas escapular e pélvica, VHS alto. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Polimialgia reumática — prednisona 12,5–25 mg<br><br>💬 CPK normal.",
+   "pegadinha": "Associação com arterite temporal.",
+   "fonte": "Banco de questões CÓDICE 360X · QR530",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR530"
+   ]
+  },
+  {
+   "subtema": "Reumatologia",
+   "frente": "🎯 Homem, 55 anos, sinusite, hemoptise, GN, c-ANCA (anti-PR3). Diagnóstico e indução?",
+   "verso": "<b class=c>✅ Resposta:</b> Granulomatose com poliangeíte — corticoide + rituximabe (ou ciclofosfamida)<br><br>💬 PEXIVAS: plasmaférese sem benefício de rotina.",
+   "pegadinha": "Avacopan poupa corticoide.",
+   "fonte": "Banco de questões CÓDICE 360X · QR533",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR533"
+   ]
+  },
+  {
+   "subtema": "Reumatologia",
+   "frente": "🎯 Homem, 70 anos, monoartrite de joelho, cristais romboides fracamente positivos. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Doença por depósito de pirofosfato de cálcio (pseudogota)<br><br>💬 Condrocalcinose no RX.",
+   "pegadinha": "Rastrear hemocromatose, hiperparatireoidismo.",
+   "fonte": "Banco de questões CÓDICE 360X · QR535",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR535"
+   ]
+  },
+  {
+   "subtema": "Reumatologia",
+   "frente": "🎯 Mulher, 30 anos, olhos e boca secos, anti-Ro/SSA. Risco a longo prazo?",
+   "verso": "<b class=c>✅ Resposta:</b> Linfoma não Hodgkin (MALT)<br><br>💬 Aumento de 15–20×.",
+   "pegadinha": "Gestante anti-Ro: bloqueio cardíaco congênito.",
+   "fonte": "Banco de questões CÓDICE 360X · QR536",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR536"
+   ]
+  },
+  {
+   "subtema": "Reumatologia",
+   "frente": "🎯 Homem, 60 anos, pancreatite autoimune, aumento de glândulas salivares, fibrose retroperitoneal, IgG4 alta. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Doença relacionada a IgG4 — corticoide (rituximabe se recidiva)<br><br>💬 Fibrose estoriforme e flebite obliterativa.",
+   "pegadinha": "Excluir neoplasia é obrigatório.",
+   "fonte": "Banco de questões CÓDICE 360X · QR537",
+   "tags": [
+    "PEGA360X",
+    "R3",
+    "QR537"
    ]
   }
  ],

@@ -303,6 +303,186 @@
    ]
   },
   {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Homem, 58 anos, IAM com supra anterior, centro sem hemodinâmica, transferência estimada em 150 min, dor há 2 h. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Fibrinólise em até 10–30 min e transferir para coronariografia em 2–24 h (fármaco-invasiva)<br><br>💬 > 120 min até ICP: fibrinolítico.",
+   "pegadinha": "Falha de reperfusão em 60–90 min: ICP de resgate.",
+   "fonte": "Banco de questões CÓDICE 360X · QT451",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT451"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Mulher, 70 anos, pós-operatório de cirurgia torácica, FA nova a 140, estável, PA 120/70. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Controle de frequência (betabloqueador) e/ou ritmo (amiodarona), corrigir eletrólitos; anticoagular se persistir > 48 h e risco permitir<br><br>💬 FA pós-operatória frequentemente transitória.",
+   "pegadinha": "Associa-se a AVC tardio.",
+   "fonte": "Banco de questões CÓDICE 360X · QT452",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT452"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Homem, 65 anos, QTc 560 ms, torsades de pointes recorrentes autolimitadas, K 3,2. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Sulfato de magnésio 2 g IV, repor K (alvo > 4,5), suspender drogas que prolongam QT; overdrive pacing/isoproterenol se refratário<br><br>💬 Torsades com QT longo.",
+   "pegadinha": "Lista CredibleMeds.",
+   "fonte": "Banco de questões CÓDICE 360X · QT453",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT453"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Mulher, 60 anos, TEP com troponina alta e VD dilatado, PA estável. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Anticoagulação plena com monitorização; trombólise de resgate se instabilizar<br><br>💬 Intermediário-alto: PEITHO.",
+   "pegadinha": "HNF se possível intervenção.",
+   "fonte": "Banco de questões CÓDICE 360X · QT454",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT454"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Homem, 72 anos, pericardite constritiva pós-radioterapia, ascite, turgência com sinal de Kussmaul. Tratamento definitivo?",
+   "verso": "<b class=c>✅ Resposta:</b> Pericardiectomia<br><br>💬 Constrição crônica é cirúrgica.",
+   "pegadinha": "Constrição transitória pode responder a anti-inflamatório.",
+   "fonte": "Banco de questões CÓDICE 360X · QT455",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT455"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Mulher, 45 anos, endocardite mitral por S. aureus, vegetação de 15 mm, IC com EAP. Momento da cirurgia?",
+   "verso": "<b class=c>✅ Resposta:</b> Urgente (dias) — IC por disfunção valvar<br><br>💬 IC é a principal indicação cirúrgica.",
+   "pegadinha": "AVC hemorrágico grande pode adiar.",
+   "fonte": "Banco de questões CÓDICE 360X · QT456",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT456"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Homem, 30 anos, síncope ao esforço, ECG normal em repouso, TV bidirecional no teste de esforço. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Taquicardia ventricular polimórfica catecolaminérgica — betabloqueador (nadolol), flecainida, CDI<br><br>💬 TV bidirecional com esforço.",
+   "pegadinha": "Também ocorre na intoxicação digitálica.",
+   "fonte": "Banco de questões CÓDICE 360X · QT457",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT457"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Mulher, 50 anos, emergência hipertensiva com SCA (dor anginosa, infra de ST), PA 200/110. Fármaco?",
+   "verso": "<b class=c>✅ Resposta:</b> Nitroglicerina IV ± betabloqueador<br><br>💬 Reduzir consumo de O₂.",
+   "pegadinha": "Evitar se infarto de VD ou PDE-5.",
+   "fonte": "Banco de questões CÓDICE 360X · QT458",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT458"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Homem, 66 anos, choque cardiogênico, BIA em uso. Benefício comprovado em mortalidade?",
+   "verso": "<b class=c>✅ Resposta:</b> Não — IABP-SHOCK II sem benefício; não usar de rotina<br><br>💬 Pode ser útil em complicação mecânica como ponte.",
+   "pegadinha": "Insuficiência aórtica contraindica.",
+   "fonte": "Banco de questões CÓDICE 360X · QT459",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT459"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Mulher, 80 anos, BAV total, digoxina, K 6,2. Medida antes do marca-passo?",
+   "verso": "<b class=c>✅ Resposta:</b> Tratar causas reversíveis (hipercalemia, intoxicação digitálica com Fab) e marca-passo provisório se instável<br><br>💬 Causas reversíveis antes do definitivo.",
+   "pegadinha": "Marca-passo definitivo só se não reversível.",
+   "fonte": "Banco de questões CÓDICE 360X · QT460",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT460"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Homem, 45 anos, cocaína, dor torácica, supra de ST. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Benzodiazepínico, AAS, nitrato e cateterismo (ICP se oclusão)<br><br>💬 Vasoespasmo e trombose.",
+   "pegadinha": "Dissecção de aorta é diferencial.",
+   "fonte": "Banco de questões CÓDICE 360X · QT461",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT461"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Mulher, 30 anos, taquicardia regular de QRS estreito 200 bpm, estável, manobra vagal falhou. Droga?",
+   "verso": "<b class=c>✅ Resposta:</b> Adenosina 6 mg em bolus rápido (depois 12 mg)<br><br>💬 Reentrada nodal.",
+   "pegadinha": "Valsalva modificada (REVERT).",
+   "fonte": "Banco de questões CÓDICE 360X · QT462",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT462"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Homem, 60 anos, IC aguda congestiva com resistência a diurético. Estratégia baseada em evidência para potencializar natriurese?",
+   "verso": "<b class=c>✅ Resposta:</b> Associar acetazolamida (ADVOR) ou tiazídico (CLOROTIC) ao diurético de alça<br><br>💬 Bloqueio sequencial do néfron.",
+   "pegadinha": "Monitorar K e Na.",
+   "fonte": "Banco de questões CÓDICE 360X · QT463",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT463"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Mulher, 55 anos, síncope, ECG com BAV 2º grau Mobitz II e BRE. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Monitorização e marca-passo (provisório se instável, definitivo)<br><br>💬 Doença infranodal.",
+   "pegadinha": "Atropina pode piorar bloqueio infranodal.",
+   "fonte": "Banco de questões CÓDICE 360X · QT464",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT464"
+   ]
+  },
+  {
+   "subtema": "Cardiologia intensiva",
+   "frente": "🎯 Homem, 70 anos, prótese aórtica mecânica, sangramento intracraniano em varfarina. Reversão e retorno?",
+   "verso": "<b class=c>✅ Resposta:</b> Reverter com CCP + vitamina K; reintroduzir anticoagulação geralmente após 1–2 semanas, individualizado<br><br>💬 Risco trombótico vs hemorrágico.",
+   "pegadinha": "Decisão multidisciplinar.",
+   "fonte": "Banco de questões CÓDICE 360X · QT465",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT465"
+   ]
+  },
+  {
    "subtema": "Desmame e VNI",
    "frente": "🎯 Paciente em TRE com PS 7 + PEEP 5 por 30 min apresenta FR 24, VT 380 mL. O RSBI é:",
    "verso": "<b class=c>✅ Resposta:</b> ~ 63<br><br>💬 RSBI = FR / VT (L) = 24 / 0,38 ≈ 63 → &lt; 105 favorece sucesso. Interpretar no conjunto do TRE.",
@@ -567,6 +747,42 @@
    ]
   },
   {
+   "subtema": "Eletrólitos",
+   "frente": "🎯 Homem, 45 anos, Mg 5,5 mg/dL após sulfato de magnésio em LRA, hiporreflexia, bradicardia. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Gluconato de cálcio IV, suspender Mg, hidratar/diurético; diálise se grave<br><br>💬 Hipermagnesemia sintomática.",
+   "pegadinha": "Arreflexia > 7 mg/dL.",
+   "fonte": "Banco de questões CÓDICE 360X · QT468",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT468"
+   ]
+  },
+  {
+   "subtema": "Eletrólitos",
+   "frente": "🎯 Mulher, 40 anos, pancreatite grave, cálcio iônico 0,85, parestesias, QT longo. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Repor cálcio IV (gluconato) e corrigir magnésio<br><br>💬 Saponificação na pancreatite.",
+   "pegadinha": "Hipocalcemia é marcador de gravidade.",
+   "fonte": "Banco de questões CÓDICE 360X · QT469",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT469"
+   ]
+  },
+  {
+   "subtema": "Eletrólitos",
+   "frente": "🎯 Homem, 70 anos, Na 112, convulsão, recebeu 300 mL de NaCl 3% e Na subiu para 118 em 2 h, sem sintomas agora. Próximo passo?",
+   "verso": "<b class=c>✅ Resposta:</b> Parar hipertônica e limitar a correção a 8–10 mEq/L em 24 h (já usou 6)<br><br>💬 Meta inicial atingida.",
+   "pegadinha": "Monitorar Na a cada 2–4 h.",
+   "fonte": "Banco de questões CÓDICE 360X · QT470",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT470"
+   ]
+  },
+  {
    "subtema": "Endocrinologia",
    "frente": "🎯 Cetoacidose diabética: quando iniciar insulina?",
    "verso": "<b class=c>✅ Resposta:</b> Após K ≥ 3,5 mEq/L (repor antes se menor)<br><br>💬 Consenso 2024: K &lt; 3,5 → repor e adiar insulina. Insulina 0,1 U/kg/h; trocar para SG quando glicose &lt; 250 mg/dL.",
@@ -732,6 +948,102 @@
     "PEGA360X",
     "TEMI",
     "QT397"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 60 anos, ipilimumabe + nivolumabe, cefaleia, fadiga, hipotensão, Na 128, ACTH e cortisol baixos. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Hipofisite imunomediada — hidrocortisona (reposição antes de levotiroxina)<br><br>💬 Típica com anti-CTLA-4.",
+   "pegadinha": "Insuficiência adrenal secundária costuma ser permanente.",
+   "fonte": "Banco de questões CÓDICE 360X · QT474",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT474"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Mulher, 30 anos, CAD, glicemia 250, pH 7,15, K 3,0. Primeiro passo?",
+   "verso": "<b class=c>✅ Resposta:</b> Repor potássio antes da insulina (K &lt; 3,3)<br><br>💬 Insulina leva K para dentro da célula.",
+   "pegadinha": "Glicemia &lt; 250: adicionar glicose.",
+   "fonte": "Banco de questões CÓDICE 360X · QT535",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT535"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 70 anos, glicemia 1.000, Na corrigido 160, osmolaridade 380, sem cetose. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> EHH: hidratação vigorosa primeiro, insulina em dose baixa depois<br><br>💬 Déficit hídrico enorme.",
+   "pegadinha": "Risco de TEV.",
+   "fonte": "Banco de questões CÓDICE 360X · QT536",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT536"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Mulher, 45 anos, usando iSGLT2, glicemia 180, pH 7,1, cetonas altas. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> CAD euglicêmica — tratar como CAD com glicose desde o início<br><br>💬 Glicemia normal não exclui CAD.",
+   "pegadinha": "Suspender iSGLT2 antes de cirurgia.",
+   "fonte": "Banco de questões CÓDICE 360X · QT537",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT537"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 50 anos, febre, taquicardia 160, FA, delirium, icterícia, bócio. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Tempestade tireoidiana: betabloqueador, tionamida (PTU), iodo após 1 h, hidrocortisona<br><br>💬 Escore de Burch-Wartofsky.",
+   "pegadinha": "Iodo só após tionamida.",
+   "fonte": "Banco de questões CÓDICE 360X · QT538",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT538"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Mulher, 40 anos, UTI, glicemias 220–250. Meta?",
+   "verso": "<b class=c>✅ Resposta:</b> 140–180 mg/dL (NICE-SUGAR)<br><br>💬 Controle intensivo aumentou mortalidade.",
+   "pegadinha": "Hipoglicemia &lt; 70 é evento grave.",
+   "fonte": "Banco de questões CÓDICE 360X · QT541",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT541"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Mulher, 30 anos, feocromocitoma, crise hipertensiva. Primeira droga?",
+   "verso": "<b class=c>✅ Resposta:</b> Alfabloqueador (fentolamina/doxazosina), depois betabloqueador<br><br>💬 Beta sem alfa causa crise.",
+   "pegadinha": "Nitroprussiato como alternativa.",
+   "fonte": "Banco de questões CÓDICE 360X · QT543",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT543"
+   ]
+  },
+  {
+   "subtema": "Endocrinologia",
+   "frente": "🎯 Homem, 45 anos, hipercalcemia 15, confusão, PTH suprimido, câncer de pulmão. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Hidratação SF + calcitonina + bisfosfonato (ou denosumabe se DRC)<br><br>💬 PTHrP.",
+   "pegadinha": "Calcitonina age em horas; taquifilaxia.",
+   "fonte": "Banco de questões CÓDICE 360X · QT544",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT544"
    ]
   },
   {
@@ -1083,6 +1395,114 @@
    ]
   },
   {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Homem, 50 anos, pancreatite aguda grave, D2, hemodinamicamente estável. Via de nutrição preferida?",
+   "verso": "<b class=c>✅ Resposta:</b> Enteral precoce (24–72 h), gástrica ou pós-pilórica<br><br>💬 Enteral preserva barreira intestinal.",
+   "pegadinha": "Lipase não guia dieta.",
+   "fonte": "Banco de questões CÓDICE 360X · QT526",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT526"
+   ]
+  },
+  {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Homem, 55 anos, cirrótico, HDA varicosa. Medidas iniciais além do octreotide?",
+   "verso": "<b class=c>✅ Resposta:</b> Ceftriaxona profilática + transfusão restritiva (Hb 7) + EDA em 12 h<br><br>💬 Profilaxia reduz mortalidade.",
+   "pegadinha": "Child C 10–13: TIPS preemptivo.",
+   "fonte": "Banco de questões CÓDICE 360X · QT528",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT528"
+   ]
+  },
+  {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Mulher, 30 anos, insuficiência hepática aguda por paracetamol, encefalopatia grau III, amônia 200. Medidas?",
+   "verso": "<b class=c>✅ Resposta:</b> UTI, proteção de via aérea, NAC, controle de amônia (hemodiálise contínua se muito alta), avaliar transplante (King's College)<br><br>💬 Edema cerebral é causa de morte.",
+   "pegadinha": "Amônia > 150: risco de herniação.",
+   "fonte": "Banco de questões CÓDICE 360X · QT529",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT529"
+   ]
+  },
+  {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Mulher, 70 anos, FA sem anticoagulação, dor abdominal desproporcional ao exame, lactato alto. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Isquemia mesentérica aguda (embólica) — angioTC, heparina, revascularização<br><br>💬 Dor desproporcional.",
+   "pegadinha": "Lactato normal não exclui.",
+   "fonte": "Banco de questões CÓDICE 360X · QT531",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT531"
+   ]
+  },
+  {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Homem, 40 anos, pancreatite necrosante D5, febre, sem gás. Antibiótico profilático?",
+   "verso": "<b class=c>✅ Resposta:</b> Não — profilaxia não recomendada; tratar se necrose infectada<br><br>💬 Sem benefício em mortalidade.",
+   "pegadinha": "Necrose infectada: step-up tardio (> 4 semanas).",
+   "fonte": "Banco de questões CÓDICE 360X · QT532",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT532"
+   ]
+  },
+  {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Mulher, 50 anos, cirrótica, ascite, febre, PMN no líquido 400. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> PBE: ceftriaxona + albumina (1,5 g/kg D1 e 1 g/kg D3)<br><br>💬 Albumina reduz SHR.",
+   "pegadinha": "Polimicrobiana: pensar secundária.",
+   "fonte": "Banco de questões CÓDICE 360X · QT533",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT533"
+   ]
+  },
+  {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Homem, 60 anos, cirrótico, creatinina subindo, sem resposta a albumina 48 h, sem choque. Diagnóstico e conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> SHR-LRA: terlipressina + albumina<br><br>💬 Diagnóstico de exclusão.",
+   "pegadinha": "Terlipressina: risco de insuficiência respiratória (CONFIRM).",
+   "fonte": "Banco de questões CÓDICE 360X · QT534",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT534"
+   ]
+  },
+  {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Homem, 70 anos, hematoquezia maciça, instável, EDA normal. Próximo passo?",
+   "verso": "<b class=c>✅ Resposta:</b> AngioTC; embolização se extravasamento (colonoscopia após preparo se estabilizar)<br><br>💬 EDA exclui fonte alta.",
+   "pegadinha": "Divertículo é causa mais comum.",
+   "fonte": "Banco de questões CÓDICE 360X · QT542",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT542"
+   ]
+  },
+  {
+   "subtema": "Gastro e nutrição",
+   "frente": "🎯 Mulher, 60 anos, UTI D10, NPT, choque séptico, febre, dor em hipocôndrio direito, US com parede vesicular espessa sem cálculos. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Colecistite alitiásica — antibiótico + colecistostomia percutânea<br><br>💬 Doente crítico com estase biliar.",
+   "pegadinha": "Alta taxa de gangrena/perfuração.",
+   "fonte": "Banco de questões CÓDICE 360X · QT547",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT547"
+   ]
+  },
+  {
    "subtema": "Hematologia",
    "frente": "🎯 Limiar transfusional de hemácias na maioria dos críticos estáveis (TRICC, TRISS):",
    "verso": "<b class=c>✅ Resposta:</b> Hb &lt; 7 g/dL<br><br>💬 Estratégia restritiva (7 g/dL) é segura. Exceção atual: IAM — AABB 2025 sugere estratégia liberal (Hb &lt; 10).",
@@ -1320,6 +1740,138 @@
     "PEGA360X",
     "TEMI",
     "QT392"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 30 anos, febre persistente, pancitopenia, esplenomegalia, ferritina 15.000, triglicerídeos 450, fibrinogênio 120. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Linfo-histiocitose hemofagocítica (HScore) — dexametasona/etoposídeo, tratar gatilho<br><br>💬 Ferritina muito alta e citopenias.",
+   "pegadinha": "sCD25 elevado.",
+   "fonte": "Banco de questões CÓDICE 360X · QT492",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT492"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 60 anos, Waldenström, cefaleia, alteração visual, sangramento mucoso, IgM muito alta. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome de hiperviscosidade — plasmaférese urgente<br><br>💬 IgM é pentamérica e intravascular.",
+   "pegadinha": "Fundo de olho com veias em salsicha.",
+   "fonte": "Banco de questões CÓDICE 360X · QT493",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT493"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 70 anos, UTI, Hb 9,5, sem sangramento, coronariopata estável. Transfusão?",
+   "verso": "<b class=c>✅ Resposta:</b> Não transfundir (limiar 7–8)<br><br>💬 Estratégia restritiva.",
+   "pegadinha": "SCA aguda: limiar mais alto.",
+   "fonte": "Banco de questões CÓDICE 360X · QT494",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT494"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 45 anos, transfusão maciça, Ca iônico 0,7, hipotensão. Causa e conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Hipocalcemia por citrato — cálcio IV<br><br>💬 Citrato quela cálcio.",
+   "pegadinha": "Hipocalcemia piora coagulopatia e contratilidade.",
+   "fonte": "Banco de questões CÓDICE 360X · QT495",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT495"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 55 anos, UTI clínica, sem contraindicação, imobilizado. Profilaxia de TEV preferida?",
+   "verso": "<b class=c>✅ Resposta:</b> Heparina de baixo peso (ou HNF na DRC)<br><br>💬 Profilaxia farmacológica padrão.",
+   "pegadinha": "PREVENT: compressão pneumática adicional sem benefício.",
+   "fonte": "Banco de questões CÓDICE 360X · QT496",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT496"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Homem, 55 anos, LMA M3 (promielocítica), sangramento, fibrinogênio 80. Conduta imediata?",
+   "verso": "<b class=c>✅ Resposta:</b> ATRA imediato na suspeita + suporte com crioprecipitado/plaquetas<br><br>💬 Coagulopatia mata cedo.",
+   "pegadinha": "Síndrome de diferenciação: dexametasona.",
+   "fonte": "Banco de questões CÓDICE 360X · QT548",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT548"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Paciente com sobrecarga hídrica, dispneia e hipertensão 2 h após transfusão, BNP alto. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> TACO — diurético, reduzir volume<br><br>💬 Hipertensão e BNP alto.",
+   "pegadinha": "Causa mais comum de morte transfusional.",
+   "fonte": "Banco de questões CÓDICE 360X · QT573",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT573"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Plaquetas 30 mil, sem sangramento, vai inserir CVC jugular guiado por US. Transfundir?",
+   "verso": "<b class=c>✅ Resposta:</b> Não — limiar ~10–20 mil para CVC guiado por US (PACER)<br><br>💬 Reduz exposição.",
+   "pegadinha": "Profilática: 10 mil sem sangramento.",
+   "fonte": "Banco de questões CÓDICE 360X · QT574",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT574"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Reação transfusional com febre, dor lombar, hemoglobinúria nos primeiros minutos. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Parar transfusão, manter acesso, volume, investigar hemólise ABO (Coombs, conferência)<br><br>💬 Reação hemolítica aguda.",
+   "pegadinha": "Erro de identificação é a principal causa.",
+   "fonte": "Banco de questões CÓDICE 360X · QT575",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT575"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Plaquetopenia D7 de heparina, queda > 50%, trombose venosa nova. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> TIH: suspender heparina, iniciar argatrobana/fondaparinux/DOAC; 4T e anticorpo<br><br>💬 4T alto.",
+   "pegadinha": "Varfarina só após recuperação plaquetária.",
+   "fonte": "Banco de questões CÓDICE 360X · QT595",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT595"
+   ]
+  },
+  {
+   "subtema": "Hematologia",
+   "frente": "🎯 Mulher, 60 anos, sem história hemorrágica, hematomas extensos, TTPa prolongado que não corrige com mistura, TP normal. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Hemofilia adquirida (inibidor do fator VIII) — agente bypass, imunossupressão<br><br>💬 Mistura não corrige = inibidor.",
+   "pegadinha": "Associada a idosos, pós-parto, câncer.",
+   "fonte": "Banco de questões CÓDICE 360X · QT596",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT596"
    ]
   },
   {
@@ -1596,6 +2148,162 @@
     "PEGA360X",
     "TEMI",
     "QT364"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Homem, 60 anos, choque séptico, termodiluição transpulmonar: índice de água extravascular pulmonar 18 mL/kg, índice de permeabilidade vascular pulmonar 3,5. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Edema por aumento de permeabilidade (SDRA) — evitar volume adicional<br><br>💬 EVLWi > 10 indica edema; PVPI > 3 sugere permeabilidade.",
+   "pegadinha": "EVLWi alto associa-se a mortalidade.",
+   "fonte": "Banco de questões CÓDICE 360X · QT411",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT411"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Mulher, 55 anos, VTI de VSVE 18 cm, diâmetro de VSVE 2,0 cm, FC 100. Débito cardíaco aproximado?",
+   "verso": "<b class=c>✅ Resposta:</b> 5,6 L/min<br><br>💬 Área = π × 1² = 3,14 cm²; VS = 3,14 × 18 ≈ 56,5 mL; DC = 56,5 × 100 ≈ 5,6 L/min.",
+   "pegadinha": "Erro no diâmetro é elevado ao quadrado.",
+   "fonte": "Banco de questões CÓDICE 360X · QT412",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT412"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Homem, 58 anos, VM com VT 6 mL/kg, FA, respiração espontânea. VPP = 16%. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> VPP não é válida (arritmia, esforço espontâneo, VT baixo) — usar PLR ou mini-bolus<br><br>💬 Requisitos: ritmo sinusal, VM controlada, VT ≥ 8 mL/kg, tórax fechado.",
+   "pegadinha": "PLR independe dessas limitações.",
+   "fonte": "Banco de questões CÓDICE 360X · QT413",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT413"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Mulher, 65 anos, choque séptico com noradrenalina 0,3. Pergunta-se sobre dopamina. Evidência?",
+   "verso": "<b class=c>✅ Resposta:</b> Mais arritmias e maior mortalidade no choque cardiogênico (SOAP II) — evitar como 1ª linha<br><br>💬 Dopamina 'renal' não protege (ANZICS).",
+   "pegadinha": "Opção em bradicardia selecionada.",
+   "fonte": "Banco de questões CÓDICE 360X · QT414",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT414"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Homem, 70 anos, choque séptico, adrenalina iniciada, lactato sobe de 3 para 6 sem piora da perfusão. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Hiperlactatemia aerobia por estímulo β2 (glicólise) — avaliar perfusão clínica<br><br>💬 Adrenalina eleva lactato sem hipoperfusão.",
+   "pegadinha": "Use TEC e ScvO₂ juntos.",
+   "fonte": "Banco de questões CÓDICE 360X · QT415",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT415"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Mulher, 50 anos, vasoplegia refratária pós-CEC com noradrenalina e vasopressina altas. Opção de resgate?",
+   "verso": "<b class=c>✅ Resposta:</b> Azul de metileno (inibe guanilato ciclase/NO)<br><br>💬 Útil na vasoplegia pós-CEC e em choque refratário.",
+   "pegadinha": "Contraindicado com ISRS (síndrome serotoninérgica).",
+   "fonte": "Banco de questões CÓDICE 360X · QT416",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT416"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Homem, 64 anos, choque vasoplégico, ATHOS-3 avaliou angiotensina II. Perfil com maior benefício?",
+   "verso": "<b class=c>✅ Resposta:</b> Pacientes com renina elevada e necessidade de TRS (análises secundárias)<br><br>💬 Angiotensina II elevou a PAM e reduziu a dose de catecolaminas.",
+   "pegadinha": "Aumenta eventos trombóticos.",
+   "fonte": "Banco de questões CÓDICE 360X · QT417",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT417"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Mulher, 58 anos, IC aguda com baixo débito em uso crônico de carvedilol. Inotrópico preferível?",
+   "verso": "<b class=c>✅ Resposta:</b> Levosimendana ou milrinona (não dependem do receptor β)<br><br>💬 Betabloqueio reduz efeito de agonistas β.",
+   "pegadinha": "Milrinona acumula na DRC.",
+   "fonte": "Banco de questões CÓDICE 360X · QT418",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT418"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Homem, 35 anos, trauma, PA 85/50, FC 135, ansioso/confuso, diurese 10 mL/h. Classe de choque hemorrágico (ATLS)?",
+   "verso": "<b class=c>✅ Resposta:</b> III (perda 31–40%)<br><br>💬 Classe III: hipotensão, FC > 120, confusão, oligúria.",
+   "pegadinha": "ATLS 10ª ed. usa déficit de base.",
+   "fonte": "Banco de questões CÓDICE 360X · QT419",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT419"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Paciente em VM, inserção de CVC jugular, hipotensão súbita, ruído em roda de moinho, ETCO₂ cai. Diagnóstico e manobra?",
+   "verso": "<b class=c>✅ Resposta:</b> Embolia gasosa venosa — decúbito lateral esquerdo + Trendelenburg, O₂ 100%, aspirar pelo cateter<br><br>💬 Posição de Durant.",
+   "pegadinha": "Hiperbárica em embolia arterial.",
+   "fonte": "Banco de questões CÓDICE 360X · QT447",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT447"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Choque, US com VCI de 2,5 cm sem variação, VE com FE 15%, pulmão com linhas B. Perfil e conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Cardiogênico — inotrópico/vasopressor, evitar volume<br><br>💬 Congestão + baixa FE.",
+   "pegadinha": "Noradrenalina antes de dobutamina se PAM baixa.",
+   "fonte": "Banco de questões CÓDICE 360X · QT580",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT580"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Choque séptico, lactato 4 e TEC 5 s. Guia de ressuscitação (ANDROMEDA)?",
+   "verso": "<b class=c>✅ Resposta:</b> Tempo de enchimento capilar é alternativa válida, com menos volume<br><br>💬 Tendência a menor mortalidade com TEC.",
+   "pegadinha": "Lactato cai lentamente.",
+   "fonte": "Banco de questões CÓDICE 360X · QT581",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT581"
+   ]
+  },
+  {
+   "subtema": "Hemodinâmica",
+   "frente": "🎯 Choque cardiogênico pós-IAM, SCAI E, sem resposta a inotrópico. Opções?",
+   "verso": "<b class=c>✅ Resposta:</b> Suporte mecânico (Impella, ECMO VA) em centro com expertise; DanGer Shock mostrou benefício de Impella CP em selecionados<br><br>💬 IABP-SHOCK II negativo.",
+   "pegadinha": "ECLS-SHOCK negativo para ECMO de rotina.",
+   "fonte": "Banco de questões CÓDICE 360X · QT582",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT582"
    ]
   },
   {
@@ -1971,6 +2679,246 @@
    ]
   },
   {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 60 anos, VM D6, febre, secreção purulenta, sem infiltrado novo no RX ou TC. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Traqueobronquite associada à VM — antibiótico controverso; avaliar caso a caso<br><br>💬 Ausência de infiltrado diferencia de PAV.",
+   "pegadinha": "Culturas quantitativas ajudam.",
+   "fonte": "Banco de questões CÓDICE 360X · QT476",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT476"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Mulher, 55 anos, hemocultura com Staphylococcus epidermidis em 1 de 2 pares, sem cateter, afebril. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Provável contaminação — repetir hemoculturas antes de tratar<br><br>💬 Coagulase-negativo em 1 amostra raramente é real.",
+   "pegadinha": "Real se múltiplos frascos ou prótese/cateter.",
+   "fonte": "Banco de questões CÓDICE 360X · QT477",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT477"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 45 anos, DM descompensado com cetoacidose, dor facial, necrose preta em palato e cornetos. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Mucormicose: anfotericina B lipossomal em dose alta + desbridamento cirúrgico agressivo + controle da glicemia<br><br>💬 Voriconazol não cobre Mucorales.",
+   "pegadinha": "Isavuconazol/posaconazol como alternativa.",
+   "fonte": "Banco de questões CÓDICE 360X · QT478",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT478"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Mulher, 40 anos, COVID grave em O₂ de alto fluxo, PCR muito alta, em dexametasona. Imunomodulador adicional?",
+   "verso": "<b class=c>✅ Resposta:</b> Tocilizumabe ou baricitinibe (RECOVERY, REMAP-CAP)<br><br>💬 Benefício em mortalidade em doentes graves com inflamação.",
+   "pegadinha": "Rastrear estrongiloidíase em áreas endêmicas.",
+   "fonte": "Banco de questões CÓDICE 360X · QT479",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT479"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 70 anos, influenza grave, VM, D5 de sintomas. Oseltamivir?",
+   "verso": "<b class=c>✅ Resposta:</b> Sim — iniciar em hospitalizados graves independentemente do tempo de sintomas<br><br>💬 Benefício observado mesmo tardio em graves.",
+   "pegadinha": "Coinfecção bacteriana (S. aureus) é comum.",
+   "fonte": "Banco de questões CÓDICE 360X · QT480",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT480"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Mulher, 30 anos, dengue grave com choque (grupo D), hematócrito subindo. Reposição?",
+   "verso": "<b class=c>✅ Resposta:</b> Cristaloide 20 mL/kg em 20 min, repetir até 3×, reavaliar; coloide/albumina se persistir<br><br>💬 Extravasamento plasmático.",
+   "pegadinha": "Hematócrito em queda sem melhora: sangramento oculto.",
+   "fonte": "Banco de questões CÓDICE 360X · QT481",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT481"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 35 anos, febre, icterícia, hemorragia, LRA, AST 5.000 > ALT, bradicardia relativa, sem vacina, área silvestre. Suspeita?",
+   "verso": "<b class=c>✅ Resposta:</b> Febre amarela grave — suporte intensivo, notificação imediata; avaliar transplante hepático em centros<br><br>💬 AST > ALT e sinal de Faget.",
+   "pegadinha": "Sem antiviral específico.",
+   "fonte": "Banco de questões CÓDICE 360X · QT482",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT482"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Mulher, 28 anos, área rural, febre, mialgia, depois tosse e edema pulmonar não cardiogênico com choque, hemoconcentração e plaquetopenia. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome cardiopulmonar por hantavírus — suporte, ECMO em casos graves<br><br>💬 Exposição a roedores silvestres.",
+   "pegadinha": "Evitar excesso de volume.",
+   "fonte": "Banco de questões CÓDICE 360X · QT483",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT483"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 50 anos, mordida de morcego há 40 dias, agora agitação, hidrofobia, aerofobia. Diagnóstico e prognóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Raiva — letalidade quase 100%; cuidados de suporte/paliativos, notificação, profilaxia de contatos de risco<br><br>💬 Profilaxia pós-exposição deve ser feita antes dos sintomas.",
+   "pegadinha": "Protocolo de Milwaukee sem eficácia consistente.",
+   "fonte": "Banco de questões CÓDICE 360X · QT484",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT484"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Mulher, 66 anos, pneumonia hospitalar por MRSA, creatinina subindo com vancomicina. Alternativa?",
+   "verso": "<b class=c>✅ Resposta:</b> Linezolida<br><br>💬 Daptomicina é inativada no pulmão.",
+   "pegadinha": "Monitorar plaquetas.",
+   "fonte": "Banco de questões CÓDICE 360X · QT485",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT485"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 58 anos, bacteriemia por Enterococcus faecium resistente à vancomicina. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Daptomicina em dose alta (ou linezolida)<br><br>💬 E. faecium VRE geralmente resistente à ampicilina.",
+   "pegadinha": "Remover cateteres.",
+   "fonte": "Banco de questões CÓDICE 360X · QT486",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT486"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Mulher, 50 anos, peritonite terciária, perfuração de alça, imunossupressão. Antifúngico empírico?",
+   "verso": "<b class=c>✅ Resposta:</b> Considerar equinocandina em perfuração alta/recorrente com fatores de risco (Candida)<br><br>💬 Peritonite por Candida em reoperações/perfurações altas.",
+   "pegadinha": "Cultura do líquido peritoneal.",
+   "fonte": "Banco de questões CÓDICE 360X · QT487",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT487"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 60 anos, transplante hepático há 2 meses, diarreia, dor abdominal, colonoscopia com úlceras, inclusões virais na biópsia. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Colite por CMV — ganciclovir IV<br><br>💬 Inclusões 'olho de coruja'.",
+   "pegadinha": "Reduzir imunossupressão.",
+   "fonte": "Banco de questões CÓDICE 360X · QT488",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT488"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Mulher, 52 anos, neutropenia pós-quimioterapia, dor em FID, distensão, diarreia, espessamento de ceco na TC. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Enterocolite neutropênica (tiflite) — jejum, ATB com cobertura de anaeróbios, suporte; cirurgia se perfuração<br><br>💬 Ceco é o local mais acometido.",
+   "pegadinha": "Evitar colonoscopia.",
+   "fonte": "Banco de questões CÓDICE 360X · QT489",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT489"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 45 anos, cateter venoso central femoral há 10 dias, febre, hemocultura do cateter positiva 3 h antes da periférica. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Infecção de corrente sanguínea relacionada ao cateter (tempo diferencial ≥ 2 h)<br><br>💬 Tempo diferencial para positividade.",
+   "pegadinha": "Femoral tem mais infecção.",
+   "fonte": "Banco de questões CÓDICE 360X · QT490",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT490"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Mulher, 58 anos, sepse, antibiograma: Klebsiella com NDM (metalo-β-lactamase). Opção?",
+   "verso": "<b class=c>✅ Resposta:</b> Ceftazidima-avibactam + aztreonam (ou cefiderocol)<br><br>💬 Avibactam não inibe metalo; aztreonam não é hidrolisado por NDM.",
+   "pegadinha": "Polimixina é alternativa inferior.",
+   "fonte": "Banco de questões CÓDICE 360X · QT491",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT491"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 55 anos, diabético, dor desproporcional em coxa, crepitação, bolhas, choque. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Fasciíte necrotizante: desbridamento cirúrgico imediato + pip-tazo/carbapenêmico + clindamicina (± vancomicina)<br><br>💬 Cirurgia precoce reduz mortalidade.",
+   "pegadinha": "LRINEC tem baixa sensibilidade.",
+   "fonte": "Banco de questões CÓDICE 360X · QT507",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT507"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Homem, 65 anos, D5 pós-esternotomia, febre, instabilidade esternal, secreção purulenta. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Mediastinite pós-esternotomia — desbridamento cirúrgico + antibiótico (S. aureus)<br><br>💬 Fatores: DM, obesidade, artérias mamárias bilaterais.",
+   "pegadinha": "TC ajuda após 2 semanas.",
+   "fonte": "Banco de questões CÓDICE 360X · QT551",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT551"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Bacteriemia Gram-negativa não complicada, controle de foco. Duração (BALANCE)?",
+   "verso": "<b class=c>✅ Resposta:</b> 7 dias<br><br>💬 BALANCE 2024: 7 dias não inferior.",
+   "pegadinha": "Excluía imunossupressão grave.",
+   "fonte": "Banco de questões CÓDICE 360X · QT593",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT593"
+   ]
+  },
+  {
+   "subtema": "Infecções na UTI",
+   "frente": "🎯 Bacteriemia por S. aureus. Cuidado essencial?",
+   "verso": "<b class=c>✅ Resposta:</b> Ecocardiograma, hemoculturas de controle, retirar dispositivos, ≥ 14 dias (complicada: 4–6 semanas)<br><br>💬 Consulta de infectologia reduz mortalidade.",
+   "pegadinha": "MSSA: cefazolina ou oxacilina.",
+   "fonte": "Banco de questões CÓDICE 360X · QT594",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT594"
+   ]
+  },
+  {
    "subtema": "Medicina intensiva geral",
    "frente": "🎯 Bundle ABCDEF da SCCM inclui:",
    "verso": "<b class=c>✅ Resposta:</b> Analgesia, despertar e respiração espontânea, escolha da sedação, delirium, mobilização precoce e família<br><br>💬 Adesão ao bundle associou-se a menor mortalidade, delirium e reinternação.",
@@ -2016,6 +2964,78 @@
     "PEGA360X",
     "TEMI",
     "QT328"
+   ]
+  },
+  {
+   "subtema": "Medicina intensiva geral",
+   "frente": "🎯 Paciente em IOT, 'não intubo, não oxigeno' após falha de videolaringoscopia e dispositivo supraglótico. Próximo passo?",
+   "verso": "<b class=c>✅ Resposta:</b> Cricotireoidostomia cirúrgica (bisturi-bougie-tubo)<br><br>💬 Algoritmo DAS.",
+   "pegadinha": "Declarar CICO em voz alta.",
+   "fonte": "Banco de questões CÓDICE 360X · QT508",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT508"
+   ]
+  },
+  {
+   "subtema": "Medicina intensiva geral",
+   "frente": "🎯 Homem, 60 anos, hipotermia acidental 26 °C, PCR em FV. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> RCP prolongada + reaquecimento extracorpóreo (ECMO); 'ninguém está morto até estar quente e morto'<br><br>💬 &lt; 30 °C: até 3 choques e adiar drogas.",
+   "pegadinha": "K > 12 sugere óbito irreversível.",
+   "fonte": "Banco de questões CÓDICE 360X · QT539",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT539"
+   ]
+  },
+  {
+   "subtema": "Medicina intensiva geral",
+   "frente": "🎯 Homem, 20 anos, afogamento em água doce, resgatado, tosse, estertores, SpO₂ 86%. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> O₂/CPAP ou VNI; IOT se rebaixamento; ventilação protetora com PEEP — fisiopatologia é hipoxêmica<br><br>💬 Água doce vs salgada sem diferença clínica relevante.",
+   "pegadinha": "Lesão cervical só se mergulho/trauma.",
+   "fonte": "Banco de questões CÓDICE 360X · QT540",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT540"
+   ]
+  },
+  {
+   "subtema": "Medicina intensiva geral",
+   "frente": "🎯 Rocurônio 1,2 mg/kg, falha de via aérea, necessidade de reverter bloqueio profundo imediatamente. Droga e dose?",
+   "verso": "<b class=c>✅ Resposta:</b> Sugamadex 16 mg/kg<br><br>💬 Encapsula aminoesteroides.",
+   "pegadinha": "Anafilaxia rara ao sugamadex.",
+   "fonte": "Banco de questões CÓDICE 360X · QT589",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT589"
+   ]
+  },
+  {
+   "subtema": "Medicina intensiva geral",
+   "frente": "🎯 Homem, 25 anos, maratona sob calor, confusão, temperatura 41,5 °C, anidrose. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Intermação por esforço: resfriamento imediato por imersão em água gelada (meta &lt; 39 °C em 30 min)<br><br>💬 Tempo de hipertermia define lesão.",
+   "pegadinha": "Cool first, transport second.",
+   "fonte": "Banco de questões CÓDICE 360X · QT597",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT597"
+   ]
+  },
+  {
+   "subtema": "Medicina intensiva geral",
+   "frente": "🎯 Homem, 60 anos, angioedema de língua sem urticária, em uso de IECA, estridor. Prioridade?",
+   "verso": "<b class=c>✅ Resposta:</b> Via aérea: avaliação precoce para IOT por fibroscopia acordado; suspender IECA; icatibanto/plasma<br><br>💬 Bradicinina.",
+   "pegadinha": "Preparar cricotireoidostomia.",
+   "fonte": "Banco de questões CÓDICE 360X · QT598",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT598"
    ]
   },
   {
@@ -2244,6 +3264,90 @@
     "PEGA360X",
     "TEMI",
     "QT396"
+   ]
+  },
+  {
+   "subtema": "Nefrologia e distúrbios",
+   "frente": "🎯 Homem, 60 anos, LRA séptica, pergunta-se sobre furosemida para prevenir/tratar LRA. Evidência?",
+   "verso": "<b class=c>✅ Resposta:</b> Não previne nem trata LRA; usar só para sobrecarga de volume<br><br>💬 Sem benefício renal.",
+   "pegadinha": "Teste de estresse tem papel prognóstico.",
+   "fonte": "Banco de questões CÓDICE 360X · QT466",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT466"
+   ]
+  },
+  {
+   "subtema": "Nefrologia e distúrbios",
+   "frente": "🎯 Mulher, 55 anos, transplante renal, LRA, nível de tacrolimus alto após iniciar claritromicina. Mecanismo?",
+   "verso": "<b class=c>✅ Resposta:</b> Inibição do CYP3A4 aumenta o nível de tacrolimus (nefrotoxicidade)<br><br>💬 Macrolídeos e azóis.",
+   "pegadinha": "Azitromicina interage menos.",
+   "fonte": "Banco de questões CÓDICE 360X · QT467",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT467"
+   ]
+  },
+  {
+   "subtema": "Nefrologia e distúrbios",
+   "frente": "🎯 Mulher, 66 anos, contraste necessário para angio-TC de TEP, TFG 35. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Realizar (benefício supera risco), hidratação isotônica se possível, menor volume<br><br>💬 Não atrasar diagnóstico grave.",
+   "pegadinha": "Risco real menor que o estimado no passado.",
+   "fonte": "Banco de questões CÓDICE 360X · QT475",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT475"
+   ]
+  },
+  {
+   "subtema": "Nefrologia e distúrbios",
+   "frente": "🎯 Mulher, 45 anos, esclerose sistêmica difusa, hipertensão abrupta, LRA, anemia microangiopática. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Crise renal esclerodérmica: IECA (captopril) titulado<br><br>💬 Corticoide em alta dose é fator de risco.",
+   "pegadinha": "IECA mesmo em diálise.",
+   "fonte": "Banco de questões CÓDICE 360X · QT525",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT525"
+   ]
+  },
+  {
+   "subtema": "Nefrologia e distúrbios",
+   "frente": "🎯 LRA com sobrecarga, sem urgência. Início precoce de diálise (STARRT-AKI)?",
+   "verso": "<b class=c>✅ Resposta:</b> Não — estratégia precoce não reduz mortalidade e aumenta dependência dialítica<br><br>💬 Aguardar indicação clássica.",
+   "pegadinha": "AEIOU: indicações.",
+   "fonte": "Banco de questões CÓDICE 360X · QT570",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT570"
+   ]
+  },
+  {
+   "subtema": "Nefrologia e distúrbios",
+   "frente": "🎯 Hemodiálise contínua com citrato, Ca total/iônico > 2,5. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Acúmulo de citrato (falência metabólica hepática) — reduzir citrato<br><br>💬 Ca total sobe, iônico cai.",
+   "pegadinha": "Gap aniônico aumenta.",
+   "fonte": "Banco de questões CÓDICE 360X · QT571",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT571"
+   ]
+  },
+  {
+   "subtema": "Nefrologia e distúrbios",
+   "frente": "🎯 Dose de efluente recomendada na TRS contínua?",
+   "verso": "<b class=c>✅ Resposta:</b> 20–25 mL/kg/h (entregue)<br><br>💬 RENAL e ATN trials.",
+   "pegadinha": "Prescrever 25–30 por pausas.",
+   "fonte": "Banco de questões CÓDICE 360X · QT572",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT572"
    ]
   },
   {
@@ -2679,6 +3783,246 @@
    ]
   },
   {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Mulher, 35 anos, puérpera, cefaleia súbita intensa recorrente, TC e LCR normais, angio-TC com estreitamentos segmentares múltiplos. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome de vasoconstrição cerebral reversível — suspender gatilhos (vasoativos, ISRS), BCC (nimodipino/verapamil)<br><br>💬 Cefaleias em trovoada recorrentes; reversão em 12 semanas.",
+   "pegadinha": "Evitar corticoide (piora).",
+   "fonte": "Banco de questões CÓDICE 360X · QT426",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT426"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 40 anos, cefaleia, papiledema, convulsão, TC com hemorragia lobar parassagital e sinal do delta vazio. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Trombose de seio venoso: anticoagulação com heparina mesmo com hemorragia<br><br>💬 Hemorragia venosa não contraindica anticoagulação.",
+   "pegadinha": "Após fase aguda, DOAC é opção (ACTION-CVT).",
+   "fonte": "Banco de questões CÓDICE 360X · QT427",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT427"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Mulher, 66 anos, AVC isquêmico, NIHSS 10, 2 h do início. Trombolítico alternativo à alteplase?",
+   "verso": "<b class=c>✅ Resposta:</b> Tenecteplase 0,25 mg/kg em bolus único<br><br>💬 Não inferior à alteplase e mais prática (AcT).",
+   "pegadinha": "Dose 0,4 mg/kg não é recomendada.",
+   "fonte": "Banco de questões CÓDICE 360X · QT428",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT428"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 28 anos, TCE grave, sem convulsões. Profilaxia anticonvulsivante?",
+   "verso": "<b class=c>✅ Resposta:</b> Fenitoína (ou levetiracetam) por 7 dias reduz crises precoces, sem impacto em crises tardias<br><br>💬 BTF: profilaxia de crises precoces.",
+   "pegadinha": "Levetiracetam tem melhor perfil.",
+   "fonte": "Banco de questões CÓDICE 360X · QT429",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT429"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Mulher, 55 anos, coma após cirurgia, sem crises visíveis, EEG contínuo com descargas rítmicas generalizadas a 2 Hz. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Estado de mal não convulsivo: tratar como estado de mal (benzodiazepínico, anticonvulsivante)<br><br>💬 Comum em críticos; EEG contínuo é necessário.",
+   "pegadinha": "Critérios de Salzburgo.",
+   "fonte": "Banco de questões CÓDICE 360X · QT430",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT430"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 45 anos, febre, cefaleia, déficit focal, TC com lesão anelar única com edema, sinusite frontal. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Abscesso cerebral: ceftriaxona + metronidazol, drenagem neurocirúrgica (aspiração) se > 2,5 cm<br><br>💬 Origem contígua (sinusite) sugere estreptococos e anaeróbios.",
+   "pegadinha": "Ruptura ventricular piora prognóstico.",
+   "fonte": "Banco de questões CÓDICE 360X · QT431",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT431"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Mulher, 50 anos, HSA com hidrocefalia aguda e rebaixamento (GCS 9). Conduta urgente?",
+   "verso": "<b class=c>✅ Resposta:</b> Derivação ventricular externa<br><br>💬 Hidrocefalia aguda sintomática: DVE.",
+   "pegadinha": "Evitar drenagem excessiva antes do tratamento do aneurisma.",
+   "fonte": "Banco de questões CÓDICE 360X · QT432",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT432"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 36 anos, HSA aneurismática. Nimodipino: dose e objetivo?",
+   "verso": "<b class=c>✅ Resposta:</b> 60 mg VO a cada 4 h por 21 dias — melhora desfecho funcional (isquemia tardia)<br><br>💬 Benefício sem reduzir vasoespasmo angiográfico.",
+   "pegadinha": "Hipotensão: fracionar 30 mg a cada 2 h.",
+   "fonte": "Banco de questões CÓDICE 360X · QT433",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT433"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Mulher, 60 anos, rebaixamento, intubada. Escala que avalia tronco e respiração em intubados?",
+   "verso": "<b class=c>✅ Resposta:</b> FOUR (Full Outline of UnResponsiveness)<br><br>💬 FOUR avalia olhos, motor, reflexos de tronco e respiração.",
+   "pegadinha": "Detecta síndrome do encarceramento.",
+   "fonte": "Banco de questões CÓDICE 360X · QT434",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT434"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 25 anos, lesão medular T4 completa, D1, PA 80/45, FC 50. Alvo de PAM?",
+   "verso": "<b class=c>✅ Resposta:</b> PAM 85–90 mmHg por 5–7 dias (perfusão medular)<br><br>💬 Diretrizes sugerem PAM 85–90.",
+   "pegadinha": "Corticoide em dose alta não recomendado.",
+   "fonte": "Banco de questões CÓDICE 360X · QT435",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT435"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Mulher, 30 anos, psicose aguda, discinesia orofacial, convulsões e hipoventilação. LCR com pleocitose linfocítica. Exame-chave?",
+   "verso": "<b class=c>✅ Resposta:</b> Anticorpo anti-NMDA no LCR e pesquisa de teratoma de ovário<br><br>💬 Encefalite autoimune.",
+   "pegadinha": "Imunoterapia: corticoide, IgIV, plasmaférese, rituximabe.",
+   "fonte": "Banco de questões CÓDICE 360X · QT436",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT436"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 45 anos, TB meníngea com hidrocefalia. Além do RIPE, o que reduz mortalidade?",
+   "verso": "<b class=c>✅ Resposta:</b> Dexametasona<br><br>💬 Corticoide adjuvante na TB meníngea (Thwaites 2004).",
+   "pegadinha": "Hidrocefalia: DVE/DVP.",
+   "fonte": "Banco de questões CÓDICE 360X · QT437",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT437"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Mulher, 70 anos, AVC de cerebelo extenso, D2, piora do nível de consciência, compressão do IV ventrículo. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Craniectomia suboccipital descompressiva (± DVE)<br><br>💬 Infarto cerebelar com efeito de massa.",
+   "pegadinha": "DVE isolada: risco de herniação ascendente.",
+   "fonte": "Banco de questões CÓDICE 360X · QT438",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT438"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 50 anos, protocolo de morte encefálica: no teste de apneia, PaCO₂ subiu de 42 para 64 sem movimento respiratório. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Positivo (PaCO₂ > 55 sem movimentos)<br><br>💬 Critério: PaCO₂ > 55 mmHg sem incursões.",
+   "pegadinha": "Pré-oxigenar e manter O₂ apneico.",
+   "fonte": "Banco de questões CÓDICE 360X · QT439",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT439"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 30 anos, TCE grave, PIC 28 refratária a sedação, osmoterapia e hiperventilação leve. Opções de nível 3?",
+   "verso": "<b class=c>✅ Resposta:</b> Coma barbitúrico ou craniectomia descompressiva (RESCUEicp)<br><br>💬 Craniectomia reduz mortalidade com mais incapacidade.",
+   "pegadinha": "Hiperventilação só como ponte.",
+   "fonte": "Banco de questões CÓDICE 360X · QT440",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT440"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 58 anos, hemorragia intracerebral em uso de AAS. Transfusão de plaquetas?",
+   "verso": "<b class=c>✅ Resposta:</b> Não recomendada (PATCH: pior desfecho), exceto neurocirurgia<br><br>💬 PATCH 2016.",
+   "pegadinha": "Antes de cirurgia: considerar.",
+   "fonte": "Banco de questões CÓDICE 360X · QT441",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT441"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Homem, 50 anos, alcoolista, confusão, ataxia, oftalmoplegia, recebeu soro glicosado. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Encefalopatia de Wernicke: tiamina IV em dose alta (ex.: 500 mg 8/8 h) antes da glicose<br><br>💬 Tríade completa em minoria.",
+   "pegadinha": "Korsakoff: sequela amnésica.",
+   "fonte": "Banco de questões CÓDICE 360X · QT523",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT523"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 AVC isquêmico, oclusão de basilar, 10 h. Trombectomia?",
+   "verso": "<b class=c>✅ Resposta:</b> Sim — ATTENTION/BAOCHE mostraram benefício até 12–24 h<br><br>💬 Basilar: alta mortalidade sem tratamento.",
+   "pegadinha": "PC-ASPECTS guia seleção.",
+   "fonte": "Banco de questões CÓDICE 360X · QT586",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT586"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 HIC, hematoma 40 mL, Glasgow 10, sem anticoagulante. Meta pressórica?",
+   "verso": "<b class=c>✅ Resposta:</b> PAS 140 mmHg (evitar &lt; 110), redução suave<br><br>💬 INTERACT 2/3.",
+   "pegadinha": "Bundle INTERACT3: glicose, temperatura, anticoagulação.",
+   "fonte": "Banco de questões CÓDICE 360X · QT587",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT587"
+   ]
+  },
+  {
+   "subtema": "Neurointensivismo",
+   "frente": "🎯 Estado de mal epiléptico refratário a benzodiazepínico. Segunda linha (ESETT)?",
+   "verso": "<b class=c>✅ Resposta:</b> Levetiracetam, fosfenitoína ou valproato — eficácia semelhante<br><br>💬 ESETT: equivalência.",
+   "pegadinha": "Valproato evitar em hepatopatia/gestação.",
+   "fonte": "Banco de questões CÓDICE 360X · QT588",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT588"
+   ]
+  },
+  {
    "subtema": "Obstetrícia",
    "frente": "🎯 Eclâmpsia na UTI. Medicação para prevenir recorrência de convulsões:",
    "verso": "<b class=c>✅ Resposta:</b> Sulfato de magnésio 4–6 g ataque + 1–2 g/h<br><br>💬 MgSO₄ é superior. Toxicidade: perda de reflexo patelar, depressão respiratória — antídoto gluconato de cálcio.",
@@ -2799,6 +4143,54 @@
    ]
   },
   {
+   "subtema": "Obstetrícia",
+   "frente": "🎯 Puérpera, sulfato de magnésio, arreflexia, FR 8, sonolência. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Suspender magnésio, gluconato de cálcio IV<br><br>💬 Perda de reflexos precede depressão respiratória.",
+   "pegadinha": "Monitorar diurese (excreção renal).",
+   "fonte": "Banco de questões CÓDICE 360X · QT552",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT552"
+   ]
+  },
+  {
+   "subtema": "Obstetrícia",
+   "frente": "🎯 Puérpera, atonia uterina, sangramento 1.500 mL, ocitocina feita. Próximos passos?",
+   "verso": "<b class=c>✅ Resposta:</b> Ácido tranexâmico 1 g (até 3 h), uterotônicos (ergometrina, misoprostol, carboprosta), balão, cirurgia<br><br>💬 WOMAN trial.",
+   "pegadinha": "Fibrinogênio &lt; 2 g/L prediz gravidade.",
+   "fonte": "Banco de questões CÓDICE 360X · QT553",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT553"
+   ]
+  },
+  {
+   "subtema": "Obstetrícia",
+   "frente": "🎯 Parturiente, súbita hipotensão, hipóxia, convulsão e CIVD durante o parto. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Embolia de líquido amniótico — suporte, A-OK (atropina, ondansetrona, cetorolaco) sem evidência robusta<br><br>💬 Colapso + coagulopatia.",
+   "pegadinha": "Diagnóstico de exclusão.",
+   "fonte": "Banco de questões CÓDICE 360X · QT554",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT554"
+   ]
+  },
+  {
+   "subtema": "Obstetrícia",
+   "frente": "🎯 Puérpera, dispneia, edema pulmonar, FE 30%, sem cardiopatia prévia. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Cardiomiopatia periparto — tratamento de IC; considerar bromocriptina; anticoagulação se FE muito baixa<br><br>💬 Último mês até 5 meses pós-parto.",
+   "pegadinha": "IECA só após parto.",
+   "fonte": "Banco de questões CÓDICE 360X · QT556",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT556"
+   ]
+  },
+  {
    "subtema": "Oncologia na UTI",
    "frente": "🎯 Homem, 28 anos, leucemia linfoblástica, D1 de quimioterapia: K 6,8, fósforo 9,2, ácido úrico 14, creatinina 2,8, oligúria. Conduta?",
    "verso": "<b class=c>✅ Resposta:</b> Hidratação vigorosa, rasburicase, tratar hipercalemia e diálise se refratário<br><br>💬 Síndrome de lise tumoral estabelecida: rasburicase reduz ácido úrico rapidamente (contraindicada na deficiência de G6PD).",
@@ -2856,6 +4248,54 @@
     "PEGA360X",
     "TEMI",
     "QT379"
+   ]
+  },
+  {
+   "subtema": "Oncologia na UTI",
+   "frente": "🎯 Homem, 60 anos, câncer de pulmão, edema facial, turgência jugular, circulação colateral torácica. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome da veia cava superior — diagnóstico histológico, stent, RT/QT<br><br>💬 Stent para alívio rápido.",
+   "pegadinha": "Estridor: emergência.",
+   "fonte": "Banco de questões CÓDICE 360X · QT545",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT545"
+   ]
+  },
+  {
+   "subtema": "Oncologia na UTI",
+   "frente": "🎯 Mulher, 55 anos, câncer de mama, dor lombar, paraparesia, retenção urinária. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Compressão medular: dexametasona + RM de coluna total + RT/cirurgia urgente<br><br>💬 Função à apresentação prediz desfecho.",
+   "pegadinha": "RM de toda a coluna.",
+   "fonte": "Banco de questões CÓDICE 360X · QT546",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT546"
+   ]
+  },
+  {
+   "subtema": "Oncologia na UTI",
+   "frente": "🎯 Homem, 60 anos, LMA, leucócitos 150.000, dispneia, confusão. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Leucostase — citorredução (hidroxiureia/QT), hidratação; evitar transfusão de hemácias<br><br>💬 Hiperviscosidade celular.",
+   "pegadinha": "Pseudo-hipoxemia em gasometria.",
+   "fonte": "Banco de questões CÓDICE 360X · QT549",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT549"
+   ]
+  },
+  {
+   "subtema": "Oncologia na UTI",
+   "frente": "🎯 Mulher, 50 anos, imunoterapia (anti-PD-1), dispneia, infiltrado bilateral, culturas negativas. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Pneumonite imunomediada — suspender, corticoide em alta dose<br><br>💬 Evento adverso imunomediado.",
+   "pegadinha": "Refratária: infliximabe/micofenolato.",
+   "fonte": "Banco de questões CÓDICE 360X · QT550",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT550"
    ]
   },
   {
@@ -3003,6 +4443,42 @@
    ]
   },
   {
+   "subtema": "PCR e pós-PCR",
+   "frente": "🎯 Homem, 60 anos, PCR em AESP, suspeita de hipercalemia (DRC, faltou à diálise). Medida específica?",
+   "verso": "<b class=c>✅ Resposta:</b> Gluconato/cloreto de cálcio IV + bicarbonato e insulina-glicose durante RCP<br><br>💬 Causas reversíveis (5H/5T).",
+   "pegadinha": "Diálise após RCE.",
+   "fonte": "Banco de questões CÓDICE 360X · QT448",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT448"
+   ]
+  },
+  {
+   "subtema": "PCR e pós-PCR",
+   "frente": "🎯 Mulher, 45 anos, PCR por TEP maciço confirmado. Conduta durante RCP?",
+   "verso": "<b class=c>✅ Resposta:</b> Trombolítico durante a RCP e manter RCP por 60–90 min<br><br>💬 Trombólise na PCR por TEP suspeito/confirmado.",
+   "pegadinha": "ECMO-VA em centros.",
+   "fonte": "Banco de questões CÓDICE 360X · QT449",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT449"
+   ]
+  },
+  {
+   "subtema": "PCR e pós-PCR",
+   "frente": "🎯 Homem, 70 anos, RCE após PCR intra-hospitalar, glicemia 320. Alvo?",
+   "verso": "<b class=c>✅ Resposta:</b> Evitar hiperglicemia e hipoglicemia: 140–180<br><br>💬 Controle moderado.",
+   "pegadinha": "Hipoglicemia piora lesão neurológica.",
+   "fonte": "Banco de questões CÓDICE 360X · QT450",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT450"
+   ]
+  },
+  {
    "subtema": "POCUS",
    "frente": "🎯 Perfil B difuso bilateral no protocolo BLUE sugere:",
    "verso": "<b class=c>✅ Resposta:</b> Edema pulmonar hemodinâmico<br><br>💬 B bilateral com deslizamento = edema. A + TVP = TEP; A' + ponto pulmonar = pneumotórax; A sem TVP com PLAPS = pneumonia.",
@@ -3063,6 +4539,54 @@
    ]
   },
   {
+   "subtema": "POCUS",
+   "frente": "🎯 VM, hipotensão súbita, US com ausência de deslizamento pleural e ponto pulmonar. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Pneumotórax<br><br>💬 Ponto pulmonar é 100% específico.",
+   "pegadinha": "Código de barras no modo M.",
+   "fonte": "Banco de questões CÓDICE 360X · QT564",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT564"
+   ]
+  },
+  {
+   "subtema": "POCUS",
+   "frente": "🎯 Choque, VD dilatado (VD/VE > 1), sinal de McConnell. Sugere?",
+   "verso": "<b class=c>✅ Resposta:</b> TEP agudo<br><br>💬 Acinesia da parede livre com ápice poupado.",
+   "pegadinha": "Pode ocorrer no IAM de VD.",
+   "fonte": "Banco de questões CÓDICE 360X · QT565",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT565"
+   ]
+  },
+  {
+   "subtema": "POCUS",
+   "frente": "🎯 Dispneia, linhas B difusas bilaterais, derrame bilateral, VCI pletórica. Perfil?",
+   "verso": "<b class=c>✅ Resposta:</b> Edema pulmonar cardiogênico<br><br>💬 Perfil B do BLUE.",
+   "pegadinha": "Linhas B > 3 por campo.",
+   "fonte": "Banco de questões CÓDICE 360X · QT566",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT566"
+   ]
+  },
+  {
+   "subtema": "POCUS",
+   "frente": "🎯 Choque, VCI de 1 cm com colapso > 50%, VE hiperdinâmico com obliteração sistólica. Perfil?",
+   "verso": "<b class=c>✅ Resposta:</b> Hipovolêmico<br><br>💬 Kissing walls.",
+   "pegadinha": "VCI em VM é menos confiável.",
+   "fonte": "Banco de questões CÓDICE 360X · QT567",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT567"
+   ]
+  },
+  {
    "subtema": "Qualidade e segurança",
    "frente": "🎯 UTI com aumento de pneumonia associada à ventilação. Medidas do pacote com melhor evidência?",
    "verso": "<b class=c>✅ Resposta:</b> Cabeceira 30–45°, interrupção diária da sedação com teste de respiração espontânea, aspiração subglótica<br><br>💬 SHEA 2022: minimizar sedação, TRE diário, cabeceira elevada e mobilização precoce. Clorexidina oral pode aumentar mortalidade (removida da recomendação).",
@@ -3120,6 +4644,54 @@
     "PEGA360X",
     "TEMI",
     "QT380"
+   ]
+  },
+  {
+   "subtema": "Qualidade e segurança",
+   "frente": "🎯 Qual escore usa as piores variáveis nas primeiras 24 h para prever mortalidade em UTI?",
+   "verso": "<b class=c>✅ Resposta:</b> APACHE II<br><br>💬 APACHE II: 12 variáveis + idade + doença crônica.",
+   "pegadinha": "SAPS 3: primeira hora.",
+   "fonte": "Banco de questões CÓDICE 360X · QT561",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT561"
+   ]
+  },
+  {
+   "subtema": "Qualidade e segurança",
+   "frente": "🎯 Bundle de prevenção de PAV inclui:",
+   "verso": "<b class=c>✅ Resposta:</b> Cabeceira 30–45°, despertar diário, teste de respiração espontânea, higiene oral, pressão de cuff<br><br>💬 Medidas de redução de tempo de VM.",
+   "pegadinha": "Clorexidina oral: controverso.",
+   "fonte": "Banco de questões CÓDICE 360X · QT562",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT562"
+   ]
+  },
+  {
+   "subtema": "Qualidade e segurança",
+   "frente": "🎯 Taxa padronizada de mortalidade (SMR) de 0,8 significa:",
+   "verso": "<b class=c>✅ Resposta:</b> Mortalidade observada 20% menor que a predita<br><br>💬 Observado/esperado.",
+   "pegadinha": "Depende da calibração do escore.",
+   "fonte": "Banco de questões CÓDICE 360X · QT563",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT563"
+   ]
+  },
+  {
+   "subtema": "Qualidade e segurança",
+   "frente": "🎯 Escore SOFA aumento ≥ 2 pontos associado a infecção define:",
+   "verso": "<b class=c>✅ Resposta:</b> Sepse (Sepsis-3)<br><br>💬 Mortalidade ~10%.",
+   "pegadinha": "qSOFA não é diagnóstico.",
+   "fonte": "Banco de questões CÓDICE 360X · QT600",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT600"
    ]
   },
   {
@@ -3240,6 +4812,78 @@
     "PEGA360X",
     "TEMI",
     "QT287"
+   ]
+  },
+  {
+   "subtema": "Sedação e delirium",
+   "frente": "🎯 Mulher, 50 anos, VM, sedação com fentanil e propofol há 10 dias, extubada; agora tremor, sudorese, taquicardia, agitação. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome de abstinência iatrogênica (opioide/sedativo) — desmame gradual, metadona/clonidina<br><br>💬 Uso > 5–7 dias aumenta risco.",
+   "pegadinha": "Escalas WAT-1/OBS.",
+   "fonte": "Banco de questões CÓDICE 360X · QT442",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT442"
+   ]
+  },
+  {
+   "subtema": "Sedação e delirium",
+   "frente": "🎯 Homem, 65 anos, delirium hiperativo na UTI. Evidência do haloperidol (AID-ICU)?",
+   "verso": "<b class=c>✅ Resposta:</b> Não reduziu mortalidade nem dias vivo fora do hospital; uso sintomático em agitação perigosa<br><br>💬 MIND-USA e AID-ICU neutros.",
+   "pegadinha": "Monitorar QTc.",
+   "fonte": "Banco de questões CÓDICE 360X · QT443",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT443"
+   ]
+  },
+  {
+   "subtema": "Sedação e delirium",
+   "frente": "🎯 Mulher, 72 anos, VM, sedação. Dexmedetomidina — efeitos adversos típicos?",
+   "verso": "<b class=c>✅ Resposta:</b> Bradicardia e hipotensão (agonista α2)<br><br>💬 Não causa depressão respiratória relevante.",
+   "pegadinha": "Útil para extubar agitados.",
+   "fonte": "Banco de questões CÓDICE 360X · QT444",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT444"
+   ]
+  },
+  {
+   "subtema": "Sedação e delirium",
+   "frente": "🎯 Homem, 40 anos, VM, sedação com cetamina associada. Benefício?",
+   "verso": "<b class=c>✅ Resposta:</b> Efeito poupador de opioide e broncodilatação; mantém drive e hemodinâmica<br><br>💬 Útil em asma grave e tolerância a opioides.",
+   "pegadinha": "Pode causar sialorreia.",
+   "fonte": "Banco de questões CÓDICE 360X · QT445",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT445"
+   ]
+  },
+  {
+   "subtema": "Sedação e delirium",
+   "frente": "🎯 Mulher, 55 anos, sedação profunda com BNM em SDRA. Monitorização adequada?",
+   "verso": "<b class=c>✅ Resposta:</b> Garantir sedação profunda (BIS/clinicamente antes do BNM), TOF e proteção ocular<br><br>💬 Consciência sob BNM é grave (awareness).",
+   "pegadinha": "ROSE: BNM rotineiro sem benefício.",
+   "fonte": "Banco de questões CÓDICE 360X · QT446",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT446"
+   ]
+  },
+  {
+   "subtema": "Sedação e delirium",
+   "frente": "🎯 Analgesia primeiro (analgossedação). Princípio?",
+   "verso": "<b class=c>✅ Resposta:</b> Tratar dor primeiro com opioide, sedação leve (RASS 0 a −2) se necessária<br><br>💬 PADIS 2018.",
+   "pegadinha": "Escala BPS/CPOT.",
+   "fonte": "Banco de questões CÓDICE 360X · QT590",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT590"
    ]
   },
   {
@@ -3603,6 +5247,114 @@
    ]
   },
   {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Mulher, 62 anos, choque séptico. Vitamina C em dose alta?",
+   "verso": "<b class=c>✅ Resposta:</b> Não recomendada: LOVIT mostrou maior risco de morte ou disfunção persistente<br><br>💬 VICTAS, LOVIT negativos.",
+   "pegadinha": "SSC 2021: contra vitamina C.",
+   "fonte": "Banco de questões CÓDICE 360X · QT420",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT420"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Homem, 50 anos, sepse. Coleta de hemoculturas adequada?",
+   "verso": "<b class=c>✅ Resposta:</b> 2–3 pares (aeróbio + anaeróbio) de sítios diferentes, 8–10 mL por frasco, antes do ATB sem atrasar > 45 min<br><br>💬 Volume é o principal determinante de sensibilidade.",
+   "pegadinha": "Staph coagulase-negativo em 1 de 2 sets sugere contaminação.",
+   "fonte": "Banco de questões CÓDICE 360X · QT421",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT421"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Mulher, 58 anos, choque séptico, procalcitonina alta, PCR alta. Antibiótico deve ser iniciado:",
+   "verso": "<b class=c>✅ Resposta:</b> Em até 1 hora do reconhecimento do choque<br><br>💬 Atraso aumenta mortalidade no choque.",
+   "pegadinha": "Sepse provável sem choque: até 3 h com investigação.",
+   "fonte": "Banco de questões CÓDICE 360X · QT422",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT422"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Homem, 48 anos, sepse por pneumonia, D7, melhora clínica, culturas com Streptococcus pneumoniae sensível, em meropeném + vancomicina. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Descalonar para penicilina/ampicilina ou ceftriaxona e encerrar em 5–7 dias<br><br>💬 Descalonar reduz resistência e efeitos adversos.",
+   "pegadinha": "Descalonamento é seguro.",
+   "fonte": "Banco de questões CÓDICE 360X · QT423",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT423"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Mulher, 66 anos, choque séptico, plaquetas 50 mil, D2. Profilaxia de TEV?",
+   "verso": "<b class=c>✅ Resposta:</b> Heparina profilática se sem sangramento; mecânica se plaquetas &lt; 30–50 mil ou sangramento<br><br>💬 Pacientes sépticos têm alto risco de TEV.",
+   "pegadinha": "Enoxaparina ajustar na DRC.",
+   "fonte": "Banco de questões CÓDICE 360X · QT424",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT424"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Homem, 55 anos, choque séptico abdominal pós-operatório, D3, febre, piora, TC com coleção de 6 cm. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Drenagem percutânea (ou cirúrgica) da coleção<br><br>💬 Controle de foco.",
+   "pegadinha": "Cultura do líquido orienta terapia.",
+   "fonte": "Banco de questões CÓDICE 360X · QT425",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT425"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Choque séptico, noradrenalina 0,3 µg/kg/min. Adicionar?",
+   "verso": "<b class=c>✅ Resposta:</b> Vasopressina 0,03 U/min (± hidrocortisona 200 mg/dia)<br><br>💬 Poupa catecolamina.",
+   "pegadinha": "APROCCHSS: fludrocortisona adicional.",
+   "fonte": "Banco de questões CÓDICE 360X · QT583",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT583"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Sepse, procalcitonina caindo > 80% do pico no D5, estável. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Considerar suspender antibiótico<br><br>💬 Reduz exposição sem aumentar mortalidade.",
+   "pegadinha": "Não usar para iniciar ATB isolado.",
+   "fonte": "Banco de questões CÓDICE 360X · QT584",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT584"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque",
+   "frente": "🎯 Choque séptico, PAM alvo para idoso hipertenso crônico?",
+   "verso": "<b class=c>✅ Resposta:</b> 65 mmHg (65 trial em ≥ 65 anos: alvo permissivo 60–65 sem pior desfecho)<br><br>💬 Maior PAM = mais vasopressor e arritmia.",
+   "pegadinha": "SEPSISPAM: menos TRS em hipertensos.",
+   "fonte": "Banco de questões CÓDICE 360X · QT585",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT585"
+   ]
+  },
+  {
    "subtema": "Toxicologia",
    "frente": "🎯 Intoxicação por paracetamol 6 h após ingestão de 15 g. Conduta:",
    "verso": "<b class=c>✅ Resposta:</b> N-acetilcisteína guiada pelo nomograma (iniciar se nível acima da linha ou ingestão grande sem nível disponível)<br><br>💬 NAC é mais eficaz em até 8 h. Nível sérico entre 4 e 24 h no nomograma de Rumack-Matthew.",
@@ -3891,6 +5643,234 @@
    ]
   },
   {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Mulher, 30 anos, agitação, midríase, pele seca e quente, retenção urinária, delirium após ingerir anti-histamínico em excesso. Antídoto?",
+   "verso": "<b class=c>✅ Resposta:</b> Fisostigmina (se sem QRS largo), benzodiazepínico para agitação<br><br>💬 Toxíndrome anticolinérgica.",
+   "pegadinha": "Contraindicada com tricíclicos.",
+   "fonte": "Banco de questões CÓDICE 360X · QT497",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT497"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 40 anos, overdose de metadona, revertido com naloxona em bolus, volta a dormir em 1 h. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Infusão contínua de naloxona (2/3 da dose de despertar por hora) e observação prolongada<br><br>💬 Meia-vida longa da metadona.",
+   "pegadinha": "QT longo com metadona.",
+   "fonte": "Banco de questões CÓDICE 360X · QT498",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT498"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Mulher, 25 anos, ingestão de carbamazepina, coma, convulsões, QRS alargado. Medidas?",
+   "verso": "<b class=c>✅ Resposta:</b> Suporte, bicarbonato para QRS, carvão em doses múltiplas; hemodiálise de alto fluxo em grave<br><br>💬 Carbamazepina tem recirculação êntero-hepática.",
+   "pegadinha": "Nível > 40 mg/L: grave.",
+   "fonte": "Banco de questões CÓDICE 360X · QT499",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT499"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 40 anos, ingestão de valproato, hiperamonemia, coma. Antídoto?",
+   "verso": "<b class=c>✅ Resposta:</b> L-carnitina IV (± hemodiálise em grave)<br><br>💬 Valproato depleta carnitina.",
+   "pegadinha": "Monitorar amônia e nível.",
+   "fonte": "Banco de questões CÓDICE 360X · QT500",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT500"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 35 anos, incêndio em ambiente fechado, cefaleia, confusão, SpO₂ 99%, COHb 30%. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> O₂ a 100% imediato; considerar oxigenoterapia hiperbárica (COHb > 25%, síncope, alteração neurológica); suspeitar cianeto se lactato alto<br><br>💬 Oxímetro de pulso superestima saturação com COHb.",
+   "pegadinha": "Hidroxocobalamina se cianeto.",
+   "fonte": "Banco de questões CÓDICE 360X · QT501",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT501"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Mulher, 22 anos, ingestão de isoniazida, convulsões refratárias a benzodiazepínico, acidose. Antídoto?",
+   "verso": "<b class=c>✅ Resposta:</b> Piridoxina IV (grama por grama ingerido; 5 g empíricos)<br><br>💬 Isoniazida depleta GABA via B6.",
+   "pegadinha": "Acidose por convulsão.",
+   "fonte": "Banco de questões CÓDICE 360X · QT502",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT502"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 30 anos, ingestão maciça de sulfato ferroso, vômitos, hipotensão, acidose, ferro sérico 600. Antídoto?",
+   "verso": "<b class=c>✅ Resposta:</b> Deferoxamina IV<br><br>💬 Ferro não adsorve em carvão.",
+   "pegadinha": "Urina vinho-rosé com deferoxamina.",
+   "fonte": "Banco de questões CÓDICE 360X · QT503",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT503"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Mulher, 40 anos, ingestão de soda cáustica, salivação, disfagia, estável. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Endoscopia precoce (12–48 h) para estadiamento; jejum; sem neutralização nem carvão<br><br>💬 Classificação de Zargar orienta conduta.",
+   "pegadinha": "Perfuração: TC e cirurgia.",
+   "fonte": "Banco de questões CÓDICE 360X · QT504",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT504"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 50 anos, comeu cogumelos silvestres, diarreia intensa após 10 h, depois transaminases > 3.000 no D2. Agente e conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Amanita phalloides (amatoxina): carvão em doses múltiplas, silibinina/NAC, avaliar transplante<br><br>💬 Latência > 6 h sugere amatoxina.",
+   "pegadinha": "Fase de falsa melhora.",
+   "fonte": "Banco de questões CÓDICE 360X · QT505",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT505"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 30 anos, intoxicação por salicilato, pH 7,25, nível 100 mg/dL, confusão. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Hemodiálise + alcalinização; cuidado se intubar (manter hiperventilação)<br><br>💬 Alteração neurológica indica diálise.",
+   "pegadinha": "Intubação pode precipitar colapso.",
+   "fonte": "Banco de questões CÓDICE 360X · QT506",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT506"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 30 anos, uso de haloperidol, febre 40 °C, rigidez em cano de chumbo, CPK 20.000. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> SNM: suspender antipsicótico, resfriamento, dantrolene/bromocriptina<br><br>💬 Evolução em dias, rigidez.",
+   "pegadinha": "LRA por rabdomiólise.",
+   "fonte": "Banco de questões CÓDICE 360X · QT509",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT509"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Mulher, 60 anos, digoxina, náusea, visão amarelada, bradicardia, K 6,2. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Fragmentos Fab antidigoxina<br><br>💬 Hipercalemia é marcador de gravidade.",
+   "pegadinha": "K > 5 em aguda: indicação.",
+   "fonte": "Banco de questões CÓDICE 360X · QT510",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT510"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 40 anos, intoxicação por betabloqueador, bradicardia e choque refratário a atropina e glucagon. Próxima medida?",
+   "verso": "<b class=c>✅ Resposta:</b> Insulina em alta dose com glicose (HIET) + vasopressor; considerar ECMO<br><br>💬 Melhora inotropismo.",
+   "pegadinha": "Monitorar K e glicose.",
+   "fonte": "Banco de questões CÓDICE 360X · QT511",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT511"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Mulher, 35 anos, intoxicação por anestésico local (bupivacaína), convulsão e assistolia. Medida específica?",
+   "verso": "<b class=c>✅ Resposta:</b> Emulsão lipídica a 20% (1,5 mL/kg em bolus) + RCP; adrenalina em dose reduzida<br><br>💬 Lipid sink.",
+   "pegadinha": "RCP pode ser prolongada.",
+   "fonte": "Banco de questões CÓDICE 360X · QT512",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT512"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 25 anos, picada de escorpião (Tityus), vômitos profusos, sudorese, taquicardia, edema pulmonar. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Soro antiescorpiônico (casos graves) + suporte UTI; dobutamina para disfunção miocárdica<br><br>💬 Vômitos profusos são sinal de gravidade.",
+   "pegadinha": "Crianças mais graves.",
+   "fonte": "Banco de questões CÓDICE 360X · QT513",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT513"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Mulher, 30 anos, acidente botrópico, edema local extenso, sangramento gengival, tempo de coagulação incoagulável. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Soro antibotrópico IV conforme gravidade; hidratação, prevenção de LRA<br><br>💬 Coagulopatia por consumo.",
+   "pegadinha": "Reavaliar TC após 12 h.",
+   "fonte": "Banco de questões CÓDICE 360X · QT514",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT514"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 40 anos, acidente crotálico, ptose palpebral, fácies miastênica, urina escura. Complicação principal?",
+   "verso": "<b class=c>✅ Resposta:</b> Rabdomiólise com LRA — soro anticrotálico, hidratação vigorosa<br><br>💬 Fácies neurotóxica de Rosenfeld.",
+   "pegadinha": "Urina cor de coca-cola.",
+   "fonte": "Banco de questões CÓDICE 360X · QT515",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT515"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Homem, 40 anos, ingestão de herbicida (paraquat), queimadura oral, dias depois hipoxemia progressiva e fibrose pulmonar. Cuidado específico?",
+   "verso": "<b class=c>✅ Resposta:</b> Evitar hiperóxia (O₂ só para SpO₂ ~88–92%) — oxigênio potencializa lesão; prognóstico ruim<br><br>💬 Geração de radicais livres.",
+   "pegadinha": "Carvão/terra de Fuller precoce.",
+   "fonte": "Banco de questões CÓDICE 360X · QT555",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT555"
+   ]
+  },
+  {
+   "subtema": "Toxicologia",
+   "frente": "🎯 Mulher, 30 anos, cianose 'chocolate', SpO₂ 85% que não melhora com O₂, PaO₂ normal, após dapsona. Tratamento?",
+   "verso": "<b class=c>✅ Resposta:</b> Metemoglobinemia: azul de metileno 1–2 mg/kg (evitar se G6PD)<br><br>💬 Gap de saturação.",
+   "pegadinha": "G6PD: exsanguineotransfusão/vitamina C.",
+   "fonte": "Banco de questões CÓDICE 360X · QT591",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT591"
+   ]
+  },
+  {
    "subtema": "Trauma e queimados",
    "frente": "🎯 Queimado 70 kg com 40% de superfície (2º e 3º graus). Volume pela fórmula de Parkland nas primeiras 8 h:",
    "verso": "<b class=c>✅ Resposta:</b> 5.600 mL<br><br>💬 4 mL × 70 × 40 = 11.200 mL em 24 h; metade (5.600) nas primeiras 8 h. ATLS atual parte de 2 mL/kg/% e titula por débito 0,5 mL/kg/h.",
@@ -4104,6 +6084,126 @@
     "PEGA360X",
     "TEMI",
     "QT395"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Homem, 30 anos, consciente, sem dor cervical, sem déficit, sem intoxicação, acidente de baixa energia. Precisa de imagem cervical?",
+   "verso": "<b class=c>✅ Resposta:</b> Não — critérios NEXUS/Canadian C-spine negativos permitem liberação clínica<br><br>💬 Regras de decisão reduzem imagem desnecessária.",
+   "pegadinha": "Canadian: > 65 anos exige imagem.",
+   "fonte": "Banco de questões CÓDICE 360X · QT516",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT516"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Homem, 60 anos, tórax instável, contusão pulmonar, dor intensa, hipoxemia leve. Prioridade?",
+   "verso": "<b class=c>✅ Resposta:</b> Analgesia eficaz (peridural/bloqueios) + fisioterapia; fixação cirúrgica de costelas em casos selecionados<br><br>💬 Dor impede ventilação.",
+   "pegadinha": "Contusão evolui em 24–72 h.",
+   "fonte": "Banco de questões CÓDICE 360X · QT517",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT517"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Mulher, 80 anos, queda da própria altura, em apixabana, Glasgow 15, cefaleia. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> TC de crânio; se hemorragia, reverter (andexanet ou CCP)<br><br>💬 Idoso anticoagulado: TC.",
+   "pegadinha": "Hemorragia tardia possível.",
+   "fonte": "Banco de questões CÓDICE 360X · QT518",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT518"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Homem, 25 anos, FAB em tórax, hipotensão, turgência jugular, abafamento de bulhas. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Tamponamento cardíaco: toracotomia/janela pericárdica; pericardiocentese como ponte<br><br>💬 Tríade de Beck.",
+   "pegadinha": "FAST subxifoide.",
+   "fonte": "Banco de questões CÓDICE 360X · QT519",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT519"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Homem, 30 anos, TCE, hipotensão, Glasgow 7. Meta pressórica?",
+   "verso": "<b class=c>✅ Resposta:</b> PAS ≥ 100–110 mmHg (Brain Trauma Foundation)<br><br>💬 Hipotensão dobra mortalidade.",
+   "pegadinha": "Evitar hipóxia também.",
+   "fonte": "Banco de questões CÓDICE 360X · QT520",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT520"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Mulher, 28 anos, trauma pélvico, choque, FAST negativo, fratura em livro aberto. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Cinta pélvica + transfusão; angioembolização ou packing pré-peritoneal<br><br>💬 Sangramento retroperitoneal.",
+   "pegadinha": "Lençol sobre trocanteres.",
+   "fonte": "Banco de questões CÓDICE 360X · QT521",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT521"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Homem, 40 anos, queimadura 40% SCQ, 80 kg. Volume inicial (ATLS atual)?",
+   "verso": "<b class=c>✅ Resposta:</b> 2 mL/kg/% (adulto) em 24 h, metade nas primeiras 8 h; titular diurese 0,5 mL/kg/h<br><br>💬 Evitar 'fluid creep'.",
+   "pegadinha": "Elétrica: 4 mL/kg/% e diurese 1 mL/kg/h.",
+   "fonte": "Banco de questões CÓDICE 360X · QT522",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT522"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Mulher, 30 anos, esmagamento de membros por 6 h, liberada, K 7, CPK 80.000, urina escura. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome do esmagamento: volume agressivo antes/durante liberação, tratar hipercalemia, diálise se necessário<br><br>💬 Hipercalemia pode ser fatal ao liberar.",
+   "pegadinha": "Síndrome compartimental associada.",
+   "fonte": "Banco de questões CÓDICE 360X · QT524",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT524"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Homem, 30 anos, trauma torácico fechado por volante, troponina alta, TV não sustentada. Diagnóstico e conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Contusão miocárdica — monitorização contínua 24–48 h, ecocardiograma<br><br>💬 ECG + troponina normais afastam lesão significativa.",
+   "pegadinha": "Disfunção de VD é mais comum.",
+   "fonte": "Banco de questões CÓDICE 360X · QT527",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT527"
+   ]
+  },
+  {
+   "subtema": "Trauma e queimados",
+   "frente": "🎯 Homem, 25 anos, fratura de fêmur há 36 h, hipoxemia, confusão, petéquias em axilas. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome de embolia gordurosa — suporte; fixação precoce previne<br><br>💬 Critérios de Gurd.",
+   "pegadinha": "Corticoide sem benefício comprovado.",
+   "fonte": "Banco de questões CÓDICE 360X · QT530",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT530"
    ]
   },
   {
@@ -4551,6 +6651,210 @@
    ]
   },
   {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Homem, 50 anos, SDRA, PAM invasiva com curva amortecida (onda arredondada, sem nó dicrótico). Teste de flush: retorno lento sem oscilações. Efeito na leitura?",
+   "verso": "<b class=c>✅ Resposta:</b> Sistema superamortecido: PAS subestimada e PAD superestimada (PAM relativamente preservada)<br><br>💬 Bolhas, coágulos ou tubos complacentes amortecem a onda.",
+   "pegadinha": "Teste de flush ideal: 1–2 oscilações.",
+   "fonte": "Banco de questões CÓDICE 360X · QT401",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT401"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Mulher, 40 anos, SDRA por pneumonia, CNAF FiO₂ 0,6 a 60 L/min, SpO₂ 93%, sem VM. Pela definição global de SDRA (2023), ela:",
+   "verso": "<b class=c>✅ Resposta:</b> Pode ser classificada como SDRA (inclui CNAF ≥ 30 L/min e SpO₂/FiO₂ ≤ 315)<br><br>💬 A definição global ampliou para pacientes não intubados e permitiu SpO₂/FiO₂.",
+   "pegadinha": "Útil em locais sem gasometria.",
+   "fonte": "Banco de questões CÓDICE 360X · QT402",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT402"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Homem, 55 anos, COVID com hipoxemia em CNAF, consciente e colaborativo. Prona acordado:",
+   "verso": "<b class=c>✅ Resposta:</b> Pode reduzir intubação em hipoxêmicos em CNAF quando tolerada por várias horas/dia<br><br>💬 Metanálise de ensaios (Ehrmann 2021): menos falha de tratamento.",
+   "pegadinha": "Benefício maior com ≥ 8 h/dia.",
+   "fonte": "Banco de questões CÓDICE 360X · QT403",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT403"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Mulher, 60 anos, SDRA grave refratária, P/F 70. Equipe considera óxido nítrico inalatório. Evidência?",
+   "verso": "<b class=c>✅ Resposta:</b> Melhora oxigenação transitoriamente, sem redução de mortalidade; pode aumentar LRA — usar como resgate<br><br>💬 Útil como ponte (ex.: VD em falência, transporte para ECMO).",
+   "pegadinha": "Monitorar metemoglobina.",
+   "fonte": "Banco de questões CÓDICE 360X · QT404",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT404"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Homem, 30 anos, SDRA moderada. Ensaios OSCAR/OSCILLATE avaliaram ventilação oscilatória de alta frequência (VAFO). Resultado?",
+   "verso": "<b class=c>✅ Resposta:</b> Sem benefício (OSCAR) ou maior mortalidade (OSCILLATE) — não usar de rotina em adultos<br><br>💬 VAFO de rotina não é recomendada.",
+   "pegadinha": "Pode ter papel em resgate em centros experientes.",
+   "fonte": "Banco de questões CÓDICE 360X · QT405",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT405"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Mulher, 45 anos, VM em PSV. O ventilador mede P0.1 = 6 cmH₂O. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Drive respiratório elevado (P0.1 > 3,5–4): risco de P-SILI e falha de desmame — aumentar suporte/sedação ou tratar causa<br><br>💬 P0.1 é a queda de pressão nos primeiros 100 ms da oclusão; normal 1–3,5.",
+   "pegadinha": "P0.1 &lt; 1 sugere suporte excessivo.",
+   "fonte": "Banco de questões CÓDICE 360X · QT406",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT406"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Homem, 65 anos, VM: VT 500, PEEP 5, Pplat 25, FR 16. Complacência estática?",
+   "verso": "<b class=c>✅ Resposta:</b> 25 mL/cmH₂O<br><br>💬 C = VT/(Pplat − PEEP) = 500/20 = 25.",
+   "pegadinha": "Normal ~ 50–80 mL/cmH₂O.",
+   "fonte": "Banco de questões CÓDICE 360X · QT407",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT407"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Mulher, 70 anos, VM, PEEP intrínseca suspeita. Como medir?",
+   "verso": "<b class=c>✅ Resposta:</b> Pausa expiratória (oclusão ao fim da expiração): pressão total − PEEP programada = auto-PEEP<br><br>💬 Pausa expiratória de 2–3 s em paciente passivo.",
+   "pegadinha": "Fluxo expiratório que não zera sugere auto-PEEP.",
+   "fonte": "Banco de questões CÓDICE 360X · QT408",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT408"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Homem, 72 anos, hemoptise maciça por bronquiectasia à direita, instável. Proteção da via aérea?",
+   "verso": "<b class=c>✅ Resposta:</b> Decúbito sobre o lado que sangra (direito), intubação com tubo calibroso/seletiva para o pulmão sadio, broncoscopia e embolização<br><br>💬 Proteger o pulmão sadio é prioridade.",
+   "pegadinha": "Embolização de artéria brônquica.",
+   "fonte": "Banco de questões CÓDICE 360X · QT409",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT409"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Mulher, 33 anos, VM 6 h após transfusão de plasma, edema pulmonar bilateral, febre, hipotensão, BNP normal. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> TRALI — suporte ventilatório protetor, não diurético; notificar hemovigilância<br><br>💬 TRALI: em até 6 h, edema não cardiogênico, frequentemente hipotensão.",
+   "pegadinha": "Plasma de doadoras multíparas é fator.",
+   "fonte": "Banco de questões CÓDICE 360X · QT410",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT410"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 SDRA grave, P/F &lt; 80 por > 6 h apesar de prona e ventilação ótima. Considerar?",
+   "verso": "<b class=c>✅ Resposta:</b> ECMO VV (EOLIA)<br><br>💬 Encaminhar a centro experiente.",
+   "pegadinha": "Escore RESP prevê sobrevida.",
+   "fonte": "Banco de questões CÓDICE 360X · QT568",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT568"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 ECMO VA periférica femoral, SpO₂ de mão direita 82%, membro inferior bem oxigenado. Fenômeno?",
+   "verso": "<b class=c>✅ Resposta:</b> Síndrome de Arlequim (norte-sul) — coração ejeta sangue desoxigenado<br><br>💬 Função cardíaca recuperada com pulmão ruim.",
+   "pegadinha": "Gasometria da radial direita.",
+   "fonte": "Banco de questões CÓDICE 360X · QT569",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT569"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 VM, pressão de pico 45, platô 18. Causa provável?",
+   "verso": "<b class=c>✅ Resposta:</b> Alta resistência de vias aéreas (broncoespasmo, tubo dobrado, secreção)<br><br>💬 Diferença pico-platô alta = resistência.",
+   "pegadinha": "Aspirar e checar tubo.",
+   "fonte": "Banco de questões CÓDICE 360X · QT576",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT576"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Desmame: TRE de 30 min bem-sucedido, tosse fraca, secreção abundante. Risco?",
+   "verso": "<b class=c>✅ Resposta:</b> Falha de extubação por proteção de via aérea — considerar VNI/CNAF preventiva e fisioterapia<br><br>💬 TRE avalia respiração, não proteção.",
+   "pegadinha": "Teste de vazamento do cuff se risco de estridor.",
+   "fonte": "Banco de questões CÓDICE 360X · QT577",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT577"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Pós-extubação, alto risco (> 65 anos, IC), qual suporte reduz reintubação?",
+   "verso": "<b class=c>✅ Resposta:</b> VNI profilática (± CNAF intercalada)<br><br>💬 HIGH-WEAN.",
+   "pegadinha": "VNI de resgate tardia aumenta mortalidade.",
+   "fonte": "Banco de questões CÓDICE 360X · QT578",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT578"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 Asma grave em VM, auto-PEEP 15, hipotensão. Ajuste?",
+   "verso": "<b class=c>✅ Resposta:</b> Reduzir FR e VC, aumentar tempo expiratório; desconectar e comprimir tórax se colapso<br><br>💬 Hiperinsuflação dinâmica.",
+   "pegadinha": "Hipercapnia permissiva.",
+   "fonte": "Banco de questões CÓDICE 360X · QT579",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT579"
+   ]
+  },
+  {
+   "subtema": "Ventilação e SDRA",
+   "frente": "🎯 VM prolongada, falha de desmame, US com fração de espessamento diafragmático &lt; 20%. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Disfunção diafragmática — preditor de falha de desmame<br><br>💬 Disfunção diafragmática induzida pelo ventilador.",
+   "pegadinha": "Excursão &lt; 1 cm também prediz falha.",
+   "fonte": "Banco de questões CÓDICE 360X · QT592",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT592"
+   ]
+  },
+  {
    "subtema": "Ácido-base",
    "frente": "🎯 pH 7,22; PaCO₂ 24; HCO₃ 10; Na 138; Cl 104. Qual a PaCO₂ esperada (Winter) e conclusão?",
    "verso": "<b class=c>✅ Resposta:</b> 23 ± 2 — compensação adequada<br><br>💬 Winter: 1,5 × 10 + 8 = 23 ± 2 → PaCO₂ 24 está dentro: acidose metabólica pura compensada. AG = 138 − 114 = 24 (elevado).",
@@ -4683,6 +6987,42 @@
    ]
   },
   {
+   "subtema": "Ácido-base",
+   "frente": "🎯 Mulher, 35 anos, síndrome do intestino curto, confusão, ataxia, acidose com AG alto, lactato sérico normal. Diagnóstico?",
+   "verso": "<b class=c>✅ Resposta:</b> Acidose D-lática (fermentação bacteriana) — dieta pobre em carboidratos, antibiótico oral<br><br>💬 Dosagem padrão mede L-lactato.",
+   "pegadinha": "Pós-bypass jejunoileal.",
+   "fonte": "Banco de questões CÓDICE 360X · QT471",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT471"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🎯 Homem, 55 anos, acidose com AG alto, osmolalidade medida 330, calculada 290. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Gap osmolar 40: álcool tóxico (metanol, etilenoglicol) — fomepizol e diálise<br><br>💬 Gap > 10–20 sugere osmóis não medidos.",
+   "pegadinha": "Etanol também aumenta o gap.",
+   "fonte": "Banco de questões CÓDICE 360X · QT472",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT472"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🎯 Mulher, 60 anos, gasometria: pH 7,40, PaCO₂ 40, HCO₃ 24, AG 22. Interpretação?",
+   "verso": "<b class=c>✅ Resposta:</b> Acidose metabólica de AG alto + alcalose metabólica (distúrbio duplo oculto)<br><br>💬 AG alto revela acidose escondida.",
+   "pegadinha": "Ex.: cetoacidose com vômitos.",
+   "fonte": "Banco de questões CÓDICE 360X · QT473",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT473"
+   ]
+  },
+  {
    "subtema": "Ética, paliativos e morte encefálica",
    "frente": "🎯 Morte encefálica no Brasil (CFM 2.173/2017). Item correto:",
    "verso": "<b class=c>✅ Resposta:</b> Dois exames clínicos por médicos diferentes, teste de apneia e exame complementar<br><br>💬 Pré-requisitos: causa conhecida, ≥ 6 h de observação (24 h se anóxia), T > 35 °C, SatO₂ > 94%, PAS ≥ 100 (adulto). Intervalo entre exames em adultos: 1 h.",
@@ -4800,6 +7140,66 @@
     "PEGA360X",
     "TEMI",
     "QT399"
+   ]
+  },
+  {
+   "subtema": "Ética, paliativos e morte encefálica",
+   "frente": "🎯 Paciente com diretiva antecipada recusando IOT, agora em insuficiência respiratória; família pede intubação. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Respeitar a diretiva antecipada válida; oferecer conforto/VNI se compatível<br><br>💬 Resolução CFM 1.995/2012.",
+   "pegadinha": "Diretiva prevalece sobre desejo familiar.",
+   "fonte": "Banco de questões CÓDICE 360X · QT557",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT557"
+   ]
+  },
+  {
+   "subtema": "Ética, paliativos e morte encefálica",
+   "frente": "🎯 Paciente terminal em dispneia refratária, sofrimento intenso. Sedação paliativa é:",
+   "verso": "<b class=c>✅ Resposta:</b> Ética e legal, com intenção de aliviar sintoma refratário, titulada, com consentimento<br><br>💬 Princípio do duplo efeito.",
+   "pegadinha": "Midazolam é primeira escolha.",
+   "fonte": "Banco de questões CÓDICE 360X · QT558",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT558"
+   ]
+  },
+  {
+   "subtema": "Ética, paliativos e morte encefálica",
+   "frente": "🎯 Morte encefálica confirmada, família recusa doação. Conduta?",
+   "verso": "<b class=c>✅ Resposta:</b> Respeitar recusa; comunicar óbito e retirar suporte conforme protocolo<br><br>💬 Morte encefálica é óbito.",
+   "pegadinha": "Notificação compulsória à CIHDOTT.",
+   "fonte": "Banco de questões CÓDICE 360X · QT559",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT559"
+   ]
+  },
+  {
+   "subtema": "Ética, paliativos e morte encefálica",
+   "frente": "🎯 Comunicação de notícia difícil em UTI. Protocolo mais usado?",
+   "verso": "<b class=c>✅ Resposta:</b> SPIKES<br><br>💬 Setting, Perception, Invitation, Knowledge, Emotions, Strategy.",
+   "pegadinha": "Escuta empática é central.",
+   "fonte": "Banco de questões CÓDICE 360X · QT560",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT560"
+   ]
+  },
+  {
+   "subtema": "Ética, paliativos e morte encefálica",
+   "frente": "🎯 Futilidade terapêutica: decisão de limitar suporte deve ser:",
+   "verso": "<b class=c>✅ Resposta:</b> Compartilhada com equipe, família/paciente, documentada em prontuário<br><br>💬 Resolução CFM 1.805/2006.",
+   "pegadinha": "Cuidados de conforto nunca são suspensos.",
+   "fonte": "Banco de questões CÓDICE 360X · QT599",
+   "tags": [
+    "PEGA360X",
+    "TEMI",
+    "QT599"
    ]
   }
  ],
