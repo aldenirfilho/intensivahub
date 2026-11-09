@@ -51,7 +51,8 @@
     "Ressuscitação hemodinâmica",
     "Antimicrobianos e controle de foco",
     "Terapias adjuvantes e suporte"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -65,7 +66,8 @@
     "Desmame e extubação",
     "VNI, CNAF e via aérea",
     "Mecânica, monitorização e complicações"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -78,7 +80,8 @@
     "Drogas vasoativas",
     "Choque cardiogênico e suporte mecânico",
     "Choques obstrutivo, distributivo e especiais"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -92,7 +95,8 @@
     "Alcalose metabólica",
     "Distúrbios respiratórios e mistos",
     "Stewart e lactato"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -105,7 +109,8 @@
     "Cálcio",
     "Magnésio e fósforo",
     "Água, osmolalidade e poliúria"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -117,7 +122,8 @@
     "Causas e síndromes renais",
     "Terapia renal substitutiva",
     "Prevenção e manejo hídrico"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -132,7 +138,8 @@
     "Estado de mal epiléptico",
     "Neuromuscular e encefalopatias",
     "Morte encefálica"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -145,7 +152,8 @@
     "Delirium e bundle ABCDEF",
     "Via aérea e bloqueio neuromuscular",
     "Síndromes tóxicas e abstinência"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -158,7 +166,8 @@
     "Arritmias",
     "Síndrome coronariana aguda",
     "IC aguda e emergências cardiovasculares"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -172,7 +181,8 @@
     "Infecções comunitárias graves",
     "Fungos e imunossuprimidos",
     "Doenças tropicais e endêmicas"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -185,7 +195,8 @@
     "Anticoagulação e reversão",
     "Onco-hematologia de urgência",
     "Obstetrícia crítica"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -198,7 +209,8 @@
     "Tireoide",
     "Adrenal, hipófise e corticoides",
     "Outras emergências endócrinas"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -211,7 +223,8 @@
     "Fígado",
     "Nutrição",
     "Abdome agudo e complicações abdominais"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -223,7 +236,8 @@
     "Queimados e inalação",
     "Toxicologia",
     "Ambiental e animais peçonhentos"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -236,7 +250,8 @@
     "POCUS e procedimentos",
     "Ética, legislação e terminalidade",
     "Pós-UTI e reabilitação"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -254,7 +269,8 @@
     "🚨 Choque, PCR e trauma: RUSH, FAST e eFAST",
     "🩸 Vascular e procedimentos guiados",
     "🧠 Diafragma, olho, estômago, rim e outros"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "temi",
@@ -272,7 +288,8 @@
     "😷 VNI, CNAF e intubação",
     "🏁 Desmame, extubação e traqueostomia",
     "🧩 Situações especiais, PAV e complicações"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "cm",
@@ -287,7 +304,8 @@
     "Coronariopatia crônica e lipídios",
     "Pericárdio e cardiomiopatias",
     "ECG e síncope"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -299,7 +317,8 @@
     "DPOC",
     "Derrame pleural e nódulo",
     "Intersticiais, sono e circulação pulmonar"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -311,7 +330,8 @@
     "Glomerulopatias",
     "Litíase e infecção urinária",
     "Outras nefropatias"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -323,7 +343,8 @@
     "Tireoide",
     "Adrenal e hipófise",
     "Osteometabólico"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -335,7 +356,8 @@
     "Intestino",
     "Hepatites",
     "Cirrose e hepatopatias crônicas"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -346,7 +368,8 @@
     "Anemias",
     "Neoplasias hematológicas",
     "Hemostasia e trombose"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -359,7 +382,8 @@
     "IST e sífilis",
     "Doenças endêmicas",
     "Vacinas e profilaxias"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -371,7 +395,8 @@
     "LES e colagenoses",
     "Gota e cristais",
     "Espondiloartrites, vasculites e artrite séptica"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -383,7 +408,8 @@
     "Epilepsia",
     "Doenças neurodegenerativas e desmielinizantes",
     "Vascular, nervos e síncope"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -394,7 +420,8 @@
     "Rastreamento e genética",
     "Marcadores e síndromes paraneoplásicas",
     "Urgências e suporte oncológico"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -405,7 +432,8 @@
     "Avaliação geriátrica e síndromes",
     "Polifarmácia",
     "Cuidados paliativos"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -416,7 +444,8 @@
     "Depressão e ansiedade",
     "Psicofármacos",
     "Álcool e outras drogas"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -427,7 +456,8 @@
     "Rastreamentos",
     "Obesidade",
     "Estilo de vida e tabagismo"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -438,7 +468,8 @@
     "Farmacodermias",
     "Urticária, anafilaxia e alergia a drogas",
     "Dermatoses e infecções de pele"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -449,7 +480,8 @@
     "Interações medicamentosas",
     "Semiologia",
     "Exames laboratoriais"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "ia360c",
@@ -458,7 +490,8 @@
    "cards": 20,
    "subtemas": [
     "Mecânica"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -471,7 +504,8 @@
     "Fluxo",
     "Ritmo",
     "Trigger"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -483,7 +517,8 @@
     "Modos",
     "Obstrução",
     "Proteção"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -497,7 +532,8 @@
     "Monitorização",
     "Prona",
     "Recrutamento"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -512,7 +548,8 @@
     "Oxigênio",
     "Pré-oxigenação",
     "VNI"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -522,7 +559,8 @@
    "subtemas": [
     "Fenótipos",
     "Perfusão"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -534,7 +572,8 @@
     "Fluidos",
     "Inotrópicos",
     "Vasopressores"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -549,7 +588,8 @@
     "Reconhecimento",
     "Suporte",
     "Vasopressores"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -562,7 +602,8 @@
     "PK/PD",
     "Patógenos",
     "Princípios"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -572,7 +613,8 @@
    "subtemas": [
     "Dispositivos",
     "Focos"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -587,7 +629,8 @@
     "Pneumotórax",
     "Protocolos",
     "Segurança"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -600,7 +643,8 @@
     "Pericárdio",
     "VD",
     "Valvas"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -613,7 +657,8 @@
     "VTI",
     "Vascular",
     "Volume"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -626,7 +671,8 @@
     "Diagnóstico",
     "Obstrução",
     "TRS"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -638,7 +684,8 @@
     "Lactato",
     "Metabolismo",
     "Passos"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -651,7 +698,8 @@
     "Magnésio",
     "Potássio",
     "Sódio"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -666,7 +714,8 @@
     "SCA",
     "TEP",
     "Valvas"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -678,7 +727,8 @@
     "ECG",
     "PCR",
     "Taquicardias"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -693,7 +743,8 @@
     "Isquemia",
     "Morte encefálica",
     "Pressão intracraniana"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -706,7 +757,8 @@
     "Pós-parada",
     "TCE",
     "Trauma"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -718,7 +770,8 @@
     "Delirium",
     "Mobilidade",
     "Sedação"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -732,7 +785,8 @@
     "Plaquetas",
     "TVP",
     "Transfusão"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -745,7 +799,8 @@
     "Glicemia",
     "Metabolismo",
     "Tireoide"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -757,7 +812,8 @@
     "Cirrose",
     "Hemorragia",
     "Pâncreas"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -771,7 +827,8 @@
     "Infecção",
     "Metabolismo",
     "Tratamento"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -783,7 +840,8 @@
     "Pós-operatório",
     "Queimaduras",
     "Trauma"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -800,7 +858,8 @@
     "Pleura",
     "SAOS",
     "TEP"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -813,7 +872,8 @@
     "Infectologia",
     "Reumatologia",
     "Risco CV"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -824,7 +884,8 @@
     "Nutrição",
     "Prevenção",
     "Qualidade"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -836,7 +897,8 @@
     "Procedimentos",
     "Segurança",
     "Ética"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -889,7 +951,8 @@
     "Síndrome taquicárdica postural",
     "Tamponamento subagudo",
     "Terapia de ressincronização"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -932,7 +995,8 @@
     "Sarcoidose pulmonar",
     "Síndrome de hipoventilação da obesidade",
     "Tuberculose pleural"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1000,7 +1064,8 @@
     "Tuberculose miliar",
     "Tuberculose pulmonar: suspeita",
     "Tuberculose resistente"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1059,7 +1124,8 @@
     "Síndrome urêmica",
     "Tolvaptana na DRPAD",
     "Transplante renal e creatinina"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1116,7 +1182,8 @@
     "Tempestade tireotóxica",
     "Tiazolidinedionas",
     "Tireoidites destrutivas"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1164,7 +1231,8 @@
     "Sorologia da hepatite B",
     "Síndrome hepatorrenal",
     "Vigilância de carcinoma hepatocelular"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1202,7 +1270,8 @@
     "TP e TTPa na interpretação inicial",
     "Trombofilias e indicação de testes",
     "Trombose associada ao câncer"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1240,7 +1309,8 @@
     "Síndrome de Sjögren",
     "Takayasu e poliarterite nodosa",
     "Vasculites e tamanho do vaso"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1278,7 +1348,8 @@
     "Síndrome vestibular aguda e AVC",
     "Tremor de ação e repouso",
     "Vertigem posicional paroxística benigna"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1316,7 +1387,8 @@
     "Urticária e angioedema",
     "Valores preditivos e prevalência",
     "Vieses e estudos diagnósticos"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1327,7 +1399,8 @@
     "Distúrbios funcionais",
     "Esôfago",
     "Oncologia digestiva"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1339,7 +1412,8 @@
     "Cognição",
     "Desmielinização",
     "Distúrbios do movimento"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1350,7 +1424,8 @@
     "Artrites inflamatórias",
     "Conectivopatias",
     "Espondiloartrites"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1368,7 +1443,8 @@
     "Pericárdio",
     "Prevenção cardiovascular",
     "Valvopatias"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1386,7 +1462,8 @@
     "Osso",
     "Paratireoide e cálcio",
     "Tireoide"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1406,7 +1483,8 @@
     "Intestino delgado",
     "Pâncreas",
     "Vias biliares"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1426,7 +1504,8 @@
     "Plaquetas",
     "Transfusão",
     "Trombose"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1445,7 +1524,8 @@
     "Tuberculose",
     "Viroses respiratórias",
     "Zoonoses"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1457,7 +1537,8 @@
     "Ensaios",
     "Síntese",
     "Tratamento"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1467,7 +1548,8 @@
    "subtemas": [
     "Nutrição",
     "Ética"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1487,7 +1569,8 @@
     "Tubulointerstício",
     "Urina e proteinúria",
     "Ácido-base"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1501,7 +1584,8 @@
     "Doenças neuromusculares",
     "Trauma",
     "UTI"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1521,7 +1605,8 @@
     "Sono",
     "Tromboembolismo",
     "Vias aéreas"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1536,7 +1621,8 @@
     "Segurança terapêutica",
     "Trombose autoimune",
     "Vasculites"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "ia360c",
@@ -1551,7 +1637,8 @@
     "Salicilatos",
     "Toxíndromes",
     "Álcoois tóxicos"
-   ]
+   ],
+   "pacote": "pack-3-ia360c"
   },
   {
    "colecao": "grok",
@@ -1562,7 +1649,8 @@
     "Hipertensão e risco",
     "Prevenção",
     "Valva e prevenção"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1572,7 +1660,8 @@
    "subtemas": [
     "DPOC, asma, TEP",
     "Probabilidade"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1582,7 +1671,8 @@
    "subtemas": [
     "Fígado e estômago",
     "Prognóstico"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1591,7 +1681,8 @@
    "cards": 3,
    "subtemas": [
     "Síndromes"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1601,7 +1692,8 @@
    "subtemas": [
     "Diabetes e tireoide",
     "Hipófise e adrenal"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1611,7 +1703,8 @@
    "subtemas": [
     "Anemia, leucemia, trombose",
     "Doença que a enfermaria chama de ‘dor nas costas’"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1621,7 +1714,8 @@
    "subtemas": [
     "Esquema que a banca cobra escrito",
     "HIV, TB e comunitárias"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1631,7 +1725,8 @@
    "subtemas": [
     "AVC, cefaleia, nervo",
     "Ambulatório"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1641,7 +1736,8 @@
    "subtemas": [
     "Colagenoses e plantão clínico",
     "Gota, osso e planta"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1650,7 +1746,8 @@
    "cards": 10,
    "subtemas": [
     "🧩 Números de ouro"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1659,7 +1756,8 @@
    "cards": 1,
    "subtemas": [
     "Mapa de estudo"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1669,7 +1767,8 @@
    "subtemas": [
     "Entrega de oxigênio",
     "Pressões e complacência"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1682,7 +1781,8 @@
     "Peso predito na prática",
     "SDRA — definição",
     "Ventilação protetora"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1694,7 +1794,8 @@
     "Os quatro choques",
     "Perfusão e cateter",
     "Responsividade a volume"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1706,7 +1807,8 @@
     "Focos que a prova transforma em caso",
     "Líquor e foco",
     "Tempo do antibiótico e do soro"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1717,7 +1819,8 @@
     "ECG que muda a sala",
     "Parada",
     "Síndrome coronária e IC"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1727,7 +1830,8 @@
    "subtemas": [
     "Escalas",
     "Trauma e hipertensão intracraniana"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1746,7 +1850,8 @@
     "Túbulo e imagem",
     "Ácido-base — regras",
     "Índice de respiração rápida e superficial"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1755,7 +1860,8 @@
    "cards": 4,
    "subtemas": [
     "PADIS e ABCDEF"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1766,7 +1872,8 @@
     "Nutrição",
     "Reação transfusional",
     "Sangue e hemostasia"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1776,7 +1883,8 @@
    "subtemas": [
     "Hemorragia digestiva",
     "Pâncreas e fígado"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1789,7 +1897,8 @@
     "Mais antídotos",
     "Obstetrícia crítica",
     "Toxicologia"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1800,7 +1909,8 @@
     "Protocolo",
     "Ultrassom",
     "Via aérea e tubos"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1811,7 +1921,8 @@
     "Método",
     "Número que a questão esconde",
     "Ética e UTI"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "grok",
@@ -1820,7 +1931,8 @@
    "cards": 32,
    "subtemas": [
     "🧩 Números de ouro"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "ouro",
@@ -1835,7 +1947,8 @@
     "🧠 Neurointensivismo",
     "💧 Rim, eletrólitos e ácido-base",
     "🩸 Sangue, nutrição e antídotos"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "ouro",
@@ -1846,7 +1959,8 @@
     "🩺 Endócrino e metabolismo",
     "🫀 Cardio e pulmão",
     "🦠 Gastro, infecto, hemato e nefro"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "iac",
@@ -1875,7 +1989,8 @@
     "Pneumo — fibrose",
     "Pneumo — pleural",
     "Pneumo — tórax"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -1905,7 +2020,8 @@
     "Nefro — DRC",
     "Nefro — glomerulonefrites",
     "Nefro — litíase"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -1935,7 +2051,8 @@
     "Reuma — granulomatoses",
     "Reuma — miosites",
     "Reuma — nefrite lúpica"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -1966,7 +2083,8 @@
     "Síndrome de ativação macrofágica",
     "Síndromes específicas",
     "Vasoativos"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2006,7 +2124,8 @@
     "Ventilação no DPOC",
     "Ventilação no asma",
     "Ventilação — SDRA leve"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2033,7 +2152,8 @@
     "Pressões",
     "Resposta a fluido",
     "Tromboelastografia"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2058,7 +2178,8 @@
     "TRS — dose",
     "TRS — início",
     "TRS — modalidades"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2086,7 +2207,8 @@
     "TCE — classificação",
     "TCE — decompressão",
     "TCE — hiperosmolar"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2108,7 +2230,8 @@
     "Imobilização — complicações",
     "Mobilização precoce",
     "Sedativos"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2138,7 +2261,8 @@
     "Stewardship",
     "Sífilis",
     "Tuberculose"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2160,7 +2284,8 @@
     "Nutrição — micronutrientes",
     "Nutrição — refeeding",
     "Nutrição — via"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2181,7 +2306,8 @@
     "Sangramento GI",
     "Sangramento GI — varizes",
     "Sangramento — transfusão"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2200,7 +2326,8 @@
     "Transfusão",
     "Trombocitopenia",
     "Trombose — TEP"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2222,7 +2349,8 @@
     "TEP — profilaxia",
     "TEP — tratamento",
     "Tamponamento"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2246,7 +2374,8 @@
     "Ventilação domiciliar",
     "Ética",
     "Ética — sedação terminal"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2272,7 +2401,8 @@
     "Trauma — dano controle",
     "Vasoativos — doses",
     "Vasoativos — escolha"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2330,7 +2460,8 @@
     "Caso 148",
     "Caso 149",
     "Caso 150"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2385,7 +2516,8 @@
     "Caso 198",
     "Caso 199",
     "Caso 200"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2439,7 +2571,8 @@
     "Caso 7",
     "Caso 8",
     "Caso 9"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2497,7 +2630,8 @@
     "Caso 97",
     "Caso 98",
     "Caso 99"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2534,7 +2668,8 @@
     "Volume — PLR",
     "Volume — VCI",
     "Íleo"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2574,7 +2709,8 @@
     "Valva mitral",
     "Veia cava",
     "eFAST"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2606,7 +2742,8 @@
     "Vigneta rápida 7",
     "Vigneta rápida 8",
     "Vigneta rápida 9"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2641,7 +2778,8 @@
     "Sinal do pulmão",
     "Toracocentese",
     "Via aérea"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "iac",
@@ -2682,7 +2820,8 @@
     "TEE — endocardite",
     "TEE — indicação",
     "TEE — trombo LA"
-   ]
+   ],
+   "pacote": "pack-4-outras"
   },
   {
    "colecao": "cm",
@@ -2697,7 +2836,8 @@
     "Valvopatias e endocardite",
     "Lipídios e prevenção",
     "Pericárdio, miocárdio e vascular"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2711,7 +2851,8 @@
     "Intersticiais e sarcoidose",
     "Circulação pulmonar e sono",
     "Infecções e função pulmonar"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2726,7 +2867,8 @@
     "Potássio, cálcio, fósforo e magnésio",
     "Ácido-base",
     "Litíase, ITU e túbulo-intersticial"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2740,7 +2882,8 @@
     "Hipófise",
     "Osteometabólico e paratireoide",
     "Obesidade e outros"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2754,7 +2897,8 @@
     "Pâncreas e vias biliares",
     "Hepatites e fígado",
     "Cirrose e complicações"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2769,7 +2913,8 @@
     "Leucemias e mieloproliferativas",
     "Linfomas e mieloma",
     "Transfusão"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2785,7 +2930,8 @@
     "Endemias tropicais",
     "SNC, pele e outros sítios",
     "Imunização e profilaxias"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2800,7 +2946,8 @@
     "Espondiloartrites",
     "Cristais e artrites",
     "Partes moles e osteoartrite"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2814,7 +2961,8 @@
     "Demências e movimento",
     "Neuroimunologia e neuromuscular",
     "Coma, delirium e outros"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2827,7 +2975,8 @@
     "Paraneoplásicas e marcadores",
     "Urgências oncológicas",
     "Toxicidade e suporte"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2839,7 +2988,8 @@
     "Síndromes geriátricas",
     "Polifarmácia",
     "Cuidados paliativos"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2851,7 +3001,8 @@
     "Psicofármacos",
     "Substâncias",
     "Urgências psiquiátricas"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2863,7 +3014,8 @@
     "Vacinação do adulto",
     "Epidemiologia e MBE",
     "Ética e saúde pública"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2874,7 +3026,8 @@
     "Farmacodermias",
     "Alergia e urticária",
     "Dermatoses na clínica"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "cm",
@@ -2886,7 +3039,8 @@
     "Intoxicações",
     "Enfermaria e perioperatório",
     "Distúrbios ambientais e outros"
-   ]
+   ],
+   "pacote": "pack-2-r3"
   },
   {
    "colecao": "temi",
@@ -2918,7 +3072,8 @@
     "Ventilação e SDRA",
     "Ácido-base",
     "Ética, paliativos e morte encefálica"
-   ]
+   ],
+   "pacote": "pack-1-temi"
   },
   {
    "colecao": "cm",
@@ -2942,7 +3097,72 @@
     "Pneumologia",
     "Psiquiatria",
     "Reumatologia"
-   ]
+   ],
+   "pacote": "pack-2-r3"
+  }
+ ],
+ "pacotes": [
+  {
+   "nome": "pack-1-temi",
+   "rotulo": "🏥 TEMI 2028 + 🥇 Números de ouro",
+   "colecoes": [
+    "temi",
+    "ouro"
+   ],
+   "gz": "data/packs/pack-1-temi.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-1-temi.json",
+   "sha": "680b56146c393395",
+   "decks": 20,
+   "cards": 2128,
+   "bytes": 896051,
+   "gzbytes": 305576
+  },
+  {
+   "nome": "pack-2-r3",
+   "rotulo": "🩺 R3 Clínica Médica",
+   "colecoes": [
+    "cm"
+   ],
+   "gz": "data/packs/pack-2-r3.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-2-r3.json",
+   "sha": "8b6db4a84b2905a1",
+   "decks": 31,
+   "cards": 1734,
+   "bytes": 718221,
+   "gzbytes": 273808
+  },
+  {
+   "nome": "pack-3-ia360c",
+   "rotulo": "🤖 IAs 360X curados",
+   "colecoes": [
+    "ia360c"
+   ],
+   "gz": "data/packs/pack-3-ia360c.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-3-ia360c.json",
+   "sha": "1d335e280237049d",
+   "decks": 55,
+   "cards": 4582,
+   "bytes": 1970487,
+   "gzbytes": 426840
+  },
+  {
+   "nome": "pack-4-outras",
+   "rotulo": "🧹 Outras IAs + Grok",
+   "colecoes": [
+    "iac",
+    "grok"
+   ],
+   "gz": "data/packs/pack-4-outras.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-4-outras.json",
+   "sha": "a9cf825eb38049ef",
+   "decks": 50,
+   "cards": 1088,
+   "bytes": 612062,
+   "gzbytes": 243704
   }
  ]
 }

@@ -4,7 +4,7 @@
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.2.1";
+const APP_VERSION = "4.3.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -426,6 +426,31 @@ async function fetchJSON(url, tries = 3, fresh = false) {
   }
   throw err;
 }
+async function fetchPack(p, tries = 3) {
+  let err;
+  for (let i = 0; i < tries; i++) {
+    try {
+      if (typeof DecompressionStream !== "undefined" && p.gz) {
+        const r = await fetch(p.gz + "?v=" + p.sha, { cache: i ? "no-cache" : "default" });
+        if (!r.ok) throw new Error(r.status + " " + p.gz);
+        let buf;
+        if (p.enc === "b64") { const t = (await r.text()).trim(); buf = Uint8Array.from(atob(t), ch => ch.charCodeAt(0)); }
+        else buf = new Uint8Array(await r.arrayBuffer());
+        if (buf[0] === 0x1f && buf[1] === 0x8b) {
+          const st = new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"));
+          return JSON.parse(await new Response(st).text());
+        }
+        return JSON.parse(new TextDecoder().decode(buf)); // servidor já descompactou
+      }
+      return await fetchJSON(p.json + "?v=" + p.sha, 1);
+    } catch (e) {
+      err = e; console.warn("pacote, tentativa", i + 1, p.nome, e);
+      if (i === tries - 1 && p.json) { try { return await fetchJSON(p.json + "?v=" + p.sha, 2); } catch (e2) { err = e2; } }
+      else await sleep(500 * (i + 1) * (i + 1));
+    }
+  }
+  throw err;
+}
 let officialRetry = 0;
 async function loadOfficial() {
   let idx = null, offline = false;
@@ -438,9 +463,25 @@ async function loadOfficial() {
   const decks = idx.decks.filter(d => cols[d.colecao || "temi"] !== false);
   const cachedVer = await DB.meta("offCacheVer", "").catch(() => ""), needCache = cachedVer !== idx.versao;
   const res = new Array(decks.length), failed = []; let next = 0, fromCache = 0;
+  // 1) Pacotes: cópia local atual (sem download) → .json.gz → .json; o que faltar cai para os arquivos individuais
+  const packData = {}, packStat = { local: 0, rede: 0, velho: 0, falhou: 0 };
+  const packs = (idx.pacotes || []).filter(p => p.colecoes.some(c => cols[c] !== false));
+  await Promise.all(packs.map(async p => {
+    const c = await DB.meta("pack:" + p.nome, null).catch(() => null);
+    const use = data => (data.decks || []).forEach(x => packData[x.arquivo] = x.j);
+    if (c && c.sha === p.sha && !S.forcePacks) { use(c.data); packStat.local++; return; }
+    if (!offline) {
+      try { const data = await fetchPack(p); use(data); packStat.rede++; DB.setMeta("pack:" + p.nome, { sha: p.sha, data }).catch(() => {}); return; }
+      catch (e) { console.warn("pacote falhou", p.nome, e); }
+    }
+    if (c) { use(c.data); packStat.velho++; return; }
+    packStat.falhou++;
+  }));
+  decks.forEach((d, i) => { if (packData[d.arquivo]) res[i] = packData[d.arquivo]; });
+  S.packStat = Object.assign(packStat, { total: packs.length, at: Date.now() });
   async function worker() {
     while (next < decks.length) {
-      const i = next++, d = decks[i]; let j = null;
+      const i = next++, d = decks[i]; if (res[i]) continue; let j = null;
       if (!offline) {
         try { j = await fetchJSON(d.arquivo); if (needCache) DB.setMeta("deck:" + d.arquivo, j).catch(() => {}); }
         catch (e) { console.warn("baralho falhou", d.arquivo, e); }
@@ -450,7 +491,7 @@ async function loadOfficial() {
     }
   }
   await Promise.all(Array.from({ length: Math.min(6, decks.length) }, worker));
-  if (!failed.length && !offline && needCache) DB.setMeta("offCacheVer", idx.versao).catch(() => {});
+  if (!failed.length && !offline && needCache && !packs.length) DB.setMeta("offCacheVer", idx.versao).catch(() => {});
   const list = []; let ord = 0;
   decks.forEach((d, i) => {
     const j = res[i]; if (!j) return;
@@ -463,13 +504,19 @@ async function loadOfficial() {
   });
   if (list.length || !S.official) S.official = list;
   if (failed.length) { toast(`⚠️ ${failed.length} de ${decks.length} baralhos não baixaram agora; vou tentar de novo sozinho. O restante já está liberado.`); scheduleOfficialRetry(); }
-  else if (offline || fromCache) toast(`📦 Sem internet estável: usando a cópia salva no aparelho (${fromCache || decks.length} baralhos).`);
+  else if (offline || fromCache || packStat.velho) toast(`📦 Sem internet estável: usando a cópia salva no aparelho.`);
   if (!failed.length) officialRetry = 0;
+  packInfo();
+}
+function packInfo() {
+  const el = document.getElementById("colsInfo"), p = S.packStat; if (!el || !p) return;
+  const h = new Date(p.at).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+  el.textContent = ` 📦 ${p.total} pacotes · ${p.local} já no aparelho · ${p.rede} baixados${p.velho ? ` · ${p.velho} cópia antiga` : ""}${p.falhou ? ` · ${p.falhou} via arquivos avulsos` : ""} · ${(S.official || []).length} cards · ${h}`;
 }
 document.addEventListener("click", async e => {
   if (!e.target.closest || !e.target.closest("#reloadCols")) return;
-  toast("⏳ Baixando as coleções de novo…"); await DB.setMeta("offCacheVer", "").catch(() => {});
-  officialRetry = 0; await loadOfficial(); rebuildCards(); try { rerender(); } catch (er) { route(); }
+  toast("⏳ Baixando as coleções de novo…"); await DB.setMeta("offCacheVer", "").catch(() => {}); S.forcePacks = true;
+  officialRetry = 0; await loadOfficial(); S.forcePacks = false; rebuildCards(); try { rerender(); } catch (er) { route(); }
   toast(`✅ ${S.official.length} cards oficiais carregados`);
 });
 function scheduleOfficialRetry() {
@@ -1378,7 +1425,7 @@ $("#pCopy").onclick = async () => {
 /* ---------------- UI: Ajustes ---------------- */
 function fillSettings() {
   const s = S.settings; $("#sNew").value = s.newPerDay; $("#sRev").value = s.revPerDay; $("#sSteps").value = s.steps.join(" "); $("#sGrad").value = s.grad + " " + s.easy;
-  $("#colsBox").innerHTML = (S.index?.colecoes || []).map(c => `<label class="btn" style="cursor:pointer"><input type="checkbox" data-col="${c.id}" ${s.cols[c.id] !== false ? "checked" : ""}> ${c.icone} ${esc(c.nome)} (${c.cards})</label>`).join("");
+  $("#colsBox").innerHTML = (S.index?.colecoes || []).map(c => `<label class="btn" style="cursor:pointer"><input type="checkbox" data-col="${c.id}" ${s.cols[c.id] !== false ? "checked" : ""}> ${c.icone} ${esc(c.nome)} (${c.cards})</label>`).join(""); packInfo();
   $$("#colsBox [data-col]").forEach(cb => cb.onchange = async () => { S.settings.cols = Object.assign({}, S.settings.cols, { [cb.dataset.col]: cb.checked }); await saveSettings(); toast("⏳ Carregando coleções…"); await loadOfficial(); rebuildCards(); toast("✅ Coleções atualizadas"); });
   $("#syncInfo").innerHTML = Cloud.on ? `☁️ Ativa — progresso, ajustes e cards próprios vão para sua conta. Última sincronização: <b>${new Date(Cloud.lastSync).toLocaleTimeString("pt-BR")}</b>.` :
     `💾 Desativada nesta visualização${Cloud.err ? ` (<span style="color:var(--red)">${esc(Cloud.err)}</span>)` : ""}. A sincronização automática funciona quando o app é aberto pela página do Claude, logado.`;
