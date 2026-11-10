@@ -22,6 +22,7 @@ header{position:sticky;top:0;z-index:20;background:rgba(11,14,19,.92);backdrop-f
 .brand{display:flex;align-items:center;gap:10px;max-width:1000px;margin:0 auto}
 .brand svg,.brand .logo{width:42px;height:42px;flex:none;border-radius:10px;filter:drop-shadow(0 2px 6px #0009)}
 .brand h1{font:700 18px/1.1 Cinzel,serif;letter-spacing:1.5px;margin:0;background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hubSteps{margin:8px 0 10px;padding-left:22px;line-height:1.6;color:var(--txt)}.hubSteps a{color:var(--cy)}.hubNote{margin-top:8px;padding:10px 12px;border-radius:10px;background:#122030;border:1px solid #1f3b52;color:var(--txt);font-size:14px}#ponteBox textarea{background:#0e1116;color:var(--txt);border:1px solid var(--line);border-radius:10px;padding:8px;font:13px ui-monospace,Menlo,monospace}#sync{cursor:pointer}
 .grow{flex:1}.sync{font:600 12px Inter;padding:5px 10px;border-radius:20px;border:1px solid var(--line);color:var(--mut);white-space:nowrap}.sync.ok{color:var(--grn);border-color:#1f6b3d}.sync.busy{color:var(--amb);border-color:#7a5a1d}.sync.err{color:var(--red);border-color:#7a2d2d}
 .charts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.chart h3{margin:0 0 6px;font-size:14px}.chart svg{width:100%;height:auto;display:block}
 .legend{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mut);margin-top:6px}.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
@@ -47,7 +48,7 @@ h3{margin:18px 0 8px;font-size:16px;color:var(--cy)}
 .btn.sm{padding:6px 10px;font-size:13px;border-radius:9px}
 .btn.danger{border-color:#6b2a2a;color:#ffb3b3}
 .btn:disabled{opacity:.45;cursor:default}
-input[type=text],input[type=number],input[type=search],select,textarea{width:100%;background:#0e131a;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:10px 12px;font:15px Inter}
+input[type=text],input[type=number],input[type=search],input[type=password],select,textarea{width:100%;background:#0e131a;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:10px 12px;font:15px Inter}
 textarea{min-height:140px;font:13px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace}
 label{font-size:13px;color:var(--mut);font-weight:600}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
@@ -292,7 +293,8 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <div class="row"><button class="btn gold" id="sSave">💾 Salvar ajustes</button></div>
  </div>
  <div class="panel"><h3 style="margin-top:0">📚 Coleções oficiais visíveis</h3><div id="colsBox" class="row"></div><div class="row" style="margin-top:8px"><button class="btn" id="reloadCols">🔄 Recarregar coleções</button><small class="muted" id="colsInfo"></small></div></div>
- <div class="panel"><h3 style="margin-top:0">☁️ Sincronização</h3><div id="syncInfo" style="color:var(--mut)"></div><div class="row" style="margin-top:8px"><button class="btn cy" id="syncNow">🔄 Sincronizar agora</button></div></div>
+ <div class="panel" id="syncPanel"><h3 style="margin-top:0">☁️ Sincronização entre aparelhos</h3><div id="syncInfo" style="color:var(--mut);line-height:1.55"></div><div id="hubBox"></div><div class="row" style="margin-top:8px"><button class="btn cy" id="syncNow">🔄 Sincronizar agora</button></div></div>
+ <div class="panel" id="ponteBox"></div>
  <div class="panel">
   <h3 style="margin-top:0">🛟 Backup e outros aparelhos</h3>
   <p style="color:var(--mut);margin:4px 0 10px">Cópia de segurança completa (seus cards, imagens e progresso) em um arquivo .json.</p>

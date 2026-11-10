@@ -2,9 +2,11 @@
    - Coleções oficiais (TEMI 2028 + R3 Clínica Médica) carregadas dos arquivos do app
    - Cards do usuário + progresso em IndexedDB (cache local) e, numa página do Claude, sincronizados
      automaticamente na nuvem do artifact (db por usuário) — mesmo login = mesmo progresso em todos os aparelhos.
+   - Fora do Claude (GitHub Pages, iPhone/computador): sincroniza por um Gist secreto do GitHub (Hub) com a mesma chave em todos os aparelhos.
+   - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.3.0";
+const APP_VERSION = "4.4.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -202,12 +204,12 @@ const Cloud = {
     if (!data) return false; let changed = false;
     if (id === "state") {
       if ((data.settingsMod || 0) > S.settingsMod && data.settings) { const oldCols = JSON.stringify(S.settings.cols); S.settings = Object.assign({}, DEFAULTS, data.settings); S.settings.cols = Object.assign({ temi: true, cm: true, ia: true }, S.settings.cols || {}); S.settingsMod = data.settingsMod; DB.setMeta("settings", { v: data.settings, mod: data.settingsMod }); changed = true; if (JSON.stringify(S.settings.cols) !== oldCols) loadOfficial().then(() => { rebuildCards(); rerender(); }); }
-      for (const [d, l] of Object.entries(data.logs || {})) { const cur = S.logs[d]; if (!cur || act(l) > act(cur)) { S.logs[d] = l; changed = true; } }
+      const ml = mergeLogs(S.logs, data.logs || {}); if (stable(syncLogs(ml)) !== stable(syncLogs(S.logs))) { S.logs = ml; changed = true; }
       if (data.session && (!S.session || data.session.mod > S.session.mod)) { S.session = data.session; DB.setMeta("session", S.session); changed = true; }
       if (S.session && (!data.session || S.session.mod > data.session.mod)) this.dirty.st = true;
       if (changed) DB.setMeta("logs", S.logs);
       // se meu log local de algum dia é maior, preciso enviar
-      for (const [d, l] of Object.entries(S.logs)) if (!data.logs || !data.logs[d] || act(data.logs[d]) < act(l)) this.dirty.st = true;
+      if (stable(syncLogs(S.logs)) !== stable(syncLogs(data.logs || {}))) this.dirty.st = true;
       if ((data.settingsMod || 0) < S.settingsMod) this.dirty.st = true;
     } else if (/^p\d\d$/.test(id)) {
       const put = [];
@@ -246,9 +248,9 @@ const Cloud = {
       if (this.dirty.p.size || this.dirty.u.size || this.dirty.st) this.schedule(300);
     } catch (e) { this.setStatus("err", "⚠️ Sem conexão — salvo no aparelho"); }
   },
-  markP(id) { this.dirty.p.add(shardP(id)); this.schedule(); },
-  markU(id) { this.dirty.u.add(shardU(id)); this.schedule(); },
-  markSt() { this.dirty.st = true; this.schedule(); },
+  markP(id) { this.dirty.p.add(shardP(id)); this.schedule(); Hub.markP(id); },
+  markU(id) { this.dirty.u.add(shardU(id)); this.schedule(); Hub.markU(id); },
+  markSt() { this.dirty.st = true; this.schedule(); Hub.markSt(); },
   schedule(ms = 2500) { if (!this.on) return; clearTimeout(this.timer); this.timer = setTimeout(() => this.flush(), ms); },
   async flush() {
     if (!this.on || this.busy) return; this.busy = true; this.setStatus("busy", "⏳ Sincronizando…");
@@ -269,7 +271,7 @@ const Cloud = {
       }
       if (this.dirty.st) {
         this.dirty.st = false; const ref = this.col.doc("state"); const r = await ref.get(); if (r.exists) this.applyDoc("state", r.data(), null); this.dirty.st = false;
-        const keep = Object.keys(S.logs).sort().slice(-120); const logs = {}; keep.forEach(k => logs[k] = S.logs[k]);
+        const logs = syncLogs(S.logs);
         const { cols, newPerDay, revPerDay, steps, grad, easy } = S.settings;
         await ref.set({ settings: { cols, newPerDay, revPerDay, steps, grad, easy }, settingsMod: S.settingsMod, logs, session: S.session || null, app: APP_VERSION });
       }
@@ -286,6 +288,228 @@ const Cloud = {
     const type = { png: "image/png", jpg: "image/jpeg", jpeg: "image/jpeg", gif: "image/gif", webp: "image/webp", svg: "image/svg+xml" }[ext];
     if (!type) return;
     try { const r = await this.assets.upload(blob, { type }); this.mediaMap[name] = r.id; this.dirty.media = true; this.schedule(); } catch (e) { console.warn("upload", name, e.code || e); }
+  },
+};
+
+
+/* ---------------- Sincronização universal 360X ----------------
+   • Hub GitHub (Gist secreto): funciona no app do GitHub Pages em qualquer aparelho (iPhone, Mac, PC).
+     Mesma chave em todos os aparelhos → progresso, XP, questões e ajustes mesclados automaticamente.
+   • Nuvem do Claude (Cloud, acima): funciona na página do Claude.
+   • Ponte (copiar/colar): leva o progresso entre o app do GitHub e a página do Claude, que é isolada
+     por segurança (não pode acessar o GitHub).
+   Regra de mescla: por card vence o mais recente (mod); registros diários campo a campo (máximo);
+   questões por data da última resposta; nada é apagado por falta de dado do outro lado. */
+const stable = v => v === null || typeof v !== "object" ? JSON.stringify(v) : Array.isArray(v) ? "[" + v.map(stable).join(",") + "]" : "{" + Object.keys(v).sort().map(k => JSON.stringify(k) + ":" + stable(v[k])).join(",") + "}";
+function mergeDay(a, b) {
+  if (!a || typeof a !== "object") return b; if (!b || typeof b !== "object") return a;
+  const o = Object.assign({}, a);
+  for (const [k, v] of Object.entries(b)) {
+    const x = o[k];
+    if (typeof v === "number") o[k] = Math.max(typeof x === "number" ? x : -Infinity, v);
+    else if (Array.isArray(v)) { const L = Array.isArray(x) ? x : [], seen = new Set(L.map(s => stable(s))); o[k] = L.concat(v.filter(s => !seen.has(stable(s)))); }
+    else if (v && typeof v === "object") o[k] = mergeDay(x && typeof x === "object" ? x : null, v);
+    else if (x === undefined) o[k] = v;
+  }
+  return o;
+}
+function mergeLogs(L, R) {
+  const out = Object.assign({}, L);
+  for (const [k, rv] of Object.entries(R || {})) {
+    if (k === "_q") {
+      const o = Object.assign({}, out._q || {});
+      for (const [id, e] of Object.entries(rv || {})) { const c = o[id]; if (!Array.isArray(e)) continue; if (!c || (e[3] || 0) > (c[3] || 0) || ((e[3] || 0) === (c[3] || 0) && (e[1] || 0) > (c[1] || 0))) o[id] = e; }
+      out._q = o;
+    } else out[k] = mergeDay(out[k], rv);
+  }
+  return out;
+}
+const syncLogs = logs => { const o = {}, days = Object.keys(logs || {}).filter(k => /^\d/.test(k)).sort().slice(-120); for (const k of Object.keys(logs || {})) if (!/^\d/.test(k) || days.includes(k)) o[k] = logs[k]; return o; };
+const encU = u => ({ d: u.deck, q: u.q, a: u.a, st: u.style, t: u.tags, m: u.mod, c: u.created });
+
+const Sync = {
+  /* fotografia completa do estado local (para Gist e Ponte) */
+  snapshot() {
+    const p = {}, u = {}; for (const x of S.prog.values()) p[x.id] = encP(x);
+    for (const x of S.user.values()) u[x.id] = encU(x);
+    for (const [k, m] of (Cloud.tomb || new Map())) if (!S.user.has(k)) u[k] = { x: 1, m };
+    const { cols, newPerDay, revPerDay, steps, grad, easy } = S.settings;
+    return { p, u, st: { settings: { cols, newPerDay, revPerDay, steps, grad, easy }, settingsMod: S.settingsMod, logs: syncLogs(S.logs), session: S.session || null } };
+  },
+  /* aplica dados remotos; devolve o que mudou aqui e o que o outro lado precisa receber */
+  async apply(snap, { full = true } = {}) {
+    const res = { changed: 0, upP: new Set(), upU: new Set(), upSt: false, gotP: 0 };
+    const putP = [], putU = [], delU = [];
+    if (snap.p) {
+      for (const [id, a] of Object.entries(snap.p)) {
+        const r = decP(id, a), l = S.prog.get(id);
+        if (!l || r.mod > l.mod) { S.prog.set(id, r); putP.push(r); res.gotP++; Cloud.dirty.p.add(shardP(id)); }
+        else if (l.mod > r.mod) res.upP.add(id);
+      }
+      if (full) for (const id of S.prog.keys()) if (!(id in snap.p)) res.upP.add(id);
+    }
+    if (snap.u) {
+      for (const [id, o] of Object.entries(snap.u)) {
+        const l = S.user.get(id), tm = Cloud.tomb && Cloud.tomb.get(id);
+        if (tm && tm >= (o.m || 0)) { if (!o.x) res.upU.add(id); continue; }
+        if (!l || (o.m || 0) > l.mod) {
+          if (o.x) { if (l) { S.user.delete(id); delU.push(id); (Cloud.tomb = Cloud.tomb || new Map()).set(id, o.m); } }
+          else { const x = { id, deck: o.d, q: o.q, a: o.a, style: o.st || "codice", tags: o.t || [], mod: o.m, created: o.c || o.m }; S.user.set(id, x); putU.push(x); }
+          Cloud.dirty.u.add(shardU(id));
+        } else if (l.mod > (o.m || 0)) res.upU.add(id);
+      }
+      if (full) { for (const id of S.user.keys()) if (!(id in snap.u)) res.upU.add(id); for (const id of (Cloud.tomb || new Map()).keys()) if (!(id in snap.u)) res.upU.add(id); }
+    }
+    if (snap.st) {
+      const d = snap.st;
+      if ((d.settingsMod || 0) > S.settingsMod && d.settings) { S.settings = Object.assign({}, DEFAULTS, S.settings, d.settings); S.settings.cols = Object.assign({ temi: true, cm: true, ia: true }, S.settings.cols || {}); S.settingsMod = d.settingsMod; await DB.setMeta("settings", { v: S.settings, mod: S.settingsMod }); res.changed++; Cloud.dirty.st = true; }
+      else if ((d.settingsMod || 0) < S.settingsMod) res.upSt = true;
+      if (d.session && (!S.session || (d.session.mod || 0) > (S.session.mod || 0))) { S.session = d.session; await DB.setMeta("session", S.session); Cloud.dirty.st = true; }
+      else if (S.session && (!d.session || (S.session.mod || 0) > (d.session.mod || 0))) res.upSt = true;
+      const m = mergeLogs(S.logs, d.logs || {});
+      if (stable(syncLogs(m)) !== stable(syncLogs(S.logs))) { S.logs = m; await DB.setMeta("logs", S.logs); res.changed++; Cloud.dirty.st = true; }
+      if (stable(syncLogs(m)) !== stable(syncLogs(d.logs || {}))) res.upSt = true;
+    } else if (full) res.upSt = true;
+    if (putP.length) await DB.putMany("prog", putP);
+    if (putU.length) await DB.putMany("user", putU);
+    if (delU.length) { await DB.delMany("user", delU); await DB.setMeta("tomb", [...Cloud.tomb]); }
+    res.changed += putP.length + putU.length + delU.length;
+    if (Cloud.on && res.changed) Cloud.schedule(1500);
+    if (res.changed) { rebuildCards(); xpBadge(); if (location.hash !== "#estudar") rerender(); }
+    return res;
+  },
+};
+
+/* ---------- Hub GitHub (Gist secreto) ---------- */
+const Hub = {
+  API: "https://api.github.com", DESC: "CÓDICE 360X · sincronização de estudo (não apagar)", NP: 16, NU: 4,
+  cfg: null, on: false, busy: false, timer: null, firstMark: 0, etag: "", lastSync: 0, err: "", devs: {}, dirty: { p: new Set(), u: new Set(), st: false }, again: false,
+  inClaude() { return !!(window.claude && typeof window.claude.use === "function"); },
+  shP(id) { return "p" + String(hnum(id) % this.NP).padStart(2, "0"); },
+  shU(id) { return "u" + (hnum(id) % this.NU); },
+  devName() {
+    const ua = navigator.userAgent, pwa = (window.navigator.standalone || matchMedia("(display-mode: standalone)").matches) ? " (app)" : "";
+    const b = /iPhone/.test(ua) ? "iPhone" : /iPad/.test(ua) || (/Mac/.test(ua) && navigator.maxTouchPoints > 1) ? "iPad" : /Android/.test(ua) ? "Android" : /Mac/.test(ua) ? "Mac" : /Windows/.test(ua) ? "Windows" : "Computador";
+    return b + pwa;
+  },
+  load() { try { this.cfg = JSON.parse(lsGet("hub360") || "null"); } catch (e) { this.cfg = null; } if (this.cfg && !this.cfg.dev) { this.cfg.dev = "d" + Math.random().toString(36).slice(2, 10); this.save(); } },
+  save() { lsSet("hub360", JSON.stringify(this.cfg)); },
+  status(kind, txt) { if (!this.inClaude()) Cloud.setStatus(kind, txt); },
+  hhmm(t) { return new Date(t).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }); },
+  async req(path, opt = {}) {
+    const h = Object.assign({ Authorization: "Bearer " + this.cfg.token, Accept: "application/vnd.github+json" }, opt.headers || {});
+    const r = await fetch(this.API + path, Object.assign({}, opt, { headers: h, cache: "no-store" }));
+    if (r.status === 401) throw Object.assign(new Error("Chave inválida ou expirada"), { code: 401 });
+    if (r.status === 403 || r.status === 404) { const t = await r.text().catch(() => ""); throw Object.assign(new Error(/rate limit/i.test(t) ? "Limite do GitHub atingido — tente em alguns minutos" : "A chave não tem a permissão “gist”"), { code: r.status }); }
+    return r;
+  },
+  init() {
+    this.load();
+    if (this.inClaude() || !this.cfg || !this.cfg.token || !this.cfg.gist) { if (!this.inClaude()) this.status("", "☁️ Ativar sync"); return; }
+    this.on = true; this.status("busy", "⏳ GitHub…"); this.sync(true);
+  },
+  /* conectar com a chave: acha o gist do CÓDICE ou cria um; depois resgata tudo o que existe aqui */
+  async connect(token, name) {
+    this.cfg = { token: token.trim(), gist: "", dev: (this.cfg && this.cfg.dev) || "d" + Math.random().toString(36).slice(2, 10), name: name || this.devName() };
+    try {
+      let id = "";
+      for (let page = 1; page <= 3 && !id; page++) {
+        const r = await this.req(`/gists?per_page=100&page=${page}`); const list = await r.json();
+        const g = list.find(x => x.description === this.DESC); if (g) id = g.id; if (list.length < 100) break;
+      }
+      if (!id) {
+        const r = await this.req("/gists", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ description: this.DESC, public: false, files: { "codice360x.json": { content: JSON.stringify({ v: 1, criado: new Date().toISOString(), app: APP_VERSION }) } } }) });
+        if (!r.ok) throw new Error("Não consegui criar o gist (" + r.status + ")");
+        id = (await r.json()).id;
+      }
+      this.cfg.gist = id; this.save(); this.on = true; this.etag = "";
+      const n = await this.sync(true);
+      return n;
+    } catch (e) { this.cfg = null; lsSet("hub360", "null"); this.on = false; throw e; }
+  },
+  disconnect() { this.on = false; this.cfg = null; lsSet("hub360", "null"); clearTimeout(this.timer); this.status("", "☁️ Ativar sync"); },
+  markP(id) { if (!this.on) return; this.dirty.p.add(this.shP(id)); this.schedule(); },
+  markU(id) { if (!this.on) return; this.dirty.u.add(this.shU(id)); this.schedule(); },
+  markSt() { if (!this.on) return; this.dirty.st = true; this.schedule(); },
+  schedule(ms = 6000) {
+    if (!this.on) return; const now = Date.now(); if (!this.firstMark) this.firstMark = now;
+    clearTimeout(this.timer); this.timer = setTimeout(() => this.sync(), Math.max(0, Math.min(ms, this.firstMark + 30000 - now)));
+  },
+  async readFiles(g) {
+    const out = {};
+    for (const [name, f] of Object.entries(g.files || {})) {
+      let txt = f.content;
+      if (f.truncated && f.raw_url) txt = await (await fetch(f.raw_url, { cache: "no-store" })).text();
+      try { out[name.replace(/\.json$/, "")] = JSON.parse(txt); } catch (e) { }
+    }
+    return out;
+  },
+  /* puxa → mescla → envia só os fragmentos com novidade daqui. Devolve nº de itens enviados no 1º resgate */
+  async sync(rescue = false) {
+    if (!this.on) return 0; if (this.busy) { this.again = true; return 0; }
+    this.busy = true; clearTimeout(this.timer); this.firstMark = 0; this.status("busy", "⏳ Sincronizando…");
+    let sent = 0;
+    try {
+      const r = await this.req(`/gists/${this.cfg.gist}`, { headers: this.etag && !rescue ? { "If-None-Match": this.etag } : {} });
+      if (r.status === 404) throw new Error("Gist não encontrado");
+      if (r.status !== 304) {
+        if (!r.ok) throw new Error("GitHub respondeu " + r.status);
+        this.etag = r.headers.get("ETag") || ""; const g = await r.json(), F = await this.readFiles(g);
+        const snap = { p: {}, u: {} }; let hasP = false, hasU = false;
+        for (const [k, v] of Object.entries(F)) {
+          if (/^p\d\d$/.test(k)) { Object.assign(snap.p, v.c || {}); hasP = true; }
+          else if (/^u\d$/.test(k)) { Object.assign(snap.u, v.c || {}); hasU = true; }
+          else if (k === "st") snap.st = v;
+          else if (k === "meta") this.devs = v.devs || {};
+        }
+        const res = await Sync.apply(snap, { full: true });
+        res.upP.forEach(id => this.dirty.p.add(this.shP(id))); res.upU.forEach(id => this.dirty.u.add(this.shU(id))); if (res.upSt) this.dirty.st = true;
+        if (res.gotP && !rescue) toast(`☁️ ${res.gotP} card(s) atualizados de outro aparelho`);
+      }
+      if (this.dirty.p.size || this.dirty.u.size || this.dirty.st) {
+        const files = {}, P = [...this.dirty.p], U = [...this.dirty.u]; this.dirty.p.clear(); this.dirty.u.clear();
+        for (const sh of P) { const c = {}; for (const x of S.prog.values()) if (this.shP(x.id) === sh) c[x.id] = encP(x); files[sh + ".json"] = { content: JSON.stringify({ c }) }; sent += Object.keys(c).length; }
+        for (const sh of U) { const c = {}; for (const x of S.user.values()) if (this.shU(x.id) === sh) c[x.id] = encU(x); for (const [k, m] of (Cloud.tomb || new Map())) if (this.shU(k) === sh && !S.user.has(k)) c[k] = { x: 1, m }; files[sh + ".json"] = { content: JSON.stringify({ c }) }; }
+        if (this.dirty.st || rescue) { this.dirty.st = false; files["st.json"] = { content: JSON.stringify(Sync.snapshot().st) }; }
+        this.devs[this.cfg.dev] = { n: this.cfg.name || this.devName(), t: Date.now(), app: APP_VERSION };
+        files["meta.json"] = { content: JSON.stringify({ v: 1, app: APP_VERSION, t: Date.now(), devs: this.devs }) };
+        const w = await this.req(`/gists/${this.cfg.gist}`, { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ files }) });
+        if (!w.ok) { P.forEach(s => this.dirty.p.add(s)); U.forEach(s => this.dirty.u.add(s)); this.dirty.st = true; throw new Error("Falha ao enviar (" + w.status + ")"); }
+        this.etag = w.headers.get("ETag") || "";
+      }
+      this.lastSync = Date.now(); this.err = ""; this.status("ok", "☁️ GitHub ✓ " + this.hhmm(this.lastSync));
+    } catch (e) {
+      console.warn("hub", e); this.err = e.message || String(e);
+      this.status("err", e.code === 401 || e.code === 403 ? "⚠️ Chave do GitHub" : navigator.onLine === false ? "📴 Offline — salvo aqui" : "⚠️ Sync pausado");
+      if (rescue) { this.busy = false; throw e; }
+      clearTimeout(this.timer); this.timer = setTimeout(() => this.sync(), 30000);
+    } finally { this.busy = false; if (this.again) { this.again = false; this.schedule(1000); } }
+    if (/^#ajustes/.test(location.hash)) renderSyncUI();
+    return sent;
+  },
+};
+
+/* ---------- Ponte (copiar/colar) entre o app do GitHub e a página do Claude ---------- */
+const Ponte = {
+  async pack() {
+    const json = JSON.stringify(Object.assign({ f: "c360x-ponte-1", t: Date.now(), app: APP_VERSION }, Sync.snapshot()));
+    const u8 = new TextEncoder().encode(json);
+    const b64 = b => { let s = ""; for (let i = 0; i < b.length; i += 0x8000) s += String.fromCharCode.apply(null, b.subarray(i, i + 0x8000)); return btoa(s); };
+    if (typeof CompressionStream === "function") { try { const z = new Uint8Array(await new Response(new Blob([u8]).stream().pipeThrough(new CompressionStream("gzip"))).arrayBuffer()); return "C360X-Z:" + b64(z); } catch (e) { } }
+    return "C360X-J:" + b64(u8);
+  },
+  async unpack(txt) {
+    txt = String(txt || "").replace(/\s+/g, ""); const m = txt.match(/C360X-([ZJ]):([A-Za-z0-9+/=]+)/); if (!m) throw new Error("Código não reconhecido — copie de novo no outro app");
+    const bin = atob(m[2]), u8 = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
+    const raw = m[1] === "Z" ? new Uint8Array(await new Response(new Blob([u8]).stream().pipeThrough(new DecompressionStream("gzip"))).arrayBuffer()) : u8;
+    const o = JSON.parse(new TextDecoder().decode(raw)); if (o.f !== "c360x-ponte-1") throw new Error("Formato desconhecido");
+    return o;
+  },
+  async importar(txt) {
+    const o = await this.unpack(txt), res = await Sync.apply(o, { full: false });
+    if (Hub.on) { Hub.dirty.st = true; S.prog.forEach(p => Hub.dirty.p.add(Hub.shP(p.id))); Hub.schedule(500); }
+    if (Cloud.on) { Cloud.dirty.st = true; Cloud.schedule(500); }
+    return res;
   },
 };
 
@@ -1427,12 +1651,59 @@ function fillSettings() {
   const s = S.settings; $("#sNew").value = s.newPerDay; $("#sRev").value = s.revPerDay; $("#sSteps").value = s.steps.join(" "); $("#sGrad").value = s.grad + " " + s.easy;
   $("#colsBox").innerHTML = (S.index?.colecoes || []).map(c => `<label class="btn" style="cursor:pointer"><input type="checkbox" data-col="${c.id}" ${s.cols[c.id] !== false ? "checked" : ""}> ${c.icone} ${esc(c.nome)} (${c.cards})</label>`).join(""); packInfo();
   $$("#colsBox [data-col]").forEach(cb => cb.onchange = async () => { S.settings.cols = Object.assign({}, S.settings.cols, { [cb.dataset.col]: cb.checked }); await saveSettings(); toast("⏳ Carregando coleções…"); await loadOfficial(); rebuildCards(); toast("✅ Coleções atualizadas"); });
-  $("#syncInfo").innerHTML = Cloud.on ? `☁️ Ativa — progresso, ajustes e cards próprios vão para sua conta. Última sincronização: <b>${new Date(Cloud.lastSync).toLocaleTimeString("pt-BR")}</b>.` :
-    `💾 Desativada nesta visualização${Cloud.err ? ` (<span style="color:var(--red)">${esc(Cloud.err)}</span>)` : ""}. A sincronização automática funciona quando o app é aberto pela página do Claude, logado.`;
-  $("#syncNow").style.display = Cloud.on ? "" : "none";
+  renderSyncUI();
   $("#aboutBox").innerHTML = `CÓDICE 360X v${APP_VERSION} · ${S.cards.length} cards ativos (${S.official.length} oficiais + ${S.user.size} próprios) · SM-2 estilo Anki.<br>Conteúdo educativo — não substitui julgamento clínico nem diretrizes institucionais. Confira editais e versões atuais das diretrizes.`;
 }
-$("#syncNow").onclick = () => { S.prog.forEach(p => Cloud.dirty.p.add(shardP(p.id))); Cloud.dirty.st = true; Cloud.flush().then(() => { toast("☁️ Sincronizado"); fillSettings(); }); };
+$("#syncNow").onclick = () => {
+  if (Hub.on) { Hub.etag = ""; S.prog.forEach(p => Hub.dirty.p.add(Hub.shP(p.id))); Hub.dirty.st = true; Hub.sync().then(() => { toast(Hub.err ? "⚠️ " + esc(Hub.err) : "☁️ Sincronizado com o GitHub"); renderSyncUI(); }); return; }
+  S.prog.forEach(p => Cloud.dirty.p.add(shardP(p.id))); Cloud.dirty.st = true; Cloud.flush().then(() => { toast("☁️ Sincronizado"); fillSettings(); });
+};
+function renderSyncUI() {
+  const info = $("#syncInfo"), box = $("#hubBox"), pb = $("#ponteBox"); if (!info || !box || !pb) return;
+  const hm = t => t ? new Date(t).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }) : "—";
+  if (Hub.inClaude()) {
+    info.innerHTML = Cloud.on ? `✅ <b>Nuvem do Claude ativa</b> — progresso, XP, questões e ajustes sincronizam sozinhos em todo aparelho que abrir <b>este link do Claude</b> (navegador do computador ou app Claude no iPhone). Última: <b>${hm(Cloud.lastSync)}</b>.`
+      : `💾 Nuvem do Claude indisponível nesta visualização${Cloud.err ? ` (<span style="color:var(--red)">${esc(Cloud.err)}</span>)` : ""} — entre na sua conta do Claude.`;
+    box.innerHTML = `<div class="hubNote">🐙 O app do <b>GitHub</b> sincroniza pelo GitHub. Esta página do Claude é isolada por segurança e não acessa o GitHub — para juntar os dois, use a 🌉 <b>Ponte</b> abaixo.</div>`;
+    $("#syncNow").style.display = Cloud.on ? "" : "none";
+  } else if (Hub.on) {
+    const outros = Object.entries(Hub.devs).filter(([k]) => k !== Hub.cfg.dev).map(([, d]) => `<b>${esc(d.n)}</b> (${hm(d.t)})`).join(" · ") || "nenhum ainda — conecte o outro aparelho com a <b>mesma chave</b>";
+    info.innerHTML = `✅ <b>Sincronização GitHub ativa</b> — automática: ao abrir o app, a cada 45 s e logo após você estudar.<br>📱 Este aparelho: <b>${esc(Hub.cfg.name || Hub.devName())}</b> · última: <b>${hm(Hub.lastSync)}</b>${Hub.err ? ` · <span style="color:var(--red)">${esc(Hub.err)}</span>` : ""}<br>🔗 Outros aparelhos: ${outros}`;
+    box.innerHTML = `<div class="row" style="margin-top:8px"><button class="btn" id="hubCopy">📲 Copiar chave p/ outro aparelho</button><button class="btn danger" id="hubOff">🔌 Desconectar este aparelho</button></div>`;
+    $("#syncNow").style.display = "";
+    $("#hubCopy").onclick = async () => { try { await navigator.clipboard.writeText(Hub.cfg.token); toast("📋 Chave copiada — cole no outro aparelho em ⚙️ Ajustes"); } catch (e) { toast("Não consegui copiar — crie/cole a chave pelo GitHub."); } };
+    $("#hubOff").onclick = () => { Hub.disconnect(); toast("🔌 Desconectado — o progresso continua salvo aqui"); renderSyncUI(); };
+  } else {
+    info.innerHTML = `💾 <b>Desligada</b> — o que você estuda aqui fica <b>só neste aparelho</b>. Ative uma vez em cada aparelho (iPhone e computador) com a <b>mesma chave</b>:`;
+    box.innerHTML = `<ol class="hubSteps"><li>🔑 <a href="https://github.com/settings/tokens/new?scopes=gist&amp;description=CODICE%20360X%20sync" target="_blank" rel="noopener">Criar a chave no GitHub</a> — deixe marcado só <b>gist</b>, validade <b>No expiration</b> → <b>Generate token</b> → copie o código <b>ghp_…</b></li><li>📋 Cole aqui e toque em <b>Conectar</b>. Na 1ª vez, tudo o que você já estudou neste aparelho é <b>enviado (resgate)</b>.</li><li>💻 No outro aparelho, abra o mesmo app, ⚙️ Ajustes → cole a <b>mesma chave</b> → Conectar.</li></ol>
+      <div class="row"><input type="password" id="hubTok" class="grow" placeholder="ghp_… (chave do GitHub)" autocomplete="off" autocapitalize="off" spellcheck="false"><input type="text" id="hubName" style="max-width:170px" value="${esc(Hub.devName())}" title="Nome deste aparelho"><button class="btn gold" id="hubGo">🔗 Conectar</button></div><div id="hubMsg" style="margin-top:6px;color:var(--mut)"></div>`;
+    $("#syncNow").style.display = "none";
+    $("#hubGo").onclick = async () => {
+      const t = $("#hubTok").value.trim(), m = $("#hubMsg"); if (!/^(ghp_|github_pat_|gho_)[A-Za-z0-9_]{20,}$/.test(t)) { m.innerHTML = `<span style="color:var(--red)">Cole a chave completa (começa com ghp_).</span>`; return; }
+      if (/^github_pat_/.test(t)) { m.innerHTML = `<span style="color:var(--red)">Essa é uma chave “fine-grained”, que não acessa gists. Use o link acima (Tokens <b>classic</b>, escopo gist).</span>`; return; }
+      $("#hubGo").disabled = true; m.textContent = "⏳ Conectando e resgatando o progresso deste aparelho…";
+      try { const n = await Hub.connect(t, $("#hubName").value.trim() || Hub.devName()); toast(`✅ Sincronização ativa · 🛟 ${n} card(s) com progresso enviados`, 4500); renderSyncUI(); }
+      catch (e) { m.innerHTML = `<span style="color:var(--red)">❌ ${esc(e.message || e)}</span>`; $("#hubGo").disabled = false; }
+    };
+  }
+  pb.innerHTML = `<h3 style="margin-top:0">🌉 Ponte Claude ⇄ GitHub</h3><p style="color:var(--mut);margin:4px 0 10px">Junta o progresso do app do GitHub com o da página do Claude (que não acessa o GitHub). 1) Num app: <b>📤 Copiar progresso</b>. 2) No outro: cole abaixo e <b>📥 Mesclar</b>. Nada é apagado — vale sempre a revisão mais recente de cada card.</p>
+    <div class="row"><button class="btn cy" id="pnCopy">📤 Copiar progresso</button><small class="muted" id="pnSize"></small></div>
+    <textarea id="pnIn" rows="3" placeholder="Cole aqui o código C360X-… copiado no outro app" style="width:100%;margin-top:8px;box-sizing:border-box"></textarea>
+    <div class="row" style="margin-top:6px"><button class="btn gold" id="pnGo">📥 Mesclar progresso colado</button><small id="pnMsg" class="muted"></small></div>`;
+  $("#pnCopy").onclick = async () => {
+    const pr = Ponte.pack();
+    try {
+      if (window.ClipboardItem && navigator.clipboard && navigator.clipboard.write) await navigator.clipboard.write([new ClipboardItem({ "text/plain": pr.then(t => new Blob([t], { type: "text/plain" })) })]);
+      else await navigator.clipboard.writeText(await pr);
+      const t = await pr; $("#pnSize").textContent = `${(t.length / 1024).toFixed(0)} KB · ${S.prog.size} cards`; toast("📋 Progresso copiado — cole no outro app (🌉 Ponte)");
+    } catch (e) { const t = await pr, ta = $("#pnIn"); ta.value = t; ta.focus(); ta.select(); $("#pnSize").textContent = "Selecionei o código: use Copiar do sistema."; }
+  };
+  $("#pnGo").onclick = async () => {
+    const m = $("#pnMsg"); m.textContent = "⏳ Mesclando…";
+    try { const r = await Ponte.importar($("#pnIn").value); renderSyncUI(); $("#pnMsg").innerHTML = `✅ ${r.gotP} card(s) atualizados aqui${Hub.on ? " · enviando ao GitHub" : Cloud.on ? " · enviando à nuvem do Claude" : ""}`; toast("🌉 Progresso mesclado"); }
+    catch (e) { $("#pnMsg").innerHTML = `<span style="color:var(--red)">❌ ${esc(e.message || e)}</span>`; }
+  };
+}
 $("#sSave").onclick = async () => {
   const nums = s => s.split(/[\s,;]+/).map(Number).filter(x => x > 0), g = nums($("#sGrad").value);
   Object.assign(S.settings, { newPerDay: Math.max(0, +$("#sNew").value || 0), revPerDay: Math.max(0, +$("#sRev").value || 0), steps: nums($("#sSteps").value).length ? nums($("#sSteps").value) : [1, 10], grad: g[0] || 1, easy: g[1] || 4 });
@@ -1474,10 +1745,11 @@ function route() {
   if (view === "ajustes") fillSettings();
 }
 window.addEventListener("hashchange", route);
-document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") Cloud.flush(); else Cloud.pull(); });
-window.addEventListener("online", () => { Cloud.flush(); Cloud.pull(); });
-window.addEventListener("pageshow", () => Cloud.pull());
-setInterval(() => { if (document.visibilityState === "visible") Cloud.pull(); }, 45000);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") { Cloud.flush(); if (Hub.firstMark || Hub.dirty.p.size || Hub.dirty.st) Hub.sync(); } else { Cloud.pull(); Hub.sync(); } });
+window.addEventListener("online", () => { Cloud.flush(); Cloud.pull(); Hub.sync(); });
+window.addEventListener("pageshow", () => { Cloud.pull(); Hub.sync(); });
+setInterval(() => { if (document.visibilityState === "visible") { Cloud.pull(); if (!Hub.busy) Hub.sync(); } }, 45000);
+$("#sync").addEventListener("click", () => { location.hash = "#ajustes"; });
 
 (async function init() {
   try {
@@ -1496,5 +1768,7 @@ setInterval(() => { if (document.visibilityState === "visible") Cloud.pull(); },
   await loadOfficial(); rebuildCards(); route();
   HL.init();
   Cloud.init();
+  Hub.init();
+  if (!Hub.on && !Hub.inClaude() && S.prog.size) setTimeout(() => toast("☁️ Seu progresso está <b>só neste aparelho</b> — toque no selo do topo e ative a sincronização em ⚙️ Ajustes.", 6000), 2500);
   if (window.__selftest) window.__selftest();
 })();
