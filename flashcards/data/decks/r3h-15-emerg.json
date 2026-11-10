@@ -1,0 +1,405 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::15 🚑 Emergências e Enfermaria",
+ "cards": [
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🔥 Hipercalemia com alterações no ECG: sequência?",
+   "verso": "<b>Gluconato de cálcio 10% 30 mL</b> (estabiliza membrana, repetir se ECG persistir) → <b>insulina regular 10 UI + glicose</b> (ou 5 UI se DRC) + <b>salbutamol</b> nebulizado → remoção (diurético, ciclossilicato, diálise).",
+   "pegadinha": "Bicarbonato só se acidose metabólica.",
+   "fonte": "UK Kidney Association 2023",
+   "imagem": "r3h_15_cddeee5e.png",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🔥 Crise tireotóxica: ordem do tratamento?",
+   "verso": "<b>Betabloqueador</b> (propranolol) → <b>PTU/metimazol</b> → <b>iodo 1 h depois</b> da tionamida → hidrocortisona → colestiramina; plasmaférese se refratária.<br><ul><li>Escore de <b>Burch-Wartofsky ≥ 45</b></li></ul>",
+   "fonte": "ATA 2016",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🔥 Cetoacidose euglicêmica: quem e por quê?",
+   "verso": "Uso de <b>iSGLT2</b>, gestação, jejum, álcool: <b>glicemia &lt; 250</b> com cetonemia e acidose → tratar como CAD com <b>glicose desde o início</b>.<br><ul><li>Suspender iSGLT2 3 dias antes de cirurgia (ertugliflozina 4)</li></ul>",
+   "fonte": "ADA 2024",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🔥 CAD: critérios de resolução?",
+   "verso": "Consenso 2024: <b>cetonemia &lt; 0,6 mmol/L + pH venoso ≥ 7,3</b> (critério clássico: glicemia &lt; 200 + HCO₃ ≥ 15, pH &gt; 7,3 ou AG ≤ 12).<br>Transição para insulina SC com sobreposição de <b>1–2 h</b>.",
+   "fonte": "ADA 2024",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🔥 Insuficiência adrenal aguda: dose e quando não esperar exames?",
+   "verso": "<b>Hidrocortisona 100 mg IV</b> imediata (depois 200 mg/dia) — colher cortisol/ACTH antes, mas <b>não atrasar</b>.",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🔥 Emergência hipertensiva com feocromocitoma ou cocaína?",
+   "verso": "<b>Fentolamina</b> ou nitroprussiato/nicardipina; benzodiazepínico na cocaína.",
+   "pegadinha": "<b>Evitar betabloqueador isolado</b> (vasoconstrição alfa sem oposição).",
+   "fonte": "AHA 2017",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🔥 Hiponatremia grave sintomática: bolus?",
+   "verso": "<b>NaCl 3% 150 mL (ou 100 mL) em 10–20 min</b>, repetir até 2–3× até melhora (meta ↑ 4–6 mEq/L).",
+   "fonte": "ESE 2014 · SALSA",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Emergências clínicas",
+   "frente": "🔥 Angioedema por IECA: conduta?",
+   "verso": "<b>Suspender IECA</b>, proteger via aérea (fibroscopia acordado), icatibanto ou plasma fresco em casos graves; adrenalina pouco eficaz.",
+   "pegadinha": "Pode ocorrer <b>anos</b> após iniciar; evitar sacubitril-valsartana depois.",
+   "fonte": "WAO",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Intoxicação por paracetamol com ingestão escalonada ou horário desconhecido?",
+   "verso": "<b>Não usar o nomograma</b> → iniciar <b>NAC</b> se paracetamol detectável ou ALT alterada.<br><ul><li>Esquema SNAP (12 h) com menos reações</li></ul>",
+   "fonte": "ACMT · SNAP 2014",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Intoxicação por betabloqueador/BCC: terapia de insulina em alta dose?",
+   "verso": "<b>Insulina 1 UI/kg bolus + 1–10 UI/kg/h</b> com glicose e potássio → melhora inotropismo.<br><ul><li>Também: cálcio, vasopressor, <b>emulsão lipídica</b> (lipofílicos), ECMO</li></ul>",
+   "fonte": "Crit Care Med 2017",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Intoxicação por tricíclicos: ECG e tratamento?",
+   "verso": "<b>QRS &gt; 100 ms</b> (convulsão), &gt; 160 (arritmia); R em aVR &gt; 3 mm → <b>bicarbonato de sódio</b> 1–2 mEq/kg (meta pH 7,45–7,55).",
+   "pegadinha": "<b>Flumazenil e fisostigmina contraindicados</b>.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Metformina: acidose lática grave — tratamento?",
+   "verso": "<b>Hemodiálise</b> (remove metformina e corrige acidose) se lactato &gt; 15–20, pH ≤ 7,0, choque ou rebaixamento.",
+   "fonte": "EXTRIP 2015",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Lítio: critérios EXTRIP de hemodiálise?",
+   "verso": "<ul><li><b>Recomendada</b>: lítio &gt; 4,0 com insuficiência renal, ou rebaixamento/convulsão/arritmia</li><li>Sugerida: &gt; 5,0, confusão, ou previsão de demora &gt; 36 h para &lt; 1,0</li></ul>",
+   "fonte": "EXTRIP 2015",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Metanol/etilenoglicol: tratamento?",
+   "verso": "<b>Fomepizol</b> (ou etanol) + <b>hemodiálise</b> se acidose grave, alteração visual (metanol), LRA (etilenoglicol) ou nível alto.<br><ul><li>Cofatores: <b>ácido fólico</b> (metanol), <b>tiamina + piridoxina</b> (etilenoglicol)</li></ul>",
+   "fonte": "EXTRIP 2015/2018",
+   "imagem": "r3h_15_971a3648.png",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Gap osmolar: cálculo e limite?",
+   "verso": "Osm calculada = <b>2 × Na + glicose/18 + ureia/6</b> (+ etanol/3,7); gap &gt; <b>10–15</b> sugere álcool tóxico.",
+   "pegadinha": "Gap normal <b>não exclui</b> intoxicação tardia (já metabolizado em ácidos).",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Salicilatos: quando dialisar?",
+   "verso": "<ul><li>Nível <b>&gt; 100 mg/dL</b> (agudo) ou &gt; 90 com insuficiência renal</li><li><b>Rebaixamento</b>, hipóxia/edema pulmonar, acidose grave refratária</li></ul>",
+   "pegadinha": "Intubação piora (perde hiperventilação) → hiperventilar no ventilador.",
+   "fonte": "EXTRIP 2015",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Síndrome anticolinérgica × simpatomimética: como diferenciar?",
+   "verso": "<table class=t><tr><th></th><th>Anticolinérgica</th><th>Simpatomimética</th></tr><tr><td>Pele</td><td><b>Seca</b>, vermelha</td><td><b>Sudorese</b></td></tr><tr><td>Pupilas</td><td>Midríase</td><td>Midríase</td></tr><tr><td>Peristalse</td><td><b>Ausente</b>, retenção urinária</td><td>Normal</td></tr></table>",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Intoxicação por valproato com hiperamonemia?",
+   "verso": "Rebaixamento com <b>amônia alta</b> (mesmo com nível sérico pouco elevado) → <b>L-carnitina IV</b>; hemodiálise se nível muito alto/choque.",
+   "fonte": "EXTRIP 2015",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Intoxicação por ferro: estágios e antídoto?",
+   "verso": "GI (0–6 h) → fase latente enganosa → choque/acidose/hepatotoxicidade (12–96 h) → estenose pilórica tardia.<br><b>Deferoxamina IV</b> se ferro sérico &gt; 500 µg/dL ou toxicidade sistêmica; <b>carvão não adsorve ferro</b>.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Organofosforado: muscarínico × nicotínico?",
+   "verso": "<ul><li>Muscarínico (DUMBELS): diarreia, miose, broncorreia, bradicardia → <b>atropina</b> até secar secreções</li><li>Nicotínico: <b>fasciculações, fraqueza</b> (paralisia respiratória) → <b>pralidoxima</b> precoce</li></ul>",
+   "pegadinha": "Síndrome intermediária (24–96 h): fraqueza proximal/respiratória.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Intoxicação por cianeto: quando suspeitar e antídoto?",
+   "verso": "Vítima de <b>incêndio</b> com <b>lactato &gt; 8–10</b>, coma/choque; nitroprussiato prolongado.<br><b>Hidroxocobalamina 5 g IV</b> (urina e pele avermelhadas, interfere em exames colorimétricos).",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Intoxicações",
+   "frente": "🔥 Cogumelo com amatoxina (Amanita)?",
+   "verso": "Sintomas GI <b>tardios (&gt; 6 h)</b> → falsa melhora → <b>insuficiência hepática</b> em 2–4 dias.<br>Carvão em doses múltiplas, <b>silibinina</b> IV, NAC, avaliar <b>transplante</b>.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🔥 Ponte de heparina na interrupção da varfarina para cirurgia?",
+   "verso": "<b>Não fazer</b> na maioria (FA, TEV &gt; 3 meses): mais sangramento sem menos tromboembolismo (BRIDGE).<br><ul><li>Ponte só em <b>alto risco</b>: valva mecânica mitral, TEV &lt; 3 meses, AVC recente</li></ul>",
+   "fonte": "BRIDGE 2015 · CHEST 2022",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🔥 Suspensão de DOAC antes de cirurgia (PAUSE)?",
+   "verso": "<table class=t><tr><th>Risco de sangramento</th><th>ClCr ≥ 50</th><th>Dabigatrana ClCr 30–50</th></tr><tr><td>Baixo/moderado</td><td><b>1 dia</b> antes</td><td>2 dias</td></tr><tr><td>Alto</td><td><b>2 dias</b> antes</td><td>4 dias</td></tr></table>Sem ponte; retomar 24 h (baixo) ou 48–72 h (alto) após.",
+   "fonte": "PAUSE 2019",
+   "imagem": "r3h_15_0b83260d.png",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🔥 Avaliação pré-operatória: quando pedir teste de estresse?",
+   "verso": "Só se <b>capacidade funcional &lt; 4 METs</b> ou desconhecida <b>e</b> risco elevado (RCRI ≥ 2) <b>e</b> o resultado mudar a conduta.<br><ul><li>BNP/troponina basal em alto risco (ESC 2022)</li></ul>",
+   "fonte": "ESC 2022 · ACC/AHA 2024",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🔥 Corticoide perioperatório: quem precisa de dose de estresse?",
+   "verso": "Uso de <b>prednisona ≥ 20 mg/dia por &gt; 3 semanas</b> ou cushingoide; 5–20 mg: avaliar; &lt; 5 mg: manter dose habitual.<br><ul><li>Cirurgia grande: <b>hidrocortisona 100 mg</b> na indução + 200 mg/dia</li></ul>",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🔥 Lesão miocárdica após cirurgia não cardíaca (MINS)?",
+   "verso": "Elevação de <b>troponina nos primeiros 30 dias</b>, frequentemente <b>assintomática</b>, associada a mortalidade → triagem em alto risco, investigar causa; dabigatrana testada no MANAGE.",
+   "fonte": "VISION · MANAGE 2018",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🔥 Delirium pós-operatório: prevenção com melhor evidência?",
+   "verso": "<b>Medidas não farmacológicas</b> (HELP): orientação, sono, mobilização, óculos/aparelho auditivo, evitar contenção e benzodiazepínico.",
+   "fonte": "AGS 2015",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🔥 Profilaxia de TEV no clínico internado: escores?",
+   "verso": "<b>Padua ≥ 4</b> (ou IMPROVE) → profilaxia farmacológica se risco de sangramento aceitável (IMPROVE-bleed).",
+   "pegadinha": "Profilaxia estendida pós-alta: não rotineira.",
+   "fonte": "ASH 2018",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Enfermaria e perioperatório",
+   "frente": "🔥 Glicemia no hospital: meta e esquema?",
+   "verso": "<b>140–180 mg/dL</b> na maioria; <b>basal-bolus</b> (com correção) — evitar escala de insulina isolada (\"sliding scale\").",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Intermação (heat stroke) por esforço: tratamento?",
+   "verso": "<b>Imersão em água gelada</b> (meta &lt; 39 °C em 30 min) — \"esfriar primeiro, transportar depois\".",
+   "pegadinha": "<b>Antitérmico não funciona</b>; dantrolene sem benefício.",
+   "fonte": "ACSM 2023",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Hipotermia acidental: quando ECMO?",
+   "verso": "Hipotermia <b>&lt; 30 °C com instabilidade/PCR</b> → reaquecimento extracorpóreo; escore <b>HOPE</b> prediz sobrevida.",
+   "pegadinha": "K⁺ &gt; 12 em vítima de avalanche: prognóstico fútil.",
+   "fonte": "ERC 2021",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Acidente ofídico botrópico: classificação e soro?",
+   "verso": "<table class=t><tr><th>Gravidade</th><th>Ampolas (SAB)</th></tr><tr><td>Leve</td><td>2–4</td></tr><tr><td>Moderado</td><td>4–8</td></tr><tr><td>Grave</td><td><b>12</b></td></tr></table>Tempo de coagulação alterado já indica soro.",
+   "fonte": "MS 2023",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Acidente com Loxosceles (aranha-marrom)?",
+   "verso": "Lesão em \"<b>placa marmórea</b>\" que necrosa em 24–72 h; forma cutâneo-hemolítica com <b>hemólise e LRA</b>.<br>Soro antiaracnídico/antiloxoscélico nas primeiras 72 h + prednisona.",
+   "fonte": "MS 2023",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Escorpionismo: sinais de gravidade?",
+   "verso": "<ul><li><b>Vômitos profusos</b>, sudorese, sialorreia, agitação</li><li>Taquicardia/hipertensão → <b>edema pulmonar e choque</b> (mais em crianças)</li></ul>Soro antiescorpiônico em moderado/grave.",
+   "fonte": "MS 2023",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Rabdomiólise: quem tem risco de LRA?",
+   "verso": "Escore <b>McMahon ≥ 6</b> → hidratação agressiva; CPK isolada correlaciona pouco.",
+   "pegadinha": "Bicarbonato/manitol sem benefício comprovado.",
+   "fonte": "McMahon 2013",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Hipertermia maligna: tratamento?",
+   "verso": "Suspender anestésico halogenado/succinilcolina + <b>dantrolene 2,5 mg/kg IV</b> repetido até 10 mg/kg; resfriamento; tratar hipercalemia.<br><ul><li>Primeiro sinal: <b>↑ ETCO₂</b> inexplicado, rigidez de masseter</li></ul>",
+   "fonte": "MHAUS",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  },
+  {
+   "subtema": "Distúrbios ambientais e outros",
+   "frente": "🔥 Lesão elétrica de alta voltagem: cuidados?",
+   "verso": "Lesão interna &gt; pele: <b>rabdomiólise</b>, síndrome compartimental, arritmias (ECG/monitor), lesão medular.",
+   "fonte": "ATLS",
+   "tags": [
+    "R3H360X",
+    "H15"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_15_cddeee5e.png": "data/media/r3h_15_cddeee5e.png",
+  "r3h_15_971a3648.png": "data/media/r3h_15_971a3648.png",
+  "r3h_15_0b83260d.png": "data/media/r3h_15_0b83260d.png"
+ }
+}

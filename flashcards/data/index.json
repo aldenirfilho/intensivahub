@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.09-pega",
+ "versao": "2026.11.10-r3h",
  "colecoes": [
   {
    "id": "ouro",
@@ -18,7 +18,7 @@
    "id": "cm",
    "nome": "R3 Clínica Médica",
    "icone": "🩺",
-   "cards": 1934
+   "cards": 2436
   },
   {
    "id": "iac",
@@ -3099,6 +3099,225 @@
     "Reumatologia"
    ],
    "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-01-cardio.json",
+   "tema": "🔥 Hardcore 360X · 01 🫀 Cardiologia",
+   "cards": 60,
+   "subtemas": [
+    "Hipertensão",
+    "Insuficiência cardíaca",
+    "Doença coronariana",
+    "ECG e arritmias",
+    "Valvopatias e endocardite",
+    "Lipídios e prevenção",
+    "Pericárdio, miocárdio e vascular"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-02-pneumo.json",
+   "tema": "🔥 Hardcore 360X · 02 🫁 Pneumologia",
+   "cards": 40,
+   "subtemas": [
+    "Asma",
+    "DPOC",
+    "Pleura, nódulo e câncer",
+    "Intersticiais e sarcoidose",
+    "Circulação pulmonar e sono",
+    "Infecções e função pulmonar"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-03-nefro.json",
+   "tema": "🔥 Hardcore 360X · 03 🫘 Nefrologia",
+   "cards": 42,
+   "subtemas": [
+    "Lesão renal aguda",
+    "Doença renal crônica",
+    "Glomerulopatias",
+    "Sódio e água",
+    "Potássio, cálcio, fósforo e magnésio",
+    "Ácido-base",
+    "Litíase, ITU e túbulo-intersticial"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-04-endo.json",
+   "tema": "🔥 Hardcore 360X · 04 🍬 Endocrinologia",
+   "cards": 41,
+   "subtemas": [
+    "Diabetes",
+    "Tireoide",
+    "Adrenal",
+    "Hipófise",
+    "Osteometabólico e paratireoide",
+    "Obesidade e outros"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-05-gastro.json",
+   "tema": "🔥 Hardcore 360X · 05 🫃 Gastroenterologia e Hepatologia",
+   "cards": 41,
+   "subtemas": [
+    "Esôfago e estômago",
+    "Hemorragia digestiva",
+    "Intestino e DII",
+    "Pâncreas e vias biliares",
+    "Hepatites e fígado",
+    "Cirrose e complicações"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-06-hemato.json",
+   "tema": "🔥 Hardcore 360X · 06 🩸 Hematologia",
+   "cards": 37,
+   "subtemas": [
+    "Anemias",
+    "Hemólise e hemoglobinopatias",
+    "Plaquetas e hemostasia",
+    "Trombose e anticoagulação",
+    "Leucemias e mieloproliferativas",
+    "Linfomas e mieloma",
+    "Transfusão"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-07-infecto.json",
+   "tema": "🔥 Hardcore 360X · 07 🦠 Infectologia",
+   "cards": 43,
+   "subtemas": [
+    "Antimicrobianos",
+    "Pneumonia e vias aéreas",
+    "HIV",
+    "Tuberculose",
+    "IST e sífilis",
+    "Endemias tropicais",
+    "SNC, pele e outros sítios",
+    "Imunização e profilaxias"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-08-reumato.json",
+   "tema": "🔥 Hardcore 360X · 08 🦴 Reumatologia",
+   "cards": 31,
+   "subtemas": [
+    "Artrite reumatoide",
+    "LES e SAF",
+    "Outras colagenoses",
+    "Vasculites",
+    "Espondiloartrites",
+    "Cristais e artrites",
+    "Partes moles e osteoartrite"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-09-neuro.json",
+   "tema": "🔥 Hardcore 360X · 09 🧠 Neurologia",
+   "cards": 34,
+   "subtemas": [
+    "AVC",
+    "Cefaleias",
+    "Epilepsia",
+    "Demências e movimento",
+    "Neuroimunologia e neuromuscular",
+    "Coma, delirium e outros"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-10-onco.json",
+   "tema": "🔥 Hardcore 360X · 10 🎗️ Oncologia Clínica",
+   "cards": 30,
+   "subtemas": [
+    "Rastreamento e genética",
+    "Tumores sólidos",
+    "Paraneoplásicas e marcadores",
+    "Urgências oncológicas",
+    "Toxicidade e suporte"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-11-geriatria.json",
+   "tema": "🔥 Hardcore 360X · 11 👴 Geriatria e Paliativos",
+   "cards": 17,
+   "subtemas": [
+    "Avaliação geriátrica",
+    "Síndromes geriátricas",
+    "Polifarmácia",
+    "Cuidados paliativos"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-12-psiq.json",
+   "tema": "🔥 Hardcore 360X · 12 🧘 Psiquiatria na Clínica",
+   "cards": 15,
+   "subtemas": [
+    "Humor e ansiedade",
+    "Psicofármacos",
+    "Substâncias",
+    "Urgências psiquiátricas"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-13-prev.json",
+   "tema": "🔥 Hardcore 360X · 13 📊 Preventiva e MBE",
+   "cards": 18,
+   "subtemas": [
+    "Rastreamentos",
+    "Vacinação do adulto",
+    "Epidemiologia e MBE",
+    "Ética e saúde pública"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-14-dermato.json",
+   "tema": "🔥 Hardcore 360X · 14 🧴 Dermatologia e Alergia",
+   "cards": 15,
+   "subtemas": [
+    "Farmacodermias",
+    "Alergia e urticária",
+    "Dermatoses na clínica"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/r3h-15-emerg.json",
+   "tema": "🔥 Hardcore 360X · 15 🚑 Emergências e Enfermaria",
+   "cards": 38,
+   "subtemas": [
+    "Emergências clínicas",
+    "Intoxicações",
+    "Enfermaria e perioperatório",
+    "Distúrbios ambientais e outros"
+   ],
+   "pacote": "pack-2-r3"
   }
  ],
  "pacotes": [
@@ -3127,11 +3346,11 @@
    "gz": "data/packs/pack-2-r3.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-2-r3.json",
-   "sha": "d3c38d34ee6abfe4",
-   "decks": 31,
-   "cards": 1934,
-   "bytes": 800162,
-   "gzbytes": 298696
+   "sha": "93f68461fd73863e",
+   "decks": 46,
+   "cards": 2436,
+   "bytes": 987105,
+   "gzbytes": 377028
   },
   {
    "nome": "pack-3-ia360c",

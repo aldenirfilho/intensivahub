@@ -1,0 +1,183 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::11 👴 Geriatria e Paliativos",
+ "cards": [
+  {
+   "subtema": "Avaliação geriátrica",
+   "frente": "🔥 Fragilidade: Escala Clínica de Fragilidade (CFS) — uso?",
+   "verso": "1 (muito em forma) a 9 (terminal); <b>≥ 5</b> frágil → prognóstico em cirurgia, UTI e oncologia.",
+   "pegadinha": "Não validada em &lt; 65 anos e deficiência estável (ex.: paralisia cerebral).",
+   "fonte": "Rockwood 2005",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Avaliação geriátrica",
+   "frente": "🔥 Sarcopenia (EWGSOP2): algoritmo?",
+   "verso": "Triagem <b>SARC-F</b> → <b>força de preensão baixa</b> (homem &lt; 27 kg, mulher &lt; 16 kg) = provável → confirmar massa (DXA/BIA) → gravidade pela <b>velocidade de marcha ≤ 0,8 m/s</b>.",
+   "fonte": "EWGSOP2 2019",
+   "imagem": "r3h_11_274a0809.png",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🔥 Delirium hipoativo: por que importa?",
+   "verso": "Mais comum e <b>subdiagnosticado</b>, pior prognóstico; triar com <b>CAM/4AT</b> — 4AT não exige treinamento formal.",
+   "fonte": "NICE 2023",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🔥 Antipsicótico no delirium: evidência?",
+   "verso": "<b>Não</b> reduz duração nem mortalidade (MIND-USA, AID-ICU); usar só para agitação com risco, em dose baixa e curta.",
+   "fonte": "MIND-USA 2018 · NICE",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🔥 Incontinência urinária de urgência no idoso: droga preferida?",
+   "verso": "<b>Mirabegrona</b> (β3-agonista) ou vibegrona — evita a <b>carga anticolinérgica</b> (declínio cognitivo).",
+   "fonte": "AUA 2024 · Beers 2023",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🔥 Quedas no idoso: intervenções com melhor evidência?",
+   "verso": "<ul><li><b>Exercício</b> de equilíbrio e força (Otago, tai chi)</li><li>Revisão de medicações (benzodiazepínico, anti-hipertensivos, sedativos)</li><li>Cirurgia de catarata, adaptação domiciliar</li></ul>",
+   "pegadinha": "Vitamina D sem deficiência <b>não</b> previne quedas.",
+   "fonte": "World Falls Guidelines 2022",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🔥 Hipotensão pós-prandial?",
+   "verso": "Queda de <b>PAS ≥ 20 mmHg em até 2 h após refeição</b> → quedas/síncope em idoso.<br>Refeições menores e pobres em carboidrato, água antes da refeição, evitar anti-hipertensivo antes de comer; acarbose.",
+   "fonte": "Geriatria",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🔥 Disfagia orofaríngea no idoso: rastreio?",
+   "verso": "Tosse/engasgo, voz molhada, pneumonias de repetição → <b>teste de deglutição</b> à beira-leito e videofluoroscopia/FEES; espessantes e reabilitação.",
+   "pegadinha": "Gastrostomia na <b>demência avançada</b> não prolonga vida nem previne aspiração.",
+   "fonte": "AGS 2014",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Síndromes geriátricas",
+   "frente": "🔥 Lesão por pressão: estadiamento NPIAP?",
+   "verso": "<table class=t><tr><th>Estágio</th><th>Descrição</th></tr><tr><td>1</td><td>Eritema que <b>não embranquece</b></td></tr><tr><td>2</td><td>Perda parcial da pele (derme exposta)</td></tr><tr><td>3</td><td>Perda total da pele (gordura visível)</td></tr><tr><td>4</td><td>Exposição de <b>músculo, tendão ou osso</b></td></tr><tr><td>Não classificável</td><td>Base coberta por esfacelo/escara</td></tr><tr><td>Tissular profunda</td><td>Área roxa/marrom persistente</td></tr></table>",
+   "fonte": "NPIAP 2016",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "🔥 Critérios de Beers 2023: destaques?",
+   "verso": "<ul><li>Evitar <b>AAS em prevenção primária</b>; evitar <b>varfarina</b> como 1ª escolha (preferir DOAC) e <b>rivaroxabana</b> em longo prazo (preferir apixabana)</li><li>Evitar <b>sulfonilureias</b> (todas), benzodiazepínicos, Z-drugs, anticolinérgicos</li></ul>",
+   "fonte": "AGS Beers 2023",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Polifarmácia",
+   "frente": "🔥 Carga anticolinérgica: drogas comuns?",
+   "verso": "<ul><li>Difenidramina, hidroxizina, prometazina</li><li><b>Amitriptilina</b>, paroxetina</li><li><b>Oxibutinina</b>, tolterodina</li><li>Escopolamina, ciclobenzaprina</li></ul>",
+   "fonte": "ACB Scale",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🔥 Delirium terminal agitado: manejo?",
+   "verso": "Haloperidol ± benzodiazepínico (lorazepam/midazolam); <b>sedação paliativa</b> se refratário, com consentimento e registro.",
+   "fonte": "ESMO 2018",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🔥 Metadona na dor oncológica: cuidados?",
+   "verso": "Conversão <b>não linear</b> (quanto maior a dose de morfina, menor a razão), meia-vida longa → acúmulo em 3–5 dias; <b>QTc</b> e interações.",
+   "fonte": "NCCN",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🔥 Hipodermóclise: o que pode e o que não pode?",
+   "verso": "<ul><li>Pode: SF, SG 5% com sal, <b>morfina, haloperidol, midazolam, ondansetrona, dexametasona</b>, ceftriaxona</li><li>Não: <b>diazepam, fenitoína</b>, soluções hiperosmolares, potássio concentrado</li></ul>",
+   "fonte": "ANCP",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🔥 Dispneia refratária em paliativos: opioide?",
+   "verso": "<b>Morfina em baixa dose</b> (2,5–5 mg VO 4/4 h ou 10 mg/24 h liberação prolongada) reduz dispneia; O₂ só se hipoxemia; ventilador de mão no rosto.",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🔥 Opioides na DRC avançada: qual preferir?",
+   "verso": "Evitar <b>morfina e codeína</b> (metabólitos ativos acumulam) → preferir <b>fentanil, buprenorfina, metadona</b> (ou hidromorfona com cautela).",
+   "fonte": "NCCN · EAPC",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  },
+  {
+   "subtema": "Cuidados paliativos",
+   "frente": "🔥 Capacidade de decisão do paciente: o que avaliar?",
+   "verso": "<ul><li><b>Compreender</b> a informação</li><li><b>Apreciar</b> a situação e as consequências</li><li><b>Raciocinar</b> comparando opções</li><li><b>Expressar</b> uma escolha consistente</li></ul>Específica para cada decisão; demência ou delirium não a excluem automaticamente.",
+   "fonte": "Appelbaum NEJM 2007",
+   "tags": [
+    "R3H360X",
+    "H11"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_11_274a0809.png": "data/media/r3h_11_274a0809.png"
+ }
+}

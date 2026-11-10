@@ -3,6 +3,7 @@ import re, textwrap, os, matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, Polygon
+FOOT = "CÓDICE 360X · R3 CM · Turbo TEMI 360X"
 BG, FG, GOLD, CY, RD, GR, AM, PU, MU = "#0b0e13", "#ece8dc", "#d4af37", "#4dd4ff", "#ff6b6b", "#5be38a", "#ffc14d", "#b48cff", "#9aa4b2"
 PAL = [CY, GOLD, GR, PU, AM, RD, "#7fd1b9", "#f49ac2"]
 SEV = {2: [GR, RD], 3: [GR, AM, RD], 4: [GR, AM, "#ff9446", RD], 5: [GR, "#b8e35b", AM, "#ff9446", RD], 6: [GR, "#b8e35b", AM, "#ff9446", RD, "#c43c5a"]}
@@ -46,7 +47,7 @@ def _fig(title, h=5.2):
     ax.add_patch(FancyBboxPatch((.12, .12), 9.76, h - .24, boxstyle="round,pad=0.02,rounding_size=.15", fc=BG, ec=GOLD, lw=1.4))
     ax.plot([.5, 9.5], [h - .78, h - .78], color=GOLD, lw=.8, alpha=.6)
     ax.text(5, h - .45, "\n".join(textwrap.wrap(plain(title), 62)), ha="center", va="center", fontsize=15, color=GOLD, family="DejaVu Serif", weight="bold")
-    ax.text(9.7, .28, "CÓDICE 360X · R3 CM · Turbo TEMI 360X", ha="right", va="center", fontsize=7.5, color=MU, family="DejaVu Serif")
+    ax.text(9.7, .28, FOOT, ha="right", va="center", fontsize=7.5, color=MU, family="DejaVu Serif")
     ax.text(.3, .28, "◆", ha="left", va="center", fontsize=9, color=CY)
     return fig, ax
 def _box(ax, x, y, w, h, t, c, fs=10.5, wrap=None, fill="#141a22"):

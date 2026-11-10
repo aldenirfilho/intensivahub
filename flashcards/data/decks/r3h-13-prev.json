@@ -1,0 +1,191 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::13 📊 Preventiva e MBE",
+ "cards": [
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🔥 Rastreio de osteoporose?",
+   "verso": "<ul><li><b>Mulher ≥ 65 anos</b> e pós-menopausa &lt; 65 com risco (FRAX)</li><li>Homem: evidência insuficiente (considerar ≥ 70 ou risco)</li></ul>",
+   "fonte": "USPSTF 2025",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🔥 Rastreio de hepatite C e B no adulto?",
+   "verso": "<ul><li><b>HCV</b>: todo adulto 18–79 anos ao menos uma vez</li><li><b>HBV</b>: adultos em risco (CDC 2023: <b>todos ≥ 18 anos</b> uma vez com triplo painel)</li></ul>",
+   "fonte": "USPSTF 2020 · CDC 2023",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🔥 Rastreio de diabetes (USPSTF)?",
+   "verso": "<b>35–70 anos com sobrepeso/obesidade</b>; repetir a cada 3 anos se normal.",
+   "fonte": "USPSTF 2021",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Rastreamentos",
+   "frente": "🔥 Rastreio de câncer de mama: mudança USPSTF 2024?",
+   "verso": "Mamografia <b>bienal dos 40 aos 74 anos</b> (antes 50).",
+   "pegadinha": "No SUS (MS/INCA): 50–69 bienal; SBM/CBR recomendam a partir dos 40.",
+   "fonte": "USPSTF 2024",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Vacinação do adulto",
+   "frente": "🔥 Vacina de hepatite B no adulto?",
+   "verso": "<b>Universal 19–59 anos</b>; ≥ 60 com risco. Esquemas: 3 doses (0-1-6) ou <b>Heplisav-B 2 doses</b> (0-1).<br><ul><li>Anti-HBs pós-vacinal em profissional de saúde, dialítico, HIV</li></ul>",
+   "fonte": "ACIP 2022",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Vacinação do adulto",
+   "frente": "🔥 Vacinas no esplenectomizado?",
+   "verso": "<ul><li>Pneumocócica conjugada, <b>meningocócica ACWY + B</b>, Hib</li><li>Influenza anual</li></ul>Idealmente <b>≥ 14 dias antes</b> da esplenectomia eletiva (ou ≥ 14 dias depois).",
+   "fonte": "SBIm · ACIP",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 Sensibilidade, especificidade e prevalência: o que muda com prevalência?",
+   "verso": "<b>VPP e VPN</b> mudam com a prevalência; sensibilidade e especificidade <b>não</b> (propriedades do teste).<br><ul><li>Prevalência ↑ → VPP ↑, VPN ↓</li></ul>",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 Razão de verossimilhança: interpretação?",
+   "verso": "<table class=t><tr><th>RV</th><th>Efeito</th></tr><tr><td>&gt; 10</td><td>Confirma fortemente</td></tr><tr><td>5–10</td><td>Moderado</td></tr><tr><td>0,1–0,2</td><td>Moderado para excluir</td></tr><tr><td>&lt; 0,1</td><td>Exclui fortemente</td></tr></table>RV+ = sens/(1 − esp); RV− = (1 − sens)/esp.",
+   "fonte": "Sackett",
+   "imagem": "r3h_13_eb25a152.png",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 Viés de imortalidade (immortal time)?",
+   "verso": "Em estudos observacionais, o grupo \"tratado\" ganha tempo em que <b>não podia morrer</b> antes de receber o tratamento → superestima benefício.<br>Evitar com análise landmark ou exposição tempo-dependente.",
+   "fonte": "Suissa 2008",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 NNT × NNH: como calcular?",
+   "verso": "<b>NNT = 1/RRA</b>; NNH = 1/aumento absoluto de risco do evento adverso.<br><ul><li>Exemplo: 10% → 7,5% = RRA 2,5% → NNT <b>40</b></li></ul>",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 Análise de sobrevida: hazard ratio × risco relativo?",
+   "verso": "HR é a <b>razão das taxas instantâneas</b> ao longo do tempo (assume proporcionalidade); RR compara riscos acumulados em um ponto.<br><ul><li>Curvas que se cruzam: HR enganoso → usar RMST</li></ul>",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 Metanálise: heterogeneidade I²?",
+   "verso": "<b>I² &gt; 50%</b>: heterogeneidade substancial → efeitos aleatórios, investigar fontes; <b>funnel plot</b> assimétrico sugere viés de publicação.",
+   "fonte": "Cochrane",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 Viés de verificação (work-up bias)?",
+   "verso": "Só os <b>positivos no teste-índice</b> fazem o padrão-ouro → <b>superestima a sensibilidade</b> e subestima a especificidade.",
+   "fonte": "STARD 2015",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 Desfecho substituto e desfecho composto: armadilhas?",
+   "verso": "<ul><li><b>Substituto</b> (HbA1c, LDL, arritmia no Holter): melhora nem sempre reduz eventos — ex.: <b>flecainida no CAST</b> ↓ extrassístoles e ↑ mortalidade</li><li><b>Composto</b>: benefício pode vir do componente menos grave (ex.: revascularização) — olhar cada componente</li></ul>",
+   "fonte": "Epidemiologia",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Epidemiologia e MBE",
+   "frente": "🔥 Valor de p e intervalo de confiança: armadilhas?",
+   "verso": "<ul><li>p &lt; 0,05 <b>não</b> mede tamanho nem importância clínica do efeito</li><li>IC 95% que <b>cruza 1</b> (RR/OR) ou 0 (diferença) = não significativo</li><li>Múltiplas comparações inflam erro tipo I (Bonferroni)</li></ul>",
+   "fonte": "ASA 2016",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "🔥 Prevenção quaternária: definição?",
+   "verso": "Evitar <b>sobrediagnóstico e sobretratamento</b> (iatrogenia) — ex.: rastreios sem benefício, exames de rotina desnecessários.",
+   "fonte": "Jamoulle",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "🔥 PEP ocupacional ao HIV: quando e como?",
+   "verso": "Exposição percutânea/mucosa a material de fonte HIV+ ou desconhecida → iniciar <b>em até 72 h</b> (idealmente 2 h): <b>TDF/3TC + dolutegravir por 28 dias</b>; testar fonte com teste rápido.",
+   "fonte": "MS 2024",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  },
+  {
+   "subtema": "Ética e saúde pública",
+   "frente": "🔥 Exposição ocupacional à hepatite B: profilaxia?",
+   "verso": "<table class=t><tr><th>Profissional</th><th>Conduta (fonte HBsAg+)</th></tr><tr><td>Vacinado com anti-HBs ≥ 10</td><td>Nada</td></tr><tr><td>Não vacinado</td><td><b>IGHAHB + vacina</b></td></tr><tr><td>Não respondedor (2 séries)</td><td><b>IGHAHB 2 doses</b> (0 e 1 mês)</td></tr></table>",
+   "fonte": "MS 2024 · CDC",
+   "tags": [
+    "R3H360X",
+    "H13"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_13_eb25a152.png": "data/media/r3h_13_eb25a152.png"
+ }
+}

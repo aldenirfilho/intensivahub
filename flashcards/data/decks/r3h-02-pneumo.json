@@ -1,0 +1,417 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::02 🫁 Pneumologia",
+ "cards": [
+  {
+   "subtema": "Asma",
+   "frente": "🔥 Asma grave: fenotipagem para biológico?",
+   "verso": "<table class=t><tr><th>Biomarcador</th><th>Biológico</th></tr><tr><td>Eosinófilos ≥ 150–300/µL</td><td>Anti-IL-5/5R (mepolizumabe, benralizumabe)</td></tr><tr><td>IgE alta + sensibilização perene</td><td>Omalizumabe</td></tr><tr><td>FeNO ≥ 25 + eos ≥ 150</td><td>Dupilumabe (anti-IL-4Rα)</td></tr><tr><td>Qualquer fenótipo (inclusive T2-baixo)</td><td>Tezepelumabe (anti-TSLP)</td></tr></table>",
+   "fonte": "GINA 2024",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Asma",
+   "frente": "🔥 Asma de difícil controle antes de escalar: o que checar?",
+   "verso": "<ul><li><b>Técnica inalatória e adesão</b> (causa nº 1)</li><li>Diagnóstico correto (disfunção de cordas vocais, ICC, DPOC)</li><li>Comorbidades: rinossinusite, DRGE, obesidade, SAOS, ansiedade, tabagismo</li><li>Exposições: AINE (DREA), betabloqueador, ocupação</li></ul>",
+   "fonte": "GINA 2024",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Asma",
+   "frente": "🔥 Exacerbação de asma: sinais de risco de morte?",
+   "verso": "<ul><li>Silêncio respiratório, cianose, exaustão, confusão</li><li><b>PaCO₂ normal ou alta</b> numa crise (fadiga iminente)</li><li>PFE &lt; 33% do previsto, SpO₂ &lt; 92%</li></ul>Sulfato de magnésio IV 2 g em crise grave refratária.",
+   "fonte": "GINA 2024 · BTS",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "DPOC",
+   "frente": "🔥 Roflumilaste: perfil ideal?",
+   "verso": "DPOC com <b>VEF₁ &lt; 50%</b>, <b>bronquite crônica</b> e exacerbações apesar de LABA+LAMA(+CI).",
+   "pegadinha": "Diarreia, perda de peso, insônia, alterações psiquiátricas.",
+   "fonte": "GOLD 2025",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "DPOC",
+   "frente": "🔥 VNI domiciliar na DPOC?",
+   "verso": "Hipercapnia crônica <b>PaCO₂ &gt; 52 mmHg</b> (&gt; 7 kPa) persistente após exacerbação → ↓ readmissão/morte (HOT-HMV).",
+   "fonte": "HOT-HMV 2017",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "DPOC",
+   "frente": "🔥 Índice BODE na DPOC?",
+   "verso": "<b>B</b>MI, <b>O</b>bstrução (VEF₁), <b>D</b>ispneia (mMRC), <b>E</b>xercício (caminhada de 6 min) → prediz mortalidade melhor que VEF₁ isolado; usado na indicação de transplante.",
+   "fonte": "Celli NEJM 2004",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Pleura, nódulo e câncer",
+   "frente": "🔥 Pleurodese × cateter pleural tunelizado no derrame maligno?",
+   "verso": "Pulmão <b>expansível</b>: talco ou cateter (preferência do paciente).<br><b>Pulmão encarcerado</b> (não expansível): <b>cateter tunelizado</b> — pleurodese falha.",
+   "fonte": "BTS 2023",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Pleura, nódulo e câncer",
+   "frente": "🔥 Derrame com ADA alto (&gt; 40 U/L)?",
+   "verso": "<b>Tuberculose pleural</b> (predomínio linfocítico, sem mesotélios).",
+   "pegadinha": "ADA alto também em <b>empiema, artrite reumatoide e linfoma</b>.",
+   "fonte": "Light",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Pleura, nódulo e câncer",
+   "frente": "🔥 Quilotórax × pseudoquilotórax?",
+   "verso": "<table class=t><tr><th></th><th>Quilotórax</th><th>Pseudoquilotórax</th></tr><tr><td>Triglicerídeos</td><td><b>&gt; 110 mg/dL</b></td><td>Baixos</td></tr><tr><td>Colesterol</td><td>Baixo</td><td><b>&gt; 200 mg/dL</b>, cristais</td></tr><tr><td>Causa</td><td>Linfoma, trauma do ducto torácico</td><td>Derrame crônico (TB, AR)</td></tr></table>",
+   "fonte": "Light",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Pleura, nódulo e câncer",
+   "frente": "🔥 Nódulo em vidro fosco puro 8 mm: conduta (Fleischner)?",
+   "verso": "<b>TC em 6–12 meses</b>, depois a cada 2 anos até 5 anos — crescimento lento (adenocarcinoma in situ).",
+   "pegadinha": "PET pouco útil em vidro fosco (falso-negativo).",
+   "fonte": "Fleischner 2017",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Pleura, nódulo e câncer",
+   "frente": "🔥 Câncer de pulmão não pequenas células: biomarcadores obrigatórios?",
+   "verso": "<ul><li><b>EGFR, ALK, ROS1, BRAF V600E, KRAS G12C, MET ex14, RET, NTRK, HER2</b></li><li><b>PD-L1</b> (TPS)</li></ul>Sequenciamento de nova geração antes de iniciar imunoterapia.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Pleura, nódulo e câncer",
+   "frente": "🔥 Pneumonite por imunoterapia: graduação e conduta?",
+   "verso": "<ul><li>G1: suspender e observar</li><li>G2: suspender + <b>prednisona 1–2 mg/kg</b></li><li>G3–4: internar, metilprednisolona IV; refratária 48 h → infliximabe/micofenolato/IVIG</li></ul>",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Pleura, nódulo e câncer",
+   "frente": "🔥 Mesotelioma pleural: pistas?",
+   "verso": "Exposição a <b>amianto</b> (latência 20–40 anos), derrame unilateral hemorrágico, espessamento pleural nodular/circunferencial; biópsia por toracoscopia.<br><ul><li>1ª linha: <b>nivolumabe + ipilimumabe</b> (CheckMate 743)</li></ul>",
+   "fonte": "ESMO 2022",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Pleura, nódulo e câncer",
+   "frente": "🔥 Nódulo sólido 6–8 mm em alto risco (Fleischner)?",
+   "verso": "<b>TC em 6–12 meses</b> e de novo em 18–24 meses; &gt; 8 mm → TC em 3 meses, PET-CT ou biópsia.",
+   "fonte": "Fleischner 2017",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Intersticiais e sarcoidose",
+   "frente": "🔥 FPI: critérios de progressão (PPF)?",
+   "verso": "<ul><li>Queda de <b>CVF ≥ 5–10%</b> em 1 ano</li><li>Queda de DLCO ≥ 10%, piora de sintomas, progressão radiológica</li></ul>Antifibrótico também em fibrose progressiva não-FPI (nintedanibe — INBUILD).",
+   "fonte": "ATS/ERS 2022",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Intersticiais e sarcoidose",
+   "frente": "🔥 Pneumonite de hipersensibilidade fibrótica: achado típico na TC?",
+   "verso": "<b>Sinal do \"queijo e presunto\" (three-density)</b>: vidro fosco + mosaico + aprisionamento aéreo na expiração.<br><ul><li>Lavado: <b>linfocitose</b> (&gt; 30%)</li></ul>Afastar o antígeno é o tratamento principal.",
+   "fonte": "ATS 2020",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Intersticiais e sarcoidose",
+   "frente": "🔥 Sarcoidose: quando tratar?",
+   "verso": "<ul><li>Acometimento <b>cardíaco, neurológico, ocular</b> ou <b>hipercalcemia</b></li><li>Pulmonar com sintomas/disfunção progressiva</li></ul>",
+   "pegadinha": "Estágio I assintomático: observar (alta remissão espontânea).",
+   "fonte": "ERS 2021",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Intersticiais e sarcoidose",
+   "frente": "🔥 Sarcoidose cardíaca: rastreio?",
+   "verso": "ECG + Holter + eco em todo paciente; <b>RM com realce tardio</b> ou <b>PET-FDG</b> se alterado.",
+   "pegadinha": "Bloqueio AV em jovem &lt; 60 anos sem causa: pensar em sarcoidose cardíaca.",
+   "fonte": "HRS 2014",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Intersticiais e sarcoidose",
+   "frente": "🔥 Doença intersticial associada à miosite anti-sintetase?",
+   "verso": "<ul><li><b>Anti-Jo-1</b>, febre, artrite, <b>mãos de mecânico</b>, Raynaud</li><li>PINE/POC na TC</li></ul>Imunossupressão (corticoide + micofenolato/tacrolimus/rituximabe).",
+   "fonte": "ACR",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Intersticiais e sarcoidose",
+   "frente": "🔥 Pneumonia eosinofílica aguda × crônica?",
+   "verso": "<table class=t><tr><th></th><th>Aguda</th><th>Crônica</th></tr><tr><td>Perfil</td><td>Jovem, <b>início de tabagismo</b>/vape</td><td>Mulher meia-idade, asma</td></tr><tr><td>Eosinófilos</td><td>Lavado &gt; 25%; sangue pode ser normal</td><td><b>Sangue e lavado</b> altos</td></tr><tr><td>Imagem</td><td>Infiltrado difuso + derrame</td><td>Periférico (<b>\"negativo do edema\"</b>)</td></tr></table>Ambas: resposta dramática a corticoide.",
+   "fonte": "ERS 2015",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Intersticiais e sarcoidose",
+   "frente": "🔥 Toxicidade pulmonar por amiodarona?",
+   "verso": "Dose cumulativa/≥ 400 mg/dia, idoso; pneumonite intersticial ou organizante, <b>DLCO cai</b>; TC com opacidades <b>hiperatenuantes</b> (iodo).<br>Suspender + corticoide.",
+   "fonte": "Chest",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Intersticiais e sarcoidose",
+   "frente": "🔥 Doenças intersticiais relacionadas ao tabagismo?",
+   "verso": "<ul><li><b>Bronquiolite respiratória com DPI (RB-ILD)</b> e <b>pneumonia intersticial descamativa (DIP)</b>: vidro fosco, macrófagos pigmentados</li><li>Histiocitose de Langerhans</li></ul>Cessação do tabagismo é o tratamento principal.",
+   "fonte": "ATS/ERS 2013",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Circulação pulmonar e sono",
+   "frente": "🔥 Classificação da hipertensão pulmonar (definição 2022)?",
+   "verso": "<b>PAPm &gt; 20 mmHg</b> no cateterismo direito; pré-capilar se <b>POAP ≤ 15</b> e <b>RVP &gt; 2 UW</b>.<br><table class=t><tr><th>Grupo</th><th>Causa</th></tr><tr><td>1</td><td>HAP (idiopática, drogas, colagenose, HIV, porto-pulmonar)</td></tr><tr><td>2</td><td>Doença do coração esquerdo</td></tr><tr><td>3</td><td>Pneumopatia/hipóxia</td></tr><tr><td>4</td><td><b>HPTEC</b> (tromboembólica crônica)</td></tr><tr><td>5</td><td>Multifatorial</td></tr></table>",
+   "fonte": "ESC/ERS 2022",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Circulação pulmonar e sono",
+   "frente": "🔥 Teste de vasorreatividade na HAP: positivo e significado?",
+   "verso": "Queda da PAPm <b>≥ 10 mmHg para ≤ 40 mmHg</b> com débito mantido → candidato a <b>BCC em dose alta</b> (minoria, ~10% da idiopática).",
+   "fonte": "ESC/ERS 2022",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Circulação pulmonar e sono",
+   "frente": "🔥 Sotatercepte: o que é?",
+   "verso": "Ligante de activina (armadilha) que reequilibra a via BMPR2 → <b>↓ RVP</b> e eventos na HAP (STELLAR, ZENITH).",
+   "pegadinha": "Eritrocitose, trombocitopenia, telangiectasias, sangramentos.",
+   "fonte": "STELLAR 2023",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Circulação pulmonar e sono",
+   "frente": "🔥 TEP de risco intermediário-alto: conduta?",
+   "verso": "RV disfuncional + troponina ↑, sem choque → <b>anticoagulação + monitorização</b>; trombólise sistêmica só se <b>deterioração</b> (PEITHO).<br><ul><li>Trombólise dirigida por cateter: opção em centros</li></ul>",
+   "fonte": "ESC 2019",
+   "imagem": "r3h_02_ccbdf9db.png",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Circulação pulmonar e sono",
+   "frente": "🔥 SAOS: quando tratar além do CPAP?",
+   "verso": "<ul><li>Intolerância ao CPAP: <b>aparelho intraoral</b> (leve-moderada), estimulação do hipoglosso (IMC &lt; 32–35)</li><li>Obesidade: <b>tirzepatida</b> aprovada para SAOS moderada-grave (SURMOUNT-OSA)</li></ul>",
+   "fonte": "AASM · SURMOUNT-OSA 2024",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Circulação pulmonar e sono",
+   "frente": "🔥 Apneia central com respiração de Cheyne-Stokes na ICFEr: o que evitar?",
+   "verso": "<b>Servoventilação adaptativa</b> aumentou mortalidade com FE ≤ 45% (SERVE-HF).<br>Otimizar tratamento da IC; CPAP/O₂ noturno como alternativas.",
+   "fonte": "SERVE-HF 2015",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Circulação pulmonar e sono",
+   "frente": "🔥 Teste de caminhada de 6 minutos: dessaturação significativa?",
+   "verso": "Queda de SpO₂ <b>≥ 4%</b> ou para <b>&lt; 88–89%</b> → indica O₂ no esforço/doença intersticial ou vascular avançada; distância &lt; 350 m: pior prognóstico na HAP e DPOC.",
+   "fonte": "ATS/ERS 2014",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Padrões da espirometria e DLCO: o que sugerem?",
+   "verso": "<table class=t><tr><th>Padrão</th><th>DLCO baixa</th><th>DLCO normal/alta</th></tr><tr><td>Obstrutivo</td><td>Enfisema</td><td>Asma (DLCO pode ↑)</td></tr><tr><td>Restritivo</td><td>Intersticial, vascular</td><td>Neuromuscular, obesidade, parede torácica</td></tr><tr><td>Normal</td><td><b>HP, anemia, vasculopatia</b></td><td>—</td></tr></table>DLCO <b>alta</b>: hemorragia alveolar, policitemia, asma, obesidade.",
+   "fonte": "ATS/ERS 2022",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Micobactéria não tuberculosa (MAC): critério para tratar?",
+   "verso": "<ul><li>Clínica + imagem compatíveis (nódulos/bronquiectasia ou cavidade)</li><li><b>≥ 2 escarros positivos</b> ou 1 lavado/biópsia</li></ul>Esquema: <b>macrolídeo + etambutol + rifamicina</b> por ≥ 12 meses após negativação; amicacina inalatória se refratário.",
+   "fonte": "ATS/ERS/IDSA 2020",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Aspergilose pulmonar crônica cavitária: tratamento?",
+   "verso": "<b>Itraconazol ou voriconazol oral por ≥ 6 meses</b>; cirurgia em doença localizada com hemoptise.<br><ul><li>IgG anti-Aspergillus positiva é chave</li></ul>",
+   "fonte": "ESCMID/ERS 2016",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Bronquiectasia não fibrocística: prevenir exacerbações?",
+   "verso": "<ul><li>Fisioterapia de higiene brônquica</li><li><b>Macrolídeo em longo prazo</b> se ≥ 3 exacerbações/ano (excluir MNT antes)</li><li>Erradicar <b>Pseudomonas</b> na 1ª detecção; antibiótico inalatório</li><li>Brensocatibe (inibidor de DPP-1) reduziu exacerbações (ASPEN)</li></ul>",
+   "fonte": "ERS 2017 · ASPEN 2025",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Fibrose cística no adulto: moduladores de CFTR?",
+   "verso": "<b>Elexacaftor/tezacaftor/ivacaftor</b> para ≥ 1 alelo F508del → ganho grande de VEF₁ e ↓ exacerbações.",
+   "pegadinha": "Interações com indutores de CYP3A (rifampicina) e elevação de transaminases.",
+   "fonte": "ECFS 2023",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Transplante de pulmão: como se define a bronquiolite obliterante (rejeição crônica)?",
+   "verso": "<b>Bronquiolite obliterante (BOS)</b>: queda persistente do <b>VEF₁ ≥ 20%</b> sem outra causa.<br><ul><li>Azitromicina pode estabilizar</li></ul>",
+   "fonte": "ISHLT 2019",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Teste de broncoprovocação com metacolina: utilidade?",
+   "verso": "<b>Alto VPN</b>: teste negativo praticamente <b>exclui asma</b> ativa (sem corticoide); positivo é inespecífico.",
+   "fonte": "ERS 2017",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Gradiente alvéolo-arterial: fórmula e interpretação?",
+   "verso": "PAO₂ = FiO₂ × (Patm − 47) − PaCO₂/0,8; gradiente normal ≈ <b>(idade/4) + 4</b>.<br><ul><li>Hipoxemia com gradiente <b>normal</b>: hipoventilação ou baixa FiO₂</li><li>Gradiente <b>aumentado</b>: V/Q, shunt, difusão</li></ul>",
+   "fonte": "West",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 EVALI (lesão pulmonar por cigarro eletrônico)?",
+   "verso": "Uso de vape (sobretudo com <b>THC/acetato de vitamina E</b>), sintomas respiratórios + GI, vidro fosco bilateral, macrófagos espumosos.<br>Diagnóstico de exclusão; corticoide em casos graves.",
+   "fonte": "CDC 2020",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Discinesia ciliar primária (Kartagener)?",
+   "verso": "Bronquiectasias + <b>sinusite crônica</b> + otite desde a infância, <b>situs inversus</b> em ~50%, <b>infertilidade masculina</b>.<br>Rastreio: <b>óxido nítrico nasal muito baixo</b>; confirmação por microscopia eletrônica/genética.",
+   "fonte": "ERS 2017",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  },
+  {
+   "subtema": "Infecções e função pulmonar",
+   "frente": "🔥 Estenose traqueal pós-intubação?",
+   "verso": "Dispneia/estridor <b>semanas a meses</b> após IOT/traqueostomia, frequentemente rotulado como asma; curva fluxo-volume com <b>platô inspiratório e expiratório</b> (obstrução fixa).<br>Broncoscopia; dilatação ou ressecção.",
+   "fonte": "Chest",
+   "tags": [
+    "R3H360X",
+    "H02"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_02_ccbdf9db.png": "data/media/r3h_02_ccbdf9db.png"
+ }
+}

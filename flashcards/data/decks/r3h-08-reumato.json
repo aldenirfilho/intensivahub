@@ -1,0 +1,323 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::08 🦴 Reumatologia",
+ "cards": [
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🔥 AR: antes de iniciar biológico/JAK — rastreios?",
+   "verso": "<ul><li><b>TB latente</b> (PPD/IGRA + RX), <b>hepatite B</b> (HBsAg, anti-HBc), hepatite C, HIV</li><li>Vacinas inativadas em dia; vivas ≥ 4 semanas antes</li></ul>",
+   "fonte": "ACR 2022",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🔥 Pulmão na AR: padrão mais comum de doença intersticial?",
+   "verso": "<b>PIU</b> (pior prognóstico); fatores: homem, tabagista, FR/anti-CCP altos.",
+   "pegadinha": "Metotrexato <b>não</b> está associado a DPI-AR nova (pneumonite aguda é rara e idiossincrásica).",
+   "fonte": "ACR/CHEST 2023",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Artrite reumatoide",
+   "frente": "🔥 Síndrome de Felty?",
+   "verso": "<b>AR + esplenomegalia + neutropenia</b>; infecções; overlap com leucemia LGL.",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🔥 Anticorpos do LES e suas associações?",
+   "verso": "<table class=t><tr><th>Anticorpo</th><th>Associação</th></tr><tr><td>Anti-dsDNA</td><td><b>Nefrite</b>, atividade</td></tr><tr><td>Anti-Sm</td><td>Mais <b>específico</b></td></tr><tr><td>Anti-Ro/SSA</td><td>LES cutâneo subagudo, <b>lúpus neonatal/BAV congênito</b></td></tr><tr><td>Antiproteína P ribossomal</td><td>Psicose lúpica</td></tr><tr><td>Anti-histona</td><td><b>Lúpus induzido por droga</b></td></tr></table>",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🔥 SAF catastrófica?",
+   "verso": "Tromboses em <b>≥ 3 órgãos em &lt; 1 semana</b> com microtrombose → <b>anticoagulação + corticoide + plasmaférese/IVIG</b>; eculizumabe/rituximabe em refratários.",
+   "fonte": "EULAR 2019",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🔥 Hidroxicloroquina: dose e rastreio de retina?",
+   "verso": "Dose <b>≤ 5 mg/kg/dia</b> (peso real); exame oftalmológico basal e <b>anual após 5 anos</b> (antes se fator de risco: DRC, tamoxifeno).",
+   "fonte": "AAO 2016",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "LES e SAF",
+   "frente": "🔥 Lúpus induzido por anti-TNF × por droga clássica?",
+   "verso": "<table class=t><tr><th></th><th>Clássico (hidralazina, procainamida)</th><th>Anti-TNF</th></tr><tr><td>Anti-histona</td><td><b>Positivo</b></td><td>Variável</td></tr><tr><td>Anti-dsDNA</td><td>Raro</td><td><b>Frequente</b></td></tr><tr><td>Hipocomplementemia</td><td>Rara</td><td>Comum</td></tr></table>Ambos: suspender a droga.",
+   "fonte": "Rheumatology",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🔥 Esclerose sistêmica: crise renal esclerodérmica — fatores de risco?",
+   "verso": "<ul><li>Forma <b>difusa precoce</b>, <b>anti-RNA polimerase III</b></li><li><b>Prednisona &gt; 15 mg/dia</b></li></ul><b>Captopril</b> titulado (mesmo com creatinina subindo).",
+   "fonte": "EULAR 2023",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🔥 Miopatia com anti-MDA5?",
+   "verso": "Dermatomiosite <b>amiopática</b> + úlceras cutâneas + <b>DPI rapidamente progressiva</b> (alta mortalidade).<br>Imunossupressão tripla precoce (corticoide + tacrolimus + ciclofosfamida/JAK).",
+   "fonte": "ACR",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🔥 Miosite por corpos de inclusão?",
+   "verso": "Homem &gt; 50 anos, fraqueza de <b>flexores dos dedos e quadríceps</b>, assimétrica, progressão lenta; anti-cN1A.",
+   "pegadinha": "<b>Refratária a imunossupressão</b>.",
+   "fonte": "ENMC 2011",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🔥 Policondrite recidivante?",
+   "verso": "Inflamação de <b>cartilagem auricular (poupa o lóbulo)</b>, nasal (nariz em sela), <b>traqueobrônquica</b> (estenose — principal risco), ocular; associação com SMD/<b>VEXAS</b>.",
+   "fonte": "Rheumatology",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Outras colagenoses",
+   "frente": "🔥 Síndrome VEXAS?",
+   "verso": "<b>Homem &gt; 50 anos</b>: febre, policondrite, vasculite, dermatose neutrofílica, <b>macrocitose</b> e trombose; mutação somática <b>UBA1</b>; vacúolos em precursores mieloides.<br>Corticoide-dependente; JAK/azacitidina/transplante.",
+   "fonte": "NEJM 2020",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🔥 Vasculite ANCA: indução (2024)?",
+   "verso": "<ul><li><b>Rituximabe</b> (ou ciclofosfamida) + corticoide em <b>dose reduzida</b> (PEXIVAS)</li><li><b>Avacopan</b> (anti-C5aR) para poupar corticoide</li></ul>",
+   "pegadinha": "Plasmaférese de rotina <b>não</b> reduz mortalidade/DRC terminal (PEXIVAS).",
+   "fonte": "EULAR 2022 · KDIGO 2024",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🔥 Crioglobulinemia mista: tríade e causa principal?",
+   "verso": "<b>Púrpura palpável + artralgia + fraqueza</b>; GN membranoproliferativa, neuropatia, <b>C4 muito baixo</b>.<br>Causa principal: <b>hepatite C</b> → antiviral; rituximabe se grave.",
+   "fonte": "Ferri",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🔥 Vasculite por IgA no adulto?",
+   "verso": "Púrpura palpável em MMII + artrite + dor abdominal; <b>nefrite mais grave que na criança</b>; pesquisar neoplasia em idosos.",
+   "fonte": "EULAR",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Vasculites",
+   "frente": "🔥 Granulomatose eosinofílica com poliangeíte (EGPA)?",
+   "verso": "<b>Asma tardia + eosinofilia &gt; 10%</b> + rinossinusite/pólipos → neuropatia, miocardite (principal causa de morte), púrpura; ANCA (p-ANCA) em só ~40%.<br>Corticoide; <b>mepolizumabe 300 mg</b> (MIRRA) ou benralizumabe (MANDARA) para recidivante; ciclofosfamida/rituximabe se grave.",
+   "fonte": "ACR 2021 · MANDARA 2024",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "🔥 Uveíte anterior aguda: associação?",
+   "verso": "<b>HLA-B27</b> (espondiloartrite, artrite reativa, DII): unilateral, alternante, dor e fotofobia.",
+   "pegadinha": "Uveíte posterior/pan: pensar em Behçet, sarcoidose, toxoplasmose, sífilis.",
+   "fonte": "ASAS",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Espondiloartrites",
+   "frente": "🔥 Artrite psoriásica: drogas por domínio?",
+   "verso": "<ul><li>Periférica: MTX, anti-TNF, anti-IL-17, anti-IL-23, JAK</li><li><b>Axial</b>: anti-TNF ou <b>anti-IL-17</b> (anti-IL-23 sem benefício axial comprovado)</li><li>Entesite/dactilite: biológicos</li></ul>",
+   "fonte": "GRAPPA 2021 · EULAR 2023",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🔥 Febuxostate: alerta?",
+   "verso": "<b>Mortalidade CV maior</b> que alopurinol em doença CV estabelecida (CARES) — FAST não confirmou; preferir alopurinol.",
+   "fonte": "ACR 2020",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🔥 Doença por depósito de pirofosfato (CPPD): rastreio metabólico em &lt; 60 anos?",
+   "verso": "<b>Hemocromatose, hiperparatireoidismo, hipomagnesemia, hipofosfatasia</b>.",
+   "fonte": "EULAR 2011",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🔥 Febre familiar do Mediterrâneo?",
+   "verso": "Crises de <b>febre + serosite</b> (peritonite, pleurite) de 1–3 dias, artrite; gene <b>MEFV</b>; risco de <b>amiloidose AA</b>.<br><b>Colchicina</b> contínua; anti-IL-1 se refratária.",
+   "fonte": "EULAR 2016",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🔥 Síndrome de Schnitzler?",
+   "verso": "<b>Urticária crônica não pruriginosa + gamopatia IgM</b> + febre, dor óssea, artralgia, PCR alta; risco de Waldenström/AA.<br>Resposta drástica a <b>anti-IL-1</b> (anakinra).",
+   "fonte": "Strasbourg 2012",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Cristais e artrites",
+   "frente": "🔥 Doença de Kikuchi-Fujimoto?",
+   "verso": "Mulher jovem: <b>linfadenite cervical necrotizante</b> dolorosa + febre, leucopenia; biópsia sem neutrófilos; pode preceder/associar-se a <b>LES</b>.<br>Autolimitada (1–4 meses); corticoide se grave.",
+   "fonte": "Rheumatology",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Fibromialgia × polimialgia × miopatia: exames?",
+   "verso": "<table class=t><tr><th></th><th>Fibromialgia</th><th>PMR</th><th>Miopatia inflamatória</th></tr><tr><td>VHS/PCR</td><td>Normal</td><td><b>Alta</b></td><td>Variável</td></tr><tr><td>CPK</td><td>Normal</td><td>Normal</td><td><b>Alta</b></td></tr><tr><td>Força</td><td>Normal</td><td>Normal (dor limita)</td><td><b>Fraqueza</b></td></tr></table>",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Osteoartrite de joelho: o que NÃO recomendar?",
+   "verso": "<ul><li><b>Glucosamina/condroitina</b>, ácido hialurônico (condicional contra), <b>opioide forte</b></li><li>Artroscopia para OA degenerativa</li></ul>Recomendado: exercício, perda de peso, AINE tópico/oral, corticoide intra-articular.",
+   "fonte": "ACR 2019",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Síndrome de Sjögren: risco a vigiar?",
+   "verso": "<b>Linfoma MALT</b> (5–15×): aumento persistente de parótida, <b>púrpura</b>, <b>C4 baixo</b>, crioglobulinemia.",
+   "fonte": "EULAR 2020",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Hipertrofia osteoartropática?",
+   "verso": "Baqueteamento + <b>periostite dolorosa</b> dos ossos longos + artrite → <b>câncer de pulmão</b> até prova em contrário.",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Doença de Behçet: tratamento por manifestação?",
+   "verso": "<ul><li>Mucocutânea: colchicina, <b>apremilaste</b> (úlceras orais)</li><li>Ocular posterior/neurológica/vascular: azatioprina, <b>anti-TNF</b></li></ul>",
+   "pegadinha": "Aneurismas de artéria pulmonar: <b>cuidado com anticoagulação</b>.",
+   "fonte": "EULAR 2018",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Fasciíte eosinofílica?",
+   "verso": "Endurecimento simétrico de membros com <b>sinal do sulco</b> (veias), <b>poupa mãos e face</b>, sem Raynaud; eosinofilia, após esforço intenso.<br>Corticoide ± metotrexato. (Diferente de esclerodermia.)",
+   "fonte": "Rheumatology",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Síndrome RS3PE?",
+   "verso": "Idoso: <b>sinovite simétrica soronegativa com edema depressível</b> de mãos/pés, início súbito; pode ser <b>paraneoplásica</b>.<br>Resposta rápida a <b>prednisona baixa dose</b>.",
+   "fonte": "JAMA 1985",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  },
+  {
+   "subtema": "Partes moles e osteoartrite",
+   "frente": "🔥 Hipofosfatasia no adulto?",
+   "verso": "<b>Fosfatase alcalina baixa</b> + fraturas metatarsais/de estresse, perda dentária precoce, condrocalcinose; ↑ <b>piridoxal-5-fosfato (B6)</b>.",
+   "pegadinha": "<b>Bisfosfonato é contraindicado</b> (fraturas atípicas) → asfotase alfa em casos graves.",
+   "fonte": "JBMR 2017",
+   "tags": [
+    "R3H360X",
+    "H08"
+   ]
+  }
+ ],
+ "midia": {}
+}

@@ -1,0 +1,314 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::10 🎗️ Oncologia Clínica",
+ "cards": [
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🔥 Síndrome de Lynch: rastreio e vigilância?",
+   "verso": "<ul><li>Critérios de <b>Amsterdam II</b> / Bethesda; hoje: <b>IHQ de MMR ou MSI em todo câncer colorretal e de endométrio</b></li><li>Colonoscopia a cada <b>1–2 anos</b> a partir de 20–25 anos (conforme gene)</li><li><b>AAS 600 mg/dia</b> reduz câncer (CAPP2)</li></ul>",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🔥 BRCA1/2: condutas de redução de risco?",
+   "verso": "<ul><li>RM de mama anual a partir de 25 anos + mamografia a partir de 30</li><li><b>Salpingo-ooforectomia</b> 35–40 (BRCA1) / 40–45 (BRCA2)</li><li>Mastectomia bilateral redutora: opção</li></ul>",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Rastreamento e genética",
+   "frente": "🔥 Li-Fraumeni (TP53): cuidado peculiar?",
+   "verso": "<b>Evitar radiação ionizante</b> (TC, RT quando possível) → rastreio com <b>RM de corpo inteiro</b> anual (protocolo Toronto).",
+   "fonte": "NCCN",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Câncer de mama HR+/HER2− avançado: 1ª linha?",
+   "verso": "<b>Inibidor de CDK4/6</b> (ribociclibe, palbociclibe, abemaciclibe) + inibidor de aromatase/fulvestranto.<br><ul><li>Via PI3K/AKT alterada (PIK3CA, AKT1, PTEN): alpelisibe, capivasertibe ou inavolisibe, conforme resistência endócrina</li><li>HER2-low: <b>trastuzumabe deruxtecana</b></li></ul>",
+   "fonte": "NCCN 2025 · DESTINY-Breast04",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Trastuzumabe deruxtecana: toxicidade a vigiar?",
+   "verso": "<b>Doença pulmonar intersticial/pneumonite</b> (pode ser fatal) → suspender e corticoide se ≥ grau 2.",
+   "fonte": "FDA",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Câncer colorretal metastático: biomarcadores que mudam conduta?",
+   "verso": "<table class=t><tr><th>Biomarcador</th><th>Implicação</th></tr><tr><td><b>RAS</b> mutado</td><td><b>Anti-EGFR não funciona</b></td></tr><tr><td>BRAF V600E</td><td>Encorafenibe + cetuximabe</td></tr><tr><td><b>dMMR/MSI-H</b></td><td><b>Imunoterapia</b> (pembrolizumabe) 1ª linha</td></tr><tr><td>HER2 amplificado</td><td>Anti-HER2</td></tr><tr><td>Lado direito</td><td>Pior resposta a anti-EGFR</td></tr></table>",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Câncer de próstata: PSMA-PET e terapias?",
+   "verso": "<ul><li><b>PSMA-PET</b> para estadiamento de alto risco e recidiva bioquímica</li><li>Resistente à castração: <b>lutécio-177-PSMA</b>, inibidores de PARP (BRCA)</li></ul>",
+   "fonte": "EAU 2025 · VISION",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Carcinoma hepatocelular avançado: 1ª linha?",
+   "verso": "<b>Atezolizumabe + bevacizumabe</b> (IMbrave150) ou durvalumabe + tremelimumabe (HIMALAYA).",
+   "pegadinha": "Antes do bevacizumabe: <b>EDA e tratar varizes</b> (sangramento).",
+   "fonte": "BCLC 2022",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Câncer de rim metastático: 1ª linha?",
+   "verso": "<b>Imunoterapia combinada</b>: pembrolizumabe + axitinibe/lenvatinibe, nivolumabe + ipilimumabe/cabozantinibe.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Câncer de pulmão de pequenas células extenso: 1ª linha?",
+   "verso": "Platina + etoposídeo + <b>anti-PD-L1</b> (atezolizumabe/durvalumabe); RT torácica selecionada; <b>tarlatamabe</b> (BiTE DLL3) em 2ª linha.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Neoplasia de sítio primário desconhecido: subgrupos favoráveis?",
+   "verso": "<ul><li>Mulher com adenocarcinoma em <b>linfonodo axilar</b> → tratar como câncer de mama</li><li>Mulher com carcinomatose peritoneal serosa → como ovário</li><li>Homem jovem com tumor de linha média → germinativo (β-hCG/AFP)</li></ul>",
+   "fonte": "ESMO 2023",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Tumores neuroendócrinos: graduação?",
+   "verso": "<table class=t><tr><th>Grau</th><th>Ki-67</th><th>Mitoses/2 mm²</th></tr><tr><td>G1</td><td>&lt; 3%</td><td>&lt; 2</td></tr><tr><td>G2</td><td>3–20%</td><td>2–20</td></tr><tr><td>G3 (NET) / carcinoma NE</td><td>&gt; 20%</td><td>&gt; 20</td></tr></table>Estadiamento funcional com <b>PET-Ga-DOTATATE</b>; tratamento com análogo de somatostatina, <b>lutécio-177-DOTATATE</b> (NETTER-1).",
+   "fonte": "OMS 2019 · ENETS",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Tumores sólidos",
+   "frente": "🔥 Câncer de bexiga não músculo-invasivo de alto risco?",
+   "verso": "RTU completa + <b>BCG intravesical</b> (indução + manutenção); refratário a BCG → cistectomia ou terapias intravesicais novas.",
+   "pegadinha": "BCG pode causar <b>BCGite</b> sistêmica (isoniazida + rifampicina + etambutol).",
+   "fonte": "EAU 2024",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🔥 Síndromes paraneoplásicas neurológicas: anticorpo → tumor?",
+   "verso": "<table class=t><tr><th>Anticorpo</th><th>Síndrome</th><th>Tumor</th></tr><tr><td><b>Anti-Hu</b></td><td>Neuronopatia sensitiva, encefalite límbica</td><td>Pequenas células</td></tr><tr><td><b>Anti-Yo</b></td><td>Degeneração cerebelar</td><td><b>Ovário/mama</b></td></tr><tr><td>Anti-Ri</td><td>Opsoclonus-mioclonus</td><td>Mama, pulmão</td></tr><tr><td>Anti-Ma2</td><td>Encefalite límbica/tronco</td><td><b>Testículo</b></td></tr><tr><td>Anti-VGCC</td><td>Lambert-Eaton</td><td>Pequenas células</td></tr></table>",
+   "fonte": "PNS-Care 2021",
+   "imagem": "r3h_10_6dad335d.png",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🔥 Hipoglicemia por tumor não ilhota?",
+   "verso": "Tumor mesenquimal grande (fibroso solitário) secreta <b>IGF-2</b> → insulina e peptídeo C <b>suprimidos</b>, razão IGF-2/IGF-1 &gt; 10.",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🔥 CEA e CA 19-9: usos corretos?",
+   "verso": "<b>Seguimento</b> (recidiva) e resposta — <b>não</b> para rastreio nem diagnóstico isolado.",
+   "pegadinha": "CA 19-9 indetectável em <b>Lewis-negativos</b> (~5–10%) e falso-positivo na colestase.",
+   "fonte": "ASCO",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🔥 Dermatomiosite paraneoplásica: anticorpos de maior risco?",
+   "verso": "<b>Anti-TIF1-γ</b> e anti-NXP2 → rastreio extenso (TC tórax/abdome/pelve, mamografia, CA-125/US transvaginal, colonoscopia).",
+   "fonte": "IMACS 2023",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Paraneoplásicas e marcadores",
+   "frente": "🔥 SIADH e PTHrP: qual tumor causa cada uma?",
+   "verso": "<ul><li><b>SIADH</b>: câncer de pulmão de <b>pequenas células</b></li><li><b>PTHrP</b> (hipercalcemia humoral): carcinoma <b>epidermoide</b> (pulmão, cabeça e pescoço), renal, mama</li><li><b>ACTH ectópico</b>: pequenas células, carcinoide</li></ul>",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🔥 Hipercalcemia maligna refratária a bisfosfonato?",
+   "verso": "<b>Denosumabe</b> (também na DRC — sem nefrotoxicidade, mas risco de hipocalcemia).<br><ul><li>Calcitonina: efeito em horas, taquifilaxia em 48 h</li><li>Linfoma (calcitriol): corticoide</li></ul>",
+   "fonte": "Endocrine Society 2023",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🔥 Neutropenia febril: quando usar fator de crescimento (G-CSF) profilático?",
+   "verso": "QT com risco de NF <b>&gt; 20%</b>, ou 10–20% com fatores de risco (&gt; 65 anos, NF prévia, comorbidades).",
+   "fonte": "ASCO 2015 · NCCN",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🔥 Hiperleucocitose na LMA: conduta?",
+   "verso": "Leucostase (&gt; 100 mil) → <b>hidroxiureia/QT de indução</b>, hidratação, profilaxia de lise; <b>evitar transfusão de hemácias</b> (viscosidade).<br><ul><li>Leucaférese: papel controverso</li></ul>",
+   "fonte": "ELN",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Urgências oncológicas",
+   "frente": "🔥 Obstrução intestinal maligna: manejo clínico?",
+   "verso": "<b>Octreotida</b>, dexametasona, antiemético (haloperidol), opioide; evitar procinético se obstrução completa; gastrostomia descompressiva.",
+   "fonte": "ESMO 2021",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🔥 Toxicidades imunomediadas: graduação geral?",
+   "verso": "<ul><li><b>G1</b>: manter imunoterapia (exceto alguns órgãos)</li><li><b>G2</b>: suspender + prednisona 0,5–1 mg/kg</li><li><b>G3–4</b>: suspender + metilprednisolona 1–2 mg/kg; refratária → infliximabe (colite), micofenolato (hepatite)</li></ul>",
+   "pegadinha": "Hepatite imunomediada: <b>evitar infliximabe</b>.",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🔥 Colite por imunoterapia refratária a corticoide?",
+   "verso": "<b>Infliximabe</b> ou <b>vedolizumabe</b> após 48–72 h sem resposta; excluir C. difficile e CMV.",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🔥 Endocrinopatias por imunoterapia: o que não precisa de corticoide em alta dose?",
+   "verso": "<b>Tireoidite</b> (tireotoxicose → hipotireoidismo) e <b>DM1 autoimune</b> (insulina, risco de CAD) → reposição/tratamento hormonal; imunoterapia geralmente continua.",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🔥 Cardiotoxicidade por antraciclina: prevenção?",
+   "verso": "<ul><li>Dose cumulativa de doxorrubicina <b>&lt; 400–450 mg/m²</b>; dexrazoxano em alto risco</li><li><b>Eco basal</b> e seriado (strain — queda de GLS &gt; 15%)</li><li>IECA/betabloqueador em alto risco</li></ul>",
+   "fonte": "ESC 2022 Cardio-onco",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🔥 Náuseas por QT altamente emetogênica: profilaxia?",
+   "verso": "<b>Antagonista NK1 + antagonista 5-HT3 + dexametasona + olanzapina</b> (4 drogas).",
+   "fonte": "ASCO 2020",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🔥 Mucosite, diarreia por irinotecano: tardia?",
+   "verso": "Diarreia <b>tardia (&gt; 24 h)</b>: <b>loperamida em altas doses</b> (4 mg + 2 mg a cada 2 h); polimorfismo <b>UGT1A1*28</b> aumenta toxicidade.<br><ul><li>Precoce: síndrome colinérgica → atropina</li></ul>",
+   "fonte": "ASCO",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🔥 Deficiência de DPD e fluoropirimidinas?",
+   "verso": "Variante em <b>DPYD</b> → toxicidade grave/fatal com 5-FU/capecitabina; genotipar antes (EMA) e reduzir dose.",
+   "fonte": "EMA 2020 · CPIC",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  },
+  {
+   "subtema": "Toxicidade e suporte",
+   "frente": "🔥 Síndrome de liberação de citocinas × ICANS (CAR-T)?",
+   "verso": "<table class=t><tr><th></th><th>SLC</th><th>ICANS</th></tr><tr><td>Clínica</td><td>Febre, hipotensão, hipóxia</td><td>Encefalopatia, afasia, convulsão, edema cerebral</td></tr><tr><td>Tratamento</td><td><b>Tocilizumabe</b> ± corticoide</td><td><b>Corticoide</b> (tocilizumabe não atravessa BHE)</td></tr></table>",
+   "fonte": "ASTCT 2019",
+   "tags": [
+    "R3H360X",
+    "H10"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_10_6dad335d.png": "data/media/r3h_10_6dad335d.png"
+ }
+}

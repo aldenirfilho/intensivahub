@@ -1,0 +1,158 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::14 🧴 Dermatologia e Alergia",
+ "cards": [
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🔥 SCORTEN na necrólise epidérmica tóxica?",
+   "verso": "1 ponto cada: <b>idade ≥ 40</b>, câncer, FC ≥ 120, descolamento &gt; 10% no D1, <b>ureia &gt; 10 mmol/L</b> (BUN &gt; 28 mg/dL), glicose &gt; 252, <b>bicarbonato &lt; 20</b>.<br>≥ 5 pontos: mortalidade &gt; 90%.",
+   "fonte": "Bastuji-Garin 2000",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🔥 SJS/NET: drogas de alto risco e alelos?",
+   "verso": "<ul><li><b>Alopurinol</b> (HLA-B*58:01), <b>carbamazepina</b> (HLA-B*15:02), lamotrigina, sulfonamidas, nevirapina, fenitoína, oxicans</li></ul>Suspender a droga + <b>unidade de queimados</b>; ciclosporina/etanercepte têm dados favoráveis.",
+   "fonte": "BAD 2016",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🔥 Escore RegiSCAR (DRESS)?",
+   "verso": "Febre, linfonodomegalia, <b>eosinofilia</b>, linfócitos atípicos, rash &gt; 50% da superfície, <b>órgão interno</b> (fígado, rim), resolução &gt; 15 dias.<br><ul><li>Reativação de <b>HHV-6</b></li></ul>Corticoide sistêmico prolongado (desmame lento).",
+   "fonte": "Kardaun 2013",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Farmacodermias",
+   "frente": "🔥 Exantema fixo medicamentoso?",
+   "verso": "Placas violáceas que <b>recorrem no mesmo lugar</b> a cada exposição (lábios, genitais); AINE, sulfonamida, tetraciclina.",
+   "fonte": "BAD",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🔥 Anafilaxia: dose de adrenalina e refratária?",
+   "verso": "<b>0,5 mg IM</b> (adulto; 0,01 mg/kg) na face lateral da coxa, repetir a cada 5–15 min.<br><ul><li>Refratária: <b>adrenalina em infusão</b> IV</li><li>Em betabloqueado: <b>glucagon</b></li></ul>",
+   "fonte": "WAO 2020",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🔥 Angioedema hereditário: tratamento da crise?",
+   "verso": "<b>Concentrado de C1-INH</b>, <b>icatibanto</b> ou ecalantida — adrenalina, anti-histamínico e corticoide não funcionam.<br><ul><li>Profilaxia: lanadelumabe, berotralstate</li></ul>C4 baixo + C1-INH baixo/disfuncional.",
+   "fonte": "WAO/EAACI 2021",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Alergia e urticária",
+   "frente": "🔥 Alergia a penicilina rotulada: desrotular?",
+   "verso": "~90% não são alérgicos: escore <b>PEN-FAST &lt; 3</b> → <b>provocação oral direta</b> com amoxicilina.",
+   "fonte": "PALACE 2023",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔥 Pioderma gangrenoso: associações e cuidado?",
+   "verso": "<b>DII, artrite, gamopatia, leucemia</b>; úlcera dolorosa de borda violácea; <b>patergia</b> → evitar desbridamento.<br>Corticoide, ciclosporina, anti-TNF.",
+   "fonte": "BAD",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔥 Necrose cutânea induzida por varfarina: quando e por quê?",
+   "verso": "Necrose por <b>varfarina</b>: primeiros dias, áreas gordurosas (mama, coxa), <b>deficiência de proteína C</b> → iniciar sempre com ponte de heparina.",
+   "fonte": "BAD",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔥 Penfigoide bolhoso: droga associada?",
+   "verso": "<b>Inibidores de DPP-4</b> (gliptinas), além de diuréticos e checkpoint; <b>anti-BP180/BP230</b>.<br>Corticoide tópico potente (clobetasol) é 1ª linha.",
+   "fonte": "EADV 2022",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔥 Dermatite herpetiforme?",
+   "verso": "Vesículas pruriginosas em <b>cotovelos, joelhos, nádegas</b> → doença celíaca (IgA granular na papila); <b>dapsona</b> (dosar G6PD) + dieta sem glúten.",
+   "fonte": "BAD",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔥 Hidradenite supurativa moderada-grave: biológicos?",
+   "verso": "<b>Adalimumabe</b>, <b>secuquinumabe</b>, bimequizumabe; cirurgia (deroofing) em lesões crônicas.",
+   "fonte": "EADV 2024",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔥 Síndrome de Sweet (dermatose neutrofílica febril)?",
+   "verso": "Placas <b>edematosas dolorosas</b> eritematovioláceas + febre + neutrofilia; associações: <b>LMA/SMD</b>, infecção, DII, gestação, G-CSF.<br>Resposta rápida a <b>prednisona</b>; investigar neoplasia hematológica.",
+   "fonte": "BAD",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔥 Eritema multiforme × SJS?",
+   "verso": "EM: lesões em <b>alvo típico</b> acrais, gatilho <b>HSV</b> (maior parte), mucosa leve; SJS: máculas/alvos atípicos no tronco, droga, descolamento.<br>EM recorrente: <b>aciclovir/valaciclovir supressivo</b>.",
+   "fonte": "BAD",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  },
+  {
+   "subtema": "Dermatoses na clínica",
+   "frente": "🔥 Eritrodermia: causas e riscos?",
+   "verso": "Eritema e descamação <b>&gt; 90% da superfície</b>: psoríase, eczema, <b>farmacodermia</b>, <b>linfoma T cutâneo (Sézary)</b>, pitiríase rubra pilar.",
+   "pegadinha": "Hipotermia, desidratação, <b>IC de alto débito</b>, hipoalbuminemia, sepse.",
+   "fonte": "BAD",
+   "tags": [
+    "R3H360X",
+    "H14"
+   ]
+  }
+ ],
+ "midia": {}
+}

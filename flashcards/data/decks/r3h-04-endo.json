@@ -1,0 +1,428 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::04 🍬 Endocrinologia",
+ "cards": [
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 LADA: como suspeitar?",
+   "verso": "Adulto \"tipo 2\" <b>magro</b>, sem síndrome metabólica, que falha rápido aos orais → <b>anti-GAD</b> positivo, peptídeo C baixo.<br>Insulina precoce; evitar sulfonilureia (acelera falência da célula β).",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Peptídeo C: utilidade na hipoglicemia?",
+   "verso": "<table class=t><tr><th>Achado</th><th>Causa</th></tr><tr><td>Insulina ↑ + <b>peptídeo C ↑</b> + sulfonilureia −</td><td><b>Insulinoma</b></td></tr><tr><td>Insulina ↑ + peptídeo C ↑ + sulfonilureia +</td><td>Sulfonilureia (factícia)</td></tr><tr><td>Insulina ↑↑ + <b>peptídeo C ↓</b></td><td><b>Insulina exógena</b></td></tr><tr><td>Insulina ↓ + peptídeo C ↓</td><td>IGF-2 (tumor), álcool, insuficiência adrenal/hepática</td></tr></table>",
+   "fonte": "Endocrine Society 2009",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 HbA1c falsamente baixa ou alta?",
+   "verso": "<table class=t><tr><th>Falsamente baixa</th><th>Falsamente alta</th></tr><tr><td>Hemólise, sangramento, transfusão recente, <b>gestação</b>, AEE, DRC dialítica</td><td><b>Ferropenia</b>, asplenia, uremia (carbamilação)</td></tr></table>Usar frutosamina ou CGM (TIR) quando discordante.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Metas do CGM (consenso internacional)?",
+   "verso": "<ul><li><b>TIR (70–180) &gt; 70%</b></li><li><b>&lt; 70 mg/dL: &lt; 4%</b>; &lt; 54: &lt; 1%</li><li>&gt; 250: &lt; 5%; CV ≤ 36%</li><li>Idoso frágil: TIR &gt; 50%, &lt; 70 mg/dL &lt; 1%</li></ul>",
+   "fonte": "Battelino 2019",
+   "imagem": "r3h_04_4fa2d004.png",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Agonista GLP-1 e cirurgia/endoscopia?",
+   "verso": "Risco de <b>conteúdo gástrico retido</b> (broncoaspiração): dieta líquida 24 h antes ou suspensão conforme protocolo/risco.",
+   "fonte": "Multisocietário 2024",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Tirzepatida: mecanismo?",
+   "verso": "Agonista <b>dual GIP/GLP-1</b> → maior perda de peso e redução de HbA1c que semaglutida (SURPASS-2).",
+   "pegadinha": "Contraindicada com história pessoal/familiar de <b>carcinoma medular de tireoide / NEM 2</b>.",
+   "fonte": "SURPASS-2 · SURMOUNT",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Neuropatia autonômica cardiovascular no DM: pistas?",
+   "verso": "<ul><li><b>Taquicardia de repouso fixa</b>, hipotensão ortostática, isquemia silenciosa</li><li>Variação RR reduzida na respiração profunda/Valsalva</li></ul>",
+   "fonte": "ADA 2017",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Hipoglicemia sem consciência (hypoglycemia unawareness)?",
+   "verso": "Hipoglicemias recorrentes embotam a resposta adrenérgica → <b>evitar rigorosamente hipoglicemias por 2–3 semanas</b> restaura sintomas.<br>CGM com alarme, ajustar metas.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Hiperglicemia induzida por corticoide: padrão e insulina?",
+   "verso": "Prednisona matinal → hiperglicemia <b>à tarde/noite</b>; usar <b>NPH pela manhã junto do corticoide</b> (0,1 U/kg por 10 mg de prednisona, até 0,4 U/kg).",
+   "fonte": "ADA · Endocrine Society",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Síndrome de insulina autoimune (Hirata)?",
+   "verso": "Hipoglicemia <b>pós-prandial tardia</b> com <b>insulina muito alta</b> e anticorpo anti-insulina; gatilhos com grupo sulfidril (<b>metimazol</b>, ácido lipoico).",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Diabetes tipo 3c (pancreatogênico)?",
+   "verso": "Pancreatite crônica, pancreatectomia, fibrose cística, hemocromatose → deficiência de insulina <b>e glucagon</b> (hipoglicemias), insuficiência exócrina.<br>Insulina + enzimas pancreáticas; cuidado com hipoglicemia.",
+   "fonte": "ADA 2025",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Diabetes",
+   "frente": "🔥 Diabetes propenso à cetose (Flatbush)?",
+   "verso": "CAD como apresentação em adulto obeso (frequentemente afrodescendente), <b>anti-GAD negativo</b>, peptídeo C recupera → muitos ficam <b>sem insulina</b> depois.",
+   "fonte": "Diabetes Care",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Tireotoxicose induzida por amiodarona: tipo 1 × tipo 2?",
+   "verso": "<table class=t><tr><th></th><th>Tipo 1</th><th>Tipo 2</th></tr><tr><td>Mecanismo</td><td>Excesso de iodo em tireoide doente</td><td><b>Tireoidite destrutiva</b></td></tr><tr><td>Doppler</td><td>Fluxo ↑</td><td>Fluxo ↓</td></tr><tr><td>Captação</td><td>Baixa/normal</td><td>Muito baixa</td></tr><tr><td>Tratamento</td><td><b>Tionamida</b> (± perclorato)</td><td><b>Prednisona</b></td></tr></table>",
+   "fonte": "ETA 2018",
+   "imagem": "r3h_04_ed80c481.png",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Hipotireoidismo central: como monitorar a reposição?",
+   "verso": "<b>TSH não serve</b>: ajustar por <b>T4 livre no terço superior</b> da normalidade.",
+   "pegadinha": "Antes de iniciar levotiroxina, avaliar e repor <b>cortisol</b> (risco de crise adrenal).",
+   "fonte": "ETA 2018",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Graves com oftalmopatia moderada-grave ativa: tratamento?",
+   "verso": "<ul><li><b>Metilprednisolona IV</b> em pulsos semanais (4,5 g no total)</li><li><b>Teprotumumabe</b> (anti-IGF-1R): proptose; ototoxicidade e hiperglicemia</li><li>Tabagismo piora; <b>iodo radioativo</b> pode piorar (cobertura com prednisona)</li></ul>",
+   "fonte": "EUGOGO 2021",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Câncer papilífero de baixo risco &lt; 1 cm: opção?",
+   "verso": "<b>Vigilância ativa</b> com US seriado é aceitável (microcarcinoma sem extensão nem linfonodo).",
+   "fonte": "ATA 2015",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Tireoglobulina no seguimento do câncer diferenciado?",
+   "verso": "Marcador de recidiva <b>após tireoidectomia total ± iodo</b>; sempre dosar com <b>anticorpo antitireoglobulina</b> (interfere).",
+   "fonte": "ATA 2015",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Hipotireoidismo subclínico na gestação?",
+   "verso": "Tratar se <b>TSH &gt; 10</b> ou TSH acima do limite da gestação com <b>anti-TPO positivo</b>; meta TSH &lt; 2,5.<br><ul><li>Ajustar levotiroxina (+25–30%) ao confirmar gestação</li></ul>",
+   "fonte": "ATA 2017",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Tireotoxicose factícia: como diferenciar?",
+   "verso": "Captação de iodo <b>baixa</b> + <b>tireoglobulina baixa</b> (na tireoidite destrutiva a tireoglobulina é alta).",
+   "fonte": "ATA 2016",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 TSH normal/alto com T4 livre alto: diferencial?",
+   "verso": "<ul><li><b>TSHoma</b> (subunidade α alta, adenoma na RM, sem resposta ao TRH)</li><li><b>Resistência ao hormônio tireoidiano</b> (THRβ, familiar)</li><li>Interferência laboratorial (anticorpo heterófilo, biotina), amiodarona, adesão errática à levotiroxina</li></ul>",
+   "fonte": "ETA 2013",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Tireoide",
+   "frente": "🔥 Carcinoma medular de tireoide: marcadores e conduta?",
+   "verso": "<b>Calcitonina e CEA</b> (tempo de duplicação = prognóstico); pesquisar <b>RET</b> em todos e excluir <b>feocromocitoma antes da cirurgia</b>.",
+   "fonte": "ATA 2015",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🔥 Supressão com dexametasona 1 mg: interpretação?",
+   "verso": "Cortisol às 8 h <b>≤ 1,8 µg/dL</b> exclui hipercortisolismo; <b>&gt; 5</b> sugere secreção autônoma.",
+   "pegadinha": "Falso-positivo: <b>estrogênio oral</b> (↑ CBG), indutores de CYP3A4 (fenitoína, carbamazepina, rifampicina), má absorção.",
+   "fonte": "Endocrine Society 2008/2016",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🔥 Cushing ACTH-dependente: hipófise ou ectópico?",
+   "verso": "<ul><li>RM de hipófise; se adenoma ≥ 10 mm e testes concordantes → hipofisário</li><li>Senão: <b>cateterismo de seios petrosos inferiores</b> (gradiente central/periférico ≥ 2 basal ou ≥ 3 após CRH/desmopressina)</li></ul>",
+   "fonte": "Endocrine Society 2015",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🔥 Feocromocitoma: preparo pré-operatório?",
+   "verso": "<b>Alfabloqueio</b> 10–14 dias (doxazosina/fenoxibenzamina) + <b>sal e líquidos</b>; betabloqueador só <b>depois</b> do alfa (se taquicardia).",
+   "pegadinha": "Betabloqueio isolado → crise hipertensiva por estímulo alfa sem oposição.",
+   "fonte": "Endocrine Society 2014",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🔥 Metanefrinas: falso-positivos?",
+   "verso": "<ul><li>Tricíclicos, <b>IRSN/ISRS</b>, levodopa, inibidores de MAO, antipsicóticos</li><li>Estresse físico, apneia do sono, retirada de clonidina</li></ul>Elevação <b>&gt; 3–4× o limite</b> é muito sugestiva; dosar em posição supina.",
+   "fonte": "Endocrine Society 2014",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🔥 Hiperaldosteronismo: confirmação e lateralização?",
+   "verso": "<ul><li>Confirmar: sobrecarga salina, fludrocortisona, captopril (dispensável se K baixo + renina suprimida + aldo &gt; 20)</li><li>Lateralizar: <b>cateterismo de veias adrenais</b> antes da adrenalectomia (TC engana após 35–40 anos)</li></ul>",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🔥 Insuficiência adrenal: ajuste em doença intercorrente (\"sick day rules\")?",
+   "verso": "<ul><li>Febre/doença: <b>dobrar ou triplicar</b> a hidrocortisona</li><li>Vômitos ou cirurgia: <b>hidrocortisona parenteral</b> (100 mg IM/IV)</li></ul>Cartão/pulseira de alerta e kit de injeção.",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Adrenal",
+   "frente": "🔥 Incidentaloma adrenal: características suspeitas na TC?",
+   "verso": "<b>&gt; 10 UH sem contraste</b>, washout baixo (absoluto &lt; 60%, relativo &lt; 40%), &gt; 4 cm, heterogêneo, crescimento → pensar em carcinoma/feocromocitoma.",
+   "fonte": "ESE 2023",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🔥 Acromegalia: diagnóstico e cura?",
+   "verso": "<b>IGF-1 elevado</b> (para idade/sexo) + GH não suprimido (&lt; 1 ng/mL) no TOTG.<br><ul><li>Cirurgia transesfenoidal; análogo de somatostatina, pegvisomanto</li></ul>",
+   "pegadinha": "Rastrear <b>pólipos de cólon</b>, apneia, cardiomiopatia, DM.",
+   "fonte": "Endocrine Society 2014",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🔥 Apoplexia hipofisária?",
+   "verso": "Cefaleia súbita intensa + <b>oftalmoplegia/perda visual</b> + hipotensão em portador de adenoma.<br><b>Hidrocortisona IV imediata</b>; cirurgia se déficit visual grave/progressivo.",
+   "fonte": "UK guideline 2011",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🔥 Hipofisite por imunoterapia: hormônios afetados?",
+   "verso": "Anti-CTLA-4 (ipilimumabe): <b>ACTH</b> (quase sempre permanente), TSH, gonadotrofinas; DI é raro.<br>Hidrocortisona de reposição; corticoide em alta dose só se efeito de massa.",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Hipófise",
+   "frente": "🔥 Prolactinoma na gestação?",
+   "verso": "<ul><li>Microprolactinoma: <b>suspender cabergolina</b> ao confirmar gestação</li><li>Macro: monitorar campos visuais; retomar agonista se crescimento sintomático</li></ul>",
+   "fonte": "Endocrine Society 2011",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🔥 Hiperparatireoidismo normocalcêmico?",
+   "verso": "PTH alto com cálcio <b>sempre normal</b> (inclusive iônico) após excluir causas secundárias: <b>vitamina D baixa</b>, DRC, tiazídico, lítio, hipercalciúria renal.",
+   "fonte": "5º Workshop 2022",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🔥 Fratura atípica de fêmur com bisfosfonato?",
+   "verso": "Dor na <b>coxa/virilha</b> prodrômica, fratura <b>subtrocantérica transversal</b> com mínimo trauma após uso prolongado.<br><ul><li>Considerar pausa (drug holiday) após 5 anos oral / 3 anos zoledronato em risco moderado</li></ul>",
+   "fonte": "ASBMR · Endocrine Society 2020",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🔥 Osteomalácia oncogênica?",
+   "verso": "Tumor mesenquimal secretor de <b>FGF-23</b> → hipofosfatemia, fosfatúria, calcitriol baixo, fraturas.<br>Localizar com <b>PET-Ga-DOTATATE</b>; ressecção cura; burosumabe se irressecável.",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Osteometabólico e paratireoide",
+   "frente": "🔥 Hipocalcemia pós-paratireoidectomia: fome óssea?",
+   "verso": "Queda grave de <b>cálcio, fósforo e magnésio</b> com PTH normal/alto após cirurgia de hiperparatireoidismo grave → cálcio IV em altas doses + calcitriol.",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🔥 Hipoglicemia pós-bariátrica?",
+   "verso": "<b>1–3 h após refeição</b> (dumping tardio/hiperinsulinismo pós-prandial), meses a anos após bypass.<br>Dieta pobre em carboidrato simples, refeições fracionadas, acarbose.",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🔥 Síndrome carcinoide: diagnóstico e tratamento?",
+   "verso": "Flushing + diarreia + broncoespasmo; <b>5-HIAA urinário 24 h</b> ↑ (evitar banana, abacate, nozes antes).<br><ul><li>Tratamento: análogo de somatostatina; <b>telotristate</b> para diarreia</li></ul>",
+   "pegadinha": "Valvopatia direita (tricúspide/pulmonar).",
+   "fonte": "ENETS 2023",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🔥 Reposição de testosterona: contraindicações?",
+   "verso": "<ul><li><b>Câncer de próstata/mama</b>, PSA &gt; 4 (ou &gt; 3 em alto risco) sem avaliação</li><li><b>Hematócrito &gt; 50%</b>, apneia grave não tratada, IC descompensada, desejo de fertilidade</li></ul>Repor só com hipogonadismo <b>sintomático + testosterona baixa confirmada</b> (2 dosagens matinais); TRAVERSE: sem aumento de MACE.",
+   "fonte": "Endocrine Society 2018 · TRAVERSE 2023",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🔥 Ginecomastia: quando investigar tumor?",
+   "verso": "<ul><li>Crescimento rápido, <b>&gt; 5 cm</b>, dolorosa no adulto, unilateral endurecida</li><li><b>β-hCG</b> (tumor de testículo), estradiol, testosterona, LH, TSH, função hepática e renal</li><li>Drogas: espironolactona, cetoconazol, antiandrogênicos, cannabis</li></ul>",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  },
+  {
+   "subtema": "Obesidade e outros",
+   "frente": "🔥 Hiperandrogenismo feminino: quando pensar em tumor?",
+   "verso": "Virilização rápida (clitoromegalia, voz grave), <b>testosterona total &gt; 150–200 ng/dL</b> ou <b>DHEA-S &gt; 700 µg/dL</b> → imagem ovariana/adrenal.",
+   "fonte": "Endocrine Society 2018",
+   "tags": [
+    "R3H360X",
+    "H04"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_04_4fa2d004.png": "data/media/r3h_04_4fa2d004.png",
+  "r3h_04_ed80c481.png": "data/media/r3h_04_ed80c481.png"
+ }
+}

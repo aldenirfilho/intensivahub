@@ -1,0 +1,163 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::12 🧘 Psiquiatria na Clínica",
+ "cards": [
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🔥 Antidepressivo e virada maníaca: quem rastrear antes?",
+   "verso": "Rastrear <b>bipolaridade</b> (história familiar, hipomania prévia, depressão precoce/atípica, pós-parto) — antidepressivo em monoterapia pode precipitar mania.",
+   "fonte": "CANMAT/ISBD 2018",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🔥 Transtorno bipolar na gestação: estabilizadores?",
+   "verso": "<ul><li><b>Valproato: evitar</b> (teratogênico)</li><li>Lítio: risco cardíaco (Ebstein) baixo — possível com eco fetal e níveis</li><li><b>Lamotrigina</b> e antipsicóticos (quetiapina) são alternativas</li></ul>",
+   "fonte": "NICE 2014 · ISBD",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🔥 TEPT: tratamento de 1ª linha?",
+   "verso": "<b>Psicoterapia focada no trauma</b> (TCC-TF, EMDR, exposição prolongada) &gt; farmacoterapia; ISRS/venlafaxina como opções.",
+   "pegadinha": "<b>Benzodiazepínicos pioram</b> desfechos; prazosina para pesadelos tem evidência mista.",
+   "fonte": "VA/DoD 2023",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Humor e ansiedade",
+   "frente": "🔥 Insônia crônica: 1ª linha?",
+   "verso": "<b>TCC para insônia (TCC-I)</b>: restrição de sono, controle de estímulos, higiene, cognição; fármacos (doxepina baixa dose, antagonistas de orexina) como adjuvantes curtos.",
+   "pegadinha": "Evitar benzodiazepínico/Z-drug em idoso (quedas, cognição).",
+   "fonte": "AASM 2017 · ACP 2016",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🔥 Lítio: interações que elevam o nível?",
+   "verso": "<ul><li><b>Tiazídicos</b>, <b>IECA/BRA</b>, <b>AINE</b>, desidratação, dieta hipossódica</li></ul>Nível alvo de manutenção <b>0,6–0,8 mEq/L</b>; checar TSH, cálcio e creatinina.",
+   "fonte": "BAP 2016",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🔥 Antipsicóticos: quais mais prolongam o QT?",
+   "verso": "<b>Ziprasidona, haloperidol IV, tioridazina</b>, quetiapina; menos: aripiprazol, lurasidona.<br>ECG se cardiopatia, QT basal longo ou interações.",
+   "fonte": "Maudsley 2024",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🔥 Hiponatremia por antidepressivo: grupo de risco?",
+   "verso": "<b>ISRS/IRSN em idoso</b>, mulher, baixo peso, uso de diurético → SIADH nas primeiras semanas; mirtazapina tem menor risco.",
+   "fonte": "BMJ 2016",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Psicofármacos",
+   "frente": "🔥 Desmame de benzodiazepínico de uso crônico?",
+   "verso": "Reduzir <b>5–10% (até 25%) a cada 2–4 semanas</b>, mais lento no final; trocar por meia-vida longa (diazepam) se necessário.",
+   "pegadinha": "Retirada abrupta: <b>convulsões</b> e delirium.",
+   "fonte": "ASAM 2025 · Ashton",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🔥 Uso de opioide: tratamento com buprenorfina — indução?",
+   "verso": "Iniciar na <b>abstinência moderada (COWS ≥ 8–12)</b> para evitar abstinência precipitada; micro-indução (Bernese) quando não dá para esperar.<br>Fentanil ilícito: abstinência precipitada mais frequente.",
+   "fonte": "SAMHSA 2021 · ASAM",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🔥 Abstinência alcoólica: escala e manejo?",
+   "verso": "<b>CIWA-Ar</b>: ≥ 8–10 benzodiazepínico guiado por sintomas; <b>lorazepam/oxazepam</b> na hepatopatia grave ou idoso.",
+   "pegadinha": "Fenobarbital é alternativa na abstinência refratária a benzo.",
+   "fonte": "ASAM 2020",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🔥 Fármacos para dependência de álcool: escolha por perfil?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Cuidado</th></tr><tr><td><b>Naltrexona</b></td><td>Contraindicada com <b>opioide</b> e hepatite grave</td></tr><tr><td><b>Acamprosato</b></td><td>Ajustar/contraindicar na <b>DRC</b></td></tr><tr><td>Dissulfiram</td><td>Só com supervisão, cardiopatia</td></tr><tr><td>Topiramato, gabapentina</td><td>Off-label</td></tr></table>",
+   "fonte": "APA 2018",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Substâncias",
+   "frente": "🔥 Síndrome de hiperêmese canabinoide?",
+   "verso": "Vômitos cíclicos em usuário crônico, <b>alívio com banho quente</b>; responde a <b>capsaicina tópica</b> e haloperidol; cura com abstinência.",
+   "fonte": "AGA 2024",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Urgências psiquiátricas",
+   "frente": "🔥 Catatonia: diagnóstico e teste terapêutico?",
+   "verso": "Escala <b>Bush-Francis</b>; <b>lorazepam 1–2 mg IV</b> com melhora rápida confirma.<br><ul><li>Catatonia maligna (febre, disautonomia): <b>ECT</b> urgente</li></ul>",
+   "pegadinha": "Antipsicótico pode piorar/precipitar SNM.",
+   "fonte": "BAP 2023",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Urgências psiquiátricas",
+   "frente": "🔥 Agitação psicomotora grave: sedação?",
+   "verso": "Verbal primeiro → <b>haloperidol + midazolam IM</b> ou olanzapina IM; cetamina em contextos selecionados.",
+   "pegadinha": "Não combinar <b>olanzapina IM + benzodiazepínico parenteral</b> (depressão respiratória).",
+   "fonte": "ABP · Project BETA",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  },
+  {
+   "subtema": "Urgências psiquiátricas",
+   "frente": "🔥 Transtorno factício × simulação?",
+   "verso": "<table class=t><tr><th></th><th>Factício (Münchausen)</th><th>Simulação</th></tr><tr><td>Motivo</td><td><b>Papel de doente</b> (interno)</td><td><b>Ganho externo</b> (dinheiro, afastamento, droga)</td></tr><tr><td>Consciente da produção</td><td>Sim</td><td>Sim</td></tr></table>Factício por procuração: produz sintomas em outra pessoa (criança) — notificação.",
+   "fonte": "DSM-5-TR",
+   "tags": [
+    "R3H360X",
+    "H12"
+   ]
+  }
+ ],
+ "midia": {}
+}

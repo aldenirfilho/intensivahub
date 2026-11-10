@@ -1,0 +1,433 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::05 🫃 Gastroenterologia e Hepatologia",
+ "cards": [
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🔥 Classificação de Chicago 4.0: acalasia tipos?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Padrão</th><th>Melhor resposta</th></tr><tr><td>I</td><td>Aperistalse sem pressurização</td><td>Dilatação/POEM/Heller</td></tr><tr><td>II</td><td><b>Pressurização panesofágica</b></td><td>Melhor prognóstico a qualquer terapia</td></tr><tr><td>III</td><td><b>Espástica</b> (contrações prematuras)</td><td><b>POEM</b> (miotomia longa)</td></tr></table>",
+   "fonte": "Chicago 4.0 (2021)",
+   "imagem": "r3h_05_be99fe28.png",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🔥 Gastrite atrófica autoimune: riscos?",
+   "verso": "Anti-célula parietal/anti-fator intrínseco → <b>deficiência de B12 e ferro</b>, hipergastrinemia → <b>tumor neuroendócrino gástrico tipo 1</b> e adenocarcinoma.<br>EDA de vigilância a cada 3 anos (AGA).",
+   "fonte": "AGA 2021",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🔥 H. pylori refratário: 2ª e 3ª linhas?",
+   "verso": "<ul><li>Falha da claritromicina → <b>quádrupla com bismuto</b> 14 dias</li><li>Falha da quádrupla → <b>levofloxacino</b> (se sensível) ou rifabutina</li><li><b>Vonoprazana</b> aumenta erradicação (dupla com amoxicilina)</li></ul>",
+   "pegadinha": "Teste de controle ≥ 4 semanas após, sem IBP por 2 semanas.",
+   "fonte": "Maastricht VI 2022 · ACG 2024",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🔥 Síndrome de Zollinger-Ellison: diagnóstico?",
+   "verso": "Úlceras múltiplas/atípicas + diarreia: <b>gastrina &gt; 10× o normal com pH gástrico &lt; 2</b> (suspender IBP com cautela).<br><ul><li>Teste de secretina se duvidoso; 20–25% associados a <b>NEM 1</b></li></ul>",
+   "fonte": "ENETS",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Esôfago e estômago",
+   "frente": "🔥 Doença de Ménétrier?",
+   "verso": "<b>Pregas gástricas gigantes</b> no fundo/corpo, hipoalbuminemia por perda gástrica de proteína, hipocloridria; excesso de TGF-α.<br>Cetuximabe em casos graves; risco de adenocarcinoma.",
+   "fonte": "Gastroenterology",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "🔥 Hemorragia digestiva com anticoagulante: reintroduzir quando?",
+   "verso": "Após hemostasia, <b>reintroduzir em ~7 dias</b> (menos trombose e morte, sem excesso de ressangramento).<br><ul><li>AAS em prevenção secundária: não suspender ou retomar em até 3–5 dias</li></ul>",
+   "fonte": "ESGE 2021 · ACG 2022",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "🔥 Sangramento de varizes gástricas fúndicas (GOV2/IGV1)?",
+   "verso": "<b>Cianoacrilato</b> endoscópico ou <b>BRTO</b>; TIPS como resgate.",
+   "fonte": "Baveno VII · AASLD 2024",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hemorragia digestiva",
+   "frente": "🔥 Sangramento de intestino delgado: investigação?",
+   "verso": "EDA + colonoscopia normais → <b>cápsula endoscópica</b> (ou angioTC se ativo) → enteroscopia para terapia.<br><ul><li>Causa mais comum &gt; 40 anos: <b>angiodisplasia</b> (Heyde, DRC, Willebrand)</li></ul>",
+   "fonte": "ACG 2015",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Intestino e DII",
+   "frente": "🔥 Retocolite grave aguda: escore e resgate?",
+   "verso": "<ul><li>Critérios de <b>Truelove-Witts</b>; corticoide IV</li><li><b>Dia 3</b> sem resposta (&gt; 8 evacuações ou 3–8 + PCR &gt; 45, escore de Oxford) → resgate: <b>infliximabe</b> ou ciclosporina, ou colectomia</li></ul>",
+   "pegadinha": "Rastrear CMV (biópsia) e C. difficile.",
+   "fonte": "ECCO 2022",
+   "imagem": "r3h_05_a9c37ef5.png",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Intestino e DII",
+   "frente": "🔥 Doença de Crohn: fatores de mau prognóstico?",
+   "verso": "<ul><li>Diagnóstico <b>&lt; 30 anos</b>, doença perianal, ileal extensa, estenose/fístula, úlceras profundas</li><li>Tabagismo, cirurgia prévia</li></ul>Indicam biológico precoce (top-down).",
+   "fonte": "ECCO 2024",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Intestino e DII",
+   "frente": "🔥 Vedolizumabe × ustequinumabe × risanquizumabe: mecanismos?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Alvo</th></tr><tr><td>Vedolizumabe</td><td>Integrina <b>α4β7</b> (seletivo do intestino)</td></tr><tr><td>Ustequinumabe</td><td>IL-12/23 (p40)</td></tr><tr><td>Risanquizumabe, mirikizumabe, guselkumabe</td><td><b>IL-23 (p19)</b></td></tr><tr><td>Tofacitinibe, upadacitinibe</td><td>JAK</td></tr></table>",
+   "fonte": "ECCO 2024",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Intestino e DII",
+   "frente": "🔥 Diarreia por ácidos biliares?",
+   "verso": "Pós-colecistectomia ou ressecção ileal, diarreia aquosa → <b>teste SeHCAT</b> ou C4 sérico; responde a <b>colestiramina</b>.",
+   "fonte": "BSG 2018",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Intestino e DII",
+   "frente": "🔥 Doença celíaca refratária?",
+   "verso": "Sintomas e atrofia persistentes <b>&gt; 12 meses</b> com dieta sem glúten estrita (confirmar adesão!).<br><ul><li>Tipo II (linfócitos aberrantes): risco de <b>linfoma T associado a enteropatia</b></li></ul>",
+   "fonte": "ACG 2023",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Intestino e DII",
+   "frente": "🔥 Síndrome do intestino curto: adaptação e tratamento?",
+   "verso": "&lt; 200 cm de delgado: diarreia, má absorção; manejar com IBP, antidiarreico, dieta e nutrição parenteral.<br><b>Teduglutida</b> (análogo de GLP-2) reduz dependência de NPT.",
+   "pegadinha": "Cólon preservado → <b>hiperoxalúria e litíase</b>; acidose D-lática.",
+   "fonte": "ESPEN 2016",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Intestino e DII",
+   "frente": "🔥 Enteropatia perdedora de proteínas: diagnóstico?",
+   "verso": "Hipoalbuminemia <b>sem proteinúria e sem hepatopatia</b> → <b>alfa-1 antitripsina fecal</b> (clearance) alta.<br><ul><li>Causas: linfangiectasia, ICC direita/pericardite constritiva, Fontan, DII, Ménétrier</li></ul>",
+   "fonte": "AGA",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Hidratação na pancreatite aguda: o que mudou?",
+   "verso": "<b>Moderada</b> (Ringer lactato 1,5 mL/kg/h após bolus só se hipovolemia) — agressiva aumentou sobrecarga sem benefício (WATERFALL).",
+   "fonte": "WATERFALL 2022",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Necrose pancreática infectada: abordagem?",
+   "verso": "Antibiótico (carbapenêmico) e <b>adiar intervenção ≥ 4 semanas</b> (necrose encapsulada) → <b>step-up</b>: drenagem endoscópica transmural → necrosectomia.",
+   "fonte": "IAP/APA · POINTER 2021",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Pancreatite autoimune tipo 1 × tipo 2?",
+   "verso": "<table class=t><tr><th></th><th>Tipo 1</th><th>Tipo 2</th></tr><tr><td>Doença</td><td><b>IgG4-relacionada</b>, idoso</td><td>Jovem, associada a <b>DII</b></td></tr><tr><td>IgG4 sérica</td><td>Alta</td><td>Normal</td></tr><tr><td>Recidiva</td><td>Frequente</td><td>Rara</td></tr></table>Ambas respondem a corticoide.",
+   "fonte": "ICDC 2011",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Lesões císticas do pâncreas: sinais de alto risco (Fukuoka)?",
+   "verso": "<ul><li><b>Icterícia obstrutiva</b> com cisto na cabeça</li><li><b>Nódulo mural captante ≥ 5 mm</b></li><li><b>Ducto pancreático principal ≥ 10 mm</b></li></ul>Indicam cirurgia; características preocupantes → ecoendoscopia.",
+   "fonte": "Fukuoka 2017",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Colangite esclerosante primária: vigilância?",
+   "verso": "<ul><li><b>Colonoscopia anual</b> (associação com RCU, câncer colorretal)</li><li>RM/US + CA 19-9 anual (colangiocarcinoma e câncer de vesícula)</li><li>Pólipo de vesícula ≥ 8 mm → colecistectomia</li></ul>",
+   "fonte": "AASLD 2022",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Colangiopatia por IgG4 × CEP: diferencial?",
+   "verso": "IgG4 sérica alta, outros órgãos (pâncreas, salivares), <b>resposta drástica ao corticoide</b>, idade maior.",
+   "fonte": "ICDC",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Síndrome de Mirizzi?",
+   "verso": "Cálculo impactado no <b>infundíbulo/ducto cístico</b> comprimindo o hepático comum → icterícia obstrutiva; pode fistulizar.",
+   "pegadinha": "Risco de lesão de via biliar na colecistectomia — CPRM/CPRE pré-operatória.",
+   "fonte": "Csendes",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Hemobilia: tríade de Quincke?",
+   "verso": "<b>Dor em cólica biliar + icterícia + HDA</b> após biópsia hepática, trauma, TIPS ou CPRE.<br>Angiografia com <b>embolização</b>.",
+   "fonte": "Gastroenterology",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Pâncreas e vias biliares",
+   "frente": "🔥 Colangite biliar primária sem resposta ao AUDC?",
+   "verso": "Critérios de resposta (FA &lt; 1,67× LSN, bilirrubina normal) em 12 meses; falha → <b>agonista PPAR (elafibranor, seladelpar)</b> ou bezafibrato; ácido obeticólico com restrições (cirrose descompensada).",
+   "fonte": "EASL 2017 · ELATIVE · RESPONSE 2024",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 Hemocromatose: quem tratar e meta?",
+   "verso": "<b>C282Y homozigoto</b> com ferritina elevada → flebotomias até <b>ferritina 50–100 µg/L</b>.<br><ul><li>Ferritina &gt; 1.000 + transaminases ↑ ou plaquetas baixas: biópsia/elastografia (risco de cirrose)</li></ul>",
+   "fonte": "EASL 2022",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 Hepatite B: profilaxia antes de imunossupressão?",
+   "verso": "<table class=t><tr><th>Perfil</th><th>Risco com rituximabe/QT intensa</th><th>Conduta</th></tr><tr><td>HBsAg+</td><td>Alto</td><td><b>Profilaxia</b> com entecavir/tenofovir</td></tr><tr><td>HBsAg− / anti-HBc+</td><td>Alto com anti-CD20</td><td><b>Profilaxia</b> (ou monitorar DNA se risco baixo)</td></tr></table>Manter <b>12–18 meses</b> após fim da imunossupressão.",
+   "fonte": "AGA 2015 · EASL 2017",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 MASLD: definição nova e tratamento?",
+   "verso": "Esteatose + ≥ 1 fator cardiometabólico. <b>FIB-4</b> → elastografia.<br><ul><li>Perda de peso <b>≥ 7–10%</b>; <b>resmetirom</b> (F2–F3) e semaglutida (ESSENCE) para MASH com fibrose</li></ul>",
+   "fonte": "AASLD 2023 · MAESTRO-NASH",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 Síndrome de Budd-Chiari: tratamento escalonado?",
+   "verso": "<b>Anticoagulação</b> para todos → angioplastia/stent de estenoses → <b>TIPS</b> → transplante.<br><ul><li>Investigar <b>neoplasia mieloproliferativa (JAK2)</b> e HPN</li></ul>",
+   "fonte": "Baveno VII · EASL 2016",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 Colestase intra-hepática da gestação?",
+   "verso": "Prurido palmoplantar no 3º trimestre + <b>ácidos biliares &gt; 10 µmol/L</b>; &gt; 100 → risco de óbito fetal.<br><b>Ácido ursodesoxicólico</b> e parto antecipado conforme nível.",
+   "fonte": "RCOG 2022",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 Hepatite isquêmica (fígado de choque)?",
+   "verso": "Hipotensão/IC grave → <b>ALT/AST &gt; 1.000 (muitas vezes &gt; 5.000)</b> com pico em 1–3 dias, <b>LDH muito alta</b> (razão ALT/LDH &lt; 1,5), queda rápida após estabilização.<br>Tratar a causa hemodinâmica.",
+   "fonte": "Hepatology",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 Hidatidose hepática?",
+   "verso": "Cisto com <b>vesículas filhas/membrana descolada</b> (\"sinal do lírio d'água\"), área de criação de ovinos/cães.<br><b>Albendazol</b> + PAIR ou cirurgia; risco de <b>anafilaxia</b> na ruptura.",
+   "fonte": "OMS-IWGE",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 Hepatite E crônica?",
+   "verso": "Em <b>transplantado/imunossuprimido</b> (genótipo 3, carne de porco) → ALT persistente &gt; 3 meses; <b>PCR do HEV</b> (sorologia falha).<br>Reduzir imunossupressão; <b>ribavirina</b>.",
+   "fonte": "EASL 2018",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Hepatites e fígado",
+   "frente": "🔥 Síndrome de Gilbert?",
+   "verso": "<b>Bilirrubina indireta</b> levemente alta, ↑ com <b>jejum, estresse, infecção</b>; transaminases e hemograma normais (UGT1A1).",
+   "pegadinha": "Toxicidade maior com <b>irinotecano</b> e atazanavir.",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Cirrose e complicações",
+   "frente": "🔥 Baveno VII: hipertensão portal clinicamente significativa sem endoscopia?",
+   "verso": "Elastografia <b>≥ 25 kPa</b> = HPCS → <b>betabloqueador não seletivo (carvedilol)</b> para prevenir descompensação.<br><ul><li>&lt; 20 kPa + plaquetas &gt; 150 mil: dispensa EDA de rastreio de varizes</li></ul>",
+   "fonte": "Baveno VII 2021",
+   "imagem": "r3h_05_2aedfe1c.png",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Cirrose e complicações",
+   "frente": "🔥 TIPS preemptivo na hemorragia varicosa?",
+   "verso": "<b>Child C 10–13</b> ou <b>Child B &gt; 7 com sangramento ativo</b> na EDA → TIPS em até <b>72 h</b> (idealmente 24 h) reduz mortalidade.",
+   "fonte": "Baveno VII",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Cirrose e complicações",
+   "frente": "🔥 Hidrotórax hepático: conduta?",
+   "verso": "Restrição de sódio + diurético → toracocentese; refratário → <b>TIPS</b> ou transplante.",
+   "pegadinha": "<b>Evitar dreno torácico</b> (perda de proteína, infecção, insuficiência renal).",
+   "fonte": "AASLD 2021",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Cirrose e complicações",
+   "frente": "🔥 Escore MELD 3.0: o que acrescentou?",
+   "verso": "<b>Sexo feminino</b> e <b>albumina</b> (além de bilirrubina, INR, creatinina e sódio).",
+   "fonte": "Kim 2021",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Cirrose e complicações",
+   "frente": "🔥 Síndrome hepatopulmonar × hipertensão portopulmonar?",
+   "verso": "<table class=t><tr><th></th><th>Hepatopulmonar</th><th>Portopulmonar</th></tr><tr><td>Mecanismo</td><td><b>Vasodilatação</b> intrapulmonar</td><td><b>Vasoconstrição</b>/remodelamento arterial</td></tr><tr><td>Clínica</td><td>Platipneia/ortodeoxia</td><td>Dispneia, sinais de VD</td></tr><tr><td>Diagnóstico</td><td>Eco com <b>microbolhas (shunt tardio)</b></td><td>Cateterismo direito</td></tr><tr><td>Transplante</td><td><b>Cura</b> (prioridade)</td><td>Contraindica se PAPm muito alta</td></tr></table>",
+   "fonte": "ERS/EASL 2016",
+   "imagem": "r3h_05_47840cc1.png",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Cirrose e complicações",
+   "frente": "🔥 Insuficiência hepática crônica agudizada (ACLF)?",
+   "verso": "Descompensação aguda + <b>falências orgânicas</b> (escore CLIF-C); mortalidade 28 dias alta → considerar <b>transplante precoce</b>.",
+   "fonte": "EASL 2023",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Cirrose e complicações",
+   "frente": "🔥 Encefalopatia hepática: profilaxia secundária?",
+   "verso": "<b>Lactulose</b> (2–3 evacuações/dia) + <b>rifaximina</b> após recorrência; buscar precipitantes (infecção, HDA, constipação, diurético, benzodiazepínico).",
+   "fonte": "AASLD/EASL 2014",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  },
+  {
+   "subtema": "Cirrose e complicações",
+   "frente": "🔥 Ascite refratária: opções?",
+   "verso": "<b>Paracentese de grande volume</b> + albumina (6–8 g/L se &gt; 5 L), <b>TIPS</b> (melhora sobrevida em selecionados), transplante.",
+   "pegadinha": "Suspender <b>betabloqueador</b> se PAS &lt; 90, Na &lt; 130 ou LRA.",
+   "fonte": "AASLD 2021 · Baveno VII",
+   "tags": [
+    "R3H360X",
+    "H05"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_05_be99fe28.png": "data/media/r3h_05_be99fe28.png",
+  "r3h_05_a9c37ef5.png": "data/media/r3h_05_a9c37ef5.png",
+  "r3h_05_2aedfe1c.png": "data/media/r3h_05_2aedfe1c.png",
+  "r3h_05_47840cc1.png": "data/media/r3h_05_47840cc1.png"
+ }
+}

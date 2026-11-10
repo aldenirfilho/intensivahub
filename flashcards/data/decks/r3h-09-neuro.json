@@ -1,0 +1,355 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::09 🧠 Neurologia",
+ "cards": [
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Trombólise no AVC com horário desconhecido (wake-up stroke)?",
+   "verso": "RM com <b>mismatch DWI-FLAIR</b> (lesão na difusão sem FLAIR) → alteplase (WAKE-UP) ou perfusão com tecido salvável até 9 h (EXTEND).",
+   "fonte": "WAKE-UP 2018 · EXTEND 2019",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Tenecteplase no AVC?",
+   "verso": "<b>0,25 mg/kg em bolus único</b> (máx. 25 mg) — não inferior à alteplase, prática antes de trombectomia.",
+   "fonte": "AcT 2022 · AHA 2024",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Trombectomia em grande core (ASPECTS 3–5)?",
+   "verso": "Benefício funcional demonstrado (SELECT2, ANGEL-ASPECT, RESCUE-Japan LIMIT) até 24 h em selecionados.",
+   "fonte": "Trials 2023",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 AVC + FA: quando iniciar o DOAC?",
+   "verso": "Regra antiga 1-3-6-12 dias substituída: <b>início precoce</b> é seguro — leve/moderado em <b>≤ 48 h</b>, grave em <b>dia 6–7</b> (ELAN, TIMING).",
+   "fonte": "ELAN 2023",
+   "imagem": "r3h_09_73c38df4.png",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Forame oval patente: quando fechar?",
+   "verso": "AVC criptogênico <b>&lt; 60 anos</b> com FOP + <b>aneurisma de septo</b> ou shunt grande → fechamento percutâneo (escore <b>RoPE</b> alto).",
+   "fonte": "CLOSE · RESPECT · AAN 2020",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Estenose intracraniana sintomática (70–99%)?",
+   "verso": "<b>AAS + clopidogrel por 90 dias</b> + estatina intensiva + PAS &lt; 140 (SAMMPRIS) — stent pior que tratamento clínico.",
+   "fonte": "SAMMPRIS 2011",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Dissecção de artéria cervical: antiagregar ou anticoagular?",
+   "verso": "Eficácia semelhante (<b>CADISS</b>, TREAT-CAD) → antiagregação geralmente suficiente; duração 3–6 meses.<br><ul><li>Síndrome de Horner + cervicalgia/cefaleia: pensar em dissecção carotídea</li></ul>",
+   "fonte": "CADISS 2015 · TREAT-CAD 2021",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Trombose venosa cerebral: anticoagulação com hemorragia?",
+   "verso": "<b>Anticoagular mesmo com infarto hemorrágico</b>; DOAC (dabigatrana) é alternativa à varfarina após fase aguda (RE-SPECT CVT).",
+   "fonte": "ESO 2017 · AHA 2024",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Síndrome de vasoconstrição cerebral reversível (SVCR)?",
+   "verso": "Cefaleias em trovoada <b>recorrentes</b>, gatilhos (pós-parto, ISRS, descongestionantes, cannabis); angio com \"colar de contas\".<br><b>Nimodipina</b>; evitar corticoide (piora) e vasoconstritores.",
+   "fonte": "Ducros 2012",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 CADASIL?",
+   "verso": "Enxaqueca com aura, AVC lacunares em jovem, demência; leucoencefalopatia envolvendo <b>polos temporais anteriores e cápsula externa</b>; gene <b>NOTCH3</b>.",
+   "fonte": "Stroke",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "AVC",
+   "frente": "🔥 Angiopatia amiloide cerebral (Boston 2.0)?",
+   "verso": "Idoso: hemorragias <b>lobares</b>, micro-hemorragias corticais, <b>siderose superficial cortical</b>; risco alto de recorrência.",
+   "pegadinha": "Cautela com anticoagulante/antiagregante; considerar oclusão de apêndice atrial na FA.",
+   "fonte": "Boston 2.0 (2022)",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🔥 Cefaleia em salvas: aguda e preventiva?",
+   "verso": "<ul><li>Aguda: <b>O₂ 100% 12–15 L/min</b> máscara não reinalante, sumatriptano SC</li><li>Ponte: corticoide ou bloqueio do nervo occipital maior</li><li>Preventiva: <b>verapamil</b> (ECG seriado), lítio, galcanezumabe (episódica)</li></ul>",
+   "fonte": "AHS 2016 · EHF",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🔥 Hipotensão liquórica espontânea?",
+   "verso": "Cefaleia <b>ortostática</b>; RM com <b>realce paquimeníngeo difuso</b>, descida das tonsilas, coleções subdurais.<br>Repouso/cafeína → <b>blood patch epidural</b>.",
+   "fonte": "JAMA Neurol 2021",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🔥 Neuralgia do trigêmeo: quando investigar com RM?",
+   "verso": "Sempre (compressão vascular, EM em jovem, tumor). <b>Carbamazepina/oxcarbazepina</b> 1ª linha; descompressão microvascular se refratária.",
+   "pegadinha": "<b>HLA-B*15:02</b> (asiáticos): risco de SJS/NET com carbamazepina.",
+   "fonte": "EAN 2019",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Cefaleias",
+   "frente": "🔥 Síndrome de Ramsay Hunt?",
+   "verso": "Paralisia facial periférica + <b>vesículas no canal auditivo/pavilhão</b> (VZV no gânglio geniculado), vertigem, hipoacusia; pior prognóstico que Bell.<br><b>Valaciclovir + prednisona</b>.",
+   "fonte": "AAO-HNS",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🔥 Epilepsia na gestação: droga a evitar e preferidas?",
+   "verso": "<b>Evitar valproato</b> (malformação e prejuízo cognitivo); preferir <b>lamotrigina ou levetiracetam</b>.<br><ul><li>Lamotrigina: níveis caem na gestação (clearance ↑) → monitorar</li><li>Ácido fólico ≥ 0,4–4 mg</li></ul>",
+   "fonte": "ILAE/AAN 2024",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Epilepsia",
+   "frente": "🔥 Interações de antiepilépticos indutores?",
+   "verso": "Carbamazepina, fenitoína, fenobarbital: reduzem <b>contraceptivo oral, varfarina, DOAC</b>, antirretrovirais e quimioterápicos.<br>Levetiracetam/lacosamida: poucas interações.",
+   "fonte": "ILAE",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🔥 Anti-amiloide (lecanemabe/donanemabe): elegibilidade e risco?",
+   "verso": "Alzheimer <b>inicial</b> (CCL/demência leve) com <b>amiloide confirmado</b> (PET ou LCR).",
+   "pegadinha": "<b>ARIA</b> (edema/micro-hemorragia): maior risco em <b>ApoE4 homozigoto</b>; RM seriadas; evitar com anticoagulante.",
+   "fonte": "AUR 2023",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🔥 Hidrocefalia de pressão normal × Parkinson: marcha?",
+   "verso": "<table class=t><tr><th></th><th>HPN</th><th>Parkinson</th></tr><tr><td>Base</td><td><b>Alargada</b>, \"magnética\"</td><td>Estreita</td></tr><tr><td>Braços</td><td>Balanço preservado</td><td>Balanço reduzido</td></tr><tr><td>Resposta</td><td><b>Tap test</b></td><td>Levodopa</td></tr></table>",
+   "fonte": "Neurology",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Demências e movimento",
+   "frente": "🔥 Síndrome de Wernicke-Korsakoff: dose de tiamina?",
+   "verso": "<b>500 mg IV 8/8 h</b> por 2–3 dias, depois 250 mg/dia; sempre <b>antes da glicose</b>.",
+   "fonte": "EFNS 2010",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 Neuromielite óptica (anti-AQP4): o que evitar e o que usar?",
+   "verso": "<ul><li><b>Evitar</b> interferon, natalizumabe, fingolimode (pioram)</li><li>Prevenção: <b>eculizumabe, inebilizumabe, satralizumabe</b>, rituximabe</li></ul>",
+   "fonte": "Wingerchuk 2015",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 Doença anti-MOG?",
+   "verso": "Neurite óptica bilateral com <b>edema de papila</b>, ADEM-like, mielite cônica; boa resposta a corticoide, recidivas menos graves que NMO.",
+   "fonte": "Banwell 2023",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 PML (leucoencefalopatia multifocal progressiva) com natalizumabe?",
+   "verso": "Risco ↑ com <b>anti-JCV positivo (índice alto)</b>, uso &gt; 2 anos e imunossupressão prévia → dosar anti-JCV periodicamente.",
+   "fonte": "EMA",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 Miastenia generalizada refratária: novas terapias?",
+   "verso": "<ul><li>Inibidores do <b>complemento</b> (eculizumabe, ravulizumabe, zilucoplan) — só AChR+</li><li>Bloqueadores de <b>FcRn</b> (efgartigimode, rozanolixizumabe)</li><li>Timectomia em AChR+ 18–65 anos (MGTX)</li></ul>",
+   "fonte": "MGFA 2020",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 ELA: drogas modificadoras?",
+   "verso": "<ul><li><b>Riluzol</b> (sobrevida modesta), edaravona</li><li><b>Tofersen</b> para ELA com mutação <b>SOD1</b></li></ul>VNI e gastrostomia melhoram sobrevida/qualidade.",
+   "fonte": "AAN · VALOR 2022",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 Doença de Creutzfeldt-Jakob: exame mais sensível/específico?",
+   "verso": "<b>RT-QuIC</b> no LCR (especificidade ~100%) + RM com restrição em núcleos da base/córtex (\"cortical ribboning\").",
+   "fonte": "CDC 2018",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 Síndrome de Miller Fisher?",
+   "verso": "Variante de Guillain-Barré: <b>oftalmoplegia + ataxia + arreflexia</b>; anticorpo <b>anti-GQ1b</b> (&gt; 90%).<br>IVIG/plasmaférese em formas sobrepostas; bom prognóstico.",
+   "fonte": "Lancet 2021",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 Síndrome da pessoa rígida?",
+   "verso": "Rigidez axial progressiva + <b>espasmos dolorosos</b> desencadeados por susto/ruído; <b>anti-GAD65 em títulos muito altos</b> (associação com DM1); variante paraneoplásica anti-anfifisina (mama).<br>Benzodiazepínico, baclofeno, IVIG.",
+   "fonte": "Neurology",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Neuroimunologia e neuromuscular",
+   "frente": "🔥 Neuropatia de fibras finas?",
+   "verso": "Dor em <b>queimação distal</b>, disautonomia, <b>ENMG normal</b> → biópsia de pele (densidade de fibras intraepidérmicas).<br><ul><li>Causas: <b>intolerância à glicose/DM</b>, Sjögren, sarcoidose, amiloidose, Fabry, celíaca</li></ul>",
+   "fonte": "AAN",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🔥 Morte encefálica no Brasil: exames complementares aceitos?",
+   "verso": "<b>Angiografia, Doppler transcraniano, EEG, cintilografia (perfusão cerebral)</b> — 1 obrigatório após 2 exames clínicos + teste de apneia.",
+   "fonte": "CFM 2.173/2017",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🔥 Status epiléptico refratário: escalonamento?",
+   "verso": "Benzodiazepínico → 2ª linha (<b>levetiracetam, fosfenitoína ou valproato</b> — ESETT equivalentes) → refratário: <b>midazolam/propofol/cetamina</b> contínuos com EEG.",
+   "fonte": "NCS 2012 · ESETT 2019",
+   "imagem": "r3h_09_8b63594f.png",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🔥 Encefalopatia de Hashimoto (SREAT)?",
+   "verso": "Encefalopatia com mioclonias/convulsões, <b>anti-TPO alto</b>, eutireoidismo possível; <b>responde a corticoide</b>.",
+   "fonte": "Neurology",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🔥 Amnésia global transitória?",
+   "verso": "Amnésia <b>anterógrada súbita</b> com perguntas repetitivas, identidade preservada, sem outros déficits, <b>resolve em &lt; 24 h</b>; gatilhos: esforço, água fria, emoção.<br>Benigna; RM pode mostrar ponto de restrição no hipocampo.",
+   "fonte": "Lancet Neurol 2010",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  },
+  {
+   "subtema": "Coma, delirium e outros",
+   "frente": "🔥 Narcolepsia tipo 1?",
+   "verso": "Sonolência diurna excessiva + <b>cataplexia</b> (perda de tônus com emoção), paralisia do sono, alucinações hipnagógicas; <b>hipocretina-1 baixa no LCR</b>; TLMS com ≥ 2 SOREMPs.<br>Modafinil/solriamfetol, pitolisanto, <b>oxibato de sódio</b> (cataplexia).",
+   "fonte": "AASM 2021",
+   "tags": [
+    "R3H360X",
+    "H09"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_09_73c38df4.png": "data/media/r3h_09_73c38df4.png",
+  "r3h_09_8b63594f.png": "data/media/r3h_09_8b63594f.png"
+ }
+}

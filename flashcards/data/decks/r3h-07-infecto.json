@@ -1,0 +1,445 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::07 🦠 Infectologia",
+ "cards": [
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🔥 Carbapenemases: qual droga para cada uma?",
+   "verso": "<table class=t><tr><th>Enzima</th><th>Classe</th><th>Opção</th></tr><tr><td><b>KPC</b></td><td>A</td><td>Ceftazidima-avibactam, meropenem-vaborbactam, imipenem-relebactam</td></tr><tr><td><b>OXA-48</b></td><td>D</td><td>Ceftazidima-avibactam</td></tr><tr><td><b>NDM/VIM/IMP</b> (metalo)</td><td>B</td><td><b>Ceftazidima-avibactam + aztreonam</b> ou cefiderocol</td></tr></table>",
+   "fonte": "IDSA AMR 2024",
+   "imagem": "r3h_07_149c6926.png",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🔥 Pseudomonas DTR (difícil de tratar): opções?",
+   "verso": "<b>Ceftolozana-tazobactam</b>, ceftazidima-avibactam, imipenem-relebactam, cefiderocol.",
+   "fonte": "IDSA AMR 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🔥 Acinetobacter resistente a carbapenêmico?",
+   "verso": "<b>Sulbactam-durlobactam</b> + carbapenêmico (preferido) ou sulbactam em alta dose em combinação.",
+   "pegadinha": "Polimixina: nefrotoxicidade e eficácia inferior.",
+   "fonte": "IDSA AMR 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🔥 Stenotrophomonas maltophilia?",
+   "verso": "Intrinsecamente resistente a carbapenêmico → <b>SMX-TMP</b>, minociclina, levofloxacino ou cefiderocol; <b>CAZ-AVI + aztreonam</b> em grave.",
+   "fonte": "IDSA AMR 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🔥 Bactérias com AmpC induzível (HECK-Yes): implicação?",
+   "verso": "<b>H</b>afnia, <b>E</b>nterobacter, <b>C</b>itrobacter freundii, <b>K</b>lebsiella aerogenes, <b>Y</b>ersinia → evitar ceftriaxona em infecção grave mesmo se \"sensível\"; preferir <b>cefepime</b>.",
+   "fonte": "IDSA AMR 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🔥 Linezolida: efeitos adversos importantes?",
+   "verso": "<ul><li><b>Mielossupressão</b> (&gt; 14 dias), neuropatia periférica e óptica</li><li><b>Síndrome serotoninérgica</b> com ISRS</li><li>Acidose lática, hipoglicemia</li></ul>",
+   "fonte": "Sanford",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos",
+   "frente": "🔥 Fluoroquinolonas: alertas?",
+   "verso": "<ul><li><b>Tendinopatia/ruptura</b> (idoso, corticoide, transplante)</li><li><b>Aneurisma/dissecção de aorta</b>, neuropatia, disglicemia, QT longo</li><li>Miastenia: piora</li></ul>",
+   "fonte": "FDA 2018",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🔥 PAC grave: quando cobrir MRSA e Pseudomonas?",
+   "verso": "Só com <b>colonização/isolamento prévio</b> pelo germe ou internação + antibiótico IV nos últimos 90 dias <b>e fatores locais</b> — coletar culturas/PCR nasal MRSA e descalonar.<br>PCR nasal MRSA negativa: alto VPN → suspender vancomicina/linezolida.",
+   "fonte": "ATS/IDSA 2019",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🔥 Corticoide na PAC grave?",
+   "verso": "<b>Hidrocortisona 200 mg/dia</b> em PAC grave internada em UTI ↓ mortalidade (CAPE COD); excluir influenza e aspergilose.",
+   "fonte": "CAPE COD 2023 · ATS 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🔥 Aspergilose associada à influenza/COVID: quando suspeitar?",
+   "verso": "Paciente grave em VM com piora sem explicação → <b>galactomanana no lavado</b> (&gt; 1,0) e cultura; voriconazol/isavuconazol.",
+   "fonte": "ECMM/ISHAM",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Pneumonia e vias aéreas",
+   "frente": "🔥 Pneumocistose em não-HIV: perfil e pistas?",
+   "verso": "<ul><li>Corticoide ≥ 20 mg/dia por ≥ 4 semanas, rituximabe, transplante, QT</li><li>Evolução <b>rápida</b>, hipoxemia grave, <b>LDH alta</b>, β-D-glucana positiva</li></ul>Profilaxia com SMX-TMP nesse perfil.",
+   "fonte": "ECIL 2016",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🔥 HIV: carga viral detectável após supressão — \"blip\"?",
+   "verso": "Elevação isolada <b>&lt; 200 cópias</b> com retorno a indetectável — não indica falha; <b>falha virológica: &gt; 200 confirmada</b>.",
+   "fonte": "DHHS 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🔥 Cabotegravir injetável: usos?",
+   "verso": "<ul><li><b>PrEP</b> a cada 2 meses (superior ao TDF/FTC oral)</li><li>Tratamento (cabotegravir + rilpivirina) a cada 1–2 meses em suprimidos</li></ul><b>Lenacapavir</b> semestral: PrEP altamente eficaz (PURPOSE).",
+   "fonte": "HPTN 083/084 · PURPOSE 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "HIV",
+   "frente": "🔥 Hepatite B + HIV: cuidado com a TARV?",
+   "verso": "Esquema <b>deve conter tenofovir</b> (TDF/TAF) + lamivudina/entricitabina; suspender pode causar <b>flare</b> grave de HBV.",
+   "fonte": "DHHS 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🔥 TB: esquema de 4 meses (rifapentina-moxifloxacino)?",
+   "verso": "<b>2HPZM/2HPM</b> (rifapentina + isoniazida + pirazinamida + moxifloxacino) em ≥ 12 anos com TB pulmonar sensível (Study 31).",
+   "fonte": "CDC/OMS 2022",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🔥 TB multirresistente: esquema curto atual?",
+   "verso": "<b>BPaLM</b> (bedaquilina + pretomanida + linezolida + moxifloxacino) por <b>6 meses</b>.",
+   "pegadinha": "Monitorar QT, neuropatia e mielossupressão.",
+   "fonte": "OMS 2022 · TB-PRACTECAL",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Tuberculose",
+   "frente": "🔥 Tuberculose ganglionar (escrofulose)?",
+   "verso": "Linfonodo cervical indolor, que flutua e <b>fistuliza</b>, em adulto jovem/HIV; PAAF com cultura e <b>PCR (Xpert)</b>; biópsia excisional se dúvida.<br>RIPE 6 meses (piora paradoxal pode ocorrer).",
+   "fonte": "MS 2019",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🔥 Sífilis sorológica após tratamento: o que é sucesso?",
+   "verso": "Queda de <b>≥ 4 vezes (2 diluições)</b> do VDRL em 6–12 meses (latente: 12–24 meses).<br><ul><li>Persistência baixa (\"serofast\") não exige retratamento se seguimento adequado</li></ul>",
+   "fonte": "CDC 2021",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🔥 Doxiciclina pós-exposição (DoxyPEP)?",
+   "verso": "<b>200 mg até 72 h</b> após sexo sem preservativo em HSH/mulheres trans com IST prévia → ↓ sífilis, clamídia e gonorreia.",
+   "fonte": "CDC 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🔥 Gonorreia: tratamento atual?",
+   "verso": "<b>Ceftriaxona 500 mg IM</b> dose única (1 g se ≥ 150 kg); tratar clamídia com doxiciclina se não excluída.<br><ul><li>Teste de cura em gonorreia <b>faríngea</b></li></ul>",
+   "fonte": "CDC 2021",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🔥 Mycoplasma genitalium?",
+   "verso": "Uretrite/cervicite persistente: <b>resistência a macrolídeo</b> comum → doxiciclina seguida de <b>moxifloxacino</b> (guiado por resistência).",
+   "fonte": "CDC 2021",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "IST e sífilis",
+   "frente": "🔥 Mpox (varíola dos macacos): quadro e manejo?",
+   "verso": "Lesões <b>umbilicadas em estágios iguais</b> (anogenitais, orais), proctite, linfonodomegalia; contato íntimo.<br>PCR da lesão; isolamento até reepitelizar; <b>tecovirimat</b> em grave/imunossuprimido; vacina <b>MVA-BN</b>.",
+   "fonte": "OMS 2024 · CDC",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🔥 Leptospirose: dois sinais que diferenciam de dengue?",
+   "verso": "<ul><li><b>Mialgia intensa em panturrilhas</b> + sufusão conjuntival</li><li><b>Icterícia rubínica</b> + LRA <b>não oligúrica hipocalêmica</b></li></ul>",
+   "pegadinha": "Hemorragia pulmonar é a principal causa de morte.",
+   "fonte": "MS 2014",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🔥 Paracoccidioidomicose: forma crônica e tratamento?",
+   "verso": "Homem rural tabagista: lesões <b>orais moriformes</b>, pulmão (asa de borboleta), adrenal.<br><ul><li><b>Itraconazol</b> (6–9 meses leve/moderada) ou SMX-TMP; anfotericina na grave</li></ul>",
+   "fonte": "Consenso PCM 2017",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🔥 Esquistossomose: forma hepatoesplênica?",
+   "verso": "<b>Hipertensão portal pré-sinusoidal</b>: varizes, esplenomegalia, <b>função hepática preservada</b>, fibrose de Symmers (periportal).<br><b>Praziquantel</b>; risco de HDA.",
+   "fonte": "MS",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🔥 Malária grave: critérios principais?",
+   "verso": "<ul><li>Rebaixamento/convulsão, <b>hipoglicemia</b>, acidose, LRA, edema pulmonar, choque</li><li><b>Hiperparasitemia</b> (&gt; 10% pela OMS; limiar menor em não imunes), Hb &lt; 7, bilirrubina &gt; 3</li></ul><b>Artesunato IV</b> imediato.",
+   "fonte": "OMS 2023",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🔥 Febre do Oropouche?",
+   "verso": "Arbovírus (maruim — Culicoides), quadro <b>dengue-like com recrudescência</b> dias depois; casos de transmissão vertical e meningite.<br>Suporte; notificação.",
+   "fonte": "MS 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🔥 Hantavirose (síndrome cardiopulmonar)?",
+   "verso": "Exposição a <b>roedores silvestres</b> (galpões, colheita): pródromo febril → edema pulmonar não cardiogênico e choque; <b>hemoconcentração + plaquetopenia</b>.<br>Suporte intensivo (ECMO); notificação imediata.",
+   "fonte": "MS 2023",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Endemias tropicais",
+   "frente": "🔥 Febre tifoide?",
+   "verso": "Febre progressiva, <b>bradicardia relativa</b>, roséolas, dor abdominal, hepatoesplenomegalia; complicação: <b>perfuração ileal</b> na 3ª semana.<br>Hemocultura (mielocultura mais sensível); ceftriaxona ou azitromicina (resistência a quinolona).",
+   "fonte": "OMS",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Infecção de prótese articular: cirurgia conforme tempo?",
+   "verso": "<ul><li><b>&lt; 4 semanas</b> do implante ou sintomas &lt; 3 semanas: <b>DAIR</b> (desbridamento + troca de componentes móveis) + <b>rifampicina</b> (estafilococo)</li><li>Crônica: troca em 1 ou 2 tempos</li></ul>",
+   "fonte": "IDSA 2013 · EBJIS 2021",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Osteomielite vertebral: diagnóstico?",
+   "verso": "RM + hemoculturas; se negativas → <b>biópsia guiada por TC antes do antibiótico</b> (se estável). Tratamento ≥ 6 semanas.<br><ul><li>Pensar em <b>Brucella</b> e <b>TB</b> (Pott) em área endêmica</li></ul>",
+   "fonte": "IDSA 2015",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Bacteremia por S. aureus: tratamento oral é possível?",
+   "verso": "Bacteremia <b>não complicada</b> com resposta rápida: troca para VO após ≥ 5–7 dias IV em selecionados (SABATO).",
+   "pegadinha": "Endocardite/prótese/foco não drenado: IV prolongado.",
+   "fonte": "SABATO 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Candidemia: condutas obrigatórias?",
+   "verso": "<ul><li><b>Remover cateter venoso central</b></li><li><b>Fundoscopia</b> (endoftalmite) e eco se persistente</li><li>Equinocandina → descalonar para fluconazol; tratar <b>14 dias após 1ª hemocultura negativa</b></li></ul>",
+   "fonte": "IDSA 2016",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 C. difficile recorrente?",
+   "verso": "<ul><li>1ª recorrência: <b>fidaxomicina</b> (ou vancomicina em pulso/desmame)</li><li>≥ 2 recorrências: <b>transplante de microbiota fecal</b></li><li><b>Bezlotoxumabe</b> foi descontinuado; microbiota oral (VOS) é opção</li></ul>",
+   "fonte": "IDSA 2021 · ACG 2021",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Candida auris?",
+   "verso": "Fungo <b>multirresistente</b> (fluconazol), coloniza pele e ambiente hospitalar, surtos em UTI; identificação errada por métodos comuns.<br><b>Equinocandina</b>, precaução de contato e limpeza ambiental rigorosa.",
+   "fonte": "CDC 2023",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Mucormicose rino-órbito-cerebral?",
+   "verso": "<b>Cetoacidose diabética</b>, neutropenia, corticoide, deferoxamina → necrose preta em palato/cornetos.<br><b>Anfotericina B lipossomal</b> + desbridamento cirúrgico; isavuconazol/posaconazol de consolidação. <b>Voriconazol não cobre</b>.",
+   "fonte": "ECMM 2019",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Nocardiose?",
+   "verso": "Imunossuprimido (corticoide, transplante): <b>nódulos/cavidades pulmonares + abscesso cerebral</b>; Gram-positivo ramificado, <b>álcool-ácido fraco</b>.<br><b>SMX-TMP</b> (± imipenem/amicacina); RM de crânio em todos.",
+   "fonte": "IDSA",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Actinomicose?",
+   "verso": "Massa que <b>cruza planos anatômicos</b>, fístulas com <b>grânulos de enxofre</b>; cervicofacial (dentes), torácica, pélvica (DIU).<br><b>Penicilina</b> prolongada (meses).",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "SNC, pele e outros sítios",
+   "frente": "🔥 Neurocisticercose: quando usar antiparasitário?",
+   "verso": "Cistos <b>viáveis</b> (com escólex): <b>albendazol</b> (+ praziquantel se &gt; 2 cistos) <b>com corticoide</b>; cistos calcificados: só antiepiléptico.",
+   "pegadinha": "Hidrocefalia/hipertensão intracraniana: tratar antes; fundoscopia (cisticerco ocular).",
+   "fonte": "IDSA/ASTMH 2017",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🔥 Profilaxia de PCP: quando suspender no HIV?",
+   "verso": "<b>CD4 &gt; 200 por ≥ 3 meses</b> em TARV (ou CD4 100–200 com carga viral indetectável por 3–6 meses).",
+   "fonte": "DHHS 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🔥 Vacinas vivas: contraindicadas em quem?",
+   "verso": "<ul><li>Gestante, imunossupressão grave (prednisona ≥ 20 mg/dia ≥ 14 dias, biológicos, QT, CD4 &lt; 200)</li></ul>Aplicar <b>≥ 4 semanas antes</b> de iniciar imunossupressão.",
+   "fonte": "SBIm · IDSA 2013",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🔥 Vacina VSR em adultos?",
+   "verso": "<b>≥ 75 anos</b> (ou 60–74 com risco) — dose única; também gestante 32–36 semanas (proteção do RN).",
+   "fonte": "CDC 2024",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  },
+  {
+   "subtema": "Imunização e profilaxias",
+   "frente": "🔥 Vacina da febre amarela: contraindicações e cuidados?",
+   "verso": "<ul><li><b>Imunossupressão</b> grave, gestante (avaliar risco), <b>alergia grave a ovo</b>, timoma/miastenia/timectomia</li><li><b>≥ 60 anos</b> primovacinados: risco maior de doença viscerotrópica — avaliar risco-benefício</li></ul>",
+   "fonte": "MS · SBIm",
+   "tags": [
+    "R3H360X",
+    "H07"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_07_149c6926.png": "data/media/r3h_07_149c6926.png"
+ }
+}

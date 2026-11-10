@@ -1,0 +1,384 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::06 🩸 Hematologia",
+ "cards": [
+  {
+   "subtema": "Anemias",
+   "frente": "🔥 Anemia da doença crônica × ferropenia: receptor solúvel de transferrina?",
+   "verso": "<table class=t><tr><th></th><th>Ferropenia</th><th>Doença crônica</th></tr><tr><td>Ferritina</td><td>&lt; 30</td><td>Normal/alta</td></tr><tr><td>sTfR</td><td><b>Alto</b></td><td>Normal</td></tr><tr><td>Índice sTfR/log ferritina</td><td><b>&gt; 2</b></td><td>&lt; 1</td></tr></table>Na inflamação, ferritina &lt; 100 já sugere ferropenia associada.",
+   "fonte": "Weiss NEJM 2005",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🔥 Deficiência de cobre: quadro?",
+   "verso": "Anemia + <b>neutropenia</b> (simula SMD) + <b>mielopatia</b> tipo degeneração combinada (simula B12).<br><ul><li>Bariátrica, <b>excesso de zinco</b> (cremes de prótese dentária), má absorção</li></ul>",
+   "fonte": "Mayo Clin Proc",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🔥 Aplasia pura de série vermelha: causas?",
+   "verso": "<ul><li><b>Timoma</b>, <b>parvovírus B19</b> (imunossuprimido — IVIG)</li><li>LLC/linfoma de grandes linfócitos granulares, anticorpo anti-EPO</li></ul>Reticulócitos quase zero com plaquetas e leucócitos normais.",
+   "fonte": "Blood",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🔥 Óxido nitroso (uso recreativo) e B12?",
+   "verso": "N₂O <b>inativa a B12</b> → degeneração combinada subaguda/mielopatia com B12 sérica possivelmente normal; <b>homocisteína e ácido metilmalônico altos</b>.<br>Suspender + B12 parenteral.",
+   "fonte": "JAMA Neurol 2021",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Anemias",
+   "frente": "🔥 Metemoglobinemia: pistas e \"gap de saturação\"?",
+   "verso": "Cianose <b>sem resposta ao O₂</b>, sangue \"cor de chocolate\", SpO₂ ~85% com <b>PaO₂ normal</b>; drogas: <b>dapsona, benzocaína/lidocaína tópica, nitratos, primaquina</b>.<br><b>Azul de metileno</b> se &gt; 20–30% ou sintomático (evitar na deficiência de G6PD).",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🔥 HPN: quadro e diagnóstico?",
+   "verso": "<ul><li>Hemólise intravascular (<b>hemoglobinúria matinal</b>), <b>tromboses atípicas</b> (Budd-Chiari, veias abdominais/cerebrais), citopenia/aplasia</li></ul><b>Citometria de fluxo</b> (CD55/CD59, FLAER).<br><b>Inibidores do complemento</b> (eculizumabe/ravulizumabe; iptacopan oral) + vacina meningocócica.",
+   "fonte": "Blood 2021",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🔥 Doença das aglutininas frias: tratamento?",
+   "verso": "Anticorpo IgM anti-I, Coombs <b>C3d+</b>; evitar frio, aquecer infusões.<br><ul><li>Sutimlimabe (anti-C1s), rituximabe ± bendamustina</li></ul>",
+   "pegadinha": "Corticoide e esplenectomia <b>não</b> funcionam.",
+   "fonte": "Blood 2022",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🔥 Anemia falciforme: crise de sequestro esplênico e priapismo?",
+   "verso": "<ul><li>Sequestro: queda de Hb + esplenomegalia → <b>transfusão cuidadosa</b> (evitar hiperviscosidade)</li><li>Priapismo &gt; 4 h → aspiração e fenilefrina intracavernosa (urologia)</li></ul>",
+   "fonte": "ASH 2020",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🔥 Anemia falciforme: indicações de exsanguineotransfusão?",
+   "verso": "<ul><li><b>AVC agudo</b>, síndrome torácica aguda grave, falência multiorgânica</li><li>Meta <b>HbS &lt; 30%</b> com Hb ~10 (não ultrapassar 10–11: hiperviscosidade)</li></ul>",
+   "fonte": "ASH 2020",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🔥 Hemólise hiper-hemolítica pós-transfusão na doença falciforme?",
+   "verso": "Hemoglobina <b>cai abaixo do pré-transfusional</b> (destruição das hemácias do próprio paciente) dias após transfusão.<br><b>Parar transfusões</b> + IVIG e corticoide (eculizumabe em casos graves).",
+   "fonte": "ASH 2020",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🔥 Hemoglobinúria paroxística a frio?",
+   "verso": "Anticorpo bifásico IgG (<b>Donath-Landsteiner</b>, anti-P) após <b>infecção viral</b> (criança) ou sífilis → hemólise intravascular com frio.<br>Suporte, aquecimento; autolimitada.",
+   "fonte": "Blood",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Hemólise e hemoglobinopatias",
+   "frente": "🔥 Síndrome de Evans?",
+   "verso": "<b>Anemia hemolítica autoimune + PTI</b> (± neutropenia), simultâneas ou sequenciais; associada a <b>LES, imunodeficiência comum variável, linfoproliferação</b>.<br>Corticoide → rituximabe; investigar doença de base.",
+   "fonte": "Blood",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🔥 PTI: segunda linha?",
+   "verso": "<ul><li><b>Agonistas de TPO</b> (eltrombopague, romiplostim, avatrombopague)</li><li><b>Rituximabe</b></li><li><b>Fostamatinibe</b> (inibidor de SYK)</li><li>Esplenectomia (após ≥ 12 meses; vacinar antes)</li></ul>",
+   "fonte": "ASH 2019",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🔥 Hemofilia A: emicizumabe?",
+   "verso": "Anticorpo biespecífico (mimetiza FVIIIa) SC semanal a mensal → profilaxia <b>inclusive com inibidor</b>.",
+   "pegadinha": "Com <b>CCPa (FEIBA) &gt; 100 U/kg/dia</b> → MAT/trombose: preferir FVIIa recombinante para sangramento.",
+   "fonte": "HAVEN · WFH 2020",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🔥 Trombocitopenia trombótica imune induzida por vacina / VITT-like?",
+   "verso": "Trombose em sítios incomuns + plaquetopenia + <b>anti-PF4 positivo por ELISA</b> (sem heparina) → evitar heparina e plaquetas; IVIG + anticoagulante não heparínico.",
+   "fonte": "ASH 2021",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🔥 Plaquetopenia na UTI: escore 4T para TIH?",
+   "verso": "<ul><li><b>T</b>rombocitopenia (queda &gt; 50%, nadir ≥ 20 mil)</li><li><b>T</b>empo (5–10 dias de heparina, ou &lt; 1 dia se exposição em 30 dias)</li><li><b>T</b>rombose nova</li><li>ou<b>T</b>ras causas ausentes</li></ul>0–3 baixa probabilidade (dispensa teste); 4–5 intermediária; 6–8 alta.",
+   "fonte": "ASH 2018",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Plaquetas e hemostasia",
+   "frente": "🔥 Sangramento tardio com coagulograma normal?",
+   "verso": "Pensar em <b>deficiência de fator XIII</b> (sangramento do coto umbilical, cicatrização ruim), deficiência de α2-antiplasmina, Willebrand, disfunção plaquetária.",
+   "fonte": "Hoffman",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🔥 DOAC em obesidade grave?",
+   "verso": "IMC &gt; 40 ou peso &gt; 120 kg: <b>apixabana e rivaroxabana</b> aceitáveis para TEV; evitar dabigatrana/edoxabana sem dosagem.",
+   "pegadinha": "Após <b>cirurgia bariátrica</b>: absorção incerta — preferir HBPM/varfarina inicialmente.",
+   "fonte": "ISTH 2021",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🔥 TEV com DOAC: interações críticas?",
+   "verso": "Indutores fortes de CYP3A4/P-gp <b>contraindicam</b>: <b>rifampicina, carbamazepina, fenitoína, fenobarbital</b>, erva-de-são-joão.<br><ul><li>Inibidores fortes (cetoconazol, ritonavir) ↑ sangramento</li></ul>",
+   "fonte": "EHRA 2021",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🔥 Trombose de veia esplâncnica / Budd-Chiari: investigar?",
+   "verso": "<ul><li><b>JAK2 V617F</b> (mesmo com hemograma normal), CALR</li><li><b>HPN</b> (citometria), SAF, trombofilias, contraceptivo</li></ul>",
+   "fonte": "Baveno VII · EASL",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🔥 Trombofilia hereditária: quando NÃO pesquisar?",
+   "verso": "TEV <b>provocado por fator transitório forte</b>, no momento agudo ou em uso de anticoagulante (proteína C/S e antitrombina caem; varfarina altera C/S).<br>Resultado raramente muda a duração do tratamento.",
+   "fonte": "ASH 2023",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Trombose e anticoagulação",
+   "frente": "🔥 Trombose venosa superficial ≥ 5 cm?",
+   "verso": "<b>Fondaparinux 2,5 mg/dia por 45 dias</b> (CALISTO); se a &lt; 3 cm da junção safeno-femoral → tratar como TVP.",
+   "fonte": "CHEST 2021",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔥 LMC: monitoração de resposta ao TKI?",
+   "verso": "<table class=t><tr><th>Tempo</th><th>Resposta ótima (BCR-ABL IS)</th></tr><tr><td>3 meses</td><td>≤ 10%</td></tr><tr><td>6 meses</td><td>≤ 1%</td></tr><tr><td>12 meses</td><td><b>≤ 0,1%</b> (resposta molecular maior)</td></tr></table>RM profunda sustentada (≥ 2 anos MR4) permite tentar <b>suspensão</b> (TFR).",
+   "fonte": "ELN 2020",
+   "imagem": "r3h_06_bf1af8c7.png",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔥 Leucemia promielocítica: síndrome de diferenciação?",
+   "verso": "Febre, dispneia, infiltrado, derrame, ganho de peso, LRA após <b>ATRA/arsênico</b> → <b>dexametasona 10 mg 12/12 h</b>.<br><ul><li>Arsênico: monitorar <b>QTc</b> e K/Mg</li></ul>",
+   "fonte": "ELN 2019",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔥 Mielofibrose: drogas?",
+   "verso": "<b>Ruxolitinibe</b> (JAK1/2) para esplenomegalia/sintomas; <b>momelotinibe</b> se anemia; fedratinibe e pacritinibe (plaquetas &lt; 50 mil).<br>Transplante alogênico: único curativo.",
+   "fonte": "NCCN 2025",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔥 Trombocitemia essencial: quem citorreduzir?",
+   "verso": "<b>Alto risco</b>: &gt; 60 anos ou trombose prévia (ou JAK2+ com ambos fatores) → <b>hidroxiureia</b> + AAS.",
+   "pegadinha": "Plaquetas &gt; 1–1,5 milhão: <b>Willebrand adquirido</b> → evitar AAS até checar atividade.",
+   "fonte": "ELN 2018",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔥 Síndrome mielodisplásica com del(5q)?",
+   "verso": "Mulher idosa, anemia macrocítica, plaquetas normais/altas → <b>lenalidomida</b>.",
+   "fonte": "NCCN",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔥 Neutropenia associada ao Duffy-nulo (neutropenia étnica benigna)?",
+   "verso": "Afrodescendentes: neutrófilos <b>1.000–1.500</b> estáveis, sem infecções → <b>não investigar nem suspender tratamentos</b> desnecessariamente.",
+   "fonte": "Blood 2023",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔥 Eritrocitose secundária: causas a excluir antes de pensar em PV?",
+   "verso": "<ul><li><b>Testosterona</b>, iSGLT2, tabagismo (COHb), apneia do sono, DPOC</li><li>Tumores secretores de EPO (<b>renal</b>, hepatocarcinoma, hemangioblastoma), pós-transplante renal</li></ul><b>JAK2 negativo + EPO normal/alta</b>.",
+   "fonte": "BSH 2018",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Leucemias e mieloproliferativas",
+   "frente": "🔥 LLC: quando tratar (iwCLL)?",
+   "verso": "Doença <b>ativa</b>: falência medular progressiva (Hb &lt; 10, plaquetas &lt; 100 mil), esplenomegalia/linfonodos volumosos sintomáticos, linfocitose dobrando &lt; 6 meses, sintomas B, autoimunidade refratária.<br>Tratar: <b>iBTK</b> ou <b>venetoclax + anti-CD20</b> (definir TP53/IGHV).",
+   "fonte": "iwCLL 2018",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🔥 Gamopatia monoclonal de significado renal (MGRS)?",
+   "verso": "Clone pequeno (critério de MGUS) <b>causando lesão renal</b> (amiloidose AL, doença de depósito de cadeia leve, GN C3 etc.) → <b>tratar o clone</b>.",
+   "fonte": "IKMG 2019",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🔥 Amiloidose AL: pistas?",
+   "verso": "<ul><li><b>Síndrome nefrótica</b>, cardiomiopatia restritiva com baixa voltagem, macroglossia, <b>púrpura periorbitária</b>, neuropatia, túnel do carpo</li></ul>Biópsia de <b>gordura abdominal</b> (vermelho Congo) + tipagem por espectrometria de massa.",
+   "fonte": "ISA 2020",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🔥 Síndrome POEMS?",
+   "verso": "<b>P</b>olineuropatia, <b>O</b>rganomegalia, <b>E</b>ndocrinopatia, proteína <b>M</b> (quase sempre <b>lambda</b>), alterações de pele (<b>S</b>kin).<br><ul><li><b>VEGF muito alto</b>, lesões ósseas <b>escleróticas</b>, edema/derrames, trombocitose</li></ul>",
+   "fonte": "Dispenzieri 2023",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🔥 Linfoma de Hodgkin: sintomas B e ferramenta de resposta?",
+   "verso": "Febre &gt; 38 °C, sudorese noturna, perda &gt; 10% peso em 6 meses; <b>PET-CT interino</b> guia escalonamento/descalonamento.<br><ul><li>Prurido e dor com álcool são clássicos</li></ul>",
+   "fonte": "Lugano 2014",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Linfomas e mieloma",
+   "frente": "🔥 Doença de Castleman multicêntrica?",
+   "verso": "<ul><li>Associada a <b>HHV-8</b> (HIV) ou idiopática (<b>TAFRO</b>: trombocitopenia, anasarca, febre, fibrose medular, organomegalia)</li><li><b>IL-6</b> alta → <b>siltuximabe</b>; HHV-8+ → rituximabe</li></ul>",
+   "fonte": "CDCN 2017",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Hemocomponente irradiado: indicações?",
+   "verso": "<ul><li><b>Transplante de células-tronco</b>, imunodeficiência congênita</li><li><b>Análogos de purina</b> (fludarabina, cladribina), alemtuzumabe, Hodgkin</li><li>Doação de parente, HLA-compatível</li></ul>Previne <b>DECH transfusional</b> (fatal).",
+   "fonte": "BSH 2020",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Reação transfusional febril × hemolítica aguda × TRALI × TACO?",
+   "verso": "<table class=t><tr><th>Reação</th><th>Pista</th></tr><tr><td>Febril não hemolítica</td><td>Febre isolada, benigna</td></tr><tr><td>Hemolítica aguda</td><td>Dor lombar, hemoglobinúria, CIVD (ABO)</td></tr><tr><td><b>TRALI</b></td><td>Hipoxemia em 6 h, <b>hipotensão</b>, sem sobrecarga</td></tr><tr><td><b>TACO</b></td><td>Hipertensão, <b>BNP alto</b>, resposta a diurético</td></tr></table>",
+   "fonte": "ISBT/AABB",
+   "tags": [
+    "R3H360X",
+    "H06"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_06_bf1af8c7.png": "data/media/r3h_06_bf1af8c7.png"
+ }
+}

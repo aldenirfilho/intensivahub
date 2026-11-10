@@ -1,0 +1,645 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::01 🫀 Cardiologia",
+ "cards": [
+  {
+   "subtema": "Hipertensão",
+   "frente": "🔥 Relação aldosterona/renina: quais drogas interferem?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Efeito na ARR</th></tr><tr><td>Betabloqueador, clonidina, AINE</td><td>↑ falso-positivo (renina ↓)</td></tr><tr><td>IECA/BRA, diurético, BCC di-hidropiridínico</td><td>↓ falso-negativo (renina ↑)</td></tr><tr><td>Espironolactona/eplerenona</td><td>↓ falso-negativo — suspender 4 semanas</td></tr></table>Trocar para verapamil, hidralazina ou doxazosina se precisar de controle durante o teste.",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Hipertensão",
+   "frente": "🔥 Clortalidona × hidroclorotiazida na DRC avançada?",
+   "verso": "<b>Clortalidona</b> reduz PA mesmo com TFG 15–30 (CLICK trial).",
+   "pegadinha": "Mais hipocalemia, hiperuricemia e piora transitória de creatinina — monitorar.",
+   "fonte": "CLICK 2021",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Hipertensão",
+   "frente": "🔥 Dissecção aórtica aguda: metas hemodinâmicas?",
+   "verso": "<ul><li><b>FC &lt; 60 bpm</b> primeiro (esmolol/labetalol IV)</li><li>Depois <b>PAS 100–120 mmHg</b> (vasodilatador só após betabloqueio)</li></ul>",
+   "pegadinha": "Vasodilatador antes do betabloqueador → taquicardia reflexa e propagação da dissecção.",
+   "fonte": "ESC 2024 Aorta",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Hipertensão",
+   "frente": "🔥 HAS na gestação: drogas permitidas e proibidas?",
+   "verso": "<table class=t><tr><th>Usar</th><th>Evitar</th></tr><tr><td>Metildopa, nifedipino de liberação lenta, labetalol, hidralazina IV</td><td><b>IECA, BRA, aliskireno</b> (fetotóxicos 2º/3º tri), atenolol (RCIU)</td></tr></table>Grave (≥ 160/110): labetalol IV, hidralazina IV ou nifedipino oral.",
+   "fonte": "ACOG 2020 · FEBRASGO",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Hipertensão",
+   "frente": "🔥 Denervação renal: lugar atual?",
+   "verso": "Opção para <b>HAS não controlada/resistente</b> com TFG &gt; 40, após otimização, em centro experiente (redução ~5–10 mmHg).",
+   "pegadinha": "Não substitui tratamento medicamentoso.",
+   "fonte": "ESH 2023 · ESC 2024",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Hipertensão",
+   "frente": "🔥 Coarctação de aorta no adulto: pistas?",
+   "verso": "<ul><li>HAS em <b>membros superiores</b> com pulsos femorais fracos e <b>retardo radial-femoral</b></li><li><b>Erosões costais</b> (sinal de Roesler) e sinal do \"3\" no RX</li><li>Associação com <b>valva aórtica bicúspide</b> e aneurisma intracraniano</li></ul>",
+   "fonte": "ESC 2020 Cardiopatias congênitas",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Ferropenia na IC: critérios e tratamento?",
+   "verso": "Ferritina <b>&lt; 100</b> ou <b>100–299 com TSAT &lt; 20%</b> → <b>ferro IV</b> (carboximaltose/derisomaltose) se FE ≤ 45–50%.<br><ul><li>Melhora sintomas e reduz internações por IC</li></ul>",
+   "pegadinha": "Ferro oral <b>não</b> repõe (IRONOUT-HF).",
+   "fonte": "ESC 2023 · IRONMAN · AFFIRM-AHF",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Escore H₂FPEF: componentes?",
+   "verso": "<table class=t><tr><th>Letra</th><th>Item</th><th>Pontos</th></tr><tr><td>H₂</td><td>IMC &gt; 30 · ≥ 2 anti-hipertensivos</td><td>2 · 1</td></tr><tr><td>F</td><td>Fibrilação atrial</td><td>3</td></tr><tr><td>P</td><td>PSAP &gt; 35 mmHg (eco)</td><td>1</td></tr><tr><td>E</td><td>Idade &gt; 60</td><td>1</td></tr><tr><td>F</td><td>E/e' &gt; 9</td><td>1</td></tr></table>≥ 6: alta probabilidade de ICFEp; 0–1: baixa.",
+   "fonte": "Reddy 2018",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Ressincronização (TRC): indicação clássica?",
+   "verso": "FE <b>≤ 35%</b>, ritmo sinusal, sintomático apesar de TMO, <b>BRE com QRS ≥ 150 ms</b> (classe I).<br><ul><li>QRS 130–149 com BRE: IIa · sem BRE: benefício menor</li></ul>",
+   "pegadinha": "Bloqueio de ramo direito tem pouco benefício.",
+   "fonte": "ESC 2021",
+   "imagem": "r3h_01_1b419cc2.png",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Resistência a diurético na IC descompensada: estratégia?",
+   "verso": "<ul><li>Dobrar a dose de alça IV; medir <b>natriurese 2 h</b> (&lt; 50–70 mEq/L = resposta ruim)</li><li>Bloqueio sequencial: <b>acetazolamida</b> (ADVOR) ou <b>tiazídico</b> (CLOROTIC)</li></ul>",
+   "pegadinha": "Tiazídico associado: hipocalemia e hiponatremia graves — monitorar diariamente.",
+   "fonte": "ESC 2021/2023",
+   "imagem": "r3h_01_d5e8e5a9.png",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Finerenona na ICFEp/ICFEi?",
+   "verso": "<b>FINEARTS-HF</b>: FE ≥ 40% → ↓ desfecho total de piora de IC e morte CV.",
+   "pegadinha": "Monitorar K⁺ (suspender se &gt; 5,5) e TFG.",
+   "fonte": "FINEARTS-HF 2024",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Vericiguat: em quem?",
+   "verso": "ICFEr com <b>piora recente</b> (internação ou diurético IV) apesar de TMO — estimulador de guanilato ciclase solúvel (VICTORIA).",
+   "pegadinha": "Não associar a nitrato nem a inibidor de PDE5 (hipotensão).",
+   "fonte": "VICTORIA 2020",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Mavacamten na CMH obstrutiva: cuidado?",
+   "verso": "Inibidor de miosina: ↓ gradiente e sintomas.",
+   "pegadinha": "<b>Suspender se FE &lt; 50%</b> → eco seriado obrigatório; interações com CYP2C19/3A4.",
+   "fonte": "EXPLORER-HCM 2020",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Cardiomiopatia chagásica: marcadores de pior prognóstico?",
+   "verso": "<b>Escore de Rassi</b>: NYHA III–IV, cardiomegalia, disfunção segmentar/global no eco, TVNS no Holter, baixa voltagem no QRS, sexo masculino.<br><ul><li>Aneurisma apical, tromboembolismo, BRD + BDAS</li></ul>",
+   "fonte": "Rassi NEJM 2006",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Miocardiopatia periparto: definição e tratamento específico?",
+   "verso": "IC com <b>FE &lt; 45%</b> no último mês da gestação até 5 meses pós-parto, sem outra causa.<br><ul><li>Tratamento de IC (pós-parto: IECA/ARNI; na gestação: hidralazina-nitrato, betabloqueador)</li><li><b>Bromocriptina</b> + anticoagulação profilática (ESC)</li></ul>",
+   "pegadinha": "Nova gestação com FE não recuperada: alto risco de recorrência e morte.",
+   "fonte": "ESC 2018 Gestação · ESC 2023",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Miocardiopatia não compactada (VE não compactado)?",
+   "verso": "Trabeculações proeminentes com recessos profundos (razão não compactada/compactada <b>&gt; 2,3 na RM</b>); riscos: IC, arritmias, <b>embolia</b>.",
+   "pegadinha": "Excesso de trabeculação também ocorre em atletas, gestantes e negros — não rotular sem contexto.",
+   "fonte": "ESC 2023 Cardiomiopatias",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Levosimendana: mecanismo e quando usar?",
+   "verso": "<b>Sensibilizador de cálcio</b> + abertura de canais K-ATP (vasodilatação) → inotrópico útil em <b>betabloqueado</b>.",
+   "pegadinha": "Hipotensão; meia-vida longa do metabólito (efeito ~7 dias).",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Balão intra-aórtico no choque cardiogênico pós-IAM?",
+   "verso": "<b>Sem redução de mortalidade</b> de rotina (IABP-SHOCK II) — reservar para complicação mecânica como ponte.<br><ul><li>Impella CP reduziu mortalidade em choque com supra selecionado (DanGer Shock), com mais complicações</li></ul>",
+   "fonte": "IABP-SHOCK II · DanGer Shock 2024",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Insuficiência cardíaca",
+   "frente": "🔥 Dispositivo de assistência ventricular (LVAD): complicações típicas?",
+   "verso": "<ul><li><b>Sangramento GI</b> (angiodisplasia + Willebrand adquirido)</li><li>Trombose da bomba (↑ LDH, hemoglobinúria), AVC, infecção do driveline</li></ul>",
+   "pegadinha": "PA medida por <b>Doppler</b> (fluxo contínuo, pulso ausente); alvo PAM ≤ 80–90.",
+   "fonte": "ISHLT 2023",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 Padrão de Wellens: significado?",
+   "verso": "Onda T <b>bifásica (tipo A)</b> ou <b>profundamente invertida (tipo B)</b> em V2–V3, sem dor no momento.",
+   "pegadinha": "Estenose crítica da <b>DA proximal</b> → cateterismo; <b>teste ergométrico contraindicado</b>.",
+   "fonte": "Wellens 1982",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 Padrão de De Winter?",
+   "verso": "Infra de ST ascendente no ponto J com <b>T altas e simétricas</b> em V1–V6 + supra de ST em aVR.<br>Equivalente de IAM com supra (oclusão da <b>DA proximal</b>) → angioplastia primária.",
+   "fonte": "De Winter NEJM 2008",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 Supra de ST em aVR + infra difuso?",
+   "verso": "<ul><li>Isquemia subendocárdica difusa: <b>tronco</b>, triarterial ou DA proximal</li><li>Também: choque, anemia grave, taquiarritmia</li></ul>Pensar em CRM; ticagrelor pode atrasar cirurgia.",
+   "fonte": "ESC 2023 SCA",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 IAM posterior isolado: como reconhecer?",
+   "verso": "<ul><li><b>Infra de ST V1–V3</b> com R ampla e T positiva</li><li>Confirmar com <b>V7–V9</b> (supra ≥ 0,5 mm; ≥ 1 mm em homem &lt; 40 anos)</li></ul>",
+   "fonte": "ESC 2023",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 MINOCA: investigação?",
+   "verso": "IAM com coronárias <b>&lt; 50% de estenose</b>: diagnóstico de trabalho, não final.<br><ul><li><b>RM cardíaca</b>: miocardite, Takotsubo, IAM verdadeiro</li><li>IVUS/OCT: placa rota, <b>SCAD</b>; testes de espasmo; trombofilia em jovens</li></ul>",
+   "fonte": "AHA 2019 · ESC 2023",
+   "imagem": "r3h_01_e363fbc7.png",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 DAPT em alto risco de sangramento após ICP?",
+   "verso": "<b>1 mês</b> (estável) a <b>1–3 meses</b> (SCA) de DAPT → monoterapia (inibidor P2Y12 ou AAS).<br><ul><li>Critérios ARC-HBR: anticoagulação, Hb &lt; 11, plaquetas &lt; 100 mil, ClCr &lt; 30, AVC hemorrágico, câncer ativo</li></ul>",
+   "fonte": "ESC 2023 · MASTER DAPT",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 Prasugrel: contraindicação absoluta?",
+   "verso": "<ul><li><b>AVC ou AIT prévio</b> (dano líquido — TRITON)</li><li>Cautela: ≥ 75 anos ou &lt; 60 kg (dose 5 mg)</li></ul>",
+   "fonte": "TRITON-TIMI 38",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 Colchicina na prevenção secundária?",
+   "verso": "0,5 mg/dia ↓ eventos CV em DAC crônica (LoDoCo2) e pós-IAM (COLCOT).",
+   "pegadinha": "Evitar em <b>ClCr &lt; 30</b> e com inibidor forte de CYP3A4/P-gp (claritromicina); CLEAR-SYNERGY (IAM agudo) neutro.",
+   "fonte": "LoDoCo2 · COLCOT · CLEAR 2024",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 FFR e iFR: limiares de isquemia?",
+   "verso": "<table class=t><tr><th>Índice</th><th>Isquêmico</th></tr><tr><td>FFR</td><td>≤ 0,80</td></tr><tr><td>iFR / RFR</td><td>≤ 0,89</td></tr></table>Guiar ICP por fisiologia evita stents desnecessários (FAME).",
+   "fonte": "FAME · DEFINE-FLAIR",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 Síndrome de Kounis?",
+   "verso": "SCA desencadeada por <b>reação alérgica/anafilática</b> (mastócitos na placa → vasoespasmo ou trombose).",
+   "pegadinha": "Adrenalina pode piorar isquemia e betabloqueador piora anafilaxia — individualizar.",
+   "fonte": "Kounis 2016",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Doença coronariana",
+   "frente": "🔥 Ruptura de septo interventricular pós-IAM?",
+   "verso": "Dias 3–5, <b>sopro holossistólico novo + frêmito</b>, choque; salto de saturação O₂ no VD.<br>Ponte com BIA/suporte mecânico → <b>correção cirúrgica</b> (ou fechamento percutâneo).",
+   "fonte": "AHA 2021 Complicações mecânicas",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 Brugada: drogas e situações que desmascaram?",
+   "verso": "<ul><li><b>Febre</b> (tratar agressivamente com antitérmico)</li><li>Bloqueadores de sódio: <b>flecainida, propafenona, procainamida</b> (também usados no teste provocativo), tricíclicos, lítio</li><li>Cocaína, álcool em excesso, hipercalemia</li></ul>",
+   "fonte": "brugadadrugs.org",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 QT longo congênito: gatilho por subtipo?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Canal</th><th>Gatilho típico</th></tr><tr><td>LQT1</td><td>KCNQ1 (IKs)</td><td><b>Exercício, natação</b></td></tr><tr><td>LQT2</td><td>KCNH2 (IKr)</td><td><b>Estímulo auditivo</b>, pós-parto</td></tr><tr><td>LQT3</td><td>SCN5A (INa)</td><td><b>Sono/repouso</b></td></tr></table>LQT1/2: betabloqueador (nadolol/propranolol); LQT3: mexiletina pode ajudar.",
+   "fonte": "ESC 2022",
+   "imagem": "r3h_01_55b23129.png",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 Flecainida/propafenona: contraindicação?",
+   "verso": "<b>Cardiopatia estrutural</b> (IAM prévio, FE reduzida, HVE importante, DAC) — mortalidade ↑ no CAST.",
+   "pegadinha": "Na FA, associar bloqueador do nó AV: risco de <b>flutter 1:1</b> com QRS largo.",
+   "fonte": "CAST 1989 · ESC 2024 FA",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 Fenômeno de Ashman?",
+   "verso": "Batimento com <b>aberração (BRD)</b> após ciclo longo seguido de ciclo curto na FA.",
+   "pegadinha": "Não confundir com TV não sustentada.",
+   "fonte": "ECG clássico",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 Ablação de FA como 1ª linha?",
+   "verso": "Paroxística sintomática em jovem: <b>ablação de 1ª linha</b> é opção (EARLY-AF, STOP-AF First).<br><ul><li>ICFEr + FA: ablação ↓ mortalidade e internação (CASTLE-AF, CASTLE-HTx)</li></ul>",
+   "fonte": "ESC 2024",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 Oclusão percutânea do apêndice atrial esquerdo?",
+   "verso": "FA com <b>contraindicação</b> a anticoagulação de longo prazo (sangramento grave recorrente).<br><ul><li>Exige antitrombótico por curto período após o implante</li></ul>",
+   "fonte": "ESC 2024",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 TV × TSV com aberrância: critérios que favorecem TV?",
+   "verso": "<ul><li><b>Dissociação AV</b>, batimentos de fusão/captura</li><li>Concordância precordial (tudo + ou tudo −)</li><li>Ausência de RS nas precordiais; R inicial em aVR (Vereckei)</li></ul>Na dúvida, tratar como <b>TV</b>.",
+   "fonte": "Brugada 1991 · Vereckei 2008",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 Intoxicação digitálica: ECG e conduta?",
+   "verso": "<ul><li>Taquicardia atrial com BAV, <b>TV bidirecional</b>, ritmo juncional acelerado</li><li><b>Fab antidigoxina</b>: arritmia grave, K &gt; 5–5,5, digoxina muito alta</li></ul>",
+   "pegadinha": "Cálcio IV na hipercalemia digitálica: controverso, evitar como rotina.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 POTS (taquicardia postural ortostática)?",
+   "verso": "↑ FC <b>≥ 30 bpm</b> (≥ 40 se 12–19 anos) em 10 min em pé, <b>sem hipotensão</b>, sintomas &gt; 6 meses; mulher jovem, pós-viral.<br>Hidratação, sal, meias compressivas, recondicionamento; ivabradina/betabloqueador baixa dose.",
+   "fonte": "HRS 2015",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 CDI subcutâneo: para quem e limitação?",
+   "verso": "Sem acesso venoso, jovens, infecção prévia de dispositivo.",
+   "pegadinha": "<b>Não faz estimulação antibradicardia nem ATP</b> → evitar se precisa de marca-passo ou TV monomórfica recorrente.",
+   "fonte": "ESC 2022 · PRAETORIAN",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "ECG e arritmias",
+   "frente": "🔥 TV idiopática: fascicular × via de saída?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>ECG</th><th>Droga</th></tr><tr><td>Via de saída do VD</td><td><b>BRE + eixo inferior</b></td><td>Sensível a <b>adenosina</b>/betabloqueador</td></tr><tr><td>Fascicular (posterior)</td><td><b>BRD + eixo superior</b></td><td>Sensível a <b>verapamil</b></td></tr></table>Coração estruturalmente normal; ablação curativa.",
+   "fonte": "ESC 2022",
+   "imagem": "r3h_01_ae51acd4.png",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Valvopatias e endocardite",
+   "frente": "🔥 Escore de cálcio valvar na EAo baixo gradiente com FE preservada?",
+   "verso": "Sugere estenose grave: <b>≥ 2.000 UA (homem)</b> ou <b>≥ 1.200 UA (mulher)</b> na TC.",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Valvopatias e endocardite",
+   "frente": "🔥 Síndrome de Heyde?",
+   "verso": "<b>Estenose aórtica + sangramento GI por angiodisplasia</b>, com Willebrand adquirido (tipo 2A por cisalhamento).<br>Melhora após troca valvar.",
+   "fonte": "NEJM 2003",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Valvopatias e endocardite",
+   "frente": "🔥 Critérios de Duke-ISCVID 2023: o que entrou?",
+   "verso": "<ul><li><b>PET-CT</b> e TC cardíaca como critério de imagem</li><li>PCR/sequenciamento como microbiológico; <b>Enterococcus faecalis</b> e outros como típicos</li><li>Achado cirúrgico como maior</li></ul>",
+   "fonte": "Fowler 2023",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Valvopatias e endocardite",
+   "frente": "🔥 Endocardite com hemocultura negativa: principais agentes?",
+   "verso": "<ul><li><b>Coxiella burnetii</b> (sorologia fase I), <b>Bartonella</b> (sem-teto, gatos)</li><li>Brucella, Tropheryma whipplei, fungos, HACEK, uso prévio de antibiótico</li></ul>",
+   "fonte": "ESC 2023",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Valvopatias e endocardite",
+   "frente": "🔥 Endocardite + AVC isquêmico: quando operar?",
+   "verso": "Indicação cirúrgica presente e AVC isquêmico <b>sem hemorragia e sem coma</b>: operar <b>sem esperar</b>.",
+   "pegadinha": "AVC hemorrágico: adiar ≥ 4 semanas, em geral.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Valvopatias e endocardite",
+   "frente": "🔥 Trombose de prótese mecânica obstrutiva: conduta?",
+   "verso": "<ul><li>Instável/grave: <b>cirurgia de urgência</b></li><li>Sem condição cirúrgica ou centro sem cirurgia: <b>trombólise</b></li><li>Não obstrutiva pequena: otimizar anticoagulação</li></ul>",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Valvopatias e endocardite",
+   "frente": "🔥 TAVI × cirurgia: corte de idade (ESC 2021)?",
+   "verso": "<b>≥ 75 anos</b> ou alto risco → TAVI transfemoral; <b>&lt; 75 anos</b> e baixo risco → cirurgia.",
+   "pegadinha": "Valva bicúspide, aorta e anatomia pesam na decisão do Heart Team.",
+   "fonte": "ESC 2021",
+   "imagem": "r3h_01_c41c31b2.png",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Lipídios e prevenção",
+   "frente": "🔥 Ácido bempedoico: papel?",
+   "verso": "Inibidor da ATP-citrato liase (ativado no fígado, não no músculo) → opção na <b>intolerância a estatina</b> (CLEAR Outcomes ↓ eventos).",
+   "pegadinha": "↑ ácido úrico e gota; colelitíase.",
+   "fonte": "CLEAR Outcomes 2023",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Lipídios e prevenção",
+   "frente": "🔥 Icosapent etil: critério de uso?",
+   "verso": "TG <b>135–499 mg/dL</b> em uso de estatina, com DCV ou DM + fatores de risco (REDUCE-IT).",
+   "pegadinha": "Mais <b>FA</b> e sangramento; ômega-3 comum (mistura EPA+DHA) não teve o mesmo efeito.",
+   "fonte": "REDUCE-IT 2019",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Lipídios e prevenção",
+   "frente": "🔥 Inclisirana: mecanismo e posologia?",
+   "verso": "<b>siRNA</b> contra PCSK9 hepática → ↓ LDL ~50%; SC no dia 0, mês 3 e depois <b>a cada 6 meses</b>.",
+   "fonte": "ORION-10/11",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Lipídios e prevenção",
+   "frente": "🔥 Hipertrigliceridemia ≥ 1.000 mg/dL: prioridade?",
+   "verso": "Prevenir <b>pancreatite</b>: dieta muito pobre em gordura, abstinência alcoólica, controle glicêmico, <b>fibrato</b>.<br><ul><li>Pancreatite instalada: insulina IV ± plasmaférese em casos selecionados</li></ul>",
+   "pegadinha": "Causas secundárias: DM descompensado, álcool, estrogênio oral, hipotireoidismo, isotretinoína.",
+   "fonte": "ES 2023",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Pericárdio, miocárdio e vascular",
+   "frente": "🔥 Miocardite por inibidor de checkpoint: perfil?",
+   "verso": "<ul><li>Precoce (<b>primeiras 6–12 semanas</b>), mais com <b>anti-PD-1 + anti-CTLA-4</b></li><li>Associa-se a <b>miosite e miastenia</b> (overlap) — mortalidade alta</li></ul>Suspender imunoterapia + <b>metilprednisolona em pulso</b>.",
+   "fonte": "ESC 2022 Cardio-onco",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Pericárdio, miocárdio e vascular",
+   "frente": "🔥 Miocardite de células gigantes?",
+   "verso": "IC fulminante + <b>TV refratária/BAV</b> em jovem, muitas vezes com doença autoimune.<br>Diagnóstico por <b>biópsia endomiocárdica</b>; imunossupressão combinada (ciclosporina + corticoide) ± transplante.",
+   "fonte": "AHA 2020",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Pericárdio, miocárdio e vascular",
+   "frente": "🔥 Escore ADD-RS na suspeita de dissecção?",
+   "verso": "<ul><li>Condição de alto risco (Marfan, doença valvar aórtica, cirurgia aórtica)</li><li>Dor de alto risco (súbita, intensa, rasgando)</li><li>Exame de alto risco (déficit de pulso, IAo nova, hipotensão)</li></ul>ADD-RS ≤ 1 + <b>D-dímero &lt; 500</b> → dissecção improvável.",
+   "fonte": "ADvISED 2018",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Pericárdio, miocárdio e vascular",
+   "frente": "🔥 ITB &gt; 1,4: o que significa?",
+   "verso": "<b>Artérias incompressíveis</b> (calcificação — DM, DRC): ITB não confiável → usar <b>índice hálux-braquial</b> (&lt; 0,7 = DAP).",
+   "fonte": "ESC 2024 DAP",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Pericárdio, miocárdio e vascular",
+   "frente": "🔥 Rivaroxabana 2,5 mg 2×/dia + AAS: em quem?",
+   "verso": "DAC ou DAP <b>estáveis</b> com alto risco isquêmico e baixo risco de sangramento (COMPASS); DAP pós-revascularização (VOYAGER).",
+   "fonte": "COMPASS · VOYAGER-PAD",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Pericárdio, miocárdio e vascular",
+   "frente": "🔥 Isquemia aguda de membro: classificação de Rutherford?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Sensibilidade</th><th>Motor</th><th>Conduta</th></tr><tr><td>I viável</td><td>Normal</td><td>Normal</td><td>Revascularização eletiva-urgente</td></tr><tr><td>IIa ameaçado marginal</td><td>Dedos</td><td>Normal</td><td>Urgente</td></tr><tr><td>IIb ameaçado imediato</td><td>&gt; dedos, dor em repouso</td><td>Leve/moderado</td><td><b>Imediata</b></td></tr><tr><td>III irreversível</td><td>Anestesia</td><td>Paralisia, rigidez</td><td>Amputação</td></tr></table>",
+   "fonte": "SVS",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Pericárdio, miocárdio e vascular",
+   "frente": "🔥 Cardiomiopatia arritmogênica do VD (CAVD)?",
+   "verso": "<ul><li><b>Onda épsilon</b>, T invertida V1–V3, TV com morfologia de <b>BRE</b></li><li>Mutações desmossômicas (PKP2); piora com <b>exercício de resistência</b></li></ul>Restringir esporte competitivo; betabloqueador; CDI se alto risco.",
+   "fonte": "ESC 2022",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  },
+  {
+   "subtema": "Pericárdio, miocárdio e vascular",
+   "frente": "🔥 Anomalia de Ebstein no adulto: associação elétrica?",
+   "verso": "Implantação apical da tricúspide → IT, átrio direito gigante; <b>vias acessórias (WPW)</b> em até 20%.",
+   "fonte": "ESC 2020 Cardiopatias congênitas",
+   "tags": [
+    "R3H360X",
+    "H01"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_01_1b419cc2.png": "data/media/r3h_01_1b419cc2.png",
+  "r3h_01_d5e8e5a9.png": "data/media/r3h_01_d5e8e5a9.png",
+  "r3h_01_e363fbc7.png": "data/media/r3h_01_e363fbc7.png",
+  "r3h_01_55b23129.png": "data/media/r3h_01_55b23129.png",
+  "r3h_01_ae51acd4.png": "data/media/r3h_01_ae51acd4.png",
+  "r3h_01_c41c31b2.png": "data/media/r3h_01_c41c31b2.png"
+ }
+}

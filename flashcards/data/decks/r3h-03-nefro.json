@@ -1,0 +1,442 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "R3 Clínica Médica::🔥 Hardcore 360X::03 🫘 Nefrologia",
+ "cards": [
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Estadiamento KDIGO da LRA?",
+   "verso": "<table class=t><tr><th>Estágio</th><th>Creatinina</th><th>Diurese</th></tr><tr><td>1</td><td>1,5–1,9× basal ou ↑ ≥ 0,3 mg/dL em 48 h</td><td>&lt; 0,5 mL/kg/h por 6–12 h</td></tr><tr><td>2</td><td>2,0–2,9×</td><td>&lt; 0,5 por ≥ 12 h</td></tr><tr><td>3</td><td>≥ 3× ou ≥ 4,0 mg/dL ou TRS</td><td>&lt; 0,3 por ≥ 24 h ou anúria ≥ 12 h</td></tr></table>",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Teste de estresse com furosemida?",
+   "verso": "Furosemida <b>1 mg/kg</b> (1,5 se já usava): diurese <b>&lt; 200 mL em 2 h</b> prediz progressão para LRA estágio 3/necessidade de diálise.",
+   "fonte": "Chawla 2013",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Nefropatia por cilindros (rim do mieloma)?",
+   "verso": "<ul><li>LRA + <b>gap proteico/Bence-Jones</b>; fita urinária pouco positiva (não detecta cadeia leve)</li><li>Cadeias leves livres séricas <b>&gt; 1.500 mg/L</b> sugerem (&lt; 500 torna improvável)</li></ul>Tratar o mieloma rápido (bortezomibe + dexametasona); evitar AINE, contraste, desidratação.",
+   "fonte": "IMWG",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Nefropatia por ácido aristolóquico/ervas e nefrite intersticial crônica: pista?",
+   "verso": "DRC com <b>sedimento pobre, proteinúria baixa</b>, anemia desproporcional e risco de <b>carcinoma urotelial</b>.",
+   "fonte": "KDIGO",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Síndrome cardiorrenal tipo 1: manejo?",
+   "verso": "Piora renal na IC aguda geralmente por <b>congestão venosa</b> (não hipoperfusão): descongestionar mesmo com creatinina subindo.",
+   "pegadinha": "\"Piora da função renal\" com descongestão eficaz <b>não</b> tem pior prognóstico.",
+   "fonte": "ESC 2021",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 LRA associada a vancomicina + piperacilina-tazobactam?",
+   "verso": "Combinação associada a <b>mais LRA</b> que vancomicina + cefepime/meropenem; usar <b>AUC-guided</b> (400–600) para vancomicina.",
+   "fonte": "IDSA/ASHP 2020",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Doença renal crônica",
+   "frente": "🔥 KDIGO 2024: estratificação de risco da DRC?",
+   "verso": "Matriz <b>TFG (G1–G5) × albuminúria (A1 &lt; 30, A2 30–300, A3 &gt; 300 mg/g)</b>.<br><ul><li>Calculadora <b>KFRE</b> para risco de falência renal em 2 e 5 anos (encaminhar se &gt; 3–5% em 5 anos)</li></ul>",
+   "fonte": "KDIGO 2024",
+   "imagem": "r3h_03_b604506f.png",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Doença renal crônica",
+   "frente": "🔥 iSGLT2 na DRC: limite de TFG para iniciar?",
+   "verso": "Iniciar com <b>TFG ≥ 20</b> (com ou sem DM) e manter até diálise (DAPA-CKD, EMPA-KIDNEY).",
+   "pegadinha": "Queda inicial de TFG até 30% é esperada (hemodinâmica) — não suspender.",
+   "fonte": "KDIGO 2024",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Doença renal crônica",
+   "frente": "🔥 Hipercalemia limitando IECA/BRA na DRC?",
+   "verso": "Usar <b>patiromer</b> ou <b>ciclossilicato de zircônio</b> para manter o bloqueio do SRAA, dieta orientada, corrigir acidose.",
+   "pegadinha": "Suspender IECA por K⁺ leve é erro comum.",
+   "fonte": "KDIGO 2024",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Doença renal crônica",
+   "frente": "🔥 Anemia da DRC: quando iniciar AEE e meta?",
+   "verso": "Iniciar se <b>Hb &lt; 10</b> após repor ferro (ferritina &gt; 100 / TSAT &gt; 20%); meta <b>10–11,5</b>, não &gt; 13.<br><ul><li>Inibidores de HIF (roxadustate, daprodustate): alternativa oral</li></ul>",
+   "fonte": "KDIGO",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Doença renal crônica",
+   "frente": "🔥 Transplante renal: nefropatia por poliomavírus BK?",
+   "verso": "Disfunção do enxerto no 1º ano, <b>viremia BK</b> (PCR plasma) → biópsia (SV40).<br><b>Reduzir imunossupressão</b> (sem antiviral eficaz).",
+   "fonte": "AST 2019",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Doença renal crônica",
+   "frente": "🔥 Transplante renal: profilaxia de CMV?",
+   "verso": "Doador <b>CMV+ / receptor CMV−</b> (maior risco): <b>valganciclovir 6 meses</b> (ou letermovir); monitorar neutropenia.",
+   "fonte": "AST 2019 · Letermovir 2023",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Doença renal crônica",
+   "frente": "🔥 Doença linfoproliferativa pós-transplante (PTLD)?",
+   "verso": "Associada a <b>EBV</b> (receptor EBV− com doador EBV+), alta imunossupressão; febre, linfonodomegalia, massa no enxerto.<br>Reduzir imunossupressão + <b>rituximabe</b> ± QT.",
+   "fonte": "BSH 2021",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Doença renal crônica",
+   "frente": "🔥 Inibidores de calcineurina: toxicidades?",
+   "verso": "<ul><li><b>Nefrotoxicidade</b>, HAS, <b>hipercalemia</b>, hipomagnesemia</li><li>Tremor, <b>PRES</b>, diabetes pós-transplante (tacrolimus), hirsutismo e hiperplasia gengival (ciclosporina)</li></ul>",
+   "pegadinha": "Interações: <b>azóis, macrolídeos, diltiazem</b> ↑ nível; rifampicina ↓.",
+   "fonte": "KDIGO Transplante",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Glomerulopatias",
+   "frente": "🔥 Nefropatia membranosa: anti-PLA2R e conduta?",
+   "verso": "<b>Anti-PLA2R</b> positivo em ~70% (primária); título acompanha atividade.<br><ul><li>Risco baixo: IECA/BRA e observação 6 meses</li><li>Moderado/alto: <b>rituximabe</b> (MENTOR) ou ciclofosfamida + corticoide</li></ul>",
+   "pegadinha": "Anti-PLA2R negativo: buscar câncer, lúpus (classe V), hepatite B, drogas.",
+   "fonte": "KDIGO 2021",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Glomerulopatias",
+   "frente": "🔥 GESF primária × secundária (adaptativa)?",
+   "verso": "<table class=t><tr><th></th><th>Primária</th><th>Secundária</th></tr><tr><td>Síndrome nefrótica completa</td><td><b>Sim</b> (albumina baixa, edema)</td><td>Geralmente não</td></tr><tr><td>Apagamento de podócitos</td><td><b>Difuso</b></td><td>Segmentar</td></tr><tr><td>Causas</td><td>Fator circulante</td><td>Obesidade, nefrectomia, HIV, refluxo, genética (APOL1)</td></tr></table>Só a primária recebe imunossupressão.",
+   "fonte": "KDIGO 2021",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Glomerulopatias",
+   "frente": "🔥 Nefropatia por IgA: tratamento atual?",
+   "verso": "<ul><li>Proteinúria &gt; 0,5–1 g/dia: <b>IECA/BRA máximo + iSGLT2</b></li><li>Alto risco persistente: <b>budesonida de liberação entérica</b>, <b>sparsentan</b> (dual endotelina/AT1)</li></ul>",
+   "fonte": "KDIGO 2024 · PROTECT · NefIgArd",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Glomerulopatias",
+   "frente": "🔥 GN membranoproliferativa: classificação moderna?",
+   "verso": "<ul><li><b>Mediada por imunocomplexo</b>: hepatite C (crioglobulinemia), LES, infecção crônica, gamopatia</li><li><b>Glomerulopatia C3</b> (complemento alternativo): C3 baixo, C4 normal</li></ul>",
+   "fonte": "KDIGO 2021",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Glomerulopatias",
+   "frente": "🔥 Nefrite lúpica classe III/IV: indução atual?",
+   "verso": "<ul><li>Micofenolato ou ciclofosfamida em baixa dose (Euro-Lupus) + corticoide</li><li>Terapia tripla: + <b>belimumabe</b> (BLISS-LN) ou + <b>voclosporina</b> (AURORA)</li><li>Hidroxicloroquina para todos</li></ul>",
+   "fonte": "KDIGO 2024",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Glomerulopatias",
+   "frente": "🔥 SHU atípica: suspeita e tratamento?",
+   "verso": "MAT (anemia hemolítica, plaquetopenia, LRA) com <b>ADAMTS13 &gt; 10%</b> e sem STEC → desregulação do complemento.<br><b>Eculizumabe/ravulizumabe</b>; vacinar contra meningococo.",
+   "fonte": "KDIGO 2017",
+   "imagem": "r3h_03_b9a1e88f.png",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Glomerulopatias",
+   "frente": "🔥 Doença anti-MBG: quando NÃO tratar?",
+   "verso": "<b>Dependente de diálise na apresentação + 100% crescentes + sem hemorragia pulmonar</b> → recuperação renal improvável (risco &gt; benefício).",
+   "fonte": "KDIGO 2021",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Glomerulopatias",
+   "frente": "🔥 Glomerulonefrite associada a infecção estafilocócica?",
+   "verso": "IgA dominante, em <b>idoso diabético</b> com infecção ativa (pele, endocardite); complemento pode estar baixo.<br>Tratar a infecção; <b>não</b> imunossuprimir.",
+   "fonte": "KDIGO 2021",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Sódio e água",
+   "frente": "🔥 Hiponatremia: abordagem pela osmolalidade urinária?",
+   "verso": "<ul><li>Osm urinária <b>&lt; 100</b>: polidipsia primária, <b>potomania</b> (cerveja, \"chá e torrada\")</li><li>Osm &gt; 100: ADH ativo → avaliar volemia e <b>Na urinário</b></li></ul>Na urinário &lt; 30: hipovolemia efetiva; &gt; 30 com euvolemia: SIADH, hipotireoidismo, insuficiência adrenal, diurético.",
+   "fonte": "ESE/ERA 2014",
+   "imagem": "r3h_03_9a2c5c44.png",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Sódio e água",
+   "frente": "🔥 Correção excessiva de hiponatremia: como resgatar?",
+   "verso": "Se ultrapassar o limite (&gt; 8–10 mEq/L/24 h): <b>re-baixar</b> com <b>SG 5% + desmopressina</b>.<br><ul><li>Alto risco de desmielinização osmótica: alcoolismo, desnutrição, hipocalemia, hepatopatia → limite <b>8 mEq/L/24 h</b></li></ul>",
+   "fonte": "ESE 2014 · AJKD 2017",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Sódio e água",
+   "frente": "🔥 Hiponatremia por tiazídico: perfil típico?",
+   "verso": "<b>Mulher idosa, baixo peso</b>, nas primeiras semanas; mecanismo: ADH + perda de solutos + ingestão de água.",
+   "pegadinha": "Recorre se reexposta — não reintroduzir.",
+   "fonte": "NDT",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Sódio e água",
+   "frente": "🔥 Diabetes insípido central × nefrogênico: teste?",
+   "verso": "<b>Copeptina</b> estimulada (arginina ou salina hipertônica) substituiu a privação hídrica clássica.<br><ul><li>Copeptina basal &gt; 21 pmol/L sem privação: <b>nefrogênico</b></li><li>Estimulada ≤ 4,9 (salina) ou ≤ 3,8 (arginina): <b>central</b></li></ul>",
+   "fonte": "NEJM 2018 · Lancet 2023",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Potássio, cálcio, fósforo e magnésio",
+   "frente": "🔥 Hipocalemia + hipertensão: raciocínio por renina/aldosterona?",
+   "verso": "<table class=t><tr><th>Renina</th><th>Aldosterona</th><th>Causa</th></tr><tr><td>Baixa</td><td><b>Alta</b></td><td>Hiperaldosteronismo primário</td></tr><tr><td>Alta</td><td>Alta</td><td>Renovascular, tumor secretor de renina, diurético</td></tr><tr><td>Baixa</td><td><b>Baixa</b></td><td>Liddle, alcaçuz, excesso aparente de mineralocorticoide, Cushing, HAC</td></tr></table>",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Potássio, cálcio, fósforo e magnésio",
+   "frente": "🔥 Síndrome de Liddle?",
+   "verso": "Ganho de função do <b>ENaC</b>: HAS precoce + hipocalemia + renina e aldosterona <b>baixas</b>.<br>Responde a <b>amilorida/triantereno</b> (não à espironolactona).",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Potássio, cálcio, fósforo e magnésio",
+   "frente": "🔥 Hipomagnesemia por IBP?",
+   "verso": "Uso prolongado de <b>IBP</b> reduz absorção intestinal (TRPM6/7) → Mg muito baixo, hipocalcemia e hipocalemia refratárias.<br>Suspender o IBP; reposição de Mg.",
+   "fonte": "FDA 2011",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Potássio, cálcio, fósforo e magnésio",
+   "frente": "🔥 Hipofosfatemia após ferro IV?",
+   "verso": "<b>Carboximaltose férrica</b> ↑ FGF-23 → hipofosfatemia (às vezes grave/osteomalácia); menos com derisomaltose.",
+   "fonte": "PHOSPHARE 2020",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Potássio, cálcio, fósforo e magnésio",
+   "frente": "🔥 Hipercalcemia mediada por PTH com cálcio urinário baixo?",
+   "verso": "<b>Hipercalcemia hipocalciúrica familiar</b> (CaSR): fração de excreção de Ca <b>&lt; 0,01</b>.",
+   "pegadinha": "Não operar — paratireoidectomia não cura.",
+   "fonte": "Endocrine Society",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🔥 Gap aniônico: correção pela albumina?",
+   "verso": "AG corrigido = AG + <b>2,5 × (4,0 − albumina)</b>.",
+   "pegadinha": "Hipoalbuminemia mascara acidose de AG elevado.",
+   "fonte": "Figge",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🔥 Acidose com AG elevado por 5-oxoprolina (piroglutâmica)?",
+   "verso": "<b>Paracetamol crônico</b> em mulher desnutrida, sepse, DRC, flucloxacilina → depleção de glutationa.<br>Suspender paracetamol; NAC pode ajudar.",
+   "fonte": "CJASN 2017",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🔥 ATR tipo 1 × tipo 2 × tipo 4?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>K⁺</th><th>pH urinário</th><th>Pista</th></tr><tr><td>1 distal</td><td>Baixo</td><td><b>&gt; 5,5</b></td><td>Litíase, nefrocalcinose, Sjögren</td></tr><tr><td>2 proximal</td><td>Baixo</td><td>&lt; 5,5 (após limiar)</td><td><b>Fanconi</b>, mieloma, tenofovir</td></tr><tr><td>4 hiporreninêmico</td><td><b>Alto</b></td><td>&lt; 5,5</td><td>DM, IECA, AINE, trimetoprim</td></tr></table>",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🔥 Alcalose metabólica cloro-resistente com hipertensão?",
+   "verso": "Excesso mineralocorticoide (hiperaldo primário, Cushing, Liddle, alcaçuz).<br>Cloro urinário <b>&gt; 40</b> e PA alta; tratar a causa (espironolactona, cirurgia).",
+   "fonte": "Harrison",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Litíase, ITU e túbulo-intersticial",
+   "frente": "🔥 Cistinúria?",
+   "verso": "Cálculos recorrentes desde jovem, <b>cristais hexagonais</b>; nitroprussiato positivo.<br>Diurese &gt; 3 L, <b>alcalinizar urina (pH &gt; 7)</b>, tiopronina se refratário.",
+   "fonte": "AUA",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Litíase, ITU e túbulo-intersticial",
+   "frente": "🔥 Nefrite intersticial aguda por inibidor de checkpoint?",
+   "verso": "LRA semanas a meses após anti-PD-1/PD-L1, piúria estéril; muitas vezes com IBP associado.<br>Suspender imunoterapia e IBP + <b>prednisona 0,5–1 mg/kg</b> com desmame 4–6 semanas.",
+   "fonte": "ASCO 2021",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Litíase, ITU e túbulo-intersticial",
+   "frente": "🔥 Pielonefrite enfisematosa?",
+   "verso": "Diabético, gás no parênquima na <b>TC</b>, sepse grave (E. coli, Klebsiella).<br>Antibiótico + <b>drenagem percutânea</b>; nefrectomia em casos extensos.",
+   "fonte": "AUA",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Litíase, ITU e túbulo-intersticial",
+   "frente": "🔥 Litíase por ácido úrico: tratamento clínico?",
+   "verso": "<b>Alcalinizar urina</b> com citrato de potássio (pH 6,0–6,5) — dissolve cálculos; alopurinol se hiperuricosúria.<br><ul><li>Radiotransparente no RX, visível na TC</li></ul>",
+   "fonte": "AUA 2019",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Litíase, ITU e túbulo-intersticial",
+   "frente": "🔥 Síndrome de Fanconi por tenofovir (TDF)?",
+   "verso": "Glicosúria normoglicêmica, <b>fosfatúria</b> (hipofosfatemia, osteomalácia), aminoacidúria, acidose tubular proximal.<br>Trocar para <b>TAF</b> ou outro esquema.",
+   "fonte": "DHHS",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Litíase, ITU e túbulo-intersticial",
+   "frente": "🔥 Lítio crônico e rim?",
+   "verso": "<ul><li><b>DI nefrogênico</b> (poliúria) — <b>amilorida</b> reduz entrada de lítio na célula</li><li>Nefrite intersticial crônica e DRC progressiva, microcistos</li><li>Hiperparatireoidismo/hipercalcemia</li></ul>",
+   "fonte": "KDIGO",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  },
+  {
+   "subtema": "Litíase, ITU e túbulo-intersticial",
+   "frente": "🔥 Hiperoxalúria entérica?",
+   "verso": "Má absorção de gordura (<b>bypass gástrico</b>, DII, pancreatite crônica) → cálcio se liga à gordura, oxalato livre é absorvido → <b>litíase e nefropatia por oxalato</b>.<br>Dieta pobre em oxalato e gordura, <b>cálcio às refeições</b>, hidratação, citrato.",
+   "fonte": "AUA",
+   "tags": [
+    "R3H360X",
+    "H03"
+   ]
+  }
+ ],
+ "midia": {
+  "r3h_03_b604506f.png": "data/media/r3h_03_b604506f.png",
+  "r3h_03_b9a1e88f.png": "data/media/r3h_03_b9a1e88f.png",
+  "r3h_03_9a2c5c44.png": "data/media/r3h_03_9a2c5c44.png"
+ }
+}
