@@ -1,0 +1,275 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::14 ⚖️ Gestão, Ética e Qualidade",
+ "cards": [
+  {
+   "subtema": "Escores e indicadores",
+   "frente": "🔥 SOFA: pontuação cardiovascular e respiratória?",
+   "verso": "<table class=t><tr><th>Pontos</th><th>Cardiovascular</th><th>Respiratório (P/F)</th></tr><tr><td>1</td><td>PAM &lt; 70</td><td>&lt; 400</td></tr><tr><td>2</td><td>Dopamina ≤ 5 ou dobutamina</td><td>&lt; 300</td></tr><tr><td>3</td><td>Dopamina &gt; 5 ou <b>noradrenalina ≤ 0,1</b></td><td><b>&lt; 200 com suporte ventilatório</b></td></tr><tr><td>4</td><td>Dopamina &gt; 15 ou <b>noradrenalina &gt; 0,1</b></td><td><b>&lt; 100 com suporte</b></td></tr></table>",
+   "fonte": "Vincent 1996",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Escores e indicadores",
+   "frente": "🔥 Calibração × discriminação de um escore prognóstico?",
+   "verso": "<ul><li><b>Discriminação</b>: separar quem morre de quem sobrevive → <b>área sob a curva ROC</b></li><li><b>Calibração</b>: concordância entre mortalidade prevista e observada nas faixas de risco → <b>Hosmer-Lemeshow</b>, curva de calibração</li></ul>Um escore pode discriminar bem e estar descalibrado (superestimar mortes) em outra população ou época.",
+   "fonte": "Epidemiologia clínica",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Escores e indicadores",
+   "frente": "🔥 Densidade de incidência de infecção e taxa de utilização de dispositivo?",
+   "verso": "<ul><li>Densidade = <b>(nº de infecções ÷ nº de dispositivos-dia) × 1.000</b></li><li>Taxa de utilização = <b>dispositivos-dia ÷ pacientes-dia</b></li></ul>Usar dias de dispositivo no denominador corrige pela exposição.",
+   "fonte": "ANVISA · CDC/NHSN",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Escores e indicadores",
+   "frente": "🔥 Indicadores clássicos de desempenho da UTI?",
+   "verso": "<ul><li>Mortalidade padronizada e uso padronizado de recursos</li><li><b>Readmissão em 48 h</b></li><li>Densidade de infecções associadas a dispositivos</li><li>Taxa de ocupação e tempo de permanência</li><li>Extubação não planejada, lesão por pressão, quedas, eventos adversos com medicação</li></ul>",
+   "fonte": "ANVISA · AMIB",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 UTI fechada e intensivista 24 horas: evidência?",
+   "verso": "<ul><li>Modelo <b>fechado/alta intensidade</b> (intensivista conduz ou é consultado obrigatoriamente): menor mortalidade e permanência</li><li><b>Intensivista presencial à noite</b>: sem benefício adicional onde já há cobertura diurna de alta intensidade</li></ul>",
+   "fonte": "Pronovost 2002 · Kerlin 2013",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Times de resposta rápida: braços e evidência?",
+   "verso": "<ul><li><b>Aferente</b>: detecção por critérios/escores de alerta precoce (NEWS2)</li><li><b>Eferente</b>: equipe que atende à beira do leito</li><li>MERIT (ensaio em cluster): <b>sem redução</b> de PCR, morte ou admissão não planejada; estudos antes-depois sugerem benefício</li></ul>",
+   "fonte": "MERIT Lancet 2005",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Checklist diário e metas multiprofissionais (CHECKLIST-ICU)?",
+   "verso": "Ensaio em cluster em 118 UTIs brasileiras: <b>sem redução de mortalidade hospitalar</b>; melhora de processos (volume corrente baixo, menos sedação profunda, retirada de cateteres) e do clima de segurança.",
+   "fonte": "Cavalcanti JAMA 2016",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Modelo do queijo suíço e cultura justa?",
+   "verso": "Eventos adversos ocorrem quando <b>falhas latentes do sistema</b> se alinham a falhas ativas (Reason).<br><ul><li><b>Cultura justa</b>: não punir o erro honesto; analisar o sistema; responsabilizar apenas conduta imprudente ou violação deliberada</li><li>Classificação: <b>quase erro</b> (near miss), evento sem dano, evento adverso, <b>evento sentinela</b></li></ul>",
+   "fonte": "Reason 2000 · OMS",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Ferramentas de análise de risco: reativas × proativas?",
+   "verso": "<ul><li><b>Análise de causa raiz / Protocolo de Londres</b>: depois do evento (reativa)</li><li><b>FMEA</b> (análise de modos de falha e efeitos): antes do evento, prioriza por gravidade × ocorrência × detecção (proativa)</li><li><b>PDCA</b>: ciclo de melhoria contínua</li></ul>",
+   "fonte": "Gestão da qualidade em saúde",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Passagem de plantão estruturada: I-PASS?",
+   "verso": "<b>I</b>llness severity (gravidade) · <b>P</b>atient summary (resumo) · <b>A</b>ction list (pendências) · <b>S</b>ituation awareness (contingências) · <b>S</b>ynthesis by receiver (quem recebe repete).<br><ul><li>Reduziu erros médicos e eventos adversos evitáveis em estudo multicêntrico</li></ul>",
+   "fonte": "Starmer NEJM 2014",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Precauções por aerossóis: quais doenças e quais medidas?",
+   "verso": "<b>Tuberculose pulmonar/laríngea, sarampo, varicela/zóster disseminado</b>; e procedimentos geradores de aerossol em vírus respiratórios emergentes.<br>Quarto privativo com <b>pressão negativa</b>, máscara <b>N95/PFF2</b> para a equipe, máscara cirúrgica no paciente em transporte.",
+   "fonte": "CDC · ANVISA",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Visita familiar ampliada na UTI (ICU Visits)?",
+   "verso": "Visita flexível de até 12 h × restrita (1,5 h): <b>não reduziu delirium</b>; <b>reduziu ansiedade e depressão dos familiares</b> e aumentou a satisfação, sem mais infecções nem burnout da equipe.",
+   "fonte": "Rosa JAMA 2019",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Síndrome de burnout: três dimensões?",
+   "verso": "<b>Exaustão emocional</b>, <b>despersonalização</b> (cinismo, distanciamento) e <b>baixa realização profissional</b>.<br><ul><li>Na UTI, associada a conflitos, decisões de fim de vida e sobrecarga; afeta a segurança do paciente</li></ul>",
+   "fonte": "Maslach · Moss 2016",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Organização e segurança",
+   "frente": "🔥 Fadiga de alarmes: dimensão e medidas?",
+   "verso": "<ul><li><b>70–99% dos alarmes</b> de monitor na UTI são <b>falsos ou sem relevância clínica</b></li><li>Consequências: dessensibilização, atraso de resposta, alarmes silenciados, ruído e pior sono</li><li>Medidas: <b>individualizar limites</b> por paciente, atraso curto para SpO₂, troca diária de eletrodos com preparo da pele, eliminar alarmes duplicados</li></ul>",
+   "pegadinha": "Mais alarmes não é mais segurança: sensibilidade máxima com especificidade mínima <b>piora</b> a vigilância.",
+   "fonte": "Sendelbach AACN Adv Crit Care 2013 · Joint Commission",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Ética e terminalidade",
+   "frente": "🔥 Recusa de transfusão por adulto capaz: entendimento do STF (2024)?",
+   "verso": "Testemunha de Jeová <b>maior e capaz</b> pode recusar transfusão, desde que a decisão seja <b>livre, informada, inequívoca e do próprio paciente</b>; o Estado deve oferecer alternativas disponíveis no SUS.",
+   "pegadinha": "Não vale para decisão dos pais por <b>menor de idade</b> em risco de vida.",
+   "fonte": "STF · RE 979.742 e RE 1.212.272",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Ética e terminalidade",
+   "frente": "🔥 Não iniciar × retirar suporte: há diferença ética?",
+   "verso": "<b>Não</b>: são moralmente equivalentes quando o tratamento não atende aos objetivos do cuidado. Retirar exige mais preparo e comunicação, mas não é \"pior\".<br>Decisão compartilhada, registrada em prontuário, com cuidados de conforto mantidos.",
+   "fonte": "ATS 2008 · AMIB",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Ética e terminalidade",
+   "frente": "🔥 Extubação paliativa: preparo?",
+   "verso": "<ul><li>Reunião familiar e registro da decisão</li><li><b>Suspender o bloqueador neuromuscular e aguardar a reversão</b></li><li>Opioide e benzodiazepínico em dose para conforto <b>antes</b> da retirada; antissecretor</li><li>Suspender dieta e fluidos em excesso; desligar alarmes; família presente se desejar</li></ul>",
+   "fonte": "Truog 2008",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Ética e terminalidade",
+   "frente": "🔥 Comunicação com a família na UTI: mnemônicos VALUE e NURSE?",
+   "verso": "<ul><li><b>VALUE</b>: <b>V</b>alorizar o que dizem, <b>A</b>colher emoções, <b>L</b>isten (ouvir), <b>U</b>nderstand (conhecer o paciente como pessoa), <b>E</b>licit (provocar perguntas)</li><li><b>NURSE</b> (resposta à emoção): <b>N</b>omear, <b>U</b>nderstand, <b>R</b>espeitar, <b>S</b>uporte, <b>E</b>xplorar</li></ul>Conferência familiar estruturada reduz estresse pós-traumático dos familiares.",
+   "fonte": "Lautrette NEJM 2007",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Ética e terminalidade",
+   "frente": "🔥 Morte encefálica: comunicação e doação?",
+   "verso": "<ul><li>Informar o <b>óbito</b> com clareza; evitar \"manter vivo por aparelhos\"</li><li><b>Separar</b> a notícia da morte da entrevista sobre doação (feita por equipe treinada)</li><li>No Brasil a doação depende de <b>autorização familiar</b> (cônjuge ou parente até o 2º grau)</li><li>Recusa familiar: suspender o suporte (CFM 1.826/2007)</li></ul>",
+   "fonte": "Lei 9.434/1997 · Decreto 9.175/2017",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Evidência e estatística",
+   "frente": "🔥 Índice de fragilidade de um ensaio clínico?",
+   "verso": "Número mínimo de pacientes que, mudando de \"sem evento\" para \"evento\", faria o resultado <b>perder a significância</b>.<br><ul><li>Muitos ensaios de terapia intensiva têm índice ≤ 5, menor que as perdas de seguimento</li></ul>",
+   "fonte": "Walsh 2014 · Ridgeon 2016",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Evidência e estatística",
+   "frente": "🔥 Análise bayesiana de ensaios \"negativos\": para que serve?",
+   "verso": "Estima a <b>probabilidade de benefício</b> dado o resultado e o conhecimento prévio, em vez de um corte de p.<br><ul><li>Exemplo: EOLIA (p = 0,09) → probabilidade alta de alguma redução de mortalidade com ECMO</li></ul>",
+   "fonte": "Goligher JAMA 2018",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Evidência e estatística",
+   "frente": "🔥 Dias livres de ventilação como desfecho: cálculo e crítica?",
+   "verso": "Dias vivo <b>e</b> sem ventilador até o dia 28; <b>morte = zero</b>.",
+   "pegadinha": "Mistura mortalidade e duração: efeitos opostos podem se anular; preferir análise hierárquica (win ratio) ou desfechos separados.",
+   "fonte": "Yehya 2019",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Evidência e estatística",
+   "frente": "🔥 Ensaios de plataforma adaptativos: como funcionam?",
+   "verso": "Protocolo-mestre perene que testa <b>várias intervenções ao mesmo tempo</b>, com análises interinas, entrada e saída de braços e, às vezes, randomização adaptada à resposta.<br><ul><li>Exemplos: <b>REMAP-CAP</b> e <b>RECOVERY</b></li></ul>",
+   "fonte": "Angus 2019",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Evidência e estatística",
+   "frente": "🔥 Ensaio em cluster com cruzamento: vantagens e riscos?",
+   "verso": "Unidades inteiras alternam a intervenção por períodos (ex.: SMART, com fluidos por mês).<br><ul><li>Vantagem: logística simples e grandes amostras</li><li>Riscos: <b>contaminação entre períodos</b>, falta de cegamento, necessidade de ajustar pela correlação intracluster</li></ul>",
+   "fonte": "Semler 2018",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Evidência e estatística",
+   "frente": "🔥 Regressão à média: como engana na UTI?",
+   "verso": "Valores extremos medidos uma vez tendem a se aproximar da média na medida seguinte, <b>com ou sem intervenção</b>.<br><ul><li>Exemplos: lactato, pressão ou glicemia muito alterados na admissão \"melhoram\" após qualquer conduta; a unidade com pior indicador num mês \"melhora\" no seguinte</li><li>Infla o efeito em estudos <b>antes-depois</b> sem grupo controle</li><li>Proteção: <b>grupo controle randomizado</b>, várias medidas basais, séries temporais</li></ul>",
+   "pegadinha": "Projeto de melhoria iniciado \"porque o indicador piorou\" quase sempre mostra melhora espúria.",
+   "fonte": "Barnett Int J Epidemiol 2005",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  },
+  {
+   "subtema": "Evidência e estatística",
+   "frente": "🔥 Ensaio interrompido cedo por benefício: qual o problema?",
+   "verso": "<ul><li>A interrupção num \"pico aleatório\" <b>superestima o efeito</b>, sobretudo com <b>poucos eventos</b></li><li>Exemplo: proteína C ativada (PROWESS, interrompido cedo) → PROWESS-SHOCK negativo e retirada do mercado</li><li>Mesma cautela com ensaios pequenos e unicêntricos de efeito muito grande</li><li>Proteção: regras de parada <b>conservadoras</b>, número mínimo de eventos e confirmação independente</li></ul>",
+   "pegadinha": "Efeito enorme em estudo pequeno, unicêntrico ou interrompido cedo = <b>desconfiar</b> antes de mudar a prática.",
+   "fonte": "Bassler JAMA 2010 (STOPIT-2)",
+   "imagem": "th_14_1969df1e.png",
+   "tags": [
+    "TH360X",
+    "X14"
+   ]
+  }
+ ],
+ "midia": {
+  "th_14_1969df1e.png": "data/media/th_14_1969df1e.png"
+ }
+}

@@ -1,0 +1,338 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::15 🩻 POCUS, Monitorização e Procedimentos",
+ "cards": [
+  {
+   "subtema": "Ultrassom pulmonar",
+   "frente": "🔥 Protocolo BLUE: perfis e diagnósticos?",
+   "verso": "<table class=t><tr><th>Perfil</th><th>Diagnóstico provável</th></tr><tr><td><b>A</b> + trombose venosa</td><td>Embolia pulmonar</td></tr><tr><td><b>A</b> sem trombose + consolidação posterior (PLAPS)</td><td>Pneumonia</td></tr><tr><td><b>A</b> sem trombose e sem PLAPS</td><td>DPOC ou asma</td></tr><tr><td><b>B</b> (linhas B bilaterais com deslizamento)</td><td>Edema pulmonar</td></tr><tr><td><b>B'</b> (linhas B sem deslizamento), <b>A/B</b> ou <b>C</b></td><td>Pneumonia</td></tr><tr><td><b>A'</b> + ponto pulmonar</td><td>Pneumotórax</td></tr></table>",
+   "fonte": "Lichtenstein Chest 2008",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ultrassom pulmonar",
+   "frente": "🔥 Escore de aeração pulmonar por ultrassom (LUS)?",
+   "verso": "<b>12 regiões</b>, 0 a 3 cada (total 0–36): 0 = linhas A; 1 = linhas B espaçadas; 2 = linhas B coalescentes; 3 = consolidação.<br><ul><li>Acompanha recrutamento/reaeração (PEEP, prona, antibiótico)</li><li><b>&gt; 17</b> ao final do teste de respiração espontânea prediz falha de extubação</li></ul>",
+   "fonte": "Soummer 2012",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ultrassom pulmonar",
+   "frente": "🔥 Ultrassom do diafragma: cortes de disfunção?",
+   "verso": "<ul><li><b>Excursão &lt; 10–11 mm</b> em respiração tranquila (ou movimento paradoxal na paralisia)</li><li><b>Fração de espessamento &lt; 20%</b> = disfunção; <b>&lt; 30%</b> prediz falha de desmame</li></ul>",
+   "fonte": "DiNino 2014 · Kim 2011",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ultrassom pulmonar",
+   "frente": "🔥 Sinais ultrassonográficos de derrame e de consolidação?",
+   "verso": "<ul><li>Derrame: <b>sinal do quadrilátero</b> e <b>sinal do sinusoide</b> (a linha pulmonar se aproxima da parede na inspiração, no modo M)</li><li>Consolidação: padrão de tecido (<b>hepatização</b>) e <b>sinal do retalho/fractal</b> (borda profunda irregular)</li></ul>",
+   "fonte": "Lichtenstein 2014",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ultrassom pulmonar",
+   "frente": "🔥 Pneumotórax no modo M?",
+   "verso": "Perde-se o \"sinal da praia\" (areia abaixo da pleura) e surge o <b>\"código de barras\" (estratosfera)</b>: só linhas horizontais.",
+   "pegadinha": "Também aparece sem pneumotórax em apneia, intubação seletiva, pleurodese e enfisema bolhoso.",
+   "fonte": "Lichtenstein 2005",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ecocardiografia à beira-leito",
+   "frente": "🔥 Débito cardíaco pelo ecocardiograma: cálculo?",
+   "verso": "<b>Volume sistólico = VTI da via de saída × área</b> (π × (diâmetro ÷ 2)²); débito = volume sistólico × frequência.<br><ul><li>VTI normal <b>18–22 cm</b>; &lt; 15 sugere baixo débito</li><li>O diâmetro é a maior fonte de erro (entra ao quadrado): para seguimento, acompanhar só o <b>VTI</b></li></ul>",
+   "fonte": "ASE",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ecocardiografia à beira-leito",
+   "frente": "🔥 Função sistólica do ventrículo esquerdo sem medir fração de ejeção?",
+   "verso": "<ul><li><b>Separação septal do ponto E (EPSS) &gt; 7 mm</b> → fração reduzida</li><li><b>MAPSE &lt; 8–10 mm</b> → disfunção longitudinal</li><li>Estimativa visual treinada tem boa concordância</li></ul>",
+   "fonte": "McKaigney 2014",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ecocardiografia à beira-leito",
+   "frente": "🔥 Função do ventrículo direito: medidas e cortes?",
+   "verso": "<table class=t><tr><th>Medida</th><th>Disfunção</th></tr><tr><td><b>TAPSE</b></td><td><b>&lt; 17 mm</b></td></tr><tr><td>Onda S' tricúspide (Doppler tecidual)</td><td><b>&lt; 9,5 cm/s</b></td></tr><tr><td>Variação fracional de área</td><td>&lt; 35%</td></tr><tr><td>Relação ventrículo direito/esquerdo (4 câmaras)</td><td>&gt; 0,6 dilatado; <b>&gt; 1</b> grave</td></tr></table>",
+   "fonte": "ASE 2015",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ecocardiografia à beira-leito",
+   "frente": "🔥 Sinal do \"D\" septal: sobrecarga de pressão × volume?",
+   "verso": "<ul><li>Retificação do septo <b>só na diástole</b>: sobrecarga de <b>volume</b></li><li>Retificação em <b>sístole e diástole</b>: sobrecarga de <b>pressão</b></li></ul>",
+   "fonte": "ASE 2010",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ecocardiografia à beira-leito",
+   "frente": "🔥 Sinais ecocardiográficos de embolia pulmonar aguda?",
+   "verso": "<ul><li><b>McConnell</b>: hipocinesia da parede livre do ventrículo direito com <b>ápice preservado</b></li><li><b>Sinal 60/60</b>: tempo de aceleração pulmonar <b>&lt; 60 ms</b> com gradiente tricúspide <b>&lt; 60 mmHg</b></li><li>Trombo em trânsito; ventrículo direito dilatado; septo retificado</li></ul>",
+   "pegadinha": "Gradiente tricúspide &gt; 60 sugere hipertensão pulmonar <b>crônica</b>, não aguda.",
+   "fonte": "ESC 2019",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ecocardiografia à beira-leito",
+   "frente": "🔥 Pressões de enchimento do ventrículo esquerdo: relação E/e'?",
+   "verso": "<b>E/e' médio &gt; 14</b>: pressões elevadas; <b>&lt; 8</b>: normais.<br><ul><li>Útil para diferenciar edema cardiogênico de SDRA e para prever edema no desmame</li></ul>",
+   "pegadinha": "Menos confiável com calcificação mitral, prótese e fibrilação atrial.",
+   "fonte": "ASE/EACVI 2016",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ecocardiografia à beira-leito",
+   "frente": "🔥 Ecocardiograma na PCR: protocolo e achados que mudam a conduta?",
+   "verso": "Janela subxifoide <b>durante a checagem de pulso (≤ 10 s)</b>.<br><ul><li>Derrame com tamponamento → pericardiocentese</li><li>Ventrículo direito muito dilatado → pensar em embolia (dilata em qualquer PCR prolongada)</li><li>Ventrículo esquerdo vazio e hipercinético → hipovolemia</li><li>Atividade cardíaca organizada sem pulso (pseudo-AESP) → melhor prognóstico</li></ul>",
+   "fonte": "Gaspari 2016 · ERC 2021",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Ecocardiografia à beira-leito",
+   "frente": "🔥 Confirmar a posição do cateter venoso central por ultrassom?",
+   "verso": "<b>Teste das microbolhas</b>: injetar salina agitada e ver turbilhonamento no átrio direito em <b>&lt; 2 s</b> (posição correta).<br><ul><li>Somar deslizamento pleural bilateral para excluir pneumotórax</li></ul>Pode dispensar a radiografia de rotina.",
+   "fonte": "Weekes 2016",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Capnograma: fases e padrões anormais?",
+   "verso": "<ul><li>Fase I (espaço morto), II (subida), III (platô alveolar), IV/0 (descida inspiratória)</li></ul><table class=t><tr><th>Padrão</th><th>Causa</th></tr><tr><td><b>\"Barbatana de tubarão\"</b> (fase III inclinada)</td><td>Broncoespasmo/obstrução</td></tr><tr><td>Queda <b>súbita a zero</b></td><td>Desconexão, extubação, obstrução total</td></tr><tr><td>Queda exponencial</td><td>Embolia pulmonar, baixo débito, PCR</td></tr><tr><td>Entalhe no platô (\"fenda do curare\")</td><td>Esforço inspiratório durante bloqueio</td></tr><tr><td>Linha de base elevada</td><td>Reinalação</td></tr></table>",
+   "fonte": "Capnografia clínica",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Gradiente entre PaCO₂ e ETCO₂: normal e causas de aumento?",
+   "verso": "Normal <b>2–5 mmHg</b>.<br><ul><li>Aumenta com <b>espaço morto alveolar</b>: embolia pulmonar, baixo débito/hipovolemia, PEEP alta, DPOC</li></ul>Na PCR e no choque, o ETCO₂ acompanha o <b>débito cardíaco</b>, não a ventilação.",
+   "fonte": "Capnografia clínica",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Oxímetro de pulso: quando engana?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Leitura</th></tr><tr><td><b>Carboxi-hemoglobina</b></td><td>Falsamente normal/alta</td></tr><tr><td><b>Metemoglobina</b></td><td>Tende a <b>85%</b></td></tr><tr><td>Azul de metileno</td><td>Queda transitória</td></tr><tr><td>Má perfusão, movimento, esmalte escuro</td><td>Sinal ruim/baixo</td></tr><tr><td><b>Pele escura</b></td><td><b>Superestima</b> (hipoxemia oculta)</td></tr></table>",
+   "fonte": "Sjoding NEJM 2020",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Sítio do cateter venoso central e complicações (3SITES)?",
+   "verso": "Infecção de corrente sanguínea + trombose sintomática por 1.000 cateteres-dia: <b>subclávia 1,5 × jugular 3,6 × femoral 3,4</b>.",
+   "pegadinha": "Subclávia teve <b>mais pneumotórax</b> (1,5%).",
+   "fonte": "Parienti NEJM 2015",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Embolia aérea na manipulação de cateter central: prevenção?",
+   "verso": "<ul><li>Inserir e retirar em <b>Trendelenburg</b> (jugular/subclávia)</li><li>Retirar durante <b>expiração ou Valsalva</b>; em ventilação, na fase de pressão positiva</li><li><b>Curativo oclusivo</b> por 24–48 h; manter conexões fechadas</li></ul>",
+   "fonte": "Recomendações de acesso vascular",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Balão esofágico: como validar a posição?",
+   "verso": "<b>Teste de oclusão (Baydur)</b>: com a via aérea ocluída, a razão entre a variação da pressão esofágica e a da via aérea deve ficar entre <b>0,8 e 1,2</b>.<br><ul><li>Paciente passivo: comprimir o tórax durante a oclusão</li></ul>",
+   "fonte": "Akoumianaki 2014",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Cateter de pressão intracraniana: ventricular × parenquimatoso?",
+   "verso": "<table class=t><tr><th></th><th>Ventricular (derivação externa)</th><th>Parenquimatoso</th></tr><tr><td>Vantagem</td><td><b>Padrão-ouro</b>: mede e <b>drena</b> líquor; recalibrável</td><td>Fácil de inserir</td></tr><tr><td>Risco</td><td>Infecção (ventriculite), sangramento, obstrução</td><td><b>Não recalibra</b> (deriva do zero); não drena</td></tr><tr><td>Zero</td><td><b>Trago</b> (forame de Monro)</td><td>Na inserção</td></tr></table>",
+   "fonte": "BTF 2016",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Temperatura central: sítios confiáveis?",
+   "verso": "<b>Artéria pulmonar</b> (referência), <b>esôfago distal</b> e <b>bexiga</b> (com diurese adequada); nasofaringe.",
+   "pegadinha": "Axilar e timpânica por infravermelho são imprecisas no crítico; retal responde com atraso.",
+   "fonte": "SCCM/IDSA 2023",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Monitorização",
+   "frente": "🔥 Ruptura de artéria pulmonar pelo cateter de Swan-Ganz: fatores e conduta?",
+   "verso": "<ul><li>Rara (&lt; 0,2%), com <b>mortalidade de 50–70%</b></li><li>Fatores: <b>hipertensão pulmonar</b>, idade avançada, anticoagulação, hipotermia, balão insuflado em posição distal ou em excesso</li><li>Quadro: <b>hemoptise súbita</b> após insuflar o balão</li><li>Conduta: <b>lado afetado para baixo</b>, intubação seletiva ou tubo de duplo lúmen, PEEP, reverter anticoagulação; <b>embolização</b> ou cirurgia</li><li>Prevenção: insuflar devagar, só até surgir a curva de oclusão, e nunca deixar o cateter encunhado</li></ul>",
+   "pegadinha": "Nunca lavar o cateter em posição de oclusão nem insuflar contra resistência.",
+   "fonte": "Kearney Chest 1995",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Drenagem torácica: local e princípios?",
+   "verso": "<ul><li><b>Triângulo de segurança</b>: borda do peitoral maior, borda do grande dorsal, linha do mamilo (5º espaço); entrar pela <b>borda superior da costela</b></li><li>Dreno <b>fino</b> resolve pneumotórax e derrame simples; calibroso para hemotórax e empiema espesso</li><li><b>Nunca pinçar dreno borbulhando</b></li><li>Borbulhamento contínuo = fuga aérea; oscilação ausente = obstrução ou pulmão expandido</li></ul>",
+   "fonte": "BTS 2023",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Edema pulmonar de reexpansão: prevenção?",
+   "verso": "Após drenagem rápida de pneumotórax ou derrame de longa data.<br><ul><li>Limitar a <b>1–1,5 L por vez</b>; parar se tosse persistente, dor torácica ou desconforto</li><li>Evitar aspiração precoce em colapso prolongado</li></ul>",
+   "fonte": "BTS 2023",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Toracocentese e paracentese com coagulopatia: precisa corrigir?",
+   "verso": "Em geral <b>não</b>: com ultrassom e operador experiente, o sangramento é raro mesmo com INR alto ou plaquetas baixas.<br><ul><li>Paracentese no cirrótico: sem limiar de INR/plaquetas; local no <b>quadrante inferior esquerdo</b></li><li>Retirada <b>&gt; 5 L</b>: albumina <b>6–8 g por litro</b></li></ul>",
+   "fonte": "SIR 2019 · AASLD 2021",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Punção lombar e anticoagulação: intervalos?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Suspender antes</th></tr><tr><td>Heparina de baixo peso profilática</td><td><b>12 h</b></td></tr><tr><td>Heparina de baixo peso terapêutica</td><td><b>24 h</b></td></tr><tr><td>Heparina não fracionada IV</td><td>4–6 h (TTPa normal)</td></tr><tr><td>Anticoagulante oral direto</td><td><b>48–72 h</b> (mais se insuficiência renal)</td></tr><tr><td>Varfarina</td><td>INR ≤ 1,4</td></tr></table>Plaquetas mínimas: ~40–50 mil (20 mil em situações selecionadas).",
+   "fonte": "ASRA 2018",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Broncoscopia no paciente ventilado: efeitos e ajustes?",
+   "verso": "<ul><li>Tubo <b>≥ 8,0 mm</b> (2 mm maior que o broncoscópio)</li><li><b>FiO₂ 100%</b>; modo controlado a volume ou pressão com alarmes ajustados</li><li>Espera-se <b>aumento de pico e de auto-PEEP</b>, queda do volume corrente e hipoxemia transitória</li><li>Lavado: instilar 100–150 mL em alíquotas</li></ul>",
+   "fonte": "Recomendações de broncoscopia na UTI",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Pericardiocentese: via e contraindicação?",
+   "verso": "Guiada por eco, no ponto onde o derrame é <b>maior e mais próximo</b> (apical/paraesternal ou subxifoide); deixar cateter em drenagem.",
+   "pegadinha": "<b>Dissecção de aorta e ruptura de parede livre</b>: tratamento é cirúrgico (drenar só o mínimo como ponte).",
+   "fonte": "ESC 2015",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Acesso intraósseo: sítios e contraindicações?",
+   "verso": "<ul><li><b>Tíbia proximal</b>, <b>úmero proximal</b> (fluxo maior), tíbia distal, esterno (dispositivo específico)</li><li>Aceita <b>todas as drogas</b> e hemocomponentes; bolsa pressurizada</li><li>Contraindicado: <b>fratura do osso</b>, tentativa prévia no mesmo osso, infecção local, prótese</li><li>Retirar em 24 h</li></ul>",
+   "fonte": "ATLS 10 · ERC 2021",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Marca-passo transcutâneo: como confirmar a captura?",
+   "verso": "Modo de demanda a <b>60–80 bpm</b>; subir a corrente até capturar e manter ~10% acima.<br><ul><li>Confirmar captura <b>mecânica</b>: pulso femoral, curva arterial, oximetria ou ultrassom (o artefato elétrico engana)</li><li>Analgesia e sedação</li></ul>",
+   "fonte": "AHA 2020",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Linha arterial radial: o teste de Allen é obrigatório?",
+   "verso": "<b>Não</b>: tem baixa acurácia para prever isquemia da mão e não é exigido antes da punção.<br><ul><li>Complicações: oclusão temporária (comum, quase sempre sem isquemia), hematoma, pseudoaneurisma, infecção</li><li>Guiar por ultrassom aumenta o sucesso na primeira tentativa</li></ul>",
+   "fonte": "Scheer 2002",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  },
+  {
+   "subtema": "Procedimentos",
+   "frente": "🔥 Cateter venoso central: onde deve ficar a ponta e como confirmar?",
+   "verso": "<ul><li>Alvo: <b>terço inferior da veia cava superior / junção cavoatrial</b>, paralela à parede do vaso</li><li>Radiografia: ponta <b>na altura da carina ou até ~2 cm abaixo</b> (a carina fica acima da reflexão do pericárdio)</li><li>Cateter pela <b>esquerda</b> precisa ir mais fundo para não apoiar em ângulo na parede da cava</li><li>Alternativas: <b>ECG intracavitário</b> (onda P máxima na junção) e ultrassom com teste de microbolhas</li><li>Profundidade usual: ~13–16 cm à direita; ~3 cm a mais à esquerda</li></ul>",
+   "pegadinha": "Ponta baixa no <b>átrio direito</b>: arritmia, perfuração e tamponamento; ponta alta ou em ângulo: trombose e erosão do vaso.",
+   "fonte": "Schuster Br J Anaesth 2000 · ASA Acesso Venoso Central 2020",
+   "imagem": "th_15_44e4c063.png",
+   "tags": [
+    "TH360X",
+    "X15"
+   ]
+  }
+ ],
+ "midia": {
+  "th_15_44e4c063.png": "data/media/th_15_44e4c063.png"
+ }
+}

@@ -1,0 +1,436 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::06 🫀 Cardiointensivismo e PCR",
+ "cards": [
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Adrenalina na PCR extra-hospitalar (PARAMEDIC2)?",
+   "verso": "Sobrevida em 30 dias <b>3,2% × 2,4%</b>, porém <b>sem melhora</b> do desfecho neurológico favorável (2,2% × 1,9%): mais sobreviventes com dano grave.",
+   "fonte": "Perkins NEJM 2018",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Antiarrítmico na fibrilação ventricular refratária (ALPS)?",
+   "verso": "Amiodarona, lidocaína e placebo: sobrevida à alta <b>sem diferença significativa</b> no total (24,4%, 23,7%, 21,0%); benefício na PCR <b>presenciada</b>.<br><ul><li>Doses: amiodarona 300 mg → 150 mg; lidocaína 1–1,5 mg/kg → 0,5–0,75 mg/kg</li></ul>",
+   "fonte": "Kudenchuk NEJM 2016",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Fibrilação ventricular refratária: mudar o vetor ou dupla desfibrilação (DOSE-VF)?",
+   "verso": "Sobrevida à alta: <b>dupla sequencial 30,4%</b>, mudança de vetor (anteroposterior) <b>21,7%</b>, padrão <b>13,3%</b>.",
+   "fonte": "Cheskes NEJM 2022",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Via aérea na PCR extra-hospitalar: tubo ou supraglótico (AIRWAYS-2)?",
+   "verso": "Dispositivo supraglótico (i-gel) × intubação: desfecho funcional <b>igual</b> (6,4% × 6,8%).",
+   "fonte": "Benger JAMA 2018",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Acesso intraósseo primeiro × venoso primeiro na PCR?",
+   "verso": "Dois ensaios de 2024 (PARAMEDIC-3 e IVIO): <b>sem diferença</b> de sobrevida; menor retorno da circulação com intraósseo no PARAMEDIC-3.<br>Tentar venoso primeiro; intraósseo se falhar ou demorar.",
+   "fonte": "Couper NEJM 2024 · Vallentin NEJM 2024",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Cálcio empírico na PCR (COCA)?",
+   "verso": "Cálcio IV na PCR extra-hospitalar: estudo interrompido por <b>sinal de dano</b> (menos retorno da circulação e pior sobrevida, sem significância).<br>Usar só em hipercalemia, hipocalcemia ou intoxicação por bloqueador de cálcio.",
+   "fonte": "Vallentin JAMA 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Vasopressina + metilprednisolona na PCR intra-hospitalar (VAM-IHCA)?",
+   "verso": "Mais retorno da circulação (<b>42% × 33%</b>), <b>sem</b> melhora de sobrevida ou desfecho neurológico.",
+   "fonte": "Andersen JAMA 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Compressão mecânica (LUCAS/AutoPulse) de rotina?",
+   "verso": "<b>Sem benefício</b> sobre a compressão manual de alta qualidade (LINC, PARAMEDIC, CIRC).<br>Útil em transporte, hemodinâmica e ECPR.",
+   "fonte": "AHA 2020",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 PCR por embolia pulmonar: conduta específica?",
+   "verso": "Trombólise durante a RCP: <b>alteplase 50 mg em bolus</b> (repetir em 15 min) ou tenecteplase por peso; manter RCP por <b>60–90 min</b> após.<br><ul><li>Alternativas: embolectomia, ECMO venoarterial</li></ul>",
+   "fonte": "ERC 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 PCR na hipotermia acidental: ajustes?",
+   "verso": "<ul><li><b>&lt; 30 °C</b>: até <b>3 choques</b>; <b>sem drogas</b></li><li><b>30–35 °C</b>: dobrar o intervalo entre as doses</li><li>Reaquecimento extracorpóreo; pode-se usar RCP intermitente no resgate difícil se &lt; 28 °C</li></ul>",
+   "fonte": "ERC 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 PCR após cirurgia cardíaca: protocolo específico?",
+   "verso": "<ul><li>Fibrilação/taquicardia ventricular: <b>3 choques seguidos</b> antes das compressões</li><li>Assistolia/bradicardia: <b>marca-passo</b> pelos fios epicárdicos</li><li><b>Reesternotomia em até 5 minutos</b> se não houver resposta</li><li>Evitar adrenalina em dose cheia (hipertensão e sangramento ao retorno)</li></ul>",
+   "fonte": "STS 2017 · ERC 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Parada cardiorrespiratória",
+   "frente": "🔥 Ultrassom durante a RCP: regra?",
+   "verso": "Usar só nas <b>pausas de checagem de ritmo, por ≤ 10 s</b>; buscar tamponamento, ventrículo direito dilatado, hipovolemia e atividade cardíaca.",
+   "pegadinha": "Ausência de atividade cardíaca tem prognóstico ruim, mas não deve ser usada isoladamente para encerrar.",
+   "fonte": "ERC 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🔥 Coronariografia imediata após PCR sem supra de ST?",
+   "verso": "<b>COACT e TOMAHAWK</b>: sem benefício sobre a estratégia tardia/seletiva.<br>Imediata apenas com <b>supra de ST</b> ou instabilidade elétrica/hemodinâmica de provável causa coronária.",
+   "fonte": "Lemkes 2019 · Desch 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🔥 Síndrome pós-PCR: quatro componentes?",
+   "verso": "<ul><li><b>Lesão cerebral</b> anóxica</li><li><b>Disfunção miocárdica</b> (atordoamento, pico em 24 h, reversível em 48–72 h)</li><li><b>Resposta sistêmica de isquemia-reperfusão</b> (tipo sepse)</li><li><b>Doença precipitante</b> persistente</li></ul>",
+   "fonte": "ILCOR 2008",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🔥 Antibiótico profilático após PCR com controle de temperatura (ANTHARTIC)?",
+   "verso": "Amoxicilina-clavulanato por 2 dias (ritmo chocável, 32–34 °C): pneumonia precoce <b>19% × 34%</b>, sem efeito em mortalidade.",
+   "fonte": "François NEJM 2019",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🔥 Descargas rítmicas e periódicas no EEG após PCR: tratar agressivamente (TELSTAR)?",
+   "verso": "Suprimir a atividade com anticonvulsivantes e sedação <b>não melhorou</b> o desfecho neurológico.",
+   "fonte": "Ruijter NEJM 2022",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🔥 Mioclonia após PCR: é sempre sinal de mau prognóstico?",
+   "verso": "<ul><li><b>Estado mioclônico</b> generalizado em até 72 h: mau prognóstico (parte da avaliação multimodal)</li><li><b>Síndrome de Lance-Adams</b>: mioclonia de ação, tardia, com <b>consciência preservada</b> → prognóstico bom</li></ul>EEG para distinguir.",
+   "fonte": "ERC/ESICM 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Cuidados pós-PCR",
+   "frente": "🔥 Metas de suporte nas primeiras 72 h após PCR?",
+   "verso": "<ul><li>Saturação <b>94–98%</b> (evitar hipóxia e hiperóxia); PaCO₂ <b>35–45</b></li><li>PAM <b>&gt; 65</b> e diurese &gt; 0,5 mL/kg/h</li><li>Glicemia <b>140–180</b></li><li>Temperatura <b>≤ 37,5 °C</b> por ≥ 72 h; tratar convulsões</li></ul>",
+   "fonte": "ERC/ESICM 2021",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Coronária e choque cardiogênico",
+   "frente": "🔥 Choque cardiogênico no infarto: tratar só a culpada (CULPRIT-SHOCK)?",
+   "verso": "Angioplastia <b>apenas da lesão culpada</b> × multiarterial imediata: morte ou diálise em 30 dias <b>45,9% × 55,4%</b>.",
+   "fonte": "Thiele NEJM 2017",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Coronária e choque cardiogênico",
+   "frente": "🔥 Infarto de ventrículo direito: tríade e manejo?",
+   "verso": "<b>Hipotensão + turgência jugular + pulmões limpos</b>; supra em <b>V4R</b>.<br><ul><li>Manter pré-carga (volume com cautela); <b>evitar nitrato, diurético e morfina</b></li><li>Preservar sincronia AV (marca-passo sequencial se bloqueio); cardioverter fibrilação atrial</li><li>Inotrópico se necessário; reperfusão</li></ul>",
+   "fonte": "ESC 2023",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Coronária e choque cardiogênico",
+   "frente": "🔥 Insuficiência mitral aguda por ruptura de músculo papilar: qual músculo e por quê?",
+   "verso": "<b>Posteromedial</b>, por ter <b>irrigação única</b> (coronária direita ou circunflexa); o anterolateral tem irrigação dupla.<br><ul><li>Infarto inferior pequeno + edema agudo de pulmão; sopro pode ser discreto</li></ul>Vasodilatador, balão intra-aórtico e cirurgia.",
+   "fonte": "AHA 2021 Complicações mecânicas",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Coronária e choque cardiogênico",
+   "frente": "🔥 Ruptura de parede livre do ventrículo: apresentação?",
+   "verso": "Dias 1–5 (primeiro infarto, idoso, mulher, sem colaterais): <b>tamponamento súbito com atividade elétrica sem pulso</b>.<br><ul><li>Forma subaguda (contida): dor pericárdica, derrame, hipotensão → cirurgia de emergência</li><li><b>Pseudoaneurisma</b>: colo estreito, risco alto de ruptura → operar</li></ul>",
+   "fonte": "AHA 2021 Complicações mecânicas",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Coronária e choque cardiogênico",
+   "frente": "🔥 Ritmo idioventricular acelerado após reperfusão?",
+   "verso": "Ritmo ventricular a <b>50–110 bpm</b>, QRS largo, bem tolerado: <b>marcador de reperfusão</b>; não tratar.",
+   "fonte": "ESC 2023",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Amiodarona IV: esquema e causa da hipotensão?",
+   "verso": "<b>150 mg em 10 min → 1 mg/min por 6 h → 0,5 mg/min por 18 h</b>.<br><ul><li>A hipotensão da infusão rápida vem do <b>solvente (polissorbato 80)</b></li><li>Flebite em veia periférica; prolonga QT com baixo risco de torsades</li></ul>",
+   "fonte": "AHA 2020",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Taquicardia ventricular polimórfica com QT normal?",
+   "verso": "Pensar em <b>isquemia aguda</b>: betabloqueador, amiodarona e revascularização.",
+   "pegadinha": "Diferente do torsades (QT longo): aqui magnésio e marca-passo não são o foco.",
+   "fonte": "ESC 2022",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Bloqueio AV total no infarto: inferior × anterior?",
+   "verso": "<table class=t><tr><th></th><th>Inferior</th><th>Anterior</th></tr><tr><td>Nível</td><td>Nó AV</td><td><b>Infra-hissiano</b></td></tr><tr><td>Escape</td><td>QRS estreito, 40–60</td><td><b>QRS largo, &lt; 40</b>, instável</td></tr><tr><td>Evolução</td><td>Transitório, responde a atropina</td><td>Extenso, alta mortalidade</td></tr><tr><td>Marca-passo</td><td>Só se sintomático</td><td><b>Sim</b></td></tr></table>",
+   "fonte": "ESC 2021 Estimulação cardíaca",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Marca-passo transvenoso provisório: falha de captura × falha de sensibilidade?",
+   "verso": "<ul><li><b>Falha de captura</b>: espícula sem QRS → aumentar a corrente, reposicionar o eletrodo, corrigir acidose/hipercalemia</li><li><b>Undersensing</b>: espículas sobre o ritmo próprio → aumentar a sensibilidade (reduzir o valor em mV)</li><li><b>Oversensing</b>: inibição indevida → reduzir a sensibilidade (aumentar o mV)</li></ul>Ajuste: corrente em <b>2–3 vezes o limiar de captura</b>.",
+   "fonte": "Manuais de estimulação cardíaca",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Fibrilação atrial pré-excitada: o que não dar?",
+   "verso": "QRS largo, irregular e muito rápido: <b>evitar adenosina, betabloqueador, bloqueador de cálcio, digoxina</b> (e amiodarona IV) → podem acelerar a via acessória e causar fibrilação ventricular.<br><b>Cardioversão elétrica</b>; estável: procainamida ou ibutilida.",
+   "fonte": "AHA 2015",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Adenosina: quando reduzir a dose e quando ela falha?",
+   "verso": "<ul><li><b>Reduzir para 3 mg</b>: acesso central, <b>transplantado cardíaco</b>, uso de <b>dipiridamol</b> ou carbamazepina</li><li><b>Menos eficaz</b>: teofilina e cafeína (antagonistas)</li><li>Evitar em asma grave</li></ul>",
+   "fonte": "AHA 2020",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Fibrilação atrial nova na sepse: conduta?",
+   "verso": "Tratar o gatilho (volume, eletrólitos, reduzir catecolamina β).<br><ul><li>Instável pela arritmia: cardioversão elétrica (recorrência alta)</li><li>Controle de frequência/ritmo: <b>betabloqueador de ação curta</b> ou <b>amiodarona</b></li><li>Anticoagulação: individualizar (benefício incerto na fase aguda)</li></ul>",
+   "fonte": "Walkey 2016 · ESC 2024",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Taquicardia atrial multifocal: critérios e tratamento?",
+   "verso": "<b>≥ 3 morfologias de onda P</b>, intervalos PR variáveis, FC &gt; 100; típica do <b>DPOC descompensado</b>.<br>Tratar a hipoxemia e a doença de base; magnésio; verapamil ou betabloqueador se necessário. Cardioversão não funciona.",
+   "fonte": "ESC 2019",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "Arritmias",
+   "frente": "🔥 Tempestade elétrica: definição e escalonamento?",
+   "verso": "<b>3 ou mais episódios</b> de taquicardia/fibrilação ventricular sustentada (ou choques apropriados do desfibrilador) em <b>24 h</b>.<br><ul><li>Corrigir gatilhos: isquemia, potássio, magnésio, QT longo, fármacos</li><li><b>Amiodarona + betabloqueador</b> — o <b>propranolol</b> foi superior ao metoprolol</li><li><b>Sedação profunda e intubação</b> (cortam o tônus adrenérgico)</li><li>Refratária: lidocaína, estimulação em overdrive, <b>bloqueio do gânglio estrelado</b>, ablação, suporte circulatório mecânico</li></ul>",
+   "pegadinha": "Catecolaminas e dor <b>alimentam</b> a tempestade — reduzir estímulo adrenérgico é tratamento.",
+   "fonte": "Chatzidou JACC 2018 · ESC Arritmias Ventriculares 2022",
+   "imagem": "th_06_d67ca1fd.png",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Trombólise na embolia pulmonar de alto risco: doses e contraindicações absolutas?",
+   "verso": "<b>Alteplase 100 mg em 2 h</b> (ou 0,6 mg/kg em 15 min, máx. 50 mg, no colapso).<br><ul><li>Absolutas: AVC hemorrágico prévio, AVC isquêmico &lt; 6 meses, neoplasia do SNC, trauma/cirurgia maior &lt; 3 semanas, sangramento ativo, diátese hemorrágica</li></ul>",
+   "fonte": "ESC 2019",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Insuficiência aguda do ventrículo direito: princípios?",
+   "verso": "<ul><li>Evitar <b>hipoxemia, hipercapnia e acidose</b> (elevam a resistência pulmonar)</li><li>Volume com muita cautela (ventrículo já dilatado)</li><li><b>Noradrenalina/vasopressina</b> para manter perfusão coronária direita</li><li>Inotrópico (dobutamina, milrinona); vasodilatador pulmonar inalatório</li><li>Ventilação: PEEP e platô baixos; evitar intubar se possível</li></ul>",
+   "fonte": "Harjola 2016",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Tamponamento com pulso paradoxal ausente: quando?",
+   "verso": "<ul><li>Disfunção grave do ventrículo esquerdo, <b>insuficiência aórtica</b>, comunicação interatrial</li><li>Hipertrofia ventricular direita/hipertensão pulmonar</li><li>Tamponamento regional (pós-operatório)</li></ul>",
+   "fonte": "Spodick NEJM 2003",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Estenose aórtica crítica em choque: hemodinâmica?",
+   "verso": "Débito fixo e ventrículo hipertrofiado: manter <b>ritmo sinusal, FC baixa-normal, pré-carga e pós-carga</b>.<br><ul><li>Hipotensão: <b>fenilefrina ou noradrenalina</b>; evitar vasodilatador e taquicardia</li><li>Resgate: valvoplastia por balão ou implante transcateter</li></ul>",
+   "fonte": "Revisões de valvopatia no crítico",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Obstrução dinâmica da via de saída do ventrículo esquerdo no choque?",
+   "verso": "Ventrículo pequeno e hiperdinâmico (hipovolemia, <b>inotrópico</b>, Takotsubo, hipertrofia septal): movimento sistólico anterior da mitral e gradiente.<br>Tratar com <b>volume, suspender inotrópico, betabloqueador e fenilefrina</b>.",
+   "pegadinha": "Dar mais dobutamina piora o choque.",
+   "fonte": "Chockalingam 2009",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Sangramento após cirurgia cardíaca: quando reoperar?",
+   "verso": "Débito do dreno <b>&gt; 400 mL/h por 1 h</b>, <b>&gt; 300 mL/h por 2–3 h</b> ou <b>&gt; 200 mL/h por 4 h</b>; ou tamponamento.",
+   "fonte": "Kirklin",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Vasoplegia após circulação extracorpórea: fatores e tratamento?",
+   "verso": "Resistência sistêmica baixa com débito normal/alto; risco com <b>IECA pré-operatório</b>, tempo longo de bypass, fração de ejeção baixa.<br>Noradrenalina → <b>vasopressina</b> → <b>azul de metileno</b> (precoce funciona melhor) ou hidroxocobalamina.",
+   "fonte": "Levin 2009",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Miocardite fulminante: conduta?",
+   "verso": "Choque cardiogênico de início agudo, ventrículo <b>não dilatado e espessado</b> (edema), arritmias.<br><ul><li><b>Suporte mecânico precoce</b> (ECMO venoarterial, bomba microaxial)</li><li><b>Biópsia endomiocárdica</b> para excluir células gigantes e eosinofílica (mudam o tratamento)</li></ul>",
+   "fonte": "AHA 2020",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Trombólise na embolia pulmonar de risco intermediário-alto (PEITHO)?",
+   "verso": "Tenecteplase + heparina × heparina em <b>1.005</b> normotensos com disfunção de VD <b>e</b> troponina elevada.<br><ul><li>Morte ou descompensação em 7 dias: <b>2,6% × 5,6%</b> (ganho à custa de menos descompensação)</li><li><b>Sangramento maior extracraniano 6,3% × 1,2%</b>; <b>AVC hemorrágico 2,0% × 0,2%</b></li><li>Mortalidade igual; sem ganho funcional no seguimento longo</li><li>Conduta: <b>anticoagular e vigiar</b>; trombólise de <b>resgate</b> se descompensar</li></ul>",
+   "pegadinha": "Risco intermediário-alto <b>não</b> é indicação de trombólise sistêmica de rotina — risco maior acima de 75 anos.",
+   "fonte": "Meyer NEJM 2014 · Konstantinides JACC 2017",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  },
+  {
+   "subtema": "IC, TEP, valvas e pericárdio",
+   "frente": "🔥 Embolia pulmonar de alto risco com contraindicação ou falha da trombólise: opções?",
+   "verso": "<ul><li><b>Embolectomia cirúrgica</b> ou <b>tratamento por cateter</b> (aspiração, fragmentação, trombólise local em dose baixa)</li><li><b>ECMO venoarterial</b> como ponte no choque refratário ou na PCR, sempre associada a uma estratégia de reperfusão</li><li>Suporte do VD: <b>noradrenalina</b> precoce, volume com parcimônia (até 500 mL), evitar intubação e pressão positiva quando possível</li><li>Decisão por equipe multidisciplinar de resposta</li></ul>",
+   "pegadinha": "Volume em excesso distende o VD, desvia o septo e <b>reduz</b> o débito.",
+   "fonte": "ESC Embolia Pulmonar 2019",
+   "tags": [
+    "TH360X",
+    "X06"
+   ]
+  }
+ ],
+ "midia": {
+  "th_06_d67ca1fd.png": "data/media/th_06_d67ca1fd.png"
+ }
+}

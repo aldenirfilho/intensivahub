@@ -1,0 +1,306 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::05 💤 Sedação, Analgesia e Via Aérea",
+ "cards": [
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Dexmedetomidina como sedativo primário precoce (SPICE III)?",
+   "verso": "Mortalidade em 90 dias <b>29,1% × 29,1%</b>; mais bradicardia e hipotensão; a maioria precisou de propofol associado.<br><ul><li>Interação com a idade: possível benefício em <b>&gt; 65 anos</b> e dano nos mais jovens</li></ul>",
+   "fonte": "Shehabi NEJM 2019",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Dexmedetomidina × propofol na sepse ventilada (MENDS2)?",
+   "verso": "<b>Sem diferença</b> em dias sem delirium ou coma, dias livres de ventilação ou mortalidade em 90 dias.",
+   "fonte": "Hughes NEJM 2021",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Sem sedação × sedação leve com despertar diário (NONSEDA)?",
+   "verso": "Mortalidade em 90 dias <b>42,4% × 37,0%</b> (sem diferença significativa); resultado depende de equipe 1:1 para tolerar ausência de sedação.",
+   "fonte": "Olsen NEJM 2020",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Midazolam e morfina na insuficiência renal: por que acumulam?",
+   "verso": "<ul><li>Midazolam → <b>α-hidroximidazolam glicuronídeo</b> (ativo, excreção renal)</li><li>Morfina → <b>morfina-6-glicuronídeo</b> (ativo, depressor respiratório)</li></ul>Preferir fentanil/remifentanil e propofol; reduzir doses.",
+   "fonte": "Farmacologia do paciente crítico",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Meia-vida contexto-dependente: implicação prática?",
+   "verso": "Tempo para a concentração cair 50% <b>após parar uma infusão</b>; aumenta com a duração nas drogas lipofílicas.<br><ul><li><b>Fentanil</b>: sobe muito após horas de infusão (despertar lento)</li><li><b>Remifentanil</b>: ~3–5 min, independente da duração (esterases plasmáticas)</li></ul>",
+   "pegadinha": "Remifentanil: hiperalgesia e tolerância aguda ao suspender.",
+   "fonte": "Hughes 1992",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Cetamina na UTI: efeitos úteis e adversos?",
+   "verso": "<ul><li>Analgésico poupador de opioide (0,1–0,5 mg/kg/h); <b>broncodilatador</b>; mantém drive e tônus simpático</li><li>Adversos: sialorreia, alucinações, taquicardia/hipertensão</li></ul>",
+   "pegadinha": "No paciente <b>depletado de catecolaminas</b>, o efeito inotrópico negativo direto pode causar hipotensão.",
+   "fonte": "PADIS 2018",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Etomidato e eixo adrenal?",
+   "verso": "Uma <b>dose única</b> inibe a <b>11β-hidroxilase</b> por 24–72 h.<br><ul><li>Mais insuficiência adrenal; metanálise de 2023 sugeriu pequeno aumento de mortalidade (ainda debatido)</li></ul>",
+   "fonte": "Chan 2012 · Kotani 2023",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Sedação inalatória com isoflurano na UTI (SED001)?",
+   "verso": "<b>Não inferior ao propofol</b> em manter a sedação-alvo por até 54 h; despertar mais rápido e menor consumo de opioide.<br><ul><li>Cuidados: hipertermia maligna, espaço morto do dispositivo, exaustão de gases</li></ul>",
+   "fonte": "Meiser Lancet Respir Med 2021",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Abstinência iatrogênica de opioide e benzodiazepínico: prevenção?",
+   "verso": "Risco após <b>&gt; 5–7 dias</b> de infusão em dose alta.<br><ul><li>Reduzir <b>10–20% ao dia</b>; converter para via enteral (metadona, lorazepam/clonidina)</li><li>Sinais: agitação, taquicardia, febre, diarreia, midríase, bocejos</li></ul>",
+   "fonte": "PADIS 2018",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Analgesia e sedação",
+   "frente": "🔥 Remimazolam: perfil farmacológico?",
+   "verso": "Benzodiazepínico de ação <b>ultracurta</b>, hidrolisado por <b>esterases teciduais</b> em metabólito inativo.<br><ul><li>Início em 1–3 min; meia-vida contexto-sensível <b>~7 min</b>, pouco dependente do rim</li><li><b>Antagonizável com flumazenil</b></li><li>Menos hipotensão e menos dor à injeção que o propofol</li><li>Na UTI a evidência ainda é <b>limitada</b></li></ul>",
+   "pegadinha": "Continua sendo benzodiazepínico: as diretrizes seguem preferindo <b>propofol ou dexmedetomidina</b> para sedação contínua.",
+   "fonte": "Kilpatrick Front Pharmacol 2021 · PADIS 2018",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Delirium e PICS",
+   "frente": "🔥 Haloperidol no delirium da UTI: três ensaios?",
+   "verso": "<ul><li><b>REDUCE</b> (profilático): sem benefício</li><li><b>MIND-USA</b> (haloperidol ou ziprasidona): sem redução de delirium/coma</li><li><b>AID-ICU</b>: dias vivo fora do hospital iguais; mortalidade 36,3% × 43,3%</li></ul>Não usar de rotina; reservar para agitação com risco, em dose baixa e curta.",
+   "fonte": "REDUCE 2018 · MIND-USA 2018 · AID-ICU 2022",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Delirium e PICS",
+   "frente": "🔥 Dexmedetomidina no delirium agitado que impede a extubação (DahLIA)?",
+   "verso": "Aumentou as horas livres de ventilação em 7 dias e acelerou a resolução do delirium.",
+   "fonte": "Reade JAMA 2016",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Delirium e PICS",
+   "frente": "🔥 Pacote ABCDEF?",
+   "verso": "<ul><li><b>A</b> Avaliar e tratar dor</li><li><b>B</b> Despertar e respiração espontânea (ambos, diariamente)</li><li><b>C</b> Escolha da sedação e analgesia</li><li><b>D</b> Delirium: avaliar, prevenir e manejar</li><li><b>E</b> Mobilização precoce (early mobility)</li><li><b>F</b> Família engajada</li></ul>Adesão maior associou-se a menos morte, delirium e ventilação (efeito dose-resposta).",
+   "fonte": "Pun 2019",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Delirium e PICS",
+   "frente": "🔥 Mobilização muito precoce e intensa (TEAM trial)?",
+   "verso": "<b>Não aumentou</b> os dias vivo fora do hospital e teve <b>mais eventos adversos (9,2% × 4,1%)</b>: arritmia, dessaturação, hipotensão.<br>Mobilizar cedo, mas com progressão e segurança.",
+   "fonte": "TEAM NEJM 2022",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Bloqueio neuromuscular",
+   "frente": "🔥 Cisatracúrio: por que é o bloqueador preferido em infusão?",
+   "verso": "Degradação por <b>eliminação de Hofmann</b> (pH e temperatura), <b>independente de rim e fígado</b>; não libera histamina.",
+   "pegadinha": "Hipotermia e acidose prolongam o efeito.",
+   "fonte": "Farmacologia dos bloqueadores neuromusculares",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Bloqueio neuromuscular",
+   "frente": "🔥 Rocurônio na sequência rápida e reversão?",
+   "verso": "<b>1,0–1,2 mg/kg</b> dá condições em ~60 s (duração 45–70 min).<br><ul><li>Reversão imediata de bloqueio profundo: <b>sugamadex 16 mg/kg</b></li><li>Bloqueio moderado (2 respostas no TOF): 2 mg/kg; profundo: 4 mg/kg</li></ul>",
+   "fonte": "Farmacologia dos bloqueadores neuromusculares",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Bloqueio neuromuscular",
+   "frente": "🔥 Bloqueio neuromuscular prolongado: fatores que potencializam?",
+   "verso": "<ul><li><b>Aminoglicosídeos, polimixinas, clindamicina</b></li><li><b>Hipermagnesemia</b>, hipocalemia, hipocalcemia, acidose, hipotermia</li><li>Miastenia; corticoide associado (miopatia)</li></ul>",
+   "fonte": "Farmacologia dos bloqueadores neuromusculares",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Bloqueio neuromuscular",
+   "frente": "🔥 Sugamadex: dose conforme a profundidade do bloqueio?",
+   "verso": "<table class=t><tr><th>Situação</th><th>Dose</th></tr><tr><td>Bloqueio moderado (sequência de quatro com 2 ou mais respostas)</td><td><b>2 mg/kg</b></td></tr><tr><td>Bloqueio profundo (contagem pós-tetânica 1–2)</td><td><b>4 mg/kg</b></td></tr><tr><td>Reversão imediata após rocurônio 1,2 mg/kg</td><td><b>16 mg/kg</b></td></tr></table><ul><li>Encapsula <b>rocurônio e vecurônio</b>; <b>não</b> reverte cisatracúrio, atracúrio nem succinilcolina</li><li>Eliminação renal: cautela com clearance &lt; 30 mL/min</li><li>Adversos: bradicardia, anafilaxia; reduz a eficácia de contraceptivo hormonal por 7 dias</li></ul>",
+   "pegadinha": "Se precisar bloquear de novo nas 24 h seguintes, usar <b>cisatracúrio</b> ou succinilcolina.",
+   "fonte": "Keating Drugs 2016 · bula",
+   "imagem": "th_05_279e9de7.png",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Intubação no paciente crítico: o que mostrou o INTUBE?",
+   "verso": "Evento adverso maior em <b>45,2%</b>: instabilidade cardiovascular <b>42,6%</b>, hipoxemia grave <b>9,3%</b>, parada cardíaca <b>3,1%</b>.<br><ul><li>Falha na primeira tentativa em ~20%</li></ul>",
+   "fonte": "Russotto JAMA 2021",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Pré-oxigenação com VNI antes da intubação (PREOXI)?",
+   "verso": "VNI × máscara: hipoxemia (saturação &lt; 85%) <b>9,1% × 18,5%</b>, sem aumento de aspiração.",
+   "fonte": "Gibbs NEJM 2024",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Videolaringoscopia × laringoscopia direta no crítico (DEVICE)?",
+   "verso": "Sucesso na primeira tentativa <b>85,1% × 70,8%</b>.",
+   "fonte": "Prekker NEJM 2023",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Cetamina × etomidato na indução do paciente crítico?",
+   "verso": "<ul><li><b>EvK</b>: sobrevida em 7 dias maior com cetamina (85,1% × 77,3%); em 28 dias, igual</li><li>Etomidato: mais estabilidade imediata, supressão adrenal</li><li>Cetamina: cuidado no choque com reserva simpática esgotada</li></ul>",
+   "fonte": "Matchett 2022",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Escore MACOCHA?",
+   "verso": "<table class=t><tr><th>Item</th><th>Pontos</th></tr><tr><td>Mallampati III–IV</td><td><b>5</b></td></tr><tr><td>Apneia obstrutiva do sono</td><td>2</td></tr><tr><td>Mobilidade cervical reduzida</td><td>1</td></tr><tr><td>Abertura de boca &lt; 3 cm</td><td>1</td></tr><tr><td>Coma</td><td>1</td></tr><tr><td>Hipoxemia grave (&lt; 80%)</td><td>1</td></tr><tr><td>Operador não anestesista</td><td>1</td></tr></table><b>≥ 3</b> prediz intubação difícil na UTI.",
+   "fonte": "De Jong 2013",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Hipotensão após a intubação: causas a lembrar?",
+   "verso": "<ul><li>Indutor + perda do tônus simpático</li><li><b>Pressão positiva</b> reduzindo o retorno venoso (hipovolemia, falência direita)</li><li><b>Auto-PEEP</b> por ventilação manual rápida</li><li>Pneumotórax hipertensivo; acidose agravada pela apneia</li></ul>",
+   "fonte": "Revisões de via aérea no crítico",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Traqueostomia percutânea: contraindicações relativas?",
+   "verso": "<ul><li>Anatomia desfavorável (pescoço curto, bócio, traqueostomia prévia), instabilidade cervical</li><li>Coagulopatia não corrigida</li><li><b>Suporte ventilatório alto</b> (PEEP &gt; 10–12, FiO₂ &gt; 0,6)</li><li>Infecção no local, hipertensão intracraniana não controlada</li></ul>",
+   "fonte": "Revisões de traqueostomia percutânea",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Sangramento por fístula traqueoinominada: conduta imediata?",
+   "verso": "Sangramento \"sentinela\" pela traqueostomia, em geral 3 dias a 6 semanas após.<br><ul><li><b>Hiperinsuflar o cuff</b></li><li>Se persistir: intubação orotraqueal e <b>compressão digital</b> da artéria contra o esterno pelo estoma (manobra de Utley)</li><li>Cirurgia de emergência</li></ul>",
+   "fonte": "Jones 1976",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Critérios para decanulação?",
+   "verso": "<ul><li>Causa da traqueostomia resolvida; sem ventilação por ≥ 24–48 h</li><li><b>Tosse eficaz</b> (pico de fluxo &gt; 160 L/min) e secreção controlada</li><li>Deglutição segura</li><li>Tolerância à <b>oclusão da cânula</b> ou válvula de fala; via aérea alta pérvia</li></ul>",
+   "fonte": "Consensos de decanulação",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Disfagia após a extubação?",
+   "verso": "Acomete <b>pelo menos 1 em cada 8</b> extubados (12,4% no maior estudo prospectivo) e aumenta a mortalidade; a aspiração costuma ser <b>silenciosa</b>.<br>Triagem de deglutição antes de liberar dieta; avaliação instrumental se falhar.",
+   "fonte": "Schefold 2017 (DYnAMICS)",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  },
+  {
+   "subtema": "Via aérea e traqueostomia",
+   "frente": "🔥 Pressão cricoide na sequência rápida (IRIS)?",
+   "verso": "Ensaio francês com <b>3.472</b> pacientes: manobra de Sellick × manobra simulada.<br><ul><li>Aspiração: <b>0,6% × 0,5%</b> — não inferioridade <b>não demonstrada</b> (inconclusivo)</li><li>Com a manobra: <b>pior visão da glote</b> (Cormack-Lehane 3–4 em 10% × 5%) e intubação mais demorada</li><li>Prática atual: <b>não rotineira</b>; se usada, <b>soltar</b> diante de dificuldade para ver, ventilar ou passar o tubo</li></ul>",
+   "pegadinha": "A força correta raramente é aplicada e pode ocluir a <b>via aérea</b>, não o esôfago.",
+   "fonte": "Birenbaum JAMA Surg 2019",
+   "tags": [
+    "TH360X",
+    "X05"
+   ]
+  }
+ ],
+ "midia": {
+  "th_05_279e9de7.png": "data/media/th_05_279e9de7.png"
+ }
+}

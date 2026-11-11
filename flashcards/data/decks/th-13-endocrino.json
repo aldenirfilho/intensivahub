@@ -1,0 +1,203 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::13 🍬 Endócrino e Metabólico",
+ "cards": [
+  {
+   "subtema": "Crises hiperglicêmicas e glicemia",
+   "frente": "🔥 Cetoacidose diabética: critérios e gravidade (consenso 2024)?",
+   "verso": "<b>Glicemia ≥ 200</b> (ou diabetes prévio) + <b>β-hidroxibutirato ≥ 3 mmol/L</b> + <b>pH &lt; 7,30 e/ou bicarbonato &lt; 18</b>.<br><table class=t><tr><th>Gravidade</th><th>pH</th><th>Bicarbonato</th></tr><tr><td>Leve</td><td>7,25–7,30</td><td>15–18</td></tr><tr><td>Moderada</td><td>7,00–7,25</td><td>10–15</td></tr><tr><td>Grave</td><td><b>&lt; 7,00</b></td><td><b>&lt; 10</b></td></tr></table>",
+   "fonte": "ADA/EASD 2024",
+   "imagem": "th_13_0c04f14e.png",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Crises hiperglicêmicas e glicemia",
+   "frente": "🔥 Cetoacidose: regras do potássio?",
+   "verso": "<table class=t><tr><th>Potássio (mEq/L)</th><th>Conduta</th></tr><tr><td><b>&lt; 3,5</b></td><td><b>Não iniciar insulina</b>; repor 10–20 mEq/h até &gt; 3,5</td></tr><tr><td>3,5–5,0</td><td>Insulina + potássio em cada litro de fluido (10–30 mEq/L) para manter 4–5</td></tr><tr><td>&gt; 5,0</td><td>Insulina sem potássio; dosar a cada 2 h</td></tr></table>O déficit corporal é grande mesmo com potássio sérico normal ou alto.",
+   "fonte": "ADA/EASD 2024",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Crises hiperglicêmicas e glicemia",
+   "frente": "🔥 Insulina na cetoacidose: ajustes ao longo do tratamento?",
+   "verso": "<ul><li><b>0,1 U/kg/h</b> (bolus opcional); meta de queda da glicemia 50–75 mg/dL/h</li><li>Glicemia <b>&lt; 250</b>: reduzir para <b>0,05 U/kg/h</b> e associar <b>glicose 5–10%</b></li><li>Manter a infusão até resolver a <b>cetose</b>, não a glicemia</li><li>Insulina basal SC <b>1–2 h antes</b> de desligar a bomba</li></ul>",
+   "fonte": "ADA/EASD 2024",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Crises hiperglicêmicas e glicemia",
+   "frente": "🔥 Sódio corrigido pela glicemia e osmolaridade efetiva?",
+   "verso": "<ul><li>Sódio corrigido = sódio medido + <b>1,6 mEq/L para cada 100 mg/dL</b> de glicose acima de 100 (2,4 se glicemia &gt; 400)</li><li>Osmolaridade efetiva = <b>2 × sódio + glicose ÷ 18</b> (a ureia não entra)</li></ul>",
+   "fonte": "Katz 1973 · Hillier 1999",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Crises hiperglicêmicas e glicemia",
+   "frente": "🔥 Controle glicêmico estrito sem nutrição parenteral precoce (TGC-fast)?",
+   "verso": "Alvo 80–110 guiado por algoritmo, com hipoglicemia rara: <b>sem diferença</b> em tempo de UTI ou mortalidade.",
+   "fonte": "Gunst NEJM 2023",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Crises hiperglicêmicas e glicemia",
+   "frente": "🔥 Glicemia capilar no paciente crítico: quando não confiar?",
+   "verso": "<ul><li><b>Choque, vasopressor e edema</b> (má perfusão periférica)</li><li>Anemia grave, hipoxemia</li><li><b>Maltose/icodextrina</b> e doses altas de vitamina C (falso alto em alguns aparelhos)</li></ul>Usar amostra arterial ou venosa em gasômetro/laboratório.",
+   "fonte": "SCCM 2012",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Crises hiperglicêmicas e glicemia",
+   "frente": "🔥 Variabilidade glicêmica e hipoglicemia: importância?",
+   "verso": "<b>Hipoglicemia</b> (mesmo moderada, &lt; 70) e <b>grande variabilidade</b> associam-se de forma independente a maior mortalidade na UTI.<br><ul><li>Diabético mal controlado tolera pior alvos baixos (hipoglicemia relativa)</li></ul>",
+   "fonte": "NICE-SUGAR 2012 · Krinsley 2008",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Adrenal e tireoide",
+   "frente": "🔥 Insuficiência de corticoide relacionada à doença crítica (CIRCI): critérios e limites?",
+   "verso": "Cortisol aleatório <b>&lt; 10 µg/dL</b> ou aumento <b>&lt; 9 µg/dL</b> após 250 µg de ACTH.<br><ul><li>Não dosar cortisol livre de rotina; etomidato interfere</li></ul>",
+   "pegadinha": "Diretriz: <b>não usar o teste</b> para decidir corticoide no choque séptico; decidir pela clínica.",
+   "fonte": "SCCM/ESICM 2017",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Adrenal e tireoide",
+   "frente": "🔥 Crise adrenal: esquema de hidrocortisona?",
+   "verso": "<b>100 mg IV em bolus → 200 mg/24 h</b> (infusão contínua ou 50 mg a cada 6 h) + salina e glicose.<br><ul><li><b>Fludrocortisona é desnecessária</b> com hidrocortisona ≥ 50 mg/dia</li><li>Dexametasona não interfere na dosagem de cortisol (útil se o diagnóstico ainda não foi colhido)</li></ul>",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Adrenal e tireoide",
+   "frente": "🔥 Hemorragia adrenal bilateral: quando suspeitar?",
+   "verso": "Choque refratário com dor em flanco/abdome, febre e queda de hemoglobina em paciente com <b>anticoagulante, síndrome antifosfolípide, trombocitopenia por heparina, sepse meningocócica (Waterhouse-Friderichsen)</b> ou pós-operatório.<br>Hidrocortisona empírica; tomografia confirma.",
+   "fonte": "Rao 1989",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Adrenal e tireoide",
+   "frente": "🔥 Tempestade tireoidiana: doses?",
+   "verso": "<ul><li><b>Propranolol</b> 60–80 mg oral a cada 4 h (esmolol IV se insuficiência cardíaca)</li><li><b>Propiltiouracil</b> 500–1.000 mg de ataque → 250 mg a cada 4 h (também bloqueia a conversão de T4 em T3)</li><li><b>Iodo</b> (Lugol ou iodeto de potássio) <b>≥ 1 h depois</b> da tionamida</li><li><b>Hidrocortisona</b> 300 mg → 100 mg a cada 8 h</li><li>Colestiramina; plasmaférese se refratária</li></ul>",
+   "pegadinha": "Evitar <b>ácido acetilsalicílico</b> (desloca hormônio da proteína carreadora).",
+   "fonte": "ATA 2016",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Adrenal e tireoide",
+   "frente": "🔥 Crise de feocromocitoma na UTI: o que usar e o que evitar?",
+   "verso": "<ul><li><b>Fentolamina</b> em bolus ou nitroprussiato/nicardipina; sulfato de magnésio</li><li>Betabloqueador <b>só depois</b> do alfabloqueio</li><li>Gatilhos a evitar: <b>metoclopramida, glucagon, corticoide em dose alta</b>, droperidol, tricíclicos</li><li>Após a retirada do tumor: hipotensão e <b>hipoglicemia</b></li></ul>",
+   "fonte": "Endocrine Society 2014",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Outras emergências metabólicas",
+   "frente": "🔥 Hipocalcemia sintomática grave: reposição?",
+   "verso": "Tetania, laringoespasmo, convulsão, QT longo.<br><ul><li><b>Gluconato de cálcio 1–2 g IV em 10–20 min</b>, depois infusão de 0,5–1,5 mg/kg/h de cálcio elementar</li><li><b>Corrigir o magnésio</b> (sem ele a hipocalcemia não responde)</li></ul>",
+   "pegadinha": "Cuidado com hiperfosfatemia grave (precipitação) e com acesso periférico.",
+   "fonte": "Cooper BMJ 2008",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Outras emergências metabólicas",
+   "frente": "🔥 Diabetes insípido central no neurocrítico: diagnóstico e tratamento?",
+   "verso": "Diurese <b>&gt; 250–300 mL/h por 2–3 h</b>, urina com osmolaridade <b>&lt; 300</b> (densidade &lt; 1,005) e sódio em ascensão.<br><ul><li><b>Desmopressina 1–2 µg IV/SC</b>, repetir conforme a diurese</li><li>Repor a água livre perdida (enteral ou glicose 5%)</li><li>Vasopressina em infusão no instável/potencial doador</li></ul>",
+   "fonte": "Neurocritical Care Society",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Outras emergências metabólicas",
+   "frente": "🔥 Porfiria aguda intermitente: quadro e tratamento?",
+   "verso": "<b>Dor abdominal intensa sem peritonite</b> + neuropatia motora (pode simular Guillain-Barré) + sintomas psiquiátricos + <b>hiponatremia</b> + taquicardia; urina escurece.<br><ul><li>Diagnóstico: <b>porfobilinogênio urinário</b> elevado</li><li><b>Hemina 3–4 mg/kg/dia por 4 dias</b>; glicose em dose alta; suspender drogas porfirinogênicas</li><li>Convulsão: levetiracetam, benzodiazepínico, magnésio (evitar fenitoína, barbitúrico, valproato)</li></ul>",
+   "fonte": "Anderson 2005",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Outras emergências metabólicas",
+   "frente": "🔥 Hiperamonemia não hepática no adulto: causas?",
+   "verso": "<ul><li><b>Valproato</b>, defeitos do ciclo da ureia de início tardio (deficiência de OTC, desencadeada por jejum, corticoide, pós-parto)</li><li><b>Cirurgia bariátrica</b>, nutrição parenteral, hemorragia digestiva</li><li><b>Infecção por bactéria produtora de urease</b> (Ureaplasma após transplante pulmonar; Proteus em derivação urinária)</li></ul>Suspender proteína, glicose, <b>benzoato/fenilbutirato</b>, arginina, L-carnitina (valproato) e <b>diálise</b> se &gt; 200 µmol/L com encefalopatia.",
+   "fonte": "Long 2017",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Outras emergências metabólicas",
+   "frente": "🔥 Doses por peso no obeso crítico: qual peso usar?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Peso</th></tr><tr><td>Volume corrente</td><td><b>Predito</b> (pela altura)</td></tr><tr><td>Succinilcolina</td><td>Real</td></tr><tr><td>Rocurônio, vecurônio</td><td>Ideal</td></tr><tr><td>Propofol (manutenção), heparina não fracionada</td><td>Real ou ajustado</td></tr><tr><td>Aminoglicosídeos</td><td><b>Ajustado</b></td></tr><tr><td>Vancomicina (ataque)</td><td>Real (com teto)</td></tr></table>",
+   "fonte": "Erstad 2004",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Outras emergências metabólicas",
+   "frente": "🔥 Pancreatite por hipertrigliceridemia: tratamento específico?",
+   "verso": "Triglicerídeos geralmente <b>&gt; 1.000 mg/dL</b>.<br><ul><li>Jejum e hidratação; <b>insulina IV</b> (ativa a lipase lipoproteica), sobretudo se hiperglicemia</li><li><b>Plasmaférese</b> em casos selecionados (triglicerídeos muito altos com disfunção orgânica)</li><li>Depois: fibrato, controle de diabetes e álcool</li></ul>",
+   "fonte": "ACG 2024",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  },
+  {
+   "subtema": "Outras emergências metabólicas",
+   "frente": "🔥 Cetoacidose alcoólica: como reconhecer e tratar?",
+   "verso": "Etilista após libação e jejum/vômitos: <b>acidose de ânion gap alto com glicemia normal ou baixa</b>; predomina β-hidroxibutirato (fita de cetona pode ser fracamente positiva).<br><b>Glicose + salina + tiamina</b>; repor potássio, magnésio e fósforo. Insulina não é necessária.",
+   "fonte": "McGuire 2006",
+   "tags": [
+    "TH360X",
+    "X13"
+   ]
+  }
+ ],
+ "midia": {
+  "th_13_0c04f14e.png": "data/media/th_13_0c04f14e.png"
+ }
+}

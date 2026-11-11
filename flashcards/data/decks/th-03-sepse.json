@@ -1,0 +1,454 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::03 🦠 Sepse e Infecções na UTI",
+ "cards": [
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 SSC 2021: o que mudou de força ou de sentido?",
+   "verso": "<ul><li>30 mL/kg de cristaloide: de \"forte\" para <b>sugestão (fraca)</b></li><li><b>qSOFA não deve ser usado isoladamente</b> como triagem</li><li><b>Contra vitamina C</b> IV</li><li>Corticoide se noradrenalina <b>≥ 0,25 µg/kg/min por ≥ 4 h</b></li><li>Pode-se iniciar vasopressor em <b>acesso periférico</b></li></ul>",
+   "fonte": "Surviving Sepsis Campaign 2021",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Ressuscitação guiada por enchimento capilar (ANDROMEDA-SHOCK)?",
+   "verso": "Normalizar o tempo de enchimento capilar (≤ 3 s) × normalizar lactato: mortalidade em 28 dias <b>34,9% × 43,4%</b> (p = 0,06), com menos disfunção orgânica em 72 h.<br>Técnica: comprimir a polpa do dedo por <b>10 s</b> com lâmina de vidro.",
+   "fonte": "Hernández JAMA 2019",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Terapia precoce guiada por metas (ProCESS, ARISE, ProMISe)?",
+   "verso": "Protocolo de Rivers (PVC, ScvO₂, transfusão, dobutamina) <b>não reduziu mortalidade</b> frente ao cuidado usual moderno, e aumentou custos e uso de UTI.",
+   "fonte": "PRISM NEJM 2017",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Vitamina C na sepse: o que mostrou o LOVIT?",
+   "verso": "Vitamina C 50 mg/kg a cada 6 h: <b>morte ou disfunção orgânica persistente em 28 dias 44,5% × 38,5%</b> (pior).<br><ul><li>VITAMINS e ACTS (com tiamina e hidrocortisona): sem benefício</li></ul>",
+   "fonte": "Lamontagne NEJM 2022",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Bicarbonato na acidose metabólica grave (BICAR-ICU)?",
+   "verso": "pH ≤ 7,20: desfecho primário sem diferença na população geral.<br><ul><li>No subgrupo com <b>lesão renal aguda AKIN 2–3</b>: mortalidade em 28 dias <b>46% × 63%</b> e menos diálise</li></ul>",
+   "fonte": "Jaber Lancet 2018",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Betabloqueador no choque séptico com taquicardia (STRESS-L)?",
+   "verso": "Landiolol para FC 80–94 em pacientes com noradrenalina alta: <b>sem benefício e tendência a maior mortalidade</b>; estudo interrompido.",
+   "fonte": "Whitehouse JAMA 2023",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Hiperferritinemia extrema na sepse: o que significa?",
+   "verso": "Fenótipo tipo <b>ativação macrofágica</b>: ferritina <b>&gt; 4.420 ng/mL</b>, com disfunção hepatobiliar e coagulopatia; mortalidade alta.<br><ul><li>Pensar em linfo-histiocitose hemofagocítica (HScore)</li></ul>",
+   "fonte": "Kyriazopoulou 2017",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Síndrome PICS (inflamação persistente, imunossupressão e catabolismo)?",
+   "verso": "Doente crítico crônico (&gt; 14 dias de UTI): PCR persistentemente elevada, <b>linfopenia</b>, albumina/pré-albumina baixas, perda de massa magra, infecções recorrentes.",
+   "fonte": "Gentile 2012",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Lactato na sepse: armadilhas?",
+   "verso": "<ul><li>Depuração lenta com <b>disfunção hepática</b></li><li>Elevação por <b>adrenalina/β2-agonista</b> sem hipoperfusão</li><li>Ringer lactato <b>não</b> eleva o lactato de forma relevante</li><li>Lactato normal não exclui choque (hipotensão com lactato normal tem melhor prognóstico)</li></ul>",
+   "fonte": "Hernández 2019",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Sepse e choque séptico",
+   "frente": "🔥 Controle da febre na sepse: paracetamol (HEAT) e resfriamento externo?",
+   "verso": "<table class=t><tr><th>Estudo</th><th>Intervenção</th><th>Resultado</th></tr><tr><td>HEAT (2015)</td><td>Paracetamol 1 g 6/6 h × placebo em febre com infecção suspeita</td><td><b>Sem diferença</b> em dias livres de UTI nem em mortalidade</td></tr><tr><td>Schortgen (2012)</td><td>Resfriamento externo no choque séptico sedado</td><td>Menos vasopressor nas primeiras horas; <b>menor mortalidade em 14 dias</b> (desfecho secundário)</td></tr></table><ul><li>Metanálises: antipirese <b>não</b> reduz mortalidade na sepse</li><li>Tratar por conforto, taquicardia/consumo excessivo ou lesão neurológica aguda</li></ul>",
+   "pegadinha": "Febre na sepse <b>não é alvo obrigatório</b>; no neurocrítico e após PCR, é.",
+   "fonte": "Young NEJM 2015 · Schortgen AJRCCM 2012 · Drewry CCM 2017",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 Farmacodinâmica: qual índice guia cada classe?",
+   "verso": "<table class=t><tr><th>Classe</th><th>Índice</th><th>Estratégia</th></tr><tr><td>β-lactâmicos</td><td><b>Tempo acima da CIM</b></td><td>Infusão estendida ou contínua</td></tr><tr><td>Aminoglicosídeos</td><td><b>Pico ÷ CIM (8–10)</b></td><td>Dose única diária alta</td></tr><tr><td>Vancomicina, quinolonas</td><td><b>AUC ÷ CIM</b></td><td>Vancomicina: AUC 400–600</td></tr></table>",
+   "fonte": "Roberts 2014",
+   "imagem": "th_03_e00d8c86.png",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 Infusão contínua de β-lactâmico (BLING III)?",
+   "verso": "Contínua × intermitente: mortalidade em 90 dias <b>24,9% × 26,8%</b> (p = 0,08); cura clínica maior (55,7% × 50,0%).<br><ul><li>Metanálise com 18 ensaios: redução de mortalidade com infusão prolongada</li></ul>",
+   "pegadinha": "Sempre dar <b>dose de ataque</b> antes da infusão.",
+   "fonte": "Dulhunty JAMA 2024 · Abdul-Aziz JAMA 2024",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 Clearance renal aumentado: quem tem e qual o risco?",
+   "verso": "Clearance de creatinina <b>&gt; 130 mL/min/1,73 m²</b>: jovens, <b>trauma, queimados, traumatismo craniano, sepse inicial</b>.<br>Risco de <b>subdose</b> de β-lactâmicos e vancomicina → doses maiores, infusão prolongada e nível sérico.",
+   "fonte": "Udy 2010",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 Dose de ataque no paciente crítico: por que não ajustar pela função renal?",
+   "verso": "O ataque depende do <b>volume de distribuição</b> (aumentado por fluidos e extravasamento), não da depuração.<br><ul><li>Vancomicina <b>25–30 mg/kg</b>; amicacina <b>25–30 mg/kg</b>; polimixina B <b>2–2,5 mg/kg</b></li></ul>",
+   "fonte": "Roberts 2014",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 Polimixina B × colistina: diferenças práticas?",
+   "verso": "<table class=t><tr><th></th><th>Polimixina B</th><th>Colistina</th></tr><tr><td>Forma</td><td>Droga ativa</td><td><b>Pró-droga</b> (colistimetato)</td></tr><tr><td>Ajuste renal</td><td><b>Não</b></td><td><b>Sim</b></td></tr><tr><td>Infecção urinária</td><td>Pior (pouca excreção urinária)</td><td>Melhor</td></tr><tr><td>Nível sérico</td><td>Mais previsível</td><td>Lento e variável</td></tr></table>",
+   "fonte": "Consenso internacional de polimixinas 2019",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 ESBL: piperacilina-tazobactam ou carbapenêmico (MERINO)?",
+   "verso": "Bacteremia por E. coli/Klebsiella resistente a ceftriaxona: mortalidade em 30 dias <b>12,3% × 3,7%</b> → <b>carbapenêmico</b> é a escolha.",
+   "fonte": "Harris JAMA 2018",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 Neurotoxicidade por cefepime: quadro e risco?",
+   "verso": "Encefalopatia, <b>mioclonias</b> e <b>estado de mal não convulsivo</b>, 2–5 dias após o início.<br><ul><li>Risco: <b>insuficiência renal sem ajuste de dose</b>, idoso, lesão cerebral prévia</li></ul>Suspender; EEG; hemodiálise em casos graves.",
+   "fonte": "Payne 2017",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 Procalcitonina para suspender antibiótico: regra prática?",
+   "verso": "Suspender se cair <b>≥ 80% do pico</b> ou ficar <b>&lt; 0,5 ng/mL</b>, com melhora clínica.<br><ul><li>SAPS trial: menos dias de antibiótico e menor mortalidade</li></ul>",
+   "pegadinha": "Não usar para decidir <b>início</b> de antibiótico na suspeita de sepse.",
+   "fonte": "de Jong 2016 · SSC 2021",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Antimicrobianos e PK/PD",
+   "frente": "🔥 Antibiótico na terapia renal contínua: princípio do ajuste?",
+   "verso": "A depuração depende da <b>dose de efluente</b> e da função residual; doses de \"anúria\" costumam subdosar.<br><ul><li>β-lactâmicos e vancomicina: doses próximas das normais + nível sérico quando disponível</li><li>Manter a dose de ataque cheia</li></ul>",
+   "fonte": "Roberts 2021",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Culturas quantitativas para pneumonia associada à ventilação: cortes?",
+   "verso": "<table class=t><tr><th>Amostra</th><th>Corte (UFC/mL)</th></tr><tr><td>Aspirado traqueal</td><td><b>≥ 10⁵–10⁶</b></td></tr><tr><td>Lavado broncoalveolar</td><td><b>≥ 10⁴</b></td></tr><tr><td>Escovado protegido</td><td><b>≥ 10³</b></td></tr></table>",
+   "pegadinha": "Antibiótico iniciado ou trocado nas últimas 48–72 h reduz a sensibilidade.",
+   "fonte": "ATS/IDSA 2016",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Eventos associados à ventilação (VAE, CDC): definição?",
+   "verso": "Após <b>≥ 2 dias de estabilidade</b>, piora sustentada por ≥ 2 dias: <b>PEEP mínima diária ↑ ≥ 3 cmH₂O</b> ou <b>FiO₂ ↑ ≥ 0,20</b>.<br><ul><li><b>IVAC</b>: + febre/hipotermia ou leucócitos alterados + antibiótico novo por ≥ 4 dias</li><li><b>PAV possível</b>: + secreção purulenta ou cultura positiva</li></ul>",
+   "fonte": "CDC/NHSN",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Descontaminação seletiva do trato digestivo (SuDDICU)?",
+   "verso": "Mortalidade hospitalar <b>27,0% × 29,1%</b> (sem significância), sem aumento de resistência no período do estudo.<br><ul><li>Metanálise posterior sugere redução de mortalidade</li></ul>",
+   "pegadinha": "Uso limitado onde a prevalência de multirresistentes é alta.",
+   "fonte": "SuDDICU JAMA 2022",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Clorexidina oral em ventilados: ainda entra no bundle?",
+   "verso": "<b>Não</b> como rotina: metanálises sugerem <b>aumento de mortalidade</b> sem redução clara de pneumonia; manter higiene oral com escovação.",
+   "fonte": "SHEA 2022",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Infecção de corrente sanguínea relacionada a cateter: como comprovar sem tirar o cateter?",
+   "verso": "<ul><li><b>Tempo diferencial de positividade</b>: amostra do cateter positiva <b>≥ 2 h antes</b> da periférica</li><li>Culturas quantitativas: contagem do cateter <b>≥ 3 vezes</b> a periférica</li></ul>",
+   "fonte": "IDSA 2009",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Bacteremia relacionada a cateter: quando a retirada é obrigatória?",
+   "verso": "<ul><li><b>S. aureus, Candida, Pseudomonas</b> e outros bacilos gram-negativos resistentes</li><li>Sepse grave/instabilidade, tunelite, endocardite, tromboflebite supurativa</li><li>Bacteremia persistente após 72 h de antibiótico adequado</li></ul>",
+   "fonte": "IDSA 2009",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Candidúria no paciente com sonda vesical: tratar?",
+   "verso": "Em geral <b>não</b>: trocar ou retirar a sonda.<br><ul><li>Tratar se: <b>neutropênico</b>, antes de <b>procedimento urológico</b>, sintomas urinários claros ou suspeita de candidíase disseminada</li></ul>",
+   "fonte": "IDSA 2016",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Febre na UTI: causas não infecciosas mais lembradas em prova?",
+   "verso": "<ul><li><b>Febre por droga</b> (β-lactâmicos, fenitoína), abstinência</li><li><b>Trombose venosa/embolia pulmonar</b>, pancreatite, insuficiência adrenal, tireotoxicose</li><li>Reação transfusional, hematoma, infarto, hemorragia subaracnoide</li></ul>",
+   "pegadinha": "<b>Atelectasia não causa febre</b>.",
+   "fonte": "SCCM/IDSA 2023",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Colite fulminante por C. difficile: tratamento?",
+   "verso": "<b>Vancomicina oral 500 mg 6/6 h + metronidazol IV 500 mg 8/8 h</b>; vancomicina por enema se houver íleo.<br><ul><li>Cirurgia precoce se megacólon, perfuração ou choque: colectomia subtotal ou <b>ileostomia em alça com lavagem do cólon</b></li></ul>",
+   "fonte": "IDSA 2021",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções associadas à assistência",
+   "frente": "🔥 Aspiração de secreção subglótica: o que reduz e o que não reduz?",
+   "verso": "Tubo com lúmen dorsal acima do balonete para drenar a secreção acumulada.<br><ul><li><b>Reduz pneumonia associada à ventilação em ~40–45%</b></li><li><b>Não</b> reduziu de forma consistente mortalidade, tempo de ventilação nem de UTI</li><li>Indicado quando se prevê ventilação por <b>mais de 48–72 h</b></li><li>Riscos: lesão da mucosa traqueal com aspiração contínua forte; obstrução do lúmen</li></ul>",
+   "pegadinha": "Reduzir a incidência de pneumonia <b>não</b> significou reduzir mortalidade — desfecho substituto.",
+   "fonte": "Caroff CCM 2016 · SHEA 2022",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Fasciíte necrotizante: tipos microbiológicos?",
+   "verso": "<table class=t><tr><th>Tipo</th><th>Agente</th><th>Perfil</th></tr><tr><td>I</td><td><b>Polimicrobiana</b> (anaeróbios + gram-negativos)</td><td>Diabético, períneo (Fournier), pós-operatório</td></tr><tr><td>II</td><td><b>Estreptococo do grupo A</b> (± S. aureus)</td><td>Jovem, membro, choque tóxico</td></tr><tr><td>III</td><td>Vibrio/Aeromonas ou Clostridium</td><td>Água salgada/doce; gangrena gasosa</td></tr></table>Em todos: desbridamento imediato; não esperar imagem.",
+   "fonte": "IDSA 2014",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Encefalite herpética: tratamento e cuidado renal?",
+   "verso": "<b>Aciclovir 10 mg/kg a cada 8 h por 14–21 dias</b>, iniciado na suspeita.<br><ul><li>PCR no líquor pode ser negativo nas primeiras 72 h: repetir</li></ul>",
+   "pegadinha": "Hidratar e infundir em 1 h: risco de <b>nefropatia por cristais</b>.",
+   "fonte": "IDSA 2008",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Influenza grave: corticoide?",
+   "verso": "<b>Não</b> (salvo outra indicação): associado a maior mortalidade e mais infecção secundária em estudos observacionais.<br>Oseltamivir mesmo após 48 h de sintomas no paciente grave.",
+   "fonte": "IDSA 2018",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 COVID-19 crítica: o que o RECOVERY mostrou com dexametasona?",
+   "verso": "<b>6 mg/dia por até 10 dias</b>: mortalidade em 28 dias <b>29,3% × 41,4% nos ventilados</b> e 23,3% × 26,2% nos que usavam O₂.",
+   "pegadinha": "<b>Sem benefício (possível dano) em quem não precisa de oxigênio</b>.",
+   "fonte": "RECOVERY NEJM 2021",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Aspergilose invasiva no crítico não neutropênico: como diagnosticar?",
+   "verso": "Critérios AspICU: cultura respiratória positiva + clínica + imagem + fator do hospedeiro <b>ou</b> micologia do lavado.<br><ul><li><b>Galactomanana no lavado</b> (≥ 1,0) é mais útil que a sérica</li><li>Tratamento: <b>voriconazol</b> ou isavuconazol</li></ul>",
+   "fonte": "Blot 2012 · ESCMID 2018",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Tétano grave: pilares do tratamento?",
+   "verso": "<ul><li><b>Imunoglobulina antitetânica humana</b> (500 UI IM bastam) + desbridamento</li><li><b>Metronidazol</b></li><li>Benzodiazepínico em dose alta; <b>sulfato de magnésio</b> (reduz espasmo e disautonomia)</li><li>Bloqueio neuromuscular + ventilação se refratário; ambiente calmo</li></ul>",
+   "fonte": "Thwaites Lancet 2006",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Leptospirose grave com hemorragia pulmonar: o que muda a mortalidade?",
+   "verso": "<ul><li><b>Ventilação protetora</b> precoce</li><li><b>Diálise precoce e diária</b> na lesão renal</li><li>Antibiótico (penicilina ou ceftriaxona); evitar sobrecarga hídrica</li></ul>",
+   "fonte": "Andrade 2007 · MS 2014",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Dengue grave: fluidos na fase crítica?",
+   "verso": "Choque: <b>cristaloide 20 mL/kg em até 20 min</b>, repetir até 3 vezes; reavaliar hematócrito.<br><ul><li>Hematócrito <b>subindo</b>: mais volume/coloide · hematócrito <b>caindo com instabilidade</b>: sangramento → transfundir</li></ul>",
+   "pegadinha": "Após a fase crítica (24–48 h), há <b>reabsorção</b>: reduzir fluidos para não causar edema pulmonar.",
+   "fonte": "MS 2024 · OMS",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Melioidose grave: quando pensar e como tratar?",
+   "verso": "Infecção por <b>*Burkholderia pseudomallei</b>* (solo e água); descrita no <b>Ceará</b> e em outros estados do Nordeste, sobretudo após chuvas.<br><ul><li>Risco: <b>diabetes</b>, etilismo, doença renal crônica</li><li>Quadro: pneumonia grave ou sepse fulminante, <b>abscessos</b> (fígado, baço, próstata), pele</li><li><b>Fase intensiva (10–14 dias ou mais): ceftazidima ou meropenem</b></li><li><b>Erradicação (3–6 meses): sulfametoxazol-trimetoprima</b></li><li>O laboratório pode identificar erroneamente como *Pseudomonas* ou contaminante</li></ul>",
+   "pegadinha": "Resistência intrínseca a <b>aminoglicosídeos e polimixinas</b> — o esquema empírico habitual pode falhar.",
+   "fonte": "Wiersinga NEJM 2012 · Rolim Emerg Infect Dis 2005",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Botulismo: quadro e tratamento na UTI?",
+   "verso": "<b>Paralisia flácida descendente e simétrica</b>, aguda, <b>sem febre</b>, com consciência e sensibilidade preservadas.<br><ul><li>Começa pelos nervos cranianos: <b>diplopia, ptose, disartria, disfagia</b>; pupilas dilatadas, boca seca, íleo</li><li>Falência respiratória por fraqueza → acompanhar capacidade vital</li><li><b>Antitoxina o mais cedo possível</b> — não reverte a paralisia instalada, só impede a progressão</li><li>Ferida: desbridamento + penicilina; alimentar: sem antibiótico de rotina</li><li>Evitar <b>aminoglicosídeos</b> e clindamicina (pioram o bloqueio neuromuscular)</li></ul>",
+   "pegadinha": "Guillain-Barré é <b>ascendente</b>, com arreflexia e alteração sensitiva; miastenia poupa pupila e sistema autonômico.",
+   "fonte": "CDC Clinical Guidelines for Botulism 2021",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Infecções graves",
+   "frente": "🔥 Púrpura fulminans infecciosa: agentes e conduta?",
+   "verso": "Necrose cutânea hemorrágica rapidamente progressiva por <b>trombose microvascular + CIVD</b>.<br><ul><li>Agentes: <b>meningococo</b> (clássico), pneumococo (sobretudo no <b>asplênico</b>), *S. aureus*, estreptococo do grupo A, *Capnocytophaga* (mordedura de cão)</li><li>Mecanismo: consumo adquirido de <b>proteína C</b></li><li>Conduta: antibiótico imediato, ressuscitação, hemocomponentes se sangramento, avaliação cirúrgica <b>tardia</b> das necroses (após demarcação)</li><li>Heparina e concentrado de proteína C: sem evidência robusta</li></ul>",
+   "pegadinha": "Asplênico com febre é emergência: antibiótico <b>antes</b> de qualquer exame.",
+   "fonte": "Chalmers Arch Dis Child 2011 · Colling Transfus Med Rev 2018",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Imunossuprimido",
+   "frente": "🔥 Linfo-histiocitose hemofagocítica: critérios HLH-2004?",
+   "verso": "<b>5 de 8</b>: febre · esplenomegalia · citopenia em ≥ 2 linhagens · triglicerídeos ≥ 265 ou fibrinogênio ≤ 150 · hemofagocitose · <b>ferritina ≥ 500</b> · CD25 solúvel elevado · atividade NK baixa.<br><ul><li>No adulto, usar o <b>HScore</b> (&gt; 169)</li></ul>Dexametasona ± etoposídeo; tratar o gatilho (infecção, linfoma).",
+   "fonte": "Henter 2007 · Fardet 2014",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Imunossuprimido",
+   "frente": "🔥 Reativação de citomegalovírus no crítico imunocompetente: tratar?",
+   "verso": "Ocorre em ~30% dos ventilados e associa-se a pior desfecho, mas <b>profilaxia/tratamento de rotina não mostrou benefício</b>.",
+   "fonte": "Limaye 2017",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  },
+  {
+   "subtema": "Imunossuprimido",
+   "frente": "🔥 Transplantado de órgão sólido com sepse: e a imunossupressão?",
+   "verso": "Em infecção grave, <b>reduzir ou suspender antiproliferativo e inibidor de calcineurina</b> e manter <b>corticoide em dose de estresse</b>.",
+   "pegadinha": "Atenção às interações: azólicos e macrolídeos <b>elevam</b> o tacrolimus; rifampicina reduz.",
+   "fonte": "AST 2019",
+   "tags": [
+    "TH360X",
+    "X03"
+   ]
+  }
+ ],
+ "midia": {
+  "th_03_e00d8c86.png": "data/media/th_03_e00d8c86.png"
+ }
+}

@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.10-r3h",
+ "versao": "2026.11.10-th",
  "colecoes": [
   {
    "id": "ouro",
@@ -12,7 +12,7 @@
    "id": "temi",
    "nome": "TEMI 2028",
    "icone": "🏥",
-   "cards": 2225
+   "cards": 2747
   },
   {
    "id": "cm",
@@ -3043,64 +3043,6 @@
    "pacote": "pack-2-r3"
   },
   {
-   "colecao": "temi",
-   "arquivo": "data/decks/pega-temi.json",
-   "tema": "🎯 Pegadinhas 360X · 🏥 TEMI",
-   "cards": 600,
-   "subtemas": [
-    "Cardiologia intensiva",
-    "Desmame e VNI",
-    "Eletrólitos",
-    "Endocrinologia",
-    "Estatística",
-    "Gastro e nutrição",
-    "Hematologia",
-    "Hemodinâmica",
-    "Infecções na UTI",
-    "Medicina intensiva geral",
-    "Nefrologia e distúrbios",
-    "Neurointensivismo",
-    "Obstetrícia",
-    "Oncologia na UTI",
-    "PCR e pós-PCR",
-    "POCUS",
-    "Qualidade e segurança",
-    "Sedação e delirium",
-    "Sepse e choque",
-    "Toxicologia",
-    "Trauma e queimados",
-    "Ventilação e SDRA",
-    "Ácido-base",
-    "Ética, paliativos e morte encefálica"
-   ],
-   "pacote": "pack-1-temi"
-  },
-  {
-   "colecao": "cm",
-   "arquivo": "data/decks/pega-r3.json",
-   "tema": "🎯 Pegadinhas 360X · 🩺 R3",
-   "cards": 600,
-   "subtemas": [
-    "Cardiologia",
-    "Clínica integrada",
-    "Dermatologia",
-    "Endocrinologia",
-    "Gastroenterologia",
-    "Geriatria",
-    "Hematologia",
-    "Infectologia",
-    "MBE",
-    "Medicina preventiva",
-    "Nefrologia",
-    "Neurologia",
-    "Oncologia",
-    "Pneumologia",
-    "Psiquiatria",
-    "Reumatologia"
-   ],
-   "pacote": "pack-2-r3"
-  },
-  {
    "colecao": "cm",
    "arquivo": "data/decks/r3h-01-cardio.json",
    "tema": "🔥 Hardcore 360X · 01 🫀 Cardiologia",
@@ -3318,6 +3260,262 @@
     "Distúrbios ambientais e outros"
    ],
    "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/pega-temi.json",
+   "tema": "🎯 Pegadinhas 360X · 🏥 TEMI",
+   "cards": 600,
+   "subtemas": [
+    "Cardiologia intensiva",
+    "Desmame e VNI",
+    "Eletrólitos",
+    "Endocrinologia",
+    "Estatística",
+    "Gastro e nutrição",
+    "Hematologia",
+    "Hemodinâmica",
+    "Infecções na UTI",
+    "Medicina intensiva geral",
+    "Nefrologia e distúrbios",
+    "Neurointensivismo",
+    "Obstetrícia",
+    "Oncologia na UTI",
+    "PCR e pós-PCR",
+    "POCUS",
+    "Qualidade e segurança",
+    "Sedação e delirium",
+    "Sepse e choque",
+    "Toxicologia",
+    "Trauma e queimados",
+    "Ventilação e SDRA",
+    "Ácido-base",
+    "Ética, paliativos e morte encefálica"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "cm",
+   "arquivo": "data/decks/pega-r3.json",
+   "tema": "🎯 Pegadinhas 360X · 🩺 R3",
+   "cards": 600,
+   "subtemas": [
+    "Cardiologia",
+    "Clínica integrada",
+    "Dermatologia",
+    "Endocrinologia",
+    "Gastroenterologia",
+    "Geriatria",
+    "Hematologia",
+    "Infectologia",
+    "MBE",
+    "Medicina preventiva",
+    "Nefrologia",
+    "Neurologia",
+    "Oncologia",
+    "Pneumologia",
+    "Psiquiatria",
+    "Reumatologia"
+   ],
+   "pacote": "pack-2-r3"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-01-vm.json",
+   "tema": "🔥 Hardcore 360X · 01 🫁 Ventilação Mecânica e SDRA",
+   "cards": 45,
+   "subtemas": [
+    "Mecânica e monitorização",
+    "SDRA",
+    "Assincronias e modos",
+    "Desmame e extubação",
+    "VNI e alto fluxo",
+    "Situações especiais"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-02-hemodinamica.json",
+   "tema": "🔥 Hardcore 360X · 02 💓 Hemodinâmica e Choque",
+   "cards": 49,
+   "subtemas": [
+    "Oxigenação tecidual e fisiologia",
+    "Fluidos e fluido-responsividade",
+    "Vasopressores e inotrópicos",
+    "Monitorização invasiva",
+    "Tipos de choque",
+    "Suporte circulatório mecânico"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-03-sepse.json",
+   "tema": "🔥 Hardcore 360X · 03 🦠 Sepse e Infecções na UTI",
+   "cards": 43,
+   "subtemas": [
+    "Sepse e choque séptico",
+    "Antimicrobianos e PK/PD",
+    "Infecções associadas à assistência",
+    "Infecções graves",
+    "Imunossuprimido"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-04-neuro.json",
+   "tema": "🔥 Hardcore 360X · 04 🧠 Neurointensivismo",
+   "cards": 46,
+   "subtemas": [
+    "PIC e neuromonitorização",
+    "Trauma cranioencefálico",
+    "AVC e hemorragias",
+    "Status, neuromuscular e coma",
+    "Morte encefálica e pós-PCR"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-05-sedacao.json",
+   "tema": "🔥 Hardcore 360X · 05 💤 Sedação, Analgesia e Via Aérea",
+   "cards": 29,
+   "subtemas": [
+    "Analgesia e sedação",
+    "Delirium e PICS",
+    "Bloqueio neuromuscular",
+    "Via aérea e traqueostomia"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-06-cardio.json",
+   "tema": "🔥 Hardcore 360X · 06 🫀 Cardiointensivismo e PCR",
+   "cards": 42,
+   "subtemas": [
+    "Parada cardiorrespiratória",
+    "Cuidados pós-PCR",
+    "Coronária e choque cardiogênico",
+    "Arritmias",
+    "IC, TEP, valvas e pericárdio"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-07-renal.json",
+   "tema": "🔥 Hardcore 360X · 07 🫘 Rim, Ácido-Base e Eletrólitos",
+   "cards": 27,
+   "subtemas": [
+    "Lesão renal aguda",
+    "Terapia renal substitutiva",
+    "Ácido-base",
+    "Sódio e água",
+    "Potássio, cálcio, magnésio e fósforo"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-08-gastro.json",
+   "tema": "🔥 Hardcore 360X · 08 🫃 Gastro, Fígado e Nutrição",
+   "cards": 33,
+   "subtemas": [
+    "Terapia nutricional",
+    "Hemorragia e abdome agudo",
+    "Fígado crítico"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-09-hemato.json",
+   "tema": "🔥 Hardcore 360X · 09 🩸 Hematologia e Transfusão",
+   "cards": 30,
+   "subtemas": [
+    "Transfusão",
+    "Coagulação e trombose",
+    "Onco-hematologia crítica"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-10-tox.json",
+   "tema": "🔥 Hardcore 360X · 10 ☠️ Toxicologia e Ambiente",
+   "cards": 38,
+   "subtemas": [
+    "Princípios e antídotos",
+    "Intoxicações específicas",
+    "Animais peçonhentos",
+    "Temperatura e ambiente"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-11-trauma.json",
+   "tema": "🔥 Hardcore 360X · 11 🚑 Trauma, Queimados e Pós-Operatório",
+   "cards": 40,
+   "subtemas": [
+    "Trauma",
+    "Queimados",
+    "Perioperatório e transplantes"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-12-obstetricia.json",
+   "tema": "🔥 Hardcore 360X · 12 🤰 Obstetrícia Crítica",
+   "cards": 23,
+   "subtemas": [
+    "Fisiologia e hipertensão",
+    "Hemorragia e emergências do parto",
+    "Outras emergências maternas"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-13-endocrino.json",
+   "tema": "🔥 Hardcore 360X · 13 🍬 Endócrino e Metabólico",
+   "cards": 19,
+   "subtemas": [
+    "Crises hiperglicêmicas e glicemia",
+    "Adrenal e tireoide",
+    "Outras emergências metabólicas"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-14-gestao.json",
+   "tema": "🔥 Hardcore 360X · 14 ⚖️ Gestão, Ética e Qualidade",
+   "cards": 26,
+   "subtemas": [
+    "Escores e indicadores",
+    "Organização e segurança",
+    "Ética e terminalidade",
+    "Evidência e estatística"
+   ],
+   "pacote": "pack-1-temi"
+  },
+  {
+   "colecao": "temi",
+   "arquivo": "data/decks/th-15-pocus.json",
+   "tema": "🔥 Hardcore 360X · 15 🩻 POCUS, Monitorização e Procedimentos",
+   "cards": 32,
+   "subtemas": [
+    "Ultrassom pulmonar",
+    "Ecocardiografia à beira-leito",
+    "Monitorização",
+    "Procedimentos"
+   ],
+   "pacote": "pack-1-temi"
   }
  ],
  "pacotes": [
@@ -3331,11 +3529,11 @@
    "gz": "data/packs/pack-1-temi.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-1-temi.json",
-   "sha": "f73a962e9b9effa4",
-   "decks": 20,
-   "cards": 2328,
-   "bytes": 983478,
-   "gzbytes": 332360
+   "sha": "0eb8332c6760f1df",
+   "decks": 35,
+   "cards": 2850,
+   "bytes": 1236843,
+   "gzbytes": 436596
   },
   {
    "nome": "pack-2-r3",
@@ -3346,11 +3544,11 @@
    "gz": "data/packs/pack-2-r3.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-2-r3.json",
-   "sha": "93f68461fd73863e",
+   "sha": "b7dda70e8da09ebe",
    "decks": 46,
    "cards": 2436,
    "bytes": 987105,
-   "gzbytes": 377028
+   "gzbytes": 376364
   },
   {
    "nome": "pack-3-ia360c",

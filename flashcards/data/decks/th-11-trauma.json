@@ -1,0 +1,416 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::11 🚑 Trauma, Queimados e Pós-Operatório",
+ "cards": [
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Hipotensão permissiva no trauma: alvo e exceções?",
+   "verso": "Sistólica <b>80–90 mmHg</b> (PAM 50–60) até o controle cirúrgico do sangramento.",
+   "pegadinha": "<b>Não</b> aplicar no <b>trauma craniano</b> (sistólica ≥ 100–110) nem na <b>lesão medular</b> (PAM mais alta).",
+   "fonte": "Diretriz europeia de trauma 2023",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Escore ABC para prever transfusão maciça?",
+   "verso": "1 ponto cada: mecanismo <b>penetrante</b>, <b>FAST positivo</b>, sistólica <b>≤ 90</b>, frequência cardíaca <b>≥ 120</b>.<br><ul><li><b>≥ 2</b>: ativar o protocolo de transfusão maciça</li></ul>",
+   "fonte": "Nunez 2009",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Índice de gravidade da lesão (ISS): como se calcula?",
+   "verso": "Soma dos <b>quadrados</b> dos 3 maiores escores AIS em <b>regiões corporais diferentes</b> (máximo 75).<br><ul><li><b>&gt; 15</b> = trauma grave; qualquer AIS 6 = 75 automaticamente</li></ul>",
+   "fonte": "Baker 1974",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Ácido tranexâmico pré-hospitalar no trauma grave (PATCH-Trauma)?",
+   "verso": "Desfecho funcional favorável em 6 meses <b>igual</b> (53,7% × 53,5%); mortalidade em 28 dias menor (17,3% × 21,8%).",
+   "fonte": "PATCH-Trauma NEJM 2023",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 REBOA no trauma com hemorragia do tronco (UK-REBOA)?",
+   "verso": "Oclusão da aorta por balão no pronto-socorro: <b>mortalidade em 90 dias maior (54% × 42%)</b>.",
+   "fonte": "Jansen JAMA 2023",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Toracotomia de reanimação: quando indicar?",
+   "verso": "<ul><li><b>Penetrante torácico</b> com sinais de vida no trajeto e PCR há <b>&lt; 15 min</b></li><li>Penetrante de pescoço ou extremidade: &lt; 5 min</li><li><b>Contuso</b>: &lt; 10 min, com resultados muito piores</li></ul>Objetivos: aliviar tamponamento, controlar sangramento, clampear a aorta, massagem interna.",
+   "fonte": "EAST 2015 · WTA",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Pneumotórax hipertensivo: local da descompressão no adulto (ATLS 10)?",
+   "verso": "<b>5º espaço intercostal, anterior à linha axilar média</b> (parede mais fina que no 2º espaço); seguida de drenagem torácica.<br><ul><li>Alternativa: toracostomia digital</li></ul>",
+   "fonte": "ATLS 10",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Tórax instável: definição e tratamento?",
+   "verso": "<b>≥ 3 costelas consecutivas fraturadas em ≥ 2 pontos</b>, com movimento paradoxal; a gravidade vem da <b>contusão pulmonar</b> subjacente.<br><ul><li><b>Analgesia regional</b> (peridural, bloqueios), fisioterapia, VNI</li><li><b>Fixação cirúrgica</b> em casos selecionados; evitar hiper-hidratação</li></ul>",
+   "fonte": "EAST 2017",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Lesão contusa de aorta: local, suspeita e conduta?",
+   "verso": "<b>Istmo</b> (após a subclávia esquerda, no ligamento arterioso), por desaceleração.<br><ul><li>Mediastino alargado, apagamento do botão aórtico, desvio de traqueia; confirmar por angiotomografia</li><li><b>Controle de frequência e pressão</b> (sistólica ~100) + <b>reparo endovascular</b></li></ul>",
+   "fonte": "SVS 2011",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Trauma pélvico instável com choque: sequência?",
+   "verso": "<ul><li><b>Cinta pélvica</b> na altura dos <b>trocânteres maiores</b></li><li>Protocolo de transfusão maciça</li><li><b>Tamponamento pré-peritoneal</b> e/ou <b>angioembolização</b>; fixação externa</li><li>FAST positivo com instabilidade: laparotomia</li></ul>",
+   "fonte": "WSES 2017",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Cirurgia de controle de danos: quando abreviar?",
+   "verso": "<b>pH &lt; 7,2, temperatura &lt; 34–35 °C, coagulopatia</b>, transfusão &gt; 10 unidades, instabilidade persistente.<br>Controlar sangramento e contaminação, fechar temporariamente, reanimar na UTI e reoperar em 24–48 h.",
+   "fonte": "Rotondo 1993",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Trauma esplênico/hepático: tratamento não operatório?",
+   "verso": "Indicado no <b>hemodinamicamente estável</b>, sem peritonite, em centro com cirurgia e angiografia disponíveis.<br><ul><li><b>Extravasamento de contraste</b> (blush): angioembolização</li><li>Falha: instabilidade, queda progressiva da hemoglobina, peritonite</li></ul>",
+   "fonte": "WSES 2017/2020",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Trauma na gestante: particularidades?",
+   "verso": "<ul><li>Deslocar o útero para a <b>esquerda</b> (≥ 20 semanas)</li><li>Hipovolemia mascarada (volemia aumentada): o <b>sofrimento fetal</b> pode ser o primeiro sinal</li><li><b>Imunoglobulina anti-D</b> em toda Rh negativa; teste de Kleihauer-Betke</li><li>Monitorização fetal ≥ 4–6 h após 20–24 semanas; pensar em descolamento de placenta</li></ul>",
+   "fonte": "ATLS 10",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Lesão de uretra: quando suspeitar e o que fazer?",
+   "verso": "<b>Sangue no meato</b>, hematoma perineal/escrotal, próstata alta, fratura de bacia.<br><b>Uretrografia retrógrada antes</b> de sondar; cistostomia suprapúbica se houver lesão.",
+   "fonte": "ATLS 10",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Síndrome de esmagamento: como prevenir a morte na extricação e a lesão renal?",
+   "verso": "<ul><li>Iniciar <b>solução salina isotônica antes de liberar o membro</b> (~1 L/h), sem potássio</li><li>Após a reperfusão: <b>hipercalemia fatal</b>, hipovolemia (sequestro no músculo) e acidose</li><li>Diurese-alvo <b>200–300 mL/h</b> enquanto houver mioglobinúria</li><li>Bicarbonato e manitol: <b>sem evidência robusta</b></li><li><b>Hipocalcemia inicial não se corrige</b> (exceto sintomática ou com hipercalemia) — o cálcio depositado retorna na recuperação</li><li>Vigiar síndrome compartimental; diálise precoce se hipercalemia ou anúria</li></ul>",
+   "pegadinha": "A vítima \"estável\" sob os escombros pode morrer <b>minutos após a liberação</b>.",
+   "fonte": "Sever NEJM 2006 · Sever Nephrol Dial Transplant 2012",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Contusão miocárdica: como rastrear?",
+   "verso": "<ul><li><b>ECG e troponina normais excluem</b> lesão clinicamente relevante</li><li>ECG alterado (arritmia, bloqueio de ramo direito, ST) ou troponina elevada → <b>monitorização por 24–48 h</b></li><li><b>Ecocardiograma</b> só se instabilidade hemodinâmica ou arritmia persistente</li><li>Fratura de esterno isolada <b>não</b> prediz contusão</li><li>O ventrículo direito é o mais atingido (posição anterior)</li></ul>",
+   "pegadinha": "CK-MB e cintilografia <b>não</b> são recomendadas para o rastreio.",
+   "fonte": "Clancy (EAST) J Trauma 2012",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Hemotórax retido: conduta?",
+   "verso": "Sangue residual (&gt; 300–500 mL) após a drenagem, confirmado por tomografia.<br><ul><li>Risco: <b>empiema (~25%)</b> e encarceramento pulmonar</li><li><b>Videotoracoscopia precoce (idealmente em 3–7 dias)</b> em vez de segundo dreno</li><li>Fibrinolítico intrapleural: alternativa para quem não tolera cirurgia</li></ul>",
+   "pegadinha": "Um <b>segundo dreno</b> raramente resolve o coágulo organizado e atrasa a toracoscopia.",
+   "fonte": "DuBose J Trauma 2012 · EAST 2021",
+   "imagem": "th_11_8915c73f.png",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Trauma",
+   "frente": "🔥 Lesão cervical por estrangulamento: o que procurar na UTI?",
+   "verso": "<ul><li><b>Encefalopatia hipóxico-isquêmica</b> (define o prognóstico)</li><li><b>Lesão de laringe e hioide</b>, com edema de via aérea tardio</li><li><b>Dissecção de carótida ou vertebral</b> → angiotomografia cervical se déficit, rebaixamento ou sinais cervicais importantes</li><li><b>Edema pulmonar</b> pós-obstrutivo ou neurogênico; aspiração</li><li>Fratura de coluna cervical é <b>rara</b> quando não há queda de altura</li></ul>",
+   "pegadinha": "Glasgow baixo na chegada sem PCR <b>não</b> autoriza limitar suporte cedo — a recuperação é frequente.",
+   "fonte": "Revisões de trauma cervical · ATLS 10",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 Ressuscitação do grande queimado: fórmula atual (ATLS 10)?",
+   "verso": "<table class=t><tr><th>Paciente</th><th>Ringer lactato nas primeiras 24 h</th></tr><tr><td>Adulto</td><td><b>2 mL/kg/% de superfície queimada</b></td></tr><tr><td>Criança (&lt; 30 kg)</td><td>3 mL/kg/% (+ glicose de manutenção)</td></tr><tr><td>Queimadura elétrica</td><td><b>4 mL/kg/%</b></td></tr></table>Metade nas primeiras <b>8 h a partir da queimadura</b>; titular por diurese (<b>0,5 mL/kg/h</b> no adulto; 1 mL/kg/h na criança e na elétrica com mioglobinúria).",
+   "fonte": "ATLS 10 · ABA",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 \"Fluid creep\" no queimado: o que é e como evitar?",
+   "verso": "Volume muito acima do previsto → edema, <b>síndrome compartimental abdominal e de membros</b>, SDRA.<br><ul><li>Titular pela diurese a cada hora (reduzir se &gt; 1 mL/kg/h)</li><li><b>Albumina de resgate</b> após 8–12 h se a necessidade seguir alta</li><li>Rever excesso de opioide/sedação</li></ul>",
+   "fonte": "Saffle 2007",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 Lesão inalatória: quem intubar cedo?",
+   "verso": "<ul><li><b>Estridor, rouquidão, uso de musculatura acessória</b></li><li>Queimadura profunda de face/pescoço, edema de orofaringe, disfagia</li><li>Superfície queimada <b>&gt; 40–50%</b></li><li>Rebaixamento, hipoxemia</li></ul>O edema piora com a reposição volêmica nas primeiras 24 h.",
+   "fonte": "ATLS 10 · ABA",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 Antimicrobianos tópicos no queimado: efeitos adversos clássicos?",
+   "verso": "<table class=t><tr><th>Agente</th><th>Efeito</th></tr><tr><td>Sulfadiazina de prata</td><td><b>Leucopenia</b> transitória; não penetra a escara</td></tr><tr><td><b>Mafenida</b></td><td><b>Acidose metabólica</b> (inibe a anidrase carbônica), dor; penetra a escara</td></tr><tr><td>Nitrato de prata</td><td><b>Hiponatremia</b>, hipocloremia, metemoglobinemia</td></tr></table>",
+   "fonte": "Herndon · Total Burn Care",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 Resposta hipermetabólica do grande queimado: manejo?",
+   "verso": "<ul><li><b>Nutrição enteral precoce</b> (&lt; 24 h), hiperproteica (1,5–2 g/kg/dia)</li><li><b>Propranolol</b> (reduz catabolismo e trabalho cardíaco); <b>oxandrolona</b></li><li>Ambiente aquecido (28–33 °C), excisão e enxerto precoces</li></ul>",
+   "fonte": "Herndon NEJM 2001 · ISBI",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 Sepse no queimado: por que os critérios habituais falham?",
+   "verso": "Febre, taquicardia e leucocitose são <b>basais</b> no hipermetabolismo.<br><ul><li>Gatilhos ABA: temperatura &gt; 39 ou &lt; 36,5, taquicardia progressiva, plaquetopenia após o 3º dia, <b>hiperglicemia nova/resistência à insulina</b>, <b>intolerância à dieta</b></li></ul>",
+   "pegadinha": "Antibiótico sistêmico profilático não é indicado.",
+   "fonte": "ABA 2007",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 Queimadura por ácido fluorídrico?",
+   "verso": "Penetra fundo e quela <b>cálcio e magnésio</b>: dor intensa, <b>hipocalcemia, QT longo e arritmia</b> mesmo com área pequena.<br>Irrigação + <b>gluconato de cálcio</b> em gel, infiltração local ou intra-arterial; cálcio IV e monitor.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 Critérios de transferência para centro de queimados?",
+   "verso": "<ul><li>2º grau <b>&gt; 10%</b> da superfície</li><li><b>3º grau</b> em qualquer extensão</li><li>Face, mãos, pés, genitália, períneo e grandes articulações</li><li>Elétrica (inclui raio), química, lesão inalatória</li><li>Trauma associado, comorbidades graves, crianças em hospital sem recursos</li></ul>",
+   "fonte": "ABA",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Queimados",
+   "frente": "🔥 Farmacologia no grande queimado: o que muda?",
+   "verso": "<ul><li><b>Succinilcolina proibida após 24–48 h</b> (hipercalemia; risco por 1–2 anos)</li><li><b>Resistência</b> aos bloqueadores não despolarizantes</li><li><b>Clearance aumentado</b> e grande volume de distribuição: antibióticos em dose maior, com nível sérico</li><li>Tolerância rápida a opioides</li></ul>",
+   "fonte": "Martyn 2006",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Betabloqueador iniciado no perioperatório (POISE)?",
+   "verso": "Metoprolol de liberação prolongada começado horas antes da cirurgia: <b>menos infarto</b>, porém <b>mais AVC e mais mortes</b>.<br>Manter em quem já usa; não iniciar em dose alta na véspera.",
+   "fonte": "POISE Lancet 2008",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Fluidos na cirurgia abdominal maior: restritivo × liberal (RELIEF)?",
+   "verso": "Sobrevida livre de incapacidade igual; com restrição houve <b>mais lesão renal aguda (8,6% × 5,0%)</b>.<br>Evitar os dois extremos: balanço discretamente positivo.",
+   "fonte": "Myles NEJM 2018",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Hipotensão intraoperatória e desfecho?",
+   "verso": "<b>PAM &lt; 60–65 mmHg</b>, mesmo por poucos minutos, associa-se a <b>lesão miocárdica e renal</b>; o risco cresce com a duração.",
+   "fonte": "Sessler 2019",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Pós-operatório de esofagectomia: complicações que levam à UTI?",
+   "verso": "<ul><li><b>Fístula da anastomose</b> (dias 5–10): sepse, derrame, mediastinite</li><li><b>Quilotórax</b> (lesão do ducto torácico): débito alto e leitoso → dieta sem gordura/parenteral, octreotida, ligadura</li><li>Necrose do tubo gástrico, lesão de laríngeo recorrente, fibrilação atrial, pneumonia</li></ul>Fluidos restritivos e extubação precoce.",
+   "fonte": "Low 2019",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Pós-pneumonectomia: cuidados?",
+   "verso": "<ul><li><b>Restrição hídrica</b> (edema pós-pneumonectomia tem mortalidade alta)</li><li>Ventilação com <b>volume e pressões baixos</b> no pulmão único</li><li>Dreno <b>sem aspiração</b> (ou balanceado): aspiração desvia o mediastino</li><li>Vigiar <b>fístula broncopleural</b> (queda do nível líquido, tosse com secreção serossanguinolenta) e arritmias</li></ul>",
+   "fonte": "Revisões de cirurgia torácica",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Fístula após cirurgia bariátrica: sinal mais precoce?",
+   "verso": "<b>Taquicardia sustentada &gt; 120 bpm</b>, muitas vezes sem peritonite clara; depois taquipneia, febre e dor no ombro.<br>Baixo limiar para tomografia com contraste oral ou reoperação.",
+   "fonte": "ASMBS",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Transplante hepático: complicações precoces do enxerto?",
+   "verso": "<ul><li><b>Não função primária</b>: transaminases &gt; 3.000–5.000, coagulopatia, acidose, hipoglicemia → retransplante urgente</li><li><b>Trombose de artéria hepática</b>: Doppler diário; revascularização ou retransplante</li><li><b>Síndrome de reperfusão</b>: hipotensão e hipercalemia na liberação da veia porta</li></ul>",
+   "fonte": "AASLD/AST",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Coração transplantado: farmacologia do coração denervado?",
+   "verso": "<ul><li><b>Atropina não funciona</b> (sem inervação vagal)</li><li>Bradicardia: <b>isoproterenol</b>, marca-passo ou teofilina</li><li><b>Adenosina</b>: resposta exagerada → dose reduzida</li><li>Frequência de repouso alta (90–110); isquemia pode ser indolor</li></ul>",
+   "fonte": "ISHLT",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Transplante pulmonar: disfunção primária do enxerto?",
+   "verso": "Edema não cardiogênico nas primeiras <b>72 h</b> (lesão de isquemia-reperfusão), graduado pela relação P/F e infiltrado.<br>Ventilação protetora, <b>balanço negativo</b>, óxido nítrico inalatório, ECMO nos casos graves.",
+   "fonte": "ISHLT 2016",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Hematoma cervical após tireoidectomia ou endarterectomia: conduta?",
+   "verso": "Edema cervical progressivo, estridor e disfagia nas primeiras horas.<br><b>Abrir a sutura à beira do leito</b> para descomprimir <b>antes</b> de tentar intubar; depois revisão cirúrgica.",
+   "fonte": "BAETS 2021",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Isquemia medular após reparo de aorta toracoabdominal: prevenção e resgate?",
+   "verso": "<ul><li><b>Drenagem liquórica</b> (pressão do líquor ~10 mmHg)</li><li><b>PAM elevada</b> (≥ 80–90) e hemoglobina adequada</li><li>Déficit tardio: subir a PAM, drenar mais líquor</li></ul>",
+   "fonte": "Diretrizes de aorta ACC/AHA 2022",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Fístula enterocutânea de alto débito: manejo inicial?",
+   "verso": "<b>&gt; 500 mL/dia</b>.<br><ul><li>Controlar a <b>sepse</b> (drenar coleções), repor volume e eletrólitos</li><li>Proteção da pele e controle do efluente</li><li><b>Nutrição parenteral</b>; reduzir o débito com bloqueador de bomba, loperamida e octreotida</li><li>Cirurgia definitiva só após <b>3–6 meses</b></li></ul>",
+   "fonte": "ASPEN/FELANPE 2017",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  },
+  {
+   "subtema": "Perioperatório e transplantes",
+   "frente": "🔥 Abdome aberto: riscos e meta?",
+   "verso": "Indicações: controle de danos, síndrome compartimental, sepse abdominal grave.<br><ul><li>Fechamento temporário com <b>pressão negativa</b></li><li>Riscos: <b>fístula enteroatmosférica</b>, perda de domínio, perda proteica (~2 g de nitrogênio por litro de efluente)</li><li>Meta: <b>fechar a fáscia em até 7 dias</b></li></ul>",
+   "fonte": "WSES 2018",
+   "tags": [
+    "TH360X",
+    "X11"
+   ]
+  }
+ ],
+ "midia": {
+  "th_11_8915c73f.png": "data/media/th_11_8915c73f.png"
+ }
+}

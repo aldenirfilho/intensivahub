@@ -1828,9 +1828,9 @@
   },
   {
    "subtema": "Hematologia",
-   "frente": "🎯 Plaquetas 30 mil, sem sangramento, vai inserir CVC jugular guiado por US. Transfundir?",
-   "verso": "<b class=c>✅ Resposta:</b> Não — limiar ~10–20 mil para CVC guiado por US (PACER)<br><br>💬 Reduz exposição.",
-   "pegadinha": "Profilática: 10 mil sem sangramento.",
+   "frente": "🎯 No ensaio PACER (plaquetas entre 10 e 50 mil antes de cateter venoso central guiado por ultrassom), não transfundir plaquetas de forma profilática resultou em:",
+   "verso": "<b class=c>✅ Resposta:</b> Mais sangramento relacionado ao cateter (11,9% × 4,8%) — não inferioridade não demonstrada<br><br>💬 Sangramento grau 2–4 em 11,9% sem transfusão × 4,8% com transfusão.",
+   "pegadinha": "A diretriz AABB/ICTMG 2025 sugere transfundir abaixo de 10 mil em sítio compressível: ensaio e diretriz divergem na faixa de 10–50 mil — individualizar.",
    "fonte": "Banco de questões CÓDICE 360X · QT574",
    "tags": [
     "PEGA360X",

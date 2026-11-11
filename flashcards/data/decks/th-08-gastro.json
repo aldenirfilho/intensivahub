@@ -1,0 +1,348 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::08 🫃 Gastro, Fígado e Nutrição",
+ "cards": [
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Proteína em dose alta no crítico (EFFORT Protein)?",
+   "verso": "<b>≥ 2,2 × ≤ 1,2 g/kg/dia</b>: sem benefício em tempo até a alta com vida nem em mortalidade.",
+   "pegadinha": "Pior desfecho com dose alta em <b>lesão renal aguda</b> e disfunção orgânica grave (SOFA alto).",
+   "fonte": "Heyland Lancet 2023",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Nutrição precoce no choque: enteral × parenteral (NUTRIREA-2)?",
+   "verso": "Ventilados com vasopressor: mortalidade igual (37% × 35%), mas com enteral houve <b>mais isquemia intestinal, pseudo-obstrução, vômito e diarreia</b>.",
+   "fonte": "Reignier Lancet 2018",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Restrição calórico-proteica na fase aguda (NUTRIREA-3)?",
+   "verso": "<b>6 kcal/kg + 0,2–0,4 g/kg de proteína</b> × 25 kcal/kg + 1,0–1,3 g/kg na primeira semana, em ventilados com vasopressor.<br><ul><li>Mortalidade em 90 dias igual (41,3% × 42,8%)</li><li><b>Alta mais rápida</b> e <b>menos</b> vômito, diarreia, isquemia intestinal e disfunção hepática</li></ul>",
+   "fonte": "Reignier Lancet Respir Med 2023",
+   "imagem": "th_08_f12d8cd2.png",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Parenteral suplementar precoce × tardia (EPaNIC)?",
+   "verso": "Iniciar a parenteral no <b>dia 8</b> (em vez de 48 h) → <b>menos infecções</b>, menos tempo de ventilação e de UTI, alta mais precoce.",
+   "fonte": "Casaer NEJM 2011",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Enteral × parenteral como via inicial (CALORIES)?",
+   "verso": "Mortalidade em 30 dias <b>igual</b>; com a parenteral houve menos hipoglicemia e vômito, sem mais infecções.<br>A via importa menos do que evitar a <b>hiperalimentação</b>.",
+   "fonte": "Harvey NEJM 2014",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Dieta trófica × plena na SDRA (EDEN) e hipocalórica (PermiT)?",
+   "verso": "<ul><li><b>EDEN</b>: trófica por 6 dias = plena em dias livres de ventilação e mortalidade; menos intolerância</li><li><b>PermiT</b>: 40–60% das calorias com proteína plena = dieta padrão</li></ul>",
+   "fonte": "EDEN 2012 · PermiT 2015",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Densidade calórica maior (TARGET)?",
+   "verso": "Fórmula <b>1,5 × 1,0 kcal/mL</b> no mesmo volume: mais calorias entregues, <b>mortalidade em 90 dias igual</b>; mais regurgitação e hiperglicemia.",
+   "fonte": "TARGET NEJM 2018",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Calorimetria indireta: o que mede e como calcula?",
+   "verso": "Mede <b>consumo de O₂ e produção de CO₂</b>; equação de Weir: gasto = <b>(3,94 × VO₂ + 1,11 × VCO₂) × 1,44</b>.<br><ul><li>Quociente respiratório: 0,7 (gordura), 0,8 (proteína), 1,0 (carboidrato); <b>&gt; 1,0</b> = hiperalimentação/lipogênese</li><li>Imprecisa com FiO₂ &gt; 0,6, fuga aérea e terapia renal contínua</li></ul>",
+   "fonte": "ESPEN 2019",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Calorias \"escondidas\" na UTI?",
+   "verso": "<ul><li><b>Propofol</b>: 1,1 kcal/mL</li><li><b>Citrato</b> da terapia renal contínua: ~3 kcal/g</li><li><b>Glicose</b> dos diluentes e do dialisato</li></ul>Somar para não hiperalimentar (hipercapnia, esteatose, hiperglicemia).",
+   "fonte": "ESPEN 2019",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Nutrição parenteral: limites dos macronutrientes?",
+   "verso": "<ul><li>Glicose <b>≤ 5 mg/kg/min</b></li><li>Lipídio <b>≤ 1,5 g/kg/dia</b> (incluindo o propofol); reduzir se triglicerídeos &gt; 400 mg/dL</li><li>Aminoácidos 1,3–2,0 g/kg/dia conforme a fase</li></ul>",
+   "fonte": "ESPEN 2019",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Dieta enteral e vasopressor: pode?",
+   "verso": "Sim, com choque <b>controlado</b> (dose estável ou em queda, lactato caindo): começar baixo e observar distensão, resíduo e lactato.",
+   "pegadinha": "Não iniciar em choque não controlado, hipoxemia/acidose ameaçadoras, isquemia intestinal ou sangramento digestivo ativo.",
+   "fonte": "ESPEN 2019",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Terapia nutricional",
+   "frente": "🔥 Vitamina D em dose alta no crítico (VITdAL-ICU, VIOLET)?",
+   "verso": "<b>Sem benefício</b> em mortalidade ou tempo de internação (VITdAL sugeriu benefício só na deficiência grave; VIOLET foi neutro).",
+   "fonte": "Amrein 2014 · VIOLET 2019",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Hemorragia varicosa: doses dos vasoativos?",
+   "verso": "<ul><li><b>Terlipressina 2 mg a cada 4 h</b> até controlar, depois 1 mg a cada 4 h (até 5 dias)</li><li><b>Octreotida 50 µg em bolus + 50 µg/h</b> por 3–5 dias</li><li>Associar ceftriaxona 1 g/dia e endoscopia em até 12 h</li></ul>",
+   "fonte": "Baveno VII",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Hemorragia varicosa refratária: pontes?",
+   "verso": "<ul><li><b>Balão de Sengstaken-Blakemore</b>: no máximo <b>24 h</b>, com via aérea protegida (risco de necrose e ruptura esofágica)</li><li><b>Prótese metálica esofágica</b> (Danis): até 7 dias, mais segura</li><li>Definitivo: <b>TIPS de resgate</b></li></ul>",
+   "fonte": "Baveno VII",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Hemorragia digestiva e ácido tranexâmico (HALT-IT)?",
+   "verso": "<b>Não reduziu</b> morte por sangramento e <b>aumentou</b> trombose venosa e convulsões.",
+   "fonte": "HALT-IT Lancet 2020",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Isquemia mesentérica não oclusiva: quem e como tratar?",
+   "verso": "Baixo débito, <b>vasopressor em dose alta</b>, diálise, pós-cirurgia cardíaca, digoxina.<br><ul><li>Dor e distensão desproporcionais, intolerância à dieta, lactato subindo (tardio)</li><li>Angiotomografia: vasos finos, sem oclusão</li></ul>Otimizar o débito, reduzir vasoconstritor, <b>vasodilatador intra-arterial (papaverina)</b>; cirurgia se necrose.",
+   "fonte": "ESTES 2016",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Pseudo-obstrução aguda do cólon (Ogilvie): tratamento com neostigmina?",
+   "verso": "Ceco <b>&gt; 12 cm</b> ou falha de 48–72 h de medidas clínicas → <b>neostigmina 2 mg IV em 3–5 min</b>, com monitor e <b>atropina à mão</b>.<br><ul><li>Resposta em ~90%; contraindicada em obstrução mecânica, isquemia, broncoespasmo e bradicardia</li><li>Falha: descompressão colonoscópica</li></ul>",
+   "fonte": "Ponec NEJM 1999",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Lesão gastrointestinal aguda (ESICM): graus?",
+   "verso": "<table class=t><tr><th>Grau</th><th>Definição</th></tr><tr><td>I</td><td>Risco: sintomas transitórios após insulto</td></tr><tr><td>II</td><td><b>Disfunção</b>: precisa de intervenção para tolerar a dieta</td></tr><tr><td>III</td><td><b>Falência</b>: intolerância persistente apesar das medidas</td></tr><tr><td>IV</td><td>Falência com <b>risco de vida</b> (isquemia, síndrome compartimental)</td></tr></table>",
+   "fonte": "Reintam Blaser 2012",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Pancreatite necrosante infectada: três ensaios da abordagem escalonada?",
+   "verso": "<ul><li><b>PANTER</b>: step-up (drenagem → necrosectomia mínima) melhor que cirurgia aberta</li><li><b>TENSION</b>: step-up endoscópico = cirúrgico, com menos fístula e menos tempo de internação</li><li><b>POINTER</b>: drenar imediatamente <b>não</b> foi melhor que adiar até o encapsulamento</li></ul>",
+   "fonte": "van Santvoort 2010 · van Brunschot 2018 · Boxhoorn 2021",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Colangite aguda: gravidade (Tóquio) e momento da drenagem?",
+   "verso": "<table class=t><tr><th>Grau</th><th>Critério</th><th>Drenagem biliar</th></tr><tr><td>III grave</td><td><b>Disfunção orgânica</b></td><td><b>Urgente</b>, após estabilizar</td></tr><tr><td>II moderada</td><td>2 de: leucócitos alterados, febre ≥ 39, idade ≥ 75, bilirrubina ≥ 5, albumina baixa</td><td>Precoce (&lt; 24–48 h)</td></tr><tr><td>I leve</td><td>Demais</td><td>Se não responder ao antibiótico</td></tr></table>",
+   "fonte": "Tokyo Guidelines 2018",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Síndrome de Boerhaave: quadro?",
+   "verso": "Ruptura espontânea do esôfago após vômitos: <b>tríade de Mackler</b> (vômito, dor torácica, enfisema subcutâneo), derrame pleural <b>à esquerda</b>, pneumomediastino.<br>Antibiótico amplo, antifúngico, jejum, drenagem e reparo/prótese precoce (mortalidade sobe após 24 h).",
+   "fonte": "Revisões de perfuração esofágica",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Megacólon tóxico: critérios e conduta?",
+   "verso": "Cólon transverso <b>&gt; 6 cm</b> + toxicidade sistêmica (febre, taquicardia, leucocitose, anemia) em colite (inflamatória ou C. difficile).<br>Suspender opioide/anticolinérgico, tratar a causa; <b>colectomia</b> se não melhorar em 24–72 h ou houver perfuração.",
+   "fonte": "Jalan 1969",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Colecistite aguda alitiásica no crítico: fatores de risco e tratamento?",
+   "verso": "<ul><li>Fatores: <b>jejum prolongado e nutrição parenteral</b>, choque e vasopressor, grande queimado, trauma, pós-operatório, opioides</li><li>Mecanismo: estase biliar + isquemia da parede → necrose e perfuração mais frequentes que na litiásica</li><li>Suspeita: sepse sem foco, colestase, dor pouco valorizável no sedado</li><li>Tratamento: antibiótico + <b>colecistostomia percutânea</b> no instável; colecistectomia quando o risco permitir</li></ul>",
+   "pegadinha": "Parede espessada isolada é comum no crítico (ascite, hipoalbuminemia, insuficiência cardíaca) — não fecha o diagnóstico.",
+   "fonte": "Tokyo Guidelines 2018 · Barie Gastroenterol Clin North Am 2010",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e abdome agudo",
+   "frente": "🔥 Necrose pancreática infectada: estratégia e momento (PANTER, TENSION, POINTER)?",
+   "verso": "<table class=t><tr><th>Estudo</th><th>Mensagem</th></tr><tr><td>PANTER (2010)</td><td><b>Step-up</b> (drenagem → necrosectomia minimamente invasiva) reduziu complicação maior ou morte: <b>40% × 69%</b>; ~35% resolveram só com drenagem</td></tr><tr><td>TENSION (2018)</td><td>Step-up <b>endoscópico</b> × cirúrgico: mesmo desfecho; menos fístula e internação menor</td></tr><tr><td>POINTER (2021)</td><td>Drenagem <b>imediata</b> não superou a <b>adiada</b>; adiar reduz procedimentos</td></tr></table><ul><li>Ideal: intervir após <b>~4 semanas</b> (necrose encapsulada), se a clínica permitir</li></ul>",
+   "pegadinha": "Necrose <b>estéril</b> não se drena nem recebe antibiótico profilático.",
+   "fonte": "van Santvoort NEJM 2010 · van Brunschot Lancet 2018 · Boxhoorn NEJM 2021",
+   "imagem": "th_08_2b3838d6.png",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 King's College: critérios na falência não causada por paracetamol?",
+   "verso": "<ul><li><b>INR &gt; 6,5</b>, <b>ou</b></li><li><b>3 de 5</b>: idade &lt; 10 ou &gt; 40 anos · etiologia desfavorável (droga, indeterminada) · icterícia &gt; 7 dias antes da encefalopatia · INR &gt; 3,5 · bilirrubina &gt; 17,5 mg/dL</li></ul>",
+   "fonte": "O'Grady 1989",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 Critérios de Clichy?",
+   "verso": "Encefalopatia grau III–IV + <b>fator V &lt; 20%</b> (até 30 anos) ou <b>&lt; 30%</b> (acima de 30 anos).",
+   "fonte": "Bernuau 1986",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 Insuficiência hepática aguda: prevenção do edema cerebral?",
+   "verso": "<ul><li><b>Amônia &gt; 150–200 µmol/L</b>: alto risco de herniação</li><li><b>Terapia renal contínua precoce</b> para reduzir amônia</li><li>Sódio <b>145–155</b> com salina hipertônica; sedação e intubação no grau III–IV</li><li>Evitar febre, hipoglicemia e hipo-osmolaridade</li></ul>",
+   "pegadinha": "Lactulose e rifaximina têm pouco papel na forma aguda.",
+   "fonte": "EASL 2017 · SCCM 2020",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 Plasmaférese de alto volume na insuficiência hepática aguda?",
+   "verso": "Troca de ~15% do peso ideal em plasma fresco por 3 dias → <b>maior sobrevida livre de transplante</b> (58,7% × 47,8%).",
+   "fonte": "Larsen J Hepatol 2016",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 INR alto na insuficiência hepática: corrigir?",
+   "verso": "<b>Não</b> de forma profilática: a hemostasia está <b>rebalanceada</b> (caem também os anticoagulantes naturais) e o INR é marcador prognóstico.<br>Corrigir só com sangramento ou antes de procedimento de alto risco; guiar por <b>tromboelastografia</b> e fibrinogênio.",
+   "fonte": "EASL 2017",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 N-acetilcisteína fora do paracetamol?",
+   "verso": "Na insuficiência hepática aguda <b>não paracetamol</b>, melhorou a <b>sobrevida livre de transplante</b> (40% × 27%), com benefício concentrado na encefalopatia grau I–II (52% × 30%).",
+   "fonte": "Lee Gastroenterology 2009",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 Síndrome hepatorrenal: terlipressina (CONFIRM)?",
+   "verso": "Terlipressina + albumina: reversão <b>32% × 17%</b>.<br>Alternativa na UTI: noradrenalina + albumina.",
+   "pegadinha": "Mais <b>insuficiência respiratória</b> e mortes por causa respiratória: evitar com saturação &lt; 90%, sobrecarga volêmica ou falência hepática crônica agudizada grau 3.",
+   "fonte": "Wong NEJM 2021",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 Suporte hepático extracorpóreo com albumina (MARS)?",
+   "verso": "Melhora bilirrubina e encefalopatia, <b>sem ganho de sobrevida</b> (RELIEF, FULMAR).",
+   "fonte": "Bañares 2013 · Saliba 2013",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  },
+  {
+   "subtema": "Fígado crítico",
+   "frente": "🔥 Hepatite hipóxica × hepatotoxicidade por droga na UTI?",
+   "verso": "<table class=t><tr><th></th><th>Hipóxica</th><th>Droga</th></tr><tr><td>Transaminases</td><td>&gt; 20 vezes, sobem e <b>caem em dias</b></td><td>Variável, persistente</td></tr><tr><td>Desidrogenase lática</td><td><b>Muito alta</b></td><td>Pouco elevada</td></tr><tr><td>Contexto</td><td>Choque, insuficiência cardíaca, hipoxemia</td><td>Exposição recente</td></tr></table>",
+   "fonte": "Henrion 2012",
+   "tags": [
+    "TH360X",
+    "X08"
+   ]
+  }
+ ],
+ "midia": {
+  "th_08_f12d8cd2.png": "data/media/th_08_f12d8cd2.png",
+  "th_08_2b3838d6.png": "data/media/th_08_2b3838d6.png"
+ }
+}

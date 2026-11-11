@@ -1,0 +1,516 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::02 💓 Hemodinâmica e Choque",
+ "cards": [
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Conteúdo arterial e oferta de oxigênio: fórmulas e valores?",
+   "verso": "<ul><li><b>CaO₂ = 1,34 × Hb × SaO₂ + 0,003 × PaO₂</b> (~20 mL/dL)</li><li><b>DO₂ = débito cardíaco × CaO₂ × 10</b> (~1.000 mL/min)</li><li><b>VO₂</b> ~250 mL/min → taxa de extração <b>~25%</b></li></ul>",
+   "pegadinha": "O O₂ dissolvido só pesa em anemia extrema ou câmara hiperbárica.",
+   "fonte": "Fisiologia cardiovascular",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 DO₂ crítico: conceito?",
+   "verso": "Ponto abaixo do qual o <b>consumo passa a depender da oferta</b> (extração já máxima) → metabolismo anaeróbio e lactato.<br><ul><li>Em humanos, ~4 mL/kg/min; a extração máxima chega a ~60–70%</li></ul>",
+   "fonte": "Ronco JAMA 1993",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Razão gap de CO₂ ÷ diferença arteriovenosa de O₂: para que serve?",
+   "verso": "<b>(PvCO₂ − PaCO₂) ÷ (CaO₂ − CvO₂) &gt; 1,4</b> indica <b>metabolismo anaeróbio</b> (substituto do quociente respiratório).<br><ul><li>Prediz aumento do consumo após expansão volêmica melhor que o lactato</li></ul>",
+   "fonte": "Mekontso-Dessap 2002 · Monnet 2013",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 ScvO₂ alta no choque séptico: boa notícia?",
+   "verso": "Nem sempre: <b>ScvO₂ &gt; 80–90%</b> pode indicar <b>falha de extração</b> (shunt microcirculatório, disfunção mitocondrial) e associa-se a maior mortalidade.<br><ul><li>ScvO₂ costuma ficar ~5% acima da SvO₂ no choque</li></ul>",
+   "fonte": "Pope 2010",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Retorno venoso segundo Guyton?",
+   "verso": "<b>Retorno venoso = (pressão média sistêmica de enchimento − pressão atrial direita) ÷ resistência venosa</b>.<br><ul><li>Volume e vasoconstritores venosos aumentam a pressão média sistêmica (volume \"estressado\")</li><li>PEEP alta e tamponamento elevam a pressão atrial e reduzem o retorno</li></ul>",
+   "fonte": "Guyton 1957",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Resistência vascular sistêmica: fórmula e normal?",
+   "verso": "<b>RVS = (PAM − PVC) × 80 ÷ débito cardíaco</b>; normal <b>800–1.200 dyn·s·cm⁻⁵</b>.<br><ul><li>Índice cardíaco normal: 2,5–4 L/min/m²</li></ul>",
+   "fonte": "Hemodinâmica clássica",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Hiperlactatemia tipo B: causas na UTI?",
+   "verso": "<ul><li><b>Adrenalina e β2-agonistas</b> (glicólise aeróbia acelerada)</li><li><b>Metformina</b>, <b>linezolida</b>, <b>propofol</b> (síndrome de infusão), antirretrovirais</li><li><b>Deficiência de tiamina</b>, insuficiência hepática, neoplasias (efeito Warburg), convulsão</li></ul>",
+   "pegadinha": "Lactato alto por adrenalina não significa hipoperfusão.",
+   "fonte": "Kraut NEJM 2014",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Elastância arterial dinâmica: o que prediz?",
+   "verso": "<b>Variação da pressão de pulso ÷ variação do volume sistólico</b>.<br><ul><li><b>&gt; 0,9–1,0</b>: a pressão arterial tende a subir com volume</li><li>Baixa: o volume aumenta o débito, mas não a pressão → considerar vasopressor</li></ul>",
+   "fonte": "Monge García 2011",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Escore de livedo (mottling) no choque séptico?",
+   "verso": "Extensão do livedo a partir do joelho, <b>0 a 5</b> (0 = ausente; 5 = além da virilha).<br><ul><li>Escore <b>≥ 4</b> em 6 h de ressuscitação: mortalidade muito alta, independente do débito e da PAM</li></ul>",
+   "fonte": "Ait-Oufella 2011",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Acoplamento ventrículo-arterial: conceito e leitura?",
+   "verso": "Relação entre a <b>elastância arterial (Ea ≈ pressão sistólica final ÷ volume sistólico)</b> e a <b>elastância sistólica final do ventrículo (Ees)</b>.<br><ul><li>Pressão sistólica final ≈ <b>0,9 × PAS</b></li><li><b>Ea/Ees ~0,5–1</b> = acoplado; <b>&gt; 1,3</b> = desacoplado</li><li>No choque séptico o desacoplamento é frequente (contratilidade ↓ e/ou pós-carga ↑ pelo vasopressor)</li></ul>",
+   "pegadinha": "Fração de ejeção \"normal\" com pós-carga muito baixa (vasoplegia) pode <b>esconder</b> contratilidade deprimida.",
+   "fonte": "Guarracino Crit Care 2014 · Monge García 2020",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Oxigenação tecidual e fisiologia",
+   "frente": "🔥 Curva de dissociação da oxi-hemoglobina: P50 e desvios?",
+   "verso": "<b>P50 normal ≈ 27 mmHg</b> (PaO₂ em que a hemoglobina está 50% saturada).<br><table class=t><tr><th>Desvio</th><th>Causas</th><th>Efeito</th></tr><tr><td>Direita (P50 ↑)</td><td>Acidose, hipercapnia, febre, 2,3-DPG ↑</td><td>Libera mais O₂ ao tecido</td></tr><tr><td>Esquerda (P50 ↓)</td><td>Alcalose, hipotermia, monóxido de carbono, metemoglobina, sangue estocado</td><td>Retém O₂</td></tr></table><ul><li>Âncoras: PaO₂ 60 ≈ SaO₂ 90%; PaO₂ 40 ≈ 75%; PaO₂ 27 ≈ 50%</li></ul>",
+   "pegadinha": "Alcalose e hipotermia \"melhoram\" a saturação lida, mas <b>pioram a liberação</b> de O₂ ao tecido.",
+   "fonte": "Fisiologia respiratória (West)",
+   "imagem": "th_02_54cfc85d.png",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Variação da pressão de pulso: limiar e condições de validade?",
+   "verso": "<b>&gt; 13%</b> prediz resposta a volume; <b>zona cinzenta 9–13%</b>.<br><ul><li>Exige: ventilação controlada sem esforço, <b>volume corrente ≥ 8 mL/kg</b>, ritmo sinusal, tórax fechado, complacência &gt; 30 mL/cmH₂O</li></ul>",
+   "pegadinha": "Falso-positivo: falência do ventrículo direito. Falso-negativo: volume corrente baixo, hipertensão intra-abdominal.",
+   "fonte": "Michard 2000 · Cannesson 2011",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Tidal volume challenge: como fazer?",
+   "verso": "Subir o volume corrente de <b>6 para 8 mL/kg por 1 minuto</b>.<br><ul><li>Aumento absoluto da variação da pressão de pulso <b>≥ 3,5%</b> → fluido-responsivo</li></ul>",
+   "fonte": "Myatra 2017",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Elevação passiva das pernas: técnica correta e leitura?",
+   "verso": "<ul><li>Partir do semissentado a 45° e <b>girar a cama</b> (tronco a 0°, pernas a 45°): mobiliza ~300 mL</li><li>Medir <b>débito cardíaco em tempo real</b> (efeito máximo em ~1 min): <b>↑ ≥ 10%</b></li><li>Alternativa: <b>ETCO₂ ↑ ≥ 5%</b> (ou ≥ 2 mmHg) em ventilação controlada</li></ul>",
+   "pegadinha": "Pressão arterial isolada é pouco sensível; hipertensão intra-abdominal causa falso-negativo.",
+   "fonte": "Monnet 2016",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Mini desafio volêmico?",
+   "verso": "<b>100 mL em 1 minuto</b>; aumento do VTI subaórtico <b>≥ 10%</b> prediz resposta a 500 mL.",
+   "fonte": "Muller 2011",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Veia cava inferior e fluido-responsividade: cortes?",
+   "verso": "<ul><li>Ventilação controlada: <b>distensibilidade &gt; 18%</b> ((máx − mín) ÷ mín)</li><li>Respiração espontânea: <b>colapso &gt; 40–50%</b></li></ul>",
+   "pegadinha": "Acurácia modesta; falha com esforço variável, PEEP alta, hipertensão intra-abdominal e falência direita.",
+   "fonte": "Barbier 2004 · Airapetian 2015",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Escore VExUS: como é graduado?",
+   "verso": "Só se a veia cava inferior for <b>≥ 2 cm</b>; avaliar hepática, porta e renal.<br><table class=t><tr><th>Veia</th><th>Alteração grave</th></tr><tr><td>Hepática</td><td>Onda <b>S reversa</b></td></tr><tr><td>Porta</td><td>Pulsatilidade <b>&gt; 50%</b></td></tr><tr><td>Renal intralobar</td><td>Fluxo <b>só diastólico</b> (monofásico)</td></tr></table><b>Grau 3</b> = duas ou mais alterações graves → congestão importante, risco de lesão renal.",
+   "fonte": "Beaubien-Souligny 2020",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Modelo ROSE da fluidoterapia?",
+   "verso": "<ul><li><b>R</b>essuscitação: salvar a vida, bolus guiados</li><li><b>O</b>timização: perfusão tecidual, testes de responsividade</li><li><b>S</b>tabilização: balanço zero, só manutenção</li><li><b>E</b>vacuação: desressuscitação (diurético/ultrafiltração)</li></ul>",
+   "fonte": "Malbrain 2018",
+   "imagem": "th_02_4ccf3364.png",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Cristaloide balanceado × salina 0,9%: o que mostraram os grandes ensaios?",
+   "verso": "<ul><li><b>SMART</b>: menos evento renal maior em 30 dias (14,3% × 15,4%)</li><li><b>BaSICS</b> e <b>PLUS</b>: mortalidade em 90 dias igual</li></ul>",
+   "pegadinha": "No traumatismo craniano, evitar soluções hipotônicas (BaSICS sugeriu pior resultado com balanceado nesse subgrupo).",
+   "fonte": "SMART 2018 · BaSICS 2021 · PLUS 2022",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Albumina na ressuscitação: SAFE e ALBIOS?",
+   "verso": "<ul><li><b>SAFE</b>: albumina 4% = salina em mortalidade; <b>pior no traumatismo craniano</b></li><li><b>ALBIOS</b>: manter albumina ≥ 3 g/dL na sepse não reduziu mortalidade (possível benefício no choque)</li></ul>",
+   "fonte": "SAFE 2004 · ALBIOS 2014",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Amidos (HES): por que foram abandonados?",
+   "verso": "<ul><li><b>6S</b>: mais morte em 90 dias (51% × 43%) e mais diálise na sepse</li><li><b>CHEST</b>: mais terapia renal substitutiva</li></ul>",
+   "fonte": "6S 2012 · CHEST 2012",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Fluidos e fluido-responsividade",
+   "frente": "🔥 Fluidos restritivos × liberais no choque séptico após a fase inicial?",
+   "verso": "<ul><li><b>CLASSIC</b>: mortalidade em 90 dias 42,3% × 42,1%</li><li><b>CLOVERS</b> (restrição + vasopressor precoce): 14,0% × 14,9%</li></ul>Estratégias equivalentes: individualizar pela tolerância a fluidos.",
+   "fonte": "CLASSIC 2022 · CLOVERS 2023",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Vasopressina no choque séptico: quando e o que os ensaios mostraram?",
+   "verso": "Associar <b>0,03 U/min</b> quando a noradrenalina chega a <b>0,25–0,5 µg/kg/min</b> (sem titular para cima).<br><ul><li><b>VASST</b>: mortalidade igual; possível benefício no choque menos grave</li><li><b>VANISH</b>: sem ganho em dias livres de falência renal; menos diálise</li></ul>",
+   "fonte": "SSC 2021 · VASST 2008 · VANISH 2016",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Angiotensina II (ATHOS-3)?",
+   "verso": "Choque vasodilatatório com altas doses de vasopressor: resposta de PAM em 3 h <b>69,9% × 23,4%</b>.<br><ul><li>Benefício sugerido em quem tem <b>renina alta</b> e em lesão renal sob diálise</li></ul>",
+   "pegadinha": "Mortalidade não foi o desfecho primário.",
+   "fonte": "Khanna NEJM 2017",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Azul de metileno no choque vasoplégico: dose e contraindicações?",
+   "verso": "<b>1–2 mg/kg em bolus</b> (± infusão); inibe a guanilato ciclase/óxido nítrico.<br><ul><li>Contraindicado na <b>deficiência de G6PD</b> (hemólise) e com <b>serotoninérgicos</b> (síndrome serotoninérgica: é inibidor da MAO)</li><li>Interfere na oximetria de pulso (queda transitória)</li></ul>",
+   "fonte": "Revisões de vasoplegia · Ibarra-Estrada 2023",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Alvo de pressão arterial média no choque séptico?",
+   "verso": "<ul><li><b>SEPSISPAM</b>: 80–85 × 65–70 → mortalidade igual, mais fibrilação atrial; <b>menos diálise em hipertensos crônicos</b></li><li><b>65 Trial</b> (≥ 65 anos): hipotensão permissiva 60–65 → sem pior desfecho (41,0% × 43,8%)</li></ul>",
+   "fonte": "Asfar 2014 · Lamontagne 2020",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Dopamina × noradrenalina (SOAP II)?",
+   "verso": "Mortalidade global igual, mas <b>mais arritmias com dopamina (24,1% × 12,4%)</b> e <b>maior mortalidade no subgrupo cardiogênico</b>.",
+   "fonte": "De Backer NEJM 2010",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Adrenalina × noradrenalina no choque cardiogênico pós-infarto?",
+   "verso": "Efeito semelhante no índice cardíaco, mas adrenalina causou <b>mais choque refratário (37% × 7%)</b>, taquicardia e acidose lática.",
+   "fonte": "Levy JACC 2018",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Milrinona × dobutamina no choque cardiogênico (DOREMI)?",
+   "verso": "<b>Sem diferença</b> no desfecho composto (49% × 54%) nem em mortalidade.<br><ul><li>Milrinona: meia-vida longa, <b>acumula na insuficiência renal</b>, mais vasodilatação</li><li>Preferida em uso crônico de betabloqueador e hipertensão pulmonar</li></ul>",
+   "fonte": "Mathew NEJM 2021",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Levosimendana na sepse (LeoPARDS)?",
+   "verso": "Não reduziu disfunção orgânica nem mortalidade; <b>mais taquiarritmias</b> e menor chance de desmame da ventilação.",
+   "fonte": "Gordon NEJM 2016",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Pressão arterial diastólica baixa no choque: o que indica?",
+   "verso": "<b>Vasoplegia</b> → iniciar vasopressor cedo, sem esperar o fim do volume.<br><ul><li>Índice de choque diastólico (<b>FC ÷ PAD</b>) <b>&gt; 2–2,3</b> associa-se a maior mortalidade</li></ul>",
+   "fonte": "Ospina-Tascón 2020",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Vasopressores e inotrópicos",
+   "frente": "🔥 Nitroprussiato: toxicidade por cianeto × tiocianato?",
+   "verso": "<table class=t><tr><th></th><th>Cianeto</th><th>Tiocianato</th></tr><tr><td>Quando</td><td>Dose alta (&gt; 2 µg/kg/min por horas; 10 µg/kg/min por mais de 10 min)</td><td>Uso por dias, sobretudo com <b>disfunção renal</b></td></tr><tr><td>Quadro</td><td>Acidose lática, <b>saturação venosa alta</b>, confusão, taquifilaxia</td><td>Náusea, confusão, hiper-reflexia, psicose, convulsão</td></tr><tr><td>Conduta</td><td>Suspender; <b>hidroxocobalamina 5 g</b> ± tiossulfato</td><td>Suspender; diálise remove</td></tr></table><ul><li>Disfunção hepática aumenta o risco de cianeto</li></ul>",
+   "pegadinha": "Taquifilaxia + acidose lática + saturação venosa alta em uso de nitroprussiato = pensar em <b>cianeto</b>.",
+   "fonte": "Rindone Ann Pharmacother 1992 · bula",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Monitorização invasiva",
+   "frente": "🔥 Teste de lavagem rápida (fast flush) da linha arterial?",
+   "verso": "<table class=t><tr><th>Resposta</th><th>Significado</th><th>Erro</th></tr><tr><td>1–2 oscilações</td><td>Amortecimento adequado</td><td>—</td></tr><tr><td>Várias oscilações</td><td><b>Subamortecido</b></td><td>Sistólica superestimada, diastólica subestimada</td></tr><tr><td>Nenhuma oscilação</td><td><b>Sobreamortecido</b> (bolha, coágulo, dobra)</td><td>Sistólica subestimada</td></tr></table>A <b>PAM</b> é a medida menos afetada.",
+   "fonte": "Gardner 1981",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Monitorização invasiva",
+   "frente": "🔥 Curva da pressão venosa central: ondas e descensos?",
+   "verso": "<ul><li><b>a</b>: contração atrial · <b>c</b>: fechamento da tricúspide · <b>v</b>: enchimento atrial</li><li><b>x</b>: relaxamento atrial · <b>y</b>: abertura da tricúspide</li></ul><table class=t><tr><th>Achado</th><th>Causa</th></tr><tr><td>Onda <b>a em canhão</b></td><td>Dissociação AV</td></tr><tr><td>Ausência de onda a</td><td>Fibrilação atrial</td></tr><tr><td><b>v gigante</b></td><td>Insuficiência tricúspide</td></tr><tr><td><b>y abrupto</b></td><td>Constrição pericárdica</td></tr><tr><td><b>y ausente/atenuado</b></td><td>Tamponamento</td></tr></table>",
+   "fonte": "Semiologia hemodinâmica",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Monitorização invasiva",
+   "frente": "🔥 Pressão de oclusão da artéria pulmonar: como medir certo?",
+   "verso": "<ul><li>Ponta em <b>zona 3 de West</b> (pressão arterial &gt; venosa &gt; alveolar)</li><li>Ler ao <b>final da expiração</b></li><li><b>Onda v gigante</b>: insuficiência mitral aguda; ler a onda a</li></ul>",
+   "pegadinha": "PEEP alta e hipovolemia transformam zona 3 em zona 1–2 e falseiam a medida.",
+   "fonte": "O'Quin 1983",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Monitorização invasiva",
+   "frente": "🔥 Termodiluição transpulmonar: variáveis e valores?",
+   "verso": "<table class=t><tr><th>Variável</th><th>Normal</th><th>Alerta</th></tr><tr><td>Água pulmonar extravascular</td><td>3–7 mL/kg</td><td><b>&gt; 10</b> = edema</td></tr><tr><td>Índice de permeabilidade vascular pulmonar</td><td>&lt; 3</td><td><b>&gt; 3</b> = edema de permeabilidade (SDRA)</td></tr><tr><td>Volume diastólico final global</td><td>680–800 mL/m²</td><td>Baixo = pré-carga reduzida</td></tr></table>",
+   "fonte": "Monnet 2017",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Monitorização invasiva",
+   "frente": "🔥 Contorno de pulso não calibrado: quando falha?",
+   "verso": "<ul><li><b>Vasoplegia intensa</b> e mudanças rápidas de tônus vascular</li><li>Arritmias, insuficiência aórtica, balão intra-aórtico</li><li>Curva arterial amortecida</li></ul>",
+   "fonte": "Consenso ESICM 2014",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Monitorização invasiva",
+   "frente": "🔥 Pressão radial × femoral no choque com vasopressor em dose alta?",
+   "verso": "A radial pode <b>subestimar</b> a pressão central (gradiente femoral-radial) → risco de escalar vasopressor sem necessidade.<br>Considerar linha femoral se a noradrenalina estiver alta com sinais de boa perfusão.",
+   "fonte": "Dorman 1998 · Kim 2013",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Tipos de choque",
+   "frente": "🔥 Cardiac power output: fórmula e corte?",
+   "verso": "<b>CPO = (PAM × débito cardíaco) ÷ 451</b>, em watts.<br><ul><li><b>&lt; 0,6 W</b> foi o preditor hemodinâmico mais forte de morte no choque cardiogênico (registro SHOCK)</li></ul>",
+   "fonte": "Fincke 2004",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Tipos de choque",
+   "frente": "🔥 Índice de pulsatilidade da artéria pulmonar (PAPi)?",
+   "verso": "<b>(pressão sistólica − diastólica da artéria pulmonar) ÷ pressão atrial direita</b>.<br><ul><li><b>&lt; 0,9–1,0</b> no infarto inferior: falência grave do ventrículo direito</li><li>&lt; 1,85 prediz falência direita após assistência ventricular esquerda</li></ul>",
+   "fonte": "Korabathina 2012",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Tipos de choque",
+   "frente": "🔥 Perfil hemodinâmico dos choques?",
+   "verso": "<table class=t><tr><th>Choque</th><th>Débito</th><th>Pressão de oclusão</th><th>Resistência sistêmica</th></tr><tr><td>Hipovolêmico</td><td>↓</td><td>↓</td><td>↑</td></tr><tr><td>Cardiogênico</td><td>↓</td><td><b>↑</b></td><td>↑</td></tr><tr><td>Obstrutivo (TEP)</td><td>↓</td><td>Normal/↓ (átrio direito ↑)</td><td>↑</td></tr><tr><td>Distributivo</td><td>↑/normal</td><td>↓/normal</td><td><b>↓</b></td></tr></table>",
+   "fonte": "Hemodinâmica clássica",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Tipos de choque",
+   "frente": "🔥 Choque obstrutivo por hiperinsuflação dinâmica: como reconhecer?",
+   "verso": "Asma/DPOC ventilado com hipotensão progressiva, platô alto e fluxo expiratório que não volta a zero.<br><b>Teste de apneia</b>: desconectar 30–60 s → a pressão sobe.",
+   "fonte": "Leatherman 2015",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Tipos de choque",
+   "frente": "🔥 Insuficiência adrenal aguda como causa de choque: pistas?",
+   "verso": "Choque vasoplégico <b>refratário a volume e vasopressor</b> com hiponatremia, hipercalemia, hipoglicemia, eosinofilia ou uso prévio de corticoide.<br>Hidrocortisona 100 mg IV sem esperar exames.",
+   "fonte": "Endocrine Society 2016",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Suporte circulatório mecânico",
+   "frente": "🔥 Balão intra-aórtico: sincronização e contraindicações?",
+   "verso": "<ul><li><b>Insufla na diástole</b> (no nó dicrótico): ↑ perfusão coronária</li><li><b>Desinsufla antes da sístole</b>: ↓ pós-carga</li><li>Contraindicado em <b>insuficiência aórtica moderada/grave</b>, <b>dissecção de aorta</b> e doença arterial periférica grave</li></ul>",
+   "pegadinha": "IABP-SHOCK II: mortalidade em 30 dias 39,7% × 41,3%.",
+   "fonte": "Thiele NEJM 2012",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Suporte circulatório mecânico",
+   "frente": "🔥 DanGer Shock: quem se beneficiou da bomba microaxial?",
+   "verso": "Infarto com supra + choque cardiogênico, <b>excluídos os comatosos após PCR</b>: mortalidade em 180 dias <b>45,8% × 58,5%</b>.",
+   "pegadinha": "Mais sangramento, isquemia de membro, hemólise e diálise.",
+   "fonte": "Møller NEJM 2024",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Suporte circulatório mecânico",
+   "frente": "🔥 ECMO venoarterial periférica: síndrome de Arlequim?",
+   "verso": "Coração recupera a ejeção com <b>pulmão ainda ruim</b>: sangue desoxigenado perfunde coronárias e cérebro; a parte inferior do corpo recebe o sangue da ECMO.<br><ul><li>Monitorar saturação e gasometria no <b>braço direito</b></li></ul>Corrigir: melhorar ventilação, aumentar fluxo, ou configuração V-AV.",
+   "fonte": "ELSO",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Suporte circulatório mecânico",
+   "frente": "🔥 Distensão do ventrículo esquerdo na ECMO venoarterial?",
+   "verso": "A pós-carga do fluxo retrógrado impede a abertura da valva aórtica → <b>estase, trombo e edema pulmonar</b>.<br><ul><li>Sinais: pressão de pulso ausente, valva aórtica fechada, ventrículo com contraste espontâneo</li></ul>\"Venting\": inotrópico, balão, <b>bomba microaxial</b> ou septostomia atrial.",
+   "fonte": "ELSO",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Suporte circulatório mecânico",
+   "frente": "🔥 Reanimação extracorpórea (ECPR): o que mostram os ensaios?",
+   "verso": "<ul><li><b>ARREST</b>: sobrevida à alta 43% × 7% (centro único muito experiente)</li><li><b>Prague OHCA</b>: 31,5% × 22% (sem significância)</li><li><b>INCEPTION</b> (multicêntrico): 20% × 16%, sem diferença</li></ul>Depende de seleção (ritmo chocável, PCR presenciada) e de tempo curto até a canulação.",
+   "fonte": "Yannopoulos 2020 · Belohlavek 2022 · Suverein 2023",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  },
+  {
+   "subtema": "Suporte circulatório mecânico",
+   "frente": "🔥 Marca-passo transvenoso provisório: como ajustar os limiares?",
+   "verso": "<ul><li><b>Captura:</b> reduzir a saída (mA) até perder captura; ideal <b>&lt; 1 mA</b>; programar <b>2–3× o limiar</b></li><li><b>Sensibilidade:</b> com frequência abaixo da do paciente, subir o valor (mV) até parar de sentir; programar <b>metade</b> desse limiar</li><li>Frequência usual 60–80 bpm (90–110 em torsades dependente de pausa)</li><li>Estímulo no ápice do VD → QRS com <b>padrão de bloqueio de ramo esquerdo</b></li><li>Rechecar limiares <b>todos os dias</b></li></ul>",
+   "pegadinha": "QRS estimulado com padrão de <b>bloqueio de ramo direito</b> sugere eletrodo no ventrículo esquerdo (perfuração septal) ou no seio coronário.",
+   "fonte": "ESC Estimulação Cardíaca 2021 · Tjong Neth Heart J 2019",
+   "tags": [
+    "TH360X",
+    "X02"
+   ]
+  }
+ ],
+ "midia": {
+  "th_02_54cfc85d.png": "data/media/th_02_54cfc85d.png",
+  "th_02_4ccf3364.png": "data/media/th_02_4ccf3364.png"
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::07 🫘 Rim, Ácido-Base e Eletrólitos",
+ "cards": [
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Biomarcadores de estresse tubular: TIMP-2 × IGFBP7?",
+   "verso": "Marcadores de <b>parada do ciclo celular</b>: produto <b>&gt; 0,3</b> indica risco de lesão renal aguda moderada-grave em 12 h; <b>&gt; 2,0</b> risco muito alto.<br><ul><li>Usados para acionar o \"pacote KDIGO\" (PrevAKI: menos lesão renal após cirurgia cardíaca)</li></ul>",
+   "fonte": "Kashani 2013 · PrevAKI 2017",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Pacote KDIGO de prevenção em pacientes de alto risco?",
+   "verso": "<ul><li>Suspender <b>nefrotóxicos</b>; evitar contraste quando possível</li><li>Otimizar <b>volemia e pressão de perfusão</b> (monitorização hemodinâmica)</li><li>Evitar <b>hiperglicemia</b></li><li>Monitorar creatinina e diurese</li><li>Não usar amido</li></ul>",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Contraste iodado: o que os ensaios desmontaram?",
+   "verso": "<ul><li><b>PRESERVE</b>: bicarbonato e N-acetilcisteína <b>sem benefício</b></li><li><b>AMACING</b>: em taxa de filtração 30–59, <b>não hidratar</b> foi não inferior</li></ul>Hidratação com salina fica para filtração &lt; 30 ou lesão renal em curso.",
+   "fonte": "PRESERVE 2018 · AMACING 2017",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Pressão intra-abdominal: técnica de medida?",
+   "verso": "Via <b>vesical</b>, com <b>25 mL</b> de salina, paciente em <b>supino</b>, zero na <b>linha axilar média</b>, ao <b>final da expiração</b>, sem contração abdominal.",
+   "fonte": "WSACS 2013",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Síndrome compartimental abdominal: medidas clínicas antes da cirurgia?",
+   "verso": "<ul><li>Esvaziar o conteúdo: sonda gástrica e retal, procinéticos</li><li>Drenar coleções/ascite por punção</li><li>Melhorar a complacência: <b>sedação, analgesia, bloqueio neuromuscular</b>, cabeceira mais baixa</li><li>Balanço negativo (diurético, ultrafiltração)</li></ul>Refratária: <b>laparotomia descompressiva</b>.",
+   "fonte": "WSACS 2013",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Lesão renal aguda séptica: fisiopatologia atual?",
+   "verso": "Não é só isquemia: o fluxo renal global pode estar <b>normal ou aumentado</b>, com disfunção <b>microcirculatória</b>, inflamação e adaptação tubular (parada do ciclo celular).<br>Daí a pouca resposta a \"mais volume\" depois da ressuscitação inicial.",
+   "fonte": "Peerapornratana 2019",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Lesão renal aguda",
+   "frente": "🔥 Rabdomiólise: alvos da hidratação?",
+   "verso": "Cristaloide para diurese de <b>~200–300 mL/h</b> (ou 3 mL/kg/h) até a creatinoquinase cair &lt; 5.000.<br><ul><li>Bicarbonato e manitol: sem benefício comprovado</li><li>Tratar hipercalemia; <b>não corrigir hipocalcemia assintomática</b> (rebote de hipercalcemia na recuperação)</li></ul>",
+   "fonte": "Bosch NEJM 2009",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Momento de iniciar a diálise: o que mostraram os ensaios?",
+   "verso": "<table class=t><tr><th>Ensaio</th><th>Resultado</th></tr><tr><td><b>AKIKI</b></td><td>Tardia segura; <b>49% nunca dialisaram</b></td></tr><tr><td><b>IDEAL-ICU</b></td><td>Sem diferença na sepse</td></tr><tr><td><b>STARRT-AKI</b></td><td>Mortalidade igual (43,9% × 43,7%); <b>mais dependência de diálise</b> com início acelerado</td></tr><tr><td><b>AKIKI-2</b></td><td>Adiar ainda mais (até ureia ~300 mg/dL ou indicação de urgência) <b>não ajudou</b> e pode prejudicar</td></tr></table>Iniciar por indicação clássica; não adiar indefinidamente.",
+   "fonte": "Gaudry 2016/2021 · STARRT-AKI 2020",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Dose da terapia renal contínua?",
+   "verso": "<b>20–25 mL/kg/h de efluente entregue</b> (prescrever 25–30 para compensar pausas).<br><ul><li>ATN e RENAL: dose maior <b>sem benefício</b></li><li>Hemodiálise intermitente: Kt/V 3,9 por semana</li></ul>",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Fração de filtração na hemofiltração: fórmula e limite?",
+   "verso": "<b>Taxa de ultrafiltração ÷ fluxo plasmático</b> (fluxo de sangue × (1 − hematócrito)), somando a pré-diluição ao denominador.<br><ul><li>Manter <b>&lt; 20–25%</b> para não coagular o filtro</li><li>Reduzir: aumentar o fluxo de sangue ou usar pré-diluição</li></ul>",
+   "fonte": "Princípios de terapia renal contínua",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Convecção × difusão?",
+   "verso": "<table class=t><tr><th></th><th>Difusão (hemodiálise)</th><th>Convecção (hemofiltração)</th></tr><tr><td>Força</td><td>Gradiente de concentração</td><td>Gradiente de pressão (arraste)</td></tr><tr><td>Moléculas</td><td><b>Pequenas</b> (ureia, potássio)</td><td>Pequenas e <b>médias</b></td></tr><tr><td>Fluido</td><td>Dialisato</td><td>Reposição</td></tr></table>Não há diferença comprovada de desfecho entre as modalidades.",
+   "fonte": "Princípios de terapia renal contínua",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Anticoagulação regional com citrato (RICH)?",
+   "verso": "Citrato × heparina: vida do filtro <b>47 × 26 h</b>, sangramento <b>5,1% × 16,9%</b>; mais infecções no grupo citrato.<br><ul><li>Citrato quela o cálcio no circuito; repor cálcio no retorno</li></ul>",
+   "fonte": "Zarbock JAMA 2020",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Acúmulo de citrato × sobrecarga de citrato?",
+   "verso": "<table class=t><tr><th></th><th>Acúmulo (fígado/choque não metaboliza)</th><th>Sobrecarga (metaboliza demais)</th></tr><tr><td>Cálcio total ÷ iônico</td><td><b>&gt; 2,5</b></td><td>Normal</td></tr><tr><td>Cálcio iônico</td><td>Baixo</td><td>Normal</td></tr><tr><td>Ácido-base</td><td><b>Acidose com ânion gap alto</b></td><td><b>Alcalose metabólica</b>, hipernatremia</td></tr><tr><td>Conduta</td><td>Reduzir/suspender citrato</td><td>Reduzir fluxo de sangue/citrato ou aumentar dialisato</td></tr></table>",
+   "fonte": "Schneider 2017",
+   "imagem": "th_07_73648e9e.png",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Complicações metabólicas da terapia contínua prolongada?",
+   "verso": "<ul><li><b>Hipofosfatemia</b>, hipocalemia, hipomagnesemia (usar soluções com fosfato)</li><li><b>Hipotermia</b> (pode mascarar febre)</li><li>Perda de aminoácidos (~10–15 g/dia) e vitaminas hidrossolúveis</li><li>Subdose de antibióticos</li></ul>",
+   "fonte": "KDIGO 2012",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Quando tentar suspender a terapia renal substitutiva?",
+   "verso": "<ul><li>Diurese espontânea <b>&gt; 400–500 mL/dia</b> (ou &gt; 2 L/dia com diurético)</li><li>Clearance de creatinina medido <b>&gt; 15–20 mL/min</b></li><li>Melhora da causa de base e balanço controlável</li></ul>",
+   "fonte": "KDIGO 2012 · Uchino 2009",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Hemofiltração de alto volume na sepse (IVOIRE)?",
+   "verso": "70 × 35 mL/kg/h: <b>sem benefício</b> em mortalidade ou hemodinâmica.<br>Hemoadsorção de citocinas também não tem evidência de benefício.",
+   "fonte": "Joannes-Boyau 2013",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Hemoadsorção de citocinas no choque séptico: evidência?",
+   "verso": "Cartuchos adsorventes removem citocinas e outras moléculas de peso médio.<br><ul><li>Ensaio randomizado: <b>sem queda sustentada de IL-6 nem de mortalidade</b></li><li>Sinal de <b>dano</b> na COVID-19 em ECMO (ensaio CYCOV)</li><li>Removem também <b>antimicrobianos</b> e outros fármacos</li><li>SSC 2021: <b>contra</b> hemoperfusão com polimixina B; evidência <b>insuficiente</b> para as demais técnicas</li></ul>",
+   "pegadinha": "Redução de vasopressor em série de casos não é desfecho duro — tecnologia cara sem benefício comprovado.",
+   "fonte": "Schädler PLoS One 2017 · Supady Lancet Respir Med 2021 · SSC 2021",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Terapia renal substitutiva",
+   "frente": "🔥 Plasmaférese terapêutica na UTI: indicações de primeira linha e complicações?",
+   "verso": "<ul><li><b>Primeira linha:</b> púrpura trombocitopênica trombótica, <b>Guillain-Barré</b>, crise miastênica, doença <b>antimembrana basal glomerular</b>, hiperviscosidade sintomática, encefalite anti-NMDA</li><li>Reposição: <b>plasma</b> na púrpura trombocitopênica trombótica; <b>albumina</b> nas demais</li><li>Complicações: <b>hipocalcemia pelo citrato</b>, coagulopatia dilucional com albumina, hipotensão, reações ao plasma, complicações do cateter</li><li>Remove fármacos ligados a proteínas → dar <b>antimicrobianos e imunoglobulina depois</b> da sessão</li></ul>",
+   "pegadinha": "Na vasculite por ANCA grave, o <b>PEXIVAS</b> não mostrou redução de morte nem de doença renal terminal.",
+   "fonte": "ASFA 2023 · Walsh NEJM 2020",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🔥 Compensações esperadas nos distúrbios ácido-base?",
+   "verso": "<table class=t><tr><th>Distúrbio</th><th>Resposta esperada</th></tr><tr><td>Acidose metabólica</td><td>PaCO₂ = <b>1,5 × HCO₃ + 8 (± 2)</b> (Winter)</td></tr><tr><td>Alcalose metabólica</td><td>PaCO₂ sobe <b>0,7 por 1 mEq/L</b> de HCO₃</td></tr><tr><td>Acidose respiratória</td><td>HCO₃ sobe <b>1 (aguda)</b> ou <b>3,5–4 (crônica)</b> por 10 mmHg</td></tr><tr><td>Alcalose respiratória</td><td>HCO₃ cai <b>2 (aguda)</b> ou <b>4–5 (crônica)</b> por 10 mmHg</td></tr></table>Fora do esperado = distúrbio misto.",
+   "fonte": "Fisiologia ácido-base",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🔥 Hipoalbuminemia e equilíbrio ácido-base?",
+   "verso": "Albumina é ácido fraco: sua queda causa <b>alcalose metabólica</b> e <b>reduz o ânion gap</b> (~2,5 mEq/L por g/dL).<br>No crítico, isso <b>mascara</b> acidoses de ânion gap alto.",
+   "fonte": "Figge 1998",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🔥 Acidose D-lática?",
+   "verso": "Intestino curto ou bypass + carga de carboidrato: <b>encefalopatia</b> (fala arrastada, ataxia) com <b>acidose de ânion gap alto e lactato sérico normal</b> (o exame comum mede só o isômero L).<br>Jejum de carboidrato, bicarbonato, antibiótico oral.",
+   "fonte": "Kowlgi 2015",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Ácido-base",
+   "frente": "🔥 Acidose respiratória aguda grave: por que evitar bicarbonato?",
+   "verso": "O bicarbonato gera CO₂; se a ventilação é fixa, a PaCO₂ sobe e a <b>acidose intracelular piora</b>.<br>Tratar aumentando a ventilação alveolar; trometamina (THAM) é alternativa que não gera CO₂.",
+   "fonte": "Fisiologia ácido-base",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Sódio e água",
+   "frente": "🔥 Hiponatremia: como evitar e reverter a correção excessiva?",
+   "verso": "<ul><li>Diurese &gt; 100 mL/h com urina diluída = sinal de <b>aquarese</b> (risco de supercorreção)</li><li><b>\"Clamp\" com desmopressina</b> 1–2 µg a cada 6–8 h + salina 3% titulada</li><li>Se ultrapassar o limite: <b>baixar o sódio de novo</b> com glicose 5% + desmopressina</li></ul>",
+   "fonte": "Sterns 2018",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Sódio e água",
+   "frente": "🔥 Depuração de água livre de eletrólitos: para que serve?",
+   "verso": "<b>Volume urinário × [1 − (Na urinário + K urinário) ÷ Na sérico]</b>.<br><ul><li>Positiva: o rim elimina água livre (o sódio tende a subir)</li><li>Negativa: retém água (o sódio tende a cair)</li></ul>Explica por que restrição hídrica falha quando (Na + K) urinários &gt; Na sérico.",
+   "fonte": "Rose",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Potássio, cálcio, magnésio e fósforo",
+   "frente": "🔥 Reposição de potássio: velocidade e rendimento?",
+   "verso": "<ul><li>Cada <b>10 mEq</b> eleva o potássio em <b>~0,1 mEq/L</b> (se não houver perda contínua)</li><li>Periférico: até <b>10 mEq/h</b>; central com monitor: <b>20 mEq/h</b> (até 40 em risco de vida)</li><li>Corrigir <b>magnésio</b> junto; evitar diluir em glicose (insulina leva potássio para a célula)</li></ul>",
+   "fonte": "Kraft 2005",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Potássio, cálcio, magnésio e fósforo",
+   "frente": "🔥 Hipermagnesemia: progressão clínica?",
+   "verso": "<table class=t><tr><th>Magnésio (mEq/L)</th><th>Efeito</th></tr><tr><td>4–7</td><td>Faixa terapêutica na eclâmpsia</td></tr><tr><td><b>7–10</b></td><td><b>Perda do reflexo patelar</b></td></tr><tr><td><b>10–13</b></td><td>Depressão respiratória</td></tr><tr><td>&gt; 15–25</td><td>Bloqueio cardíaco e parada</td></tr></table>Antídoto: <b>gluconato de cálcio 1 g IV</b>; diálise na insuficiência renal.",
+   "fonte": "ACOG 2020",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  },
+  {
+   "subtema": "Potássio, cálcio, magnésio e fósforo",
+   "frente": "🔥 Síndrome de realimentação: prevenção e o que fazer se o fósforo cair?",
+   "verso": "<ul><li>Risco: desnutrição, jejum &gt; 5–10 dias, etilismo, anorexia</li><li><b>Tiamina 100–300 mg antes</b> de iniciar; começar com 10–20 kcal/kg/dia</li><li>Se o fósforo cair (&lt; 0,65 mmol/L): <b>restringir calorias por 48 h</b> e repor → menor mortalidade</li></ul>",
+   "fonte": "Doig Lancet Respir Med 2015 · ASPEN 2020",
+   "tags": [
+    "TH360X",
+    "X07"
+   ]
+  }
+ ],
+ "midia": {
+  "th_07_73648e9e.png": "data/media/th_07_73648e9e.png"
+ }
+}

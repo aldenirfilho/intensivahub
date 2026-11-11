@@ -1,0 +1,480 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::04 🧠 Neurointensivismo",
+ "cards": [
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Onda de pressão intracraniana: componentes P1, P2, P3?",
+   "verso": "<ul><li><b>P1</b> percussão (pulso arterial) · <b>P2</b> tidal (complacência) · <b>P3</b> dicrótica</li></ul><b>P2 &gt; P1</b> indica <b>complacência intracraniana reduzida</b>, mesmo com valor absoluto ainda normal.",
+   "fonte": "Neuromonitorização clássica",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Ondas de Lundberg?",
+   "verso": "<table class=t><tr><th>Onda</th><th>Característica</th><th>Significado</th></tr><tr><td><b>A (platô)</b></td><td>50–100 mmHg por 5–20 min</td><td><b>Sempre patológica</b>: herniação iminente</td></tr><tr><td>B</td><td>Até 50 mmHg, 0,5–2/min</td><td>Complacência reduzida</td></tr><tr><td>C</td><td>Até 20 mmHg, 4–8/min</td><td>Pouco valor clínico</td></tr></table>",
+   "fonte": "Lundberg 1960",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Índice PRx e pressão de perfusão ótima?",
+   "verso": "PRx = correlação entre PAM e PIC ao longo do tempo.<br><ul><li><b>Negativo ou ~0</b>: autorregulação preservada · <b>&gt; 0,2–0,3</b>: comprometida</li><li>Pressão de perfusão <b>ótima</b>: a que dá o menor PRx (alvo individualizado)</li></ul>",
+   "fonte": "Czosnyka 1997 · COGiTATE 2021",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Pressão tecidual de oxigênio cerebral (PbtO₂): limiar e condutas?",
+   "verso": "<b>&lt; 20 mmHg</b> = hipóxia tecidual (&lt; 10 grave).<br><ul><li>Corrigir: pressão de perfusão, PaO₂, PaCO₂ (evitar hipocapnia), hemoglobina, PIC, febre/convulsão</li></ul>",
+   "fonte": "SIBICC 2020",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Saturação do bulbo jugular (SjvO₂): interpretação?",
+   "verso": "<ul><li><b>&lt; 55%</b>: extração aumentada → <b>isquemia/hipoperfusão</b></li><li><b>&gt; 75%</b>: hiperemia ou falha de extração (infarto, morte encefálica)</li></ul>",
+   "fonte": "BTF 2016",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Doppler transcraniano no vasoespasmo: cortes?",
+   "verso": "<ul><li>Velocidade média na cerebral média <b>&gt; 120 cm/s</b> (leve) e <b>&gt; 200</b> (grave)</li><li><b>Índice de Lindegaard</b> (cerebral média ÷ carótida interna extracraniana): <b>&gt; 3</b> vasoespasmo, <b>&gt; 6</b> grave; &lt; 3 com velocidade alta = hiperemia</li><li>Índice de pulsatilidade <b>&gt; 1,2–1,4</b> sugere hipertensão intracraniana</li></ul>",
+   "fonte": "AHA 2023 HSA",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Pupilometria automatizada (NPi)?",
+   "verso": "Índice pupilar neurológico de 0 a 5: <b>&lt; 3 é anormal</b>; 0 = sem reatividade.<br><ul><li>Queda do índice pode <b>preceder</b> a elevação da PIC</li><li>Diferença entre os olhos ≥ 0,7 é relevante</li></ul>",
+   "fonte": "Chen 2011 · ORANGE 2023",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Microdiálise cerebral: marcador de crise metabólica?",
+   "verso": "<b>Razão lactato/piruvato &gt; 25–40</b> (crise energética), sobretudo com <b>glicose baixa</b> (&lt; 0,8 mmol/L).",
+   "fonte": "Consenso de microdiálise 2015",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Osmoterapia: manitol × salina hipertônica?",
+   "verso": "<table class=t><tr><th></th><th>Manitol 20%</th><th>Salina hipertônica</th></tr><tr><td>Dose</td><td>0,25–1 g/kg</td><td>3%: 2–5 mL/kg · 23,4%: 30 mL em acesso central</td></tr><tr><td>Efeito</td><td>Diurese osmótica → <b>hipovolemia</b></td><td>Expande volume</td></tr><tr><td>Limite</td><td>Osmolaridade &lt; 320 ou gap osmolar &lt; 20</td><td>Sódio &lt; 155–160</td></tr></table>Preferir salina hipertônica no hipotenso/hipovolêmico.",
+   "fonte": "NCS 2020",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Hiperventilação na hipertensão intracraniana: regras?",
+   "verso": "PaCO₂ <b>30–35 mmHg</b> apenas como <b>ponte breve</b> para herniação; cada 1 mmHg de queda reduz o fluxo cerebral em ~3%.",
+   "pegadinha": "Evitar nas primeiras 24 h do trauma e não manter &lt; 30 sem monitor de oxigenação (isquemia).",
+   "fonte": "BTF 2016",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Algoritmo SIBICC: o que está em cada nível?",
+   "verso": "<ul><li><b>Nível 1</b>: sedação/analgesia, pressão de perfusão 60–70, osmoterapia em bolus, drenagem liquórica, PaCO₂ 35–38</li><li><b>Nível 2</b>: PaCO₂ 32–35, bloqueio neuromuscular (se teste positivo), desafio de PAM</li><li><b>Nível 3</b>: <b>barbitúrico</b>, <b>craniectomia descompressiva</b>, hipotermia 35–36 °C</li></ul>",
+   "fonte": "Hawryluk 2019",
+   "imagem": "th_04_12aee6f0.png",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Coma barbitúrico: monitorização e riscos?",
+   "verso": "Tiopental/pentobarbital titulado para <b>surto-supressão no EEG</b>.<br><ul><li>Riscos: <b>hipotensão</b>, imunossupressão/pneumonia, íleo, hipocalemia (e rebote na retirada), meia-vida longa que atrasa o exame neurológico</li></ul>",
+   "fonte": "BTF 2016",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "PIC e neuromonitorização",
+   "frente": "🔥 Oximetria cerebral por infravermelho próximo (NIRS): valores e limites?",
+   "verso": "Estima a saturação regional do córtex frontal — sangue predominantemente <b>venoso</b>.<br><ul><li>Normal <b>60–80%</b>; alerta: queda <b>&gt; 20% do basal</b> ou valor <b>&lt; 50%</b></li><li>Uso mais consolidado: cirurgia cardíaca e de carótida</li><li>Limites: contaminação por <b>tecido extracraniano</b>, só região frontal, sem corte validado no trauma craniano</li></ul>",
+   "pegadinha": "Vale a <b>tendência</b>; o valor absoluto isolado engana (pele, osso, hematoma subgaleal, bilirrubina).",
+   "fonte": "Revisões de neuromonitorização multimodal",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Brain Trauma Foundation: metas numéricas?",
+   "verso": "<ul><li>Tratar PIC <b>&gt; 22 mmHg</b></li><li>Pressão de perfusão <b>60–70 mmHg</b></li><li>Pressão sistólica <b>≥ 100</b> (50–69 anos) e <b>≥ 110</b> (15–49 ou &gt; 70 anos)</li><li>Sem corticoide; profilaxia de convulsão precoce por 7 dias</li></ul>",
+   "fonte": "BTF 4ª edição 2016",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Quando monitorar a PIC no trauma craniano?",
+   "verso": "<ul><li>Glasgow <b>≤ 8 com tomografia anormal</b></li><li>Tomografia normal + <b>≥ 2</b> de: idade &gt; 40, postura motora, pressão sistólica &lt; 90</li></ul>",
+   "fonte": "BTF",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Craniectomia descompressiva no trauma: DECRA × RESCUEicp?",
+   "verso": "<table class=t><tr><th></th><th>DECRA</th><th>RESCUEicp</th></tr><tr><td>Momento</td><td>Precoce (PIC &gt; 20 por 15 min)</td><td>Tardia, refratária (PIC &gt; 25 por 1–12 h)</td></tr><tr><td>Resultado</td><td><b>Pior</b> desfecho funcional</td><td>Mortalidade <b>26,9% × 48,9%</b>, com mais sobreviventes dependentes</td></tr></table>",
+   "fonte": "Cooper 2011 · Hutchinson 2016",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Corticoide no trauma craniano (CRASH)?",
+   "verso": "Metilprednisolona em dose alta <b>aumentou a mortalidade</b> em 2 semanas (21,1% × 17,9%) → contraindicado.",
+   "fonte": "CRASH Lancet 2004",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Ácido tranexâmico no trauma craniano (CRASH-3)?",
+   "verso": "Em até 3 h: sem redução significativa no total; benefício no <b>trauma leve a moderado</b> (Glasgow 9–15) e com pupilas reativas; sem aumento de eventos trombóticos.",
+   "fonte": "CRASH-3 Lancet 2019",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Hipotermia no trauma craniano (POLAR, Eurotherm)?",
+   "verso": "<b>Sem benefício</b>: profilática precoce não melhorou o desfecho (POLAR) e hipotermia para controlar PIC piorou (Eurotherm3235).<br>Fica como medida de resgate (nível 3), em faixa leve.",
+   "fonte": "POLAR 2018 · Eurotherm 2015",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Hiperatividade simpática paroxística: quadro e tratamento?",
+   "verso": "Após lesão cerebral grave: crises de <b>taquicardia, hipertensão, febre, sudorese, taquipneia e posturas</b>, desencadeadas por estímulos.<br><ul><li>Abortar: morfina, benzodiazepínico</li><li>Prevenir: <b>propranolol</b>, <b>gabapentina</b>, clonidina/dexmedetomidina, bromocriptina, baclofeno</li></ul>",
+   "pegadinha": "Diagnóstico de exclusão (afastar sepse, embolia, abstinência).",
+   "fonte": "Baguley 2014",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Hematoma epidural e subdural agudo: critérios cirúrgicos?",
+   "verso": "<ul><li>Epidural: volume <b>&gt; 30 cm³</b> (qualquer Glasgow)</li><li>Subdural: espessura <b>&gt; 10 mm</b> ou desvio de linha média <b>&gt; 5 mm</b></li><li>Ou piora neurológica/PIC &gt; 20 com lesões menores</li></ul>",
+   "fonte": "Bullock 2006",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Trauma cranioencefálico",
+   "frente": "🔥 Poliúria após trauma craniano: três diagnósticos?",
+   "verso": "<table class=t><tr><th></th><th>Diabetes insípido</th><th>Perda cerebral de sal</th><th>Diurese osmótica/manitol</th></tr><tr><td>Sódio</td><td><b>Alto</b></td><td><b>Baixo</b></td><td>Variável</td></tr><tr><td>Urina</td><td>Diluída (&lt; 300 mOsm)</td><td>Concentrada, sódio alto</td><td>Osmolaridade &gt; 300</td></tr><tr><td>Volemia</td><td>Baixa/normal</td><td><b>Baixa</b></td><td>Baixa</td></tr><tr><td>Tratamento</td><td>Desmopressina</td><td>Sal + volume ± fludrocortisona</td><td>Repor volume</td></tr></table>",
+   "fonte": "Neurointensivismo clássico",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Infarto maligno da cerebral média: craniectomia descompressiva?",
+   "verso": "<b>≤ 60 anos, em até 48 h</b>: mortalidade <b>22% × 71%</b> (análise conjunta de DESTINY, DECIMAL e HAMLET; NNT 2 para sobrevida).<br><ul><li><b>&gt; 60 anos</b> (DESTINY II): mais sobreviventes, a maioria com incapacidade grave</li></ul>",
+   "fonte": "Vahedi Lancet Neurol 2007 · Jüttler 2014",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Sangramento intracraniano sintomático após alteplase: conduta?",
+   "verso": "<ul><li>Suspender a infusão; tomografia e coagulograma com fibrinogênio</li><li><b>Crioprecipitado 10 unidades</b> (meta de fibrinogênio &gt; 150–200 mg/dL)</li><li><b>Ácido tranexâmico 1 g</b> ou ácido aminocaproico</li></ul>",
+   "fonte": "AHA 2019",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Angioedema orolingual após alteplase: fatores e conduta?",
+   "verso": "Mais comum em quem usa <b>IECA</b> e em infartos da ínsula/frontal; costuma ser <b>contralateral</b> à lesão.<br>Suspender alteplase e IECA; metilprednisolona + difenidramina + bloqueador H2; adrenalina e via aérea precoce se progredir.",
+   "fonte": "AHA 2019",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Hemorragia intracerebral: reversão por anticoagulante?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Reversão</th></tr><tr><td>Varfarina</td><td><b>Complexo protrombínico 4 fatores 25–50 U/kg + vitamina K 10 mg IV</b></td></tr><tr><td>Dabigatrana</td><td><b>Idarucizumabe 5 g</b></td></tr><tr><td>Inibidor do fator Xa</td><td><b>Andexanet alfa</b> ou complexo protrombínico 50 U/kg</td></tr><tr><td>Heparina</td><td><b>Protamina</b></td></tr></table>",
+   "pegadinha": "Antiagregante: <b>não transfundir plaquetas</b> (PATCH: pior desfecho), exceto antes de neurocirurgia.",
+   "fonte": "AHA/ASA 2022",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Andexanet na hemorragia intracerebral (ANNEXA-I)?",
+   "verso": "Melhor hemostasia (<b>67,0% × 53,1%</b>) que o cuidado usual, porém <b>mais eventos trombóticos (10,3% × 5,6%)</b>, principalmente AVC isquêmico; mortalidade igual.",
+   "fonte": "Connolly NEJM 2024",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Pacote de cuidados na hemorragia intracerebral (INTERACT3)?",
+   "verso": "Em 1 hora: <b>sistólica &lt; 140</b>, <b>glicemia controlada</b>, <b>temperatura ≤ 37,5 °C</b> e <b>reversão da anticoagulação (INR &lt; 1,5)</b> → melhor desfecho funcional em 6 meses.",
+   "fonte": "Ma Lancet 2023",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Cirurgia na hemorragia intracerebral: o que há de evidência?",
+   "verso": "<ul><li><b>Cerebelar &gt; 3 cm</b>, compressão de tronco ou hidrocefalia: evacuação</li><li><b>ENRICH</b>: cirurgia minimamente invasiva em até 24 h melhorou o desfecho na hemorragia <b>lobar</b></li><li>STICH e MISTIE III: neutros para a maioria dos supratentoriais</li></ul>",
+   "fonte": "AHA/ASA 2022 · ENRICH 2024",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Hemorragia subaracnoide: escala de Fisher modificada?",
+   "verso": "<table class=t><tr><th>Grau</th><th>Tomografia</th><th>Vasoespasmo</th></tr><tr><td>1</td><td>Fina, sem sangue ventricular</td><td>Baixo</td></tr><tr><td>2</td><td>Fina, <b>com</b> sangue ventricular</td><td>—</td></tr><tr><td>3</td><td>Espessa, sem sangue ventricular</td><td>—</td></tr><tr><td>4</td><td>Espessa, <b>com</b> sangue ventricular</td><td><b>Maior risco</b></td></tr></table>",
+   "fonte": "Frontera 2006",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Hemorragia subaracnoide: prevenção do ressangramento?",
+   "verso": "<ul><li>Tratar o aneurisma <b>em até 24 h</b></li><li>Sistólica <b>&lt; 160 mmHg</b> até o tratamento</li><li>Ácido tranexâmico ultraprecoce <b>não</b> melhorou desfecho (ULTRA)</li></ul>",
+   "fonte": "AHA 2023 · ULTRA 2021",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Isquemia cerebral tardia na hemorragia subaracnoide: janela e manejo?",
+   "verso": "Dias <b>4 a 14</b> (pico 7–10).<br><ul><li><b>Nimodipina 60 mg a cada 4 h por 21 dias</b> (melhora desfecho, não o calibre do vaso)</li><li><b>Euvolemia</b> (não hipervolemia profilática)</li><li>Isquemia instalada: <b>hipertensão induzida</b>; resgate endovascular (angioplastia, vasodilatador intra-arterial)</li></ul>",
+   "pegadinha": "Magnésio e estatina não funcionaram (MASH-2, STASH).",
+   "fonte": "AHA 2023",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Complicações sistêmicas da hemorragia subaracnoide?",
+   "verso": "<ul><li><b>Cardiomiopatia de estresse neurogênica</b> (troponina, ondas T cerebrais, disfunção segmentar)</li><li><b>Edema pulmonar neurogênico</b></li><li><b>Hiponatremia</b> (perda cerebral de sal ou SIADH): não restringir água; sal e fludrocortisona</li><li>Febre central, hiperglicemia</li></ul>",
+   "fonte": "AHA 2023",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Edema pulmonar neurogênico: mecanismo e manejo?",
+   "verso": "Edema agudo <b>minutos a horas</b> após insulto neurológico grave (hemorragia subaracnóidea, trauma craniano, estado de mal, AVC de tronco).<br><ul><li>Mecanismo: <b>descarga simpática maciça</b> → vasoconstrição, ↑ pressão capilar pulmonar e permeabilidade</li><li>Infiltrado bilateral e hipoxemia; costuma resolver em <b>48–72 h</b></li><li>Manejo: tratar a causa e a hipertensão intracraniana, ventilação protetora, PEEP titulada vigiando a PIC, evitar sobrecarga hídrica</li></ul>",
+   "pegadinha": "É diagnóstico de exclusão: afastar aspiração, disfunção cardíaca e sobrecarga de volume.",
+   "fonte": "Davison Crit Care 2012 · Busl CCM 2015",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "AVC e hemorragias",
+   "frente": "🔥 Miocárdio atordoado neurogênico na hemorragia subaracnóidea?",
+   "verso": "Disfunção ventricular aguda por excesso de catecolaminas (espectro do Takotsubo).<br><ul><li>Mais comum na hemorragia de <b>alto grau</b> e em mulheres</li><li><b>Troponina</b> discretamente elevada, <b>ondas T invertidas profundas, QT longo</b>, hipocinesia que <b>não respeita território coronariano</b></li><li>Reversível em dias a semanas</li><li>Associa-se a hipotensão e a <b>isquemia cerebral tardia</b></li><li>Suporte: euvolemia; inotrópico se baixo débito; não adiar o tratamento do aneurisma</li></ul>",
+   "pegadinha": "Alteração de ST-T com troponina na hemorragia subaracnóidea <b>não</b> autoriza antitrombótico nem cateterismo de rotina.",
+   "fonte": "AHA/ASA 2023 · Kerro J Crit Care 2017",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Status, neuromuscular e coma",
+   "frente": "🔥 Estado de mal epiléptico: tempos operacionais (ILAE)?",
+   "verso": "<ul><li><b>t1 = 5 min</b>: tratar como estado de mal (convulsivo)</li><li><b>t2 = 30 min</b>: risco de dano neuronal</li><li><b>Refratário</b>: falha de benzodiazepínico + 1 fármaco de 2ª linha</li><li><b>Super-refratário</b>: persiste ou recorre <b>≥ 24 h</b> após anestésico</li></ul>",
+   "fonte": "ILAE 2015",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Status, neuromuscular e coma",
+   "frente": "🔥 NORSE e FIRES?",
+   "verso": "<b>NORSE</b>: estado de mal refratário de início novo, sem epilepsia prévia nem causa estrutural/tóxica/metabólica aguda evidente. <b>FIRES</b>: subtipo precedido de febre (24 h a 2 semanas antes).<br><ul><li>Metade é criptogênica; a causa identificada mais comum é <b>encefalite autoimune</b></li></ul>Imunoterapia precoce (corticoide, imunoglobulina, plasmaférese); dieta cetogênica; anakinra/tocilizumabe.",
+   "fonte": "Consenso NORSE 2018",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Status, neuromuscular e coma",
+   "frente": "🔥 Guillain-Barré: regra 20/30/40 e cuidados na intubação?",
+   "verso": "Intubar se capacidade vital <b>&lt; 20 mL/kg</b>, pressão inspiratória máxima pior que <b>−30</b> ou expiratória <b>&lt; 40 cmH₂O</b> (ou queda &gt; 30%).<br><ul><li><b>Evitar succinilcolina</b> (hipercalemia)</li><li>Disautonomia: usar drogas de ação curta</li><li>Imunoglobulina 0,4 g/kg/dia por 5 dias <b>ou</b> plasmaférese; <b>corticoide não</b></li></ul>",
+   "fonte": "Lawn 2001 · EAN/PNS 2023",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Status, neuromuscular e coma",
+   "frente": "🔥 Lesão medular aguda: metas hemodinâmicas e corticoide?",
+   "verso": "<ul><li>PAM <b>85–90 mmHg por até 7 dias</b> (diretrizes recentes aceitam 75–80 a 90–95 por 3–7 dias)</li><li>Choque neurogênico (lesão acima de T6): <b>hipotensão + bradicardia</b> → noradrenalina; atropina para aspiração</li><li><b>Metilprednisolona não é recomendada</b> de rotina</li></ul>",
+   "fonte": "AANS/CNS 2013 · AO Spine 2024",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Status, neuromuscular e coma",
+   "frente": "🔥 Síndromes de herniação: sinais?",
+   "verso": "<table class=t><tr><th>Herniação</th><th>Achados</th></tr><tr><td><b>Uncal</b></td><td>Midríase <b>ipsilateral</b> (III nervo), hemiparesia contralateral; Kernohan = hemiparesia ipsilateral (falso localizador)</td></tr><tr><td>Central</td><td>Pupilas médias fixas, posturas, deterioração rostrocaudal</td></tr><tr><td>Subfalcina</td><td>Compressão da cerebral anterior (fraqueza de perna)</td></tr><tr><td>Tonsilar</td><td>Apneia, bradicardia, hipertensão (Cushing)</td></tr></table>",
+   "fonte": "Plum e Posner",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Status, neuromuscular e coma",
+   "frente": "🔥 Escore FOUR: vantagem sobre o Glasgow?",
+   "verso": "Quatro itens de 0 a 4: <b>olhos, motor, reflexos de tronco e respiração</b> (total 16).<br><ul><li>Avalia intubados (não depende de resposta verbal) e detecta locked-in e herniação</li></ul>",
+   "fonte": "Wijdicks 2005",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Status, neuromuscular e coma",
+   "frente": "🔥 Choque medular × choque neurogênico?",
+   "verso": "<table class=t><tr><th></th><th>Choque medular</th><th>Choque neurogênico</th></tr><tr><td>Natureza</td><td><b>Neurológica</b> (reflexos)</td><td><b>Hemodinâmica</b></td></tr><tr><td>Quadro</td><td>Paralisia flácida e arreflexia abaixo da lesão</td><td>Hipotensão + <b>bradicardia</b>, pele quente</td></tr><tr><td>Nível</td><td>Qualquer</td><td>Acima de <b>T6</b> (perda do simpático)</td></tr><tr><td>Fim</td><td>Retorno do <b>reflexo bulbocavernoso</b></td><td>Dias a semanas</td></tr></table><ul><li>A lesão só é classificada como completa <b>depois</b> do fim do choque medular</li></ul>",
+   "pegadinha": "Hipotensão no trauma raquimedular é <b>hemorrágica até prova em contrário</b>.",
+   "fonte": "ATLS 10 · Ditunno Spinal Cord 2004",
+   "imagem": "th_04_bc806146.png",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Morte encefálica e pós-PCR",
+   "frente": "🔥 Morte encefálica: quais procedimentos são obrigatórios?",
+   "verso": "<ul><li><b>Dois exames clínicos</b> por médicos diferentes e capacitados (intervalo <b>≥ 1 h</b> acima de 2 anos de idade)</li><li><b>Um teste de apneia</b> (PaCO₂ final <b>&gt; 55 mmHg</b>)</li><li><b>Um exame complementar</b> (fluxo, atividade elétrica ou metabólica)</li></ul>A hora do óbito é a da <b>conclusão do último procedimento</b>.",
+   "fonte": "CFM 2.173/2017",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Morte encefálica e pós-PCR",
+   "frente": "🔥 Manutenção do potencial doador: metas?",
+   "verso": "<ul><li>PAM <b>≥ 65</b>, diurese 0,5–4 mL/kg/h, temperatura &gt; 35 °C</li><li>Sódio <b>&lt; 155</b>; glicemia &lt; 180</li><li>Diabetes insípido: <b>desmopressina</b>; choque: noradrenalina + <b>vasopressina</b></li><li><b>Hidrocortisona em dose baixa</b> se dependente de vasopressor; hormônio tireoidiano <b>não</b> é rotina</li><li>Ventilação protetora (6–8 mL/kg, PEEP ≥ 8)</li></ul>",
+   "fonte": "AMIB/ABTO 2021",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Morte encefálica e pós-PCR",
+   "frente": "🔥 Prognóstico neurológico após PCR (ERC/ESICM 2021): regra?",
+   "verso": "Com <b>≥ 72 h</b> e resposta motora ≤ 3, mau prognóstico é <b>provável se ≥ 2</b> de:<br><ul><li>Sem reflexo pupilar <b>e</b> corneano</li><li><b>N20 ausente bilateralmente</b> no potencial evocado</li><li>EEG altamente maligno após 24 h</li><li><b>Enolase &gt; 60 µg/L</b> em 48–72 h</li><li>Estado mioclônico em até 72 h</li><li>Lesão anóxica difusa em tomografia/ressonância</li></ul>",
+   "fonte": "Nolan 2021",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  },
+  {
+   "subtema": "Morte encefálica e pós-PCR",
+   "frente": "🔥 Pressão, oxigênio e CO₂ após PCR: BOX e TAME?",
+   "verso": "<ul><li><b>BOX</b>: PAM 77 × 63 e PaO₂ restritiva × liberal → sem diferença</li><li><b>TAME</b>: hipercapnia leve (50–55) → sem benefício</li></ul>Manter normóxia, normocapnia e PAM &gt; 65.",
+   "fonte": "BOX 2022 · TAME 2023",
+   "tags": [
+    "TH360X",
+    "X04"
+   ]
+  }
+ ],
+ "midia": {
+  "th_04_12aee6f0.png": "data/media/th_04_12aee6f0.png",
+  "th_04_bc806146.png": "data/media/th_04_bc806146.png"
+ }
+}

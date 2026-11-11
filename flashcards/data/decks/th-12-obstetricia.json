@@ -1,0 +1,244 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::12 🤰 Obstetrícia Crítica",
+ "cards": [
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Gasometria normal na gestação?",
+   "verso": "<b>Alcalose respiratória compensada</b>: pH 7,40–7,47, <b>PaCO₂ 28–32</b>, <b>bicarbonato 18–21</b>, PaO₂ 100–105.",
+   "pegadinha": "PaCO₂ de 40 mmHg numa gestante com asma ou pneumonia já significa <b>retenção</b> (falência iminente).",
+   "fonte": "Fisiologia materna",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Alterações fisiológicas que complicam o suporte intensivo da gestante?",
+   "verso": "<ul><li><b>Débito cardíaco +30–50%</b>, resistência vascular baixa, volemia +40–50%</li><li><b>Capacidade residual funcional −20%</b> e consumo de O₂ maior → dessatura rápido</li><li>Via aérea edemaciada e friável; esvaziamento gástrico lento → <b>via aérea difícil e risco de aspiração</b></li><li><b>Compressão aortocava</b> em supino (≥ 20 semanas)</li><li>Hipercoagulabilidade</li></ul>",
+   "fonte": "Fisiologia materna",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Creatinina \"normal\" na gestante: armadilha?",
+   "verso": "A filtração glomerular sobe ~50%: creatinina esperada <b>0,4–0,6 mg/dL</b>. Valor <b>&gt; 0,8–1,0</b> já indica disfunção renal.",
+   "fonte": "Fisiologia materna",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Pré-eclâmpsia com sinais de gravidade: critérios?",
+   "verso": "<ul><li>Pressão <b>≥ 160/110</b></li><li>Plaquetas <b>&lt; 100 mil</b></li><li>Creatinina <b>&gt; 1,1</b> ou o dobro da basal</li><li>Transaminases <b>2 vezes</b> o normal; dor epigástrica/hipocôndrio direito persistente</li><li><b>Edema pulmonar</b></li><li>Cefaleia refratária ou distúrbio visual</li></ul>",
+   "fonte": "ACOG 2020",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Sulfato de magnésio: esquemas e monitorização?",
+   "verso": "<table class=t><tr><th>Esquema</th><th>Ataque</th><th>Manutenção</th></tr><tr><td>Zuspan</td><td>4 g IV em 20 min</td><td><b>1–2 g/h IV</b></td></tr><tr><td>Pritchard</td><td>4 g IV + 10 g IM</td><td>5 g IM a cada 4 h</td></tr></table><ul><li>Manter <b>24 h</b> após o parto ou a última convulsão</li><li>Monitorar <b>reflexo patelar, frequência respiratória (&gt; 12–16) e diurese (&gt; 25 mL/h)</b></li><li>Recorrência de convulsão: +2 g IV; reduzir a dose na insuficiência renal</li></ul>",
+   "fonte": "MS · FEBRASGO",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Crise hipertensiva na gestante: drogas e alvo?",
+   "verso": "<ul><li><b>Hidralazina 5 mg IV</b> a cada 20 min, <b>labetalol IV</b> ou <b>nifedipina 10–20 mg oral</b></li><li>Tratar se ≥ 160/110 mantida por 15 min; alvo <b>140–150/90–100</b> (não normalizar: perfusão placentária)</li><li>Nitroprussiato só como último recurso; IECA contraindicado</li></ul>",
+   "fonte": "ACOG 2020",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Síndrome HELLP: classificações e complicações?",
+   "verso": "<ul><li><b>Tennessee</b>: plaquetas ≤ 100 mil, AST ≥ 70, desidrogenase lática ≥ 600</li><li><b>Mississippi</b>: classe 1 (plaquetas ≤ 50 mil), 2 (50–100 mil), 3 (100–150 mil)</li><li>Complicações: <b>hematoma subcapsular/ruptura hepática</b>, descolamento de placenta, CIVD, lesão renal, edema pulmonar</li></ul>Sulfato de magnésio, controle pressórico e <b>parto</b>; corticoide não melhora o desfecho materno.",
+   "fonte": "Sibai 2004 · ACOG 2020",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Hematoma hepático subcapsular na HELLP?",
+   "verso": "<b>Dor epigástrica ou em hipocôndrio direito/ombro</b>, hipotensão e queda do hematócrito.<br><ul><li>Íntegro e estável: conservador, corrigir coagulopatia, evitar palpação e convulsão</li><li>Roto: transfusão maciça + <b>embolização arterial</b> ou laparotomia com tamponamento</li></ul>",
+   "fonte": "Sibai 2004",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Microangiopatias na gestação: como diferenciar?",
+   "verso": "<table class=t><tr><th></th><th>HELLP</th><th>Esteatose aguda</th><th>PTT</th><th>SHU atípica</th></tr><tr><td>Momento</td><td>3º trimestre</td><td>3º trimestre</td><td>Qualquer (2º–3º)</td><td><b>Pós-parto</b></td></tr><tr><td>Marca</td><td>Hipertensão, transaminases</td><td><b>Hipoglicemia, amônia, INR alto</b></td><td><b>ADAMTS13 &lt; 10%</b>, neurológico</td><td><b>Lesão renal grave</b></td></tr><tr><td>Após o parto</td><td>Melhora em 48–72 h</td><td>Melhora</td><td><b>Não melhora</b></td><td><b>Não melhora</b></td></tr><tr><td>Tratamento</td><td>Parto</td><td>Parto</td><td>Plasmaférese</td><td>Inibidor de C5</td></tr></table>",
+   "fonte": "Fakhouri 2020",
+   "imagem": "th_12_6d445a7d.png",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Fisiologia e hipertensão",
+   "frente": "🔥 Esteatose hepática aguda da gestação: critérios de Swansea?",
+   "verso": "<b>≥ 6</b> de 14: vômitos, dor abdominal, polidipsia/poliúria, encefalopatia, <b>bilirrubina alta, hipoglicemia, ácido úrico alto, leucocitose, ascite ou fígado brilhante, transaminases altas, amônia alta, lesão renal, coagulopatia</b>, esteatose microvesicular.<br>Parto imediato + suporte de insuficiência hepática; associação com deficiência fetal de LCHAD.",
+   "fonte": "Ch'ng 2002",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e emergências do parto",
+   "frente": "🔥 Uterotônicos: doses e contraindicações?",
+   "verso": "<table class=t><tr><th>Droga</th><th>Dose</th><th>Evitar em</th></tr><tr><td>Ocitocina</td><td>10 UI IM ou 20–40 UI em infusão</td><td>Bolus IV rápido (hipotensão)</td></tr><tr><td>Metilergometrina</td><td>0,2 mg IM</td><td><b>Hipertensão/pré-eclâmpsia</b>, coronariopatia</td></tr><tr><td>Carboprosta</td><td>250 µg IM</td><td><b>Asma</b></td></tr><tr><td>Misoprostol</td><td>800 µg sublingual/retal</td><td>—</td></tr></table>",
+   "fonte": "ACOG 2017 · OMS",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e emergências do parto",
+   "frente": "🔥 Ácido tranexâmico na hemorragia pós-parto (WOMAN)?",
+   "verso": "<b>1 g IV em até 3 h</b> do parto (repetir uma vez): morte por sangramento <b>1,5% × 1,9%</b> (1,2% × 1,7% se dado em até 3 h); sem aumento de trombose.",
+   "fonte": "WOMAN Lancet 2017",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e emergências do parto",
+   "frente": "🔥 Fibrinogênio na hemorragia obstétrica: por que o alvo é mais alto?",
+   "verso": "O normal no termo é <b>400–600 mg/dL</b>; valor <b>&lt; 200</b> prediz progressão para hemorragia grave.<br>Repor para manter <b>&gt; 200 mg/dL</b> (crioprecipitado ou concentrado).",
+   "fonte": "Charbit 2007 · ISTH 2016",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e emergências do parto",
+   "frente": "🔥 Hemorragia pós-parto refratária: sequência mecânica e cirúrgica?",
+   "verso": "Massagem bimanual → <b>balão intrauterino</b> → suturas compressivas (<b>B-Lynch</b>) → ligadura vascular ou <b>embolização</b> → <b>histerectomia</b>.<br><ul><li>Traje antichoque não pneumático como ponte para transferência</li></ul>",
+   "fonte": "FIGO 2022",
+   "imagem": "th_12_5bf1b890.png",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e emergências do parto",
+   "frente": "🔥 Inversão uterina aguda: por que o choque é desproporcional?",
+   "verso": "Soma de <b>hemorragia</b> com <b>reflexo vagal</b> (tração dos ligamentos): bradicardia e hipotensão.<br>Reposicionar o útero imediatamente (uterolítico se preciso), <b>não retirar a placenta antes</b>, depois uterotônico.",
+   "fonte": "ACOG",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Hemorragia e emergências do parto",
+   "frente": "🔥 Espectro da placenta acreta: risco e preparo?",
+   "verso": "Invasão anormal do trofoblasto no miométrio (acreta → increta → percreta).<br><ul><li>Com <b>placenta prévia</b>, o risco cresce com as cesáreas anteriores: <b>3%</b> sem nenhuma, <b>11%</b> com uma, <b>40%</b> com duas, <b>61%</b> com três</li><li>Parto <b>programado (34 a 35 semanas e 6 dias)</b> em centro com banco de sangue, radiologia intervencionista e UTI</li><li><b>Histerectomia-cesárea sem tentar remover a placenta</b></li><li>Preparar transfusão maciça, ácido tranexâmico e recuperação intraoperatória de sangue</li></ul>",
+   "pegadinha": "Tentar o descolamento manual desencadeia a hemorragia catastrófica.",
+   "fonte": "Silver Obstet Gynecol 2006 · ACOG/SMFM 2018",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Outras emergências maternas",
+   "frente": "🔥 Embolia pulmonar na gestação: diagnóstico e tratamento?",
+   "verso": "<ul><li>D-dímero pouco útil isolado; ultrassom de membros → cintilografia de perfusão ou angiotomografia</li><li><b>Heparina de baixo peso</b> em dose plena até ≥ 6 semanas pós-parto (mínimo 3 meses)</li><li><b>Varfarina e anticoagulantes orais diretos são contraindicados</b> na gestação</li><li>Alto risco com choque: <b>trombólise</b> (gestação não é contraindicação absoluta) ou embolectomia</li></ul>",
+   "fonte": "ESC 2019",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Outras emergências maternas",
+   "frente": "🔥 Sepse materna: rastreio e focos?",
+   "verso": "qSOFA modificado para obstetrícia: <b>sistólica &lt; 90, frequência respiratória &gt; 25, alteração mental</b>.<br><ul><li>Focos: corioamnionite, endometrite, <b>pielonefrite</b> (pode evoluir com SDRA), infecção de ferida, mastite, pneumonia</li><li><b>Estreptococo do grupo A puerperal</b>: choque tóxico fulminante</li></ul>",
+   "fonte": "SOMANZ 2017 · SMFM 2023",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Outras emergências maternas",
+   "frente": "🔥 Ventilação mecânica na gestante: alvos?",
+   "verso": "<ul><li>Saturação <b>≥ 95%</b> (PaO₂ &gt; 70) para a oxigenação fetal</li><li><b>PaCO₂ 30–35</b>; evitar hipercapnia acima de ~50–60 (acidose fetal) e alcalose intensa (vasoconstrição uterina)</li><li>Volume corrente protetor por peso predito; decúbito lateral esquerdo; <b>prona é possível</b></li><li>O parto <b>nem sempre</b> melhora a oxigenação materna</li></ul>",
+   "fonte": "Lapinsky 2015",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Outras emergências maternas",
+   "frente": "🔥 Edema pulmonar por tocolítico?",
+   "verso": "<b>β-agonista (terbutalina, salbutamol)</b>, sobretudo com corticoide, gestação múltipla, infecção e excesso de volume.<br>Suspender a droga, oxigênio/VNI e diurético; resolve em 12–24 h.",
+   "fonte": "Pisani 1989",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Outras emergências maternas",
+   "frente": "🔥 Síndrome de hiperestimulação ovariana grave?",
+   "verso": "Após indução da ovulação: <b>ascite, derrame pleural, hemoconcentração (hematócrito &gt; 45–55%)</b>, oligúria, hiponatremia e <b>trombose</b> (venosa e arterial).<br>Reposição cuidadosa de volume/albumina, <b>paracentese</b> de alívio, <b>profilaxia antitrombótica</b>; evitar diurético com hemoconcentração.",
+   "fonte": "ASRM 2016",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Outras emergências maternas",
+   "frente": "🔥 Estenose mitral e parto: momento de maior risco?",
+   "verso": "<b>Logo após o parto</b>: autotransfusão uterina e alívio da compressão da cava aumentam a pré-carga → <b>edema agudo de pulmão</b>.<br>Controlar a frequência (betabloqueador), analgesia eficaz, restrição de volume e diurético.",
+   "fonte": "ESC 2018",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  },
+  {
+   "subtema": "Outras emergências maternas",
+   "frente": "🔥 Hipertensão pulmonar e gestação?",
+   "verso": "Mortalidade materna muito alta (historicamente 30–50% na síndrome de Eisenmenger), com pico <b>no periparto e nas primeiras semanas após</b>.<br>Gestação contraindicada; se ocorrer: centro especializado, terapia vasodilatadora pulmonar, parto planejado.",
+   "fonte": "ESC 2018",
+   "tags": [
+    "TH360X",
+    "X12"
+   ]
+  }
+ ],
+ "midia": {
+  "th_12_6d445a7d.png": "data/media/th_12_6d445a7d.png",
+  "th_12_5bf1b890.png": "data/media/th_12_5bf1b890.png"
+ }
+}

@@ -1,0 +1,315 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::09 🩸 Hematologia e Transfusão",
+ "cards": [
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Limiar transfusional no infarto agudo: REALITY e MINT?",
+   "verso": "<ul><li><b>REALITY</b>: restritivo (Hb ≤ 8) <b>não inferior</b> em eventos em 30 dias</li><li><b>MINT</b>: morte ou reinfarto <b>16,9% (restritivo) × 14,5% (liberal, Hb &lt; 10)</b>, p = 0,07; mais morte cardíaca com restritivo</li></ul>No infarto, não aplicar o limiar de 7 de forma automática: faixa <b>8–10</b>.",
+   "fonte": "Ducrocq 2021 · Carson NEJM 2023",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Limiar transfusional na lesão cerebral aguda: três ensaios de 2024?",
+   "verso": "<table class=t><tr><th>Ensaio</th><th>População</th><th>Resultado do alvo liberal</th></tr><tr><td><b>HEMOTION</b></td><td>Trauma craniano</td><td>Sem melhora significativa (68,4% × 73,5% de desfecho ruim)</td></tr><tr><td><b>TRAIN</b></td><td>Trauma, HSA e hemorragia intracerebral</td><td><b>Menos desfecho ruim</b> (62,6% × 72,6%) com Hb &lt; 9</td></tr><tr><td><b>SAHaRA</b></td><td>Hemorragia subaracnoide</td><td>Neutro (33,5% × 37,7%)</td></tr></table>Tendência atual: limiar um pouco mais alto (<b>Hb 9</b>) no neurocrítico.",
+   "fonte": "Turgeon 2024 · Taccone 2024 · English 2024",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Limiar na cirurgia cardíaca (TRICS-III)?",
+   "verso": "Restritivo <b>Hb &lt; 7,5 g/dL</b> foi <b>não inferior</b> ao liberal em morte, infarto, AVC e diálise.",
+   "fonte": "Mazer NEJM 2017",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Transfusão maciça 1:1:1 × 1:1:2 (PROPPR)?",
+   "verso": "Mortalidade em 24 h e 30 dias <b>sem diferença significativa</b>; com 1:1:1 houve <b>menos morte por exsanguinação</b> (9,2% × 14,6%) e mais hemostasia.",
+   "fonte": "Holcomb JAMA 2015",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Ácido tranexâmico no trauma (CRASH-2): números?",
+   "verso": "<b>1 g em 10 min + 1 g em 8 h</b>: mortalidade <b>14,5% × 16,0%</b>.<br><ul><li>Maior benefício na <b>1ª hora</b>; <b>após 3 h aumenta</b> a morte por sangramento</li></ul>",
+   "fonte": "CRASH-2 Lancet 2010/2011",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Tromboelastometria/tromboelastografia: o que cada alteração pede?",
+   "verso": "<table class=t><tr><th>Alteração</th><th>Significado</th><th>Conduta</th></tr><tr><td>Tempo de coagulação (R/CT) longo</td><td>Déficit de fatores</td><td>Plasma ou complexo protrombínico</td></tr><tr><td>Amplitude baixa com fibrinogênio funcional baixo (FIBTEM)</td><td>Falta de fibrinogênio</td><td>Crioprecipitado/fibrinogênio</td></tr><tr><td>Amplitude baixa com FIBTEM normal</td><td>Plaquetas</td><td>Plaquetas</td></tr><tr><td>Lise aumentada (LY30/ML)</td><td>Hiperfibrinólise</td><td>Ácido tranexâmico</td></tr></table>",
+   "fonte": "Diretriz europeia de trauma 2023",
+   "imagem": "th_09_06dc37ce.png",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Crioprecipitado precoce empírico no trauma (CRYOSTAT-2)?",
+   "verso": "3 pools em até 90 min, além do protocolo de transfusão maciça: <b>mortalidade em 28 dias igual</b> (25,3% × 26,1%).<br>Repor fibrinogênio <b>guiado</b> por nível (&lt; 150–200 mg/dL) ou por tromboelastometria.",
+   "fonte": "Davenport JAMA 2023",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Plaquetas antes de cateter central: evidência e diretriz?",
+   "verso": "<ul><li><b>PACER</b> (plaquetas 10–50 mil): <b>não transfundir</b> teve <b>mais sangramento</b> (11,9% × 4,8% de graus 2–4)</li><li>Diretriz AABB 2025: transfundir para cateter em sítio compressível quando <b>&lt; 10 mil</b></li></ul>Entre 10 e 50 mil, individualizar: punção guiada por ultrassom, operador experiente, sítio compressível.",
+   "fonte": "van Baarle NEJM 2023 · AABB 2025",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Idade das hemácias transfundidas importa (ABLE, RECESS, TRANSFUSE)?",
+   "verso": "<b>Não</b>: sangue \"fresco\" não reduziu mortalidade em críticos nem em cirurgia cardíaca.",
+   "fonte": "Lacroix 2015 · Cooper 2017",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Reação anafilática à transfusão: quem tem risco e o que usar?",
+   "verso": "<b>Deficiência de IgA</b> com anticorpo anti-IgA (e deficiência de haptoglobina).<br>Hemácias e plaquetas <b>lavadas</b> ou de doador deficiente de IgA.",
+   "fonte": "AABB",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Contaminação bacteriana: qual hemocomponente e por quê?",
+   "verso": "<b>Plaquetas</b>, armazenadas a <b>20–24 °C</b> (hemácias a 4 °C: Yersinia é a exceção clássica).<br>Febre alta, calafrios e choque durante ou logo após → parar, colher culturas do paciente e da bolsa, antibiótico amplo.",
+   "fonte": "AABB",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Eritropoetina no paciente crítico?",
+   "verso": "Não reduz transfusões de forma relevante; em <b>trauma</b> associou-se a menor mortalidade em análises de subgrupo, com <b>mais trombose</b>.<br>Não é rotina.",
+   "fonte": "Corwin NEJM 2007",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Transfusão",
+   "frente": "🔥 Paciente que recusa transfusão: estratégias de conservação?",
+   "verso": "<ul><li>Minimizar coletas (tubos pediátricos, sistema fechado)</li><li><b>Ferro IV + eritropoetina</b>; folato e B12</li><li>Ácido tranexâmico, hemostasia cirúrgica precoce, recuperação intraoperatória de sangue (se aceita)</li><li>Tolerar anemia: sedação, ventilação e FiO₂ alta, normotermia</li></ul>",
+   "fonte": "Manejo de sangue do paciente (PBM)",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Coagulação e trombose",
+   "frente": "🔥 Coagulopatia induzida pela sepse (escore SIC)?",
+   "verso": "<ul><li>Plaquetas: 100–150 mil (1), <b>&lt; 100 mil</b> (2)</li><li>INR: 1,2–1,4 (1), <b>&gt; 1,4</b> (2)</li><li>SOFA: 1 (1), ≥ 2 (2)</li></ul><b>≥ 4</b> (com plaquetas + INR &gt; 2) identifica a fase precoce, antes da CIVD manifesta.",
+   "fonte": "Iba 2017",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Coagulação e trombose",
+   "frente": "🔥 CIVD: quando usar heparina?",
+   "verso": "No fenótipo <b>trombótico</b>: púrpura fulminans, tromboembolismo, isquemia acral.<br><ul><li>Sangramento: repor plaquetas (&lt; 50 mil), plasma e fibrinogênio (&lt; 150)</li><li>Profilaxia de trombose mantida se não houver sangramento</li></ul>",
+   "pegadinha": "Antifibrinolítico é contraindicado, exceto em hiperfibrinólise primária (ex.: leucemia promielocítica, trauma).",
+   "fonte": "ISTH 2013",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Coagulação e trombose",
+   "frente": "🔥 Trombocitopenia induzida por heparina: testes?",
+   "verso": "<ul><li><b>ELISA anti-PF4/heparina</b>: muito sensível, pouco específico (valor preditivo negativo alto; densidade óptica alta aumenta a probabilidade)</li><li><b>Teste funcional</b> (liberação de serotonina): confirmatório</li></ul>Probabilidade intermediária/alta pelo 4T: suspender heparina e tratar <b>antes</b> do resultado.",
+   "fonte": "ASH 2018",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Coagulação e trombose",
+   "frente": "🔥 Resistência à heparina: causas e conduta?",
+   "verso": "Necessidade de &gt; 35.000 UI/dia.<br><ul><li><b>Antitrombina baixa</b> (sepse, CIVD, hepatopatia, ECMO), ligação a proteínas de fase aguda</li><li><b>Fator VIII alto</b> encurta o TTPa sem resistência real → monitorar por <b>anti-Xa</b></li></ul>Trocar por inibidor direto da trombina ou repor antitrombina.",
+   "fonte": "Levy 2021",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Coagulação e trombose",
+   "frente": "🔥 Profilaxia de trombose na UTI: PROTECT e PREVENT?",
+   "verso": "<ul><li><b>PROTECT</b>: dalteparina × heparina não fracionada → trombose proximal igual; <b>menos embolia pulmonar</b> e menos trombocitopenia por heparina</li><li><b>PREVENT</b>: compressão pneumática <b>somada</b> à profilaxia farmacológica não ajudou</li></ul>",
+   "fonte": "PROTECT 2011 · PREVENT 2019",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Coagulação e trombose",
+   "frente": "🔥 Anticoagulação plena com plaquetopenia: limiares práticos?",
+   "verso": "<table class=t><tr><th>Plaquetas</th><th>Conduta habitual</th></tr><tr><td>50 mil ou mais</td><td><b>Dose plena</b></td></tr><tr><td>25–50 mil</td><td><b>Reduzir</b> (metade da dose ou profilática); na trombose aguda de alto risco, dose plena com suporte transfusional</td></tr><tr><td>Abaixo de 25 mil</td><td><b>Suspender</b> temporariamente</td></tr></table><ul><li>Preferir <b>heparina de baixo peso molecular</b>; evitar anticoagulante oral direto abaixo de 50 mil</li><li>Alto risco: primeiros 30 dias de embolia pulmonar ou trombose proximal</li></ul>",
+   "pegadinha": "Plaquetopenia <b>não protege</b> contra trombose (câncer, antifosfolípide, CIVD e HIT trombosam com plaquetas baixas).",
+   "fonte": "Samuelson Bannow (ISTH) J Thromb Haemost 2018",
+   "imagem": "th_09_bd93b6ab.png",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Coagulação e trombose",
+   "frente": "🔥 Heparina em dose terapêutica na COVID-19: enfermaria × UTI?",
+   "verso": "Plataforma multicêntrica (REMAP-CAP, ACTIV-4a, ATTACC), 2021.<br><table class=t><tr><th>Cenário</th><th>Resultado da dose terapêutica</th></tr><tr><td><b>Não crítico</b> (enfermaria)</td><td><b>Mais dias livres de suporte orgânico</b></td></tr><tr><td><b>Crítico</b> (suporte orgânico em UTI)</td><td><b>Sem benefício</b> (futilidade) e mais sangramento</td></tr></table><ul><li>Na UTI: <b>profilaxia em dose padrão</b>; a dose intermediária também não ajudou (INSPIRATION)</li></ul>",
+   "pegadinha": "O mesmo fármaco teve efeito <b>oposto</b> conforme a gravidade — heterogeneidade do efeito do tratamento.",
+   "fonte": "Investigadores multiplataforma NEJM 2021 · INSPIRATION JAMA 2021",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Síndrome de liberação de citocinas após CAR-T: graus ASTCT?",
+   "verso": "<table class=t><tr><th>Grau</th><th>Febre ≥ 38 °C +</th></tr><tr><td>1</td><td>Só febre</td></tr><tr><td>2</td><td>Hipotensão <b>sem vasopressor</b> e/ou O₂ de baixo fluxo</td></tr><tr><td>3</td><td><b>Um vasopressor</b> e/ou alto fluxo/máscara</td></tr><tr><td>4</td><td><b>Vários vasopressores</b> e/ou pressão positiva</td></tr></table>Grau ≥ 2: <b>tocilizumabe</b>; associar dexametasona se refratário ou grave.",
+   "fonte": "Lee 2019",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Neurotoxicidade após CAR-T (ICANS): avaliação e tratamento?",
+   "verso": "Escore <b>ICE</b> (orientação, nomear objetos, comando, escrita, atenção) + nível de consciência, convulsão, déficit motor e edema cerebral.<br><b>Corticoide</b> (dexametasona; metilprednisolona em dose alta no grau 4); levetiracetam; tocilizumabe só se houver liberação de citocinas associada.",
+   "fonte": "Lee 2019",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 \"Pseudo-hipoxemia\" e pseudo-hipercalemia na hiperleucocitose?",
+   "verso": "Os leucócitos <b>consomem O₂ na seringa</b> (PaO₂ falsamente baixa com oximetria normal) e liberam potássio no tubo.<br>Analisar a amostra imediatamente, em gelo; confiar na oximetria; potássio em plasma.",
+   "fonte": "Revisões de emergências hematológicas",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Síndrome de enxertia após transplante de medula?",
+   "verso": "Na recuperação dos neutrófilos: <b>febre não infecciosa, rash, edema pulmonar não cardiogênico</b>, ganho de peso.<br><b>Corticoide</b> (metilprednisolona 1–2 mg/kg) com resposta rápida.",
+   "fonte": "Spitzer 2001",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Hemorragia alveolar difusa após transplante de medula?",
+   "verso": "Primeiras semanas: infiltrado difuso, hipoxemia e <b>lavado progressivamente mais hemorrágico</b> (hemoptise é rara).<br>Corticoide em dose alta; corrigir plaquetas e coagulação; mortalidade alta em ventilados.",
+   "fonte": "Afessa 2002",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Síndrome de obstrução sinusoidal (doença veno-oclusiva)?",
+   "verso": "Até 3 semanas após o condicionamento: <b>hepatomegalia dolorosa, icterícia, ascite e ganho de peso</b>; fluxo portal reverso ao Doppler.<br><b>Defibrotida</b> nas formas graves; restrição de sódio e suporte.",
+   "fonte": "EBMT 2016",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Paciente oncológico na UTI: o que é a \"tentativa por tempo limitado\"?",
+   "verso": "Suporte pleno por período definido (<b>alguns dias</b>) e reavaliação objetiva: melhora das falências → seguir; piora → transição para conforto.<br><ul><li>O prognóstico curto depende mais do <b>número de disfunções orgânicas</b> que do tipo de tumor</li><li>Neutropenia isolada não é contraindicação à UTI</li></ul>",
+   "fonte": "Lecuyer 2007 · Azoulay 2017",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Anemia hemolítica autoimune grave: como transfundir?",
+   "verso": "As provas cruzadas serão todas incompatíveis: <b>não negar transfusão</b> em anemia com risco de vida.<br><ul><li>Usar a unidade <b>\"menos incompatível\"</b>, em volume pequeno e infusão lenta</li><li>Excluir aloanticorpos; iniciar corticoide (± imunoglobulina, rituximabe)</li></ul>",
+   "fonte": "BSH 2017",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Trombocitopenia imune com sangramento ameaçador?",
+   "verso": "<b>Imunoglobulina 1 g/kg + corticoide em dose alta + transfusão de plaquetas</b> (mesmo com sobrevida curta) ± agonista de trombopoetina; ácido tranexâmico.",
+   "fonte": "ASH 2019",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  },
+  {
+   "subtema": "Onco-hematologia crítica",
+   "frente": "🔥 Hiperviscosidade por paraproteína: tratamento de urgência?",
+   "verso": "Sangramento mucoso, alterações visuais e neurológicas (IgM do Waldenström).<br><b>Plasmaférese</b> (uma sessão reduz muito a IgM, que é intravascular); evitar transfusão de hemácias antes.",
+   "fonte": "Stone 2012",
+   "tags": [
+    "TH360X",
+    "X09"
+   ]
+  }
+ ],
+ "midia": {
+  "th_09_06dc37ce.png": "data/media/th_09_06dc37ce.png",
+  "th_09_bd93b6ab.png": "data/media/th_09_bd93b6ab.png"
+ }
+}

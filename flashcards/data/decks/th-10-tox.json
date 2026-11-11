@@ -1,0 +1,394 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🔥 Hardcore 360X::10 ☠️ Toxicologia e Ambiente",
+ "cards": [
+  {
+   "subtema": "Princípios e antídotos",
+   "frente": "🔥 Carvão em doses múltiplas: para quais drogas?",
+   "verso": "<b>Carbamazepina, dapsona, fenobarbital, quinina, teofilina</b> (interrompe a circulação êntero-hepática ou faz \"diálise intestinal\").<br><ul><li>25–50 g a cada 4 h, com peristalse presente</li></ul>",
+   "fonte": "AACT/EAPCCT 1999",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Princípios e antídotos",
+   "frente": "🔥 Irrigação intestinal total: quando?",
+   "verso": "Polietilenoglicol 1–2 L/h até o efluente retal sair claro.<br><ul><li><b>Ferro, lítio, comprimidos de liberação prolongada</b> (bloqueador de cálcio, por exemplo), <b>pacotes de droga</b> ingeridos (body packer)</li></ul>",
+   "fonte": "AACT/EAPCCT 2015",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Princípios e antídotos",
+   "frente": "🔥 Alcalinização urinária: para quê e meta?",
+   "verso": "Bicarbonato para <b>pH urinário 7,5–8,0</b>: aprisiona ácidos fracos na urina.<br><ul><li><b>Salicilato, fenobarbital, metotrexato</b></li></ul>",
+   "pegadinha": "Corrigir o potássio (hipocalemia impede alcalinizar a urina).",
+   "fonte": "AACT/EAPCCT 2004",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Princípios e antídotos",
+   "frente": "🔥 O que torna uma droga dialisável?",
+   "verso": "<ul><li><b>Peso molecular baixo</b></li><li><b>Baixo volume de distribuição</b> (&lt; 1 L/kg)</li><li><b>Baixa ligação a proteínas</b></li><li>Depuração endógena pequena</li></ul>Exemplos: lítio, salicilato, metanol, etilenoglicol, metformina, valproato (em nível tóxico), teofilina, fenobarbital.",
+   "fonte": "EXTRIP",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Princípios e antídotos",
+   "frente": "🔥 Emulsão lipídica 20%: esquema?",
+   "verso": "<b>1,5 mL/kg em bolus</b> (≈ 100 mL), repetível, + <b>0,25 mL/kg/min</b> por 30–60 min; teto ~12 mL/kg.<br><ul><li>Indicação principal: <b>toxicidade sistêmica por anestésico local</b>; resgate em drogas lipofílicas com colapso</li><li>Na PCR por anestésico local: adrenalina em dose baixa (<b>≤ 1 µg/kg</b>); evitar vasopressina, betabloqueador e bloqueador de cálcio</li></ul>",
+   "fonte": "ASRA 2020",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Princípios e antídotos",
+   "frente": "🔥 Naloxona: titulação e armadilhas?",
+   "verso": "<ul><li>Dependente de opioide: começar com <b>0,04 mg</b> e titular (evita abstinência aguda e edema pulmonar)</li><li>Apneia: 0,4–2 mg</li><li>Efeito de 30–90 min: <b>recorrência</b> com metadona e formulações longas → infusão de <b>2/3 da dose efetiva por hora</b></li></ul>",
+   "fonte": "Goldfrank",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Princípios e antídotos",
+   "frente": "🔥 Octreotida na intoxicação por sulfonilureia?",
+   "verso": "<b>50–100 µg SC a cada 6–8 h</b> bloqueia a liberação de insulina e evita a hipoglicemia de rebote causada pela glicose em bolus.",
+   "fonte": "Fasano 2008",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Princípios e antídotos",
+   "frente": "🔥 Hidroxocobalamina: efeitos que confundem?",
+   "verso": "Antídoto do cianeto (5 g IV): deixa <b>pele e urina vermelhas</b> por dias, interfere em exames colorimétricos (creatinina, bilirrubina, lactato em alguns aparelhos) e pode disparar o <b>alarme de vazamento de sangue</b> da máquina de diálise.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Paracetamol: nomograma e esquema de N-acetilcisteína?",
+   "verso": "Tratar se o nível em <b>4 h ≥ 150 µg/mL</b> (linha de tratamento).<br><ul><li>Esquema clássico IV: <b>150 mg/kg em 1 h → 50 mg/kg em 4 h → 100 mg/kg em 16 h</b></li><li>Manter além de 21 h se transaminases em alta, INR alterado ou paracetamol ainda detectável</li></ul>",
+   "fonte": "Rumack-Matthew · ACMT 2023",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Digoxina: indicações e dose empírica do anticorpo Fab?",
+   "verso": "<ul><li>Arritmia com risco de vida, <b>potássio &gt; 5–5,5</b> na intoxicação aguda, nível muito alto, ingestão &gt; 10 mg</li><li>Empírico: <b>10 frascos</b> (aguda) ou <b>3–6 frascos</b> (crônica)</li><li>Calculado: frascos = (nível em ng/mL × peso em kg) ÷ 100</li></ul>",
+   "pegadinha": "Após o Fab, o nível sérico total fica falsamente alto.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Metanol × etilenoglicol × isopropanol?",
+   "verso": "<table class=t><tr><th></th><th>Metanol</th><th>Etilenoglicol</th><th>Isopropanol</th></tr><tr><td>Metabólito</td><td>Ácido fórmico</td><td>Glicolato e oxalato</td><td><b>Acetona</b></td></tr><tr><td>Marca</td><td><b>Cegueira</b>, necrose do putâmen</td><td><b>Lesão renal</b>, cristais de oxalato, hipocalcemia</td><td>Cetose <b>sem acidose</b></td></tr><tr><td>Gaps</td><td>Osmolar → aniônico</td><td>Osmolar → aniônico</td><td>Só osmolar</td></tr><tr><td>Antídoto</td><td>Fomepizol + folato</td><td>Fomepizol + tiamina e piridoxina</td><td>Suporte</td></tr></table>",
+   "fonte": "Kraut 2018",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Fomepizol: dose?",
+   "verso": "<b>15 mg/kg de ataque → 10 mg/kg a cada 12 h (4 doses) → 15 mg/kg a cada 12 h</b>; durante a hemodiálise, a cada 4 h.<br><ul><li>Alternativa: etanol para nível sérico de 100–150 mg/dL</li></ul>",
+   "fonte": "Brent 2009",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Organofosforado: como titular a atropina?",
+   "verso": "<b>1–3 mg IV, dobrando a dose a cada 5 min</b> até secar a secreção brônquica (não usar pupila nem frequência cardíaca como alvo); depois infusão de 10–20% da dose total por hora.<br><ul><li><b>Pralidoxima 30 mg/kg</b> + infusão, cedo (antes do \"envelhecimento\" da enzima)</li><li>Carbamato: ligação reversível; oxima geralmente desnecessária</li></ul>",
+   "fonte": "Eddleston Lancet 2008",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Monóxido de carbono: meia-vida da carboxi-hemoglobina?",
+   "verso": "<table class=t><tr><th>Condição</th><th>Meia-vida</th></tr><tr><td>Ar ambiente</td><td><b>4–6 h</b></td></tr><tr><td>O₂ a 100%</td><td><b>60–90 min</b></td></tr><tr><td>Câmara hiperbárica</td><td><b>20–30 min</b></td></tr></table>",
+   "fonte": "Weaver NEJM 2009",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 MDMA (ecstasy): complicações graves?",
+   "verso": "<ul><li><b>Hipertermia</b> com rabdomiólise e CIVD</li><li><b>Hiponatremia</b> (secreção de vasopressina + ingestão de água) com edema cerebral, sobretudo em mulheres jovens</li><li>Síndrome serotoninérgica, insuficiência hepática</li></ul>",
+   "fonte": "Goldfrank",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Teofilina: toxicidade e tratamento?",
+   "verso": "<b>Convulsões refratárias, taquiarritmias, hipocalemia, hiperglicemia</b> e vômitos.<br><ul><li>Carvão em doses múltiplas; <b>betabloqueador de ação curta</b> para a taquiarritmia</li><li><b>Hemodiálise</b> se nível &gt; 100 mg/L (aguda), convulsão ou arritmia grave</li></ul>",
+   "fonte": "EXTRIP 2015",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Clonidina: como se apresenta a intoxicação?",
+   "verso": "Simula opioide: <b>miose, sonolência, bradipneia</b>, mais <b>bradicardia e hipotensão</b> (hipertensão inicial transitória).<br>Suporte, atropina; naloxona tem resposta parcial e inconsistente.",
+   "fonte": "Goldfrank",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Ingestão de cáusticos: classificação de Zargar e conduta?",
+   "verso": "<table class=t><tr><th>Grau</th><th>Achado</th><th>Evolução</th></tr><tr><td>1</td><td>Edema e hiperemia</td><td>Sem sequelas</td></tr><tr><td>2a</td><td>Úlceras superficiais</td><td>Baixo risco</td></tr><tr><td><b>2b</b></td><td>Úlceras profundas ou circunferenciais</td><td><b>Estenose</b> frequente</td></tr><tr><td>3</td><td>Necrose</td><td>Perfuração, mortalidade alta</td></tr></table>Endoscopia em 12–24 h; <b>não</b> induzir vômito, neutralizar ou dar carvão.",
+   "fonte": "Zargar 1991",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Paraquat: por que restringir oxigênio?",
+   "verso": "O herbicida se acumula no pulmão e gera radicais livres: <b>O₂ suplementar acelera a fibrose</b>.<br>Dar oxigênio só com hipoxemia importante (alvo de saturação ~88–92%); prognóstico reservado.",
+   "fonte": "Dinis-Oliveira 2008",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Intoxicações específicas",
+   "frente": "🔥 Intoxicação por bloqueador de canal de cálcio com vasoplegia refratária?",
+   "verso": "<ul><li><b>Cálcio IV</b>, noradrenalina</li><li><b>Insulina em dose alta</b> (1 U/kg em bolus + 1–10 U/kg/h) com glicose</li><li><b>Azul de metileno</b> e emulsão lipídica como resgate</li><li><b>ECMO venoarterial</b> na falência refratária</li></ul>",
+   "fonte": "St-Onge 2017",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Animais peçonhentos",
+   "frente": "🔥 Acidente laquético (surucucu): o que o diferencia do botrópico?",
+   "verso": "Quadro local semelhante (dor, edema, sangramento, coagulopatia) <b>mais síndrome vagal</b>: bradicardia, hipotensão, cólica, diarreia e vômitos.<br>Soro antilaquético ou antibotrópico-laquético, <b>10 a 20 ampolas</b>.",
+   "fonte": "MS · Manual de acidentes por animais peçonhentos",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Animais peçonhentos",
+   "frente": "🔥 Acidente elapídico (coral verdadeira): quadro e tratamento?",
+   "verso": "<b>Bloqueio neuromuscular</b>: ptose, oftalmoplegia, fraqueza progressiva e <b>insuficiência respiratória</b>; pouca reação local.<br><ul><li>Todo caso é potencialmente grave: <b>soro antielapídico, 10 ampolas</b></li><li><b>Neostigmina</b> (precedida de atropina) como teste e ponte; ventilação mecânica</li></ul>",
+   "fonte": "MS · Manual de acidentes por animais peçonhentos",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Animais peçonhentos",
+   "frente": "🔥 Acidente por Lonomia (taturana): síndrome e tratamento?",
+   "verso": "Dor em queimação após contato com lagartas; horas depois, <b>síndrome hemorrágica por consumo</b> (gengivorragia, equimoses, hematúria, sangramento intracraniano) e lesão renal.<br><b>Soro antilonômico</b>: 5 ampolas (moderado) ou 10 (grave); evitar plasma/crioprecipitado antes do soro.",
+   "fonte": "MS · Manual de acidentes por animais peçonhentos",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Animais peçonhentos",
+   "frente": "🔥 Picadas múltiplas de abelhas: quando há risco de vida sem alergia?",
+   "verso": "<b>&gt; 500 picadas</b> (toxicidade direta): <b>rabdomiólise, hemólise, lesão renal aguda</b>, lesão miocárdica e hepática.<br>Retirar os ferrões por <b>raspagem</b>, hidratação vigorosa, corticoide e anti-histamínico; diálise precoce. Não há soro disponível de rotina.",
+   "fonte": "MS · Manual de acidentes por animais peçonhentos",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Animais peçonhentos",
+   "frente": "🔥 Foneutrismo (aranha armadeira): sinais de gravidade?",
+   "verso": "Dor imediata intensa. Grave (mais em crianças): <b>priapismo, sudorese profusa, vômitos, arritmia, choque e edema agudo de pulmão</b>.<br>Bloqueio anestésico local para a dor; <b>soro antiaracnídico</b> nos casos moderados (2–4 ampolas) e graves (5–10).",
+   "fonte": "MS · Manual de acidentes por animais peçonhentos",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Animais peçonhentos",
+   "frente": "🔥 Escorpionismo grave: mecanismo do edema pulmonar?",
+   "verso": "Tempestade autonômica com <b>disfunção miocárdica aguda</b> (tipo catecolaminérgica) → edema <b>cardiogênico</b> e choque.<br>Soro antiescorpiônico (4–6 ampolas no grave), ventilação, <b>dobutamina</b> e vasodilatador conforme a hemodinâmica; volume com cautela.",
+   "fonte": "MS · Cupo 2015",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Animais peçonhentos",
+   "frente": "🔥 Soro antiveneno: reação precoce e conduta?",
+   "verso": "Anafilática ou anafilactoide nas primeiras 2 h.<br><ul><li>Infusão <b>sem teste de sensibilidade</b>; equipe e adrenalina prontas</li><li>Reação: <b>parar a infusão</b>, adrenalina IM, anti-histamínico, corticoide; reiniciar mais devagar após controle</li><li><b>Doença do soro</b>: 5–24 dias depois (febre, artralgia, urticária) → corticoide</li></ul>",
+   "fonte": "MS · Manual de acidentes por animais peçonhentos",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Intermação (heat stroke): definição, tipos e complicações?",
+   "verso": "Temperatura central <b>&gt; 40 °C + disfunção do sistema nervoso central</b>.<br><ul><li><b>Clássica</b>: idoso, onda de calor, pele seca</li><li><b>Por esforço</b>: jovem, sudorese presente, mais rabdomiólise</li><li>Complicações: CIVD, insuficiência hepática (pico em 48–72 h), lesão renal, SDRA</li></ul>",
+   "fonte": "Epstein NEJM 2019",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Hipotermia acidental: estadiamento suíço?",
+   "verso": "<table class=t><tr><th>Estágio</th><th>Clínica</th><th>Temperatura estimada</th></tr><tr><td>I</td><td>Consciente, <b>tremendo</b></td><td>35–32 °C</td></tr><tr><td>II</td><td>Sonolento, <b>sem tremor</b></td><td>32–28 °C</td></tr><tr><td>III</td><td>Inconsciente, com sinais vitais</td><td>28–24 °C</td></tr><tr><td>IV</td><td>Morte aparente</td><td>&lt; 24 °C</td></tr></table>",
+   "fonte": "Durrer 2003 · ERC 2021",
+   "imagem": "th_10_82991af4.png",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Hipotermia: achados do ECG e risco de arritmia?",
+   "verso": "<ul><li><b>Onda J de Osborn</b> (entalhe no fim do QRS), bradicardia, prolongamento de PR, QRS e QT, fibrilação atrial lenta</li><li><b>&lt; 28 °C</b>: miocárdio irritável → fibrilação ventricular com manipulação brusca</li><li><b>Afterdrop</b>: queda adicional da temperatura central ao reaquecer a periferia</li></ul>",
+   "fonte": "Brown NEJM 2012",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Hipotermia com PCR: quem vai para reaquecimento extracorpóreo?",
+   "verso": "PCR presenciada ou sem sinais de asfixia prévia, sem trauma letal.<br><ul><li>Escore <b>HOPE</b> estima a sobrevida (melhor que o potássio isolado)</li><li><b>Potássio &gt; 12 mmol/L</b> (adulto): reanimação fútil</li><li>Só declarar óbito após reaquecer a <b>32–35 °C</b></li></ul>",
+   "fonte": "ERC 2021 · Pasquier 2018",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Afogamento: o que NÃO fazer e prognóstico?",
+   "verso": "<ul><li><b>Não</b> tentar drenar água (Heimlich); <b>sem</b> antibiótico ou corticoide profiláticos</li><li>Imobilização cervical só com história de mergulho/trauma</li><li>Mau prognóstico: submersão <b>&gt; 10 min</b>, RCP &gt; 25 min, sem retorno da circulação na cena</li></ul>Ventilação protetora com PEEP; observar 6–8 h os que têm sintomas leves.",
+   "fonte": "Szpilman NEJM 2012",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Edema pulmonar e edema cerebral de altitude?",
+   "verso": "<table class=t><tr><th></th><th>Edema pulmonar (HAPE)</th><th>Edema cerebral (HACE)</th></tr><tr><td>Quadro</td><td>Dispneia em repouso, tosse rósea, 2–4 dias</td><td>Ataxia, confusão, coma</td></tr><tr><td>Tratamento</td><td><b>Descida</b>, O₂, <b>nifedipina</b>; sildenafila</td><td><b>Descida</b>, O₂, <b>dexametasona 8 mg → 4 mg 6/6 h</b></td></tr><tr><td>Prevenção</td><td>Ascensão lenta, nifedipina</td><td>Acetazolamida</td></tr></table>",
+   "fonte": "Wilderness Medical Society 2019",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Embolia gasosa arterial (mergulho ou iatrogênica): conduta?",
+   "verso": "Déficit neurológico súbito ou colapso após emersão rápida, punção torácica ou acesso central.<br><ul><li><b>O₂ a 100%</b>, posição <b>supina horizontal</b>, volume</li><li><b>Oxigenoterapia hiperbárica</b> o mais cedo possível</li></ul>",
+   "pegadinha": "Embolia <b>venosa</b> (cateter central): decúbito lateral esquerdo com cabeça baixa e aspirar pelo cateter.",
+   "fonte": "UHMS · Muth 2000",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Vítimas de raio: particularidades?",
+   "verso": "<ul><li><b>Triagem reversa</b>: atender primeiro quem parece morto (apneia prolongada e assistolia reversíveis)</li><li>Ceraunoparalisia (paralisia transitória de membros), ruptura timpânica, figuras de Lichtenberg</li><li>Queimadura profunda é rara (ao contrário da alta voltagem)</li></ul>",
+   "fonte": "ERC 2021",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Inalação de fumaça: três lesões e três condutas?",
+   "verso": "<ul><li><b>Térmica de via aérea alta</b>: edema progressivo → intubação precoce</li><li><b>Química de via aérea baixa</b>: broncoscopia, toalete, ventilação protetora; heparina e N-acetilcisteína nebulizadas (evidência limitada)</li><li><b>Sistêmica</b>: monóxido de carbono (O₂ a 100%) e <b>cianeto</b> (hidroxocobalamina se lactato muito alto)</li></ul>",
+   "fonte": "ABA",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Hipertermias induzidas por drogas: como distinguir?",
+   "verso": "<table class=t><tr><th></th><th>Gatilho</th><th>Tônus</th><th>Tratamento</th></tr><tr><td>Hipertermia maligna</td><td>Halogenados, succinilcolina</td><td>Rigidez, masseter</td><td>Dantrolene</td></tr><tr><td>Neuroléptica maligna</td><td>Antagonista dopaminérgico</td><td>Rigidez plástica, lenta (dias)</td><td>Bromocriptina/dantrolene</td></tr><tr><td>Serotoninérgica</td><td>Serotoninérgicos</td><td><b>Clônus, hiper-reflexia</b>, rápida (horas)</td><td>Ciproeptadina</td></tr><tr><td>Anticolinérgica</td><td>Atropínicos</td><td>Normal, pele seca</td><td>Fisostigmina</td></tr><tr><td>Simpatomimética</td><td>Cocaína, anfetaminas</td><td>Agitação, sudorese</td><td>Benzodiazepínico</td></tr></table>",
+   "fonte": "Goldfrank",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  },
+  {
+   "subtema": "Temperatura e ambiente",
+   "frente": "🔥 Lesão por raio × alta voltagem: o que difere?",
+   "verso": "<table class=t><tr><th></th><th>Raio</th><th>Alta voltagem (acima de 1.000 V)</th></tr><tr><td>Corrente</td><td>Altíssima, por <b>milissegundos</b></td><td>Alternada, exposição mais longa</td></tr><tr><td>Coração</td><td><b>Assistolia</b> + parada respiratória prolongada</td><td><b>Fibrilação ventricular</b>, arritmias</td></tr><tr><td>Tecidos</td><td>Queimadura superficial, figuras de Lichtenberg, ruptura timpânica, paralisia transitória</td><td><b>Lesão profunda oculta</b>, rabdomiólise, síndrome compartimental</td></tr></table><ul><li>Raio com várias vítimas: <b>triagem reversa</b> — reanimar primeiro quem parece morto</li><li>Alta voltagem: monitorização cardíaca, CK, hidratação guiada por diurese, fasciotomia precoce</li></ul>",
+   "pegadinha": "Fórmulas de queimados <b>subestimam</b> o volume na lesão elétrica (o dano profundo é maior que a pele sugere).",
+   "fonte": "ATLS 10 · Wilderness Medical Society 2014",
+   "tags": [
+    "TH360X",
+    "X10"
+   ]
+  }
+ ],
+ "midia": {
+  "th_10_82991af4.png": "data/media/th_10_82991af4.png"
+ }
+}
