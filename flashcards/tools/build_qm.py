@@ -32,6 +32,14 @@ from mr import M as MR
 from cmt import C
 MT = [m for m in MT if m[2] not in ("Profilaxia de úlcera", "Índice de choque")]
 MT = [tuple(x.replace("Aperte 10 s o dedo indicador por 10 s.", "Pressione a polpa do dedo por 10 s e conte.") for x in m) for m in MT]
+# Lote 2 de micropartículas (tupla de 6: tema, emoji, título, texto, gancho, comentário) — sempre no fim, para não mudar os ids antigos
+MT2 = sum((importlib.import_module(m).M for m in ["mt2a", "mt2b", "mt2c", "mt2d"]), [])
+MR2 = sum((importlib.import_module(m).M for m in ["mr2a", "mr2b", "mr2c", "mr2d"]), [])
+_tit = {m[2] for m in MT + MR}
+for t in MT2 + MR2:
+    assert len(t) == 6 and all(isinstance(x, str) and x.strip() for x in t), ("micro incompleta", t[2])
+    assert t[2] not in _tit and t[2] not in C, ("título de micro repetido", t[2]); _tit.add(t[2]); C[t[2]] = t[5]
+MT = MT + [t[:5] for t in MT2]; MR = MR + [t[:5] for t in MR2]
 mic = lambda L, p: [{"id": f"{p}{i+1:03d}", "tema": t, "emoji": e, "titulo": ti, "texto": tx, "gancho": g, "comentario": C.get(ti, "")} for i, (t, e, ti, tx, g) in enumerate(L)]
 MC = {"temi": mic(MT, "MT"), "r3": mic(MR, "MR")}
 json.dump(Q, open(f"{OUT}/data/questoes.json", "w"), ensure_ascii=False)

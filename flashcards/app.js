@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.5.0";
+const APP_VERSION = "4.5.1";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -1136,7 +1136,11 @@ const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i
 
 /* ---------------- Micropartículas (TEMI / R3) ---------------- */
 const MC = { div: lsGet("mcDiv") || "temi", tema: "", data: null, i: 0, t0: 0,
-  async load() { if (!this.data) this.data = await fetch("data/micro.json").then(r => r.json()).catch(() => ({ temi: [], r3: [] })); },
+  async load() {   // guarda uma cópia no aparelho para abrir sem internet
+    if (this.data) return;
+    try { const r = await fetch("data/micro.json"); if (!r.ok) throw new Error(r.status); this.data = await r.json(); DB.setMeta("mc:data", this.data).catch(() => {}); }
+    catch (e) { this.data = (await DB.meta("mc:data", null).catch(() => null)) || { temi: [], r3: [] }; }
+  },
   async open() { await this.load(); this.render(); },
   list() { return (this.data[this.div] || []).filter(m => !this.tema || m.tema === this.tema); },
   render() {
@@ -1306,7 +1310,7 @@ const ACH = { list: [],
     A("acc80", "brasao", "🏹", "Arqueiro de Elite", "Acerto ≥ 80% com ≥ 100 questões", s => s.qAns >= 100 ? Math.round(100 * s.qAcc) : 0, 80);
     A("acc90", "honra", "🦅", "Olho de Águia", "Acerto ≥ 90% com ≥ 200 questões", s => s.qAns >= 200 ? Math.round(100 * s.qAcc) : 0, 90);
     [[10, "medalha"], [50, "medalha"], [100, "trofeu"], [200, "brasao"], [400, "honra"]].forEach(([n, t]) => A("qc" + n, t, "📖", `Leitor de Comentários ${n}`, `Marcar ☑️ ${n} comentários de questões como lidos`, s => s.qc, n));
-    [[10, "medalha"], [50, "trofeu"], [100, "brasao"], [200, "honra"]].forEach(([n, t]) => A("mc" + n, t, "💊", `Alquimista ${n}`, `Ler ${n} micropartículas (☑️)`, s => s.mic, n));
+    [[10, "medalha"], [50, "trofeu"], [100, "brasao"], [200, "honra"], [400, "honra"], [600, "honra"]].forEach(([n, t]) => A("mc" + n, t, "💊", `Alquimista ${n}`, `Ler ${n} micropartículas (☑️)`, s => s.mic, n));
     [[10, "medalha"], [50, "trofeu"], [150, "brasao"], [300, "honra"]].forEach(([n, t]) => A("mn" + n, t, "🧠", `Mnemonista ${n}`, `Dominar ${n} mnemônicos (2 acertos seguidos no treino)`, s => s.mn, n));
     [[100, "medalha"], [500, "medalha"], [1000, "trofeu"], [2500, "trofeu"], [5000, "brasao"], [10000, "honra"]].forEach(([n, t]) => A("cd" + n, t, "🎴", `Guardião de ${n.toLocaleString("pt-BR")} cards`, `Responder ${n.toLocaleString("pt-BR")} flashcards`, s => s.cards, n));
     [[1, "medalha"], [7, "trofeu"], [30, "brasao"], [100, "honra"]].forEach(([n, t]) => A("mt" + n, t, "🎯", `Juramento Cumprido ${n}`, `Cumprir a meta diária de novos em ${n} dia(s)`, s => s.metaDays, n));
