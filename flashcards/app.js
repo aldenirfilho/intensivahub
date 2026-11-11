@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.4.0";
+const APP_VERSION = "4.5.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -90,9 +90,9 @@ const S = { cards: [], byId: new Map(), official: [], user: new Map(), prog: new
 const emptyLog = () => ({ nNew: 0, nRev: 0, nAns: 0, nOk: 0, ms: 0 });
 const L0 = () => (S.logs[today()] = S.logs[today()] || emptyLog());
 /* ---------- XP · níveis · registro de atividade (sincroniza junto com os logs) ---------- */
-const act = l => !l ? 0 : (l.nAns === undefined && !l.xp ? Object.keys(l).length : (l.nAns || 0) + (l.qN || 0) + (l.mN || 0) + (l.sims || []).length + (l.xp || 0) / 1000);
+const act = l => !l ? 0 : (l.nAns === undefined && !l.xp ? Object.keys(l).length : (l.nAns || 0) + (l.qN || 0) + (l.mN || 0) + (l.nN || 0) + (l.sims || []).length + (l.xp || 0) / 1000);
 const dayLogs = () => Object.entries(S.logs).filter(([k]) => /^\d/.test(k));
-const QRES = () => (S.logs._q = S.logs._q || {}), MRES = () => (S.logs._m = S.logs._m || {});
+const QRES = () => (S.logs._q = S.logs._q || {}), MRES = () => (S.logs._m = S.logs._m || {}), NRES = () => (S.logs._n = S.logs._n || {});
 const RANKS = ["🪶 Aprendiz", "🛡️ Escudeiro", "⚔️ Cavaleiro", "🏰 Paladino", "📜 Mestre", "👑 Grão-Mestre", "🐉 Lenda"];
 function xpTotal() { return dayLogs().reduce((s, [, l]) => s + (l.xp || 0), 0); }
 function levelOf(xp) { let lv = 1, need = 100, acc = 0; while (xp >= acc + need) { acc += need; lv++; need = 100 + 50 * (lv - 1); } return { lv, cur: xp - acc, need, rank: RANKS[Math.min(RANKS.length - 1, Math.floor((lv - 1) / 5))] }; }
@@ -320,6 +320,17 @@ function mergeLogs(L, R) {
       const o = Object.assign({}, out._q || {});
       for (const [id, e] of Object.entries(rv || {})) { const c = o[id]; if (!Array.isArray(e)) continue; if (!c || (e[3] || 0) > (c[3] || 0) || ((e[3] || 0) === (c[3] || 0) && (e[1] || 0) > (c[1] || 0))) o[id] = e; }
       out._q = o;
+    } else if (k === "_n") {   // mnemônicos: treino pelo registro mais recente; favorito pelos carimbos de tempo
+      const o = Object.assign({}, out._n || {});
+      for (const [id, e] of Object.entries(rv || {})) {
+        if (!e || typeof e !== "object") continue; const c = o[id];
+        if (!c || typeof c !== "object") { o[id] = e; continue; }
+        const st = (e.t || 0) > (c.t || 0) ? e : c, x = {};
+        for (const f of ["n", "ok", "s", "t"]) if (st[f] !== undefined) x[f] = st[f];
+        const fv = Math.max(e.f || 0, c.f || 0), uf = Math.max(e.u || 0, c.u || 0); if (fv) x.f = fv; if (uf) x.u = uf;
+        o[id] = x;
+      }
+      out._n = o;
     } else out[k] = mergeDay(out[k], rv);
   }
   return out;
@@ -1158,13 +1169,117 @@ const MC = { div: lsGet("mcDiv") || "temi", tema: "", data: null, i: 0, t0: 0,
   } };
 
 
+/* ---------------- Mnemônicos (TEMI / R3) ----------------
+   Progresso em S.logs._n: { id: { n: treinos, ok: acertos, s: acertos seguidos, t: último treino, f: favoritou em, u: desfavoritou em } }
+   Dominado = 2 acertos seguidos. Sincroniza junto com os registros (nuvem do Claude, Gist e Ponte). */
+const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "lista", data: null, lim: 24, cur: null, hint: false, shown: false, sess: { n: 0, ok: 0 },
+  nz: s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(),
+  async load() {
+    if (this.data) return;
+    try { const r = await fetch("data/mnemonicos.json"); if (!r.ok) throw new Error(r.status); this.data = await r.json(); DB.setMeta("mn:data", this.data).catch(() => {}); }
+    catch (e) { this.data = (await DB.meta("mn:data", null).catch(() => null)) || { temi: [], r3: [] }; }
+  },
+  async open() { await this.load(); this.render(); },
+  st(id) { return NRES()[id] || {}; },
+  dom(id) { return (this.st(id).s || 0) >= 2; },
+  fav(id) { const e = this.st(id); return (e.f || 0) > (e.u || 0); },
+  all() { return this.data[this.div] || []; },
+  list() {
+    const q = this.nz(this.q).trim(), f = this.filt;
+    return this.all().filter(m => (!this.tema || m.tema === this.tema)
+      && (!f || (f === "fav" && this.fav(m.id)) || (f === "pend" && !this.dom(m.id)) || (f === "dom" && this.dom(m.id)) || (f === "c" && m.o === "c") || (f === "o" && m.o === "o"))
+      && (!q || this.nz(m.t + " " + m.m + " " + m.k.map(k => k.join(" ")).join(" ") + " " + (m.x || "")).includes(q)));
+  },
+  sig(m) { return `<div class="mnSig${m.m.length > 14 ? " long" : ""}">${esc(m.m)}</div>`; },
+  body(m) {
+    const wide = m.tp !== "a" && m.k.some(k => k[0].length > 6);
+    return `<table class="mnTab${wide ? " wide" : ""}">${m.k.map(k => `<tr><td class="l">${esc(k[0])}</td><td>${esc(k[1])}</td></tr>`).join("")}</table>${m.x ? `<div class="mnTip">🎯 ${esc(m.x)}</div>` : ""}`;
+  },
+  orig(m) { return `<span class="mnOrig ${m.o}" title="${m.o === "c" ? "Mnemônico, tríade, regra ou critério consagrado na literatura" : "Sigla criada no CÓDICE 360X para memorizar o conteúdo"}">${m.o === "c" ? "🏛️ Clássico" : "⚒️ 360X"}</span>`; },
+  foot(m) { const e = this.st(m.id); return e.n ? `<div class="mnFoot">${this.dom(m.id) ? "✅ Dominado" : "🎯 Em treino"} · ${e.n} treino(s), ${e.ok || 0} acerto(s)</div>` : ""; },
+  card(m) {
+    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnFav" data-fav="${m.id}" title="Favoritar" aria-label="Favoritar">${this.fav(m.id) ? "⭐" : "☆"}</button></span></div>
+      <div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m)}${this.foot(m)}</div>`;
+  },
+  head() {
+    const all = this.all(), temas = [...new Set(all.map(x => x.tema))], nDom = all.filter(m => this.dom(m.id)).length, nFav = all.filter(m => this.fav(m.id)).length, hoje = (S.logs[today()] || {}).nN || 0;
+    const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"], ["c", "🏛️ Clássicos"], ["o", "⚒️ Criados no 360X"]];
+    return `<div class="divTabs">${Object.entries(DIVS).map(([k, v]) => `<button class="btn ${k === this.div ? "gold" : ""}" data-div="${k}">${v}</button>`).join("")}</div>
+     <div class="metaRow"><button class="btn ${this.mode === "lista" ? "cy" : ""}" data-mode="lista">📖 Consultar</button><button class="btn ${this.mode === "treino" ? "cy" : ""}" data-mode="treino">🎲 Treinar</button>
+      <span class="metaNow">🧠 Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span></div>
+     <div class="progress"><i style="width:${all.length ? 100 * nDom / all.length : 0}%"></i></div>
+     <div class="mnBar"><select id="mnTema"><option value="">Todos os temas (${all.length})</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""} value="${esc(t)}">${esc(t)} (${all.filter(x => x.tema === t).length})</option>`).join("")}</select>
+      <select id="mnFilt">${F.map(([v, l]) => `<option value="${v}" ${v === this.filt ? "selected" : ""}>${l}</option>`).join("")}</select>
+      ${this.mode === "lista" ? `<input type="search" id="mnQ" placeholder="🔎 Buscar sigla, tema ou palavra" value="${esc(this.q)}">` : ""}</div>`;
+  },
+  render() {
+    if (!this.data) return;
+    const host = $("#mnHost"); if (!host) return;
+    if (this.mode === "treino") { if (!this.cur || !this.list().some(m => m.id === this.cur.id)) this.pick(); host.innerHTML = this.head() + this.train(); }
+    else {
+      const l = this.list(), show = l.slice(0, this.lim);
+      host.innerHTML = this.head() + (l.length ? `<p class="metaNow">${l.length} mnemônico(s) neste filtro · 🏛️ consagrado na literatura · ⚒️ sigla criada aqui</p><div class="mnGrid">${show.map(m => this.card(m)).join("")}</div>
+        ${l.length > show.length ? `<div class="metaRow" style="justify-content:center"><button class="btn" id="mnMore">⬇️ Mostrar mais (${l.length - show.length} restantes)</button></div>` : ""}` : `<p class="empty">Nenhum mnemônico neste filtro.</p>`);
+    }
+    this.bind();
+  },
+  train() {
+    const m = this.cur, l = this.list();
+    if (!m) return `<p class="empty">Nenhum mnemônico neste filtro para treinar.</p>`;
+    const top = `<div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnFav" data-fav="${m.id}" title="Favoritar" aria-label="Favoritar">${this.fav(m.id) ? "⭐" : "☆"}</button></span></div>`;
+    const ses = `<p class="metaNow" style="text-align:center">Sessão: <b>${this.sess.ok}</b> lembrado(s) de ${this.sess.n} · ${l.length} no filtro · ⌨️ <span class="kbd">Espaço</span> revelar · <span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> responder</p>`;
+    if (!this.shown) return `<div class="mnCard mnTrain">${top}<div class="mnAsk">🧠 Qual é o mnemônico?</div><div class="mnTit">${esc(m.t)}</div>
+      ${this.hint ? this.sig(m) + `<p class="metaNow" style="text-align:center">Agora lembre o que cada parte significa.</p>` : ""}
+      <div class="mnAns">${this.hint ? "" : `<button class="btn" id="mnHint">💡 Mostrar só a sigla</button>`}<button class="btn gold" id="mnShow">👁️ Revelar</button></div></div>${ses}`;
+    return `<div class="mnCard mnTrain">${top}<div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m)}
+      <div class="mnAns"><button class="btn danger" data-g="0">❌ Não lembrei</button><button class="btn" data-g="1">🟡 Em parte (+1 XP)</button><button class="btn gold" data-g="2">✅ Lembrei (+2 XP)</button></div></div>${ses}`;
+  },
+  pick() {
+    const l = this.list().filter(m => !this.cur || m.id !== this.cur.id), R = NRES();
+    if (!l.length) { this.cur = this.list()[0] || null; this.hint = this.shown = false; return; }
+    const sc = m => { const e = R[m.id]; return e && e.n ? (e.s || 0) * 1e13 + (e.t || 0) : -1; };
+    const ord = l.map(m => [sc(m), Math.random(), m]).sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+    const pool = ord[0][0] < 0 ? ord.filter(x => x[0] < 0) : ord.slice(0, Math.min(5, ord.length));
+    this.cur = pool[Math.floor(Math.random() * pool.length)][2]; this.hint = this.shown = false;
+  },
+  answer(g) {
+    const m = this.cur; if (!m || !this.shown) return;
+    const R = NRES(), e = R[m.id] = Object.assign({}, R[m.id] || {}), L = L0(), was = (e.s || 0) >= 2;
+    e.n = (e.n || 0) + 1; e.t = Date.now();
+    if (g === 2) { e.ok = (e.ok || 0) + 1; e.s = (e.s || 0) + 1; } else e.s = g === 1 ? Math.min(e.s || 0, 1) : 0;
+    L.nN = (L.nN || 0) + 1; this.sess.n++; if (g === 2) this.sess.ok++;
+    if (g) addXP(g, "mnemônico", "n");
+    if (!was && e.s >= 2) toast("✅ Mnemônico dominado!");
+    saveLog(); this.pick(); this.render();
+  },
+  toggleFav(id, btn) { const R = NRES(), e = R[id] = Object.assign({}, R[id] || {}), on = (e.f || 0) > (e.u || 0); e[on ? "u" : "f"] = Date.now(); if (btn) btn.textContent = on ? "☆" : "⭐"; saveLog(); },
+  bind() {
+    const host = $("#mnHost");
+    $$("[data-div]", host).forEach(b => b.onclick = () => { this.div = b.dataset.div; lsSet("mnDiv", this.div); this.tema = ""; this.lim = 24; this.cur = null; this.render(); });
+    $$("[data-mode]", host).forEach(b => b.onclick = () => { this.mode = b.dataset.mode; this.lim = 24; this.cur = null; this.sess = { n: 0, ok: 0 }; this.render(); });
+    const t = $("#mnTema"), f = $("#mnFilt"), q = $("#mnQ"), more = $("#mnMore"), hint = $("#mnHint"), show = $("#mnShow");
+    if (t) t.onchange = e => { this.tema = e.target.value; this.lim = 24; this.cur = null; this.render(); };
+    if (f) f.onchange = e => { this.filt = e.target.value; this.lim = 24; this.cur = null; this.render(); };
+    if (q) q.oninput = e => { this.q = e.target.value; this.lim = 24; clearTimeout(this._qt); this._qt = setTimeout(() => { this.render(); const n = $("#mnQ"); if (n) { n.focus(); n.setSelectionRange(n.value.length, n.value.length); } }, 250); };
+    if (more) more.onclick = () => { this.lim += 24; this.render(); };
+    if (hint) hint.onclick = () => { this.hint = true; this.render(); };
+    if (show) show.onclick = () => { this.shown = true; this.render(); };
+    $$("[data-g]", host).forEach(b => b.onclick = () => this.answer(+b.dataset.g));
+    $$("[data-fav]", host).forEach(b => b.onclick = () => this.toggleFav(b.dataset.fav, b));
+  },
+  key(e) {
+    if (this.mode !== "treino" || !this.cur) return;
+    if (!this.shown) { if (e.code === "Space" || e.key === "Enter") { e.preventDefault(); this.shown = true; this.render(); } else if (e.key === "d" || e.key === "D") { e.preventDefault(); this.hint = true; this.render(); } return; }
+    const g = "123".indexOf(e.key); if (g >= 0) { e.preventDefault(); this.answer(g); }
+  } };
+
 /* ---------------- Jornada: conquistas, ranking semanal e painéis ---------------- */
 const ACH_T = { medalha: "🏅 Medalhas", trofeu: "🏆 Troféus", titulo: "📜 Títulos", brasao: "🛡️ Brasões", honra: "🎖️ Honrarias" };
 const ACH_BONUS = { medalha: 20, trofeu: 40, titulo: 50, brasao: 80, honra: 150 };
-const XPSRC = { c: ["🎴 Flashcards", "#4dd4ff"], s: ["🧪 Simulados", "#ffc14d"], q: ["❓ Questões", "#5be38a"], r: ["📖 Leitura e comentários", "#b48cff"], m: ["💊 Micropartículas", "#ff8fb1"], a: ["🏆 Conquistas", "#e8c56a"] };
+const XPSRC = { c: ["🎴 Flashcards", "#4dd4ff"], s: ["🧪 Simulados", "#ffc14d"], q: ["❓ Questões", "#5be38a"], r: ["📖 Leitura e comentários", "#b48cff"], m: ["💊 Micropartículas", "#ff8fb1"], n: ["🧠 Mnemônicos", "#7fd1b9"], a: ["🏆 Conquistas", "#e8c56a"] };
 const isoWeek = t => { const d = new Date(t); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getTime(); };
 function jStats() {
-  const days = dayLogs().sort((a, b) => a[0].localeCompare(b[0])), act = l => (l.nAns || 0) + (l.qN || 0) + (l.mN || 0) + (l.sims || []).length > 0;
+  const days = dayLogs().sort((a, b) => a[0].localeCompare(b[0])), act = l => (l.nAns || 0) + (l.qN || 0) + (l.mN || 0) + (l.nN || 0) + (l.sims || []).length > 0;
   const on = new Set(days.filter(([, l]) => act(l)).map(([d]) => d));
   let cur = 0; for (let i = on.has(today()) ? 0 : 1; on.has(dayKey(Date.now() - i * DAY)); i++) cur++;
   let max = 0, run = 0, prev = null; for (const d of [...on].sort()) { const t = new Date(d + "T12:00").getTime(); run = prev && Math.round((t - prev) / DAY) === 1 ? run + 1 : 1; max = Math.max(max, run); prev = t; }
@@ -1174,7 +1289,7 @@ function jStats() {
   const wk = {}; for (const [d, l] of days) { const w = isoWeek(new Date(d + "T12:00").getTime()); wk[w] = (wk[w] || 0) + (l.xp || 0); }
   const xs = {}; for (const [, l] of days) for (const [k, v] of Object.entries(l.xs || {})) xs[k] = (xs[k] || 0) + v;
   return { cur, max: Math.max(max, cur), xp: xpTotal(), lv: levelOf(xpTotal()).lv, sims, qAns: qv.length, qAcc: qv.length ? qOk / qv.length : 0, qc: Object.keys(S.logs._qc || {}).length,
-    mic: Object.keys(S.logs._m || {}).length, cards: days.reduce((a, [, l]) => a + (l.nAns || 0), 0), metaDays, wk, xs, days };
+    mic: Object.keys(S.logs._m || {}).length, mn: Object.values(S.logs._n || {}).filter(e => e && (e.s || 0) >= 2).length, cards: days.reduce((a, [, l]) => a + (l.nAns || 0), 0), metaDays, wk, xs, days };
 }
 const ACH = { list: [],
   build() {
@@ -1192,6 +1307,7 @@ const ACH = { list: [],
     A("acc90", "honra", "🦅", "Olho de Águia", "Acerto ≥ 90% com ≥ 200 questões", s => s.qAns >= 200 ? Math.round(100 * s.qAcc) : 0, 90);
     [[10, "medalha"], [50, "medalha"], [100, "trofeu"], [200, "brasao"], [400, "honra"]].forEach(([n, t]) => A("qc" + n, t, "📖", `Leitor de Comentários ${n}`, `Marcar ☑️ ${n} comentários de questões como lidos`, s => s.qc, n));
     [[10, "medalha"], [50, "trofeu"], [100, "brasao"], [200, "honra"]].forEach(([n, t]) => A("mc" + n, t, "💊", `Alquimista ${n}`, `Ler ${n} micropartículas (☑️)`, s => s.mic, n));
+    [[10, "medalha"], [50, "trofeu"], [150, "brasao"], [300, "honra"]].forEach(([n, t]) => A("mn" + n, t, "🧠", `Mnemonista ${n}`, `Dominar ${n} mnemônicos (2 acertos seguidos no treino)`, s => s.mn, n));
     [[100, "medalha"], [500, "medalha"], [1000, "trofeu"], [2500, "trofeu"], [5000, "brasao"], [10000, "honra"]].forEach(([n, t]) => A("cd" + n, t, "🎴", `Guardião de ${n.toLocaleString("pt-BR")} cards`, `Responder ${n.toLocaleString("pt-BR")} flashcards`, s => s.cards, n));
     [[1, "medalha"], [7, "trofeu"], [30, "brasao"], [100, "honra"]].forEach(([n, t]) => A("mt" + n, t, "🎯", `Juramento Cumprido ${n}`, `Cumprir a meta diária de novos em ${n} dia(s)`, s => s.metaDays, n));
     A("wkrec", "trofeu", "📈", "Semana Recorde", "Superar sua melhor semana anterior (≥ 500 XP)", s => { const w = Object.entries(s.wk).sort((a, b) => a[0] - b[0]); if (w.length < 2) return 0; const last = w[w.length - 1][1], best = Math.max(...w.slice(0, -1).map(x => x[1])); return last >= 500 && last > best ? 1 : 0; }, 1);
@@ -1522,6 +1638,7 @@ document.addEventListener("keydown", e => {
   if (/input|textarea|select/i.test(e.target.tagName)) return;
   if (location.hash === "#questoes" && (e.key === "c" || e.key === "C")) { const ck = $("#qzChk"); if (ck) { e.preventDefault(); ck.click(); } return; }
   if (location.hash === "#questoes") { const k = e.key.toUpperCase(), i = "ABCDE".indexOf(k) >= 0 ? "ABCDE".indexOf(k) : "12345".indexOf(e.key); if (i >= 0 && k.length === 1) { e.preventDefault(); QZ.pick(i); } else if (e.key === "Enter" || e.key === "ArrowRight") { e.preventDefault(); QZ.next(); } return; }
+  if (location.hash === "#mnemonicos") { MN.key(e); return; }
   if (location.hash === "#micro") { if (e.key === "ArrowRight" || e.code === "Space") { e.preventDefault(); MC.go(1); } else if (e.key === "ArrowLeft") { e.preventDefault(); MC.go(-1); } else if (e.key === "Enter") { e.preventDefault(); MC.check(); } return; }
   if (location.hash !== "#estudar" || /input|textarea|select/i.test(e.target.tagName)) return;
   if (e.key === "ArrowLeft") { e.preventDefault(); return histBack(); }
@@ -1731,14 +1848,16 @@ function rerender() {
   if (v === "inicio" || !v) refreshHome(); else if (v === "buscar") search(); else if (v === "ajustes") fillSettings();
 }
 function route() {
-  const v = (location.hash || "#inicio").slice(1), valid = ["inicio", "estudar", "questoes", "micro", "jornada", "buscar", "importar", "prompt", "ajustes"], view = valid.includes(v) ? v : "inicio";
+  const v = (location.hash || "#inicio").slice(1), valid = ["inicio", "estudar", "questoes", "micro", "mnemonicos", "jornada", "buscar", "importar", "prompt", "ajustes"], view = valid.includes(v) ? v : "inicio";
   $$(".view").forEach(s => s.classList.toggle("on", s.id === "v-" + view));
   $$("#nav a").forEach(a => a.classList.toggle("on", a.dataset.v === view));
+  { const nav = $("#nav"), on = $("#nav a.on"); if (nav && on && nav.scrollWidth > nav.clientWidth + 1) nav.scrollLeft += on.getBoundingClientRect().left - nav.getBoundingClientRect().left - (nav.clientWidth - on.offsetWidth) / 2; }   // aba ativa sempre visível no celular
   if (view === "inicio") refreshHome();
   if (view === "estudar") { if (!Study.started) { const ss = S.session; startStudy(ss ? ss.prefix : null, ss && ss.ids ? ss.ids : null, true); return; } Study.view != null ? histShow() : (Study.cur && Study.shown ? histContinue() : showCard()); } else bars(null);
   if (view === "buscar") search();
   if (view === "questoes") QZ.open();
   if (view === "micro") MC.open();
+  if (view === "mnemonicos") MN.open();
   if (view === "jornada") JR.render();
   xpBadge();
   if (view === "prompt") updPrompt();

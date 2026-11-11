@@ -30,9 +30,9 @@ header{position:sticky;top:0;z-index:20;background:rgba(11,14,19,.92);backdrop-f
 .dk{border-left:3px solid var(--acc,transparent)}
 @media(max-width:640px){.charts{grid-template-columns:1fr}}
 .brand small{display:block;font:500 11px Inter;color:var(--mut);letter-spacing:.5px;-webkit-text-fill-color:var(--mut)}
-nav{display:flex;gap:4px;overflow-x:auto;max-width:1000px;margin:8px auto 0;scrollbar-width:none}
+nav{display:flex;gap:2px;overflow-x:auto;max-width:1000px;margin:8px auto 0;scrollbar-width:none}
 nav::-webkit-scrollbar{display:none}
-nav a{flex:none;text-decoration:none;color:var(--mut);padding:8px 12px;border-radius:10px 10px 0 0;font-weight:600;font-size:14px;border-bottom:2px solid transparent}
+nav a{flex:none;text-decoration:none;color:var(--mut);padding:8px 9px;border-radius:10px 10px 0 0;font-weight:600;font-size:14px;border-bottom:2px solid transparent}
 nav a.on{color:var(--txt);border-bottom-color:var(--gold);background:var(--panel)}
 main{max-width:1000px;margin:0 auto;padding:16px 14px calc(110px + var(--safe-b))}
 .view{display:none}.view.on{display:block}
@@ -78,6 +78,17 @@ label{font-size:13px;color:var(--mut);font-weight:600}
 .qzAlt b{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#1f2a37;color:var(--gold2)}.qzAlt:hover:not(:disabled){border-color:var(--cy)}
 .qzAlt.ok{border-color:#5be38a;background:#10261a}.qzAlt.ok b{background:#5be38a;color:#08130c}.qzAlt.bad{border-color:#ff6b6b;background:#2a1215}.qzAlt.bad b{background:#ff6b6b;color:#1a0708}
 .qzRes{margin-top:14px;font-weight:700;font-size:16px}.qzRes.ok{color:#5be38a}.qzRes.bad{color:#ff6b6b}.qzExp{margin-top:8px;line-height:1.55;background:#0f1620;border-left:3px solid var(--gold);padding:10px 12px;border-radius:8px}.qzRef{margin-top:6px;font-size:12px;color:var(--mut)}
+.mnBar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}.mnBar select{flex:1 1 180px;width:auto;min-width:0;max-width:100%}.mnBar input[type=search]{flex:2 1 220px;width:auto;min-width:0}
+.mnGrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0;align-items:start}@media(max-width:760px){.mnGrid{grid-template-columns:1fr}}html.lay-mobile .mnGrid{grid-template-columns:1fr}html.lay-desktop .mnGrid{grid-template-columns:1fr 1fr}
+.mnCard{background:radial-gradient(120% 90% at 100% 0%,#3a2c1055,transparent),var(--bg2);border:1px solid var(--line);border-radius:16px;padding:16px}.mnCard.dom{border-color:#2f5b45}
+.mnTools{display:flex;align-items:center;gap:6px}.mnOrig{font-size:11px;padding:2px 8px;border-radius:20px;border:1px solid var(--line);color:var(--mut);white-space:nowrap}.mnOrig.c{border-color:#6b5a1e;color:var(--gold2)}
+.mnFav{background:none;border:0;font-size:20px;cursor:pointer;padding:0 2px;line-height:1;color:var(--gold2)}
+.mnTit{font:700 17px/1.3 Inter;margin:8px 0 2px}.mnSig{font:700 30px/1.15 Georgia,serif;letter-spacing:3px;color:var(--gold);text-align:center;margin:12px 0;overflow-wrap:anywhere}.mnSig.long{font-size:19px;letter-spacing:.5px}
+.mnTab{width:100%;border-collapse:collapse;font-size:15px}.mnTab td{padding:6px 8px;border-bottom:1px solid #1d2733;vertical-align:top;line-height:1.45}.mnTab tr:last-child td{border-bottom:0}
+.mnTab td.l{font-weight:700;color:var(--cy);white-space:nowrap;width:1%}.mnTab.wide td.l{white-space:normal;width:36%}
+.mnTip{margin-top:10px;padding:9px 11px;border-left:4px solid #ffc14d;background:#1a1608;color:#ffd98a;border-radius:8px;font-size:14px;line-height:1.45}
+.mnFoot{margin-top:8px;font-size:12px;color:var(--mut)}.mnAsk{color:var(--cy);font-weight:700;margin-top:12px}
+.mnTrain{max-width:760px;margin:12px auto;min-height:280px}.mnTrain .mnTit{font-size:21px;color:var(--gold2)}.mnAns{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:16px}
 .mcCard{background:radial-gradient(120% 90% at 0% 0%,#14324066,transparent),var(--bg2);border:1px solid var(--line);border-radius:18px;padding:22px 20px;margin:12px 0;min-height:260px}.mcCard.lida{border-color:#2f5b45}
 .mcTop{display:flex;justify-content:space-between;align-items:center;gap:8px}.mcN{color:var(--mut);font-size:12px}.mcEmoji{font-size:44px;margin:14px 0 4px}
 .mcTit{font:700 21px/1.25 Inter;margin:4px 0 10px;color:var(--gold2)}.mcTxt{font-size:17px;line-height:1.6}.mcHook{margin-top:14px;padding:10px 12px;border-radius:10px;background:#0f1620;border:1px dashed var(--cy);color:var(--cy);font-size:14px}
@@ -165,6 +176,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <a href="#estudar" data-v="estudar">🎴 Estudar</a>
   <a href="#questoes" data-v="questoes">❓ Questões</a>
   <a href="#micro" data-v="micro">💊 Micro</a>
+  <a href="#mnemonicos" data-v="mnemonicos">🧠 Mnemônicos</a>
   <a href="#jornada" data-v="jornada">🏆 Jornada</a>
   <a href="#buscar" data-v="buscar">🔎 Buscar</a>
   <a href="#importar" data-v="importar">📥 Importar</a>
@@ -215,6 +227,9 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 
 <!-- MICROPARTÍCULAS -->
 <section class="view" id="v-micro"><div id="mcHost"></div></section>
+
+<!-- MNEMÔNICOS -->
+<section class="view" id="v-mnemonicos"><div id="mnHost"></div></section>
 
 <!-- JORNADA -->
 <section class="view" id="v-jornada"><div id="jrHost"></div></section>
