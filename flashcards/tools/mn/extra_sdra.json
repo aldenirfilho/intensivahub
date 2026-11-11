@@ -1,0 +1,242 @@
+{
+ "origem": "Módulo SDRA: terapias experimentais — itens criados em outra conversa do projeto e publicados direto no artefato (11/11/2026). Mantidos como estavam, com os mesmos ids; só o contexto (c) foi acrescentado aqui.",
+ "temi": [
+  {
+   "d": "temi",
+   "tema": "16 🧪 SDRA: terapias experimentais",
+   "t": "Cemitério da SDRA: terapias ineficazes ou nocivas",
+   "m": "PISCA · BEKI · E · A",
+   "k": [
+    [
+     "P",
+     "prostaglandina E1 IV"
+    ],
+    [
+     "I",
+     "ibuprofeno"
+    ],
+    [
+     "S",
+     "surfactante"
+    ],
+    [
+     "C",
+     "cetoconazol"
+    ],
+    [
+     "A",
+     "proteína C ativada"
+    ],
+    [
+     "B",
+     "β2-agonista de curta duração"
+    ],
+    [
+     "E",
+     "estatinas"
+    ],
+    [
+     "K",
+     "KGF (fator de crescimento de queratinócitos)"
+    ],
+    [
+     "I",
+     "interferon-β-1a"
+    ],
+    [
+     "E",
+     "inibidores da elastase de neutrófilos"
+    ],
+    [
+     "A",
+     "antioxidantes (NAC, glutamina, ômega-3, selênio, zinco, vitaminas C e E...)"
+    ]
+   ],
+   "x": "Nenhuma é usada como terapia da SDRA.",
+   "o": "o",
+   "tp": "a",
+   "id": "nt6721e3",
+   "c": "Fármacos que falharam em ensaios clínicos na SDRA. Alguns pioraram desfechos, como o salbutamol intravenoso (BALTI-2) e o fator de crescimento de queratinócitos (KARE). O tratamento segue sendo de suporte."
+  },
+  {
+   "d": "temi",
+   "tema": "16 🧪 SDRA: terapias experimentais",
+   "t": "Tratamento da SDRA em uma frase",
+   "m": "Suporte · Gatilho",
+   "k": [
+    [
+     "Suporte",
+     "ventilação protetora e cuidados para trocas gasosas e complicações"
+    ],
+    [
+     "Gatilho",
+     "tratar a causa que desencadeou a SDRA"
+    ],
+    [
+     "Fármaco específico",
+     "nenhum de rotina"
+    ]
+   ],
+   "x": "Exceção com dados favoráveis: glicocorticoides.",
+   "o": "o",
+   "tp": "f",
+   "id": "nte996f5",
+   "c": "Princípio do tratamento: nenhum fármaco reverte a lesão alveolar. O que reduz a mortalidade é o suporte bem feito (ventilação protetora, prona) e o controle da causa."
+  },
+  {
+   "d": "temi",
+   "tema": "16 🧪 SDRA: terapias experimentais",
+   "t": "Prevenção da SDRA: o que já foi testado",
+   "m": "A · B · S · D",
+   "k": [
+    [
+     "A",
+     "aspirina: sem benefício (LIPS-A)"
+    ],
+    [
+     "B",
+     "budesonida + formoterol inalados: experimental"
+    ],
+    [
+     "S",
+     "sivelestat no pós-op CV: experimental"
+    ],
+    [
+     "D",
+     "vitamina D: sem benefício"
+    ]
+   ],
+   "x": "Nenhum agente preventivo é rotina.",
+   "o": "o",
+   "tp": "a",
+   "id": "nt9061cd",
+   "c": "Tentativas de impedir a SDRA em pacientes de risco. O ensaio LIPS-A (2016) não mostrou benefício da aspirina, e nenhuma estratégia farmacológica entrou na rotina."
+  },
+  {
+   "d": "temi",
+   "tema": "16 🧪 SDRA: terapias experimentais",
+   "t": "Armadilhas de leitura crítica nos estudos de SDRA",
+   "m": "B · B · C",
+   "k": [
+    [
+     "B",
+     "baixa incidência derruba o poder (LIPS-A)"
+    ],
+    [
+     "B",
+     "basal alta infla o efeito (sivelestat pós-op)"
+    ],
+    [
+     "C",
+     "confundimento cria benefício em coorte (macrolídeos)"
+    ]
+   ],
+   "x": "",
+   "o": "o",
+   "tp": "a",
+   "id": "nt8b7247",
+   "c": "Três razões pelas quais resultados promissores na SDRA não se confirmam. Servem de roteiro para questões de leitura crítica de ensaios e coortes."
+  },
+  {
+   "d": "temi",
+   "tema": "16 🧪 SDRA: terapias experimentais",
+   "t": "Terapias experimentais de tratamento por mecanismo",
+   "m": "Reparar × Apagar o fogo × Resgatar",
+   "k": [
+    [
+     "Reparar",
+     "GM-CSF e células estromais mesenquimais"
+    ],
+    [
+     "Apagar o fogo",
+     "macrolídeos, aspirina, CO inalado, sivelestat"
+    ],
+    [
+     "Resgatar",
+     "transplante pulmonar"
+    ]
+   ],
+   "x": "Todas com benefício incerto; nenhuma de rotina.",
+   "o": "o",
+   "tp": "f",
+   "id": "ntf9cec8",
+   "c": "Organiza as terapias em estudo pelo alvo: reparo do epitélio alveolar, controle da inflamação e substituição do órgão. Nenhuma tem indicação fora de protocolo de pesquisa."
+  },
+  {
+   "d": "temi",
+   "tema": "16 🧪 SDRA: terapias experimentais",
+   "t": "Macrolídeos na SDRA: números da coorte LARMA",
+   "m": "23 × 36 · HR 0,46",
+   "k": [
+    [
+     "23% × 36%",
+     "mortalidade em 180 dias"
+    ],
+    [
+     "0,46",
+     "HR ajustado (IC 0,23–0,92)"
+    ],
+    [
+     "47 × 188",
+     "pacientes com e sem macrolídeo"
+    ]
+   ],
+   "x": "Observacional e com confundimento por ventilação protetora.",
+   "o": "o",
+   "tp": "l",
+   "id": "nt831122",
+   "c": "Análise de coorte com dados do ensaio LARMA (Walkey, 2012), que associou macrolídeo a menor mortalidade. Por ser observacional, gera hipótese, não recomendação."
+  },
+  {
+   "d": "temi",
+   "tema": "16 🧪 SDRA: terapias experimentais",
+   "t": "GM-CSF IV na SDRA: números do ECR",
+   "m": "17 × 23 NS",
+   "k": [
+    [
+     "17% × 23%",
+     "mortalidade, sem significância"
+    ],
+    [
+     "15,7 × 12,8",
+     "dias livres de falência orgânica"
+    ],
+    [
+     "131",
+     "pacientes randomizados"
+    ]
+   ],
+   "x": "Metanálise: sem efeito em mortalidade.",
+   "o": "o",
+   "tp": "l",
+   "id": "nt557f8c",
+   "c": "O GM-CSF participa do reparo do epitélio alveolar e da função do macrófago. No ensaio randomizado, a mortalidade não diferiu, e o fármaco segue experimental."
+  },
+  {
+   "d": "temi",
+   "tema": "16 🧪 SDRA: terapias experimentais",
+   "t": "Transplante pulmonar de resgate na SDRA",
+   "m": "14 → 9 · 89 × 20",
+   "k": [
+    [
+     "14 → 9",
+     "listados → transplantados (série coreana)"
+    ],
+    [
+     "89% × 20%",
+     "sobrevida com × sem transplante"
+    ],
+    [
+     "87 · 82 · 69",
+     "sobrevida (%) em 90 d, 1 ano e 3 anos (n=39)"
+    ]
+   ],
+   "x": "Ainda experimental: critérios indefinidos.",
+   "o": "o",
+   "tp": "l",
+   "id": "ntcb921e",
+   "c": "Opção de exceção para a SDRA irreversível depois de suporte prolongado, em paciente sem outra falência orgânica. A evidência vem de séries pequenas e de registros."
+  }
+ ],
+ "r3": []
+}

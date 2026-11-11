@@ -6,6 +6,7 @@ Formato de cada arquivo (TXT = r\"\"\"...\"\"\"):
   # SIGLA :: item 1; item 2; item 3        -> modo sigla: a inicial de cada item confere com cada letra
   # 6-30-15 :: 6 = texto; 30 = texto        -> modo livre: cada item traz o próprio rótulo ("rótulo = texto")
   ! dica ou pegadinha (opcional)
+  > contexto explicativo: quando se usa, de onde vem, por que importa (obrigatório)
   ^c | ^o | ^cf | ^of                       -> c = clássico, o = original 360X; f = frase validada pelas iniciais
 """
 import re, sys, json, glob, hashlib, unicodedata, importlib, os
@@ -24,9 +25,10 @@ def parse(txt, div, erros):
         if not ln: continue
         if ln.startswith("##"): tema = ln[2:].strip(); continue
         k, v = ln[0], ln[1:].strip()
-        if k == "@": cur = dict(d=div, tema=tema, t=v, m="", k=[], x="", o="o", tp="a", raw=""); out.append(cur)
+        if k == "@": cur = dict(d=div, tema=tema, t=v, m="", k=[], x="", c="", o="o", tp="a", raw=""); out.append(cur)
         elif k == "#": cur["raw"] = v
         elif k == "!": cur["x"] = v
+        elif k == ">": cur["c"] = v
         elif k == "^": cur["o"] = v[0]; cur["f"] = "f" in v[1:]
         else: erros.append(f"linha inválida: {ln[:60]}")
     for c in out:
@@ -48,6 +50,7 @@ def parse(txt, div, erros):
                 c["k"].append([u.upper() if not u[0].isdigit() else u, i])
         if len(c["k"]) < 2: erros.append(f"menos de 2 itens: {c['t']}")
         if c["o"] not in "co": erros.append(f"origem inválida: {c['t']}")
+        if len(c["c"]) < 30: erros.append(f"sem contexto: {c['t']}")
         c["id"] = "n" + ("t" if div == "temi" else "r") + hashlib.md5((div + c["t"]).encode()).hexdigest()[:6]
         for z in ("raw", "f"): c.pop(z, None)
     return out
@@ -57,6 +60,19 @@ def load():
     for div, pat in (("temi", "mt[0-9][0-9].py"), ("r3", "mr[0-9][0-9].py")):
         for f in sorted(glob.glob(os.path.join(HERE, pat))):
             data[div] += parse(importlib.import_module(os.path.basename(f)[:-3]).TXT, div, erros)
+    for f in sorted(glob.glob(os.path.join(HERE, "extra_*.json"))):   # itens prontos vindos de outra conversa: entram como estão (sem conferência de iniciais), com contexto obrigatório
+        ex = json.load(open(f, encoding="utf8"))
+        for div in data:
+            for c in ex.get(div, []):
+                falta = [k for k in ("d", "tema", "t", "m", "k", "x", "c", "o", "tp", "id") if k not in c]
+                if falta or len(c.get("c", "")) < 30: erros.append(f"extra incompleto ({os.path.basename(f)}): {c.get('t')} {falta}"); continue
+                data[div].append({k: c[k] for k in ("d", "tema", "t", "m", "k", "x", "c", "o", "tp", "id")})
+    for div in data:                                   # tema canônico pelo número (01–15) e ordem por tema: os lotes novos ficam junto dos antigos
+        canon = {}
+        for c in data[div]: canon.setdefault((c["tema"] or "")[:2], c["tema"])
+        for c in data[div]: c["tema"] = canon[(c["tema"] or "")[:2]]
+        ordem = {t: i for i, t in enumerate(canon.values())}
+        data[div].sort(key=lambda c: ordem[c["tema"]])
     seen = {}
     for div in data:
         for c in data[div]:
@@ -73,10 +89,10 @@ def apkg(data, path):
            ".tm{display:inline-block;font-size:12px;padding:2px 10px;border-radius:20px;background:#1d2a36;color:#4dd4ff}"
            ".q{font-size:21px;font-weight:700;color:#e8c56a;margin:10px 0}.mn{font:700 34px Georgia,serif;letter-spacing:3px;color:#d4af37;text-align:center;margin:12px 0}"
            "table{border-collapse:collapse;width:100%}td{padding:6px 8px;border-bottom:1px solid #22303c;vertical-align:top}"
-           "td.l{font-weight:700;color:#4dd4ff;white-space:nowrap}.x{margin-top:12px;padding:10px;border-left:4px solid #ffc14d;background:#1a1608;color:#ffd98a}.o{margin-top:8px;font-size:12px;color:#9aa4b2}")
-    model = genanki.Model(1607392601, "CÓDICE 360X · Mnemônico", fields=[{"name": n} for n in ("Titulo", "Sigla", "Itens", "Dica", "Tema", "Origem")],
+           "td.l{font-weight:700;color:#4dd4ff;white-space:nowrap}.x{margin-top:12px;padding:10px;border-left:4px solid #ffc14d;background:#1a1608;color:#ffd98a}.cx{margin-top:12px;padding:10px;border-left:4px solid #4dd4ff;background:#0e1a22;color:#cfe9f5;font-size:16px}.cx b{color:#4dd4ff}.o{margin-top:8px;font-size:12px;color:#9aa4b2}")
+    model = genanki.Model(1607392602, "CÓDICE 360X · Mnemônico (com contexto)", fields=[{"name": n} for n in ("Titulo", "Sigla", "Itens", "Dica", "Tema", "Origem", "Contexto")],
         templates=[{"name": "Mnemônico", "qfmt": '<span class="tm">{{Tema}}</span><div class="q">🧠 Qual é o mnemônico?<br>{{Titulo}}</div>',
-                    "afmt": '{{FrontSide}}<hr id="answer"><div class="mn">{{Sigla}}</div>{{Itens}}{{#Dica}}<div class="x">🎯 {{Dica}}</div>{{/Dica}}<div class="o">{{Origem}}</div>'}], css=css)
+                    "afmt": '{{FrontSide}}<hr id="answer"><div class="mn">{{Sigla}}</div>{{Itens}}{{#Dica}}<div class="x">🎯 {{Dica}}</div>{{/Dica}}{{#Contexto}}<div class="cx"><b>📖 Contexto</b><br>{{Contexto}}</div>{{/Contexto}}<div class="o">{{Origem}}</div>'}], css=css)
     esc = lambda s: s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     decks, root = {}, {"temi": "🏥 TEMI 2028::🧠 Mnemônicos 360X", "r3": "🩺 R3 Clínica Médica::🧠 Mnemônicos 360X"}
     for div in ("temi", "r3"):
@@ -84,7 +100,7 @@ def apkg(data, path):
             dn = f"{root[div]}::{c['tema']}"
             dk = decks.setdefault(dn, genanki.Deck(int(hashlib.md5(dn.encode()).hexdigest()[:8], 16) + 1_400_000_000, dn))
             itens = "<table>" + "".join(f'<tr><td class="l">{esc(a)}</td><td>{esc(b)}</td></tr>' for a, b in c["k"]) + "</table>"
-            dk.add_note(genanki.Note(model=model, fields=[esc(c["t"]), esc(c["m"]), itens, esc(c["x"]), esc(c["tema"]), "Clássico" if c["o"] == "c" else "Original 360X"],
+            dk.add_note(genanki.Note(model=model, fields=[esc(c["t"]), esc(c["m"]), itens, esc(c["x"]), esc(c["tema"]), "Clássico" if c["o"] == "c" else "Original 360X", esc(c["c"])],
                                      tags=["MN360X", "TEMI" if div == "temi" else "R3"], guid=genanki.guid_for("mn360x", c["id"])))
     genanki.Package(list(decks.values())).write_to_file(path)
 
@@ -100,6 +116,6 @@ if __name__ == "__main__":
     for e in erros: print("  ✗", e)
     if erros or "--check" in sys.argv: sys.exit(1 if erros else 0)
     total = sum(len(v) for v in data.values())
-    json.dump({"versao": "2026.11.11-mn", "temi": data["temi"], "r3": data["r3"]}, open(f"{OUT}/data/mnemonicos.json", "w", encoding="utf8"), ensure_ascii=False, separators=(",", ":"))
+    json.dump({"versao": "2026.11.11-mn2", "temi": data["temi"], "r3": data["r3"]}, open(f"{OUT}/data/mnemonicos.json", "w", encoding="utf8"), ensure_ascii=False, separators=(",", ":"))
     apkg(data, f"{OUT}/downloads/Mnemonicos_360X_{total}.apkg")
     print("ok", total, os.path.getsize(f"{OUT}/data/mnemonicos.json"), "bytes")

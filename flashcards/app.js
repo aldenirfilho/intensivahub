@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.5.1";
+const APP_VERSION = "4.6.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -1192,12 +1192,12 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
     const q = this.nz(this.q).trim(), f = this.filt;
     return this.all().filter(m => (!this.tema || m.tema === this.tema)
       && (!f || (f === "fav" && this.fav(m.id)) || (f === "pend" && !this.dom(m.id)) || (f === "dom" && this.dom(m.id)) || (f === "c" && m.o === "c") || (f === "o" && m.o === "o"))
-      && (!q || this.nz(m.t + " " + m.m + " " + m.k.map(k => k.join(" ")).join(" ") + " " + (m.x || "")).includes(q)));
+      && (!q || this.nz(m.t + " " + m.m + " " + m.k.map(k => k.join(" ")).join(" ") + " " + (m.x || "") + " " + (m.c || "")).includes(q)));
   },
   sig(m) { return `<div class="mnSig${m.m.length > 14 ? " long" : ""}">${esc(m.m)}</div>`; },
   body(m) {
     const wide = m.tp !== "a" && m.k.some(k => k[0].length > 6);
-    return `<table class="mnTab${wide ? " wide" : ""}">${m.k.map(k => `<tr><td class="l">${esc(k[0])}</td><td>${esc(k[1])}</td></tr>`).join("")}</table>${m.x ? `<div class="mnTip">🎯 ${esc(m.x)}</div>` : ""}`;
+    return `<table class="mnTab${wide ? " wide" : ""}">${m.k.map(k => `<tr><td class="l">${esc(k[0])}</td><td>${esc(k[1])}</td></tr>`).join("")}</table>${m.x ? `<div class="mnTip">🎯 ${esc(m.x)}</div>` : ""}${m.c ? `<div class="mnCtx"><b>📖 Contexto</b>${esc(m.c)}</div>` : ""}`;
   },
   orig(m) { return `<span class="mnOrig ${m.o}" title="${m.o === "c" ? "Mnemônico, tríade, regra ou critério consagrado na literatura" : "Sigla criada no CÓDICE 360X para memorizar o conteúdo"}">${m.o === "c" ? "🏛️ Clássico" : "⚒️ 360X"}</span>`; },
   foot(m) { const e = this.st(m.id); return e.n ? `<div class="mnFoot">${this.dom(m.id) ? "✅ Dominado" : "🎯 Em treino"} · ${e.n} treino(s), ${e.ok || 0} acerto(s)</div>` : ""; },
@@ -1311,7 +1311,7 @@ const ACH = { list: [],
     A("acc90", "honra", "🦅", "Olho de Águia", "Acerto ≥ 90% com ≥ 200 questões", s => s.qAns >= 200 ? Math.round(100 * s.qAcc) : 0, 90);
     [[10, "medalha"], [50, "medalha"], [100, "trofeu"], [200, "brasao"], [400, "honra"]].forEach(([n, t]) => A("qc" + n, t, "📖", `Leitor de Comentários ${n}`, `Marcar ☑️ ${n} comentários de questões como lidos`, s => s.qc, n));
     [[10, "medalha"], [50, "trofeu"], [100, "brasao"], [200, "honra"], [400, "honra"], [600, "honra"]].forEach(([n, t]) => A("mc" + n, t, "💊", `Alquimista ${n}`, `Ler ${n} micropartículas (☑️)`, s => s.mic, n));
-    [[10, "medalha"], [50, "trofeu"], [150, "brasao"], [300, "honra"]].forEach(([n, t]) => A("mn" + n, t, "🧠", `Mnemonista ${n}`, `Dominar ${n} mnemônicos (2 acertos seguidos no treino)`, s => s.mn, n));
+    [[10, "medalha"], [50, "trofeu"], [150, "brasao"], [300, "honra"], [500, "honra"], [800, "honra"]].forEach(([n, t]) => A("mn" + n, t, "🧠", `Mnemonista ${n}`, `Dominar ${n} mnemônicos (2 acertos seguidos no treino)`, s => s.mn, n));
     [[100, "medalha"], [500, "medalha"], [1000, "trofeu"], [2500, "trofeu"], [5000, "brasao"], [10000, "honra"]].forEach(([n, t]) => A("cd" + n, t, "🎴", `Guardião de ${n.toLocaleString("pt-BR")} cards`, `Responder ${n.toLocaleString("pt-BR")} flashcards`, s => s.cards, n));
     [[1, "medalha"], [7, "trofeu"], [30, "brasao"], [100, "honra"]].forEach(([n, t]) => A("mt" + n, t, "🎯", `Juramento Cumprido ${n}`, `Cumprir a meta diária de novos em ${n} dia(s)`, s => s.metaDays, n));
     A("wkrec", "trofeu", "📈", "Semana Recorde", "Superar sua melhor semana anterior (≥ 500 XP)", s => { const w = Object.entries(s.wk).sort((a, b) => a[0] - b[0]); if (w.length < 2) return 0; const last = w[w.length - 1][1], best = Math.max(...w.slice(0, -1).map(x => x[1])); return last >= 500 && last > best ? 1 : 0; }, 1);
