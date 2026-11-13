@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0b0e13">
+<script>try{if(localStorage.getItem("theme")==="light")document.documentElement.classList.add("light")}catch(e){}</script>
 <meta name="description" content="CÓDICE 360X · Flashcards com repetição espaçada para a prova TEMI. Importa .apkg e JSON gerados por qualquer IA.">
 <title>CÓDICE 360X · Flashcards TEMI</title>
 <link rel="manifest" href="manifest.webmanifest">
@@ -162,6 +163,154 @@ pre.prompt{white-space:pre-wrap;background:#0e131a;border:1px solid var(--line);
 .progress i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--cy));width:0}
 details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 .foot{color:var(--mut);font-size:12px;text-align:center;margin-top:20px}
+
+/* 🕊️ Honra */
+.mnOrig.u{border-color:#3b6b8f;color:#7fc8ff}
+.hoForm{display:grid;gap:10px;margin:10px 0}.hoForm label{display:flex;flex-direction:column;gap:4px;font-size:13.5px;color:var(--mut);font-weight:600}
+.hoForm input,.hoForm textarea,.hoForm select{background:var(--bg2);color:var(--txt);border:1px solid var(--line);border-radius:10px;padding:9px 10px;font:15px Inter,system-ui,sans-serif;width:100%}
+.hoForm textarea{resize:vertical}.hoRow{display:flex;gap:8px}.hoRow input:first-child{width:64px;flex:none;text-align:center}
+.hoMine{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px}
+.hoNtCall{display:flex;justify-content:space-between;align-items:center;gap:12px;background:linear-gradient(135deg,#141a33,#11161e);border-color:#3b2f63}
+.hoNt{text-align:center}.hoNtMoon{font-size:46px;filter:drop-shadow(0 0 12px #f3d77a66)}
+.hoNtList{text-align:left;display:inline-block;margin:10px auto 16px;line-height:1.9}.hoNtList small{color:var(--mut)}
+.hoDots{display:flex;justify-content:center;gap:10px;font-size:20px}.hoDots span{opacity:.35;filter:grayscale(1)}.hoDots span.on{opacity:1;filter:none;transform:scale(1.25)}.hoDots span.ok{opacity:.8;filter:none}
+.hoTimer{height:4px;border-radius:4px;background:#1b2330;overflow:hidden;margin:6px auto 14px;max-width:420px}.hoTimer i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--cy));animation:hoTm linear forwards}
+@keyframes hoTm{from{width:0}to{width:100%}}
+.hoNt .hoForm{text-align:left;max-width:520px;margin:0 auto}.hoNt .hoChk{max-width:520px;margin:10px auto;text-align:left}.hoNt .hoCard{text-align:left}
+.hoBless{font:italic 19px/1.7 Georgia,serif;color:var(--gold2);margin:16px auto;max-width:480px}.hoBless small{display:block;font:12.5px Inter,sans-serif;color:var(--mut);margin-top:6px}
+#themeBtn{min-width:34px;padding:6px 7px}
+@media(max-width:640px){#themeBtn{padding:5px 6px;min-width:0}.brand{gap:6px}}
+
+.hoSubs{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 12px}.hoSubs .btn{padding:7px 10px}
+.hoTr{font-size:11.5px;padding:2px 8px;border-radius:20px;border:1px solid;white-space:nowrap;font-weight:600}
+.hoCard{background:radial-gradient(120% 90% at 100% 0%,#2a1f4a55,transparent),var(--bg2)}
+.hoA{font:500 15.5px/1.5 Georgia,serif;margin:10px 0 6px;color:var(--txt)}.hoRef{font-size:13px;color:var(--gold2);margin:4px 0}.hoRef small{color:var(--mut)}
+.hoAp{margin-top:8px;padding:8px 10px;border-radius:10px;background:#0f2a22;border:1px solid #2f5b45;font-size:14px}.hoAp b{display:block;color:var(--grn);font-size:12.5px;margin-bottom:2px}
+.hoHero{display:flex;gap:14px;align-items:center;padding:14px 16px;border-radius:16px;margin-bottom:12px;background:linear-gradient(135deg,#1a1430,#0f1a24);border:1px solid #3b2f63}
+.hoBrasao{font-size:40px;width:64px;height:64px;display:grid;place-items:center;border-radius:50%;border:2px solid var(--gold);background:radial-gradient(#2a2140,#11161e);box-shadow:0 0 18px #d4af3740}
+.hoPanel{margin-bottom:12px}.hoChips{display:flex;flex-wrap:wrap;gap:6px}
+.hoChip{background:var(--bg2);color:var(--txt);border:1px solid var(--line);border-radius:20px;padding:6px 11px;font-size:13px;cursor:pointer}.hoChip:hover,.hoChip.on{border-color:var(--gold);color:var(--gold2)}
+.hoChk{display:flex;gap:8px;align-items:flex-start;margin:8px 0;font-size:14px;cursor:pointer}.hoChk input{margin-top:3px;accent-color:var(--gold)}
+.hoStat{display:flex;gap:10px;align-items:baseline;margin:6px 0}.hoStat b{font:700 22px Cinzel,serif;color:var(--gold2);min-width:46px;text-align:right}.hoStat span{color:var(--mut);font-size:13.5px}
+.hoComp{background:var(--bg2);border:1px solid #3b2f63;border-radius:18px;padding:16px;margin-bottom:12px}
+.hoCompT{font:700 20px Cinzel,serif;color:var(--gold2);text-align:center}.hoSin{font-size:14px;color:var(--mut);text-align:center;margin:6px 0 10px}
+.hoAl{background:#3a1416;border:1px solid var(--red);color:#ffd6d6;border-radius:10px;padding:8px 12px;margin:8px 0;font-size:14px;font-weight:600}
+.hoRose{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-areas:". n ." "o c l" ". s .";gap:8px;margin:12px 0}
+.hoDir{color:var(--txt);border-radius:12px;padding:10px;font-size:13.5px;line-height:1.4;border:1px solid var(--line);background:#121925}.hoDir b{display:block;font-size:12px;margin-bottom:4px}
+.hoDir.dn{grid-area:n;border-color:var(--gold)}.hoDir.dn b{color:var(--gold2)}.hoDir.ds{grid-area:s;border-color:var(--red)}.hoDir.ds b{color:var(--red)}
+.hoDir.dl{grid-area:l;border-color:var(--grn)}.hoDir.dl b{color:var(--grn)}.hoDir.do{grid-area:o;border-color:var(--cy)}.hoDir.do b{color:var(--cy)}
+.hoCenter{grid-area:c;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:50%;aspect-ratio:1;max-width:190px;justify-self:center;width:100%;border:2px solid var(--gold);background:radial-gradient(#231b3d,#0d1118);padding:12px}
+.hoCenter span{font-size:30px}.hoCenter i{font-size:12.5px;color:var(--txt);margin-top:4px}
+@media(max-width:640px){.hoRose{grid-template-columns:1fr;grid-template-areas:"c" "n" "l" "o" "s"}.hoCenter{max-width:170px}}
+html.lay-mobile .hoRose{grid-template-columns:1fr;grid-template-areas:"c" "n" "l" "o" "s"}
+.hoRefs{font-size:13px;margin-top:6px}.hoRefB{background:none;border:1px solid #6b5a1e;color:var(--gold2);border-radius:14px;padding:3px 9px;margin:3px 4px 0 0;font-size:12.5px;cursor:pointer}
+.hoFq{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px}.hoYN{display:flex;gap:6px;flex:none}
+.hoVer{margin:12px 0;padding:12px;border-radius:12px;font-size:14.5px;line-height:1.5}.hoVer.g{background:#0f2a1c;border:1px solid var(--grn)}.hoVer.y{background:#2e2410;border:1px solid var(--amb)}.hoVer.r{background:#3a1416;border:1px solid var(--red)}
+.hoBreath{display:flex;flex-direction:column;align-items:center;gap:14px;margin:18px 0}
+.hoOrb{width:200px;height:200px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:scale(.62);transition:transform 4s ease-in-out;background:radial-gradient(circle at 35% 35%,#7fd1ff,#3b2f8f 60%,#151b24);box-shadow:0 0 40px #4dd4ff55,inset 0 0 30px #ffffff22}
+.hoOrb span{font:700 22px Cinzel,serif;color:#fff;text-shadow:0 1px 4px #000}.hoOrb small{color:#e6f6ff;font-size:12px;margin-top:4px}
+.hoAnc{font:italic 15px Georgia,serif;color:var(--gold2);text-align:center;max-width:420px}
+
+
+
+/*LIGHT-START*/
+html.light{--bg:#f4efe2;--bg2:#fffcf4;--panel:#ffffff;--line:#d9cfb6;--txt:#1d1a14;--mut:#5b6270;--gold:#a47b12;--gold2:#7c5a08;--cy:#0a6f93;--red:#b8322a;--grn:#17783f;--amb:#9a6200;color-scheme:light}
+html.light,html.light body{background:radial-gradient(1200px 600px at 50% -200px,#fff6dc 0%,var(--bg) 60%) fixed}
+html.light .btn.gold{background:linear-gradient(90deg,#e6bf55,#f5da8a);color:#2b1f00}
+html.light .brand h1{background:linear-gradient(90deg,#8a6208,#b8891c);-webkit-background-clip:text;background-clip:text}
+html.light img.logo{filter:drop-shadow(0 1px 2px #0002)}
+html.light .hoOrb span{color:#fff}html.light .hoOrb small{color:#eaf7ff}
+html.light .hoOrb{background:radial-gradient(circle at 35% 35%,#9fe0ff,#4b3fae 60%,#2a2f5a);box-shadow:0 0 40px #0a6f9340}
+html.light .hoBrasao{background:radial-gradient(#fff7df,#efe3c2)}
+html.light .hoCenter{background:radial-gradient(#fffaf0,#f1e7cf)}
+html.light .hoHero{background:linear-gradient(135deg,#fbf3df,#eef6fb)}
+html.light ::selection{background:#f5da8a}
+html.light header{background:rgba(255,251,240,.94)}
+html.light .bar{background:rgba(255,251,240,.97)}
+html.light #hlBar{background:rgba(255,251,240,.98)}
+html,html.light body{background:radial-gradient(1200px 600px at 50% -200px,#f3f6f9 0%,var(--bg) 60%) fixed}
+html.light .hubNote{background:#f3f6fa;border:1px solid #edf3f7}
+html.light #ponteBox textarea{background:#f8f9fa}
+html.light .sync.ok{border-color:#e9f7ee}
+html.light .sync.busy{border-color:#f8f2e6}
+html.light .sync.err{border-color:#f5e6e6}
+html.light .mini{background:#f3f5f8}
+html.light .btn{background:#f3f5f8}
+html.light .btn.cy{background:#f0f8fb}
+html.light .btn.danger{border-color:#f5e9e9;color:#990000}
+html.light input[type=text],html.light input[type=number],html.light input[type=search],html.light input[type=password],html.light select,html.light textarea{background:#f7f9fb}
+html.light .xpTrack{background:#f3f5f8}
+html.light .simRow select,html.light #qzTema,html.light #mcTema{background:#f8f9fb}
+html.light .qzAlt{background:#f5f7fa}
+html.light .qzAlt b{background:#f2f4f7}
+html.light .qzAlt.ok{border-color:#16833c;background:#f5faf7}
+html.light .qzAlt.ok b{background:#16833c;color:#f8fcfa}
+html.light .qzAlt.bad{border-color:#990000;background:#faf4f5}
+html.light .qzAlt.bad b{background:#990000;color:#fcf7f7}
+html.light .qzRes.ok{color:#16833c}
+html.light .qzRes.bad{color:#990000}
+html.light .qzExp{background:#f6f8fa}
+html.light .mnCard{background:radial-gradient(120% 90% at 100% 0%,#faf7f155,transparent),var(--bg2)}
+html.light .mnCard.dom{border-color:#ecf4f0}
+html.light .mnOrig.c{border-color:#f8f4e9}
+html.light .mnTab td{border-bottom:1px solid #f3f5f8}
+html.light .mnTip{border-left:4px solid #996400;background:#fcfbf7;color:#996700}
+html.light .mnCtx{border-left:4px solid #007499;background:#f6f9fb;color:#1a5f7f}
+html.light .mnCtx b{color:#007499}
+html.light .mcCard{background:radial-gradient(120% 90% at 0% 0%,#f0f7fa66,transparent),var(--bg2)}
+html.light .mcCard.lida{border-color:#ecf4f0}
+html.light .mcHook{background:#f6f8fa}
+html.light /* 📱 modelo celular */
+html.lay-mobile body{background:#fafbfc}
+html.light.lay-mobile main{background:var(--bg,#f8f9fb)}
+html.light .domBar{background:#f3f5f8}
+html.light .chk.on{color:#16833c}
+html.light .qzWhy div{background:#f5f7fa}
+html.light .qzWhy div.ok{background:#f5faf7}
+html.light .qzPega{background:#faf8f4;border:1px solid #f7f3e9}
+html.light .jrRank tr.me td{background:#f0f7fa66}
+html.light .ach{background:#f7f8fa}
+html.light .ach.on{border-color:#f7f3e9;background:linear-gradient(135deg,#faf8f466,#f7f8fa)}
+html.light .achTx .achD{color:#16833c}
+html{background:#f8f9fb}
+html.light .mbTrack{background:#f3f5f8}
+html.light .metaBox{background:#f6f8fa}
+html.light .metaRow input{background:#f8f9fb}
+html.light .drop.hov{background:#faf9f7}
+html.light .toast{background:#f2f4f7;box-shadow:0 8px 30px #fbfbfb88}
+html.light #hlBar{border:1px solid var(--gold,#a68824);box-shadow:0 10px 34px #fbfbfbaa}
+html.light #hlBar button{border:1px solid #fbfbfb66}
+html.light #hlY{background:#977f02;color:#f9f9f9}
+html.light #hlG{background:#12873c;color:#f9f9f9}
+html.light #hlDel{background:#f9f4f5;color:#940505;border-color:#f8e5e5!important}
+html.light #hlX{background:#f2f4f7;color:#292929}
+html.light .g1{border-color:#f5e6e6!important}
+html.light .g2{border-color:#f8f2e6!important}
+html.light .g3{border-color:#e9f7ee!important}
+html.light .g4{border-color:#e9f5f8!important}
+html.light .pill{background:#f2f5f8}
+html.light pre.prompt{background:#f7f9fb}
+html.light .progress{background:#f3f5f8}
+html.light /* 🕊️ Honra */
+.mnOrig.u{border-color:#e3ebf2;color:#005799}
+html.light .hoNtCall{background:linear-gradient(135deg,#f3f4fa,#f7f8fa);border-color:#edeaf4}
+html.light .hoTimer{background:#f3f5f8}
+html.light .hoCard{background:radial-gradient(120% 90% at 100% 0%,#f1eff755,transparent),var(--bg2)}
+html.light .hoAp{background:#f4fbf9;border:1px solid #ecf4f0}
+html.light .hoHero{background:linear-gradient(135deg,#f4f3fa,#f5f8fb);border:1px solid #edeaf4}
+html.light .hoBrasao{background:radial-gradient(#f2f0f7,#f7f8fa);box-shadow:0 0 18px #a6882440}
+html.light .hoComp{border:1px solid #edeaf4}
+html.light .hoAl{background:#faf1f2;color:#990000}
+html.light .hoDir{background:#f5f7fa}
+html.light .hoCenter{background:radial-gradient(#f3f1f8,#f8f9fb)}
+html.light .hoRefB{border:1px solid #f8f4e9}
+html.light .hoVer.g{background:#f4fbf7}
+html.light .hoVer.y{background:#faf8f3}
+html.light .hoVer.r{background:#faf1f2}
+html.light .hoOrb{background:radial-gradient(circle at 35% 35%,#006299,#e5e2f4 60%,#f6f7f9);box-shadow:0 0 40px #00749955,inset 0 0 30px #29292922}
+html.light .hoOrb span{text-shadow:0 1px 4px #fbfbfb}
+html.light .hoOrb small{color:#006299}
+/*LIGHT-END*/
 </style>
 </head>
 <body>
@@ -170,6 +319,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <img src="icon.svg" alt="" aria-hidden="true" class="logo">
   <div class="grow"><h1>CÓDICE 360X</h1><small>Flashcards · TEMI · R3 Clínica Médica</small></div>
   <div id="xpBadge" class="xpBadge"></div>
+  <button class="btn sm" id="themeBtn" title="Versão clara" aria-label="Alternar tema claro/escuro">☀️</button>
   <button class="btn sm" id="layBtn" title="Alternar visualização celular/desktop">🔄 Auto</button>
   <span id="sync" class="sync" title="Status da sincronização">💾 Local</span>
  </div>
@@ -179,6 +329,7 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
   <a href="#questoes" data-v="questoes">❓ Questões</a>
   <a href="#micro" data-v="micro">💊 Micro</a>
   <a href="#mnemonicos" data-v="mnemonicos">🧠 Mnemônicos</a>
+  <a href="#honra" data-v="honra">🕊️ Honra</a>
   <a href="#jornada" data-v="jornada">🏆 Jornada</a>
   <a href="#buscar" data-v="buscar">🔎 Buscar</a>
   <a href="#importar" data-v="importar">📥 Importar</a>
@@ -232,6 +383,9 @@ details summary{cursor:pointer;color:var(--gold2);font-weight:600}
 
 <!-- MNEMÔNICOS -->
 <section class="view" id="v-mnemonicos"><div id="mnHost"></div></section>
+
+<!-- 🕊️ HONRA -->
+<section class="view" id="v-honra"><div id="hoHost"></div></section>
 
 <!-- JORNADA -->
 <section class="view" id="v-jornada"><div id="jrHost"></div></section>
