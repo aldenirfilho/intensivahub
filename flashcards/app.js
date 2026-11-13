@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.8.0";
+const APP_VERSION = "4.9.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -1191,6 +1191,66 @@ const MC = { div: lsGet("mcDiv") || "temi", tema: "", data: null, i: 0, t0: 0,
   } };
 
 
+/* ---------------- 🖼️ Cartões-imagem de mnemônicos (canvas 1080×1920, funciona sem internet) ----------------
+   Usado nas abas 🧠 Mnemônicos e 🕊️ Honra: botão 🖼️ em cada card e "Cartões dos ⭐ favoritos".
+   Topo livre (≈300 px) para o relógio da tela de bloqueio do iPhone. */
+const CARDIMG = {
+  W: 1080, H: 1920,
+  rr(x, a, b, w, h, r) { x.beginPath(); x.moveTo(a + r, b); x.arcTo(a + w, b, a + w, b + h, r); x.arcTo(a + w, b + h, a, b + h, r); x.arcTo(a, b + h, a, b, r); x.arcTo(a, b, a + w, b, r); x.closePath(); },
+  wrap(x, t, maxW) { const ws = String(t || "").split(/\s+/), L = []; let l = ""; for (const w of ws) { const k = l ? l + " " + w : w; if (x.measureText(k).width > maxW && l) { L.push(l); l = w; } else l = k; } if (l) L.push(l); return L; },
+  layout(x, m, s, draw, y0) {
+    const W = this.W, F = (wt, px, fam) => `${wt} ${Math.round(px * s)}px ${fam}`, SANS = "Inter, -apple-system, 'Segoe UI', Roboto, sans-serif", SER = "Georgia, 'Times New Roman', serif";
+    let y = y0 || 330;
+    x.textAlign = "center"; x.font = F(600, 28, SANS); x.fillStyle = "#9aa4b2"; if (draw) x.fillText(String(m.tema || ""), W / 2, y); y += 70 * s;
+    x.font = F(700, 48, SER); x.fillStyle = "#f3d77a";
+    for (const l of this.wrap(x, m.t, 880)) { if (draw) x.fillText(l, W / 2, y); y += 60 * s; }
+    let sz = 120 * Math.min(s, 1.2); x.font = `700 ${sz}px ${SER}`; while (x.measureText(m.m).width > 900 && sz > 44) { sz -= 4; x.font = `700 ${sz}px ${SER}`; }
+    y += sz * 0.95; x.fillStyle = "#d4af37"; if (draw) x.fillText(m.m, W / 2, y); y += 80 * s;
+    x.textAlign = "left"; x.font = F(700, 38, SANS);
+    const labW = Math.min(300 * s, Math.max(...m.k.map(k => x.measureText(String(k[0])).width)) + 10), X0 = 110, X1 = X0 + labW + 24, maxT = W - 110 - X1;
+    for (const [lab, txt] of m.k) {
+      x.font = F(700, 38, SANS); x.fillStyle = "#4dd4ff"; if (draw) x.fillText(String(lab), X0, y);
+      x.font = F(400, 34, SANS); x.fillStyle = "#ece9e1";
+      const ls = this.wrap(x, txt, maxT); ls.forEach((l, i) => { if (draw) x.fillText(l, X1, y + i * 44 * s); }); y += Math.max(1, ls.length) * 44 * s + 18 * s;
+    }
+    if (m.x) {
+      x.font = F(600, 30, SANS); const ls = this.wrap(x, "🎯 " + m.x, W - 300), h = ls.length * 40 * s + 50 * s; y += 10 * s;
+      if (draw) { x.fillStyle = "rgba(255,193,77,.12)"; x.strokeStyle = "rgba(255,193,77,.6)"; x.lineWidth = 2; this.rr(x, 110, y - 34 * s, W - 220, h, 20); x.fill(); x.stroke(); x.fillStyle = "#ffd98a"; ls.forEach((l, i) => x.fillText(l, 140, y + i * 40 * s)); }
+      y += h;
+    }
+    return y;
+  },
+  draw(m) {
+    const W = this.W, H = this.H, c = document.createElement("canvas"); c.width = W; c.height = H; const x = c.getContext("2d");
+    x.fillStyle = "#0b0e13"; x.fillRect(0, 0, W, H);
+    const g = x.createRadialGradient(W / 2, 0, 40, W / 2, 0, 1150); g.addColorStop(0, "#2a2140"); g.addColorStop(1, "rgba(11,14,19,0)"); x.fillStyle = g; x.fillRect(0, 0, W, H);
+    x.strokeStyle = "#d4af37"; x.lineWidth = 4; this.rr(x, 34, 34, W - 68, H - 68, 46); x.stroke();
+    x.strokeStyle = "rgba(212,175,55,.35)"; x.lineWidth = 2; this.rr(x, 48, 48, W - 96, H - 96, 38); x.stroke();
+    x.textAlign = "center"; x.fillStyle = "#f3d77a"; x.font = "700 26px Georgia, serif"; x.fillText("⚜  CÓDICE 360X · MNEMÔNICO  ⚜", W / 2, 110);
+    let s = 1.45; while (s > 0.55 && this.layout(x, m, s, false) > H - 190) s -= 0.05;
+    const free = (H - 190) - this.layout(x, m, s, false);   // centraliza o bloco abaixo da faixa do relógio
+    this.layout(x, m, s, true, 330 + Math.max(0, free * 0.45));
+    x.textAlign = "center"; x.font = "500 24px Inter, sans-serif"; x.fillStyle = "#9aa4b2";
+    x.fillText((m.o === "c" ? "🏛️ Clássico" : m.o === "u" ? "✍️ Meu" : "⚒️ 360X") + " · treine no CÓDICE 360X", W / 2, H - 100);
+    return c;
+  },
+  slug: t => String(t || "cartao").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^A-Za-z0-9]+/g, "_").slice(0, 40),
+  show(list, titulo) {
+    list = (list || []).filter(Boolean);
+    if (!list.length) return toast("⭐ Nenhum favorito neste filtro — toque na ☆ de um mnemônico primeiro.");
+    const max = 40, ov = document.createElement("div"); ov.className = "ciOv";
+    ov.innerHTML = `<div class="ciBox"><div class="ciTop"><b>🖼️ ${esc(titulo || "Cartão-imagem")} · ${Math.min(list.length, max)}${list.length > max ? ` de ${list.length}` : ""}</b><button class="btn sm" id="ciX">✖️ Fechar</button></div>
+      <p class="metaNow">📱 iPhone: toque e segure a imagem → “Salvar na Fotos” (serve de tela de bloqueio). 💻 Computador: ⬇️ Baixar.</p><div class="ciGrid"></div></div>`;
+    document.body.appendChild(ov);
+    const grid = ov.querySelector(".ciGrid"), close = () => ov.remove();
+    ov.querySelector("#ciX").onclick = close; ov.onclick = e => { if (e.target === ov) close(); };
+    list.slice(0, max).forEach((m, i) => setTimeout(() => {
+      const url = this.draw(m).toDataURL("image/jpeg", 0.9), f = document.createElement("figure");
+      f.innerHTML = `<img src="${url}" alt="${esc(m.t)}"><figcaption>${esc(m.m)}</figcaption><a class="btn sm" download="Mnemonico_360X_${this.slug(m.m)}.jpg" href="${url}">⬇️ Baixar</a>`;
+      grid.appendChild(f);
+    }, i * 30));
+  } };
+
 /* ---------------- Mnemônicos (TEMI / R3) ----------------
    Progresso em S.logs._n: { id: { n: treinos, ok: acertos, s: acertos seguidos, t: último treino, f: favoritou em, u: desfavoritou em } }
    Dominado = 2 acertos seguidos. Sincroniza junto com os registros (nuvem do Claude, Gist e Ponte). */
@@ -1220,7 +1280,7 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
   orig(m) { return `<span class="mnOrig ${m.o}" title="${m.o === "c" ? "Mnemônico, tríade, regra ou critério consagrado na literatura" : "Sigla criada no CÓDICE 360X para memorizar o conteúdo"}">${m.o === "c" ? "🏛️ Clássico" : "⚒️ 360X"}</span>`; },
   foot(m) { const e = this.st(m.id); return e.n ? `<div class="mnFoot">${this.dom(m.id) ? "✅ Dominado" : "🎯 Em treino"} · ${e.n} treino(s), ${e.ok || 0} acerto(s)</div>` : ""; },
   card(m) {
-    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnFav" data-fav="${m.id}" title="Favoritar" aria-label="Favoritar">${this.fav(m.id) ? "⭐" : "☆"}</button></span></div>
+    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnImg" data-img="${m.id}" title="Gerar cartão-imagem" aria-label="Gerar cartão-imagem">🖼️</button><button class="mnFav" data-fav="${m.id}" title="Favoritar" aria-label="Favoritar">${this.fav(m.id) ? "⭐" : "☆"}</button></span></div>
       <div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m)}${this.foot(m)}</div>`;
   },
   head() {
@@ -1228,7 +1288,7 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
     const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"], ["c", "🏛️ Clássicos"], ["o", "⚒️ Criados no 360X"]];
     return `<div class="divTabs">${Object.entries(DIVS).map(([k, v]) => `<button class="btn ${k === this.div ? "gold" : ""}" data-div="${k}">${v}</button>`).join("")}</div>
      <div class="metaRow"><button class="btn ${this.mode === "lista" ? "cy" : ""}" data-mode="lista">📖 Consultar</button><button class="btn ${this.mode === "treino" ? "cy" : ""}" data-mode="treino">🎲 Treinar</button>
-      <span class="metaNow">🧠 Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span></div>
+      <span class="metaNow">🧠 Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span><button class="btn sm" id="mnFavImg" title="Cartões-imagem dos favoritos desta divisão">🖼️ Cartões dos ⭐</button></div>
      <div class="progress"><i style="width:${all.length ? 100 * nDom / all.length : 0}%"></i></div>
      <div class="mnBar"><select id="mnTema"><option value="">Todos os temas (${all.length})</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""} value="${esc(t)}">${esc(t)} (${all.filter(x => x.tema === t).length})</option>`).join("")}</select>
       <select id="mnFilt">${F.map(([v, l]) => `<option value="${v}" ${v === this.filt ? "selected" : ""}>${l}</option>`).join("")}</select>
@@ -1288,6 +1348,8 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
     if (show) show.onclick = () => { this.shown = true; this.render(); };
     $$("[data-g]", host).forEach(b => b.onclick = () => this.answer(+b.dataset.g));
     $$("[data-fav]", host).forEach(b => b.onclick = () => this.toggleFav(b.dataset.fav, b));
+    $$("[data-img]", host).forEach(b => b.onclick = () => CARDIMG.show([this.all().find(m => m.id === b.dataset.img)]));
+    const fi = $("#mnFavImg", host); if (fi) fi.onclick = () => CARDIMG.show(this.all().filter(m => this.fav(m.id)), "Favoritos " + DIVS[this.div]);
   },
   key(e) {
     if (this.mode !== "treino" || !this.cur) return;
@@ -1335,7 +1397,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
       <div class="mnTit">${esc(c.q)}</div>${this.back(c)}${this.foot(c.id)}</div>`;
   },
   cardM(m) {
-    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}${this.favBtn(m.id)}</span></div>
+    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnImg" data-img="${m.id}" title="Gerar cartão-imagem" aria-label="Gerar cartão-imagem">🖼️</button>${this.favBtn(m.id)}</span></div>
       <div class="mnTit">${esc(m.t)}</div>${MN.sig(m)}${MN.body(m)}${this.foot(m.id)}</div>`;
   },
   orig(m) { return m.o === "u" ? `<span class="mnOrig u" title="Criado por você">✍️ Meu</span>` : MN.orig(m);
@@ -1346,7 +1408,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
     const temas = D.temas.concat(all.map(x => x.tema).filter(t => !D.temas.includes(t))).filter((t, i, a) => a.indexOf(t) === i && all.some(x => x.tema === t));
     const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"]].concat(mnK ? [["c", "🏛️ Clássicos das tradições"], ["o", "⚒️ Criados no 360X"], ["u", "✍️ Meus"]] : []);
     return `<div class="metaRow"><button class="btn ${this.mode === "lista" ? "cy" : ""}" data-mode="lista">📖 Consultar</button><button class="btn ${this.mode === "treino" ? "cy" : ""}" data-mode="treino">🎲 Treinar</button>
-      <span class="metaNow">🕊️ Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span></div>
+      <span class="metaNow">🕊️ Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span>${mnK ? `<button class="btn sm" id="hoFavImg" title="Cartões-imagem dos mnemônicos favoritos">🖼️ Cartões dos ⭐</button>` : ""}</div>
      <div class="progress"><i style="width:${all.length ? 100 * nDom / all.length : 0}%"></i></div>
      <div class="mnBar">${mnK ? "" : `<select id="hoTr"><option value="">Todas as tradições (${all.length})</option>${Object.entries(D.trads).map(([k, t]) => `<option value="${k}" ${k === this.tr ? "selected" : ""}>${t.e} ${esc(t.n)} (${all.filter(x => x.tr === k).length})</option>`).join("")}</select>`}
       <select id="hoTema"><option value="">Todos os temas</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""} value="${esc(t)}">${esc(t)} (${all.filter(x => x.tema === t).length})</option>`).join("")}</select>
@@ -1408,7 +1470,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
       <div class="panel hoPanel"><h3 style="margin-top:0">📊 Seu caminho</h3>
        <div class="hoStat"><b>${nDomC}</b><span>cards dominados de ${D.cards.length}</span></div><div class="hoStat"><b>${nDomM}</b><span>mnemônicos dominados de ${this.mnAll().length}</span></div>
        <div class="hoStat"><b>${L.hb || 0}</b><span>respirações guiadas hoje</span></div><div class="hoStat"><b>${(L.hf || 0) + (L.hbu || 0)}</b><span>bússolas e filtros usados hoje</span></div></div></div>
-     <p class="foot">🛡️ Conteúdo de reflexão e formação de caráter, com respeito a cada tradição; os textos são paráfrases com referência para conferir no original. 📖 Numeração: Bíblia e Salmos como na Almeida (hebraica; Bíblias católicas numeram vários Salmos com 1 a menos) · Alcorão na numeração padrão de Kufa (a da tradução de Helmi Nasr) · Analectos: número moderno (ctext) e, entre parênteses, o de James Legge. Não substitui orientação religiosa, psicológica, médica ou jurídica. Em sofrimento intenso: <b>CVV 188</b> (24 h) · <b>SAMU 192</b>.</p>`;
+     <p class="foot">🛡️ Conteúdo de reflexão e formação de caráter, com respeito a cada tradição; os textos são paráfrases com referência para conferir no original. 📖 Numeração: Bíblia e Salmos como na Almeida (hebraica; Bíblias católicas numeram vários Salmos com 1 a menos) · Alcorão na numeração padrão de Kufa (a da tradução de Helmi Nasr) · Analectos: número moderno (ctext) e, entre parênteses, o de James Legge. ✅ <b>352/352 referências conferidas</b> (13/11/2026) contra Almeida ACF, Helmi Nasr, Livro de Mórmon/D&amp;C, Sefaria (Avot, Talmud, Mishná), SuttaCentral e o texto chinês dos Analectos; 3 refs afinadas. Não substitui orientação religiosa, psicológica, médica ou jurídica. Em sofrimento intenso: <b>CVV 188</b> (24 h) · <b>SAMU 192</b>.</p>`;
   },
   bussola() {
     const D = this.data, BU = this.buAll(), b = BU.find(x => x.id === this.bu);
@@ -1497,6 +1559,8 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
     $$("[data-g]", host).forEach(b => b.onclick = () => this.answer(+b.dataset.g));
     $$("[data-fav]", host).forEach(b => b.onclick = () => this.toggleFav(b.dataset.fav, b));
     $$("[data-bu]", host).forEach(b => b.onclick = () => { this.bu = b.dataset.bu; this.go("bussola"); });
+    $$("[data-img]", host).forEach(b => b.onclick = () => CARDIMG.show([this.mnAll().find(m => m.id === b.dataset.img)]));
+    const fi = $h("#hoFavImg"); if (fi) fi.onclick = () => CARDIMG.show(this.mnAll().filter(m => this.fav(m.id)), "Favoritos da Honra");
     $$("[data-ref]", host).forEach(b => b.onclick = () => { this.q = b.dataset.ref; this.tr = ""; this.tema = ""; this.filt = ""; this.mode = "lista"; this.go("cards"); });
     const bo = $h("#hoBuOk"); if (bo) bo.onclick = () => { const L = L0(), ids = (L.hbuL || "").split(",").filter(Boolean); if (ids.includes(this.bu)) return; ids.push(this.bu); L.hbuL = ids.join(","); L.hbu = ids.length; addXP(2, "bússola", "h"); saveLog(); this.render(); };
     const m1 = $h("#hoMsg"), m2 = $h("#hoMsg2"), C = this.data.cards;
@@ -1582,7 +1646,10 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
       <p class="metaNow">Uma sequência curta para fechar o dia em paz. Avance no seu ritmo; a barra só sugere o tempo.</p>
       <ol class="hoNtList">${this.NT.map(([e, t, s]) => `<li>${e} <b>${t}</b> <small>· ${s >= 60 ? s / 60 + " min" : s + " s"}</small></li>`).join("")}</ol>
       ${L.hn ? `<p class="chk on">✅ Você já fez o Modo Noite hoje — pode repetir quando quiser.</p>` : ""}
-      <button class="btn gold" id="ntGo">▶️ Começar</button></div>`;
+      <button class="btn gold" id="ntGo">▶️ Começar</button>
+      <div class="hoRem"><b>🔔 Lembrete diário no Calendário</b><span class="metaNow">Cria um evento que se repete todo dia, com alarme, no app Calendário do celular. Nada roda em segundo plano; para parar, apague o evento.</span>
+       <div class="metaRow" style="justify-content:center"><input type="time" id="ntTime" value="${esc(lsGet("ntTime") || "03:30")}" aria-label="Horário do lembrete"><button class="btn" id="ntIcs">📅 Baixar lembrete (.ics)</button></div>
+       <span class="metaNow">Se o download não abrir aqui, use no iPhone o <a href="${this.GH}downloads/Lembrete_Modo_Noite_360X_0330.ics" target="_blank" rel="noopener">📎 lembrete pronto (03:30)</a>, no app do GitHub Pages.</span></div></div>`;
     const [e, tit, sec] = this.NT[N.i], dots = this.NT.map((x, i) => `<span class="${i < N.i ? "ok" : i === N.i ? "on" : ""}">${x[0]}</span>`).join("");
     let body = "";
     if (N.i === 0) body = `<div class="hoBreath"><div class="hoOrb" id="hoOrb"><span id="hoPh">${this.br ? "" : "Pronto"}</span><small id="hoCt"></small></div><div class="hoAnc" id="hoAnc">${esc(this.ANCORAS[this.dayIdx(this.ANCORAS.length)])}</div></div>
@@ -1598,11 +1665,23 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
       <div class="metaRow" style="justify-content:space-between"><button class="btn" id="ntBack" ${N.i ? "" : "disabled"}>◀ Voltar</button>
       ${N.i < this.NT.length - 1 ? `<button class="btn gold" id="ntNext">Próximo ▶</button>` : `<button class="btn gold" id="ntEnd">✅ Concluir (+5 XP)</button>`}</div></div>`;
   },
+  GH: "https://aldenirfilho.github.io/intensivahub/flashcards/",
+  ics(hhmm) {
+    const [h, mi] = String(hhmm || "03:30").split(":").map(Number), p = n => String(n).padStart(2, "0"), d = new Date(); d.setHours(h || 0, mi || 0, 0, 0); if (d < new Date()) d.setDate(d.getDate() + 1);
+    const f = x => `${x.getFullYear()}${p(x.getMonth() + 1)}${p(x.getDate())}T${p(x.getHours())}${p(x.getMinutes())}00`, now = new Date(), e = new Date(d.getTime() + 5 * 60000), url = this.GH + "#honra";
+    const z = `${now.getUTCFullYear()}${p(now.getUTCMonth() + 1)}${p(now.getUTCDate())}T${p(now.getUTCHours())}${p(now.getUTCMinutes())}00Z`, q = t => t.replace(/([,;\\])/g, "\\$1");
+    return ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//CODICE 360X//Modo Noite//PT-BR", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "BEGIN:VEVENT", `UID:modo-noite-360x-${p(h)}${p(mi)}@codice360x`, `DTSTAMP:${z}`, `DTSTART:${f(d)}`, `DTEND:${f(e)}`, "RRULE:FREQ=DAILY",
+      "SUMMARY:🌙 Modo Noite 360X · 5 min", `DESCRIPTION:${q("Respiração 4-6 → exame da noite → mensagem → gratidão → bênção. Abra: " + url)}`, `URL:${url}`,
+      "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🌙 Hora do Modo Noite (5 min)", "TRIGGER:PT0M", "END:VALARM", "END:VEVENT", "END:VCALENDAR"].join("\r\n") + "\r\n";
+  },
   ntSave() { const g = $("#ntG"), i = $("#ntI"); if (g || i) { const L = L0(); L.hg = (g ? g.value : "") + "||" + (i ? i.value : ""); saveLog(); } },
   bindNoite(host) {
     if (this.sub !== "noite") return;
     const go = $("#ntGo", host), nx = $("#ntNext", host), bk = $("#ntBack", host), en = $("#ntEnd", host), br = $("#ntBr", host);
     if (go) go.onclick = () => { this.nt = { i: 0, k: Date.now() }; this.render(); };
+    const ic = $("#ntIcs", host), tm = $("#ntTime", host);
+    if (tm) tm.onchange = () => lsSet("ntTime", tm.value);
+    if (ic) ic.onclick = () => { const t = (tm && tm.value) || "03:30"; lsSet("ntTime", t); const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([this.ics(t)], { type: "text/calendar" })); a.download = `Lembrete_Modo_Noite_360X_${t.replace(":", "")}.ics`; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500); toast("📅 Abra o arquivo e toque em “Adicionar ao Calendário”."); };
     if (br) br.onclick = () => this.brStart("calma", 9, () => { this.nt.i = 1; this.nt.k = Date.now(); this.render(); });
     if (nx) nx.onclick = () => { if (this.br) this.brStop(); this.ntSave(); this.nt.i++; this.nt.k = Date.now(); this.render(); };
     if (bk) bk.onclick = () => { if (this.br) this.brStop(); this.ntSave(); this.nt.i = Math.max(0, this.nt.i - 1); this.nt.k = Date.now(); this.render(); };

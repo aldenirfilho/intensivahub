@@ -1,0 +1,110 @@
+[
+ {
+  "id": "MT301",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🫁",
+  "titulo": "SDRA se trata com suporte",
+  "texto": "Ventilação protetora e cuidados de suporte enquanto se trata o gatilho. Nenhum fármaco específico é rotina.",
+  "gancho": "Suporte + gatilho.",
+  "comentario": "Entre os anti-inflamatórios, só os glicocorticoides têm dados favoráveis."
+ },
+ {
+  "id": "MT302",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🛡️",
+  "titulo": "Prevenir SDRA: nada provado",
+  "texto": "Nenhuma terapia preventiva estudada mostrou eficácia até agora.",
+  "gancho": "Prevenção = zero comprovado.",
+  "comentario": "Em teste: budesonida + formoterol inalados e sivelestat no pós-operatório cardiovascular."
+ },
+ {
+  "id": "MT303",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "💊",
+  "titulo": "LIPS-A",
+  "texto": "Aspirina 325 mg e depois 81 mg/dia por 7 dias × placebo em 390 pacientes de risco: SDRA ~10% nos dois grupos.",
+  "gancho": "Aspirina não previne SDRA.",
+  "comentario": "Incidência abaixo da prevista tirou poder do estudo."
+ },
+ {
+  "id": "MT304",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🔪",
+  "titulo": "Sivelestat no pós-op CV",
+  "texto": "ECR na China (n=424): SDRA 16,8% × 31,2%. Ainda não é rotina.",
+  "gancho": "Basal alta infla o efeito.",
+  "comentario": "A incidência basal de SDRA foi maior que a esperada."
+ },
+ {
+  "id": "MT305",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🧬",
+  "titulo": "GM-CSF",
+  "texto": "IV por 14 dias: mortalidade 17% × 23% (NS). Metanálise sem efeito. Inalado melhora oxigenação em grupo pequeno.",
+  "gancho": "Promete reparo, não salva vidas (ainda).",
+  "comentario": "Dias livres de falência orgânica 15,7 × 12,8."
+ },
+ {
+  "id": "MT306",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🧫",
+  "titulo": "Células mesenquimais",
+  "texto": "Fase I segura (↓ SP-D). Fase II: dias livres de VM 20 × 11 e mortalidade 21% × 29%, sem significância. Em COVID, sem efeito.",
+  "gancho": "Segura, mas sem benefício provado.",
+  "comentario": "Análises de biomarcadores sugerem subgrupos que respondem."
+ },
+ {
+  "id": "MT307",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🇯🇵",
+  "titulo": "Sivelestat no Japão",
+  "texto": "Usado como terapia; banco de dados com mortalidade em 3 meses RR 0,83. Ao mesmo tempo, inibidores da elastase constam como ineficazes.",
+  "gancho": "Dado conflitante: não é padrão.",
+  "comentario": "ECR em SDRA com sepse em andamento."
+ },
+ {
+  "id": "MT308",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "💊",
+  "titulo": "Macrolídeo na SDRA",
+  "texto": "Coorte do LARMA: mortalidade em 180 dias 23% × 36%; HR ajustado 0,46. Só observacional.",
+  "gancho": "Coorte não é ECR.",
+  "comentario": "O grupo tratado recebeu menos ventilação com volume corrente baixo (confundimento)."
+ },
+ {
+  "id": "MT309",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🫁",
+  "titulo": "Transplante de resgate",
+  "texto": "Séries pequenas: sobrevida 89% × 20% (Coreia) e 69,2% em 3 anos (n=39). Critérios indefinidos.",
+  "gancho": "Resgate experimental.",
+  "comentario": "A série coreana tinha sobretudo lesão inalatória por desinfetante."
+ },
+ {
+  "id": "MT310",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🪦",
+  "titulo": "Cemitério da SDRA",
+  "texto": "Antioxidantes, PGE1, ibuprofeno, cetoconazol, estatinas, proteína C ativada, surfactante, β2 de curta, KGF, interferon-β e inibidores da elastase.",
+  "gancho": "PISCA · BEKI · E · A.",
+  "comentario": "Todas pareciam promissoras no início."
+ },
+ {
+  "id": "MT311",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "🐟",
+  "titulo": "Ômega-3 na dieta",
+  "texto": "Suplementar a nutrição enteral com ômega-3 ou antioxidantes não traz benefício e pode causar dano.",
+  "gancho": "Dieta não trata SDRA.",
+  "comentario": "Vitamina D em deficientes também não mudou mortalidade nem incidência de SDRA."
+ },
+ {
+  "id": "MT312",
+  "tema": "SDRA: terapias experimentais",
+  "emoji": "📐",
+  "titulo": "Leitura crítica B · B · C",
+  "texto": "Baixa incidência derruba poder; basal alta infla o efeito; confundimento cria benefício em coorte.",
+  "gancho": "B · B · C.",
+  "comentario": "Exemplos: LIPS-A, sivelestat pós-op e macrolídeos."
+ }
+]

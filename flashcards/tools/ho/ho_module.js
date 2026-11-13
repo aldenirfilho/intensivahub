@@ -39,7 +39,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
       <div class="mnTit">${esc(c.q)}</div>${this.back(c)}${this.foot(c.id)}</div>`;
   },
   cardM(m) {
-    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}${this.favBtn(m.id)}</span></div>
+    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnImg" data-img="${m.id}" title="Gerar cartão-imagem" aria-label="Gerar cartão-imagem">🖼️</button>${this.favBtn(m.id)}</span></div>
       <div class="mnTit">${esc(m.t)}</div>${MN.sig(m)}${MN.body(m)}${this.foot(m.id)}</div>`;
   },
   orig(m) { return m.o === "u" ? `<span class="mnOrig u" title="Criado por você">✍️ Meu</span>` : MN.orig(m);
@@ -50,7 +50,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
     const temas = D.temas.concat(all.map(x => x.tema).filter(t => !D.temas.includes(t))).filter((t, i, a) => a.indexOf(t) === i && all.some(x => x.tema === t));
     const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"]].concat(mnK ? [["c", "🏛️ Clássicos das tradições"], ["o", "⚒️ Criados no 360X"], ["u", "✍️ Meus"]] : []);
     return `<div class="metaRow"><button class="btn ${this.mode === "lista" ? "cy" : ""}" data-mode="lista">📖 Consultar</button><button class="btn ${this.mode === "treino" ? "cy" : ""}" data-mode="treino">🎲 Treinar</button>
-      <span class="metaNow">🕊️ Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span></div>
+      <span class="metaNow">🕊️ Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span>${mnK ? `<button class="btn sm" id="hoFavImg" title="Cartões-imagem dos mnemônicos favoritos">🖼️ Cartões dos ⭐</button>` : ""}</div>
      <div class="progress"><i style="width:${all.length ? 100 * nDom / all.length : 0}%"></i></div>
      <div class="mnBar">${mnK ? "" : `<select id="hoTr"><option value="">Todas as tradições (${all.length})</option>${Object.entries(D.trads).map(([k, t]) => `<option value="${k}" ${k === this.tr ? "selected" : ""}>${t.e} ${esc(t.n)} (${all.filter(x => x.tr === k).length})</option>`).join("")}</select>`}
       <select id="hoTema"><option value="">Todos os temas</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""} value="${esc(t)}">${esc(t)} (${all.filter(x => x.tema === t).length})</option>`).join("")}</select>
@@ -112,7 +112,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
       <div class="panel hoPanel"><h3 style="margin-top:0">📊 Seu caminho</h3>
        <div class="hoStat"><b>${nDomC}</b><span>cards dominados de ${D.cards.length}</span></div><div class="hoStat"><b>${nDomM}</b><span>mnemônicos dominados de ${this.mnAll().length}</span></div>
        <div class="hoStat"><b>${L.hb || 0}</b><span>respirações guiadas hoje</span></div><div class="hoStat"><b>${(L.hf || 0) + (L.hbu || 0)}</b><span>bússolas e filtros usados hoje</span></div></div></div>
-     <p class="foot">🛡️ Conteúdo de reflexão e formação de caráter, com respeito a cada tradição; os textos são paráfrases com referência para conferir no original. 📖 Numeração: Bíblia e Salmos como na Almeida (hebraica; Bíblias católicas numeram vários Salmos com 1 a menos) · Alcorão na numeração padrão de Kufa (a da tradução de Helmi Nasr) · Analectos: número moderno (ctext) e, entre parênteses, o de James Legge. Não substitui orientação religiosa, psicológica, médica ou jurídica. Em sofrimento intenso: <b>CVV 188</b> (24 h) · <b>SAMU 192</b>.</p>`;
+     <p class="foot">🛡️ Conteúdo de reflexão e formação de caráter, com respeito a cada tradição; os textos são paráfrases com referência para conferir no original. 📖 Numeração: Bíblia e Salmos como na Almeida (hebraica; Bíblias católicas numeram vários Salmos com 1 a menos) · Alcorão na numeração padrão de Kufa (a da tradução de Helmi Nasr) · Analectos: número moderno (ctext) e, entre parênteses, o de James Legge. ✅ <b>352/352 referências conferidas</b> (13/11/2026) contra Almeida ACF, Helmi Nasr, Livro de Mórmon/D&amp;C, Sefaria (Avot, Talmud, Mishná), SuttaCentral e o texto chinês dos Analectos; 3 refs afinadas. Não substitui orientação religiosa, psicológica, médica ou jurídica. Em sofrimento intenso: <b>CVV 188</b> (24 h) · <b>SAMU 192</b>.</p>`;
   },
   bussola() {
     const D = this.data, BU = this.buAll(), b = BU.find(x => x.id === this.bu);
@@ -201,6 +201,8 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
     $$("[data-g]", host).forEach(b => b.onclick = () => this.answer(+b.dataset.g));
     $$("[data-fav]", host).forEach(b => b.onclick = () => this.toggleFav(b.dataset.fav, b));
     $$("[data-bu]", host).forEach(b => b.onclick = () => { this.bu = b.dataset.bu; this.go("bussola"); });
+    $$("[data-img]", host).forEach(b => b.onclick = () => CARDIMG.show([this.mnAll().find(m => m.id === b.dataset.img)]));
+    const fi = $h("#hoFavImg"); if (fi) fi.onclick = () => CARDIMG.show(this.mnAll().filter(m => this.fav(m.id)), "Favoritos da Honra");
     $$("[data-ref]", host).forEach(b => b.onclick = () => { this.q = b.dataset.ref; this.tr = ""; this.tema = ""; this.filt = ""; this.mode = "lista"; this.go("cards"); });
     const bo = $h("#hoBuOk"); if (bo) bo.onclick = () => { const L = L0(), ids = (L.hbuL || "").split(",").filter(Boolean); if (ids.includes(this.bu)) return; ids.push(this.bu); L.hbuL = ids.join(","); L.hbu = ids.length; addXP(2, "bússola", "h"); saveLog(); this.render(); };
     const m1 = $h("#hoMsg"), m2 = $h("#hoMsg2"), C = this.data.cards;
@@ -286,7 +288,10 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
       <p class="metaNow">Uma sequência curta para fechar o dia em paz. Avance no seu ritmo; a barra só sugere o tempo.</p>
       <ol class="hoNtList">${this.NT.map(([e, t, s]) => `<li>${e} <b>${t}</b> <small>· ${s >= 60 ? s / 60 + " min" : s + " s"}</small></li>`).join("")}</ol>
       ${L.hn ? `<p class="chk on">✅ Você já fez o Modo Noite hoje — pode repetir quando quiser.</p>` : ""}
-      <button class="btn gold" id="ntGo">▶️ Começar</button></div>`;
+      <button class="btn gold" id="ntGo">▶️ Começar</button>
+      <div class="hoRem"><b>🔔 Lembrete diário no Calendário</b><span class="metaNow">Cria um evento que se repete todo dia, com alarme, no app Calendário do celular. Nada roda em segundo plano; para parar, apague o evento.</span>
+       <div class="metaRow" style="justify-content:center"><input type="time" id="ntTime" value="${esc(lsGet("ntTime") || "03:30")}" aria-label="Horário do lembrete"><button class="btn" id="ntIcs">📅 Baixar lembrete (.ics)</button></div>
+       <span class="metaNow">Se o download não abrir aqui, use no iPhone o <a href="${this.GH}downloads/Lembrete_Modo_Noite_360X_0330.ics" target="_blank" rel="noopener">📎 lembrete pronto (03:30)</a>, no app do GitHub Pages.</span></div></div>`;
     const [e, tit, sec] = this.NT[N.i], dots = this.NT.map((x, i) => `<span class="${i < N.i ? "ok" : i === N.i ? "on" : ""}">${x[0]}</span>`).join("");
     let body = "";
     if (N.i === 0) body = `<div class="hoBreath"><div class="hoOrb" id="hoOrb"><span id="hoPh">${this.br ? "" : "Pronto"}</span><small id="hoCt"></small></div><div class="hoAnc" id="hoAnc">${esc(this.ANCORAS[this.dayIdx(this.ANCORAS.length)])}</div></div>
@@ -302,11 +307,23 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
       <div class="metaRow" style="justify-content:space-between"><button class="btn" id="ntBack" ${N.i ? "" : "disabled"}>◀ Voltar</button>
       ${N.i < this.NT.length - 1 ? `<button class="btn gold" id="ntNext">Próximo ▶</button>` : `<button class="btn gold" id="ntEnd">✅ Concluir (+5 XP)</button>`}</div></div>`;
   },
+  GH: "https://aldenirfilho.github.io/intensivahub/flashcards/",
+  ics(hhmm) {
+    const [h, mi] = String(hhmm || "03:30").split(":").map(Number), p = n => String(n).padStart(2, "0"), d = new Date(); d.setHours(h || 0, mi || 0, 0, 0); if (d < new Date()) d.setDate(d.getDate() + 1);
+    const f = x => `${x.getFullYear()}${p(x.getMonth() + 1)}${p(x.getDate())}T${p(x.getHours())}${p(x.getMinutes())}00`, now = new Date(), e = new Date(d.getTime() + 5 * 60000), url = this.GH + "#honra";
+    const z = `${now.getUTCFullYear()}${p(now.getUTCMonth() + 1)}${p(now.getUTCDate())}T${p(now.getUTCHours())}${p(now.getUTCMinutes())}00Z`, q = t => t.replace(/([,;\\])/g, "\\$1");
+    return ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//CODICE 360X//Modo Noite//PT-BR", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "BEGIN:VEVENT", `UID:modo-noite-360x-${p(h)}${p(mi)}@codice360x`, `DTSTAMP:${z}`, `DTSTART:${f(d)}`, `DTEND:${f(e)}`, "RRULE:FREQ=DAILY",
+      "SUMMARY:🌙 Modo Noite 360X · 5 min", `DESCRIPTION:${q("Respiração 4-6 → exame da noite → mensagem → gratidão → bênção. Abra: " + url)}`, `URL:${url}`,
+      "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🌙 Hora do Modo Noite (5 min)", "TRIGGER:PT0M", "END:VALARM", "END:VEVENT", "END:VCALENDAR"].join("\r\n") + "\r\n";
+  },
   ntSave() { const g = $("#ntG"), i = $("#ntI"); if (g || i) { const L = L0(); L.hg = (g ? g.value : "") + "||" + (i ? i.value : ""); saveLog(); } },
   bindNoite(host) {
     if (this.sub !== "noite") return;
     const go = $("#ntGo", host), nx = $("#ntNext", host), bk = $("#ntBack", host), en = $("#ntEnd", host), br = $("#ntBr", host);
     if (go) go.onclick = () => { this.nt = { i: 0, k: Date.now() }; this.render(); };
+    const ic = $("#ntIcs", host), tm = $("#ntTime", host);
+    if (tm) tm.onchange = () => lsSet("ntTime", tm.value);
+    if (ic) ic.onclick = () => { const t = (tm && tm.value) || "03:30"; lsSet("ntTime", t); const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([this.ics(t)], { type: "text/calendar" })); a.download = `Lembrete_Modo_Noite_360X_${t.replace(":", "")}.ics`; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500); toast("📅 Abra o arquivo e toque em “Adicionar ao Calendário”."); };
     if (br) br.onclick = () => this.brStart("calma", 9, () => { this.nt.i = 1; this.nt.k = Date.now(); this.render(); });
     if (nx) nx.onclick = () => { if (this.br) this.brStop(); this.ntSave(); this.nt.i++; this.nt.k = Date.now(); this.render(); };
     if (bk) bk.onclick = () => { if (this.br) this.brStop(); this.ntSave(); this.nt.i = Math.max(0, this.nt.i - 1); this.nt.k = Date.now(); this.render(); };

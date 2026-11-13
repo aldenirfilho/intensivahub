@@ -44,7 +44,7 @@ C = [
 ("me", "Alcorão 9:40", "O que o Profeta diz ao companheiro na caverna?", "Não te entristeças: Deus está conosco.", "Medo compartilhado com fé é menor."),
 ("pa", "Alcorão 20:25-28", "Qual a súplica de Moisés antes de falar ao Faraó?", "Senhor, dilata-me o peito, facilita-me a tarefa e desata o nó da minha língua para que entendam minha fala.", "Diga esta prece antes de reunião, audiência ou aula."),
 ("pe", "Alcorão 21:87", "O que Jonas diz no ventre do peixe?", "Não há divindade senão Tu; glorificado sejas; fui dos injustos.", "Admitir o erro abre a saída."),
-("es", "Alcorão 93:3-5", "O que a surata Ad-Duha garante ao Profeta abatido?", "Teu Senhor não te abandonou nem te detestou; o que vem depois é melhor do que o que passou.", "Fase escura não é veredito."),
+("es", "Alcorão 93:3-5", "O que a surata Ad-Duha garante ao Profeta abatido?", "Teu Senhor não te abandonou nem te detestou; a Derradeira (o que vem depois) te é melhor que a primeira.", "Fase escura não é veredito."),
 ("af", "Alcorão 94:1-4", "Que alívio a surata Ash-Sharh relembra?", "O peito dilatado e o fardo retirado das costas.", "Lembre de fardos que já foram tirados."),
 ("ju", "Alcorão 5:32", "Quanto vale uma vida, segundo 5:32?", "Quem salva uma vida é como se salvasse toda a humanidade.", "Cada paciente salvo é uma humanidade."),
 ("pa", "Alcorão 2:263", "O que é melhor que caridade seguida de ofensa?", "Uma palavra gentil e o perdão.", "Ajuda que humilha deixa de ser ajuda."),

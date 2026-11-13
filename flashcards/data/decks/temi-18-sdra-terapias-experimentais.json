@@ -1,0 +1,396 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::18 🧪 SDRA — Terapias Experimentais e Ineficazes",
+ "midia": {
+  "sdra_folder_sintese.png": "data/media/sdra_folder_sintese.png",
+  "sdra_folder_temi.png": "data/media/sdra_folder_temi.png"
+ },
+ "cards": [
+  {
+   "subtema": "Princípio geral",
+   "frente": "🫁 Qual é a base do tratamento da SDRA? Existe farmacoterapia específica de rotina?",
+   "verso": "✅ <b>Suporte</b> (melhorar as trocas gasosas e prevenir complicações) enquanto se trata o <b>gatilho</b>.<br>❌ Nenhuma farmacoterapia específica é rotina: o efeito em desfechos que importam ao paciente é incerto.",
+   "pegadinha": "Entre as anti-inflamatórias, a exceção com dados favoráveis são os glicocorticoides (tema de outro tópico).",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ],
+   "img": "sdra_folder_sintese.png"
+  },
+  {
+   "subtema": "Princípio geral",
+   "frente": "💊 Na SDRA, entre as terapias anti-inflamatórias, os dados favorecem {{c1::glicocorticoides}}; macrolídeos e aspirina {{c2::não têm benefício convincente}}.",
+   "verso": "",
+   "pegadinha": "Questão de prova que oferece \"macrolídeo\" ou \"aspirina\" como anti-inflamatório da SDRA está errada.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Prevenção",
+   "frente": "🛡️ Algum tratamento demonstrou PREVENIR a SDRA?",
+   "verso": "❌ Não. Poucos estudos rigorosos; nenhum agente estudado mostrou eficácia preventiva até agora.",
+   "pegadinha": "Experimentais na prevenção: budesonida + formoterol inalados e sivelestat no pós-operatório cardiovascular.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Prevenção",
+   "frente": "💊 LIPS-A: desenho e resultado da aspirina na prevenção da SDRA?",
+   "verso": "✅ ECR com 390 pacientes de risco vindos do pronto-socorro.<br>Aspirina 325 mg de ataque e depois 81 mg/dia por 7 dias × placebo.<br>SDRA em 1 semana: <b>~10% × ~10%</b>, sem benefício.",
+   "pegadinha": "A incidência foi menor que a prevista (doença mais leve), o que reduziu o poder do estudo.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Prevenção",
+   "frente": "📊 Coorte retrospectiva de 2024 (~10 mil pacientes): o uso de aspirina antes da UTI estava associado a quê? O que concluir?",
+   "verso": "✅ A menor mortalidade na SDRA.<br>⚠️ Só gera hipótese: é retrospectiva e o ECR preventivo (LIPS-A) foi neutro.",
+   "pegadinha": "Associação observacional ≠ efeito causal. Ainda não se usa aspirina para prevenir SDRA.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Prevenção",
+   "frente": "🌬️ Budesonida + formoterol inalados na prevenção da SDRA: qual o status?",
+   "verso": "✅ Experimental. Um ensaio de fase IIa mostrou melhora da oxigenação × placebo. Faltam ensaios maiores.",
+   "pegadinha": "Os β2-agonistas de curta duração isolados (inalados e sistêmicos) já falharam. A aposta é a combinação de longa duração com corticoide inalado.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Prevenção",
+   "frente": "🔪 Sivelestat no pós-operatório de cirurgia cardiovascular (China, n=424): resultado e ressalva?",
+   "verso": "✅ Menos SDRA: <b>16,8% × 31,2%</b>.<br>⚠️ A incidência basal foi maior que a esperada, o que pode ter inflado o benefício. Não é rotina.",
+   "pegadinha": "Incidência basal alta infla o efeito relativo: é o inverso do problema do LIPS-A.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Prevenção",
+   "frente": "☀️ Vitamina D em críticos com deficiência: efeito sobre a SDRA?",
+   "verso": "❌ Nenhum impacto em mortalidade de 90 dias, incidência de SDRA após a randomização ou outros desfechos não fatais.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Reparo pulmonar",
+   "frente": "🧬 GM-CSF intravenoso na SDRA: o que mostrou o ECR com 131 pacientes?",
+   "verso": "✅ GM-CSF IV por 14 dias × placebo.<br>Mortalidade <b>17% × 23%</b>, não significativa.<br>Dias livres de falência orgânica <b>15,7 × 12,8</b>.",
+   "pegadinha": "Metanálise de farmacoterapias e outro ECR unicêntrico: sem efeito em mortalidade. Não é rotina.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Reparo pulmonar",
+   "frente": "🌬️ GM-CSF inalado: o que se viu na SDRA por pneumonia?",
+   "verso": "✅ Num grupo pequeno: melhora de oxigenação, complacência e escores de gravidade × não tratados. Há ensaio em andamento.",
+   "pegadinha": "Desfecho substituto melhorou; desfecho duro ainda sem prova.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Reparo pulmonar",
+   "frente": "🧫 Células estromais mesenquimais, fase I (n=12, alogênicas de tecido adiposo): o que mostrou?",
+   "verso": "✅ Infusão segura e bem tolerada.<br>↓ proteína surfactante-D no 5º dia (sugere menos lesão epitelial).<br>Citocinas inflamatórias sem diferença. Sem poder para desfechos clínicos.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Reparo pulmonar",
+   "frente": "🧫 Células mesenquimais, fase II (n=30, SDRA por pneumonia com fibroproliferação precoce): resultados?",
+   "verso": "✅ Randomização 2:1 (MSC + padrão × padrão).<br>Dias livres de VM <b>20 × 11</b>.<br>Mortalidade <b>21% × 29%</b>.<br>Nenhum dos dois foi significativo.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Reparo pulmonar",
+   "frente": "🦠 Células mesenquimais, fase II duplo-cego (n=120, maioria COVID-19): resultado?",
+   "verso": "❌ Sem impacto em oxigenação ou mortalidade × placebo.<br>Biomarcadores e genética sugerem respostas diferentes por subgrupo, para orientar estudos futuros.",
+   "pegadinha": "É a racional dos fenótipos na SDRA: o efeito médio neutro pode esconder subgrupos que respondem.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Anti-inflamatórios e antiproteases",
+   "frente": "🇯🇵 Sivelestat (inibidor da elastase de neutrófilos) como tratamento da SDRA: qual a evidência?",
+   "verso": "✅ Usado no Japão.<br>Base de dados: menor mortalidade em 3 meses, <b>RR 0,83 (IC95% 0,75–0,93)</b>.<br>ECR em SDRA com sepse em andamento.",
+   "pegadinha": "O mesmo tópico lista os inibidores da elastase entre as terapias ineficazes. Dado conflitante: não é padrão.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Anti-inflamatórios e antiproteases",
+   "frente": "⚠️ Pegadinha: os inibidores da elastase de neutrófilos são benéficos ou ineficazes na SDRA?",
+   "verso": "✅ Aparecem nos dois lados:<br>• na lista de <b>ineficazes</b> (ensaios clássicos);<br>• como <b>promessa</b> (uso no Japão, prevenção no pós-op CV, ECR em sepse).<br>Resposta de prova: não recomendados de rotina.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Anti-inflamatórios e antiproteases",
+   "frente": "💊 Macrolídeos na SDRA: o que mostrou a coorte do ensaio LARMA?",
+   "verso": "✅ Macrolídeo nas primeiras 24 h (n=47) × sem macrolídeo (n=188).<br>Mortalidade em 180 dias <b>23% × 36%</b>.<br>Após ajuste: <b>HR 0,46 (0,23–0,92)</b>.",
+   "pegadinha": "É observacional, e o grupo macrolídeo recebeu menos ventilação com volume corrente baixo. Nunca houve ECR de seguimento.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Anti-inflamatórios e antiproteases",
+   "frente": "🧠 Por que o benefício dos macrolídeos na SDRA não vale como prova?",
+   "verso": "✅ Só há dado observacional, com confundimento: o grupo tratado diferia na ventilação protetora. Não há ECR.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Anti-inflamatórios e antiproteases",
+   "frente": "💊 Aspirina como TRATAMENTO (não prevenção) da SDRA: há dados?",
+   "verso": "❌ Nenhum estudo publicado. O ensaio registrado no NIH foi encerrado por recrutamento lento.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Anti-inflamatórios e antiproteases",
+   "frente": "💨 Monóxido de carbono (CO) inalado na SDRA: status?",
+   "verso": "✅ Experimental, como anti-inflamatório. Há dois ensaios clínicos registrados.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Resgate",
+   "frente": "🫁 Transplante pulmonar de resgate na SDRA grave: série coreana?",
+   "verso": "✅ 14 listados (P/F &lt; 100; a maioria com lesão inalatória por desinfetante, sem doença pulmonar terminal). 9 foram transplantados.<br>Sobrevida <b>89% × 20%</b>; mediana <b>1996 × 49 dias</b>.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Resgate",
+   "frente": "🫁 Transplante pulmonar na SDRA: série de 39 pacientes?",
+   "verso": "✅ Sobrevida <b>87,2%</b> em 90 dias, <b>82,1%</b> em 1 ano, <b>69,2%</b> em 3 anos.<br>Semelhante a controles pareados com doença pulmonar restritiva.",
+   "pegadinha": "Ainda experimental: séries retrospectivas pequenas e critérios de indicação indefinidos.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "O cemitério: ineficazes ou nocivas",
+   "frente": "🪦 Quais antioxidantes e nutrientes falharam como terapia da SDRA?",
+   "verso": "✅ N-acetilcisteína, procisteína, glutamina, ômega-3, selênio, β-caroteno, zinco, vitaminas C e E, e lisofilina.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "O cemitério: ineficazes ou nocivas",
+   "frente": "🪦 Quais terapias sistêmicas ou anti-inflamatórias se mostraram ineficazes ou nocivas na SDRA?",
+   "verso": "✅ Prostaglandina E1 IV, ibuprofeno, cetoconazol, estatinas, proteína C ativada e interferon-β-1a.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "O cemitério: ineficazes ou nocivas",
+   "frente": "🪦 Quais terapias de alvo pulmonar falharam na SDRA?",
+   "verso": "✅ Surfactante, β2-agonista de curta duração (inalado e sistêmico), fator de crescimento de queratinócitos (KGF) e inibidores da elastase de neutrófilos.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "O cemitério: ineficazes ou nocivas",
+   "frente": "💊 Estatinas reduzem a mortalidade da SDRA?",
+   "verso": "❌ Não. Estão na lista de terapias ineficazes ou nocivas.",
+   "pegadinha": "Racional anti-inflamatório bonito; ensaios negativos.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "O cemitério: ineficazes ou nocivas",
+   "frente": "🧴 Surfactante exógeno funciona na SDRA do adulto?",
+   "verso": "❌ Não. O sucesso no neonato não se repete no adulto.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "O cemitério: ineficazes ou nocivas",
+   "frente": "🌬️ β2-agonistas de curta duração (inalados ou sistêmicos) na SDRA?",
+   "verso": "❌ Ineficazes ou nocivos, apesar do racional de acelerar a reabsorção do edema alveolar.",
+   "pegadinha": "Não confundir com budesonida + formoterol inalados: são outra classe e seguem experimentais na prevenção.",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "O cemitério: ineficazes ou nocivas",
+   "frente": "🐟 Enriquecer a dieta enteral com ômega-3 e antioxidantes na SDRA?",
+   "verso": "❌ Não usar: sem benefício comprovado e com potencial de dano. A maioria dos intensivistas não usa.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "O cemitério: ineficazes ou nocivas",
+   "frente": "🧠 Mnemônico 360X do cemitério da SDRA: PISCA · BEKI · E · A?",
+   "verso": "✅ <b>P</b>GE1 · <b>I</b>buprofeno · <b>S</b>urfactante · <b>C</b>etoconazol · proteína C <b>A</b>tivada<br><b>B</b>eta-2 de curta · <b>E</b>statinas · <b>K</b>GF · <b>I</b>nterferon-β<br><b>E</b>lastase (inibidores) · <b>A</b>ntioxidantes",
+   "pegadinha": "Mnemônico criado no Códice 360X (não é clássico da literatura).",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ],
+   "img": "sdra_folder_temi.png"
+  },
+  {
+   "subtema": "Leitura crítica",
+   "frente": "📐 Três armadilhas de leitura crítica neste tema (B · B · C)?",
+   "verso": "✅ <b>B</b>aixa incidência → derruba o poder (LIPS-A).<br><b>B</b>asal alta → infla o efeito (sivelestat pós-op CV).<br><b>C</b>onfundimento → cria benefício falso em coorte (macrolídeos).",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Leitura crítica",
+   "frente": "🎯 Padrão do capítulo: o que costuma acontecer com terapias para SDRA?",
+   "verso": "✅ Melhoram desfechos substitutos (oxigenação, complacência, biomarcadores como SP-D) sem mudar a mortalidade de forma significativa.",
+   "pegadinha": "Em prova: \"melhorou a oxigenação\" não é \"reduziu a mortalidade\".",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  },
+  {
+   "subtema": "Leitura crítica",
+   "frente": "🧪 Em quais fases estão as principais terapias de reparo pulmonar para SDRA?",
+   "verso": "✅ GM-CSF: ECRs com resultados mistos, sem efeito em mortalidade na metanálise.<br>Células mesenquimais: fase I (segurança) e fase II (sem benefício significativo).<br>Nenhuma é rotina.",
+   "pegadinha": "",
+   "fonte": "UpToDate, tópico 1618 (v41.0, revisão até out/2026) · síntese 360X · 📄 <a href=\"https://claude.ai/artifact/M4aSq5fMkwf1BpxPt7C8Zc\" target=\"_blank\" rel=\"noopener\">Folder SDRA 360X</a>",
+   "tags": [
+    "TEMI",
+    "SDRA",
+    "UpToDate"
+   ]
+  }
+ ]
+}

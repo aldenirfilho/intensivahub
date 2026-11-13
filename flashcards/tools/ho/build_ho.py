@@ -44,6 +44,8 @@ QUANDO = {
 def ctxok(ctx, tema): return ctx if len(ctx) >= 70 else "Fonte: " + ctx.rstrip(".") + ". " + QUANDO[tema]
 
 def h(s, n=8): return hashlib.sha1(s.encode()).hexdigest()[:n]
+# 4.9.0 · conferência das referências: refs corrigidas mantêm o id antigo (progresso e ⭐ preservados)
+ID_LEGADO = {"hc03ccbe1d": "hc67b6c5b1", "hc2b0d8b6b": "hc982a4e87", "hc275c74b1": "hca7f3f0d1"}
 def nz(s): return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn").upper()
 
 err = []
@@ -55,7 +57,7 @@ for f in ["c_biblia", "c_tora", "c_mormon", "c_alcorao", "c_buda", "c_confucio",
         tema, ref, q, a, ap = t
         if tema not in TEMAS: err.append(f"{f}: tema {tema}")
         if not all(x.strip() for x in t): err.append(f"{f}: campo vazio em {ref}")
-        cards.append({"id": "hc" + h(m.TRAD + ref + q), "tr": m.TRAD, "tema": TEMAS.get(tema, tema), "q": q, "a": a, "r": ref, "ap": ap})
+        cards.append({"id": ID_LEGADO.get("hc" + h(m.TRAD + ref + q), "hc" + h(m.TRAD + ref + q)), "tr": m.TRAD, "tema": TEMAS.get(tema, tema), "q": q, "a": a, "r": ref, "ap": ap})
 
 mn = []
 for ln in open(os.path.join(HERE, "m_siglas.txt"), encoding="utf-8"):

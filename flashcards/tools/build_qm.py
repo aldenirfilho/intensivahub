@@ -42,6 +42,9 @@ for t in MT2 + MR2:
 MT = MT + [t[:5] for t in MT2]; MR = MR + [t[:5] for t in MR2]
 mic = lambda L, p: [{"id": f"{p}{i+1:03d}", "tema": t, "emoji": e, "titulo": ti, "texto": tx, "gancho": g, "comentario": C.get(ti, "")} for i, (t, e, ti, tx, g) in enumerate(L)]
 MC = {"temi": mic(MT, "MT"), "r3": mic(MR, "MR")}
+# Itens vindos de outra conversa (SDRA, MT301–MT312): entram como estão, no fim, para não serem apagados num rebuild.
+_ex = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "qm", "extra_sdra_micro.json"), encoding="utf-8"))
+MC["temi"] += [x for x in _ex if x["id"] not in {y["id"] for y in MC["temi"]}]
 json.dump(Q, open(f"{OUT}/data/questoes.json", "w"), ensure_ascii=False)
 json.dump(MC, open(f"{OUT}/data/micro.json", "w"), ensure_ascii=False)
 from collections import Counter

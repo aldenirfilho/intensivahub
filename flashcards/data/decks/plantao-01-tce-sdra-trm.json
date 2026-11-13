@@ -1,0 +1,419 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "TEMI 2028::🗡️ Casos de Plantão 360X::01 🧠🫁 Desmame no TCE + SDRA grave no TRM",
+ "cards": [
+  {
+   "subtema": "Desmame no TCE grave: prontidão",
+   "frente": "🧠 TCE grave: quais pré-requisitos NEUROLÓGICOS antes de iniciar o desmame?",
+   "verso": "<ul><li><b>PIC controlada há 24–48 h</b> sem escalada de terapia (osmoterapia, sedação profunda, hiperventilação)</li><li>Sedação suspensa ou mínima, <b>sem crises</b> e sem hiperatividade simpática paroxística descontrolada</li><li>TC estável, <b>sem nova cirurgia programada</b></li><li>Drive respiratório presente, PaCO₂ normal</li></ul>Depois disso, os critérios respiratórios são os mesmos do paciente geral.",
+   "fonte": "Consenso ESICM 2020 (VM na lesão cerebral aguda) · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ],
+   "pegadinha": "Esperar o Glasgow 'subir bem' antes de testar atrasa o desmame. O gatilho é a estabilidade da PIC, não um número de GCS."
+  },
+  {
+   "subtema": "Desmame no TCE grave: prontidão",
+   "frente": "🧠 Por que o TRE pode ser perigoso no TCE com PIC ainda limítrofe?",
+   "verso": "<ul><li>Hipoventilação no TRE → <b>↑PaCO₂ → vasodilatação cerebral → ↑volume sanguíneo → ↑PIC</b></li><li>Agitação, tosse e hipertensão também sobem a PIC</li></ul>Com monitor: acompanhar <b>PIC/PPC em tempo real</b> e interromper se a PIC subir de forma sustentada.",
+   "fonte": "Fisiologia da reatividade ao CO₂ · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ]
+  },
+  {
+   "subtema": "Desmame no TCE grave: prontidão",
+   "frente": "🫁 Critérios RESPIRATÓRIOS de prontidão para TRE (valem também no neurocrítico)?",
+   "verso": "<ul><li>Causa da intubação controlada · estabilidade hemodinâmica (sem ou com baixa dose de vasopressor)</li><li>PaO₂/FiO₂ > 150–200 · <b>PEEP ≤ 8</b> · <b>FiO₂ ≤ 0,4</b></li><li>TRE: PSV 5–8 / PEEP 5 ou tubo T por <b>30–120 min</b></li></ul>",
+   "fonte": "Diretrizes de desmame (ACCP/ATS) · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ]
+  },
+  {
+   "subtema": "Desmame no TCE grave: decisão de extubar",
+   "frente": "🔑 No neurocrítico, passar no TRE garante extubação?",
+   "verso": "<b>Não.</b> O TRE testa a bomba respiratória. No TCE quem falha é a <b>via aérea</b>: tosse fraca, deglutição ruim, secreção abundante.<br>Extubar = TRE ok <b>+</b> via aérea protegida.",
+   "fonte": "ENIO 2022 · ESICM 2020 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ],
+   "pegadinha": "Índice de Tobin bom não prevê proteção de via aérea."
+  },
+  {
+   "subtema": "Desmame no TCE grave: decisão de extubar",
+   "frente": "👁️ Escore VISAGE: quais os 4 itens e o ponto de corte?",
+   "verso": "<table class=t><tr><th>Item</th><th>1 ponto</th></tr><tr><td>👁️ <b>VI</b>sual pursuit</td><td>Perseguição visual presente</td></tr><tr><td>👅 <b>S</b>wallowing</td><td>Tentativas de deglutição</td></tr><tr><td>🎂 <b>AGE</b></td><td>Idade &lt; 40 anos</td></tr><tr><td>🧠 Glasgow</td><td>GCS &gt; 10</td></tr></table><b>≥ 3 pontos → cerca de 90% de sucesso.</b> AUC 0,75 (0,73 após validação interna).",
+   "fonte": "Asehnoune et al., Anesthesiology 2017 (437 pacientes) · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE",
+    "escore"
+   ],
+   "pegadinha": "Discriminação só moderada: VISAGE &lt; 3 não proíbe a extubação, apenas aumenta o risco."
+  },
+  {
+   "subtema": "Desmame no TCE grave: decisão de extubar",
+   "frente": "🧠 GCS ≤ 8 contraindica a extubação no TCE?",
+   "verso": "<b>Não.</b> Em coorte clássica, pacientes com GCS ≤ 8 extubados após cumprirem critérios respiratórios não falharam mais; <b>atrasar</b> a extubação associou-se a mais pneumonia e mais tempo de UTI.<br>O que decide é tosse, deglutição e secreção.",
+   "fonte": "Coplin et al., AJRCCM 2000 (observacional) · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE",
+    "pegadinha"
+   ],
+   "pegadinha": "'Glasgow 8, intuba' é regra de INTUBAÇÃO no trauma, não de EXTUBAÇÃO."
+  },
+  {
+   "subtema": "Desmame no TCE grave: decisão de extubar",
+   "frente": "🩺 Exame de via aérea à beira do leito antes de extubar o neurocrítico?",
+   "verso": "<ul><li><b>Tosse eficaz</b> (espontânea ou à aspiração)</li><li><b>Deglutição</b> espontânea · reflexo de vômito</li><li>Necessidade de aspiração com intervalo <b>≥ 2 h</b> e secreção não espessa/abundante</li><li>Teste de vazamento do cuff se VM prolongada ou trauma de via aérea</li></ul>",
+   "fonte": "ESICM 2020 · prática de neurointensivismo · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ]
+  },
+  {
+   "subtema": "Desmame no TCE grave: decisão de extubar",
+   "frente": "📊 Estudo ENIO: taxa de falha de extubação no neurocrítico e impacto?",
+   "verso": "<ul><li>1.512 pacientes, 73 UTIs, 18 países · GCS ≤ 12, VM ≥ 24 h</li><li>Falha de extubação: <b>19,4%</b> (231 de 1.193 tentativas)</li><li>Falha × sucesso: VM <b>14 × 6 dias</b> · mortalidade na UTI <b>8,7% × 2,4%</b></li><li>Escore ENIO: 20 variáveis, AUC 0,79 → <b>0,71</b> na validação</li></ul>",
+   "fonte": "Cinotti et al., Intensive Care Med 2022 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE",
+    "estudo"
+   ],
+   "pegadinha": "Quase 1 em cada 5 falha. Mesmo com 20 variáveis, nenhum escore substitui o exame da via aérea."
+  },
+  {
+   "subtema": "Desmame no TCE grave: decisão de extubar",
+   "frente": "⏳ Atrasar a extubação 'por segurança' no TCE é neutro?",
+   "verso": "<b>Não.</b> Atraso e falha pioram o desfecho: mais PAV, mais tempo de VM e de UTI, mais sedação, mais delirium.<br>No ENIO, a traqueostomia direta sem tentativa de extubação teve VM mais longa e mais mortes do que a tentativa, mesmo fracassada (observacional, viés de indicação).",
+   "fonte": "ENIO 2022 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ]
+  },
+  {
+   "subtema": "Desmame no TCE grave: pós-extubação e traqueostomia",
+   "frente": "🛏️ Cuidados nas primeiras 48 h após extubar o paciente com TCE?",
+   "verso": "<ul><li>Cabeceira 30–45° · aspiração e fisioterapia intensivas</li><li><b>Fonoaudiologia precoce</b>: disfagia é a regra</li><li>CNAF é opção razoável · <b>VNI profilática de rotina não</b> (sem benefício demonstrado no neurocrítico)</li><li>Falhou? <b>Reintubar cedo</b>, sem insistir em VNI</li></ul>",
+   "fonte": "ENIO e análises secundárias · ESICM 2020 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ],
+   "pegadinha": "Insistir em VNI no rebaixado com secreção = broncoaspiração e PIC subindo."
+  },
+  {
+   "subtema": "Desmame no TCE grave: pós-extubação e traqueostomia",
+   "frente": "⚠️ Causas mais comuns de falha de extubação no neurocrítico?",
+   "verso": "<ol><li><b>Secreção / incapacidade de proteger via aérea</b> (aspiração)</li><li>Rebaixamento do nível de consciência</li><li>Estridor / edema laríngeo</li><li>Fadiga da bomba (menos comum que no clínico)</li></ol>",
+   "fonte": "ENIO 2022 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ]
+  },
+  {
+   "subtema": "Desmame no TCE grave: pós-extubação e traqueostomia",
+   "frente": "🔪 Quando indicar traqueostomia no TCE grave?",
+   "verso": "<ul><li>Falha de extubação</li><li>Ausência persistente de tosse e deglutição (via aérea desprotegida)</li><li>Coma prolongado previsto · GCS motor baixo sem melhora</li></ul><b>Conduta prática:</b> VISAGE ≥ 3 e via aérea ok → tentar extubar; sem proteção de via aérea → TQT precoce.",
+   "fonte": "ESICM 2020 (recomendação de especialistas) · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE",
+    "TQT"
+   ]
+  },
+  {
+   "subtema": "Desmame no TCE grave: pós-extubação e traqueostomia",
+   "frente": "⏰ Traqueostomia PRECOCE × TARDIA no TCE grave: o que a evidência mostra?",
+   "verso": "<ul><li>Meta-análise 2023 (TCE/AVC, majoritariamente observacional): precoce → <b>menos PAV, menos dias de VM, UTI e hospital</b></li><li>Emulação de ensaio-alvo 2024 (TCE grave): <b>sem diferença funcional em 6 meses</b>; 'espera vigilante' pode ser apropriada</li><li>SETPOINT2 (AVC grave, ECR): TQT precoce sem melhora funcional</li></ul>",
+   "fonte": "Tavares 2023 · Crit Care Explor 2024 · Bösel JAMA 2022 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE",
+    "TQT",
+    "estudo"
+   ],
+   "pegadinha": "TQT precoce encurta a UTI, mas não mostrou melhorar o desfecho neurológico."
+  },
+  {
+   "subtema": "Desmame no TCE grave: pós-extubação e traqueostomia",
+   "frente": "⚖️ Qual o nível de evidência das recomendações de VM e desmame na lesão cerebral aguda?",
+   "verso": "Consenso ESICM 2020: 29 especialistas, Delphi + GRADE, <b>36 enunciados</b> (19 fortes, 6 fracos, 11 sem recomendação).<br>GRADE <b>baixo, muito baixo ou ausente</b> em todos os domínios: quase tudo é observacional ou opinião.",
+   "fonte": "Robba et al., Intensive Care Med 2020 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TCE"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: prona com coluna operada",
+   "frente": "🦴 Paciente com TRM e artrodese há 5 dias, SDRA com P/F &lt; 80: pode pronar?",
+   "verso": "<b>Sim, com aval do cirurgião de coluna.</b><br>A única contraindicação absoluta citada para prona é a <b>fratura de coluna INSTÁVEL</b>. A artrodese estabiliza; o que precisa ser confirmado é a solidez da montagem.<br>Com P/F &lt; 80, a prona é a medida de maior impacto em mortalidade disponível sem ECMO.",
+   "fonte": "Guérin et al., Intensive Care Med 2020 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "prona"
+   ],
+   "pegadinha": "Confundir 'coluna operada' com 'coluna instável' e privar o paciente da prona."
+  },
+  {
+   "subtema": "SDRA grave no TRM: prona com coluna operada",
+   "frente": "📋 Checklist da virada em prona no paciente com coluna fixada?",
+   "verso": "<ul><li>📞 Aval da neurocirurgia/ortopedia (nível, via anterior/posterior, montagem)</li><li>👥 Giro <b>em bloco</b>, 5–6 pessoas, um líder na cabeça e no tubo</li><li>🦴 Cervical <b>neutra</b>, sem hiperextensão nem rotação forçada</li><li>🩹 Proteger ferida operatória, drenos, proeminências ósseas</li><li>💉 Noradrenalina e atropina prontas (disautonomia)</li></ul>",
+   "fonte": "Guérin 2020 · relatos de lesão cervical em prona · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "prona"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: prona com coluna operada",
+   "frente": "⏱️ Prona na SDRA: quem, quanto tempo e qual o ganho (PROSEVA)?",
+   "verso": "<ul><li>Indicação: P/F &lt; 150 com FiO₂ ≥ 0,6 e PEEP ≥ 5, após 12–24 h de ajuste</li><li>Sessões de <b>≥ 16 h/dia</b></li><li>Mortalidade em 28 dias: <b>16% × 32,8%</b></li></ul>ATS 2024: prona &gt; 12 h/dia na SDRA grave = <b>recomendação forte</b>.",
+   "fonte": "Guérin et al., NEJM 2013 · ATS 2024 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "prona",
+    "estudo"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: prona com coluna operada",
+   "frente": "💓 TRM alto (≥ T6): que evento esperar na virada e na aspiração?",
+   "verso": "<b>Disautonomia</b>: perda do simpático com vago preservado → <b>bradicardia e até assistolia</b> à aspiração/virada, hipotensão postural.<br>Atropina à beira do leito, pré-oxigenar antes de aspirar.",
+   "fonte": "Fisiologia do choque neurogênico · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM"
+   ],
+   "pegadinha": "Parada logo após a virada já foi descrita em séries de trauma."
+  },
+  {
+   "subtema": "SDRA grave no TRM: prona com coluna operada",
+   "frente": "🤓 Curiosidade: por que a artrodese recente quase 'testou' a prona?",
+   "verso": "A artrodese posterior é feita <b>em decúbito ventral</b> por horas no centro cirúrgico. O que muda na UTI é o risco da virada (tubo, cateteres) e da ferida, não a posição em si.",
+   "fonte": "Raciocínio clínico 360X · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "prona"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: ventilação e BNM",
+   "frente": "⚙️ Números da ventilação protetora na SDRA grave?",
+   "verso": "<ul><li>VC <b>4–6 mL/kg de peso predito</b></li><li>Pressão de platô <b>≤ 30</b> cmH₂O</li><li><b>Driving pressure ≤ 15</b> (Pplat − PEEP)</li><li>SpO₂ 88–92% · pH ≥ 7,20 (hipercapnia permissiva)</li></ul>",
+   "fonte": "ARDSNet 2000 · Amato NEJM 2015 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "VM"
+   ],
+   "pegadinha": "Hipercapnia permissiva é perigosa se houver TCE associado (↑PIC)."
+  },
+  {
+   "subtema": "SDRA grave no TRM: ventilação e BNM",
+   "frente": "🎚️ PEEP e manobras de recrutamento na SDRA moderada a grave: o que dizem as diretrizes?",
+   "verso": "<ul><li>ATS 2024: <b>PEEP mais alta sem manobra de recrutamento</b> (condicional)</li><li><b>Contra manobras prolongadas</b> de recrutamento (forte)</li></ul>Titular por melhor complacência / driving pressure ou tabela PEEP alta.",
+   "fonte": "Qadir et al., ATS 2024 · ART trial 2017 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "VM"
+   ],
+   "pegadinha": "No ART, recrutamento + PEEP titulada aumentou a mortalidade."
+  },
+  {
+   "subtema": "SDRA grave no TRM: ventilação e BNM",
+   "frente": "💊 Bloqueio neuromuscular na SDRA grave precoce: recomenda ou não?",
+   "verso": "<ul><li>ACURASYS (2010): cisatracúrio 48 h ↓ mortalidade · ROSE (2019): sem benefício com sedação leve no controle</li><li><b>ATS 2024</b>: sugere BNM na SDRA grave precoce (condicional)</li><li><b>ESICM 2023</b>: contra infusão contínua de rotina</li></ul>Prático: P/F &lt; 80 com assincronia ou Pplat alta → cisatracúrio por até 48 h com sedação profunda.",
+   "fonte": "ATS 2024 · ESICM 2023 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "BNM"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: ventilação e BNM",
+   "frente": "☠️ Por que a SUCCINILCOLINA é proibida no TRM após 48–72 h?",
+   "verso": "Desnervação → <b>proliferação de receptores nicotínicos extrajuncionais</b> → despolarização maciça → <b>hipercalemia grave</b> e PCR.<br>Usar <b>rocurônio</b> (ou cisatracúrio) para intubar ou reintubar.",
+   "fonte": "Farmacologia clássica dos BNM · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "BNM",
+    "pegadinha"
+   ],
+   "pegadinha": "Vale também para queimado, imobilização prolongada e AVC com déficit."
+  },
+  {
+   "subtema": "SDRA grave no TRM: ventilação e BNM",
+   "frente": "🚫 VAFO e APRV na SDRA grave refratária?",
+   "verso": "<ul><li><b>VAFO</b>: não usar de rotina (OSCILLATE ↑ mortalidade, OSCAR neutro) · ATS: recomendação contra</li><li><b>APRV</b>: resgate possível apenas com equipe experiente, sem ganho comprovado de mortalidade</li></ul>",
+   "fonte": "OSCILLATE/OSCAR NEJM 2013 · ATS · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "VM"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: causas reversíveis",
+   "frente": "🔍 Hipoxemia refratária no TRM: quais causas reversíveis caçar antes de rotular SDRA 'pura'?",
+   "verso": "<table class=t><tr><th>Suspeita</th><th>Como checar</th></tr><tr><td>🧱 Rolha / atelectasia lobar</td><td>POCUS, RX, <b>broncoscopia</b></td></tr><tr><td>🩸 TEP</td><td>Eco (VD), angioTC</td></tr><tr><td>🦠 PAV / aspiração</td><td>Culturas, antibiótico</td></tr><tr><td>💨 Pneumo / hemotórax / derrame</td><td>POCUS → drenar</td></tr><tr><td>🫀 Cardiogênico / sobrecarga</td><td>Eco</td></tr><tr><td>🕳️ Shunt via FOP</td><td>Eco com microbolhas</td></tr></table>",
+   "fonte": "Raciocínio clínico · SDRA no trauma · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: causas reversíveis",
+   "frente": "🧱 Por que rolha de secreção e atelectasia são tão comuns no TRM?",
+   "verso": "Paralisia de músculos <b>intercostais e abdominais</b> → <b>tosse ineficaz</b>; no TRM alto, também diafragma comprometido.<br>Conduta: fisioterapia intensiva, tosse assistida/insuflação-exsuflação mecânica quando possível, <b>broncoscopia</b> se colapso lobar.",
+   "fonte": "Fisiologia respiratória do lesado medular · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: causas reversíveis",
+   "frente": "🩸 TEP no lesado medular operado: por que pensar sempre?",
+   "verso": "TRM é um dos maiores riscos de TEV na UTI (imobilidade + estase + trauma).<br>Piora súbita da troca + VD dilatado no eco → investigar. Profilaxia com HBPM assim que a hemostasia permitir, <b>combinada com a cirurgia de coluna</b>.",
+   "fonte": "Diretrizes de TEV no trauma raquimedular · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM"
+   ],
+   "pegadinha": "Atribuir toda piora à SDRA e deixar passar o TEP."
+  },
+  {
+   "subtema": "SDRA grave no TRM: causas reversíveis",
+   "frente": "🕳️ PEEP alta piorou a oxigenação. O que suspeitar?",
+   "verso": "<ul><li><b>Shunt direita-esquerda por forame oval patente</b> (PEEP ↑ pressão no AD)</li><li>Hiperdistensão com redistribuição de fluxo para áreas não ventiladas</li><li>Queda do débito cardíaco (↓ retorno venoso)</li></ul>Eco com microbolhas e avaliação do VD.",
+   "fonte": "Fisiologia cardiopulmonar · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "VM"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: adjuvantes e resgate sem ECMO",
+   "frente": "💧 SDRA grave já em furosemida: como potencializar o balanço negativo?",
+   "verso": "<ul><li>Hipoalbuminemia: <b>albumina + furosemida</b> melhorou a oxigenação em ECR pequenos</li><li>Estratégia conservadora (FACTT): <b>mais dias livres de VM</b>, sem piorar a mortalidade</li><li>Sustentar PAM com <b>noradrenalina, não com volume</b></li><li>Diurético refratário + sobrecarga → considerar ultrafiltração/TRS</li></ul>",
+   "fonte": "Martin et al. CCM 2005 · FACTT NEJM 2006 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "fluidos"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: adjuvantes e resgate sem ECMO",
+   "frente": "💊 Dexametasona na SDRA: qual o esquema e a evidência (DEXA-ARDS)?",
+   "verso": "<ul><li><b>20 mg/dia por 5 dias → 10 mg/dia por mais 5 dias</b></li><li>DEXA-ARDS: menos mortalidade em 60 dias e mais dias livres de VM</li><li>ATS 2024: corticoide na SDRA = sugestão condicional</li></ul>Vigiar infecção, glicemia, fraqueza adquirida e cicatrização da ferida operatória.",
+   "fonte": "Villar et al., Lancet Respir Med 2020 · ATS 2024 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "corticoide"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: adjuvantes e resgate sem ECMO",
+   "frente": "🌬️ Óxido nítrico inalado na SDRA grave: quando usar?",
+   "verso": "Vasodilatador seletivo das áreas ventiladas → <b>melhora o V/Q</b> transitoriamente.<br><b>Sem benefício de mortalidade</b>; possível lesão renal. Uso: <b>ponte</b> de oxigenação (ex.: aguardando transferência para ECMO), 5–20 ppm.",
+   "fonte": "Meta-análises de NOi na SDRA · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "resgate"
+   ],
+   "pegadinha": "Melhorar a PaO₂ não é melhorar a sobrevida."
+  },
+  {
+   "subtema": "SDRA grave no TRM: adjuvantes e resgate sem ECMO",
+   "frente": "🔥 Como reduzir o CONSUMO de O₂ quando a oferta está no limite?",
+   "verso": "<ul><li>Tratar febre · sedação adequada · BNM se assincronia</li><li>Evitar calafrios, agitação e trabalho respiratório</li><li>Hb ≥ 7 g/dL (alvos maiores na hipoxemia extrema são opinião, sem ECR)</li></ul>",
+   "fonte": "Fisiologia DO₂/VO₂ · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "resgate"
+   ]
+  },
+  {
+   "subtema": "SDRA grave no TRM: adjuvantes e resgate sem ECMO",
+   "frente": "🚑 Critérios EOLIA para ECMO VV: e se não houver ECMO no hospital?",
+   "verso": "<ul><li>P/F &lt; 50 por &gt; 3 h</li><li><b>P/F &lt; 80 por &gt; 6 h</b></li><li>pH &lt; 7,25 com PaCO₂ ≥ 60 por &gt; 6 h</li></ul>Sem ECMO local: <b>acionar a regulação/centro de referência JÁ</b>, em paralelo à prona. Cirurgia recente não exclui: há ECMO VV com pouca ou nenhuma heparina.",
+   "fonte": "Combes et al., NEJM 2018 · ATS 2024 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM",
+    "ECMO"
+   ],
+   "pegadinha": "Esperar a prona 'falhar' para ligar para o centro de ECMO consome a janela."
+  },
+  {
+   "subtema": "SDRA grave no TRM: adjuvantes e resgate sem ECMO",
+   "frente": "🏆 SDRA grave sem ECMO: ordem prática de prioridades nas primeiras 24 h?",
+   "verso": "<ol><li>Ventilação protetora + PEEP titulada</li><li><b>Prona ≥ 16 h</b></li><li>BNM até 48 h se necessário</li><li>Caçar e tratar causa reversível (rolha, TEP, pneumotórax, infecção)</li><li>Balanço negativo + corticoide</li><li>NOi como ponte · regular ECMO em paralelo</li></ol>",
+   "fonte": "Síntese ATS 2024 · ESICM 2023 · ✅ Claude",
+   "tags": [
+    "PLANTAO360X",
+    "P01",
+    "TRM"
+   ]
+  }
+ ],
+ "midia": {}
+}

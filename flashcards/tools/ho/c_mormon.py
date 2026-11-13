@@ -52,6 +52,6 @@ C = [
 ("af", "Doutrina e Convênios 121:7-8", "O que o Senhor diz a Joseph Smith na cadeia de Liberty?", "Paz à tua alma; a adversidade será por um breve momento; se a suportares bem, serás exaltado.", "Suportar bem é diferente de suportar calado."),
 ("fa", "Doutrina e Convênios 121:41-42", "Como exercer influência, segundo D&C 121?", "Por persuasão, longanimidade, brandura, mansidão e amor não fingido.", "Autoridade sem gentileza é só barulho."),
 ("af", "Doutrina e Convênios 122:7-8", "Que sentido D&C 122 dá às provações extremas?", "Todas darão experiência e serão para o teu bem; o Filho do Homem desceu abaixo de todas.", "Pergunte: que experiência isto me dá?"),
-("tr", "Doutrina e Convênios 58:27", "Como agir numa boa causa, segundo D&C 58:27?", "Com zelo e por livre vontade, sem esperar ser mandado em tudo.", "Iniciativa é virtude."),
+("tr", "Doutrina e Convênios 58:26-27", "Como agir numa boa causa, segundo D&C 58:26-27?", "Com zelo e por livre vontade, sem esperar ser mandado em tudo.", "Iniciativa é virtude."),
 ("tr", "Doutrina e Convênios 64:33", "De onde procede o que é grande, segundo D&C 64:33?", "Das pequenas coisas; não vos canseis de fazer o bem.", "Persistência miúda constrói obras grandes."),
 ]

@@ -1857,6 +1857,104 @@
 - 🧠 Ventilação e AVC isquêmico extenso?
 - 🦠 COVID-19 ventilado: prona em quem?
 
+## 🗡️ Casos de Plantão 360X · 01 🧠🫁 Desmame no TCE + SDRA grave no TRM (34)
+
+### Desmame no TCE grave: prontidão
+- 🧠 TCE grave: quais pré-requisitos NEUROLÓGICOS antes de iniciar o desmame?
+- 🧠 Por que o TRE pode ser perigoso no TCE com PIC ainda limítrofe?
+- 🫁 Critérios RESPIRATÓRIOS de prontidão para TRE (valem também no neurocrítico)?
+
+### Desmame no TCE grave: decisão de extubar
+- 🔑 No neurocrítico, passar no TRE garante extubação?
+- 👁️ Escore VISAGE: quais os 4 itens e o ponto de corte?
+- 🧠 GCS ≤ 8 contraindica a extubação no TCE?
+- 🩺 Exame de via aérea à beira do leito antes de extubar o neurocrítico?
+- 📊 Estudo ENIO: taxa de falha de extubação no neurocrítico e impacto?
+- ⏳ Atrasar a extubação 'por segurança' no TCE é neutro?
+
+### Desmame no TCE grave: pós-extubação e traqueostomia
+- 🛏️ Cuidados nas primeiras 48 h após extubar o paciente com TCE?
+- ⚠️ Causas mais comuns de falha de extubação no neurocrítico?
+- 🔪 Quando indicar traqueostomia no TCE grave?
+- ⏰ Traqueostomia PRECOCE × TARDIA no TCE grave: o que a evidência mostra?
+- ⚖️ Qual o nível de evidência das recomendações de VM e desmame na lesão cerebral aguda?
+
+### SDRA grave no TRM: prona com coluna operada
+- 🦴 Paciente com TRM e artrodese há 5 dias, SDRA com P/F &lt; 80: pode pronar?
+- 📋 Checklist da virada em prona no paciente com coluna fixada?
+- ⏱️ Prona na SDRA: quem, quanto tempo e qual o ganho (PROSEVA)?
+- 💓 TRM alto (≥ T6): que evento esperar na virada e na aspiração?
+- 🤓 Curiosidade: por que a artrodese recente quase 'testou' a prona?
+
+### SDRA grave no TRM: ventilação e BNM
+- ⚙️ Números da ventilação protetora na SDRA grave?
+- 🎚️ PEEP e manobras de recrutamento na SDRA moderada a grave: o que dizem as diretrizes?
+- 💊 Bloqueio neuromuscular na SDRA grave precoce: recomenda ou não?
+- ☠️ Por que a SUCCINILCOLINA é proibida no TRM após 48–72 h?
+- 🚫 VAFO e APRV na SDRA grave refratária?
+
+### SDRA grave no TRM: causas reversíveis
+- 🔍 Hipoxemia refratária no TRM: quais causas reversíveis caçar antes de rotular SDRA 'pura'?
+- 🧱 Por que rolha de secreção e atelectasia são tão comuns no TRM?
+- 🩸 TEP no lesado medular operado: por que pensar sempre?
+- 🕳️ PEEP alta piorou a oxigenação. O que suspeitar?
+
+### SDRA grave no TRM: adjuvantes e resgate sem ECMO
+- 💧 SDRA grave já em furosemida: como potencializar o balanço negativo?
+- 💊 Dexametasona na SDRA: qual o esquema e a evidência (DEXA-ARDS)?
+- 🌬️ Óxido nítrico inalado na SDRA grave: quando usar?
+- 🔥 Como reduzir o CONSUMO de O₂ quando a oferta está no limite?
+- 🚑 Critérios EOLIA para ECMO VV: e se não houver ECMO no hospital?
+- 🏆 SDRA grave sem ECMO: ordem prática de prioridades nas primeiras 24 h?
+
+## 18 🧪 SDRA — Terapias Experimentais e Ineficazes (33)
+
+### Princípio geral
+- 🫁 Qual é a base do tratamento da SDRA? Existe farmacoterapia específica de rotina? 🖼️
+- 💊 Na SDRA, entre as terapias anti-inflamatórias, os dados favorecem glicocorticoides; macrolídeos e aspirina não têm benefício convincente.
+
+### Prevenção
+- 🛡️ Algum tratamento demonstrou PREVENIR a SDRA?
+- 💊 LIPS-A: desenho e resultado da aspirina na prevenção da SDRA?
+- 📊 Coorte retrospectiva de 2024 (~10 mil pacientes): o uso de aspirina antes da UTI estava associado a quê? O que concluir?
+- 🌬️ Budesonida + formoterol inalados na prevenção da SDRA: qual o status?
+- 🔪 Sivelestat no pós-operatório de cirurgia cardiovascular (China, n=424): resultado e ressalva?
+- ☀️ Vitamina D em críticos com deficiência: efeito sobre a SDRA?
+
+### Reparo pulmonar
+- 🧬 GM-CSF intravenoso na SDRA: o que mostrou o ECR com 131 pacientes?
+- 🌬️ GM-CSF inalado: o que se viu na SDRA por pneumonia?
+- 🧫 Células estromais mesenquimais, fase I (n=12, alogênicas de tecido adiposo): o que mostrou?
+- 🧫 Células mesenquimais, fase II (n=30, SDRA por pneumonia com fibroproliferação precoce): resultados?
+- 🦠 Células mesenquimais, fase II duplo-cego (n=120, maioria COVID-19): resultado?
+
+### Anti-inflamatórios e antiproteases
+- 🇯🇵 Sivelestat (inibidor da elastase de neutrófilos) como tratamento da SDRA: qual a evidência?
+- ⚠️ Pegadinha: os inibidores da elastase de neutrófilos são benéficos ou ineficazes na SDRA?
+- 💊 Macrolídeos na SDRA: o que mostrou a coorte do ensaio LARMA?
+- 🧠 Por que o benefício dos macrolídeos na SDRA não vale como prova?
+- 💊 Aspirina como TRATAMENTO (não prevenção) da SDRA: há dados?
+- 💨 Monóxido de carbono (CO) inalado na SDRA: status?
+
+### Resgate
+- 🫁 Transplante pulmonar de resgate na SDRA grave: série coreana?
+- 🫁 Transplante pulmonar na SDRA: série de 39 pacientes?
+
+### O cemitério: ineficazes ou nocivas
+- 🪦 Quais antioxidantes e nutrientes falharam como terapia da SDRA?
+- 🪦 Quais terapias sistêmicas ou anti-inflamatórias se mostraram ineficazes ou nocivas na SDRA?
+- 🪦 Quais terapias de alvo pulmonar falharam na SDRA?
+- 💊 Estatinas reduzem a mortalidade da SDRA?
+- 🧴 Surfactante exógeno funciona na SDRA do adulto?
+- 🌬️ β2-agonistas de curta duração (inalados ou sistêmicos) na SDRA?
+- 🐟 Enriquecer a dieta enteral com ômega-3 e antioxidantes na SDRA?
+- 🧠 Mnemônico 360X do cemitério da SDRA: PISCA · BEKI · E · A? 🖼️
+
+### Leitura crítica
+- 📐 Três armadilhas de leitura crítica neste tema (B · B · C)?
+- 🎯 Padrão do capítulo: o que costuma acontecer com terapias para SDRA?
+- 🧪 Em quais fases estão as principais terapias de reparo pulmonar para SDRA?
+
 # 🩺 R3 Clínica Médica
 
 ## 01 🫀 Cardiologia (54)

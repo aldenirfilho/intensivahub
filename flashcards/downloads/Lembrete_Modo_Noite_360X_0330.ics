@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CODICE 360X//Modo Noite//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:modo-noite-360x-0330@codice360x
+DTSTAMP:20261113T033900Z
+DTSTART:20261114T033000
+DTEND:20261114T033500
+RRULE:FREQ=DAILY
+SUMMARY:🌙 Modo Noite 360X · 5 min
+DESCRIPTION:Respiração 4-6 → exame da noite → mensagem → gratidão → bênção. Abra: https://aldenirfilho.github.io/intensivahub/flashcards/#honra
+URL:https://aldenirfilho.github.io/intensivahub/flashcards/#honra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌙 Hora do Modo Noite (5 min)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
