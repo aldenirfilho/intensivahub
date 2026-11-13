@@ -223,6 +223,24 @@ html.lay-mobile .hoRose{grid-template-columns:1fr;grid-template-areas:"c" "n" "l
 
 
 
+/* 🔊 Áudio (4.10.0) */
+.vozBtn{appearance:none;float:right;margin:0 0 6px 10px;border:1px solid var(--line);background:var(--bg2);color:var(--txt);border-radius:999px;min-width:38px;height:34px;padding:0 9px;font-size:16px;line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+.vozBtn.inl{float:none;margin:0 0 0 6px;height:30px;min-width:34px;font-size:15px}
+.vozBtn:hover{border-color:var(--cy)}
+.vozBtn.on,#bVoz.on{border-color:var(--cy);box-shadow:0 0 0 2px rgba(77,212,255,.25);animation:vozP 1.2s ease-in-out infinite}
+@keyframes vozP{50%{box-shadow:0 0 0 5px rgba(77,212,255,.08)}}
+#vozPlayer{position:fixed;left:50%;transform:translateX(-50%);z-index:30;display:none;align-items:center;gap:6px;max-width:calc(100vw - 20px);background:var(--panel);border:1px solid var(--cy);border-radius:999px;padding:6px 8px 6px 14px;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+#vozPlayer.on{display:flex}
+#vozPlayer .vpL{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:46vw}
+#vozPlayer small{color:var(--mut)}
+#vozPlayer .btn.sm{padding:5px 8px}
+.chkL{display:flex;gap:8px;align-items:flex-start;font-size:14px;line-height:1.35;cursor:pointer}
+.chkL input{margin-top:3px;width:18px;height:18px;flex:none}
+@media (prefers-reduced-motion:reduce){.vozBtn.on,#bVoz.on{animation:none}}
+@media (max-width:640px){#vozBtn{padding:5px 6px;min-width:0}}
+@media (max-width:440px){header .brand>.btn,header .brand>#sync{flex-shrink:0}.xpR{display:none}.xpBadge{min-width:40px}.brand h1{font-size:14px}.brand .logo{width:34px;height:34px}#sync{max-width:27px;overflow:hidden;white-space:nowrap;text-overflow:clip;padding:4px 6px}}
+@media (max-width:380px){.brand{gap:5px}.brand h1{font-size:12.5px;letter-spacing:.3px}}
+@media (max-width:340px){.xpBadge{display:none}}
 /*LIGHT-START*/
 html.light{--bg:#f4efe2;--bg2:#fffcf4;--panel:#ffffff;--line:#d9cfb6;--txt:#1d1a14;--mut:#5b6270;--gold:#a47b12;--gold2:#7c5a08;--cy:#0a6f93;--red:#b8322a;--grn:#17783f;--amb:#9a6200;color-scheme:light}
 html.light,html.light body{background:radial-gradient(1200px 600px at 50% -200px,#fff6dc 0%,var(--bg) 60%) fixed}
@@ -329,6 +347,7 @@ html.light .hoOrb small{color:#006299}
   <img src="icon.svg" alt="" aria-hidden="true" class="logo">
   <div class="grow"><h1>CÓDICE 360X</h1><small>Flashcards · TEMI · R3 Clínica Médica</small></div>
   <div id="xpBadge" class="xpBadge"></div>
+  <button class="btn sm vozHdr" id="vozBtn" title="Ouvir esta tela ou o trecho selecionado (L)" aria-label="Ouvir esta tela">🔊</button>
   <button class="btn sm" id="themeBtn" title="Versão clara" aria-label="Alternar tema claro/escuro">☀️</button>
   <button class="btn sm" id="layBtn" title="Alternar visualização celular/desktop">🔄 Auto</button>
   <span id="sync" class="sync" title="Status da sincronização">💾 Local</span>
@@ -374,6 +393,7 @@ html.light .hoOrb small{color:#006299}
  <div id="cardHost"></div>
   <div id="studyEmpty" class="empty" style="display:none"></div>
  <div class="row" id="studyTools" style="margin-top:12px;justify-content:center">
+  <button class="btn sm cy" id="bVoz" title="Ouvir o card (L)">🔊 Ouvir</button>
   <button class="btn sm cy" id="bBack" title="Voltar ao card anterior (←)">⬅️ Voltar</button>
   <button class="btn sm" id="bUndo" title="Desfazer (Z)">↩️ Desfazer</button>
   <button class="btn sm" id="bMark" title="Marcar (M)">🚩 Marcar</button>
@@ -382,7 +402,7 @@ html.light .hoOrb small{color:#006299}
   <button class="btn sm" id="bEnd">⏹️ Encerrar</button>
  </div>
  <div id="hlBar" role="toolbar" aria-label="Destacar texto"><div id="hlTxt"></div><button id="hlY">🟨 Amarelo</button><button id="hlG">🟩 Verde</button><button id="hlDel">🧽 Remover</button><button id="hlX" aria-label="Fechar">✖️</button></div>
- <div class="foot">🖍️ <b>Destacar:</b> selecione um trecho do card → 🟨/🟩 · toque no destaque para trocar ou remover · Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer · <span class="kbd">←</span> voltar · <span class="kbd">→</span> continuar</div>
+ <div class="foot">🖍️ <b>Destacar:</b> selecione um trecho do card → 🟨/🟩 · toque no destaque para trocar ou remover · Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer · <span class="kbd">L</span> ouvir · <span class="kbd">←</span> voltar · <span class="kbd">→</span> continuar</div>
 </section>
 
 <!-- QUESTÕES -->
@@ -466,6 +486,7 @@ html.light .hoOrb small{color:#006299}
 <!-- AJUSTES -->
 <section class="view" id="v-ajustes">
  <h2>⚙️ Ajustes</h2>
+ <div class="panel" id="vozSet"></div>
  <div class="panel grid2">
   <div><label>Cards novos por dia</label><input type="number" id="sNew" min="0" max="500"></div>
   <div><label>Revisões máximas por dia</label><input type="number" id="sRev" min="0" max="9999"></div>
