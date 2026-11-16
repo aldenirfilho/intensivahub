@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.15.0";
+const APP_VERSION = "4.16.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -2545,7 +2545,7 @@ function jStats() {
 }
 const ACH_G = { prox: "⭐ Próximas", ass: "📆 Assiduidade", cat: "📚 Categorias", des: "🎯 Desempenho", est: "🎭 Estilo", tit: "📜 Títulos", hon: "🕊️ Honra", all: "🏅 Todas" };
 const CATS = [["temi", "🏥", "Intensivista", "TEMI 2028"], ["cm", "🩺", "Clínico de Ouro", "R3 Clínica Médica"], ["ecg", "📈", "Leitor de Traçados", "Compêndio de ECG"], ["vmc", "🫁", "Domador do Ventilador", "Curvas de VM"], ["pocus", "🔊", "Vidente do Ultrassom", "POCUS na UTI"],
-  ["gaso", "🧪", "Alquimista Ácido-Base", "Gasometria 360X"], ["ouro", "🧩", "Guardião dos Números", "Números de ouro"], ["ia360c", "✅", "Revisor 360X", "IAs 360X curados"], ["iac", "🧹", "Curador das IAs", "Outras IAs"], ["grok", "🤖", "Domador do Grok", "Grok revisado"]];
+  ["gaso", "🧪", "Alquimista Ácido-Base", "Gasometria 360X"], ["ouro", "🧩", "Guardião dos Números", "Números de ouro"], ["ia360c", "✅", "Revisor 360X", "IAs 360X curados"], ["iac", "🧹", "Curador das IAs", "Outras IAs"], ["grok", "🤖", "Domador do Grok", "Grok revisado"], ["escr", "📜", "Guardião das Escrituras", "Escrituras & Axiomas 360X"]];
 const ACH = { list: [],
   build() {
     const A = (id, tipo, ic, nome, desc, val, goal, grp) => this.list.push({ id, tipo, ic, nome, desc, val, goal, grp });
@@ -2801,7 +2801,8 @@ function refreshHome() {
    <div class="stat"><b>${L.nAns}</b><span>respondidos hoje · ${acc}% ✓</span></div><div class="stat"><b style="color:var(--gold2)">${tot}</b><span>cards · ${mature} maduros</span></div>`;
   renderCharts();
   $("#tree").innerHTML = tot ? treeHTML(buildTree()) : `<li class="empty">Nenhum card. Ative uma coleção em ⚙️ Ajustes ou vá em 📥 Importar.</li>`;
-  $("#homeFoot").innerHTML = Cloud.on ? "☁️ Progresso salvo na sua conta e sincronizado automaticamente entre aparelhos (abra esta mesma página logado)." : "💾 Progresso salvo neste aparelho. Abra o app pela página do Claude para sincronizar automaticamente; ou use ⚙️ Ajustes → Backup.";
+  $("#homeFoot").innerHTML = (Cloud.on ? "☁️ Progresso salvo na sua conta e sincronizado automaticamente entre aparelhos (abra esta mesma página logado)." : "💾 Progresso salvo neste aparelho. Abra o app pela página do Claude para sincronizar automaticamente; ou use ⚙️ Ajustes → Backup.")
+    + `<div class="credAutor">📜 <b>Escrituras &amp; Axiomas 360X</b> · organização e axiomas: <b>Dr. Aldenir Rocha de Oliveira Filho</b> · <a href="autor/axiomas-360x.html">⚜️ Axiomas 360X — edição comentada</a></div>`;   /* 4.16.0 · créditos do autor */
   fillDeckSelects(); setTimeout(() => ACH.check(), 800);
 }
 function fillDeckSelects() {

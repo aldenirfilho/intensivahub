@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.16-gaso450",
+ "versao": "4.16.0",
  "colecoes": [
   {
    "id": "ouro",
@@ -66,6 +66,13 @@
    "icone": "🧪",
    "descricao": "450 flashcards de gasometria: método, acidoses, alcaloses, distúrbios respiratórios, mistos e triplos, oxigenação, gaps, casos de UTI e, desde a 4.14, VM × gasometria, POCUS × gasometria e venosa/gap CO₂/ScvO₂/inotrópicos — 328 casos com laudo e solução passo a passo calculada pelo motor ácido-base.",
    "cards": 450
+  },
+  {
+   "id": "escr",
+   "nome": "Escrituras & Axiomas 360X",
+   "icone": "📜",
+   "descricao": "1128 flashcards de mensagens que importam: Torá, Salmos, Provérbios, Profetas, Evangelhos, Cartas, Talmude, Alcorão, Budismo, Confúcio, Taoísmo, Hinduísmo, Estoicos, filosofia, outras tradições, medicina, personalidades, mitos de citação e os 128 Axiomas 360X do autor com comentários. Organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho.",
+   "cards": 1128
   }
  ],
  "decks": [
@@ -4009,6 +4016,206 @@
     "13 🩸 Venosa × arterial, gap CO₂, ScvO₂ e inotrópicos"
    ],
    "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-01-tora_pentateuco.json",
+   "tema": "01 📖 Torá (Pentateuco)",
+   "cards": 60,
+   "subtemas": [
+    "01 📖 Torá (Pentateuco)"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-02-salmos.json",
+   "tema": "02 🎶 Salmos",
+   "cards": 50,
+   "subtemas": [
+    "02 🎶 Salmos"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-03-proverbios.json",
+   "tema": "03 🦉 Provérbios",
+   "cards": 60,
+   "subtemas": [
+    "03 🦉 Provérbios"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-04-eclesiastes_jo_canticos_lamentacoes.json",
+   "tema": "04 ⏳ Eclesiastes, Jó, Cânticos & Lamentações",
+   "cards": 30,
+   "subtemas": [
+    "04 ⏳ Eclesiastes, Jó, Cânticos & Lamentações"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-05-profetas.json",
+   "tema": "05 🔥 Profetas",
+   "cards": 35,
+   "subtemas": [
+    "05 🔥 Profetas"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-06-evangelhos.json",
+   "tema": "06 ✝️ Evangelhos",
+   "cards": 80,
+   "subtemas": [
+    "06 ✝️ Evangelhos"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-07-atos_cartas_apocalipse.json",
+   "tema": "07 ✉️ Atos, Cartas & Apocalipse",
+   "cards": 70,
+   "subtemas": [
+    "07 ✉️ Atos, Cartas & Apocalipse"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-08-talmude_mishna_pirkei_avot.json",
+   "tema": "08 🕍 Talmude, Mishná & Pirkei Avot",
+   "cards": 60,
+   "subtemas": [
+    "08 🕍 Talmude, Mishná & Pirkei Avot"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-09-alcorao.json",
+   "tema": "09 ☪️ Alcorão",
+   "cards": 100,
+   "subtemas": [
+    "09 ☪️ Alcorão"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-10-budismo.json",
+   "tema": "10 ☸️ Budismo",
+   "cards": 80,
+   "subtemas": [
+    "10 ☸️ Budismo"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-11-confucio_mencio_classicos_chineses.json",
+   "tema": "11 🏮 Confúcio, Mêncio & Clássicos Chineses",
+   "cards": 60,
+   "subtemas": [
+    "11 🏮 Confúcio, Mêncio & Clássicos Chineses"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-12-taoismo.json",
+   "tema": "12 ☯️ Taoísmo",
+   "cards": 40,
+   "subtemas": [
+    "12 ☯️ Taoísmo"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-13-hinduismo_tradicoes_indianas.json",
+   "tema": "13 🕉️ Hinduísmo & Tradições Indianas",
+   "cards": 40,
+   "subtemas": [
+    "13 🕉️ Hinduísmo & Tradições Indianas"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-14-estoicos.json",
+   "tema": "14 🏛️ Estoicos",
+   "cards": 70,
+   "subtemas": [
+    "14 🏛️ Estoicos"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-15-filosofia_classica_crista.json",
+   "tema": "15 🦉 Filosofia Clássica & Cristã",
+   "cards": 40,
+   "subtemas": [
+    "15 🦉 Filosofia Clássica & Cristã"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-16-outras_tradicoes.json",
+   "tema": "16 🌍 Outras Tradições",
+   "cards": 40,
+   "subtemas": [
+    "16 🌍 Outras Tradições"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-17-medicina_cuidado.json",
+   "tema": "17 ⚕️ Medicina & Cuidado",
+   "cards": 30,
+   "subtemas": [
+    "17 ⚕️ Medicina & Cuidado"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-18-personalidades_axiomas_modernos.json",
+   "tema": "18 🌟 Personalidades & Axiomas Modernos",
+   "cards": 35,
+   "subtemas": [
+    "18 🌟 Personalidades & Axiomas Modernos"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-19-mitos_de_citacao.json",
+   "tema": "19 🕵️ Mitos de Citação",
+   "cards": 20,
+   "subtemas": [
+    "19 🕵️ Mitos de Citação"
+   ],
+   "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "escr",
+   "arquivo": "data/decks/escr-20-axiomas_360x_aldenir_rocha_autor.json",
+   "tema": "20 ⚜️ Axiomas 360X — Aldenir Rocha (autor)",
+   "cards": 128,
+   "subtemas": [
+    "20 ⚜️ Axiomas 360X — Aldenir Rocha (autor)"
+   ],
+   "pacote": "pack-8-escr"
   }
  ],
  "pacotes": [
@@ -4119,6 +4326,21 @@
    "cards": 450,
    "bytes": 1344314,
    "gzbytes": 196620
+  },
+  {
+   "nome": "pack-8-escr",
+   "rotulo": "📜 Escrituras & Axiomas 360X",
+   "colecoes": [
+    "escr"
+   ],
+   "gz": "data/packs/pack-8-escr.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-8-escr.json",
+   "sha": "556aa6340a6079a3",
+   "decks": 20,
+   "cards": 1128,
+   "bytes": 1527652,
+   "gzbytes": 173480
   }
  ]
 }

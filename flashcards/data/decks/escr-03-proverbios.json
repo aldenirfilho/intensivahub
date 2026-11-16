@@ -1,0 +1,666 @@
+{
+"formato": "codice360x-v1",
+"baralho": "📜 Escrituras & Axiomas 360X::03 🦉 Provérbios",
+"cards": [
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#38bdf8;color:#0b0f16;font-weight:600\">🧠 Sabedoria &amp; Conhecimento</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O temor do Senhor é o princípio do conhecimento; os loucos desprezam a sabedoria e a instrução.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 1:7</b><br>📚 Provérbios, capítulo 1<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Humildade diante do que é maior abre a mente.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_sabedoria_conhecimento"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#fb923c;color:#0b0f16;font-weight:600\">🏡 Família &amp; Amizade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Ouve, filho meu, a instrução de teu pai e não deixes o ensino de tua mãe.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 1:8</b><br>📚 Provérbios, capítulo 1<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> O que os pais ensinam é herança que não se gasta.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_familia_amizade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#a78bfa;color:#0b0f16;font-weight:600\">🙏 Fé &amp; Transcendência</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Confia no Senhor de todo o teu coração e não te apoies no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 3:5-6</b><br>📚 Provérbios, capítulo 3<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Humildade intelectual também é fé.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_fe_transcendencia"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#2dd4bf;color:#0b0f16;font-weight:600\">⚕️ Saúde &amp; Cuidado</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Não sejas sábio aos teus próprios olhos; teme ao Senhor e aparta-te do mal; isso será saúde para o teu corpo e refrigério para os teus ossos.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 3:7-8</b><br>📚 Provérbios, capítulo 3<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Retidão também faz bem ao corpo.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_saude_cuidado"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Não negues o bem a quem dele precisa, estando em tuas mãos o poder de fazê-lo.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 3:27</b><br>📚 Provérbios, capítulo 3<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Se pode ajudar agora, ajude.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Não digas ao teu próximo: “Vai e volta amanhã”, quando o tens contigo agora.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 3:28</b><br>📚 Provérbios, capítulo 3<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Procrastinar o bem também é negar o bem.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#38bdf8;color:#0b0f16;font-weight:600\">🧠 Sabedoria &amp; Conhecimento</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O princípio da sabedoria é: adquire a sabedoria; sim, com tudo o que possuis, adquire o entendimento.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 4:7</b><br>📚 Provérbios, capítulo 4<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> O melhor investimento é aprender.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_sabedoria_conhecimento"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#818cf8;color:#0b0f16;font-weight:600\">🧘 Autodomínio &amp; Mente</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Sobre tudo o que se deve guardar, guarda o teu coração, porque dele procedem as fontes da vida.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 4:23</b><br>📚 Provérbios, capítulo 4<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Proteja sua mente como protege a casa.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "No hebraico, “lev” (coração) é a sede do pensamento e da vontade, não só do afeto.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_autodominio_mente"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#818cf8;color:#0b0f16;font-weight:600\">🧘 Autodomínio &amp; Mente</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Teus olhos olhem direito, e as tuas pálpebras, diretamente diante de ti. Pondera a vereda de teus pés.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 4:25-26</b><br>📚 Provérbios, capítulo 4<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Foco: um passo por vez, olhando para a frente.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_autodominio_mente"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Vai ter com a formiga, ó preguiçoso; considera os seus caminhos e sê sábio.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 6:6</b><br>📚 Provérbios, capítulo 6<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Constância vence talento.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "A formiga trabalha “sem chefe, sem oficial” (v. 7) — disciplina interna.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#f59e0b;color:#0b0f16;font-weight:600\">⚖️ Justiça &amp; Ética</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Seis coisas o Senhor aborrece, e a sétima a sua alma abomina: olhos altivos, língua mentirosa, mãos que derramam sangue inocente, coração que trama perversidades, pés que correm para o mal, testemunha falsa e quem semeia contendas entre irmãos.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 6:16-19</b><br>📚 Provérbios, capítulo 6<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Uma lista de checagem do caráter.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Estrutura “6… e a 7ª” é recurso clássico da poesia hebraica (numérico ascendente).",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_justica_etica"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“A mão negligente empobrece, mas a mão dos diligentes enriquece.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 10:4</b><br>📚 Provérbios, capítulo 10<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Prosperidade é hábito, não sorte.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#34d399;color:#0b0f16;font-weight:600\">🕊️ Paz &amp; Perdão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O ódio excita contendas, mas o amor cobre todas as transgressões.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 10:12</b><br>📚 Provérbios, capítulo 10<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> O amor escolhe não reabrir feridas.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Citado em 1 Pedro 4:8.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_paz_perdao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#22d3ee;color:#0b0f16;font-weight:600\">🗣️ Palavra &amp; Verdade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Na multidão de palavras não falta transgressão, mas o que modera os lábios é prudente.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 10:19</b><br>📚 Provérbios, capítulo 10<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Quanto mais se fala, mais se erra.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_palavra_verdade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#4ade80;color:#0b0f16;font-weight:600\">🌱 Humildade &amp; Gratidão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Vindo a soberba, vem também a desonra; mas com os humildes está a sabedoria.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 11:2</b><br>📚 Provérbios, capítulo 11<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> O orgulho antecipa o tombo.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_humildade_gratidao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#38bdf8;color:#0b0f16;font-weight:600\">🧠 Sabedoria &amp; Conhecimento</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Onde não há conselho o povo cai, mas na multidão de conselheiros há segurança.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 11:14</b><br>📚 Provérbios, capítulo 11<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Segunda opinião salva.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Princípio por trás das juntas médicas e das reuniões multidisciplinares.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_sabedoria_conhecimento"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#f472b6;color:#0b0f16;font-weight:600\">💛 Amor &amp; Compaixão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O homem bondoso faz bem a si mesmo, mas o cruel faz mal à própria carne.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 11:17</b><br>📚 Provérbios, capítulo 11<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Bondade também é autocuidado.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_amor_compaixao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Há quem dê generosamente e veja seus bens aumentarem… A alma generosa prosperará, e quem dá de beber será saciado.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 11:24-25</b><br>📚 Provérbios, capítulo 11<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> A generosidade volta.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#22d3ee;color:#0b0f16;font-weight:600\">🗣️ Palavra &amp; Verdade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Há quem fale como pontas de espada, mas a língua dos sábios é medicina.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 12:18</b><br>📚 Provérbios, capítulo 12<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Palavras ferem ou curam.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "A ideia de “palavra como remédio” é central na comunicação de más notícias em medicina.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_palavra_verdade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#2dd4bf;color:#0b0f16;font-weight:600\">⚕️ Saúde &amp; Cuidado</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“A ansiedade no coração do homem o abate, mas a boa palavra o alegra.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 12:25</b><br>📚 Provérbios, capítulo 12<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Uma palavra boa é tratamento.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_saude_cuidado"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#22d3ee;color:#0b0f16;font-weight:600\">🗣️ Palavra &amp; Verdade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O que guarda a sua boca conserva a sua vida.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 13:3</b><br>📚 Provérbios, capítulo 13<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Silêncio na hora certa protege.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_palavra_verdade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“A riqueza obtida às pressas diminui, mas quem a ajunta pouco a pouco a aumenta.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 13:11</b><br>📚 Provérbios, capítulo 13<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Desconfie do ganho rápido; patrimônio cresce aos poucos.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#ef4444;color:#0b0f16;font-weight:600\">🛡️ Coragem &amp; Resiliência</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“A esperança adiada adoece o coração, mas o desejo cumprido é árvore de vida.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 13:12</b><br>📚 Provérbios, capítulo 13<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Metas pequenas e alcançáveis alimentam a esperança.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_coragem_resiliencia"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#fb923c;color:#0b0f16;font-weight:600\">🏡 Família &amp; Amizade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Quem anda com os sábios será sábio, mas o companheiro dos tolos sofrerá dano.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 13:20</b><br>📚 Provérbios, capítulo 13<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Você se torna quem frequenta.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_familia_amizade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#38bdf8;color:#0b0f16;font-weight:600\">🧠 Sabedoria &amp; Conhecimento</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O ingênuo acredita em tudo o que ouve, mas o prudente atenta para os seus passos.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 14:15</b><br>📚 Provérbios, capítulo 14<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Verifique antes de confiar.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Vale como regra antigolpe: promessa sem verificação é risco.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_sabedoria_conhecimento"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#818cf8;color:#0b0f16;font-weight:600\">🧘 Autodomínio &amp; Mente</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O que é tardio em irar-se é grande em entendimento, mas o precipitado exalta a loucura.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 14:29</b><br>📚 Provérbios, capítulo 14<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Pausa antes da reação.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_autodominio_mente"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#2dd4bf;color:#0b0f16;font-weight:600\">⚕️ Saúde &amp; Cuidado</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O coração tranquilo é vida para o corpo, mas a inveja é podridão para os ossos.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 14:30</b><br>📚 Provérbios, capítulo 14<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Emoções crônicas adoecem.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Intuição antiga do que hoje estuda a psiconeuroimunologia.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_saude_cuidado"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#34d399;color:#0b0f16;font-weight:600\">🕊️ Paz &amp; Perdão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“A resposta branda desvia o furor, mas a palavra dura suscita a ira.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 15:1</b><br>📚 Provérbios, capítulo 15<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Tom baixo apaga incêndios.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_paz_perdao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#fb923c;color:#0b0f16;font-weight:600\">🏡 Família &amp; Amizade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Melhor é um prato de hortaliças onde há amor do que o boi cevado onde há ódio.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 15:17</b><br>📚 Provérbios, capítulo 15<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Paz em casa vale mais que fartura.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_familia_amizade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#e879f9;color:#0b0f16;font-weight:600\">🎯 Propósito &amp; Ação</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O coração do homem planeja o seu caminho, mas o Senhor lhe dirige os passos.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 16:9</b><br>📚 Provérbios, capítulo 16<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Planeje — e aceite ajustes de rota.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_proposito_acao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#4ade80;color:#0b0f16;font-weight:600\">🌱 Humildade &amp; Gratidão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“A soberba precede a ruína, e a altivez de espírito, a queda.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 16:18</b><br>📚 Provérbios, capítulo 16<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Orgulho é sinal de alarme.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_humildade_gratidao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#2dd4bf;color:#0b0f16;font-weight:600\">⚕️ Saúde &amp; Cuidado</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Palavras agradáveis são como favo de mel: doces para a alma e saúde para os ossos.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 16:24</b><br>📚 Provérbios, capítulo 16<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Gentileza é terapêutica.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_saude_cuidado"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#818cf8;color:#0b0f16;font-weight:600\">🧘 Autodomínio &amp; Mente</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Melhor é o longânimo do que o valente, e o que domina o seu espírito do que o que conquista uma cidade.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 16:32</b><br>📚 Provérbios, capítulo 16<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Vencer a si mesmo é a maior vitória.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "A mesma ideia aparece no Dhammapada 103.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_autodominio_mente"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#fb923c;color:#0b0f16;font-weight:600\">🏡 Família &amp; Amizade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Em todo tempo ama o amigo, e na angústia nasce o irmão.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 17:17</b><br>📚 Provérbios, capítulo 17<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Amigos se revelam na crise.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_familia_amizade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#2dd4bf;color:#0b0f16;font-weight:600\">⚕️ Saúde &amp; Cuidado</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O coração alegre é bom remédio, mas o espírito abatido seca os ossos.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 17:22</b><br>📚 Provérbios, capítulo 17<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Alegria é medicina.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Um dos textos mais antigos sobre a ligação entre humor e saúde.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_saude_cuidado"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#22d3ee;color:#0b0f16;font-weight:600\">🗣️ Palavra &amp; Verdade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Até o tolo, quando se cala, é tido por sábio.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 17:28</b><br>📚 Provérbios, capítulo 17<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Na dúvida, escute mais.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_palavra_verdade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#22d3ee;color:#0b0f16;font-weight:600\">🗣️ Palavra &amp; Verdade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Responder antes de ouvir é estultícia e vergonha.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 18:13</b><br>📚 Provérbios, capítulo 18<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Ouça até o fim antes de concluir.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Regra de ouro da anamnese: deixe o paciente terminar.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_palavra_verdade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#22d3ee;color:#0b0f16;font-weight:600\">🗣️ Palavra &amp; Verdade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“A morte e a vida estão no poder da língua.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 18:21</b><br>📚 Provérbios, capítulo 18<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Palavras têm consequências reais.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_palavra_verdade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#818cf8;color:#0b0f16;font-weight:600\">🧘 Autodomínio &amp; Mente</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Não é bom agir sem refletir; quem se apressa com os pés erra o caminho.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 19:2</b><br>📚 Provérbios, capítulo 19<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Pressa é inimiga da direção.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_autodominio_mente"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#34d399;color:#0b0f16;font-weight:600\">🕊️ Paz &amp; Perdão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“A prudência do homem o faz tardio em irar-se, e sua glória é passar por cima da ofensa.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 19:11</b><br>📚 Provérbios, capítulo 19<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Relevar também é força.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_paz_perdao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Quem se compadece do pobre empresta ao Senhor, e ele lhe retribuirá o benefício.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 19:17</b><br>📚 Provérbios, capítulo 19<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Dar é o melhor investimento.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#2dd4bf;color:#0b0f16;font-weight:600\">⚕️ Saúde &amp; Cuidado</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O vinho é escarnecedor, e a bebida forte, alvoroçadora; quem por eles é vencido não é sábio.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 20:1</b><br>📚 Provérbios, capítulo 20<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Quem bebe demais perde o comando.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_saude_cuidado"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Os planos do diligente conduzem à abundância, mas todo apressado chega à pobreza.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 21:5</b><br>📚 Provérbios, capítulo 21<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Planejamento vence impulso.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#22d3ee;color:#0b0f16;font-weight:600\">🗣️ Palavra &amp; Verdade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Mais vale o bom nome do que as muitas riquezas; e a boa reputação, mais do que prata e ouro.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 22:1</b><br>📚 Provérbios, capítulo 22<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Reputação é patrimônio.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_palavra_verdade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O rico domina sobre o pobre, e quem toma emprestado é servo de quem empresta.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 22:7</b><br>📚 Provérbios, capítulo 22<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Dívida é perda de liberdade.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Não estejas entre os que se comprometem e ficam por fiadores de dívidas.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 22:26</b><br>📚 Provérbios, capítulo 22<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Não assine dívida alheia.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Fiança e “empréstimo de nome” estão entre os golpes financeiros mais antigos.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#ef4444;color:#0b0f16;font-weight:600\">🛡️ Coragem &amp; Resiliência</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Sete vezes cai o justo e se levanta.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 24:16</b><br>📚 Provérbios, capítulo 24<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Cair faz parte; levantar é a escolha.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_coragem_resiliencia"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#34d399;color:#0b0f16;font-weight:600\">🕊️ Paz &amp; Perdão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Quando cair o teu inimigo, não te alegres.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 24:17</b><br>📚 Provérbios, capítulo 24<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Não comemore a queda de ninguém.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Shmuel HaKatan adotou este versículo como sua máxima (Pirkei Avot 4:19).",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_paz_perdao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#22d3ee;color:#0b0f16;font-weight:600\">🗣️ Palavra &amp; Verdade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Como maçãs de ouro em salvas de prata, assim é a palavra dita a seu tempo.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 25:11</b><br>📚 Provérbios, capítulo 25<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> O momento certo dá valor à palavra.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_palavra_verdade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#34d399;color:#0b0f16;font-weight:600\">🕊️ Paz &amp; Perdão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Se o teu inimigo tiver fome, dá-lhe pão; se tiver sede, dá-lhe água; assim amontoarás brasas sobre a sua cabeça.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 25:21-22</b><br>📚 Provérbios, capítulo 25<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Bondade desarma.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Paulo cita esta passagem em Romanos 12:20.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_paz_perdao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#818cf8;color:#0b0f16;font-weight:600\">🧘 Autodomínio &amp; Mente</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Como cidade derrubada, sem muros, é o homem que não domina o seu espírito.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 25:28</b><br>📚 Provérbios, capítulo 25<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Autocontrole é a muralha da alma.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_autodominio_mente"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#94a3b8;color:#0b0f16;font-weight:600\">⏳ Tempo &amp; Mortalidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Não te glories do dia de amanhã, pois não sabes o que ele trará.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 27:1</b><br>📚 Provérbios, capítulo 27<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Planeje, mas não conte com o amanhã.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_tempo_mortalidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#4ade80;color:#0b0f16;font-weight:600\">🌱 Humildade &amp; Gratidão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Que outro te louve, e não a tua boca.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 27:2</b><br>📚 Provérbios, capítulo 27<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Deixe o trabalho falar.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_humildade_gratidao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#fb923c;color:#0b0f16;font-weight:600\">🏡 Família &amp; Amizade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Leais são as feridas feitas pelo que ama, mas os beijos do inimigo são enganosos.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 27:6</b><br>📚 Provérbios, capítulo 27<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Desconfie do bajulador; valorize o franco.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_familia_amizade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#fb923c;color:#0b0f16;font-weight:600\">🏡 Família &amp; Amizade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Como o ferro afia o ferro, assim o homem afia o seu amigo.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 27:17</b><br>📚 Provérbios, capítulo 27<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Bons pares nos tornam melhores.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_familia_amizade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#4ade80;color:#0b0f16;font-weight:600\">🌱 Humildade &amp; Gratidão</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O que encobre as suas transgressões nunca prosperará, mas o que as confessa e abandona alcançará misericórdia.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 28:13</b><br>📚 Provérbios, capítulo 28<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Admitir o erro é o começo do conserto.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "Princípio da cultura de segurança do paciente: notificar o erro para não repeti-lo.",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_humildade_gratidao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#818cf8;color:#0b0f16;font-weight:600\">🧘 Autodomínio &amp; Mente</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“O tolo despeja toda a sua ira, mas o sábio a domina e a acalma.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 29:11</b><br>📚 Provérbios, capítulo 29<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Sentir raiva é humano; descarregá-la é escolha.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_autodominio_mente"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#e879f9;color:#0b0f16;font-weight:600\">🎯 Propósito &amp; Ação</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Onde não há visão, o povo se corrompe.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 29:18</b><br>📚 Provérbios, capítulo 29<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Sem visão, falta direção.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_proposito_acao"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#facc15;color:#0b0f16;font-weight:600\">💰 Prosperidade &amp; Generosidade</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Não me dês nem a pobreza nem a riqueza; dá-me o pão que me é necessário.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 30:8-9</b><br>📚 Provérbios, capítulo 30<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> O suficiente é uma forma de riqueza.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_prosperidade_generosidade"
+]
+},
+{
+"frente": "<div style=\"font-size:13px;margin-bottom:8px\"><span style=\"display:inline-block;padding:2px 9px;border-radius:999px;background:#f59e0b;color:#0b0f16;font-weight:600\">⚖️ Justiça &amp; Ética</span></div><div style=\"font-family:Georgia,'Times New Roman',serif;font-size:1.15em;line-height:1.5;border-left:4px solid #d4af37;padding:8px 14px;border-radius:6px;background:rgba(212,175,55,.07)\">“Abre a tua boca a favor do mudo, pela causa de todos os desamparados… julga com justiça e defende o pobre e o necessitado.”</div><div style=\"margin-top:10px;font-weight:600;color:#22b8d6\">🔎 Qual é a fonte? (tradição · livro · capítulo/versículo)</div>",
+"verso": "📍 <b>Provérbios 31:8-9</b><br>📚 Provérbios, capítulo 31<br>🏛️ Provérbios · Bíblia Hebraica<div style=\"margin-top:10px;padding:9px 12px;border-radius:9px;border:1px solid rgba(34,184,214,.45);background:rgba(34,184,214,.07)\">💡 <b>Lição:</b> Dê voz a quem não tem.</div><div style=\"margin-top:8px;font-size:12.5px;opacity:.8\">✅ Texto de fonte localizada · Tradução livre do hebraico (numeração de versículos como na Almeida)</div>",
+"pegadinha": "",
+"fonte": "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho",
+"tags": [
+"ESCR",
+"ESCR_T03",
+"tema_justica_etica"
+]
+}
+]
+}
