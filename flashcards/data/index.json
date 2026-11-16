@@ -4372,11 +4372,11 @@
    "gz": "data/packs/pack-8-escr.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-8-escr.json",
-   "sha": "e69434421a5bb562",
+   "sha": "55fe669acee397c1",
    "decks": 20,
    "cards": 1135,
-   "bytes": 1597836,
-   "gzbytes": 176740
+   "bytes": 1599247,
+   "gzbytes": 177528
   }
  ]
 }

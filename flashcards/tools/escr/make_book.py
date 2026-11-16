@@ -153,7 +153,7 @@ def montar(ax, edicao="tela"):
     P.append(f"""<section class="pg capa" id="capa">{BRASAO}
 <div class="sup">Códice 360X · Edição comentada</div>
 <h1>AXIOMAS 360X</h1>
-<div class="sub">Cento e vinte e oito axiomas de medicina, honra e humanidade</div>
+<div class="sub">Cento e trinta e cinco axiomas de medicina, honra e humanidade</div>
 <div class="aut">{AUTOR}</div>
 <div class="ed">1ª edição comentada · {DATA}</div></section>""")
     if not tela:
@@ -169,7 +169,7 @@ def montar(ax, edicao="tela"):
 <b>Texto dos axiomas:</b> transcrito sem alteração do catálogo “Axiomas 360X”, mantido pelo autor (versões lapidadas, consulta de {DATA}).<br>
 <b>Comentários:</b> edição Códice 360X, escritos com assistência do Claude (Anthropic) e assinalados como “Comentário” em cada axioma — não são palavras do autor.<br>
 <b>Edição:</b> digital (HTML e PDF), 1ª edição comentada. Sem ISBN.<br>
-<b>Organização:</b> 135 axiomas em dez eixos e o Armorial do Realmetaverso. Os axiomas 101 a 135 aparecem sob o eixo de tema mais próximo, como no catálogo, até o autor confirmar os eixos XI a XX.<br>
+<b>Organização:</b> 135 axiomas em dez eixos e o Armorial do Realmetaverso. Os axiomas 101 a 135 aparecem sob o eixo de tema mais próximo, como no catálogo, até o autor confirmar os eixos XI a XXIV.<br>
 <b>Selos:</b> <i>Lapidado</i> (versão editada e aprovada), <i>Confirmado pelo autor</i> e <i>Proposta do autor</i> (ideia ou hipótese ainda em aberto; hipóteses de pesquisa não são conduta médica).<br>
 <b>Tipografia:</b> Lora (SIL Open Font License).<br>
 <b>Uso:</b> as ideias podem circular livremente; o crédito ao autor é devido (axioma 109).</div></section>""")

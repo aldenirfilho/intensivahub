@@ -11,7 +11,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from make_book import AUTOR, BRASAO, font_face, OUT  # noqa: E402
 
-PAG = int(sys.argv[1]) if len(sys.argv) > 1 else 96          # 83 páginas → 96 (cadernos de 16)
+PAG = int(sys.argv[1]) if len(sys.argv) > 1 else 96          # 87 páginas → 96 (cadernos de 16)
 FOLHA = float(sys.argv[2]) if len(sys.argv) > 2 else 0.11    # offset 90 g/m² ≈ 0,11 mm por folha
 CARTAO = 2.5                                                 # papelão de cada capa (mm)
 LOMBADA = round(PAG / 2 * FOLHA + 2 * CARTAO + 1, 1)          # miolo + 2 cartões + folga
@@ -58,12 +58,12 @@ body{{width:{W}mm;height:{H}mm;position:relative;overflow:hidden;background:#0b0
 <div class="moldura" style="left:{x_prim + 5}mm;top:{VIRA + 5}mm;width:{BW - 10}mm;height:{BH - 10}mm"></div>
 <div class="moldura" style="left:{x_quarta + 5}mm;top:{VIRA + 5}mm;width:{BW - 10}mm;height:{BH - 10}mm"></div>
 <div class="quarta"><blockquote>“A prosperidade justa é o reconhecimento da honra e do mérito.”</blockquote><div class="who">AXIOMA 57 · LEMA DA COLEÇÃO</div>
-<p>Cento e vinte e oito axiomas formulados entre a beira do leito da terapia intensiva e as conversas sobre família, trabalho, dinheiro e honra. Cada um aparece como o autor o aprovou, seguido de um comentário curto que mostra como se aplica e com quais textos antigos dialoga — da Torá ao Dhammapada, de Sêneca aos Analectos.</p>
+<p>Cento e trinta e cinco axiomas formulados entre a beira do leito da terapia intensiva e as conversas sobre família, trabalho, dinheiro e honra. Cada um aparece como o autor o aprovou, seguido de um comentário curto que mostra como se aplica e com quais textos antigos dialoga — da Torá ao Dhammapada, de Sêneca aos Analectos.</p>
 <p>Uma edição para ler devagar, um axioma por dia.</p></div>
 <div class="isbn">Espaço do código de barras (ISBN)</div>
 <div class="lomb"><div>AXIOMAS 360X<b>⚜</b>{AUTOR}</div></div>
 <div class="prim">{BRASAO}<div class="sup">Códice 360X · edição comentada</div><h1>AXIOMAS 360X</h1>
-<div class="sub">Cento e vinte e oito axiomas de medicina, honra e humanidade</div><div class="aut">{AUTOR}</div></div>
+<div class="sub">Cento e trinta e cinco axiomas de medicina, honra e humanidade</div><div class="aut">{AUTOR}</div></div>
 {g}</body></html>"""
 
 

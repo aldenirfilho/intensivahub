@@ -5,13 +5,13 @@
 ## 📦 Arquivos prontos
 | Arquivo | O que é |
 |---|---|
-| `Axiomas_360X_Miolo_Impressao_A5_sangria3mm.pdf` | Miolo 154×216 mm (A5 148×210 + 3 mm de sangria), **83 páginas**, margens espelhadas (miolo 23 mm do lado da costura), numeração no pé, com a página **“Sobre o autor”** reservada |
+| `Axiomas_360X_Miolo_Impressao_A5_sangria3mm.pdf` | Miolo 154×216 mm (A5 148×210 + 3 mm de sangria), **87 páginas**, margens espelhadas (miolo 23 mm do lado da costura), numeração no pé, com a página **“Sobre o autor”** reservada |
 | `Axiomas_360X_Capa_Dura_arte.pdf` | Capa dura aberta (4ª capa + lombada + 1ª capa), 357×246 mm, sem guias |
 | `Axiomas_360X_Capa_Dura_gabarito.pdf` | A mesma capa com as linhas de dobra, lombada e virada marcadas |
 | `make_book.py` · `make_cover.py` | Geradores: refazem tudo depois de cada ajuste |
 
 ## ✅ Antes de imprimir (em ordem)
-1. ✍️ **Revisar os 128 comentários** (lotes de 10 em andamento) — aprovar, reescrever ou cortar.
+1. ✍️ **Revisar os 135 comentários** (lotes de 10 em andamento) — aprovar, reescrever ou cortar.
 2. 🖊️ **Escrever o “Sobre o autor”** (6 a 10 linhas; o que você quer que o leitor saiba — formação, prática, por que escreve). Só entra o que você escrever.
 3. 🔎 Confirmar a numeração pendente (Sêneca, *Sobre a Providência* 5.9 ou 5.10 — está no baralho, não no livro).
 4. 🔢 **ISBN** (passos abaixo) → o número entra na ficha da edição e o código de barras na 4ª capa (caixa tracejada).
