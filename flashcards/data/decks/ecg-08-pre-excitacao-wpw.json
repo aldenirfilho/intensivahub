@@ -1,0 +1,218 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::08 ⚡ Pré-excitação (WPW)",
+ "midia": {
+  "ecg_133.png": "data/media/ecg/ecg-08.json#ecg_133.png",
+  "ecg_134.png": "data/media/ecg/ecg-08.json#ecg_134.png",
+  "ecg_135.png": "data/media/ecg/ecg-08.json#ecg_135.png",
+  "ecg_136.png": "data/media/ecg/ecg-08.json#ecg_136.png",
+  "ecg_137.png": "data/media/ecg/ecg-08.json#ecg_137.png",
+  "ecg_138.png": "data/media/ecg/ecg-08.json#ecg_138.png",
+  "ecg_139.png": "data/media/ecg/ecg-08.json#ecg_139.png",
+  "ecg_140.png": "data/media/ecg/ecg-08.json#ecg_140.png",
+  "ecg_141.png": "data/media/ecg/ecg-08.json#ecg_141.png",
+  "ecg_142.png": "data/media/ecg/ecg-08.json#ecg_142.png",
+  "ecg_143.png": "data/media/ecg/ecg-08.json#ecg_143.png",
+  "ecg_144.png": "data/media/ecg/ecg-08.json#ecg_144.png",
+  "ecg_145.png": "data/media/ecg/ecg-08.json#ecg_145.png",
+  "ecg_146.png": "data/media/ecg/ecg-08.json#ecg_146.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #133</b> · Jovem com palpitações paroxísticas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_133.png",
+   "verso": "✅ <b>Pré-excitação ventricular (WPW) – via lateral esquerda</b><br>🔎 PR &lt; 120 ms, onda delta, QRS ≥ 110–120 ms, ST-T secundário; delta positiva em V1 (tipo A) e negativa em I/aVL.<br>⚡ <b>Conduta:</b> Sintomático: ablação por cateter. Estratificar risco de condução rápida pela via.",
+   "pegadinha": "Delta negativa em I/aVL simula Q de IAM lateral.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #134</b> · Laudo prévio de 'IAM inferior antigo' em jovem.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_134.png",
+   "verso": "✅ <b>WPW póstero-septal (pseudo-Q inferior)</b><br>🔎 Delta negativa em III e aVF simulando Q; PR curto.<br>⚡ <b>Conduta:</b> Não é infarto: estratificar via acessória.",
+   "pegadinha": "PR curto + 'Q' em jovem sem DAC = pensar em pré-excitação.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #135</b> · Palpitações; QRS com aspecto de BRE.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_135.png",
+   "verso": "✅ <b>WPW de parede livre direita (tipo B)</b><br>🔎 Delta negativa em V1, QRS com padrão tipo BRE e PR curto.<br>⚡ <b>Conduta:</b> Estratificação/ablação.",
+   "pegadinha": "BRE verdadeiro não tem PR curto.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #136</b> · ECG com QRS mudando de batimento a batimento.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_136.png",
+   "verso": "✅ <b>Pré-excitação intermitente</b><br>🔎 Batimentos com PR curto + delta alternando com batimentos normais.<br>⚡ <b>Conduta:</b> Pré-excitação intermitente sugere via de período refratário longo (menor risco), mas não substitui estratificação.",
+   "pegadinha": "Perda abrupta da delta no esforço também indica via de baixo risco.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #137</b> · Palpitações e tontura em jovem.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_137.png",
+   "verso": "✅ <b>FA pré-excitada (FBI: rápida, larga, irregular)</b><br>🔎 QRS largos de morfologias variáveis, RR irregular, FC muito alta (RR curtos &lt; 250 ms).<br>⚡ <b>Conduta:</b> Instável: cardioversão. Estável: procainamida/ibutilida. Evitar adenosina, BCC, betabloqueador, digoxina e amiodarona EV.",
+   "pegadinha": "Bloquear o nó AV desvia toda a condução para a via → FV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #138</b> · WPW conhecido, taquicardia regular larga.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_138.png",
+   "verso": "✅ <b>TRAV antidrômica</b><br>🔎 Taquicardia regular de QRS largo e totalmente pré-excitado.<br>⚡ <b>Conduta:</b> Instável: cardioversão; estável: procainamida. Ablação.",
+   "pegadinha": "Difícil de diferenciar de TV: na dúvida, trate como TV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #139</b> · Conduta inicial na FA pré-excitada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_139.png",
+   "verso": "✅ <b>FA pré-excitada: drogas proibidas</b><br>🔎 FA irregular com QRS largos variáveis e FC &gt; 200.<br>⚡ <b>Conduta:</b> Cardioversão elétrica ou procainamida. Ablação depois.",
+   "pegadinha": "Proibidos: adenosina, verapamil/diltiazem, betabloqueador, digoxina (e amiodarona EV é controversa).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #140</b> · Taquicardia regular com padrão de BRE e eixo à esquerda.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_140.png",
+   "verso": "✅ <b>Taquicardia por via atriofascicular (Mahaim)</b><br>🔎 Taquicardia antidrômica com morfologia de BRE.<br>⚡ <b>Conduta:</b> Estudo eletrofisiológico e ablação.",
+   "pegadinha": "ECG basal pode ser normal ou com pré-excitação mínima.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #141</b> · Avaliar risco de morte súbita.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_141.png",
+   "verso": "✅ <b>Pré-excitação com RR pré-excitado muito curto</b><br>🔎 Menor intervalo RR pré-excitado na FA ≤ 250 ms.<br>⚡ <b>Conduta:</b> Marcador de via de alto risco: ablação.",
+   "pegadinha": "RR pré-excitado curto = alta capacidade de condução da via.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #142</b> · Delta discreta; risco de passar despercebida.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_142.png",
+   "verso": "✅ <b>Pré-excitação sutil</b><br>🔎 PR no limite inferior com empastamento inicial do QRS em I, aVL e V6.<br>⚡ <b>Conduta:</b> Olhe o início do QRS em todas as derivações.",
+   "pegadinha": "Vias esquerdas podem ter pré-excitação discreta em ritmo sinusal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #143</b> · Voltagem aumentada em jovem.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_143.png",
+   "verso": "✅ <b>Pré-excitação simulando HVE</b><br>🔎 QRS amplos com delta e PR curto.<br>⚡ <b>Conduta:</b> Não diagnosticar HVE na presença de pré-excitação.",
+   "pegadinha": "Critérios de voltagem não valem com WPW.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #144</b> · Localizar a via acessória.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_144.png",
+   "verso": "✅ <b>Via acessória posterosseptal pelo ECG</b><br>🔎 Delta negativa em III/aVF e transição precoce em V1–V2.<br>⚡ <b>Conduta:</b> Algoritmos baseados na delta orientam a ablação.",
+   "pegadinha": "A polaridade da delta em V1 separa vias esquerdas (positiva) de direitas (negativa).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #145</b> · Atleta assintomático com pré-excitação.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_145.png",
+   "verso": "✅ <b>Padrão de WPW assintomático</b><br>🔎 Pré-excitação sem histórico de taquicardia.<br>⚡ <b>Conduta:</b> Estratificação de risco (teste de esforço, EEF) é recomendada em atletas e profissões de risco.",
+   "pegadinha": "'Padrão WPW' (sem arritmia) ≠ 'síndrome de WPW' (com taquicardia).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #146</b> · Revisar a fisiologia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_146.png",
+   "verso": "✅ <b>Tríade da pré-excitação</b><br>🔎 1) PR curto (&lt; 120 ms); 2) onda delta; 3) QRS largo com ST-T secundário.<br>⚡ <b>Conduta:</b> A via conduz rápido (sem o atraso do nó AV) e ativa o ventrículo célula a célula.",
+   "pegadinha": "Ritmo de fusão: o QRS é a soma da via + sistema normal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T08",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

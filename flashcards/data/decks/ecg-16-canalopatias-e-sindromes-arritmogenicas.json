@@ -1,0 +1,158 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::16 🧬 Canalopatias e síndromes arritmogênicas",
+ "midia": {
+  "ecg_273.png": "data/media/ecg/ecg-16.json#ecg_273.png",
+  "ecg_274.png": "data/media/ecg/ecg-16.json#ecg_274.png",
+  "ecg_275.png": "data/media/ecg/ecg-16.json#ecg_275.png",
+  "ecg_276.png": "data/media/ecg/ecg-16.json#ecg_276.png",
+  "ecg_277.png": "data/media/ecg/ecg-16.json#ecg_277.png",
+  "ecg_278.png": "data/media/ecg/ecg-16.json#ecg_278.png",
+  "ecg_279.png": "data/media/ecg/ecg-16.json#ecg_279.png",
+  "ecg_280.png": "data/media/ecg/ecg-16.json#ecg_280.png",
+  "ecg_281.png": "data/media/ecg/ecg-16.json#ecg_281.png",
+  "ecg_282.png": "data/media/ecg/ecg-16.json#ecg_282.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #273</b> · Síncope noturna; tio com morte súbita aos 40 anos.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_273.png",
+   "verso": "✅ <b>Padrão de Brugada tipo 1 (cúpula)</b><br>🔎 Supra ≥ 2 mm em cúpula em V1–V2 seguido de T negativa.<br>⚡ <b>Conduta:</b> Síncope arrítmica ou PCR recuperada: CDI. Tratar febre agressivamente; evitar drogas da lista; quinidina em tempestade.",
+   "pegadinha": "Eletrodos V1–V2 no 2º espaço intercostal aumentam a sensibilidade.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #274</b> · Assintomático, achado em exame.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_274.png",
+   "verso": "✅ <b>Padrão de Brugada tipo 2 ('sela')</b><br>🔎 Supra em sela ≥ 0,5 mm (≥ 2 mm no ponto J) em V1–V2 com T positiva/bifásica.<br>⚡ <b>Conduta:</b> Não diagnóstico isolado: teste com ajmalina/procainamida, ECG em espaço alto.",
+   "pegadinha": "Somente o tipo 1 é diagnóstico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #275</b> · Síncope durante natação.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_275.png",
+   "verso": "✅ <b>QT longo congênito tipo 1 (T de base larga)</b><br>🔎 QTc prolongado com T de base larga.<br>⚡ <b>Conduta:</b> Betabloqueador (nadolol/propranolol); evitar natação competitiva e drogas que prolongam QT; CDI se alto risco.",
+   "pegadinha": "Gatilhos: LQT1 exercício/natação; LQT2 susto/alarme; LQT3 sono.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #276</b> · Síncope ao toque do despertador.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_276.png",
+   "verso": "✅ <b>QT longo congênito tipo 2 (T bífida)</b><br>🔎 QTc longo com T entalhada/bífida de baixa amplitude.<br>⚡ <b>Conduta:</b> Betabloqueador; manter K⁺ alto-normal; evitar estímulos auditivos súbitos.",
+   "pegadinha": "LQT2 é canal de K⁺ (hERG) — o mesmo afetado por muitas drogas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #277</b> · Morte súbita familiar durante o sono.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_277.png",
+   "verso": "✅ <b>QT longo congênito tipo 3 (ST longo, T tardia)</b><br>🔎 Segmento ST longo e isoelétrico com T estreita e tardia.<br>⚡ <b>Conduta:</b> Betabloqueador + mexiletina (bloqueio de sódio tardio); CDI se alto risco.",
+   "pegadinha": "Eventos em repouso/sono e bradicardia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #278</b> · Jovem com FA e síncope.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_278.png",
+   "verso": "✅ <b>Síndrome do QT curto</b><br>🔎 QTc ≤ 340–360 ms com T alta e apiculada, ST quase ausente.<br>⚡ <b>Conduta:</b> CDI se PCR/síncope; quinidina pode prolongar o QT.",
+   "pegadinha": "Excluir hipercalcemia, digoxina, hipertermia e acidose.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #279</b> · PCR recuperada em jovem, ECG prévio.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_279.png",
+   "verso": "✅ <b>Síndrome da repolarização precoce (ondas J inferolaterais)</b><br>🔎 Ondas J ≥ 1 mm em derivações inferiores/laterais com ST horizontal após o J.<br>⚡ <b>Conduta:</b> Com PCR documentada: CDI; quinidina/isoproterenol em tempestade.",
+   "pegadinha": "Padrão benigno é comum; síndrome = padrão + arritmia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #280</b> · Adolescente com síncope ao esforço; ECG basal normal.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_280.png",
+   "verso": "✅ <b>Taquicardia ventricular polimórfica catecolaminérgica (TVPC)</b><br>🔎 TV bidirecional/polimórfica desencadeada por esforço ou emoção, com ECG de repouso normal.<br>⚡ <b>Conduta:</b> Betabloqueador (nadolol) + flecainida; restringir esforço; simpatectomia/CDI.",
+   "pegadinha": "Teste ergométrico revela o diagnóstico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #281</b> · Brugada conhecido, febre de 39 °C.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_281.png",
+   "verso": "✅ <b>Brugada desmascarado pela febre</b><br>🔎 Taquicardia + supra em cúpula V1–V2.<br>⚡ <b>Conduta:</b> Antitérmico precoce e monitorização (risco de FV).",
+   "pegadinha": "Febre é gatilho importante, sobretudo em crianças.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #282</b> · Como medir o QT?<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_282.png",
+   "verso": "✅ <b>Medida do QT e correção</b><br>🔎 QT do início do QRS ao fim da T (método da tangente) em II ou V5; QTc por Bazett (QT/√RR) ou Fridericia (QT/∛RR).<br>⚡ <b>Conduta:</b> Bazett superestima em FC alta: prefira Fridericia/Framingham na taquicardia.",
+   "pegadinha": "Longo: &gt; 450 ms (homem) / &gt; 460–470 ms (mulher); alto risco &gt; 500 ms.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T16",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

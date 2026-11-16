@@ -1,0 +1,98 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::18 🔋 Marca-passo",
+ "midia": {
+  "ecg_295.png": "data/media/ecg/ecg-18.json#ecg_295.png",
+  "ecg_296.png": "data/media/ecg/ecg-18.json#ecg_296.png",
+  "ecg_297.png": "data/media/ecg/ecg-18.json#ecg_297.png",
+  "ecg_298.png": "data/media/ecg/ecg-18.json#ecg_298.png",
+  "ecg_299.png": "data/media/ecg/ecg-18.json#ecg_299.png",
+  "ecg_300.png": "data/media/ecg/ecg-18.json#ecg_300.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #295</b> · Portador de marca-passo por BAVT.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_295.png",
+   "verso": "✅ <b>Ritmo de marca-passo ventricular (VVI) normal</b><br>🔎 Espícula seguida de QRS largo com padrão de BRE e eixo superior (eletrodo no ápice do VD).<br>⚡ <b>Conduta:</b> Normal: cada espícula captura; FC no limite programado.",
+   "pegadinha": "Estimulação septal/His gera QRS mais estreito.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T18",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #296</b> · Marca-passo dupla câmara.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_296.png",
+   "verso": "✅ <b>Ritmo de marca-passo DDD (átrio e ventrículo estimulados)</b><br>🔎 Espícula atrial → P, espícula ventricular → QRS largo.<br>⚡ <b>Conduta:</b> Normal.",
+   "pegadinha": "Pode sentir a P própria e só estimular o ventrículo (rastreamento).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T18",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #297</b> · Tontura em portador de marca-passo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_297.png",
+   "verso": "✅ <b>Perda de captura (falha de comando)</b><br>🔎 Espículas não seguidas de QRS.<br>⚡ <b>Conduta:</b> Rx (deslocamento), checar limiar, eletrólitos/fármacos; marca-passo transcutâneo se instável.",
+   "pegadinha": "Hipercalemia, acidose, isquemia e antiarrítmicos aumentam o limiar.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T18",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #298</b> · Espículas 'aleatórias' sobre o ritmo próprio.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_298.png",
+   "verso": "✅ <b>Falha de sensibilidade (undersensing)</b><br>🔎 Espículas que aparecem apesar de QRS próprios, inclusive sobre a T.<br>⚡ <b>Conduta:</b> Reprogramar sensibilidade; risco de espícula na T (TV/FV).",
+   "pegadinha": "Ímã sobre o gerador provoca estimulação assíncrona proposital (VOO).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T18",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #299</b> · Pausa sem espícula ao mexer o braço.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_299.png",
+   "verso": "✅ <b>Oversensing (inibição inapropriada)</b><br>🔎 Pausa sem espícula: o marca-passo 'viu' ruído/miopotencial e inibiu.<br>⚡ <b>Conduta:</b> Avaliar eletrodo (fratura), reprogramar sensibilidade; ímã como ponte.",
+   "pegadinha": "Pausa SEM espícula = oversensing; espícula SEM captura = falha de comando.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T18",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #300</b> · IC com BRE, pós-implante de TRC.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_300.png",
+   "verso": "✅ <b>Estimulação biventricular (TRC)</b><br>🔎 QRS estimulado mais estreito, com R dominante em V1 e Q/negativo em I.<br>⚡ <b>Conduta:</b> Objetivo: estimulação biventricular ≥ 98% do tempo.",
+   "pegadinha": "Perda de captura do VE: QRS volta a padrão BRE de VD.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T18",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

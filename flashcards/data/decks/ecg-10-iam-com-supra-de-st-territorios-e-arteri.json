@@ -1,0 +1,368 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::10 🚨 IAM com supra de ST: territórios e artéria culpada",
+ "midia": {
+  "ecg_169.png": "data/media/ecg/ecg-10.json#ecg_169.png",
+  "ecg_170.png": "data/media/ecg/ecg-10.json#ecg_170.png",
+  "ecg_171.png": "data/media/ecg/ecg-10.json#ecg_171.png",
+  "ecg_172.png": "data/media/ecg/ecg-10.json#ecg_172.png",
+  "ecg_173.png": "data/media/ecg/ecg-10.json#ecg_173.png",
+  "ecg_174.png": "data/media/ecg/ecg-10.json#ecg_174.png",
+  "ecg_175.png": "data/media/ecg/ecg-10.json#ecg_175.png",
+  "ecg_176.png": "data/media/ecg/ecg-10.json#ecg_176.png",
+  "ecg_177.png": "data/media/ecg/ecg-10.json#ecg_177.png",
+  "ecg_178.png": "data/media/ecg/ecg-10.json#ecg_178.png",
+  "ecg_179.png": "data/media/ecg/ecg-10.json#ecg_179.png",
+  "ecg_180.png": "data/media/ecg/ecg-10.json#ecg_180.png",
+  "ecg_181.png": "data/media/ecg/ecg-10.json#ecg_181.png",
+  "ecg_182.png": "data/media/ecg/ecg-10.json#ecg_182.png",
+  "ecg_183.png": "data/media/ecg/ecg-10.json#ecg_183.png",
+  "ecg_184.png": "data/media/ecg/ecg-10.json#ecg_184.png",
+  "ecg_185.png": "data/media/ecg/ecg-10.json#ecg_185.png",
+  "ecg_186.png": "data/media/ecg/ecg-10.json#ecg_186.png",
+  "ecg_187.png": "data/media/ecg/ecg-10.json#ecg_187.png",
+  "ecg_188.png": "data/media/ecg/ecg-10.json#ecg_188.png",
+  "ecg_189.png": "data/media/ecg/ecg-10.json#ecg_189.png",
+  "ecg_190.png": "data/media/ecg/ecg-10.json#ecg_190.png",
+  "ecg_191.png": "data/media/ecg/ecg-10.json#ecg_191.png",
+  "ecg_192.png": "data/media/ecg/ecg-10.json#ecg_192.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #169</b> · Dor torácica há 1 h, sudorese.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_169.png",
+   "verso": "✅ <b>IAMCSST inferior — coronária direita (CD)</b><br>🔎 Supra em II, III, aVF com supra III &gt; II e infra recíproco em I/aVL.<br>⚡ <b>Conduta:</b> ICP primária (porta-balão ≤ 90–120 min) ou fibrinólise se ICP indisponível em 120 min. Fazer V4R (VD).",
+   "pegadinha": "Infra em I &gt; 1 mm e supra III &gt; II apontam CD; procure IAM de VD.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #170</b> · Dor epigástrica e náuseas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_170.png",
+   "verso": "✅ <b>IAMCSST inferolateral — circunflexa (Cx)</b><br>🔎 Supra II ≥ III, I isoelétrico/positivo, supra V5–V6 e infra V1–V2 (extensão posterior).<br>⚡ <b>Conduta:</b> ICP primária. Fazer V7–V9.",
+   "pegadinha": "Cx é a artéria mais 'silenciosa' no ECG: valorize alterações sutis.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #171</b> · IAM inferior, PA 82/50 após nitrato.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_171.png",
+   "verso": "✅ <b>IAMCSST inferior com infarto de VD</b><br>🔎 Supra inferior + supra ≥ 1 mm em V4R (e em V1).<br>⚡ <b>Conduta:</b> Volume, evitar nitrato/diurético/morfina, manter ritmo sinusal (BAV piora), ICP da CD.",
+   "pegadinha": "Hipotensão com nitrato em IAM inferior = pense VD.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #172</b> · IAM inferior, mas o infra em V1–V3 chamou atenção.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_172.png",
+   "verso": "✅ <b>IAMCSST inferoposterior</b><br>🔎 Supra inferior + infra horizontal em V1–V3 com T positivas (imagem em espelho da parede posterior).<br>⚡ <b>Conduta:</b> ICP primária; registrar V7–V9.",
+   "pegadinha": "Infra V1–V3 no IAM inferior não é 'isquemia anterior': é a parede posterior.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #173</b> · Dor típica há 2 h, sem supra no ECG de 12 derivações.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_173.png",
+   "verso": "✅ <b>IAM posterior isolado (OMI posterior)</b><br>🔎 Infra horizontal máximo em V1–V3 com T positiva e R alta (R/S &gt; 1 em V2).<br>⚡ <b>Conduta:</b> Fazer V7–V9 (supra ≥ 0,5 mm confirma). Tratar como IAMCSST: ICP primária.",
+   "pegadinha": "Vire o ECG de cabeça para baixo (V1–V3): o 'infra' vira supra e a R vira Q.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #174</b> · Dor intensa, Killip II.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_174.png",
+   "verso": "✅ <b>IAMCSST anterior extenso — DA proximal</b><br>🔎 Supra V1–V5 + supra em I/aVL com infra em III/aVF (proximal à 1ª diagonal).<br>⚡ <b>Conduta:</b> ICP primária imediata; alto risco de choque e arritmias.",
+   "pegadinha": "Infra inferior recíproco + supra em aVL = oclusão proximal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #175</b> · Homem de 58 anos, dor há 40 min.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_175.png",
+   "verso": "✅ <b>IAMCSST anterosseptal — DA média</b><br>🔎 Supra em V1–V4 sem alterações relevantes nas periféricas.<br>⚡ <b>Conduta:</b> ICP primária.",
+   "pegadinha": "Limites em V2–V3: ≥ 2 mm (homem ≥ 40 a), ≥ 2,5 mm (homem &lt; 40 a), ≥ 1,5 mm (mulher).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #176</b> · Dor + dispneia + estertores.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_176.png",
+   "verso": "✅ <b>IAMCSST anterolateral extenso (V1–V6, I, aVL)</b><br>🔎 Supra em toda a parede anterior e lateral.<br>⚡ <b>Conduta:</b> ICP primária; preparar suporte para choque cardiogênico.",
+   "pegadinha": "Quanto mais derivações com supra, maior a área em risco.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #177</b> · Supra anterior E inferior.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_177.png",
+   "verso": "✅ <b>IAMCSST por DA distal 'wraparound'</b><br>🔎 Supra V2–V6 + supra II, III, aVF sem infra inferior.<br>⚡ <b>Conduta:</b> ICP primária.",
+   "pegadinha": "Supra anterior + inferior: DA longa que contorna o ápice (diferencial: pericardite e Takotsubo).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #178</b> · Dor torácica com ECG 'quase normal'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_178.png",
+   "verso": "✅ <b>IAMCSST lateral alto — 1ª diagonal (sinal da bandeira sul-africana)</b><br>🔎 Supra em I, aVL e V2 com infra em III (e aVF).<br>⚡ <b>Conduta:</b> ICP primária.",
+   "pegadinha": "Na disposição padrão, I/aVL/V2 (supra) e III (infra) desenham a 'bandeira'.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #179</b> · Dor torácica e sudorese.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_179.png",
+   "verso": "✅ <b>IAMCSST lateral — circunflexa/marginal</b><br>🔎 Supra em I, aVL, V5, V6 com infra recíproco inferior discreto.<br>⚡ <b>Conduta:</b> ICP primária.",
+   "pegadinha": "Supra lateral costuma ser pequeno: compare com recíprocas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #180</b> · Diabético com dispneia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_180.png",
+   "verso": "✅ <b>IAMCSST inferolateral</b><br>🔎 Supra II, III, aVF, V5, V6.<br>⚡ <b>Conduta:</b> ICP primária.",
+   "pegadinha": "Diabéticos e idosos frequentemente se apresentam sem dor típica.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #181</b> · Choque cardiogênico na admissão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_181.png",
+   "verso": "✅ <b>IAMCSST com supra em 'lápide' (tombstone)</b><br>🔎 Supra convexo enorme fundindo-se com a onda T, QRS curto.<br>⚡ <b>Conduta:</b> ICP primária imediata; suporte hemodinâmico.",
+   "pegadinha": "Padrão tombstone = área grande e pior prognóstico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #182</b> · Homem de 45 anos, dor há 30 min.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_182.png",
+   "verso": "✅ <b>Critérios de IAMCSST nas derivações V2–V3</b><br>🔎 Supra no ponto J: ≥ 1 mm em 2 contíguas; em V2–V3 ≥ 2 mm (homem ≥ 40 a), ≥ 2,5 mm (homem &lt; 40 a), ≥ 1,5 mm (mulher).<br>⚡ <b>Conduta:</b> Se dor típica e critérios presentes: ICP primária; se limítrofe, ECGs seriados a cada 15–30 min.",
+   "pegadinha": "Meça no ponto J, comparando com o segmento PR/TP.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #183</b> · Dor iniciada há 20 h, ainda presente.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_183.png",
+   "verso": "✅ <b>IAMCSST anterior subagudo (Q já formada)</b><br>🔎 Supra anterior com ondas Q/QS em V1–V3 e T começando a inverter.<br>⚡ <b>Conduta:</b> Apresentação tardia (12–48 h) com sintomas persistentes: ainda indicar ICP.",
+   "pegadinha": "Q + supra = evolução de horas; supra persistente &gt; 2 semanas sugere aneurisma.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #184</b> · Dor torácica, supra 'pequeno'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_184.png",
+   "verso": "✅ <b>IAMCSST inferior sutil (recíproca em aVL)</b><br>🔎 Supra discreto em III/aVF com infra claro em aVL.<br>⚡ <b>Conduta:</b> Infra em aVL valida o supra inferior: tratar como OMI.",
+   "pegadinha": "aVL é o 'espelho' de III: infra em aVL raramente é benigno.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #185</b> · IAM inferior com supra em V1.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_185.png",
+   "verso": "✅ <b>IAM inferior + VD (pista em V1)</b><br>🔎 Supra inferior + supra em V1 maior que em V2.<br>⚡ <b>Conduta:</b> Fazer V4R; volume; evitar nitrato.",
+   "pegadinha": "Supra V1 com V2 isoelétrico/infra sugere VD; supra V1→V4 crescente sugere DA.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #186</b> · Dor torácica, supra somente em aVL.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_186.png",
+   "verso": "✅ <b>Supra isolado em aVL (OMI lateral alta)</b><br>🔎 Supra ≥ 1 mm em aVL com infra recíproco em III.<br>⚡ <b>Conduta:</b> Tratar como OMI (diagonal/Cx); ECG seriado e CATE.",
+   "pegadinha": "Derivações de QRS pequeno (aVL) toleram supra pequeno: valorize proporção.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #187</b> · IAM anterior com supra também em aVR.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_187.png",
+   "verso": "✅ <b>IAMCSST anterior com supra em aVR (DA proximal à 1ª septal)</b><br>🔎 Supra V1–V4 + supra em aVR e V1 &gt; 2,5 mm.<br>⚡ <b>Conduta:</b> ICP primária; vigiar BAV/bloqueios e choque.",
+   "pegadinha": "Envolvimento septal proximal aumenta o risco de bloqueios intraventriculares.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #188</b> · Cx dominante, dor intensa.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_188.png",
+   "verso": "✅ <b>IAMCSST inferoposterolateral</b><br>🔎 Supra inferior + V5–V6 com infra V1–V3.<br>⚡ <b>Conduta:</b> ICP primária; V7–V9.",
+   "pegadinha": "Um território grande pode vir de uma só Cx dominante.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #189</b> · IAM inferior há 1 h, ESV no monitor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_189.png",
+   "verso": "✅ <b>IAMCSST inferior com ESV 'R sobre T'</b><br>🔎 Supra inferior + ESV precoces sobre a T.<br>⚡ <b>Conduta:</b> Risco de FV nas primeiras horas: desfibrilador pronto, K⁺ &gt; 4, Mg²⁺ normal, betabloqueador se possível. Sem lidocaína profilática.",
+   "pegadinha": "Lidocaína profilática reduz FV, mas não reduz mortalidade.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #190</b> · Dor há 20 minutos.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_190.png",
+   "verso": "✅ <b>IAM anterior em fase hiperaguda</b><br>🔎 T amplas, simétricas e 'volumosas' em V2–V5 com supra inicial.<br>⚡ <b>Conduta:</b> Tratar como OMI: ECG seriado a cada 15 min e ICP.",
+   "pegadinha": "T hiperaguda é larga na base; a T da hiperK é estreita e pontiaguda.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #191</b> · Dor torácica + palpitações.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_191.png",
+   "verso": "✅ <b>IAMCSST inferior com FA aguda</b><br>🔎 Supra inferior com ritmo irregularmente irregular.<br>⚡ <b>Conduta:</b> ICP primária; controle de FC cauteloso (evitar hipotensão); anticoagulação conforme contexto.",
+   "pegadinha": "FA no IAM inferior pode refletir isquemia atrial (CD proximal).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #192</b> · IAM anterior com bloqueios novos.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_192.png",
+   "verso": "✅ <b>IAMCSST anterior com BRD + BDAS novos</b><br>🔎 Supra anterior + BRD + eixo &lt; −45°.<br>⚡ <b>Conduta:</b> ICP primária; marca-passo transcutâneo de prontidão (risco de BAVT).",
+   "pegadinha": "Bloqueio bifascicular novo no IAM anterior = necrose septal extensa.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T10",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,308 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::03 🧱 Bloqueios atrioventriculares",
+ "midia": {
+  "ecg_039.png": "data/media/ecg/ecg-03.json#ecg_039.png",
+  "ecg_040.png": "data/media/ecg/ecg-03.json#ecg_040.png",
+  "ecg_041.png": "data/media/ecg/ecg-03.json#ecg_041.png",
+  "ecg_042.png": "data/media/ecg/ecg-03.json#ecg_042.png",
+  "ecg_043.png": "data/media/ecg/ecg-03.json#ecg_043.png",
+  "ecg_044.png": "data/media/ecg/ecg-03.json#ecg_044.png",
+  "ecg_045.png": "data/media/ecg/ecg-03.json#ecg_045.png",
+  "ecg_046.png": "data/media/ecg/ecg-03.json#ecg_046.png",
+  "ecg_047.png": "data/media/ecg/ecg-03.json#ecg_047.png",
+  "ecg_048.png": "data/media/ecg/ecg-03.json#ecg_048.png",
+  "ecg_049.png": "data/media/ecg/ecg-03.json#ecg_049.png",
+  "ecg_050.png": "data/media/ecg/ecg-03.json#ecg_050.png",
+  "ecg_051.png": "data/media/ecg/ecg-03.json#ecg_051.png",
+  "ecg_052.png": "data/media/ecg/ecg-03.json#ecg_052.png",
+  "ecg_053.png": "data/media/ecg/ecg-03.json#ecg_053.png",
+  "ecg_054.png": "data/media/ecg/ecg-03.json#ecg_054.png",
+  "ecg_055.png": "data/media/ecg/ecg-03.json#ecg_055.png",
+  "ecg_056.png": "data/media/ecg/ecg-03.json#ecg_056.png",
+  "ecg_057.png": "data/media/ecg/ecg-03.json#ecg_057.png",
+  "ecg_058.png": "data/media/ecg/ecg-03.json#ecg_058.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #039</b> · Achado em idoso assintomático.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_039.png",
+   "verso": "✅ <b>BAV de 1º grau (PR ~300 ms)</b><br>🔎 PR &gt; 200 ms constante; toda P conduz.<br>⚡ <b>Conduta:</b> Geralmente sem tratamento; revisar fármacos AV-nodais.",
+   "pegadinha": "PR &gt; 300 ms pode causar sintomas (pseudo-síndrome do marca-passo).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #040</b> · Dispneia e cansaço, PR muito longo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_040.png",
+   "verso": "✅ <b>BAV de 1º grau acentuado (PR ~420 ms)</b><br>🔎 PR muito prolongado; P próxima à T anterior.<br>⚡ <b>Conduta:</b> Considere marca-passo se sintomas atribuíveis (perda da sincronia AV).",
+   "pegadinha": "P escondida na T anterior pode parecer ritmo juncional.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #041</b> · Idoso em uso de digoxina.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_041.png",
+   "verso": "✅ <b>BAV 2º grau Mobitz I (Wenckebach) 4:3</b><br>🔎 PR aumenta progressivamente até uma P não conduzida; RR encurta; pausa &lt; 2 × PP.<br>⚡ <b>Conduta:</b> Geralmente nodal e benigno; tratar só se sintomático (suspender fármacos).",
+   "pegadinha": "O maior salto do PR é do 1º para o 2º batimento do ciclo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #042</b> · Pós-IAM inferior.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_042.png",
+   "verso": "✅ <b>Wenckebach 3:2 ('batimentos agrupados')</b><br>🔎 Pares de QRS separados por pausa; PR do 2º maior que o do 1º.<br>⚡ <b>Conduta:</b> Monitorar; costuma regredir no IAM inferior.",
+   "pegadinha": "Batimentos agrupados = pense em Wenckebach (inclusive sinoatrial).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #043</b> · Síncope em idoso com BRD.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_043.png",
+   "verso": "✅ <b>BAV 2º grau Mobitz II (4:3) com BRD</b><br>🔎 PR constante antes e depois da P bloqueada; QRS largo (doença infranodal).<br>⚡ <b>Conduta:</b> Alto risco de BAVT: marca-passo definitivo; transcutâneo de prontidão.",
+   "pegadinha": "Atropina pode piorar o bloqueio infranodal (aumenta a frequência atrial).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #044</b> · Dispneia aos esforços e BRE conhecido.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_044.png",
+   "verso": "✅ <b>BAV 2º grau Mobitz II (3:2) com BRE</b><br>🔎 PR fixo, P não conduzida intermitente, QRS largo.<br>⚡ <b>Conduta:</b> Indicação de marca-passo definitivo.",
+   "pegadinha": "PR fixo + QRS largo = infra-His até prova em contrário.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #045</b> · Bradicardia de 42 bpm, QRS estreito.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_045.png",
+   "verso": "✅ <b>BAV de 2º grau 2:1 (QRS estreito)</b><br>🔎 Duas P para cada QRS, PR constante nos conduzidos.<br>⚡ <b>Conduta:</b> Não dá para classificar I vs II com 2:1; QRS estreito sugere nodal. Teste com atropina/esforço.",
+   "pegadinha": "Atropina melhora o 2:1 nodal e piora o infranodal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #046</b> · Síncope recorrente, bifascicular prévio.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_046.png",
+   "verso": "✅ <b>BAV 2:1 com QRS largo (provável infranodal)</b><br>🔎 Bloqueio 2:1 com BRD + BDAS.<br>⚡ <b>Conduta:</b> Marca-passo; evitar depender de atropina.",
+   "pegadinha": "2:1 com QRS largo tem alto risco de progressão para BAVT.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #047</b> · Tontura e FC de 32 bpm.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_047.png",
+   "verso": "✅ <b>BAV avançado (alto grau) 3:1</b><br>🔎 ≥ 2 P consecutivas não conduzidas com PR fixo nos conduzidos.<br>⚡ <b>Conduta:</b> Marca-passo transcutâneo → definitivo; buscar causas reversíveis.",
+   "pegadinha": "Diferente do BAVT: há relação fixa entre P e QRS conduzidos.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #048</b> · Idosa com fraqueza.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_048.png",
+   "verso": "✅ <b>BAVT com escape juncional (QRS estreito)</b><br>🔎 P e QRS independentes; frequência atrial &gt; ventricular; RR regular; PR variável.<br>⚡ <b>Conduta:</b> Marca-passo; escape estreito é mais estável, mas não é seguro.",
+   "pegadinha": "Procure 'P marchando' através dos QRS com compasso.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #049</b> · Síncope (Stokes-Adams).<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_049.png",
+   "verso": "✅ <b>BAVT com escape ventricular (QRS largo)</b><br>🔎 Dissociação AV completa; escape largo a 20–40 bpm.<br>⚡ <b>Conduta:</b> Marca-passo transcutâneo imediato; adrenalina/dopamina como ponte; definitivo.",
+   "pegadinha": "Escape largo é instável e pode parar sem aviso.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #050</b> · Dor torácica há 1 h.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_050.png",
+   "verso": "✅ <b>BAVT no IAMCSST inferior</b><br>🔎 Supra inferior + dissociação AV com escape estreito.<br>⚡ <b>Conduta:</b> Reperfusão; geralmente nodal e reversível; marca-passo temporário se instável.",
+   "pegadinha": "BAVT no IAM anterior é infranodal e de pior prognóstico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #051</b> · FA permanente, agora FC 42 regular.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_051.png",
+   "verso": "✅ <b>FA com BAVT (resposta ventricular regular)</b><br>🔎 Ondas f com RR perfeitamente regular e lento.<br>⚡ <b>Conduta:</b> Investigue intoxicação digitálica e doença do sistema de condução; marca-passo se persistir.",
+   "pegadinha": "FA 'regularizada' nunca é normal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #052</b> · Pausas no Holter.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_052.png",
+   "verso": "✅ <b>ESSV bloqueada (simula BAV)</b><br>🔎 P precoce e de morfologia diferente deformando a T, sem QRS, seguida de pausa.<br>⚡ <b>Conduta:</b> Benigna; não é BAV 2º grau (a P é precoce).",
+   "pegadinha": "Compare as T antes da pausa: a 'corcova' é a P ectópica.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #053</b> · Vigília em UTI, sem sintomas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_053.png",
+   "verso": "✅ <b>Wenckebach 5:4</b><br>🔎 Ciclos de 4 QRS com PR crescente e uma P bloqueada.<br>⚡ <b>Conduta:</b> Benigno quando nodal; observar.",
+   "pegadinha": "Ciclos longos são mais difíceis: compare o 1º e o último PR do grupo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #054</b> · Idoso com síncope inexplicada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_054.png",
+   "verso": "✅ <b>BAV 1º + BRD + BDAS ('trifascicular')</b><br>🔎 PR longo, BRD (rsR' V1) e eixo &lt; −45° com qR em aVL.<br>⚡ <b>Conduta:</b> Síncope + bifascicular: estudo eletrofisiológico/monitorização; muitos precisam de marca-passo.",
+   "pegadinha": "O termo 'trifascicular' é impreciso: o PR longo pode ser nodal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #055</b> · Pré-síncope em paciente com doença de Chagas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_055.png",
+   "verso": "✅ <b>BAV 2º grau Mobitz II 3:2 com BRD (Chagas)</b><br>🔎 PR constante, P bloqueada a cada 3, BRD.<br>⚡ <b>Conduta:</b> Marca-passo definitivo. No Chagas, avaliar também arritmias ventriculares.",
+   "pegadinha": "BRD + BDAS + BAV em brasileiro = lembrar de Chagas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #056</b> · Bradicardia 'sinusal' de 52 bpm.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_056.png",
+   "verso": "✅ <b>BAV 2:1 com P escondida na T</b><br>🔎 Taquicardia atrial/sinusal a ~104 com metade das P na T (T deformada).<br>⚡ <b>Conduta:</b> Procure a P 'extra' dentro da onda T; trate como BAV 2:1.",
+   "pegadinha": "Ondas T com 'corcova' regular = P escondida.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #057</b> · Lipotimia em paciente renal.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_057.png",
+   "verso": "✅ <b>BAVT com escape ventricular lento (~28 bpm)</b><br>🔎 P a 100 bpm sem relação com QRS largos a 28 bpm.<br>⚡ <b>Conduta:</b> Corrigir K⁺ e acidose; marca-passo transcutâneo.",
+   "pegadinha": "Dissociação + frequência atrial &gt; ventricular = BAVT.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #058</b> · Doença do sistema de condução.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_058.png",
+   "verso": "✅ <b>Wenckebach com BRD</b><br>🔎 PR progressivo até a P bloqueada; QRS largo de base.<br>⚡ <b>Conduta:</b> Mobitz I com QRS largo pode ser infranodal: considerar estudo eletrofisiológico.",
+   "pegadinha": "Nem todo Wenckebach é benigno quando há bloqueio de ramo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T03",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

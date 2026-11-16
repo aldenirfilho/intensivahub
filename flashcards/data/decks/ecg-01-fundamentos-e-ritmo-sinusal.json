@@ -1,0 +1,308 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::01 🧭 Fundamentos e ritmo sinusal",
+ "midia": {
+  "ecg_001.png": "data/media/ecg/ecg-01.json#ecg_001.png",
+  "ecg_002.png": "data/media/ecg/ecg-01.json#ecg_002.png",
+  "ecg_003.png": "data/media/ecg/ecg-01.json#ecg_003.png",
+  "ecg_004.png": "data/media/ecg/ecg-01.json#ecg_004.png",
+  "ecg_005.png": "data/media/ecg/ecg-01.json#ecg_005.png",
+  "ecg_006.png": "data/media/ecg/ecg-01.json#ecg_006.png",
+  "ecg_007.png": "data/media/ecg/ecg-01.json#ecg_007.png",
+  "ecg_008.png": "data/media/ecg/ecg-01.json#ecg_008.png",
+  "ecg_009.png": "data/media/ecg/ecg-01.json#ecg_009.png",
+  "ecg_010.png": "data/media/ecg/ecg-01.json#ecg_010.png",
+  "ecg_011.png": "data/media/ecg/ecg-01.json#ecg_011.png",
+  "ecg_012.png": "data/media/ecg/ecg-01.json#ecg_012.png",
+  "ecg_013.png": "data/media/ecg/ecg-01.json#ecg_013.png",
+  "ecg_014.png": "data/media/ecg/ecg-01.json#ecg_014.png",
+  "ecg_015.png": "data/media/ecg/ecg-01.json#ecg_015.png",
+  "ecg_016.png": "data/media/ecg/ecg-01.json#ecg_016.png",
+  "ecg_017.png": "data/media/ecg/ecg-01.json#ecg_017.png",
+  "ecg_018.png": "data/media/ecg/ecg-01.json#ecg_018.png",
+  "ecg_019.png": "data/media/ecg/ecg-01.json#ecg_019.png",
+  "ecg_020.png": "data/media/ecg/ecg-01.json#ecg_020.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #001</b> · Check-up, 34 anos, assintomático.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_001.png",
+   "verso": "✅ <b>ECG normal (ritmo sinusal, 72 bpm)</b><br>🔎 P positiva em I/II/aVF antes de cada QRS; PR 120–200 ms; QRS &lt; 120 ms; eixo entre −30° e +90°; progressão de R normal; ST isoelétrico; T positiva onde o QRS é positivo.<br>⚡ <b>Conduta:</b> Use sempre a mesma sequência: ritmo → FC → intervalos → eixo → morfologia → ST/T.",
+   "pegadinha": "aVR com tudo negativo é o esperado; T invertida isolada em III ou V1 pode ser normal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #002</b> · Febre 39 °C, sepse urinária.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_002.png",
+   "verso": "✅ <b>Taquicardia sinusal (~125 bpm)</b><br>🔎 P sinusal (positiva em II) antes de cada QRS, PR constante, início/fim graduais; FC &gt; 100.<br>⚡ <b>Conduta:</b> Tratar a causa (febre, dor, hipovolemia, sepse, TEP, anemia). Não cardioverter.",
+   "pegadinha": "Acima de ~150 bpm, procure ondas F escondidas: flutter 2:1 imita taquicardia sinusal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #003</b> · Maratonista de 28 anos, assintomático.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_003.png",
+   "verso": "✅ <b>Bradicardia sinusal (~46 bpm)</b><br>🔎 Ritmo sinusal com FC &lt; 50 (alguns usam &lt; 60); PR e QRS normais.<br>⚡ <b>Conduta:</b> Fisiológica no atleta e no sono. Tratar só se sintomática/instável (atropina, marca-passo transcutâneo).",
+   "pegadinha": "Antes de culpar a 'vagotonia': revise betabloqueador, hipotireoidismo, hipotermia, hipercalemia, HIC.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #004</b> · Jovem de 19 anos, respiração profunda durante o exame.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_004.png",
+   "verso": "✅ <b>Arritmia sinusal respiratória</b><br>🔎 P sinusal idêntica em todos os batimentos com RR que varia ciclicamente (&gt; 120 ms) com a respiração.<br>⚡ <b>Conduta:</b> Variante normal (tônus vagal). Nenhum tratamento.",
+   "pegadinha": "P de morfologia igual diferencia de MAV/TAM e de ESSV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #005</b> · Estudante pergunta como estimar o eixo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_005.png",
+   "verso": "✅ <b>Eixo normal (~+50°)</b><br>🔎 I positivo e aVF positivo = quadrante normal (0 a +90°). Derivação mais isodifásica ≈ perpendicular ao eixo.<br>⚡ <b>Conduta:</b> Método rápido: I + aVF → quadrante; II resolve entre 0 e −30°.",
+   "pegadinha": "Eixo −30° a 0° com II positivo ainda é normal; com II negativo é desvio à esquerda.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #006</b> · Homem de 24 anos, longilíneo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_006.png",
+   "verso": "✅ <b>Desvio do eixo para a direita (~+115°)</b><br>🔎 I negativo e aVF positivo; QRS &lt; 120 ms.<br>⚡ <b>Conduta:</b> Causas: biotipo longilíneo/jovem, HVD, TEP, DPOC, BDPI (diagnóstico de exclusão), IAM lateral, troca de eletrodos, dextrocardia.",
+   "pegadinha": "BDPI só depois de excluir HVD, IAM lateral e biotipo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #007</b> · Palpitações e hipotensão após IAM antigo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_007.png",
+   "verso": "✅ <b>Eixo extremo/noroeste (−90° a ±180°) em taquicardia de QRS largo</b><br>🔎 I e aVF negativos (aVR dominante positivo).<br>⚡ <b>Conduta:</b> Eixo noroeste em QRS largo favorece fortemente TV. Instável → cardioversão sincronizada.",
+   "pegadinha": "Eixo extremo também aparece em hipercalemia grave, cardiomiopatias e troca de eletrodos.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #008</b> · Obesa grau III, dispneia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_008.png",
+   "verso": "✅ <b>Baixa voltagem difusa</b><br>🔎 QRS &lt; 5 mm em todas as periféricas e/ou &lt; 10 mm em todas as precordiais.<br>⚡ <b>Conduta:</b> Pesquise derrame pericárdico/tamponamento, obesidade, DPOC/enfisema, hipotireoidismo, amiloidose, anasarca, pneumotórax.",
+   "pegadinha": "Baixa voltagem + taquicardia + alternância elétrica = tamponamento até prova em contrário.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #009</b> · ECG feito às pressas na emergência; ECG prévio normal.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_009.png",
+   "verso": "✅ <b>Troca dos eletrodos dos braços (LA ↔ RA)</b><br>🔎 I totalmente negativo (P, QRS e T), aVR positivo e precordiais normais (progressão de R preservada).<br>⚡ <b>Conduta:</b> Refaça o ECG com os eletrodos corretos antes de concluir qualquer coisa.",
+   "pegadinha": "Dextrocardia também inverte I, mas some a progressão de R nas precordiais — esse é o diferencial.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #010</b> · Situs inversus conhecido.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_010.png",
+   "verso": "✅ <b>Dextrocardia</b><br>🔎 I invertido (P, QRS, T), aVR positivo e R diminuindo de V1 para V6 (perda de progressão).<br>⚡ <b>Conduta:</b> Confirme com precordiais à direita (V1R–V6R) e com eletrodos dos membros trocados de lado.",
+   "pegadinha": "Troca LA/RA: precordiais normais. Dextrocardia: precordiais anormais.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #011</b> · Paciente com doença de Parkinson, monitor dispara 'flutter'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_011.png",
+   "verso": "✅ <b>Artefato de tremor (pseudoflutter)</b><br>🔎 Ondulação de 4–6 Hz irregular na linha de base, mais forte nas periféricas; QRS regulares e P sinusais visíveis em alguma derivação.<br>⚡ <b>Conduta:</b> Não anticoagule nem trate arritmia: apoie os membros, coloque eletrodos no tronco e repita.",
+   "pegadinha": "Flutter verdadeiro tem ondas F regulares (~300/min) iguais em todas as derivações.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #012</b> · Paciente escovando os dentes; alarme de 'TV' no monitor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_012.png",
+   "verso": "✅ <b>Artefato de movimento simulando TV</b><br>🔎 QRS normais 'marchando' através do artefato no mesmo ritmo (visíveis em V1); paciente assintomático.<br>⚡ <b>Conduta:</b> Olhe o paciente e as outras derivações antes de chocar.",
+   "pegadinha": "Sinal do 'entalhe': complexos verdadeiros continuam regulares dentro do falso traçado.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #013</b> · Paciente dispneico e agitado durante o registro.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_013.png",
+   "verso": "✅ <b>Oscilação da linha de base (respiração/movimento)</b><br>🔎 Linha isoelétrica ondulando lentamente; morfologia dos complexos preservada.<br>⚡ <b>Conduta:</b> Repita com o paciente calmo; filtros de linha de base ajudam, mas podem distorcer o ST.",
+   "pegadinha": "Não meça ST em traçado com a linha de base oscilando.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #014</b> · Eletrocardiógrafo ligado em tomada sem aterramento.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_014.png",
+   "verso": "✅ <b>Interferência elétrica (60 Hz)</b><br>🔎 Traço 'grosso' e borrado, com oscilação fina e regular de 60 ciclos/s, sem alterar os intervalos.<br>⚡ <b>Conduta:</b> Afaste cabos e aparelhos, cheque o aterramento e o contato dos eletrodos.",
+   "pegadinha": "Interferência de alta frequência pode esconder ondas P e simular FA fina.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #015</b> · Plantão: calcular a FC em 5 segundos.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_015.png",
+   "verso": "✅ <b>Ritmo sinusal com FC ~100 bpm</b><br>🔎 Regra 300: 300 ÷ nº de quadrados grandes entre R-R (3 → 100). Ritmos irregulares: nº de QRS em 10 s × 6.<br>⚡ <b>Conduta:</b> Sequência a decorar: 300–150–100–75–60–50.",
+   "pegadinha": "Na FA use sempre a contagem em 10 s, nunca a regra 300.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #016</b> · Adolescente de 14 anos, avaliação pré-esporte.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_016.png",
+   "verso": "✅ <b>Padrão juvenil de onda T (T invertida V1–V3)</b><br>🔎 T invertida em V1–V3 em &lt; 16 anos, sem outras alterações, assintomático.<br>⚡ <b>Conduta:</b> Variante normal até ~16 anos (e em parte das mulheres jovens).",
+   "pegadinha": "Em adulto com T invertida V1–V3, pense em DAVD, TEP, Wellens ou isquemia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #017</b> · Homem de 25 anos, atleta, sem dor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_017.png",
+   "verso": "✅ <b>Repolarização precoce benigna</b><br>🔎 Supra côncavo de ST com entalhe/empastamento no ponto J em V2–V5, T altas e amplas, bradicardia; sem infra recíproco.<br>⚡ <b>Conduta:</b> Benigna quando não há sintomas; compare com ECG prévio e procure sinais de OMI.",
+   "pegadinha": "Formas inferolaterais com ST horizontal/descendente estão ligadas a maior risco de morte súbita.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #018</b> · Jovem saudável, ECG de rotina.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_018.png",
+   "verso": "✅ <b>Bloqueio incompleto de ramo direito (variante)</b><br>🔎 rSr' em V1 com QRS entre 110 e 120 ms; S discretamente alargada em I e V6.<br>⚡ <b>Conduta:</b> Isolado e assintomático: variante comum. Investigar se houver sopro (CIA) ou sinais de HVD.",
+   "pegadinha": "rSr' em V1 + desvio do eixo para a direita em jovem → lembrar CIA tipo ostium secundum.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #019</b> · Hipertenso de 62 anos, sem dor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_019.png",
+   "verso": "✅ <b>Progressão pobre da onda R (V1–V4)</b><br>🔎 R ≤ 3 mm em V3, transição tardia (V5–V6).<br>⚡ <b>Conduta:</b> Causas: IAM anterior antigo, HVE, DPOC, BRE incompleto, eletrodos altos, variação normal. Correlacione com eco.",
+   "pegadinha": "Antes de chamar de 'IAM anterior antigo', confira a posição dos eletrodos precordiais.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #020</b> · Palpitações paroxísticas; nenhuma onda delta.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_020.png",
+   "verso": "✅ <b>PR curto sem pré-excitação</b><br>🔎 PR &lt; 120 ms com QRS estreito e sem onda delta.<br>⚡ <b>Conduta:</b> Pode ser ritmo atrial baixo, condução nodal acelerada (padrão 'LGL') ou variante. Investigue taquiarritmias se houver sintomas.",
+   "pegadinha": "PR curto + delta + QRS largo = WPW; PR curto isolado não é WPW.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T01",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

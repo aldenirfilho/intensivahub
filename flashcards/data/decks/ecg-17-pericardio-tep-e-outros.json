@@ -1,0 +1,188 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::17 🫀 Pericárdio, TEP e outros",
+ "midia": {
+  "ecg_283.png": "data/media/ecg/ecg-17.json#ecg_283.png",
+  "ecg_284.png": "data/media/ecg/ecg-17.json#ecg_284.png",
+  "ecg_285.png": "data/media/ecg/ecg-17.json#ecg_285.png",
+  "ecg_286.png": "data/media/ecg/ecg-17.json#ecg_286.png",
+  "ecg_287.png": "data/media/ecg/ecg-17.json#ecg_287.png",
+  "ecg_288.png": "data/media/ecg/ecg-17.json#ecg_288.png",
+  "ecg_289.png": "data/media/ecg/ecg-17.json#ecg_289.png",
+  "ecg_290.png": "data/media/ecg/ecg-17.json#ecg_290.png",
+  "ecg_291.png": "data/media/ecg/ecg-17.json#ecg_291.png",
+  "ecg_292.png": "data/media/ecg/ecg-17.json#ecg_292.png",
+  "ecg_293.png": "data/media/ecg/ecg-17.json#ecg_293.png",
+  "ecg_294.png": "data/media/ecg/ecg-17.json#ecg_294.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #283</b> · Dor pleurítica que melhora sentado, pós-viral.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_283.png",
+   "verso": "✅ <b>Pericardite aguda (estágio I)</b><br>🔎 Supra côncavo difuso + infra de PR; supra de PR e infra de ST em aVR; sem recíprocas.<br>⚡ <b>Conduta:</b> AINE (ibuprofeno/AAS) + colchicina 3 meses; investigar se febre alta, derrame grande ou troponina alta.",
+   "pegadinha": "Sinal de Spodick: linha TP descendente.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #284</b> · Pericardite há 2 semanas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_284.png",
+   "verso": "✅ <b>Pericardite: estágio III (T invertidas difusas)</b><br>🔎 T invertidas difusas após normalização do ST.<br>⚡ <b>Conduta:</b> Manter tratamento; o ECG normaliza em semanas.",
+   "pegadinha": "Inversão de T antes de o ST normalizar sugere miocardite.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #285</b> · Dispneia, turgência jugular, hipotensão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_285.png",
+   "verso": "✅ <b>Tamponamento cardíaco (alternância elétrica)</b><br>🔎 Taquicardia sinusal + baixa voltagem + alternância da amplitude do QRS.<br>⚡ <b>Conduta:</b> Eco à beira-leito; pericardiocentese; volume; evitar ventilação com pressão positiva se possível.",
+   "pegadinha": "Alternância = coração 'balançando' no derrame.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #286</b> · Pós-operatório ortopédico, dispneia súbita.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_286.png",
+   "verso": "✅ <b>TEP: padrão S1Q3T3 + taquicardia</b><br>🔎 S em I, Q e T invertida em III, taquicardia sinusal.<br>⚡ <b>Conduta:</b> Probabilidade clínica, angio-TC, anticoagulação; trombólise se instável.",
+   "pegadinha": "S1Q3T3 é pouco sensível; taquicardia sinusal é o achado mais comum.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #287</b> · TEP confirmado, troponina e BNP elevados.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_287.png",
+   "verso": "✅ <b>TEP com sobrecarga de VD (T invertidas V1–V4 + III)</b><br>🔎 Inversão de T em V1–V4 associada a III/aVF.<br>⚡ <b>Conduta:</b> Estratificar (eco, biomarcadores); vigiar instabilidade.",
+   "pegadinha": "T invertida V1–V4 + III: lembrar TEP antes de Wellens.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #288</b> · Síncope e hipotensão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_288.png",
+   "verso": "✅ <b>TEP maciço: BRD novo + taquicardia + supra aVR/V1</b><br>🔎 BRD novo, taquicardia, P pulmonale, supra em aVR/V1.<br>⚡ <b>Conduta:</b> TEP de alto risco: trombólise sistêmica (ou mecânica) + suporte.",
+   "pegadinha": "BRD novo + taquicardia + hipotensão = sobrecarga aguda de VD.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #289</b> · Cefaleia súbita e rebaixamento.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_289.png",
+   "verso": "✅ <b>T 'cerebrais' (hemorragia subaracnóidea)</b><br>🔎 T invertidas gigantes e largas, QT muito longo, bradicardia.<br>⚡ <b>Conduta:</b> TC de crânio; tratar a HSA; troponina pode subir (miocárdio atordoado).",
+   "pegadinha": "Evite chamar de SCA sem considerar o contexto neurológico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #290</b> · Turgência jugular, ascite, pericardite tuberculosa prévia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_290.png",
+   "verso": "✅ <b>Pericardite constritiva (baixa voltagem + FA + T achatadas)</b><br>🔎 Baixa voltagem, ondas T achatadas/invertidas e FA.<br>⚡ <b>Conduta:</b> Eco/RM/cateterismo; pericardiectomia.",
+   "pegadinha": "Constrição × restrição: história e imagem decidem.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #291</b> · Febre, dor torácica, troponina alta.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_291.png",
+   "verso": "✅ <b>Miopericardite</b><br>🔎 Supra difuso côncavo + extrassístoles + troponina elevada.<br>⚡ <b>Conduta:</b> Internar, RM; AINE em dose menor; restrição de esforço 3–6 meses.",
+   "pegadinha": "Arritmias e troponina alta indicam envolvimento miocárdico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #292</b> · Adulto jovem com BAV total e linfonodomegalia hilar.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_292.png",
+   "verso": "✅ <b>BAV avançado em jovem: pensar em sarcoidose cardíaca</b><br>🔎 BAV total com escape de QRS alargado em paciente &lt; 60 anos.<br>⚡ <b>Conduta:</b> PET/RM cardíaca; marca-passo/CDI; imunossupressão.",
+   "pegadinha": "BAV inexplicado &lt; 60 anos: sarcoidose, Lyme, miocardite, doenças infiltrativas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #293</b> · Diferenciar pericardite de repolarização precoce.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_293.png",
+   "verso": "✅ <b>Razão ST/T em V6 &gt; 0,25 (favorece pericardite)</b><br>🔎 Altura do ST (ponto J) dividida pela altura da T em V6 &gt; 0,25.<br>⚡ <b>Conduta:</b> Usar com clínica, PR e evolução.",
+   "pegadinha": "Repolarização precoce: ST/T &lt; 0,25 e T altas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #294</b> · TCE grave, PA 210/110, bradicardia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_294.png",
+   "verso": "✅ <b>Hipertensão intracraniana (reflexo de Cushing)</b><br>🔎 Bradicardia sinusal + T invertidas profundas + QT longo.<br>⚡ <b>Conduta:</b> Neurocirurgia/medidas para HIC; não tratar bradicardia isoladamente.",
+   "pegadinha": "Tríade de Cushing: hipertensão, bradicardia e respiração irregular.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T17",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::07 🌀 Fibrilação e flutter atrial",
+ "midia": {
+  "ecg_115.png": "data/media/ecg/ecg-07.json#ecg_115.png",
+  "ecg_116.png": "data/media/ecg/ecg-07.json#ecg_116.png",
+  "ecg_117.png": "data/media/ecg/ecg-07.json#ecg_117.png",
+  "ecg_118.png": "data/media/ecg/ecg-07.json#ecg_118.png",
+  "ecg_119.png": "data/media/ecg/ecg-07.json#ecg_119.png",
+  "ecg_120.png": "data/media/ecg/ecg-07.json#ecg_120.png",
+  "ecg_121.png": "data/media/ecg/ecg-07.json#ecg_121.png",
+  "ecg_122.png": "data/media/ecg/ecg-07.json#ecg_122.png",
+  "ecg_123.png": "data/media/ecg/ecg-07.json#ecg_123.png",
+  "ecg_124.png": "data/media/ecg/ecg-07.json#ecg_124.png",
+  "ecg_125.png": "data/media/ecg/ecg-07.json#ecg_125.png",
+  "ecg_126.png": "data/media/ecg/ecg-07.json#ecg_126.png",
+  "ecg_127.png": "data/media/ecg/ecg-07.json#ecg_127.png",
+  "ecg_128.png": "data/media/ecg/ecg-07.json#ecg_128.png",
+  "ecg_129.png": "data/media/ecg/ecg-07.json#ecg_129.png",
+  "ecg_130.png": "data/media/ecg/ecg-07.json#ecg_130.png",
+  "ecg_131.png": "data/media/ecg/ecg-07.json#ecg_131.png",
+  "ecg_132.png": "data/media/ecg/ecg-07.json#ecg_132.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #115</b> · Palpitações há 6 h, PA normal.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_115.png",
+   "verso": "✅ <b>FA com resposta ventricular rápida</b><br>🔎 RR irregularmente irregular, sem P, ondas f na linha de base; FC ~130.<br>⚡ <b>Conduta:</b> Estável: controle de FC (betabloqueador/BCC; digoxina/amiodarona na IC). &lt; 48 h e sem trombo: cardioversão possível. Anticoagular conforme CHA₂DS₂-VASc.",
+   "pegadinha": "Instável → cardioversão sincronizada.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #116</b> · FA permanente em seguimento.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_116.png",
+   "verso": "✅ <b>FA com resposta ventricular controlada</b><br>🔎 Irregularmente irregular, FC média &lt; 110 em repouso.<br>⚡ <b>Conduta:</b> Meta leniente de FC &lt; 110 em repouso é aceitável; anticoagulação é o que muda prognóstico.",
+   "pegadinha": "Contar QRS em 10 s × 6 para estimar a FC.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #117</b> · Idoso com tontura, sem fármacos.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_117.png",
+   "verso": "✅ <b>FA com baixa resposta ventricular</b><br>🔎 FA com FC &lt; 50 sem bloqueadores do nó AV.<br>⚡ <b>Conduta:</b> Sugere doença do sistema de condução: avaliar marca-passo.",
+   "pegadinha": "FA lenta e regular = BAVT (ou digoxina).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #118</b> · Monitor: 'linha reta' entre os QRS.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_118.png",
+   "verso": "✅ <b>FA fina</b><br>🔎 Linha de base quase isoelétrica, sem P, RR irregular.<br>⚡ <b>Conduta:</b> O diagnóstico vem da irregularidade do RR; trate como FA.",
+   "pegadinha": "FA fina + RR irregular ≠ ritmo sinusal com ESSV: não há P.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #119</b> · Valvopatia mitral reumática.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_119.png",
+   "verso": "✅ <b>FA grosseira (ondas f amplas)</b><br>🔎 Ondas f grosseiras e irregulares (melhor vistas em V1), RR irregular.<br>⚡ <b>Conduta:</b> Comum em AE grande/valvopatia mitral; anticoagular (varfarina se estenose mitral moderada/grave ou prótese mecânica).",
+   "pegadinha": "Ondas f grosseiras confundem com flutter: no flutter, ondas regulares e idênticas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #120</b> · FA em paciente com BRE prévio.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_120.png",
+   "verso": "✅ <b>FA com BRE (QRS largo irregular)</b><br>🔎 Taquicardia irregular de QRS largo com morfologia típica de BRE.<br>⚡ <b>Conduta:</b> Controle de FC; compare com o ECG basal.",
+   "pegadinha": "Diferencial de QRS largo irregular: FA + BR, FA pré-excitada, TV polimórfica.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #121</b> · QRS largos ocasionais na FA.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_121.png",
+   "verso": "✅ <b>Fenômeno de Ashman (aberrância na FA)</b><br>🔎 QRS com padrão de BRD que encerra um ciclo curto precedido de ciclo longo.<br>⚡ <b>Conduta:</b> Benigno; não é TV.",
+   "pegadinha": "Ciclo longo–curto + BRD típico = Ashman; sem ciclo longo-curto e morfologia de ESV = ESV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #122</b> · FA crônica, náuseas e visão amarelada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_122.png",
+   "verso": "✅ <b>FA regularizada por intoxicação digitálica</b><br>🔎 FA com RR regular (BAVT/juncional) + infra de ST 'em colher'.<br>⚡ <b>Conduta:</b> Suspender digoxina, corrigir K⁺/Mg²⁺; Fab antidigoxina se arritmia grave/hiperK.",
+   "pegadinha": "FA que fica regular em uso de digoxina é toxicidade até prova em contrário.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #123</b> · Palpitações leves.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_123.png",
+   "verso": "✅ <b>Flutter atrial típico com condução 4:1</b><br>🔎 Ondas F em dente de serrote negativas em II, III, aVF (~300/min); FC ~75.<br>⚡ <b>Conduta:</b> Controle de FC/anticoagulação como na FA; ablação do istmo cavotricuspídeo é curativa.",
+   "pegadinha": "Flutter típico anti-horário: F negativas inferiores e positivas em V1.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #124</b> · Taquicardia regular a 150 bpm 'fixa'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_124.png",
+   "verso": "✅ <b>Flutter atrial 2:1</b><br>🔎 FC ~150 regular; uma onda F escondida no QRS/T, outra visível; serrote em II/III/aVF.<br>⚡ <b>Conduta:</b> Controle de FC/cardioversão (responde bem a baixa energia) + anticoagulação.",
+   "pegadinha": "FC fixa em 150 = flutter 2:1 até prova em contrário.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #125</b> · Palpitação, FC 100.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_125.png",
+   "verso": "✅ <b>Flutter atrial 3:1</b><br>🔎 Três ondas F por QRS, FC ~100.<br>⚡ <b>Conduta:</b> Mesma conduta do flutter.",
+   "pegadinha": "Conduções ímpares (3:1) são menos comuns.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #126</b> · Pulso irregular.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_126.png",
+   "verso": "✅ <b>Flutter atrial com condução variável</b><br>🔎 Ondas F regulares com RR irregular (2:1, 3:1, 4:1).<br>⚡ <b>Conduta:</b> Conduta como flutter; não confundir com FA.",
+   "pegadinha": "Ondas atriais regulares e idênticas = flutter mesmo com RR irregular.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #127</b> · Pós-cirurgia cardíaca.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_127.png",
+   "verso": "✅ <b>Flutter atípico/reverso (F positivas em II, III, aVF)</b><br>🔎 Ondas F positivas nas inferiores e negativas em V1.<br>⚡ <b>Conduta:</b> Flutter horário/atípico: ablação mais complexa; controle e anticoagulação.",
+   "pegadinha": "A polaridade da F nas inferiores separa típico (negativa) de reverso (positiva).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #128</b> · Em uso de propafenona para FA.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_128.png",
+   "verso": "✅ <b>Flutter 1:1 (FC ~250) por antiarrítmico IC</b><br>🔎 Taquicardia regular muito rápida, frequentemente com QRS largo.<br>⚡ <b>Conduta:</b> Instável: cardioversão. Classe IC sempre associada a bloqueador do nó AV.",
+   "pegadinha": "IC lentifica o flutter e permite condução 1:1 — risco de morte súbita.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #129</b> · Sepse grave, FA nova.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_129.png",
+   "verso": "✅ <b>FA aguda na sepse</b><br>🔎 FA com resposta rápida.<br>⚡ <b>Conduta:</b> Tratar a sepse/volemia; controle de FC com cautela (amiodarona se hipotensão); cardioversão raramente sustenta.",
+   "pegadinha": "Na sepse, a FA é muitas vezes secundária e resolve com o tratamento da causa.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #130</b> · Derivação V1 para olhar a atividade atrial.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_130.png",
+   "verso": "✅ <b>FA com ondas f proeminentes em V1</b><br>🔎 Ondas f irregulares de amplitude/forma variáveis, mais claras em V1.<br>⚡ <b>Conduta:</b> V1 é a melhor derivação para procurar atividade atrial.",
+   "pegadinha": "Flutter: ondas regulares em V1 ('P' rápidas e iguais).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #131</b> · FA rápida com infra de ST.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_131.png",
+   "verso": "✅ <b>FA com infra de ST por frequência</b><br>🔎 FA rápida + infra difuso.<br>⚡ <b>Conduta:</b> Reavaliar o ST após controle da FC; troponina se clínica sugerir.",
+   "pegadinha": "Infra de ST durante taquiarritmia pode ser isquemia de demanda, não necessariamente DAC.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #132</b> · FA + baixa voltagem + dispneia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_132.png",
+   "verso": "✅ <b>FA com baixa voltagem</b><br>🔎 FA + complexos de baixa amplitude.<br>⚡ <b>Conduta:</b> Pesquisar derrame pericárdico, amiloidose, hipotireoidismo.",
+   "pegadinha": "Amiloidose: baixa voltagem com parede espessa no eco (dissociação voltagem-massa).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T07",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

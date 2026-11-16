@@ -1,0 +1,2 @@
+# PNGs-fonte (regeneráveis por tools/ecg/build_ecg.py); o app usa os pacotes ecg-NN.json
+*.png

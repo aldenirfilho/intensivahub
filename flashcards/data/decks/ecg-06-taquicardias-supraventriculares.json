@@ -1,0 +1,278 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::06 🚀 Taquicardias supraventriculares",
+ "midia": {
+  "ecg_097.png": "data/media/ecg/ecg-06.json#ecg_097.png",
+  "ecg_098.png": "data/media/ecg/ecg-06.json#ecg_098.png",
+  "ecg_099.png": "data/media/ecg/ecg-06.json#ecg_099.png",
+  "ecg_100.png": "data/media/ecg/ecg-06.json#ecg_100.png",
+  "ecg_101.png": "data/media/ecg/ecg-06.json#ecg_101.png",
+  "ecg_102.png": "data/media/ecg/ecg-06.json#ecg_102.png",
+  "ecg_103.png": "data/media/ecg/ecg-06.json#ecg_103.png",
+  "ecg_104.png": "data/media/ecg/ecg-06.json#ecg_104.png",
+  "ecg_105.png": "data/media/ecg/ecg-06.json#ecg_105.png",
+  "ecg_106.png": "data/media/ecg/ecg-06.json#ecg_106.png",
+  "ecg_107.png": "data/media/ecg/ecg-06.json#ecg_107.png",
+  "ecg_108.png": "data/media/ecg/ecg-06.json#ecg_108.png",
+  "ecg_109.png": "data/media/ecg/ecg-06.json#ecg_109.png",
+  "ecg_110.png": "data/media/ecg/ecg-06.json#ecg_110.png",
+  "ecg_111.png": "data/media/ecg/ecg-06.json#ecg_111.png",
+  "ecg_112.png": "data/media/ecg/ecg-06.json#ecg_112.png",
+  "ecg_113.png": "data/media/ecg/ecg-06.json#ecg_113.png",
+  "ecg_114.png": "data/media/ecg/ecg-06.json#ecg_114.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #097</b> · Choque séptico, lactato 5.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_097.png",
+   "verso": "✅ <b>Taquicardia sinusal compensatória</b><br>🔎 P sinusal antes de cada QRS a ~135 bpm.<br>⚡ <b>Conduta:</b> Ressuscitar (volume, vasopressor, antibiótico). Betabloquear piora o choque.",
+   "pegadinha": "Taquicardia sinusal é sintoma: nunca 'controle a FC' sem tratar a causa.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #098</b> · Mulher de 30 anos, início e fim súbitos.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_098.png",
+   "verso": "✅ <b>TRN típica (reentrada nodal)</b><br>🔎 QRS estreito regular ~180–200, sem P visível ou pseudo-r' em V1/pseudo-s em II, III, aVF.<br>⚡ <b>Conduta:</b> Manobra vagal (Valsalva modificada) → adenosina 6 mg → 12 mg; instável: cardioversão.",
+   "pegadinha": "O pseudo-r' some após a reversão: compare com o ECG basal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #099</b> · Jovem com WPW conhecido, palpitações.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_099.png",
+   "verso": "✅ <b>TRAV ortodrômica</b><br>🔎 QRS estreito regular com P retrógrada após o QRS (RP curto &gt; 70 ms).<br>⚡ <b>Conduta:</b> Vagal/adenosina; prevenção definitiva: ablação da via.",
+   "pegadinha": "RP &lt; 70 ms favorece TRN; RP &gt; 70 ms favorece TRAV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #100</b> · Idoso com DPOC.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_100.png",
+   "verso": "✅ <b>Taquicardia atrial focal (RP longo)</b><br>🔎 P de morfologia não sinusal antes de cada QRS, RP &gt; PR.<br>⚡ <b>Conduta:</b> Controle de FC (betabloqueador/BCC), tratar a causa; adenosina pode revelar a P.",
+   "pegadinha": "Taquicardias de RP longo: atrial, sinusal, TRN atípica, PJRT.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #101</b> · DPOC exacerbada, em uso de beta-agonista.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_101.png",
+   "verso": "✅ <b>Taquicardia atrial multifocal (TAM)</b><br>🔎 FC &gt; 100 com ≥ 3 morfologias de P e PR/RR variáveis.<br>⚡ <b>Conduta:</b> Tratar a doença pulmonar e corrigir K⁺/Mg²⁺; BCC/betabloqueador com cautela. Não cardioverter.",
+   "pegadinha": "Parece FA, mas tem P definidas antes de cada QRS.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #102</b> · Pós-operatório de cirurgia cardíaca pediátrica.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_102.png",
+   "verso": "✅ <b>Taquicardia juncional (JET)</b><br>🔎 QRS estreito regular ~130, sem P ou com dissociação/retrógrada.<br>⚡ <b>Conduta:</b> Resfriamento, reduzir catecolaminas, amiodarona, corrigir Mg²⁺.",
+   "pegadinha": "Não responde à adenosina nem à cardioversão.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #103</b> · TSV regular com QRS de amplitude alternada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_103.png",
+   "verso": "✅ <b>TSV com alternância elétrica do QRS</b><br>🔎 Amplitude do QRS alterna batimento a batimento durante a taquicardia.<br>⚡ <b>Conduta:</b> Achado frequente em TRAV com FC alta; não indica derrame isoladamente.",
+   "pegadinha": "Alternância + baixa voltagem + taquicardia sinusal = tamponamento.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #104</b> · TSV com infra de ST lateral.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_104.png",
+   "verso": "✅ <b>TSV com infra de ST relacionado à frequência</b><br>🔎 Infra de ST difuso durante a taquicardia.<br>⚡ <b>Conduta:</b> Reavaliar após a reversão; frequentemente não indica DAC.",
+   "pegadinha": "Não indique CATE só pelo infra durante TSV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #105</b> · Adenosina 6 mg em bolus rápido.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_105.png",
+   "verso": "✅ <b>Término de TSV com adenosina</b><br>🔎 Taquicardia regular estreita que termina abruptamente com pausa e retorno ao sinusal.<br>⚡ <b>Conduta:</b> Término com a adenosina sugere TSV dependente do nó AV (TRN/TRAV).",
+   "pegadinha": "Avise o paciente da sensação de 'morte iminente' e use bolus + flush.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #106</b> · Taquicardia incessante, IC em jovem.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_106.png",
+   "verso": "✅ <b>Taquicardia com RP longo e P negativa inferior (TRN atípica/PJRT)</b><br>🔎 P negativa em II, III, aVF com RP &gt; PR.<br>⚡ <b>Conduta:</b> PJRT (Coumel) incessante causa taquicardiomiopatia: ablação.",
+   "pegadinha": "Taquicardia incessante + FEVE baixa: trate o ritmo, a FEVE pode normalizar.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #107</b> · Taquicardia regular de 150 bpm.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_107.png",
+   "verso": "✅ <b>Taquicardia sinusal a 150 bpm (não flutter)</b><br>🔎 P positiva em II visível antes de cada QRS, sem ondas F entre os QRS.<br>⚡ <b>Conduta:</b> Tratar a causa.",
+   "pegadinha": "FC fixa em ~150: sempre procure flutter 2:1 nas derivações inferiores e V1.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #108</b> · DPOC grave.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_108.png",
+   "verso": "✅ <b>TAM com padrão pulmonar</b><br>🔎 TAM + P altas em II (sobrecarga atrial direita).<br>⚡ <b>Conduta:</b> Tratar hipoxemia/broncoespasmo; corrigir Mg²⁺.",
+   "pegadinha": "TAM em DPOC é marcador de gravidade da doença de base.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #109</b> · TSV em paciente com BRD prévio.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_109.png",
+   "verso": "✅ <b>TRN com BRD preexistente (QRS largo)</b><br>🔎 Taquicardia regular de QRS largo com morfologia idêntica ao BRD basal.<br>⚡ <b>Conduta:</b> Se morfologia = ECG basal, é TSV; na dúvida, trate como TV.",
+   "pegadinha": "Compare sempre com o ECG prévio.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #110</b> · Hemorragia digestiva, PA 88/50.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_110.png",
+   "verso": "✅ <b>Taquicardia sinusal reflexa (hipovolemia)</b><br>🔎 Sinusal ~130 bpm.<br>⚡ <b>Conduta:</b> Volume/sangue e controle do sangramento.",
+   "pegadinha": "Cardioverter/betabloquear taquicardia sinusal compensatória é erro grave.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #111</b> · TSV regular estreita a 150 bpm.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_111.png",
+   "verso": "✅ <b>TRN mais lenta (diferencial com flutter 2:1)</b><br>🔎 QRS estreito regular, sem P visível, sem ondas F.<br>⚡ <b>Conduta:</b> Adenosina diagnóstica: revela flutter (ondas F) ou termina a TRN.",
+   "pegadinha": "Adenosina não reverte flutter, mas o desmascara.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #112</b> · Taquicardia em paciente com cardiopatia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_112.png",
+   "verso": "✅ <b>Taquicardia atrial com P negativa em I (origem esquerda)</b><br>🔎 P negativa em I/aVL antes do QRS.<br>⚡ <b>Conduta:</b> Controle de FC/ablação conforme sintomas.",
+   "pegadinha": "Morfologia da P localiza o foco atrial.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #113</b> · Escolher a melhor manobra inicial.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_113.png",
+   "verso": "✅ <b>TRAV ortodrômica: primeira conduta</b><br>🔎 QRS estreito regular, P retrógrada.<br>⚡ <b>Conduta:</b> Paciente estável: Valsalva modificada (elevar pernas após o esforço) dobra a taxa de reversão.",
+   "pegadinha": "Massagem de seio carotídeo: evitar em idoso/sopro carotídeo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #114</b> · Instabilidade: PA 70/40, confusão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_114.png",
+   "verso": "✅ <b>TSV instável</b><br>🔎 QRS estreito regular ~210.<br>⚡ <b>Conduta:</b> Cardioversão elétrica sincronizada imediata (sedação se possível).",
+   "pegadinha": "Instabilidade = choque sincronizado, sem esperar drogas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T06",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

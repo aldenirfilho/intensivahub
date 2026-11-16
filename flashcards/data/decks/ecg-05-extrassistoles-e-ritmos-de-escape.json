@@ -1,0 +1,278 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::05 ⚡ Extrassístoles e ritmos de escape",
+ "midia": {
+  "ecg_079.png": "data/media/ecg/ecg-05.json#ecg_079.png",
+  "ecg_080.png": "data/media/ecg/ecg-05.json#ecg_080.png",
+  "ecg_081.png": "data/media/ecg/ecg-05.json#ecg_081.png",
+  "ecg_082.png": "data/media/ecg/ecg-05.json#ecg_082.png",
+  "ecg_083.png": "data/media/ecg/ecg-05.json#ecg_083.png",
+  "ecg_084.png": "data/media/ecg/ecg-05.json#ecg_084.png",
+  "ecg_085.png": "data/media/ecg/ecg-05.json#ecg_085.png",
+  "ecg_086.png": "data/media/ecg/ecg-05.json#ecg_086.png",
+  "ecg_087.png": "data/media/ecg/ecg-05.json#ecg_087.png",
+  "ecg_088.png": "data/media/ecg/ecg-05.json#ecg_088.png",
+  "ecg_089.png": "data/media/ecg/ecg-05.json#ecg_089.png",
+  "ecg_090.png": "data/media/ecg/ecg-05.json#ecg_090.png",
+  "ecg_091.png": "data/media/ecg/ecg-05.json#ecg_091.png",
+  "ecg_092.png": "data/media/ecg/ecg-05.json#ecg_092.png",
+  "ecg_093.png": "data/media/ecg/ecg-05.json#ecg_093.png",
+  "ecg_094.png": "data/media/ecg/ecg-05.json#ecg_094.png",
+  "ecg_095.png": "data/media/ecg/ecg-05.json#ecg_095.png",
+  "ecg_096.png": "data/media/ecg/ecg-05.json#ecg_096.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #079</b> · Palpitação ocasional.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_079.png",
+   "verso": "✅ <b>Extrassístole supraventricular (ESSV)</b><br>🔎 P precoce de morfologia diferente, QRS estreito, pausa não compensatória.<br>⚡ <b>Conduta:</b> Benigna; reduzir cafeína/álcool, tratar se sintomas.",
+   "pegadinha": "Procure a P precoce deformando a T anterior.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #080</b> · Pausas inexplicadas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_080.png",
+   "verso": "✅ <b>ESSV bloqueada (não conduzida)</b><br>🔎 P precoce sem QRS seguida de pausa.<br>⚡ <b>Conduta:</b> Benigna; é a causa mais comum de pausa no Holter.",
+   "pegadinha": "Não confundir com BAV 2º grau nem parada sinusal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #081</b> · QRS largos ocasionais.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_081.png",
+   "verso": "✅ <b>ESSV com condução aberrante (BRD)</b><br>🔎 P precoce antes de um QRS com morfologia de BRD típica.<br>⚡ <b>Conduta:</b> Benigna; a P antes do QRS largo é a chave.",
+   "pegadinha": "ESV não tem P precoce antes do QRS.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #082</b> · Pulso 'irregular' no exame.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_082.png",
+   "verso": "✅ <b>Bigeminismo atrial</b><br>🔎 Alternância de batimento sinusal e ESSV.<br>⚡ <b>Conduta:</b> Benigno; se muito frequente, pode precipitar FA.",
+   "pegadinha": "Bigeminismo atrial bloqueado simula bradicardia sinusal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #083</b> · Palpitação em jovem.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_083.png",
+   "verso": "✅ <b>Extrassístole ventricular (ESV) isolada</b><br>🔎 QRS precoce largo sem P precedente, T oposta, pausa compensatória completa.<br>⚡ <b>Conduta:</b> Sem cardiopatia: benigna. Avaliar se &gt; 10% dos batimentos (cardiomiopatia).",
+   "pegadinha": "ESV de via de saída do VD: BRE com eixo inferior — a forma benigna mais comum.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #084</b> · Pós-IAM, monitor com 'FC 35'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_084.png",
+   "verso": "✅ <b>Bigeminismo ventricular</b><br>🔎 Cada batimento sinusal seguido de uma ESV.<br>⚡ <b>Conduta:</b> Investigar isquemia, K⁺/Mg²⁺, digoxina. Oxímetro pode contar só metade.",
+   "pegadinha": "Pulso deficitário: a ESV precoce pode não gerar pulso.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #085</b> · Achado no monitor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_085.png",
+   "verso": "✅ <b>Trigeminismo ventricular</b><br>🔎 Uma ESV a cada dois batimentos sinusais.<br>⚡ <b>Conduta:</b> Mesma abordagem da ESV: causa + carga.",
+   "pegadinha": "Contar o padrão em sequência evita confundir com BAV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #086</b> · Pós-operatório.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_086.png",
+   "verso": "✅ <b>Par de ESV (dupla)</b><br>🔎 Duas ESV consecutivas.<br>⚡ <b>Conduta:</b> Corrigir eletrólitos e isquemia; monitorar.",
+   "pegadinha": "Três ou mais ESV seguidas = TV não sustentada.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #087</b> · Cardiopatia isquêmica.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_087.png",
+   "verso": "✅ <b>TV não sustentada (TVNS)</b><br>🔎 ≥ 3 batimentos ventriculares consecutivos &gt; 100 bpm com duração &lt; 30 s.<br>⚡ <b>Conduta:</b> Estratificar (FEVE, cicatriz); TVNS + FEVE baixa pode indicar CDI.",
+   "pegadinha": "TVNS polimórfica é mais preocupante (isquemia, QT longo).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #088</b> · Idoso com IC descompensada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_088.png",
+   "verso": "✅ <b>ESV multifocais (polimórficas)</b><br>🔎 ESV com morfologias diferentes.<br>⚡ <b>Conduta:</b> Sugere miocárdio doente: otimizar IC, K⁺, Mg²⁺, isquemia.",
+   "pegadinha": "Multifocal ≠ polimórfica sustentada; mas exige investigação.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #089</b> · IAM agudo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_089.png",
+   "verso": "✅ <b>ESV com fenômeno R sobre T</b><br>🔎 ESV muito precoce caindo sobre a T do batimento anterior.<br>⚡ <b>Conduta:</b> Gatilho de TV/FV (especialmente com QT longo/isquemia): corrigir causas, desfibrilador próximo.",
+   "pegadinha": "R sobre T + QT longo = alerta para TdP.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #090</b> · Bradicardia sinusal.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_090.png",
+   "verso": "✅ <b>ESV interpolada</b><br>🔎 ESV entre dois sinusais sem pausa compensatória; o PR seguinte alonga.<br>⚡ <b>Conduta:</b> Benigna.",
+   "pegadinha": "Acontece mais em FC baixa (há tempo para a ESV 'caber').",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #091</b> · Monitor com batimentos 'estranhos'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_091.png",
+   "verso": "✅ <b>Batimento de fusão</b><br>🔎 Complexo híbrido entre o sinusal e o ventricular, no tempo do sinusal.<br>⚡ <b>Conduta:</b> Prova a origem ventricular dos batimentos largos.",
+   "pegadinha": "Na TV, fusões e capturas confirmam dissociação AV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #092</b> · Palpitações em jovem, coração normal.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_092.png",
+   "verso": "✅ <b>ESV de via de saída do VD</b><br>🔎 Morfologia de BRE com eixo inferior (positivo em II, III, aVF), transição em V3–V4.<br>⚡ <b>Conduta:</b> Benigna na maioria; se carga alta/sintomas: betabloqueador ou ablação. Excluir DAVD.",
+   "pegadinha": "Transição precoce (V2) sugere origem na via de saída do VE.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #093</b> · Pós-IAM extenso.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_093.png",
+   "verso": "✅ <b>ESV de origem no VE (morfologia de BRD)</b><br>🔎 ESV com padrão de BRD em V1 e eixo superior.<br>⚡ <b>Conduta:</b> Mais associada a cardiopatia estrutural: eco/RM.",
+   "pegadinha": "Morfologia ajuda a localizar o foco (V1 positivo = VE).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #094</b> · Palpitações leves.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_094.png",
+   "verso": "✅ <b>Extrassístole juncional</b><br>🔎 QRS precoce estreito, sem P antes (ou P retrógrada logo após).<br>⚡ <b>Conduta:</b> Benigna.",
+   "pegadinha": "QRS estreito precoce sem P: juncional; com P diferente: atrial.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #095</b> · Medir a pausa após a ESV.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_095.png",
+   "verso": "✅ <b>Pausa compensatória completa</b><br>🔎 Intervalo que contém a ESV = 2 × RR sinusal (o nó sinusal não é 'resetado').<br>⚡ <b>Conduta:</b> Ajuda a diferenciar ESV de ESSV.",
+   "pegadinha": "ESSV costuma ter pausa incompleta (reset do nó sinusal).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #096</b> · Palpitações e episódios de FA paroxística.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_096.png",
+   "verso": "✅ <b>ESSV frequentes (gatilho de FA)</b><br>🔎 Muitas ESSV precoces, algumas em salvas.<br>⚡ <b>Conduta:</b> Tratar fatores (álcool, apneia, tireoide); considerar betabloqueador.",
+   "pegadinha": "ESSV frequentes predizem FA futura.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T05",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

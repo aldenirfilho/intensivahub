@@ -2434,3 +2434,361 @@
 - 🧬 Eletroforese de proteínas?
 - 🦋 Interpretação TSH × T4L?
 - 🧫 Leucocitúria estéril?
+
+# 📈 Compêndio de ECG 360X
+
+🖼️ todos com traçado sintético didático na **frente** (toque para ampliar) · diagnóstico, critérios, conduta e pegadinha no verso
+
+## 01 🧭 Fundamentos e ritmo sinusal (20)
+
+- ECG #001 · ECG normal (ritmo sinusal, 72 bpm) 🖼️
+- ECG #002 · Taquicardia sinusal (~125 bpm) 🖼️
+- ECG #003 · Bradicardia sinusal (~46 bpm) 🖼️
+- ECG #004 · Arritmia sinusal respiratória 🖼️
+- ECG #005 · Eixo normal (~+50°) 🖼️
+- ECG #006 · Desvio do eixo para a direita (~+115°) 🖼️
+- ECG #007 · Eixo extremo/noroeste (−90° a ±180°) em taquicardia de QRS largo 🖼️
+- ECG #008 · Baixa voltagem difusa 🖼️
+- ECG #009 · Troca dos eletrodos dos braços (LA ↔ RA) 🖼️
+- ECG #010 · Dextrocardia 🖼️
+- ECG #011 · Artefato de tremor (pseudoflutter) 🖼️
+- ECG #012 · Artefato de movimento simulando TV 🖼️
+- ECG #013 · Oscilação da linha de base (respiração/movimento) 🖼️
+- ECG #014 · Interferência elétrica (60 Hz) 🖼️
+- ECG #015 · Ritmo sinusal com FC ~100 bpm 🖼️
+- ECG #016 · Padrão juvenil de onda T (T invertida V1–V3) 🖼️
+- ECG #017 · Repolarização precoce benigna 🖼️
+- ECG #018 · Bloqueio incompleto de ramo direito (variante) 🖼️
+- ECG #019 · Progressão pobre da onda R (V1–V4) 🖼️
+- ECG #020 · PR curto sem pré-excitação 🖼️
+
+## 02 🐢 Bradiarritmias e nó sinusal (18)
+
+- ECG #021 · Bradicardia sinusal sintomática (~38 bpm) 🖼️
+- ECG #022 · Bradicardia sinusal do atleta 🖼️
+- ECG #023 · Parada (pausa) sinusal 🖼️
+- ECG #024 · Bloqueio sinoatrial de 2º grau (tipo II) 🖼️
+- ECG #025 · Síndrome taqui-bradi (doença do nó sinusal) 🖼️
+- ECG #026 · Ritmo de escape juncional (~42 bpm) 🖼️
+- ECG #027 · Ritmo juncional com P retrógrada 🖼️
+- ECG #028 · Ritmo juncional acelerado (~88 bpm) 🖼️
+- ECG #029 · Ritmo de escape ventricular (idioventricular, ~32 bpm) 🖼️
+- ECG #030 · Marca-passo atrial migratório 🖼️
+- ECG #031 · Ritmo atrial ectópico baixo 🖼️
+- ECG #032 · Dissociação AV isorrítmica (não é BAVT) 🖼️
+- ECG #033 · IAMCSST inferior com bradicardia sinusal (reflexo de Bezold-Jarisch) 🖼️
+- ECG #034 · Síndrome BRASH (bradicardia + hipercalemia) 🖼️
+- ECG #035 · Assistolia com ondas P (paralisação ventricular) 🖼️
+- ECG #036 · Assistolia 🖼️
+- ECG #037 · Bradicardia sinusal com BAV de 1º grau por fármacos 🖼️
+- ECG #038 · Bradicardia + baixa voltagem + T achatada (hipotireoidismo) 🖼️
+
+## 03 🧱 Bloqueios atrioventriculares (20)
+
+- ECG #039 · BAV de 1º grau (PR ~300 ms) 🖼️
+- ECG #040 · BAV de 1º grau acentuado (PR ~420 ms) 🖼️
+- ECG #041 · BAV 2º grau Mobitz I (Wenckebach) 4:3 🖼️
+- ECG #042 · Wenckebach 3:2 ('batimentos agrupados') 🖼️
+- ECG #043 · BAV 2º grau Mobitz II (4:3) com BRD 🖼️
+- ECG #044 · BAV 2º grau Mobitz II (3:2) com BRE 🖼️
+- ECG #045 · BAV de 2º grau 2:1 (QRS estreito) 🖼️
+- ECG #046 · BAV 2:1 com QRS largo (provável infranodal) 🖼️
+- ECG #047 · BAV avançado (alto grau) 3:1 🖼️
+- ECG #048 · BAVT com escape juncional (QRS estreito) 🖼️
+- ECG #049 · BAVT com escape ventricular (QRS largo) 🖼️
+- ECG #050 · BAVT no IAMCSST inferior 🖼️
+- ECG #051 · FA com BAVT (resposta ventricular regular) 🖼️
+- ECG #052 · ESSV bloqueada (simula BAV) 🖼️
+- ECG #053 · Wenckebach 5:4 🖼️
+- ECG #054 · BAV 1º + BRD + BDAS ('trifascicular') 🖼️
+- ECG #055 · BAV 2º grau Mobitz II 3:2 com BRD (Chagas) 🖼️
+- ECG #056 · BAV 2:1 com P escondida na T 🖼️
+- ECG #057 · BAVT com escape ventricular lento (~28 bpm) 🖼️
+- ECG #058 · Wenckebach com BRD 🖼️
+
+## 04 🌿 Bloqueios de ramo e fasciculares (20)
+
+- ECG #059 · Bloqueio completo de ramo direito (BRD) 🖼️
+- ECG #060 · Bloqueio incompleto de ramo direito 🖼️
+- ECG #061 · Bloqueio completo de ramo esquerdo (BRE) 🖼️
+- ECG #062 · Bloqueio incompleto de ramo esquerdo 🖼️
+- ECG #063 · Bloqueio divisional anterossuperior esquerdo (BDAS) 🖼️
+- ECG #064 · Bloqueio divisional posteroinferior esquerdo (BDPI) 🖼️
+- ECG #065 · BRD + BDAS (bloqueio bifascicular) 🖼️
+- ECG #066 · BRD + BDPI (bifascicular) 🖼️
+- ECG #067 · BAV 1º grau + bloqueio bifascicular 🖼️
+- ECG #068 · Bloqueio de ramo alternante 🖼️
+- ECG #069 · Distúrbio de condução intraventricular inespecífico 🖼️
+- ECG #070 · BRE dependente da frequência (fase 3) 🖼️
+- ECG #071 · BRE na dor torácica: o que fazer? 🖼️
+- ECG #072 · IAMCSST anterior com BRD (DA proximal) 🖼️
+- ECG #073 · BRE com QRS muito largo (candidato a TRC) 🖼️
+- ECG #074 · BDAS (não é IAM inferior antigo) 🖼️
+- ECG #075 · BRD com eixo à direita: pensar em sobrecarga de VD 🖼️
+- ECG #076 · Pré-excitação simulando bloqueio de ramo esquerdo 🖼️
+- ECG #077 · BRE com discordância apropriada (normal) 🖼️
+- ECG #078 · BRD intermitente 🖼️
+
+## 05 ⚡ Extrassístoles e ritmos de escape (18)
+
+- ECG #079 · Extrassístole supraventricular (ESSV) 🖼️
+- ECG #080 · ESSV bloqueada (não conduzida) 🖼️
+- ECG #081 · ESSV com condução aberrante (BRD) 🖼️
+- ECG #082 · Bigeminismo atrial 🖼️
+- ECG #083 · Extrassístole ventricular (ESV) isolada 🖼️
+- ECG #084 · Bigeminismo ventricular 🖼️
+- ECG #085 · Trigeminismo ventricular 🖼️
+- ECG #086 · Par de ESV (dupla) 🖼️
+- ECG #087 · TV não sustentada (TVNS) 🖼️
+- ECG #088 · ESV multifocais (polimórficas) 🖼️
+- ECG #089 · ESV com fenômeno R sobre T 🖼️
+- ECG #090 · ESV interpolada 🖼️
+- ECG #091 · Batimento de fusão 🖼️
+- ECG #092 · ESV de via de saída do VD 🖼️
+- ECG #093 · ESV de origem no VE (morfologia de BRD) 🖼️
+- ECG #094 · Extrassístole juncional 🖼️
+- ECG #095 · Pausa compensatória completa 🖼️
+- ECG #096 · ESSV frequentes (gatilho de FA) 🖼️
+
+## 06 🚀 Taquicardias supraventriculares (18)
+
+- ECG #097 · Taquicardia sinusal compensatória 🖼️
+- ECG #098 · TRN típica (reentrada nodal) 🖼️
+- ECG #099 · TRAV ortodrômica 🖼️
+- ECG #100 · Taquicardia atrial focal (RP longo) 🖼️
+- ECG #101 · Taquicardia atrial multifocal (TAM) 🖼️
+- ECG #102 · Taquicardia juncional (JET) 🖼️
+- ECG #103 · TSV com alternância elétrica do QRS 🖼️
+- ECG #104 · TSV com infra de ST relacionado à frequência 🖼️
+- ECG #105 · Término de TSV com adenosina 🖼️
+- ECG #106 · Taquicardia com RP longo e P negativa inferior (TRN atípica/PJRT) 🖼️
+- ECG #107 · Taquicardia sinusal a 150 bpm (não flutter) 🖼️
+- ECG #108 · TAM com padrão pulmonar 🖼️
+- ECG #109 · TRN com BRD preexistente (QRS largo) 🖼️
+- ECG #110 · Taquicardia sinusal reflexa (hipovolemia) 🖼️
+- ECG #111 · TRN mais lenta (diferencial com flutter 2:1) 🖼️
+- ECG #112 · Taquicardia atrial com P negativa em I (origem esquerda) 🖼️
+- ECG #113 · TRAV ortodrômica: primeira conduta 🖼️
+- ECG #114 · TSV instável 🖼️
+
+## 07 🌀 Fibrilação e flutter atrial (18)
+
+- ECG #115 · FA com resposta ventricular rápida 🖼️
+- ECG #116 · FA com resposta ventricular controlada 🖼️
+- ECG #117 · FA com baixa resposta ventricular 🖼️
+- ECG #118 · FA fina 🖼️
+- ECG #119 · FA grosseira (ondas f amplas) 🖼️
+- ECG #120 · FA com BRE (QRS largo irregular) 🖼️
+- ECG #121 · Fenômeno de Ashman (aberrância na FA) 🖼️
+- ECG #122 · FA regularizada por intoxicação digitálica 🖼️
+- ECG #123 · Flutter atrial típico com condução 4:1 🖼️
+- ECG #124 · Flutter atrial 2:1 🖼️
+- ECG #125 · Flutter atrial 3:1 🖼️
+- ECG #126 · Flutter atrial com condução variável 🖼️
+- ECG #127 · Flutter atípico/reverso (F positivas em II, III, aVF) 🖼️
+- ECG #128 · Flutter 1:1 (FC ~250) por antiarrítmico IC 🖼️
+- ECG #129 · FA aguda na sepse 🖼️
+- ECG #130 · FA com ondas f proeminentes em V1 🖼️
+- ECG #131 · FA com infra de ST por frequência 🖼️
+- ECG #132 · FA com baixa voltagem 🖼️
+
+## 08 ⚡ Pré-excitação (WPW) (14)
+
+- ECG #133 · Pré-excitação ventricular (WPW) – via lateral esquerda 🖼️
+- ECG #134 · WPW póstero-septal (pseudo-Q inferior) 🖼️
+- ECG #135 · WPW de parede livre direita (tipo B) 🖼️
+- ECG #136 · Pré-excitação intermitente 🖼️
+- ECG #137 · FA pré-excitada (FBI: rápida, larga, irregular) 🖼️
+- ECG #138 · TRAV antidrômica 🖼️
+- ECG #139 · FA pré-excitada: drogas proibidas 🖼️
+- ECG #140 · Taquicardia por via atriofascicular (Mahaim) 🖼️
+- ECG #141 · Pré-excitação com RR pré-excitado muito curto 🖼️
+- ECG #142 · Pré-excitação sutil 🖼️
+- ECG #143 · Pré-excitação simulando HVE 🖼️
+- ECG #144 · Via acessória posterosseptal pelo ECG 🖼️
+- ECG #145 · Padrão de WPW assintomático 🖼️
+- ECG #146 · Tríade da pré-excitação 🖼️
+
+## 09 🔥 Taquicardias de QRS largo e ritmos ventriculares (22)
+
+- ECG #147 · TV monomórfica (morfologia de BRE) 🖼️
+- ECG #148 · TV monomórfica (morfologia de BRD, eixo superior) 🖼️
+- ECG #149 · TV com dissociação AV 🖼️
+- ECG #150 · TV com batimento de captura 🖼️
+- ECG #151 · TV com concordância positiva precordial 🖼️
+- ECG #152 · TV com concordância negativa precordial 🖼️
+- ECG #153 · TV com eixo noroeste 🖼️
+- ECG #154 · TV fascicular (idiopática do VE) 🖼️
+- ECG #155 · TV lenta (< 150 bpm) 🖼️
+- ECG #156 · TV polimórfica com QT normal (isquemia) 🖼️
+- ECG #157 · Torsades de pointes 🖼️
+- ECG #158 · Fibrilação ventricular grossa 🖼️
+- ECG #159 · Fibrilação ventricular fina 🖼️
+- ECG #160 · Flutter ventricular 🖼️
+- ECG #161 · Ritmo idioventricular acelerado (RIVA) 🖼️
+- ECG #162 · Ritmo idioventricular 🖼️
+- ECG #163 · TSV com aberrância (BRD típico) 🖼️
+- ECG #164 · Tempestade elétrica (TV recorrente) 🖼️
+- ECG #165 · TV × TSV com aberrância: na dúvida, TV 🖼️
+- ECG #166 · Atividade elétrica sem pulso (AESP) 🖼️
+- ECG #167 · TV com batimento de fusão 🖼️
+- ECG #168 · Taquicardia irregular de QRS largo: diagnóstico diferencial 🖼️
+
+## 10 🚨 IAM com supra de ST: territórios e artéria culpada (24)
+
+- ECG #169 · IAMCSST inferior — coronária direita (CD) 🖼️
+- ECG #170 · IAMCSST inferolateral — circunflexa (Cx) 🖼️
+- ECG #171 · IAMCSST inferior com infarto de VD 🖼️
+- ECG #172 · IAMCSST inferoposterior 🖼️
+- ECG #173 · IAM posterior isolado (OMI posterior) 🖼️
+- ECG #174 · IAMCSST anterior extenso — DA proximal 🖼️
+- ECG #175 · IAMCSST anterosseptal — DA média 🖼️
+- ECG #176 · IAMCSST anterolateral extenso (V1–V6, I, aVL) 🖼️
+- ECG #177 · IAMCSST por DA distal 'wraparound' 🖼️
+- ECG #178 · IAMCSST lateral alto — 1ª diagonal (sinal da bandeira sul-africana) 🖼️
+- ECG #179 · IAMCSST lateral — circunflexa/marginal 🖼️
+- ECG #180 · IAMCSST inferolateral 🖼️
+- ECG #181 · IAMCSST com supra em 'lápide' (tombstone) 🖼️
+- ECG #182 · Critérios de IAMCSST nas derivações V2–V3 🖼️
+- ECG #183 · IAMCSST anterior subagudo (Q já formada) 🖼️
+- ECG #184 · IAMCSST inferior sutil (recíproca em aVL) 🖼️
+- ECG #185 · IAM inferior + VD (pista em V1) 🖼️
+- ECG #186 · Supra isolado em aVL (OMI lateral alta) 🖼️
+- ECG #187 · IAMCSST anterior com supra em aVR (DA proximal à 1ª septal) 🖼️
+- ECG #188 · IAMCSST inferoposterolateral 🖼️
+- ECG #189 · IAMCSST inferior com ESV 'R sobre T' 🖼️
+- ECG #190 · IAM anterior em fase hiperaguda 🖼️
+- ECG #191 · IAMCSST inferior com FA aguda 🖼️
+- ECG #192 · IAMCSST anterior com BRD + BDAS novos 🖼️
+
+## 11 🕵️ Equivalentes de oclusão (OMI) e isquemia (21)
+
+- ECG #193 · Síndrome de Wellens tipo A 🖼️
+- ECG #194 · Síndrome de Wellens tipo B 🖼️
+- ECG #195 · Padrão de de Winter (equivalente de IAMCSST) 🖼️
+- ECG #196 · T hiperagudas inferiores (OMI sem critério de supra) 🖼️
+- ECG #197 · T hiperagudas anteriores (vs. hipercalemia) 🖼️
+- ECG #198 · Supra em aVR com infra difuso (isquemia subendocárdica difusa) 🖼️
+- ECG #199 · Sgarbossa: supra concordante ≥ 1 mm 🖼️
+- ECG #200 · Sgarbossa: infra concordante em V1–V3 🖼️
+- ECG #201 · Sgarbossa modificado (Smith): discordância excessiva 🖼️
+- ECG #202 · Sgarbossa em ritmo de marca-passo ventricular 🖼️
+- ECG #203 · Padrão de Aslanger 🖼️
+- ECG #204 · Infra de ST difuso (isquemia subendocárdica) 🖼️
+- ECG #205 · Infra horizontal localizado V4–V6 🖼️
+- ECG #206 · Infra descendente + T invertida (lesão subendocárdica) 🖼️
+- ECG #207 · Inversão isolada de T lateral 🖼️
+- ECG #208 · Infra difuso por isquemia de demanda (IAM tipo 2) 🖼️
+- ECG #209 · Inversão de T em aVL (sinal precoce de IAM inferior) 🖼️
+- ECG #210 · Angina vasoespástica (Prinzmetal) 🖼️
+- ECG #211 · ECG normal não exclui SCA 🖼️
+- ECG #212 · Distorção terminal do QRS (favorece OMI anterior) 🖼️
+- ECG #213 · Supra 'pequeno' porém desproporcional ao QRS 🖼️
+
+## 12 🪦 IAM antigo, aneurisma, reperfusão e miocardiopatias (17)
+
+- ECG #214 · IAM inferior antigo (ondas Q inferiores) 🖼️
+- ECG #215 · IAM anterior antigo (QS V1–V3) 🖼️
+- ECG #216 · IAM lateral antigo (Q em I, aVL, V6) 🖼️
+- ECG #217 · Aneurisma de VE (supra persistente) 🖼️
+- ECG #218 · Ondas T de reperfusão (inversão terminal inferior) 🖼️
+- ECG #219 · Takotsubo (fase aguda) 🖼️
+- ECG #220 · Takotsubo (fase subaguda): T profundas difusas + QT longo 🖼️
+- ECG #221 · Cardiomiopatia hipertrófica (Q septais profundas) 🖼️
+- ECG #222 · CMH apical (Yamaguchi) 🖼️
+- ECG #223 · Displasia arritmogênica do VD (onda épsilon) 🖼️
+- ECG #224 · Amiloidose cardíaca (baixa voltagem + pseudoinfarto) 🖼️
+- ECG #225 · Cardiomiopatia dilatada com BRE e SAE 🖼️
+- ECG #226 · Miocardite aguda 🖼️
+- ECG #227 · Cardiopatia chagásica (BRD + BDAS + ESV) 🖼️
+- ECG #228 · IAM inferoposterior antigo 🖼️
+- ECG #229 · IAM anterior antigo com T invertidas (fase crônica) 🖼️
+- ECG #230 · QRS fragmentado (fQRS) — marcador de cicatriz 🖼️
+
+## 13 🏋️ Sobrecargas de câmaras (12)
+
+- ECG #231 · Hipertrofia ventricular esquerda (critério de Sokolow-Lyon) 🖼️
+- ECG #232 · HVE com padrão de 'strain' 🖼️
+- ECG #233 · HVE pelo critério de Cornell 🖼️
+- ECG #234 · Hipertrofia ventricular direita 🖼️
+- ECG #235 · Sobrecarga atrial esquerda (P mitrale) 🖼️
+- ECG #236 · Sobrecarga atrial direita (P pulmonale) 🖼️
+- ECG #237 · Sobrecarga biatrial 🖼️
+- ECG #238 · Padrão de DPOC/cor pulmonale 🖼️
+- ECG #239 · Voltagem de HVE isolada em atleta 🖼️
+- ECG #240 · HVE na presença de BRE 🖼️
+- ECG #241 · FA + HVD (estenose mitral) 🖼️
+- ECG #242 · Hipertrofia biventricular (Katz-Wachtel) 🖼️
+
+## 14 🧪 Eletrólitos e distúrbios metabólicos (16)
+
+- ECG #243 · Hipercalemia leve: T apiculada 🖼️
+- ECG #244 · Hipercalemia moderada 🖼️
+- ECG #245 · Hipercalemia grave: QRS largo sem P 🖼️
+- ECG #246 · Hipercalemia pré-parada: onda sinusoidal 🖼️
+- ECG #247 · Hipocalemia (U proeminente) 🖼️
+- ECG #248 · Hipocalemia grave com ESV 🖼️
+- ECG #249 · Hipercalcemia: QT curto 🖼️
+- ECG #250 · Hipocalcemia: QT longo por ST longo 🖼️
+- ECG #251 · Síndrome de realimentação (hipoK/hipoMg/hipoP) 🖼️
+- ECG #252 · Hipotermia: onda de Osborn (J) 🖼️
+- ECG #253 · Hipotermia grave: FA lenta + ondas J 🖼️
+- ECG #254 · Hipercalemia na cetoacidose 🖼️
+- ECG #255 · Hipercalemia simulando Brugada/IAM (pseudo-supra) 🖼️
+- ECG #256 · Hipercalemia com BAV de 1º grau e QRS largo 🖼️
+- ECG #257 · Uremia: hiperK + hipoCa (ST longo com T apiculada) 🖼️
+- ECG #258 · Alterações inespecíficas de ST-T em doente crítico 🖼️
+
+## 15 💊 Fármacos e intoxicações (14)
+
+- ECG #259 · Efeito digitálico ('colher de pedreiro') 🖼️
+- ECG #260 · Taquicardia atrial com bloqueio AV (intoxicação digitálica) 🖼️
+- ECG #261 · TV bidirecional 🖼️
+- ECG #262 · Bigeminismo ventricular por digoxina 🖼️
+- ECG #263 · Intoxicação por tricíclico 🖼️
+- ECG #264 · Bloqueio de canal de sódio (QRS largo) 🖼️
+- ECG #265 · QT longo adquirido (fármacos) 🖼️
+- ECG #266 · Efeito da amiodarona 🖼️
+- ECG #267 · Intoxicação por betabloqueador/BCC (juncional lento) 🖼️
+- ECG #268 · Toxicidade por lítio (disfunção sinusal + T achatada) 🖼️
+- ECG #269 · Cocaína: taquicardia + supra (vasoespasmo/IAM) 🖼️
+- ECG #270 · Intoxicação por organofosforado 🖼️
+- ECG #271 · Padrão de Brugada induzido por fármaco 🖼️
+- ECG #272 · Adenosina desmascarando flutter 🖼️
+
+## 16 🧬 Canalopatias e síndromes arritmogênicas (10)
+
+- ECG #273 · Padrão de Brugada tipo 1 (cúpula) 🖼️
+- ECG #274 · Padrão de Brugada tipo 2 ('sela') 🖼️
+- ECG #275 · QT longo congênito tipo 1 (T de base larga) 🖼️
+- ECG #276 · QT longo congênito tipo 2 (T bífida) 🖼️
+- ECG #277 · QT longo congênito tipo 3 (ST longo, T tardia) 🖼️
+- ECG #278 · Síndrome do QT curto 🖼️
+- ECG #279 · Síndrome da repolarização precoce (ondas J inferolaterais) 🖼️
+- ECG #280 · Taquicardia ventricular polimórfica catecolaminérgica (TVPC) 🖼️
+- ECG #281 · Brugada desmascarado pela febre 🖼️
+- ECG #282 · Medida do QT e correção 🖼️
+
+## 17 🫀 Pericárdio, TEP e outros (12)
+
+- ECG #283 · Pericardite aguda (estágio I) 🖼️
+- ECG #284 · Pericardite: estágio III (T invertidas difusas) 🖼️
+- ECG #285 · Tamponamento cardíaco (alternância elétrica) 🖼️
+- ECG #286 · TEP: padrão S1Q3T3 + taquicardia 🖼️
+- ECG #287 · TEP com sobrecarga de VD (T invertidas V1–V4 + III) 🖼️
+- ECG #288 · TEP maciço: BRD novo + taquicardia + supra aVR/V1 🖼️
+- ECG #289 · T 'cerebrais' (hemorragia subaracnóidea) 🖼️
+- ECG #290 · Pericardite constritiva (baixa voltagem + FA + T achatadas) 🖼️
+- ECG #291 · Miopericardite 🖼️
+- ECG #292 · BAV avançado em jovem: pensar em sarcoidose cardíaca 🖼️
+- ECG #293 · Razão ST/T em V6 > 0,25 (favorece pericardite) 🖼️
+- ECG #294 · Hipertensão intracraniana (reflexo de Cushing) 🖼️
+
+## 18 🔋 Marca-passo (6)
+
+- ECG #295 · Ritmo de marca-passo ventricular (VVI) normal 🖼️
+- ECG #296 · Ritmo de marca-passo DDD (átrio e ventrículo estimulados) 🖼️
+- ECG #297 · Perda de captura (falha de comando) 🖼️
+- ECG #298 · Falha de sensibilidade (undersensing) 🖼️
+- ECG #299 · Oversensing (inibição inapropriada) 🖼️
+- ECG #300 · Estimulação biventricular (TRC) 🖼️

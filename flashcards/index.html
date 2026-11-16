@@ -339,6 +339,17 @@ html.light .hoOrb{background:radial-gradient(circle at 35% 35%,#006299,#e5e2f4 6
 html.light .hoOrb span{text-shadow:0 1px 4px #fbfbfb}
 html.light .hoOrb small{color:#006299}
 /*LIGHT-END*/
+/* 🔍 Zoom de imagens (4.11.0) */
+#zoomBox{position:fixed;inset:0;z-index:9999;background:#06080c;display:none;flex-direction:column}
+#zoomBox.on{display:flex}
+#zoomBox .zbar{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:nowrap;padding:8px calc(8px + env(safe-area-inset-right)) 8px calc(8px + env(safe-area-inset-left));padding-top:calc(8px + env(safe-area-inset-top));background:#0d1117;border-bottom:1px solid #2a3442}
+#zoomBox .zbar span{min-width:64px;text-align:center;color:#e8d9a8;font-weight:700}
+#zoomBox .zscroll{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y pinch-zoom}
+#zoomBox.fit .zscroll{display:flex;align-items:center;justify-content:center}
+#zoomBox.fit img{max-width:100%;max-height:100%;width:auto;height:auto}
+#zoomBox img{display:block;background:#fff;height:auto;max-width:none}
+#zoomBox .zhint{color:#9aa5b1;font-size:12px;text-align:center;padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
+html.zoomOpen,html.zoomOpen body{overflow:hidden}
 </style>
 </head>
 <body>

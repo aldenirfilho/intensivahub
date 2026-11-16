@@ -1,0 +1,323 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::11 🕵️ Equivalentes de oclusão (OMI) e isquemia",
+ "midia": {
+  "ecg_193.png": "data/media/ecg/ecg-11.json#ecg_193.png",
+  "ecg_194.png": "data/media/ecg/ecg-11.json#ecg_194.png",
+  "ecg_195.png": "data/media/ecg/ecg-11.json#ecg_195.png",
+  "ecg_196.png": "data/media/ecg/ecg-11.json#ecg_196.png",
+  "ecg_197.png": "data/media/ecg/ecg-11.json#ecg_197.png",
+  "ecg_198.png": "data/media/ecg/ecg-11.json#ecg_198.png",
+  "ecg_199.png": "data/media/ecg/ecg-11.json#ecg_199.png",
+  "ecg_200.png": "data/media/ecg/ecg-11.json#ecg_200.png",
+  "ecg_201.png": "data/media/ecg/ecg-11.json#ecg_201.png",
+  "ecg_202.png": "data/media/ecg/ecg-11.json#ecg_202.png",
+  "ecg_203.png": "data/media/ecg/ecg-11.json#ecg_203.png",
+  "ecg_204.png": "data/media/ecg/ecg-11.json#ecg_204.png",
+  "ecg_205.png": "data/media/ecg/ecg-11.json#ecg_205.png",
+  "ecg_206.png": "data/media/ecg/ecg-11.json#ecg_206.png",
+  "ecg_207.png": "data/media/ecg/ecg-11.json#ecg_207.png",
+  "ecg_208.png": "data/media/ecg/ecg-11.json#ecg_208.png",
+  "ecg_209.png": "data/media/ecg/ecg-11.json#ecg_209.png",
+  "ecg_210.png": "data/media/ecg/ecg-11.json#ecg_210.png",
+  "ecg_211.png": "data/media/ecg/ecg-11.json#ecg_211.png",
+  "ecg_212.png": "data/media/ecg/ecg-11.json#ecg_212.png",
+  "ecg_213.png": "data/media/ecg/ecg-11.json#ecg_213.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #193</b> · Dor ontem, hoje assintomático; troponina discreta.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_193.png",
+   "verso": "✅ <b>Síndrome de Wellens tipo A</b><br>🔎 T bifásica (positiva-negativa) em V2–V3, sem Q e com pouco ou nenhum supra, em período sem dor.<br>⚡ <b>Conduta:</b> Estenose crítica da DA proximal: estratégia invasiva (CATE) precoce. Não fazer teste ergométrico.",
+   "pegadinha": "O ECG 'melhora' sem dor — o perigo é a reoclusão.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #194</b> · Assintomático após angina intensa.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_194.png",
+   "verso": "✅ <b>Síndrome de Wellens tipo B</b><br>🔎 T profundas e simétricas em V2–V4 (± V1, V5), sem Q, R preservada.<br>⚡ <b>Conduta:</b> CATE precoce (DA proximal).",
+   "pegadinha": "Diferencial: TEP, HSA, Takotsubo, pós-taquicardia, HCM apical.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #195</b> · Dor típica há 1 h.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_195.png",
+   "verso": "✅ <b>Padrão de de Winter (equivalente de IAMCSST)</b><br>🔎 Infra ascendente de 1–3 mm no ponto J em V1–V6 com T altas e simétricas; supra leve em aVR.<br>⚡ <b>Conduta:</b> Oclusão da DA: CATE imediato como IAMCSST.",
+   "pegadinha": "Não espere o 'supra aparecer': de Winter já é oclusão.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #196</b> · Dor torácica, supra &lt; 1 mm.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_196.png",
+   "verso": "✅ <b>T hiperagudas inferiores (OMI sem critério de supra)</b><br>🔎 T amplas e largas em III/aVF desproporcionais ao QRS + inversão/infra em aVL.<br>⚡ <b>Conduta:</b> ECG seriado (15 min), troponina, CATE se dor persistente.",
+   "pegadinha": "Critérios de 'mm' perdem OMIs: forma e proporção importam.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #197</b> · Dor torácica; K⁺ normal.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_197.png",
+   "verso": "✅ <b>T hiperagudas anteriores (vs. hipercalemia)</b><br>🔎 T altas, largas na base e simétricas em V2–V5; QRS normal; P normal.<br>⚡ <b>Conduta:</b> Tratar como OMI anterior até prova em contrário.",
+   "pegadinha": "HiperK: T estreita e pontiaguda, P achatada, QRS largo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #198</b> · Dor + hipotensão + edema agudo de pulmão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_198.png",
+   "verso": "✅ <b>Supra em aVR com infra difuso (isquemia subendocárdica difusa)</b><br>🔎 Supra em aVR (e V1) ≥ 1 mm com infra em ≥ 6 derivações.<br>⚡ <b>Conduta:</b> Alto risco (lesão de TCE/multiarterial ou isquemia difusa): CATE urgente se instável; excluir causas não coronárias.",
+   "pegadinha": "Também ocorre em anemia, taquiarritmias e choque: contexto é tudo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #199</b> · BRE + dor torácica.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_199.png",
+   "verso": "✅ <b>Sgarbossa: supra concordante ≥ 1 mm</b><br>🔎 Supra de ST na mesma direção do QRS (positivo) em I, aVL, V5–V6.<br>⚡ <b>Conduta:</b> Critério mais específico de OMI no BRE: CATE imediato.",
+   "pegadinha": "No BRE o normal é ST oposto ao QRS.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #200</b> · BRE antigo + dor torácica nova.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_200.png",
+   "verso": "✅ <b>Sgarbossa: infra concordante em V1–V3</b><br>🔎 Infra ≥ 1 mm em V1–V3, onde o QRS é negativo.<br>⚡ <b>Conduta:</b> Sugere OMI posterior: CATE.",
+   "pegadinha": "Em V1–V3 o BRE deveria ter supra discordante, nunca infra.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #201</b> · BRE + dor + instabilidade.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_201.png",
+   "verso": "✅ <b>Sgarbossa modificado (Smith): discordância excessiva</b><br>🔎 Supra discordante ≥ 25% da profundidade da S precedente (ST/S ≤ −0,25) em V1–V3.<br>⚡ <b>Conduta:</b> Considerar OMI: CATE.",
+   "pegadinha": "O critério antigo usava ≥ 5 mm; a razão ST/S é mais sensível.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #202</b> · Portador de marca-passo + dor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_202.png",
+   "verso": "✅ <b>Sgarbossa em ritmo de marca-passo ventricular</b><br>🔎 QRS de estimulação de VD (padrão BRE) com supra discordante desproporcional.<br>⚡ <b>Conduta:</b> Os critérios de Sgarbossa (sobretudo modificados) são aplicáveis ao ritmo de MP de VD.",
+   "pegadinha": "Concordância em ritmo estimulado é tão suspeita quanto no BRE.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #203</b> · Dor torácica, supra apenas em III.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_203.png",
+   "verso": "✅ <b>Padrão de Aslanger</b><br>🔎 Supra só em III (não em II/aVF), infra em V4–V6 com T positiva e supra V1 &gt; V2.<br>⚡ <b>Conduta:</b> IAM inferior com doença multiarterial: tratar como OMI (CATE).",
+   "pegadinha": "Supra em uma única derivação também pode ser OMI.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #204</b> · Dor em repouso, troponina elevada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_204.png",
+   "verso": "✅ <b>Infra de ST difuso (isquemia subendocárdica)</b><br>🔎 Infra horizontal ≥ 0,5–1 mm em várias derivações, supra recíproco em aVR.<br>⚡ <b>Conduta:</b> SCA sem supra: AAS, anticoagulação, estratificação (GRACE) e CATE conforme risco.",
+   "pegadinha": "Infra de ST não localiza a artéria culpada.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #205</b> · Dor durante esforço, já cedeu.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_205.png",
+   "verso": "✅ <b>Infra horizontal localizado V4–V6</b><br>🔎 Infra horizontal ≥ 1 mm em V4–V6.<br>⚡ <b>Conduta:</b> SCA sem supra: troponina seriada, terapia antitrombótica, estratificação.",
+   "pegadinha": "Infra descendente/horizontal é mais específico que ascendente.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #206</b> · IAMSSST, dor persistente.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_206.png",
+   "verso": "✅ <b>Infra descendente + T invertida (lesão subendocárdica)</b><br>🔎 Infra descendente com inversão de T lateral.<br>⚡ <b>Conduta:</b> Dor refratária/instabilidade: CATE &lt; 2 h; senão &lt; 24 h se alto risco.",
+   "pegadinha": "Diferencial com 'strain' de HVE: procure critérios de voltagem.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #207</b> · Angina instável.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_207.png",
+   "verso": "✅ <b>Inversão isolada de T lateral</b><br>🔎 T negativas simétricas em I, aVL, V5–V6, sem infra relevante.<br>⚡ <b>Conduta:</b> Isquemia possível: troponina, estratificação.",
+   "pegadinha": "T invertida assimétrica com HVE = strain; simétrica = isquemia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #208</b> · Hb 6,5 g/dL, taquicardia, troponina ↑.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_208.png",
+   "verso": "✅ <b>Infra difuso por isquemia de demanda (IAM tipo 2)</b><br>🔎 Taquicardia sinusal + infra difuso.<br>⚡ <b>Conduta:</b> Tratar a causa (transfusão, controle da FC, sepse); não anticoagular por reflexo.",
+   "pegadinha": "IAM tipo 2 = desequilíbrio oferta/demanda, não trombose.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #209</b> · Dor torácica inicial, ECG 'normal'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_209.png",
+   "verso": "✅ <b>Inversão de T em aVL (sinal precoce de IAM inferior)</b><br>🔎 T nova invertida em aVL com T inferior proeminente.<br>⚡ <b>Conduta:</b> ECG seriado; troponina; alto índice de suspeição.",
+   "pegadinha": "aVL alterado pode preceder o supra inferior em horas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #210</b> · Dor de madrugada, em repouso, que cede com nitrato.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_210.png",
+   "verso": "✅ <b>Angina vasoespástica (Prinzmetal)</b><br>🔎 Supra transitório durante a dor, normalizando após nitrato.<br>⚡ <b>Conduta:</b> BCC + nitrato; evitar betabloqueador não seletivo; investigar cocaína. CATE para excluir lesão fixa.",
+   "pegadinha": "Supra que some com nitrato não exclui trombose: CATE se dúvida.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #211</b> · Dor típica há 30 min, ECG inicial normal.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_211.png",
+   "verso": "✅ <b>ECG normal não exclui SCA</b><br>🔎 Traçado sem alterações isquêmicas.<br>⚡ <b>Conduta:</b> ECG seriado (15–30 min), V7–V9, troponina ultrassensível.",
+   "pegadinha": "Oclusões da Cx podem não aparecer nas 12 derivações.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #212</b> · Supra anterior em jovem: repolarização precoce?<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_212.png",
+   "verso": "✅ <b>Distorção terminal do QRS (favorece OMI anterior)</b><br>🔎 Ausência de onda S e de onda J em V2 ou V3 com supra.<br>⚡ <b>Conduta:</b> Tratar como OMI anterior.",
+   "pegadinha": "Repolarização precoce mantém S e entalhe J em V2–V3.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #213</b> · QRS de baixa voltagem + dor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_213.png",
+   "verso": "✅ <b>Supra 'pequeno' porém desproporcional ao QRS</b><br>🔎 Supra de ~1 mm e T amplas em complexos de baixa amplitude.<br>⚡ <b>Conduta:</b> Interpretar o ST em proporção ao QRS: tratar como possível OMI.",
+   "pegadinha": "Em QRS pequenos, 1 mm de supra é muito.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T11",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

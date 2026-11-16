@@ -1,0 +1,188 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::13 🏋️ Sobrecargas de câmaras",
+ "midia": {
+  "ecg_231.png": "data/media/ecg/ecg-13.json#ecg_231.png",
+  "ecg_232.png": "data/media/ecg/ecg-13.json#ecg_232.png",
+  "ecg_233.png": "data/media/ecg/ecg-13.json#ecg_233.png",
+  "ecg_234.png": "data/media/ecg/ecg-13.json#ecg_234.png",
+  "ecg_235.png": "data/media/ecg/ecg-13.json#ecg_235.png",
+  "ecg_236.png": "data/media/ecg/ecg-13.json#ecg_236.png",
+  "ecg_237.png": "data/media/ecg/ecg-13.json#ecg_237.png",
+  "ecg_238.png": "data/media/ecg/ecg-13.json#ecg_238.png",
+  "ecg_239.png": "data/media/ecg/ecg-13.json#ecg_239.png",
+  "ecg_240.png": "data/media/ecg/ecg-13.json#ecg_240.png",
+  "ecg_241.png": "data/media/ecg/ecg-13.json#ecg_241.png",
+  "ecg_242.png": "data/media/ecg/ecg-13.json#ecg_242.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #231</b> · Hipertenso de longa data.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_231.png",
+   "verso": "✅ <b>Hipertrofia ventricular esquerda (critério de Sokolow-Lyon)</b><br>🔎 S em V1 + R em V5 ou V6 ≥ 35 mm (ou R em aVL ≥ 11 mm).<br>⚡ <b>Conduta:</b> Eco para confirmar; controle pressórico agressivo (IECA/BRA reduzem massa).",
+   "pegadinha": "Critérios de voltagem têm baixa sensibilidade; jovens magros têm voltagem alta sem HVE.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #232</b> · Estenose aórtica grave.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_232.png",
+   "verso": "✅ <b>HVE com padrão de 'strain'</b><br>🔎 Voltagem aumentada + infra descendente e T assimétrica invertida em V5–V6, I, aVL.<br>⚡ <b>Conduta:</b> Marcador de doença avançada; eco; avaliar valva/pressão.",
+   "pegadinha": "Strain = T assimétrica (descida lenta, subida rápida); isquemia = T simétrica.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #233</b> · Mulher hipertensa.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_233.png",
+   "verso": "✅ <b>HVE pelo critério de Cornell</b><br>🔎 R em aVL + S em V3 &gt; 20 mm (mulher) ou &gt; 28 mm (homem).<br>⚡ <b>Conduta:</b> Cornell é melhor que Sokolow em mulheres e obesos.",
+   "pegadinha": "Voltagem pode cair com obesidade, DPOC e derrame.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #234</b> · Hipertensão pulmonar.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_234.png",
+   "verso": "✅ <b>Hipertrofia ventricular direita</b><br>🔎 R dominante em V1 (R/S &gt; 1), desvio do eixo para a direita, S profunda em V5–V6, strain V1–V3.<br>⚡ <b>Conduta:</b> Investigar HP (eco, TEP crônico, doença pulmonar, cardiopatia congênita).",
+   "pegadinha": "R alta em V1 tem diferenciais: posterior, BRD, WPW, dextrocardia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #235</b> · Valvopatia mitral.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_235.png",
+   "verso": "✅ <b>Sobrecarga atrial esquerda (P mitrale)</b><br>🔎 P ≥ 120 ms, bífida em II; componente negativo de V1 ≥ 1 mm × 40 ms (índice de Morris).<br>⚡ <b>Conduta:</b> Eco; risco de FA.",
+   "pegadinha": "P larga bífida = átrio esquerdo; P alta = átrio direito.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #236</b> · DPOC grave.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_236.png",
+   "verso": "✅ <b>Sobrecarga atrial direita (P pulmonale)</b><br>🔎 P ≥ 2,5 mm em II, III, aVF (ou &gt; 1,5 mm em V1).<br>⚡ <b>Conduta:</b> Investigar doença pulmonar/HP.",
+   "pegadinha": "P pulmonale + baixa voltagem + eixo à direita = pulmão.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #237</b> · Valvopatia mitral e tricúspide.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_237.png",
+   "verso": "✅ <b>Sobrecarga biatrial</b><br>🔎 P alta (≥ 2,5 mm) e larga (≥ 120 ms) em II + componente bifásico amplo em V1.<br>⚡ <b>Conduta:</b> Eco.",
+   "pegadinha": "Associação frequente com FA futura.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #238</b> · DPOC, tórax hiperinsuflado.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_238.png",
+   "verso": "✅ <b>Padrão de DPOC/cor pulmonale</b><br>🔎 Baixa voltagem, P pulmonale, eixo à direita, progressão lenta de R, S persistente até V6.<br>⚡ <b>Conduta:</b> Otimizar oxigenação e DPOC; eco para HP.",
+   "pegadinha": "Coração verticalizado no enfisema 'roda' o eixo para a direita.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #239</b> · Atleta de remo, assintomático.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_239.png",
+   "verso": "✅ <b>Voltagem de HVE isolada em atleta</b><br>🔎 Voltagem aumentada sem desvio do eixo, sem SAE, sem strain e sem Q patológicas.<br>⚡ <b>Conduta:</b> Achado do treino (critérios internacionais para atletas): sem investigação se isolado.",
+   "pegadinha": "Strain, T invertida lateral ou Q patológicas no atleta exigem eco/RM (CMH).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #240</b> · Hipertenso com BRE.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_240.png",
+   "verso": "✅ <b>HVE na presença de BRE</b><br>🔎 BRE com voltagem muito aumentada e SAE.<br>⚡ <b>Conduta:</b> Critérios de HVE perdem acurácia no BRE: confirmar com eco.",
+   "pegadinha": "Não dá para chamar 'strain' quando há BRE: a repolarização já é secundária.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #241</b> · Mulher de 40 anos, dispneia e hemoptise.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_241.png",
+   "verso": "✅ <b>FA + HVD (estenose mitral)</b><br>🔎 FA com eixo à direita e R dominante em V1.<br>⚡ <b>Conduta:</b> Eco; anticoagulação com varfarina (EM moderada/grave); valvotomia.",
+   "pegadinha": "Na estenose mitral os DOACs não são indicados.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #242</b> · Cardiopatia congênita com shunt.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_242.png",
+   "verso": "✅ <b>Hipertrofia biventricular (Katz-Wachtel)</b><br>🔎 Complexos RS grandes e bifásicos (R + S ≥ 50 mm) em V2–V4.<br>⚡ <b>Conduta:</b> Eco: CIV, cardiopatias congênitas, miocardiopatias.",
+   "pegadinha": "HVE + desvio do eixo para a direita também sugere biventricular.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T13",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

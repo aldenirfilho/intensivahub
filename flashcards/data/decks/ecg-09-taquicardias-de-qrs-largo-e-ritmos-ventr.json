@@ -1,0 +1,338 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::09 🔥 Taquicardias de QRS largo e ritmos ventriculares",
+ "midia": {
+  "ecg_147.png": "data/media/ecg/ecg-09.json#ecg_147.png",
+  "ecg_148.png": "data/media/ecg/ecg-09.json#ecg_148.png",
+  "ecg_149.png": "data/media/ecg/ecg-09.json#ecg_149.png",
+  "ecg_150.png": "data/media/ecg/ecg-09.json#ecg_150.png",
+  "ecg_151.png": "data/media/ecg/ecg-09.json#ecg_151.png",
+  "ecg_152.png": "data/media/ecg/ecg-09.json#ecg_152.png",
+  "ecg_153.png": "data/media/ecg/ecg-09.json#ecg_153.png",
+  "ecg_154.png": "data/media/ecg/ecg-09.json#ecg_154.png",
+  "ecg_155.png": "data/media/ecg/ecg-09.json#ecg_155.png",
+  "ecg_156.png": "data/media/ecg/ecg-09.json#ecg_156.png",
+  "ecg_157.png": "data/media/ecg/ecg-09.json#ecg_157.png",
+  "ecg_158.png": "data/media/ecg/ecg-09.json#ecg_158.png",
+  "ecg_159.png": "data/media/ecg/ecg-09.json#ecg_159.png",
+  "ecg_160.png": "data/media/ecg/ecg-09.json#ecg_160.png",
+  "ecg_161.png": "data/media/ecg/ecg-09.json#ecg_161.png",
+  "ecg_162.png": "data/media/ecg/ecg-09.json#ecg_162.png",
+  "ecg_163.png": "data/media/ecg/ecg-09.json#ecg_163.png",
+  "ecg_164.png": "data/media/ecg/ecg-09.json#ecg_164.png",
+  "ecg_165.png": "data/media/ecg/ecg-09.json#ecg_165.png",
+  "ecg_166.png": "data/media/ecg/ecg-09.json#ecg_166.png",
+  "ecg_167.png": "data/media/ecg/ecg-09.json#ecg_167.png",
+  "ecg_168.png": "data/media/ecg/ecg-09.json#ecg_168.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #147</b> · IAM antigo, palpitação e PA 100/70.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_147.png",
+   "verso": "✅ <b>TV monomórfica (morfologia de BRE)</b><br>🔎 Taquicardia regular de QRS largo (&gt; 140 ms) com morfologia uniforme.<br>⚡ <b>Conduta:</b> Estável: amiodarona ou procainamida; instável: cardioversão sincronizada.",
+   "pegadinha": "Taquicardia de QRS largo em cardiopata = TV até prova em contrário.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #148</b> · Cardiomiopatia isquêmica.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_148.png",
+   "verso": "✅ <b>TV monomórfica (morfologia de BRD, eixo superior)</b><br>🔎 QRS largo regular com padrão BRD-like e eixo superior.<br>⚡ <b>Conduta:</b> Mesma conduta; investigar isquemia e cicatriz; CDI.",
+   "pegadinha": "BRD-like com R monofásica/Rr' (orelha esquerda maior) em V1 favorece TV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #149</b> · Taquicardia larga a 150 bpm.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_149.png",
+   "verso": "✅ <b>TV com dissociação AV</b><br>🔎 P sinusais 'marchando' independentes dos QRS largos.<br>⚡ <b>Conduta:</b> Dissociação AV é diagnóstica de TV.",
+   "pegadinha": "Procure P nas derivações II e V1, com compasso.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #150</b> · Batimento estreito no meio da taquicardia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_150.png",
+   "verso": "✅ <b>TV com batimento de captura</b><br>🔎 QRS estreito precoce no meio da TV (sinusal capturando o ventrículo).<br>⚡ <b>Conduta:</b> Confirma TV.",
+   "pegadinha": "Captura = prova de dissociação AV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #151</b> · Taquicardia larga.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_151.png",
+   "verso": "✅ <b>TV com concordância positiva precordial</b><br>🔎 Todos os QRS de V1–V6 predominantemente positivos.<br>⚡ <b>Conduta:</b> Concordância (positiva ou negativa) favorece fortemente TV.",
+   "pegadinha": "Concordância positiva também ocorre na TRAV antidrômica por via posterior esquerda.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #152</b> · Taquicardia larga.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_152.png",
+   "verso": "✅ <b>TV com concordância negativa precordial</b><br>🔎 QRS predominantemente negativos de V1 a V6.<br>⚡ <b>Conduta:</b> Praticamente diagnóstica de TV.",
+   "pegadinha": "Ausência de RS em todas as precordiais é critério de Brugada para TV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #153</b> · QRS largo, eixo estranho.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_153.png",
+   "verso": "✅ <b>TV com eixo noroeste</b><br>🔎 I e aVF negativos; aVR com R inicial dominante.<br>⚡ <b>Conduta:</b> Eixo noroeste em QRS largo = TV.",
+   "pegadinha": "Critério de Vereckei: R inicial em aVR favorece TV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #154</b> · Jovem sem cardiopatia, TV 'estreita'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_154.png",
+   "verso": "✅ <b>TV fascicular (idiopática do VE)</b><br>🔎 QRS ~120–140 ms com BRD + BDAS (eixo superior).<br>⚡ <b>Conduta:</b> Responde ao verapamil EV; ablação curativa.",
+   "pegadinha": "Erro clássico: tratar como TSV com aberrância — o verapamil funciona, mas pela razão certa.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #155</b> · Em uso de amiodarona, TV lenta.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_155.png",
+   "verso": "✅ <b>TV lenta (&lt; 150 bpm)</b><br>🔎 QRS largo regular a ~130 bpm com dissociação.<br>⚡ <b>Conduta:</b> Antiarrítmicos podem lentificar a TV; cardioversão se instável.",
+   "pegadinha": "TV lenta pode ser confundida com ritmo sinusal com BR.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #156</b> · Dor torácica e TV polimórfica.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_156.png",
+   "verso": "✅ <b>TV polimórfica com QT normal (isquemia)</b><br>🔎 QRS largos de morfologias variáveis, QT basal normal.<br>⚡ <b>Conduta:</b> Pensar isquemia aguda: desfibrilação se sem pulso, amiodarona/betabloqueador, CATE urgente.",
+   "pegadinha": "Com QT longo é TdP (magnésio); com QT normal, isquemia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #157</b> · Em uso de haloperidol e azitromicina, QT longo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_157.png",
+   "verso": "✅ <b>Torsades de pointes</b><br>🔎 TV polimórfica com 'torção' do eixo (amplitude em fuso), iniciada após sequência curto-longo-curto com QT longo.<br>⚡ <b>Conduta:</b> Sulfato de magnésio 2 g EV; desfibrilar se sem pulso; isoproterenol/overdrive; suspender drogas, corrigir K⁺.",
+   "pegadinha": "Amiodarona prolonga o QT — não é a escolha na TdP.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #158</b> · PCR presenciada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_158.png",
+   "verso": "✅ <b>Fibrilação ventricular grossa</b><br>🔎 Ondas caóticas, irregulares, sem QRS identificável.<br>⚡ <b>Conduta:</b> Desfibrilação imediata + RCP; adrenalina e amiodarona após o 3º choque.",
+   "pegadinha": "Cada minuto sem choque reduz a sobrevida.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #159</b> · PCR prolongada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_159.png",
+   "verso": "✅ <b>Fibrilação ventricular fina</b><br>🔎 Oscilações caóticas de baixa amplitude.<br>⚡ <b>Conduta:</b> Choque + RCP de alta qualidade.",
+   "pegadinha": "FV fina × assistolia: aumente o ganho e cheque outra derivação.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #160</b> · Colapso após palpitação.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_160.png",
+   "verso": "✅ <b>Flutter ventricular</b><br>🔎 Ondas sinusoidais regulares ~250–300/min sem distinção QRS/T.<br>⚡ <b>Conduta:</b> Sem pulso: desfibrilar; com pulso: cardioversão.",
+   "pegadinha": "Evolui rapidamente para FV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #161</b> · Logo após ICP primária.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_161.png",
+   "verso": "✅ <b>Ritmo idioventricular acelerado (RIVA)</b><br>🔎 QRS largos regulares a 60–110 bpm, com fusões e competição com o sinusal.<br>⚡ <b>Conduta:</b> Marcador de reperfusão; geralmente benigno e autolimitado. Não tratar com antiarrítmico.",
+   "pegadinha": "Suprimir o RIVA pode deixar o paciente sem ritmo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #162</b> · Hipercalemia e bradicardia extrema.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_162.png",
+   "verso": "✅ <b>Ritmo idioventricular</b><br>🔎 QRS largos regulares a 20–40 bpm, sem P.<br>⚡ <b>Conduta:</b> Ritmo de escape: marca-passo, tratar causa (K⁺, isquemia).",
+   "pegadinha": "Não usar lidocaína/amiodarona em ritmo de escape.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #163</b> · Taquicardia larga em jovem com TSV prévia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_163.png",
+   "verso": "✅ <b>TSV com aberrância (BRD típico)</b><br>🔎 QRS largo com morfologia típica de BRD (rsR' em V1, RS em V6 com R &gt; S).<br>⚡ <b>Conduta:</b> Se estável e certeza da aberrância: adenosina pode ser tentada; na dúvida, trate como TV.",
+   "pegadinha": "Erros no QRS largo matam: verapamil em TV pode levar a colapso.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #164</b> · ≥ 3 episódios de TV em 24 h.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_164.png",
+   "verso": "✅ <b>Tempestade elétrica (TV recorrente)</b><br>🔎 Salvas repetidas de TV entre batimentos sinusais.<br>⚡ <b>Conduta:</b> Sedação, betabloqueador (propranolol), amiodarona, corrigir isquemia/eletrólitos; ablação.",
+   "pegadinha": "Reduza choques do CDI: cada choque aumenta a descarga adrenérgica.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #165</b> · Instável? Estável? Decisão rápida.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_165.png",
+   "verso": "✅ <b>TV × TSV com aberrância: na dúvida, TV</b><br>🔎 QRS largo regular de causa indeterminada.<br>⚡ <b>Conduta:</b> Estável: procainamida ou amiodarona; instável: cardioversão.",
+   "pegadinha": "Idade &gt; 35, cardiopatia estrutural e IAM prévio tornam TV muito mais provável.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #166</b> · PCR: ritmo organizado no monitor, sem pulso.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_166.png",
+   "verso": "✅ <b>Atividade elétrica sem pulso (AESP)</b><br>🔎 Ritmo organizado (aqui largo e lento) sem pulso palpável.<br>⚡ <b>Conduta:</b> RCP + adrenalina; buscar 5H/5T (hipovolemia, hipóxia, H⁺, K⁺, hipotermia; tamponamento, tensão, tóxicos, trombose).",
+   "pegadinha": "AESP é diagnóstico clínico: o ECG sozinho não diz se há pulso.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #167</b> · Complexo de amplitude intermediária na TV.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_167.png",
+   "verso": "✅ <b>TV com batimento de fusão</b><br>🔎 Complexo híbrido (sinusal + ventricular) interrompendo a TV.<br>⚡ <b>Conduta:</b> Fusão confirma TV.",
+   "pegadinha": "Fusões e capturas aparecem mais na TV relativamente lenta.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #168</b> · Taquicardia larga IRREGULAR, estável.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_168.png",
+   "verso": "✅ <b>Taquicardia irregular de QRS largo: diagnóstico diferencial</b><br>🔎 Irregularidade + QRS largo de morfologia constante (BRE típico).<br>⚡ <b>Conduta:</b> Diferenciais: FA + bloqueio de ramo, FA pré-excitada, TV polimórfica. Morfologia constante e típica → FA + BR.",
+   "pegadinha": "QRS largos de morfologia VARIÁVEL com RR muito curtos → FA pré-excitada.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T09",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

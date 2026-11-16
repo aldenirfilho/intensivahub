@@ -1,0 +1,278 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::02 🐢 Bradiarritmias e nó sinusal",
+ "midia": {
+  "ecg_021.png": "data/media/ecg/ecg-02.json#ecg_021.png",
+  "ecg_022.png": "data/media/ecg/ecg-02.json#ecg_022.png",
+  "ecg_023.png": "data/media/ecg/ecg-02.json#ecg_023.png",
+  "ecg_024.png": "data/media/ecg/ecg-02.json#ecg_024.png",
+  "ecg_025.png": "data/media/ecg/ecg-02.json#ecg_025.png",
+  "ecg_026.png": "data/media/ecg/ecg-02.json#ecg_026.png",
+  "ecg_027.png": "data/media/ecg/ecg-02.json#ecg_027.png",
+  "ecg_028.png": "data/media/ecg/ecg-02.json#ecg_028.png",
+  "ecg_029.png": "data/media/ecg/ecg-02.json#ecg_029.png",
+  "ecg_030.png": "data/media/ecg/ecg-02.json#ecg_030.png",
+  "ecg_031.png": "data/media/ecg/ecg-02.json#ecg_031.png",
+  "ecg_032.png": "data/media/ecg/ecg-02.json#ecg_032.png",
+  "ecg_033.png": "data/media/ecg/ecg-02.json#ecg_033.png",
+  "ecg_034.png": "data/media/ecg/ecg-02.json#ecg_034.png",
+  "ecg_035.png": "data/media/ecg/ecg-02.json#ecg_035.png",
+  "ecg_036.png": "data/media/ecg/ecg-02.json#ecg_036.png",
+  "ecg_037.png": "data/media/ecg/ecg-02.json#ecg_037.png",
+  "ecg_038.png": "data/media/ecg/ecg-02.json#ecg_038.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #021</b> · Idosa com síncope e tontura.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_021.png",
+   "verso": "✅ <b>Bradicardia sinusal sintomática (~38 bpm)</b><br>🔎 P sinusal antes de cada QRS, PR normal, FC &lt; 40.<br>⚡ <b>Conduta:</b> Instável: atropina 1 mg IV (a cada 3–5 min, máx. 3 mg) → marca-passo transcutâneo ou dopamina/adrenalina.",
+   "pegadinha": "Procure fármacos (betabloqueador, digoxina, BCC), hipercalemia e IAM inferior antes de culpar o nó sinusal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #022</b> · Ciclista profissional, sem sintomas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_022.png",
+   "verso": "✅ <b>Bradicardia sinusal do atleta</b><br>🔎 Sinusal regular a 40–50 bpm com PR normal.<br>⚡ <b>Conduta:</b> Achado esperado no treinamento aeróbico (até BAV 1º e Wenckebach noturno).",
+   "pegadinha": "Sintomas (síncope, intolerância ao esforço) obrigam a investigar, mesmo no atleta.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #023</b> · Pré-síncope súbita.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_023.png",
+   "verso": "✅ <b>Parada (pausa) sinusal</b><br>🔎 Ausência súbita de P e QRS; a pausa NÃO é múltipla do PP basal.<br>⚡ <b>Conduta:</b> Pausas &gt; 3 s com sintomas = doença do nó sinusal → marca-passo, após excluir causas reversíveis.",
+   "pegadinha": "Se a pausa for múltipla exata do PP, é bloqueio sinoatrial.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #024</b> · Idoso com tonturas ocasionais.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_024.png",
+   "verso": "✅ <b>Bloqueio sinoatrial de 2º grau (tipo II)</b><br>🔎 Pausa com duração exatamente igual a 2 × PP basal; P ausente na pausa.<br>⚡ <b>Conduta:</b> Faz parte da doença do nó sinusal; tratar se sintomático.",
+   "pegadinha": "Meça com compasso: múltiplo exato = BSA; não múltiplo = parada sinusal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #025</b> · Palpitações seguidas de 'apagões'.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_025.png",
+   "verso": "✅ <b>Síndrome taqui-bradi (doença do nó sinusal)</b><br>🔎 FA/taquiarritmia que termina com longa pausa pós-conversão antes do ritmo sinusal lento.<br>⚡ <b>Conduta:</b> Marca-passo frequentemente necessário para permitir antiarrítmico/betabloqueador; anticoagulação conforme CHA₂DS₂-VASc.",
+   "pegadinha": "Antiarrítmico sem marca-passo pode piorar as pausas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #026</b> · Sonolência após intoxicação por betabloqueador.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_026.png",
+   "verso": "✅ <b>Ritmo de escape juncional (~42 bpm)</b><br>🔎 QRS estreitos regulares a 40–60 bpm sem ondas P visíveis.<br>⚡ <b>Conduta:</b> É ritmo de resgate: trate a causa da falha sinusal; não suprima o escape.",
+   "pegadinha": "Ritmo juncional com QRS largo = juncional com bloqueio de ramo ou escape ventricular.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #027</b> · Pós-operatório de cirurgia cardíaca.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_027.png",
+   "verso": "✅ <b>Ritmo juncional com P retrógrada</b><br>🔎 QRS estreitos regulares com P negativa em II/III/aVF logo após o QRS (RP curto).<br>⚡ <b>Conduta:</b> Monitorar, corrigir eletrólitos e fármacos; geralmente transitório.",
+   "pegadinha": "P retrógrada após QRS também ocorre na TRN e na TRAV — o contexto (frequência) diferencia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #028</b> · Idoso em uso de digoxina, náuseas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_028.png",
+   "verso": "✅ <b>Ritmo juncional acelerado (~88 bpm)</b><br>🔎 QRS estreitos regulares a 60–100 (até 130) bpm sem P visível.<br>⚡ <b>Conduta:</b> Causas: intoxicação digitálica, pós-operatório, miocardite, isquemia inferior, catecolaminas. Dosar digoxina e K⁺.",
+   "pegadinha": "Ritmo juncional 'regular' numa FA crônica = BAVT ou toxicidade digitálica.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #029</b> · Rebaixamento de consciência e hipotensão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_029.png",
+   "verso": "✅ <b>Ritmo de escape ventricular (idioventricular, ~32 bpm)</b><br>🔎 QRS largos (&gt; 120 ms) regulares a 20–40 bpm, sem P relacionadas.<br>⚡ <b>Conduta:</b> Ritmo pré-terminal: marca-passo transcutâneo/transvenoso; adrenalina; trate hipercalemia/hipóxia.",
+   "pegadinha": "Lidocaína ou amiodarona aqui podem levar à assistolia — é escape, não ectopia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #030</b> · Jovem atleta em repouso.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_030.png",
+   "verso": "✅ <b>Marca-passo atrial migratório</b><br>🔎 ≥ 3 morfologias de P com PR variável e FC &lt; 100 bpm.<br>⚡ <b>Conduta:</b> Benigno (tônus vagal). Nenhum tratamento.",
+   "pegadinha": "Mesmos achados com FC &gt; 100 = taquicardia atrial multifocal (TAM).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #031</b> · Achado em ECG pré-operatório.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_031.png",
+   "verso": "✅ <b>Ritmo atrial ectópico baixo</b><br>🔎 P negativa em II, III e aVF antes de cada QRS com PR ≥ 120 ms (geralmente curto).<br>⚡ <b>Conduta:</b> Geralmente benigno; foco atrial baixo assumindo o ritmo.",
+   "pegadinha": "P negativa com PR &lt; 120 ms pode ser ritmo juncional com P anterógrada.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #032</b> · Jovem durante o sono, monitor de Holter.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_032.png",
+   "verso": "✅ <b>Dissociação AV isorrítmica (não é BAVT)</b><br>🔎 P e QRS com frequências quase iguais; P 'deslizando' para dentro e fora do QRS.<br>⚡ <b>Conduta:</b> Benigna (vagal); a condução AV está intacta — se a P chegar 'no tempo', conduz.",
+   "pegadinha": "No BAVT a frequência atrial é MAIOR que a ventricular.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #033</b> · Dor torácica e hipotensão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_033.png",
+   "verso": "✅ <b>IAMCSST inferior com bradicardia sinusal (reflexo de Bezold-Jarisch)</b><br>🔎 Supra de ST em II, III, aVF com infra em aVL + bradicardia.<br>⚡ <b>Conduta:</b> Reperfusão imediata; atropina se sintomático; cautela com nitrato (possível infarto de VD).",
+   "pegadinha": "Bradicardia/BAV no IAM inferior costuma ser nodal e transitória.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #034</b> · Idoso com DRC, em uso de IECA e betabloqueador, choque.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_034.png",
+   "verso": "✅ <b>Síndrome BRASH (bradicardia + hipercalemia)</b><br>🔎 Bradicardia juncional, QRS alargado e T apiculadas.<br>⚡ <b>Conduta:</b> Trate em conjunto: gluconato de cálcio, insulina+glicose, retirar AV-nodal, volume, adrenalina/marca-passo.",
+   "pegadinha": "Hipercalemia 'moderada' + betabloqueador causa bradicardia grave por sinergia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #035</b> · PCR em monitor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_035.png",
+   "verso": "✅ <b>Assistolia com ondas P (paralisação ventricular)</b><br>🔎 Ondas P regulares sem nenhum QRS.<br>⚡ <b>Conduta:</b> RCP + adrenalina; marca-passo pode capturar se houver atividade atrial (BAVT súbito).",
+   "pegadinha": "Sempre confirme em 2 derivações e com ganho máximo (FV fina pode parecer assistolia).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #036</b> · PCR, linha reta no monitor.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_036.png",
+   "verso": "✅ <b>Assistolia</b><br>🔎 Ausência de atividade elétrica (linha quase isoelétrica).<br>⚡ <b>Conduta:</b> RCP + adrenalina 1 mg a cada 3–5 min; buscar 5H/5T. Não chocar.",
+   "pegadinha": "Protocolo da linha reta: cabos conectados, ganho aumentado, outra derivação.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #037</b> · Em uso de metoprolol + diltiazem.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_037.png",
+   "verso": "✅ <b>Bradicardia sinusal com BAV de 1º grau por fármacos</b><br>🔎 FC ~50, PR &gt; 200 ms constante.<br>⚡ <b>Conduta:</b> Ajustar/suspender a associação de bloqueadores do nó AV.",
+   "pegadinha": "Betabloqueador + BCC não di-hidropiridínico = combinação de alto risco para bradicardia e BAV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #038</b> · Fadiga, ganho de peso, pele seca.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_038.png",
+   "verso": "✅ <b>Bradicardia + baixa voltagem + T achatada (hipotireoidismo)</b><br>🔎 Bradicardia sinusal, complexos de baixa amplitude e ondas T aplanadas.<br>⚡ <b>Conduta:</b> Dosar TSH/T4 livre; pesquisar derrame pericárdico.",
+   "pegadinha": "Mixedema também prolonga QT e pode causar derrame pericárdico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T02",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

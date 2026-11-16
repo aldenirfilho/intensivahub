@@ -1,0 +1,263 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::12 🪦 IAM antigo, aneurisma, reperfusão e miocardiopatias",
+ "midia": {
+  "ecg_214.png": "data/media/ecg/ecg-12.json#ecg_214.png",
+  "ecg_215.png": "data/media/ecg/ecg-12.json#ecg_215.png",
+  "ecg_216.png": "data/media/ecg/ecg-12.json#ecg_216.png",
+  "ecg_217.png": "data/media/ecg/ecg-12.json#ecg_217.png",
+  "ecg_218.png": "data/media/ecg/ecg-12.json#ecg_218.png",
+  "ecg_219.png": "data/media/ecg/ecg-12.json#ecg_219.png",
+  "ecg_220.png": "data/media/ecg/ecg-12.json#ecg_220.png",
+  "ecg_221.png": "data/media/ecg/ecg-12.json#ecg_221.png",
+  "ecg_222.png": "data/media/ecg/ecg-12.json#ecg_222.png",
+  "ecg_223.png": "data/media/ecg/ecg-12.json#ecg_223.png",
+  "ecg_224.png": "data/media/ecg/ecg-12.json#ecg_224.png",
+  "ecg_225.png": "data/media/ecg/ecg-12.json#ecg_225.png",
+  "ecg_226.png": "data/media/ecg/ecg-12.json#ecg_226.png",
+  "ecg_227.png": "data/media/ecg/ecg-12.json#ecg_227.png",
+  "ecg_228.png": "data/media/ecg/ecg-12.json#ecg_228.png",
+  "ecg_229.png": "data/media/ecg/ecg-12.json#ecg_229.png",
+  "ecg_230.png": "data/media/ecg/ecg-12.json#ecg_230.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #214</b> · Antecedente de IAM há 3 anos.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_214.png",
+   "verso": "✅ <b>IAM inferior antigo (ondas Q inferiores)</b><br>🔎 Q ≥ 30–40 ms e ≥ 1 mm (&gt; 25% da R) em II, III, aVF.<br>⚡ <b>Conduta:</b> Prevenção secundária (AAS, estatina, betabloqueador, IECA); avaliar FEVE.",
+   "pegadinha": "Q isolada em III pode ser normal; exija 2 derivações contíguas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #215</b> · IAM anterior prévio.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_215.png",
+   "verso": "✅ <b>IAM anterior antigo (QS V1–V3)</b><br>🔎 Complexos QS em V1–V3 com ausência de R.<br>⚡ <b>Conduta:</b> Eco: FEVE, aneurisma, trombo; terapia de IC se indicada.",
+   "pegadinha": "Qualquer Q em V2–V3 ≥ 20 ms é anormal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #216</b> · Dispneia aos esforços, IAM prévio.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_216.png",
+   "verso": "✅ <b>IAM lateral antigo (Q em I, aVL, V6)</b><br>🔎 Q patológica em I, aVL e V5–V6.<br>⚡ <b>Conduta:</b> Prevenção secundária; avaliar FEVE.",
+   "pegadinha": "Q em aVL isolada com eixo vertical pode ser normal.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #217</b> · IAM anterior há 2 meses; supra persiste.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_217.png",
+   "verso": "✅ <b>Aneurisma de VE (supra persistente)</b><br>🔎 QS em V1–V4 + supra persistente com T pequenas (razão T/QRS &lt; 0,36).<br>⚡ <b>Conduta:</b> Eco (aneurisma, trombo); anticoagulação se trombo; arritmias ventriculares.",
+   "pegadinha": "T/QRS &gt; 0,36 em V1–V4 sugere IAM agudo, não aneurisma.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #218</b> · Pós-ICP de CD, dor resolvida.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_218.png",
+   "verso": "✅ <b>Ondas T de reperfusão (inversão terminal inferior)</b><br>🔎 T bifásica/inversão terminal nas derivações que tinham supra, com supra residual pequeno.<br>⚡ <b>Conduta:</b> Sinal de reperfusão; monitorar.",
+   "pegadinha": "Resolução ≥ 50% do supra em 60–90 min após fibrinólise = sucesso.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #219</b> · Mulher de 68 anos após luto, dor torácica.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_219.png",
+   "verso": "✅ <b>Takotsubo (fase aguda)</b><br>🔎 Supra precordial difuso sem supra em V1, infra em aVR e ausência de recíprocas.<br>⚡ <b>Conduta:</b> CATE obrigatório para excluir OMI; ventriculografia/eco com balonamento apical.",
+   "pegadinha": "ECG não diferencia com segurança Takotsubo de IAM anterior.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #220</b> · Dia 3 de Takotsubo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_220.png",
+   "verso": "✅ <b>Takotsubo (fase subaguda): T profundas difusas + QT longo</b><br>🔎 T invertidas, profundas e simétricas difusas com QT prolongado.<br>⚡ <b>Conduta:</b> Monitorar QT (risco de TdP); evitar fármacos que prolongam QT.",
+   "pegadinha": "Mesmo padrão em HSA ('T cerebrais').",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #221</b> · Jovem com sopro sistólico e síncope ao esforço.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_221.png",
+   "verso": "✅ <b>Cardiomiopatia hipertrófica (Q septais profundas)</b><br>🔎 Voltagem aumentada + Q estreitas e profundas em I, aVL, V5–V6 ('em adaga').<br>⚡ <b>Conduta:</b> Eco/RM; estratificar morte súbita (CDI); evitar desidratação e vasodilatadores.",
+   "pegadinha": "Q estreitas e profundas = septo hipertrofiado, não infarto.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #222</b> · Achado em asiático de meia-idade.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_222.png",
+   "verso": "✅ <b>CMH apical (Yamaguchi)</b><br>🔎 T gigantes negativas (&gt; 10 mm) em V3–V5 com voltagem aumentada.<br>⚡ <b>Conduta:</b> Eco/RM com contraste.",
+   "pegadinha": "Simula Wellens/isquemia; procure voltagem de HVE.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #223</b> · Jovem com TV de morfologia BRE após esforço.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_223.png",
+   "verso": "✅ <b>Displasia arritmogênica do VD (onda épsilon)</b><br>🔎 Onda épsilon (entalhe após o QRS) em V1–V2 + T invertida em V1–V3.<br>⚡ <b>Conduta:</b> RM cardíaca, Holter; CDI conforme risco; restrição de esporte competitivo.",
+   "pegadinha": "T invertida V1–V3 após os 14 anos sem BRD = critério maior.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #224</b> · Insuficiência cardíaca, eco com parede espessa.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_224.png",
+   "verso": "✅ <b>Amiloidose cardíaca (baixa voltagem + pseudoinfarto)</b><br>🔎 Baixa voltagem com padrão QS em V1–V3 (pseudo-infarto).<br>⚡ <b>Conduta:</b> Cintilografia com pirofosfato, cadeias leves; tratar conforme tipo (TTR/AL).",
+   "pegadinha": "Dissociação voltagem-massa: QRS pequeno com parede grossa.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #225</b> · IC com FEVE 20%.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_225.png",
+   "verso": "✅ <b>Cardiomiopatia dilatada com BRE e SAE</b><br>🔎 BRE + P alargada (sobrecarga atrial esquerda).<br>⚡ <b>Conduta:</b> Terapia de IC (4 pilares); TRC se QRS ≥ 150 ms; CDI conforme FEVE.",
+   "pegadinha": "BRE novo em IC: investigar isquemia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #226</b> · Jovem com febre recente, dor e troponina alta.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_226.png",
+   "verso": "✅ <b>Miocardite aguda</b><br>🔎 Taquicardia sinusal, alterações de ST-T difusas.<br>⚡ <b>Conduta:</b> RM cardíaca; suporte; evitar esforço por 3–6 meses; vigiar arritmias.",
+   "pegadinha": "Taquicardia desproporcional à febre é pista de miocardite.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #227</b> · Natural do interior, palpitações.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_227.png",
+   "verso": "✅ <b>Cardiopatia chagásica (BRD + BDAS + ESV)</b><br>🔎 Bloqueio bifascicular com extrassístoles ventriculares frequentes.<br>⚡ <b>Conduta:</b> Sorologia, eco, Holter; risco de TV e morte súbita (CDI/amiodarona conforme estratificação).",
+   "pegadinha": "Aneurisma apical é típico do Chagas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #228</b> · Infarto inferior prévio extenso.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_228.png",
+   "verso": "✅ <b>IAM inferoposterior antigo</b><br>🔎 Q inferiores + R alta e larga em V1–V2 (R/S ≥ 1) com T positiva.<br>⚡ <b>Conduta:</b> Prevenção secundária.",
+   "pegadinha": "R alta em V1: posterior antigo, HVD, BRD, WPW, dextrocardia, distrofia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #229</b> · Seguimento de IAM anterior.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_229.png",
+   "verso": "✅ <b>IAM anterior antigo com T invertidas (fase crônica)</b><br>🔎 QS em V1–V3 com T negativas persistentes.<br>⚡ <b>Conduta:</b> Prevenção secundária; avaliar FEVE.",
+   "pegadinha": "T pode permanecer negativa por meses a anos após IAM.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #230</b> · Cardiopatia isquêmica conhecida.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_230.png",
+   "verso": "✅ <b>QRS fragmentado (fQRS) — marcador de cicatriz</b><br>🔎 Entalhes/RSR' no QRS (&lt; 120 ms) em 2 derivações contíguas, sem bloqueio de ramo.<br>⚡ <b>Conduta:</b> Marcador de fibrose: correlaciona com cicatriz e arritmias.",
+   "pegadinha": "fQRS em BRD/BRE exige critérios próprios.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T12",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

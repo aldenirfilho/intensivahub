@@ -1,0 +1,218 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::15 💊 Fármacos e intoxicações",
+ "midia": {
+  "ecg_259.png": "data/media/ecg/ecg-15.json#ecg_259.png",
+  "ecg_260.png": "data/media/ecg/ecg-15.json#ecg_260.png",
+  "ecg_261.png": "data/media/ecg/ecg-15.json#ecg_261.png",
+  "ecg_262.png": "data/media/ecg/ecg-15.json#ecg_262.png",
+  "ecg_263.png": "data/media/ecg/ecg-15.json#ecg_263.png",
+  "ecg_264.png": "data/media/ecg/ecg-15.json#ecg_264.png",
+  "ecg_265.png": "data/media/ecg/ecg-15.json#ecg_265.png",
+  "ecg_266.png": "data/media/ecg/ecg-15.json#ecg_266.png",
+  "ecg_267.png": "data/media/ecg/ecg-15.json#ecg_267.png",
+  "ecg_268.png": "data/media/ecg/ecg-15.json#ecg_268.png",
+  "ecg_269.png": "data/media/ecg/ecg-15.json#ecg_269.png",
+  "ecg_270.png": "data/media/ecg/ecg-15.json#ecg_270.png",
+  "ecg_271.png": "data/media/ecg/ecg-15.json#ecg_271.png",
+  "ecg_272.png": "data/media/ecg/ecg-15.json#ecg_272.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #259</b> · Em uso de digoxina, sem sintomas.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_259.png",
+   "verso": "✅ <b>Efeito digitálico ('colher de pedreiro')</b><br>🔎 Infra de ST côncavo em colher, QT curto, T achatada; não indica toxicidade.<br>⚡ <b>Conduta:</b> Nenhum, se nível e clínica adequados.",
+   "pegadinha": "Efeito ≠ toxicidade: toxicidade é arritmia + sintomas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #260</b> · Idoso com digoxina, náuseas e xantopsia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_260.png",
+   "verso": "✅ <b>Taquicardia atrial com bloqueio AV (intoxicação digitálica)</b><br>🔎 P ectópicas rápidas (~180) com condução 2:1.<br>⚡ <b>Conduta:</b> Suspender digoxina, corrigir K⁺/Mg²⁺; Fab antidigoxina se grave.",
+   "pegadinha": "Aumento do automatismo + bloqueio AV = assinatura digitálica.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #261</b> · Intoxicação digitálica grave.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_261.png",
+   "verso": "✅ <b>TV bidirecional</b><br>🔎 QRS largos alternando o eixo batimento a batimento.<br>⚡ <b>Conduta:</b> Fab antidigoxina; lidocaína; evitar cardioversão se possível (baixa energia se necessário).",
+   "pegadinha": "TV bidirecional: digoxina ou TVPC (catecolaminérgica).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #262</b> · Digoxina + IRA.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_262.png",
+   "verso": "✅ <b>Bigeminismo ventricular por digoxina</b><br>🔎 ESV alternadas com batimentos sinusais + infra em colher.<br>⚡ <b>Conduta:</b> Dosar digoxina e K⁺; suspender a droga.",
+   "pegadinha": "Insuficiência renal é o gatilho mais comum de toxicidade.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #263</b> · Ingestão de amitriptilina, convulsão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_263.png",
+   "verso": "✅ <b>Intoxicação por tricíclico</b><br>🔎 Taquicardia sinusal, QRS &gt; 100 ms, R' em aVR &gt; 3 mm e S profunda em I/aVL.<br>⚡ <b>Conduta:</b> Bicarbonato de sódio 1–2 mEq/kg em bolus (meta pH 7,45–7,55); evitar antiarrítmicos IA/IC.",
+   "pegadinha": "QRS &gt; 100 ms prediz convulsão; &gt; 160 ms prediz arritmia.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #264</b> · Ingestão de flecainida.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_264.png",
+   "verso": "✅ <b>Bloqueio de canal de sódio (QRS largo)</b><br>🔎 QRS alargado com PR longo.<br>⚡ <b>Conduta:</b> Bicarbonato de sódio; suporte; emulsão lipídica em casos refratários.",
+   "pegadinha": "Bloqueadores de sódio: tricíclicos, flecainida, propafenona, cocaína, difenidramina, carbamazepina.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #265</b> · Em uso de haloperidol + ondansetrona + azitromicina.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_265.png",
+   "verso": "✅ <b>QT longo adquirido (fármacos)</b><br>🔎 QTc &gt; 500 ms com T alargada.<br>⚡ <b>Conduta:</b> Suspender drogas que prolongam QT, manter K⁺ &gt; 4 e Mg²⁺ &gt; 2; monitorar.",
+   "pegadinha": "QTc &gt; 500 ms ou aumento &gt; 60 ms = alto risco de TdP.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #266</b> · Em uso crônico de amiodarona.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_266.png",
+   "verso": "✅ <b>Efeito da amiodarona</b><br>🔎 Bradicardia sinusal, PR e QT prolongados.<br>⚡ <b>Conduta:</b> Esperado; monitorar QT, tireoide, fígado e pulmão.",
+   "pegadinha": "Apesar do QT longo, a amiodarona raramente causa TdP.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #267</b> · Ingestão de anlodipino + metoprolol.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_267.png",
+   "verso": "✅ <b>Intoxicação por betabloqueador/BCC (juncional lento)</b><br>🔎 Bradicardia juncional (sem P).<br>⚡ <b>Conduta:</b> Cálcio, glucagon (BB), insulina em altas doses + glicose, vasopressor, marca-passo; emulsão lipídica.",
+   "pegadinha": "Hiperglicemia sugere BCC; hipoglicemia sugere BB.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #268</b> · Em uso de lítio, tremor e confusão.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_268.png",
+   "verso": "✅ <b>Toxicidade por lítio (disfunção sinusal + T achatada)</b><br>🔎 Bradicardia sinusal e ondas T achatadas.<br>⚡ <b>Conduta:</b> Suspender lítio, hidratação; hemodiálise se grave.",
+   "pegadinha": "Lítio também pode desmascarar Brugada.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #269</b> · Uso de cocaína há 1 h, dor torácica.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_269.png",
+   "verso": "✅ <b>Cocaína: taquicardia + supra (vasoespasmo/IAM)</b><br>🔎 Taquicardia sinusal com supra de ST anterior.<br>⚡ <b>Conduta:</b> Benzodiazepínico, nitrato, BCC; supra persistente = CATE. Evitar betabloqueador na fase aguda.",
+   "pegadinha": "QRS largo após cocaína = bloqueio de sódio → bicarbonato.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #270</b> · Agricultor com miose e sialorreia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_270.png",
+   "verso": "✅ <b>Intoxicação por organofosforado</b><br>🔎 Bradicardia sinusal e QT prolongado.<br>⚡ <b>Conduta:</b> Atropina em doses dobradas até secar secreções brônquicas; pralidoxima.",
+   "pegadinha": "Fase inicial pode ter taquicardia (nicotínica).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #271</b> · Overdose de tricíclico, ECG com supra em V1.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_271.png",
+   "verso": "✅ <b>Padrão de Brugada induzido por fármaco</b><br>🔎 Supra em cúpula em V1–V2 com T negativa.<br>⚡ <b>Conduta:</b> Suspender o agente; tratar a intoxicação; evitar drogas da lista brugadadrugs.org.",
+   "pegadinha": "Fármacos que induzem padrão Brugada: tricíclicos, lítio, propofol, cocaína, flecainida.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #272</b> · TSV a 150 bpm; feito adenosina 6 mg.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_272.png",
+   "verso": "✅ <b>Adenosina desmascarando flutter</b><br>🔎 Bloqueio AV transitório revela ondas F em serrote; depois volta a 2:1.<br>⚡ <b>Conduta:</b> Diagnóstico estabelecido: controle de FC/cardioversão + anticoagulação.",
+   "pegadinha": "A adenosina não termina o flutter, mas mostra o diagnóstico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T15",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

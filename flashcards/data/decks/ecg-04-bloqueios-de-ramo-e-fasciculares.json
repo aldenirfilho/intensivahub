@@ -1,0 +1,308 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::04 🌿 Bloqueios de ramo e fasciculares",
+ "midia": {
+  "ecg_059.png": "data/media/ecg/ecg-04.json#ecg_059.png",
+  "ecg_060.png": "data/media/ecg/ecg-04.json#ecg_060.png",
+  "ecg_061.png": "data/media/ecg/ecg-04.json#ecg_061.png",
+  "ecg_062.png": "data/media/ecg/ecg-04.json#ecg_062.png",
+  "ecg_063.png": "data/media/ecg/ecg-04.json#ecg_063.png",
+  "ecg_064.png": "data/media/ecg/ecg-04.json#ecg_064.png",
+  "ecg_065.png": "data/media/ecg/ecg-04.json#ecg_065.png",
+  "ecg_066.png": "data/media/ecg/ecg-04.json#ecg_066.png",
+  "ecg_067.png": "data/media/ecg/ecg-04.json#ecg_067.png",
+  "ecg_068.png": "data/media/ecg/ecg-04.json#ecg_068.png",
+  "ecg_069.png": "data/media/ecg/ecg-04.json#ecg_069.png",
+  "ecg_070.png": "data/media/ecg/ecg-04.json#ecg_070.png",
+  "ecg_071.png": "data/media/ecg/ecg-04.json#ecg_071.png",
+  "ecg_072.png": "data/media/ecg/ecg-04.json#ecg_072.png",
+  "ecg_073.png": "data/media/ecg/ecg-04.json#ecg_073.png",
+  "ecg_074.png": "data/media/ecg/ecg-04.json#ecg_074.png",
+  "ecg_075.png": "data/media/ecg/ecg-04.json#ecg_075.png",
+  "ecg_076.png": "data/media/ecg/ecg-04.json#ecg_076.png",
+  "ecg_077.png": "data/media/ecg/ecg-04.json#ecg_077.png",
+  "ecg_078.png": "data/media/ecg/ecg-04.json#ecg_078.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #059</b> · Achado em idoso assintomático.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_059.png",
+   "verso": "✅ <b>Bloqueio completo de ramo direito (BRD)</b><br>🔎 QRS ≥ 120 ms; rsR'/qR em V1–V2; S larga e empastada em I e V6; T invertida em V1–V3 (secundária).<br>⚡ <b>Conduta:</b> Isolado: geralmente sem tratamento. Novo + dor/dispneia: pensar em TEP, isquemia, miocardite.",
+   "pegadinha": "BRD não impede o diagnóstico de IAMCSST: supra em V1–V3 continua valendo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #060</b> · Jovem, ECG pré-admissional.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_060.png",
+   "verso": "✅ <b>Bloqueio incompleto de ramo direito</b><br>🔎 rSr' em V1 com QRS 110–119 ms.<br>⚡ <b>Conduta:</b> Variante comum; investigar CIA/HVD se houver contexto.",
+   "pegadinha": "Eletrodo de V1 alto pode criar r' falso.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #061</b> · Hipertenso com IC.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_061.png",
+   "verso": "✅ <b>Bloqueio completo de ramo esquerdo (BRE)</b><br>🔎 QRS ≥ 120 ms; R larga e entalhada em I, aVL, V5–V6 sem q septal; QS/rS em V1–V3; ST-T discordante.<br>⚡ <b>Conduta:</b> Pesquisar cardiopatia estrutural (eco). Com FEVE ≤ 35% e QRS ≥ 150 ms: avaliar TRC.",
+   "pegadinha": "Discordância ST-T é esperada no BRE; concordância sugere isquemia (Sgarbossa).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #062</b> · Hipertensão de longa data.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_062.png",
+   "verso": "✅ <b>Bloqueio incompleto de ramo esquerdo</b><br>🔎 QRS 110–119 ms, ausência de q septal em I/V5/V6, R empastada.<br>⚡ <b>Conduta:</b> Frequentemente associado a HVE; correlacionar com eco.",
+   "pegadinha": "Perda do q septal em V6 é pista precoce de distúrbio de condução esquerdo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #063</b> · Achado em diabético.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_063.png",
+   "verso": "✅ <b>Bloqueio divisional anterossuperior esquerdo (BDAS)</b><br>🔎 Eixo entre −45° e −90°; qR em I/aVL; rS em II, III, aVF (S III &gt; S II); QRS &lt; 120 ms.<br>⚡ <b>Conduta:</b> Isolado: sem tratamento; o mais comum dos bloqueios fasciculares.",
+   "pegadinha": "Não chame de IAM inferior antigo: no BDAS há r inicial em II/III/aVF (sem Q).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #064</b> · Exclusões feitas: sem HVD, sem biotipo, sem IAM lateral.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_064.png",
+   "verso": "✅ <b>Bloqueio divisional posteroinferior esquerdo (BDPI)</b><br>🔎 Eixo &gt; +100°; rS em I/aVL; qR em III e aVF; QRS &lt; 120 ms.<br>⚡ <b>Conduta:</b> Raro e diagnóstico de exclusão; costuma indicar doença extensa do sistema de condução.",
+   "pegadinha": "Eixo à direita é muito mais comum por HVD/TEP/DPOC do que por BDPI.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #065</b> · Chagásico de 55 anos.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_065.png",
+   "verso": "✅ <b>BRD + BDAS (bloqueio bifascicular)</b><br>🔎 Padrão de BRD em V1 + eixo &lt; −45° com qR em aVL.<br>⚡ <b>Conduta:</b> Clássico da cardiopatia chagásica; investigar BAV e arritmias ventriculares (Holter, eco).",
+   "pegadinha": "BRD + BDAS + ESV em brasileiro → sorologia para Chagas.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #066</b> · Pós-TAVI.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_066.png",
+   "verso": "✅ <b>BRD + BDPI (bifascicular)</b><br>🔎 BRD com eixo &gt; +100° e qR em III/aVF.<br>⚡ <b>Conduta:</b> Maior risco de BAVT que BRD+BDAS; monitorização prolongada.",
+   "pegadinha": "Combinação rara: sempre excluir HVD antes de chamar de BDPI.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #067</b> · Síncope em idoso.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_067.png",
+   "verso": "✅ <b>BAV 1º grau + bloqueio bifascicular</b><br>🔎 PR longo + BRD + BDAS.<br>⚡ <b>Conduta:</b> Síncope com este ECG: monitorização/EEF; limiar baixo para marca-passo.",
+   "pegadinha": "O PR longo pode ser nodal — não prova doença do 3º fascículo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #068</b> · Síncope; ECGs seriados mostram padrões diferentes.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_068.png",
+   "verso": "✅ <b>Bloqueio de ramo alternante</b><br>🔎 Batimentos ora com BRD, ora com BRE no mesmo traçado/em traçados seguidos.<br>⚡ <b>Conduta:</b> Doença trifascicular verdadeira: marca-passo definitivo (classe I).",
+   "pegadinha": "Alternância BRD ↔ BRE é das poucas indicações 'só pelo ECG' de marca-passo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #069</b> · Cardiomiopatia dilatada.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_069.png",
+   "verso": "✅ <b>Distúrbio de condução intraventricular inespecífico</b><br>🔎 QRS ≥ 120 ms sem critérios de BRD nem de BRE.<br>⚡ <b>Conduta:</b> Investigar cardiopatia, hipercalemia, fármacos bloqueadores de sódio.",
+   "pegadinha": "QRS largo 'novo' em intoxicação = bloqueio de canal de sódio até prova em contrário.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #070</b> · Taquicardia durante o esforço.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_070.png",
+   "verso": "✅ <b>BRE dependente da frequência (fase 3)</b><br>🔎 QRS estreito em FC menor e BRE quando a FC ultrapassa um limiar.<br>⚡ <b>Conduta:</b> Benigno em si, mas pode mascarar isquemia e confundir com TV.",
+   "pegadinha": "A morfologia típica de BRE e a P antes de cada QRS ajudam a separar de TV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #071</b> · Dor torácica, BRE aparentemente novo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_071.png",
+   "verso": "✅ <b>BRE na dor torácica: o que fazer?</b><br>🔎 BRE isolado sem critérios de Sgarbossa não é mais equivalente automático de IAMCSST.<br>⚡ <b>Conduta:</b> Decida pela clínica + Sgarbossa (modificado de Smith) + instabilidade; instável → CATE urgente.",
+   "pegadinha": "Muitos BRE 'novos' são antigos sem ECG prévio para comparar.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #072</b> · Dor torácica há 40 min.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_072.png",
+   "verso": "✅ <b>IAMCSST anterior com BRD (DA proximal)</b><br>🔎 BRD + supra de ST em V1–V4 (no BRD o ST deveria ser infra/isoelétrico em V1–V3).<br>⚡ <b>Conduta:</b> Reperfusão imediata (ICP primária).",
+   "pegadinha": "BRD novo no IAM anterior = oclusão proximal da DA e pior prognóstico.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #073</b> · IC com FEVE de 25%, QRS de 170 ms.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_073.png",
+   "verso": "✅ <b>BRE com QRS muito largo (candidato a TRC)</b><br>🔎 BRE típico com QRS ≥ 150 ms.<br>⚡ <b>Conduta:</b> Terapia de ressincronização: maior benefício com BRE, QRS ≥ 150 ms e ritmo sinusal.",
+   "pegadinha": "O benefício da TRC é menor com BRD ou QRS 120–149 ms.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #074</b> · Avaliação de 'onda Q inferior' em laudo.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_074.png",
+   "verso": "✅ <b>BDAS (não é IAM inferior antigo)</b><br>🔎 II, III, aVF com padrão rS (há r inicial); eixo desviado para a esquerda.<br>⚡ <b>Conduta:</b> Sem tratamento; não rotular como IAM.",
+   "pegadinha": "IAM inferior antigo: QS ou Qr em II/III/aVF (sem r inicial).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #075</b> · Dispneia, hipertensão pulmonar conhecida.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_075.png",
+   "verso": "✅ <b>BRD com eixo à direita: pensar em sobrecarga de VD</b><br>🔎 BRD + eixo &gt; +90° + R alta em V1.<br>⚡ <b>Conduta:</b> Avaliar HP, TEP crônico, valvopatia; eco.",
+   "pegadinha": "Antes de 'BRD + BDPI', exclua HVD e cor pulmonale.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #076</b> · QRS 'largo' com PR curto.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_076.png",
+   "verso": "✅ <b>Pré-excitação simulando bloqueio de ramo esquerdo</b><br>🔎 PR curto + onda delta + QRS largo com padrão de BRE em V1.<br>⚡ <b>Conduta:</b> Encaminhar para estratificação de risco (WPW).",
+   "pegadinha": "Bloqueio de ramo verdadeiro não encurta o PR.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #077</b> · Avaliar a repolarização no BRE.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_077.png",
+   "verso": "✅ <b>BRE com discordância apropriada (normal)</b><br>🔎 ST e T opostos ao QRS principal (infra em I/V6, supra em V1–V3).<br>⚡ <b>Conduta:</b> Discordância é secundária, não isquemia.",
+   "pegadinha": "Supra discordante desproporcional (≥ 25% da S) já sugere oclusão (Smith).",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #078</b> · Holter de paciente com dispneia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_078.png",
+   "verso": "✅ <b>BRD intermitente</b><br>🔎 Batimentos alternando QRS estreito e BRD com mesma P/PR.<br>⚡ <b>Conduta:</b> Doença do sistema de condução: acompanhar (pode progredir).",
+   "pegadinha": "Diferencie de ESSV aberrante: aqui a P é sinusal e no tempo certo.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T04",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}

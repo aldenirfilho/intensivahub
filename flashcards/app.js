@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.10.0";
+const APP_VERSION = "4.11.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -42,7 +42,8 @@ table.t tr:nth-child(even) td{background:#121820}
 table.t td:first-child{font-weight:600;color:color-mix(in srgb,var(--acc) 55%,#fff)}
 ul{margin:6px 0;padding-left:22px}li{margin:3px 0}li::marker{color:var(--acc)}
 img,svg{max-width:100%;height:auto}
-.img{margin-top:12px;text-align:center}.img img,.img svg{max-width:100%;height:auto;border-radius:10px;border:1px solid #2a3442}
+.img{margin-top:12px;text-align:center}.img img,.img svg{max-width:100%;height:auto;border-radius:10px;border:1px solid #2a3442}.img img{cursor:zoom-in}
+.img.ecg{margin:12px -4px 0}.img.ecg img{border-radius:6px;background:#fff;width:100%}.img.ecg::after{content:"🔍 toque no traçado para ampliar";display:block;font-size:12px;opacity:.65;margin-top:4px}
 .peg{margin-top:12px;background:#2a2210;border-left:4px solid #ffc14d;border-radius:8px;padding:10px 12px;font-size:16px;color:#ffe9b8}
 .src{margin-top:10px;font-size:13px;color:#8a94a3}
 .cloze{color:var(--acc);font-weight:700;border-bottom:2px dotted var(--acc)}
@@ -553,12 +554,12 @@ async function saveLog() { await DB.setMeta("logs", S.logs); Cloud.markSt(); }
 async function saveSettings() { S.settingsMod = Date.now(); await DB.setMeta("settings", { v: S.settings, mod: S.settingsMod }); Cloud.markSt(); }
 
 /* ---------------- Formato CÓDICE (JSON) ---------------- */
-function imgHTML(v) {
+function imgHTML(v, cls) {
   if (!v) return "";
-  v = String(v).trim();
-  if (v.startsWith("<svg")) return `<div class=img>${v}</div>`;
-  if (/^(data:|https?:)/i.test(v)) return `<div class=img><img src="${esc(v)}"></div>`;
-  return `<div class=img><img data-m="${esc(v.replace(/^.*\//, ""))}"></div>`;
+  v = String(v).trim(); const k = cls ? `"img ${cls}"` : "img", alt = cls === "ecg" ? ` alt="Traçado de ECG — toque para ampliar"` : "";
+  if (v.startsWith("<svg")) return `<div class=${k}>${v}</div>`;
+  if (/^(data:|https?:)/i.test(v)) return `<div class=${k}><img src="${esc(v)}"${alt}></div>`;
+  return `<div class=${k}><img data-m="${esc(v.replace(/^.*\//, ""))}"${alt}></div>`;
 }
 function renderCloze(text, n, answer) {
   return text.replace(/\{\{c(\d+)::([\s\S]*?)(?:::([\s\S]*?))?\}\}/g, (m, num, body, hint) => {
@@ -570,10 +571,10 @@ function codiceHTML(c, clozeN) {
   const tail = c.deck.split("::").slice(-1)[0];
   let qf = c.f, af = c.f;
   if (clozeN) { qf = renderCloze(c.f, clozeN, false); af = renderCloze(c.f, clozeN, true); }
-  const head = `<div class=tema>${esc(tail)}</div>`;
+  const head = `<div class=tema>${esc(tail)}</div>`, fimg = c.imgf ? imgHTML(c.imgf, "ecg") : "";   // 📈 imagem na FRENTE (Compêndio de ECG)
   return {
-    q: `${head}<div class=q>${qf}</div>`,
-    a: `${head}<div class=q>${af}</div><hr id=answer>` + (c.b ? `<div class=a>${c.b}</div>` : "") + imgHTML(c.img) +
+    q: `${head}<div class=q>${qf}</div>${fimg}`,
+    a: `${head}<div class=q>${af}</div>${fimg}<hr id=answer>` + (c.b ? `<div class=a>${c.b}</div>` : "") + imgHTML(c.img) +
       (c.x ? `<div class=peg>🎯 <b>Pegadinha / Nerd</b><br>${c.x}</div>` : "") + (c.s ? `<div class=src>📚 ${c.s}</div>` : ""),
   };
 }
@@ -591,7 +592,7 @@ function normalizeCards(obj, forcedDeck) {
     if (sub && !String(deck).endsWith("::" + sub)) deck += "::" + sub;
     let tags = pick(r, "tags", "etiquetas"); if (typeof tags === "string") tags = tags.split(/[\s,]+/).filter(Boolean); if (!Array.isArray(tags)) tags = [];
     const base = { deck: String(deck).replace(/\s*::\s*/g, "::"), f, b: String(pick(r, "verso", "back", "resposta", "answer", "a", "Verso", "Back")),
-      x: String(pick(r, "pegadinha", "extra", "nerd", "dica", "curiosidade")), s: String(pick(r, "fonte", "source", "referencia", "ref")), img: pick(r, "imagem", "image", "img", "svg"), tags };
+      x: String(pick(r, "pegadinha", "extra", "nerd", "dica", "curiosidade")), s: String(pick(r, "fonte", "source", "referencia", "ref")), img: pick(r, "imagem", "image", "img", "svg"), imgf: pick(r, "imagem_frente", "img_frente", "imgf"), tags };
     const clozes = [...new Set([...f.matchAll(/\{\{c(\d+)::/g)].map(m => +m[1]))].sort((a, b) => a - b);
     if (clozes.length) clozes.forEach(n => out.push(Object.assign({}, base, { cloze: n }))); else out.push(base);
   });
@@ -775,14 +776,62 @@ function sanitize(html) {
   }));
   return doc.getElementById("__r").innerHTML;
 }
+/* 📦 Mídia empacotada (4.11.0): várias imagens num só .json (base64) — "arquivo.json#nome.png". Cache no aparelho por versão do índice. */
+const MEDIAPACK = {
+  got: new Map(),
+  load(path) {
+    if (!this.got.has(path)) this.got.set(path, (async () => {
+      const ver = (S.index && S.index.versao) || "", c = await DB.meta("mpack:" + path, null).catch(() => null);
+      if (c && c.v === ver && c.j) return c.j;
+      try { const j = await fetchJSON(path, 2); DB.setMeta("mpack:" + path, { v: ver, j }).catch(() => {}); return j; }
+      catch (e) { if (c && c.j) return c.j; this.got.delete(path); throw e; }
+    })());
+    return this.got.get(path);
+  },
+  async url(ref, name) {
+    const [path, key] = ref.split("#");
+    try {
+      const j = await this.load(path), b64 = (j.itens || {})[key || name]; if (!b64) return null;
+      const bin = atob(b64), u8 = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
+      const u = URL.createObjectURL(new Blob([u8], { type: j.tipo || "image/png" })); S.mediaURL.set(name, u); return u;
+    } catch (e) { console.warn("mídia empacotada falhou", path, e); return null; }
+  },
+};
 async function mediaURL(name) {
   if (S.mediaURL.has(name)) return S.mediaURL.get(name);
-  if (S.mediaPath[name]) return S.mediaPath[name];
+  const mp = S.mediaPath[name];
+  if (mp) return /\.json#/.test(mp) ? MEDIAPACK.url(mp, name) : mp;
   const m = await DB.get("media", name);
   if (m) { const u = URL.createObjectURL(m.blob); S.mediaURL.set(name, u); return u; }
   if (Cloud.mediaMap[name]) return "/_blob/" + Cloud.mediaMap[name];
   return null;
 }
+/* ---------------- 🔍 Zoom de imagens dos cards (4.11.0 · Compêndio de ECG) ---------------- */
+const ZOOM = {
+  box: null, img: null, lv: 0, LV: [1, 1.6, 2.5, 4],
+  bind(root) {
+    root.querySelectorAll(".img img").forEach(im => im.addEventListener("click", ev => { ev.stopPropagation(); ev.preventDefault(); if (im.src) ZOOM.open(im.src, im.alt); }));
+  },
+  build() {
+    if (this.box) return;
+    const b = document.createElement("div"); b.id = "zoomBox"; b.setAttribute("role", "dialog"); b.setAttribute("aria-label", "Imagem ampliada");
+    b.innerHTML = `<div class="zbar"><button class="btn" data-z="-" aria-label="Diminuir">➖</button><span id="zLv">ajustar</span><button class="btn" data-z="+" aria-label="Ampliar">➕</button><button class="btn" data-z="fit" aria-label="Ajustar à tela">↔️</button><button class="btn" data-z="x" aria-label="Fechar">✖</button></div><div class="zscroll"><img alt=""></div><div class="zhint">📱 Gire o celular para paisagem · arraste para navegar · toque duplo = zoom</div>`;
+    document.body.appendChild(b); this.box = b; this.img = b.querySelector("img");
+    b.querySelectorAll("[data-z]").forEach(x => x.onclick = e => { e.stopPropagation(); const z = x.dataset.z; if (z === "x") return this.close(); this.set(z === "+" ? this.lv + 1 : z === "-" ? this.lv - 1 : 0); });
+    this.img.addEventListener("dblclick", e => { e.preventDefault(); this.set(this.lv ? 0 : 2); });
+    let last = 0; this.img.addEventListener("touchend", e => { const n = Date.now(); if (n - last < 300) { e.preventDefault(); this.set(this.lv ? 0 : 2); } last = n; });
+    b.querySelector(".zscroll").addEventListener("click", e => { if (e.target === e.currentTarget && !this.lv) this.close(); });
+    document.addEventListener("keydown", e => { if (this.box && this.box.classList.contains("on")) { if (e.key === "Escape") this.close(); else if (e.key === "+" || e.key === "=") this.set(this.lv + 1); else if (e.key === "-") this.set(this.lv - 1); } });
+  },
+  set(l) {
+    this.lv = Math.max(0, Math.min(this.LV.length - 1, l));
+    const fit = this.lv === 0; this.box.classList.toggle("fit", fit);
+    this.img.style.width = fit ? "" : (this.LV[this.lv] * 100) + "vw";
+    $("#zLv").textContent = fit ? "ajustar" : this.LV[this.lv] + "×";
+  },
+  open(src, alt) { this.build(); this.img.src = src; this.img.alt = alt || ""; this.set(0); this.box.classList.add("on"); document.documentElement.classList.add("zoomOpen"); },
+  close() { if (!this.box) return; this.box.classList.remove("on"); document.documentElement.classList.remove("zoomOpen"); this.img.removeAttribute("src"); },
+};
 async function renderInto(host, html, styleId, deck) {
   const root = host.shadowRoot || host.attachShadow({ mode: "open" });
   const css = S.styles.get(styleId) || CODICE_CSS;
@@ -792,6 +841,7 @@ async function renderInto(host, html, styleId, deck) {
     const u = await mediaURL(img.getAttribute("data-m"));
     if (u) img.setAttribute("src", u); else img.setAttribute("alt", "🖼️ imagem ausente: " + img.getAttribute("data-m"));
   }
+  ZOOM.bind(root);
   if (host.id === "cardHost") { HL.apply(root, HL.card()); HL.count(); }
 }
 

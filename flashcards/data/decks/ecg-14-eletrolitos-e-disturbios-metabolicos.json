@@ -1,0 +1,248 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "📈 Compêndio de ECG 360X::14 🧪 Eletrólitos e distúrbios metabólicos",
+ "midia": {
+  "ecg_243.png": "data/media/ecg/ecg-14.json#ecg_243.png",
+  "ecg_244.png": "data/media/ecg/ecg-14.json#ecg_244.png",
+  "ecg_245.png": "data/media/ecg/ecg-14.json#ecg_245.png",
+  "ecg_246.png": "data/media/ecg/ecg-14.json#ecg_246.png",
+  "ecg_247.png": "data/media/ecg/ecg-14.json#ecg_247.png",
+  "ecg_248.png": "data/media/ecg/ecg-14.json#ecg_248.png",
+  "ecg_249.png": "data/media/ecg/ecg-14.json#ecg_249.png",
+  "ecg_250.png": "data/media/ecg/ecg-14.json#ecg_250.png",
+  "ecg_251.png": "data/media/ecg/ecg-14.json#ecg_251.png",
+  "ecg_252.png": "data/media/ecg/ecg-14.json#ecg_252.png",
+  "ecg_253.png": "data/media/ecg/ecg-14.json#ecg_253.png",
+  "ecg_254.png": "data/media/ecg/ecg-14.json#ecg_254.png",
+  "ecg_255.png": "data/media/ecg/ecg-14.json#ecg_255.png",
+  "ecg_256.png": "data/media/ecg/ecg-14.json#ecg_256.png",
+  "ecg_257.png": "data/media/ecg/ecg-14.json#ecg_257.png",
+  "ecg_258.png": "data/media/ecg/ecg-14.json#ecg_258.png"
+ },
+ "cards": [
+  {
+   "frente": "📈 <b>ECG #243</b> · DRC, K⁺ 6,3.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_243.png",
+   "verso": "✅ <b>Hipercalemia leve: T apiculada</b><br>🔎 T alta, estreita, simétrica e pontiaguda ('em tenda'), principalmente V2–V4.<br>⚡ <b>Conduta:</b> Gluconato de cálcio se alterações no ECG; insulina + glicose, β2-agonista; resinas/diálise.",
+   "pegadinha": "O ECG não acompanha linearmente o K⁺: pode ser normal com K⁺ alto.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #244</b> · K⁺ 7,4, fraqueza.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_244.png",
+   "verso": "✅ <b>Hipercalemia moderada</b><br>🔎 T apiculada + P achatada + PR longo + QRS alargando.<br>⚡ <b>Conduta:</b> Gluconato de cálcio 10% 10–30 mL EV (estabiliza membrana) + shift + eliminação.",
+   "pegadinha": "Cálcio não reduz o K⁺: age em minutos e dura ~30–60 min.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #245</b> · K⁺ 8,6, bradicardia.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_245.png",
+   "verso": "✅ <b>Hipercalemia grave: QRS largo sem P</b><br>🔎 Ausência de P, QRS muito largo fundindo com T.<br>⚡ <b>Conduta:</b> Cálcio imediato (repetir se necessário), bicarbonato se acidose, diálise de urgência.",
+   "pegadinha": "Ritmo 'idioventricular' em DRC: hiperK até prova em contrário.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #246</b> · PCR iminente em paciente dialítico.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_246.png",
+   "verso": "✅ <b>Hipercalemia pré-parada: onda sinusoidal</b><br>🔎 QRS-T fundidos em onda senoidal lenta.<br>⚡ <b>Conduta:</b> Cálcio em bolus, insulina/glicose, bicarbonato, diálise; preparar RCP.",
+   "pegadinha": "Próximo passo é FV/assistolia/AESP.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #247</b> · Diarreia profusa, K⁺ 2,6.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_247.png",
+   "verso": "✅ <b>Hipocalemia (U proeminente)</b><br>🔎 Infra de ST, T achatada, onda U proeminente (U &gt; T), QU aparentemente longo.<br>⚡ <b>Conduta:</b> Repor K⁺ (e Mg²⁺); monitorar se &lt; 2,5 ou arritmias.",
+   "pegadinha": "O 'QT longo' da hipoK costuma ser QU: meça a T, não a U.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #248</b> · K⁺ 2,1 e Mg²⁺ 1,1, palpitações.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_248.png",
+   "verso": "✅ <b>Hipocalemia grave com ESV</b><br>🔎 U gigantes, T achatadas e extrassístoles ventriculares.<br>⚡ <b>Conduta:</b> Reposição EV de K⁺ e Mg²⁺; monitorização (risco de TdP/FV).",
+   "pegadinha": "Hipomagnesemia impede a correção do K⁺: corrija os dois.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #249</b> · Mieloma, Ca²⁺ 14 mg/dL.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_249.png",
+   "verso": "✅ <b>Hipercalcemia: QT curto</b><br>🔎 Segmento ST encurtado/ausente com QTc curto.<br>⚡ <b>Conduta:</b> Hidratação vigorosa, bisfosfonato/denosumabe, calcitonina; tratar a causa.",
+   "pegadinha": "Hipercalcemia grave pode dar ondas J e BAV.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #250</b> · Pós-tireoidectomia, parestesias.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_250.png",
+   "verso": "✅ <b>Hipocalcemia: QT longo por ST longo</b><br>🔎 Segmento ST prolongado com onda T de largura normal.<br>⚡ <b>Conduta:</b> Gluconato de cálcio EV se sintomático; repor Mg²⁺ e vitamina D.",
+   "pegadinha": "Na hipoCa o ST alonga; na hipoK aparece a U.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #251</b> · Desnutrido em início de dieta enteral.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_251.png",
+   "verso": "✅ <b>Síndrome de realimentação (hipoK/hipoMg/hipoP)</b><br>🔎 QT/QU prolongado, T achatada e U proeminente.<br>⚡ <b>Conduta:</b> Iniciar dieta devagar, repor K⁺, Mg²⁺, P e tiamina antes/durante.",
+   "pegadinha": "Risco de arritmias e IC nas primeiras 72 h.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #252</b> · Encontrado na rua, T 30 °C.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_252.png",
+   "verso": "✅ <b>Hipotermia: onda de Osborn (J)</b><br>🔎 Entalhe positivo no ponto J (onda J), bradicardia e tremor na linha de base.<br>⚡ <b>Conduta:</b> Reaquecimento; manipular com cuidado (FV); RCP prolongada se PCR.",
+   "pegadinha": "A onda J aumenta com a queda da temperatura.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #253</b> · T 27 °C, rebaixado.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_253.png",
+   "verso": "✅ <b>Hipotermia grave: FA lenta + ondas J</b><br>🔎 FA de baixa resposta com ondas de Osborn amplas.<br>⚡ <b>Conduta:</b> Reaquecimento ativo interno; ECMO se instável; não tratar a FA isoladamente.",
+   "pegadinha": "'Ninguém está morto até estar quente e morto.'",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #254</b> · Cetoacidose diabética, K⁺ 6,8.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_254.png",
+   "verso": "✅ <b>Hipercalemia na cetoacidose</b><br>🔎 Taquicardia + T apiculadas.<br>⚡ <b>Conduta:</b> Insulina corrige o K⁺ (pode cair rápido); repor K⁺ quando &lt; 5,0–5,3.",
+   "pegadinha": "K⁺ sérico alto com déficit corporal total: vigiar hipocalemia após insulina.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #255</b> · K⁺ 8,0, supra em V1–V2.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_255.png",
+   "verso": "✅ <b>Hipercalemia simulando Brugada/IAM (pseudo-supra)</b><br>🔎 QRS largo + supra em V1–V2 em contexto de K⁺ muito alto.<br>⚡ <b>Conduta:</b> Tratar a hiperK e repetir ECG (o padrão some).",
+   "pegadinha": "Fenocópia de Brugada: desaparece ao corrigir a causa.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #256</b> · Em uso de espironolactona + IECA.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_256.png",
+   "verso": "✅ <b>Hipercalemia com BAV de 1º grau e QRS largo</b><br>🔎 PR longo, P achatada, QRS largo e T apiculada.<br>⚡ <b>Conduta:</b> Cálcio + shift; suspender fármacos poupadores de K⁺.",
+   "pegadinha": "Pode evoluir para BAV avançado e bradicardia extrema.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #257</b> · DRC sem diálise, K⁺ 6,5, Ca²⁺ 6,8.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_257.png",
+   "verso": "✅ <b>Uremia: hiperK + hipoCa (ST longo com T apiculada)</b><br>🔎 ST prolongado seguido de T estreita e pontiaguda.<br>⚡ <b>Conduta:</b> Tratar a hiperK e a hipoCa; avaliar diálise.",
+   "pegadinha": "Combinação clássica da DRC avançada.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  },
+  {
+   "frente": "📈 <b>ECG #258</b> · Choque séptico com acidose grave.<br>❓ Qual a principal alteração deste traçado?",
+   "imagem_frente": "ecg_258.png",
+   "verso": "✅ <b>Alterações inespecíficas de ST-T em doente crítico</b><br>🔎 Taquicardia + infra difuso discreto e T achatadas.<br>⚡ <b>Conduta:</b> Tratar a causa; troponina se clínica sugerir; não rotular como SCA sem contexto.",
+   "pegadinha": "Acidose, catecolaminas e hipóxia alteram ST-T.",
+   "fonte": "Síntese 360X de critérios eletrocardiográficos consagrados (conferir na diretriz vigente). Traçado sintético didático gerado por computador — não é ECG de paciente.",
+   "tags": [
+    "ECG",
+    "ECG_T14",
+    "TEMI2028",
+    "R3CM",
+    "tracado_sintetico"
+   ]
+  }
+ ]
+}
