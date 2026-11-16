@@ -6,7 +6,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 APP, VERSAO = sys.argv[1], sys.argv[2]
 NOME, ROTULO, COLS = "pack-7-gaso", "🧪 Gasometria 360X", ["gaso"]
 META = {"gaso": {"id": "gaso", "nome": "Gasometria 360X", "icone": "🧪",
-                 "descricao": "300 flashcards de gasometria arterial: método, acidoses (AG alto e hiperclorêmica), alcaloses, distúrbios respiratórios, mistos e triplos, oxigenação (A-a, P/F, DO₂), gaps e casos de UTI — 235 casos com laudo e solução passo a passo calculada pelo motor ácido-base."}}
+                 "descricao": "450 flashcards de gasometria: método, acidoses, alcaloses, distúrbios respiratórios, mistos e triplos, oxigenação, gaps, casos de UTI e, desde a 4.14, VM × gasometria, POCUS × gasometria e venosa/gap CO₂/ScvO₂/inotrópicos — 328 casos com laudo e solução passo a passo calculada pelo motor ácido-base."}}
 idx = json.load(open(f"{APP}/data/index.json"))
 man = json.load(open(os.path.join(HERE, "gaso_manifest.json")))
 decks = [dict(d, pacote=NOME) for d in man["decks"]]

@@ -190,7 +190,77 @@ def analyze(lab):
     R["codes"] = sorted(codes, key=ORD.index)
     R["steps"] = st
     R["dx"] = " + ".join(NOME[c] for c in R["codes"])
+    R["x"], R["xsteps"] = extras(L)
     return R
+
+
+def g(x, d=1):
+    """número sem casas desnecessárias (12 → '12'; 7,5 → '7,5')"""
+    return f(x, 0) if abs(x - round(x)) < 1e-9 else fh(x, d)
+
+
+def fh(x, d=1):
+    """formata com arredondamento meio-para-cima (mesmo resultado no Python e no JS)"""
+    return f(math.floor(x * 10 ** d + 0.5 + 1e-9) / 10 ** d, d)
+
+
+def r0(x):
+    """inteiro arredondado meio-para-cima (igual ao Math.round do JS)"""
+    return f(math.floor(x + 0.5), 0)
+
+
+def extras(L):
+    """4.14.0 · VM (volume-minuto, VC/kg, driving pressure, gap PaCO₂−EtCO₂, razão ventilatória, FR para a PaCO₂ alvo)
+    e gasometria venosa (gap CO₂, ScvO₂/SvO₂, Ca−vO₂, razão gap/Ca−vO₂; venosa periférica × arterial)."""
+    X, xs = {}, []
+    pc = L["pco2"]; vm = L.get("vm"); ve = L.get("ven")
+    if vm:
+        vc, fr, pbw = vm.get("vc"), vm.get("fr"), vm.get("pbw")
+        if vc is not None and fr is not None:
+            vmin = vc * fr / 1000; X["ve"] = vmin
+            s = f"Volume-minuto = {g(vc)} mL × {g(fr)} = <b>{fh(vmin)}</b> L/min"
+            if pbw:
+                X["vckg"] = vc / pbw; s += f"; VC = {g(vc)}/{g(pbw)} = <b>{fh(vc / pbw)}</b> mL/kg de peso predito" + (" (&gt; 8: reduzir)" if vc / pbw > 8.05 else "")
+                vr = vc * fr * pc / (pbw * 100 * 37.5); X["vr"] = vr
+                s += f"; razão ventilatória = ({g(vc)} × {g(fr)} × {g(pc)}) / ({g(pbw)} × 100 × 37,5) = <b>{fh(vr, 2)}</b> (≈ 1 normal; maior = mais espaço morto)"
+            xs.append(s)
+        if vm.get("pplat") is not None and vm.get("peep") is not None:
+            dp = vm["pplat"] - vm["peep"]; X["dp"] = dp
+            xs.append(f"Driving pressure = Pplatô {g(vm['pplat'])} − PEEP {g(vm['peep'])} = <b>{g(dp)}</b> cmH₂O → " + ("&gt; 15: lesivo — reduzir VC" if dp > 15 else "≤ 15: protetor")
+                      + ("; Pplatô &gt; 30: reduzir VC" if vm["pplat"] > 30 else ""))
+        if vm.get("etco2") is not None:
+            gp = pc - vm["etco2"]; X["gapet"] = gp
+            xs.append(f"Gap PaCO₂ − EtCO₂ = {g(pc)} − {g(vm['etco2'])} = <b>{g(gp)}</b> mmHg → " + ("&gt; 5: <b>espaço morto aumentado</b> (TEP, baixo débito, hiperdistensão, auto-PEEP)" if gp > 5 else "2–5: normal"))
+        if vm.get("alvo") is not None and fr is not None:
+            frn = fr * pc / vm["alvo"]; X["frn"] = frn
+            s = f"FR para PaCO₂ alvo {g(vm['alvo'])}: {g(fr)} × {g(pc)}/{g(vm['alvo'])} = <b>{r0(frn)}</b> irpm"
+            if frn > 35: s += " → acima de 35: risco de auto-PEEP — reduzir espaço morto (trocar HME por umidificador aquecido), prona, ECCO₂R/ECMO"
+            if vc is not None:
+                vcn = vc * pc / vm["alvo"]; X["vcn"] = vcn
+                s += f"; ou VC {g(vc)} × {g(pc)}/{g(vm['alvo'])} ≈ {r0(vcn)} mL" + (f" ({fh(vcn / pbw)} mL/kg)" if pbw else "")
+            xs.append(s)
+    if ve:
+        kind = ve.get("kind", "central"); pv = ve.get("pco2")
+        if kind == "periferica":
+            if ve.get("ph") is not None and L.get("ph") is not None:
+                dph = L["ph"] - ve["ph"]; X["dph"] = dph
+                xs.append(f"Venosa periférica × arterial: pH {fh(ve['ph'], 2)} × {fh(L['ph'], 2)} (Δ {fh(dph, 2)}; esperado 0,02–0,05)"
+                          + (f"; PvCO₂ {g(pv)} × PaCO₂ {g(pc)} (Δ {g(pv - pc)}; esperado ≈ 4–6, concordância ruim no choque)" if pv is not None else "")
+                          + (f"; HCO₃⁻ {g(ve['hco3'])} × {g(L['hco3'])}" if ve.get("hco3") is not None else ""))
+            return X, xs
+        if pv is not None:
+            gap = pv - pc; X["gapco2"] = gap
+            xs.append(f"Gap CO₂ (Pcv−aCO₂) = {g(pv)} − {g(pc)} = <b>{g(gap)}</b> mmHg → " + ("&gt; 6: <b>fluxo (débito cardíaco) insuficiente</b> para a produção de CO₂" if gap > 6 else "≤ 6: fluxo adequado para o metabolismo"))
+        sv = ve.get("sat"); nm = "SvO₂" if kind == "mista" else "ScvO₂"
+        if sv is not None:
+            xs.append(f"{nm} {g(sv)}% → " + ("&lt; 70%: <b>extração aumentada</b> (oferta de O₂ baixa para o consumo)" if sv < 70 else "&gt; 80%: <b>extração baixa</b> — fluxo alto ou falha de extração (sepse, microcirculação, shunt)" if sv > 80 else "70–80%: faixa-alvo"))
+        sa, hb = L.get("sat"), L.get("hb")
+        if sv is not None and sa is not None and hb is not None and pv is not None:
+            ca = 1.34 * hb * sa / 100 + 0.003 * (L.get("pao2") or 0); cv = 1.34 * hb * sv / 100 + 0.003 * (ve.get("pao2") or 0); d = ca - cv; r = (pv - pc) / d
+            X.update(ca=ca, cv=cv, cav=d, ratio=r, ero2=(sa - sv) / sa)
+            xs.append(f"CaO₂ {fh(ca)} − CvO₂ {fh(cv)} = <b>{fh(d)}</b> mL/dL; extração {r0(100 * (sa - sv) / sa)}%; gap CO₂/Ca−vO₂ = {g(pv - pc)}/{fh(d)} = <b>{fh(r)}</b> → "
+                      + ("&gt; 1,4: sugere <b>metabolismo anaeróbio</b> (lactato de hipóxia tecidual)" if r > 1.4 else "≤ 1,4: sem sinal de anaerobiose global"))
+    return X, xs
 
 
 # ---------- laudo HTML (frente do card / enunciado) ----------
@@ -216,7 +286,30 @@ def panel(lab, titulo=None):
         if len(pair) == 1: tds += f'<td style="{td}"></td><td style="{td}"></td>'
         out.append(f"<tr>{tds}</tr>")
     out.append("</table>")
+    vm, ve, us = L.get("vm"), L.get("ven"), L.get("us")
+    if vm:
+        vr = [("Modo", vm.get("modo"), "", None), ("VC", vm.get("vc"), "mL", 0), ("FR", vm.get("fr"), "irpm", 0), ("PEEP", vm.get("peep"), "cmH₂O", 0),
+              ("Pplatô", vm.get("pplat"), "cmH₂O", 0), ("EtCO₂", vm.get("etco2"), "mmHg", 0), ("Peso predito", vm.get("pbw"), "kg", 0), ("PaCO₂ alvo", vm.get("alvo"), "mmHg", 0)]
+        out.append(_block("🫁 Ventilador", [(n, v if d is None else f(v, d), u) for n, v, u, d in vr if v is not None], td))
+    if ve:
+        kind = ve.get("kind", "central")
+        nm = {"central": "🩸 Venosa central (simultânea)", "mista": "🩸 Venosa mista (cateter de artéria pulmonar)", "periferica": "🩸 Venosa periférica (simultânea)"}[kind]
+        sv = "SvO₂" if kind == "mista" else "ScvO₂" if kind == "central" else "SvO₂ periférica"
+        rv = [("pH", ve.get("ph"), "", 2), ("PvCO₂", ve.get("pco2"), "mmHg", 0), ("HCO₃⁻", ve.get("hco3"), "mEq/L", 0), ("PvO₂", ve.get("pao2"), "mmHg", 0), (sv, ve.get("sat"), "%", 0)]
+        out.append(_block(nm, [(n, f(v, d), u) for n, v, u, d in rv if v is not None], td))
+    if us:
+        out.append(f'<table class="gaso" style="border-collapse:collapse;margin:4px 0;font-size:15px;line-height:1.35"><tr><td style="{td};background:rgba(255,193,77,.12)">🔊 <b>POCUS:</b> {us}</td></tr></table>')
     return "".join(out)
+
+
+def _block(hd, cells, td):
+    o = [f'<table class="gaso" style="border-collapse:collapse;margin:4px 0;font-size:15px;line-height:1.35"><tr><th colspan="4" style="{td};text-align:left;background:rgba(77,212,255,.13)">{hd}</th></tr>']
+    for i in range(0, len(cells), 2):
+        pair = cells[i:i + 2]
+        t = "".join(f'<td style="{td}">{n}</td><td style="{td}"><b>{v}</b> <small>{u}</small></td>' for n, v, u in pair)
+        if len(pair) == 1: t += f'<td style="{td}"></td><td style="{td}"></td>'
+        o.append(f"<tr>{t}</tr>")
+    return "".join(o) + "</table>"
 
 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.13.0";
+const APP_VERSION = "4.14.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -339,7 +339,7 @@ function mergeLogs(L, R) {
         o[id] = x;
       }
       out[k] = o;
-    } else if (k === "_tt") { const c = out._tt; out._tt = rv && (!c || (rv.t || 0) > (c.t || 0)) ? rv : c;
+    } else if (k === "_tt" || k === "_wl") { const c = out[k]; out[k] = rv && (!c || (rv.t || 0) > (c.t || 0)) ? rv : c;
     } else out[k] = mergeDay(out[k], rv);
   }
   return out;
@@ -1432,7 +1432,7 @@ const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i
     $("#qzBack").onclick = () => this.home();
   } };
 
-/* ---------------- 🧪 Motor ácido-base (espelho do gaso_engine.py; paridade testada em 4.000 casos) ---------------- */
+/* ---------------- 🧪 Motor ácido-base (espelho do gaso_engine.py; paridade testada: 4.000 casos + 3.000 extras de VM/venosa) ---------------- */
 /* 🧪 GASO_ENG — motor de gasometria 360X (espelho de tools/gaso/gaso_engine.py; mesmas regras e códigos). */
 const GASO_ENG = (() => {
   const NOME = { AM_AG: "Acidose metabólica com ânion gap elevado", AM_HC: "Acidose metabólica hiperclorêmica (ânion gap normal)", ALM: "Alcalose metabólica",
@@ -1570,7 +1570,63 @@ const GASO_ENG = (() => {
     }
     R.codes = codes.sort((a, b) => ORD.indexOf(a) - ORD.indexOf(b));
     R.steps = st; R.dx = R.codes.map(c => NOME[c]).join(" + ");
+    const ex = extras(L); R.x = ex[0]; R.xsteps = ex[1];
     return R;
+  }
+  const fh = (x, d = 1) => f(Math.floor(x * 10 ** d + 0.5 + 1e-9) / 10 ** d, d);
+  const g = (x, d = 1) => Math.abs(x - Math.round(x)) < 1e-9 ? f(x, 0) : fh(x, d);
+  const r0 = x => f(Math.floor(x + 0.5), 0);
+  /* 4.14.0 · VM e gasometria venosa (espelho de extras() do Python) */
+  function extras(L) {
+    const X = {}, xs = [], pc = +L.pco2, vm = L.vm, ve = L.ven;
+    if (vm) {
+      const vc = nz(vm.vc) ? +vm.vc : null, fr = nz(vm.fr) ? +vm.fr : null, pbw = nz(vm.pbw) ? +vm.pbw : null;
+      if (vc != null && fr != null) {
+        const vmin = vc * fr / 1000; X.ve = vmin;
+        let s = `Volume-minuto = ${g(vc)} mL × ${g(fr)} = <b>${fh(vmin)}</b> L/min`;
+        if (pbw) {
+          X.vckg = vc / pbw; s += `; VC = ${g(vc)}/${g(pbw)} = <b>${fh(vc / pbw)}</b> mL/kg de peso predito` + (vc / pbw > 8.05 ? " (&gt; 8: reduzir)" : "");
+          const vr = vc * fr * pc / (pbw * 100 * 37.5); X.vr = vr;
+          s += `; razão ventilatória = (${g(vc)} × ${g(fr)} × ${g(pc)}) / (${g(pbw)} × 100 × 37,5) = <b>${fh(vr, 2)}</b> (≈ 1 normal; maior = mais espaço morto)`;
+        }
+        xs.push(s);
+      }
+      if (nz(vm.pplat) && nz(vm.peep)) {
+        const dp = vm.pplat - vm.peep; X.dp = dp;
+        xs.push(`Driving pressure = Pplatô ${g(+vm.pplat)} − PEEP ${g(+vm.peep)} = <b>${g(dp)}</b> cmH₂O → ` + (dp > 15 ? "&gt; 15: lesivo — reduzir VC" : "≤ 15: protetor") + (vm.pplat > 30 ? "; Pplatô &gt; 30: reduzir VC" : ""));
+      }
+      if (nz(vm.etco2)) {
+        const gp = pc - vm.etco2; X.gapet = gp;
+        xs.push(`Gap PaCO₂ − EtCO₂ = ${g(pc)} − ${g(+vm.etco2)} = <b>${g(gp)}</b> mmHg → ` + (gp > 5 ? "&gt; 5: <b>espaço morto aumentado</b> (TEP, baixo débito, hiperdistensão, auto-PEEP)" : "2–5: normal"));
+      }
+      if (nz(vm.alvo) && fr != null) {
+        const frn = fr * pc / vm.alvo; X.frn = frn;
+        let s = `FR para PaCO₂ alvo ${g(+vm.alvo)}: ${g(fr)} × ${g(pc)}/${g(+vm.alvo)} = <b>${r0(frn)}</b> irpm`;
+        if (frn > 35) s += " → acima de 35: risco de auto-PEEP — reduzir espaço morto (trocar HME por umidificador aquecido), prona, ECCO₂R/ECMO";
+        if (vc != null) { const vcn = vc * pc / vm.alvo; X.vcn = vcn; s += `; ou VC ${g(vc)} × ${g(pc)}/${g(+vm.alvo)} ≈ ${r0(vcn)} mL` + (pbw ? ` (${fh(vcn / pbw)} mL/kg)` : ""); }
+        xs.push(s);
+      }
+    }
+    if (ve) {
+      const kind = ve.kind || "central", pv = nz(ve.pco2) ? +ve.pco2 : null;
+      if (kind === "periferica") {
+        if (nz(ve.ph) && nz(L.ph)) {
+          const dph = L.ph - ve.ph; X.dph = dph;
+          xs.push(`Venosa periférica × arterial: pH ${fh(+ve.ph, 2)} × ${fh(+L.ph, 2)} (Δ ${fh(dph, 2)}; esperado 0,02–0,05)` + (pv != null ? `; PvCO₂ ${g(pv)} × PaCO₂ ${g(pc)} (Δ ${g(pv - pc)}; esperado ≈ 4–6, concordância ruim no choque)` : "") + (nz(ve.hco3) ? `; HCO₃⁻ ${g(+ve.hco3)} × ${g(+L.hco3)}` : ""));
+        }
+        return [X, xs];
+      }
+      if (pv != null) { const gap = pv - pc; X.gapco2 = gap; xs.push(`Gap CO₂ (Pcv−aCO₂) = ${g(pv)} − ${g(pc)} = <b>${g(gap)}</b> mmHg → ` + (gap > 6 ? "&gt; 6: <b>fluxo (débito cardíaco) insuficiente</b> para a produção de CO₂" : "≤ 6: fluxo adequado para o metabolismo")); }
+      const sv = nz(ve.sat) ? +ve.sat : null, nm = kind === "mista" ? "SvO₂" : "ScvO₂";
+      if (sv != null) xs.push(`${nm} ${g(sv)}% → ` + (sv < 70 ? "&lt; 70%: <b>extração aumentada</b> (oferta de O₂ baixa para o consumo)" : sv > 80 ? "&gt; 80%: <b>extração baixa</b> — fluxo alto ou falha de extração (sepse, microcirculação, shunt)" : "70–80%: faixa-alvo"));
+      const sa = nz(L.sat) ? +L.sat : null, hb = nz(L.hb) ? +L.hb : null;
+      if (sv != null && sa != null && hb != null && pv != null) {
+        const ca = 1.34 * hb * sa / 100 + 0.003 * (nz(L.pao2) ? +L.pao2 : 0), cv = 1.34 * hb * sv / 100 + 0.003 * (nz(ve.pao2) ? +ve.pao2 : 0), d = ca - cv, r = (pv - pc) / d;
+        Object.assign(X, { ca, cv, cav: d, ratio: r, ero2: (sa - sv) / sa });
+        xs.push(`CaO₂ ${fh(ca)} − CvO₂ ${fh(cv)} = <b>${fh(d)}</b> mL/dL; extração ${r0(100 * (sa - sv) / sa)}%; gap CO₂/Ca−vO₂ = ${g(pv - pc)}/${fh(d)} = <b>${fh(r)}</b> → ` + (r > 1.4 ? "&gt; 1,4: sugere <b>metabolismo anaeróbio</b> (lactato de hipóxia tecidual)" : "≤ 1,4: sem sinal de anaerobiose global"));
+      }
+    }
+    return [X, xs];
   }
   const ROWS = [["ph", "pH", "", 2], ["pco2", "PaCO₂", "mmHg", 0], ["hco3", "HCO₃⁻", "mEq/L", 0], ["be", "BE", "mEq/L", 1], ["pao2", "PaO₂", "mmHg", 0], ["sat", "SatO₂", "%", 0],
     ["na", "Na⁺", "mEq/L", 0], ["k", "K⁺", "mEq/L", 1], ["cl", "Cl⁻", "mEq/L", 0], ["alb", "Albumina", "g/dL", 1], ["lac", "Lactato", "mmol/L", 1], ["glic", "Glicose", "mg/dL", 0],
@@ -1582,12 +1638,27 @@ const GASO_ENG = (() => {
     const cells = ROWS.filter(([k]) => nz(L[k])).map(([k, n, u, d]) => [ven && k === "pco2" ? "PvCO₂" : ven && k === "pao2" ? "PvO₂" : n, f(+L[k], d), u]);
     let h = `<table class="gaso" style="border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35"><tr><th colspan="4" style="${td};text-align:left;background:rgba(77,212,255,.13)">${hd}</th></tr>`;
     for (let i = 0; i < cells.length; i += 2) h += "<tr>" + cells.slice(i, i + 2).map(([n, v, u]) => `<td style="${td}">${n}</td><td style="${td}"><b>${v}</b> <small>${u}</small></td>`).join("") + (i + 1 >= cells.length ? `<td style="${td}"></td><td style="${td}"></td>` : "") + "</tr>";
-    return h + "</table>";
+    h += "</table>";
+    const vm = L.vm, ve = L.ven, us = L.us;
+    if (vm) h += block("🫁 Ventilador", [["Modo", vm.modo, "", null], ["VC", vm.vc, "mL", 0], ["FR", vm.fr, "irpm", 0], ["PEEP", vm.peep, "cmH₂O", 0], ["Pplatô", vm.pplat, "cmH₂O", 0], ["EtCO₂", vm.etco2, "mmHg", 0], ["Peso predito", vm.pbw, "kg", 0], ["PaCO₂ alvo", vm.alvo, "mmHg", 0]]
+      .filter(([, v]) => v !== undefined && v !== null && v !== "").map(([n, v, u, d]) => [n, d == null ? v : f(+v, d), u]), td);
+    if (ve) {
+      const kind = ve.kind || "central", nm = { central: "🩸 Venosa central (simultânea)", mista: "🩸 Venosa mista (cateter de artéria pulmonar)", periferica: "🩸 Venosa periférica (simultânea)" }[kind];
+      const sv = kind === "mista" ? "SvO₂" : kind === "central" ? "ScvO₂" : "SvO₂ periférica";
+      h += block(nm, [["pH", ve.ph, "", 2], ["PvCO₂", ve.pco2, "mmHg", 0], ["HCO₃⁻", ve.hco3, "mEq/L", 0], ["PvO₂", ve.pao2, "mmHg", 0], [sv, ve.sat, "%", 0]].filter(([, v]) => nz(v)).map(([n, v, u, d]) => [n, f(+v, d), u]), td);
+    }
+    if (us) h += `<table class="gaso" style="border-collapse:collapse;margin:4px 0;font-size:15px;line-height:1.35"><tr><td style="${td};background:rgba(255,193,77,.12)">🔊 <b>POCUS:</b> ${us}</td></tr></table>`;
+    return h;
   }
-  return { analyze, prep, panel, NOME, f };
+  function block(hd, cells, td) {
+    let o = `<table class="gaso" style="border-collapse:collapse;margin:4px 0;font-size:15px;line-height:1.35"><tr><th colspan="4" style="${td};text-align:left;background:rgba(77,212,255,.13)">${hd}</th></tr>`;
+    for (let i = 0; i < cells.length; i += 2) o += "<tr>" + cells.slice(i, i + 2).map(([n, v, u]) => `<td style="${td}">${n}</td><td style="${td}"><b>${v}</b> <small>${u}</small></td>`).join("") + (i + 1 >= cells.length ? `<td style="${td}"></td><td style="${td}"></td>` : "") + "</tr>";
+    return o + "</table>";
+  }
+  return { analyze, prep, panel, extras, NOME, f };
 })();
 /* ---------------- 🧪 Gasometria 360X (4.13.0): casos guiados, analisador de beira-leito e fórmulas ---------------- */
-const GZ = { data: null, sub: lsGet("gzSub") || "casos", tema: "", cur: null, si: 0, picked: null, hits: 0, last: null,
+const GZ = { NCARD: 450, NQ: 145, data: null, sub: lsGet("gzSub") || "casos", tema: "", cur: null, si: 0, picked: null, hits: 0, last: null,
   ROOT: "🧪 Gasometria 360X",
   async load() {   // cópia no aparelho para abrir sem internet
     if (this.data) return;
@@ -1601,8 +1672,8 @@ const GZ = { data: null, sub: lsGet("gzSub") || "casos", tema: "", cur: null, si
   head() {
     const G = this.G(), all = this.data.casos, feitos = all.filter(c => G[c.n]).length, perf = all.filter(c => G[c.n] && G[c.n].p).length;
     const tabs = [["casos", "🎯 Casos guiados"], ["analisar", "🧮 Analisador"], ["formulas", "📐 Fórmulas"]];
-    return `<div class="panel gzHero"><h2 style="margin:0 0 4px">🧪 Gasometria 360X</h2><p class="metaNow" style="margin:0">300 flashcards · 100 questões · ${all.length} casos guiados · analisador passo a passo</p>
-      <div class="metaRow" style="margin-top:10px"><button class="btn gold" id="gzStudy">🎴 Estudar os 300 flashcards</button><button class="btn" id="gzQz">❓ 100 questões</button></div>
+    return `<div class="panel gzHero"><h2 style="margin:0 0 4px">🧪 Gasometria 360X</h2><p class="metaNow" style="margin:0">${this.NCARD} flashcards · ${this.NQ} questões · ${all.length} casos guiados · analisador com VM e venosa</p>
+      <div class="metaRow" style="margin-top:10px"><button class="btn gold" id="gzStudy">🎴 Estudar os ${this.NCARD} flashcards</button><button class="btn" id="gzQz">❓ ${this.NQ} questões</button></div>
       <div class="stats" style="margin-top:10px"><div class="stat"><b class="n">${feitos}</b><span>casos resolvidos</span></div><div class="stat"><b style="color:var(--gold2)">${perf}</b><span>perfeitos ⭐</span></div><div class="stat"><b class="rv">${all.length - feitos}</b><span>inéditos</span></div></div></div>
       <div class="divTabs">${tabs.map(([k, v]) => `<button class="btn ${k === this.sub ? "gold" : ""}" data-gzsub="${k}">${v}</button>`).join("")}</div>`;
   },
@@ -1622,7 +1693,7 @@ const GZ = { data: null, sub: lsGet("gzSub") || "casos", tema: "", cur: null, si
     const G = this.G(), l = this.list(), ined = l.filter(c => !G[c.n]).length, err = l.filter(c => G[c.n] && !G[c.n].p).length;
     return `<div class="panel"><div class="metaRow"><label>📚 Tema:</label><select id="gzTema"><option value="">Todos os temas (${this.data.casos.length})</option>${this.temas().map(t => `<option ${t === this.tema ? "selected" : ""} value="${esc(t)}">${esc(t)}</option>`).join("")}</select></div>
       <div class="metaRow"><button class="btn gold" data-gzgo="new">▶️ Caso inédito (${ined})</button><button class="btn" data-gzgo="any">🎲 Qualquer caso</button><button class="btn" data-gzgo="err" ${err ? "" : "disabled"}>🔁 Refazer imperfeitos (${err})</button></div>
-      <p class="metaNow">🧭 Cada caso tem 4–6 etapas: pH → distúrbio primário → compensação → ânion gap/Δ/Δ → oxigenação → diagnóstico. ✨ +3 XP por etapa certa, +10 se o caso sair perfeito. Atalhos: <span class="kbd">1</span>–<span class="kbd">6</span> responder · <span class="kbd">Enter</span> avançar.</p></div>`;
+      <p class="metaNow">🧭 Cada caso tem de 4 a 9 etapas: pH → distúrbio primário → compensação → ânion gap/Δ/Δ → oxigenação → diagnóstico; nos temas 11–13 entram também ventilador, POCUS, gap CO₂/ScvO₂ e a conduta. ✨ +3 XP por etapa certa, +10 se o caso sair perfeito. Atalhos: <span class="kbd">1</span>–<span class="kbd">6</span> responder · <span class="kbd">Enter</span> avançar.</p></div>`;
   },
   start(mode) {
     const G = this.G(), l = this.list(), sh = a => a[Math.floor(Math.random() * a.length)];
@@ -1668,24 +1739,39 @@ const GZ = { data: null, sub: lsGet("gzSub") || "casos", tema: "", cur: null, si
   F: [["ph", "pH (opcional)", "0.01"], ["pco2", "PaCO₂ mmHg *", "1"], ["hco3", "HCO₃⁻ mEq/L *", "0.1"], ["na", "Na⁺", "1"], ["cl", "Cl⁻", "1"], ["alb", "Albumina g/dL", "0.1"],
       ["pao2", "PaO₂ mmHg", "1"], ["fio2", "FiO₂ %", "1"], ["idade", "Idade", "1"], ["lac", "Lactato", "0.1"], ["glic", "Glicose mg/dL", "1"], ["ureia", "Ureia mg/dL", "1"], ["osm", "Osm medida", "1"],
       ["una", "Na urinário", "1"], ["uk", "K urinário", "1"], ["ucl", "Cl urinário", "1"]],
+  F2: [["fr", "FR irpm", "1"], ["vc", "VC mL", "1"], ["peep", "PEEP", "1"], ["pplat", "Pplatô", "1"], ["etco2", "EtCO₂ mmHg", "1"], ["alt", "Altura cm", "1"], ["alvo", "PaCO₂ alvo", "1"],
+      ["pvco2", "PvCO₂ central", "1"], ["scvo2", "ScvO₂ %", "1"], ["hb", "Hb g/dL", "0.1"], ["sat", "SaO₂ %", "1"]],
   formHTML() {
     const v = lsGet("gzForm") ? JSON.parse(lsGet("gzForm")) : {};
     return `<div class="panel"><h2 style="margin-top:0">🧮 Analisador passo a passo</h2>
       <p class="metaNow">Digite os valores do laudo. Só PaCO₂ e HCO₃⁻ são obrigatórios; Na⁺ + Cl⁻ liberam o ânion gap; PaO₂ (+ FiO₂ e idade) libera A-a e P/F; osmolalidade, glicose e ureia liberam o gap osmolar.</p>
       <div class="gzForm">${this.F.map(([k, l, s]) => `<label>${l}<input type="number" inputmode="decimal" step="${s}" id="gzf_${k}" value="${v[k] != null ? esc(String(v[k])) : ""}"></label>`).join("")}</div>
+      <details class="gzMore" ${["fr", "vc", "pvco2", "scvo2"].some(k => v[k] != null) ? "open" : ""}><summary>🫁 Ventilador e 🩸 venosa central (opcional): FR para a PaCO₂ alvo, driving pressure, espaço morto, gap CO₂ e ScvO₂</summary>
+       <div class="gzForm2">${this.F2.map(([k, l, s]) => `<label>${l}<input type="number" inputmode="decimal" step="${s}" id="gzf_${k}" value="${v[k] != null ? esc(String(v[k])) : ""}"></label>`).join("")}
+        <label>Sexo (peso predito)<select id="gzf_sexo"><option value="M" ${v.sexo !== "F" ? "selected" : ""}>Masculino</option><option value="F" ${v.sexo === "F" ? "selected" : ""}>Feminino</option></select></label></div></details>
       <div class="metaRow"><button class="btn gold" id="gzRun">🔎 Interpretar</button><button class="btn" id="gzEx">🎲 Exemplo de caso</button><button class="btn" id="gzClr">🧽 Limpar</button></div>
       <div id="gzOut"></div>
       <p class="metaNow">⚠️ Ferramenta didática: aplica fórmulas consagradas (Winter, compensações, AG corrigido, Δ/Δ, A-a, P/F) e não substitui o julgamento clínico nem a gasometria repetida.</p></div>`;
   },
   run() {
-    const lab = {}; for (const [k] of this.F) { const el = $("#gzf_" + k); if (el && el.value !== "") lab[k] = parseFloat(String(el.value).replace(",", ".")); }
-    lsSet("gzForm", JSON.stringify(lab));
+    const lab = {}, xv = {}; for (const [k] of this.F) { const el = $("#gzf_" + k); if (el && el.value !== "") lab[k] = parseFloat(String(el.value).replace(",", ".")); }
+    for (const [k] of this.F2) { const el = $("#gzf_" + k); if (el && el.value !== "") xv[k] = parseFloat(String(el.value).replace(",", ".")); }
+    const sx = ($("#gzf_sexo") || {}).value || "M";
+    lsSet("gzForm", JSON.stringify(Object.assign({}, lab, xv, { sexo: sx })));
+    if (xv.fr != null || xv.vc != null) {
+      const vm = { modo: "informado" }; for (const k of ["fr", "vc", "peep", "pplat", "etco2", "alvo"]) if (xv[k] != null) vm[k] = xv[k];
+      if (xv.alt > 100) vm.pbw = Math.round((sx === "F" ? 45.5 : 50) + 0.91 * (xv.alt - 152.4));
+      lab.vm = vm;
+    }
+    if (xv.hb != null) lab.hb = xv.hb;
+    if (xv.sat != null) lab.sat = xv.sat;
+    if (xv.pvco2 != null || xv.scvo2 != null) { lab.ven = { kind: "central" }; if (xv.pvco2 != null) lab.ven.pco2 = xv.pvco2; if (xv.scvo2 != null) lab.ven.sat = xv.scvo2; }
     if (!(lab.pco2 > 0) || !(lab.hco3 > 0)) { $("#gzOut").innerHTML = `<div class="qzRes bad">Informe pelo menos PaCO₂ e HCO₃⁻.</div>`; return; }
     if (lab.fio2 != null) lab.fio2 = lab.fio2 > 1 ? lab.fio2 / 100 : lab.fio2;
     const R = GASO_ENG.analyze(lab), hh = 6.1 + Math.log10(lab.hco3 / (0.03 * lab.pco2)), warn = lab.ph != null && Math.abs(lab.ph - hh) > 0.05;
     const L = L0(); L.gA = (L.gA || 0) + 1; saveLog(); addXP(1, "análise", "g");
     $("#gzOut").innerHTML = `${warn ? `<div class="qzRes bad">⚠️ Laudo possivelmente incoerente: pH medido ${GASO_ENG.f(lab.ph, 2)} × calculado por Henderson-Hasselbalch ${GASO_ENG.f(hh, 2)}. Confira coleta/digitação antes de interpretar.</div>` : ""}
-      ${GASO_ENG.panel(lab, "🩸 Laudo informado")}<div class="gzDx">✅ <b>${R.dx}</b></div><ol class="gzSteps">${R.steps.map(s => `<li>${s}</li>`).join("")}</ol>`;
+      ${GASO_ENG.panel(lab, "🩸 Laudo informado")}<div class="gzDx">✅ <b>${R.dx}</b></div><ol class="gzSteps">${R.steps.concat(R.xsteps || []).map(s => `<li>${s}</li>`).join("")}</ol>`;
   },
   formulasHTML() {
     const F = [["🧭 Henderson-Hasselbalch", "pH = 6,1 + log [HCO₃⁻ / (0,03 × PaCO₂)] · atalho [H⁺] = 24 × PaCO₂ / HCO₃⁻"], ["🔴 Winter (acidose metabólica)", "PaCO₂ esperada = 1,5 × HCO₃⁻ + 8 ± 2"],
@@ -1695,11 +1781,16 @@ const GZ = { data: null, sub: lsGet("gzSub") || "casos", tema: "", cur: null, si
       ["🚽 AG urinário", "Na⁺u + K⁺u − Cl⁻u · negativo = perda GI · positivo = ATR distal"], ["🧂 Cloro urinário", "&lt; 20 responsiva a cloreto · &gt; 40 resistente"],
       ["💨 Gradiente A-a", "PAO₂ = FiO₂ × (Patm − 47) − PaCO₂/0,8 · A-a esperado ≈ idade/4 + 4"], ["🫁 P/F (Berlim, PEEP ≥ 5)", "leve 201–300 · moderada 101–200 · grave ≤ 100"],
       ["🩸 CaO₂ e DO₂", "CaO₂ = 1,34 × Hb × SatO₂ + 0,003 × PaO₂ · DO₂ = DC × CaO₂ × 10"], ["🧊 Déficit de HCO₃⁻", "0,5 × peso × (alvo − atual) — repor metade e reavaliar"],
-      ["🍬 Na⁺ na hiperglicemia", "Na⁺ corrigido = Na⁺ + 1,6–2,4 × (glicose − 100)/100 (no AG use o medido)"], ["⚙️ Ajuste da VM", "FR nova ≈ FR atual × PaCO₂ atual / PaCO₂ desejada"]];
+      ["🍬 Na⁺ na hiperglicemia", "Na⁺ corrigido = Na⁺ + 1,6–2,4 × (glicose − 100)/100 (no AG use o medido)"], ["⚙️ Ajuste da VM", "FR nova ≈ FR atual × PaCO₂ atual / PaCO₂ desejada"],
+      ["🧍 Peso predito", "homem 50 + 0,91 × (altura − 152,4) · mulher 45,5 + 0,91 × (altura − 152,4) · VC 6 mL/kg"], ["🫁 Driving pressure", "Pplatô − PEEP ≤ 15 cmH₂O · Pplatô ≤ 30"],
+      ["💨 Gap PaCO₂ − EtCO₂", "normal 2–5 mmHg · maior = espaço morto (TEP, baixo débito, hiperdistensão)"], ["📊 Razão ventilatória", "(VE × PaCO₂) / (peso predito × 100 × 37,5) · ≈ 1 normal"],
+      ["🩸 Gap CO₂ venoarterial", "PcvCO₂ − PaCO₂ &gt; 6 mmHg = fluxo (débito) insuficiente"], ["🧮 Gap CO₂ / Ca−vO₂", "&gt; ~1,4 sugere metabolismo anaeróbio (cortes variam)"],
+      ["🩸 ScvO₂", "&lt; 70% extração alta · 70–80% alvo · &gt; 80% extração baixa/falha de extração"], ["❤️ Fick", "DC = VO₂ / (CaO₂ − CvO₂) × 10"]];
     return `<div class="panel"><h2 style="margin-top:0">📐 Fórmulas de bolso</h2><div class="gzForms">${F.map(([t, d]) => `<div class="gzF"><b>${t}</b><span>${d}</span></div>`).join("")}</div>
       <p class="metaNow">💡 Ordem de leitura: pH → primário → compensação → AG corrigido → Δ/Δ → oxigenação. Pratique nos 🎯 casos guiados.</p></div>`;
   },
   bind(host) {
+    $$("#gzHost .gzForm2 input").forEach(i => i.onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); this.run(); } });
     const tm = $("#gzTema", host); if (tm) tm.onchange = e => { this.tema = e.target.value; this.render(); };
     $$("#gzHost [data-gzgo]").forEach(b => b.onclick = () => this.start(b.dataset.gzgo));
     $$("#gzHost [data-gzo]").forEach(b => b.onclick = () => this.pick(+b.dataset.gzo));
@@ -1709,7 +1800,10 @@ const GZ = { data: null, sub: lsGet("gzSub") || "casos", tema: "", cur: null, si
     const nc = $("#gzNextCase", host); if (nc) nc.onclick = () => this.start("new");
     const rn = $("#gzRun", host); if (rn) rn.onclick = () => this.run();
     const cl = $("#gzClr", host); if (cl) cl.onclick = () => { lsSet("gzForm", "{}"); this.render(); };
-    const ex = $("#gzEx", host); if (ex) ex.onclick = () => { const c = this.data.casos[Math.floor(Math.random() * this.data.casos.length)]; const v = Object.assign({}, c.lab); delete v.ph; if (v.fio2) v.fio2 = Math.round(v.fio2 * 100); lsSet("gzForm", JSON.stringify(v)); this.render(); this.run(); toast(`🎲 ${c.ctx.slice(0, 90)}…`, 4500); };
+    const ex = $("#gzEx", host); if (ex) ex.onclick = () => { const c = this.data.casos[Math.floor(Math.random() * this.data.casos.length)]; const v = Object.assign({}, c.lab); delete v.ph; if (v.fio2) v.fio2 = Math.round(v.fio2 * 100);
+      if (v.vm) { for (const k of ["fr", "vc", "peep", "pplat", "etco2", "alvo"]) if (v.vm[k] != null) v[k] = v.vm[k]; if (v.vm.pbw) { v.alt = Math.round((v.vm.pbw - 50) / 0.91 + 152.4); v.sexo = "M"; } }
+      if (v.ven && v.ven.kind !== "periferica") { if (v.ven.pco2 != null) v.pvco2 = v.ven.pco2; if (v.ven.sat != null) v.scvo2 = v.ven.sat; }
+      delete v.vm; delete v.ven; delete v.us; lsSet("gzForm", JSON.stringify(v)); this.render(); this.run(); toast(`🎲 ${c.ctx.slice(0, 90)}…`, 4500); };
     $$("#gzHost .gzForm input").forEach(i => i.onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); this.run(); } });
   },
   key(e) {
@@ -2265,8 +2359,76 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
 /* ---------------- Jornada: conquistas, ranking semanal e painéis ---------------- */
 const ACH_T = { medalha: "🏅 Medalhas", trofeu: "🏆 Troféus", titulo: "📜 Títulos", brasao: "🛡️ Brasões", honra: "🎖️ Honrarias" };
 const ACH_BONUS = { medalha: 20, trofeu: 40, titulo: 50, brasao: 80, honra: 150 };
-const XPSRC = { c: ["🎴 Flashcards", "#4dd4ff"], s: ["🧪 Simulados", "#ffc14d"], q: ["❓ Questões", "#5be38a"], r: ["📖 Leitura e comentários", "#b48cff"], m: ["💊 Micropartículas", "#ff8fb1"], n: ["🧠 Mnemônicos", "#7fd1b9"], h: ["🕊️ Honra", "#c9b6ff"], g: ["🧪 Gasometria", "#ff9d5c"], a: ["🏆 Conquistas", "#e8c56a"] };
+const XPSRC = { c: ["🎴 Flashcards", "#4dd4ff"], s: ["🧪 Simulados", "#ffc14d"], q: ["❓ Questões", "#5be38a"], r: ["📖 Leitura e comentários", "#b48cff"], m: ["💊 Micropartículas", "#ff8fb1"], n: ["🧠 Mnemônicos", "#7fd1b9"], h: ["🕊️ Honra", "#c9b6ff"], g: ["🧪 Gasometria", "#ff9d5c"], d: ["📆 Desafios", "#7fe0ff"], a: ["🏆 Conquistas", "#e8c56a"] };
 const isoWeek = t => { const d = new Date(t); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getTime(); };
+/* ---------- 4.14.0: 📆 Desafios semanais (3 por semana, renovam na segunda-feira) ---------- */
+const WC = {
+  LV: { leve: ["🟢 Leve", 0.5, 0.6], padrao: ["🟡 Padrão", 1, 1], hard: ["🔴 Hardcore", 2, 1.8] },
+  POOL: [   // [id, grupo, ícone, nome, alvo padrão, XP, métrica, descrição]
+    ["cards", 0, "🎴", "Maratona da semana", 300, 80, w => w.cards, n => `Responder ${n.toLocaleString("pt-BR")} flashcards`],
+    ["rev", 0, "🔁", "Guardião das revisões", 150, 80, w => w.rev, n => `Fazer ${n} revisões`],
+    ["novos", 0, "🆕", "Desbravador", 70, 80, w => w.novos, n => `Estudar ${n} cards novos`],
+    ["xp", 0, "⚡", "Semana de XP", 1500, 120, w => w.xp, n => `Somar ${n.toLocaleString("pt-BR")} XP na semana`],
+    ["q", 1, "❓", "Questionador semanal", 60, 100, w => w.q, n => `Responder ${n} questões`],
+    ["sim", 1, "🎯", "Bloco de elite", 2, 100, w => w.sim80, n => `Fechar ${n} bloco(s) de ≥ 10 questões com ≥ 80%`],
+    ["gz", 1, "🧪", "Alquimista da semana", 15, 100, w => w.gN, n => `Resolver ${n} casos guiados de gasometria`],
+    ["gzp", 1, "⭐", "Precisão ácido-base", 5, 100, w => w.gP, n => `Fechar ${n} casos de gasometria sem erro`],
+    ["qc", 1, "📖", "Leitor de comentários", 30, 60, w => w.qc, n => `Ler ${n} comentários de questões`],
+    ["dias", 2, "📆", "Presença", 5, 100, w => w.dias, n => `Estudar em ${n} dias da semana`],
+    ["micro", 2, "💊", "Micro leitor", 20, 60, w => w.mN, n => `Ler ${n} micropartículas`],
+    ["mn", 2, "🧠", "Treino de mnemônicos", 30, 60, w => w.nN, n => `Treinar ${n} mnemônicos`],
+    ["honra", 2, "🕊️", "Fôlego e honra", 5, 60, w => w.hon, n => `Fazer ${n} práticas na aba Honra`],
+    ["meta", 2, "🏹", "Juramento semanal", 4, 100, w => w.meta, n => `Cumprir a meta de novos em ${n} dias`]],
+  lvl() { const w = S.logs._wl; return w && this.LV[w.lvl] ? w.lvl : (this.LV[lsGet("wcLvl")] ? lsGet("wcLvl") : "padrao"); },
+  setLvl(l) { if (!this.LV[l]) return; S.logs._wl = { lvl: l, t: Date.now() }; lsSet("wcLvl", l); saveLog(); this.check(); },
+  wk(t) { return isoWeek(t || Date.now()); },
+  rng(seed) { return () => { seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; },
+  pick(wk) { const r = this.rng(Math.round(wk / (7 * DAY)) * 7919 + 2028); return [0, 1, 2].map(g => { const l = this.POOL.filter(p => p[1] === g); return l[Math.floor(r() * l.length)]; }); },
+  stats(wk) {
+    const o = { cards: 0, rev: 0, novos: 0, xp: 0, q: 0, sim80: 0, gN: 0, gP: 0, qc: 0, dias: 0, mN: 0, nN: 0, hon: 0, meta: 0 }, nNew = S.settings.newPerDay || 0;
+    for (const [d, l] of dayLogs()) {
+      if (isoWeek(new Date(d + "T12:00").getTime()) !== wk) continue;
+      o.cards += l.nAns || 0; o.rev += l.nRev || 0; o.novos += l.nNew || 0; o.xp += l.xp || 0; o.q += l.qN || 0; o.qc += l.qcN || 0; o.mN += l.mN || 0; o.nN += l.nN || 0;
+      o.sim80 += (l.sims || []).filter(x => x.n >= 10 && x.ok / x.n >= 0.8).length; o.gN += l.gN || 0; o.gP += l.gP || 0;
+      o.hon += (l.hN || 0) + (l.hb || 0) + (l.hn ? 1 : 0); if (nNew && (l.nNew || 0) >= nNew) o.meta++;
+      if ((l.nAns || 0) + (l.qN || 0) + (l.mN || 0) + (l.nN || 0) + (l.hN || 0) + (l.hb || 0) + (l.gS || 0) + (l.gA || 0) + (l.sims || []).length > 0) o.dias++;
+    }
+    return o;
+  },
+  list(wk) {
+    wk = wk || this.wk(); const [, k, kx] = this.LV[this.lvl()], st = this.stats(wk), D = (S.logs._wc || {})[wk] || {};
+    return this.pick(wk).map(([id, , ic, nome, base, xp, fn, desc]) => {
+      let alvo = Math.max(1, Math.round(base * k)); if (id === "dias" || id === "meta") alvo = Math.min(7, alvo);
+      const v = fn(st); return { id, ic, nome, alvo, xp: Math.round(xp * kx), v, desc: desc(alvo), done: D[id] || 0 };
+    });
+  },
+  check() {
+    const wk = this.wk(), L = this.list(wk), W = (S.logs._wc = S.logs._wc || {}), D = (W[wk] = W[wk] || {}), novas = [];
+    for (const c of L) if (!D[c.id] && c.v >= c.alvo) { D[c.id] = Date.now(); novas.push(c); }
+    if (!novas.length) { if (!Object.keys(D).length) delete W[wk]; return false; }
+    const perfeita = !D.all && L.every(c => D[c.id]); if (perfeita) D.all = Date.now();
+    saveLog();
+    for (const c of novas) addXP(c.xp, "desafio", "d");
+    if (perfeita) addXP(100, "semana perfeita", "d");
+    const c = novas[novas.length - 1];
+    toast(perfeita ? "🏆 <b>Semana perfeita!</b> Os 3 desafios cumpridos · +100 XP" : `${c.ic} <b>Desafio cumprido!</b> ${esc(c.nome)} · +${c.xp} XP`, 4500);
+    if (location.hash === "#jornada") JR.render();
+    return true;
+  },
+  done() { let n = 0, all = 0; for (const D of Object.values(S.logs._wc || {})) { if (!D || typeof D !== "object") continue; n += Object.keys(D).filter(k => k !== "all").length; if (D.all) all++; } return { n, all }; },
+  left() { const d = Math.ceil((this.wk() + 7 * DAY - Date.now()) / DAY); return d <= 1 ? "último dia" : `faltam ${d} dias`; },
+  html() {
+    const L = this.list(), lv = this.lvl(), T = this.done(), ok = L.filter(c => c.done).length;
+    return `<div class="panel" id="wcPanel"><div class="wcHead"><h2 style="margin:0">📆 Desafios da semana <small style="color:var(--mut);font-weight:400">${ok}/3 · ${this.left()}</small></h2>
+      <div class="wcLvl">${Object.entries(this.LV).map(([k, [n]]) => `<button class="btn sm ${k === lv ? "gold" : ""}" data-wcl="${k}">${n}</button>`).join("")}</div></div>
+      <div class="wcGrid">${L.map(c => `<div class="wc ${c.done ? "on" : ""}"><b>${c.ic} ${esc(c.nome)}</b><small>${esc(c.desc)}</small><span class="xpTrack"><i style="width:${Math.min(100, Math.round(100 * c.v / c.alvo))}%"></i></span><small>${Math.min(c.v, c.alvo).toLocaleString("pt-BR")}/${c.alvo.toLocaleString("pt-BR")} · ${c.done ? "✅ cumprido" : `+${c.xp} XP`}</small></div>`).join("")}</div>
+      <p class="metaNow">🔄 Renovam toda segunda-feira · fechar os 3 dá +100 XP (🏆 semana perfeita) · você já cumpriu <b>${T.n}</b> desafios e <b>${T.all}</b> semana(s) perfeita(s). O nível vale para a semana inteira e pode ser trocado quando quiser.</p></div>`;
+  },
+  mini() {
+    const L = this.list(), ok = L.filter(c => c.done).length;
+    return `<a href="#jornada" class="wcMini">📆 <b>Desafios da semana ${ok}/3</b> · ${L.map(c => `${c.done ? "✅" : c.ic} ${Math.min(c.v, c.alvo).toLocaleString("pt-BR")}/${c.alvo.toLocaleString("pt-BR")}`).join(" · ")} ›</a>`;
+  },
+  bind(host) { $$("[data-wcl]", host).forEach(b => b.onclick = () => { this.setLvl(b.dataset.wcl); if (location.hash === "#jornada") JR.render(); toast(`📆 Nível dos desafios: ${this.LV[b.dataset.wcl][0]}`); }); } };
 function jStats() {
   const days = dayLogs().sort((a, b) => a[0].localeCompare(b[0])), act = l => (l.nAns || 0) + (l.qN || 0) + (l.mN || 0) + (l.nN || 0) + (l.hN || 0) + (l.hb || 0) + (l.hn || 0) + (l.gS || 0) + (l.gA || 0) + (l.sims || []).length > 0;
   const on = new Set(days.filter(([, l]) => act(l)).map(([d]) => d));
@@ -2293,7 +2455,7 @@ function jStats() {
   // 📚 categorias (pelas coleções ativas)
   const cat = {}, decks = new Set();
   for (const c of S.cards || []) { if (!c.official && c.origin !== "oficial" && !c.col) continue; const k = c.col || "temi", o = cat[k] = cat[k] || { tot: 0, st: 0, mat: 0 }; o.tot++; if (c.srs && c.srs.reps) { o.st++; decks.add(c.deck); if (c.srs.st === "review" && c.srs.ivl >= 21) o.mat++; } }
-  const G = S.logs._g || {}, gv = Object.values(G), gq = Object.entries(Q).filter(([id]) => id.startsWith("QG")).map(([, v]) => v);
+  const G = S.logs._g || {}, gv = Object.values(G), gq = Object.entries(Q).filter(([id]) => id.startsWith("QG")).map(([, v]) => v), wcd = WC.done();
   return { cur, max: Math.max(max, cur), xp: xpTotal(), lv: levelOf(xpTotal()).lv, sims, qAns: qv.length, qAcc: qv.length ? qOk / qv.length : 0, qc: Object.keys(S.logs._qc || {}).length,
     mic: Object.keys(S.logs._m || {}).length, mn: Object.values(S.logs._n || {}).filter(e => e && (e.s || 0) >= 2).length, hon: Object.values(S.logs._h || {}).filter(e => e && (e.s || 0) >= 2).length,
     hb: days.reduce((a, [, l]) => a + (l.hb || 0), 0), hbu: days.reduce((a, [, l]) => a + (l.hbu || 0) + (l.hf || 0), 0), hn: days.reduce((a, [, l]) => a + (l.hn ? 1 : 0), 0), cards: ans.reduce((a, b) => a + b, 0), metaDays, wk, xs, days,
@@ -2302,7 +2464,7 @@ function jStats() {
     perfDays: days.filter(([, l]) => (l.nAns || 0) >= 50 && l.nOk / l.nAns >= 0.95).length, maxRev: Math.max(0, ...days.map(([, l]) => l.nRev || 0)),
     balDays: days.filter(([, l]) => Object.keys(l.xs || {}).filter(k => k !== "a").length >= 4).length, gota: days.filter(([, l]) => (l.nAns || 0) >= 10 && (l.nAns || 0) <= 40).length,
     explor: decks.size, cat, rA, rOk, rDays, rNew, rRev, rSrc: rSrc.size,
-    gN: gv.filter(e => e && e.n).length, gP: gv.filter(e => e && e.p).length, gA: days.reduce((a, [, l]) => a + (l.gA || 0), 0), gqA: gq.length, gqAcc: gq.length ? gq.filter(x => x[0]).length / gq.length : 0 };
+    gN: gv.filter(e => e && e.n).length, gP: gv.filter(e => e && e.p).length, gA: days.reduce((a, [, l]) => a + (l.gA || 0), 0), gqA: gq.length, gqAcc: gq.length ? gq.filter(x => x[0]).length / gq.length : 0, wcN: wcd.n, wcAll: wcd.all };
 }
 const ACH_G = { prox: "⭐ Próximas", ass: "📆 Assiduidade", cat: "📚 Categorias", des: "🎯 Desempenho", est: "🎭 Estilo", tit: "📜 Títulos", hon: "🕊️ Honra", all: "🏅 Todas" };
 const CATS = [["temi", "🏥", "Intensivista", "TEMI 2028"], ["cm", "🩺", "Clínico de Ouro", "R3 Clínica Médica"], ["ecg", "📈", "Leitor de Traçados", "Compêndio de ECG"], ["vmc", "🫁", "Domador do Ventilador", "Curvas de VM"], ["pocus", "🔊", "Vidente do Ultrassom", "POCUS na UTI"],
@@ -2350,7 +2512,13 @@ const ACH = { list: [],
     [[5, "medalha"], [25, "trofeu"], [100, "brasao"], [235, "honra"]].forEach(([n, t]) => A("gz" + n, t, "🧪", `Decifrador de Gasometrias ${n}`, `Resolver ${n} casos guiados na aba 🧪 Gaso`, s => s.gN, n, "cat"));
     [[10, "trofeu"], [50, "brasao"], [150, "honra"]].forEach(([n, t]) => A("gzp" + n, t, "⭐", `Leitura Perfeita ${n}`, `Resolver ${n} casos guiados sem errar nenhuma etapa`, s => s.gP, n, "des"));
     [[5, "medalha"], [25, "trofeu"]].forEach(([n, t]) => A("gza" + n, t, "🧮", `Analista de Beira-Leito ${n}`, `Usar ${n} vezes o analisador passo a passo`, s => s.gA, n, "cat"));
-    [[25, "medalha"], [100, "trofeu"]].forEach(([n, t]) => A("gzq" + n, t, "❓", `Questões de Gasometria ${n}`, `Responder ${n} questões da divisão 🧪 Gasometria`, s => s.gqA, n, "cat"));
+    [[25, "medalha"], [100, "trofeu"], [145, "brasao"]].forEach(([n, t]) => A("gzq" + n, t, "❓", `Questões de Gasometria ${n}`, `Responder ${n} questões da divisão 🧪 Gasometria`, s => s.gqA, n, "cat"));
+    A("gz328", "honra", "🏺", "Mestre dos 328 Casos", "Resolver todos os 328 casos guiados da aba 🧪 Gaso", s => s.gN, 328, "tit");
+    /* ---------- 4.14.0: 📆 desafios semanais ---------- */
+    [[1, "medalha", "📆", "Primeiro Desafio"], [10, "trofeu", "🗡️", "Desafiante"], [30, "brasao", "🛡️", "Veterano dos Desafios"], [100, "honra", "👑", "Senhor dos Desafios"]]
+      .forEach(([n, t, ic, nm]) => A("wc" + n, t, ic, nm, `Cumprir ${n} desafio(s) semanal(is)`, s => s.wcN, n, "ass"));
+    [[1, "trofeu", "🏆", "Semana Perfeita"], [4, "brasao", "🌟", "Mês de Ouro"], [12, "honra", "🐉", "Trimestre Lendário"]]
+      .forEach(([n, t, ic, nm]) => A("wcp" + n, t, ic, nm, `Cumprir os 3 desafios em ${n} semana(s)`, s => s.wcAll, n, "des"));
     A("gzq80", "titulo", "⚗️", "Senhor das Gasometrias", "Acerto ≥ 80% com ≥ 50 questões de gasometria", s => s.gqA >= 50 ? Math.round(100 * s.gqAcc) : 0, 80, "tit");
     /* ---------- 4.13.0: 🎭 estilo de comportamento ---------- */
     [[100, "medalha"], [500, "trofeu"]].forEach(([n, t]) => A("coruja" + n, t, "🦉", `Coruja do Plantão ${n}`, `Responder ${n} itens entre 0h e 4h59 (madrugada de plantão)`, s => s.coruja, n, "est"));
@@ -2367,6 +2535,7 @@ const ACH = { list: [],
   got() { return (S.logs._a = S.logs._a || {}); },
   check() {
     if (!this.list.length) this.build();
+    WC.check();
     const st = jStats(), G = this.got(), novas = [];
     for (const a of this.list) if (!G[a.id] && a.val(st) >= a.goal) { G[a.id] = Date.now(); novas.push(a); }
     if (!novas.length) return;
@@ -2412,6 +2581,7 @@ const JR = { grp: lsGet("jrGrp") || "prox",
      <div class="stats"><div class="stat"><b style="color:#ff8f5a">🔥 ${st.cur}</b><span>dias seguidos (recorde ${st.max})</span></div><div class="stat"><b class="n">${((S.logs[today()] || {}).xp || 0)}</b><span>XP hoje</span></div>
       <div class="stat"><b class="rv">${(st.wk[wNow] || 0).toLocaleString("pt-BR")}</b><span>XP nesta semana${pos ? ` · ${pos}º lugar` : ""}</span></div><div class="stat"><b style="color:var(--gold2)">${nGot}/${ACH.list.length}</b><span>conquistas</span></div>
       <div class="stat"><b>📆 ${st.dias}</b><span>dias de estudo · ${st.wCur} sem. seguidas</span></div><div class="stat"><b>🗓️ ${st.mes}</b><span>dias neste mês (recorde ${st.mesMax})</span></div></div>
+     ${WC.html()}
      <div class="panel"><h2 style="margin-top:0">🎭 Seu estilo de estudo <small style="color:var(--mut);font-weight:400">(últimos 30 dias)</small></h2>
       <div class="styleChips"><span>${sty.hora}</span><span>${sty.ritmo}${sty.med ? ` · ${sty.med}/dia` : ""}</span><span>${sty.prec}${sty.acc ? ` · ${sty.acc}%` : ""}</span><span>${sty.foco}</span><span>${sty.div}</span></div>
       <p class="metaNow">Não existe estilo certo: o que importa é a constância. Os troféus 🎭 de estilo premiam o seu jeito de estudar — coruja de plantão, madrugador, maratonista ou gota constante.</p></div>
@@ -2430,6 +2600,7 @@ const JR = { grp: lsGet("jrGrp") || "prox",
       ${shown}
       <p class="metaNow">✨ Bônus por conquista: medalha +20, troféu +40, título +50, brasão +80, honraria +150 XP. Categorias contam os cards das coleções ativas em ⚙️ Ajustes.</p></div>`;
     $$("#jrHost [data-jrg]").forEach(b => b.onclick = () => { this.grp = b.dataset.jrg; lsSet("jrGrp", this.grp); this.render(); });
+    WC.bind($("#jrHost"));
     const ts = $("#jrTit"); if (ts) ts.onchange = () => { S.logs._tt = { id: ts.value, t: Date.now() }; saveLog(); this.render(); toast("🏷️ Título atualizado."); };
   } };
 
@@ -2540,7 +2711,7 @@ function refreshHome() {
     const when = new Date(ss.mod).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
     if (pend) rb = `<div class="panel" style="border-color:var(--gold);display:flex;gap:10px;align-items:center;flex-wrap:wrap"><div class="grow">▶️ <b>Continuar de onde parou</b><br><small style="color:var(--mut)">${esc(ss.ids ? "🔎 Estudo filtrado" : (ss.prefix || "Todos os baralhos"))} · ${pend} pendente(s) · ${when}</small></div><button class="btn gold" id="resumeBtn">▶️ Continuar</button></div>`;
   }
-  $("#resumeBox").innerHTML = rb; $("#metaHome").innerHTML = metaBarHTML(false);
+  $("#resumeBox").innerHTML = rb; $("#metaHome").innerHTML = metaBarHTML(false) + WC.mini();
   if (rb) $("#resumeBtn").onclick = () => startStudy(ss.prefix, ss.ids, true);
   const mature = S.cards.filter(c => c.srs.st === "review" && c.srs.ivl >= 21).length, acc = L.nAns ? Math.round(100 * L.nOk / L.nAns) : 0;
   $("#stats").innerHTML = `<div class="stat"><b class="n">${all.n}</b><span>novos hoje</span></div><div class="stat"><b class="rv">${all.r + all.l}</b><span>revisões pendentes</span></div>

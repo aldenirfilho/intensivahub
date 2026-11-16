@@ -135,7 +135,63 @@ const GASO_ENG = (() => {
     }
     R.codes = codes.sort((a, b) => ORD.indexOf(a) - ORD.indexOf(b));
     R.steps = st; R.dx = R.codes.map(c => NOME[c]).join(" + ");
+    const ex = extras(L); R.x = ex[0]; R.xsteps = ex[1];
     return R;
+  }
+  const fh = (x, d = 1) => f(Math.floor(x * 10 ** d + 0.5 + 1e-9) / 10 ** d, d);
+  const g = (x, d = 1) => Math.abs(x - Math.round(x)) < 1e-9 ? f(x, 0) : fh(x, d);
+  const r0 = x => f(Math.floor(x + 0.5), 0);
+  /* 4.14.0 · VM e gasometria venosa (espelho de extras() do Python) */
+  function extras(L) {
+    const X = {}, xs = [], pc = +L.pco2, vm = L.vm, ve = L.ven;
+    if (vm) {
+      const vc = nz(vm.vc) ? +vm.vc : null, fr = nz(vm.fr) ? +vm.fr : null, pbw = nz(vm.pbw) ? +vm.pbw : null;
+      if (vc != null && fr != null) {
+        const vmin = vc * fr / 1000; X.ve = vmin;
+        let s = `Volume-minuto = ${g(vc)} mL × ${g(fr)} = <b>${fh(vmin)}</b> L/min`;
+        if (pbw) {
+          X.vckg = vc / pbw; s += `; VC = ${g(vc)}/${g(pbw)} = <b>${fh(vc / pbw)}</b> mL/kg de peso predito` + (vc / pbw > 8.05 ? " (&gt; 8: reduzir)" : "");
+          const vr = vc * fr * pc / (pbw * 100 * 37.5); X.vr = vr;
+          s += `; razão ventilatória = (${g(vc)} × ${g(fr)} × ${g(pc)}) / (${g(pbw)} × 100 × 37,5) = <b>${fh(vr, 2)}</b> (≈ 1 normal; maior = mais espaço morto)`;
+        }
+        xs.push(s);
+      }
+      if (nz(vm.pplat) && nz(vm.peep)) {
+        const dp = vm.pplat - vm.peep; X.dp = dp;
+        xs.push(`Driving pressure = Pplatô ${g(+vm.pplat)} − PEEP ${g(+vm.peep)} = <b>${g(dp)}</b> cmH₂O → ` + (dp > 15 ? "&gt; 15: lesivo — reduzir VC" : "≤ 15: protetor") + (vm.pplat > 30 ? "; Pplatô &gt; 30: reduzir VC" : ""));
+      }
+      if (nz(vm.etco2)) {
+        const gp = pc - vm.etco2; X.gapet = gp;
+        xs.push(`Gap PaCO₂ − EtCO₂ = ${g(pc)} − ${g(+vm.etco2)} = <b>${g(gp)}</b> mmHg → ` + (gp > 5 ? "&gt; 5: <b>espaço morto aumentado</b> (TEP, baixo débito, hiperdistensão, auto-PEEP)" : "2–5: normal"));
+      }
+      if (nz(vm.alvo) && fr != null) {
+        const frn = fr * pc / vm.alvo; X.frn = frn;
+        let s = `FR para PaCO₂ alvo ${g(+vm.alvo)}: ${g(fr)} × ${g(pc)}/${g(+vm.alvo)} = <b>${r0(frn)}</b> irpm`;
+        if (frn > 35) s += " → acima de 35: risco de auto-PEEP — reduzir espaço morto (trocar HME por umidificador aquecido), prona, ECCO₂R/ECMO";
+        if (vc != null) { const vcn = vc * pc / vm.alvo; X.vcn = vcn; s += `; ou VC ${g(vc)} × ${g(pc)}/${g(+vm.alvo)} ≈ ${r0(vcn)} mL` + (pbw ? ` (${fh(vcn / pbw)} mL/kg)` : ""); }
+        xs.push(s);
+      }
+    }
+    if (ve) {
+      const kind = ve.kind || "central", pv = nz(ve.pco2) ? +ve.pco2 : null;
+      if (kind === "periferica") {
+        if (nz(ve.ph) && nz(L.ph)) {
+          const dph = L.ph - ve.ph; X.dph = dph;
+          xs.push(`Venosa periférica × arterial: pH ${fh(+ve.ph, 2)} × ${fh(+L.ph, 2)} (Δ ${fh(dph, 2)}; esperado 0,02–0,05)` + (pv != null ? `; PvCO₂ ${g(pv)} × PaCO₂ ${g(pc)} (Δ ${g(pv - pc)}; esperado ≈ 4–6, concordância ruim no choque)` : "") + (nz(ve.hco3) ? `; HCO₃⁻ ${g(+ve.hco3)} × ${g(+L.hco3)}` : ""));
+        }
+        return [X, xs];
+      }
+      if (pv != null) { const gap = pv - pc; X.gapco2 = gap; xs.push(`Gap CO₂ (Pcv−aCO₂) = ${g(pv)} − ${g(pc)} = <b>${g(gap)}</b> mmHg → ` + (gap > 6 ? "&gt; 6: <b>fluxo (débito cardíaco) insuficiente</b> para a produção de CO₂" : "≤ 6: fluxo adequado para o metabolismo")); }
+      const sv = nz(ve.sat) ? +ve.sat : null, nm = kind === "mista" ? "SvO₂" : "ScvO₂";
+      if (sv != null) xs.push(`${nm} ${g(sv)}% → ` + (sv < 70 ? "&lt; 70%: <b>extração aumentada</b> (oferta de O₂ baixa para o consumo)" : sv > 80 ? "&gt; 80%: <b>extração baixa</b> — fluxo alto ou falha de extração (sepse, microcirculação, shunt)" : "70–80%: faixa-alvo"));
+      const sa = nz(L.sat) ? +L.sat : null, hb = nz(L.hb) ? +L.hb : null;
+      if (sv != null && sa != null && hb != null && pv != null) {
+        const ca = 1.34 * hb * sa / 100 + 0.003 * (nz(L.pao2) ? +L.pao2 : 0), cv = 1.34 * hb * sv / 100 + 0.003 * (nz(ve.pao2) ? +ve.pao2 : 0), d = ca - cv, r = (pv - pc) / d;
+        Object.assign(X, { ca, cv, cav: d, ratio: r, ero2: (sa - sv) / sa });
+        xs.push(`CaO₂ ${fh(ca)} − CvO₂ ${fh(cv)} = <b>${fh(d)}</b> mL/dL; extração ${r0(100 * (sa - sv) / sa)}%; gap CO₂/Ca−vO₂ = ${g(pv - pc)}/${fh(d)} = <b>${fh(r)}</b> → ` + (r > 1.4 ? "&gt; 1,4: sugere <b>metabolismo anaeróbio</b> (lactato de hipóxia tecidual)" : "≤ 1,4: sem sinal de anaerobiose global"));
+      }
+    }
+    return [X, xs];
   }
   const ROWS = [["ph", "pH", "", 2], ["pco2", "PaCO₂", "mmHg", 0], ["hco3", "HCO₃⁻", "mEq/L", 0], ["be", "BE", "mEq/L", 1], ["pao2", "PaO₂", "mmHg", 0], ["sat", "SatO₂", "%", 0],
     ["na", "Na⁺", "mEq/L", 0], ["k", "K⁺", "mEq/L", 1], ["cl", "Cl⁻", "mEq/L", 0], ["alb", "Albumina", "g/dL", 1], ["lac", "Lactato", "mmol/L", 1], ["glic", "Glicose", "mg/dL", 0],
@@ -147,8 +203,23 @@ const GASO_ENG = (() => {
     const cells = ROWS.filter(([k]) => nz(L[k])).map(([k, n, u, d]) => [ven && k === "pco2" ? "PvCO₂" : ven && k === "pao2" ? "PvO₂" : n, f(+L[k], d), u]);
     let h = `<table class="gaso" style="border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35"><tr><th colspan="4" style="${td};text-align:left;background:rgba(77,212,255,.13)">${hd}</th></tr>`;
     for (let i = 0; i < cells.length; i += 2) h += "<tr>" + cells.slice(i, i + 2).map(([n, v, u]) => `<td style="${td}">${n}</td><td style="${td}"><b>${v}</b> <small>${u}</small></td>`).join("") + (i + 1 >= cells.length ? `<td style="${td}"></td><td style="${td}"></td>` : "") + "</tr>";
-    return h + "</table>";
+    h += "</table>";
+    const vm = L.vm, ve = L.ven, us = L.us;
+    if (vm) h += block("🫁 Ventilador", [["Modo", vm.modo, "", null], ["VC", vm.vc, "mL", 0], ["FR", vm.fr, "irpm", 0], ["PEEP", vm.peep, "cmH₂O", 0], ["Pplatô", vm.pplat, "cmH₂O", 0], ["EtCO₂", vm.etco2, "mmHg", 0], ["Peso predito", vm.pbw, "kg", 0], ["PaCO₂ alvo", vm.alvo, "mmHg", 0]]
+      .filter(([, v]) => v !== undefined && v !== null && v !== "").map(([n, v, u, d]) => [n, d == null ? v : f(+v, d), u]), td);
+    if (ve) {
+      const kind = ve.kind || "central", nm = { central: "🩸 Venosa central (simultânea)", mista: "🩸 Venosa mista (cateter de artéria pulmonar)", periferica: "🩸 Venosa periférica (simultânea)" }[kind];
+      const sv = kind === "mista" ? "SvO₂" : kind === "central" ? "ScvO₂" : "SvO₂ periférica";
+      h += block(nm, [["pH", ve.ph, "", 2], ["PvCO₂", ve.pco2, "mmHg", 0], ["HCO₃⁻", ve.hco3, "mEq/L", 0], ["PvO₂", ve.pao2, "mmHg", 0], [sv, ve.sat, "%", 0]].filter(([, v]) => nz(v)).map(([n, v, u, d]) => [n, f(+v, d), u]), td);
+    }
+    if (us) h += `<table class="gaso" style="border-collapse:collapse;margin:4px 0;font-size:15px;line-height:1.35"><tr><td style="${td};background:rgba(255,193,77,.12)">🔊 <b>POCUS:</b> ${us}</td></tr></table>`;
+    return h;
   }
-  return { analyze, prep, panel, NOME, f };
+  function block(hd, cells, td) {
+    let o = `<table class="gaso" style="border-collapse:collapse;margin:4px 0;font-size:15px;line-height:1.35"><tr><th colspan="4" style="${td};text-align:left;background:rgba(77,212,255,.13)">${hd}</th></tr>`;
+    for (let i = 0; i < cells.length; i += 2) o += "<tr>" + cells.slice(i, i + 2).map(([n, v, u]) => `<td style="${td}">${n}</td><td style="${td}"><b>${v}</b> <small>${u}</small></td>`).join("") + (i + 1 >= cells.length ? `<td style="${td}"></td><td style="${td}"></td>` : "") + "</tr>";
+    return o + "</table>";
+  }
+  return { analyze, prep, panel, extras, NOME, f };
 })();
 if (typeof module !== "undefined") module.exports = GASO_ENG;

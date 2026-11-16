@@ -3,7 +3,8 @@ import random, re
 from gaso_engine import analyze, panel, NOME, f
 
 TEMA = {1: "Método e fórmulas", 2: "Acidose com AG elevado", 3: "Acidose hiperclorêmica", 4: "Alcalose metabólica", 5: "Acidose respiratória",
-        6: "Alcalose respiratória", 7: "Distúrbios mistos", 8: "Oxigenação", 9: "Gaps e cálculos", 10: "Casos de UTI"}
+        6: "Alcalose respiratória", 7: "Distúrbios mistos", 8: "Oxigenação", 9: "Gaps e cálculos", 10: "Casos de UTI",
+        11: "VM × gasometria", 12: "POCUS × gasometria", 13: "Venosa, gap CO₂ e inotrópicos"}
 strip = lambda s: re.sub(r"<[^>]+>", "", s)
 
 

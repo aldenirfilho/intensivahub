@@ -2198,5 +2198,995 @@
 ],
 "pega": "Não 'corrija' PaCO₂ pela temperatura para a VM.",
 "id": "QG100"
+},
+{
+"tema": "VM × gasometria",
+"enun": "SDRA em VCV com VC 6 mL/kg, FR 18 e PaCO₂ 60 mmHg. Para PaCO₂ alvo de 45 mantendo o VC, a FR aproximada é:",
+"alts": [
+"20 irpm",
+"24 irpm",
+"14 irpm",
+"36 irpm",
+"30 irpm"
+],
+"gab": 1,
+"com": "FR nova = FR × PaCO₂ atual ÷ PaCO₂ alvo = 18 × 60/45 = 24. Recolher gasometria em 20–30 min e checar auto-PEEP.",
+"porque": [
+"Aumento insuficiente.",
+"18 × 60/45 = 24.",
+"Inverte a razão (18 × 45/60 ≈ 14) e piora a hipercapnia.",
+"Dobra a FR: hiperventilação e auto-PEEP.",
+"Superestima e arrisca auto-PEEP."
+],
+"pega": "A fórmula supõe VC e espaço morto constantes.",
+"id": "QG101"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Asma quase fatal intubada, PaCO₂ 75 com pH 7,18, auto-PEEP e hipotensão. Melhor ajuste:",
+"alts": [
+"Aumentar a FR para 24 para normalizar a PaCO₂",
+"PEEP 15 para abrir a via aérea",
+"Trocar para PSV imediatamente",
+"FR baixa (10–12), fluxo inspiratório alto, Te longo e aceitar hipercapnia",
+"Aumentar o VC para 10 mL/kg"
+],
+"gab": 3,
+"com": "Na asma grave o risco é a hiperinsuflação dinâmica: prolongar a expiração e tolerar pH ≥ 7,15–7,20.",
+"porque": [
+"Encurta o Te e piora a auto-PEEP.",
+"PEEP externa alta em controlada piora a hiperinsuflação.",
+"Paciente ainda precisa de controle e sedação.",
+"Correta.",
+"Aumenta volume aprisionado e Pplatô."
+],
+"pega": "Hipotensão logo após IOT na asma: desconectar o circuito 30–60 s.",
+"id": "QG102"
+},
+{
+"tema": "VM × gasometria",
+"enun": "DPOC com HCO₃⁻ basal de 34 intubado. Qual o alvo ventilatório mais adequado?",
+"alts": [
+"PaCO₂ 40 em qualquer caso",
+"PaCO₂ 30 para facilitar o desmame",
+"pH 7,35–7,40 com PaCO₂ próxima da basal (~65–70)",
+"PaCO₂ 90 para estimular o drive",
+"pH 7,50"
+],
+"gab": 2,
+"com": "Normalizar a PaCO₂ de um retentor crônico causa alcalose pós-hipercápnica. Basal ≈ 40 + (34 − 24)/0,35 ≈ 69.",
+"porque": [
+"Gera alcalemia grave (HCO₃⁻ 34 sem par).",
+"Hiperventilação: alcalose, arritmias e drive deprimido.",
+"Correta.",
+"Acidose grave desnecessária.",
+"Alcalemia não é alvo."
+],
+"pega": "No DPOC o alvo é o pH, não a PaCO₂ 'normal'.",
+"id": "QG103"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Em qual situação a hipercapnia permissiva é CONTRAINDICADA?",
+"alts": [
+"Pneumonia com P/F 180",
+"SDRA moderada sem comorbidades",
+"Obesidade grau I",
+"Hipertensão intracraniana por TCE",
+"Pós-operatório abdominal"
+],
+"gab": 3,
+"com": "CO₂ dilata vasos cerebrais e aumenta a PIC; também é ruim na hipertensão pulmonar com falência de VD.",
+"porque": [
+"Pode ser tolerada.",
+"Situação típica em que é tolerada.",
+"Não é contraindicação.",
+"Correta.",
+"Pode ser tolerada."
+],
+"pega": "Outras: hipertensão pulmonar grave/falência de VD, arritmias graves.",
+"id": "QG104"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Critério hipercápnico do estudo EOLIA para ECMO na SDRA (após otimização com FR 35 e Pplatô ≤ 32):",
+"alts": [
+"pH &lt; 7,35 por 24 h",
+"EtCO₂ &gt; 45",
+"pH &lt; 7,25 com PaCO₂ ≥ 60 por &gt; 6 h",
+"PaCO₂ &gt; 50 por 1 h",
+"HCO₃⁻ &gt; 30"
+],
+"gab": 2,
+"com": "EOLIA: P/F &lt; 50 por &gt; 3 h; P/F &lt; 80 por &gt; 6 h; ou pH &lt; 7,25 com PaCO₂ ≥ 60 por &gt; 6 h.",
+"porque": [
+"Não é critério.",
+"EtCO₂ não entra.",
+"Correta.",
+"Limiar baixo e curto demais.",
+"HCO₃⁻ alto reflete compensação."
+],
+"pega": "ECMO depende de centro experiente e reversibilidade.",
+"id": "QG105"
+},
+{
+"tema": "VM × gasometria",
+"enun": "SDRA grave com hipercapnia refratária e FR já em 32. Medida simples que reduz a PaCO₂ sem mudar VC/FR:",
+"alts": [
+"Elevar a FiO₂ para 100%",
+"Reduzir o fluxo inspiratório",
+"Aumentar a PEEP para 20",
+"Adicionar extensão entre o Y e o tubo",
+"Trocar o HME por umidificador aquecido e retirar conectores extras"
+],
+"gab": 4,
+"com": "HME e extensões somam 50–100 mL de espaço morto; em VC de 350 mL isso pesa muito.",
+"porque": [
+"Não remove CO₂ (e pode piorar por Haldane).",
+"Não reduz CO₂ de forma relevante.",
+"Pode hiperdistender e aumentar espaço morto.",
+"Aumenta o espaço morto.",
+"Correta."
+],
+"pega": "Espaço morto instrumental é ventilação 'jogada fora'.",
+"id": "QG106"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Intoxicação por salicilato com PaCO₂ 18 antes da IOT. Após intubar, como programar a VM?",
+"alts": [
+"Usar PSV baixa",
+"Igualar o volume-minuto prévio (FR alta, VC 8 mL/kg) e alcalinizar",
+"Hipoventilar para evitar alcalose",
+"Aguardar a gasometria de 1 h para ajustar",
+"FR 14 e VC 6 mL/kg"
+],
+"gab": 1,
+"com": "Perder a hiperventilação aumenta a fração não ionizada do salicilato que entra no SNC. Hemodiálise e bicarbonato.",
+"porque": [
+"Drive pode cair com sedação.",
+"Correta.",
+"Piora a acidemia.",
+"Atraso perigoso: ajustar já.",
+"Ventilação padrão é letal aqui."
+],
+"pega": "Evitar intubar o intoxicado por salicilato sempre que possível.",
+"id": "QG107"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Razão ventilatória de 2,1 em paciente com SDRA significa:",
+"alts": [
+"Espaço morto baixo",
+"Ventilação eficiente",
+"Hipoventilação alveolar sem espaço morto",
+"Erro de cálculo: o normal é 2",
+"Espaço morto aumentado (pior eficiência ventilatória)"
+],
+"gab": 4,
+"com": "VR = (VE × PaCO₂) / (peso predito × 100 × 37,5); ≈ 1 normal. Valores altos associam-se a pior prognóstico.",
+"porque": [
+"É o oposto.",
+"É o oposto.",
+"Não diferencia assim.",
+"O normal é ≈ 1.",
+"Correta."
+],
+"pega": "Não exige capnografia volumétrica.",
+"id": "QG108"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Gestante de 30 semanas intubada por pneumonia. Alvo de PaCO₂:",
+"alts": [
+"40–45",
+"30–32",
+"20–25",
+"45–50",
+"Qualquer valor com pH &gt; 7,20"
+],
+"gab": 1,
+"com": "Na gestação a PaCO₂ basal é 28–32 (HCO₃⁻ 18–21); hipercapnia reduz o gradiente de CO₂ feto-materno.",
+"porque": [
+"Ainda acima do fisiológico da gestação.",
+"Correta.",
+"Hiperventilação excessiva reduz fluxo uteroplacentário.",
+"Hipercapnia relativa.",
+"Tolerância menor na gestação."
+],
+"pega": "Valores de não gestante enganam.",
+"id": "QG109"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Qual condição NÃO alarga o gap PaCO₂ − EtCO₂?",
+"alts": [
+"TEP",
+"Hiperdistensão por PEEP alta",
+"Hipoventilação alveolar por opioide com pulmão normal",
+"Auto-PEEP",
+"Baixo débito cardíaco"
+],
+"gab": 2,
+"com": "Hipoventilação pura eleva PaCO₂ e EtCO₂ juntos (gap normal 2–5). Espaço morto alveolar alarga o gap.",
+"porque": [
+"Espaço morto: alarga.",
+"Zona 1: alarga.",
+"Correta.",
+"Alvéolos hiperinsuflados mal perfundidos: alarga.",
+"Menor perfusão pulmonar: alarga."
+],
+"pega": "EtCO₂ não substitui PaCO₂ quando o espaço morto é grande.",
+"id": "QG110"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Após mudar a FR, quando colher a gasometria para avaliar a PaCO₂?",
+"alts": [
+"Imediatamente",
+"Só no dia seguinte",
+"Em 2–5 min",
+"Em ~20–30 min",
+"Em 6 h"
+],
+"gab": 3,
+"com": "O CO₂ tem grandes estoques; a PaCO₂ estabiliza em 10–30 min.",
+"porque": [
+"Ainda não equilibrou.",
+"Atraso perigoso.",
+"Cedo demais.",
+"Correta.",
+"Atraso desnecessário."
+],
+"pega": "EtCO₂ contínuo mostra a tendência.",
+"id": "QG111"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Pós-PCR em VM com PaO₂ 320 (FiO₂ 100%) e PaCO₂ 28. Conduta:",
+"alts": [
+"Aumentar FR para PaCO₂ 25",
+"Bicarbonato",
+"Manter: hiperóxia e hipocapnia protegem o cérebro",
+"Reduzir FiO₂ para SpO₂ 92–98% e FR para PaCO₂ 35–45",
+"Reduzir FiO₂ para SpO₂ 85%"
+],
+"gab": 3,
+"com": "Normoxia e normocapnia: hiperóxia e hipocapnia associam-se a pior desfecho neurológico.",
+"porque": [
+"Isquemia cerebral.",
+"Sem indicação.",
+"Ambos associados a pior desfecho.",
+"Correta.",
+"Hipoxemia é deletéria."
+],
+"pega": "Pós-PCR: SpO₂ 92–98%, PaCO₂ 35–45 mmHg.",
+"id": "QG112"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Mulher de 160 cm, peso real 95 kg, SDRA. VC inicial adequado:",
+"alts": [
+"~760 mL (8 mL/kg do peso real)",
+"~570 mL (6 mL/kg do peso real)",
+"~500 mL fixo para adultos",
+"~200 mL",
+"~315 mL (6 mL/kg de peso predito)"
+],
+"gab": 4,
+"com": "Peso predito = 45,5 + 0,91 × (160 − 152,4) ≈ 52,4 kg; 6 mL/kg ≈ 315 mL.",
+"porque": [
+"Volutrauma.",
+"Peso real superestima o pulmão.",
+"Não individualiza.",
+"Baixo demais: hipercapnia grave.",
+"Correta."
+],
+"pega": "O pulmão tem o tamanho da altura, não do peso.",
+"id": "QG113"
+},
+{
+"tema": "VM × gasometria",
+"enun": "Durante anestesia com sevoflurano, o EtCO₂ sobe apesar de dobrar o volume-minuto; rigidez e K⁺ 6,4. Tratamento específico:",
+"alts": [
+"Azul de metileno",
+"Naloxona",
+"Aumentar a profundidade anestésica com sevoflurano",
+"Dantroleno 2,5 mg/kg IV, suspender halogenado e succinilcolina",
+"Bicarbonato"
+],
+"gab": 3,
+"com": "Hipertermia maligna: hipermetabolismo muscular com hipercapnia refratária, acidose láctica e hiperK.",
+"porque": [
+"Para metemoglobinemia.",
+"Sem relação.",
+"O gatilho é o halogenado.",
+"Correta.",
+"Adjuvante, não específico."
+],
+"pega": "EtCO₂ subindo sem explicação na anestesia: pense em hipertermia maligna.",
+"id": "QG114"
+},
+{
+"tema": "VM × gasometria",
+"enun": "SDRA estável; nova hipercapnia com febre 39,5 °C, tremores e dieta hipercalórica, sem mudança no pulmão. Medida que REDUZ a produção de CO₂:",
+"alts": [
+"Antitérmico, controle do tremor e evitar excesso calórico",
+"Bicarbonato",
+"Aumentar a PEEP",
+"Aumentar a FiO₂",
+"Reduzir a FR"
+],
+"gab": 0,
+"com": "VCO₂ sobe com febre (~10–13%/°C), tremor e carboidrato em excesso.",
+"porque": [
+"Correta.",
+"Gera mais CO₂.",
+"Não muda VCO₂.",
+"Não muda VCO₂.",
+"Piora a hipercapnia."
+],
+"pega": "Hipercapnia nova sem mudança pulmonar: pense em VCO₂.",
+"id": "QG115"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Dispneia súbita, PaCO₂ 30, A-a alargado, POCUS com perfil A bilateral e veia femoral não compressível. Diagnóstico mais provável:",
+"alts": [
+"Pneumonia",
+"Pneumotórax",
+"Exacerbação de DPOC",
+"Edema pulmonar cardiogênico",
+"TEP"
+],
+"gab": 4,
+"com": "Protocolo BLUE: perfil A + TVP = TEP (alta especificidade).",
+"porque": [
+"Daria consolidação/PLAPS ou perfil C/A-B.",
+"Daria ausência de deslizamento + ponto pulmonar.",
+"Perfil A sem TVP.",
+"Daria perfil B.",
+"Correta."
+],
+"pega": "O US não vê o êmbolo, mas mostra a TVP e exclui alternativas.",
+"id": "QG116"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "EAP com PaCO₂ 52, pH 7,25, linhas B difusas e FEVE muito reduzida. Conduta inicial:",
+"alts": [
+"Bicarbonato",
+"Dobutamina isolada",
+"Intubar imediatamente por hipercapnia",
+"Volume 500 mL",
+"CPAP/VNI + nitrato + diurético"
+],
+"gab": 4,
+"com": "Hipercapnia no EAP não contraindica VNI; é indicação. IOT se falha ou rebaixamento.",
+"porque": [
+"Sem indicação.",
+"Sem PA baixa, não é a primeira medida.",
+"VNI resolve a maioria.",
+"Piora a congestão.",
+"Correta."
+],
+"pega": "Perfil B + VCI pletórica = congestão.",
+"id": "QG117"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Qual achado de US é 100% específico para pneumotórax?",
+"alts": [
+"Ausência de deslizamento pleural",
+"Ponto pulmonar (lung point)",
+"Linhas B",
+"Linhas A",
+"Pulso pulmonar"
+],
+"gab": 1,
+"com": "Ponto pulmonar = transição entre pleura colada e ar pleural.",
+"porque": [
+"Ocorre também em intubação seletiva, aderências, bolhas.",
+"Correta.",
+"Excluem pneumotórax naquele ponto.",
+"Presentes no pulmão normal e no pneumotórax.",
+"Exclui pneumotórax naquele ponto."
+],
+"pega": "Bolhas gigantes no DPOC também tiram o deslizamento.",
+"id": "QG118"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Recém-intubado, SpO₂ 85%: deslizamento à direita e pulso pulmonar à esquerda. Conduta:",
+"alts": [
+"Trocar o tubo",
+"Broncoscopia de urgência",
+"Aumentar PEEP para 15",
+"Drenar o tórax à esquerda",
+"Recuar o tubo 2–3 cm e reavaliar"
+],
+"gab": 4,
+"com": "Pulso pulmonar = pleura sem ventilação e sem ar pleural: intubação seletiva à direita.",
+"porque": [
+"Basta reposicionar.",
+"Desnecessário inicialmente.",
+"Não resolve o shunt.",
+"Não há pneumotórax.",
+"Correta."
+],
+"pega": "Tubo: ~21 cm (mulher) e ~23 cm (homem) na rima.",
+"id": "QG119"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Tamponamento com acidose láctica e choque. O que EVITAR antes da drenagem?",
+"alts": [
+"Volume em bolus",
+"Pericardiocentese guiada por US",
+"Monitorização invasiva",
+"Ecocardiograma seriado",
+"Intubação com ventilação com pressão positiva"
+],
+"gab": 4,
+"com": "VPP reduz ainda mais o retorno venoso: risco de PCR. Drenar primeiro.",
+"porque": [
+"Volume é ponte razoável.",
+"É o tratamento.",
+"Pode ser feita.",
+"Útil.",
+"Correta."
+],
+"pega": "VCI pletórica no tamponamento é por restrição, não sobrecarga.",
+"id": "QG120"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "CAD com pH 7,10, VCI de 0,8 cm com colapso &gt; 50% e pulmão com perfil A. Interpretação:",
+"alts": [
+"Tamponamento",
+"Depleção volêmica: volume é seguro e necessário",
+"Contraindicação a cristaloide",
+"Sobrecarga: iniciar diurético",
+"Falência de VD"
+],
+"gab": 1,
+"com": "CAD tem déficit de 5–8 L; VCI colapsada e pulmão seco autorizam volume.",
+"porque": [
+"Sem derrame.",
+"Correta.",
+"Volume é pilar do tratamento.",
+"Oposto.",
+"Sem VD dilatado."
+],
+"pega": "Reavaliar linhas B após grandes volumes.",
+"id": "QG121"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "IRA oligúrica, VCI 2,6 cm sem colapso e VExUS grau 3. Melhor conduta:",
+"alts": [
+"Descongestionar (diurético/ultrafiltração)",
+"Hidratar 2 L",
+"Iniciar noradrenalina e hidratar",
+"Restringir apenas sódio",
+"Repetir US em 48 h"
+],
+"gab": 0,
+"com": "Congestão venosa renal reduz a filtração; volume piora.",
+"porque": [
+"Correta.",
+"Piora a congestão.",
+"Volume é o problema.",
+"Insuficiente.",
+"Atraso."
+],
+"pega": "VExUS integra VCI e Doppler hepático, portal e renal.",
+"id": "QG122"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Consolidação com broncograma aéreo que se move com a respiração sugere:",
+"alts": [
+"Atelectasia obstrutiva",
+"Pneumonia (via aérea pérvia)",
+"Derrame transudativo",
+"Pneumotórax",
+"Edema cardiogênico"
+],
+"gab": 1,
+"com": "Broncograma dinâmico = ar entrando e saindo: via aérea pérvia (pneumonia).",
+"porque": [
+"Daria broncograma estático.",
+"Correta.",
+"Imagem anecoica.",
+"Sem consolidação.",
+"Linhas B difusas."
+],
+"pega": "Estático + pulso pulmonar = atelectasia.",
+"id": "QG123"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Elevação passiva das pernas: qual resposta indica fluido-responsividade?",
+"alts": [
+"Aumento das linhas B",
+"Aumento da PAM de 2 mmHg",
+"Aumento do VTI ≥ 10–15%",
+"Queda da FC de 5 bpm",
+"Colapso da VCI"
+],
+"gab": 2,
+"com": "Teste reversível que transfere ~300 mL; medir VTI/débito em 30–90 s.",
+"porque": [
+"Sinal de congestão.",
+"PAM é pouco sensível.",
+"Correta.",
+"Inespecífico.",
+"Não é o desfecho do teste."
+],
+"pega": "Dor e tosse falseiam o teste.",
+"id": "QG124"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Falha de desmame com hipercapnia; fração de espessamento diafragmático de 15%. Interpretação:",
+"alts": [
+"Sinal de edema pulmonar",
+"Disfunção diafragmática: fator de falha de desmame",
+"Indica pneumotórax",
+"Diafragma normal",
+"Indica auto-PEEP"
+],
+"gab": 1,
+"com": "Fração de espessamento &lt; 20–30% e excursão &lt; 1–1,5 cm associam-se a falha.",
+"porque": [
+"Sem relação.",
+"Correta.",
+"Sem relação.",
+"Normal é bem maior.",
+"Sem relação direta."
+],
+"pega": "Corrigir P, Mg, K e reduzir sedação.",
+"id": "QG125"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "TCE, bainha do nervo óptico 6,5 mm e PaCO₂ 52 após reduzir sedação. Conduta:",
+"alts": [
+"Furosemida",
+"Reduzir cabeceira a 0°",
+"Retomar sedação, PaCO₂ 35–40, osmoterapia e TC",
+"Manter PSV e observar",
+"Hiperventilar para PaCO₂ 25 por 24 h"
+],
+"gab": 2,
+"com": "Hipercapnia piora a HIC; bainha &gt; 5,5–6 mm sugere PIC alta.",
+"porque": [
+"Não é tratamento da HIC.",
+"Piora retorno venoso cerebral.",
+"Correta.",
+"Arriscado.",
+"Isquemia por vasoconstrição."
+],
+"pega": "Hiperventilação agressiva só como ponte na herniação.",
+"id": "QG126"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Choque após iniciar dobutamina; eco com VE pequeno hiperdinâmico e SAM. Conduta:",
+"alts": [
+"Aumentar dobutamina",
+"Milrinona",
+"Nitroprussiato",
+"Diurético",
+"Suspender dobutamina, volume e vasopressor α (fenilefrina) ± betabloqueador"
+],
+"gab": 4,
+"com": "Obstrução dinâmica da via de saída piora com inotrópico, vasodilatador e hipovolemia.",
+"porque": [
+"Piora a obstrução.",
+"Inotrópico vasodilatador: piora.",
+"Vasodilatador: piora.",
+"Hipovolemia piora.",
+"Correta."
+],
+"pega": "Choque que piora com inotrópico: procure SAM.",
+"id": "QG127"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Eco com microbolhas: bolhas no AE após 4–5 ciclos em cirrótico hipoxêmico sugerem:",
+"alts": [
+"Artefato",
+"CIV",
+"Síndrome hepatopulmonar (shunt intrapulmonar)",
+"TEP",
+"Forame oval patente"
+],
+"gab": 2,
+"com": "Shunt intracardíaco: ≤ 3 ciclos; intrapulmonar: após 3 ciclos.",
+"porque": [
+"Achado típico, não artefato.",
+"Seria precoce.",
+"Correta.",
+"Não gera bolhas tardias.",
+"Seria precoce."
+],
+"pega": "Tratamento definitivo: transplante hepático.",
+"id": "QG128"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "Trauma, eFAST com líquido em Morison, lactato 8 e PA 80/50, sem TCE. Estratégia:",
+"alts": [
+"Noradrenalina para PAS 120",
+"Bicarbonato",
+"Hipotensão permissiva, transfusão maciça 1:1:1, ácido tranexâmico e controle cirúrgico",
+"TC de abdome antes de qualquer conduta",
+"Cristaloide 3 L e reavaliar"
+],
+"gab": 2,
+"com": "Controle de danos; cristaloide em excesso dilui e piora coagulopatia e acidose.",
+"porque": [
+"Vasopressor não substitui sangue.",
+"Não trata a causa.",
+"Correta.",
+"Instável não vai à TC.",
+"Agrava a coagulopatia."
+],
+"pega": "Tríade letal: acidose, hipotermia e coagulopatia.",
+"id": "QG129"
+},
+{
+"tema": "POCUS × gasometria",
+"enun": "US gástrico antes da intubação: conteúdo visível no antro em supino e em decúbito lateral direito indica:",
+"alts": [
+"Estômago cheio (grau 2 de Perlas): alto risco de aspiração",
+"Indicação de procinético e intubação eletiva",
+"Gastroparesia sem risco",
+"Estômago vazio",
+"Erro de técnica"
+],
+"gab": 0,
+"com": "Grau 2 = líquido visível nas duas posições ou sólido; preparar sequência rápida e SNG.",
+"porque": [
+"Correta.",
+"O risco é imediato.",
+"Ainda há risco.",
+"Oposto.",
+"Achado válido."
+],
+"pega": "Útil em CAD, obstrução e jejum incerto.",
+"id": "QG130"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Choque séptico com ScvO₂ 75% e gap CO₂ (Pcv−aCO₂) de 9 mmHg. Interpretação:",
+"alts": [
+"Débito ainda insuficiente para a produção de CO₂",
+"Ressuscitação concluída",
+"Hipoxemia arterial",
+"Falha de extração exclusiva",
+"Erro de amostra"
+],
+"gab": 0,
+"com": "Gap &gt; 6 indica fluxo inadequado mesmo com ScvO₂ normal.",
+"porque": [
+"Correta.",
+"Gap alto contradiz.",
+"SaO₂ não entra no gap.",
+"ScvO₂ normal não prova extração boa nem fluxo bom.",
+"Sem evidência de erro."
+],
+"pega": "Testar responsividade; inotrópico se disfunção cardíaca.",
+"id": "QG131"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Razão gap CO₂/Ca−vO₂ de 2,0 com lactato 5 sugere:",
+"alts": [
+"Metabolismo anaeróbio global (lactato de hipóxia)",
+"Metabolismo aeróbio normal",
+"Deficiência de tiamina",
+"Hiperóxia",
+"Hiperlactatemia por adrenalina"
+],
+"gab": 0,
+"com": "Razão &gt; ~1,4 aproxima um quociente respiratório alto: anaerobiose.",
+"porque": [
+"Correta.",
+"Oposto.",
+"Tipo B: razão normal.",
+"Sem relação.",
+"Lactato aeróbio cursa com razão normal."
+],
+"pega": "Pontos de corte variam: integrar com clínica.",
+"id": "QG132"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Hemorragia digestiva com Hb 6, ScvO₂ 58% e gap CO₂ 4. Conduta:",
+"alts": [
+"Dobutamina",
+"Bicarbonato",
+"Cristaloide até ScvO₂ 70%",
+"Noradrenalina",
+"Transfundir e endoscopia"
+],
+"gab": 4,
+"com": "Gap normal: o fluxo está adequado; a oferta cai pela Hb.",
+"porque": [
+"Não é problema de bomba.",
+"Sem indicação.",
+"Dilui ainda mais a Hb.",
+"Sem hipotensão grave.",
+"Correta."
+],
+"pega": "ScvO₂ baixa: SaO₂, Hb, débito ou consumo.",
+"id": "QG133"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Choque séptico com adrenalina: lactato sobe para 6, glicemia 250, gap CO₂ 4 e ScvO₂ 80%. Interpretação:",
+"alts": [
+"Piora da hipoperfusão: mais volume",
+"Indicação de dobutamina",
+"Intoxicação por cianeto",
+"Isquemia mesentérica certa",
+"Lactato aeróbio pelo estímulo β2"
+],
+"gab": 4,
+"com": "Gap normal e ScvO₂ alta: lactato não hipóxico.",
+"porque": [
+"Gap normal contradiz.",
+"Fluxo adequado.",
+"Contexto não sugere.",
+"Não há base para afirmar.",
+"Correta."
+],
+"pega": "Trocar adrenalina por noradrenalina se possível.",
+"id": "QG134"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Vítima de incêndio: lactato 12, ScvO₂ 85%, COHb 15%. Tratamento específico:",
+"alts": [
+"Dobutamina",
+"Bicarbonato até pH 7,40",
+"Tiamina",
+"Azul de metileno",
+"Hidroxocobalamina 5 g IV + O₂ 100%"
+],
+"gab": 4,
+"com": "Cianeto bloqueia a citocromo-oxidase; lactato &gt; 8–10 no incêndio sugere cianeto.",
+"porque": [
+"Fluxo não é o problema.",
+"Não trata a causa.",
+"Para beribéri.",
+"Para MetHb (e pode piorar).",
+"Correta."
+],
+"pega": "Co-oximetria é obrigatória.",
+"id": "QG135"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Intoxicação por CO com SpO₂ 99%. Por que o oxímetro engana?",
+"alts": [
+"Lê COHb como oxi-hemoglobina",
+"Hb baixa",
+"A PaO₂ está baixa",
+"Há metemoglobina",
+"Vasoconstrição periférica"
+],
+"gab": 0,
+"com": "Oxímetro de 2 comprimentos de onda não distingue COHb; usar co-oximetria.",
+"porque": [
+"Correta.",
+"Não explica.",
+"PaO₂ costuma ser normal.",
+"Outro mecanismo.",
+"Não explica."
+],
+"pega": "Hiperbárica: COHb &gt; 25%, gestante &gt; 15%, síncope, coma, déficit.",
+"id": "QG136"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Metemoglobinemia sintomática (MetHb 30%) em paciente com deficiência de G6PD. Tratamento:",
+"alts": [
+"Azul de metileno 2 mg/kg",
+"Bicarbonato",
+"Hidroxocobalamina",
+"Câmara hiperbárica como primeira escolha",
+"Evitar azul de metileno; vitamina C, O₂ e exsanguinotransfusão se grave"
+],
+"gab": 4,
+"com": "Na deficiência de G6PD o azul de metileno é ineficaz e pode causar hemólise.",
+"porque": [
+"Contraindicado na G6PD.",
+"Sem efeito.",
+"Para cianeto.",
+"Não é primeira escolha.",
+"Correta."
+],
+"pega": "SpO₂ ~85% fixa = suspeite de MetHb.",
+"id": "QG137"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "No PS, PvCO₂ periférica de 42 mmHg em DPOC. Conclusão:",
+"alts": [
+"Necessária VNI",
+"Hipercapnia arterial improvável (PvCO₂ &lt; 45)",
+"Hipercapnia arterial provável",
+"PaO₂ pode ser estimada pela PvO₂",
+"Venosa substitui a arterial para seguir VNI"
+],
+"gab": 1,
+"com": "PvCO₂ &lt; 45 exclui PaCO₂ &gt; 50 com alto valor preditivo negativo.",
+"porque": [
+"Não há base.",
+"Correta.",
+"Oposto.",
+"PvO₂ não serve.",
+"Para seguir hipercapnia, arterial."
+],
+"pega": "Acima de 45, confirmar com arterial.",
+"id": "QG138"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Na CAD, a gasometria venosa periférica:",
+"alts": [
+"Basta para diagnóstico e seguimento do pH/HCO₃⁻/AG",
+"Substitui a glicemia",
+"É inútil",
+"Só vale com garrote prolongado",
+"Superestima o pH em 0,3"
+],
+"gab": 0,
+"com": "pH venoso ~0,02–0,05 menor que o arterial; concordância boa para pH e HCO₃⁻.",
+"porque": [
+"Correta.",
+"Não substitui.",
+"Ao contrário.",
+"Garrote altera lactato e K⁺.",
+"Diferença é pequena."
+],
+"pega": "Arterial só se suspeita respiratória.",
+"id": "QG139"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Falência de VD em usuário de betabloqueador, SvO₂ 55%. Inotrópico preferencial:",
+"alts": [
+"Milrinona",
+"Dopamina",
+"Isoproterenol",
+"Dobutamina em dose alta",
+"Fenilefrina isolada"
+],
+"gab": 0,
+"com": "Milrinona (PDE3) não depende do receptor β e reduz a resistência pulmonar.",
+"porque": [
+"Correta.",
+"β-dependente e arritmogênica.",
+"β-agonista: mesmo problema.",
+"Resposta reduzida com betabloqueio.",
+"Sem efeito inotrópico."
+],
+"pega": "Associar vasopressor e ajustar na IRA.",
+"id": "QG140"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Choque séptico com FEVE 25%, PAM 70 com noradrenalina, volume adequado, TEC 5 s, gap CO₂ 10. Segundo a SSC 2021:",
+"alts": [
+"Mais 2 L de cristaloide",
+"Nada: PAM ótima",
+"Adicionar dobutamina (ou usar adrenalina isolada)",
+"Levosimendana como primeira escolha",
+"Trocar noradrenalina por vasopressina"
+],
+"gab": 2,
+"com": "Disfunção cardíaca com hipoperfusão persistente apesar de volume e PAM: dobutamina ou adrenalina.",
+"porque": [
+"Volume já adequado.",
+"Hipoperfusão persiste.",
+"Correta.",
+"Sem benefício na sepse (LeoPARDS).",
+"Não resolve o débito."
+],
+"pega": "Titular por TEC, gap e lactato.",
+"id": "QG141"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Pós-CEC com PAM 55, mãos quentes, SvO₂ 80% e gap CO₂ 3. Conduta:",
+"alts": [
+"Balão intra-aórtico",
+"Vasopressor (noradrenalina ± vasopressina; azul de metileno se refratário)",
+"Dobutamina",
+"Volume 3 L",
+"Milrinona"
+],
+"gab": 1,
+"com": "Vasoplegia: fluxo adequado, resistência muito baixa.",
+"porque": [
+"Sem baixo débito.",
+"Correta.",
+"Fluxo não é o problema.",
+"Pouco efeito e sobrecarga.",
+"Vasodilata mais."
+],
+"pega": "SvO₂ alta + gap normal + PAM baixa = vasoplegia.",
+"id": "QG142"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Acidose láctica por metformina: critério de hemodiálise pelo EXTRIP (recomendada):",
+"alts": [
+"HCO₃⁻ &lt; 22",
+"Lactato &gt; 20, pH ≤ 7,0, choque ou rebaixamento",
+"Qualquer uso de metformina com IRA",
+"Lactato &gt; 4",
+"Glicemia &lt; 70"
+],
+"gab": 1,
+"com": "Sugerida também com lactato 15–20 ou pH 7,0–7,1.",
+"porque": [
+"Não é critério.",
+"Correta.",
+"Excessivo.",
+"Limiar baixo.",
+"Não é critério."
+],
+"pega": "Lactato muito alto com gap normal: tipo B.",
+"id": "QG143"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Etilista com insuficiência cardíaca de alto débito, lactato 9, ScvO₂ 82% e gap 3, piorou após soro glicosado. Tratamento:",
+"alts": [
+"Tiamina IV em dose alta",
+"Hidroxocobalamina",
+"Bicarbonato",
+"Restrição hídrica isolada",
+"Dobutamina"
+],
+"gab": 0,
+"com": "Beribéri (shoshin): sem tiamina, piruvato vira lactato.",
+"porque": [
+"Correta.",
+"Para cianeto.",
+"Não trata a causa.",
+"Insuficiente.",
+"Não é baixo débito."
+],
+"pega": "Tiamina antes/junto da glicose.",
+"id": "QG144"
+},
+{
+"tema": "Venosa, gap CO₂ e inotrópicos",
+"enun": "Choque séptico com gap CO₂ 9, VE hiperdinâmico e VTI que sobe 20% na elevação passiva das pernas. Próximo passo:",
+"alts": [
+"Bolus de volume e reavaliar gap, TEC e VTI",
+"Vasopressina",
+"Diurético",
+"Dobutamina",
+"Transfusão"
+],
+"gab": 0,
+"com": "Gap alto indica fluxo baixo; aqui a causa é pré-carga (responsivo, coração hiperdinâmico).",
+"porque": [
+"Correta.",
+"Não aumenta o débito.",
+"Oposto.",
+"Inotrópico em hipovolêmico: taquicardia sem ganho.",
+"Sem anemia descrita."
+],
+"pega": "Gap alto diz 'fluxo baixo', não diz 'inotrópico'.",
+"id": "QG145"
 }
 ]

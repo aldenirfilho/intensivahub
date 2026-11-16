@@ -266,6 +266,21 @@ html.lay-mobile .hoRose{grid-template-columns:1fr;grid-template-areas:"c" "n" "l
 html.lay-mobile .catGrid,html.lay-mobile .gzForms{grid-template-columns:1fr}
 html.lay-mobile .gzForm{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:700px){.catGrid,.gzForms{grid-template-columns:1fr}.gzForm{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* 4.14.0 · analisador com VM e venosa */
+.gzMore{margin:6px 0 10px;border:1px solid var(--line);border-radius:10px;padding:6px 10px;background:#0f151d}.gzMore summary{cursor:pointer;color:var(--gold2);font-weight:600}
+.gzForm2{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:10px 0 4px}
+.gzForm2 label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--mut)}
+.gzForm2 input,.gzForm2 select{background:#0b1118;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:8px;font:15px Inter;min-width:0}
+html.lay-mobile .gzForm2{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:700px){.gzForm2{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* 4.14.0 · desafios semanais */
+.wcGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.wc{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#0f151d;display:flex;flex-direction:column;gap:5px}.wc.on{border-color:#6b5520;background:linear-gradient(135deg,#2a221066,#0f151d)}
+.wc b{font-size:15px}.wc small{color:var(--mut)}.wcHead{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:8px}
+.wcLvl{display:flex;gap:6px;flex-wrap:wrap}
+html.lay-mobile .wcGrid{grid-template-columns:1fr}
+@media(max-width:700px){.wcGrid{grid-template-columns:1fr}}
+.wcMini{display:block;margin-top:8px;padding:8px 12px;border-radius:10px;border:1px solid #6b5520;background:linear-gradient(90deg,#2a221066,transparent);color:var(--txt);text-decoration:none;font-size:14px;line-height:1.45}.wcMini:hover{border-color:var(--gold)}
 /* 🔍 Zoom de imagens (4.11.0) */
 #zoomBox{position:fixed;inset:0;z-index:9999;background:#06080c;display:none;flex-direction:column}
 #zoomBox.on{display:flex}
@@ -277,6 +292,7 @@ html.lay-mobile .gzForm{grid-template-columns:repeat(2,minmax(0,1fr))}
 #zoomBox img{display:block;background:#fff;height:auto;max-width:none}
 #zoomBox .zhint{color:#9aa5b1;font-size:12px;text-align:center;padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
 html.zoomOpen,html.zoomOpen body{overflow:hidden}
+
 
 /*LIGHT-START*/
 html.light{--bg:#f4efe2;--bg2:#fffcf4;--panel:#ffffff;--line:#d9cfb6;--txt:#1d1a14;--mut:#5b6270;--gold:#a47b12;--gold2:#7c5a08;--cy:#0a6f93;--red:#b8322a;--grn:#17783f;--amb:#9a6200;color-scheme:light}
@@ -385,6 +401,12 @@ html.light .gzDx{background:#f5faf7;border:1px solid #16833c}
 html.light .gzF{background:#f7f8fa}
 html.light .jrTitle select{background:#f7f9fb}
 html.light .styleChips span{background:#f5f7fa}
+html.light /* 4.14.0 · analisador com VM e venosa */
+.gzMore{background:#f7f8fa}
+html.light .gzForm2 input,html.light .gzForm2 select{background:#f7f9fb}
+html.light .wc{background:#f7f8fa}
+html.light .wc.on{border-color:#f7f3e9;background:linear-gradient(135deg,#faf8f466,#f7f8fa)}
+html.light .wcMini{border:1px solid #f7f3e9;background:linear-gradient(90deg,#faf8f466,transparent)}
 html.light /* 🔍 Zoom de imagens (4.11.0) */
 #zoomBox{background:#fafafc}
 html.light #zoomBox .zbar{background:#f8f9fb;border-bottom:1px solid #f0f2f5}

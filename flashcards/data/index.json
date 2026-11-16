@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.16-gaso300",
+ "versao": "2026.11.16-gaso450",
  "colecoes": [
   {
    "id": "ouro",
@@ -64,8 +64,8 @@
    "id": "gaso",
    "nome": "Gasometria 360X",
    "icone": "🧪",
-   "descricao": "300 flashcards de gasometria arterial: método, acidoses (AG alto e hiperclorêmica), alcaloses, distúrbios respiratórios, mistos e triplos, oxigenação (A-a, P/F, DO₂), gaps e casos de UTI — 235 casos com laudo e solução passo a passo calculada pelo motor ácido-base.",
-   "cards": 300
+   "descricao": "450 flashcards de gasometria: método, acidoses, alcaloses, distúrbios respiratórios, mistos e triplos, oxigenação, gaps, casos de UTI e, desde a 4.14, VM × gasometria, POCUS × gasometria e venosa/gap CO₂/ScvO₂/inotrópicos — 328 casos com laudo e solução passo a passo calculada pelo motor ácido-base.",
+   "cards": 450
   }
  ],
  "decks": [
@@ -3979,6 +3979,36 @@
     "10 🚑 Casos de UTI: gasometria guiando a conduta"
    ],
    "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-11-vm-gasometria-ajuste-de-fr-vc-peep-e-fio.json",
+   "tema": "11 🫁 VM × gasometria: ajuste de FR, VC, PEEP e FiO₂",
+   "cards": 50,
+   "subtemas": [
+    "11 🫁 VM × gasometria: ajuste de FR, VC, PEEP e FiO₂"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-12-pocus-gasometria-o-ultrassom-que-explica.json",
+   "tema": "12 🔊 POCUS × gasometria: o ultrassom que explica o laudo",
+   "cards": 50,
+   "subtemas": [
+    "12 🔊 POCUS × gasometria: o ultrassom que explica o laudo"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-13-venosa-arterial-gap-co-scvo-e-inotrpicos.json",
+   "tema": "13 🩸 Venosa × arterial, gap CO₂, ScvO₂ e inotrópicos",
+   "cards": 50,
+   "subtemas": [
+    "13 🩸 Venosa × arterial, gap CO₂, ScvO₂ e inotrópicos"
+   ],
+   "pacote": "pack-7-gaso"
   }
  ],
  "pacotes": [
@@ -4084,11 +4114,11 @@
    "gz": "data/packs/pack-7-gaso.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-7-gaso.json",
-   "sha": "a5961592ea1c17fd",
-   "decks": 10,
-   "cards": 300,
-   "bytes": 867416,
-   "gzbytes": 126076
+   "sha": "2a5b1496c3528978",
+   "decks": 13,
+   "cards": 450,
+   "bytes": 1344314,
+   "gzbytes": 196620
   }
  ]
 }

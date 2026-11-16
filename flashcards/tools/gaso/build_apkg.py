@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pacote Anki 🧪 Gasometria 360X: 300 flashcards (10 subbaralhos) + 100 questões (subbaralho ❓).
+"""Pacote Anki 🧪 Gasometria 360X: 450 flashcards (13 subbaralhos) + 145 questões (subbaralho ❓).
 Uso: python3 build_apkg.py <arquivo.apkg>   (requer build_gaso.py e build_q.py já rodados)"""
 import json, os, sys, genanki
 OUT = sys.argv[1]
@@ -32,7 +32,7 @@ for q in Q:
     g = int(q["gab"])
     alts = "".join(f"<div class='alt'><b>{L[i]}</b> {a}</div>" for i, a in enumerate(q["alts"]))
     pq = "<br>".join(f"<b>{L[i]}</b> {'✅' if i == g else '❌'} {p}" for i, p in enumerate(q["porque"]))
-    D("🧪 Gasometria 360X::❓ 100 questões comentadas").add_note(genanki.Note(model=MQ, guid=genanki.guid_for("gaso360xq", q["id"]),
+    D("🧪 Gasometria 360X::❓ Questões comentadas").add_note(genanki.Note(model=MQ, guid=genanki.guid_for("gaso360xq", q["id"]),
         tags=["GASO", "GASO_QUESTAO", "TEMI2028", "R3CM"], fields=[q["enun"], alts, f"{L[g]} — {q['alts'][g]}", q["com"], pq, q.get("pega", ""), q["tema"]]))
 genanki.Package(list(decks.values())).write_to_file(OUT)
 print(OUT, os.path.getsize(OUT) // 1024, "KB ·", sum(len(d.notes) for d in decks.values()), "notas ·", len(decks), "baralhos")
