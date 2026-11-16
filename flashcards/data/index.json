@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "4.16.0",
+ "versao": "4.17.0",
  "colecoes": [
   {
    "id": "ouro",
@@ -4336,11 +4336,11 @@
    "gz": "data/packs/pack-8-escr.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-8-escr.json",
-   "sha": "556aa6340a6079a3",
+   "sha": "2ca14bc16805115e",
    "decks": 20,
    "cards": 1128,
-   "bytes": 1527652,
-   "gzbytes": 173480
+   "bytes": 1585777,
+   "gzbytes": 174796
   }
  ]
 }

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Gera o baralho 📜 Escrituras & Axiomas 360X (1000 cards) — .apkg, .csv e índice .md."""
+import json
 import csv, hashlib, html, importlib, os, re, sys, unicodedata
 from collections import Counter, defaultdict
 import genanki
@@ -8,7 +9,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "out")
 os.makedirs(OUT, exist_ok=True)
 RAIZ = "📜 Escrituras & Axiomas 360X"
-VERSAO = "v1.1 · 16/11/2026"
+VERSAO = "v1.2 · 16/11/2026"
 TOTAL = 1128
 CREDITO = "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho"
 
@@ -262,6 +263,21 @@ VERSO2 = """<div class="cx rev">
 CAMPOS = ["ID", "Mensagem", "Referencia", "Tradicao", "Baralho", "Tema", "Cor", "Capitulo", "Licao", "Curiosidade",
           "Selo", "Pergunta", "Classe", "Creditos", "Reverso"]
 
+CONF = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "conferencia.json"))) if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "conferencia.json")) else {}
+
+
+def conf_txt(c):
+    """Linha de conferência da referência (verify_escr.py, 16/11/2026)."""
+    k = CONF.get(c["id"])
+    if not k or c["selo"] == "autor":
+        return ""
+    if k["m"] == "fonte":
+        return f" · 🔎 conferido no texto-fonte: {k['f']}"
+    if k["m"] == "pendente":
+        return " · 🔎 numeração a confirmar"
+    return " · 🔎 revisado sem o texto-fonte à mão"
+
+
 def montar(cards):
     modelo = genanki.Model(
         1786543211, "Escrituras & Axiomas 360X (v1.1)",
@@ -282,7 +298,7 @@ def montar(cards):
         selo = {"canonico": f"✅ <b>Texto de fonte localizada</b> · {nota} · confira a redação no original",
                 "tradicional": f"⚠️ <b>Atribuição tradicional</b> — fonte primária incerta · {nota}",
                 "mito": "🕵️ <b>MITO DE ATRIBUIÇÃO</b> — a frase circula com o nome errado",
-                "autor": f"⚜️ <b>Axioma autoral</b> · situação no catálogo: {c['meta']['sit'] if c['meta'] else ''} · {nota}"}[c["selo"]]
+                "autor": f"⚜️ <b>Axioma autoral</b> · situação no catálogo: {c['meta']['sit'] if c['meta'] else ''} · {nota}"}[c["selo"]] + conf_txt(c)
         licao = (f"🔎 <b>Origem real:</b> {html.escape(c['licao'])}" if mito
                  else f"📖 <b>Comentário da edição:</b> {html.escape(c['licao'])}" if autor
                  else f"💡 <b>Lição:</b> {html.escape(c['licao'])}")

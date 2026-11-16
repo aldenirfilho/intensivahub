@@ -36,7 +36,7 @@ def verso(c):
     selo = {"canonico": f"✅ Texto de fonte localizada · {nota}",
             "tradicional": f"⚠️ Atribuição tradicional — fonte primária incerta · {nota}",
             "mito": "🕵️ MITO DE ATRIBUIÇÃO — a frase circula com o nome errado",
-            "autor": f"⚜️ Axioma autoral · {c['meta']['sit'] if c['meta'] else ''} · texto do catálogo Axiomas 360X, sem alteração"}[c["selo"]]
+            "autor": f"⚜️ Axioma autoral · {c['meta']['sit'] if c['meta'] else ''} · texto do catálogo Axiomas 360X, sem alteração"}[c["selo"]] + build.conf_txt(c)
     linhas = [f'📍 <b>{e(c["ref"])}</b>']
     if c["capinfo"]:
         linhas.append(f'📚 {e(c["capinfo"])}')
@@ -95,6 +95,10 @@ livro = livro.replace('<div class="topo"><span class="t">', '<div class="topo"><
 os.makedirs(f"{APP}/autor", exist_ok=True)
 open(f"{APP}/autor/axiomas-360x.html", "w", encoding="utf-8").write(livro)
 os.makedirs(f"{APP}/downloads", exist_ok=True)
-for fn in ("Axiomas_360X_Edicao_Comentada_A5.pdf", f"Escrituras_Axiomas_360X_{build.TOTAL}_flashcards.apkg"):
+shutil.copy(os.path.join(OUT, "mapa-axiomas.html"), f"{APP}/autor/mapa-axiomas.html")
+for fn in ("Axiomas_360X_Edicao_Comentada_A5.pdf", f"Escrituras_Axiomas_360X_{build.TOTAL}_flashcards.apkg",
+           "Axiomas_360X_128_cartoes_tela_de_bloqueio.zip", "Axiomas_360X_128_cartoes_folha_de_contato_A4.pdf",
+           "Axiomas_360X_Audiolivro_roteiro.txt", "Axiomas_360X_Mapa_dos_Eixos.pdf",
+           "Axiomas_360X_Miolo_Impressao_A5_sangria3mm.pdf", "Axiomas_360X_Capa_Dura_arte.pdf", "Axiomas_360X_Capa_Dura_gabarito.pdf"):
     shutil.copy(os.path.join(OUT, fn), f"{APP}/downloads/{fn}")
 print("livro → autor/axiomas-360x.html", os.path.getsize(f"{APP}/autor/axiomas-360x.html"), "bytes · downloads ok")

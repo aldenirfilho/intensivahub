@@ -5,6 +5,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ax1 import AX1
 from ax2 import AX2
 from build import TEMAS
+import book_extras as BX
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(BASE, "out")
@@ -128,11 +129,23 @@ h2.sec{font-size:1.05em;text-transform:uppercase;letter-spacing:.24em;color:var(
 }
 """
 
+
+PRINT_CSS = """
+@media print{
+@page{size:154mm 216mm;margin:20mm 18mm 22mm 23mm}
+@page:first{margin:20mm 18mm 22mm 23mm}
+@page:right{margin:20mm 18mm 22mm 23mm}
+@page:left{margin:20mm 23mm 22mm 18mm}
+}
+.pg.sobre .espaco{border:1px dashed #b8a578;min-height:110mm;padding:8mm;color:#9a8a62;font-style:italic;font-size:9.5pt;border-radius:4px}
+"""
+
 def selo(sit):
     cls = {"Proposta do autor": "prop", "Confirmado pelo autor": "conf"}.get(sit, "")
     return f'<span class="selo {cls}">{html.escape(sit)}</span>'
 
-def montar(ax):
+def montar(ax, edicao="tela"):
+    tela = edicao == "tela"
     e = html.escape
     por = {k: sorted([a for a in ax if a["eixo"] == k], key=lambda a: a["n"]) for k, *_ in EIXOS}
     assert sum(len(v) for v in por.values()) == 128, "eixo desconhecido"
@@ -143,6 +156,10 @@ def montar(ax):
 <div class="sub">Cento e vinte e oito axiomas de medicina, honra e humanidade</div>
 <div class="aut">{AUTOR}</div>
 <div class="ed">1ª edição comentada · {DATA}</div></section>""")
+    if not tela:
+        P.pop()  # a capa dura é um arquivo à parte; o miolo começa na folha de rosto
+    else:
+        P.append(BX.painel(EIXOS))
     P.append(f"""<section class="pg rosto"><div class="aut">{AUTOR}</div>
 <h1>Axiomas 360X</h1><div class="sub">Edição comentada</div>
 <div class="loc">Sobral · Ceará · Brasil<br>{DATA}</div></section>""")
@@ -173,36 +190,50 @@ def montar(ax):
 <blockquote>{e(a['enun'])}</blockquote>
 <p class="com"><span class="lbl">Comentário.</span> {e(a['com'])}</p>
 <div class="meta">Registrado em {d} · {emo} {e(tnome)} · {selo(a['sit'])}</div></article>""")
-        P.append(f"""<section class="pg cap" id="eixo-{i}"><div class="num">{r}</div><h2>{e(t)}</h2><p class="intro">{e(intro)}</p><div class="orn">✦ ✦ ✦</div>
+        P.append(f"""<section class="pg cap" id="eixo-{i}"><div class="num">{r}</div><h2>{e(t)}</h2><p class="intro">{e(intro)}</p>{f'<button class="ouvir-eixo" data-faixa="{i}">🎧 Ouvir este eixo</button>' if tela else ''}<div class="orn">✦ ✦ ✦</div>
 {''.join(blocos)}</section>""")
     ind = "".join(f'<div><b>{a["n"]}</b><a href="#ax-{a["n"]}">{e(a["tit"].replace("Axioma ", "").replace("Hipótese ", "Hipótese "))}</a></div>' for a in sorted(ax, key=lambda a: a["n"]))
     P.append(f'<section class="pg" id="indice"><h2 class="sec">Índice numérico</h2><div class="ind">{ind}</div></section>')
+    if not tela:
+        P.append("""<section class="pg sobre"><h2 class="sec">Sobre o autor</h2>
+<div class="espaco">Espaço reservado — texto a ser escrito pelo autor antes da impressão.</div></section>""")
     P.append(f"""<section class="pg colo">{BRASAO}<p><b>Axiomas 360X — edição comentada</b><br>{AUTOR}<br>Sobral · Ceará · {DATA}</p>
 <p>Composto em Lora. Parte do Códice 360X e do baralho “Escrituras &amp; Axiomas 360X”.<br>As ideias circulam; o crédito permanece.</p></section>""")
     topo = '<div class="topo"><span class="t">⚜️ Axiomas 360X · edição comentada</span><a href="#sumario-link" onclick="document.querySelector(\'.sum\').scrollIntoView({behavior:\'smooth\'});return false">📑 Sumário</a></div>'
+    if tela:
+        topo = topo.replace('<a href="#sumario-link"', '<span class="lk"><a href="#leitor">🎧 Ouvir · 🃏 do dia</a> <a href="mapa-axiomas.html">🗺️ Mapa</a> <a href="#sumario-link"').replace('📑 Sumário</a></div>', '📑 Sumário</a></span></div>')
+    extra_css = BX.CSS if tela else PRINT_CSS
+    extra_js = BX.script(ax, EIXOS) if tela else ""
     return f"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Axiomas 360X — edição comentada · {AUTOR}</title><meta name="author" content="{AUTOR}">
-<style>{font_face()}{CSS}</style></head><body>{topo}<main class="livro">{''.join(P)}</main></body></html>"""
+<style>{font_face()}{CSS}{extra_css}</style></head><body>{topo if tela else ''}<main class="livro">{''.join(P)}</main>{extra_js}</body></html>"""
 
-def main():
-    ax = carregar()
-    doc = montar(ax)
-    caminho = os.path.join(OUT, "Axiomas_360X_Edicao_Comentada.html")
-    open(caminho, "w", encoding="utf-8").write(doc)
-    print("html", os.path.getsize(caminho), "bytes")
+def pdf_de(html_path, pdf_path, a5=True):
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         b = p.chromium.launch(executable_path="/usr/bin/google-chrome")
         pg = b.new_page()
-        pg.goto("file://" + caminho)
+        pg.goto("file://" + html_path)
         pg.wait_for_timeout(500)
-        pdf = os.path.join(OUT, "Axiomas_360X_Edicao_Comentada_A5.pdf")
-        pg.pdf(path=pdf, format="A5", print_background=True, prefer_css_page_size=True, display_header_footer=True,
+        kw = dict(format="A5") if a5 else {}
+        pg.pdf(path=pdf_path, print_background=True, prefer_css_page_size=True, display_header_footer=True,
                header_template="<span></span>",
                footer_template='<div style="width:100%;text-align:center;font-family:Georgia,serif;font-size:7.5pt;color:#8a7a55">— <span class="pageNumber"></span> —</div>',
-               )
+               **kw)
         b.close()
-    print("pdf", os.path.getsize(pdf), "bytes")
+    print("pdf", os.path.basename(pdf_path), os.path.getsize(pdf_path), "bytes")
+
+
+def main():
+    ax = carregar()
+    caminho = os.path.join(OUT, "Axiomas_360X_Edicao_Comentada.html")
+    open(caminho, "w", encoding="utf-8").write(montar(ax, "tela"))
+    print("html", os.path.getsize(caminho), "bytes")
+    pdf_de(caminho, os.path.join(OUT, "Axiomas_360X_Edicao_Comentada_A5.pdf"))
+    imp = os.path.join(OUT, "Axiomas_360X_Miolo_Impressao.html")
+    open(imp, "w", encoding="utf-8").write(montar(ax, "impressa"))
+    pdf_de(imp, os.path.join(OUT, "Axiomas_360X_Miolo_Impressao_A5_sangria3mm.pdf"), a5=False)
+
 
 if __name__ == "__main__":
     main()

@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.16.0";
+const APP_VERSION = "4.17.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -2802,7 +2802,7 @@ function refreshHome() {
   renderCharts();
   $("#tree").innerHTML = tot ? treeHTML(buildTree()) : `<li class="empty">Nenhum card. Ative uma coleção em ⚙️ Ajustes ou vá em 📥 Importar.</li>`;
   $("#homeFoot").innerHTML = (Cloud.on ? "☁️ Progresso salvo na sua conta e sincronizado automaticamente entre aparelhos (abra esta mesma página logado)." : "💾 Progresso salvo neste aparelho. Abra o app pela página do Claude para sincronizar automaticamente; ou use ⚙️ Ajustes → Backup.")
-    + `<div class="credAutor">📜 <b>Escrituras &amp; Axiomas 360X</b> · organização e axiomas: <b>Dr. Aldenir Rocha de Oliveira Filho</b> · <a href="autor/axiomas-360x.html">⚜️ Axiomas 360X — edição comentada</a></div>`;   /* 4.16.0 · créditos do autor */
+    + `<div class="credAutor">📜 <b>Escrituras &amp; Axiomas 360X</b> · organização e axiomas: <b>Dr. Aldenir Rocha de Oliveira Filho</b> · <a href="autor/axiomas-360x.html">⚜️ Axiomas 360X — edição comentada</a> · <a href="autor/axiomas-360x.html#leitor">🎧 audiolivro · 🃏 axioma do dia</a> · <a href="autor/mapa-axiomas.html">🗺️ mapa</a></div>`;   /* 4.16.0 · créditos do autor */
   fillDeckSelects(); setTimeout(() => ACH.check(), 800);
 }
 function fillDeckSelects() {
