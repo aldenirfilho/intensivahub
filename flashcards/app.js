@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.14.0";
+const APP_VERSION = "4.15.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -167,8 +167,8 @@ const NP = 32, NU = 48;
 const shardP = id => "p" + String(hnum(id) % NP).padStart(2, "0");
 const shardU = id => "u" + String(hnum(id) % NU).padStart(2, "0");
 const ST = { new: "n", learn: "l", review: "r", relearn: "rl" }, STR = { n: "new", l: "learn", r: "review", rl: "relearn" };
-const encP = p => [ST[p.s.st] || "n", Math.round(p.s.due), p.s.ivl, Math.round(p.s.ease * 100) / 100, p.s.reps, p.s.lapses, p.s.step, p.susp ? 1 : 0, p.mk ? 1 : 0, p.mod, p.hl && p.hl.length ? p.hl : 0];
-const decP = (id, a) => ({ id, s: { st: STR[a[0]] || "new", due: a[1], ivl: a[2], ease: a[3], reps: a[4], lapses: a[5], step: a[6] }, susp: !!a[7], mk: !!a[8], mod: a[9], hl: Array.isArray(a[10]) ? a[10] : [] });
+const encP = p => [ST[p.s.st] || "n", Math.round(p.s.due), p.s.ivl, Math.round(p.s.ease * 100) / 100, p.s.reps, p.s.lapses, p.s.step, p.susp ? 1 : 0, p.mk ? 1 : 0, p.mod, p.hl && p.hl.length ? p.hl : 0, Array.isArray(p.cf) ? p.cf : 0];
+const decP = (id, a) => ({ id, s: { st: STR[a[0]] || "new", due: a[1], ivl: a[2], ease: a[3], reps: a[4], lapses: a[5], step: a[6] }, susp: !!a[7], mk: !!a[8], mod: a[9], hl: Array.isArray(a[10]) ? a[10] : [], cf: Array.isArray(a[11]) ? a[11] : null });
 const Cloud = {
   db: null, col: null, uid: null, assets: null, dl: null, on: false, busy: false, timer: null, lastSync: 0, err: "", mediaMap: {},
   dirty: { p: new Set(), u: new Set(), st: false, media: false },
@@ -339,6 +339,10 @@ function mergeLogs(L, R) {
         o[id] = x;
       }
       out[k] = o;
+    } else if (k === "_cf") {   // 🎯 confiança (4.15.0): por item, vence a marcação mais recente
+      const o = Object.assign({}, out._cf || {});
+      for (const [id, e] of Object.entries(rv || {})) { if (!Array.isArray(e)) continue; const c = o[id]; if (!Array.isArray(c) || (e[1] || 0) > (c[1] || 0)) o[id] = e; }
+      out._cf = o;
     } else if (k === "_tt" || k === "_wl") { const c = out[k]; out[k] = rv && (!c || (rv.t || 0) > (c.t || 0)) ? rv : c;
     } else out[k] = mergeDay(out[k], rv);
   }
@@ -537,7 +541,7 @@ const Ponte = {
 function progOf(id) { return S.prog.get(id); }
 function cardFrom(base) {
   const p = progOf(base.id);
-  return Object.assign(base, { srs: p ? p.s : newSRS(), susp: p ? p.susp : false, marked: p ? p.mk : false, hl: p && p.hl ? p.hl : [] });
+  return Object.assign(base, { srs: p ? p.s : newSRS(), susp: p ? p.susp : false, marked: p ? p.mk : false, hl: p && p.hl ? p.hl : [], cf: p && Array.isArray(p.cf) ? p.cf : null });
 }
 function rebuildCards() {
   const cols = S.settings.cols || {};
@@ -549,7 +553,7 @@ function rebuildCards() {
   S.cards = list; S.byId = new Map(list.map(c => [c.id, c]));
 }
 async function saveProg(c) {
-  const p = { id: c.id, s: c.srs, susp: !!c.susp, mk: !!c.marked, hl: c.hl || [], mod: Date.now() };
+  const p = { id: c.id, s: c.srs, susp: !!c.susp, mk: !!c.marked, hl: c.hl || [], cf: Array.isArray(c.cf) ? c.cf : null, mod: Date.now() };
   S.prog.set(c.id, p); await DB.put("prog", p); Cloud.markP(c.id);
 }
 async function saveLog() { await DB.setMeta("logs", S.logs); Cloud.markSt(); }
@@ -1369,6 +1373,79 @@ const VOZ = {
   } };
 VOZ.init();
 
+/* ---------------- 🎯 Confiança no domínio 1–5 (4.15.0): caixinha em cada item de todas as abas, soma XP ----------------
+   Onde fica: flashcards → no progresso do próprio card (c.cf, sincroniza junto com o card);
+              demais itens → S.logs._cf[chave] = [nota 1–5, segundos, XP já dado no dia] (mescla: vence a marcação mais recente).
+   Chaves: c:<card> · q:<questão> · m:<micropartícula> · n:<mnemônico> · h:<Honra card/mnemônico> · hb:<bússola> · g:<caso de gaso> · gf:<fórmula>.
+   XP = a nota marcada (+1 a +5), uma vez por item por dia; trocar a nota no mesmo dia soma só a diferença para cima (nunca desconta). */
+const CF = {
+  LV: [null, ["🔴", "Não sei", "#ff6b6b"], ["🟠", "Vago", "#ff9d5c"], ["🟡", "Razoável", "#ffc14d"], ["🟢", "Seguro", "#5be38a"], ["💎", "Domino", "#4dd4ff"]],
+  SEC: { c: "🎴 Flashcards", q: "❓ Questões", m: "💊 Micropartículas", n: "🧠 Mnemônicos", h: "🕊️ Honra", hb: "🧭 Bússolas", g: "🧪 Casos de gasometria", gf: "📐 Fórmulas" },
+  R() { return (S.logs._cf = S.logs._cf || {}); },
+  card(k) { return k.startsWith("c:") ? S.byId.get(k.slice(2)) : null; },
+  get(k) { if (k.startsWith("c:")) { const c = this.card(k); return c && Array.isArray(c.cf) ? c.cf : null; } const e = this.R()[k]; return Array.isArray(e) ? e : null; },
+  val(k) { const e = this.get(k); return e ? e[0] || 0 : 0; },
+  low(k) { const v = this.val(k); return v > 0 && v <= 2; },
+  isToday(e) { return !!e && dayKey((e[1] || 0) * 1000) === today(); },
+  gotToday(k) { const e = this.get(k); return this.isToday(e) ? e[2] || 0 : 0; },
+  slug: s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 40),
+  box(k, o = {}) {
+    const v = this.val(k), g = this.gotToday(k), L = this.LV, short = o.sm || o.bar;
+    return `<div class="cfBox vozSkip${o.sm ? " sm" : ""}${o.pri ? " pri" : ""}${o.bar ? " cfBar" : ""}${v ? " v" + v : ""}" data-cfk="${esc(k)}" role="group" aria-label="Confiança no domínio deste item, de 1 a 5">`
+      + `<span class="cfLbl">🎯 ${short ? "Confiança" : "Confiança no domínio"}</span><span class="cfBtns">${[1, 2, 3, 4, 5].map(i => `<button type="button" class="cfB${v === i ? " on" : ""}${v && i < v ? " lit" : ""}" data-cfv="${i}" style="--cfc:${L[i][2]}" aria-pressed="${v === i}" title="${i} · ${L[i][0]} ${L[i][1]} (+${i} XP)"><i aria-hidden="true">${v === i ? "☑" : "☐"}</i>${i}</button>`).join("")}</span>`
+      + `<span class="cfSt">${v ? `${L[v][0]} <b>${L[v][1]}</b>${g ? ` · +${g} XP hoje` : ""}` : "marque de 1 a 5 · +1 a +5 XP"}</span></div>`;
+  },
+  opts(el) { return { sm: el.classList.contains("sm"), pri: el.classList.contains("pri"), bar: el.classList.contains("cfBar") }; },
+  paint(k, v) {
+    for (const el of $$("[data-cfk]")) if (el.dataset.cfk === k) { const t = document.createElement("div"); t.innerHTML = this.box(k, this.opts(el)); const n = t.firstElementChild; el.replaceWith(n); const b = v && n.querySelector(`[data-cfv="${v}"]`); if (b) b.classList.add("pop"); }
+  },
+  async set(k, v) {
+    v = Math.max(0, Math.min(5, Math.round(+v) || 0)); if (!v) return 0;
+    const prev = this.get(k), same = this.isToday(prev); if (same && prev[0] === v) return 0;   // mesma nota no mesmo dia: nada muda
+    const given = same ? prev[2] || 0 : 0, gain = Math.max(0, v - given), e = [v, Math.floor(Date.now() / 1000), Math.max(given, v)], c = this.card(k);
+    if (k.startsWith("c:")) { if (!c) return 0; c.cf = e; } else this.R()[k] = e;
+    const L = L0(); if (!same) L.cfN = (L.cfN || 0) + 1;
+    if (gain) addXP(gain, `confiança ${this.LV[v][0]} ${v}`, "f");
+    if (c) await saveProg(c);
+    await saveLog();
+    return gain;
+  },
+  async pick(el, v) { const k = el.dataset.cfk; await this.set(k, v); this.paint(k, v); },
+  primary() {
+    if (location.hash === "#estudar") return $("#barAns.on .cfBox") || $("#barHist.on .cfBox");
+    return $$(".view.on .cfBox.pri").find(b => b.getClientRects().length) || null;
+  },
+  lowCards() { return (S.cards || []).filter(c => !c.susp && Array.isArray(c.cf) && c.cf[0] > 0 && c.cf[0] <= 2).map(c => c.id); },
+  stats() {
+    const d = [0, 0, 0, 0, 0, 0], sec = {};
+    const add = (s, v) => { if (!(v >= 1 && v <= 5)) return; d[v]++; const o = sec[s] = sec[s] || { n: 0, sum: 0, low: 0, top: 0 }; o.n++; o.sum += v; if (v <= 2) o.low++; if (v === 5) o.top++; };
+    for (const c of S.cards || []) if (Array.isArray(c.cf)) add("c", c.cf[0]);
+    for (const [k, e] of Object.entries(S.logs._cf || {})) if (Array.isArray(e)) add(k.slice(0, k.indexOf(":")), e[0]);
+    const n = d.reduce((a, b) => a + b, 0), sum = d.reduce((a, b, i) => a + b * i, 0);
+    return { d, n, avg: n ? sum / n : 0, sec, low: d[1] + d[2], top: d[5] };
+  },
+  html() {
+    const s = this.stats(), xp = dayLogs().reduce((a, [, l]) => a + ((l.xs || {}).f || 0), 0), low = this.lowCards().length, f1 = x => x.toFixed(1).replace(".", ",");
+    const bars = [5, 4, 3, 2, 1].map(i => { const p = s.n ? Math.round(100 * s.d[i] / s.n) : 0; return `<div class="cfRowS"><span>${this.LV[i][0]} ${i} · ${this.LV[i][1]}</span><span class="xpTrack"><i style="width:${p}%;background:${this.LV[i][2]}"></i></span><small>${s.d[i].toLocaleString("pt-BR")} (${p}%)</small></div>`; }).join("");
+    const secs = Object.entries(this.SEC).filter(([k]) => s.sec[k]).map(([k, nm]) => { const o = s.sec[k]; return `<tr><td>${nm}</td><td>${o.n.toLocaleString("pt-BR")}</td><td><b>${f1(o.sum / o.n)}</b></td><td>${o.low}</td><td>${o.top}</td></tr>`; }).join("");
+    return `<div class="panel" id="cfPanel"><h2 style="margin-top:0">🎯 Confiança no domínio</h2>
+      ${s.n ? `<div class="stats"><div class="stat"><b class="n">${s.n.toLocaleString("pt-BR")}</b><span>itens avaliados</span></div><div class="stat"><b style="color:var(--gold2)">${f1(s.avg)}</b><span>média (1–5)</span></div>
+        <div class="stat"><b style="color:var(--cy)">💎 ${s.top.toLocaleString("pt-BR")}</b><span>domino (5)</span></div><div class="stat"><b style="color:var(--red)">${s.low.toLocaleString("pt-BR")}</b><span>a reforçar (1–2)</span></div><div class="stat"><b style="color:var(--amb)">${xp.toLocaleString("pt-BR")}</b><span>XP de confiança</span></div></div>
+       <div class="cfDist">${bars}</div>${secs ? `<table class="t jrRank cfSec"><tr><th>Seção</th><th>Itens</th><th>Média</th><th>🔴 1–2</th><th>💎 5</th></tr>${secs}</table>` : ""}
+       ${low ? `<div class="metaRow"><button class="btn gold" id="cfLowStudy">🔁 Estudar os ${low.toLocaleString("pt-BR")} flashcards com confiança 1–2</button></div>` : ""}` : `<p class="metaNow">Nenhum item avaliado ainda — a caixinha 🎯 aparece em cada item de todas as abas.</p>`}
+      <p class="metaNow">🎯 A caixinha <b>1–5</b> aparece em cada flashcard (ao revelar), questão (ao responder), micropartícula, mnemônico, card e bússola da Honra, caso de gasometria e fórmula. Marcar dá <b>+1 a +5 XP</b> — o valor da nota —, uma vez por item por dia; trocar a nota no mesmo dia soma só a diferença. ⌨️ <span class="kbd">Shift</span> + <span class="kbd">1</span>–<span class="kbd">5</span> marca o item da tela. Filtros "🔴 Confiança baixa" em Questões, Mnemônicos e Honra; em 🔎 Buscar: <code>is:conf1</code>…<code>is:conf5</code>, <code>is:confbaixa</code>, <code>is:semconf</code>.</p></div>`;
+  },
+  bind(host) { const b = $("#cfLowStudy", host); if (b) b.onclick = () => startStudy(null, this.lowCards()); } };
+document.addEventListener("click", e => {
+  const b = e.target && e.target.closest ? e.target.closest("[data-cfv]") : null; if (!b) return;
+  const box = b.closest("[data-cfk]"); if (!box) return; e.preventDefault(); CF.pick(box, +b.dataset.cfv);
+});
+document.addEventListener("keydown", e => {
+  if (!e.shiftKey || e.ctrlKey || e.metaKey || e.altKey || /input|textarea|select/i.test((e.target || {}).tagName || "")) return;
+  const m = /^Digit([1-5])$/.exec(e.code || ""); if (!m) return;
+  const box = CF.primary(); if (!box) return; e.preventDefault(); CF.pick(box, +m[1]);
+});
+
 /* ---------------- Questões (TEMI / R3) ---------------- */
 const DIVS = { temi: "🏛️ TEMI 2028", r3: "🩺 R3 Clínica Médica", gaso: "🧪 Gasometria" };
 const DIVS_CURTO = { temi: "TEMI", r3: "R3", gaso: "Gasometria" };
@@ -1379,20 +1456,20 @@ const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i
   home() {
     this.block = null; const all = this.data[this.div] || [], R = QRES(), feitas = all.filter(q => R[q.id]), certas = feitas.filter(q => R[q.id][0]).length;
     const temas = [...new Set(all.map(q => q.tema))].sort((a, b) => a.localeCompare(b, "pt"));
-    const lst = this.list(), pend = lst.filter(q => !R[q.id]).length, err = lst.filter(q => R[q.id] && !R[q.id][0]).length;
+    const lst = this.list(), pend = lst.filter(q => !R[q.id]).length, err = lst.filter(q => R[q.id] && !R[q.id][0]).length, low = lst.filter(q => CF.low("q:" + q.id)).length;
     $("#qzHost").innerHTML = `<div class="divTabs">${Object.entries(DIVS).map(([k, v]) => `<button class="btn ${k === this.div ? "gold" : ""}" data-div="${k}">${v}</button>`).join("")}</div>
      <div class="stats" style="margin:12px 0"><div class="stat"><b>${all.length}</b><span>questões</span></div><div class="stat"><b class="n">${feitas.length}</b><span>respondidas</span></div>
       <div class="stat"><b class="rv">${feitas.length ? Math.round(100 * certas / feitas.length) : 0}%</b><span>acerto (última tentativa)</span></div><div class="stat"><b style="color:var(--gold2)">${all.length - feitas.length}</b><span>inéditas</span></div></div>
      <div class="panel"><div class="metaRow"><label>📚 Tema:</label><select id="qzTema"><option value="">Todos os temas (${all.length})</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""}>${esc(t)}</option>`).join("")}</select></div>
-      <div class="metaRow"><button class="btn gold" data-st="10">▶️ Bloco de 10</button><button class="btn" data-st="20">▶️ Bloco de 20</button><button class="btn" data-st="new">🆕 Inéditas (${pend})</button><button class="btn" data-st="err" ${err ? "" : "disabled"}>🔁 Só as erradas (${err})</button><button class="btn" data-st="all">📚 Todas em ordem (${lst.length})</button></div>
+      <div class="metaRow"><button class="btn gold" data-st="10">▶️ Bloco de 10</button><button class="btn" data-st="20">▶️ Bloco de 20</button><button class="btn" data-st="new">🆕 Inéditas (${pend})</button><button class="btn" data-st="err" ${err ? "" : "disabled"}>🔁 Só as erradas (${err})</button><button class="btn" data-st="cf" ${low ? "" : "disabled"}>🔴 Confiança baixa (${low})</button><button class="btn" data-st="all">📚 Todas em ordem (${lst.length})</button></div>
       <p class="metaNow">🗺️ Veja onde você acerta e erra em <a href="#jornada" style="color:var(--cy)">Jornada › Mapa de domínio</a>.</p>
-      <p class="metaNow">⌨️ Atalhos: <span class="kbd">A</span>–<span class="kbd">E</span> ou <span class="kbd">1</span>–<span class="kbd">5</span> responder · <span class="kbd">Enter</span> próxima · ✨ +15 XP por acerto, +5 por tentativa.</p></div>`;
+      <p class="metaNow">⌨️ Atalhos: <span class="kbd">A</span>–<span class="kbd">E</span> ou <span class="kbd">1</span>–<span class="kbd">5</span> responder · <span class="kbd">Enter</span> próxima · ✨ +15 XP por acerto, +5 por tentativa · 🎯 confiança 1–5 depois de responder: +1 a +5 XP (<span class="kbd">Shift</span>+<span class="kbd">1</span>–<span class="kbd">5</span>).</p></div>`;
     $$("#qzHost [data-div]").forEach(b => b.onclick = () => { this.div = b.dataset.div; lsSet("qzDiv", this.div); this.tema = ""; this.home(); });
     $("#qzTema").onchange = e => { this.tema = e.target.value; this.home(); };
     $$("#qzHost [data-st]").forEach(b => b.onclick = () => {
       const R = QRES(), l = this.list(), k = b.dataset.st, sh = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
       const fresh = sh(l.filter(q => !R[q.id])), old = sh(l.filter(q => R[q.id]));
-      const pick = k === "all" ? l : k === "new" ? fresh : k === "err" ? sh(l.filter(q => R[q.id] && !R[q.id][0])) : fresh.concat(old).slice(0, +k);
+      const pick = k === "all" ? l : k === "new" ? fresh : k === "err" ? sh(l.filter(q => R[q.id] && !R[q.id][0])) : k === "cf" ? sh(l.filter(q => CF.low("q:" + q.id))) : fresh.concat(old).slice(0, +k);
       if (!pick.length) return toast("Nenhuma questão nesse filtro.");
       this.block = pick; this.i = 0; this.ok = 0; this.pickd = null; this.show();
     });
@@ -1418,7 +1495,7 @@ const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i
     const QC = (S.logs._qc = S.logs._qc || {}), lido = !!QC[q.id];
     const alts = q.porque ? `<div class="qzWhy">${q.alts.map((a, k) => `<div class="${k === q.gab ? "ok" : ""}"><b>${"ABCDE"[k]}</b> ${k === q.gab ? "✅" : "❌"} ${q.porque[k] || ""}</div>`).join("")}</div>` : "";
     $("#qzCom").innerHTML = `<div class="qzRes ${ok ? "ok" : "bad"}">${ok ? "✅ Correto!" : `❌ Gabarito: <b>${"ABCDE"[q.gab]}</b>`}</div>
-      <div class="qzExp"><b>💡 Comentário</b><br>${q.com}${alts ? `<div style="margin-top:8px"><b>🔍 Alternativa por alternativa</b></div>${alts}` : ""}${q.pega ? `<div class="qzPega">🎯 <b>Pegadinha de prova:</b> ${q.pega}</div>` : ""}</div>${q.ref ? `<div class="qzRef">📚 ${esc(q.ref)}</div>` : ""}
+      <div class="qzExp"><b>💡 Comentário</b><br>${q.com}${alts ? `<div style="margin-top:8px"><b>🔍 Alternativa por alternativa</b></div>${alts}` : ""}${q.pega ? `<div class="qzPega">🎯 <b>Pegadinha de prova:</b> ${q.pega}</div>` : ""}</div>${q.ref ? `<div class="qzRef">📚 ${esc(q.ref)}</div>` : ""}${CF.box("q:" + q.id, { pri: 1 })}
       <div class="metaRow" style="justify-content:space-between">${lido ? `<span class="chk on">✅ Comentário lido</span>` : `<button class="btn" id="qzChk">☑️ Li o comentário (+3 XP)</button>`}<button class="btn gold" id="qzNext">${this.i + 1 < this.block.length ? "Próxima ▶" : "🏁 Ver resultado"}</button></div>`;
     $("#qzNext").onclick = () => this.next();
     const ck = $("#qzChk"); if (ck) ck.onclick = () => { QC[q.id] = Date.now(); const L = L0(); L.qcN = (L.qcN || 0) + 1; addXP(3, "comentário", "r"); saveLog(); ck.outerHTML = `<span class="chk on">✅ Comentário lido</span>`; };
@@ -1708,7 +1785,7 @@ const GZ = { NCARD: 450, NQ: 145, data: null, sub: lsGet("gzSub") || "casos", te
     if (done) {
       const perf = this.hits === c.steps.length;
       box = `<div class="gzEnd ${perf ? "ok" : ""}"><div class="gzScore">${perf ? "⭐ Caso perfeito!" : `✅ ${this.hits}/${c.steps.length} etapas`}</div>
-        <h3 style="margin:6px 0">✅ ${c.dx}</h3><div class="qzExp"><b>🩺 Por quê:</b> ${c.causa}<br><b>⚡ Conduta:</b> ${c.cond}<div class="qzPega">🎯 <b>Pegadinha:</b> ${c.peg}</div></div>
+        <h3 style="margin:6px 0">✅ ${c.dx}</h3><div class="qzExp"><b>🩺 Por quê:</b> ${c.causa}<br><b>⚡ Conduta:</b> ${c.cond}<div class="qzPega">🎯 <b>Pegadinha:</b> ${c.peg}</div></div>${CF.box("g:" + c.n, { pri: 1 })}
         <div class="metaRow" style="justify-content:space-between"><button class="btn" id="gzBack">◀ Lista de casos</button><button class="btn gold" id="gzNextCase">▶️ Próximo caso</button></div></div>`;
     } else {
       box = `<div class="gzStep"><div class="gzQ">${s.p}</div><div class="qzAlts">${s.o.map((o, i) => `<button class="qzAlt ${this.picked != null ? (i === s.c ? "ok" : i === this.picked ? "bad" : "") : ""}" data-gzo="${i}" ${this.picked != null ? "disabled" : ""}><b>${i + 1}</b><span>${o}</span></button>`).join("")}</div>
@@ -1786,7 +1863,7 @@ const GZ = { NCARD: 450, NQ: 145, data: null, sub: lsGet("gzSub") || "casos", te
       ["💨 Gap PaCO₂ − EtCO₂", "normal 2–5 mmHg · maior = espaço morto (TEP, baixo débito, hiperdistensão)"], ["📊 Razão ventilatória", "(VE × PaCO₂) / (peso predito × 100 × 37,5) · ≈ 1 normal"],
       ["🩸 Gap CO₂ venoarterial", "PcvCO₂ − PaCO₂ &gt; 6 mmHg = fluxo (débito) insuficiente"], ["🧮 Gap CO₂ / Ca−vO₂", "&gt; ~1,4 sugere metabolismo anaeróbio (cortes variam)"],
       ["🩸 ScvO₂", "&lt; 70% extração alta · 70–80% alvo · &gt; 80% extração baixa/falha de extração"], ["❤️ Fick", "DC = VO₂ / (CaO₂ − CvO₂) × 10"]];
-    return `<div class="panel"><h2 style="margin-top:0">📐 Fórmulas de bolso</h2><div class="gzForms">${F.map(([t, d]) => `<div class="gzF"><b>${t}</b><span>${d}</span></div>`).join("")}</div>
+    return `<div class="panel"><h2 style="margin-top:0">📐 Fórmulas de bolso</h2><div class="gzForms">${F.map(([t, d]) => `<div class="gzF"><b>${t}</b><span>${d}</span>${CF.box("gf:" + CF.slug(t), { sm: 1 })}</div>`).join("")}</div>
       <p class="metaNow">💡 Ordem de leitura: pH → primário → compensação → AG corrigido → Δ/Δ → oxigenação. Pratique nos 🎯 casos guiados.</p></div>`;
   },
   bind(host) {
@@ -1834,7 +1911,7 @@ const MC = { div: lsGet("mcDiv") || "temi", tema: "", data: null, i: 0, t0: 0,
      ${m ? `<div class="mcCard ${M[m.id] ? "lida" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mcN">${this.i + 1}/${l.length}${M[m.id] ? " · ✅ lida" : ""}</span></div>
        <div class="mcEmoji">${m.emoji || "💊"}</div><h2 class="mcTit">${m.titulo}</h2><div class="mcTxt">${m.texto}</div>${m.gancho ? `<div class="mcHook">🧠 ${m.gancho}</div>` : ""}
        ${m.comentario ? `<div class="qzExp mcCom"><b>💬 Comentário</b><br>${m.comentario}</div>` : ""}
-       <div class="metaRow" style="justify-content:flex-end">${M[m.id] ? `<span class="chk on">✅ Lida e comentário conferido</span>` : `<button class="btn gold" id="mcChk">☑️ Li a micropartícula${m.comentario ? " e o comentário" : ""} (+${m.comentario ? 3 : 2} XP)</button>`}</div></div>` : `<p class="empty">Nenhuma micropartícula.</p>`}
+       <div class="metaRow" style="justify-content:flex-end">${M[m.id] ? `<span class="chk on">✅ Lida e comentário conferido</span>` : `<button class="btn gold" id="mcChk">☑️ Li a micropartícula${m.comentario ? " e o comentário" : ""} (+${m.comentario ? 3 : 2} XP)</button>`}</div>${CF.box("m:" + m.id, { pri: 1 })}</div>` : `<p class="empty">Nenhuma micropartícula.</p>`}
      <div class="metaRow" style="justify-content:center"><button class="btn" id="mcPrev">◀ Anterior</button><button class="btn gold" id="mcNext">Próxima ▶</button></div>
      <p class="metaNow" style="text-align:center">⌨️ <span class="kbd">←</span> <span class="kbd">→</span> navegar · <span class="kbd">Enter</span> marcar como lida · ✨ XP só com o ☑️ de leitura</p>`;
     $$("#mcHost [data-div]").forEach(b => b.onclick = () => { this.div = b.dataset.div; lsSet("mcDiv", this.div); this.tema = ""; this.i = 0; this.render(); });
@@ -1932,7 +2009,7 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
   list() {
     const q = this.nz(this.q).trim(), f = this.filt;
     return this.all().filter(m => (!this.tema || m.tema === this.tema)
-      && (!f || (f === "fav" && this.fav(m.id)) || (f === "pend" && !this.dom(m.id)) || (f === "dom" && this.dom(m.id)) || (f === "c" && m.o === "c") || (f === "o" && m.o === "o"))
+      && (!f || (f === "fav" && this.fav(m.id)) || (f === "pend" && !this.dom(m.id)) || (f === "dom" && this.dom(m.id)) || (f === "c" && m.o === "c") || (f === "o" && m.o === "o") || (f === "cf" && CF.low("n:" + m.id)) || (f === "cf0" && !CF.val("n:" + m.id)))
       && (!q || this.nz(m.t + " " + m.m + " " + m.k.map(k => k.join(" ")).join(" ") + " " + (m.x || "") + " " + (m.c || "")).includes(q)));
   },
   sig(m) { return `<div class="mnSig${m.m.length > 14 ? " long" : ""}">${esc(m.m)}</div>`; },
@@ -1944,11 +2021,11 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
   foot(m) { const e = this.st(m.id); return e.n ? `<div class="mnFoot">${this.dom(m.id) ? "✅ Dominado" : "🎯 Em treino"} · ${e.n} treino(s), ${e.ok || 0} acerto(s)</div>` : ""; },
   card(m) {
     return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnImg" data-img="${m.id}" title="Gerar cartão-imagem" aria-label="Gerar cartão-imagem">🖼️</button><button class="mnFav" data-fav="${m.id}" title="Favoritar" aria-label="Favoritar">${this.fav(m.id) ? "⭐" : "☆"}</button></span></div>
-      <div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m)}${this.foot(m)}</div>`;
+      <div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m)}${this.foot(m)}${CF.box("n:" + m.id, { sm: 1 })}</div>`;
   },
   head() {
     const all = this.all(), temas = [...new Set(all.map(x => x.tema))], nDom = all.filter(m => this.dom(m.id)).length, nFav = all.filter(m => this.fav(m.id)).length, hoje = (S.logs[today()] || {}).nN || 0;
-    const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"], ["c", "🏛️ Clássicos"], ["o", "⚒️ Criados no 360X"]];
+    const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"], ["c", "🏛️ Clássicos"], ["o", "⚒️ Criados no 360X"], ["cf", "🔴 Confiança baixa (1–2)"], ["cf0", "⬜ Confiança não marcada"]];
     return `<div class="divTabs">${Object.entries(DIVS).map(([k, v]) => `<button class="btn ${k === this.div ? "gold" : ""}" data-div="${k}">${v}</button>`).join("")}</div>
      <div class="metaRow"><button class="btn ${this.mode === "lista" ? "cy" : ""}" data-mode="lista">📖 Consultar</button><button class="btn ${this.mode === "treino" ? "cy" : ""}" data-mode="treino">🎲 Treinar</button>
       <span class="metaNow">🧠 Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span><button class="btn sm" id="mnFavImg" title="Cartões-imagem dos favoritos desta divisão">🖼️ Cartões dos ⭐</button></div>
@@ -1976,7 +2053,7 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
     if (!this.shown) return `<div class="mnCard mnTrain">${top}<div class="mnAsk">🧠 Qual é o mnemônico?</div><div class="mnTit">${esc(m.t)}</div>
       ${this.hint ? this.sig(m) + `<p class="metaNow" style="text-align:center">Agora lembre o que cada parte significa.</p>` : ""}
       <div class="mnAns">${this.hint ? "" : `<button class="btn" id="mnHint">💡 Mostrar só a sigla</button>`}<button class="btn gold" id="mnShow">👁️ Revelar</button></div></div>${ses}`;
-    return `<div class="mnCard mnTrain">${top}<div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m)}
+    return `<div class="mnCard mnTrain">${top}<div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m)}${CF.box("n:" + m.id, { pri: 1 })}
       <div class="mnAns"><button class="btn danger" data-g="0">❌ Não lembrei</button><button class="btn" data-g="1">🟡 Em parte (+1 XP)</button><button class="btn gold" data-g="2">✅ Lembrei (+2 XP)</button></div></div>${ses}`;
   },
   pick() {
@@ -2049,7 +2126,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
   list() {
     const q = this.nz(this.q).trim(), f = this.filt, mnK = this.sub === "mn";
     return this.all().filter(x => (!this.tema || x.tema === this.tema) && (mnK || !this.tr || x.tr === this.tr)
-      && (!f || (f === "fav" && this.fav(x.id)) || (f === "pend" && !this.dom(x.id)) || (f === "dom" && this.dom(x.id)) || (f === "c" && x.o === "c") || (f === "o" && x.o === "o") || (f === "u" && x.o === "u"))
+      && (!f || (f === "fav" && this.fav(x.id)) || (f === "pend" && !this.dom(x.id)) || (f === "dom" && this.dom(x.id)) || (f === "c" && x.o === "c") || (f === "o" && x.o === "o") || (f === "u" && x.o === "u") || (f === "cf" && CF.low("h:" + x.id)) || (f === "cf0" && !CF.val("h:" + x.id)))
       && (!q || this.nz(mnK ? x.t + " " + x.m + " " + x.k.map(k => k.join(" ")).join(" ") + " " + (x.x || "") + " " + (x.c || "") : x.q + " " + x.a + " " + x.r + " " + x.ap + " " + this.T(x.tr).n).includes(q)));
   },
   favBtn(id) { return `<button class="mnFav" data-fav="${id}" title="Favoritar" aria-label="Favoritar">${this.fav(id) ? "⭐" : "☆"}</button>`; },
@@ -2057,11 +2134,11 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
   back(c) { return `<div class="hoA">${esc(c.a)}</div><div class="hoRef">📍 ${esc(c.r)} <small>· paráfrase 360X</small></div><div class="hoAp"><b>🧭 Faça hoje</b>${esc(c.ap)}</div>`; },
   cardC(c) {
     return `<div class="mnCard hoCard${this.dom(c.id) ? " dom" : ""}"><div class="mcTop">${this.chip(c.tr)}<span class="mnTools"><span class="pill">${esc(c.tema)}</span>${this.favBtn(c.id)}</span></div>
-      <div class="mnTit">${esc(c.q)}</div>${this.back(c)}${this.foot(c.id)}</div>`;
+      <div class="mnTit">${esc(c.q)}</div>${this.back(c)}${this.foot(c.id)}${CF.box("h:" + c.id, { sm: 1 })}</div>`;
   },
   cardM(m) {
     return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnImg" data-img="${m.id}" title="Gerar cartão-imagem" aria-label="Gerar cartão-imagem">🖼️</button>${this.favBtn(m.id)}</span></div>
-      <div class="mnTit">${esc(m.t)}</div>${MN.sig(m)}${MN.body(m)}${this.foot(m.id)}</div>`;
+      <div class="mnTit">${esc(m.t)}</div>${MN.sig(m)}${MN.body(m)}${this.foot(m.id)}${CF.box("h:" + m.id, { sm: 1 })}</div>`;
   },
   orig(m) { return m.o === "u" ? `<span class="mnOrig u" title="Criado por você">✍️ Meu</span>` : MN.orig(m);
   },
@@ -2069,7 +2146,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
   head() {
     const D = this.data, mnK = this.sub === "mn", all = this.all(), nDom = all.filter(x => this.dom(x.id)).length, nFav = all.filter(x => this.fav(x.id)).length, hoje = (S.logs[today()] || {}).hN || 0;
     const temas = D.temas.concat(all.map(x => x.tema).filter(t => !D.temas.includes(t))).filter((t, i, a) => a.indexOf(t) === i && all.some(x => x.tema === t));
-    const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"]].concat(mnK ? [["c", "🏛️ Clássicos das tradições"], ["o", "⚒️ Criados no 360X"], ["u", "✍️ Meus"]] : []);
+    const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"], ["cf", "🔴 Confiança baixa (1–2)"], ["cf0", "⬜ Confiança não marcada"]].concat(mnK ? [["c", "🏛️ Clássicos das tradições"], ["o", "⚒️ Criados no 360X"], ["u", "✍️ Meus"]] : []);
     return `<div class="metaRow"><button class="btn ${this.mode === "lista" ? "cy" : ""}" data-mode="lista">📖 Consultar</button><button class="btn ${this.mode === "treino" ? "cy" : ""}" data-mode="treino">🎲 Treinar</button>
       <span class="metaNow">🕊️ Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span>${mnK ? `<button class="btn sm" id="hoFavImg" title="Cartões-imagem dos mnemônicos favoritos">🖼️ Cartões dos ⭐</button>` : ""}</div>
      <div class="progress"><i style="width:${all.length ? 100 * nDom / all.length : 0}%"></i></div>
@@ -2094,7 +2171,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
     if (!this.shown) return `<div class="mnCard mnTrain">${top}${q}
       ${this.hint ? (mnK ? MN.sig(x) : `<div class="hoRef" style="text-align:center">📍 ${esc(x.r)}</div>`) : ""}
       <div class="mnAns">${this.hint ? "" : `<button class="btn" id="hoHint">💡 ${mnK ? "Mostrar só a sigla" : "Mostrar a referência"}</button>`}<button class="btn gold" id="hoShow">👁️ Revelar</button></div></div>${ses}`;
-    return `<div class="mnCard mnTrain">${top}${q}${mnK ? MN.sig(x) + MN.body(x) : this.back(x)}
+    return `<div class="mnCard mnTrain">${top}${q}${mnK ? MN.sig(x) + MN.body(x) : this.back(x)}${CF.box("h:" + x.id, { pri: 1 })}
       <div class="mnAns"><button class="btn danger" data-g="0">❌ Não lembrei</button><button class="btn" data-g="1">🟡 Em parte (+1 XP)</button><button class="btn gold" data-g="2">✅ Lembrei (+2 XP)</button></div></div>${ses}`;
   },
   pick() {
@@ -2125,7 +2202,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
      <div class="panel hoPanel"><h3 style="margin-top:0">🧭 Como você está agora?</h3><p class="metaNow">Toque no que mais se parece com o momento — abre a bússola daquela situação.</p>
       <div class="hoChips">${BU.map(b => `<button class="hoChip" data-bu="${b.id}">${b.e} ${esc(b.t)}</button>`).join("")}</div></div>
      <div class="panel hoPanel"><h3 style="margin-top:0">📜 Mensagem de hoje</h3>
-      ${c ? `<div class="mnCard hoCard">${`<div class="mcTop">${this.chip(c.tr)}<span class="pill">${esc(c.tema)}</span></div>`}<div class="mnTit">${esc(c.q)}</div>${this.back(c)}</div>
+      ${c ? `<div class="mnCard hoCard">${`<div class="mcTop">${this.chip(c.tr)}<span class="pill">${esc(c.tema)}</span></div>`}<div class="mnTit">${esc(c.q)}</div>${this.back(c)}${CF.box("h:" + c.id, { sm: 1 })}</div>
         <div class="metaRow" style="justify-content:center"><button class="btn" id="hoMsg2">🔄 Outra mensagem</button></div>` : `<div class="metaRow"><button class="btn gold" id="hoMsg">📜 Mostrar a mensagem de hoje</button><span class="metaNow">Aparece só quando você pedir.</span></div>`}</div>
      <div class="grid2">
       <div class="panel hoPanel"><h3 style="margin-top:0">🌙 Exame da noite (Zengzi)</h3><p class="metaNow">Analectos 1:4 — três perguntas antes de dormir. +1 XP cada.</p>
@@ -2145,7 +2222,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
        <div class="hoRose"><div class="hoDir dn"><b>⬆️ Norte · princípio</b>${esc(b.N)}</div><div class="hoDir do"><b>⬅️ Oeste · espere e consulte</b>${esc(b.O)}</div>
         <div class="hoCenter"><span>🧭</span><i>${esc(b.q)}</i></div><div class="hoDir dl"><b>➡️ Leste · faça agora</b>${esc(b.L)}</div><div class="hoDir ds"><b>⬇️ Sul · evite</b>${esc(b.S)}</div></div>
        <div class="hoRefs"><b>📍 Fontes:</b> ${(b.refs || []).map(r => `<button class="hoRefB" data-ref="${esc(r.split(" (")[0])}">${esc(r)}</button>`).join("")}</div>
-       <div class="metaRow" style="justify-content:flex-end">${b.o === "u" ? `<span class="mnOrig u">✍️ Minha bússola</span><button class="btn" data-edit="${b.id}">✏️ Editar</button>` : `<a class="btn" href="data/media/honra/${b.id}.jpg" target="_blank" rel="noopener" download="Bussola_360X_${b.id}.jpg">🖼️ Cartão para tela de bloqueio</a>`}${used ? `<span class="chk on">✅ Bússola usada hoje</span>` : `<button class="btn gold" id="hoBuOk">☑️ Usei esta bússola (+2 XP)</button>`}</div></div>
+       <div class="metaRow" style="justify-content:flex-end">${b.o === "u" ? `<span class="mnOrig u">✍️ Minha bússola</span><button class="btn" data-edit="${b.id}">✏️ Editar</button>` : `<a class="btn" href="data/media/honra/${b.id}.jpg" target="_blank" rel="noopener" download="Bussola_360X_${b.id}.jpg">🖼️ Cartão para tela de bloqueio</a>`}${used ? `<span class="chk on">✅ Bússola usada hoje</span>` : `<button class="btn gold" id="hoBuOk">☑️ Usei esta bússola (+2 XP)</button>`}</div>${CF.box("hb:" + b.id, { pri: 1 })}</div>
      ${mns.length ? `<h3>🛡️ Mnemônicos desta bússola</h3><div class="mnGrid">${mns.map(m => this.cardM(m)).join("")}</div>` : ""}
      <div class="panel hoPanel"><h3 style="margin-top:0">Outras situações</h3>${chips}</div>`;
   },
@@ -2359,7 +2436,7 @@ const HO = { sub: lsGet("hoSub") || "hoje", data: null, tr: "", tema: "", filt: 
 /* ---------------- Jornada: conquistas, ranking semanal e painéis ---------------- */
 const ACH_T = { medalha: "🏅 Medalhas", trofeu: "🏆 Troféus", titulo: "📜 Títulos", brasao: "🛡️ Brasões", honra: "🎖️ Honrarias" };
 const ACH_BONUS = { medalha: 20, trofeu: 40, titulo: 50, brasao: 80, honra: 150 };
-const XPSRC = { c: ["🎴 Flashcards", "#4dd4ff"], s: ["🧪 Simulados", "#ffc14d"], q: ["❓ Questões", "#5be38a"], r: ["📖 Leitura e comentários", "#b48cff"], m: ["💊 Micropartículas", "#ff8fb1"], n: ["🧠 Mnemônicos", "#7fd1b9"], h: ["🕊️ Honra", "#c9b6ff"], g: ["🧪 Gasometria", "#ff9d5c"], d: ["📆 Desafios", "#7fe0ff"], a: ["🏆 Conquistas", "#e8c56a"] };
+const XPSRC = { c: ["🎴 Flashcards", "#4dd4ff"], s: ["🧪 Simulados", "#ffc14d"], q: ["❓ Questões", "#5be38a"], r: ["📖 Leitura e comentários", "#b48cff"], m: ["💊 Micropartículas", "#ff8fb1"], n: ["🧠 Mnemônicos", "#7fd1b9"], h: ["🕊️ Honra", "#c9b6ff"], g: ["🧪 Gasometria", "#ff9d5c"], d: ["📆 Desafios", "#7fe0ff"], f: ["🎯 Confiança", "#ffd166"], a: ["🏆 Conquistas", "#e8c56a"] };
 const isoWeek = t => { const d = new Date(t); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getTime(); };
 /* ---------- 4.14.0: 📆 Desafios semanais (3 por semana, renovam na segunda-feira) ---------- */
 const WC = {
@@ -2455,7 +2532,7 @@ function jStats() {
   // 📚 categorias (pelas coleções ativas)
   const cat = {}, decks = new Set();
   for (const c of S.cards || []) { if (!c.official && c.origin !== "oficial" && !c.col) continue; const k = c.col || "temi", o = cat[k] = cat[k] || { tot: 0, st: 0, mat: 0 }; o.tot++; if (c.srs && c.srs.reps) { o.st++; decks.add(c.deck); if (c.srs.st === "review" && c.srs.ivl >= 21) o.mat++; } }
-  const G = S.logs._g || {}, gv = Object.values(G), gq = Object.entries(Q).filter(([id]) => id.startsWith("QG")).map(([, v]) => v), wcd = WC.done();
+  const G = S.logs._g || {}, gv = Object.values(G), gq = Object.entries(Q).filter(([id]) => id.startsWith("QG")).map(([, v]) => v), wcd = WC.done(), cfs = CF.stats();
   return { cur, max: Math.max(max, cur), xp: xpTotal(), lv: levelOf(xpTotal()).lv, sims, qAns: qv.length, qAcc: qv.length ? qOk / qv.length : 0, qc: Object.keys(S.logs._qc || {}).length,
     mic: Object.keys(S.logs._m || {}).length, mn: Object.values(S.logs._n || {}).filter(e => e && (e.s || 0) >= 2).length, hon: Object.values(S.logs._h || {}).filter(e => e && (e.s || 0) >= 2).length,
     hb: days.reduce((a, [, l]) => a + (l.hb || 0), 0), hbu: days.reduce((a, [, l]) => a + (l.hbu || 0) + (l.hf || 0), 0), hn: days.reduce((a, [, l]) => a + (l.hn ? 1 : 0), 0), cards: ans.reduce((a, b) => a + b, 0), metaDays, wk, xs, days,
@@ -2464,7 +2541,7 @@ function jStats() {
     perfDays: days.filter(([, l]) => (l.nAns || 0) >= 50 && l.nOk / l.nAns >= 0.95).length, maxRev: Math.max(0, ...days.map(([, l]) => l.nRev || 0)),
     balDays: days.filter(([, l]) => Object.keys(l.xs || {}).filter(k => k !== "a").length >= 4).length, gota: days.filter(([, l]) => (l.nAns || 0) >= 10 && (l.nAns || 0) <= 40).length,
     explor: decks.size, cat, rA, rOk, rDays, rNew, rRev, rSrc: rSrc.size,
-    gN: gv.filter(e => e && e.n).length, gP: gv.filter(e => e && e.p).length, gA: days.reduce((a, [, l]) => a + (l.gA || 0), 0), gqA: gq.length, gqAcc: gq.length ? gq.filter(x => x[0]).length / gq.length : 0, wcN: wcd.n, wcAll: wcd.all };
+    gN: gv.filter(e => e && e.n).length, gP: gv.filter(e => e && e.p).length, gA: days.reduce((a, [, l]) => a + (l.gA || 0), 0), gqA: gq.length, gqAcc: gq.length ? gq.filter(x => x[0]).length / gq.length : 0, wcN: wcd.n, wcAll: wcd.all, cfN: cfs.n, cf5: cfs.top, cfLow: cfs.low };
 }
 const ACH_G = { prox: "⭐ Próximas", ass: "📆 Assiduidade", cat: "📚 Categorias", des: "🎯 Desempenho", est: "🎭 Estilo", tit: "📜 Títulos", hon: "🕊️ Honra", all: "🏅 Todas" };
 const CATS = [["temi", "🏥", "Intensivista", "TEMI 2028"], ["cm", "🩺", "Clínico de Ouro", "R3 Clínica Médica"], ["ecg", "📈", "Leitor de Traçados", "Compêndio de ECG"], ["vmc", "🫁", "Domador do Ventilador", "Curvas de VM"], ["pocus", "🔊", "Vidente do Ultrassom", "POCUS na UTI"],
@@ -2520,6 +2597,11 @@ const ACH = { list: [],
     [[1, "trofeu", "🏆", "Semana Perfeita"], [4, "brasao", "🌟", "Mês de Ouro"], [12, "honra", "🐉", "Trimestre Lendário"]]
       .forEach(([n, t, ic, nm]) => A("wcp" + n, t, ic, nm, `Cumprir os 3 desafios em ${n} semana(s)`, s => s.wcAll, n, "des"));
     A("gzq80", "titulo", "⚗️", "Senhor das Gasometrias", "Acerto ≥ 80% com ≥ 50 questões de gasometria", s => s.gqA >= 50 ? Math.round(100 * s.gqAcc) : 0, 80, "tit");
+    /* ---------- 4.15.0: 🎯 confiança no domínio ---------- */
+    [[10, "medalha", "🎯", "Primeira Autoavaliação"], [100, "medalha", "🪞", "Espelho Honesto"], [500, "trofeu", "🧭", "Bússola Interior"], [2000, "brasao", "🔭", "Autoconhecimento"], [5000, "honra", "🌌", "Oráculo de Si Mesmo"]]
+      .forEach(([n, t, ic, nm]) => A("cf" + n, t, ic, nm, `Marcar a confiança 🎯 (1–5) em ${n.toLocaleString("pt-BR")} itens diferentes`, s => s.cfN, n, "est"));
+    [[50, "medalha"], [250, "trofeu"], [1000, "brasao"], [3000, "honra"]].forEach(([n, t]) => A("cf5_" + n, t, "💎", `Domínio Pleno ${n.toLocaleString("pt-BR")}`, `Ter ${n.toLocaleString("pt-BR")} itens com confiança 💎 5 (domino)`, s => s.cf5, n, "des"));
+    [[25, "medalha"], [100, "trofeu"]].forEach(([n, t]) => A("cfh" + n, t, "🦁", `Coragem de Admitir ${n}`, `Marcar com honestidade ${n} itens como 🔴 1 ou 🟠 2 — saber o que ainda não sabe é o 1º passo`, s => s.cfLow, n, "est"));
     /* ---------- 4.13.0: 🎭 estilo de comportamento ---------- */
     [[100, "medalha"], [500, "trofeu"]].forEach(([n, t]) => A("coruja" + n, t, "🦉", `Coruja do Plantão ${n}`, `Responder ${n} itens entre 0h e 4h59 (madrugada de plantão)`, s => s.coruja, n, "est"));
     [[100, "medalha"], [500, "trofeu"]].forEach(([n, t]) => A("madr" + n, t, "🌅", `Madrugador ${n}`, `Responder ${n} itens entre 5h e 7h59`, s => s.madrug, n, "est"));
@@ -2586,6 +2668,7 @@ const JR = { grp: lsGet("jrGrp") || "prox",
       <div class="styleChips"><span>${sty.hora}</span><span>${sty.ritmo}${sty.med ? ` · ${sty.med}/dia` : ""}</span><span>${sty.prec}${sty.acc ? ` · ${sty.acc}%` : ""}</span><span>${sty.foco}</span><span>${sty.div}</span></div>
       <p class="metaNow">Não existe estilo certo: o que importa é a constância. Os troféus 🎭 de estilo premiam o seu jeito de estudar — coruja de plantão, madrugador, maratonista ou gota constante.</p></div>
      ${cats.length ? `<div class="panel"><h2 style="margin-top:0">📚 Domínio por categoria</h2><div class="catGrid">${cats.map(([c, ic, nm, lbl]) => { const o = st.cat[c], p = Math.floor(100 * o.st / o.tot), tier = p >= 100 ? "👑 Mestre" : p >= 50 ? "🥇 Cavaleiro" : p >= 25 ? "🥈 Escudeiro" : p >= 10 ? "🥉 Aprendiz" : "🔒 a caminho"; return `<div class="catRow"><b>${ic} ${nm}</b> <small>${lbl}</small><span class="xpTrack"><i style="width:${p}%"></i></span><small>${p}% estudado · ${o.mat.toLocaleString("pt-BR")} maduros · ${tier}</small></div>`; }).join("")}</div></div>` : ""}
+     ${CF.html()}
      <div class="panel"><h2 style="margin-top:0">📊 Painel de produtividade (XP)</h2><div class="charts">
       <div class="chart"><h3>📅 XP por dia (14 dias)</h3>${barSVG(xp14, d14.map(d => d.slice(8) + "/" + d.slice(5, 7)), ["#e8c56a"])}</div>
       <div class="chart"><h3>🗓️ XP por semana (12 semanas)</h3>${barSVG(wv, W.map(lab), W.map(w => w === wNow ? "#4dd4ff" : "#e8c56a"))}</div>
@@ -2600,7 +2683,7 @@ const JR = { grp: lsGet("jrGrp") || "prox",
       ${shown}
       <p class="metaNow">✨ Bônus por conquista: medalha +20, troféu +40, título +50, brasão +80, honraria +150 XP. Categorias contam os cards das coleções ativas em ⚙️ Ajustes.</p></div>`;
     $$("#jrHost [data-jrg]").forEach(b => b.onclick = () => { this.grp = b.dataset.jrg; lsSet("jrGrp", this.grp); this.render(); });
-    WC.bind($("#jrHost"));
+    WC.bind($("#jrHost")); CF.bind($("#jrHost"));
     const ts = $("#jrTit"); if (ts) ts.onchange = () => { S.logs._tt = { id: ts.value, t: Date.now() }; saveLog(); this.render(); toast("🏷️ Título atualizado."); };
   } };
 
@@ -2746,7 +2829,7 @@ function saveSession(prefix, ids) {
 function startStudy(prefix, ids, resume, sim) {
   if (!resume && !sim) saveSession(prefix, ids);
   Study.sim = sim ? { ok: 0, n: 0, miss: [] } : null; Study.simOrder = sim ? ids.slice() : null;
-  Study.prefix = prefix; Study.ids = ids ? new Set(ids) : null; Study.seen = new Set(); Study.undo = []; Study.done = 0; Study.started = true;
+  Study.cur = null; Study.shown = false; Study.view = null; Study.prefix = prefix; Study.ids = ids ? new Set(ids) : null; Study.seen = new Set(); Study.undo = []; Study.done = 0; Study.started = true;
   const c = counts(prefix); Study.total = ids ? ids.length : c.n + c.l + c.r;
   if (location.hash !== "#estudar") location.hash = "estudar"; else showCard();
 }
@@ -2817,6 +2900,9 @@ function bars(which) {
   $("#barShow").classList.toggle("on", which === "show" && st);
   $("#barAns").classList.toggle("on", which === "ans" && st);
   $("#barHist").classList.toggle("on", which === "hist" && st);
+  const ca = $("#cfStudy"), ch = $("#cfHist"), hv = which === "hist" && st && Study.view != null && Study.undo[Study.view];
+  if (ca) ca.innerHTML = which === "ans" && st && Study.cur ? CF.box("c:" + Study.cur.id, { pri: 1, bar: 1 }) : "";
+  if (ch) ch.innerHTML = hv ? CF.box("c:" + hv.id, { pri: 1, bar: 1 }) : "";
 }
 /* ---------- Voltar / Continuar (histórico da sessão) ---------- */
 const GN = { 1: "De novo", 2: "Difícil", 3: "Bom", 4: "Fácil" };
@@ -2921,6 +3007,10 @@ function search() {
       if (i === "dificil" && c.srs.lapses < 3) return false;
       if (i === "meu" && !c.user) return false;
       if (i === "destaque" && !(c.hl && c.hl.length)) return false;
+      const cv = Array.isArray(c.cf) ? c.cf[0] || 0 : 0;
+      if (/^conf[1-5]$/.test(i) && cv !== +i.slice(4)) return false;
+      if (i === "confbaixa" && !(cv > 0 && cv <= 2)) return false;
+      if (i === "semconf" && cv) return false;
     }
     if (nterms.length) { const t = norm(c.txt || ""); if (!nterms.every(x => t.includes(x))) return false; }
     return true;
@@ -2928,8 +3018,8 @@ function search() {
   lastResults = res;
   $("#qInfo").textContent = `${res.length} card(s)` + (res.length > 150 ? " — mostrando 150" : "");
   $("#qRes").innerHTML = res.slice(0, 150).map(c => `<div class="res" data-id="${esc(c.id)}" style="border-left:3px solid ${accentFor(c.deck)}"><div class="hd"><div class="q">${esc(strip(c.q).slice(0, 180))}</div>
-    <span class="pill">${c.srs.st === "new" ? "novo" : c.srs.st === "review" ? fmtIvl(c.srs.ivl * DAY) : "aprendendo"}</span>${c.marked ? "🚩" : ""}${c.susp ? "⏸️" : ""}</div>
-    <div class="bd"><div style="font-size:12px;color:var(--mut);margin-bottom:6px">📚 ${esc(c.deck)}</div><div class="host"></div>
+    <span class="pill">${c.srs.st === "new" ? "novo" : c.srs.st === "review" ? fmtIvl(c.srs.ivl * DAY) : "aprendendo"}</span>${c.marked ? "🚩" : ""}${c.susp ? "⏸️" : ""}${Array.isArray(c.cf) && c.cf[0] ? `<span class="pill cfPill">${CF.LV[c.cf[0]][0]} ${c.cf[0]}</span>` : ""}</div>
+    <div class="bd"><div style="font-size:12px;color:var(--mut);margin-bottom:6px">📚 ${esc(c.deck)}</div><div class="host"></div>${CF.box("c:" + c.id, { sm: 1 })}
     <div class="row" style="margin-top:8px"><button class="btn sm" data-act="susp">${c.susp ? "▶️ Reativar" : "⏸️ Suspender"}</button><button class="btn sm" data-act="mark">${c.marked ? "Desmarcar" : "🚩 Marcar"}</button>
     <button class="btn sm" data-act="reset">♻️ Reiniciar</button>${c.user ? `<button class="btn sm danger" data-act="del">🗑️ Apagar</button>` : ""}</div></div></div>`).join("");
 }

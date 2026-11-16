@@ -294,6 +294,28 @@ html.lay-mobile .wcGrid{grid-template-columns:1fr}
 html.zoomOpen,html.zoomOpen body{overflow:hidden}
 
 
+/* 4.15.0 · 🎯 confiança no domínio 1–5 */
+.cfBox{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:10px 0 2px;padding:8px 10px;border:1px dashed var(--line);border-radius:12px;background:#0f151d}
+.cfBox.v1,.cfBox.v2{border-style:solid;border-color:color-mix(in srgb,var(--red) 55%,transparent)}.cfBox.v3{border-style:solid;border-color:color-mix(in srgb,var(--amb) 55%,transparent)}.cfBox.v4,.cfBox.v5{border-style:solid;border-color:color-mix(in srgb,var(--grn) 55%,transparent)}
+.cfLbl{font-size:13px;font-weight:700;color:var(--gold2);white-space:nowrap}
+.cfBtns{display:inline-flex;gap:5px;flex-wrap:nowrap}
+.cfB{min-width:44px;height:36px;padding:0 7px;border-radius:9px;border:1.5px solid var(--cfc);background:transparent;color:var(--txt);font:700 15px Inter,system-ui,sans-serif;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:3px;touch-action:manipulation}
+.cfB i{font-style:normal;font-size:14px;opacity:.8}
+.cfB:hover{background:color-mix(in srgb,var(--cfc) 18%,transparent)}
+.cfB.lit{background:color-mix(in srgb,var(--cfc) 22%,transparent)}
+.cfB.on{background:var(--cfc);color:#14100a;box-shadow:0 0 0 2px color-mix(in srgb,var(--cfc) 40%,transparent)}.cfB.on i{opacity:1}
+.cfB.pop{animation:cfpop .35s ease-out}@keyframes cfpop{0%{transform:scale(1)}40%{transform:scale(1.18)}100%{transform:scale(1)}}
+.cfSt{font-size:12.5px;color:var(--mut)}
+.cfBox.sm{padding:6px 8px;margin-top:8px;gap:5px 6px}.cfBox.sm .cfB{min-width:36px;height:30px;font-size:13px;padding:0 4px}.cfBox.sm .cfLbl{font-size:12px}
+.bar .cfIn{display:block}.bar .cfIn:empty{display:none}
+.bar .cfBox{margin:0 0 8px;padding:6px 8px;justify-content:center}
+#v-estudar{padding-bottom:48px}
+.cfDist{display:grid;gap:6px;margin:10px 0}.cfRowS{display:grid;grid-template-columns:150px 1fr 110px;gap:8px;align-items:center;font-size:13px}
+.cfSec td,.cfSec th{text-align:center;padding:6px 6px}.cfSec td:first-child,.cfSec th:first-child{text-align:left}.cfSec td:not(:first-child),.cfSec th:not(:first-child){white-space:nowrap}
+.pill.cfPill{color:#ffd166}
+@media(max-width:440px){.bar .cfBox .cfSt{display:none}.bar .cfBox .cfB{min-width:40px}.cfRowS{grid-template-columns:118px 1fr 84px}}
+html.lay-mobile .bar .cfBox .cfSt{display:none}
+
 /*LIGHT-START*/
 html.light{--bg:#f4efe2;--bg2:#fffcf4;--panel:#ffffff;--line:#d9cfb6;--txt:#1d1a14;--mut:#5b6270;--gold:#a47b12;--gold2:#7c5a08;--cy:#0a6f93;--red:#b8322a;--grn:#17783f;--amb:#9a6200;color-scheme:light}
 html.light,html.light body{background:radial-gradient(1200px 600px at 50% -200px,#fff6dc 0%,var(--bg) 60%) fixed}
@@ -412,6 +434,9 @@ html.light /* 🔍 Zoom de imagens (4.11.0) */
 html.light #zoomBox .zbar{background:#f8f9fb;border-bottom:1px solid #f0f2f5}
 html.light #zoomBox .zbar span{color:#796420}
 html.light #zoomBox .zhint{color:#3c454e}
+html.light /* 4.15.0 · 🎯 confiança no domínio 1–5 */
+.cfBox{background:#f7f8fa}
+html.light .pill.cfPill{color:#996b00}
 /*LIGHT-END*/
 </style>
 </head>
@@ -477,7 +502,7 @@ html.light #zoomBox .zhint{color:#3c454e}
   <button class="btn sm" id="bEnd">⏹️ Encerrar</button>
  </div>
  <div id="hlBar" role="toolbar" aria-label="Destacar texto"><div id="hlTxt"></div><button id="hlY">🟨 Amarelo</button><button id="hlG">🟩 Verde</button><button id="hlDel">🧽 Remover</button><button id="hlX" aria-label="Fechar">✖️</button></div>
- <div class="foot">🖍️ <b>Destacar:</b> selecione um trecho do card → 🟨/🟩 · toque no destaque para trocar ou remover · Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer · <span class="kbd">L</span> ouvir · <span class="kbd">←</span> voltar · <span class="kbd">→</span> continuar</div>
+ <div class="foot">🖍️ <b>Destacar:</b> selecione um trecho do card → 🟨/🟩 · toque no destaque para trocar ou remover · Atalhos: <span class="kbd">Espaço</span> mostrar · <span class="kbd">1</span>–<span class="kbd">4</span> responder · <span class="kbd">Z</span> desfazer · <span class="kbd">Shift</span>+<span class="kbd">1</span>–<span class="kbd">5</span> 🎯 confiança · <span class="kbd">L</span> ouvir · <span class="kbd">←</span> voltar · <span class="kbd">→</span> continuar</div>
 </section>
 
 <!-- QUESTÕES -->
@@ -591,12 +616,12 @@ html.light #zoomBox .zhint{color:#3c454e}
 </main>
 
 <div class="bar" id="barShow"><div class="in"><button class="btn gold" id="bShow" style="justify-content:center;padding:14px">👁️ Mostrar resposta <span class="kbd" style="color:#3a2f10;border-color:#8a7020">Espaço</span></button></div></div>
-<div class="bar" id="barAns"><div class="in ans">
+<div class="bar" id="barAns"><div class="in cfIn" id="cfStudy"></div><div class="in ans">
  <button class="btn g1" data-g="1"><b>De novo</b><small id="i1"></small></button>
  <button class="btn g2" data-g="2"><b>Difícil</b><small id="i2"></small></button>
  <button class="btn g3" data-g="3"><b>Bom</b><small id="i3"></small></button>
  <button class="btn g4" data-g="4"><b>Fácil</b><small id="i4"></small></button></div></div>
-<div class="bar" id="barHist"><div class="in" style="grid-template-columns:1fr 1fr 1.3fr">
+<div class="bar" id="barHist"><div class="in cfIn" id="cfHist"></div><div class="in" style="grid-template-columns:1fr 1fr 1.3fr">
  <button class="btn cy" id="hBack" style="justify-content:center">⬅️ Anterior</button>
  <button class="btn" id="hRedo" style="justify-content:center">🔁 Refazer este</button>
  <button class="btn gold" id="hCont" style="justify-content:center">Continuar ▶</button></div></div>
