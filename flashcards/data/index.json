@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "4.17.1",
+ "versao": "4.18.1",
  "colecoes": [
   {
    "id": "ouro",
@@ -68,18 +68,18 @@
    "cards": 450
   },
   {
-   "id": "escr",
-   "nome": "Escrituras & Axiomas 360X",
-   "icone": "📜",
-   "descricao": "1128 flashcards de mensagens que importam: Torá, Salmos, Provérbios, Profetas, Evangelhos, Cartas, Talmude, Alcorão, Budismo, Confúcio, Taoísmo, Hinduísmo, Estoicos, filosofia, outras tradições, medicina, personalidades, mitos de citação e os 128 Axiomas 360X do autor com comentários. Organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho.",
-   "cards": 1128
-  },
-  {
    "id": "j360",
    "nome": "Jornal 360 · Pílulas do Dia",
    "icone": "📰",
    "descricao": "Um baralho por edição do Jornal Diário 360 com os conceitos das Pílulas do Dia (TEMI, R3, POCUS, ECG e VM), fontes citadas e link para a edição completa no celular.",
    "cards": 16
+  },
+  {
+   "id": "escr",
+   "nome": "Escrituras & Axiomas 360X",
+   "icone": "📜",
+   "descricao": "1135 flashcards de mensagens que importam: Torá, Salmos, Provérbios, Profetas, Evangelhos, Cartas, Talmude, Alcorão, Budismo, Confúcio, Taoísmo, Hinduísmo, Estoicos, filosofia, outras tradições, medicina, personalidades, mitos de citação e os 135 Axiomas 360X do autor com comentários. Organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho.",
+   "cards": 1135
   }
  ],
  "decks": [
@@ -4025,6 +4025,20 @@
    "pacote": "pack-7-gaso"
   },
   {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-16.json",
+   "tema": "16/11/2026 · nº 011 · O choque que não responde",
+   "cards": 16,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
    "colecao": "escr",
    "arquivo": "data/decks/escr-01-tora_pentateuco.json",
    "tema": "01 📖 Torá (Pentateuco)",
@@ -4218,25 +4232,11 @@
    "colecao": "escr",
    "arquivo": "data/decks/escr-20-axiomas_360x_aldenir_rocha_autor.json",
    "tema": "20 ⚜️ Axiomas 360X — Aldenir Rocha (autor)",
-   "cards": 128,
+   "cards": 135,
    "subtemas": [
     "20 ⚜️ Axiomas 360X — Aldenir Rocha (autor)"
    ],
    "pacote": "pack-8-escr"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-16.json",
-   "tema": "16/11/2026 · nº 011 · O choque que não responde",
-   "cards": 16,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
   }
  ],
  "pacotes": [
@@ -4349,21 +4349,6 @@
    "gzbytes": 196620
   },
   {
-   "nome": "pack-8-escr",
-   "rotulo": "📜 Escrituras & Axiomas 360X",
-   "colecoes": [
-    "escr"
-   ],
-   "gz": "data/packs/pack-8-escr.gz.txt",
-   "enc": "b64",
-   "json": "data/packs/pack-8-escr.json",
-   "sha": "2ca14bc16805115e",
-   "decks": 20,
-   "cards": 1128,
-   "bytes": 1585777,
-   "gzbytes": 174796
-  },
-  {
    "nome": "pack-9-j360",
    "rotulo": "📰 Jornal 360 · Pílulas do Dia",
    "colecoes": [
@@ -4377,6 +4362,21 @@
    "cards": 16,
    "bytes": 12605,
    "gzbytes": 3948
+  },
+  {
+   "nome": "pack-8-escr",
+   "rotulo": "📜 Escrituras & Axiomas 360X",
+   "colecoes": [
+    "escr"
+   ],
+   "gz": "data/packs/pack-8-escr.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-8-escr.json",
+   "sha": "e69434421a5bb562",
+   "decks": 20,
+   "cards": 1135,
+   "bytes": 1597836,
+   "gzbytes": 176740
   }
  ]
 }

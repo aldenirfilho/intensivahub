@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""🗺️ Mapa dos 10 eixos + Armorial com os 128 Axiomas 360X (página interativa + PNG + PDF).
+"""🗺️ Mapa dos 10 eixos + Armorial com os 135 Axiomas 360X (página interativa + PNG + PDF).
 Anel de eixos; cada axioma é um ponto colorido pelo tema; as curvas douradas ligam os axiomas
 que os comentários citam entre si; escolher um tema liga todos os axiomas daquele tema."""
 import html
@@ -22,7 +22,7 @@ def ligacoes(ax):
             if re.search(r"\d+\s*(?:a|–|-)\s*\d+", seq) and len(nums) == 2 and nums[1] - nums[0] <= 8:
                 nums = list(range(nums[0], nums[1] + 1))
             for x in nums:
-                if 1 <= x <= 128 and x != a["n"]:
+                if 1 <= x <= 135 and x != a["n"]:
                     pares.add(tuple(sorted((a["n"], x))))
     return sorted(pares)
 
@@ -53,10 +53,10 @@ svg{{width:100%;height:auto;display:block;background:radial-gradient(circle at 5
 .leg{{color:#9fb3c8;font-size:12px;margin-top:10px;line-height:1.5}}
 </style></head><body>
 <div class="topo"><b>🗺️ Mapa dos Axiomas 360X</b><span><a href="axiomas-360x.html">📖 Livro</a> · <a href="../index.html#inicio">← Códice 360X</a></span></div>
-<div class="wrap"><div><svg id="mapa" viewBox="0 0 1200 1200" role="img" aria-label="Mapa radial: 11 eixos e 128 axiomas"></svg></div>
+<div class="wrap"><div><svg id="mapa" viewBox="0 0 1200 1200" role="img" aria-label="Mapa radial: 11 eixos e 135 axiomas"></svg></div>
 <div class="lado"><h2>Temas</h2><div class="chips" id="chips"></div>
 <div class="leg">● ponto = axioma (cor do tema) · arco interno = eixo · <span style="color:#d4af37">curva dourada</span> = um comentário cita o outro axioma · escolha um tema para ligar todos os axiomas dele.</div>
-<div id="info"><div class="n">toque num ponto</div><h3>Axiomas 360X</h3><blockquote>128 axiomas em 10 eixos e o Armorial.</blockquote><div>{AUTOR}</div></div></div></div>
+<div id="info"><div class="n">toque num ponto</div><h3>Axiomas 360X</h3><blockquote>135 axiomas em 10 eixos e o Armorial.</blockquote><div>{AUTOR}</div></div></div></div>
 <script>const AX={json.dumps(dados, ensure_ascii=False)};const EIX={json.dumps(eix, ensure_ascii=False)};const TEM={json.dumps(tem, ensure_ascii=False)};const LIG={json.dumps(ligacoes(ax))};
 {JS}</script></body></html>"""
 
@@ -71,7 +71,7 @@ const span=(2*Math.PI-gap*EIX.length)/total;
 const gEix=el('g',{}),gLig=el('g',{}),gTema=el('g',{}),gDot=el('g',{});
 el('circle',{cx:C,cy:C,r:R1-70,fill:'none',stroke:'rgba(212,175,55,.25)','stroke-width':1});
 el('text',{x:C,y:C-14,'text-anchor':'middle',fill:'#d4af37','font-size':34,'font-family':'LoraLivro,Georgia,serif'}).textContent='⚜ AXIOMAS 360X';
-el('text',{x:C,y:C+22,'text-anchor':'middle',fill:'#22b8d6','font-size':15}).textContent='10 eixos · Armorial · 128 axiomas';
+el('text',{x:C,y:C+22,'text-anchor':'middle',fill:'#22b8d6','font-size':15}).textContent='10 eixos · Armorial · 135 axiomas';
 el('text',{x:C,y:C+48,'text-anchor':'middle',fill:'#b9ab86','font-size':13}).textContent='Aldenir Rocha de Oliveira Filho';
 EIX.forEach((E,i)=>{const lista=AX.filter(a=>a.e===E.k);const a0=ang,a1=ang+span*lista.length;
   const arc=(r)=>`M ${C+r*Math.cos(a0)} ${C+r*Math.sin(a0)} A ${r} ${r} 0 ${a1-a0>Math.PI?1:0} 1 ${C+r*Math.cos(a1)} ${C+r*Math.sin(a1)}`;
