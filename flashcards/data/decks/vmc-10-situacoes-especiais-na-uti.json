@@ -1,0 +1,176 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::10 🧯 Situações especiais na UTI",
+ "midia": {
+  "vm_139.png": "data/media/vp/vm-10.json#vm_139.png",
+  "vm_140.png": "data/media/vp/vm-10.json#vm_140.png",
+  "vm_141.png": "data/media/vp/vm-10.json#vm_141.png",
+  "vm_142.png": "data/media/vp/vm-10.json#vm_142.png",
+  "vm_143.png": "data/media/vp/vm-10.json#vm_143.png",
+  "vm_144.png": "data/media/vp/vm-10.json#vm_144.png",
+  "vm_145.png": "data/media/vp/vm-10.json#vm_145.png",
+  "vm_146.png": "data/media/vp/vm-10.json#vm_146.png",
+  "vm_147.png": "data/media/vp/vm-10.json#vm_147.png",
+  "vm_148.png": "data/media/vp/vm-10.json#vm_148.png",
+  "vm_149.png": "data/media/vp/vm-10.json#vm_149.png",
+  "vm_150.png": "data/media/vp/vm-10.json#vm_150.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #139</b> · Asmático em VM evoluiu com AESP.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_139.png",
+   "verso": "✅ <b>AESP por hiperinsuflação dinâmica no asmático</b><br>🔎 Fluxo expiratório não chega a zero, Ppico muito alta, FR alta.<br>⚡ <b>Conduta:</b> Desconectar o ventilador e comprimir o tórax para esvaziar; RCP; descomprimir se pneumotórax.",
+   "pegadinha": "Na PCR do asmático ventilado, causas: auto-PEEP e pneumotórax.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #140</b> · Após punção venosa central, hipotensão e SatO2 70%.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_140.png",
+   "verso": "✅ <b>Pneumotórax hipertensivo no ventilado</b><br>🔎 Elevação abrupta e importante de Ppico e Pplat a partir de um ciclo.<br>⚡ <b>Conduta:</b> Descompressão imediata (agulha 4º–5º EIC linha axilar média) e drenagem; não esperar Rx.",
+   "pegadinha": "POCUS: ausência de deslizamento + ponto pulmonar.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #141</b> · APRV com piora da oxigenação.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_141.png",
+   "verso": "✅ <b>APRV com T-low longo (desrecrutamento)</b><br>🔎 Na liberação, o fluxo expiratório chega a zero (esvaziamento completo).<br>⚡ <b>Conduta:</b> Encurtar T-low para interromper a ~75% do pico de fluxo expiratório.",
+   "pegadinha": "Fluxo expiratório zerado na liberação = PEEP efetiva perdida.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #142</b> · Protocolo de morte encefálica.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_142.png",
+   "verso": "✅ <b>Ausência de esforço respiratório em CPAP (teste de apneia)</b><br>🔎 Fluxo totalmente plano, sem deflexões de esforço.<br>⚡ <b>Conduta:</b> Teste de apneia: PaCO2 ≥ 55 mmHg (ou ↑ ≥ 20) sem incursões = apneia; manter oxigenação (CPAP/cateter).",
+   "pegadinha": "Oscilações cardiogênicas e autodisparo podem simular respiração.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #143</b> · Cetoacidose diabética intubada, pH 7,05.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_143.png",
+   "verso": "✅ <b>Drive alto por acidose metabólica (respiração de Kussmaul)</b><br>🔎 FR alta com VT grande (volume-minuto muito alto).<br>⚡ <b>Conduta:</b> Manter VM alta para compensar (não 'normalizar' FR); tratar a acidose.",
+   "pegadinha": "Reduzir a ventilação na acidose metabólica grave pode precipitar PCR.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #144</b> · Asma grave com Pplat 32.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_144.png",
+   "verso": "✅ <b>Asma com Pplat &gt; 30: hiperinsuflação grave</b><br>🔎 Ppico muito alta e Pplat &gt; 30 (hiperinsuflação).<br>⚡ <b>Conduta:</b> Reduzir VT e FR, aumentar Te; hipercapnia permissiva; broncodilatadores; considerar cetamina/heliox/ECMO.",
+   "pegadinha": "Na asma, a Pplat (e não a Ppico) mede o risco de barotrauma.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #145</b> · Pós-op abdominal, PIA 25 mmHg.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_145.png",
+   "verso": "✅ <b>Síndrome compartimental abdominal: queda de complacência</b><br>🔎 Pplat e ΔP elevadas com resistência normal em contexto de PIA alta.<br>⚡ <b>Conduta:</b> Descompressão (sonda, sedação/bloqueio, drenagem, laparotomia se SCA); PEEP pode precisar ser maior.",
+   "pegadinha": "Parte da Pplat alta é parede/abdome: Pes ajuda a separar.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #146</b> · PCR em paciente intubado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_146.png",
+   "verso": "✅ <b>Compressões torácicas visíveis nas curvas (RCP em VM)</b><br>🔎 Oscilações regulares rápidas (≈ 110/min) na pressão e no fluxo, sobrepostas aos ciclos.<br>⚡ <b>Conduta:</b> RCP: FR 10, FiO2 100%, desligar disparo/alarmes de pressão; PEEP baixa; capnografia guia a RCP.",
+   "pegadinha": "Disparo sensível na RCP gera hiperventilação deletéria.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #147</b> · SDRA com PEEP zerada por engano.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_147.png",
+   "verso": "✅ <b>PEEP zero (ZEEP) em paciente com SDRA</b><br>🔎 Linha de base da pressão em 0 cmH2O.<br>⚡ <b>Conduta:</b> Restabelecer PEEP adequada (≥ 5, em geral 8–14 na SDRA).",
+   "pegadinha": "ZEEP favorece atelectasia e atelectrauma.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #148</b> · SDRA grave (P/F 80) com assincronia apesar de sedação.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_148.png",
+   "verso": "✅ <b>SDRA grave com assincronia refratária (indicação de bloqueio)</b><br>🔎 Esforços vigorosos, duplo disparo e curvas irregulares.<br>⚡ <b>Conduta:</b> Bloqueio neuromuscular por até 48 h na SDRA grave com assincronia refratária; prona.",
+   "pegadinha": "Bloqueio sem sedação profunda é inaceitável.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #149</b> · Paciente em ECMO VV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_149.png",
+   "verso": "✅ <b>Ventilação de repouso em ECMO</b><br>🔎 PCV com ΔP ~10, PEEP 10, FR 10 e VT muito baixo.<br>⚡ <b>Conduta:</b> Objetivo: repouso pulmonar com Pplat ≤ 25 e ΔP ≤ 15; oxigenação pela ECMO.",
+   "pegadinha": "VT de 1–3 mL/kg é aceitável em ECMO.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #150</b> · Lesão de tronco encefálico, PaCO2 22.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_150.png",
+   "verso": "✅ <b>Hiperventilação neurogênica central</b><br>🔎 Padrão rápido e muito regular, com VT preservado e hipocapnia, sem acidose metabólica.<br>⚡ <b>Conduta:</b> Investigar lesão de tronco/ponte; sedação e ajuste de modo; evitar hipocapnia extrema.",
+   "pegadinha": "Hiperventilação mantida reduz o fluxo cerebral (isquemia).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

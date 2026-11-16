@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.11.0";
+const APP_VERSION = "4.12.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -44,6 +44,7 @@ ul{margin:6px 0;padding-left:22px}li{margin:3px 0}li::marker{color:var(--acc)}
 img,svg{max-width:100%;height:auto}
 .img{margin-top:12px;text-align:center}.img img,.img svg{max-width:100%;height:auto;border-radius:10px;border:1px solid #2a3442}.img img{cursor:zoom-in}
 .img.ecg{margin:12px -4px 0}.img.ecg img{border-radius:6px;background:#fff;width:100%}.img.ecg::after{content:"🔍 toque no traçado para ampliar";display:block;font-size:12px;opacity:.65;margin-top:4px}
+.img.fig{margin:12px -4px 0}.img.fig img{border-radius:6px;background:#000;width:100%}.img.fig::after{content:"🔍 toque na imagem para ampliar";display:block;font-size:12px;opacity:.65;margin-top:4px}
 .peg{margin-top:12px;background:#2a2210;border-left:4px solid #ffc14d;border-radius:8px;padding:10px 12px;font-size:16px;color:#ffe9b8}
 .src{margin-top:10px;font-size:13px;color:#8a94a3}
 .cloze{color:var(--acc);font-weight:700;border-bottom:2px dotted var(--acc)}
@@ -554,9 +555,11 @@ async function saveLog() { await DB.setMeta("logs", S.logs); Cloud.markSt(); }
 async function saveSettings() { S.settingsMod = Date.now(); await DB.setMeta("settings", { v: S.settings, mod: S.settingsMod }); Cloud.markSt(); }
 
 /* ---------------- Formato CÓDICE (JSON) ---------------- */
+const FIG_ALT = { ecg: "Traçado de ECG — toque para ampliar", vm: "Curvas do ventilador — toque para ampliar", us: "Imagem de POCUS — toque para ampliar" };
+const figCls = n => /^vm_/.test(n) ? "fig vm" : /^us_/.test(n) ? "fig us" : "ecg";   // 📈 ECG · 🫁 curvas de VM · 🔊 POCUS
 function imgHTML(v, cls) {
   if (!v) return "";
-  v = String(v).trim(); const k = cls ? `"img ${cls}"` : "img", alt = cls === "ecg" ? ` alt="Traçado de ECG — toque para ampliar"` : "";
+  v = String(v).trim(); const k = cls ? `"img ${cls}"` : "img", alt = cls ? ` alt="${FIG_ALT[cls.split(" ").pop()] || "Imagem — toque para ampliar"}"` : "";
   if (v.startsWith("<svg")) return `<div class=${k}>${v}</div>`;
   if (/^(data:|https?:)/i.test(v)) return `<div class=${k}><img src="${esc(v)}"${alt}></div>`;
   return `<div class=${k}><img data-m="${esc(v.replace(/^.*\//, ""))}"${alt}></div>`;
@@ -571,7 +574,7 @@ function codiceHTML(c, clozeN) {
   const tail = c.deck.split("::").slice(-1)[0];
   let qf = c.f, af = c.f;
   if (clozeN) { qf = renderCloze(c.f, clozeN, false); af = renderCloze(c.f, clozeN, true); }
-  const head = `<div class=tema>${esc(tail)}</div>`, fimg = c.imgf ? imgHTML(c.imgf, "ecg") : "";   // 📈 imagem na FRENTE (Compêndio de ECG)
+  const head = `<div class=tema>${esc(tail)}</div>`, fimg = c.imgf ? imgHTML(c.imgf, figCls(String(c.imgf).replace(/^.*\//, ""))) : "";   // imagem na FRENTE (ECG · VM · POCUS)
   return {
     q: `${head}<div class=q>${qf}</div>${fimg}`,
     a: `${head}<div class=q>${af}</div>${fimg}<hr id=answer>` + (c.b ? `<div class=a>${c.b}</div>` : "") + imgHTML(c.img) +

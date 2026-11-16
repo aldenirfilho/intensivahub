@@ -1,0 +1,232 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::06 🧱 SDRA: proteção pulmonar, ΔP, stress index e esforço",
+ "midia": {
+  "vm_081.png": "data/media/vp/vm-06.json#vm_081.png",
+  "vm_082.png": "data/media/vp/vm-06.json#vm_082.png",
+  "vm_083.png": "data/media/vp/vm-06.json#vm_083.png",
+  "vm_084.png": "data/media/vp/vm-06.json#vm_084.png",
+  "vm_085.png": "data/media/vp/vm-06.json#vm_085.png",
+  "vm_086.png": "data/media/vp/vm-06.json#vm_086.png",
+  "vm_087.png": "data/media/vp/vm-06.json#vm_087.png",
+  "vm_088.png": "data/media/vp/vm-06.json#vm_088.png",
+  "vm_089.png": "data/media/vp/vm-06.json#vm_089.png",
+  "vm_090.png": "data/media/vp/vm-06.json#vm_090.png",
+  "vm_091.png": "data/media/vp/vm-06.json#vm_091.png",
+  "vm_092.png": "data/media/vp/vm-06.json#vm_092.png",
+  "vm_093.png": "data/media/vp/vm-06.json#vm_093.png",
+  "vm_094.png": "data/media/vp/vm-06.json#vm_094.png",
+  "vm_095.png": "data/media/vp/vm-06.json#vm_095.png",
+  "vm_096.png": "data/media/vp/vm-06.json#vm_096.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #081</b> · SDRA, VCV fluxo constante, paciente passivo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_081.png",
+   "verso": "✅ <b>Stress index &gt; 1 (hiperdistensão)</b><br>🔎 Rampa de pressão inspiratória côncava para cima (pressão acelera no fim da insuflação).<br>⚡ <b>Conduta:</b> Reduzir VT e/ou PEEP; checar ΔP.",
+   "pegadinha": "Stress index só vale em VCV com fluxo constante e paciente passivo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #082</b> · SDRA com PEEP 5.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_082.png",
+   "verso": "✅ <b>Stress index &lt; 1 (recrutamento/desrecrutamento cíclico)</b><br>🔎 Rampa de pressão côncava para baixo (pressão desacelera ao longo da insuflação).<br>⚡ <b>Conduta:</b> Sugere PEEP insuficiente: considerar aumentar PEEP com vigilância de ΔP e hemodinâmica.",
+   "pegadinha": "Recrutamento cíclico (atelectrauma) também lesa o pulmão.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #083</b> · SDRA após ajuste de PEEP.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_083.png",
+   "verso": "✅ <b>Stress index ≈ 1 (rampa linear)</b><br>🔎 Rampa de pressão inspiratória retilínea durante o fluxo constante.<br>⚡ <b>Conduta:</b> Sugere ajuste adequado de VT/PEEP para a mecânica atual.",
+   "pegadinha": "Interpretar junto com Pplat e ΔP.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #084</b> · SDRA moderada, peso predito 60 kg.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_084.png",
+   "verso": "✅ <b>Ventilação protetora adequada</b><br>🔎 VT 6 mL/kg (360 mL), Pplat ≈ 25, ΔP ≈ 13, PEEP 12, FR 26.<br>⚡ <b>Conduta:</b> Manter metas (Pplat ≤ 30, ΔP ≤ 15), pH &gt; 7,20–7,25; prona se P/F &lt; 150.",
+   "pegadinha": "FR alta pode gerar auto-PEEP: confira o fluxo expiratório.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #085</b> · SDRA, Pplat 27.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_085.png",
+   "verso": "✅ <b>ΔP &gt; 15 com Pplat &lt; 30</b><br>🔎 PEEP 10, Pplat ≈ 27 → ΔP ≈ 17.<br>⚡ <b>Conduta:</b> Reduzir VT (até 4 mL/kg) para ΔP ≤ 15; reavaliar PEEP.",
+   "pegadinha": "Metas: Pplat ≤ 30 E ΔP ≤ 15 — ambas.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #086</b> · SDRA com PEEP 3: alça P-V.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_086.png",
+   "verso": "✅ <b>Alça P-V com inflexão inferior (recrutamento)</b><br>🔎 Ramo inspiratório inicialmente plano e depois mais íngreme (ganho de complacência com a insuflação).<br>⚡ <b>Conduta:</b> PEEP acima do ponto de inflexão inferior pode evitar colapso cíclico; individualizar.",
+   "pegadinha": "O ponto de inflexão inferior não define sozinho a PEEP ideal.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #087</b> · Obeso com SDRA e hipoxemia.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_087.png",
+   "verso": "✅ <b>Pressão transpulmonar expiratória negativa (PEEP insuficiente)</b><br>🔎 Pes expiratória (18) &gt; PEEP (10): PL expiratória negativa → colapso.<br>⚡ <b>Conduta:</b> Aumentar PEEP para PL expiratória ~0 a +2 cmH2O, checando PL inspiratória.",
+   "pegadinha": "No obeso a PEEP 'alta' pela tabela pode ser insuficiente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #088</b> · SDRA em PSV, paciente muito dispneico.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_088.png",
+   "verso": "✅ <b>Esforço inspiratório excessivo (ΔPes alto): risco de P-SILI</b><br>🔎 Grandes deflexões negativas da Pes (&gt; 15 cmH2O) com VT alto.<br>⚡ <b>Conduta:</b> Aumentar sedação/analgesia, voltar a modo controlado, considerar bloqueio na SDRA grave.",
+   "pegadinha": "Esforço vigoroso aumenta a pressão transpulmonar e o edema (pendelluft).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #089</b> · Hipoxemia grave, manobra do intensivista.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_089.png",
+   "verso": "✅ <b>Manobra de recrutamento por insuflação sustentada</b><br>🔎 Pressão mantida em 40 cmH2O por dezenas de segundos, sem ciclos.<br>⚡ <b>Conduta:</b> Não recomendada de rotina (ART trial: maior mortalidade com recrutamento agressivo); vigiar PA e barotrauma.",
+   "pegadinha": "Se feita, monitorar hipotensão e dessaturação.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #090</b> · SDRA leve, VT herdado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_090.png",
+   "verso": "✅ <b>VT acima de 6–8 mL/kg de peso predito</b><br>🔎 VT 620 mL ≈ 10 mL/kg PBW.<br>⚡ <b>Conduta:</b> Reduzir para 6 mL/kg (360 mL); compensar com FR.",
+   "pegadinha": "Calcular PBW pela altura e sexo: homem 50 + 0,91 × (altura − 152,4).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #091</b> · SDRA em PCV: estimar ΔP.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_091.png",
+   "verso": "✅ <b>Em PCV, Pplatô ≈ pressão inspiratória quando o fluxo zera</b><br>🔎 Fluxo inspiratório chega a zero antes do fim da inspiração; ΔP ≈ Pinsp acima da PEEP (14).<br>⚡ <b>Conduta:</b> Usar Pinsp como ΔP se o fluxo zera e o paciente é passivo; confirmar com pausa.",
+   "pegadinha": "Se o fluxo não zera, Pplat &lt; Pinsp.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #092</b> · Titulação decremental de PEEP após recrutamento.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_092.png",
+   "verso": "✅ <b>Titulação decremental de PEEP pela melhor complacência</b><br>🔎 Maior complacência estática em PEEP 14.<br>⚡ <b>Conduta:</b> Escolher a PEEP de melhor complacência (± 2 cmH2O) e reavaliar oxigenação/hemodinâmica.",
+   "pegadinha": "Métodos alternativos: tabela PEEP/FiO2, Pes, EIT.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #093</b> · SDRA em PSV: manobra de oclusão expiratória.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_093.png",
+   "verso": "✅ <b>ΔPocc elevado (esforço excessivo)</b><br>🔎 Durante a oclusão expiratória a pressão cai ~14 cmH2O abaixo da PEEP.<br>⚡ <b>Conduta:</b> Pmus ≈ 0,75 × |ΔPocc|; |ΔPocc| &gt; 15–20 sugere esforço excessivo → aumentar suporte/sedação.",
+   "pegadinha": "Medida simples à beira-leito sem cateter esofágico.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #094</b> · Aumento de PEEP de 10 → 16.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_094.png",
+   "verso": "✅ <b>PEEP excessiva com hiperdistensão (ΔP aumentou)</b><br>🔎 Com PEEP maior o ΔP subiu (12 → 16) e a Pplat ≈ 32.<br>⚡ <b>Conduta:</b> Voltar à PEEP anterior: pulmão pouco recrutável.",
+   "pegadinha": "Recrutamento verdadeiro reduz ou mantém o ΔP.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #095</b> · SDRA grave, complacência 16, peso predito 65 kg.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_095.png",
+   "verso": "✅ <b>VT ultraprotetor (≈ 4 mL/kg) por complacência muito baixa</b><br>🔎 VT ≈ 260 mL com Pplat ≈ 28 e ΔP ≈ 16.<br>⚡ <b>Conduta:</b> Aceitar hipercapnia; prona; se refratário, avaliar ECMO.",
+   "pegadinha": "Com C muito baixa, 6 mL/kg já gera ΔP &gt; 15.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #096</b> · SDRA com Pes: PL inspiratória.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_096.png",
+   "verso": "✅ <b>Pressão transpulmonar inspiratória alta (estresse pulmonar real)</b><br>🔎 PL inspiratória = Pplat − Pes ≈ 24 cmH2O.<br>⚡ <b>Conduta:</b> Reduzir VT/PEEP (PL insp &lt; 20–25).",
+   "pegadinha": "Pplat 29 parece 'segura', mas o pulmão sofre estresse alto.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

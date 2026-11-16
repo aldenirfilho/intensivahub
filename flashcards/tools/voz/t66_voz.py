@@ -28,7 +28,7 @@ with sync_playwright() as p:
         ctx = br.new_context(viewport=vp); ctx.add_init_script(STUB); pg = ctx.new_page(); errs = []
         pg.on("pageerror", lambda e: errs.append(str(e)))
         pg.goto(URL + "#inicio"); pg.wait_for_function("typeof VOZ!=='undefined' && S && S.cards && S.cards.length>1000", timeout=60000)
-        chk(pg.evaluate("APP_VERSION") == "4.10.0", f"[{lab}] versão 4.10.0")
+        chk(pg.evaluate("APP_VERSION") >= "4.10.0", f"[{lab}] versão ≥ 4.10.0")
         chk(pg.is_visible("#vozBtn"), f"[{lab}] 🔊 no cabeçalho")
         w = pg.evaluate("document.documentElement.scrollWidth-document.documentElement.clientWidth"); chk(w <= 1, f"[{lab}] cabeçalho sem estouro ({w}px)")
         # 🔊 do cabeçalho na tela inicial

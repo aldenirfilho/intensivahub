@@ -1,0 +1,190 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::06 💦 VCI, fluidorresponsividade e VTI",
+ "midia": {
+  "us_079.png": "data/media/vp/us-06.json#us_079.png",
+  "us_080.png": "data/media/vp/us-06.json#us_080.png",
+  "us_081.png": "data/media/vp/us-06.json#us_081.png",
+  "us_082.png": "data/media/vp/us-06.json#us_082.png",
+  "us_083.png": "data/media/vp/us-06.json#us_083.png",
+  "us_084.png": "data/media/vp/us-06.json#us_084.png",
+  "us_085.png": "data/media/vp/us-06.json#us_085.png",
+  "us_086.png": "data/media/vp/us-06.json#us_086.png",
+  "us_087.png": "data/media/vp/us-06.json#us_087.png",
+  "us_088.png": "data/media/vp/us-06.json#us_088.png",
+  "us_089.png": "data/media/vp/us-06.json#us_089.png",
+  "us_090.png": "data/media/vp/us-06.json#us_090.png",
+  "us_091.png": "data/media/vp/us-06.json#us_091.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #079</b> · Hipotensão, respiração espontânea tranquila.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_079.png",
+   "verso": "✅ <b>VCI pequena com colapso &gt; 50% (PAD baixa provável)</b><br>🔎 Diâmetro máximo ≈ 1,3 cm e mínimo ≈ 0,4 cm (colapso ≈ 70%).<br>⚡ <b>Conduta:</b> PAD estimada 0–5 mmHg: volume provavelmente tolerado; confirmar resposta com VTI/PLR.",
+   "pegadinha": "VCI colapsável não prova fluidorresponsividade; prova pré-carga baixa provável.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #080</b> · Dispneia, edema de MMII, turgência jugular.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_080.png",
+   "verso": "✅ <b>VCI pletórica (&gt; 2,1 cm, colapso &lt; 50%)</b><br>🔎 VCI ≈ 2,5 cm com variação mínima.<br>⚡ <b>Conduta:</b> PAD elevada (≈ 15 mmHg): volume improvável de ajudar; investigar VD, tamponamento, sobrecarga.",
+   "pegadinha": "VCI pletórica isolada não diferencia causas (VD, tamponamento, IT, hipervolemia).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #081</b> · Choque séptico em VM controlada, VT 8 mL/kg, ritmo sinusal.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_081.png",
+   "verso": "✅ <b>Distensibilidade da VCI &gt; 18% em VM (fluidorresponsivo provável)</b><br>🔎 Dmáx 2,1 e Dmín 1,6 cm → (Dmáx − Dmín)/Dmín ≈ 31%.<br>⚡ <b>Conduta:</b> Prova de volume provavelmente aumenta o DC (paciente passivo, VT ≥ 8 mL/kg).",
+   "pegadinha": "Inválido com esforço respiratório, VT baixo, PIA alta ou arritmia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #082</b> · VM controlada, choque persistente após 3 L.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_082.png",
+   "verso": "✅ <b>Distensibilidade da VCI &lt; 12% em VM (fluidorresponsividade improvável)</b><br>🔎 Variação mínima do diâmetro com os ciclos do ventilador.<br>⚡ <b>Conduta:</b> Evitar mais volume; vasopressor/inotrópico conforme perfil.",
+   "pegadinha": "Com PEEP alta a VCI pode ficar dilatada sem significado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #083</b> · Diarreia profusa, hipotensão.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_083.png",
+   "verso": "✅ <b>VCI fina no eixo longo (B-mode)</b><br>🔎 VCI ≈ 1,0 cm na junção com o AD.<br>⚡ <b>Conduta:</b> Pré-carga provavelmente baixa: ressuscitação volêmica guiada.",
+   "pegadinha": "Meça 1–2 cm da junção com o AD, perpendicular ao eixo do vaso.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #084</b> · VM controlada, sinusal, VT 8 mL/kg.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_084.png",
+   "verso": "✅ <b>Variação respiratória do VTI &gt; 12% (fluidorresponsivo em VM)</b><br>🔎 Vpico/VTI variam ≈ 25–30% ao longo do ciclo respiratório.<br>⚡ <b>Conduta:</b> Responsivo a volume: prova de volume se houver indicação (hipoperfusão).",
+   "pegadinha": "Mesmas limitações da VPP: paciente passivo, sinusal, VT adequado, tórax fechado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #085</b> · Antes do PLR: VTI 14 cm. Depois do PLR: imagem abaixo.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_085.png",
+   "verso": "✅ <b>Elevação passiva das pernas positiva (ΔVTI ≥ 10–15%)</b><br>🔎 VTI ≈ 17 cm após PLR (aumento ≈ 20%).<br>⚡ <b>Conduta:</b> Fluidorresponsivo: administrar volume se houver indicação.",
+   "pegadinha": "PLR deve partir da posição semissentada e o VTI é medido em 30–90 s.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #086</b> · Choque séptico quente, VCI fina.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_086.png",
+   "verso": "✅ <b>VTI elevado no choque distributivo hiperdinâmico</b><br>🔎 VTI ≈ 26 cm (débito alto).<br>⚡ <b>Conduta:</b> Vasoplegia: priorizar vasopressor (noradrenalina) e controle do foco.",
+   "pegadinha": "DC alto com hipotensão = problema de resistência vascular.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #087</b> · Dispneia intensa, uso de musculatura acessória.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_087.png",
+   "verso": "✅ <b>Colapso da VCI por esforço inspiratório intenso (falso positivo)</b><br>🔎 Colapso quase completo com grandes esforços respiratórios.<br>⚡ <b>Conduta:</b> Não interpretar como hipovolemia: esforço vigoroso colapsa a VCI independentemente da volemia.",
+   "pegadinha": "Use PLR + VTI nesses pacientes.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #088</b> · VM com PEEP 16, VCI dilatada.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_088.png",
+   "verso": "✅ <b>VCI dilatada em VM com PEEP alta (baixo valor preditivo)</b><br>🔎 VCI ≈ 2,4 cm em paciente com PEEP alta.<br>⚡ <b>Conduta:</b> Não concluir sobrecarga só pela VCI em VM; usar VTI/PLR/VExUS e clínica.",
+   "pegadinha": "A pressão positiva transmite pressão ao AD e dilata a VCI.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #089</b> · Choque cardiogênico com dobutamina iniciada.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_089.png",
+   "verso": "✅ <b>VTI baixo para monitorar resposta ao inotrópico</b><br>🔎 VTI ≈ 11 cm antes do inotrópico.<br>⚡ <b>Conduta:</b> Reavaliar VTI após 30–60 min: aumento ≥ 10–15% indica resposta.",
+   "pegadinha": "Use o mesmo corte e o mesmo volume de amostra a cada medida.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #090</b> · VCI intermediária.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_090.png",
+   "verso": "✅ <b>VCI intermediária (zona cinzenta)</b><br>🔎 Dmáx ≈ 1,8 cm com colapso ≈ 40%.<br>⚡ <b>Conduta:</b> PAD ≈ 8 mmHg (indeterminada): decidir com outros parâmetros (VTI, PLR, perfusão).",
+   "pegadinha": "A maioria dos pacientes cai na zona cinzenta.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #091</b> · Medida correta da VCI.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_091.png",
+   "verso": "✅ <b>Técnica de medida da VCI (eixo longo)</b><br>🔎 VCI medida perpendicular ao vaso, 1–2 cm da junção com o AD (próximo à veia hepática).<br>⚡ <b>Conduta:</b> Usar eixo longo + modo M; confirmar que não é a aorta (paredes espessas, pulsátil, sem veias hepáticas).",
+   "pegadinha": "Medir a aorta por engano é um erro clássico.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T06",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

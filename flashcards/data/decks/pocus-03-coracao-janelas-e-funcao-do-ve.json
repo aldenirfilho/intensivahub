@@ -1,0 +1,246 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::03 ❤️ Coração: janelas e função do VE",
+ "midia": {
+  "us_036.png": "data/media/vp/us-03.json#us_036.png",
+  "us_037.png": "data/media/vp/us-03.json#us_037.png",
+  "us_038.png": "data/media/vp/us-03.json#us_038.png",
+  "us_039.png": "data/media/vp/us-03.json#us_039.png",
+  "us_040.png": "data/media/vp/us-03.json#us_040.png",
+  "us_041.png": "data/media/vp/us-03.json#us_041.png",
+  "us_042.png": "data/media/vp/us-03.json#us_042.png",
+  "us_043.png": "data/media/vp/us-03.json#us_043.png",
+  "us_044.png": "data/media/vp/us-03.json#us_044.png",
+  "us_045.png": "data/media/vp/us-03.json#us_045.png",
+  "us_046.png": "data/media/vp/us-03.json#us_046.png",
+  "us_047.png": "data/media/vp/us-03.json#us_047.png",
+  "us_048.png": "data/media/vp/us-03.json#us_048.png",
+  "us_049.png": "data/media/vp/us-03.json#us_049.png",
+  "us_050.png": "data/media/vp/us-03.json#us_050.png",
+  "us_051.png": "data/media/vp/us-03.json#us_051.png",
+  "us_052.png": "data/media/vp/us-03.json#us_052.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #036</b> · Janela básica do eco focado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_036.png",
+   "verso": "✅ <b>Paraesternal eixo longo normal</b><br>🔎 VD anterior, septo e VE, valva aórtica/raiz e AE alinhados; aorta descendente posterior.<br>⚡ <b>Conduta:</b> Avaliar contratilidade global, tamanho das câmaras, derrame e EPSS.",
+   "pegadinha": "A aorta descendente diferencia derrame pericárdico (anterior a ela) de pleural (posterior).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #037</b> · Corte transversal no nível dos papilares.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_037.png",
+   "verso": "✅ <b>Paraesternal eixo curto normal (VE em 'donut')</b><br>🔎 VE circular com dois músculos papilares; VD em crescente anterior.<br>⚡ <b>Conduta:</b> Avaliar contratilidade segmentar e formato do septo.",
+   "pegadinha": "Septo retificado (sinal do D) indica sobrecarga do VD.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #038</b> · Janela apical.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_038.png",
+   "verso": "✅ <b>Apical 4 câmaras normal</b><br>🔎 Quatro câmaras com VD menor que o VE (relação &lt; 0,6–1).<br>⚡ <b>Conduta:</b> Comparar VD/VE, função global, valvas; base para Doppler (VTI, mitral, TAPSE).",
+   "pegadinha": "Encurtamento do ápice (foreshortening) superestima o VD.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #039</b> · Paciente em VM, janela paraesternal ruim.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_039.png",
+   "verso": "✅ <b>Subcostal 4 câmaras normal</b><br>🔎 Fígado como janela acústica, VD anterior, VE posterior, sem derrame.<br>⚡ <b>Conduta:</b> Melhor janela na VM e na PCR (pausa de pulso).",
+   "pegadinha": "Na PCR, o exame deve caber em &lt; 10 s de pausa.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #040</b> · Choque e dispneia.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_040.png",
+   "verso": "✅ <b>EPSS aumentado (FEVE reduzida)</b><br>🔎 Distância E-septo ≈ 15 mm (&gt; 7–10 mm).<br>⚡ <b>Conduta:</b> Sugere FEVE &lt; 40%: cautela com volume, considerar inotrópico; eco formal.",
+   "pegadinha": "EPSS falha em estenose mitral, IA grave e hipertrofia septal.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #041</b> · Avaliação rápida da função do VE.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_041.png",
+   "verso": "✅ <b>EPSS normal</b><br>🔎 Folheto anterior mitral quase toca o septo (≈ 4 mm).<br>⚡ <b>Conduta:</b> Compatível com FEVE preservada.",
+   "pegadinha": "Correlaciona-se bem com FEVE visual em mãos menos experientes.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #042</b> · IC descompensada, B3.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_042.png",
+   "verso": "✅ <b>VE dilatado (cardiomiopatia dilatada)</b><br>🔎 Cavidade do VE muito aumentada com paredes finas.<br>⚡ <b>Conduta:</b> Baixa reserva: cautela com fluidos, inotrópico/vasopressor; terapia de IC.",
+   "pegadinha": "Dilatação + EPSS alto + VTI baixo = choque cardiogênico provável.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #043</b> · Hipotensão, sangramento digestivo.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_043.png",
+   "verso": "✅ <b>VE pequeno e hiperdinâmico com obliteração da cavidade</b><br>🔎 Cavidade do VE muito pequena, paredes 'se beijando' no fim da sístole.<br>⚡ <b>Conduta:</b> Sugere hipovolemia ou vasoplegia: volume se pré-carga baixa, vasopressor se distributivo.",
+   "pegadinha": "Obliteração cavitária + VCI fina = choque hipovolêmico provável.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #044</b> · Hipertenso de longa data.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_044.png",
+   "verso": "✅ <b>Hipertrofia ventricular esquerda concêntrica</b><br>🔎 Septo e parede posterior espessados (&gt; 12 mm) com cavidade normal/pequena.<br>⚡ <b>Conduta:</b> Disfunção diastólica provável: evitar taquicardia e hipovolemia.",
+   "pegadinha": "Na HVE com obstrução da via de saída, inotrópico piora o choque.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #045</b> · Idoso hipertenso, avaliação diastólica.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_045.png",
+   "verso": "✅ <b>Disfunção diastólica grau I (E/A &lt; 0,8)</b><br>🔎 Onda E menor que a A (relaxamento alterado), tempo de desaceleração prolongado.<br>⚡ <b>Conduta:</b> Pressões de enchimento geralmente normais; evitar taquicardia.",
+   "pegadinha": "Interpretar com e' e tamanho do AE.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #046</b> · IC grave com congestão.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_046.png",
+   "verso": "✅ <b>Padrão restritivo (E/A &gt; 2, desaceleração rápida)</b><br>🔎 Onda E alta e estreita, A pequena.<br>⚡ <b>Conduta:</b> Pressões de enchimento elevadas: diurético/vasodilatador; mau prognóstico.",
+   "pegadinha": "Em jovens atletas, E/A &gt; 2 pode ser normal.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #047</b> · Choque com extremidades frias.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_047.png",
+   "verso": "✅ <b>VTI da VSVE baixo (baixo débito)</b><br>🔎 VTI ≈ 10 cm (normal 18–22).<br>⚡ <b>Conduta:</b> Baixo volume sistólico: avaliar causa (VE, VD, tamponamento, hipovolemia); inotrópico se VE.",
+   "pegadinha": "VTI é um 'débito portátil': acompanhe a resposta às intervenções.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #048</b> · Calcule o débito: VSVE 2,0 cm, FC 90.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_048.png",
+   "verso": "✅ <b>Cálculo do débito cardíaco pelo VTI</b><br>🔎 VTI ≈ 18 cm; área da VSVE = π × 1² ≈ 3,14 cm².<br>⚡ <b>Conduta:</b> DC = VTI × área × FC ≈ 18 × 3,14 × 90 ≈ 5,1 L/min.",
+   "pegadinha": "Erro na medida do diâmetro da VSVE é elevado ao quadrado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #049</b> · FA de início recente.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_049.png",
+   "verso": "✅ <b>Átrio esquerdo aumentado</b><br>🔎 AE maior que a raiz aórtica (relação AE/Ao &gt; 1,5).<br>⚡ <b>Conduta:</b> Sugere pressão de enchimento crônica alta/valvopatia; risco de FA e trombo.",
+   "pegadinha": "AE grande + E/A restritivo = congestão crônica.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #050</b> · Síncope ao esforço, sopro sistólico rude.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_050.png",
+   "verso": "✅ <b>Estenose aórtica grave (Vmáx &gt; 4 m/s)</b><br>🔎 Velocidade máxima transaórtica ≈ 4,6 m/s (gradiente máximo ≈ 85 mmHg).<br>⚡ <b>Conduta:</b> Cautela com vasodilatadores e hipovolemia; avaliar TAVI/cirurgia; manter ritmo sinusal.",
+   "pegadinha": "Baixo fluxo pode subestimar a gravidade (EA baixo fluxo/baixo gradiente).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #051</b> · Dor torácica e hipertensão grave.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_051.png",
+   "verso": "✅ <b>Raiz aórtica dilatada</b><br>🔎 Raiz aórtica aumentada (&gt; 4 cm) no paraesternal longo.<br>⚡ <b>Conduta:</b> Pensar em dissecção de aorta: angio-TC, controle de FC e PA.",
+   "pegadinha": "Flap na raiz + derrame pericárdico = dissecção tipo A com risco de tamponamento.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #052</b> · Choque cardiogênico pós-IAM.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_052.png",
+   "verso": "✅ <b>VE dilatado na janela subcostal</b><br>🔎 VE aumentado e globoso na janela subcostal.<br>⚡ <b>Conduta:</b> Avaliar VTI/EPSS; inotrópico; considerar suporte mecânico.",
+   "pegadinha": "Janela subcostal é útil quando a paraesternal falha.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

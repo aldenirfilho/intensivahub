@@ -1,0 +1,344 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::01 🫁 Pulmão: perfis, artefatos e pneumotórax",
+ "midia": {
+  "us_001.png": "data/media/vp/us-01.json#us_001.png",
+  "us_002.png": "data/media/vp/us-01.json#us_002.png",
+  "us_003.png": "data/media/vp/us-01.json#us_003.png",
+  "us_004.png": "data/media/vp/us-01.json#us_004.png",
+  "us_005.png": "data/media/vp/us-01.json#us_005.png",
+  "us_006.png": "data/media/vp/us-01.json#us_006.png",
+  "us_007.png": "data/media/vp/us-01.json#us_007.png",
+  "us_008.png": "data/media/vp/us-01.json#us_008.png",
+  "us_009.png": "data/media/vp/us-01.json#us_009.png",
+  "us_010.png": "data/media/vp/us-01.json#us_010.png",
+  "us_011.png": "data/media/vp/us-01.json#us_011.png",
+  "us_012.png": "data/media/vp/us-01.json#us_012.png",
+  "us_013.png": "data/media/vp/us-01.json#us_013.png",
+  "us_014.png": "data/media/vp/us-01.json#us_014.png",
+  "us_015.png": "data/media/vp/us-01.json#us_015.png",
+  "us_016.png": "data/media/vp/us-01.json#us_016.png",
+  "us_017.png": "data/media/vp/us-01.json#us_017.png",
+  "us_018.png": "data/media/vp/us-01.json#us_018.png",
+  "us_019.png": "data/media/vp/us-01.json#us_019.png",
+  "us_020.png": "data/media/vp/us-01.json#us_020.png",
+  "us_021.png": "data/media/vp/us-01.json#us_021.png",
+  "us_022.png": "data/media/vp/us-01.json#us_022.png",
+  "us_023.png": "data/media/vp/us-01.json#us_023.png",
+  "us_024.png": "data/media/vp/us-01.json#us_024.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #001</b> · Ponto anterior, paciente sem dispneia.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_001.png",
+   "verso": "✅ <b>Perfil A (linhas A com deslizamento — pulmão aerado)</b><br>🔎 Linha pleural hiperecogênica entre as sombras das costelas (sinal do morcego) e linhas A horizontais repetidas a múltiplos da distância pele–pleura.<br>⚡ <b>Conduta:</b> Padrão normal; com deslizamento presente exclui pneumotórax naquele ponto.",
+   "pegadinha": "Linhas A são artefato de reverberação: indicam ar abaixo da pleura, não 'pulmão normal' por si.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #002</b> · Ponto lateral inferior, idoso sem queixas.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_002.png",
+   "verso": "✅ <b>Até 2 linhas B por espaço intercostal (normal)</b><br>🔎 Poucas linhas verticais hiperecogênicas partindo da pleura, até o fundo da tela.<br>⚡ <b>Conduta:</b> Achado fisiológico em bases; ≥ 3 por espaço = síndrome intersticial.",
+   "pegadinha": "Linhas B partem da pleura, não esmaecem e apagam as linhas A.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #003</b> · Dispneia aguda, ortopneia, linhas B em todos os pontos bilaterais.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_003.png",
+   "verso": "✅ <b>Perfil B difuso bilateral (edema pulmonar hemodinâmico)</b><br>🔎 ≥ 3 linhas B por espaço, simétricas, com pleura fina e regular, em vários pontos bilaterais.<br>⚡ <b>Conduta:</b> Sugere EAP cardiogênico: diurético, vasodilatador, VNI; avaliar VE/VCI.",
+   "pegadinha": "Pleura fina e regular favorece cardiogênico; irregular/espessada favorece SDRA/pneumonia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #004</b> · Hipoxemia grave, P/F 90.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_004.png",
+   "verso": "✅ <b>Linhas B coalescentes ('pulmão branco')</b><br>🔎 Linhas B confluentes ocupando todo o espaço intercostal.<br>⚡ <b>Conduta:</b> Perda grave de aeração (escore LUS 2): EAP grave, SDRA, pneumonite; otimizar PEEP/tratar causa.",
+   "pegadinha": "Coalescentes = escore 2; consolidação = escore 3.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #005</b> · SDRA por COVID/pneumonia viral.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_005.png",
+   "verso": "✅ <b>Pleura irregular com consolidações subpleurais e linhas B heterogêneas</b><br>🔎 Linha pleural espessada/fragmentada, pequenas consolidações subpleurais e linhas B distribuídas de forma não homogênea, com áreas poupadas.<br>⚡ <b>Conduta:</b> Padrão de SDRA/pneumonite inflamatória; ventilação protetora, considerar prona.",
+   "pegadinha": "Diferencial com EAP: no EAP a pleura é fina e as linhas B, homogêneas.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #006</b> · Febre, tosse, estertores em base direita.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_006.png",
+   "verso": "✅ <b>Consolidação com broncograma aéreo (pneumonia)</b><br>🔎 Padrão tecidual (hepatização) com pontos/ramificações hiperecogênicas de ar dentro.<br>⚡ <b>Conduta:</b> Pneumonia: antibiótico; broncograma dinâmico (que se move) tem alta especificidade para pneumonia vs atelectasia.",
+   "pegadinha": "USG é mais sensível que o Rx de leito para consolidação.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #007</b> · Consolidação em base, ventilação mecânica.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_007.png",
+   "verso": "✅ <b>Sinal do retalho (shred sign) da consolidação</b><br>🔎 Borda profunda da consolidação irregular, 'rasgada', na transição para pulmão aerado.<br>⚡ <b>Conduta:</b> Indica consolidação não translobar (pneumonia/atelectasia parcial).",
+   "pegadinha": "Consolidação translobar não tem shred: aparece o padrão tecidual até a pleura oposta.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #008</b> · Rolha de secreção, lobo colapsado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_008.png",
+   "verso": "✅ <b>Atelectasia obstrutiva (broncograma fluido, sem ar)</b><br>🔎 Consolidação homogênea sem broncograma aéreo, com estruturas tubulares anecoicas (broncograma fluido).<br>⚡ <b>Conduta:</b> Fisioterapia, aspiração, broncoscopia se obstrução proximal.",
+   "pegadinha": "Broncograma fluido sugere obstrução; broncograma aéreo dinâmico sugere pneumonia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #009</b> · Modo M no tórax anterior.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_009.png",
+   "verso": "✅ <b>Sinal da praia (seashore) — deslizamento pleural presente</b><br>🔎 Acima da pleura, linhas horizontais (ondas); abaixo, padrão granular (areia).<br>⚡ <b>Conduta:</b> Exclui pneumotórax no ponto examinado.",
+   "pegadinha": "O modo M documenta o deslizamento em imagem estática.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #010</b> · Dispneia súbita após punção de subclávia.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_010.png",
+   "verso": "✅ <b>Sinal do código de barras/estratosfera — deslizamento ausente</b><br>🔎 Linhas horizontais em toda a profundidade, inclusive abaixo da pleura.<br>⚡ <b>Conduta:</b> Sugere pneumotórax, mas não é específico: procurar ponto pulmonar; avaliar intubação seletiva, apneia, aderências.",
+   "pegadinha": "Ausência de deslizamento sozinha tem baixa especificidade em doentes críticos.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #011</b> · Suspeita de pneumotórax no ventilado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_011.png",
+   "verso": "✅ <b>Ponto pulmonar (lung point) — pneumotórax confirmado</b><br>🔎 Alternância, no mesmo ponto, entre padrão de praia e código de barras com o ciclo respiratório.<br>⚡ <b>Conduta:</b> Diagnóstico de pneumotórax (especificidade ~100%); a localização estima o tamanho; drenagem se indicado.",
+   "pegadinha": "Pneumotórax total pode não ter ponto pulmonar (pulmão colapsado longe da parede).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #012</b> · Após intubação, SatO2 caindo.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_012.png",
+   "verso": "✅ <b>Pulso pulmonar (pulmão não ventilado)</b><br>🔎 Ausência de deslizamento com pulsações verticais sincrônicas ao coração no modo M.<br>⚡ <b>Conduta:</b> Sugere intubação seletiva ou atelectasia do lado: recuar o tubo, reavaliar.",
+   "pegadinha": "Pulso pulmonar descarta pneumotórax (as pleuras estão em contato).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #013</b> · Crepitação na parede torácica após trauma.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_013.png",
+   "verso": "✅ <b>Enfisema subcutâneo (linhas E)</b><br>🔎 Artefatos verticais partindo do subcutâneo, acima do nível das costelas, sem linha pleural/costelas visíveis.<br>⚡ <b>Conduta:</b> Impede a avaliação pleural; procurar pneumotórax por outros meios (Rx/TC).",
+   "pegadinha": "Linhas E não são linhas B: nascem acima da pleura.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #014</b> · Pneumonia lobar extensa.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_014.png",
+   "verso": "✅ <b>Consolidação translobar</b><br>🔎 Padrão tecidual em toda a profundidade, sem borda irregular com ar aerado.<br>⚡ <b>Conduta:</b> Pneumonia lobar/atelectasia completa; antibiótico, fisioterapia.",
+   "pegadinha": "Sem shred sign na consolidação translobar.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #015</b> · Aeração regional: qual escore LUS?<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_015.png",
+   "verso": "✅ <b>Escore LUS 3 (consolidação)</b><br>🔎 Padrão tecidual com broncograma (perda total de aeração).<br>⚡ <b>Conduta:</b> Pontuação por região: 0 (linhas A), 1 (≥ 3 B separadas), 2 (B coalescentes), 3 (consolidação); soma de 12 regiões (0–36).",
+   "pegadinha": "Escore LUS acompanha resposta à PEEP, prona e desmame.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #016</b> · Linhas B só na base direita, febre.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_016.png",
+   "verso": "✅ <b>Síndrome intersticial focal (unilateral)</b><br>🔎 ≥ 3 linhas B restritas a uma região, com o restante dos pontos em perfil A.<br>⚡ <b>Conduta:</b> Sugere pneumonia, contusão ou atelectasia focal; não EAP.",
+   "pegadinha": "EAP cardiogênico é difuso e bilateral.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #017</b> · Dor pleurítica e taquicardia, D-dímero alto.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_017.png",
+   "verso": "✅ <b>Consolidações subpleurais triangulares (infarto pulmonar)</b><br>🔎 Pequenas consolidações periféricas em cunha/triangulares junto à pleura.<br>⚡ <b>Conduta:</b> Sugere TEP com infarto: pesquisar TVP e VD; angio-TC.",
+   "pegadinha": "Combinação de lesões subpleurais + TVP aumenta a acurácia para TEP.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #018</b> · Choque séptico: após 3 L de cristaloide surgem linhas B.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_018.png",
+   "verso": "✅ <b>Surgimento de perfil B após volume (limite da reposição)</b><br>🔎 Transição de perfil A para perfil B difuso durante a ressuscitação.<br>⚡ <b>Conduta:</b> Parar fluidos (protocolo FALLS): o pulmão sinaliza intolerância ao volume; considerar vasopressor.",
+   "pegadinha": "Linhas B surgem antes da hipoxemia: monitor precoce de sobrecarga.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #019</b> · DPOC com dispneia, sem linhas B e com deslizamento.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_019.png",
+   "verso": "✅ <b>Perfil A com deslizamento na dispneia (DPOC/asma — BLUE)</b><br>🔎 Linhas A bilaterais com deslizamento, sem TVP e sem PLAPS.<br>⚡ <b>Conduta:</b> Pelo protocolo BLUE sugere DPOC/asma exacerbados: broncodilatador, VNI.",
+   "pegadinha": "Perfil A + TVP → TEP; perfil A + PLAPS → pneumonia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #020</b> · Linear no tórax anterior: anatomia.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_020.png",
+   "verso": "✅ <b>Sinal do morcego (bat sign)</b><br>🔎 Duas costelas com sombra acústica e a linha pleural entre elas, ligeiramente mais profunda.<br>⚡ <b>Conduta:</b> Referência obrigatória para identificar a pleura antes de procurar deslizamento.",
+   "pegadinha": "Sem costelas na imagem, a 'linha' vista pode não ser a pleura.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #021</b> · Trauma torácico fechado, dor em hemitórax.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_021.png",
+   "verso": "✅ <b>Contusão pulmonar (linhas B focais + consolidação subpleural)</b><br>🔎 Linhas B localizadas e pequena consolidação subpleural na área do trauma.<br>⚡ <b>Conduta:</b> Analgesia, fisioterapia, vigiar piora em 24–48 h; excluir pneumotórax/hemotórax.",
+   "pegadinha": "Contusão evolui nas primeiras 24 h: repetir o exame.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #022</b> · Febre e dispneia, base esquerda com macicez.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_022.png",
+   "verso": "✅ <b>Consolidação com derrame parapneumônico</b><br>🔎 Líquido anecoico acima do diafragma com pulmão adjacente sem ar (padrão tecidual).<br>⚡ <b>Conduta:</b> Avaliar septações/ecogenicidade; toracocentese diagnóstica se moderado.",
+   "pegadinha": "Derrame + consolidação = PLAPS positivo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #023</b> · Fibrose pulmonar conhecida.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_023.png",
+   "verso": "✅ <b>Pleura espessada e irregular com linhas B (fibrose)</b><br>🔎 Linha pleural espessada/irregular com linhas B fixas, sem consolidação.<br>⚡ <b>Conduta:</b> Contexto crônico; não confundir com EAP (comparar com exames prévios, ecocardiograma).",
+   "pegadinha": "Linhas B não são exclusivas de água: também ocorrem na fibrose.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #024</b> · Ventilado, Rx normal, sem deslizamento e sem linhas B à esquerda.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_024.png",
+   "verso": "✅ <b>Perfil A' (linhas A sem deslizamento) — pneumotórax provável</b><br>🔎 Linhas A sem deslizamento e sem linhas B no ponto anterior.<br>⚡ <b>Conduta:</b> Procurar ponto pulmonar; se instável → descompressão; se estável → confirmar e drenar.",
+   "pegadinha": "Uma única linha B ou pulso pulmonar exclui pneumotórax naquele ponto.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

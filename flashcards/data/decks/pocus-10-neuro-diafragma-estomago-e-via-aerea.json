@@ -1,0 +1,246 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::10 🧠 Neuro, diafragma, estômago e via aérea",
+ "midia": {
+  "us_134.png": "data/media/vp/us-10.json#us_134.png",
+  "us_135.png": "data/media/vp/us-10.json#us_135.png",
+  "us_136.png": "data/media/vp/us-10.json#us_136.png",
+  "us_137.png": "data/media/vp/us-10.json#us_137.png",
+  "us_138.png": "data/media/vp/us-10.json#us_138.png",
+  "us_139.png": "data/media/vp/us-10.json#us_139.png",
+  "us_140.png": "data/media/vp/us-10.json#us_140.png",
+  "us_141.png": "data/media/vp/us-10.json#us_141.png",
+  "us_142.png": "data/media/vp/us-10.json#us_142.png",
+  "us_143.png": "data/media/vp/us-10.json#us_143.png",
+  "us_144.png": "data/media/vp/us-10.json#us_144.png",
+  "us_145.png": "data/media/vp/us-10.json#us_145.png",
+  "us_146.png": "data/media/vp/us-10.json#us_146.png",
+  "us_147.png": "data/media/vp/us-10.json#us_147.png",
+  "us_148.png": "data/media/vp/us-10.json#us_148.png",
+  "us_149.png": "data/media/vp/us-10.json#us_149.png",
+  "us_150.png": "data/media/vp/us-10.json#us_150.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #134</b> · TCE leve, Glasgow 15.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_134.png",
+   "verso": "✅ <b>Diâmetro da bainha do nervo óptico normal</b><br>🔎 DBNO ≈ 4,5 mm medido 3 mm atrás do globo.<br>⚡ <b>Conduta:</b> HIC improvável.",
+   "pegadinha": "Medir nos dois olhos, em dois planos, e usar a média.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #135</b> · TCE grave, pupilas reativas, sem TC disponível.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_135.png",
+   "verso": "✅ <b>DBNO aumentado (HIC provável)</b><br>🔎 DBNO ≈ 6,6 mm (&gt; 5,7–6 mm).<br>⚡ <b>Conduta:</b> Medidas para HIC (cabeceira 30°, sedação, osmoterapia, PaCO2 35–40) e TC/neurocirurgia.",
+   "pegadinha": "DBNO é triagem; não substitui PIC invasiva.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #136</b> · Cefaleia, vômitos e HIC.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_136.png",
+   "verso": "✅ <b>Edema de papila ao USG ocular</b><br>🔎 Elevação da papila óptica projetando-se no globo + DBNO aumentado.<br>⚡ <b>Conduta:</b> Sinal de HIC: investigar e tratar.",
+   "pegadinha": "Use ganho baixo e pouca pressão sobre o olho.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #137</b> · TRE em andamento.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_137.png",
+   "verso": "✅ <b>Excursão diafragmática normal</b><br>🔎 Excursão ≈ 1,8 cm em respiração tranquila.<br>⚡ <b>Conduta:</b> Função diafragmática adequada.",
+   "pegadinha": "Excursão em VM com suporte reflete o ventilador, não o músculo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #138</b> · Falha repetida de desmame.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_138.png",
+   "verso": "✅ <b>Excursão diafragmática reduzida (&lt; 1 cm)</b><br>🔎 Excursão ≈ 0,7 cm em respiração espontânea.<br>⚡ <b>Conduta:</b> Disfunção diafragmática: preditor de falha de extubação; reabilitação, evitar sedação/bloqueio prolongados.",
+   "pegadinha": "Corte usual: &lt; 1 cm (alguns usam &lt; 1,1 cm).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #139</b> · Pós-operatório cardíaco, hipoxemia.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_139.png",
+   "verso": "✅ <b>Movimento diafragmático paradoxal (paralisia)</b><br>🔎 Diafragma move-se para cima na inspiração (sentido oposto).<br>⚡ <b>Conduta:</b> Paralisia frênica: confirmar com sniff test; VNI, desmame cuidadoso.",
+   "pegadinha": "Lesão frênica é complicação de cirurgia cardíaca e punção jugular/subclávia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #140</b> · Avaliação de desmame.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_140.png",
+   "verso": "✅ <b>Fração de espessamento diafragmático ≥ 30%</b><br>🔎 2,0 mm → 2,7 mm: FE = (2,7 − 2,0)/2,0 ≈ 35%.<br>⚡ <b>Conduta:</b> Associada a sucesso de extubação.",
+   "pegadinha": "FE &gt; 30–36% prediz sucesso; &lt; 20% sugere disfunção.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #141</b> · VM prolongada, falha de TRE.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_141.png",
+   "verso": "✅ <b>Fração de espessamento &lt; 20% (disfunção diafragmática)</b><br>🔎 2,0 → 2,2 mm: FE ≈ 10%.<br>⚡ <b>Conduta:</b> Disfunção diafragmática: fisioterapia/treino muscular, evitar excesso de suporte.",
+   "pegadinha": "Excesso de suporte reduz a FE (atrofia por desuso).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #142</b> · VM controlada há 10 dias.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_142.png",
+   "verso": "✅ <b>Diafragma atrofiado (espessura &lt; 2 mm)</b><br>🔎 Espessura ao fim da expiração ≈ 1,2 mm.<br>⚡ <b>Conduta:</b> Atrofia induzida pela VM (VIDD): preservar esforço com modos assistidos, evitar sedação profunda.",
+   "pegadinha": "Perda de espessura &gt; 10% na 1ª semana prediz VM prolongada.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #143</b> · Intubação de urgência: jejum incerto.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_143.png",
+   "verso": "✅ <b>Estômago vazio (antro colapsado)</b><br>🔎 Antro pequeno, colabado ('alvo'), sem conteúdo.<br>⚡ <b>Conduta:</b> Baixo risco de aspiração; prosseguir com plano habitual.",
+   "pegadinha": "Avaliar em decúbito lateral direito aumenta a sensibilidade.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #144</b> · Obstrução intestinal, indicação de intubação.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_144.png",
+   "verso": "✅ <b>Conteúdo líquido gástrico volumoso (risco de aspiração)</b><br>🔎 Antro distendido com conteúdo anecoico.<br>⚡ <b>Conduta:</b> Esvaziar com sonda gástrica e sequência rápida.",
+   "pegadinha": "Volume &gt; 1,5 mL/kg = alto risco.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #145</b> · Refeição há 2 h, cirurgia de urgência.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_145.png",
+   "verso": "✅ <b>Conteúdo sólido no estômago</b><br>🔎 Antro distendido com conteúdo heterogêneo/hiperecogênico ('vidro fosco').<br>⚡ <b>Conduta:</b> Estômago cheio: sequência rápida; considerar adiar procedimento eletivo.",
+   "pegadinha": "Diabéticos e usuários de GLP-1 podem ter conteúdo apesar do jejum.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #146</b> · Após intubação, confirmar posição.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_146.png",
+   "verso": "✅ <b>Intubação traqueal confirmada (sem duplo trilho)</b><br>🔎 Uma única interface de ar (traqueia); esôfago não distendido por ar.<br>⚡ <b>Conduta:</b> Confirmar com capnografia em onda e deslizamento pleural bilateral.",
+   "pegadinha": "Capnografia continua sendo o padrão-ouro.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #147</b> · Após intubação: SatO2 caindo.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_147.png",
+   "verso": "✅ <b>Intubação esofágica (sinal do duplo trilho)</b><br>🔎 Segunda interface hiperecogênica com sombra lateral à traqueia (esôfago com tubo).<br>⚡ <b>Conduta:</b> Retirar o tubo e reintubar imediatamente; ventilar com bolsa.",
+   "pegadinha": "Em dúvida, retire: 'no trace = wrong place'.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #148</b> · Paciente em PSV com taquipneia.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_148.png",
+   "verso": "✅ <b>Excursão diafragmática aumentada (esforço/drive alto)</b><br>🔎 Excursão ≈ 3 cm em respiração em ventilador.<br>⚡ <b>Conduta:</b> Avaliar drive alto (P0.1/Pocc) e risco de P-SILI; tratar causa.",
+   "pegadinha": "Excursão &gt; 2,5 cm sob suporte sugere esforço excessivo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #149</b> · Confirmar posição da sonda nasogástrica.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_149.png",
+   "verso": "✅ <b>Sonda nasogástrica visível no estômago</b><br>🔎 Estrutura tubular hiperecogênica com sombra no antro.<br>⚡ <b>Conduta:</b> Posição gástrica provável; confirmar com Rx se uso para dieta conforme protocolo.",
+   "pegadinha": "Instilação de ar com 'fogos de artifício' gástricos ajuda a confirmar.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #150</b> · Pós-PCR em hipotermia: DBNO.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_150.png",
+   "verso": "✅ <b>DBNO limítrofe (zona cinzenta)</b><br>🔎 DBNO ≈ 5,3 mm.<br>⚡ <b>Conduta:</b> Resultado indeterminado: repetir, correlacionar com TC/Doppler transcraniano.",
+   "pegadinha": "Os pontos de corte variam entre estudos (5,0–6,0 mm).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T10",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

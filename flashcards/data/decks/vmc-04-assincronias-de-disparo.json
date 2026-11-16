@@ -1,0 +1,260 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::04 ⚡ Assincronias de disparo",
+ "midia": {
+  "vm_049.png": "data/media/vp/vm-04.json#vm_049.png",
+  "vm_050.png": "data/media/vp/vm-04.json#vm_050.png",
+  "vm_051.png": "data/media/vp/vm-04.json#vm_051.png",
+  "vm_052.png": "data/media/vp/vm-04.json#vm_052.png",
+  "vm_053.png": "data/media/vp/vm-04.json#vm_053.png",
+  "vm_054.png": "data/media/vp/vm-04.json#vm_054.png",
+  "vm_055.png": "data/media/vp/vm-04.json#vm_055.png",
+  "vm_056.png": "data/media/vp/vm-04.json#vm_056.png",
+  "vm_057.png": "data/media/vp/vm-04.json#vm_057.png",
+  "vm_058.png": "data/media/vp/vm-04.json#vm_058.png",
+  "vm_059.png": "data/media/vp/vm-04.json#vm_059.png",
+  "vm_060.png": "data/media/vp/vm-04.json#vm_060.png",
+  "vm_061.png": "data/media/vp/vm-04.json#vm_061.png",
+  "vm_062.png": "data/media/vp/vm-04.json#vm_062.png",
+  "vm_063.png": "data/media/vp/vm-04.json#vm_063.png",
+  "vm_064.png": "data/media/vp/vm-04.json#vm_064.png",
+  "vm_065.png": "data/media/vp/vm-04.json#vm_065.png",
+  "vm_066.png": "data/media/vp/vm-04.json#vm_066.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #049</b> · DPOC em PSV: FR do paciente &gt; FR do monitor.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_049.png",
+   "verso": "✅ <b>Esforço ineficaz em PSV</b><br>🔎 Deflexões no fluxo expiratório (aumento em direção a zero) e pequena queda de pressão, sem ciclo deflagrado.<br>⚡ <b>Conduta:</b> Reduzir PS (menor VT/Ti → menos auto-PEEP), aumentar ETS, ajustar sensibilidade, PEEP externa.",
+   "pegadinha": "Excesso de suporte é a causa mais comum de esforço ineficaz.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #050</b> · SDRA em VCV com VT 6 mL/kg, paciente desperto.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_050.png",
+   "verso": "✅ <b>Duplo disparo em VCV</b><br>🔎 Dois ciclos consecutivos sem expiração completa entre eles; volume do 2º ciclo soma-se ao 1º (empilhamento).<br>⚡ <b>Conduta:</b> Ti neural &gt; Ti mecânico: aumentar Ti/VT dentro do seguro, trocar para PCV/PSV ou sedar (± bloqueio) na SDRA grave.",
+   "pegadinha": "O empilhamento pode dobrar o VT real: o ventilador mostra dois ciclos 'normais'.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #051</b> · PSV com ETS 60%.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_051.png",
+   "verso": "✅ <b>Duplo disparo por ciclagem precoce em PSV</b><br>🔎 Ciclo termina cedo e o esforço persistente dispara novo ciclo imediatamente.<br>⚡ <b>Conduta:</b> Reduzir ETS (ciclar mais tarde), aumentar PS moderadamente.",
+   "pegadinha": "ETS alto é bom para DPOC, mas pode causar ciclagem precoce em restritivos.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #052</b> · FR 40 no ventilador, paciente calmo e sem esforço.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_052.png",
+   "verso": "✅ <b>Autodisparo por vazamento</b><br>🔎 Ciclos disparados sem deflexão negativa de esforço; volume não retorna à linha de base.<br>⚡ <b>Conduta:</b> Corrigir vazamento (cuff, circuito, dreno), ajustar sensibilidade/compensação de vazamento.",
+   "pegadinha": "Autodisparo pode simular taquipneia e mascarar morte encefálica.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #053</b> · Pós-operatório cardíaco, FR 30, sem esforço clínico.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_053.png",
+   "verso": "✅ <b>Autodisparo por oscilações cardiogênicas</b><br>🔎 Oscilações no fluxo na frequência cardíaca durante a pausa expiratória, disparando ciclos.<br>⚡ <b>Conduta:</b> Reduzir a sensibilidade do disparo (menos sensível), checar vazamentos.",
+   "pegadinha": "Sensibilidade muito alta + coração hiperdinâmico = autodisparo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #054</b> · SDRA sedada profundamente, sem drive aparente.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_054.png",
+   "verso": "✅ <b>Disparo reverso (reverse triggering)</b><br>🔎 Esforço do paciente começa DEPOIS do início do ciclo mandatório (entrainment), deformando a curva de fluxo.<br>⚡ <b>Conduta:</b> Reconhecer (pode gerar empilhamento e alto estresse); ajustar FR/Ti, reduzir sedação ou bloquear se SDRA grave.",
+   "pegadinha": "Ocorre justamente em pacientes profundamente sedados.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #055</b> · SDRA: VT real maior que o programado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_055.png",
+   "verso": "✅ <b>Disparo reverso com empilhamento de ciclos</b><br>🔎 Esforço reverso desencadeia um segundo ciclo logo após o primeiro (breath stacking).<br>⚡ <b>Conduta:</b> Avaliar sedação/bloqueio, ajustar Ti/FR; risco de VT efetivo duplicado.",
+   "pegadinha": "Disparo reverso pode ser confundido com duplo disparo — o tempo de início do esforço diferencia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #056</b> · Paciente com dispneia e sensibilidade 'conservadora'.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_056.png",
+   "verso": "✅ <b>Sensibilidade de disparo pouco sensível (atraso de disparo)</b><br>🔎 Grande deflexão negativa de pressão/fluxo antes do ciclo começar.<br>⚡ <b>Conduta:</b> Tornar o disparo mais sensível (fluxo 1–2 L/min), sem chegar ao autodisparo.",
+   "pegadinha": "Trabalho gasto para disparar é trabalho perdido.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #057</b> · Paciente pós-AVC com soluços.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_057.png",
+   "verso": "✅ <b>Soluços disparando o ventilador</b><br>🔎 Deflexões curtas e abruptas regulares que deflagram ciclos extras.<br>⚡ <b>Conduta:</b> Tratar soluço (clorpromazina, baclofeno, metoclopramida), ajustar sensibilidade; checar distensão gástrica.",
+   "pegadinha": "Soluços persistentes podem causar alcalose respiratória e assincronia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #058</b> · Sepse, FR programada 14.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_058.png",
+   "verso": "✅ <b>Taquipneia com todos os ciclos disparados pelo paciente</b><br>🔎 FR total muito acima da programada; cada ciclo precedido de esforço.<br>⚡ <b>Conduta:</b> Investigar causa (dor, febre, acidose, hipoxemia, delirium); A/C pode gerar alcalose e auto-PEEP.",
+   "pegadinha": "Aumentar a FR programada não resolve drive alto.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #059</b> · PSV 20 em paciente ansioso: FR clínica 26.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_059.png",
+   "verso": "✅ <b>Esforços ineficazes por excesso de pressão de suporte</b><br>🔎 VT alto, Ti longo e esforços sem disparo durante a expiração.<br>⚡ <b>Conduta:</b> Reduzir PS (titular pelo esforço/VT), aumentar ETS.",
+   "pegadinha": "Mais suporte pode PIORAR a interação paciente–ventilador.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #060</b> · PCV em A/C, paciente acordando.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_060.png",
+   "verso": "✅ <b>PCV assistido: disparo pelo paciente (normal)</b><br>🔎 Pequena deflexão negativa antes de cada ciclo; FR total &gt; programada.<br>⚡ <b>Conduta:</b> Interação adequada; manter sensibilidade e reavaliar desmame.",
+   "pegadinha": "Em PCV assistido o VT varia conforme o esforço do paciente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #061</b> · PSV com esforços irregulares.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_061.png",
+   "verso": "✅ <b>Esforços ineficazes intermitentes (índice de assincronia)</b><br>🔎 Alguns esforços visíveis na curva de fluxo não geram ciclo.<br>⚡ <b>Conduta:</b> Calcular índice de assincronia (&gt; 10% é significativo) e corrigir a causa.",
+   "pegadinha": "Índice alto associa-se a maior tempo de VM e mortalidade.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #062</b> · FR 30 no ventilador, nenhuma excursão torácica de esforço.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_062.png",
+   "verso": "✅ <b>Autodisparo (FR alta sem esforço)</b><br>🔎 Ciclos frequentes sem deflexão de esforço prévia.<br>⚡ <b>Conduta:</b> Checar sensibilidade e vazamentos antes de sedar; na suspeita de morte encefálica, desligar o disparo para testar.",
+   "pegadinha": "Autodisparo já levou a erro no diagnóstico de morte encefálica.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #063</b> · Peso predito 70 kg: VT somado nos empilhamentos.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_063.png",
+   "verso": "✅ <b>Empilhamento de ciclos: VT efetivo dobrado</b><br>🔎 Ciclos em pares sem expiração completa, volume acumulado ≈ dobro do programado.<br>⚡ <b>Conduta:</b> Sedação/ajuste de Ti; na SDRA grave considerar bloqueio neuromuscular por 48 h.",
+   "pegadinha": "O monitor pode mostrar VT 420 enquanto o pulmão recebe ~800 mL.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #064</b> · Taquicardia 110, ventilador ciclando 'sozinho'.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_064.png",
+   "verso": "✅ <b>Autodisparo na PSV por sensibilidade excessiva</b><br>🔎 Ciclos de PSV sem esforço intercalados aos espontâneos, oscilações no fluxo.<br>⚡ <b>Conduta:</b> Reduzir a sensibilidade; avaliar vazamento/condensado.",
+   "pegadinha": "PSV com autodisparo pode manter VM 'em PSV' em paciente sem drive.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #065</b> · Esforço fraco em paciente desnutrido.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_065.png",
+   "verso": "✅ <b>Esforços fracos não detectados (disparo falho)</b><br>🔎 Pequenas ondulações no fluxo expiratório sem disparo; FR do ventilador = programada.<br>⚡ <b>Conduta:</b> Avaliar fraqueza muscular (P0.1, PImáx, diafragma no USG); ajustar sensibilidade.",
+   "pegadinha": "Esforço ineficaz também ocorre por fraqueza, não só auto-PEEP.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #066</b> · Agitação e taquipneia extrema em PCV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_066.png",
+   "verso": "✅ <b>Assincronia por drive muito alto (FR &gt; 35)</b><br>🔎 Esforços frequentes, alguns ciclos disparados e outros ineficazes, curvas irregulares.<br>⚡ <b>Conduta:</b> Tratar causa (dor, febre, acidose, hipoxemia, abstinência); analgesia antes de sedação.",
+   "pegadinha": "Drive alto não se resolve só com ajuste de ventilador.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

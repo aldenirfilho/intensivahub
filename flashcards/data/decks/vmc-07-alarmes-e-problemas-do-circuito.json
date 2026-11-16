@@ -1,0 +1,232 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::07 🚨 Alarmes e problemas do circuito",
+ "midia": {
+  "vm_097.png": "data/media/vp/vm-07.json#vm_097.png",
+  "vm_098.png": "data/media/vp/vm-07.json#vm_098.png",
+  "vm_099.png": "data/media/vp/vm-07.json#vm_099.png",
+  "vm_100.png": "data/media/vp/vm-07.json#vm_100.png",
+  "vm_101.png": "data/media/vp/vm-07.json#vm_101.png",
+  "vm_102.png": "data/media/vp/vm-07.json#vm_102.png",
+  "vm_103.png": "data/media/vp/vm-07.json#vm_103.png",
+  "vm_104.png": "data/media/vp/vm-07.json#vm_104.png",
+  "vm_105.png": "data/media/vp/vm-07.json#vm_105.png",
+  "vm_106.png": "data/media/vp/vm-07.json#vm_106.png",
+  "vm_107.png": "data/media/vp/vm-07.json#vm_107.png",
+  "vm_108.png": "data/media/vp/vm-07.json#vm_108.png",
+  "vm_109.png": "data/media/vp/vm-07.json#vm_109.png",
+  "vm_110.png": "data/media/vp/vm-07.json#vm_110.png",
+  "vm_111.png": "data/media/vp/vm-07.json#vm_111.png",
+  "vm_112.png": "data/media/vp/vm-07.json#vm_112.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #097</b> · Alarme de VT expirado baixo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_097.png",
+   "verso": "✅ <b>Vazamento no circuito ou cuff (volume não retorna a zero)</b><br>🔎 Curva de volume não volta à linha de base e 'cai' verticalmente no início do ciclo seguinte; VTe &lt; VTi.<br>⚡ <b>Conduta:</b> Checar cuff (pressão 20–30 cmH2O), conexões, circuito, dreno; reposicionar tubo.",
+   "pegadinha": "Vazamento invalida medidas de auto-PEEP e complacência.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #098</b> · Alarme de pressão baixa / apneia.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_098.png",
+   "verso": "✅ <b>Desconexão do circuito</b><br>🔎 Pressão cai a zero, fluxo e volume ausentes a partir de certo ponto.<br>⚡ <b>Conduta:</b> Reconectar imediatamente; se não resolver, ventilar com bolsa e checar tubo.",
+   "pegadinha": "Em SDRA a desconexão causa desrecrutamento rápido.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #099</b> · Roncos à ausculta, SatO2 caindo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_099.png",
+   "verso": "✅ <b>Secreção em vias aéreas (serrilhado no fluxo)</b><br>🔎 Oscilações em 'dente de serra' no fluxo expiratório (e na pressão).<br>⚡ <b>Conduta:</b> Aspiração traqueal; fisioterapia; umidificação adequada.",
+   "pegadinha": "Serrilhado + Ppico alta = secreção até prova em contrário.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #100</b> · Sem roncos; circuito com gotas visíveis.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_100.png",
+   "verso": "✅ <b>Água condensada no circuito</b><br>🔎 Serrilhado no fluxo expiratório sem secreção à aspiração.<br>⚡ <b>Conduta:</b> Drenar o condensado/trocar circuito; cuidado para não devolvê-lo ao paciente.",
+   "pegadinha": "Condensado também pode causar autodisparo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #101</b> · Paciente agitado mordendo o tubo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_101.png",
+   "verso": "✅ <b>Obstrução do tubo por mordida</b><br>🔎 Ppico sobe abruptamente com o mesmo VT.<br>⚡ <b>Conduta:</b> Bloqueador de mordida (cânula de Guedel), sedação/analgesia; checar tubo.",
+   "pegadinha": "Nunca subir o limite de pressão sem afastar obstrução.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #102</b> · Após mobilização: ausculta abolida à esquerda, sem hipotensão.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_102.png",
+   "verso": "✅ <b>Intubação seletiva (queda de complacência)</b><br>🔎 Ppico e Pplat sobem juntas após o deslocamento do tubo.<br>⚡ <b>Conduta:</b> Checar comissura labial/rima, recuar o tubo, USG/Rx; ausculta bilateral.",
+   "pegadinha": "Diferencial com pneumotórax: ausência de deslizamento pleural no POCUS ajuda, mas o pulmão não ventilado também perde o deslizamento.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #103</b> · Curiosidade na tela.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_103.png",
+   "verso": "✅ <b>Oscilações cardiogênicas no traçado de fluxo</b><br>🔎 Pequenas ondulações regulares na frequência cardíaca durante o fluxo expiratório zerado.<br>⚡ <b>Conduta:</b> Achado benigno; atenção se causarem autodisparo.",
+   "pegadinha": "Mais visíveis com coração hiperdinâmico e pulmão complacente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #104</b> · Alarme de pressão alta intermitente.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_104.png",
+   "verso": "✅ <b>Tosse/briga com o ventilador: picos isolados de pressão</b><br>🔎 Picos súbitos e breves de pressão durante a inspiração em alguns ciclos.<br>⚡ <b>Conduta:</b> Aspirar se secreção, analgesia, ajustar limite; evitar sedação excessiva como reflexo.",
+   "pegadinha": "Picos isolados ≠ queda de complacência (Pplat normal).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #105</b> · Após bolus de fentanil, alarme de volume-minuto baixo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_105.png",
+   "verso": "✅ <b>Hipoventilação/apneia em PSV (drive baixo)</b><br>🔎 Ciclos muito espaçados com longos períodos sem esforço.<br>⚡ <b>Conduta:</b> Retornar a modo controlado ou programar backup; reduzir sedação/opioide.",
+   "pegadinha": "Todo modo espontâneo precisa de ventilação de apneia programada.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #106</b> · Alarme de volume-minuto alto.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_106.png",
+   "verso": "✅ <b>Hiperventilação com volume-minuto alto (drive alto)</b><br>🔎 FR alta (≈ 36) com VT preservado.<br>⚡ <b>Conduta:</b> Procurar acidose metabólica, sepse, dor, ansiedade, hipoxemia, febre, hipertensão intracraniana.",
+   "pegadinha": "Gasometria antes de sedar: pode ser compensação de acidose.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #107</b> · Dreno torácico com borbulhamento contínuo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_107.png",
+   "verso": "✅ <b>Fístula broncopleural (VTe ≪ VTi)</b><br>🔎 Diferença grande entre volume inspirado e expirado; volume não retorna a zero.<br>⚡ <b>Conduta:</b> Menor PEEP/Pplat/Ti possíveis, modo a pressão, aspiração do dreno baixa; considerar broncoscopia/válvula.",
+   "pegadinha": "Ventilação alveolar efetiva cai: acompanhar PaCO2.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #108</b> · Ruído de 'gargarejo' na boca.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_108.png",
+   "verso": "✅ <b>Cuff hipoinsuflado com vazamento perilesional</b><br>🔎 Volume não retorna à linha de base; VTe menor que o VTi; fluxo inspiratório sustentado.<br>⚡ <b>Conduta:</b> Medir pressão do cuff (20–30 cmH2O), checar posição do tubo/herniação.",
+   "pegadinha": "Cuff baixo aumenta risco de microaspiração e PAV.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #109</b> · Ppico subindo há horas, filtro HME úmido.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_109.png",
+   "verso": "✅ <b>Filtro HME/trocador saturado (resistência aumentada)</b><br>🔎 Ppico − Pplat aumentado com Pplat normal.<br>⚡ <b>Conduta:</b> Trocar o filtro; avaliar umidificação aquecida; nebulização com filtro aumenta o risco.",
+   "pegadinha": "HME também aumenta espaço morto (pior PaCO2).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #110</b> · Volume corrente 'subindo' na tela.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_110.png",
+   "verso": "✅ <b>Erro do sensor de fluxo (deriva da linha de base)</b><br>🔎 Fluxo basal deslocado acima de zero e volume que não se fecha (deriva contínua).<br>⚡ <b>Conduta:</b> Calibrar/trocar sensor, drenar condensado; não decidir VT pela tela até corrigir.",
+   "pegadinha": "Sensor sujo pode gerar autodisparo e VT falso.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #111</b> · Alarme de pressão máxima a cada ciclo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_111.png",
+   "verso": "✅ <b>Ciclos interrompidos pelo limite de pressão (VT não entregue)</b><br>🔎 Pressão inspiratória truncada no limite e ciclo encerrado precocemente; volume menor que o programado.<br>⚡ <b>Conduta:</b> Achar a causa (complacência baixa, obstrução); reduzir VT; não apenas subir o limite.",
+   "pegadinha": "Hipoventilação silenciosa: o VT real é menor que o programado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #112</b> · Alarme de apneia em PSV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_112.png",
+   "verso": "✅ <b>Ventilação de backup (apneia) ativada em PSV</b><br>🔎 Após pausa sem esforços, ciclos mandatórios de backup são entregues.<br>⚡ <b>Conduta:</b> Investigar sedação/drive; retornar a modo assistido-controlado se recorrente.",
+   "pegadinha": "Backup frequente = paciente não está pronto para PSV.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

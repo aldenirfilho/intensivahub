@@ -1,0 +1,162 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::07 🌊 VExUS e congestão venosa",
+ "midia": {
+  "us_092.png": "data/media/vp/us-07.json#us_092.png",
+  "us_093.png": "data/media/vp/us-07.json#us_093.png",
+  "us_094.png": "data/media/vp/us-07.json#us_094.png",
+  "us_095.png": "data/media/vp/us-07.json#us_095.png",
+  "us_096.png": "data/media/vp/us-07.json#us_096.png",
+  "us_097.png": "data/media/vp/us-07.json#us_097.png",
+  "us_098.png": "data/media/vp/us-07.json#us_098.png",
+  "us_099.png": "data/media/vp/us-07.json#us_099.png",
+  "us_100.png": "data/media/vp/us-07.json#us_100.png",
+  "us_101.png": "data/media/vp/us-07.json#us_101.png",
+  "us_102.png": "data/media/vp/us-07.json#us_102.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #092</b> · Lesão renal aguda: congestão?<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_092.png",
+   "verso": "✅ <b>VExUS grau 0 (VCI &lt; 2 cm)</b><br>🔎 VCI ≈ 1,6 cm.<br>⚡ <b>Conduta:</b> Congestão venosa sistêmica improvável; não é necessário seguir com Doppler.",
+   "pegadinha": "VExUS começa sempre pela VCI.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #093</b> · VCI 2,3 cm: Doppler da veia hepática.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_093.png",
+   "verso": "✅ <b>Veia hepática normal (S &gt; D)</b><br>🔎 Ondas S e D anterógradas (abaixo da linha de base) com S maior que D.<br>⚡ <b>Conduta:</b> Padrão normal.",
+   "pegadinha": "Em FA a onda S diminui (perda da contração atrial).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #094</b> · VCI 2,4 cm: Doppler hepático.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_094.png",
+   "verso": "✅ <b>Veia hepática com S &lt; D (alteração leve)</b><br>🔎 Onda S menor que a D, ambas anterógradas.<br>⚡ <b>Conduta:</b> Congestão leve; integrar com porta e intrarrenal.",
+   "pegadinha": "S &lt; D pode ocorrer também na FA e na disfunção do VD.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #095</b> · IC direita, ascite, LRA.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_095.png",
+   "verso": "✅ <b>Veia hepática com S reversa (alteração grave)</b><br>🔎 Onda S acima da linha de base (fluxo reverso) com D anterógrada.<br>⚡ <b>Conduta:</b> Congestão grave (IT importante/PAD alta): descongestão (diurético/UF) se perfusão permitir.",
+   "pegadinha": "S reversa clássica da insuficiência tricúspide grave.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #096</b> · Avaliação da veia porta.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_096.png",
+   "verso": "✅ <b>Veia porta com fluxo contínuo (normal)</b><br>🔎 Fluxo hepatopetal contínuo com pulsatilidade &lt; 30%.<br>⚡ <b>Conduta:</b> Normal.",
+   "pegadinha": "Pulsatilidade portal pode ser normal em magros/jovens.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #097</b> · LRA no pós-operatório cardíaco.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_097.png",
+   "verso": "✅ <b>Pulsatilidade portal 30–49% (alteração leve)</b><br>🔎 Fluxo portal com variação de velocidade 30–49% no ciclo cardíaco.<br>⚡ <b>Conduta:</b> Congestão leve; acompanhar com balanço e Doppler seriado.",
+   "pegadinha": "Índice = (Vmáx − Vmín)/Vmáx.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #098</b> · Choque com VCI pletórica e LRA oligúrica.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_098.png",
+   "verso": "✅ <b>Pulsatilidade portal ≥ 50% com inversão (alteração grave)</b><br>🔎 Fluxo portal 'vai e vem', chegando a inverter.<br>⚡ <b>Conduta:</b> Congestão grave: descongestionar; correlaciona-se com LRA congestiva.",
+   "pegadinha": "Pulsatilidade portal grave é um dos marcadores mais robustos de congestão.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #099</b> · Doppler intrarrenal.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_099.png",
+   "verso": "✅ <b>Fluxo venoso intrarrenal contínuo (normal)</b><br>🔎 Fluxo venoso contínuo abaixo da linha de base, com arterial pulsátil acima.<br>⚡ <b>Conduta:</b> Normal.",
+   "pegadinha": "Use escala de baixa velocidade para ver o venoso.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #100</b> · LRA em IC.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_100.png",
+   "verso": "✅ <b>Fluxo venoso intrarrenal bifásico (alteração leve)</b><br>🔎 Venoso descontínuo com componentes S e D separados.<br>⚡ <b>Conduta:</b> Congestão leve/moderada; considerar descongestão.",
+   "pegadinha": "Os padrões intrarrenais melhoram com a remoção de volume.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #101</b> · Oligúria e creatinina subindo, VCI 2,5 cm.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_101.png",
+   "verso": "✅ <b>Fluxo venoso intrarrenal monofásico (só D — alteração grave)</b><br>🔎 Apenas a onda D venosa, descontínua.<br>⚡ <b>Conduta:</b> Congestão renal grave: descongestão (diurético/UF) e otimizar função do VD.",
+   "pegadinha": "O rim 'encharcado' também sofre LRA: nem toda oligúria é hipovolemia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #102</b> · VCI 2,6 cm; VH com S reversa e porta com 60%.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_102.png",
+   "verso": "✅ <b>VExUS grau 3 (congestão grave)</b><br>🔎 VCI ≥ 2 cm + dois ou mais padrões Doppler graves.<br>⚡ <b>Conduta:</b> Alto risco de LRA congestiva: descongestão ativa, rever volume, tratar VD/IT.",
+   "pegadinha": "Grau 3 = VCI ≥ 2 cm + ≥ 2 graves; grau 2 = 1 grave.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T07",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

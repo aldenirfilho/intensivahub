@@ -1,0 +1,260 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::08 🚑 eFAST, RUSH e BLUE (choque e dispneia)",
+ "midia": {
+  "us_103.png": "data/media/vp/us-08.json#us_103.png",
+  "us_104.png": "data/media/vp/us-08.json#us_104.png",
+  "us_105.png": "data/media/vp/us-08.json#us_105.png",
+  "us_106.png": "data/media/vp/us-08.json#us_106.png",
+  "us_107.png": "data/media/vp/us-08.json#us_107.png",
+  "us_108.png": "data/media/vp/us-08.json#us_108.png",
+  "us_109.png": "data/media/vp/us-08.json#us_109.png",
+  "us_110.png": "data/media/vp/us-08.json#us_110.png",
+  "us_111.png": "data/media/vp/us-08.json#us_111.png",
+  "us_112.png": "data/media/vp/us-08.json#us_112.png",
+  "us_113.png": "data/media/vp/us-08.json#us_113.png",
+  "us_114.png": "data/media/vp/us-08.json#us_114.png",
+  "us_115.png": "data/media/vp/us-08.json#us_115.png",
+  "us_116.png": "data/media/vp/us-08.json#us_116.png",
+  "us_117.png": "data/media/vp/us-08.json#us_117.png",
+  "us_118.png": "data/media/vp/us-08.json#us_118.png",
+  "us_119.png": "data/media/vp/us-08.json#us_119.png",
+  "us_120.png": "data/media/vp/us-08.json#us_120.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #103</b> · Trauma abdominal fechado, PA 80/50.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_103.png",
+   "verso": "✅ <b>eFAST positivo no espaço hepatorrenal (Morison)</b><br>🔎 Faixa anecoica entre fígado e rim.<br>⚡ <b>Conduta:</b> Instável + FAST positivo = laparotomia/controle de dano; transfusão maciça.",
+   "pegadinha": "O polo inferior do fígado é o ponto mais sensível do QSD.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #104</b> · Trauma, janela do QSD.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_104.png",
+   "verso": "✅ <b>Espaço hepatorrenal sem líquido livre</b><br>🔎 Interface fígado-rim contínua, sem faixa anecoica.<br>⚡ <b>Conduta:</b> FAST negativo não exclui lesão de víscera/retroperitônio: repetir se piora; TC se estável.",
+   "pegadinha": "Repita o FAST: sensibilidade aumenta com exames seriados.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #105</b> · Queda de bicicleta, dor abdominal baixa.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_105.png",
+   "verso": "✅ <b>Líquido livre pélvico (retrovesical)</b><br>🔎 Coleção anecoica posterior à bexiga.<br>⚡ <b>Conduta:</b> Instável → cirurgia; estável → TC.",
+   "pegadinha": "Bexiga cheia é a melhor janela; bexiga vazia reduz a sensibilidade.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #106</b> · Trauma em hemitórax esquerdo inferior.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_106.png",
+   "verso": "✅ <b>eFAST positivo no espaço esplenorrenal</b><br>🔎 Líquido anecoico entre baço e rim/espaço subfrênico.<br>⚡ <b>Conduta:</b> Suspeitar lesão esplênica: instável → cirurgia.",
+   "pegadinha": "No QSE o líquido acumula primeiro no espaço subfrênico.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #107</b> · Trauma torácico: sem deslizamento e sem linhas B à direita.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_107.png",
+   "verso": "✅ <b>eFAST torácico: pneumotórax provável</b><br>🔎 Linhas A sem deslizamento e sem linhas B em pontos anteriores.<br>⚡ <b>Conduta:</b> Instável → descompressão imediata; estável → procurar ponto pulmonar/confirmar.",
+   "pegadinha": "eFAST é mais sensível que o Rx supino para pneumotórax.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #108</b> · Choque após vômitos e diarreia.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_108.png",
+   "verso": "✅ <b>RUSH: padrão hipovolêmico</b><br>🔎 VE pequeno e hiperdinâmico + VCI fina e colapsável.<br>⚡ <b>Conduta:</b> Ressuscitação volêmica guiada; procurar sangramento oculto.",
+   "pegadinha": "Hipovolemia: 'tanque vazio, bomba acelerada'.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #109</b> · Choque com turgência jugular.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_109.png",
+   "verso": "✅ <b>RUSH: choque obstrutivo por tamponamento</b><br>🔎 Derrame pericárdico com colapso do VD + VCI pletórica.<br>⚡ <b>Conduta:</b> Pericardiocentese guiada.",
+   "pegadinha": "Obstrutivo: bomba comprimida e tanque cheio.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #110</b> · Choque após cirurgia ortopédica.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_110.png",
+   "verso": "✅ <b>RUSH: choque obstrutivo por TEP (VD dilatado + TVP)</b><br>🔎 VD dilatado no apical + veia femoral com trombo não compressível.<br>⚡ <b>Conduta:</b> Trombólise se instável; anticoagulação.",
+   "pegadinha": "VD dilatado + TVP = TEP até prova em contrário.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #111</b> · Choque com estertores e extremidades frias.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_111.png",
+   "verso": "✅ <b>RUSH: choque cardiogênico (VE dilatado + perfil B)</b><br>🔎 VE dilatado/hipocinético + linhas B difusas.<br>⚡ <b>Conduta:</b> Inotrópico/vasopressor, evitar volume, considerar suporte mecânico e revascularização.",
+   "pegadinha": "Cardiogênico: bomba fraca, tanque cheio, pulmão molhado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #112</b> · Febre, lactato 6, extremidades quentes.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_112.png",
+   "verso": "✅ <b>RUSH: choque distributivo (séptico)</b><br>🔎 Coração hiperdinâmico + VCI fina/colapsável, sem derrame e sem VD dilatado.<br>⚡ <b>Conduta:</b> Volume inicial guiado + noradrenalina precoce + antibiótico/controle de foco.",
+   "pegadinha": "Na sepse tardia pode haver disfunção miocárdica (cardiomiopatia séptica).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #113</b> · Dor lombar súbita e hipotensão, 72 anos.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_113.png",
+   "verso": "✅ <b>RUSH: aneurisma de aorta abdominal</b><br>🔎 Aorta ≈ 6,2 cm com trombo mural.<br>⚡ <b>Conduta:</b> Instável + AAA = ruptura até prova em contrário → centro cirúrgico sem TC.",
+   "pegadinha": "AAA roto frequentemente sangra no retroperitônio (FAST negativo).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #114</b> · Dor abdominal, idoso.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_114.png",
+   "verso": "✅ <b>Aorta abdominal de calibre normal</b><br>🔎 Aorta ≈ 2,0 cm (parede externa a parede externa).<br>⚡ <b>Conduta:</b> AAA improvável; procurar outras causas.",
+   "pegadinha": "AAA = diâmetro ≥ 3 cm; meça de parede externa a externa.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #115</b> · Dor torácica irradiada para o dorso.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_115.png",
+   "verso": "✅ <b>Flap intimal na aorta abdominal (dissecção)</b><br>🔎 Linha ecogênica móvel dividindo o lúmen aórtico.<br>⚡ <b>Conduta:</b> Angio-TC, controle de FC (&lt; 60) e PA (sistólica 100–120); cirurgia se tipo A.",
+   "pegadinha": "Avalie também raiz aórtica e derrame pericárdico.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #116</b> · Dispneia aguda, pulmão com perfil A.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_116.png",
+   "verso": "✅ <b>BLUE: perfil A + TVP = TEP</b><br>🔎 Perfil A anterior bilateral + veia não compressível.<br>⚡ <b>Conduta:</b> Anticoagulação; estratificar VD.",
+   "pegadinha": "Perfil A + TVP tem especificidade ~99% para TEP no BLUE.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #117</b> · Protocolo BLUE: perfil B anterior bilateral com deslizamento.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_117.png",
+   "verso": "✅ <b>BLUE: perfil B = edema pulmonar hemodinâmico</b><br>🔎 Linhas B difusas anteriores bilaterais com deslizamento.<br>⚡ <b>Conduta:</b> Diurético/vasodilatador/VNI; avaliar VE.",
+   "pegadinha": "Perfil B' (sem deslizamento) aponta pneumonia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #118</b> · Febre e dispneia, perfil A anterior.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_118.png",
+   "verso": "✅ <b>BLUE: perfil A + PLAPS = pneumonia</b><br>🔎 Linhas A anteriores + consolidação/derrame no ponto PLAPS.<br>⚡ <b>Conduta:</b> Antibiótico; investigar derrame complicado.",
+   "pegadinha": "Sempre examine o ponto PLAPS (posterolateral).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #119</b> · Trauma estável, exame inicial.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_119.png",
+   "verso": "✅ <b>Líquido livre mínimo no hepatorrenal (repetir eFAST)</b><br>🔎 Fina lâmina anecoica no polo inferior do fígado.<br>⚡ <b>Conduta:</b> Exame positivo: em estável, TC; repetir eFAST seriado.",
+   "pegadinha": "Coleções pequenas aparecem primeiro na ponta do fígado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #120</b> · Trauma, janela pélvica.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_120.png",
+   "verso": "✅ <b>Janela pélvica sem líquido livre</b><br>🔎 Bexiga com paredes regulares, sem coleção posterior.<br>⚡ <b>Conduta:</b> Negativo nessa janela; considerar repetição.",
+   "pegadinha": "Vesículas seminais/útero podem simular líquido.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

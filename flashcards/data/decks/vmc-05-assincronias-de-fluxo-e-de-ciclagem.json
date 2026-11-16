@@ -1,0 +1,204 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::05 🌊 Assincronias de fluxo e de ciclagem",
+ "midia": {
+  "vm_067.png": "data/media/vp/vm-05.json#vm_067.png",
+  "vm_068.png": "data/media/vp/vm-05.json#vm_068.png",
+  "vm_069.png": "data/media/vp/vm-05.json#vm_069.png",
+  "vm_070.png": "data/media/vp/vm-05.json#vm_070.png",
+  "vm_071.png": "data/media/vp/vm-05.json#vm_071.png",
+  "vm_072.png": "data/media/vp/vm-05.json#vm_072.png",
+  "vm_073.png": "data/media/vp/vm-05.json#vm_073.png",
+  "vm_074.png": "data/media/vp/vm-05.json#vm_074.png",
+  "vm_075.png": "data/media/vp/vm-05.json#vm_075.png",
+  "vm_076.png": "data/media/vp/vm-05.json#vm_076.png",
+  "vm_077.png": "data/media/vp/vm-05.json#vm_077.png",
+  "vm_078.png": "data/media/vp/vm-05.json#vm_078.png",
+  "vm_079.png": "data/media/vp/vm-05.json#vm_079.png",
+  "vm_080.png": "data/media/vp/vm-05.json#vm_080.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #067</b> · Paciente taquipneico em VCV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_067.png",
+   "verso": "✅ <b>Fome de fluxo (flow starvation) grave em VCV</b><br>🔎 Curva de pressão inspiratória côncava ('escavada'), às vezes abaixo da PEEP, durante o fluxo fixo.<br>⚡ <b>Conduta:</b> Aumentar fluxo inspiratório, usar fluxo desacelerado ou trocar para PCV/PSV; tratar drive.",
+   "pegadinha": "A escavação estima o esforço: quanto maior a concavidade, maior o trabalho.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #068</b> · VCV com fluxo 42 L/min.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_068.png",
+   "verso": "✅ <b>Fome de fluxo moderada</b><br>🔎 Concavidade leve na pressão inspiratória comparada aos ciclos passivos.<br>⚡ <b>Conduta:</b> Aumentar fluxo (60–80 L/min) ou mudar o modo.",
+   "pegadinha": "Comparar com o formato esperado (rampa reta) do ciclo passivo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #069</b> · PSV com rise time no mínimo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_069.png",
+   "verso": "✅ <b>Overshoot de pressão (rampa rápida demais)</b><br>🔎 Pico de pressão acima do nível de suporte no início da inspiração.<br>⚡ <b>Conduta:</b> Aumentar levemente o rise time.",
+   "pegadinha": "Overshoot pode gerar desconforto e ciclagem precoce.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #070</b> · PSV, paciente refere 'falta de ar'.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_070.png",
+   "verso": "✅ <b>Ciclagem precoce em PSV</b><br>🔎 Ciclo termina com o esforço ainda ativo: fluxo expiratório inicial interrompido/invertido após o término.<br>⚡ <b>Conduta:</b> Reduzir ETS, aumentar PS, avaliar Ti neural longo.",
+   "pegadinha": "Pode evoluir para duplo disparo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #071</b> · DPOC em PSV 16.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_071.png",
+   "verso": "✅ <b>Ciclagem tardia com espícula de pressão</b><br>🔎 Elevação de pressão no fim da inspiração (paciente tentando expirar) com Ti prolongado.<br>⚡ <b>Conduta:</b> Aumentar ETS (40–70%), reduzir PS, ou limitar Ti máximo.",
+   "pegadinha": "A espícula final é o sinal do esforço expiratório contra a válvula fechada.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #072</b> · VCV com pausa longa, paciente acordado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_072.png",
+   "verso": "✅ <b>Ciclagem tardia em VCV (Ti/pausa longos)</b><br>🔎 Elevação de pressão durante a pausa/fim da inspiração por esforço expiratório.<br>⚡ <b>Conduta:</b> Reduzir pausa/Ti; considerar PSV.",
+   "pegadinha": "Pausa programada longa é útil para medida, não para ventilação de rotina em paciente ativo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #073</b> · VNI com máscara mal ajustada.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_073.png",
+   "verso": "✅ <b>Vazamento impede a ciclagem (Ti prolongado em PSV)</b><br>🔎 Fluxo inspiratório não cai abaixo do ETS; inspiração dura até o Ti máximo; volume não retorna a zero.<br>⚡ <b>Conduta:</b> Ajustar máscara/interface, limitar Ti máximo, ativar compensação de vazamento.",
+   "pegadinha": "Em VNI, prefira ciclagem com Ti máximo programado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #074</b> · VCV com Ti 0,6 s em paciente ativo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_074.png",
+   "verso": "✅ <b>Ti mecânico menor que o Ti neural</b><br>🔎 Após o fim do fluxo, o esforço continua: queda/ondulação no início da expiração.<br>⚡ <b>Conduta:</b> Aumentar Ti ou VT; risco de duplo disparo.",
+   "pegadinha": "Ti neural normal ~0,8–1,2 s.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #075</b> · PSV 4 em paciente com pneumonia.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_075.png",
+   "verso": "✅ <b>Suporte insuficiente: VT baixo e FR alta</b><br>🔎 Ciclos pequenos e frequentes com fluxo inspiratório limitado.<br>⚡ <b>Conduta:</b> Aumentar PS até VT 6–8 mL/kg e FR &lt; 30; reavaliar pronto para desmame.",
+   "pegadinha": "IRRS alto nesse cenário reflete suporte inadequado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #076</b> · PCV com paciente puxando forte.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_076.png",
+   "verso": "✅ <b>PCV com esforço vigoroso: VT muito acima do esperado</b><br>🔎 Fluxo inspiratório com pico/segundo componente grande e VT elevado apesar da pressão fixa.<br>⚡ <b>Conduta:</b> Em PCV o esforço soma ao VT (pressão transpulmonar alta): risco de P-SILI; avaliar sedação/analgesia.",
+   "pegadinha": "Pressão limitada não limita o estresse pulmonar quando o paciente puxa.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #077</b> · Troca para fluxo descendente por desconforto.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_077.png",
+   "verso": "✅ <b>Fluxo desacelerado melhora a fome de fluxo inicial</b><br>🔎 Fluxo alto no início acompanha a demanda; pressão com menor concavidade.<br>⚡ <b>Conduta:</b> Opção quando o paciente tem demanda inicial alta em VCV.",
+   "pegadinha": "Se persistir, migrar para PCV/PSV.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #078</b> · PSV ajustada após correção.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_078.png",
+   "verso": "✅ <b>PSV com boa sincronia (referência)</b><br>🔎 Disparo logo no início do esforço, pressão estável, ciclagem quando o esforço termina, expiração passiva até zero.<br>⚡ <b>Conduta:</b> Manter; documentar VT, FR e P0.1.",
+   "pegadinha": "Use o 'ciclo bonito' como referência para reconhecer assincronias.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #079</b> · Alça P-V em VCV com paciente puxando.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_079.png",
+   "verso": "✅ <b>Alça P-V com esforço do paciente (fome de fluxo)</b><br>🔎 Ramo inspiratório desviado para a esquerda/cruzando (formato em '8') pela queda de pressão.<br>⚡ <b>Conduta:</b> Aumentar fluxo ou trocar modo; tratar drive.",
+   "pegadinha": "Alça cruzada indica que o paciente faz trabalho durante a inspiração mecânica.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #080</b> · PSV, paciente contraindo abdome ao final da inspiração.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_080.png",
+   "verso": "✅ <b>Esforço expiratório durante a inspiração mecânica</b><br>🔎 Queda abrupta do fluxo inspiratório e pequena elevação de pressão antes da ciclagem.<br>⚡ <b>Conduta:</b> Aumentar ETS; reduzir PS se VT alto.",
+   "pegadinha": "É a 'briga' para terminar a inspiração.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

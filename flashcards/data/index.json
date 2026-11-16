@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.16-ecg300",
+ "versao": "2026.11.16-vmpocus300",
  "colecoes": [
   {
    "id": "ouro",
@@ -45,6 +45,20 @@
    "icone": "📈",
    "descricao": "300 traçados sintéticos didáticos com alterações do ECG — imagem na frente; diagnóstico, critérios, conduta e pegadinha no verso. Toque no traçado para ampliar.",
    "cards": 300
+  },
+  {
+   "id": "vmc",
+   "nome": "Curvas de VM 360X",
+   "icone": "🫁",
+   "descricao": "150 telas sintéticas de ventilador (pressão, fluxo, volume, Pes e alças) — modos, mecânica, auto-PEEP, assincronias, SDRA, alarmes e desmame. Imagem na frente; diagnóstico, critérios, conduta e pegadinha no verso.",
+   "cards": 150
+  },
+  {
+   "id": "pocus",
+   "nome": "POCUS na UTI 360X",
+   "icone": "🔊",
+   "descricao": "150 imagens sintéticas de ultrassom point-of-care (modo B, modo M e Doppler) — pulmão, derrame, coração, VD/TEP, pericárdio, VCI/VTI, VExUS, eFAST/RUSH/BLUE, vascular, neuro, diafragma e estômago.",
+   "cards": 150
   }
  ],
  "decks": [
@@ -3698,6 +3712,166 @@
    "cards": 6,
    "subtemas": [],
    "pacote": "pack-5-ecg"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-01-modos-ventilatorios-e-curvas-basicas.json",
+   "tema": "01 🫁 Modos ventilatórios e curvas básicas",
+   "cards": 16,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-02-mecanica-respiratoria-ppico-pplato-p-com.json",
+   "tema": "02 📐 Mecânica respiratória: Ppico, Pplatô, ΔP, complacência e resistência",
+   "cards": 18,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-03-auto-peep-e-doenca-obstrutiva.json",
+   "tema": "03 ⏳ Auto-PEEP e doença obstrutiva",
+   "cards": 14,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-04-assincronias-de-disparo.json",
+   "tema": "04 ⚡ Assincronias de disparo",
+   "cards": 18,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-05-assincronias-de-fluxo-e-de-ciclagem.json",
+   "tema": "05 🌊 Assincronias de fluxo e de ciclagem",
+   "cards": 14,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-06-sdra-protecao-pulmonar-p-stress-index-e.json",
+   "tema": "06 🧱 SDRA: proteção pulmonar, ΔP, stress index e esforço",
+   "cards": 16,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-07-alarmes-e-problemas-do-circuito.json",
+   "tema": "07 🚨 Alarmes e problemas do circuito",
+   "cards": 16,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-08-alcas-pressao-volume-e-fluxo-volume.json",
+   "tema": "08 ➰ Alças pressão-volume e fluxo-volume",
+   "cards": 12,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-09-desmame-tre-vni-e-esforco-do-paciente.json",
+   "tema": "09 🏁 Desmame, TRE, VNI e esforço do paciente",
+   "cards": 14,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "vmc",
+   "arquivo": "data/decks/vmc-10-situacoes-especiais-na-uti.json",
+   "tema": "10 🧯 Situações especiais na UTI",
+   "cards": 12,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-01-pulmao-perfis-artefatos-e-pneumotorax.json",
+   "tema": "01 🫁 Pulmão: perfis, artefatos e pneumotórax",
+   "cards": 24,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-02-derrame-pleural-e-procedimentos.json",
+   "tema": "02 💧 Derrame pleural e procedimentos",
+   "cards": 11,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-03-coracao-janelas-e-funcao-do-ve.json",
+   "tema": "03 ❤️ Coração: janelas e função do VE",
+   "cards": 17,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-04-ventriculo-direito-e-tep.json",
+   "tema": "04 🫀 Ventrículo direito e TEP",
+   "cards": 14,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-05-pericardio-e-tamponamento.json",
+   "tema": "05 🎈 Pericárdio e tamponamento",
+   "cards": 12,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-06-vci-fluidorresponsividade-e-vti.json",
+   "tema": "06 💦 VCI, fluidorresponsividade e VTI",
+   "cards": 13,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-07-vexus-e-congestao-venosa.json",
+   "tema": "07 🌊 VExUS e congestão venosa",
+   "cards": 11,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-08-efast-rush-e-blue-choque-e-dispneia.json",
+   "tema": "08 🚑 eFAST, RUSH e BLUE (choque e dispneia)",
+   "cards": 18,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-09-vascular-acessos-e-procedimentos.json",
+   "tema": "09 🩸 Vascular, acessos e procedimentos",
+   "cards": 13,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "pocus",
+   "arquivo": "data/decks/pocus-10-neuro-diafragma-estomago-e-via-aerea.json",
+   "tema": "10 🧠 Neuro, diafragma, estômago e via aérea",
+   "cards": 17,
+   "subtemas": [],
+   "pacote": "pack-6-vmpocus"
   }
  ],
  "pacotes": [
@@ -3777,6 +3951,22 @@
    "cards": 300,
    "bytes": 230303,
    "gzbytes": 52868
+  },
+  {
+   "nome": "pack-6-vmpocus",
+   "rotulo": "🫁 Curvas de VM + 🔊 POCUS 360X",
+   "colecoes": [
+    "vmc",
+    "pocus"
+   ],
+   "gz": "data/packs/pack-6-vmpocus.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-6-vmpocus.json",
+   "sha": "dd900c1bfa910aed",
+   "decks": 20,
+   "cards": 300,
+   "bytes": 241172,
+   "gzbytes": 55808
   }
  ]
 }

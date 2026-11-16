@@ -1,0 +1,204 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::09 🏁 Desmame, TRE, VNI e esforço do paciente",
+ "midia": {
+  "vm_125.png": "data/media/vp/vm-09.json#vm_125.png",
+  "vm_126.png": "data/media/vp/vm-09.json#vm_126.png",
+  "vm_127.png": "data/media/vp/vm-09.json#vm_127.png",
+  "vm_128.png": "data/media/vp/vm-09.json#vm_128.png",
+  "vm_129.png": "data/media/vp/vm-09.json#vm_129.png",
+  "vm_130.png": "data/media/vp/vm-09.json#vm_130.png",
+  "vm_131.png": "data/media/vp/vm-09.json#vm_131.png",
+  "vm_132.png": "data/media/vp/vm-09.json#vm_132.png",
+  "vm_133.png": "data/media/vp/vm-09.json#vm_133.png",
+  "vm_134.png": "data/media/vp/vm-09.json#vm_134.png",
+  "vm_135.png": "data/media/vp/vm-09.json#vm_135.png",
+  "vm_136.png": "data/media/vp/vm-09.json#vm_136.png",
+  "vm_137.png": "data/media/vp/vm-09.json#vm_137.png",
+  "vm_138.png": "data/media/vp/vm-09.json#vm_138.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #125</b> · TRE em PSV 7/PEEP 5, peso predito 70 kg.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_125.png",
+   "verso": "✅ <b>TRE com padrão adequado (IRRS &lt; 105)</b><br>🔎 FR ≈ 20 e VT ≈ 450 mL; IRRS ≈ 45.<br>⚡ <b>Conduta:</b> Se tolerar 30–120 min sem sinais de falha: extubar (avaliar tosse, secreção, nível de consciência).",
+   "pegadinha": "IRRS isolado tem baixo valor preditivo: julgue o conjunto.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #126</b> · TRE após 15 min: sudorese e uso de musculatura.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_126.png",
+   "verso": "✅ <b>TRE falhando: respiração rápida e superficial</b><br>🔎 FR ≈ 38 com VT pequeno (IRRS &gt; 105).<br>⚡ <b>Conduta:</b> Interromper o TRE, voltar ao suporte, investigar causa (sobrecarga, fraqueza, secreção, cardiopatia).",
+   "pegadinha": "Falha no TRE por edema pulmonar de desmame: pensar em diurético/vasodilatador.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #127</b> · Avaliação do drive antes do desmame.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_127.png",
+   "verso": "✅ <b>P0.1 normal</b><br>🔎 Queda de pressão de ~1,5 cmH2O nos primeiros 100 ms da oclusão.<br>⚡ <b>Conduta:</b> Drive adequado: 1–3,5 cmH2O.",
+   "pegadinha": "P0.1 muito baixo (&lt; 1) sugere drive baixo/sedação excessiva.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #128</b> · Paciente em PSV, aparente conforto.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_128.png",
+   "verso": "✅ <b>P0.1 elevado (drive respiratório alto)</b><br>🔎 Queda rápida de pressão (&gt; 3,5–4 cmH2O) nos primeiros 100 ms da oclusão.<br>⚡ <b>Conduta:</b> Aumentar suporte/analgesia, tratar causa; risco de P-SILI e falha de desmame.",
+   "pegadinha": "O P0.1 é independente da fraqueza muscular e da sedação consciente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #129</b> · Estimar esforço sem cateter esofágico.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_129.png",
+   "verso": "✅ <b>Pocc para estimar a pressão muscular (Pmus)</b><br>🔎 Na oclusão expiratória a pressão cai ≈ 15 cmH2O durante o esforço.<br>⚡ <b>Conduta:</b> Pmus ≈ 0,75 × |ΔPocc| e PL dinâmica ≈ (Ppico − PEEP) − 0,66 × ΔPocc; esforço alvo moderado.",
+   "pegadinha": "Oclusão deve durar um esforço completo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #130</b> · VNI com máscara oronasal.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_130.png",
+   "verso": "✅ <b>VNI com vazamento excessivo</b><br>🔎 Volume não retorna à linha de base, fluxo inspiratório sustentado, Ti limitado pelo máximo.<br>⚡ <b>Conduta:</b> Ajustar a máscara, tamanho/interface, compensação de vazamento; reavaliar se a VNI está falhando.",
+   "pegadinha": "Vazamento grande gera autodisparo e ciclagem tardia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #131</b> · Cardiopata grave em PSV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_131.png",
+   "verso": "✅ <b>Respiração periódica (Cheyne-Stokes) em PSV</b><br>🔎 VT/esforços em crescendo-decrescendo cíclico, com pausas.<br>⚡ <b>Conduta:</b> Associada a IC grave/neurológico; considerar modo controlado/ajuste de suporte; tratar causa.",
+   "pegadinha": "PS alta pode agravar a instabilidade do controle ventilatório.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #132</b> · TRE com cateter esofágico.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_132.png",
+   "verso": "✅ <b>Esforço excessivo no TRE (ΔPes alto)</b><br>🔎 Grandes oscilações negativas da Pes durante o TRE.<br>⚡ <b>Conduta:</b> Interromper o TRE; investigar causa (sobrecarga, fraqueza, secreção).",
+   "pegadinha": "Esforço normal: ΔPes ~5–10 cmH2O.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #133</b> · TRE em CPAP: contração abdominal visível.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_133.png",
+   "verso": "✅ <b>Recrutamento de músculos expiratórios no TRE (sinal de falha)</b><br>🔎 Fluxo expiratório com 'empurrão' ativo e aceleração tardia.<br>⚡ <b>Conduta:</b> Encerrar TRE; tratar causa; reavaliar carga x capacidade.",
+   "pegadinha": "Expiração ativa aumenta a PEEP intrínseca estimada artificialmente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #134</b> · 'Não está pronto para desmame' há 5 dias.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_134.png",
+   "verso": "✅ <b>PS excessiva mascarando a capacidade de desmame</b><br>🔎 VT muito alto (&gt; 10 mL/kg) e FR baixa com PS 20.<br>⚡ <b>Conduta:</b> Reduzir PS progressivamente e fazer TRE diário (PSV 5–8 ou tubo T).",
+   "pegadinha": "Excesso de suporte atrofia o diafragma (VIDD).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #135</b> · TRE em tubo T (sem suporte).<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_135.png",
+   "verso": "✅ <b>TRE em tubo T/CPAP 0</b><br>🔎 Pressão na linha zero, fluxos espontâneos sem suporte.<br>⚡ <b>Conduta:</b> Avaliar FR, VT, SatO2, FC, PA, conforto por 30–120 min.",
+   "pegadinha": "PSV 5–8 e tubo T têm acurácia semelhante; PSV pode superestimar a prontidão.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #136</b> · DPOC extubado em VNI preventiva.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_136.png",
+   "verso": "✅ <b>VNI bem ajustada no DPOC (boa sincronia)</b><br>🔎 Ciclos disparados no início do esforço, vazamento pequeno compensado, expiração completa.<br>⚡ <b>Conduta:</b> VNI pós-extubação reduz reintubação em alto risco (DPOC, hipercapnia, IC).",
+   "pegadinha": "Não usar VNI para 'resgatar' falha estabelecida: atrasa a reintubação.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #137</b> · Antes de extubar: cuff desinsuflado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_137.png",
+   "verso": "✅ <b>Teste de vazamento do cuff positivo (vazamento adequado)</b><br>🔎 Diferença VTi − VTe ≈ 140 mL (&gt; 110 mL ou &gt; 15–25%).<br>⚡ <b>Conduta:</b> Baixo risco de estridor pós-extubação; se negativo em alto risco, corticoide 4–12 h antes.",
+   "pegadinha": "Teste negativo não contraindica extubação isoladamente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #138</b> · Polineuropatia do doente crítico em PSV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_138.png",
+   "verso": "✅ <b>Fraqueza muscular: esforços fracos e VT pequeno</b><br>🔎 Deflexões de esforço pequenas, VT baixo, alguns esforços sem disparo.<br>⚡ <b>Conduta:</b> Avaliar PImáx, ultrassom do diafragma; reabilitação; desmame gradual.",
+   "pegadinha": "P0.1 normal com PImáx baixa sugere fraqueza, não falta de drive.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

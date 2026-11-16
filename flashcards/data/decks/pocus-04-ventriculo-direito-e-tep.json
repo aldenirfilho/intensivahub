@@ -1,0 +1,204 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::04 🫀 Ventrículo direito e TEP",
+ "midia": {
+  "us_053.png": "data/media/vp/us-04.json#us_053.png",
+  "us_054.png": "data/media/vp/us-04.json#us_054.png",
+  "us_055.png": "data/media/vp/us-04.json#us_055.png",
+  "us_056.png": "data/media/vp/us-04.json#us_056.png",
+  "us_057.png": "data/media/vp/us-04.json#us_057.png",
+  "us_058.png": "data/media/vp/us-04.json#us_058.png",
+  "us_059.png": "data/media/vp/us-04.json#us_059.png",
+  "us_060.png": "data/media/vp/us-04.json#us_060.png",
+  "us_061.png": "data/media/vp/us-04.json#us_061.png",
+  "us_062.png": "data/media/vp/us-04.json#us_062.png",
+  "us_063.png": "data/media/vp/us-04.json#us_063.png",
+  "us_064.png": "data/media/vp/us-04.json#us_064.png",
+  "us_065.png": "data/media/vp/us-04.json#us_065.png",
+  "us_066.png": "data/media/vp/us-04.json#us_066.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #053</b> · Dispneia súbita e hipotensão.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_053.png",
+   "verso": "✅ <b>Sinal do D (septo retificado)</b><br>🔎 VE em formato de 'D' por retificação do septo interventricular; VD dilatado.<br>⚡ <b>Conduta:</b> Sobrecarga do VD (TEP, HP, SDRA grave): evitar hipervolemia; considerar trombólise se TEP de alto risco.",
+   "pegadinha": "Retificação na diástole = sobrecarga de volume; na sístole e diástole = pressão.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #054</b> · TEP confirmado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_054.png",
+   "verso": "✅ <b>VD dilatado (relação VD/VE &gt; 1)</b><br>🔎 VD maior que o VE no apical 4C, ocupando o ápice.<br>⚡ <b>Conduta:</b> Marcador de gravidade no TEP; estratificar com troponina/BNP; trombólise se instável.",
+   "pegadinha": "VD/VE &gt; 1 = dilatação grave; normal &lt; 0,6.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #055</b> · TEP com troponina positiva.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_055.png",
+   "verso": "✅ <b>TAPSE reduzido (disfunção do VD)</b><br>🔎 Excursão do anel tricúspide ≈ 12 mm (&lt; 17 mm).<br>⚡ <b>Conduta:</b> Disfunção do VD: risco intermediário-alto; monitorizar, considerar trombólise se deteriorar.",
+   "pegadinha": "TAPSE depende de ângulo e é afetado por movimento global do coração.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #056</b> · Avaliação do VD na SDRA.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_056.png",
+   "verso": "✅ <b>TAPSE normal</b><br>🔎 Excursão ≈ 22 mm (≥ 17 mm).<br>⚡ <b>Conduta:</b> Função sistólica longitudinal do VD preservada.",
+   "pegadinha": "TAPSE normal não exclui disfunção do VD na VM com PEEP alta.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #057</b> · Estimar a PSAP; VCI 2,3 cm sem colapso.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_057.png",
+   "verso": "✅ <b>PSAP estimada pelo jato de IT</b><br>🔎 Vmáx ≈ 3,8 m/s → gradiente VD-AD = 4 × 3,8² ≈ 58 mmHg.<br>⚡ <b>Conduta:</b> PSAP ≈ 58 + PAD (≈ 15 pela VCI) ≈ 73 mmHg: hipertensão pulmonar.",
+   "pegadinha": "Gradiente &lt; 60 mmHg com VD dilatado agudo sugere TEP (VD agudo não gera pressões altíssimas).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #058</b> · Hipotensão e VD dilatado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_058.png",
+   "verso": "✅ <b>Sinal 60/60 (TEP agudo)</b><br>🔎 Tempo de aceleração pulmonar &lt; 60 ms com entalhe mesossistólico; gradiente de IT &lt; 60 mmHg.<br>⚡ <b>Conduta:</b> Alta especificidade para TEP agudo; pesquisar TVP; anticoagular/trombólise conforme risco.",
+   "pegadinha": "Entalhe mesossistólico = onda refletida por obstrução proximal.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #059</b> · Hipotensão grave, dispneia súbita.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_059.png",
+   "verso": "✅ <b>Trombo em trânsito no átrio direito</b><br>🔎 Massa ecogênica móvel/serpiginosa no AD.<br>⚡ <b>Conduta:</b> Emergência: trombólise ou embolectomia; anticoagulação plena.",
+   "pegadinha": "Trombo em trânsito tem mortalidade alta em horas.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #060</b> · PA 75/40, SatO2 82%, TEP provável e TC indisponível.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_060.png",
+   "verso": "✅ <b>TEP de alto risco: VD dilatado com instabilidade</b><br>🔎 VD muito dilatado e VE pequeno em paciente em choque.<br>⚡ <b>Conduta:</b> Choque + VD dilatado sem outra causa: trombólise sistêmica pode ser feita sem TC.",
+   "pegadinha": "Evitar intubação se possível (colapso hemodinâmico); noradrenalina; volume com cautela.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #061</b> · DPOC grave, edema de MMII crônico.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_061.png",
+   "verso": "✅ <b>Cor pulmonale crônico (VD dilatado e hipertrofiado)</b><br>🔎 VD dilatado com parede espessa e septo retificado.<br>⚡ <b>Conduta:</b> Hipertensão pulmonar crônica: oxigênio, tratar causa; cuidado com volume e VM.",
+   "pegadinha": "Parede do VD &gt; 5 mm sugere processo crônico.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #062</b> · SDRA grave, P/F 85, em VM.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_062.png",
+   "verso": "✅ <b>Cor pulmonale agudo na SDRA</b><br>🔎 VD dilatado (VD/VE &gt; 0,6) com septo retificado.<br>⚡ <b>Conduta:</b> Reduzir ΔP e PaCO2, evitar PEEP excessiva, prona; noradrenalina; considerar vasodilatador pulmonar.",
+   "pegadinha": "Prona descarrega o VD e é a principal intervenção.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #063</b> · VD normal, avaliação de rotina.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_063.png",
+   "verso": "✅ <b>Tempo de aceleração pulmonar normal</b><br>🔎 TA ≈ 140 ms (&gt; 105–110 ms), envelope arredondado sem entalhe.<br>⚡ <b>Conduta:</b> Pressão pulmonar provavelmente normal.",
+   "pegadinha": "TA &lt; 90–100 ms sugere hipertensão pulmonar.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #064</b> · Ecocardiograma de rotina.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_064.png",
+   "verso": "✅ <b>Velocidade de IT normal (≈ 2,4 m/s)</b><br>🔎 Vmáx ≈ 2,4 m/s → gradiente ≈ 23 mmHg.<br>⚡ <b>Conduta:</b> PSAP normal (≈ 23 + PAD).",
+   "pegadinha": "IT ausente não exclui HP (falta de jato mensurável).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #065</b> · Comparação com o VD dilatado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_065.png",
+   "verso": "✅ <b>VD normal no apical 4 câmaras (VD/VE &lt; 0,6)</b><br>🔎 VD menor que o VE e o ápice formado pelo VE.<br>⚡ <b>Conduta:</b> Afasta sobrecarga aguda importante do VD.",
+   "pegadinha": "Sempre mostre o ápice do VE para não encurtar o corte.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #066</b> · IT importante e VCI pletórica.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_066.png",
+   "verso": "✅ <b>Átrio direito aumentado</b><br>🔎 AD claramente maior que o AE.<br>⚡ <b>Conduta:</b> Sugere sobrecarga crônica do lado direito/IT; congestão venosa (avaliar VExUS).",
+   "pegadinha": "AD grande + VCI pletórica = PAD elevada.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T04",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

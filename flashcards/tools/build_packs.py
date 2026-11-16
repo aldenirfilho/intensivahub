@@ -1,7 +1,7 @@
 """Junta os baralhos do índice em 4 pacotes (.json.gz + .json mínimo de reserva). Rodar POR ÚLTIMO, após qualquer build que mexa no índice."""
 import json, gzip, hashlib, os, sys
 APP = sys.argv[1] if len(sys.argv) > 1 else "/home/claude/app2"
-GRUPOS = [("pack-1-temi", "🏥 TEMI 2028 + 🥇 Números de ouro", ["temi", "ouro"]), ("pack-2-r3", "🩺 R3 Clínica Médica", ["cm"]), ("pack-3-ia360c", "🤖 IAs 360X curados", ["ia360c"]), ("pack-4-outras", "🧹 Outras IAs + Grok", ["iac", "grok"]), ("pack-5-ecg", "📈 Compêndio de ECG 360X", ["ecg"])]
+GRUPOS = [("pack-1-temi", "🏥 TEMI 2028 + 🥇 Números de ouro", ["temi", "ouro"]), ("pack-2-r3", "🩺 R3 Clínica Médica", ["cm"]), ("pack-3-ia360c", "🤖 IAs 360X curados", ["ia360c"]), ("pack-4-outras", "🧹 Outras IAs + Grok", ["iac", "grok"]), ("pack-5-ecg", "📈 Compêndio de ECG 360X", ["ecg"]), ("pack-6-vmpocus", "🫁 Curvas de VM + 🔊 POCUS 360X", ["vmc", "pocus"])]
 idx = json.load(open(f"{APP}/data/index.json"))
 os.makedirs(f"{APP}/data/packs", exist_ok=True)
 for f in os.listdir(f"{APP}/data/packs"): os.remove(f"{APP}/data/packs/{f}")

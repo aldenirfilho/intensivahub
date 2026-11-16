@@ -1,0 +1,2 @@
+# PNGs-fonte (regeneráveis por tools/vmpocus/build_vp.py); o app usa os pacotes vm-NN.json / us-NN.json
+*.png

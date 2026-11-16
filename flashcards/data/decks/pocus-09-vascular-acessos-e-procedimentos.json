@@ -1,0 +1,190 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::09 🩸 Vascular, acessos e procedimentos",
+ "midia": {
+  "us_121.png": "data/media/vp/us-09.json#us_121.png",
+  "us_122.png": "data/media/vp/us-09.json#us_122.png",
+  "us_123.png": "data/media/vp/us-09.json#us_123.png",
+  "us_124.png": "data/media/vp/us-09.json#us_124.png",
+  "us_125.png": "data/media/vp/us-09.json#us_125.png",
+  "us_126.png": "data/media/vp/us-09.json#us_126.png",
+  "us_127.png": "data/media/vp/us-09.json#us_127.png",
+  "us_128.png": "data/media/vp/us-09.json#us_128.png",
+  "us_129.png": "data/media/vp/us-09.json#us_129.png",
+  "us_130.png": "data/media/vp/us-09.json#us_130.png",
+  "us_131.png": "data/media/vp/us-09.json#us_131.png",
+  "us_132.png": "data/media/vp/us-09.json#us_132.png",
+  "us_133.png": "data/media/vp/us-09.json#us_133.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #121</b> · Edema de MMII unilateral, D-dímero alto.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_121.png",
+   "verso": "✅ <b>TVP femoral (veia não compressível)</b><br>🔎 A veia não colapsa sob compressão e tem conteúdo ecogênico.<br>⚡ <b>Conduta:</b> Anticoagulação; avaliar TEP/VD se dispneia.",
+   "pegadinha": "Compressão completa da veia exclui TVP naquele ponto.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #122</b> · Suspeita de TVP.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_122.png",
+   "verso": "✅ <b>Veia compressível (sem TVP)</b><br>🔎 A veia colapsa completamente com leve compressão; artéria mantém forma.<br>⚡ <b>Conduta:</b> TVP excluída no ponto; completar compressão em 2 pontos (femoral e poplítea).",
+   "pegadinha": "Pressão excessiva colapsa até a artéria: use a menor força necessária.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #123</b> · Antes de puncionar a femoral.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_123.png",
+   "verso": "✅ <b>Identificação de artéria e veia com Doppler colorido</b><br>🔎 Duas estruturas com fluxo: artéria (vermelho, pulsátil, redonda) e veia (azul, compressível, oval).<br>⚡ <b>Conduta:</b> Puncionar a veia, medial à artéria na femoral.",
+   "pegadinha": "A cor depende da direção do fluxo em relação ao transdutor, não de ser artéria ou veia.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #124</b> · Acesso venoso central guiado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_124.png",
+   "verso": "✅ <b>Agulha no lúmen venoso (punção guiada)</b><br>🔎 Linha hiperecogênica da agulha com a ponta visível dentro da veia.<br>⚡ <b>Conduta:</b> Prosseguir com fio-guia e confirmar o fio na veia antes de dilatar.",
+   "pegadinha": "Visualizar a ponta (não só o corpo da agulha) evita transfixar a parede posterior.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #125</b> · Sangue pulsátil na seringa.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_125.png",
+   "verso": "✅ <b>Agulha na artéria (punção arterial inadvertida)</b><br>🔎 Trajeto da agulha terminando na artéria.<br>⚡ <b>Conduta:</b> Retirar e comprimir; NÃO dilatar; confirmar o fio na veia antes de dilatar em nova tentativa.",
+   "pegadinha": "Confirmar o fio-guia na veia por USG reduz canulação arterial.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #126</b> · Confirmar posição do CVC jugular.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_126.png",
+   "verso": "✅ <b>Teste das microbolhas: CVC venoso bem posicionado</b><br>🔎 Microbolhas preenchendo o AD/VD em &lt; 2 s após flush.<br>⚡ <b>Conduta:</b> Confirma posição venosa central; Rx não é obrigatório para iniciar infusão em muitos protocolos.",
+   "pegadinha": "Atraso &gt; 2 s sugere mau posicionamento.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #127</b> · Agitação e dor suprapúbica em idoso.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_127.png",
+   "verso": "✅ <b>Retenção urinária (bexigoma)</b><br>🔎 Bexiga ≈ 10 × 7,5 cm (volume ≈ 0,52 × C × L × A &gt; 500 mL).<br>⚡ <b>Conduta:</b> Sondagem vesical; investigar causa (anticolinérgicos, opioides, HPB).",
+   "pegadinha": "Retenção causa delirium e hipertensão em idosos.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #128</b> · Oligúria em paciente sondado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_128.png",
+   "verso": "✅ <b>Sonda vesical bem posicionada (bexiga vazia)</b><br>🔎 Bexiga colapsada com balão da sonda visível.<br>⚡ <b>Conduta:</b> Oligúria não é obstrutiva baixa: investigar pré-renal/renal.",
+   "pegadinha": "Sonda obstruída: bexiga cheia ao redor do balão.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #129</b> · LRA com anúria súbita.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_129.png",
+   "verso": "✅ <b>Hidronefrose (dilatação pielocalicial)</b><br>🔎 Pelve e cálices renais dilatados (anecoicos) no seio renal.<br>⚡ <b>Conduta:</b> Pensar em uropatia obstrutiva: desobstrução (sonda, cateter duplo J, nefrostomia).",
+   "pegadinha": "Hidronefrose bilateral = obstrução baixa ou bilateral.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #130</b> · Segundo ponto da compressão.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_130.png",
+   "verso": "✅ <b>TVP poplítea (compressão de 2 pontos)</b><br>🔎 Veia poplítea não compressível.<br>⚡ <b>Conduta:</b> Anticoagulação.",
+   "pegadinha": "Compressão em 2 pontos tem boa acurácia na emergência.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #131</b> · Hematúria e sonda sem débito.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_131.png",
+   "verso": "✅ <b>Coágulos intravesicais com sonda obstruída</b><br>🔎 Bexiga distendida com material ecogênico ao redor do balão.<br>⚡ <b>Conduta:</b> Irrigação vesical, troca por sonda de 3 vias.",
+   "pegadinha": "Bexiga cheia com sonda = obstrução da sonda.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #132</b> · Veia sem fluxo ao Doppler.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_132.png",
+   "verso": "✅ <b>Ausência de fluxo venoso ao Doppler (trombose)</b><br>🔎 Fluxo presente na artéria e ausente na veia distendida.<br>⚡ <b>Conduta:</b> Confirma TVP; anticoagulação.",
+   "pegadinha": "Doppler é complementar: o critério principal é a compressibilidade.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #133</b> · Preparo para punção jugular.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_133.png",
+   "verso": "✅ <b>Distensão da veia jugular com Valsalva/Trendelenburg</b><br>🔎 A veia aumenta de calibre com manobra de aumento da pressão venosa.<br>⚡ <b>Conduta:</b> Facilita a punção e reduz risco de embolia gasosa.",
+   "pegadinha": "Veia que não varia pode estar trombosada.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T09",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

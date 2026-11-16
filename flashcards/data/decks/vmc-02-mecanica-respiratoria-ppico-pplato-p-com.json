@@ -1,0 +1,260 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::02 📐 Mecânica respiratória: Ppico, Pplatô, ΔP, complacência e resistência",
+ "midia": {
+  "vm_017.png": "data/media/vp/vm-02.json#vm_017.png",
+  "vm_018.png": "data/media/vp/vm-02.json#vm_018.png",
+  "vm_019.png": "data/media/vp/vm-02.json#vm_019.png",
+  "vm_020.png": "data/media/vp/vm-02.json#vm_020.png",
+  "vm_021.png": "data/media/vp/vm-02.json#vm_021.png",
+  "vm_022.png": "data/media/vp/vm-02.json#vm_022.png",
+  "vm_023.png": "data/media/vp/vm-02.json#vm_023.png",
+  "vm_024.png": "data/media/vp/vm-02.json#vm_024.png",
+  "vm_025.png": "data/media/vp/vm-02.json#vm_025.png",
+  "vm_026.png": "data/media/vp/vm-02.json#vm_026.png",
+  "vm_027.png": "data/media/vp/vm-02.json#vm_027.png",
+  "vm_028.png": "data/media/vp/vm-02.json#vm_028.png",
+  "vm_029.png": "data/media/vp/vm-02.json#vm_029.png",
+  "vm_030.png": "data/media/vp/vm-02.json#vm_030.png",
+  "vm_031.png": "data/media/vp/vm-02.json#vm_031.png",
+  "vm_032.png": "data/media/vp/vm-02.json#vm_032.png",
+  "vm_033.png": "data/media/vp/vm-02.json#vm_033.png",
+  "vm_034.png": "data/media/vp/vm-02.json#vm_034.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #017</b> · Sibilância difusa após aspiração.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_017.png",
+   "verso": "✅ <b>Ppico alta com Pplatô normal: aumento de resistência</b><br>🔎 Grande diferença Ppico − Pplat (&gt; 10 cmH2O) com platô normal.<br>⚡ <b>Conduta:</b> Investigar via aérea: secreção, broncoespasmo, tubo dobrado/mordido, filtro saturado. Aspirar, broncodilatador.",
+   "pegadinha": "Ppico alta sozinha não lesa o alvéolo: o que importa para lesão é Pplat/ΔP.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #018</b> · Pneumonia grave bilateral.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_018.png",
+   "verso": "✅ <b>Ppico e Pplatô altas: complacência baixa</b><br>🔎 Ppico e Pplat elevadas com pequena diferença entre elas (resistência normal).<br>⚡ <b>Conduta:</b> Pensar em SDRA, edema, atelectasia, pneumotórax, distensão abdominal; reduzir VT, otimizar PEEP.",
+   "pegadinha": "Pplat alta + ΔP alto = parênquima rígido (ou parede torácica rígida).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #019</b> · SDRA moderada, PEEP 10.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_019.png",
+   "verso": "✅ <b>Driving pressure elevada (ΔP ≈ 18)</b><br>🔎 ΔP = Pplat − PEEP ≈ 28 − 10 = 18 cmH2O.<br>⚡ <b>Conduta:</b> ΔP &gt; 15 associa-se a maior mortalidade: reduzir VT (até 4 mL/kg) e reavaliar PEEP.",
+   "pegadinha": "Pplat &lt; 30 não garante proteção se o ΔP estiver alto.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #020</b> · Calcule a complacência estática.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_020.png",
+   "verso": "✅ <b>Complacência estática ≈ 25 mL/cmH2O</b><br>🔎 Cst = VT / (Pplat − PEEP) = 500 / (30 − 10) = 25 mL/cmH2O.<br>⚡ <b>Conduta:</b> Normal ~50–80 mL/cmH2O no ventilado; &lt; 30–40 sugere SDRA/rigidez.",
+   "pegadinha": "Use o VT expirado e a PEEP TOTAL (inclua auto-PEEP).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #021</b> · Calcule a resistência inspiratória.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_021.png",
+   "verso": "✅ <b>Resistência de vias aéreas ≈ 15 cmH2O/L/s</b><br>🔎 R = (Ppico − Pplat) / fluxo = (≈ 30 − ≈ 15) / 1 L/s ≈ 15 cmH2O/L/s.<br>⚡ <b>Conduta:</b> Normal no intubado ~ 5–10 (tubo incluso); &gt; 15–20 sugere obstrução.",
+   "pegadinha": "O fluxo precisa estar em L/s e ser constante (onda quadrada) para o cálculo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #022</b> · Paciente agitado durante a medida.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_022.png",
+   "verso": "✅ <b>Pplatô não confiável: esforço durante a pausa</b><br>🔎 Platô instável, com deflexões negativas/positivas durante a pausa inspiratória.<br>⚡ <b>Conduta:</b> Repetir com paciente passivo (sedação momentânea) antes de decidir PEEP/VT.",
+   "pegadinha": "Esforço inspiratório na pausa subestima a Pplat; esforço expiratório superestima.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #023</b> · Medida de Pplatô por pausa manual.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_023.png",
+   "verso": "✅ <b>Pausa inspiratória manual: medida correta do platô</b><br>🔎 Fluxo zero sustentado após a inspiração com pressão estável (platô) por ~2 s.<br>⚡ <b>Conduta:</b> Pplat = pressão alveolar no fim da inspiração; usar para ΔP e complacência.",
+   "pegadinha": "Vazamento ou fístula impedem platô estável (pressão cai durante a pausa).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #024</b> · DPOC em VCV, suspeita de aprisionamento.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_024.png",
+   "verso": "✅ <b>Pausa expiratória: auto-PEEP medida</b><br>🔎 Ao ocluir no fim da expiração a pressão sobe acima da PEEP programada (PEEP total &gt; PEEP externa).<br>⚡ <b>Conduta:</b> Auto-PEEP = PEEP total − PEEP externa; reduzir FR/VT, aumentar Te, broncodilatador.",
+   "pegadinha": "A auto-PEEP só é medida com o paciente passivo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #025</b> · Subitamente: queda de SatO2 e PA.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_025.png",
+   "verso": "✅ <b>Elevação súbita de Ppico E Pplatô (queda de complacência)</b><br>🔎 Ppico e Pplat sobem juntas a partir de um ciclo, com diferença Ppico − Pplat preservada.<br>⚡ <b>Conduta:</b> Pneumotórax, intubação seletiva, atelectasia maciça, distensão abdominal: examinar, POCUS, Rx; se pneumotórax hipertensivo → descompressão.",
+   "pegadinha": "Se só a Ppico subisse, o problema estaria na via aérea/tubo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #026</b> · Alarme de pressão alta súbito.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_026.png",
+   "verso": "✅ <b>Elevação súbita de Ppico com Pplatô estável (resistência)</b><br>🔎 A partir de um ciclo, Ppico sobe muito e o platô permanece igual.<br>⚡ <b>Conduta:</b> Passar sonda de aspiração, verificar tubo dobrado/mordido, rolha de secreção, broncoespasmo; bloqueador de mordida.",
+   "pegadinha": "Não aumentar o limite de pressão sem achar a causa.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #027</b> · PCV: alarme de volume-minuto baixo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_027.png",
+   "verso": "✅ <b>PCV: queda súbita do VT com pressão constante</b><br>🔎 Pressão igual, mas o fluxo e o volume caem a partir de um ciclo (complacência ou resistência piorou).<br>⚡ <b>Conduta:</b> Em PCV o problema aparece no VOLUME: procurar pneumotórax, secreção, atelectasia, distensão abdominal.",
+   "pegadinha": "Configure alarmes de VT/VM baixos em modos a pressão.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #028</b> · DPOC em VCV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_028.png",
+   "verso": "✅ <b>Constante de tempo expiratória longa</b><br>🔎 Fluxo expiratório com pico baixo e decaimento lento e prolongado.<br>⚡ <b>Conduta:</b> Programar Te suficiente (≈ 3–5 constantes de tempo); FR menor; broncodilatador.",
+   "pegadinha": "τ = R × C: obstrução e alta complacência (enfisema) prolongam o esvaziamento.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #029</b> · Fibrose pulmonar em VM.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_029.png",
+   "verso": "✅ <b>Constante de tempo curta (pulmão rígido)</b><br>🔎 Fluxo expiratório com pico alto e retorno rápido a zero.<br>⚡ <b>Conduta:</b> Tolera FR mais alta sem auto-PEEP; priorizar VT baixo e ΔP.",
+   "pegadinha": "Pulmão rígido esvazia rápido: auto-PEEP é rara.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #030</b> · Ppico elevada após ajuste de fluxo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_030.png",
+   "verso": "✅ <b>Ppico alta por fluxo inspiratório elevado</b><br>🔎 Ppico alta com Pplat normal após aumento do fluxo (componente resistivo ∝ fluxo).<br>⚡ <b>Conduta:</b> Ppico isolada não lesa alvéolo; ajustar fluxo conforme conforto/Ti desejado.",
+   "pegadinha": "Aumentar o fluxo encurta o Ti e pode ajudar obstrutivos (mais Te), às custas de Ppico maior.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #031</b> · SDRA, peso predito 60 kg.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_031.png",
+   "verso": "✅ <b>Pplatô acima de 30 cmH2O</b><br>🔎 Pplat ≈ 33 com VT 600 (10 mL/kg PBW).<br>⚡ <b>Conduta:</b> Reduzir VT para 6 mL/kg (até 4) mantendo Pplat ≤ 30 e ΔP ≤ 15; aceitar hipercapnia.",
+   "pegadinha": "Use peso PREDITO pela altura, não o peso real.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #032</b> · SDRA após titulação de PEEP.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_032.png",
+   "verso": "✅ <b>PEEP alta com ΔP baixa (boa resposta à PEEP)</b><br>🔎 PEEP 16 com Pplat ≈ 27 e ΔP ≈ 11.<br>⚡ <b>Conduta:</b> Sugere recrutamento com a PEEP; manter se hemodinâmica estável e sem hiperdistensão.",
+   "pegadinha": "Se aumentar PEEP eleva o ΔP, houve hiperdistensão (não recrutamento).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #033</b> · Obesidade grau III, Pplat 31.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_033.png",
+   "verso": "✅ <b>Pplatô alta por parede torácica rígida (pressão transpulmonar normal)</b><br>🔎 Pplat 31, mas pressão transpulmonar inspiratória (Pplat − Pes) ≈ 10 cmH2O.<br>⚡ <b>Conduta:</b> Pplat alta não indica, aqui, estresse pulmonar excessivo; considerar PEEP guiada por Pes (PL exp ≥ 0).",
+   "pegadinha": "Obesidade e hipertensão abdominal elevam a Pplat pela parede, não pelo pulmão.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #034</b> · DPOC + pneumonia: calcule o ΔP real.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_034.png",
+   "verso": "✅ <b>ΔP corrigido pela auto-PEEP</b><br>🔎 ΔP = Pplat − PEEP TOTAL = 30 − 12 = 18 (e não 25).<br>⚡ <b>Conduta:</b> Usar a PEEP total no ΔP e na complacência; tratar a auto-PEEP.",
+   "pegadinha": "Ignorar a auto-PEEP superestima o ΔP e subestima a complacência.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

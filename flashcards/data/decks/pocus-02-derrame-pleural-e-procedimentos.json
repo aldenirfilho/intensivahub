@@ -1,0 +1,162 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::02 💧 Derrame pleural e procedimentos",
+ "midia": {
+  "us_025.png": "data/media/vp/us-02.json#us_025.png",
+  "us_026.png": "data/media/vp/us-02.json#us_026.png",
+  "us_027.png": "data/media/vp/us-02.json#us_027.png",
+  "us_028.png": "data/media/vp/us-02.json#us_028.png",
+  "us_029.png": "data/media/vp/us-02.json#us_029.png",
+  "us_030.png": "data/media/vp/us-02.json#us_030.png",
+  "us_031.png": "data/media/vp/us-02.json#us_031.png",
+  "us_032.png": "data/media/vp/us-02.json#us_032.png",
+  "us_033.png": "data/media/vp/us-02.json#us_033.png",
+  "us_034.png": "data/media/vp/us-02.json#us_034.png",
+  "us_035.png": "data/media/vp/us-02.json#us_035.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #025</b> · Dispneia, macicez em todo o hemitórax.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_025.png",
+   "verso": "✅ <b>Derrame pleural volumoso com atelectasia compressiva</b><br>🔎 Grande área anecoica acima do diafragma com língua pulmonar colabada flutuando.<br>⚡ <b>Conduta:</b> Toracocentese de alívio/diagnóstica guiada por USG; investigar causa.",
+   "pegadinha": "Atelectasia compressiva reexpande após drenagem (diferente da obstrutiva).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #026</b> · Pneumonia, base direita.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_026.png",
+   "verso": "✅ <b>Derrame pleural moderado</b><br>🔎 Coleção anecoica acima do diafragma ocupando o recesso e parte do hemitórax.<br>⚡ <b>Conduta:</b> Toracocentese diagnóstica (parapneumônico): pH, glicose, LDH, Gram, cultura.",
+   "pegadinha": "pH &lt; 7,2 ou glicose &lt; 60 = derrame complicado → drenagem.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #027</b> · Ponto PLAPS em paciente supino.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_027.png",
+   "verso": "✅ <b>Derrame pleural pequeno (recesso costofrênico)</b><br>🔎 Pequena coleção anecoica no ângulo entre diafragma e parede.<br>⚡ <b>Conduta:</b> Acompanhar; drenagem raramente necessária.",
+   "pegadinha": "USG detecta 5–20 mL; o Rx de leito precisa de ~200 mL.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #028</b> · Abaixo do diafragma vê-se o fígado; acima, algo surpreendente.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_028.png",
+   "verso": "✅ <b>Sinal da coluna (spine sign)</b><br>🔎 Corpos vertebrais visíveis acima do diafragma através do líquido.<br>⚡ <b>Conduta:</b> Confirma derrame (normalmente o ar do pulmão esconde a coluna torácica).",
+   "pegadinha": "Hemotórax e derrame dão sinal da coluna; consolidação extensa também pode dar.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #029</b> · Febre persistente após 5 dias de antibiótico.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_029.png",
+   "verso": "✅ <b>Derrame septado (empiema/derrame complicado)</b><br>🔎 Coleção com septações ecogênicas finas formando lojas.<br>⚡ <b>Conduta:</b> Drenagem torácica (± fibrinolítico intrapleural tPA + DNase); cirurgia se falha.",
+   "pegadinha": "Septações = exsudato quase sempre.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #030</b> · Trauma torácico com queda de Hb.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_030.png",
+   "verso": "✅ <b>Derrame com ecos particulados (hemotórax/empiema)</b><br>🔎 Coleção pleural com ecos internos em suspensão.<br>⚡ <b>Conduta:</b> No trauma = hemotórax: drenagem; &gt; 1.500 mL ou &gt; 200 mL/h → toracotomia.",
+   "pegadinha": "Derrame ecogênico é exsudato/sangue; anecoico pode ser transudato ou exsudato.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #031</b> · Estimativa do volume do derrame (supino, fim da expiração).<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_031.png",
+   "verso": "✅ <b>Estimativa de volume do derrame (fórmula de Balík)</b><br>🔎 Distância interpleural máxima na base ≈ 25 mm.<br>⚡ <b>Conduta:</b> Volume ≈ 20 × distância (mm) ≈ 500 mL.",
+   "pegadinha": "Medir com o paciente supino, transdutor posterior, no fim da expiração.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #032</b> · Escolhendo onde puncionar.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_032.png",
+   "verso": "✅ <b>Ponto seguro para toracocentese guiada</b><br>🔎 Maior bolsão de líquido com ≥ 1,5–2 cm de profundidade, acima do diafragma, sem pulmão interposto.<br>⚡ <b>Conduta:</b> Marcar o ponto na mesma posição do paciente; puncionar na borda superior da costela inferior.",
+   "pegadinha": "Mudar a posição do paciente após marcar invalida o ponto.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #033</b> · Pesquisa de derrame na base direita.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_033.png",
+   "verso": "✅ <b>Sinal da cortina presente (sem derrame)</b><br>🔎 Pulmão aerado (artefato de ar) cobrindo a transição toracoabdominal, sem coluna visível acima do diafragma.<br>⚡ <b>Conduta:</b> Sem derrame nesse ponto.",
+   "pegadinha": "Sinal da cortina ausente + sinal da coluna = derrame/consolidação.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #034</b> · Trauma: janela do quadrante superior direito.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_034.png",
+   "verso": "✅ <b>Hemotórax no eFAST (líquido acima do diafragma)</b><br>🔎 Coleção hipoecoica com ecos acima do diafragma no QSD, coluna visível (sinal da coluna) e perda do sinal da cortina.<br>⚡ <b>Conduta:</b> Drenagem torácica; controle de dano se instável.",
+   "pegadinha": "Sempre incline o transdutor acima do diafragma no eFAST.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #035</b> · Derrame grande em VM: o pulmão 'balança' no líquido.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_035.png",
+   "verso": "✅ <b>Atelectasia flutuante no derrame (sinal da água-viva)</b><br>🔎 Pulmão colabado ondulando dentro do derrame anecoico.<br>⚡ <b>Conduta:</b> Sugere derrame livre (não septado) e atelectasia compressiva; drenagem melhora a mecânica.",
+   "pegadinha": "Pulmão fixo/encarcerado não reexpande bem após drenagem.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T02",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

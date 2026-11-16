@@ -1,0 +1,176 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::08 ➰ Alças pressão-volume e fluxo-volume",
+ "midia": {
+  "vm_113.png": "data/media/vp/vm-08.json#vm_113.png",
+  "vm_114.png": "data/media/vp/vm-08.json#vm_114.png",
+  "vm_115.png": "data/media/vp/vm-08.json#vm_115.png",
+  "vm_116.png": "data/media/vp/vm-08.json#vm_116.png",
+  "vm_117.png": "data/media/vp/vm-08.json#vm_117.png",
+  "vm_118.png": "data/media/vp/vm-08.json#vm_118.png",
+  "vm_119.png": "data/media/vp/vm-08.json#vm_119.png",
+  "vm_120.png": "data/media/vp/vm-08.json#vm_120.png",
+  "vm_121.png": "data/media/vp/vm-08.json#vm_121.png",
+  "vm_122.png": "data/media/vp/vm-08.json#vm_122.png",
+  "vm_123.png": "data/media/vp/vm-08.json#vm_123.png",
+  "vm_124.png": "data/media/vp/vm-08.json#vm_124.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #113</b> · Alça de referência, paciente passivo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_113.png",
+   "verso": "✅ <b>Alça P-V normal em VCV</b><br>🔎 Ramo inspiratório inclinado e retilíneo a partir da PEEP; ramo expiratório retorna à PEEP.<br>⚡ <b>Conduta:</b> Inclinação ≈ complacência; largura (histerese) ≈ componente resistivo.",
+   "pegadinha": "A alça P-V do ventilador usa a pressão de via aérea, não a alveolar.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #114</b> · Alça P-V com VT 600.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_114.png",
+   "verso": "✅ <b>Alça P-V com 'bico' (beaking) — hiperdistensão</b><br>🔎 Achatamento do ramo inspiratório no fim da insuflação (pressão sobe sem ganho de volume).<br>⚡ <b>Conduta:</b> Reduzir VT; reavaliar PEEP.",
+   "pegadinha": "O 'bico de pato' é o equivalente gráfico do stress index &gt; 1.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #115</b> · Alça fluxo-volume com roncos.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_115.png",
+   "verso": "✅ <b>Alça fluxo-volume serrilhada (secreção)</b><br>🔎 Oscilações em dente de serra no ramo expiratório da alça F-V.<br>⚡ <b>Conduta:</b> Aspirar vias aéreas; checar condensado.",
+   "pegadinha": "Serrilhado aparece também na curva fluxo-tempo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #116</b> · Alça que 'não fecha'.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_116.png",
+   "verso": "✅ <b>Alça aberta por vazamento</b><br>🔎 Ramo expiratório não retorna ao volume zero (alça P-V e F-V não se fecham).<br>⚡ <b>Conduta:</b> Procurar vazamento (cuff, circuito, fístula).",
+   "pegadinha": "Alça aberta também ocorre com sensor descalibrado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #117</b> · PCV em obstrutivo: alça P-V larga.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_117.png",
+   "verso": "✅ <b>Alça P-V com histerese aumentada (resistência alta)</b><br>🔎 Grande distância entre os ramos inspiratório e expiratório.<br>⚡ <b>Conduta:</b> Tratar obstrução (aspirar, broncodilatador).",
+   "pegadinha": "Histerese grande = muita energia gasta para vencer a resistência.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #118</b> · Pneumonia bilateral grave.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_118.png",
+   "verso": "✅ <b>Alça P-V achatada e deitada (complacência baixa)</b><br>🔎 Ramo inspiratório pouco inclinado: grande variação de pressão para pouco volume.<br>⚡ <b>Conduta:</b> VT baixo, ΔP ≤ 15, otimizar PEEP; prona se indicado.",
+   "pegadinha": "A inclinação da alça é a complacência dinâmica.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #119</b> · DPOC: alça F-V.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_119.png",
+   "verso": "✅ <b>Alça F-V que não volta ao fluxo zero (auto-PEEP)</b><br>🔎 Ramo expiratório termina com fluxo ainda negativo quando começa a inspiração seguinte.<br>⚡ <b>Conduta:</b> Reduzir FR/VT, aumentar Te; medir auto-PEEP.",
+   "pegadinha": "Na alça é o 'degrau' vertical do fim da expiração direto para o fluxo inspiratório.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #120</b> · SDRA com PEEP 15.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_120.png",
+   "verso": "✅ <b>Alça P-V deslocada para a direita pela PEEP</b><br>🔎 Ramo inspiratório começa em 15 cmH2O.<br>⚡ <b>Conduta:</b> Normal com PEEP alta; avaliar se o ΔP se mantém baixo.",
+   "pegadinha": "O ponto de partida no eixo da pressão é a PEEP total.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #121</b> · Alça F-V em PCV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_121.png",
+   "verso": "✅ <b>Alça fluxo-volume em PCV</b><br>🔎 Ramo inspiratório com pico precoce e queda progressiva do fluxo com o volume (desacelerado).<br>⚡ <b>Conduta:</b> Formato típico de modo a pressão; compare com o retângulo da VCV.",
+   "pegadinha": "Formato da alça F-V inspiratória revela o padrão de fluxo programado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #122</b> · Alça P-V em PSV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_122.png",
+   "verso": "✅ <b>Alça P-V em PSV com esforço do paciente</b><br>🔎 Ramo inspiratório com pressão abaixo/ao redor da PS (esforço contribui), deflexão negativa no início.<br>⚡ <b>Conduta:</b> Útil para ver o trabalho do paciente; ajustar PS pelo esforço.",
+   "pegadinha": "A área à esquerda do eixo da PEEP representa trabalho do paciente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #123</b> · Enfisema grave: alça P-V.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_123.png",
+   "verso": "✅ <b>Alça P-V muito inclinada (complacência alta — enfisema)</b><br>🔎 Ramo inspiratório íngreme: muito volume para pouca pressão.<br>⚡ <b>Conduta:</b> Risco de auto-PEEP (τ longo): priorizar Te.",
+   "pegadinha": "Complacência alta + resistência alta = esvaziamento lento.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #124</b> · Asma grave: alça F-V após intubação.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_124.png",
+   "verso": "✅ <b>Alça F-V com ramo expiratório côncavo (obstrução)</b><br>🔎 Pico expiratório baixo e curva côncava em direção ao eixo do volume.<br>⚡ <b>Conduta:</b> Broncodilatador, Te prolongado, hipercapnia permissiva.",
+   "pegadinha": "Melhora da concavidade após broncodilatador confirma resposta.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T08",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

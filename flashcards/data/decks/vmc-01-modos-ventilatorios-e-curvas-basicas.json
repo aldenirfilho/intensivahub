@@ -1,0 +1,232 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::01 🫁 Modos ventilatórios e curvas básicas",
+ "midia": {
+  "vm_001.png": "data/media/vp/vm-01.json#vm_001.png",
+  "vm_002.png": "data/media/vp/vm-01.json#vm_002.png",
+  "vm_003.png": "data/media/vp/vm-01.json#vm_003.png",
+  "vm_004.png": "data/media/vp/vm-01.json#vm_004.png",
+  "vm_005.png": "data/media/vp/vm-01.json#vm_005.png",
+  "vm_006.png": "data/media/vp/vm-01.json#vm_006.png",
+  "vm_007.png": "data/media/vp/vm-01.json#vm_007.png",
+  "vm_008.png": "data/media/vp/vm-01.json#vm_008.png",
+  "vm_009.png": "data/media/vp/vm-01.json#vm_009.png",
+  "vm_010.png": "data/media/vp/vm-01.json#vm_010.png",
+  "vm_011.png": "data/media/vp/vm-01.json#vm_011.png",
+  "vm_012.png": "data/media/vp/vm-01.json#vm_012.png",
+  "vm_013.png": "data/media/vp/vm-01.json#vm_013.png",
+  "vm_014.png": "data/media/vp/vm-01.json#vm_014.png",
+  "vm_015.png": "data/media/vp/vm-01.json#vm_015.png",
+  "vm_016.png": "data/media/vp/vm-01.json#vm_016.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #001</b> · Paciente sedado, recém-intubado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_001.png",
+   "verso": "✅ <b>VCV com fluxo constante (onda quadrada)</b><br>🔎 Fluxo inspiratório retangular e constante; pressão em rampa ascendente; volume cresce linearmente; disparo a tempo.<br>⚡ <b>Conduta:</b> Garante VT e volume-minuto; a pressão varia com a mecânica → vigiar Ppico, Pplat e ΔP.",
+   "pegadinha": "Em VCV, mudança na resistência ou na complacência aparece na PRESSÃO; o VT não muda.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #002</b> · Mesmo paciente, fluxo reprogramado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_002.png",
+   "verso": "✅ <b>VCV com fluxo desacelerado (rampa descendente)</b><br>🔎 Fluxo inspiratório máximo no início e decrescente; Ppico menor que com onda quadrada para o mesmo VT.<br>⚡ <b>Conduta:</b> Útil para reduzir Ppico e melhorar distribuição; ajustar Ti para entregar o VT.",
+   "pegadinha": "A onda de fluxo é escolha do operador em VCV; em PCV ela é consequência da mecânica.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #003</b> · Hipoxemia, médico optou por controle de pressão.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_003.png",
+   "verso": "✅ <b>PCV: pressão quadrada com fluxo desacelerado</b><br>🔎 Pressão inspiratória constante (platô 'quadrado'); fluxo com pico inicial e decaimento exponencial; VT resultante.<br>⚡ <b>Conduta:</b> Pressão limitada (protege contra Ppico); VT varia com complacência/resistência → alarmes de VT e VM.",
+   "pegadinha": "Em PCV, piora da complacência reduz o VT sem alarme de pressão.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #004</b> · Paciente acordado, desmame em curso.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_004.png",
+   "verso": "✅ <b>PSV: ciclos disparados pelo paciente e ciclados a fluxo</b><br>🔎 Cada ciclo começa com esforço (disparo pelo paciente), pressão de suporte constante, término quando o fluxo cai a uma % do pico (ETS).<br>⚡ <b>Conduta:</b> Modo espontâneo: exige drive; programar backup de apneia; ajustar PS pelo VT/FR/esforço.",
+   "pegadinha": "Em PSV não há FR programada: a FR é do paciente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #005</b> · Paciente em teste em CPAP.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_005.png",
+   "verso": "✅ <b>CPAP: pressão constante, respiração totalmente espontânea</b><br>🔎 Pressão estável na linha da PEEP; fluxos inspiratório e expiratório sinusoidais gerados pelo paciente.<br>⚡ <b>Conduta:</b> Avaliar FR, VT e sinais de esforço; usado no TRE e na VNI.",
+   "pegadinha": "Pequenas oscilações de pressão no CPAP refletem a demanda do paciente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #006</b> · Modo antigo herdado de outro plantão.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_006.png",
+   "verso": "✅ <b>SIMV (ciclos mandatórios + espontâneos com PS)</b><br>🔎 Ciclos de volume programados intercalados com ciclos espontâneos de pressão de suporte e VT diferentes.<br>⚡ <b>Conduta:</b> SIMV prolonga o desmame em estudos; preferir A/C ou PSV.",
+   "pegadinha": "Ciclos espontâneos com PS baixa aumentam o trabalho respiratório.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #007</b> · SDRA moderada, modo alternativo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_007.png",
+   "verso": "✅ <b>APRV (pressão alta prolongada com liberações curtas)</b><br>🔎 Pressão alta (P-high) longa com breves liberações a P-low; respiração espontânea sobre a P-high.<br>⚡ <b>Conduta:</b> Exige experiência; ajustar T-low para interromper o fluxo expiratório (~75% do pico) e evitar desrecrutamento.",
+   "pegadinha": "APRV sem respiração espontânea é só uma PCV com relação I:E muito invertida.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #008</b> · Logo após trocar o modo do ventilador.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_008.png",
+   "verso": "✅ <b>PRVC/volume-alvo: pressão ajustada ciclo a ciclo</b><br>🔎 Pressão inspiratória quadrada que sobe progressivamente nos primeiros ciclos até atingir o VT-alvo.<br>⚡ <b>Conduta:</b> Combina fluxo desacelerado com VT-alvo; atenção: se o paciente puxa mais, o ventilador REDUZ a pressão.",
+   "pegadinha": "Em esforço vigoroso, o modo dual pode retirar suporte justamente quando o paciente mais precisa.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #009</b> · Avaliação de mecânica na rotina da UTI.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_009.png",
+   "verso": "✅ <b>VCV com pausa inspiratória: Ppico × Pplatô</b><br>🔎 Pico de pressão no fim do fluxo, queda para o platô durante a pausa (fluxo zero).<br>⚡ <b>Conduta:</b> Ppico − Pplat = componente resistivo; Pplat − PEEP = ΔP (elástico).",
+   "pegadinha": "Pplat só é válida com o paciente passivo e pausa ≥ 0,3–0,5 s.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #010</b> · Paciente em A/C despertando.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_010.png",
+   "verso": "✅ <b>VCV assistido: ciclos disparados pelo paciente</b><br>🔎 Pequena deflexão negativa de pressão/fluxo antes de cada ciclo; FR total acima da programada.<br>⚡ <b>Conduta:</b> A/C normal: ajustar sensibilidade; garantir que o VT entregue seja adequado à demanda.",
+   "pegadinha": "Disparo pelo paciente em A/C entrega o VT completo a cada esforço.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #011</b> · Hipoxemia refratária, Ti aumentado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_011.png",
+   "verso": "✅ <b>PCV com relação I:E invertida</b><br>🔎 Tempo inspiratório maior que o expiratório; fluxo expiratório não chega a zero antes do próximo ciclo.<br>⚡ <b>Conduta:</b> Pode melhorar a oxigenação, mas gera auto-PEEP e instabilidade; exige sedação profunda e monitorar auto-PEEP.",
+   "pegadinha": "I:E invertida não tem benefício de mortalidade comprovado.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #012</b> · Paciente com dispneia em PSV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_012.png",
+   "verso": "✅ <b>Rise time (rampa) lento na PSV</b><br>🔎 Pressão sobe lentamente e arredondada; fluxo inicial insuficiente para a demanda.<br>⚡ <b>Conduta:</b> Acelerar a rampa (rise time menor) em paciente com drive alto.",
+   "pegadinha": "Rampa rápida demais gera overshoot; lenta demais gera fome de fluxo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #013</b> · PCV com Ti curto.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_013.png",
+   "verso": "✅ <b>PCV com Ti curto: fluxo inspiratório não chega a zero</b><br>🔎 Ciclo termina com fluxo inspiratório ainda positivo (inspiração interrompida).<br>⚡ <b>Conduta:</b> Aumentar Ti aumenta o VT sem elevar a pressão (até o fluxo zerar).",
+   "pegadinha": "Fluxo que zera antes do fim da inspiração = tempo 'sem fluxo' (Paw ≈ Palv).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #014</b> · PCV com Ti longo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_014.png",
+   "verso": "✅ <b>PCV com Ti longo: fluxo zera antes do fim da inspiração</b><br>🔎 Fluxo inspiratório chega a zero e permanece zerado no final da inspiração.<br>⚡ <b>Conduta:</b> Nesse trecho Paw ≈ pressão alveolar: estima Pplat em PCV; Ti pode ser reduzido se precisar de mais Te.",
+   "pegadinha": "Ti excessivo encurta o Te e favorece auto-PEEP em obstrutivos.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #015</b> · Peso predito 60 kg, sepse em recuperação.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_015.png",
+   "verso": "✅ <b>PSV com VT excessivo (suporte alto)</b><br>🔎 VT ~ 800–900 mL (≈14 mL/kg PBW) em todos os ciclos com PS 18.<br>⚡ <b>Conduta:</b> Reduzir PS (meta VT 6–8 mL/kg); avaliar drive (dor, acidose, febre); risco de P-SILI.",
+   "pegadinha": "VT alto em PSV não é 'bom desmame': é risco de lesão autoinfligida.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #016</b> · APRV: ajuste do T-low.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_016.png",
+   "verso": "✅ <b>APRV: T-low interrompe o fluxo expiratório antes de zerar</b><br>🔎 Fluxo expiratório da liberação cortado com cerca de 50–75% do pico, sem chegar a zero.<br>⚡ <b>Conduta:</b> Intencional: mantém volume pulmonar (auto-PEEP controlada) e evita colapso.",
+   "pegadinha": "T-low longo (fluxo zera) causa desrecrutamento.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T01",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🫁 Curvas de VM 360X::03 ⏳ Auto-PEEP e doença obstrutiva",
+ "midia": {
+  "vm_035.png": "data/media/vp/vm-03.json#vm_035.png",
+  "vm_036.png": "data/media/vp/vm-03.json#vm_036.png",
+  "vm_037.png": "data/media/vp/vm-03.json#vm_037.png",
+  "vm_038.png": "data/media/vp/vm-03.json#vm_038.png",
+  "vm_039.png": "data/media/vp/vm-03.json#vm_039.png",
+  "vm_040.png": "data/media/vp/vm-03.json#vm_040.png",
+  "vm_041.png": "data/media/vp/vm-03.json#vm_041.png",
+  "vm_042.png": "data/media/vp/vm-03.json#vm_042.png",
+  "vm_043.png": "data/media/vp/vm-03.json#vm_043.png",
+  "vm_044.png": "data/media/vp/vm-03.json#vm_044.png",
+  "vm_045.png": "data/media/vp/vm-03.json#vm_045.png",
+  "vm_046.png": "data/media/vp/vm-03.json#vm_046.png",
+  "vm_047.png": "data/media/vp/vm-03.json#vm_047.png",
+  "vm_048.png": "data/media/vp/vm-03.json#vm_048.png"
+ },
+ "cards": [
+  {
+   "frente": "🫁 <b>Curva VM #035</b> · DPOC exacerbado em VCV.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_035.png",
+   "verso": "✅ <b>Auto-PEEP: fluxo expiratório não retorna a zero</b><br>🔎 O fluxo expiratório é interrompido pelo ciclo seguinte antes de chegar a zero.<br>⚡ <b>Conduta:</b> Reduzir FR e VT, aumentar fluxo/Te, broncodilatador; medir auto-PEEP por pausa expiratória.",
+   "pegadinha": "Auto-PEEP causa hipotensão, esforço ineficaz e barotrauma.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #036</b> · Asma grave em VM com FR 12.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_036.png",
+   "verso": "✅ <b>Asma em VM com estratégia adequada (Te longo)</b><br>🔎 Ppico alta com Pplat aceitável e fluxo expiratório lento que chega a zero antes do próximo ciclo.<br>⚡ <b>Conduta:</b> FR baixa (10–14), VT 6–8 mL/kg, fluxo alto (60–80 L/min), I:E ≥ 1:4, hipercapnia permissiva; Pplat &lt; 30.",
+   "pegadinha": "Na asma, a Ppico alta é esperada; vigie Pplat e auto-PEEP.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #037</b> · Asmático intubado: PA 70/40 após ventilação manual vigorosa.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_037.png",
+   "verso": "✅ <b>Hiperinsuflação dinâmica grave</b><br>🔎 FR alta, fluxo expiratório sem chegar a zero e Ppico muito alta.<br>⚡ <b>Conduta:</b> Desconectar o circuito por 30–60 s (expiração livre), depois FR baixa; volume e vasopressor; excluir pneumotórax.",
+   "pegadinha": "Hipotensão logo após a intubação no asmático = hiperinsuflação até prova em contrário.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #038</b> · DPOC em PSV com esforço visível.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_038.png",
+   "verso": "✅ <b>Atraso de disparo por auto-PEEP</b><br>🔎 Esforço começa (queda do fluxo expiratório e da pressão) bem antes de o ventilador disparar.<br>⚡ <b>Conduta:</b> PEEP externa ~70–80% da auto-PEEP para facilitar o disparo; reduzir PS e Ti para diminuir a auto-PEEP.",
+   "pegadinha": "Disparo por fluxo precisa que o fluxo cruze zero: com auto-PEEP o paciente 'paga' o esforço antes.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #039</b> · DPOC em PCV com VT caindo.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_039.png",
+   "verso": "✅ <b>Auto-PEEP em PCV reduz o VT entregue</b><br>🔎 Fluxo expiratório não zera; fluxo inspiratório inicial menor (gradiente PEEP total → Pinsp menor).<br>⚡ <b>Conduta:</b> Reduzir FR, aumentar Te; lembrar que o ΔP efetivo é Pinsp − auto-PEEP.",
+   "pegadinha": "Em PCV a auto-PEEP não aparece na pressão: aparece no fluxo e no VT.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #040</b> · Tentativa de medir auto-PEEP em paciente acordado.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_040.png",
+   "verso": "✅ <b>Medida de auto-PEEP inválida (paciente ativo)</b><br>🔎 Durante a pausa expiratória, pressão oscila com esforços do paciente.<br>⚡ <b>Conduta:</b> Medir só com paciente passivo; alternativa: Pes ou observar o fluxo expiratório.",
+   "pegadinha": "Esforço expiratório superestima a auto-PEEP.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #041</b> · DPOC dispneico, abdome tenso na expiração.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_041.png",
+   "verso": "✅ <b>Expiração ativa (recrutamento de músculos expiratórios)</b><br>🔎 Fluxo expiratório com aumento tardio/brusco (empurrão expiratório) em vez de decaimento passivo.<br>⚡ <b>Conduta:</b> Marca drive alto/dispneia; superestima auto-PEEP; tratar causa (broncoespasmo, ansiedade, acidose), ajustar suporte.",
+   "pegadinha": "Expiração ativa no TRE é sinal de falha.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #042</b> · SDRA com VT 6 mL/kg e FR 34.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_042.png",
+   "verso": "✅ <b>Auto-PEEP por FR alta na ventilação protetora</b><br>🔎 FR alta com fluxo expiratório interrompido antes de zerar.<br>⚡ <b>Conduta:</b> Checar auto-PEEP; reduzir espaço morto (trocar HME por umidificador aquecido), aceitar hipercapnia, reavaliar FR.",
+   "pegadinha": "Na SDRA o Te curto também gera auto-PEEP (mesmo com τ curto).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #043</b> · DPOC em PSV com ETS 5%.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_043.png",
+   "verso": "✅ <b>PSV em DPOC: critério de ciclagem baixo prolonga a inspiração</b><br>🔎 Fluxo inspiratório com cauda longa e lenta; Ti mecânico prolongado e Te curto.<br>⚡ <b>Conduta:</b> Aumentar o ETS (40–60%) em obstrutivos para encurtar o Ti e reduzir auto-PEEP.",
+   "pegadinha": "ETS padrão (25%) é inadequado para DPOC.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #044</b> · DPOC grave: alça fluxo-volume.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_044.png",
+   "verso": "✅ <b>Alça fluxo-volume com concavidade expiratória (limitação ao fluxo)</b><br>🔎 Ramo expiratório com pico precoce seguido de queda abrupta e trecho côncavo ('scooping').<br>⚡ <b>Conduta:</b> Sinal de obstrução/limitação ao fluxo; broncodilatador e estratégia de Te longo.",
+   "pegadinha": "Concavidade + fluxo que não zera = obstrução com aprisionamento.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #045</b> · DPOC com limitação ao fluxo expiratório.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_045.png",
+   "verso": "✅ <b>Limitação ao fluxo expiratório (padrão de queda abrupta)</b><br>🔎 Fluxo expiratório com pico curto e queda rápida para um platô baixo e prolongado.<br>⚡ <b>Conduta:</b> Broncodilatador, Te longo; PEEP externa pode ajudar se houver limitação ao fluxo.",
+   "pegadinha": "Aumentar o Te tem retorno decrescente quando há limitação ao fluxo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #046</b> · DPOC em A/C: FR monitor 20, FR clínica 28.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_046.png",
+   "verso": "✅ <b>Esforços ineficazes em A/C por auto-PEEP</b><br>🔎 Deflexões no fluxo expiratório (esforços) sem disparo do ventilador.<br>⚡ <b>Conduta:</b> Reduzir auto-PEEP (FR, VT, Ti), PEEP externa, ajustar sensibilidade; não aumentar sedação como 1ª medida.",
+   "pegadinha": "Índice de assincronia &gt; 10% está associado a VM prolongada.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #047</b> · Asma: hipercapnia permissiva.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_047.png",
+   "verso": "✅ <b>VM na asma com FR baixa (hipercapnia permissiva)</b><br>🔎 FR 10, Te muito longo, fluxo expiratório zera; Ppico alta com Pplat baixa.<br>⚡ <b>Conduta:</b> Aceitar PaCO2 alta com pH &gt; 7,15–7,20; evitar acidose grave; sedação profunda.",
+   "pegadinha": "Normalizar PaCO2 na asma custa auto-PEEP e barotrauma.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🫁 <b>Curva VM #048</b> · DPOC: ajuste de PEEP externa.<br>❓ O que esta curva mostra e qual a conduta?",
+   "imagem_frente": "vm_048.png",
+   "verso": "✅ <b>PEEP externa para contrabalançar a auto-PEEP</b><br>🔎 Esforço longo antes do disparo com auto-PEEP estimada maior que a PEEP programada.<br>⚡ <b>Conduta:</b> Aumentar PEEP externa até ~80% da auto-PEEP reduz o esforço para disparar sem aumentar a hiperinsuflação (se houver limitação ao fluxo).",
+   "pegadinha": "Na asma sem limitação ao fluxo, PEEP externa pode piorar a hiperinsuflação.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "VM",
+    "VM_T03",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

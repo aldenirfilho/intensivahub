@@ -1,0 +1,176 @@
+{
+ "formato": "codice360x-v1",
+ "baralho": "🔊 POCUS na UTI 360X::05 🎈 Pericárdio e tamponamento",
+ "midia": {
+  "us_067.png": "data/media/vp/us-05.json#us_067.png",
+  "us_068.png": "data/media/vp/us-05.json#us_068.png",
+  "us_069.png": "data/media/vp/us-05.json#us_069.png",
+  "us_070.png": "data/media/vp/us-05.json#us_070.png",
+  "us_071.png": "data/media/vp/us-05.json#us_071.png",
+  "us_072.png": "data/media/vp/us-05.json#us_072.png",
+  "us_073.png": "data/media/vp/us-05.json#us_073.png",
+  "us_074.png": "data/media/vp/us-05.json#us_074.png",
+  "us_075.png": "data/media/vp/us-05.json#us_075.png",
+  "us_076.png": "data/media/vp/us-05.json#us_076.png",
+  "us_077.png": "data/media/vp/us-05.json#us_077.png",
+  "us_078.png": "data/media/vp/us-05.json#us_078.png"
+ },
+ "cards": [
+  {
+   "frente": "🔊 <b>POCUS #067</b> · Pós-operatório de cirurgia cardíaca.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_067.png",
+   "verso": "✅ <b>Derrame pericárdico pequeno</b><br>🔎 Faixa anecoica fina (&lt; 1 cm) entre o pericárdio e o coração.<br>⚡ <b>Conduta:</b> Acompanhar; procurar sinais de tamponamento se instável.",
+   "pegadinha": "Derrame pequeno e localizado pode tamponar no pós-operatório cardíaco.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #068</b> · Neoplasia de pulmão, dispneia progressiva.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_068.png",
+   "verso": "✅ <b>Derrame pericárdico volumoso</b><br>🔎 Grande coleção anecoica circunferencial (&gt; 2 cm).<br>⚡ <b>Conduta:</b> Avaliar tamponamento (colapsos, VCI, variação de fluxos); pericardiocentese se comprometimento.",
+   "pegadinha": "Volume do derrame importa menos que a velocidade de acúmulo.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #069</b> · Hipotensão, turgência jugular, pulso paradoxal.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_069.png",
+   "verso": "✅ <b>Tamponamento cardíaco: colapso diastólico do VD</b><br>🔎 Derrame com invaginação da parede livre do VD na diástole.<br>⚡ <b>Conduta:</b> Pericardiocentese guiada por USG (ou drenagem cirúrgica); volume como ponte; evitar VM com pressão positiva se possível.",
+   "pegadinha": "Colapso do AD na sístole é precoce e sensível; do VD na diástole é mais específico.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #070</b> · Derrame pericárdico com suspeita de tamponamento.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_070.png",
+   "verso": "✅ <b>VCI pletórica no tamponamento</b><br>🔎 VCI dilatada (≈ 2,5 cm) sem colapso respiratório.<br>⚡ <b>Conduta:</b> VCI pletórica tem alta sensibilidade para tamponamento; VCI colapsada praticamente o exclui.",
+   "pegadinha": "Exceção: tamponamento em hipovolêmico (VCI pode colapsar).",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #071</b> · Derrame visto no paraesternal longo.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_071.png",
+   "verso": "✅ <b>Derrame pericárdico no PLAX (anterior à aorta descendente)</b><br>🔎 Coleção anecoica posterior ao VE que se afila no sulco AV e passa ANTERIOR à aorta descendente.<br>⚡ <b>Conduta:</b> É pericárdico (não pleural).",
+   "pegadinha": "Derrame pleural esquerdo fica POSTERIOR à aorta descendente.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #072</b> · Derrame pericárdico moderado.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_072.png",
+   "verso": "✅ <b>Variação respiratória do influxo mitral &gt; 25% (tamponamento)</b><br>🔎 Onda E varia ≈ 45% entre inspiração e expiração.<br>⚡ <b>Conduta:</b> Fisiologia de tamponamento (interdependência ventricular): pericardiocentese se instável.",
+   "pegadinha": "Interpretável em ventilação espontânea; em VM o padrão se inverte.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #073</b> · Dor torácica após cateterismo, hipotensão.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_073.png",
+   "verso": "✅ <b>Hemopericárdio (derrame ecogênico com coágulo)</b><br>🔎 Derrame com ecos internos e material ecogênico aderido.<br>⚡ <b>Conduta:</b> Tamponamento por sangue: drenagem cirúrgica frequentemente necessária; reverter anticoagulação.",
+   "pegadinha": "Coágulo pode não sair pela agulha.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #074</b> · Planejando a pericardiocentese.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_074.png",
+   "verso": "✅ <b>Via de pericardiocentese guiada (maior bolsão)</b><br>🔎 Maior coleção na região apical/lateral, sem estruturas interpostas.<br>⚡ <b>Conduta:</b> Puncionar no ponto de maior bolsão e menor distância (frequentemente apical ou paraesternal), guiado por USG.",
+   "pegadinha": "A via subxifoide 'às cegas' tem mais complicações.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #075</b> · Obeso, 'derrame' só na frente do VD.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_075.png",
+   "verso": "✅ <b>Gordura epicárdica (não é derrame)</b><br>🔎 Faixa hipoecoica granular isolada ANTERIOR ao VD, sem coleção posterior.<br>⚡ <b>Conduta:</b> Não puncionar; confirmar com outras janelas.",
+   "pegadinha": "Espaço anecoico isolado anterior costuma ser gordura.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #076</b> · Ferimento por arma branca no precórdio, hipotensão.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_076.png",
+   "verso": "✅ <b>eFAST: janela pericárdica positiva no trauma</b><br>🔎 Líquido no saco pericárdico na janela subxifoide.<br>⚡ <b>Conduta:</b> Toracotomia/esternotomia de emergência; pericardiocentese só como ponte.",
+   "pegadinha": "Hemotórax esquerdo pode mascarar (falso negativo) — repetir em outras janelas.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #077</b> · Uremia com atrito pericárdico.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_077.png",
+   "verso": "✅ <b>Derrame pericárdico circunferencial (PSAX)</b><br>🔎 Anel anecoico ao redor de todo o VE no eixo curto.<br>⚡ <b>Conduta:</b> Pericardite urêmica: diálise intensiva; drenar se tamponamento.",
+   "pegadinha": "Derrame circunferencial é mais frequente que loculado fora do pós-operatório.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  },
+  {
+   "frente": "🔊 <b>POCUS #078</b> · Derrame atrás do coração no paraesternal longo.<br>❓ Qual o achado e qual a conduta?",
+   "imagem_frente": "us_078.png",
+   "verso": "✅ <b>Derrame pleural esquerdo (posterior à aorta descendente)</b><br>🔎 Coleção anecoica POSTERIOR à aorta descendente, sem se afilar no sulco AV.<br>⚡ <b>Conduta:</b> É pleural: não indica tamponamento; avaliar toracocentese.",
+   "pegadinha": "A aorta descendente é o marco que separa pleural de pericárdico.",
+   "fonte": "Síntese 360X de conceitos consagrados de ventilação mecânica e ultrassom point-of-care (conferir na diretriz vigente). Imagem sintética didática gerada por computador — não é exame de paciente.",
+   "tags": [
+    "POCUS",
+    "US_T05",
+    "TEMI2028",
+    "imagem_sintetica"
+   ]
+  }
+ ]
+}

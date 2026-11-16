@@ -12,7 +12,7 @@ with sync_playwright() as p:
         ctx = br.new_context(viewport=vp); pg = ctx.new_page(); errs = []
         pg.on("pageerror", lambda e: errs.append(str(e)))
         pg.goto(URL + "#inicio"); pg.wait_for_function("S && S.cards && S.cards.length>1000", timeout=90000)
-        chk(pg.evaluate("APP_VERSION") == "4.11.0", f"[{lab}] versão 4.11.0")
+        chk(pg.evaluate("APP_VERSION") >= "4.11.0", f"[{lab}] versão ≥ 4.11.0")
         n = pg.evaluate(f"S.official.filter(c=>c.deck.startsWith({ROOT!r})).length")
         chk(n == 300, f"[{lab}] 300 cards do Compêndio de ECG carregados ({n})")
         nd = pg.evaluate(f"new Set(S.official.filter(c=>c.deck.startsWith({ROOT!r})).map(c=>c.deck)).size")
