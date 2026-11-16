@@ -440,6 +440,21 @@ html.light .pill.cfPill{color:#996b00}
 /*LIGHT-END*/
 /* 4.16.0 · créditos do autor */
 .credAutor{margin-top:8px;padding-top:8px;border-top:1px dashed rgba(212,175,55,.35);color:var(--mut)}.credAutor a{color:var(--gold2,#e7c66a);font-weight:600}
+
+/* 🔍 AUDITORIA 360X */
+#v-auditoria .auGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+#v-auditoria .auCard{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--gold2,#e7c66a);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:8px}
+#v-auditoria .auCard.uti{border-top-color:#5fd3dc}#v-auditoria .auCard.coisas{border-top-color:#9bd36a}
+#v-auditoria .auCard h3{margin:0;font-size:17px}
+#v-auditoria .auCard p,#v-auditoria li{color:var(--mut);font-size:14px;line-height:1.5;margin:0}
+#v-auditoria .auCard ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px}
+#v-auditoria .auKpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+#v-auditoria .auKpi div{border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+#v-auditoria .auKpi b{display:block;font-size:17px;color:var(--gold2,#e7c66a)}
+#v-auditoria .auKpi span{font-size:12px;color:var(--mut)}
+#v-auditoria .auAx{border-left:3px solid var(--gold2,#e7c66a);padding:6px 12px;font-style:italic}
+#v-auditoria .auLinks{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+#v-auditoria .auLinks a{text-decoration:none}
 </style>
 </head>
 <body>
@@ -461,6 +476,7 @@ html.light .pill.cfPill{color:#996b00}
   <a href="#micro" data-v="micro">💊 Micro</a>
   <a href="#mnemonicos" data-v="mnemonicos">🧠 Mnemônicos</a>
   <a href="#honra" data-v="honra">🕊️ Honra</a>
+  <a href="#auditoria" data-v="auditoria">🔍 Auditoria</a>
   <a href="#jornada" data-v="jornada">🏆 Jornada</a>
   <a href="#buscar" data-v="buscar">🔎 Buscar</a>
   <a href="#importar" data-v="importar">📥 Importar</a>
@@ -523,6 +539,61 @@ html.light .pill.cfPill{color:#996b00}
 <!-- JORNADA -->
 <section class="view" id="v-gaso"><div id="gzHost"></div></section>
 <section class="view" id="v-jornada"><div id="jrHost"></div></section>
+
+<!-- 🔍 AUDITORIA 360X -->
+<section class="view" id="v-auditoria">
+ <h2>🔍 Auditoria 360X</h2>
+ <div class="panel"><p style="margin:0">Três auditorias do ecossistema 360X reunidas em um só lugar. <b>Regra de ouro:</b> investigado não é condenado, todo valor tem natureza (estoque, fluxo, preço) e alerta pede revisão, não prova irregularidade.</p></div>
+
+ <div class="auGrid">
+  <article class="auCard">
+   <h3>⛪ Auditoria Religiosa 360</h3>
+   <p><b>Novo · A Fé Está na Bolsa de Valores</b> — quem detém mais poder econômico, quem mostra as contas e os casos de 2026.</p>
+   <div class="auKpi">
+    <div><b>US$ 321 bi</b><span>Igreja SUD, estimativa fim 2025</span></div>
+    <div><b>£ 11,6 bi</b><span>fundo da Church of England 2025</span></div>
+    <div><b>€ 12,8 bi</b><span>imposto eclesiástico alemão 2025</span></div>
+    <div><b>R$ 5,5–7 bi/ano</b><span>renúncia estimada da PEC das igrejas</span></div>
+   </div>
+   <p class="auAx">“A medida de uma fé não é o tamanho do cofre. É a transparência dele e o tamanho da ajuda que sai dele.” — Axioma da Fé com Honra</p>
+   <div class="auLinks">
+    <a class="btn gold sm" href="https://aldenirfilho.github.io/aldenirmed89/ecossistema/auditoria-religiosa-360/fe-na-bolsa.html" target="_blank" rel="noopener">📈 A Fé na Bolsa</a>
+    <a class="btn sm" href="https://aldenirfilho.github.io/aldenirmed89/ecossistema/auditoria-religiosa-360/" target="_blank" rel="noopener">Portal</a>
+    <a class="btn sm" href="https://aldenirfilho.github.io/aldenirmed89/ecossistema/auditoria-religiosa-360/dossie-igreja-mormon.html" target="_blank" rel="noopener">Dossiê SUD</a>
+    <a class="btn sm" href="https://aldenirfilho.github.io/aldenirmed89/ecossistema/auditoria-religiosa-360/riqueza-e-vida.html" target="_blank" rel="noopener">Riqueza e Vida</a>
+   </div>
+  </article>
+
+  <article class="auCard uti">
+   <h3>🏥 Auditoria UTI · Turbo TEMI 360X</h3>
+   <p>Painel de compras e insumos de UTI adulto, com catálogo, cenários e preços de referência.</p>
+   <ul>
+    <li><b>140 itens</b> de UTI adulto</li>
+    <li>Cenários para <b>10, 20 e 30 leitos</b></li>
+    <li><b>32 itens</b> com preço documentado, base de 22/10/2026</li>
+    <li>Alertas priorizam revisão, <b>não comprovam superfaturamento</b></li>
+   </ul>
+   <div class="auLinks">
+    <a class="btn cy sm" href="https://aldenirfilho.github.io/aldenirmed89/ecossistema/auditoria-uti/" target="_blank" rel="noopener">🏥 Abrir Auditoria UTI</a>
+   </div>
+  </article>
+
+  <article class="auCard coisas">
+   <h3>🛒 Auditoria das Coisas 360X</h3>
+   <p>Catálogo e comparação de produtos e empresas: tecnologia, moda e acessórios, perfumaria.</p>
+   <ul>
+    <li><b>Legado, procedência e conservação</b> em cada ficha</li>
+    <li>Compara até <b>3 produtos</b> da mesma categoria</li>
+    <li>Tríade de auditores: qualidade, preço/custos e social/fiscal</li>
+    <li>Valor não comprovado fica <b>em branco</b>, nunca inventado</li>
+   </ul>
+   <div class="auLinks">
+    <a class="btn sm" href="https://auditoria-das-coisas-360x.aldenirmed.chatgpt.site" target="_blank" rel="noopener">🛒 Abrir Auditoria das Coisas</a>
+   </div>
+  </article>
+ </div>
+ <div class="foot">Auditorias educativas e de transparência · Projeto 360X de Aldenir Rocha de Oliveira Filho · não substituem perícia, auditoria oficial ou decisão judicial.</div>
+</section>
 
 <!-- BUSCAR -->
 <section class="view" id="v-buscar">
