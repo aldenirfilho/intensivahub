@@ -1,0 +1,366 @@
+{
+"formato": "codice360x-v1",
+"baralho": "🧪 Gasometria 360X::09 🧪 Gaps, eletrólitos e cálculos de beira-leito",
+"cards": [
+{
+"frente": "🧪 <b>Gaso #241</b> · Síndrome nefrótica (albumina 1,5) com sepse urinária; residente calculou 'AG 10, normal'.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,33</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>33</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>17</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-7,8</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>135</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,2</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>108</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Albumina</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>1,5</b> <small>g/dL</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Lactato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,5</b> <small>mmol/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>❓ Calcule o AG corrigido e o Δ/Δ.",
+"verso": "✅ <b>AG corrigido 16,3: acidose com AG elevado (láctica) + componente hiperclorêmico</b><br>🧮 <i>Classificação: Acidose metabólica com ânion gap elevado + Acidose metabólica hiperclorêmica (ânion gap normal)</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,33 → <b>acidemia</b><br>2️⃣ HCO₃⁻ 17 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>3️⃣ Winter: 1,5 × 17 + 8 = 33,5 ± 2 (31,5–35,5); PaCO₂ 33 → compensação respiratória <b>adequada</b><br>4️⃣ AG = 135 − (108 + 17) = 10; corrigido pela albumina 1,5: 10 + 2,5 × (4 − 1,5) = <b>16,2</b> → <b>elevado</b><br>5️⃣ Δ/Δ = (16,2 − 12) / (24 − 17) = <b>0,6</b> → &lt; 0,8: acidose hiperclorêmica associada<br>🩺 <b>Por quê:</b> Corrigindo pela albumina, ΔAG ≈ 4 para ΔHCO₃⁻ 7 (Δ/Δ 0,6): parte é láctica, parte hiperclorêmica.<br>⚡ <b>Conduta:</b> Tratar a sepse e reavaliar volume/solução (evitar SF em excesso); seguir lactato.",
+"pegadinha": "Use sempre o AG CORRIGIDO no Δ/Δ.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #242</b> · Diarreia há 5 dias em DM1 que evoluiu para CAD.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,22</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>20</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>8</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-17,7</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>138</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>112</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Glicose</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>410</b> <small>mg/dL</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">β-OH-butirato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,5</b> <small>mmol/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>❓ O AG explica toda a queda do HCO₃⁻?",
+"verso": "✅ <b>CAD + acidose hiperclorêmica (diarreia): Δ/Δ 0,38</b><br>🧮 <i>Classificação: Acidose metabólica com ânion gap elevado + Acidose metabólica hiperclorêmica (ânion gap normal)</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,22 → <b>acidemia</b><br>2️⃣ HCO₃⁻ 8 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>3️⃣ Winter: 1,5 × 8 + 8 = 20,0 ± 2 (18,0–22,0); PaCO₂ 20 → compensação respiratória <b>adequada</b><br>4️⃣ AG = 138 − (112 + 8) = 18 → <b>elevado</b><br>5️⃣ Δ/Δ = (18,0 − 12) / (24 − 8) = <b>0,4</b> → &lt; 0,8: acidose hiperclorêmica associada<br>🩺 <b>Por quê:</b> ΔAG 6 explica só 6 dos 16 de queda do HCO₃⁻: o restante é perda fecal de base.<br>⚡ <b>Conduta:</b> Protocolo de CAD + reposição de perdas; atenção ao K⁺ (3,4: repor antes/junto da insulina).",
+"pegadinha": "Δ/Δ &lt; 0,8 = procure a outra acidose (diarreia, SF, ATR, recuperação de CAD).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #243</b> · Pós-operatório com SNG drenando muito e choque séptico (lactato 6).<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,35</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>34</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>18</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-6,6</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,1</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>94</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Lactato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>6,0</b> <small>mmol/L</small></td></tr></table>❓ Calcule o Δ/Δ e interprete.",
+"verso": "✅ <b>Acidose láctica + alcalose metabólica (SNG): Δ/Δ 2,7</b><br>🧮 <i>Classificação: Acidose metabólica com ânion gap elevado + Alcalose metabólica</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,35 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ HCO₃⁻ 18 ↓ com pH no lado ácido (ou AG alto) → acidose metabólica; checar compensação<br>3️⃣ Winter: 1,5 × 18 + 8 = 35,0 ± 2 (33,0–37,0); PaCO₂ 34 → compensação respiratória <b>adequada</b><br>4️⃣ AG = 140 − (94 + 18) = 28 → <b>elevado</b><br>5️⃣ Δ/Δ = (28,0 − 12) / (24 − 18) = <b>2,7</b> → &gt; 2: alcalose metabólica associada<br>🩺 <b>Por quê:</b> ΔAG 16 deveria baixar o HCO₃⁻ para ~8; está 18 → base 'extra' da perda gástrica de HCl.<br>⚡ <b>Conduta:</b> Bundle de sepse; repor perdas da SNG com SF + KCl; IBP.",
+"pegadinha": "Δ/Δ &gt; 2 = alcalose metabólica oculta (ou HCO₃⁻ basal alto por DPOC).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #244</b> · Chegou 2 h após beber 'álcool de posto' (metanol); assintomático, visão normal.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,37</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>36</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>20</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-4,5</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>104</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Glicose</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>90</b> <small>mg/dL</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Ureia</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mg/dL</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Osm medida</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>340</b> <small>mOsm/kg</small></td></tr></table>❓ Calcule o gap osmolar e defina a conduta.",
+"verso": "✅ <b>Metanol PRECOCE: gap osmolar muito alto (50) com AG ainda pouco elevado</b><br>🧮 <i>Classificação: Acidose metabólica com ânion gap elevado</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,37 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ HCO₃⁻ 20 ↓ com pH no lado ácido (ou AG alto) → acidose metabólica; checar compensação<br>3️⃣ Winter: 1,5 × 20 + 8 = 38,0 ± 2 (36,0–40,0); PaCO₂ 36 → compensação respiratória <b>adequada</b><br>4️⃣ AG = 140 − (104 + 20) = 16 → <b>elevado</b><br>5️⃣ Δ/Δ = (16,0 − 12) / (24 − 20) = <b>1,0</b> → 0,8–2: acidose com AG elevado <b>pura</b><br>6️⃣ Osm calculada = 2 × 140 + 90/18 + 30/6 = 290,0; gap osmolar = 340 − 290,0 = <b>50,0</b> → <b>elevado</b> (&gt; 10): álcool tóxico?<br>🩺 <b>Por quê:</b> No início, o metanol (osmoticamente ativo) ainda não virou ácido fórmico: gap osmolar alto, acidose discreta. Com as horas, o gap cai e o AG sobe.<br>⚡ <b>Conduta:</b> Fomepizol/etanol IMEDIATO (antes da acidose), dosar metanol, hemodiálise se nível alto; ácido fólico.",
+"pegadinha": "Paciente 'bem' com gap osmolar 50 é uma bomba-relógio.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #245</b> · Morador de rua encontrado sonolento; hálito de 'acetona'; cetonúria positiva; bebeu álcool de limpeza (isopropílico).<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>40</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>24</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-0,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Glicose</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>100</b> <small>mg/dL</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Ureia</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mg/dL</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Osm medida</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>320</b> <small>mOsm/kg</small></td></tr></table>❓ O que o gap osmolar e o pH indicam?",
+"verso": "✅ <b>Intoxicação por ISOPROPANOL: gap osmolar alto SEM acidose + cetose</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 140 − (106 + 24) = 10 → normal<br>4️⃣ Osm calculada = 2 × 140 + 100/18 + 30/6 = 290,6; gap osmolar = 320 − 290,6 = <b>29,4</b> → <b>elevado</b> (&gt; 10): álcool tóxico?<br>🩺 <b>Por quê:</b> Isopropanol → acetona (cetona, não ácido): cetonemia/cetonúria sem acidose metabólica nem AG alto. Gap osmolar ≈ 29.<br>⚡ <b>Conduta:</b> Suporte (depressão do SNC, gastrite hemorrágica, hipotensão); hemodiálise só em casos graves. Fomepizol NÃO indicado.",
+"pegadinha": "Cetose sem acidose + gap osmolar alto = isopropanol.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #246</b> · Homem embriagado após festa (etanolemia 150 mg/dL), consciente; sem acidose. Calcular o gap osmolar.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>38</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>23</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-1,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Glicose</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>100</b> <small>mg/dL</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Ureia</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mg/dL</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Osm medida</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>330</b> <small>mOsm/kg</small></td></tr></table>❓ Calcule o gap osmolar. Ele é explicado?",
+"verso": "✅ <b>Gap osmolar explicado pelo ETANOL (≈ 150/3,7 ≈ 40)</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 140 − (106 + 23) = 11 → normal<br>4️⃣ Osm calculada = 2 × 140 + 100/18 + 30/6 = 290,6; gap osmolar = 330 − 290,6 = <b>39,4</b> → <b>elevado</b> (&gt; 10): álcool tóxico?<br>🩺 <b>Por quê:</b> Gap ≈ 39: etanol contribui ~etanolemia (mg/dL)/3,7. Se o gap fosse muito maior que o explicado pelo etanol, pensar em coingestão de metanol/etilenoglicol.<br>⚡ <b>Conduta:</b> Observação; dosar etanol sempre que calcular gap osmolar.",
+"pegadinha": "Gap osmolar 'residual' (descontado o etanol) &gt; 10 = procurar álcool tóxico.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #247</b> · Homem, 68 anos, anemia, dor lombar, proteína total muito alta; AG calculado de 3.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>40</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>24</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-0,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>138</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>111</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Albumina</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,5</b> <small>g/dL</small></td></tr></table>❓ O que significa este AG?",
+"verso": "✅ <b>AG BAIXO por paraproteína catiônica (mieloma IgG)</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 138 − (111 + 24) = 3; corrigido pela albumina 3,5: 3 + 2,5 × (4 − 3,5) = <b>4,2</b> → normal<br>🩺 <b>Por quê:</b> IgG de mieloma tem carga positiva (cátion não medido) e pode reter Cl⁻ → AG baixo. Outras causas: hipoalbuminemia grave, lítio, hipercalcemia, brometo.<br>⚡ <b>Conduta:</b> Investigar mieloma (eletroforese, imunofixação, cadeias leves livres); AG &lt; 4 é pista diagnóstica.",
+"pegadinha": "AG baixo é tão informativo quanto AG alto.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #248</b> · Paciente em uso crônico de brometo (fitoterápico/antiepiléptico antigo), sonolento; laboratório informa Cl⁻ 120.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>40</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>24</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-0,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>120</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>❓ O AG faz sentido? Qual a explicação?",
+"verso": "✅ <b>AG NEGATIVO por pseudo-hipercloremia (brometo)</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 140 − (120 + 24) = -4 → normal<br>🩺 <b>Por quê:</b> Brometo é lido como cloreto em vários métodos → Cl⁻ falsamente alto e AG negativo (−4). Bromismo: sonolência, ataxia, psicose, acne.<br>⚡ <b>Conduta:</b> Suspender a fonte, SF + diurético (o rim troca Br⁻ por Cl⁻), hemodiálise se grave.",
+"pegadinha": "AG negativo é quase sempre erro laboratorial ou brometo/iodeto.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #249</b> · Gap osmolar URINÁRIO: quando usar e como calcular?",
+"verso": "✅ <b>Gap osm u = Osm u medida − [2 × (Na⁺u + K⁺u) + ureia u/6 + glicose u/18]; NH₄⁺u ≈ gap/2</b><br>🔎 Mais confiável que o AG urinário quando há ânions não medidos na urina (cetoânions, hipurato, salicilato) ou Na⁺u baixo. Gap &gt; 150 mOsm/kg (NH₄⁺ &gt; 75) = rim excretando ácido bem (causa GI); &lt; 100 = ATR distal.<br>⚡ <b>Na prática:</b> Use na acidose hiperclorêmica com AGu duvidoso.",
+"pegadinha": "Infecção urinária por bactéria produtora de urease altera NH₄⁺ e pH urinários.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #250</b> · Pseudo-hipercalemia: quando desconfiar?",
+"verso": "✅ <b>K⁺ alto sem alterações no ECG e sem causa clínica: hemólise, garrote prolongado/punho cerrado, leucocitose ou trombocitose extremas, coleta em linha com K⁺</b><br>🔎 Na leucemia (leucócitos &gt; 100 mil) o K⁺ sai das células no tubo; no gasômetro (sangue total, analisado logo) o K⁺ costuma ser correto.<br>⚡ <b>Na prática:</b> Repita com amostra sem hemólise/heparinizada (seringa de gasometria) antes de tratar agressivamente.",
+"pegadinha": "Pseudo-HIPOcalemia: leucocitose extrema com amostra em temperatura ambiente (células captam K⁺).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #251</b> · Calcule a SID aparente: Na⁺ 140, K⁺ 4, Ca²⁺ 2,5 mEq/L, Mg²⁺ 1,5 mEq/L, Cl⁻ 115, lactato 2.",
+"verso": "✅ <b>SIDa = (140 + 4 + 2,5 + 1,5) − (115 + 2) = 31 mEq/L → baixa (normal ~40): acidose metabólica por hipercloremia</b><br>🔎 Pela abordagem de Stewart, ↓SID = acidose; ↑SID = alcalose. A diferença entre SIDa e SID efetiva (HCO₃⁻ + albumina + fosfato) é o 'strong ion gap' (ânions não medidos).<br>⚡ <b>Na prática:</b> Explica a escolha de cristaloides balanceados (SID ~27–28) na ressuscitação volumosa.",
+"pegadinha": "Diferença Na⁺ − Cl⁻ &lt; 32 é um atalho de hipercloremia relativa.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #252</b> · AG com ou sem potássio: muda o valor normal?",
+"verso": "✅ <b>Com K⁺: AG = Na⁺ + K⁺ − (Cl⁻ + HCO₃⁻), normal ~12–16 · sem K⁺ (padrão no Brasil): 8–12</b><br>🔎 Use sempre a mesma fórmula do seu laboratório e a referência correspondente. Em hiperK grave (ex.: 7), incluir K⁺ muda pouco a interpretação.<br>⚡ <b>Na prática:</b> Na prova, salvo menção, AG = Na⁺ − (Cl⁻ + HCO₃⁻) e normal 12.",
+"pegadinha": "Laboratórios com ISE moderno podem ter AG normal mais baixo (~6–10).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #253</b> · PaCO₂ 60 e HCO₃⁻ 30: qual o pH sem calculadora?",
+"verso": "✅ <b>[H⁺] = 24 × 60/30 = 48 nEq/L → pH ≈ 7,32</b><br>🔎 Henderson (sem log): [H⁺] = 24 × PaCO₂/HCO₃⁻. Na faixa 7,20–7,50, pH ≈ 7,80 − [H⁺]/100 (48 → 7,32). Confere com HH: 6,1 + log(30/1,8) = 7,32.<br>⚡ <b>Na prática:</b> Use para checar coerência de laudos e para estimar o pH esperado de um ajuste ventilatório.",
+"pegadinha": "Valores comuns: [H⁺] 40 = 7,40; 50 ≈ 7,30; 63 ≈ 7,20; 32 ≈ 7,50.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #254</b> · Na CAD intubada: PaCO₂ 40 e HCO₃⁻ 8 dariam qual pH? E com PaCO₂ 20?",
+"verso": "✅ <b>PaCO₂ 40 → [H⁺] = 24 × 40/8 = 120 → pH ≈ 6,92 · PaCO₂ 20 → [H⁺] 60 → pH ≈ 7,22</b><br>🔎 Dobrar a PaCO₂ dobra o [H⁺]: por isso intubar uma CAD e 'normalizar' a PaCO₂ é catastrófico.<br>⚡ <b>Na prática:</b> Ventilação-minuto alta desde a IOT; gasometria em 15–20 min.",
+"pegadinha": "Regra para ajustar a VM: FR nova ≈ FR atual × PaCO₂ atual / PaCO₂ desejada.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #255</b> · Déficit de bicarbonato: como calcular? Ex.: 70 kg, HCO₃⁻ 8, alvo 15.",
+"verso": "✅ <b>Déficit ≈ 0,5 × peso × (alvo − atual) = 0,5 × 70 × 7 ≈ 245 mEq — repor metade e reavaliar</b><br>🔎 O espaço de distribuição aumenta na acidose grave (até 0,8–1 × peso). Repor lentamente (bicarbonato 8,4% = 1 mEq/mL; 1,4% isotônico ≈ 167 mEq/L) com gasometria seriada.<br>⚡ <b>Na prática:</b> Indicação, não o cálculo, é a decisão difícil: hiperclorêmica grave, IRA com pH &lt; 7,2, intoxicações específicas.",
+"pegadinha": "Bicarbonato 8,4% é hiperosmolar (2.000 mOsm/L): risco de hipernatremia, sobrecarga e alcalose de rebote.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #256</b> · Sódio na hiperglicemia: Na⁺ 130 com glicose 600. Qual o Na⁺ 'corrigido'?",
+"verso": "✅ <b>Na⁺ corrigido = Na⁺ + 1,6 a 2,4 × (glicose − 100)/100 → 130 + 8 a 12 = 138–142</b><br>🔎 A glicose puxa água para o extracelular e dilui o Na⁺. O corrigido estima o Na⁺ após normalizar a glicose — guia a escolha do soro (corrigido normal/alto → SF 0,45% após a fase inicial).<br>⚡ <b>Na prática:</b> Na⁺ corrigido subindo durante o tratamento da CAD/EHH é esperado; queda rápida da osmolaridade efetiva aumenta risco de edema cerebral.",
+"pegadinha": "Para o AG use o Na⁺ MEDIDO, nunca o corrigido.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #257</b> · Lactato 6 explica um ΔAG de 14?",
+"verso": "✅ <b>Não totalmente: cada mmol/L de lactato acrescenta ~1 ao AG; ΔAG 14 com lactato 6 → ~8 de ânions não explicados</b><br>🔎 Procure outros ânions: cetonas, uremia, toxinas (metanol, etilenoglicol, salicilato), piroglutâmico, D-lactato; peça cetonemia, ureia, gap osmolar.<br>⚡ <b>Na prática:</b> Faça a 'conta do AG': lactato + cetonas + ureia/fosfato devem somar o ΔAG.",
+"pegadinha": "ΔAG muito maior que o lactato na sepse: lembre de IRA e de cetose associada.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #258</b> · Potássio na CAD: quando repor e quando segurar a insulina?",
+"verso": "✅ <b>K⁺ &lt; 3,3: repor e NÃO iniciar insulina · 3,3–5,3: insulina + 20–30 mEq de K⁺ por litro de soro · &gt; 5,3: insulina sem K⁺ e dosar a cada 2 h</b><br>🔎 Insulina e correção da acidose deslocam K⁺ para dentro da célula; o déficit corporal médio é de 3–5 mEq/kg.<br>⚡ <b>Na prática:</b> Monitor cardíaco se K⁺ &lt; 3,3 ou &gt; 6; repor fosfato só se &lt; 1,0 ou com disfunção cardíaca/respiratória.",
+"pegadinha": "Hipocalemia é a principal causa evitável de morte no tratamento da CAD.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #259</b> · Como 'repartir' o SBE entre causas (Story/Fencl simplificado)?",
+"verso": "✅ <b>Efeito Na-Cl = (Na⁺ − Cl⁻) − 38 · efeito albumina = 2,5 × (4,2 − alb) · ânions não medidos = SBE − (efeito Na-Cl + efeito albumina)</b><br>🔎 Ex.: SBE −12, Na⁺ 140, Cl⁻ 112 (efeito −10), alb 2,2 (efeito +5): ânions não medidos ≈ −12 − (−5) = −7 → acidose por ânions não medidos (lactato/cetonas) parcialmente escondida pela hipoalbuminemia.<br>⚡ <b>Na prática:</b> Útil na UTI com múltiplos distúrbios para quantificar quanto é cloreto, albumina e ânions não medidos.",
+"pegadinha": "Mesmo raciocínio do AG corrigido, em outra 'moeda' (SBE).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #260</b> · CAD acompanhada só com gasometria VENOSA a cada 2 h (poupa punções arteriais).<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria venosa</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,29</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PvCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>26</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>12</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-13,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>134</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,6</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>98</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Glicose</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>310</b> <small>mg/dL</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">β-OH-butirato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,8</b> <small>mmol/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>❓ A CAD resolveu?",
+"verso": "✅ <b>CAD monitorizada por gasometria venosa: AG 24, ainda sem resolução</b><br>🧮 <i>Classificação: Acidose metabólica com ânion gap elevado</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,29 → <b>acidemia</b><br>2️⃣ HCO₃⁻ 12 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>3️⃣ Winter: 1,5 × 12 + 8 = 26,0 ± 2 (24,0–28,0); PaCO₂ 26 → compensação respiratória <b>adequada</b><br>4️⃣ AG = 134 − (98 + 12) = 24 → <b>elevado</b><br>5️⃣ Δ/Δ = (24,0 − 12) / (24 − 12) = <b>1,0</b> → 0,8–2: acidose com AG elevado <b>pura</b><br>🩺 <b>Por quê:</b> Na CAD, pH venoso ≈ arterial − 0,03 e HCO₃⁻ venoso ≈ arterial; resolução = AG ≤ 12, pH venoso &gt; 7,3, HCO₃⁻ ≥ 15 (β-OHB &lt; 0,6).<br>⚡ <b>Conduta:</b> Manter insulina IV e soro com glicose quando glicemia &lt; 250; transição SC só após resolução.",
+"pegadinha": "Gasometria arterial na CAD só se dúvida sobre oxigenação/ventilação.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #261</b> · Ringer lactato na acidose láctica: piora?",
+"verso": "✅ <b>Não: o lactato do Ringer (28 mmol/L, L-lactato com sódio) é metabolizado a HCO₃⁻ no fígado — é um tampão</b><br>🔎 Na insuficiência hepática grave o clearance cai e o lactato sérico pode subir discretamente; ainda assim não 'causa' acidose. Soluções balanceadas reduzem hipercloremia em relação ao SF.<br>⚡ <b>Na prática:</b> Pode usar Ringer na sepse e na CAD (cristaloides balanceados ≥ SF em vários estudos).",
+"pegadinha": "Coletar lactato no braço da infusão de Ringer dá valor falsamente alto.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #262</b> · Cirrótico, albumina 1,5, ascite volumosa; sem vômitos ou diurético recente.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,45</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>42</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>28</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>108</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Albumina</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>1,5</b> <small>g/dL</small></td></tr></table>❓ De onde vem essa alcalose?",
+"verso": "✅ <b>Alcalose metabólica hipoalbuminêmica (Stewart)</b><br>🧮 <i>Classificação: Alcalose metabólica</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,45 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ HCO₃⁻ 28 ↑ com pH no lado alcalino → alcalose metabólica; checar compensação<br>3️⃣ PaCO₂ esperada = 0,7 × 28 + 21 = 40,6 ± 2 (38,6–42,6); PaCO₂ 42 → compensação respiratória <b>adequada</b><br>4️⃣ AG = 140 − (108 + 28) = 4; corrigido pela albumina 1,5: 4 + 2,5 × (4 − 1,5) = <b>10,2</b> → normal<br>🩺 <b>Por quê:</b> Albumina é um ácido fraco (Atot): sua queda alcaliniza o plasma. AG medido 4, corrigido 10 (normal).<br>⚡ <b>Conduta:</b> Sem tratamento específico; atenção: a hipoalbuminemia esconde acidoses (corrigir o AG).",
+"pegadinha": "Cada 1 g/dL a menos de albumina eleva o HCO₃⁻/SBE em ~3–3,5.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #263</b> · Estado hiperosmolar hiperglicêmico: como calcular a osmolaridade efetiva?",
+"verso": "✅ <b>Osm efetiva = 2 × Na⁺ medido + glicose/18 (a ureia atravessa membranas e não conta) — EHH: &gt; 320 mOsm/kg</b><br>🔎 EHH: glicose &gt; 600, pH &gt; 7,3, HCO₃⁻ &gt; 15–18, cetonas baixas, Osm efetiva &gt; 320; acidose leve pode vir de lactato/IRA.<br>⚡ <b>Na prática:</b> Ressuscitação volêmica é o pilar; reduzir a Osm em 3–8 mOsm/kg/h; insulina em dose mais baixa após volume.",
+"pegadinha": "Quadro misto CAD + EHH é comum (até 1/3).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #264</b> · Cálcio ionizado e pH: por que o paciente hiperventilando tem tetania?",
+"verso": "✅ <b>Alcalose aumenta a ligação do Ca²⁺ à albumina → ↓ cálcio ionizado (~0,05 mmol/L por 0,1 de pH)</b><br>🔎 Cálcio total normal com ionizado baixo: parestesias, Chvostek/Trousseau, espasmo carpopedal, QT longo. Acidose faz o contrário (↑ionizado).<br>⚡ <b>Na prática:</b> Corrigir a causa da alcalose; medir cálcio ionizado na gasometria em vez de 'corrigir' o total.",
+"pegadinha": "Corrigir rapidamente uma acidose grave pode precipitar tetania em paciente hipocalcêmico (IRA, sepse).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #265</b> · Bicarbonato de sódio: apresentações e dose prática?",
+"verso": "✅ <b>8,4% = 1 mEq/mL (ampola 10 mL = 10 mEq) · 1,4% isotônico ≈ 167 mEq/L · dose típica 1 mEq/kg em bolus nas indicações agudas</b><br>🔎 Indicações agudas: hiperK com acidose, tricíclicos (QRS &gt; 100 ms: 1–2 mEq/kg até QRS estreitar), salicilato, acidose hiperclorêmica grave. Infusão lenta, acesso calibroso; não misturar com cálcio (precipita) nem catecolaminas.<br>⚡ <b>Na prática:</b> Prefira 1,4% em infusão quando o objetivo é corrigir lentamente com volume.",
+"pegadinha": "Cada 50 mEq de bicarbonato gera ~1,1 L de CO₂: o paciente precisa conseguir ventilar.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #266</b> · THAM (trometamina): alternativa ao bicarbonato?",
+"verso": "✅ <b>Tampão que aceita H⁺ sem gerar CO₂ — útil quando a ventilação está limitada (hipercapnia + acidose metabólica)</b><br>🔎 Excretado pelo rim: cuidado na IRA (acúmulo), hiperK, hipoglicemia e depressão respiratória. Pouco disponível no Brasil.<br>⚡ <b>Na prática:</b> Opção teórica na hipercapnia permissiva com acidemia grave quando não é possível aumentar a ventilação.",
+"pegadinha": "Não há evidência de redução de mortalidade.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #267</b> · Hiperglicemia grave: qual sódio usar no ânion gap?",
+"verso": "✅ <b>Sempre o Na⁺ MEDIDO</b><br>🔎 O ânion gap compara cátions e ânions presentes no mesmo plasma; a diluição pela glicose afeta Na⁺, Cl⁻ e HCO₃⁻ igualmente. Usar o Na⁺ corrigido superestima o AG em 8–12 pontos.<br>⚡ <b>Na prática:</b> Na CAD: AG com Na⁺ medido; Na⁺ corrigido só para decidir o tipo de soro.",
+"pegadinha": "Pegadinha frequente de prova.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #268</b> · Ureia × BUN no gap osmolar: qual a conversão?",
+"verso": "✅ <b>BUN (mg/dL) = ureia/2,14 → no gap use ureia/6 ou BUN/2,8</b><br>🔎 Osm calc = 2 × Na⁺ + glicose/18 + ureia/6 (ou BUN/2,8). Na conversão para mmol/L, glicose/18 e BUN/2,8 transformam mg/dL em mmol/L.<br>⚡ <b>Na prática:</b> No Brasil a maioria dos laudos traz ureia: não use BUN/2,8 com o valor da ureia (subestima a osm calc e cria falso gap).",
+"pegadinha": "Etanol entra como etanol/3,7 se quiser explicar o gap.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #269</b> · Ajuste rápido da VM pela PaCO₂: qual a regra?",
+"verso": "✅ <b>Ventilação-minuto alveolar nova ≈ VM atual × PaCO₂ atual / PaCO₂ desejada (na prática: FR nova = FR × PaCO₂ atual / desejada)</b><br>🔎 Ex.: FR 16 com PaCO₂ 60, alvo 45 → FR ≈ 16 × 60/45 ≈ 21. Considere espaço morto e auto-PEEP (obstrutivos: aumentar FR pode piorar).<br>⚡ <b>Na prática:</b> Na acidose metabólica, a PaCO₂ desejada é a do Winter; no DPOC crônico, a PaCO₂ basal.",
+"pegadinha": "Aumentar VT acima de 8 mL/kg para baixar PaCO₂ fere a ventilação protetora.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #270</b> · Acidemia grave e drogas vasoativas: por que o choque fica 'refratário'?",
+"verso": "✅ <b>pH &lt; 7,15–7,20 reduz a contratilidade e a resposta vascular às catecolaminas (down-regulation de receptores)</b><br>🔎 A acidose grave também causa vasodilatação arteriolar, arritmias e desvio da curva da Hb. Corrigir a CAUSA é o que restaura a resposta; bicarbonato melhora o pH mas não comprovadamente o desfecho (exceto IRA grave — BICAR-ICU).<br>⚡ <b>Na prática:</b> No choque com pH &lt; 7,15: ventilar adequadamente, tratar a causa, considerar bicarbonato/diálise; vasopressina age melhor que catecolaminas na acidose.",
+"pegadinha": "Hipocalcemia ionizada associada também reduz a resposta inotrópica: corrija.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T09",
+"TEMI2028",
+"R3CM"
+]
+}
+]
+}

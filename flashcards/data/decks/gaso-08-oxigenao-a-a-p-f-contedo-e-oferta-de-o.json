@@ -1,0 +1,366 @@
+{
+"formato": "codice360x-v1",
+"baralho": "🧪 Gasometria 360X::08 💨 Oxigenação: A-a, P/F, conteúdo e oferta de O₂",
+"cards": [
+{
+"frente": "🧪 <b>Gaso #211</b> · Idoso, 80 anos, assintomático, gasometria pré-operatória em ar ambiente.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 21%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>40</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>24</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-0,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>80</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,2</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>Gasometria normal para a idade (PaO₂ 80 aos 80 anos)</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 140 − (106 + 24) = 10 → normal<br>4️⃣ PAO₂ = 0,21 × (760 − 47) − 40/0,8 = 99,7; A-a = 99,7 − 80 = <b>19,7</b> (esperado ≈ 24,0) → oxigenação adequada<br>🩺 <b>Por quê:</b> PaO₂ esperada ≈ 104 − 0,27 × 80 ≈ 82; A-a ≈ 20 dentro do esperado (idade/4 + 4 = 24).<br>⚡ <b>Conduta:</b> Nenhuma conduta; não 'tratar' PaO₂ 80 em idoso.",
+"pegadinha": "Gradiente A-a aumenta com a idade: use idade/4 + 4.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #212</b> · Quais são as 5 causas de hipoxemia e como o gradiente A-a separa?",
+"verso": "✅ <b>A-a normal: hipoventilação e PiO₂ baixa · A-a alto: V/Q, shunt, difusão</b><br>🔎 Hipoventilação: PaCO₂ alta, A-a normal (opioide, neuromuscular). PiO₂ baixa: altitude/FiO₂ baixa, PaCO₂ baixa, A-a normal. V/Q (DPOC, asma, TEP): corrige bem com O₂. Shunt (SDRA, pneumonia, atelectasia, shunt intracardíaco): corrige pouco com O₂. Difusão (fibrose): piora ao esforço.<br>⚡ <b>Na prática:</b> Hipoxemia + PaCO₂ alta + A-a normal = ventilar (não só dar O₂).",
+"pegadinha": "Fração de shunt &gt; 30% quase não responde à FiO₂ — precisa recrutar (PEEP/prona).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #213</b> · Shunt × distúrbio V/Q: como diferenciar à beira do leito?",
+"verso": "✅ <b>Teste com O₂: V/Q melhora bastante com FiO₂ alta; shunt melhora pouco</b><br>🔎 Shunt verdadeiro: sangue passa por alvéolos sem ventilação (ou por comunicação anatômica) — aumentar FiO₂ não oxigena esse sangue. V/Q baixo: alvéolos pouco ventilados ainda recebem O₂ com FiO₂ alta.<br>⚡ <b>Na prática:</b> Hipoxemia refratária a FiO₂ 100% = shunt: PEEP/recrutamento, prona; pensar em shunt intracardíaco (FOP com VD dilatado) ou malformação AV.",
+"pegadinha": "PaO₂ &lt; 150 com FiO₂ 100% sugere shunt &gt; 25–30%.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #214</b> · Pneumonia viral, em máscara de Venturi 50%, FR 24; PEEP via CPAP 8 cmH₂O.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 50% · PEEP 8</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>38</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>23</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-1,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,1</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>SDRA LEVE pelo critério de Berlim (P/F 201–300 com PEEP ≥ 5)</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 139 − (106 + 23) = 10 → normal<br>4️⃣ P/F = 140/0,50 = <b>280</b> → hipoxemia leve (201–300); PAO₂ 309, A-a 169<br>🩺 <b>Por quê:</b> P/F = 140/0,5 = 280. Berlim exige início em ≤ 1 semana, opacidades bilaterais não explicadas por IC e PEEP/CPAP ≥ 5.<br>⚡ <b>Conduta:</b> Tratar a causa, ventilação/oxigenação conforme esforço (CNAF/VNI com vigilância), meta SpO₂ 92–96%.",
+"pegadinha": "Sem PEEP ≥ 5, P/F não classifica SDRA por Berlim.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #215</b> · Pancreatite grave, em VM com PEEP 10 e FiO₂ 60%; infiltrados bilaterais.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 60% · PEEP 10</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,35</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>45</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>24</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-1,1</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>90</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>138</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>103</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>SDRA MODERADA (P/F 101–200)</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,35 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 138 − (103 + 24) = 11 → normal<br>4️⃣ P/F = 90/0,60 = <b>150</b> → hipoxemia moderada (101–200); PAO₂ 372, A-a 282<br>🩺 <b>Por quê:</b> P/F = 90/0,6 = 150.<br>⚡ <b>Conduta:</b> VT 6 mL/kg de peso predito, Pplatô ≤ 30, ΔP ≤ 15, PEEP pela tabela/estratégia, prona ≥ 16 h/dia se P/F &lt; 150.",
+"pegadinha": "Prona reduz mortalidade na SDRA moderada a grave (PROSEVA: P/F &lt; 150).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #216</b> · Aspiração maciça, VM com PEEP 14, FiO₂ 90%, VT 6 mL/kg.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 90% · PEEP 14</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,30</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>55</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>26</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>0,1</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>72</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,4</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>103</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>SDRA GRAVE (P/F ≤ 100) com hipercapnia permissiva</b><br>🧮 <i>Classificação: Acidose respiratória aguda</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,30 → <b>acidemia</b><br>2️⃣ PaCO₂ 55 ↑ → distúrbio primário <b>respiratório</b> (acidose respiratória)<br>3️⃣ HCO₃⁻ esperado: aguda 24 + 0,1 × 15 = 25,5 · crônica 24 + 0,35 × 15 = 29,2; HCO₃⁻ 26 → <b>aguda</b><br>4️⃣ AG = 139 − (103 + 26) = 10 → normal<br>5️⃣ P/F = 72/0,90 = <b>80</b> → hipoxemia grave (≤ 100); PAO₂ 573, A-a 501<br>🩺 <b>Por quê:</b> P/F = 72/0,9 = 80; pH 7,30 tolerado.<br>⚡ <b>Conduta:</b> Prona, bloqueador neuromuscular por 48 h se assincronia/SDRA grave precoce, PEEP adequada; ECMO VV se P/F &lt; 80 por &gt; 6 h (EOLIA).",
+"pegadinha": "Óxido nítrico melhora a oxigenação mas não a sobrevida (resgate apenas).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #217</b> · Família encontrada em casa com aquecedor a gás ligado; cefaleia, confusão. Oxímetro de pulso marca 98%. Ar ambiente.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 21%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,39</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>34</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>20</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-4,2</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>95</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">SatO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>70</b> <small>%</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,9</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>104</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Lactato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mmol/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">COHb</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>28</b> <small>%</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>Intoxicação por MONÓXIDO DE CARBONO (COHb 28%) com acidose láctica</b><br>🧮 <i>Classificação: Acidose metabólica com ânion gap elevado + Alcalose respiratória</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,39 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ HCO₃⁻ 20 ↓ com pH no lado ácido (ou AG alto) → acidose metabólica; checar compensação<br>3️⃣ Winter: 1,5 × 20 + 8 = 38,0 ± 2 (36,0–40,0); PaCO₂ 34 → <b>abaixo</b>: alcalose respiratória associada<br>4️⃣ AG = 140 − (104 + 20) = 16 → <b>elevado</b><br>5️⃣ Δ/Δ = (16,0 − 12) / (24 − 20) = <b>1,0</b> → 0,8–2: acidose com AG elevado <b>pura</b><br>6️⃣ PAO₂ = 0,21 × (760 − 47) − 34/0,8 = 107,2; A-a = 107,2 − 95 = <b>12,2</b> (esperado ≈ 14,0) → oxigenação adequada<br>🩺 <b>Por quê:</b> CO ocupa a Hb (curva desviada para a esquerda): PaO₂ normal, SpO₂ falsamente normal (oxímetro lê COHb como OxiHb); a SatO₂ real (co-oxímetro) é 70%.<br>⚡ <b>Conduta:</b> O₂ 100% por máscara não reinalante ou IOT (meia-vida da COHb cai de ~5 h para ~1 h); oxigenoterapia hiperbárica se COHb &gt; 25%, síncope, alteração neurológica, gestante, isquemia; pensar em cianeto (incêndio).",
+"pegadinha": "SpO₂ normal não exclui intoxicação por CO: peça co-oximetria.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #218</b> · Paciente HIV em dapsona; cianose 'cor de ardósia', SpO₂ 85% que não sobe com O₂; sangue achocolatado.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 21%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>38</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>23</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-1,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>95</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">SatO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>68</b> <small>%</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">MetHb</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>%</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>METEMOGLOBINEMIA (dapsona) — 'saturation gap'</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 139 − (106 + 23) = 10 → normal<br>4️⃣ PAO₂ = 0,21 × (760 − 47) − 38/0,8 = 102,2; A-a = 102,2 − 95 = <b>7,2</b> (esperado ≈ 12,8) → oxigenação adequada<br>🩺 <b>Por quê:</b> Fe³⁺ não carrega O₂ e desvia a curva para a esquerda; o oxímetro tende a ler ~85% qualquer que seja o nível; PaO₂ normal (gap entre SpO₂ e SaO₂ calculada).<br>⚡ <b>Conduta:</b> Azul de metileno 1–2 mg/kg IV (contraindicado na deficiência de G6PD → vitamina C/exsanguíneo/oxigênio hiperbárico); suspender a droga.",
+"pegadinha": "Outras causas: benzocaína/lidocaína tópica, nitritos, nitrato, primaquina, rasburicase.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #219</b> · Leucemia mieloide aguda com 200.000 leucócitos; SpO₂ 98%, sem dispneia; amostra demorou 40 min para ser analisada. Ar ambiente.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 21%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>38</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>23</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-1,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>45</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,8</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>Pseudo-hipoxemia por 'roubo leucocitário'</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 139 − (106 + 23) = 10 → normal<br>4️⃣ PAO₂ = 0,21 × (760 − 47) − 38/0,8 = 102,2; A-a = 102,2 − 45 = <b>57,2</b> (esperado ≈ 16,5) → hipoxemia com A-a <b>elevado</b>: V/Q, shunt ou difusão<br>🩺 <b>Por quê:</b> Leucócitos (e plaquetas) em grande número consomem O₂ no tubo após a coleta: PaO₂ falsamente baixa com SpO₂ normal e paciente sem desconforto.<br>⚡ <b>Conduta:</b> Confiar na oximetria; repetir a gasometria em gelo com análise imediata; não intubar por número.",
+"pegadinha": "Dissociação SpO₂ alta × PaO₂ baixa: roubo leucocitário ou erro de amostra.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #220</b> · Paciente dispneico com SpO₂ 86% em ar ambiente; a gasometria chega com PaO₂ 148. A seringa tinha uma bolha grande.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 21%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,51</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>23</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>0,2</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>148</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>107</b> <small>mEq/L</small></td></tr></table>❓ O que há de errado com esta gasometria?",
+"verso": "✅ <b>Laudo IMPOSSÍVEL: PaO₂ &gt; PAO₂ (A-a negativo) → bolha de ar/erro de amostra</b><br>🧮 <i>Classificação: Alcalose respiratória aguda</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,51 → <b>alcalemia</b><br>2️⃣ PaCO₂ 30 ↓ → distúrbio primário <b>respiratório</b> (alcalose respiratória)<br>3️⃣ HCO₃⁻ esperado: aguda 24 − 0,2 × 10 = 22,0 · crônica 24 − 0,4 × 10 = 20,0; HCO₃⁻ 23 → <b>aguda</b><br>4️⃣ AG = 140 − (107 + 23) = 10 → normal<br>5️⃣ PAO₂ = 0,21 × (760 − 47) − 30/0,8 = 112,2; A-a = 112,2 − 148 = <b>-35,8</b> (esperado ≈ 19,0) → oxigenação adequada<br>🩺 <b>Por quê:</b> Em ar ambiente, a PAO₂ máxima é ~112 com PaCO₂ 30; PaO₂ 148 só é possível com contaminação por ar. A PaCO₂ também cai com a bolha.<br>⚡ <b>Conduta:</b> Repetir a coleta sem bolha; usar a SpO₂ enquanto isso.",
+"pegadinha": "A-a negativo = erro, sempre.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #221</b> · Quanto de FiO₂ oferecem os dispositivos de oxigênio?",
+"verso": "✅ <b>Cateter nasal: ~21% + 4% por L/min (até ~40% em 5–6 L) · máscara simples ~35–55% · Venturi: FiO₂ fixa (24–50%) · não reinalante ~60–90% · CNAF até 100% com fluxo 30–60 L/min</b><br>🔎 Em dispositivos de baixo fluxo a FiO₂ real varia com o padrão respiratório (taquipneia dilui o O₂). Venturi e CNAF garantem FiO₂ conhecida — melhores para calcular P/F e para DPOC hipercápnico.<br>⚡ <b>Na prática:</b> No DPOC retentor, Venturi 24–28% titulada para SpO₂ 88–92%.",
+"pegadinha": "P/F calculado com cateter nasal é só uma estimativa.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #222</b> · Como calcular o conteúdo arterial de O₂ (CaO₂)? Ex.: Hb 10, SatO₂ 90%, PaO₂ 60.",
+"verso": "✅ <b>CaO₂ = 1,34 × Hb × SatO₂ + 0,003 × PaO₂ = 1,34 × 10 × 0,9 + 0,18 ≈ 12,2 mL/dL</b><br>🔎 Quase todo O₂ vai ligado à Hb; o dissolvido (0,003 × PaO₂) é mínimo — só relevante em hiperóxia/hiperbárica. Normal ≈ 20 mL/dL.<br>⚡ <b>Na prática:</b> Subir a Hb de 7 para 10 aumenta mais o CaO₂ que subir a PaO₂ de 80 para 300.",
+"pegadinha": "Em anemia grave, PaO₂ e SatO₂ normais com CaO₂ muito baixo.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #223</b> · Oferta de O₂ (DO₂): fórmula e determinantes?",
+"verso": "✅ <b>DO₂ = DC × CaO₂ × 10 (mL/min) ≈ 1.000 mL/min no adulto</b><br>🔎 Determinantes: débito cardíaco, hemoglobina e saturação (PaO₂ quase não entra). VO₂ ≈ 250 mL/min; extração normal 25%. Quando a DO₂ cai abaixo do crítico, o VO₂ passa a depender da DO₂ → lactato.<br>⚡ <b>Na prática:</b> Para melhorar DO₂: otimizar DC (volume, inotrópico), Hb (transfusão quando indicada) e SatO₂.",
+"pegadinha": "Hiperóxia não compensa baixo débito.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #224</b> · SvcO₂/SvO₂ baixa (ex.: 52%) no choque: o que significa?",
+"verso": "✅ <b>Extração de O₂ aumentada → oferta insuficiente para o consumo</b><br>🔎 Normal SvO₂ ~65–70% (SvcO₂ ~70–75%). Baixa: ↓DC (cardiogênico, hipovolemia), ↓Hb, ↓SatO₂ ou ↑consumo (febre, tremor, agitação, dor).<br>⚡ <b>Na prática:</b> Choque com SvcO₂ &lt; 70%: otimizar DC (volume se responsivo, dobutamina), Hb, SatO₂ e reduzir consumo.",
+"pegadinha": "Meta de SvcO₂ (EGDT) não melhorou desfechos em ProCESS/ARISE/ProMISe, mas a fisiologia continua útil.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #225</b> · SvcO₂ ALTA (&gt; 80%) com lactato alto na sepse: e agora?",
+"verso": "✅ <b>Extração prejudicada: shunt microcirculatório, disfunção mitocondrial — ou cianeto/CO</b><br>🔎 Nem toda SvcO₂ normal/alta significa perfusão adequada. Na sepse tardia, o tecido não extrai O₂ (disfunção mitocondrial, shunt). Intoxicação por cianeto dá SvcO₂ 'arterializada'.<br>⚡ <b>Na prática:</b> Use o gap venoarterial de CO₂ e o tempo de enchimento capilar para avaliar fluxo.",
+"pegadinha": "SvcO₂ alta + lactato alto tem pior prognóstico que SvcO₂ baixa.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #226</b> · Gap venoarterial de CO₂ (Pv-aCO₂): Pcv O₂ 52 e PaCO₂ 42 = 10. Interpretação?",
+"verso": "✅ <b>Gap &gt; 6 mmHg = fluxo sanguíneo (débito) insuficiente para lavar o CO₂ tecidual</b><br>🔎 O CO₂ produzido se acumula no sangue venoso quando o fluxo é baixo, mesmo com SvcO₂ 'normal'. Gap normal ≤ 6.<br>⚡ <b>Na prática:</b> Gap alto com SvcO₂ ≥ 70% e lactato alto: aumentar débito (volume/dobutamina) pode ajudar.",
+"pegadinha": "Razão gap CO₂/Ca-vO₂ &gt; 1,4 sugere metabolismo anaeróbio.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #227</b> · Pós-PCR, intubado em FiO₂ 100% desde o ROSC há 2 h.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 100%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>40</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>24</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-0,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>350</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,2</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>Hiperóxia pós-PCR (PaO₂ 350)</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 140 − (106 + 24) = 10 → normal<br>4️⃣ P/F = 350/1,00 = <b>350</b> → &gt; 300; PAO₂ 663, A-a 313<br>🩺 <b>Por quê:</b> Hiperóxia após isquemia aumenta radicais livres e lesão de reperfusão; associada a pior desfecho em alguns estudos.<br>⚡ <b>Conduta:</b> Reduzir FiO₂ rapidamente para SpO₂ 92–98% (evitar hipoxemia E hiperóxia); normocapnia.",
+"pegadinha": "Em geral na UTI: evitar SpO₂ &gt; 96–98% (exceto CO, pneumotórax a reabsorver, cefaleia em salvas).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #228</b> · Qual a meta de SpO₂ no DPOC hipercápnico e na maioria dos pacientes de UTI?",
+"verso": "✅ <b>DPOC/risco de hipercapnia: 88–92% · demais: 92–96% (ou 94–98% em alguns protocolos)</b><br>🔎 Oxigênio é droga: titular. Em hipercápnicos, O₂ em excesso piora V/Q e eleva a PaCO₂. Na UTI geral, estratégias conservadoras evitam hiperóxia.<br>⚡ <b>Na prática:</b> Use Venturi/CNAF e prescreva a META de SpO₂, não o fluxo.",
+"pegadinha": "Exceções com meta alta: intoxicação por CO, pneumotórax, anemia falciforme em crise com hipoxemia.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #229</b> · Hipoxemia grave após IAM de VD; pulmões limpos ao raio-X, FiO₂ 100% sem melhora; eco com bolhas cruzando para o AE.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 100%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,42</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>35</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>22</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-2,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>60</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,2</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>107</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>Shunt intracardíaco direita-esquerda (forame oval patente) — hipoxemia refratária</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,42 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 139 − (107 + 22) = 10 → normal<br>4️⃣ P/F = 60/1,00 = <b>60</b> → hipoxemia grave (≤ 100); PAO₂ 669, A-a 609<br>🩺 <b>Por quê:</b> VD isquêmico com pressão alta abre o FOP: sangue venoso vai direto ao AE. P/F 60 com pulmão normal = shunt.<br>⚡ <b>Conduta:</b> Reduzir pós-carga do VD (evitar PEEP alta e hipercapnia, óxido nítrico inalado), suporte inotrópico; fechamento percutâneo em casos selecionados.",
+"pegadinha": "Hipoxemia refratária + pulmões limpos: TEP, shunt intracardíaco, malformação AV, hepatopulmonar.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #230</b> · Cirrótico, 50 anos, dispneia que piora em pé e melhora deitado; baqueteamento digital. Ar ambiente.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 21%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,45</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>20</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-3,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>60</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>134</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,8</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>105</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>Síndrome hepatopulmonar (platipneia-ortodeoxia) com A-a elevado</b><br>🧮 <i>Classificação: Alcalose respiratória crônica</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,45 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ 30 ↓ com pH no lado alcalino → alcalose respiratória; checar compensação<br>3️⃣ HCO₃⁻ esperado: aguda 24 − 0,2 × 10 = 22,0 · crônica 24 − 0,4 × 10 = 20,0; HCO₃⁻ 20 → <b>crônica</b> (compensada pelo rim)<br>4️⃣ AG = 134 − (105 + 20) = 9 → normal<br>5️⃣ PAO₂ = 0,21 × (760 − 47) − 30/0,8 = 112,2; A-a = 112,2 − 60 = <b>52,2</b> (esperado ≈ 16,5) → hipoxemia com A-a <b>elevado</b>: V/Q, shunt ou difusão<br>🩺 <b>Por quê:</b> Vasodilatação intrapulmonar → shunt/difusão nas bases, pior em pé (ortodeoxia). A-a ~52; alcalose respiratória crônica da cirrose.<br>⚡ <b>Conduta:</b> Ecocardiograma com microbolhas (aparecem no AE após 3–6 batimentos), O₂ suplementar, avaliação para transplante hepático (curativo).",
+"pegadinha": "Hepatopulmonar (hipoxemia) ≠ portopulmonar (hipertensão pulmonar).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #231</b> · Índice ROX na cânula nasal de alto fluxo: como calcular e usar?",
+"verso": "✅ <b>ROX = (SpO₂/FiO₂) / FR — ≥ 4,88 em 2, 6 ou 12 h prediz sucesso da CNAF</b><br>🔎 Ex.: SpO₂ 93%, FiO₂ 50%, FR 30 → (93/0,5)/30 = 6,2 (bom). ROX &lt; 3,85 indica alto risco de falha → considerar IOT sem atraso.<br>⚡ <b>Na prática:</b> Reavalie o ROX seriadamente; atrasar a IOT após falha da CNAF aumenta mortalidade.",
+"pegadinha": "O ROX não substitui a avaliação de esforço (uso de musculatura, assincronia toracoabdominal).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #232</b> · Índice de oxigenação (IO): fórmula e uso?",
+"verso": "✅ <b>IO = Pressão média de via aérea × FiO₂ × 100 / PaO₂</b><br>🔎 Incorpora a 'quantidade' de suporte (pressão média) que o P/F ignora. IO &gt; 16 = hipoxemia grave; &gt; 25–40 é critério de ECMO (sobretudo em pediatria/neonatologia).<br>⚡ <b>Na prática:</b> Útil para acompanhar resposta a recrutamento/prona com mudanças de PEEP.",
+"pegadinha": "Na SDRA adulta, P/F + PEEP continuam sendo o padrão (Berlim).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #233</b> · Curva de dissociação da Hb: o que a desloca para a DIREITA?",
+"verso": "✅ <b>↑H⁺ (acidose), ↑CO₂, ↑temperatura, ↑2,3-DPG — 'CADET, face Right' (CO₂, Acid, 2,3-DPG, Exercise, Temperature)</b><br>🔎 Desvio à direita: P50 ↑ (&gt; 27 mmHg), Hb libera O₂ mais facilmente aos tecidos (efeito Bohr). À esquerda: alcalose, hipotermia, ↓2,3-DPG (sangue estocado), COHb, MetHb, Hb fetal — Hb segura o O₂.<br>⚡ <b>Na prática:</b> Alcalose iatrogênica (hiperventilação, bicarbonato) piora a liberação de O₂ ao tecido.",
+"pegadinha": "Sangue estocado tem pouco 2,3-DPG: oferta tecidual menor nas primeiras horas.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #234</b> · Oxímetro de pulso: quando a SpO₂ engana?",
+"verso": "✅ <b>CO, MetHb, má perfusão/vasoconstrição, movimento, esmalte escuro, pele mais pigmentada e SpO₂ &lt; 80%</b><br>🔎 Em pele escura a oximetria pode superestimar a SaO₂ (hipoxemia oculta) — atenção redobrada com SpO₂ 88–92%. CO lê como oxi-Hb; MetHb puxa para ~85%.<br>⚡ <b>Na prática:</b> Na dúvida (SpO₂ discordante da clínica), gasometria arterial com co-oximetria.",
+"pegadinha": "Má perfusão periférica: sinal com onda pletismográfica ruim = leitura não confiável.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #235</b> · Critério de Kigali: SDRA sem gasometria?",
+"verso": "✅ <b>SpO₂/FiO₂ ≤ 315 (com SpO₂ ≤ 97%) substitui o P/F em locais sem gasometria</b><br>🔎 Mantém demais critérios de Berlim (início agudo, infiltrado bilateral por raio-X ou USG pulmonar), sem exigir PEEP. A nova definição global (2023) incorporou S/F e pacientes em CNAF ≥ 30 L/min.<br>⚡ <b>Na prática:</b> Útil para triagem em enfermaria/PS sem acesso fácil à gasometria.",
+"pegadinha": "S/F só vale com SpO₂ ≤ 97% (acima disso a curva é plana).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #236</b> · Pneumonia, em cânula nasal de alto fluxo 50 L/min com FiO₂ 50%; FR 30, SpO₂ 93%.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 50%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,46</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>32</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>22</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-1,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>70</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>138</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>Insuficiência respiratória hipoxêmica em CNAF: P/F 140, ROX 6,2</b><br>🧮 <i>Classificação: Alcalose respiratória aguda</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,46 → <b>alcalemia</b><br>2️⃣ PaCO₂ 32 ↓ → distúrbio primário <b>respiratório</b> (alcalose respiratória)<br>3️⃣ HCO₃⁻ esperado: aguda 24 − 0,2 × 8 = 22,4 · crônica 24 − 0,4 × 8 = 20,8; HCO₃⁻ 22 → <b>aguda</b><br>4️⃣ AG = 138 − (106 + 22) = 10 → normal<br>5️⃣ P/F = 70/0,50 = <b>140</b> → hipoxemia moderada (101–200); PAO₂ 316, A-a 246<br>🩺 <b>Por quê:</b> ROX = (93/0,5)/30 ≈ 6,2 (≥ 4,88 = boa chance de sucesso). Alcalose respiratória aguda.<br>⚡ <b>Conduta:</b> Manter CNAF, reavaliar ROX em 2, 6 e 12 h; IOT se ROX &lt; 3,85, piora do esforço ou acidose.",
+"pegadinha": "A gasometria mostra o momento; o ROX seriado mostra a tendência.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #237</b> · Pós-operatório de abdome superior, 60 anos, dor ao respirar, MV reduzido nas bases. Ar ambiente.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial · FiO₂ 21%</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,43</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>36</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>23</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-0,9</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>60</b> <small>mmHg</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,0</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td></tr></table>❓ Como está a oxigenação (A-a/P/F) e o que fazer?",
+"verso": "✅ <b>Hipoxemia por atelectasia pós-operatória (shunt; A-a elevado)</b><br>🧮 <i>Classificação: Equilíbrio ácido-base normal</i><br>🔎 <b>Passo a passo</b><br>1️⃣ pH 7,43 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>2️⃣ PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>3️⃣ AG = 139 − (106 + 23) = 10 → normal<br>4️⃣ PAO₂ = 0,21 × (760 − 47) − 36/0,8 = 104,7; A-a = 104,7 − 60 = <b>44,7</b> (esperado ≈ 19,0) → hipoxemia com A-a <b>elevado</b>: V/Q, shunt ou difusão<br>🩺 <b>Por quê:</b> A-a ≈ 45 (esperado ~19) com PaCO₂ normal: shunt/V/Q por atelectasia basal.<br>⚡ <b>Conduta:</b> Analgesia adequada, deambulação precoce, fisioterapia, espirometria de incentivo, CPAP se necessário.",
+"pegadinha": "Atelectasia é a causa mais comum de hipoxemia no pós-operatório precoce.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #238</b> · Hipoxemia que surge só ao esforço com repouso normal: qual mecanismo?",
+"verso": "✅ <b>Distúrbio de DIFUSÃO (doença intersticial, enfisema)</b><br>🔎 Ao esforço, o tempo de trânsito da hemácia no capilar diminui; com membrana espessada não há tempo para equilibrar O₂. Teste de caminhada de 6 min com queda de SpO₂ ≥ 4% é útil.<br>⚡ <b>Na prática:</b> Prescrever O₂ para esforço se dessaturação significativa; DLCO na espirometria completa.",
+"pegadinha": "CO₂ difunde ~20× mais que O₂: hipercapnia por difusão quase não existe.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #239</b> · Mesmo P/F com PEEP diferente: SDRA 'igual'? (P/F 150 com PEEP 5 × PEEP 18)",
+"verso": "✅ <b>Não: P/F depende de PEEP e FiO₂; PEEP alta 'melhora' o P/F</b><br>🔎 P/F 150 com PEEP 18 indica pulmão mais grave que com PEEP 5. Por isso a definição de Berlim exige PEEP ≥ 5 e muitos estudos usam P/F em PEEP padronizada (ex.: ≥ 10).<br>⚡ <b>Na prática:</b> Ao comparar evolução, registre PEEP e FiO₂ junto ao P/F (ou use índice de oxigenação).",
+"pegadinha": "Melhora do P/F após prona prediz resposta, mas o benefício na mortalidade independe dela.",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+},
+{
+"frente": "🧪 <b>Gaso #240</b> · Capnografia: por que a EtCO₂ fica bem abaixo da PaCO₂ em alguns pacientes?",
+"verso": "✅ <b>Gap PaCO₂ − EtCO₂ (normal 2–5) aumenta com o ESPAÇO MORTO</b><br>🔎 Alvéolos ventilados e não perfundidos (TEP, baixo débito, hiperinsuflação/PEEP alta, hipovolemia) expiram ar sem CO₂ e 'diluem' a EtCO₂. Na PCR, EtCO₂ &lt; 10 após 20 min indica mau prognóstico; subida súbita &gt; 35–40 sugere ROSC.<br>⚡ <b>Na prática:</b> Calibre a EtCO₂ contra uma gasometria e acompanhe a tendência; gap crescente = piora da perfusão ou do espaço morto.",
+"pegadinha": "Na CAD intubada, guie a VM pela gasometria (o gap pode ser grande).",
+"fonte": "Síntese 360X de fisiologia ácido-base e de diretrizes consagradas (ADA/CAD, SSC, Berlim/SDRA, KDIGO, toxicologia clínica) — conferir na diretriz vigente. Caso e valores fictícios, coerentes por Henderson-Hasselbalch e conferidos pelo motor de gasometria 360X — não é paciente real.",
+"tags": [
+"GASO",
+"GASO_T08",
+"TEMI2028",
+"R3CM"
+]
+}
+]
+}

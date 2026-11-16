@@ -1,0 +1,25 @@
+/* 4.13.0 · 🧪 Gasometria + Jornada expandida */
+.gzHero{background:linear-gradient(135deg,#2a1a0e,#0f151d 70%);border-color:#6b4520}
+.gzCase{padding:14px}.gzCtx{font:15px/1.5 Inter;margin-bottom:10px}
+.gzCase table{width:100%;max-width:560px}
+.gzDone{font-size:13px;color:var(--mut);padding:5px 9px;border-left:3px solid #5be38a;margin:6px 0;background:#0f1a14}.gzDone b{color:var(--txt)}
+.gzStep{margin-top:12px}.gzQ{font-weight:700;margin-bottom:8px;color:var(--gold2)}
+.gzExp{margin-top:8px}
+.gzEnd{margin-top:12px;padding:12px;border-radius:12px;border:1px solid var(--line);background:#121a24}.gzEnd.ok{border-color:#e8c56a;background:linear-gradient(135deg,#2a221066,#121a24)}
+.gzScore{font-weight:800;font-size:17px;color:var(--gold2)}
+.gzForm{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:10px 0}
+.gzForm label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--mut)}
+.gzForm input{background:#0b1118;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:8px;font:15px Inter;min-width:0}
+.gzDx{margin:10px 0;padding:10px 12px;border-radius:10px;background:#10261a;border:1px solid #5be38a;font-size:15px}
+.gzSteps{margin:6px 0 0;padding-left:22px;line-height:1.55}.gzSteps li{margin:3px 0}
+.gzForms{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.gzF{display:flex;flex-direction:column;gap:3px;padding:10px;border-radius:10px;border:1px solid var(--line);background:#0f151d}.gzF span{font-size:13px;color:var(--mut)}
+.jrTitle{margin:4px 0;color:var(--gold2);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.jrTitle select{background:#0b1118;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:3px 6px;max-width:100%}
+.jrChips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.jrChips small{opacity:.75}
+.styleChips{display:flex;flex-wrap:wrap;gap:8px}.styleChips span{padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:#121a24;font-size:13px}
+.catGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.catRow{display:flex;flex-direction:column;gap:4px}.catRow small{color:var(--mut)}
+html.lay-mobile .catGrid,html.lay-mobile .gzForms{grid-template-columns:1fr}
+html.lay-mobile .gzForm{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:700px){.catGrid,.gzForms{grid-template-columns:1fr}.gzForm{grid-template-columns:repeat(2,minmax(0,1fr))}}

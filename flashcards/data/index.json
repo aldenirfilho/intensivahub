@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "2026.11.16-vmpocus300",
+ "versao": "2026.11.16-gaso300",
  "colecoes": [
   {
    "id": "ouro",
@@ -59,6 +59,13 @@
    "icone": "🔊",
    "descricao": "150 imagens sintéticas de ultrassom point-of-care (modo B, modo M e Doppler) — pulmão, derrame, coração, VD/TEP, pericárdio, VCI/VTI, VExUS, eFAST/RUSH/BLUE, vascular, neuro, diafragma e estômago.",
    "cards": 150
+  },
+  {
+   "id": "gaso",
+   "nome": "Gasometria 360X",
+   "icone": "🧪",
+   "descricao": "300 flashcards de gasometria arterial: método, acidoses (AG alto e hiperclorêmica), alcaloses, distúrbios respiratórios, mistos e triplos, oxigenação (A-a, P/F, DO₂), gaps e casos de UTI — 235 casos com laudo e solução passo a passo calculada pelo motor ácido-base.",
+   "cards": 300
   }
  ],
  "decks": [
@@ -3872,6 +3879,106 @@
    "cards": 17,
    "subtemas": [],
    "pacote": "pack-6-vmpocus"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-01-mtodo-frmulas-e-armadilhas-da-coleta.json",
+   "tema": "01 🧭 Método, fórmulas e armadilhas da coleta",
+   "cards": 30,
+   "subtemas": [
+    "01 🧭 Método, fórmulas e armadilhas da coleta"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-02-acidose-metablica-com-ag-elevado.json",
+   "tema": "02 🔴 Acidose metabólica com AG elevado",
+   "cards": 30,
+   "subtemas": [
+    "02 🔴 Acidose metabólica com AG elevado"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-03-acidose-metablica-hiperclormica-ag-norma.json",
+   "tema": "03 🟠 Acidose metabólica hiperclorêmica (AG normal)",
+   "cards": 30,
+   "subtemas": [
+    "03 🟠 Acidose metabólica hiperclorêmica (AG normal)"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-04-alcalose-metablica.json",
+   "tema": "04 🔵 Alcalose metabólica",
+   "cards": 30,
+   "subtemas": [
+    "04 🔵 Alcalose metabólica"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-05-acidose-respiratria-aguda-crnica-agudiza.json",
+   "tema": "05 🫁 Acidose respiratória (aguda, crônica, agudizada)",
+   "cards": 30,
+   "subtemas": [
+    "05 🫁 Acidose respiratória (aguda, crônica, agudizada)"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-06-alcalose-respiratria.json",
+   "tema": "06 🌬️ Alcalose respiratória",
+   "cards": 30,
+   "subtemas": [
+    "06 🌬️ Alcalose respiratória"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-07-distrbios-mistos-e-triplos.json",
+   "tema": "07 ⚖️ Distúrbios mistos e triplos",
+   "cards": 30,
+   "subtemas": [
+    "07 ⚖️ Distúrbios mistos e triplos"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-08-oxigenao-a-a-p-f-contedo-e-oferta-de-o.json",
+   "tema": "08 💨 Oxigenação: A-a, P/F, conteúdo e oferta de O₂",
+   "cards": 30,
+   "subtemas": [
+    "08 💨 Oxigenação: A-a, P/F, conteúdo e oferta de O₂"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-09-gaps-eletrlitos-e-clculos-de-beira-leito.json",
+   "tema": "09 🧪 Gaps, eletrólitos e cálculos de beira-leito",
+   "cards": 30,
+   "subtemas": [
+    "09 🧪 Gaps, eletrólitos e cálculos de beira-leito"
+   ],
+   "pacote": "pack-7-gaso"
+  },
+  {
+   "colecao": "gaso",
+   "arquivo": "data/decks/gaso-10-casos-de-uti-gasometria-guiando-a-condut.json",
+   "tema": "10 🚑 Casos de UTI: gasometria guiando a conduta",
+   "cards": 30,
+   "subtemas": [
+    "10 🚑 Casos de UTI: gasometria guiando a conduta"
+   ],
+   "pacote": "pack-7-gaso"
   }
  ],
  "pacotes": [
@@ -3967,6 +4074,21 @@
    "cards": 300,
    "bytes": 241172,
    "gzbytes": 55808
+  },
+  {
+   "nome": "pack-7-gaso",
+   "rotulo": "🧪 Gasometria 360X",
+   "colecoes": [
+    "gaso"
+   ],
+   "gz": "data/packs/pack-7-gaso.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-7-gaso.json",
+   "sha": "a5961592ea1c17fd",
+   "decks": 10,
+   "cards": 300,
+   "bytes": 867416,
+   "gzbytes": 126076
   }
  ]
 }

@@ -241,6 +241,43 @@ html.lay-mobile .hoRose{grid-template-columns:1fr;grid-template-areas:"c" "n" "l
 @media (max-width:440px){header .brand>.btn,header .brand>#sync{flex-shrink:0}.xpR{display:none}.xpBadge{min-width:40px}.brand h1{font-size:14px}.brand .logo{width:34px;height:34px}#sync{max-width:27px;overflow:hidden;white-space:nowrap;text-overflow:clip;padding:4px 6px}}
 @media (max-width:380px){.brand{gap:5px}.brand h1{font-size:12.5px;letter-spacing:.3px}}
 @media (max-width:340px){.xpBadge{display:none}}
+/* 4.13.0 · 🧪 Gasometria + Jornada expandida */
+.gzHero{background:linear-gradient(135deg,#2a1a0e,#0f151d 70%);border-color:#6b4520}
+.gzCase{padding:14px}.gzCtx{font:15px/1.5 Inter;margin-bottom:10px}
+.gzCase table{width:100%;max-width:560px}
+.gzDone{font-size:13px;color:var(--mut);padding:5px 9px;border-left:3px solid #5be38a;margin:6px 0;background:#0f1a14}.gzDone b{color:var(--txt)}
+.gzStep{margin-top:12px}.gzQ{font-weight:700;margin-bottom:8px;color:var(--gold2)}
+.gzExp{margin-top:8px}
+.gzEnd{margin-top:12px;padding:12px;border-radius:12px;border:1px solid var(--line);background:#121a24}.gzEnd.ok{border-color:#e8c56a;background:linear-gradient(135deg,#2a221066,#121a24)}
+.gzScore{font-weight:800;font-size:17px;color:var(--gold2)}
+.gzForm{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:10px 0}
+.gzForm label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--mut)}
+.gzForm input{background:#0b1118;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:8px;font:15px Inter;min-width:0}
+.gzDx{margin:10px 0;padding:10px 12px;border-radius:10px;background:#10261a;border:1px solid #5be38a;font-size:15px}
+.gzSteps{margin:6px 0 0;padding-left:22px;line-height:1.55}.gzSteps li{margin:3px 0}
+.gzForms{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.gzF{display:flex;flex-direction:column;gap:3px;padding:10px;border-radius:10px;border:1px solid var(--line);background:#0f151d}.gzF span{font-size:13px;color:var(--mut)}
+.jrTitle{margin:4px 0;color:var(--gold2);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.jrTitle select{background:#0b1118;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:3px 6px;max-width:100%}
+.jrChips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.jrChips small{opacity:.75}
+.styleChips{display:flex;flex-wrap:wrap;gap:8px}.styleChips span{padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:#121a24;font-size:13px}
+.catGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.catRow{display:flex;flex-direction:column;gap:4px}.catRow small{color:var(--mut)}
+html.lay-mobile .catGrid,html.lay-mobile .gzForms{grid-template-columns:1fr}
+html.lay-mobile .gzForm{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:700px){.catGrid,.gzForms{grid-template-columns:1fr}.gzForm{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* 🔍 Zoom de imagens (4.11.0) */
+#zoomBox{position:fixed;inset:0;z-index:9999;background:#06080c;display:none;flex-direction:column}
+#zoomBox.on{display:flex}
+#zoomBox .zbar{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:nowrap;padding:8px calc(8px + env(safe-area-inset-right)) 8px calc(8px + env(safe-area-inset-left));padding-top:calc(8px + env(safe-area-inset-top));background:#0d1117;border-bottom:1px solid #2a3442}
+#zoomBox .zbar span{min-width:64px;text-align:center;color:#e8d9a8;font-weight:700}
+#zoomBox .zscroll{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y pinch-zoom}
+#zoomBox.fit .zscroll{display:flex;align-items:center;justify-content:center}
+#zoomBox.fit img{max-width:100%;max-height:100%;width:auto;height:auto}
+#zoomBox img{display:block;background:#fff;height:auto;max-width:none}
+#zoomBox .zhint{color:#9aa5b1;font-size:12px;text-align:center;padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
+html.zoomOpen,html.zoomOpen body{overflow:hidden}
+
 /*LIGHT-START*/
 html.light{--bg:#f4efe2;--bg2:#fffcf4;--panel:#ffffff;--line:#d9cfb6;--txt:#1d1a14;--mut:#5b6270;--gold:#a47b12;--gold2:#7c5a08;--cy:#0a6f93;--red:#b8322a;--grn:#17783f;--amb:#9a6200;color-scheme:light}
 html.light,html.light body{background:radial-gradient(1200px 600px at 50% -200px,#fff6dc 0%,var(--bg) 60%) fixed}
@@ -338,18 +375,22 @@ html.light .hoVer.r{background:#faf1f2}
 html.light .hoOrb{background:radial-gradient(circle at 35% 35%,#006299,#e5e2f4 60%,#f6f7f9);box-shadow:0 0 40px #00749955,inset 0 0 30px #29292922}
 html.light .hoOrb span{text-shadow:0 1px 4px #fbfbfb}
 html.light .hoOrb small{color:#006299}
+html.light /* 4.13.0 · 🧪 Gasometria + Jornada expandida */
+.gzHero{background:linear-gradient(135deg,#fbf7f4,#f7f8fa 70%);border-color:#f7f0e9}
+html.light .gzDone{border-left:3px solid #16833c;background:#f7faf9}
+html.light .gzEnd{background:#f5f7fa}
+html.light .gzEnd.ok{border-color:#856514;background:linear-gradient(135deg,#faf8f466,#f5f7fa)}
+html.light .gzForm input{background:#f7f9fb}
+html.light .gzDx{background:#f5faf7;border:1px solid #16833c}
+html.light .gzF{background:#f7f8fa}
+html.light .jrTitle select{background:#f7f9fb}
+html.light .styleChips span{background:#f5f7fa}
+html.light /* 🔍 Zoom de imagens (4.11.0) */
+#zoomBox{background:#fafafc}
+html.light #zoomBox .zbar{background:#f8f9fb;border-bottom:1px solid #f0f2f5}
+html.light #zoomBox .zbar span{color:#796420}
+html.light #zoomBox .zhint{color:#3c454e}
 /*LIGHT-END*/
-/* 🔍 Zoom de imagens (4.11.0) */
-#zoomBox{position:fixed;inset:0;z-index:9999;background:#06080c;display:none;flex-direction:column}
-#zoomBox.on{display:flex}
-#zoomBox .zbar{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:nowrap;padding:8px calc(8px + env(safe-area-inset-right)) 8px calc(8px + env(safe-area-inset-left));padding-top:calc(8px + env(safe-area-inset-top));background:#0d1117;border-bottom:1px solid #2a3442}
-#zoomBox .zbar span{min-width:64px;text-align:center;color:#e8d9a8;font-weight:700}
-#zoomBox .zscroll{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y pinch-zoom}
-#zoomBox.fit .zscroll{display:flex;align-items:center;justify-content:center}
-#zoomBox.fit img{max-width:100%;max-height:100%;width:auto;height:auto}
-#zoomBox img{display:block;background:#fff;height:auto;max-width:none}
-#zoomBox .zhint{color:#9aa5b1;font-size:12px;text-align:center;padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
-html.zoomOpen,html.zoomOpen body{overflow:hidden}
 </style>
 </head>
 <body>
@@ -367,6 +408,7 @@ html.zoomOpen,html.zoomOpen body{overflow:hidden}
   <a href="#inicio" data-v="inicio">🏠 Início</a>
   <a href="#estudar" data-v="estudar">🎴 Estudar</a>
   <a href="#questoes" data-v="questoes">❓ Questões</a>
+  <a href="#gaso" data-v="gaso">🧪 Gaso</a>
   <a href="#micro" data-v="micro">💊 Micro</a>
   <a href="#mnemonicos" data-v="mnemonicos">🧠 Mnemônicos</a>
   <a href="#honra" data-v="honra">🕊️ Honra</a>
@@ -429,6 +471,7 @@ html.zoomOpen,html.zoomOpen body{overflow:hidden}
 <section class="view" id="v-honra"><div id="hoHost"></div></section>
 
 <!-- JORNADA -->
+<section class="view" id="v-gaso"><div id="gzHost"></div></section>
 <section class="view" id="v-jornada"><div id="jrHost"></div></section>
 
 <!-- BUSCAR -->

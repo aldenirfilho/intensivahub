@@ -1,0 +1,2202 @@
+[
+{
+"id": "QG001",
+"tema": "Acidose hiperclorêmica",
+"enun": "Homem, 35 anos, 4 dias de diarreia aquosa volumosa, sem febre, desidratado.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,32</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>15</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-9,8</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>137</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>113</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Acidose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Alcalose metabólica",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose respiratória"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,32 → <b>acidemia</b><br>HCO₃⁻ 15 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>Winter: 1,5 × 15 + 8 = 30,5 ± 2 (28,5–32,5); PaCO₂ 30 → compensação respiratória <b>adequada</b><br>AG = 137 − (113 + 15) = 9 → normal",
+"porque": [
+"inclui acidose respiratória indevidamente: PaCO₂ 30 dentro da faixa esperada (28,5–32,5)",
+"Winter: 1,5 × 15 + 8 = 30,5 ± 2 (28,5–32,5); PaCO₂ 30 → compensação respiratória adequada → AG = 137 − (113 + 15) = 9 → normal",
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal): HCO₃⁻ baixo sem AG que o explique (AG 9,0 normal) · inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado",
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal): HCO₃⁻ baixo sem AG que o explique (AG 9,0 normal) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 9,0 (normal: não há acidose com AG alto)",
+"inclui alcalose respiratória indevidamente: PaCO₂ 30 dentro da faixa esperada (28,5–32,5)"
+],
+"pega": "Diarreia = perda de HCO₃⁻ → AG normal (hiperclorêmica)."
+},
+{
+"id": "QG002",
+"tema": "Acidose com AG elevado",
+"enun": "DM1, 21 anos, poliúria, vômitos e hálito cetônico; FR 30.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,23</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>22</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>9</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-16,7</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>133</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>5,1</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>97</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Glicose</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>480</b> <small>mg/dL</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado + Acidose respiratória",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica",
+"Acidose metabólica com ânion gap elevado + Alcalose respiratória"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,23 → <b>acidemia</b><br>HCO₃⁻ 9 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>Winter: 1,5 × 9 + 8 = 21,5 ± 2 (19,5–23,5); PaCO₂ 22 → compensação respiratória <b>adequada</b><br>AG = 133 − (97 + 9) = 27 → <b>elevado</b><br>Δ/Δ = (27,0 − 12) / (24 − 9) = <b>1,0</b> → 0,8–2: acidose com AG elevado <b>pura</b>",
+"porque": [
+"inclui acidose respiratória indevidamente: PaCO₂ 22 dentro da faixa esperada (19,5–23,5)",
+"Winter: 1,5 × 9 + 8 = 21,5 ± 2 (19,5–23,5); PaCO₂ 22 → compensação respiratória adequada → AG = 133 − (97 + 9) = 27 → elevado → Δ/Δ = (27,0 − 12) / (24 − 9) = 1,0 → 0,8–2: acidose com AG elevado pura",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 27,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 1,0 ≥ 0,8)",
+"inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado (Δ/Δ 1,0 ≤ 2)",
+"inclui alcalose respiratória indevidamente: PaCO₂ 22 dentro da faixa esperada (19,5–23,5)"
+],
+"pega": "CAD costuma ter Δ/Δ próximo de 1."
+},
+{
+"id": "QG003",
+"tema": "Acidose com AG elevado",
+"enun": "Idoso com pneumonia, PA 80/50, extremidades frias, FR 34.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,43</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>22</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>14</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-9,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>138</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>100</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Lactato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>6,5</b> <small>mmol/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica + Alcalose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose respiratória",
+"Acidose metabólica com ânion gap elevado + Alcalose respiratória"
+],
+"gab": 4,
+"com": "<b>Passo a passo:</b><br>pH 7,43 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>HCO₃⁻ 14 ↓ com pH no lado ácido (ou AG alto) → acidose metabólica; checar compensação<br>Winter: 1,5 × 14 + 8 = 29,0 ± 2 (27,0–31,0); PaCO₂ 22 → <b>abaixo</b>: alcalose respiratória associada<br>AG = 138 − (100 + 14) = 24 → <b>elevado</b><br>Δ/Δ = (24,0 − 12) / (24 − 14) = <b>1,2</b> → 0,8–2: acidose com AG elevado <b>pura</b>",
+"porque": [
+"deixa de fora alcalose respiratória, acidose metabólica com ânion gap elevado: PaCO₂ 22 fora da faixa esperada (27,0–31,0); AG corrigido = 24,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 1,2 ≥ 0,8)",
+"deixa de fora alcalose respiratória: PaCO₂ 22 fora da faixa esperada (27,0–31,0)",
+"inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado (Δ/Δ 1,2 ≤ 2)",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 24,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 1,2 ≥ 0,8)",
+"Winter: 1,5 × 14 + 8 = 29,0 ± 2 (27,0–31,0); PaCO₂ 22 → abaixo: alcalose respiratória associada → AG = 138 − (100 + 14) = 24 → elevado → Δ/Δ = (24,0 − 12) / (24 − 14) = 1,2 → 0,8–2: acidose com AG elevado pura"
+],
+"pega": "Na sepse, PaCO₂ abaixo do Winter é comum (hiperventilação)."
+},
+{
+"id": "QG004",
+"tema": "Acidose respiratória",
+"enun": "DPOC, PaCO₂ basal desconhecida, 3 dias de piora da dispneia e escarro purulento.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,25</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>70</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,1</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>99</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose respiratória aguda",
+"Alcalose metabólica + Acidose respiratória",
+"Acidose respiratória crônica",
+"Acidose respiratória crônica agudizada",
+"Acidose metabólica com ânion gap elevado"
+],
+"gab": 3,
+"com": "<b>Passo a passo:</b><br>pH 7,25 → <b>acidemia</b><br>PaCO₂ 70 ↑ → distúrbio primário <b>respiratório</b> (acidose respiratória)<br>HCO₃⁻ esperado: aguda 24 + 0,1 × 30 = 27,0 · crônica 24 + 0,35 × 30 = 34,5; HCO₃⁻ 30 → <b>entre aguda e crônica</b>: crônica agudizada<br>AG = 139 − (99 + 30) = 10 → normal",
+"porque": [
+"HCO₃⁻ 30 × esperado agudo 27,0 e crônico 34,5 → o correto é acidose respiratória crônica agudizada.",
+"deixa de fora acidose respiratória crônica agudizada: HCO₃⁻ 30 × esperado agudo/crônico (27,0–34,5) · inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado",
+"HCO₃⁻ 30 × esperado agudo 27,0 e crônico 34,5 → o correto é acidose respiratória crônica agudizada.",
+"HCO₃⁻ esperado: aguda 24 + 0,1 × 30 = 27,0 · crônica 24 + 0,35 × 30 = 34,5; HCO₃⁻ 30 → entre aguda e crônica: crônica agudizada → AG = 139 − (99 + 30) = 10 → normal",
+"deixa de fora acidose respiratória crônica agudizada: HCO₃⁻ 30 × esperado agudo/crônico (27,0–34,5) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)"
+],
+"pega": "HCO₃⁻ entre o esperado agudo e crônico = crônica agudizada."
+},
+{
+"id": "QG005",
+"tema": "Acidose respiratória",
+"enun": "Encontrado sonolento após uso de heroína; FR 6.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,22</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>65</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>26</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-1,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>104</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado",
+"Acidose respiratória aguda",
+"Acidose respiratória crônica",
+"Alcalose metabólica"
+],
+"gab": 2,
+"com": "<b>Passo a passo:</b><br>pH 7,22 → <b>acidemia</b><br>PaCO₂ 65 ↑ → distúrbio primário <b>respiratório</b> (acidose respiratória)<br>HCO₃⁻ esperado: aguda 24 + 0,1 × 25 = 26,5 · crônica 24 + 0,35 × 25 = 32,8; HCO₃⁻ 26 → <b>aguda</b><br>AG = 140 − (104 + 26) = 10 → normal",
+"porque": [
+"deixa de fora acidose respiratória aguda: HCO₃⁻ 26 × esperado agudo/crônico (26,5–32,8) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico",
+"deixa de fora acidose respiratória aguda: HCO₃⁻ 26 × esperado agudo/crônico (26,5–32,8) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)",
+"HCO₃⁻ esperado: aguda 24 + 0,1 × 25 = 26,5 · crônica 24 + 0,35 × 25 = 32,8; HCO₃⁻ 26 → aguda → AG = 140 − (104 + 26) = 10 → normal",
+"HCO₃⁻ 26 × esperado agudo 26,5 e crônico 32,8 → o correto é acidose respiratória aguda.",
+"deixa de fora acidose respiratória aguda: HCO₃⁻ 26 × esperado agudo/crônico (26,5–32,8) · inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado"
+],
+"pega": "Aguda: HCO₃⁻ sobe só 1 por 10 de PaCO₂."
+},
+{
+"id": "QG006",
+"tema": "Alcalose metabólica",
+"enun": "Úlcera péptica, vômitos alimentares há 1 semana.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,52</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>46</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>36</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>12,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>135</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>2,7</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>88</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Alcalose metabólica + Alcalose respiratória",
+"Alcalose metabólica",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado",
+"Alcalose metabólica + Acidose respiratória"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,52 → <b>alcalemia</b><br>HCO₃⁻ 36 ↑ → distúrbio primário <b>metabólico</b> (alcalose metabólica)<br>PaCO₂ esperada = 0,7 × 36 + 21 = 46,2 ± 2 (44,2–48,2); PaCO₂ 46 → compensação respiratória <b>adequada</b><br>AG = 135 − (88 + 36) = 11 → normal",
+"porque": [
+"inclui alcalose respiratória indevidamente: PaCO₂ 46 dentro da faixa esperada (44,2–48,2)",
+"PaCO₂ esperada = 0,7 × 36 + 21 = 46,2 ± 2 (44,2–48,2); PaCO₂ 46 → compensação respiratória adequada → AG = 135 − (88 + 36) = 11 → normal",
+"deixa de fora alcalose metabólica: HCO₃⁻ 36 acima do esperado · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico",
+"deixa de fora alcalose metabólica: HCO₃⁻ 36 acima do esperado · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 11,0 (normal: não há acidose com AG alto)",
+"inclui acidose respiratória indevidamente: PaCO₂ 46 dentro da faixa esperada (44,2–48,2)"
+],
+"pega": "Compensação da alcalose: 0,7 × HCO₃⁻ + 21."
+},
+{
+"id": "QG007",
+"tema": "Alcalose respiratória",
+"enun": "Jovem com crise de ansiedade, parestesias periorais; pulmões limpos.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,53</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>26</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>21</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-1,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>109</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Alcalose respiratória aguda",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado",
+"Alcalose respiratória crônica",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose respiratória"
+],
+"gab": 0,
+"com": "<b>Passo a passo:</b><br>pH 7,53 → <b>alcalemia</b><br>PaCO₂ 26 ↓ → distúrbio primário <b>respiratório</b> (alcalose respiratória)<br>HCO₃⁻ esperado: aguda 24 − 0,2 × 14 = 21,2 · crônica 24 − 0,4 × 14 = 18,4; HCO₃⁻ 21 → <b>aguda</b><br>AG = 140 − (109 + 21) = 10 → normal",
+"porque": [
+"HCO₃⁻ esperado: aguda 24 − 0,2 × 14 = 21,2 · crônica 24 − 0,4 × 14 = 18,4; HCO₃⁻ 21 → aguda → AG = 140 − (109 + 21) = 10 → normal",
+"deixa de fora alcalose respiratória aguda: HCO₃⁻ 21 × esperado agudo/crônico (18,4–21,2) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico",
+"deixa de fora alcalose respiratória aguda: HCO₃⁻ 21 × esperado agudo/crônico (18,4–21,2) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)",
+"HCO₃⁻ 21 × esperado agudo 21,2 e crônico 18,4 → o correto é alcalose respiratória aguda.",
+"deixa de fora alcalose respiratória aguda: HCO₃⁻ 21 × esperado agudo/crônico (18,4–21,2) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico"
+],
+"pega": "Aguda: HCO₃⁻ cai 2 por 10 de PaCO₂."
+},
+{
+"id": "QG008",
+"tema": "Alcalose respiratória",
+"enun": "Gestante, 32 semanas, assintomática, gasometria de rotina.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,45</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>20</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-3,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>137</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>108</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Alcalose respiratória crônica + Alcalose respiratória",
+"Alcalose respiratória aguda",
+"Acidose metabólica com ânion gap elevado",
+"Acidose respiratória + Alcalose respiratória crônica",
+"Alcalose respiratória crônica"
+],
+"gab": 4,
+"com": "<b>Passo a passo:</b><br>pH 7,45 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>PaCO₂ 30 ↓ com pH no lado alcalino → alcalose respiratória; checar compensação<br>HCO₃⁻ esperado: aguda 24 − 0,2 × 10 = 22,0 · crônica 24 − 0,4 × 10 = 20,0; HCO₃⁻ 20 → <b>crônica</b> (compensada pelo rim)<br>AG = 137 − (108 + 20) = 9 → normal",
+"porque": [
+"",
+"HCO₃⁻ 20 × esperado agudo 22,0 e crônico 20,0 → o correto é alcalose respiratória crônica.",
+"deixa de fora alcalose respiratória crônica: HCO₃⁻ 20 × esperado agudo/crônico (20,0–22,0) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 9,0 (normal: não há acidose com AG alto)",
+"inclui acidose respiratória indevidamente: PaCO₂ 30 dentro da faixa esperada (20,0–22,0)",
+"HCO₃⁻ esperado: aguda 24 − 0,2 × 10 = 22,0 · crônica 24 − 0,4 × 10 = 20,0; HCO₃⁻ 20 → crônica (compensada pelo rim) → AG = 137 − (108 + 20) = 9 → normal"
+],
+"pega": "Gestação: alcalose respiratória crônica fisiológica."
+},
+{
+"id": "QG009",
+"tema": "Distúrbios mistos",
+"enun": "DM1 com CAD que vomitou 'o dia inteiro' por 3 dias.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,36</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>37</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>20</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-4,6</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>133</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,6</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>83</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Glicose</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>500</b> <small>mg/dL</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose metabólica",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica + Acidose respiratória",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica + Alcalose respiratória"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,36 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>HCO₃⁻ 20 ↓ com pH no lado ácido (ou AG alto) → acidose metabólica; checar compensação<br>Winter: 1,5 × 20 + 8 = 38,0 ± 2 (36,0–40,0); PaCO₂ 37 → compensação respiratória <b>adequada</b><br>AG = 133 − (83 + 20) = 30 → <b>elevado</b><br>Δ/Δ = (30,0 − 12) / (24 − 20) = <b>4,5</b> → &gt; 2: alcalose metabólica associada",
+"porque": [
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 30,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 4,5 ≥ 0,8)",
+"Winter: 1,5 × 20 + 8 = 38,0 ± 2 (36,0–40,0); PaCO₂ 37 → compensação respiratória adequada → AG = 133 − (83 + 20) = 30 → elevado → Δ/Δ = (30,0 − 12) / (24 − 20) = 4,5 → &gt; 2: alcalose metabólica associada",
+"inclui acidose respiratória indevidamente: PaCO₂ 37 dentro da faixa esperada (36,0–40,0)",
+"deixa de fora alcalose metabólica: Δ/Δ 4,5 &gt; 2",
+"inclui alcalose respiratória indevidamente: PaCO₂ 37 dentro da faixa esperada (36,0–40,0)"
+],
+"pega": "Δ/Δ muito &gt; 2 com HCO₃⁻ quase normal = vômitos escondendo a CAD."
+},
+{
+"id": "QG010",
+"tema": "Distúrbios mistos",
+"enun": "Recém-recuperado de PCR, ventilação irregular com bolsa.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,10</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>50</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>15</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-12,9</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>100</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Lactato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>9,0</b> <small>mmol/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica + Acidose respiratória",
+"Acidose metabólica com ânion gap elevado + Acidose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Acidose respiratória",
+"Acidose metabólica com ânion gap elevado"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,10 → <b>acidemia</b><br>HCO₃⁻ 15 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>Winter: 1,5 × 15 + 8 = 30,5 ± 2 (28,5–32,5); PaCO₂ 50 → <b>acima</b>: acidose respiratória associada<br>AG = 140 − (100 + 15) = 25 → <b>elevado</b><br>Δ/Δ = (25,0 − 12) / (24 − 15) = <b>1,4</b> → 0,8–2: acidose com AG elevado <b>pura</b>",
+"porque": [
+"inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado (Δ/Δ 1,4 ≤ 2)",
+"Winter: 1,5 × 15 + 8 = 30,5 ± 2 (28,5–32,5); PaCO₂ 50 → acima: acidose respiratória associada → AG = 140 − (100 + 15) = 25 → elevado → Δ/Δ = (25,0 − 12) / (24 − 15) = 1,4 → 0,8–2: acidose com AG elevado pura",
+"deixa de fora acidose metabólica com ânion gap elevado, acidose respiratória: AG corrigido = 25,0 (&gt; 12: elevado); PaCO₂ 50 fora da faixa esperada (28,5–32,5) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 1,4 ≥ 0,8)",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 25,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 1,4 ≥ 0,8)",
+"deixa de fora acidose respiratória: PaCO₂ 50 fora da faixa esperada (28,5–32,5)"
+],
+"pega": "Acidose dupla: a forma mais rápida de corrigir o pH é ventilar."
+},
+{
+"id": "QG011",
+"tema": "Distúrbios mistos",
+"enun": "DM1 em CAD após 5 dias de diarreia.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,26</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>23</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>10</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-15,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>136</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>109</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Glicose</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>390</b> <small>mg/dL</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado + Acidose metabólica hiperclorêmica (ânion gap normal) + Acidose respiratória",
+"Acidose metabólica com ânion gap elevado + Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado + Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose respiratória",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica hiperclorêmica (ânion gap normal)"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,26 → <b>acidemia</b><br>HCO₃⁻ 10 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>Winter: 1,5 × 10 + 8 = 23,0 ± 2 (21,0–25,0); PaCO₂ 23 → compensação respiratória <b>adequada</b><br>AG = 136 − (109 + 10) = 17 → <b>elevado</b><br>Δ/Δ = (17,0 − 12) / (24 − 10) = <b>0,4</b> → &lt; 0,8: acidose hiperclorêmica associada",
+"porque": [
+"inclui acidose respiratória indevidamente: PaCO₂ 23 dentro da faixa esperada (21,0–25,0)",
+"Winter: 1,5 × 10 + 8 = 23,0 ± 2 (21,0–25,0); PaCO₂ 23 → compensação respiratória adequada → AG = 136 − (109 + 10) = 17 → elevado → Δ/Δ = (17,0 − 12) / (24 − 10) = 0,4 → &lt; 0,8: acidose hiperclorêmica associada",
+"inclui alcalose respiratória indevidamente: PaCO₂ 23 dentro da faixa esperada (21,0–25,0)",
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal): HCO₃⁻ baixo sem AG que o explique (Δ/Δ 0,4 &lt; 0,8)",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 17,0 (&gt; 12: elevado)"
+],
+"pega": "Δ/Δ &lt; 0,8 = acidose hiperclorêmica associada."
+},
+{
+"id": "QG012",
+"tema": "Distúrbios mistos",
+"enun": "Mulher ingeriu grande quantidade de AAS; zumbido, FR 32. pH 'normal'.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,40</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>20</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>12</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-11,5</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>104</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica com ânion gap elevado + Alcalose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica + Alcalose respiratória"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,40 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>HCO₃⁻ 12 ↓ com pH no lado ácido (ou AG alto) → acidose metabólica; checar compensação<br>Winter: 1,5 × 12 + 8 = 26,0 ± 2 (24,0–28,0); PaCO₂ 20 → <b>abaixo</b>: alcalose respiratória associada<br>AG = 140 − (104 + 12) = 24 → <b>elevado</b><br>Δ/Δ = (24,0 − 12) / (24 − 12) = <b>1,0</b> → 0,8–2: acidose com AG elevado <b>pura</b>",
+"porque": [
+"deixa de fora alcalose respiratória: PaCO₂ 20 fora da faixa esperada (24,0–28,0)",
+"Winter: 1,5 × 12 + 8 = 26,0 ± 2 (24,0–28,0); PaCO₂ 20 → abaixo: alcalose respiratória associada → AG = 140 − (104 + 12) = 24 → elevado → Δ/Δ = (24,0 − 12) / (24 − 12) = 1,0 → 0,8–2: acidose com AG elevado pura",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 24,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 1,0 ≥ 0,8)",
+"deixa de fora alcalose respiratória, acidose metabólica com ânion gap elevado: PaCO₂ 20 fora da faixa esperada (24,0–28,0); AG corrigido = 24,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 1,0 ≥ 0,8)",
+"inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado (Δ/Δ 1,0 ≤ 2)"
+],
+"pega": "pH normal com HCO₃⁻ e PaCO₂ muito baixos = dois distúrbios."
+},
+{
+"id": "QG013",
+"tema": "Alcalose metabólica",
+"enun": "DPOC em furosemida alta, sonolento.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,47</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>60</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>42</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>17,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>134</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>2,9</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>82</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Alcalose metabólica",
+"Alcalose metabólica + Acidose respiratória",
+"Acidose metabólica com ânion gap elevado",
+"Acidose respiratória"
+],
+"gab": 2,
+"com": "<b>Passo a passo:</b><br>pH 7,47 → <b>alcalemia</b><br>HCO₃⁻ 42 ↑ → distúrbio primário <b>metabólico</b> (alcalose metabólica)<br>PaCO₂ esperada = 0,7 × 42 + 21 = 50,4 ± 2 (48,4–52,4); PaCO₂ 60 → <b>acima</b>: acidose respiratória associada<br>AG = 134 − (82 + 42) = 10 → normal",
+"porque": [
+"deixa de fora alcalose metabólica, acidose respiratória: HCO₃⁻ 42 acima do esperado; PaCO₂ 60 fora da faixa esperada (48,4–52,4) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico",
+"deixa de fora acidose respiratória: PaCO₂ 60 fora da faixa esperada (48,4–52,4)",
+"PaCO₂ esperada = 0,7 × 42 + 21 = 50,4 ± 2 (48,4–52,4); PaCO₂ 60 → acima: acidose respiratória associada → AG = 134 − (82 + 42) = 10 → normal",
+"deixa de fora alcalose metabólica, acidose respiratória: HCO₃⁻ 42 acima do esperado; PaCO₂ 60 fora da faixa esperada (48,4–52,4) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)",
+"deixa de fora alcalose metabólica: HCO₃⁻ 42 acima do esperado"
+],
+"pega": "HCO₃⁻ 42 excede a compensação de qualquer hipercapnia crônica de 60 (~31)."
+},
+{
+"id": "QG014",
+"tema": "Alcalose respiratória",
+"enun": "Cirrótico Child C estável, sem infecção.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,48</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>25</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>18</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-4,9</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>131</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>104</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Alcalose respiratória crônica",
+"Acidose metabólica com ânion gap elevado",
+"Alcalose respiratória aguda",
+"Alcalose metabólica"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,48 → <b>alcalemia</b><br>PaCO₂ 25 ↓ → distúrbio primário <b>respiratório</b> (alcalose respiratória)<br>HCO₃⁻ esperado: aguda 24 − 0,2 × 15 = 21,0 · crônica 24 − 0,4 × 15 = 18,0; HCO₃⁻ 18 → <b>crônica</b> (compensada pelo rim)<br>AG = 131 − (104 + 18) = 9 → normal",
+"porque": [
+"deixa de fora alcalose respiratória crônica: HCO₃⁻ 18 × esperado agudo/crônico (18,0–21,0) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico",
+"HCO₃⁻ esperado: aguda 24 − 0,2 × 15 = 21,0 · crônica 24 − 0,4 × 15 = 18,0; HCO₃⁻ 18 → crônica (compensada pelo rim) → AG = 131 − (104 + 18) = 9 → normal",
+"deixa de fora alcalose respiratória crônica: HCO₃⁻ 18 × esperado agudo/crônico (18,0–21,0) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 9,0 (normal: não há acidose com AG alto)",
+"HCO₃⁻ 18 × esperado agudo 21,0 e crônico 18,0 → o correto é alcalose respiratória crônica.",
+"deixa de fora alcalose respiratória crônica: HCO₃⁻ 18 × esperado agudo/crônico (18,0–21,0) · inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado"
+],
+"pega": "Cirrose: alcalose respiratória crônica (marcador de gravidade)."
+},
+{
+"id": "QG015",
+"tema": "Acidose hiperclorêmica",
+"enun": "DM2 com nefropatia, K⁺ 6,3 recorrente, sem IECA.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,35</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>34</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>18</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-6,6</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>137</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>6,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>109</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado",
+"Alcalose metabólica",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Acidose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal)"
+],
+"gab": 4,
+"com": "<b>Passo a passo:</b><br>pH 7,35 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>HCO₃⁻ 18 ↓ com pH no lado ácido (ou AG alto) → acidose metabólica; checar compensação<br>Winter: 1,5 × 18 + 8 = 35,0 ± 2 (33,0–37,0); PaCO₂ 34 → compensação respiratória <b>adequada</b><br>AG = 137 − (109 + 18) = 10 → normal",
+"porque": [
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal): HCO₃⁻ baixo sem AG que o explique (AG 10,0 normal) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)",
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal): HCO₃⁻ baixo sem AG que o explique (AG 10,0 normal) · inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado",
+"inclui alcalose respiratória indevidamente: PaCO₂ 34 dentro da faixa esperada (33,0–37,0)",
+"inclui acidose respiratória indevidamente: PaCO₂ 34 dentro da faixa esperada (33,0–37,0)",
+"Winter: 1,5 × 18 + 8 = 35,0 ± 2 (33,0–37,0); PaCO₂ 34 → compensação respiratória adequada → AG = 137 − (109 + 18) = 10 → normal"
+],
+"pega": "ATR 4 é a única ATR com hipercalemia."
+},
+{
+"id": "QG016",
+"tema": "Acidose respiratória",
+"enun": "Obeso IMC 50, sonolência diurna, cefaleia matinal, sem DPOC.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,35</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>56</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>4,5</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>100</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose respiratória crônica",
+"Acidose metabólica com ânion gap elevado",
+"Acidose respiratória aguda",
+"Acidose respiratória crônica + Acidose respiratória",
+"Acidose respiratória crônica + Alcalose respiratória"
+],
+"gab": 0,
+"com": "<b>Passo a passo:</b><br>pH 7,35 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>PaCO₂ 56 ↑ com pH no lado ácido → acidose respiratória; checar compensação<br>HCO₃⁻ esperado: aguda 24 + 0,1 × 16 = 25,6 · crônica 24 + 0,35 × 16 = 29,6; HCO₃⁻ 30 → <b>crônica</b> (compensada pelo rim)<br>AG = 140 − (100 + 30) = 10 → normal",
+"porque": [
+"HCO₃⁻ esperado: aguda 24 + 0,1 × 16 = 25,6 · crônica 24 + 0,35 × 16 = 29,6; HCO₃⁻ 30 → crônica (compensada pelo rim) → AG = 140 − (100 + 30) = 10 → normal",
+"deixa de fora acidose respiratória crônica: HCO₃⁻ 30 × esperado agudo/crônico (25,6–29,6) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)",
+"HCO₃⁻ 30 × esperado agudo 25,6 e crônico 29,6 → o correto é acidose respiratória crônica.",
+"",
+"inclui alcalose respiratória indevidamente: PaCO₂ 56 dentro da faixa esperada (25,6–29,6)"
+],
+"pega": "Obesidade-hipoventilação: HCO₃⁻ ≥ 27 é boa pista."
+},
+{
+"id": "QG017",
+"tema": "Alcalose metabólica",
+"enun": "Gestante de 8 semanas com vômitos incoercíveis.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,59</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>32</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,8</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>134</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">K⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,0</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>93</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Alcalose metabólica + Alcalose respiratória",
+"Acidose metabólica com ânion gap elevado",
+"Alcalose respiratória",
+"Alcalose metabólica"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,59 → <b>alcalemia</b><br>HCO₃⁻ 30 ↑ → distúrbio primário <b>metabólico</b> (alcalose metabólica)<br>PaCO₂ esperada = 0,7 × 30 + 21 = 42,0 ± 2 (40,0–44,0); PaCO₂ 32 → <b>abaixo</b>: alcalose respiratória associada<br>AG = 134 − (93 + 30) = 11 → normal",
+"porque": [
+"deixa de fora alcalose metabólica, alcalose respiratória: HCO₃⁻ 30 acima do esperado; PaCO₂ 32 fora da faixa esperada (40,0–44,0) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico",
+"PaCO₂ esperada = 0,7 × 30 + 21 = 42,0 ± 2 (40,0–44,0); PaCO₂ 32 → abaixo: alcalose respiratória associada → AG = 134 − (93 + 30) = 11 → normal",
+"deixa de fora alcalose metabólica, alcalose respiratória: HCO₃⁻ 30 acima do esperado; PaCO₂ 32 fora da faixa esperada (40,0–44,0) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 11,0 (normal: não há acidose com AG alto)",
+"deixa de fora alcalose metabólica: HCO₃⁻ 30 acima do esperado",
+"deixa de fora alcalose respiratória: PaCO₂ 32 fora da faixa esperada (40,0–44,0)"
+],
+"pega": "Na gestação a PaCO₂ basal já é ~30."
+},
+{
+"id": "QG018",
+"tema": "Distúrbios mistos",
+"enun": "Cirrótico com vômitos e IRA; albumina 2,5.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,53</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>30</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>24</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>1,4</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>132</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>86</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Albumina</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>2,5</b> <small>g/dL</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose metabólica + Alcalose respiratória",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica + Alcalose respiratória",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica com ânion gap elevado + Alcalose respiratória"
+],
+"gab": 2,
+"com": "<b>Passo a passo:</b><br>pH 7,53 → <b>alcalemia</b><br>PaCO₂ 30 ↓ → distúrbio primário <b>respiratório</b> (alcalose respiratória)<br>HCO₃⁻ esperado: aguda 24 − 0,2 × 10 = 22,0 · crônica 24 − 0,4 × 10 = 20,0; HCO₃⁻ 24 → <b>aguda</b><br>AG = 132 − (86 + 24) = 22; corrigido pela albumina 2,5: 22 + 2,5 × (4 − 2,5) = <b>25,8</b> → <b>elevado</b><br>AG elevado com HCO₃⁻ ≥ 24: HCO₃⁻ corrigido = 24 + (25,8 − 12) = 37,8 → acidose com AG <b>mascarada</b> por alcalose metabólica",
+"porque": [
+"deixa de fora alcalose respiratória: PaCO₂ 30 baixa — distúrbio respiratório primário",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 25,8 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico",
+"HCO₃⁻ esperado: aguda 24 − 0,2 × 10 = 22,0 · crônica 24 − 0,4 × 10 = 20,0; HCO₃⁻ 24 → aguda → AG = 132 − (86 + 24) = 22; corrigido pela albumina 2,5: 22 + 2,5 × (4 − 2,5) = 25,8 → elevado → AG elevado com HCO₃⁻ ≥ 24: HCO₃⁻ corrigido = 24 + (25,8 − 12) = 37,8 → acidose com AG mascarada por alcalose metabólica",
+"deixa de fora alcalose metabólica, alcalose respiratória: HCO₃⁻ corrigido = 37,8 (&gt; 26); PaCO₂ 30 baixa — distúrbio respiratório primário",
+"deixa de fora alcalose metabólica: HCO₃⁻ corrigido = 37,8 (&gt; 26)"
+],
+"pega": "Distúrbio triplo: só com uma alteração respiratória."
+},
+{
+"id": "QG019",
+"tema": "Acidose respiratória",
+"enun": "Asma grave há 6 h, cansada; 'gasometria normal'.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,38</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>42</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>24</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-0,6</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>140</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>106</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose respiratória aguda",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose respiratória",
+"Alcalose respiratória aguda",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica",
+"Equilíbrio ácido-base normal"
+],
+"gab": 4,
+"com": "<b>Passo a passo:</b><br>pH 7,38 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>AG = 140 − (106 + 24) = 10 → normal",
+"porque": [
+"pH 7,38, PaCO₂ 42, HCO₃⁻ 24 e AG 10 estão normais — não há distúrbio ácido-base laboratorial (o alerta aqui é clínico).",
+"pH 7,38, PaCO₂ 42, HCO₃⁻ 24 e AG 10 estão normais — não há distúrbio ácido-base laboratorial (o alerta aqui é clínico).",
+"pH 7,38, PaCO₂ 42, HCO₃⁻ 24 e AG 10 estão normais — não há distúrbio ácido-base laboratorial (o alerta aqui é clínico).",
+"pH 7,38, PaCO₂ 42, HCO₃⁻ 24 e AG 10 estão normais — não há distúrbio ácido-base laboratorial (o alerta aqui é clínico).",
+"AG = 140 − (106 + 24) = 10 → normal"
+],
+"pega": "Na crise de asma, PaCO₂ normal é sinal de fadiga."
+},
+{
+"id": "QG020",
+"tema": "Acidose com AG elevado",
+"enun": "DM2 em metformina, diarreia e oligúria; lactato 14.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,26</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>23</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>10</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-15,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>136</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>98</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Lactato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>14,0</b> <small>mmol/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado + Acidose respiratória",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica com ânion gap elevado + Alcalose respiratória"
+],
+"gab": 3,
+"com": "<b>Passo a passo:</b><br>pH 7,26 → <b>acidemia</b><br>HCO₃⁻ 10 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>Winter: 1,5 × 10 + 8 = 23,0 ± 2 (21,0–25,0); PaCO₂ 23 → compensação respiratória <b>adequada</b><br>AG = 136 − (98 + 10) = 28 → <b>elevado</b><br>Δ/Δ = (28,0 − 12) / (24 − 10) = <b>1,1</b> → 0,8–2: acidose com AG elevado <b>pura</b>",
+"porque": [
+"inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado (Δ/Δ 1,1 ≤ 2)",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 28,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico (Δ/Δ 1,1 ≥ 0,8)",
+"inclui acidose respiratória indevidamente: PaCO₂ 23 dentro da faixa esperada (21,0–25,0)",
+"Winter: 1,5 × 10 + 8 = 23,0 ± 2 (21,0–25,0); PaCO₂ 23 → compensação respiratória adequada → AG = 136 − (98 + 10) = 28 → elevado → Δ/Δ = (28,0 − 12) / (24 − 10) = 1,1 → 0,8–2: acidose com AG elevado pura",
+"inclui alcalose respiratória indevidamente: PaCO₂ 23 dentro da faixa esperada (21,0–25,0)"
+],
+"pega": "MALA: hemodiálise remove metformina e corrige a acidose."
+},
+{
+"id": "QG021",
+"tema": "Acidose hiperclorêmica",
+"enun": "Trauma ressuscitado com 9 L de SF; lactato 3.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,31</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>29</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>14</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-10,9</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>145</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>115</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Lactato</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>3,0</b> <small>mmol/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado + Acidose metabólica hiperclorêmica (ânion gap normal) + Acidose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado + Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica com ânion gap elevado + Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose respiratória"
+],
+"gab": 2,
+"com": "<b>Passo a passo:</b><br>pH 7,31 → <b>acidemia</b><br>HCO₃⁻ 14 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>Winter: 1,5 × 14 + 8 = 29,0 ± 2 (27,0–31,0); PaCO₂ 29 → compensação respiratória <b>adequada</b><br>AG = 145 − (115 + 14) = 16 → <b>elevado</b><br>Δ/Δ = (16,0 − 12) / (24 − 14) = <b>0,4</b> → &lt; 0,8: acidose hiperclorêmica associada",
+"porque": [
+"inclui acidose respiratória indevidamente: PaCO₂ 29 dentro da faixa esperada (27,0–31,0)",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 16,0 (&gt; 12: elevado)",
+"Winter: 1,5 × 14 + 8 = 29,0 ± 2 (27,0–31,0); PaCO₂ 29 → compensação respiratória adequada → AG = 145 − (115 + 14) = 16 → elevado → Δ/Δ = (16,0 − 12) / (24 − 14) = 0,4 → &lt; 0,8: acidose hiperclorêmica associada",
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal): HCO₃⁻ baixo sem AG que o explique (Δ/Δ 0,4 &lt; 0,8)",
+"inclui alcalose respiratória indevidamente: PaCO₂ 29 dentro da faixa esperada (27,0–31,0)"
+],
+"pega": "Grande parte da acidose pós-SF é cloreto, não hipoperfusão."
+},
+{
+"id": "QG022",
+"tema": "Acidose respiratória",
+"enun": "Asma quase fatal, silêncio auscultatório.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,27</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>58</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>26</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-0,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>103</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose respiratória crônica",
+"Acidose metabólica com ânion gap elevado",
+"Acidose respiratória aguda",
+"Alcalose metabólica",
+"Acidose metabólica hiperclorêmica (ânion gap normal)"
+],
+"gab": 2,
+"com": "<b>Passo a passo:</b><br>pH 7,27 → <b>acidemia</b><br>PaCO₂ 58 ↑ → distúrbio primário <b>respiratório</b> (acidose respiratória)<br>HCO₃⁻ esperado: aguda 24 + 0,1 × 18 = 25,8 · crônica 24 + 0,35 × 18 = 30,3; HCO₃⁻ 26 → <b>aguda</b><br>AG = 139 − (103 + 26) = 10 → normal",
+"porque": [
+"HCO₃⁻ 26 × esperado agudo 25,8 e crônico 30,3 → o correto é acidose respiratória aguda.",
+"deixa de fora acidose respiratória aguda: HCO₃⁻ 26 × esperado agudo/crônico (25,8–30,3) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)",
+"HCO₃⁻ esperado: aguda 24 + 0,1 × 18 = 25,8 · crônica 24 + 0,35 × 18 = 30,3; HCO₃⁻ 26 → aguda → AG = 139 − (103 + 26) = 10 → normal",
+"deixa de fora acidose respiratória aguda: HCO₃⁻ 26 × esperado agudo/crônico (25,8–30,3) · inclui alcalose metabólica indevidamente: HCO₃⁻ não está acima do esperado",
+"deixa de fora acidose respiratória aguda: HCO₃⁻ 26 × esperado agudo/crônico (25,8–30,3) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico"
+],
+"pega": "IOT: FR baixa e Te longo; aceitar hipercapnia."
+},
+{
+"id": "QG023",
+"tema": "Alcalose metabólica",
+"enun": "DPOC (PaCO₂ basal 60) intubado e ventilado para PaCO₂ 38.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,57</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>38</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>34</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>11,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>94</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Alcalose metabólica",
+"Alcalose metabólica + Alcalose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal)",
+"Alcalose respiratória",
+"Acidose metabólica com ânion gap elevado"
+],
+"gab": 1,
+"com": "<b>Passo a passo:</b><br>pH 7,57 → <b>alcalemia</b><br>HCO₃⁻ 34 ↑ → distúrbio primário <b>metabólico</b> (alcalose metabólica)<br>PaCO₂ esperada = 0,7 × 34 + 21 = 44,8 ± 2 (42,8–46,8); PaCO₂ 38 → <b>abaixo</b>: alcalose respiratória associada<br>AG = 139 − (94 + 34) = 11 → normal",
+"porque": [
+"deixa de fora alcalose respiratória: PaCO₂ 38 fora da faixa esperada (42,8–46,8)",
+"PaCO₂ esperada = 0,7 × 34 + 21 = 44,8 ± 2 (42,8–46,8); PaCO₂ 38 → abaixo: alcalose respiratória associada → AG = 139 − (94 + 34) = 11 → normal",
+"deixa de fora alcalose metabólica, alcalose respiratória: HCO₃⁻ 34 acima do esperado; PaCO₂ 38 fora da faixa esperada (42,8–46,8) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico",
+"deixa de fora alcalose metabólica: HCO₃⁻ 34 acima do esperado",
+"deixa de fora alcalose metabólica, alcalose respiratória: HCO₃⁻ 34 acima do esperado; PaCO₂ 38 fora da faixa esperada (42,8–46,8) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 11,0 (normal: não há acidose com AG alto)"
+],
+"pega": "Alvo da VM no DPOC crônico: pH, não PaCO₂ 40."
+},
+{
+"id": "QG024",
+"tema": "Distúrbios mistos",
+"enun": "Miastenia em crise + diarreia por piridostigmina.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,22</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>40</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>16</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>-10,3</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>139</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>113</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Acidose respiratória",
+"Acidose respiratória",
+"Acidose metabólica com ânion gap elevado + Acidose respiratória",
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica hiperclorêmica (ânion gap normal)"
+],
+"gab": 0,
+"com": "<b>Passo a passo:</b><br>pH 7,22 → <b>acidemia</b><br>HCO₃⁻ 16 ↓ → distúrbio primário <b>metabólico</b> (acidose metabólica)<br>Winter: 1,5 × 16 + 8 = 32,0 ± 2 (30,0–34,0); PaCO₂ 40 → <b>acima</b>: acidose respiratória associada<br>AG = 139 − (113 + 16) = 10 → normal",
+"porque": [
+"Winter: 1,5 × 16 + 8 = 32,0 ± 2 (30,0–34,0); PaCO₂ 40 → acima: acidose respiratória associada → AG = 139 − (113 + 16) = 10 → normal",
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal): HCO₃⁻ baixo sem AG que o explique (AG 10,0 normal)",
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal): HCO₃⁻ baixo sem AG que o explique (AG 10,0 normal) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)",
+"deixa de fora acidose metabólica hiperclorêmica (ânion gap normal), acidose respiratória: HCO₃⁻ baixo sem AG que o explique (AG 10,0 normal); PaCO₂ 40 fora da faixa esperada (30,0–34,0) · inclui acidose metabólica com ânion gap elevado indevidamente: AG corrigido = 10,0 (normal: não há acidose com AG alto)",
+"deixa de fora acidose respiratória: PaCO₂ 40 fora da faixa esperada (30,0–34,0)"
+],
+"pega": "PaCO₂ 'normal' na acidose metabólica = falência respiratória."
+},
+{
+"id": "QG025",
+"tema": "Distúrbios mistos",
+"enun": "DRC 4 com vômitos; gasometria quase normal.<table class=\"gaso\" style=\"border-collapse:collapse;margin:8px 0 4px;font-size:15px;line-height:1.35\"><tr><th colspan=\"4\" style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35);text-align:left;background:rgba(77,212,255,.13)\">🩸 Gasometria arterial</th></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">pH</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>7,42</b> <small></small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">PaCO₂</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>40</b> <small>mmHg</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">HCO₃⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>25</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">BE</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>0,8</b> <small>mEq/L</small></td></tr><tr><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Na⁺</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>138</b> <small>mEq/L</small></td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\">Cl⁻</td><td style=\"padding:3px 7px;border:1px solid rgba(128,128,128,.35)\"><b>87</b> <small>mEq/L</small></td></tr></table>Qual a interpretação ácido-base correta?",
+"alts": [
+"Acidose metabólica com ânion gap elevado",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica + Alcalose respiratória",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica",
+"Acidose metabólica com ânion gap elevado + Alcalose metabólica + Acidose respiratória",
+"Acidose metabólica hiperclorêmica (ânion gap normal) + Alcalose metabólica"
+],
+"gab": 2,
+"com": "<b>Passo a passo:</b><br>pH 7,42 → <b>dentro da faixa normal</b> (7,35–7,45): ou não há distúrbio ou há distúrbios que se anulam<br>PaCO₂ e HCO₃⁻ normais → sem distúrbio respiratório; olhar o AG (acidose oculta?)<br>AG = 138 − (87 + 25) = 26 → <b>elevado</b><br>AG elevado com HCO₃⁻ ≥ 24: HCO₃⁻ corrigido = 25 + (26,0 − 12) = 39,0 → acidose com AG <b>mascarada</b> por alcalose metabólica",
+"porque": [
+"deixa de fora alcalose metabólica: HCO₃⁻ corrigido = 39,0 (&gt; 26)",
+"inclui alcalose respiratória indevidamente: PaCO₂ 40 compatível",
+"AG = 138 − (87 + 25) = 26 → elevado → AG elevado com HCO₃⁻ ≥ 24: HCO₃⁻ corrigido = 25 + (26,0 − 12) = 39,0 → acidose com AG mascarada por alcalose metabólica",
+"inclui acidose respiratória indevidamente: PaCO₂ 40 compatível",
+"deixa de fora acidose metabólica com ânion gap elevado: AG corrigido = 26,0 (&gt; 12: elevado) · inclui acidose metabólica hiperclorêmica (ânion gap normal) indevidamente: não há componente hiperclorêmico"
+],
+"pega": "AG alto com HCO₃⁻ normal = acidose escondida por alcalose."
+},
+{
+"id": "QG026",
+"tema": "Método e fórmulas",
+"enun": "Cetoacidose diabética grave. HCO₃⁻ = 8 mEq/L. Qual a PaCO₂ esperada pela compensação respiratória?",
+"alts": [
+"10,0 a 14,0 mmHg",
+"24,6 a 28,6 mmHg",
+"38 a 42 mmHg",
+"31,0 a 35,0 mmHg",
+"18,0 a 22,0 mmHg"
+],
+"gab": 4,
+"com": "Winter: 1,5 × 8 + 8 = 20,0 ± 2 → 18,0 a 22,0 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"porque": [
+"esqueceu o +8 da fórmula de Winter.",
+"usou a fórmula da ALCALOSE metabólica (0,7 × HCO₃⁻ + 21).",
+"considerou que a compensação 'normaliza' a PaCO₂ — ela deve CAIR na acidose metabólica.",
+"usou HCO₃⁻ + 15 (atalho da alcalose metabólica) com erro de soma.",
+"Winter: 1,5 × 8 + 8 = 20,0 ± 2 → 18,0 a 22,0 mmHg. Fora dessa faixa há distúrbio respiratório associado."
+],
+"pega": "Atalho: PaCO₂ ≈ dois últimos dígitos do pH (pH 7,2x → PaCO₂ ≈ 2x)."
+},
+{
+"id": "QG027",
+"tema": "Método e fórmulas",
+"enun": "Acidose láctica por choque séptico. HCO₃⁻ = 12 mEq/L. Qual a PaCO₂ esperada pela compensação respiratória?",
+"alts": [
+"16,0 a 20,0 mmHg",
+"38 a 42 mmHg",
+"24,0 a 28,0 mmHg",
+"35,0 a 39,0 mmHg",
+"27,4 a 31,4 mmHg"
+],
+"gab": 2,
+"com": "Winter: 1,5 × 12 + 8 = 26,0 ± 2 → 24,0 a 28,0 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"porque": [
+"esqueceu o +8 da fórmula de Winter.",
+"considerou que a compensação 'normaliza' a PaCO₂ — ela deve CAIR na acidose metabólica.",
+"Winter: 1,5 × 12 + 8 = 26,0 ± 2 → 24,0 a 28,0 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"usou HCO₃⁻ + 15 (atalho da alcalose metabólica) com erro de soma.",
+"usou a fórmula da ALCALOSE metabólica (0,7 × HCO₃⁻ + 21)."
+],
+"pega": "Atalho: PaCO₂ ≈ dois últimos dígitos do pH (pH 7,2x → PaCO₂ ≈ 2x)."
+},
+{
+"id": "QG028",
+"tema": "Método e fórmulas",
+"enun": "Diarreia aguda com acidose. HCO₃⁻ = 15 mEq/L. Qual a PaCO₂ esperada pela compensação respiratória?",
+"alts": [
+"29,5 a 33,5 mmHg",
+"28,5 a 32,5 mmHg",
+"38,0 a 42,0 mmHg",
+"20,5 a 24,5 mmHg",
+"38 a 42 mmHg"
+],
+"gab": 1,
+"com": "Winter: 1,5 × 15 + 8 = 30,5 ± 2 → 28,5 a 32,5 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"porque": [
+"usou a fórmula da ALCALOSE metabólica (0,7 × HCO₃⁻ + 21).",
+"Winter: 1,5 × 15 + 8 = 30,5 ± 2 → 28,5 a 32,5 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"usou HCO₃⁻ + 15 (atalho da alcalose metabólica) com erro de soma.",
+"esqueceu o +8 da fórmula de Winter.",
+"considerou que a compensação 'normaliza' a PaCO₂ — ela deve CAIR na acidose metabólica."
+],
+"pega": "Atalho: PaCO₂ ≈ dois últimos dígitos do pH (pH 7,2x → PaCO₂ ≈ 2x)."
+},
+{
+"id": "QG029",
+"tema": "Método e fórmulas",
+"enun": "Acidose da DRC. HCO₃⁻ = 18 mEq/L. Qual a PaCO₂ esperada pela compensação respiratória?",
+"alts": [
+"31,6 a 35,6 mmHg",
+"38 a 42 mmHg",
+"41,0 a 45,0 mmHg",
+"33,0 a 37,0 mmHg",
+"25,0 a 29,0 mmHg"
+],
+"gab": 3,
+"com": "Winter: 1,5 × 18 + 8 = 35,0 ± 2 → 33,0 a 37,0 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"porque": [
+"usou a fórmula da ALCALOSE metabólica (0,7 × HCO₃⁻ + 21).",
+"considerou que a compensação 'normaliza' a PaCO₂ — ela deve CAIR na acidose metabólica.",
+"usou HCO₃⁻ + 15 (atalho da alcalose metabólica) com erro de soma.",
+"Winter: 1,5 × 18 + 8 = 35,0 ± 2 → 33,0 a 37,0 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"esqueceu o +8 da fórmula de Winter."
+],
+"pega": "Atalho: PaCO₂ ≈ dois últimos dígitos do pH (pH 7,2x → PaCO₂ ≈ 2x)."
+},
+{
+"id": "QG030",
+"tema": "Método e fórmulas",
+"enun": "Intoxicação por metanol. HCO₃⁻ = 6 mEq/L. Qual a PaCO₂ esperada pela compensação respiratória?",
+"alts": [
+"29,0 a 33,0 mmHg",
+"23,2 a 27,2 mmHg",
+"15,0 a 19,0 mmHg",
+"7,0 a 11,0 mmHg",
+"38 a 42 mmHg"
+],
+"gab": 2,
+"com": "Winter: 1,5 × 6 + 8 = 17,0 ± 2 → 15,0 a 19,0 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"porque": [
+"usou HCO₃⁻ + 15 (atalho da alcalose metabólica) com erro de soma.",
+"usou a fórmula da ALCALOSE metabólica (0,7 × HCO₃⁻ + 21).",
+"Winter: 1,5 × 6 + 8 = 17,0 ± 2 → 15,0 a 19,0 mmHg. Fora dessa faixa há distúrbio respiratório associado.",
+"esqueceu o +8 da fórmula de Winter.",
+"considerou que a compensação 'normaliza' a PaCO₂ — ela deve CAIR na acidose metabólica."
+],
+"pega": "Atalho: PaCO₂ ≈ dois últimos dígitos do pH (pH 7,2x → PaCO₂ ≈ 2x)."
+},
+{
+"id": "QG031",
+"tema": "Método e fórmulas",
+"enun": "Paciente séptico em UTI. Na⁺ 138, Cl⁻ 108, HCO₃⁻ 18, albumina 2,0 g/dL. Qual o ânion gap corrigido pela albumina?",
+"alts": [
+"17,0",
+"14,0",
+"21,0",
+"12,0",
+"7,0"
+],
+"gab": 0,
+"com": "AG = 138 − (108 + 18) = 12; corrigido = 12 + 2,5 × (4 − 2,0) = <b>17,0</b>.",
+"porque": [
+"AG = 138 − (108 + 18) = 12; corrigido = 12 + 2,5 × (4 − 2,0) = 17,0.",
+"usou fator 1 em vez de 2,5 por g/dL de albumina.",
+"somou o K⁺ à fórmula e manteve a referência de 12.",
+"é o AG sem correção — a hipoalbuminemia esconde ânions não medidos.",
+"subtraiu a correção (o AG corrigido é MAIOR quando a albumina é baixa)."
+],
+"pega": "Na UTI, AG 'normal' com albumina baixa é armadilha clássica."
+},
+{
+"id": "QG032",
+"tema": "Gaps e cálculos",
+"enun": "Cirrótico com IRA. Na⁺ 132, Cl⁻ 101, HCO₃⁻ 20, albumina 1,8 g/dL. Qual o ânion gap corrigido pela albumina?",
+"alts": [
+"13,2",
+"20,5",
+"16,5",
+"11,0",
+"5,5"
+],
+"gab": 2,
+"com": "AG = 132 − (101 + 20) = 11; corrigido = 11 + 2,5 × (4 − 1,8) = <b>16,5</b>.",
+"porque": [
+"usou fator 1 em vez de 2,5 por g/dL de albumina.",
+"somou o K⁺ à fórmula e manteve a referência de 12.",
+"AG = 132 − (101 + 20) = 11; corrigido = 11 + 2,5 × (4 − 1,8) = 16,5.",
+"é o AG sem correção — a hipoalbuminemia esconde ânions não medidos.",
+"subtraiu a correção (o AG corrigido é MAIOR quando a albumina é baixa)."
+],
+"pega": "Na UTI, AG 'normal' com albumina baixa é armadilha clássica."
+},
+{
+"id": "QG033",
+"tema": "Acidose com AG elevado",
+"enun": "Nefrótico com sepse. Na⁺ 135, Cl⁻ 104, HCO₃⁻ 19, albumina 1,6 g/dL. Qual o ânion gap corrigido pela albumina?",
+"alts": [
+"14,4",
+"18,0",
+"22,0",
+"12,0",
+"6,0"
+],
+"gab": 1,
+"com": "AG = 135 − (104 + 19) = 12; corrigido = 12 + 2,5 × (4 − 1,6) = <b>18,0</b>.",
+"porque": [
+"usou fator 1 em vez de 2,5 por g/dL de albumina.",
+"AG = 135 − (104 + 19) = 12; corrigido = 12 + 2,5 × (4 − 1,6) = 18,0.",
+"somou o K⁺ à fórmula e manteve a referência de 12.",
+"é o AG sem correção — a hipoalbuminemia esconde ânions não medidos.",
+"subtraiu a correção (o AG corrigido é MAIOR quando a albumina é baixa)."
+],
+"pega": "Na UTI, AG 'normal' com albumina baixa é armadilha clássica."
+},
+{
+"id": "QG034",
+"tema": "Casos de UTI",
+"enun": "Pós-operatório prolongado, desnutrido. Na⁺ 140, Cl⁻ 110, HCO₃⁻ 17, albumina 2,4 g/dL. Qual o ânion gap corrigido pela albumina?",
+"alts": [
+"9,0",
+"21,0",
+"13,0",
+"17,0",
+"14,6"
+],
+"gab": 3,
+"com": "AG = 140 − (110 + 17) = 13; corrigido = 13 + 2,5 × (4 − 2,4) = <b>17,0</b>.",
+"porque": [
+"subtraiu a correção (o AG corrigido é MAIOR quando a albumina é baixa).",
+"somou o K⁺ à fórmula e manteve a referência de 12.",
+"é o AG sem correção — a hipoalbuminemia esconde ânions não medidos.",
+"AG = 140 − (110 + 17) = 13; corrigido = 13 + 2,5 × (4 − 2,4) = 17,0.",
+"usou fator 1 em vez de 2,5 por g/dL de albumina."
+],
+"pega": "Na UTI, AG 'normal' com albumina baixa é armadilha clássica."
+},
+{
+"id": "QG035",
+"tema": "Gaps e cálculos",
+"enun": "Ingestão de 'cachaça adulterada'. Na⁺ 140, glicose 110, ureia 36 mg/dL, osmolalidade medida 335 mOsm/kg. Qual o gap osmolar?",
+"alts": [
+"292,1",
+"36,0",
+"42,9",
+"49,0",
+"182,9"
+],
+"gab": 2,
+"com": "Osm calc = 2 × 140 + 110/18 + 36/6 = 292,1; gap = 335 − 292,1 = <b>42,9</b> → elevado (&gt; 10): álcool tóxico?",
+"porque": [
+"este é a osmolalidade CALCULADA, não o gap.",
+"dividiu a UREIA por 2,8 (esse divisor é para o BUN).",
+"Osm calc = 2 × 140 + 110/18 + 36/6 = 292,1; gap = 335 − 292,1 = 42,9 → elevado (&gt; 10): álcool tóxico?",
+"esqueceu a glicose no cálculo.",
+"usou Na⁺ em vez de 2 × Na⁺."
+],
+"pega": "Gap osmolar alto + AG alto = metanol/etilenoglicol até prova em contrário."
+},
+{
+"id": "QG036",
+"tema": "Gaps e cálculos",
+"enun": "Tentativa de suicídio com anticongelante. Na⁺ 138, glicose 120, ureia 54 mg/dL, osmolalidade medida 318 mOsm/kg. Qual o gap osmolar?",
+"alts": [
+"26,3",
+"16,0",
+"164,3",
+"33,0",
+"291,7"
+],
+"gab": 0,
+"com": "Osm calc = 2 × 138 + 120/18 + 54/6 = 291,7; gap = 318 − 291,7 = <b>26,3</b> → elevado (&gt; 10): álcool tóxico?",
+"porque": [
+"Osm calc = 2 × 138 + 120/18 + 54/6 = 291,7; gap = 318 − 291,7 = 26,3 → elevado (&gt; 10): álcool tóxico?",
+"dividiu a UREIA por 2,8 (esse divisor é para o BUN).",
+"usou Na⁺ em vez de 2 × Na⁺.",
+"esqueceu a glicose no cálculo.",
+"este é a osmolalidade CALCULADA, não o gap."
+],
+"pega": "Gap osmolar alto + AG alto = metanol/etilenoglicol até prova em contrário."
+},
+{
+"id": "QG037",
+"tema": "Gaps e cálculos",
+"enun": "Etilista confuso, sem acidose. Na⁺ 141, glicose 95, ureia 30 mg/dL, osmolalidade medida 312 mOsm/kg. Qual o gap osmolar?",
+"alts": [
+"14,0",
+"19,7",
+"160,7",
+"25,0",
+"292,3"
+],
+"gab": 1,
+"com": "Osm calc = 2 × 141 + 95/18 + 30/6 = 292,3; gap = 312 − 292,3 = <b>19,7</b> → elevado (&gt; 10): álcool tóxico?",
+"porque": [
+"dividiu a UREIA por 2,8 (esse divisor é para o BUN).",
+"Osm calc = 2 × 141 + 95/18 + 30/6 = 292,3; gap = 312 − 292,3 = 19,7 → elevado (&gt; 10): álcool tóxico?",
+"usou Na⁺ em vez de 2 × Na⁺.",
+"esqueceu a glicose no cálculo.",
+"este é a osmolalidade CALCULADA, não o gap."
+],
+"pega": "Gap osmolar alto + AG alto = metanol/etilenoglicol até prova em contrário."
+},
+{
+"id": "QG038",
+"tema": "Oxigenação",
+"enun": "Overdose de opioide. Ar ambiente, Patm 760 mmHg, idade 30 anos: PaCO₂ 70, PaO₂ 55. Qual o gradiente alvéolo-arterial?",
+"alts": [
+"7,2",
+"62,2",
+"17,1",
+"95,0",
+"38,7"
+],
+"gab": 0,
+"com": "PAO₂ = 0,21 × (760 − 47) − 70/0,8 = 62,2; A-a = 62,2 − 55 = <b>7,2</b> (esperado ≈ 11,5) → normal: hipoventilação/PiO₂ baixa.",
+"porque": [
+"PAO₂ = 0,21 × (760 − 47) − 70/0,8 = 62,2; A-a = 62,2 − 55 = 7,2 (esperado ≈ 11,5) → normal: hipoventilação/PiO₂ baixa.",
+"esse é a PAO₂ (alveolar), não o gradiente.",
+"não descontou a pressão de vapor d'água (47 mmHg).",
+"usou PAO₂ fixa de 150 (esqueceu de descontar PaCO₂/0,8).",
+"multiplicou a PaCO₂ por 0,8 em vez de dividir."
+],
+"pega": "A-a normal com hipoxemia: hipoventilação ou altitude; A-a alto: doença pulmonar/shunt."
+},
+{
+"id": "QG039",
+"tema": "Oxigenação",
+"enun": "Pneumonia lobar. Ar ambiente, Patm 760 mmHg, idade 60 anos: PaCO₂ 32, PaO₂ 58. Qual o gradiente alvéolo-arterial?",
+"alts": [
+"92,0",
+"51,7",
+"66,1",
+"61,6",
+"109,7"
+],
+"gab": 1,
+"com": "PAO₂ = 0,21 × (760 − 47) − 32/0,8 = 109,7; A-a = 109,7 − 58 = <b>51,7</b> (esperado ≈ 19,0) → elevado: V/Q, shunt ou difusão.",
+"porque": [
+"usou PAO₂ fixa de 150 (esqueceu de descontar PaCO₂/0,8).",
+"PAO₂ = 0,21 × (760 − 47) − 32/0,8 = 109,7; A-a = 109,7 − 58 = 51,7 (esperado ≈ 19,0) → elevado: V/Q, shunt ou difusão.",
+"multiplicou a PaCO₂ por 0,8 em vez de dividir.",
+"não descontou a pressão de vapor d'água (47 mmHg).",
+"esse é a PAO₂ (alveolar), não o gradiente."
+],
+"pega": "A-a normal com hipoxemia: hipoventilação ou altitude; A-a alto: doença pulmonar/shunt."
+},
+{
+"id": "QG040",
+"tema": "Oxigenação",
+"enun": "Suspeita de TEP. Ar ambiente, Patm 760 mmHg, idade 45 anos: PaCO₂ 30, PaO₂ 65. Qual o gradiente alvéolo-arterial?",
+"alts": [
+"112,2",
+"85,0",
+"47,2",
+"57,1",
+"60,7"
+],
+"gab": 2,
+"com": "PAO₂ = 0,21 × (760 − 47) − 30/0,8 = 112,2; A-a = 112,2 − 65 = <b>47,2</b> (esperado ≈ 15,2) → elevado: V/Q, shunt ou difusão.",
+"porque": [
+"esse é a PAO₂ (alveolar), não o gradiente.",
+"usou PAO₂ fixa de 150 (esqueceu de descontar PaCO₂/0,8).",
+"PAO₂ = 0,21 × (760 − 47) − 30/0,8 = 112,2; A-a = 112,2 − 65 = 47,2 (esperado ≈ 15,2) → elevado: V/Q, shunt ou difusão.",
+"não descontou a pressão de vapor d'água (47 mmHg).",
+"multiplicou a PaCO₂ por 0,8 em vez de dividir."
+],
+"pega": "A-a normal com hipoxemia: hipoventilação ou altitude; A-a alto: doença pulmonar/shunt."
+},
+{
+"id": "QG041",
+"tema": "Oxigenação",
+"enun": "Turista em altitude (Patm 520). Ar ambiente, Patm 520 mmHg, idade 30 anos: PaCO₂ 30, PaO₂ 56. Qual o gradiente alvéolo-arterial?",
+"alts": [
+"94,0",
+"15,7",
+"61,8",
+"19,3",
+"5,8"
+],
+"gab": 4,
+"com": "PAO₂ = 0,21 × (520 − 47) − 30/0,8 = 61,8; A-a = 61,8 − 56 = <b>5,8</b> (esperado ≈ 11,5) → normal: hipoventilação/PiO₂ baixa.",
+"porque": [
+"usou PAO₂ fixa de 150 (esqueceu de descontar PaCO₂/0,8).",
+"não descontou a pressão de vapor d'água (47 mmHg).",
+"esse é a PAO₂ (alveolar), não o gradiente.",
+"multiplicou a PaCO₂ por 0,8 em vez de dividir.",
+"PAO₂ = 0,21 × (520 − 47) − 30/0,8 = 61,8; A-a = 61,8 − 56 = 5,8 (esperado ≈ 11,5) → normal: hipoventilação/PiO₂ baixa."
+],
+"pega": "A-a normal com hipoxemia: hipoventilação ou altitude; A-a alto: doença pulmonar/shunt."
+},
+{
+"id": "QG042",
+"tema": "Oxigenação",
+"enun": "Pneumonia grave. VM com PEEP 10, FiO₂ 60%, PaO₂ 84, infiltrado bilateral sem IC. Qual a relação P/F e a classificação de Berlim?",
+"alts": [
+"P/F 140 — SDRA moderada (101–200)",
+"P/F 140 — SDRA grave (≤ 100)",
+"P/F 400 — não preenche (&gt; 300)",
+"P/F 1,4 — SDRA grave (≤ 100)",
+"P/F 140 — SDRA leve (201–300)"
+],
+"gab": 0,
+"com": "P/F = 84/0,60 = <b>140</b> → SDRA moderada (101–200) (com PEEP ≥ 5).",
+"porque": [
+"P/F = 84/0,60 = 140 → SDRA moderada (101–200) (com PEEP ≥ 5).",
+"o número está certo, mas a faixa de Berlim não.",
+"dividiu pela FiO₂ do ar ambiente, ignorando a FiO₂ real.",
+"usou a FiO₂ em porcentagem (×100) no denominador.",
+"o número está certo, mas a faixa de Berlim não."
+],
+"pega": "Sem PEEP/CPAP ≥ 5, não se classifica por Berlim."
+},
+{
+"id": "QG043",
+"tema": "Oxigenação",
+"enun": "Pancreatite grave. VM com PEEP 14, FiO₂ 90%, PaO₂ 76, infiltrado bilateral sem IC. Qual a relação P/F e a classificação de Berlim?",
+"alts": [
+"P/F 84 — SDRA moderada (101–200)",
+"P/F 84 — SDRA grave (≤ 100)",
+"P/F 0,8 — SDRA grave (≤ 100)",
+"P/F 84 — SDRA leve (201–300)",
+"P/F 362 — não preenche (&gt; 300)"
+],
+"gab": 1,
+"com": "P/F = 76/0,90 = <b>84</b> → SDRA grave (≤ 100) (com PEEP ≥ 5).",
+"porque": [
+"o número está certo, mas a faixa de Berlim não.",
+"P/F = 76/0,90 = 84 → SDRA grave (≤ 100) (com PEEP ≥ 5).",
+"usou a FiO₂ em porcentagem (×100) no denominador.",
+"o número está certo, mas a faixa de Berlim não.",
+"dividiu pela FiO₂ do ar ambiente, ignorando a FiO₂ real."
+],
+"pega": "Sem PEEP/CPAP ≥ 5, não se classifica por Berlim."
+},
+{
+"id": "QG044",
+"tema": "Acidose respiratória",
+"enun": "DPOC estável. PaCO₂ 60 mmHg, distúrbio crônico isolado. Qual o HCO₃⁻ esperado?",
+"alts": [
+"26,0",
+"17,0",
+"24",
+"31,0",
+"44,0"
+],
+"gab": 3,
+"com": "Crônica: 24 + 0,35 × (60 − 40) = <b>31,0</b>.",
+"porque": [
+"usou a regra da forma aguda.",
+"subtraiu em vez de somar (regra da alcalose respiratória).",
+"não considerou compensação.",
+"Crônica: 24 + 0,35 × (60 − 40) = 31,0.",
+"somou 1 por 1 mmHg (exagero; a regra é por 10)."
+],
+"pega": "Valor entre o agudo e o crônico = crônica agudizada."
+},
+{
+"id": "QG045",
+"tema": "Acidose respiratória",
+"enun": "Overdose de benzodiazepínico. PaCO₂ 70 mmHg, distúrbio agudo isolado. Qual o HCO₃⁻ esperado?",
+"alts": [
+"21,0",
+"54,0",
+"24",
+"34,5",
+"27,0"
+],
+"gab": 4,
+"com": "Aguda: 24 + 0,1 × (70 − 40) = <b>27,0</b>.",
+"porque": [
+"subtraiu em vez de somar (regra da alcalose respiratória).",
+"somou 1 por 1 mmHg (exagero; a regra é por 10).",
+"não considerou compensação.",
+"usou a regra da forma crônica.",
+"Aguda: 24 + 0,1 × (70 − 40) = 27,0."
+],
+"pega": "Valor entre o agudo e o crônico = crônica agudizada."
+},
+{
+"id": "QG046",
+"tema": "Método e fórmulas",
+"enun": "Sem calculadora: PaCO₂ 50 mmHg e HCO₃⁻ 20 mEq/L. Qual o pH aproximado?",
+"alts": [
+"7,12",
+"7,22",
+"7,28",
+"7,32",
+"7,40"
+],
+"gab": 1,
+"com": "[H⁺] = 24 × PaCO₂/HCO₃⁻ = 24 × 50/20 = 60 nEq/L → pH ≈ 7,80 − 0,60 = <b>7,22</b> (HH: 6,1 + log(20/1,5) = 7,22).",
+"porque": [
+"subtraiu 0,01 a mais por nEq.",
+"[H⁺] = 24 × PaCO₂/HCO₃⁻ = 24 × 50/20 = 60 nEq/L → pH ≈ 7,80 − 0,60 = 7,22 (HH: 6,1 + log(20/1,5) = 7,22).",
+"estimou sem a equação de Henderson.",
+"errou o [H⁺] (24 × 50/20 = 60, não 48).",
+"ignorou a acidose (o pH não é 'normal')."
+],
+"pega": "40 nEq/L = 7,40; cada 1 nEq ≈ 0,01 de pH na faixa 7,20–7,50."
+},
+{
+"id": "QG047",
+"tema": "Gaps e cálculos",
+"enun": "Acidose com Na⁺ 140, Cl⁻ 100, HCO₃⁻ 12, albumina 4. Qual o Δ/Δ e o significado?",
+"alts": [
+"≈ 1,3 — AG alto + alcalose metabólica",
+"≈ 0,75 — AG alto + acidose hiperclorêmica",
+"≈ 2,3 — AG alto + alcalose metabólica",
+"≈ 1,3 — sem acidose com AG elevado",
+"≈ 1,3 — acidose com AG elevado pura"
+],
+"gab": 4,
+"com": "AG = 140 − (100 + 12) = 28; Δ/Δ = (28 − 12)/(24 − 12) = 16/12 ≈ <b>1,3</b> → faixa 0,8–2: acidose com AG elevado pura.",
+"porque": [
+"o valor está certo, mas 0,8–2 indica acidose com AG pura.",
+"inverteu a fração: (24 − HCO₃⁻)/(AG − 12).",
+"usou o AG inteiro (28) no numerador, sem descontar o normal (12).",
+"AG 28 é claramente elevado.",
+"AG = 140 − (100 + 12) = 28; Δ/Δ = (28 − 12)/(24 − 12) = 16/12 ≈ 1,3 → faixa 0,8–2: acidose com AG elevado pura."
+],
+"pega": "Δ/Δ &lt; 0,8 hiperclorêmica associada; &gt; 2 alcalose metabólica associada."
+},
+{
+"id": "QG048",
+"tema": "Gaps e cálculos",
+"enun": "Homem de 80 kg com acidose hiperclorêmica grave, HCO₃⁻ 6; alvo inicial 15. Qual o déficit estimado de bicarbonato (fórmula clássica) a repor PELA METADE de início?",
+"alts": [
+"≈ 180 mEq (metade de 360)",
+"≈ 720 mEq",
+"≈ 60 mEq",
+"≈ 108 mEq",
+"≈ 360 mEq de uma vez"
+],
+"gab": 0,
+"com": "Déficit ≈ 0,5 × 80 × (15 − 6) = 360 mEq → repor ~<b>180 mEq</b> e repetir a gasometria.",
+"porque": [
+"Déficit ≈ 0,5 × 80 × (15 − 6) = 360 mEq → repor ~180 mEq e repetir a gasometria.",
+"usou espaço de distribuição 1,0 × peso e repôs tudo de uma vez.",
+"subestimou: 1 ampola por 10 kg não é cálculo de déficit.",
+"usou 0,3 × peso (espaço extracelular) e repôs metade.",
+"é o déficit total; reponha metade e reavalie."
+],
+"pega": "Indicação vem antes do cálculo: bicarbonato é para perda de base, não para acidose láctica/cetoacidose."
+},
+{
+"id": "QG049",
+"tema": "Gaps e cálculos",
+"enun": "CAD com Na⁺ medido 128 e glicose 700. Qual o sódio corrigido e qual sódio usar no ânion gap?",
+"alts": [
+"Na⁺ corrigido ≈ 156; no AG usar o medido",
+"Na⁺ corrigido ≈ 138–142; no AG usar o corrigido",
+"Na⁺ 128 — não se corrige na CAD",
+"Na⁺ corrigido ≈ 118; no AG usar o medido",
+"Na⁺ corrigido ≈ 138–142; no AG usar o Na⁺ MEDIDO (128)"
+],
+"gab": 4,
+"com": "Na⁺ corrigido = 128 + 1,6 a 2,4 × (700 − 100)/100 = 128 + 9,6 a 14,4 ≈ <b>138–142</b>. No AG, sempre o Na⁺ medido.",
+"porque": [
+"usou fator 4,7 por 100 mg/dL (exagerado).",
+"o AG usa o Na⁺ medido (a diluição afeta todos os íons igualmente).",
+"o corrigido orienta a escolha do soro após a fase inicial.",
+"subtraiu a correção (a glicose DILUI o Na⁺, o corrigido é maior).",
+"Na⁺ corrigido = 128 + 1,6 a 2,4 × (700 − 100)/100 = 128 + 9,6 a 14,4 ≈ 138–142. No AG, sempre o Na⁺ medido."
+],
+"pega": "Pegadinha clássica: AG com Na⁺ corrigido superestima o AG."
+},
+{
+"id": "QG050",
+"tema": "Oxigenação",
+"enun": "Hb 8 g/dL, SatO₂ 95%, PaO₂ 80 mmHg. Qual o conteúdo arterial de O₂ (CaO₂)?",
+"alts": [
+"≈ 10,4 mL/dL",
+"≈ 13,0 mL/dL",
+"≈ 20 mL/dL",
+"≈ 7,6 mL/dL",
+"≈ 0,24 mL/dL"
+],
+"gab": 0,
+"com": "CaO₂ = 1,34 × 8 × 0,95 + 0,003 × 80 = 10,18 + 0,24 ≈ <b>10,4 mL/dL</b>.",
+"porque": [
+"CaO₂ = 1,34 × 8 × 0,95 + 0,003 × 80 = 10,18 + 0,24 ≈ 10,4 mL/dL.",
+"usou Hb 10 no cálculo.",
+"é o normal com Hb 15; a anemia reduz muito o CaO₂.",
+"usou SatO₂ 71% (confundiu com saturação venosa).",
+"é só o O₂ dissolvido (0,003 × PaO₂)."
+],
+"pega": "Hb pesa muito mais que PaO₂ no conteúdo de O₂."
+},
+{
+"tema": "Acidose com AG elevado",
+"enun": "CAD: glicemia 480, K⁺ 3,1 mEq/L, pH 7,12. Qual a conduta imediata em relação à insulina?",
+"alts": [
+"Insulina subcutânea ultrarrápida de hora em hora",
+"Repor K⁺ e adiar a insulina até K⁺ ≥ 3,3",
+"Insulina em bolus de 0,15 U/kg e depois infusão",
+"Bicarbonato antes de qualquer insulina",
+"Iniciar insulina 0,1 U/kg/h e repor K⁺ em paralelo"
+],
+"gab": 1,
+"com": "ADA: com K⁺ &lt; 3,3, repor K⁺ (20–30 mEq/h) e só iniciar insulina quando ≥ 3,3 — a insulina joga K⁺ para dentro da célula e pode precipitar arritmia/parada respiratória.",
+"porque": [
+"SC só na CAD leve/moderada estável; o problema aqui é o K⁺.",
+"repor primeiro e só então insulina.",
+"Bolus não é necessário e piora o risco de hipoK.",
+"Bicarbonato só com pH &lt; 6,9 e também baixa o K⁺.",
+"Insulina com K⁺ 3,1 pode causar hipoK grave."
+],
+"pega": "K⁺ 'normal' na CAD já é déficit; baixo é emergência.",
+"id": "QG051"
+},
+{
+"tema": "Acidose com AG elevado",
+"enun": "Critério que define a RESOLUÇÃO da CAD para transição para insulina subcutânea:",
+"alts": [
+"HCO₃⁻ ≥ 22",
+"pH &gt; 7,30, HCO₃⁻ ≥ 15 (ou 18) e AG ≤ 12",
+"Glicemia &lt; 200 mg/dL",
+"Lactato &lt; 2 mmol/L",
+"Cetonúria negativa na fita"
+],
+"gab": 1,
+"com": "Resolução: glicemia &lt; 200–250 + dois de: pH venoso &gt; 7,3, HCO₃⁻ ≥ 15–18, AG ≤ 12 (ou β-OHB &lt; 0,6). Fazer sobreposição de 1–2 h com insulina SC.",
+"porque": [
+"HCO₃⁻ pode ficar baixo por hipercloremia do SF mesmo com a CAD resolvida.",
+"Correta.",
+"Glicemia cai antes da cetose resolver.",
+"Lactato não é critério de CAD.",
+"A fita (nitroprussiato) pode até 'piorar' com a melhora."
+],
+"pega": "Use o AG, não o bicarbonato, para decidir o fim da CAD.",
+"id": "QG052"
+},
+{
+"tema": "Acidose com AG elevado",
+"enun": "Na CAD, quando o bicarbonato IV está indicado pela ADA?",
+"alts": [
+"Nunca, em nenhuma situação",
+"HCO₃⁻ &lt; 15",
+"Sempre que pH &lt; 7,2",
+"pH &lt; 6,9",
+"Se houver vômitos"
+],
+"gab": 3,
+"com": "ADA: considerar bicarbonato se pH &lt; 6,9 (ex.: 100 mmol em 400 mL + 20 mEq KCl em 2 h, repetir até pH ≥ 7,0). Sem benefício acima disso.",
+"porque": [
+"Há indicação em acidose extrema.",
+"HCO₃⁻ isolado não é critério.",
+"Abaixo de 7,2 não há benefício demonstrado.",
+"Correta.",
+"Vômitos dão alcalose metabólica associada."
+],
+"pega": "Bicarbonato na CAD: risco de hipoK, edema cerebral (crianças) e acidose paradoxal do SNC.",
+"id": "QG053"
+},
+{
+"tema": "Acidose com AG elevado",
+"enun": "Etilista desnutrido com cetoacidose alcoólica e glicemia 70. Qual a sequência correta?",
+"alts": [
+"Glicose 50% em bolus e depois tiamina",
+"Insulina + SF 0,9%",
+"Apenas SF; glicose é contraindicada",
+"Tiamina IV antes de iniciar soro glicosado + SF",
+"Bicarbonato IV e observação"
+],
+"gab": 3,
+"com": "Cetoacidose alcoólica: volume + glicose (inibe cetogênese) — sempre com tiamina antes da glicose; repor K⁺, Mg²⁺, fosfato. Insulina raramente necessária.",
+"porque": [
+"Glicose antes da tiamina pode precipitar Wernicke.",
+"Insulina não é necessária (glicemia normal/baixa).",
+"Glicose é parte do tratamento.",
+"Correta.",
+"Bicarbonato não indicado de rotina."
+],
+"pega": "β-OHB predomina: a fita urinária pode vir fracamente positiva.",
+"id": "QG054"
+},
+{
+"tema": "Acidose com AG elevado",
+"enun": "Intoxicação por metanol com pH 7,05, AG 32 e visão turva. Conduta mais adequada:",
+"alts": [
+"Só bicarbonato até pH normal",
+"N-acetilcisteína",
+"Fomepizol (ou etanol) + hemodiálise + bicarbonato + ácido fólico",
+"Lavagem gástrica e observação",
+"Azul de metileno"
+],
+"gab": 2,
+"com": "Bloquear a álcool-desidrogenase (fomepizol/etanol), remover metanol e formato (hemodiálise — indicada por acidose grave/alteração visual), corrigir acidose e dar ácido fólico/folínico.",
+"porque": [
+"Bicarbonato isolado não remove o tóxico.",
+"NAC é para paracetamol.",
+"Correta.",
+"Lavagem é inútil (absorção rápida).",
+"Azul de metileno é para metemoglobinemia."
+],
+"pega": "Alteração visual = formato já agindo: hemodiálise urgente.",
+"id": "QG055"
+},
+{
+"tema": "Acidose com AG elevado",
+"enun": "Mulher com intoxicação aguda por salicilato precisa ser intubada por rebaixamento. Qual o cuidado essencial na VM?",
+"alts": [
+"Usar só PEEP alta",
+"Hipoventilar para reduzir o pH e o efeito do salicilato",
+"Suspender o bicarbonato após a IOT",
+"Normocapnia (PaCO₂ 40) para evitar alcalose",
+"Manter hiperventilação (PaCO₂ semelhante à pré-IOT) e bicarbonato"
+],
+"gab": 4,
+"com": "A acidemia aumenta a fração não ionizada do salicilato, que entra no SNC. Após IOT, manter ventilação-minuto alta + alcalinização; hemodiálise costuma estar indicada.",
+"porque": [
+"PEEP não resolve o problema ácido-base.",
+"Acidemia piora a toxicidade.",
+"Alcalinização deve continuar.",
+"PaCO₂ 40 derruba o pH e pode matar.",
+"Correta."
+],
+"pega": "Sempre que possível, evitar intubar intoxicado por salicilato; se intubar, hiperventilar.",
+"id": "QG056"
+},
+{
+"tema": "Acidose com AG elevado",
+"enun": "Lactato 6 em paciente bem perfundido (SvcO₂ 76%, TEC 2 s, diurese boa) em adrenalina 0,2 µg/kg/min. Melhor interpretação:",
+"alts": [
+"Hiperlactatemia tipo B adrenérgica: reavaliar/reduzir a adrenalina",
+"Hipoperfusão oculta: dar 30 mL/kg de cristaloide",
+"Cetoacidose",
+"Isquemia mesentérica certa: laparotomia",
+"Erro de laboratório"
+],
+"gab": 0,
+"com": "Estímulo β2 aumenta a glicólise aeróbia — lactato sobe sem hipoperfusão. Integrar com perfusão periférica, SvcO₂ e gap CO₂.",
+"porque": [
+"Correta.",
+"Volume sem resposta/necessidade causa sobrecarga.",
+"Sem cetonas/CAD.",
+"Sem quadro clínico compatível.",
+"É fisiologia previsível."
+],
+"pega": "Lactato não é sinônimo de choque.",
+"id": "QG057"
+},
+{
+"tema": "Casos de UTI",
+"enun": "Acidose metabólica grave na UTI: em qual grupo o BICAR-ICU sugeriu benefício do bicarbonato?",
+"alts": [
+"Todos os pacientes com pH &lt; 7,20",
+"Acidose láctica sem IRA",
+"Pós-PCR",
+"Cetoacidose diabética",
+"Pacientes com pH ≤ 7,20 e IRA (AKIN 2–3)"
+],
+"gab": 4,
+"com": "BICAR-ICU: sem diferença global, mas no subgrupo com IRA moderada a grave o bicarbonato (alvo pH ≥ 7,30) reduziu mortalidade e necessidade de diálise.",
+"porque": [
+"Sem benefício global.",
+"Sem benefício fora da IRA.",
+"Não indicado de rotina na PCR.",
+"Na CAD só com pH &lt; 6,9.",
+"Correta."
+],
+"pega": "BICAR-ICU-2 testou especificamente pacientes com IRA.",
+"id": "QG058"
+},
+{
+"tema": "Acidose hiperclorêmica",
+"enun": "Acidose hiperclorêmica com K⁺ 2,4 e AG urinário negativo. Mais provável:",
+"alts": [
+"Diarreia (perda gastrointestinal de bicarbonato)",
+"Hipoaldosteronismo",
+"Uso de espironolactona",
+"ATR tipo 1",
+"ATR tipo 4"
+],
+"gab": 0,
+"com": "AGu negativo = NH₄⁺ urinário alto = rim respondendo bem → perda GI. ATR 1 tem AGu positivo; ATR 4 tem hiperK.",
+"porque": [
+"Correta.",
+"Hipoaldo = hiperK.",
+"Espironolactona = hiperK.",
+"ATR 1 tem AGu positivo.",
+"ATR 4 cursa com hiperK."
+],
+"pega": "AGu: 'neGUTive'.",
+"id": "QG059"
+},
+{
+"tema": "Acidose hiperclorêmica",
+"enun": "Mulher com Sjögren, nefrocalcinose, K⁺ 2,8, pH urinário 6,8 com acidose. Tratamento de escolha:",
+"alts": [
+"Acetazolamida",
+"Citrato de potássio",
+"Bicarbonato de sódio isolado",
+"Furosemida",
+"Fludrocortisona"
+],
+"gab": 1,
+"com": "ATR distal: citrato de potássio corrige acidose, hipoK e a hipocitratúria (previne cálculos).",
+"porque": [
+"Causa acidose.",
+"Correta.",
+"Sem K⁺ piora a hipocalemia.",
+"Piora hipoK.",
+"Para ATR 4 selecionada."
+],
+"pega": "Na hipoK grave, repor K⁺ antes de alcalinizar.",
+"id": "QG060"
+},
+{
+"tema": "Acidose hiperclorêmica",
+"enun": "Diabético com nefropatia, K⁺ 6,2, acidose hiperclorêmica leve, renina e aldosterona baixas. Diagnóstico:",
+"alts": [
+"Síndrome de Liddle",
+"Diarreia crônica",
+"ATR tipo 4 (hipoaldosteronismo hiporreninêmico)",
+"ATR tipo 1",
+"ATR tipo 2"
+],
+"gab": 2,
+"com": "ATR 4: única com hipercalemia; comum na nefropatia diabética e com drogas (IECA, BRA, espironolactona, trimetoprim, heparina, tacrolimo).",
+"porque": [
+"Liddle = alcalose com HAS e hipoK.",
+"Diarreia = hipoK.",
+"Correta.",
+"ATR 1 = hipoK.",
+"ATR 2 = hipoK."
+],
+"pega": "Tratamento: dieta, diurético, quelante de K⁺, fludrocortisona com cautela.",
+"id": "QG061"
+},
+{
+"tema": "Acidose hiperclorêmica",
+"enun": "Após 8 L de SF 0,9%, HCO₃⁻ 17, AG 10, lactato normal, perfusão boa. Melhor conduta:",
+"alts": [
+"Bicarbonato 1 mEq/kg",
+"Iniciar noradrenalina",
+"Mais volume para tratar a acidose",
+"Hemodiálise",
+"Trocar para cristaloide balanceado/restringir volume"
+],
+"gab": 4,
+"com": "Acidose hiperclorêmica iatrogênica (SID baixo do SF). Não é hipoperfusão: corrigir a solução e o excesso de volume.",
+"porque": [
+"Desnecessário.",
+"Paciente perfundido.",
+"Mais SF piora.",
+"Sem indicação.",
+"Correta."
+],
+"pega": "SMART e BaSICS: balanceados podem reduzir eventos renais em subgrupos.",
+"id": "QG062"
+},
+{
+"tema": "Alcalose metabólica",
+"enun": "Alcalose metabólica com Cl⁻ urinário 8 mEq/L. Causa mais provável e tratamento:",
+"alts": [
+"Vômitos/SNG — SF 0,9% + KCl",
+"Síndrome de Bartter — indometacina",
+"Diurético em uso — suspender",
+"Liddle — amilorida",
+"Hiperaldosteronismo primário — espironolactona"
+],
+"gab": 0,
+"com": "Cl⁻u &lt; 20 = alcalose responsiva a cloreto (perda gástrica, diurético prévio, pós-hipercapnia): SF + KCl.",
+"porque": [
+"Correta.",
+"Bartter = Cl⁻u alto.",
+"Diurético EM USO dá Cl⁻u alto.",
+"Liddle = Cl⁻u alto.",
+"Hiperaldo = Cl⁻u alto."
+],
+"pega": "Na⁺ urinário engana na alcalose; use o Cl⁻.",
+"id": "QG063"
+},
+{
+"tema": "Alcalose metabólica",
+"enun": "Jovem hipertenso, hipoK, alcalose, renina E aldosterona suprimidas, história familiar. Tratamento:",
+"alts": [
+"Adrenalectomia",
+"Espironolactona",
+"IECA",
+"Furosemida",
+"Amilorida"
+],
+"gab": 4,
+"com": "Síndrome de Liddle: ganho de função do ENaC — bloqueio direto com amilorida/triantereno.",
+"porque": [
+"Não há tumor adrenal.",
+"Sem aldosterona para bloquear.",
+"Pouco eficaz.",
+"Piora hipoK.",
+"Correta."
+],
+"pega": "Aldosterona baixa + HAS + hipoK: Liddle, alcaçuz, DOC, Cushing.",
+"id": "QG064"
+},
+{
+"tema": "Alcalose metabólica",
+"enun": "Normotensa com hipoK, alcalose, HIPOmagnesemia e HIPOcalciúria. Diagnóstico:",
+"alts": [
+"Gitelman",
+"Vômitos ocultos",
+"Bartter",
+"Hiperaldosteronismo",
+"ATR 1"
+],
+"gab": 0,
+"com": "Gitelman = 'tiazídico genético' (NCC): hipoMg e hipocalciúria. Bartter = 'furosemida genética' (NKCC2): hipercalciúria.",
+"porque": [
+"Correta.",
+"Vômitos dão Cl⁻u baixo e sem hipocalciúria característica.",
+"Bartter tem hipercalciúria.",
+"Hiperaldo cursa com HAS.",
+"ATR 1 é acidose."
+],
+"pega": "Sempre excluir uso oculto de diurético (dosagem urinária).",
+"id": "QG065"
+},
+{
+"tema": "Alcalose metabólica",
+"enun": "DPOC (PaCO₂ basal 65) intubado; após 24 h com FR alta: pH 7,58, PaCO₂ 40, HCO₃⁻ 36. Melhor ajuste:",
+"alts": [
+"Aumentar a FR",
+"Bicarbonato para manter pH",
+"Manter: PaCO₂ 40 é o ideal",
+"Iniciar acetazolamida e manter PaCO₂ 40 a qualquer custo",
+"Reduzir a ventilação-minuto para PaCO₂ próxima da basal (pH 7,35–7,45)"
+],
+"gab": 4,
+"com": "Alcalose pós-hipercapnia: o rim compensou por dias; normalizar a PaCO₂ rapidamente gera alcalemia grave. Alvo = pH, não PaCO₂ 40.",
+"porque": [
+"Piora a alcalose.",
+"Pioraria a alcalose.",
+"Gera alcalemia, hipoK, arritmia.",
+"Acetazolamida ajuda, mas o alvo continua sendo o pH.",
+"Correta."
+],
+"pega": "Anote a gasometria basal do DPOC.",
+"id": "QG066"
+},
+{
+"tema": "Alcalose metabólica",
+"enun": "ICC congesta com alcalose metabólica por furosemida (HCO₃⁻ 36). Qual a melhor opção para corrigir a alcalose sem piorar a congestão?",
+"alts": [
+"Bicarbonato oral",
+"Acetazolamida + reposição de K⁺",
+"Suspender todos os diuréticos e dar soro",
+"Ácido clorídrico como 1ª linha",
+"SF 0,9% 2 L"
+],
+"gab": 1,
+"com": "Acetazolamida promove bicarbonatúria e natriurese (ADVOR); repor K⁺/Mg²⁺. HCl/diálise só em alcalose grave refratária.",
+"porque": [
+"Pioraria a alcalose.",
+"Correta.",
+"Congestão volta.",
+"Reservado a casos graves/refratários.",
+"Volume piora a congestão."
+],
+"pega": "Na ICC, cloreto pode vir como KCl (não como SF).",
+"id": "QG067"
+},
+{
+"tema": "Acidose respiratória",
+"enun": "DPOC exacerbado, pH 7,28, PaCO₂ 68, alerta e colaborativo. Melhor suporte:",
+"alts": [
+"VNI (BiPAP)",
+"Cateter nasal 6 L/min",
+"IOT imediata",
+"Máscara não reinalante a 15 L/min",
+"Bicarbonato IV"
+],
+"gab": 0,
+"com": "VNI no DPOC com acidose respiratória (pH 7,25–7,35) reduz IOT e mortalidade; O₂ titulado para SpO₂ 88–92%.",
+"porque": [
+"Correta.",
+"FiO₂ imprecisa e excessiva.",
+"Reservada a falha/contraindicação da VNI.",
+"Hiperóxia piora a hipercapnia.",
+"Não trata a hipoventilação."
+],
+"pega": "pH &lt; 7,25 ainda pode tentar VNI em ambiente monitorado, com baixo limiar para IOT.",
+"id": "QG068"
+},
+{
+"tema": "Acidose respiratória",
+"enun": "Asmática em crise grave há 4 h: PaCO₂ 44, pH 7,36, cansada. Interpretação:",
+"alts": [
+"Erro de coleta",
+"Alcalose respiratória compensada",
+"Fadiga muscular iminente: preparar via aérea",
+"Indica alta",
+"Melhora: gasometria normal"
+],
+"gab": 2,
+"com": "Na crise, o esperado é PaCO₂ baixa; PaCO₂ 'normal' ou subindo indica que o paciente não sustenta a ventilação.",
+"porque": [
+"Coerente.",
+"Não há alcalose.",
+"Correta.",
+"Perigoso.",
+"Normal no laboratório, grave na clínica."
+],
+"pega": "Silêncio auscultatório + PaCO₂ normal = alarme.",
+"id": "QG069"
+},
+{
+"tema": "Acidose respiratória",
+"enun": "SDRA em VM protetora com pH 7,22 e PaCO₂ 66 (hipercapnia permissiva). Em qual situação ela é contraindicada/limitada?",
+"alts": [
+"Obesidade",
+"Idade &gt; 65 anos",
+"Pneumonia bacteriana",
+"Diabetes",
+"Hipertensão intracraniana"
+],
+"gab": 4,
+"com": "Hipercapnia causa vasodilatação cerebral e ↑PIC; também é limitada em hipertensão pulmonar/VD falindo e acidose metabólica grave associada.",
+"porque": [
+"Não contraindica.",
+"Não contraindica.",
+"Não contraindica.",
+"Não contraindica.",
+"Correta."
+],
+"pega": "Alvo usual: pH ≥ 7,20–7,25.",
+"id": "QG070"
+},
+{
+"tema": "Acidose respiratória",
+"enun": "Overdose de opioide: FR 6, PaCO₂ 72, PaO₂ 52 em ar ambiente, A-a normal. Prioridade:",
+"alts": [
+"CPAP",
+"O₂ por máscara 15 L/min isolado",
+"Bicarbonato",
+"Ventilação com bolsa-máscara e naloxona titulada",
+"Flumazenil"
+],
+"gab": 3,
+"com": "Hipoxemia por hipoventilação (A-a normal): ventilar e reverter o opioide. O₂ isolado corrige a SpO₂ e 'esconde' a hipercapnia.",
+"porque": [
+"CPAP não aumenta a ventilação.",
+"Não trata a causa.",
+"Sem indicação.",
+"Correta.",
+"Para benzodiazepínico (e com riscos)."
+],
+"pega": "Naloxona titulada evita abstinência abrupta e EAP.",
+"id": "QG071"
+},
+{
+"tema": "Acidose respiratória",
+"enun": "Teste de apneia na morte encefálica (CFM 2.173/2017): critério de positividade:",
+"alts": [
+"PaCO₂ final &gt; 45 mmHg",
+"Aumento de 10 mmHg na PaCO₂",
+"PaCO₂ final &gt; 55 mmHg sem movimentos respiratórios",
+"pH &lt; 7,30",
+"SatO₂ &lt; 85%"
+],
+"gab": 2,
+"com": "Positivo (ausência de drive) se PaCO₂ &gt; 55 mmHg sem incursões. Pré-requisitos: T &gt; 35 °C, SatO₂ &gt; 94%, PAS ≥ 100 (ou PAM ≥ 65).",
+"porque": [
+"Limiar insuficiente.",
+"Critério de outras diretrizes (≥ 20 mmHg acima do basal) — não é o da resolução brasileira isolado.",
+"Correta.",
+"pH não é o critério.",
+"Dessaturação interrompe o teste."
+],
+"pega": "Interromper se instabilidade; registrar gasometrias inicial e final.",
+"id": "QG072"
+},
+{
+"tema": "Alcalose respiratória",
+"enun": "Dispneia súbita pós-operatória, PaCO₂ 29, PaO₂ 62, A-a 51 em ar ambiente. Próximo passo mais adequado:",
+"alts": [
+"Avaliar probabilidade de TEP (Wells) e angio-TC / anticoagulação",
+"Saco de papel",
+"Diagnóstico de ansiedade e alta",
+"Repetir gasometria em 24 h",
+"Benzodiazepínico"
+],
+"gab": 0,
+"com": "Hiperventilação com A-a elevado não é ansiedade: TEP é a hipótese principal no pós-operatório.",
+"porque": [
+"Correta.",
+"Contraindicado (hipoxemia).",
+"Erro grave.",
+"Atrasa o diagnóstico.",
+"Mascara o diagnóstico."
+],
+"pega": "Gasometria normal não exclui TEP; A-a elevado reforça.",
+"id": "QG073"
+},
+{
+"tema": "Alcalose respiratória",
+"enun": "Gestante 34 semanas com asma: PaCO₂ 40. Interpretação:",
+"alts": [
+"Acidose metabólica",
+"Gasometria venosa",
+"Normal",
+"Alcalose respiratória",
+"Retenção de CO₂ (a PaCO₂ esperada na gestação é ~30)"
+],
+"gab": 4,
+"com": "Na gestação a PaCO₂ basal é 28–32 (progesterona). PaCO₂ 40 numa crise = hipercapnia relativa/fadiga.",
+"porque": [
+"Não há.",
+"Sem dados.",
+"Erro clássico.",
+"Não há.",
+"Correta."
+],
+"pega": "Use referências da gestação.",
+"id": "QG074"
+},
+{
+"tema": "Alcalose respiratória",
+"enun": "Turista em altitude com mal agudo da montanha moderado. Mecanismo da acetazolamida na prevenção/tratamento:",
+"alts": [
+"Aumenta a hemoglobina em horas",
+"Reduz a PaCO₂ por vasodilatação",
+"Broncodilatação",
+"Gera acidose metabólica (bicarbonatúria) que estimula a ventilação e acelera a aclimatação",
+"Bloqueia receptores de hipóxia"
+],
+"gab": 3,
+"com": "A acidose metabólica induzida permite hiperventilar mais (contrabalança a alcalose respiratória que freia o drive).",
+"porque": [
+"Eritropoese leva dias/semanas.",
+"Mecanismo errado.",
+"Não.",
+"Correta.",
+"Não."
+],
+"pega": "Descida é o tratamento definitivo do edema pulmonar/cerebral de altitude.",
+"id": "QG075"
+},
+{
+"tema": "Distúrbios mistos",
+"enun": "CAD em paciente intubado; antes da IOT PaCO₂ 18. Qual programação inicial do ventilador é mais segura?",
+"alts": [
+"PEEP 15 e FR 10",
+"FR 12, VT 6 mL/kg",
+"Ventilação-minuto alta (FR 28–30, VT ~8 mL/kg) com gasometria em 15–20 min",
+"Hipoventilação permissiva",
+"Modo espontâneo com PS 5"
+],
+"gab": 2,
+"com": "Manter a compensação respiratória que o paciente tinha (Winter). VM 'padrão' eleva a PaCO₂ e colapsa o pH.",
+"porque": [
+"Inadequado.",
+"Causa acidemia grave.",
+"Correta.",
+"Catastrófico na acidose metabólica.",
+"Paciente sedado não sustenta."
+],
+"pega": "Regra: FR nova ≈ FR atual × PaCO₂ atual / PaCO₂ desejada.",
+"id": "QG076"
+},
+{
+"tema": "Distúrbios mistos",
+"enun": "pH 7,40, PaCO₂ 40, HCO₃⁻ 24, Na⁺ 140, Cl⁻ 96. Conclusão:",
+"alts": [
+"Erro de laboratório",
+"Acidose com AG elevado + alcalose metabólica",
+"Alcalose respiratória",
+"Gasometria normal",
+"Acidose hiperclorêmica"
+],
+"gab": 1,
+"com": "AG = 140 − 120 = 20: há acidose com AG alto; HCO₃⁻ corrigido = 24 + 8 = 32 → alcalose metabólica simultânea.",
+"porque": [
+"É coerente.",
+"Correta.",
+"PaCO₂ normal.",
+"Ignora o AG.",
+"AG está alto."
+],
+"pega": "Sempre calcule o AG — mesmo com gasometria 'normal'.",
+"id": "QG077"
+},
+{
+"tema": "Distúrbios mistos",
+"enun": "Qual combinação NÃO pode coexistir no mesmo paciente?",
+"alts": [
+"Acidose respiratória + alcalose respiratória",
+"Acidose com AG + acidose hiperclorêmica",
+"Acidose metabólica + alcalose metabólica",
+"Alcalose metabólica + acidose respiratória",
+"Acidose metabólica + alcalose respiratória"
+],
+"gab": 0,
+"com": "A PaCO₂ não pode estar alta e baixa ao mesmo tempo: só um distúrbio respiratório por vez (por isso o máximo é triplo).",
+"porque": [
+"Correta.",
+"Possível (Δ/Δ &lt; 0,8).",
+"Possível (vômitos + CAD).",
+"Possível (DPOC + diurético).",
+"Possível (sepse, salicilato)."
+],
+"pega": "Distúrbio triplo = 2 metabólicos + 1 respiratório.",
+"id": "QG078"
+},
+{
+"tema": "Distúrbios mistos",
+"enun": "Choque séptico em VM com FR 14: pH 7,10, PaCO₂ 40, HCO₃⁻ 12, AG 18. Primeira medida para melhorar o pH:",
+"alts": [
+"Bicarbonato em bolus",
+"Aumentar FiO₂",
+"Aumentar a ventilação-minuto para PaCO₂ ~26 (Winter)",
+"Reduzir PEEP",
+"Hemodiálise imediata"
+],
+"gab": 2,
+"com": "Há acidose respiratória associada (PaCO₂ esperada 24–28). Ventilar adequadamente é a correção mais rápida e fisiológica.",
+"porque": [
+"Sem ventilação, o CO₂ gerado piora a acidose intracelular.",
+"Não corrige pH.",
+"Correta.",
+"Não muda o pH.",
+"Pode ser necessária depois, não primeiro."
+],
+"pega": "Programe a VM pelo Winter na acidose metabólica.",
+"id": "QG079"
+},
+{
+"tema": "Oxigenação",
+"enun": "Intoxicação por CO: SpO₂ 98%, PaO₂ 95, COHb 28%, confuso. Conduta:",
+"alts": [
+"Azul de metileno",
+"O₂ 100% (não reinalante/IOT) e considerar câmara hiperbárica",
+"Alta: oxigenação normal",
+"Hidroxocobalamina isolada",
+"Cateter nasal 2 L/min"
+],
+"gab": 1,
+"com": "COHb reduz o conteúdo de O₂ apesar de PaO₂/SpO₂ normais. O₂ 100% reduz a meia-vida da COHb; hiperbárica se COHb &gt; 25%, alteração neurológica, gestação, isquemia.",
+"porque": [
+"Para metemoglobinemia.",
+"Correta.",
+"Oxímetro engana.",
+"Para cianeto (pode associar em incêndio).",
+"Insuficiente."
+],
+"pega": "Peça co-oximetria na suspeita.",
+"id": "QG080"
+},
+{
+"tema": "Oxigenação",
+"enun": "SpO₂ 85% que não sobe com O₂, sangue achocolatado, PaO₂ 98 em uso de dapsona. Tratamento:",
+"alts": [
+"Câmara hiperbárica",
+"Aumentar FiO₂ a 100%",
+"Hidroxocobalamina",
+"Transfusão de hemácias imediata",
+"Azul de metileno 1–2 mg/kg IV"
+],
+"gab": 4,
+"com": "Metemoglobinemia sintomática (ou &gt; 20–30%): azul de metileno (exceto G6PD); suspender o agente.",
+"porque": [
+"Não é primeira linha.",
+"Não resolve.",
+"Para cianeto.",
+"Só se refratária/G6PD.",
+"Correta."
+],
+"pega": "Oxímetro tende a marcar ~85% na metemoglobinemia significativa.",
+"id": "QG081"
+},
+{
+"tema": "Oxigenação",
+"enun": "Leucemia com 200 mil leucócitos: SpO₂ 98%, PaO₂ 45 (amostra demorou 40 min). Conduta:",
+"alts": [
+"Pseudo-hipoxemia: repetir em gelo com análise imediata e confiar na SpO₂",
+"Ventilação não invasiva",
+"Câmara hiperbárica",
+"Intubar por hipoxemia grave",
+"Diurético"
+],
+"gab": 0,
+"com": "'Roubo leucocitário': consumo de O₂ pelas células no tubo.",
+"porque": [
+"Correta.",
+"Paciente sem desconforto.",
+"Sem indicação.",
+"Erro grave.",
+"Sem indicação."
+],
+"pega": "Dissociação SpO₂ alta × PaO₂ baixa = pense em artefato.",
+"id": "QG082"
+},
+{
+"tema": "Oxigenação",
+"enun": "Critério de Berlim para SDRA moderada:",
+"alts": [
+"SpO₂ &lt; 90% em ar ambiente",
+"Infiltrado unilateral com P/F &lt; 200",
+"P/F 101–200 com PEEP ≥ 5",
+"P/F 201–300 sem PEEP",
+"P/F ≤ 100 com PEEP ≥ 10"
+],
+"gab": 2,
+"com": "Berlim: início ≤ 1 semana, opacidades bilaterais, não explicado por IC/sobrecarga, P/F com PEEP/CPAP ≥ 5: leve 201–300, moderada 101–200, grave ≤ 100.",
+"porque": [
+"Não é critério.",
+"Exige bilateral.",
+"Correta.",
+"Sem PEEP não classifica; e é a faixa leve.",
+"Faixa grave (e PEEP ≥ 5 basta)."
+],
+"pega": "A definição global de 2023 aceita S/F e CNAF ≥ 30 L/min.",
+"id": "QG083"
+},
+{
+"tema": "Oxigenação",
+"enun": "Na SDRA moderada a grave, qual intervenção reduziu mortalidade no PROSEVA?",
+"alts": [
+"Ventilação oscilatória de alta frequência",
+"Corticoide em dose alta tardia",
+"Óxido nítrico inalado",
+"Posição prona ≥ 16 h/dia com P/F &lt; 150",
+"Recrutamento alveolar máximo"
+],
+"gab": 3,
+"com": "PROSEVA: prona precoce e prolongada em P/F &lt; 150 (FiO₂ ≥ 0,6, PEEP ≥ 5) reduziu mortalidade em 28 dias.",
+"porque": [
+"OSCILLATE: aumentou mortalidade.",
+"Sem benefício (e dano se tardio).",
+"Melhora oxigenação, sem sobrevida.",
+"Correta.",
+"ART: aumentou mortalidade."
+],
+"pega": "Não é preciso melhorar a P/F para haver benefício.",
+"id": "QG084"
+},
+{
+"tema": "Oxigenação",
+"enun": "Meta de SpO₂ adequada para DPOC hipercápnico em exacerbação:",
+"alts": [
+"98–100%",
+"88–92%",
+"94–98%",
+"80–85%",
+"Qualquer valor acima de 90% com O₂ a 10 L/min"
+],
+"gab": 1,
+"com": "88–92% evita hipercapnia induzida por O₂ (V/Q, Haldane) mantendo oxigenação segura.",
+"porque": [
+"Hiperóxia.",
+"Correta.",
+"Meta para não retentores.",
+"Hipoxemia perigosa.",
+"Fluxo alto = hiperóxia."
+],
+"pega": "Prescreva a meta, não o fluxo.",
+"id": "QG085"
+},
+{
+"tema": "Oxigenação",
+"enun": "SvcO₂ 82% e lactato 7 na sepse com microcirculação ruim. Interpretação mais adequada:",
+"alts": [
+"Indica dobutamina obrigatória",
+"Excesso de volume",
+"Extração de O₂ prejudicada (shunt/disfunção mitocondrial); usar gap CO₂ e perfusão clínica",
+"Erro de coleta",
+"Perfusão adequada: suspender ressuscitação"
+],
+"gab": 2,
+"com": "SvcO₂ alta não garante perfusão; na sepse tardia o tecido não extrai O₂. Gap Pv-aCO₂ &gt; 6 sugere baixo fluxo.",
+"porque": [
+"Depende do gap CO₂/débito.",
+"Não necessariamente.",
+"Correta.",
+"Coerente com a fisiologia.",
+"Engano clássico."
+],
+"pega": "SvcO₂ alta + lactato alto tem pior prognóstico.",
+"id": "QG086"
+},
+{
+"tema": "Oxigenação",
+"enun": "Paciente em CNAF (FiO₂ 50%), SpO₂ 92%, FR 34. Índice ROX e conduta:",
+"alts": [
+"ROX não se aplica à CNAF",
+"ROX 3,7: alto risco de falha — considerar IOT",
+"ROX 1,8: alta da UTI",
+"ROX 9,2: reduzir FiO₂",
+"ROX 5,4: manter e reavaliar"
+],
+"gab": 4,
+"com": "ROX = (92/0,5)/34 = 184/34 ≈ 5,4 (≥ 4,88 favorece sucesso). Reavaliar em 2, 6 e 12 h.",
+"porque": [
+"Foi criado para CNAF.",
+"Cálculo errado.",
+"Cálculo errado.",
+"Cálculo errado.",
+"Correta."
+],
+"pega": "Tendência do ROX vale mais que um valor isolado.",
+"id": "QG087"
+},
+{
+"tema": "Gaps e cálculos",
+"enun": "Gap osmolar 35 com AG normal e cetonúria, sem acidose. Mais provável:",
+"alts": [
+"Cetoacidose diabética",
+"Salicilato",
+"Etilenoglicol",
+"Metanol",
+"Isopropanol"
+],
+"gab": 4,
+"com": "Isopropanol → acetona: gap osmolar alto, cetose SEM acidose. Metanol/etilenoglicol dão acidose com AG alto.",
+"porque": [
+"Acidose com AG alto.",
+"AG alto + alcalose respiratória.",
+"Acidose com AG alto.",
+"Acidose com AG alto.",
+"Correta."
+],
+"pega": "Fomepizol não está indicado no isopropanol.",
+"id": "QG088"
+},
+{
+"tema": "Gaps e cálculos",
+"enun": "Albumina 1,5 g/dL, AG medido 9 e HCO₃⁻ 16. O que fazer antes de concluir 'acidose hiperclorêmica'?",
+"alts": [
+"Corrigir o AG: 9 + 2,5 × 2,5 ≈ 15 → AG elevado",
+"Usar o Na⁺ corrigido",
+"Somar o K⁺",
+"Nada: AG 9 é normal",
+"Dosar fosfato apenas"
+],
+"gab": 0,
+"com": "Cada 1 g/dL a menos de albumina baixa o AG em ~2,5. Corrigido ≈ 15,3 → há ânions não medidos (lactato? cetonas?).",
+"porque": [
+"Correta.",
+"Errado: AG usa Na⁺ medido.",
+"Muda a referência, não resolve.",
+"Erro clássico.",
+"Insuficiente."
+],
+"pega": "Hipoalbuminemia é a regra na UTI.",
+"id": "QG089"
+},
+{
+"tema": "Gaps e cálculos",
+"enun": "AG calculado = 2 em paciente com anemia, dor óssea e proteína total muito alta. Hipótese:",
+"alts": [
+"Cetoacidose",
+"Erro de coleta",
+"Acidose láctica",
+"Mieloma múltiplo IgG (paraproteína catiônica)",
+"Intoxicação por metanol"
+],
+"gab": 3,
+"com": "AG baixo: hipoalbuminemia grave, paraproteína IgG catiônica, lítio, hipercalcemia/hipermagnesemia, brometo.",
+"porque": [
+"AG alto.",
+"Possível, mas a clínica aponta mieloma.",
+"AG alto.",
+"Correta.",
+"AG alto."
+],
+"pega": "AG baixo é pista diagnóstica valiosa.",
+"id": "QG090"
+},
+{
+"tema": "Gaps e cálculos",
+"enun": "Acidose hiperclorêmica com cetonúria e AG urinário positivo em paciente com diarreia. Melhor próximo passo para avaliar NH₄⁺ urinário:",
+"alts": [
+"Teste com furosemida obrigatório",
+"pH urinário isolado",
+"Concluir ATR distal",
+"Gap osmolar urinário",
+"Biópsia renal"
+],
+"gab": 3,
+"com": "Cetoânions na urina tornam o AGu falsamente positivo; o gap osmolar urinário estima NH₄⁺ sem esse viés.",
+"porque": [
+"Não é o próximo passo.",
+"Inespecífico.",
+"Conclusão precipitada.",
+"Correta.",
+"Desnecessária."
+],
+"pega": "AGu não vale com cetonúria, hipurato ou Na⁺u &lt; 20.",
+"id": "QG091"
+},
+{
+"tema": "Casos de UTI",
+"enun": "Intoxicação por tricíclico com QRS 150 ms e pH 7,25. Tratamento inicial:",
+"alts": [
+"Procainamida",
+"Flumazenil",
+"Amiodarona",
+"Bicarbonato de sódio 1–2 mEq/kg em bolus (alvo pH 7,45–7,55)",
+"Fisostigmina"
+],
+"gab": 3,
+"com": "Sódio + alcalinização reduzem o bloqueio de canais de Na⁺ e encurtam o QRS.",
+"porque": [
+"Classe IA piora o bloqueio de Na⁺.",
+"Contraindicado.",
+"Pode piorar.",
+"Correta.",
+"Contraindicada."
+],
+"pega": "Lipídio IV como resgate.",
+"id": "QG092"
+},
+{
+"tema": "Casos de UTI",
+"enun": "Hipertermia maligna no intraoperatório (EtCO₂ subindo, rigidez, hiperK). Medida específica:",
+"alts": [
+"Dantroleno 2,5 mg/kg IV",
+"Hipoventilar",
+"Bloqueador de canal de cálcio para arritmia",
+"Succinilcolina adicional",
+"Paracetamol IV"
+],
+"gab": 0,
+"com": "Dantroleno + suspender halogenado/succinilcolina, hiperventilar com O₂ 100%, resfriar, tratar hiperK/acidose.",
+"porque": [
+"Correta.",
+"Errado: hiperventilar.",
+"Contraindicado com dantroleno (hiperK/colapso).",
+"Gatilho.",
+"Antitérmico não funciona."
+],
+"pega": "EtCO₂ subindo apesar de aumentar a ventilação é o sinal mais precoce.",
+"id": "QG093"
+},
+{
+"tema": "Casos de UTI",
+"enun": "Vítima de incêndio fechado: lactato 11, rebaixada, SpO₂ 97%. Antídoto prioritário:",
+"alts": [
+"Hidroxocobalamina 5 g IV + O₂ 100%",
+"Fomepizol",
+"Atropina",
+"Azul de metileno",
+"Flumazenil"
+],
+"gab": 0,
+"com": "Lactato &gt; 8 em vítima de incêndio sugere cianeto; O₂ 100% trata CO associado.",
+"porque": [
+"Correta.",
+"Para metanol/etilenoglicol.",
+"Para organofosforado.",
+"Para MetHb (pode piorar cianeto).",
+"Sem indicação."
+],
+"pega": "Hidroxocobalamina interfere em exames colorimétricos (coletar antes se possível).",
+"id": "QG094"
+},
+{
+"tema": "Casos de UTI",
+"enun": "Convulsões refratárias com acidose láctica após ingestão de isoniazida. Tratamento específico:",
+"alts": [
+"Bicarbonato isolado",
+"Fenitoína em dose alta",
+"Piridoxina IV (1 g por g ingerido; 5 g se desconhecido)",
+"Fisostigmina",
+"Naloxona"
+],
+"gab": 2,
+"com": "Isoniazida depleta piridoxal-5-fosfato → ↓GABA. Piridoxina + benzodiazepínico.",
+"porque": [
+"Não trata a causa.",
+"Pouco eficaz.",
+"Correta.",
+"Contraindicada.",
+"Sem indicação."
+],
+"pega": "Lembrar também de teofilina e bupropiona em convulsão refratária tóxica.",
+"id": "QG095"
+},
+{
+"tema": "Casos de UTI",
+"enun": "Propofol 5 mg/kg/h por 4 dias; acidose láctica, rabdomiólise, hipertrigliceridemia e arritmia. Conduta:",
+"alts": [
+"Dar bicarbonato e manter",
+"Aumentar propofol para melhor sedação",
+"Hemodiálise isolada mantendo a infusão",
+"Trocar por propofol 2%",
+"Suspender propofol imediatamente (PRIS) e suporte"
+],
+"gab": 4,
+"com": "Síndrome de infusão do propofol: suspender, trocar sedativo, suporte (diálise/ECMO se refratário).",
+"porque": [
+"Não trata.",
+"Agrava.",
+"Precisa suspender a causa.",
+"Mesma droga.",
+"Correta."
+],
+"pega": "Evitar &gt; 4 mg/kg/h por &gt; 48 h.",
+"id": "QG096"
+},
+{
+"tema": "Casos de UTI",
+"enun": "Lorazepam IV em alta dose por 3 dias: gap osmolar 25 e acidose láctica. Causa:",
+"alts": [
+"Sepse",
+"Abstinência alcoólica",
+"Propilenoglicol (veículo)",
+"Erro do laboratório",
+"Metanol"
+],
+"gab": 2,
+"com": "Propilenoglicol → lactato e gap osmolar; trocar a medicação; diálise se grave.",
+"porque": [
+"Não explica o gap osmolar.",
+"Não explica gap osmolar.",
+"Correta.",
+"Coerente com a exposição.",
+"Sem exposição."
+],
+"pega": "Também com diazepam e fenobarbital IV em altas doses.",
+"id": "QG097"
+},
+{
+"tema": "Casos de UTI",
+"enun": "Pré-eclâmpsia em MgSO₄: reflexos abolidos, FR 8, PaCO₂ 58. Conduta imediata:",
+"alts": [
+"Suspender MgSO₄ e gluconato de cálcio 1 g IV + suporte ventilatório",
+"Bicarbonato",
+"Furosemida isolada",
+"Naloxona",
+"Aumentar MgSO₄"
+],
+"gab": 0,
+"com": "Hipermagnesemia: cálcio antagoniza; suporte ventilatório; diálise se IRA.",
+"porque": [
+"Correta.",
+"Sem indicação.",
+"Insuficiente.",
+"Sem indicação.",
+"Agrava."
+],
+"pega": "Vigiar reflexo patelar, FR e diurese.",
+"id": "QG098"
+},
+{
+"tema": "Método e fórmulas",
+"enun": "Erro pré-analítico que tipicamente produz PaO₂ ~150 e PaCO₂ falsamente baixa:",
+"alts": [
+"Hemólise",
+"Excesso de heparina",
+"Leucocitose extrema",
+"Bolha de ar na seringa",
+"Demora na análise sem gelo"
+],
+"gab": 3,
+"com": "O ar da bolha (PO₂ ~150, PCO₂ ~0) equilibra com o sangue.",
+"porque": [
+"Afeta K⁺.",
+"Dilui (↓PaCO₂ e ↓HCO₃⁻), não eleva PaO₂.",
+"Reduz PaO₂.",
+"Correta.",
+"Reduz PaO₂ (consumo)."
+],
+"pega": "A-a negativo = laudo impossível.",
+"id": "QG099"
+},
+{
+"tema": "Método e fórmulas",
+"enun": "Hipotermia terapêutica (33 °C): como interpretar a gasometria para ajustar a VM no adulto?",
+"alts": [
+"Ignorar a gasometria na hipotermia",
+"Multiplicar a PaCO₂ por 0,8",
+"Usar os valores medidos a 37 °C (alfa-stat)",
+"Corrigir pela temperatura (pH-stat) e ventilar para PaCO₂ 40 corrigida",
+"Usar apenas a capnografia"
+],
+"gab": 2,
+"com": "Alfa-stat (valores a 37 °C) é o padrão no adulto: preserva autorregulação e função enzimática.",
+"porque": [
+"Errado.",
+"Sem base.",
+"Correta.",
+"pH-stat é usado em cirurgia cardíaca pediátrica.",
+"Gap EtCO₂ pode ser grande."
+],
+"pega": "Não 'corrija' PaCO₂ pela temperatura para a VM.",
+"id": "QG100"
+}
+]
