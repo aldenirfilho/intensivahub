@@ -1,0 +1,198 @@
+{
+"formato": "codice360x-v1",
+"baralho": "📰 Jornal 360 · Pílulas do Dia::16/11/2026 · nº 011 · O choque que não responde",
+"cards": [
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🏆 TEMI</div>Choque séptico: qual o alvo inicial de PAM e o que o SEPSISPAM mostrou sobre PAM 80–85?",
+"verso": "PAM inicial de <b>65 mmHg</b>, reavaliando perfusão (enchimento capilar, lactato, diurese, consciência).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "PAM de 80–85 para todos &lt;b&gt;não&lt;/b&gt; reduziu mortalidade (SEPSISPAM).",
+"fonte": "SSC 2021 · Asfar P, SEPSISPAM, NEJM 2014 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🏆 TEMI</div>Qual a 1ª droga vasoativa no choque séptico e posso iniciar por veia periférica?",
+"verso": "<b>Noradrenalina</b>. Se o acesso central atrasa, comece em veia periférica calibrosa, acima do punho, vigiando extravasamento.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Não espere o cateter central nem “terminar o volume” para iniciar.",
+"fonte": "Evans L et al. SSC 2021 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🏆 TEMI</div>Quando associar vasopressina no choque séptico e em que dose?",
+"verso": "<b>0,03 U/min</b>, dose fixa, em vez de escalar a noradrenalina, em geral quando ela passa de <b>0,25–0,5 µg/kg/min</b>.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Vasopressina não se titula como a noradrenalina.",
+"fonte": "SSC 2021 · Russell JA, VASST, NEJM 2008 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🏆 TEMI</div>Por que a dopamina não é 1ª linha no choque?",
+"verso": "No <b>SOAP II</b>, mais arritmias com dopamina: <b>24,1% × 12,4%</b> com noradrenalina.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Disfunção cardíaca com hipoperfusão: dobutamina ou adrenalina, não dopamina de rotina.",
+"fonte": "De Backer D, SOAP II, NEJM 2010 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🏆 TEMI</div>Quando iniciar hidrocortisona no choque séptico e em que dose?",
+"verso": "<b>200 mg/dia</b> (50 mg de 6/6 h) se noradrenalina ou adrenalina <b>≥ 0,25 µg/kg/min por ≥ 4 h</b>.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Não precisa dosar cortisol nem fazer teste do ACTH antes.",
+"fonte": "Evans L et al. SSC 2021 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🏆 TEMI</div>Angiotensina II no choque vasoplégico refratário: o que o ATHOS-3 mostrou?",
+"verso": "Resposta da PAM em <b>69,9% × 23,4%</b> (placebo), <b>sem</b> ganho de sobrevida comprovado.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "É opção de exceção, não rotina.",
+"fonte": "Khanna A, ATHOS-3, NEJM 2017 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"TEMI"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🩺 R3</div>Suspeita de crise adrenal: qual a conduta inicial?",
+"verso": "<b>Hidrocortisona 100 mg IV em bolus</b>, depois 200 mg/24 h; <b>1 L de soro na 1ª hora</b>; glicose se hipoglicemia.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Nunca espere o cortisol para tratar: colha cortisol e ACTH antes só se não atrasar.",
+"fonte": "Bornstein SR, Endocrine Society 2016 · Rushworth RL, NEJM 2019 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🩺 R3</div>Qual a causa mais comum de crise adrenal na enfermaria?",
+"verso": "<b>Suspensão do corticoide de uso crônico</b> (insuficiência adrenal secundária/terciária).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Gatilhos: infecção, cirurgia, vômitos, corticoide suspenso.",
+"fonte": "Bornstein SR, Endocrine Society 2016 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🩺 R3</div>Hipercalemia e escurecimento da pele na insuficiência adrenal sugerem qual tipo?",
+"verso": "<b>Primária</b> (ACTH alto, falta de aldosterona) — manutenção inclui <b>fludrocortisona</b>.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Na secundária a aldosterona é preservada: potássio normal.",
+"fonte": "Bornstein SR, Endocrine Society 2016 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🩺 R3</div>Como confirmar insuficiência adrenal depois de estabilizar?",
+"verso": "Cortisol matinal <b>< 5 µg/dL</b> sugere; teste com <b>cosintropina 250 µg</b> com pico <b>< 18 µg/dL</b> confirma.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Ensaios novos usam cortes menores: confira o do seu laboratório.",
+"fonte": "Bornstein SR, Endocrine Society 2016 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🩺 R3</div>Regra do dia de doença na insuficiência adrenal em uso de hidrocortisona de manutenção:",
+"verso": "Manutenção 15–25 mg/dia em 2–3 tomadas; na febre, <b>dobrar ou triplicar</b>; se vomitar, <b>injeção</b>. Cartão de alerta.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Hidrocortisona &gt; 50 mg/dia já cobre o efeito mineralocorticoide.",
+"fonte": "Bornstein SR, Endocrine Society 2016 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"R3"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🔊 POCUS</div>POCUS: o que sugere EPSS &gt; 7 mm no paraesternal longo?",
+"verso": "<b>Fração de ejeção reduzida</b> (EPSS = distância entre o folheto anterior da mitral e o septo).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Estenose mitral e insuficiência aórtica alteram o EPSS; a estimativa é qualitativa.",
+"fonte": "McKaigney CJ, Am J Emerg Med 2014 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"POCUS"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🔊 POCUS</div>POCUS no choque: paredes do VE quase se tocam na sístole. O que pensar?",
+"verso": "VE <b>hiperdinâmico</b>: falta de volume ou vasoplegia.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Classifique em 30 s: hiperdinâmico, normal, reduzido ou muito reduzido.",
+"fonte": "Via G, J Am Soc Echocardiogr 2014 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"POCUS"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🫀 ECG</div>Taquicardia regular a ~150 bpm sem P clara: qual o diagnóstico até prova em contrário?",
+"verso": "<b>Flutter atrial com condução 2:1</b> (ondas F ~300/min, negativas em DII, DIII e aVF).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Manobra vagal ou adenosina revelam as ondas F, mas não revertem o flutter. Anticoagulação segue a lógica da FA.",
+"fonte": "ESC 2019 (TSV) · ESC 2024 (FA) · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"ECG"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🫁 VM</div>VM em volume controlado: como calcular complacência estática e resistência?",
+"verso": "<b>Cst = VC ÷ (platô − PEEP)</b>; <b>R = (pico − platô) ÷ fluxo</b>. Ex.: VC 420, platô 26, PEEP 10 → 26 mL/cmH₂O.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Exige fluxo constante e pausa inspiratória de 0,5 s.",
+"fonte": "Hess DR, Respir Care 2014 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"VM"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 16/11/2026 · 🫁 VM</div>Pico sobe e platô não × pico e platô sobem juntos: o que cada padrão indica?",
+"verso": "Só o pico: <b>via aérea</b> (broncoespasmo, secreção, tubo dobrado ou mordido). Pico e platô: <b>pulmão ou tórax</b> (SDRA, pneumotórax, intubação seletiva, abdome distendido).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-16/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Pneumotórax eleva o platô, não só o pico.",
+"fonte": "Hess DR, Respir Care 2014 · Pílulas do Dia, Jornal Diário 360 (16/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-16",
+"VM"
+]
+}
+]
+}
