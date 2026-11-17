@@ -1,0 +1,92 @@
+{
+ "data": "2026-11-17",
+ "numero": 12,
+ "tema": "Gasometria e VNI na véspera do Dia Mundial da DPOC",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-17/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "Acidose respiratória aguda: quanto sobe o HCO₃⁻ a cada 10 mmHg de PaCO₂?",
+   "Cerca de 1 mEq/L.",
+   "Na crônica, sobe 3,5–4: HCO₃⁻ entre os dois = crônica agudizada.",
+   "Berend K et al., NEJM 2014"
+  ],
+  [
+   "TEMI",
+   "Como corrigir o ânion gap pela albumina?",
+   "Somar 2,5 para cada 1 g/dL de albumina abaixo de 4.",
+   "Hipoalbuminemia esconde o AG alto no paciente crítico.",
+   "Berend K et al., NEJM 2014"
+  ],
+  [
+   "TEMI",
+   "Delta-delta (ΔAG ÷ ΔHCO₃⁻) acima de 2 sugere o quê?",
+   "Alcalose metabólica associada à acidose com AG alto.",
+   "Abaixo de 1 sugere acidose hiperclorêmica associada.",
+   "Berend K et al., NEJM 2014"
+  ],
+  [
+   "TEMI",
+   "BICARICU-2: o que o bicarbonato fez na acidemia grave (pH ≤ 7,20) com LRA KDIGO 2–3?",
+   "Reduziu diálise (35% × 50%), sem mudar óbito em 90 dias (62,1% × 61,7%).",
+   "O benefício de mortalidade do subgrupo do BICAR-ICU não se confirmou.",
+   "Jung B et al., JAMA 2025"
+  ],
+  [
+   "TEMI",
+   "Fórmula de Winter?",
+   "PaCO₂ esperada = 1,5 × HCO₃⁻ + 8 ± 2.",
+   "Fora da faixa = distúrbio respiratório associado.",
+   "Berend K et al., NEJM 2014"
+  ],
+  [
+   "R3",
+   "Alvo de SpO₂ na DPOC exacerbada?",
+   "88–92%.",
+   "O₂ em excesso no retentor eleva a PaCO₂.",
+   "GOLD 2026"
+  ],
+  [
+   "R3",
+   "Corticoide sistêmico na DPOC exacerbada: dose e duração?",
+   "Prednisona 40 mg/dia por 5 dias.",
+   "14 dias não é melhor que 5 (REDUCE: 35,9% × 36,8%).",
+   "Leuchs JC et al., JAMA 2013; GOLD 2026"
+  ],
+  [
+   "R3",
+   "Quando dar antibiótico na DPOC exacerbada?",
+   "Escarro purulento + aumento da dispneia ou do volume do escarro, ou necessidade de ventilação; 5–7 dias.",
+   "Não é para todos: a purulência é o sinal que mais pesa.",
+   "GOLD 2026"
+  ],
+  [
+   "POCUS",
+   "Protocolo BLUE: perfil A com TVP sugere o quê?",
+   "Tromboembolismo pulmonar.",
+   "Perfil A sem TVP e sem consolidação posterior sugere DPOC ou asma.",
+   "Lichtenstein DA, Mezière GA, Chest 2008"
+  ],
+  [
+   "POCUS",
+   "Perfil B no BLUE (linhas B difusas com deslizamento)?",
+   "Edema pulmonar cardiogênico.",
+   "Linhas B difusas sem deslizamento apontam para pneumonia.",
+   "Lichtenstein DA, Mezière GA, Chest 2008"
+  ],
+  [
+   "ECG",
+   "Sequência clássica da hipercalemia no ECG?",
+   "T em tenda → PR longo e P achatada → QRS largo → padrão senoidal.",
+   "ECG normal não descarta hipercalemia.",
+   "Littmann L, Gibbs MA, Cleve Clin J Med 2018"
+  ],
+  [
+   "VM",
+   "Indicação clássica de VNI na DPOC exacerbada?",
+   "Acidose respiratória: pH ≤ 7,35 com PaCO₂ > 45.",
+   "Hipercapnia com pH normal não indica VNI; reavaliar gasometria em 1–2 h.",
+   "Rochwerg B et al., Eur Respir J 2017"
+  ]
+ ]
+}
