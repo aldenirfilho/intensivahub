@@ -442,19 +442,30 @@ html.light .pill.cfPill{color:#996b00}
 .credAutor{margin-top:8px;padding-top:8px;border-top:1px dashed rgba(212,175,55,.35);color:var(--mut)}.credAutor a{color:var(--gold2,#e7c66a);font-weight:600}
 
 /* 🔍 AUDITORIA 360X */
-#v-auditoria .auGrid,#v-paradoxos .auGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-#v-auditoria .auCard,#v-paradoxos .auCard{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--gold2,#e7c66a);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:8px}
-#v-auditoria .auCard.uti,#v-paradoxos .auCard.uti{border-top-color:#5fd3dc}#v-auditoria .auCard.coisas{border-top-color:#9bd36a}
-#v-auditoria .auCard h3,#v-paradoxos .auCard h3{margin:0;font-size:17px}
-#v-auditoria .auCard p,#v-auditoria li,#v-paradoxos .auCard p,#v-paradoxos li{color:var(--mut);font-size:14px;line-height:1.5;margin:0}
-#v-auditoria .auCard ul,#v-paradoxos .auCard ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px}
-#v-auditoria .auKpi,#v-paradoxos .auKpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
-#v-auditoria .auKpi div,#v-paradoxos .auKpi div{border:1px solid var(--line);border-radius:10px;padding:8px 10px}
-#v-auditoria .auKpi b,#v-paradoxos .auKpi b{display:block;font-size:17px;color:var(--gold2,#e7c66a)}
-#v-auditoria .auKpi span,#v-paradoxos .auKpi span{font-size:12px;color:var(--mut)}
-#v-auditoria .auAx,#v-paradoxos .auAx{border-left:3px solid var(--gold2,#e7c66a);padding:6px 12px;font-style:italic}
-#v-auditoria .auLinks,#v-paradoxos .auLinks{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
-#v-auditoria .auLinks a,#v-paradoxos .auLinks a{text-decoration:none}
+#v-auditoria .auGrid,#v-inexoravel .auGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+#v-auditoria .auCard,#v-inexoravel .auCard{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--gold2,#e7c66a);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:8px}
+#v-auditoria .auCard.uti,#v-inexoravel .auCard.uti{border-top-color:#5fd3dc}#v-auditoria .auCard.coisas{border-top-color:#9bd36a}
+#v-auditoria .auCard h3,#v-inexoravel .auCard h3{margin:0;font-size:17px}
+#v-auditoria .auCard p,#v-auditoria li,#v-inexoravel .auCard p,#v-inexoravel li{color:var(--mut);font-size:14px;line-height:1.5;margin:0}
+#v-auditoria .auCard ul,#v-inexoravel .auCard ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px}
+#v-auditoria .auKpi,#v-inexoravel .auKpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+#v-auditoria .auKpi div,#v-inexoravel .auKpi div{border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+#v-auditoria .auKpi b,#v-inexoravel .auKpi b{display:block;font-size:17px;color:var(--gold2,#e7c66a)}
+#v-auditoria .auKpi span,#v-inexoravel .auKpi span{font-size:12px;color:var(--mut)}
+#v-auditoria .auAx,#v-inexoravel .auAx{border-left:3px solid var(--gold2,#e7c66a);padding:6px 12px;font-style:italic}
+#v-auditoria .auLinks,#v-inexoravel .auLinks{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+#v-auditoria .auLinks a,#v-inexoravel .auLinks a{text-decoration:none}
+
+/* ⚖️ SESSÃO INEXORÁVEL */
+#v-inexoravel .inxH{font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold2,#e7c66a);margin:18px 0 8px}
+#v-inexoravel .inxBars{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+#v-inexoravel .inxBars li{display:grid;grid-template-columns:minmax(0,9.5rem) minmax(0,1fr);gap:8px;align-items:center;font-size:13px}
+#v-inexoravel .inxBars i{display:inline-block;height:12px;border-radius:0 4px 4px 0;background:var(--gold2,#e7c66a);vertical-align:middle;margin-right:6px}
+#v-inexoravel .inxBars i.g{background:#7fd9a3}#v-inexoravel .inxBars i.r{background:#ff8a7a}
+#v-inexoravel table{width:100%;border-collapse:collapse;font-size:13px}#v-inexoravel th,#v-inexoravel td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+#v-inexoravel thead th{color:var(--gold2,#e7c66a);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+#v-inexoravel details{border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin-bottom:8px;background:var(--panel)}
+#v-inexoravel summary{cursor:pointer;font-weight:600}#v-inexoravel details p{margin:6px 0 0;color:var(--mut);font-size:14px}
 </style>
 </head>
 <body>
@@ -477,7 +488,7 @@ html.light .pill.cfPill{color:#996b00}
   <a href="#mnemonicos" data-v="mnemonicos">🧠 Mnemônicos</a>
   <a href="#honra" data-v="honra">🕊️ Honra</a>
   <a href="#auditoria" data-v="auditoria">🔍 Auditoria</a>
-  <a href="#paradoxos" data-v="paradoxos">⚖️ Paradoxos</a>
+  <a href="#inexoravel" data-v="inexoravel">⚖️ Inexorável</a>
   <a href="#jornada" data-v="jornada">🏆 Jornada</a>
   <a href="#buscar" data-v="buscar">🔎 Buscar</a>
   <a href="#importar" data-v="importar">📥 Importar</a>
@@ -602,8 +613,8 @@ html.light .pill.cfPill{color:#996b00}
 </section>
 
 <!-- ⚖️ PARADOXOS INEXORÁVEIS -->
-<section class="view" id="v-paradoxos">
- <h2>⚖️ Paradoxos Inexoráveis</h2>
+<section class="view" id="v-inexoravel">
+ <h2>⚖️ Sessão Inexorável · Paradoxos Inexoráveis</h2>
  <div class="panel"><p style="margin:0"><b>O tamanho dos recursos. O valor das escolhas.</b> Estudo propositivo do Projeto 360X: quanto custaria levar UTI e cuidado ao neurodesenvolvimento perto de casa, comparado ao que o mundo gasta com defesa, mercados e memória RAM.</p>
  <div class="auLinks" style="margin-top:10px"><a class="btn gold sm" href="https://aldenirfilho.github.io/PARADOXOS-INEXORAVEIS/" target="_blank" rel="noopener">🌐 Abrir o site completo</a><a class="btn sm" href="https://aldenirfilho.github.io/PARADOXOS-INEXORAVEIS/#simulador" target="_blank" rel="noopener">🎛️ Simulador de cenários</a><a class="btn cy sm" href="https://aldenirfilho.github.io/PARADOXOS-INEXORAVEIS/preco-do-medo/" target="_blank" rel="noopener">🛡️ O Preço do Medo</a><a class="btn sm" href="https://aldenirfilho.github.io/PARADOXOS-INEXORAVEIS/preco-do-medo/o-preco-do-medo.pdf" target="_blank" rel="noopener">📄 PDF</a><a class="btn sm" href="https://github.com/aldenirfilho/PARADOXOS-INEXORAVEIS" target="_blank" rel="noopener">📂 Repositório</a></div></div>
  <div class="auGrid">
@@ -659,6 +670,29 @@ html.light .pill.cfPill{color:#996b00}
    <div class="auLinks"><a class="btn gold sm" href="https://aldenirfilho.github.io/PARADOXOS-INEXORAVEIS/preco-do-medo/" target="_blank" rel="noopener">Abrir o dossiê</a></div>
   </article>
  </div>
+ <h3 class="inxH">🛡️ O Preço do Medo · defesa × humanidade e natureza</h3>
+ <div class="auGrid">
+  <article class="auCard"><h3>💰 Os 10 que mais gastam (2025)</h3><ul class="inxBars"><li><span>🇺🇸 EUA</span><span><i class="" style="width:70.0%"></i>US$ 954 bi</span></li><li><span>🇨🇳 China</span><span><i class="" style="width:24.7%"></i>US$ 336 bi</span></li><li><span>🇷🇺 Rússia</span><span><i class="" style="width:13.9%"></i>US$ 190 bi</span></li><li><span>🇩🇪 Alemanha</span><span><i class="" style="width:8.4%"></i>US$ 114 bi</span></li><li><span>🇮🇳 Índia</span><span><i class="" style="width:6.8%"></i>US$ 92,1 bi</span></li><li><span>🇬🇧 Reino Unido</span><span><i class="" style="width:6.5%"></i>US$ 89 bi</span></li><li><span>🇺🇦 Ucrânia</span><span><i class="" style="width:6.2%"></i>US$ 84,1 bi</span></li><li><span>🇸🇦 Arábia Saudita</span><span><i class="" style="width:6.1%"></i>US$ 83,2 bi</span></li><li><span>🇫🇷 França</span><span><i class="" style="width:5.0%"></i>US$ 68 bi</span></li><li><span>🇯🇵 Japão</span><span><i class="" style="width:4.6%"></i>US$ 62,2 bi</span></li></ul><p>Mundo: <b>US$ 2,887 tri</b>. EUA, China e Rússia somam 51%.</p></article>
+  <article class="auCard uti"><h3>☢️ Ogivas nucleares (jan/2026)</h3><table><thead><tr><th>País</th><th>Ogivas</th><th>Instaladas</th></tr></thead><tbody><tr><td>🇷🇺 Rússia</td><td>5.420</td><td>1.796</td></tr><tr><td>🇺🇸 EUA</td><td>5.042</td><td>1.770</td></tr><tr><td>🇨🇳 China</td><td>620</td><td>34</td></tr><tr><td>🇫🇷 França</td><td>370</td><td>280</td></tr><tr><td>🇬🇧 Reino Unido</td><td>225</td><td>120</td></tr><tr><td>🇮🇳 Índia</td><td>190</td><td>12</td></tr><tr><td>🇵🇰 Paquistão</td><td>170</td><td>—</td></tr><tr><td>🇮🇱 Israel*</td><td>90</td><td>—</td></tr><tr><td>🇰🇵 Coreia do Norte</td><td>60</td><td>—</td></tr><tr><td><b>Mundo</b></td><td><b>12.187</b></td><td><b>4.012</b></td></tr></tbody></table><p style="font-size:12px">*Israel nunca confirmou. Fonte: SIPRI Yearbook 2026.</p></article>
+ </div>
+ <h3 class="inxH">🔭 As quatro lentes</h3>
+ <div class="auKpi">
+  <div><b>💰 Ricos</b><span>gastam muito em dinheiro, pouco em % do PIB (1,4% a 3,1%)</span></div>
+  <div><b>🗺️ Território</b><span>o Canadá, 2º maior país, gasta 26× menos que os EUA</span></div>
+  <div><b>👥 População</b><span>EUA ≈ US$ 2.800 por pessoa; Índia ≈ US$ 63; Nigéria &lt; US$ 10</span></div>
+  <div><b>🔥 Conflito</b><span>os mais violentos são os que menos gastam (Nigéria: US$ 2,1 bi)</span></div>
+ </div>
+ <p class="auAx">O gasto militar acompanha poder e medo, não tamanho, população ou sofrimento.</p>
+ <h3 class="inxH">⚔️ Polêmicas de 2026</h3>
+ <details><summary>💵 EUA pedem US$ 1,5 tri para 2027</summary><p>+44% sobre 2026, ainda no Congresso. A favor: guerra com o Irã e competição com a China. Contra: dívida e cortes em programas civis.</p></details><details><summary>🇪🇺 OTAN: 5% do PIB até 2035</summary><p>3,5% em defesa pura + 1,5% em infraestrutura e preparo civil. A Espanha ficou de fora. Risco: o dinheiro sai de saúde e previdência.</p></details><details><summary>☢️ Fim do New START (05/02/2026)</summary><p>EUA e Rússia ficaram sem teto legal de ogivas pela primeira vez desde 1972, e sem inspeções.</p></details><details><summary>🇨🇳 Opacidade da China e silêncio de Israel</summary><p>O gasto chinês é estimativa; Israel nunca confirmou a bomba. Sem transparência não há controle.</p></details><details><summary>🇳🇬 A conta que não fecha</summary><p>Nigéria e Brasil estão entre os mais violentos do mundo e gastam pouco em defesa: o problema é crime organizado, não exército inimigo.</p></details><details><summary>📚 37 horas</summary><p>Segundo a UNESCO, o mundo gasta com militares em 37 horas o que dá à educação em ajuda durante um ano inteiro.</p></details>
+ <h3 class="inxH">🌱 E se o dinheiro do medo virasse ajuda?</h3>
+ <div class="panel"><ul class="inxBars"><li><span>🍞 Meta contra a fome</span><span><i class="g" style="width:0.8%"></i>US$ 33 bi · 4 dias</span></li><li><span>📚 Educação básica (países pobres)</span><span><i class="g" style="width:2.4%"></i>US$ 97 bi · 12 dias</span></li><li><span>🚰 Água e saneamento</span><span><i class="g" style="width:2.8%"></i>US$ 114 bi · 14 dias</span></li><li><span>🏥 Rede UTI do Paradoxos (1 ano)</span><span><i class="g" style="width:4.0%"></i>US$ 164 bi · 21 dias</span></li><li><span>🌿 Meta de biodiversidade</span><span><i class="g" style="width:4.8%"></i>US$ 200 bi · 25 dias</span></li><li><span>🌎 Meta climática (COP29)</span><span><i class="g" style="width:7.3%"></i>US$ 300 bi · 38 dias</span></li><li><span>🪖 Gasto militar mundial 2025</span><span><i class="r" style="width:70.0%"></i>US$ 2887 bi · 365 dias</span></li></ul><p style="margin-top:8px"><b>1,2%</b> do gasto militar mundial paga a meta contra a fome. <b>26%</b> pagaria fome, educação, água, biodiversidade e clima juntos.</p></div>
+ <h3 class="inxH">🕊️ Um país de paz</h3>
+ <div class="auGrid">
+  <article class="auCard coisas"><h3>🇨🇷 Costa Rica, 1948</h3><p>Aboliu o exército após uma guerra civil e levou o dinheiro para educação, saúde e natureza. Em 1989 o Panamá fez o mesmo, criando uma fronteira sem militares.</p></article>
+  <article class="auCard"><h3>🇧🇷 E o Brasil?</h3><p>Defesa: <b>R$ 135,9 bi</b> em 2026, mas cerca de <b>3/4 é pessoal</b>, com grande parte em aposentadorias e pensões. A parte de custeio e investimento (≈ R$ 34 bi em 2027) pagaria a obra da rede brasileira do Paradoxos (R$ 24,8 bi) em um ano.</p></article>
+ </div>
+ <div class="auLinks" style="margin-top:10px"><a class="btn gold sm" href="https://aldenirfilho.github.io/PARADOXOS-INEXORAVEIS/preco-do-medo/" target="_blank" rel="noopener">🛡️ Dossiê completo</a><a class="btn sm" href="https://aldenirfilho.github.io/PARADOXOS-INEXORAVEIS/preco-do-medo/o-preco-do-medo-pais-de-paz.pdf" target="_blank" rel="noopener">📄 PDF detalhado · País de Paz</a></div>
  <div class="foot">Paradoxos Inexoráveis · idealização de Aldenir Rocha de Oliveira Filho · Projeto 360X Brasil · edição de 22/10/2026 · cenários ilustrativos, não auditoria nem recomendação de investimento.</div>
 </section>
 

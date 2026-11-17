@@ -3190,7 +3190,7 @@ function rerender() {
   if (v === "inicio" || !v) refreshHome(); else if (v === "buscar") search(); else if (v === "ajustes") fillSettings();
 }
 function route() {
-  const v = (location.hash || "#inicio").slice(1), valid = ["inicio", "estudar", "questoes", "micro", "mnemonicos", "honra", "auditoria", "paradoxos", "gaso", "jornada", "buscar", "importar", "prompt", "ajustes"], view = valid.includes(v) ? v : "inicio";
+  const v0 = (location.hash || "#inicio").slice(1), v = v0 === "paradoxos" ? "inexoravel" : v0, valid = ["inicio", "estudar", "questoes", "micro", "mnemonicos", "honra", "auditoria", "inexoravel", "gaso", "jornada", "buscar", "importar", "prompt", "ajustes"], view = valid.includes(v) ? v : "inicio";
   $$(".view").forEach(s => s.classList.toggle("on", s.id === "v-" + view));
   $$("#nav a").forEach(a => a.classList.toggle("on", a.dataset.v === view));
   { const nav = $("#nav"), on = $("#nav a.on"); if (nav && on && nav.scrollWidth > nav.clientWidth + 1) nav.scrollLeft += on.getBoundingClientRect().left - nav.getBoundingClientRect().left - (nav.clientWidth - on.offsetWidth) / 2; }   // aba ativa sempre visível no celular
