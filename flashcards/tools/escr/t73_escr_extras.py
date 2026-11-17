@@ -17,7 +17,7 @@ with sync_playwright() as p:
         ctx = br.new_context(viewport=vp); pg = ctx.new_page(); errs = []
         pg.on("pageerror", lambda e: errs.append(str(e)))
         pg.goto(BASE + "index.html#inicio"); pg.wait_for_function("S && S.cards && S.cards.length>1000", timeout=120000)
-        chk(pg.evaluate("APP_VERSION") == "4.18.1", f"{T} versão 4.18.1")
+        chk(pg.evaluate("APP_VERSION") == "4.22.0", f"{T} versão 4.22.0")
         chk(pg.locator("#homeFoot a[href='autor/mapa-axiomas.html']").count() == 1 and pg.locator("#homeFoot a[href='autor/axiomas-360x.html#leitor']").count() == 1, f"{T} rodapé com links do audiolivro e do mapa")
         pg.evaluate("location.hash='#estudar'"); pg.wait_for_timeout(300)
         for num, marca in [("01", "conferido no texto-fonte: Bíblia Almeida"), ("09", "Helmi Nasr"), ("08", "Sefaria"), ("14", "revisado sem o texto-fonte")]:

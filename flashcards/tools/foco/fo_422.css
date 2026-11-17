@@ -1,0 +1,51 @@
+/* ⏳ FOCO 360X (4.22.0) */
+.foBar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:6px -2px 8px;padding:6px 10px;border:1px solid var(--cy);border-radius:12px;background:#0f1d27;font-size:14px}
+.foBar[hidden]{display:none}
+.foBar .btn{padding:5px 10px;font-size:13px}
+.foBar .foClk{color:var(--txt);text-decoration:none;white-space:nowrap}.foBar .foClk b{font:700 17px Inter;color:var(--gold2);font-variant-numeric:tabular-nums}
+.foBar .foNm{color:var(--mut);min-width:0;flex:1 1 120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.foBar .foSt{color:var(--mut);white-space:nowrap;font-size:13px}
+.foBar.out{border-color:var(--amb);background:#2a2110}.foBar.ck{border-color:var(--gold2);background:#262010}.foBar.pz{border-color:var(--line)}.foBar.brk{border-color:var(--grn);background:#10241a}
+.foNote{position:fixed;left:50%;bottom:calc(84px + var(--safe-b));transform:translateX(-50%);z-index:70;width:min(520px,94vw);background:var(--panel);border:1px solid var(--gold2);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:8px;box-shadow:0 10px 40px #000a}
+.foNote[hidden]{display:none}.foNote small{color:var(--mut)}
+.foNote input,.foCard input,.foCard select{background:#0b1017;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:9px 10px;font:15px Inter;min-width:0}
+.foHead .foTop{display:flex;gap:12px;align-items:center}.foBig{font-size:34px}.foSub{color:var(--mut)}
+.foLad{display:flex;gap:4px;flex-wrap:wrap;margin:12px 0 4px}
+.foStep{min-width:34px;text-align:center;padding:4px 6px;border-radius:8px;border:1px solid var(--line);color:var(--mut);font:700 13px Inter}
+.foStep.ok{background:#14301f;border-color:var(--grn);color:var(--grn)}.foStep.cur{background:linear-gradient(90deg,var(--gold),var(--gold2));color:#14100a;border:0}
+.foKpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-top:10px}
+.foKpi div{border:1px solid var(--line);border-radius:10px;padding:8px 10px;display:flex;flex-direction:column;gap:3px}
+.foKpi b{font-size:18px;color:var(--gold2)}.foKpi span{font-size:12px;color:var(--mut)}
+.foCard h3{margin:0 0 8px}.foCard h4{margin:14px 0 6px;color:var(--gold2)}
+.foChips{display:flex;flex-wrap:wrap;gap:6px}
+.foChips .btn.x{border-style:dashed}
+.foOpt.on{border-color:var(--cy);background:#0f3442}
+.foRit{display:flex;flex-direction:column;gap:6px}
+.foChk{appearance:none;text-align:left;border:1px solid var(--line);background:#141c26;color:var(--txt);border-radius:10px;padding:8px 10px;font:14px Inter;cursor:pointer}
+.foChk::before{content:"☐ ";color:var(--mut)}.foChk.on{border-color:var(--grn);background:#12261b}.foChk.on::before{content:"☑ ";color:var(--grn)}
+.foLbl{display:flex;flex-direction:column;gap:4px;margin-top:10px;font-size:14px;color:var(--mut)}
+.foResp{display:inline-block;padding:6px 12px;border-radius:20px;font-size:14px;transition:transform 4s ease,background 1s}
+.foResp:empty{display:none}.foResp.in{background:#0f3442;transform:scale(1.15)}.foResp.out{background:#1b2330;transform:scale(.92);transition-duration:6s}.foResp.ok{background:#12261b;color:var(--grn)}
+.foGo{width:100%;justify-content:center;font-size:18px;padding:14px;margin:4px 0 12px}
+.foRun{display:flex;gap:18px;align-items:center;flex-wrap:wrap}.foRun.out{border-color:var(--amb)}
+.foRing{position:relative;width:min(220px,62vw);aspect-ratio:1;flex:none;margin:0 auto}
+.foRing svg{width:100%;height:100%;transform:rotate(-90deg)}
+.foRing circle{fill:none;stroke-width:9}.foRing .bg{stroke:#1f2a37}.foRing .fg{stroke:var(--gold2);stroke-linecap:round;transition:stroke-dashoffset 1s linear}
+.foRingT{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.foRingT b{font:700 40px Inter;color:var(--gold2);font-variant-numeric:tabular-nums}.foRingT small{color:var(--mut)}
+.foInfo{flex:1 1 260px;min-width:0}.foAnc{font-size:19px;font-weight:700}.foMeta{color:var(--mut);margin-top:4px}
+.foLive{margin-top:6px;font-size:14px}
+.foXp{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.foXp span{border:1px solid var(--line);border-radius:20px;padding:4px 10px;font-size:13px}.foXp .tot{border-color:var(--gold2);color:var(--gold2)}
+.foTip{border-left:3px solid var(--cy);padding:6px 12px;background:#0f1620;border-radius:0 10px 10px 0}
+.foList{margin:6px 0;padding-left:20px;display:flex;flex-direction:column;gap:6px;line-height:1.5}.foList small{color:var(--mut)}
+.foList.refs{font-size:13px;color:var(--mut)}.foList.refs a{color:var(--cy)}
+.foPk{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.foPk li{display:flex;gap:8px;align-items:center;flex-wrap:wrap;border:1px solid var(--line);border-radius:10px;padding:6px 10px}
+.foPk li span{flex:1 1 180px;min-width:0;overflow-wrap:anywhere}.foPk li small{color:var(--mut)}.foPk li.ok span{text-decoration:line-through;color:var(--mut)}
+.foBars{display:flex;flex-direction:column;gap:5px}
+.foBarR{display:grid;grid-template-columns:44px minmax(0,1fr) 62px;gap:8px;align-items:center;font-size:12px;color:var(--mut)}
+.foBarR .pl{display:block;height:12px;border-radius:6px;background:#1f2a37;overflow:hidden}
+.foBarR .no{display:block;height:100%;background:var(--cy)}.foBarR .no.cl{background:var(--grn)}.foBarR .no.tr{background:var(--amb)}
+.foBarR b{color:var(--txt);text-align:right}
+.btn.red{border-color:var(--red);color:var(--red)}
+@media (max-width:560px){.foBar .foNm{flex-basis:100%;order:5}.foRingT b{font-size:34px}}
