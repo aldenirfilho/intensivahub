@@ -12,7 +12,7 @@ with sync_playwright() as p:
         pg.on("pageerror", lambda e: errs.append(str(e)))
         pg.goto(BASE + "index.html#inicio"); pg.wait_for_function("S && S.cards && S.cards.length>1000", timeout=120000)
         ev = pg.evaluate
-        chk(ev("APP_VERSION") == "4.22.0", f"{T} versão 4.22.0")
+        chk(ev("APP_VERSION") == "4.23.0", f"{T} versão 4.23.0")
         chk(pg.locator("#nav a[href='#foco']").count() == 1, f"{T} aba ⏳ Foco no menu")
         ev("location.hash='#foco'"); pg.wait_for_timeout(300)
         chk(pg.locator("[data-fobase]").count() == 7, f"{T} primeira vez: escolhe o ponto de partida")

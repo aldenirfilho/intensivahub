@@ -11,7 +11,7 @@ with sync_playwright() as p:
         pg.on("pageerror", lambda e: errs.append(str(e)))
         pg.goto(URL + "#inicio"); pg.wait_for_function("S && S.cards && S.cards.length>1000", timeout=120000)
         T = f"[{lab}]"
-        chk(pg.evaluate("APP_VERSION") == "4.22.0", f"{T} versão 4.22.0")
+        chk(pg.evaluate("APP_VERSION") == "4.23.0", f"{T} versão 4.23.0")
         col = pg.evaluate("(S.index.colecoes||[]).find(c=>c.id==='escr')")
         chk(bool(col) and col["cards"] == 1135, f"{T} coleção escr no índice com 1135 cards")
         r = pg.evaluate(f"(()=>{{const cs=S.official.filter(c=>c.deck.startsWith({ROOT!r}+'::'));return [cs.length,new Set(cs.map(c=>c.deck)).size,new Set(cs.map(c=>c.id)).size]}})()")

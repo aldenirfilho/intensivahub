@@ -396,6 +396,22 @@ html.lay-mobile .bar .cfBox .cfSt{display:none}
 .btn.red{border-color:var(--red);color:var(--red)}
 @media (max-width:560px){.foBar .foNm{flex-basis:100%;order:5}.foRingT b{font-size:34px}}
 
+/* 4.23.0 · 🎧 som de estudo */
+.ambCard .foChips .btn.live,.ambMini .btn.live,.btn.live{box-shadow:0 0 0 2px var(--cy) inset,0 0 12px rgba(77,212,255,.35)}
+.ambVolL{display:inline-flex;align-items:center;gap:8px;font-size:14px;white-space:nowrap}
+.ambVol{width:150px;accent-color:var(--gold2,#d4af37);cursor:pointer}
+.ambVolN{min-width:38px;text-align:right;font-variant-numeric:tabular-nums}
+.ambMini{margin-top:12px;padding-top:10px;border-top:1px dashed rgba(128,128,128,.35);display:flex;flex-direction:column;gap:6px}
+.ambMini .foChips .btn{min-width:40px}
+.ambNow{font-size:14px;opacity:.9}
+.ambBarB{font-size:16px;line-height:1}
+.ambT td,.ambT th{text-align:center;padding:4px 8px}
+.ambT td:first-child,.ambT th:first-child{text-align:left}
+.tblWrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ambT{width:100%;border-collapse:collapse}
+@media (max-width:600px){.ambVol{width:110px}.ambT td,.ambT th{padding:4px 4px;font-size:12.5px}}
+
+
 /*LIGHT-START*/
 html.light{--bg:#f4efe2;--bg2:#fffcf4;--panel:#ffffff;--line:#d9cfb6;--txt:#1d1a14;--mut:#5b6270;--gold:#a47b12;--gold2:#7c5a08;--cy:#0a6f93;--red:#b8322a;--grn:#17783f;--amb:#9a6200;color-scheme:light}
 html.light,html.light body{background:radial-gradient(1200px 600px at 50% -200px,#fff6dc 0%,var(--bg) 60%) fixed}
@@ -546,6 +562,7 @@ html.light .foResp.ok{background:#f5faf7}
 html.light .foRing .bg{stroke:#f2f4f7}
 html.light .foTip{background:#f6f8fa}
 html.light .foBarR .pl{background:#f2f4f7}
+html.light .ambVol{accent-color:var(--gold2,#a68824)}
 /*LIGHT-END*/
 </style>
 </head>
