@@ -1,0 +1,106 @@
+{
+ "data": "2026-11-18",
+ "numero": 13,
+ "tema": "Antibiótico com critério na abertura da Semana Mundial da Resistência aos Antimicrobianos",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "Clorexidina oral faz parte do bundle de PAV?",
+   "Não. Escovação dentária diária sem clorexidina (SHEA 2022).",
+   "A clorexidina saiu do bundle; escovar os dentes ficou.",
+   "Klompas M et al. SHEA/IDSA/APIC 2022"
+  ],
+  [
+   "TEMI",
+   "Cabeceira e pressão do cuff no ventilado?",
+   "Cabeceira 30–45°; cuff entre 20 e 30 cmH₂O.",
+   "Medir o cuff toda hora ou com aparelho automático não reduziu PAV.",
+   "Klompas M et al. SHEA 2022"
+  ],
+  [
+   "TEMI",
+   "Quando cobrir MRSA na PAV?",
+   "Antibiótico IV em 90 dias ou MRSA > 10–20% dos S. aureus da UTI (ou taxa desconhecida).",
+   "Cobrir MRSA para todos amplia espectro sem necessidade.",
+   "Kalil AC et al. IDSA/ATS 2016"
+  ],
+  [
+   "TEMI",
+   "Quando usar duas drogas antipseudomonas na PAV?",
+   "Risco de multirresistência: ATB IV em 90 d, choque séptico, SDRA prévia, ≥ 5 dias de internação, diálise aguda.",
+   "Aminoglicosídeo não serve como única droga antipseudomonas.",
+   "Kalil AC et al. IDSA/ATS 2016"
+  ],
+  [
+   "TEMI",
+   "Duração do antibiótico na PAV?",
+   "7 dias, com descalonamento pela cultura.",
+   "No PneumA, não fermentadores recorreram mais com 8 dias (40,6% × 25,4%), sem pior mortalidade.",
+   "Chastre J et al. JAMA 2003; IDSA/ATS 2016"
+  ],
+  [
+   "R3",
+   "Bacteriúria assintomática: quando tratar?",
+   "Só na gestante e antes de procedimento urológico com sangramento de mucosa.",
+   "Idoso, diabético ou sondado sem sintoma: não tratar.",
+   "Nicolle LE et al. IDSA 2019"
+  ],
+  [
+   "R3",
+   "O que torna uma ITU complicada?",
+   "Infecção além da bexiga: febre, dor lombar, obstrução, cateter, nefrostomia ou duplo J.",
+   "Ser homem, diabético ou imunossuprimido não basta.",
+   "Trautner BW et al. IDSA 2025"
+  ],
+  [
+   "R3",
+   "Duração na ITU complicada com melhora?",
+   "Quinolona 5–7 dias ou outra classe 7 dias; bacteremia Gram-negativa 7 dias.",
+   "Suspeita de prostatite aguda pode exigir 10–14 dias.",
+   "Trautner BW et al. IDSA 2025"
+  ],
+  [
+   "R3",
+   "ITU com sonda há mais de 2 semanas?",
+   "Trocar a sonda e colher a urocultura da nova.",
+   "Urina da bolsa coletora não vale.",
+   "Hooton TM et al. IDSA 2009"
+  ],
+  [
+   "POCUS",
+   "O que é o sinal da coluna?",
+   "Corpos vertebrais visíveis acima do diafragma: o líquido deixa o som passar.",
+   "Normalmente o ar do pulmão esconde a coluna acima do diafragma.",
+   "Dickman E et al. J Ultrasound Med 2015"
+  ],
+  [
+   "POCUS",
+   "Derrame septado ou ecogênico é o quê?",
+   "Exsudato: na febre, puncionar (parapneumônico complicado ou empiema).",
+   "Derrame anecoico pode ser transudato ou exsudato.",
+   "Yang PC et al. AJR 1992"
+  ],
+  [
+   "ECG",
+   "QTc que indica risco de torsades?",
+   "QTc > 500 ms ou alta ≥ 60 ms após um remédio.",
+   "Bazett superestima o QTc acima de 85 bpm: prefira Fridericia.",
+   "Drew BJ et al. AHA/ACCF 2010"
+  ],
+  [
+   "ECG",
+   "Primeira medida na torsades de pointes?",
+   "Sulfato de magnésio 2 g IV, mesmo com Mg normal; K entre 4,5 e 5,0; desfibrilar se sustentada.",
+   "Amiodarona alonga ainda mais o QT.",
+   "Drew BJ et al. AHA/ACCF 2010"
+  ],
+  [
+   "VM",
+   "Fluxo expiratório que não volta a zero?",
+   "Auto-PEEP: reduzir FR, volume ou tempo inspiratório e tratar broncoespasmo.",
+   "Em PCV o fluxo inspiratório é desacelerado; em VCV, quadrado.",
+   "Hess DR. Respir Care 2014"
+  ]
+ ]
+}

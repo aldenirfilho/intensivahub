@@ -1,0 +1,174 @@
+{
+"formato": "codice360x-v1",
+"baralho": "📰 Jornal 360 · Pílulas do Dia::18/11/2026 · nº 013 · Antibiótico com critério na abertura da Semana Mundial da Resistência aos Antimicrobianos",
+"cards": [
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🏆 TEMI</div>Clorexidina oral faz parte do bundle de PAV?",
+"verso": "Não. Escovação dentária diária sem clorexidina (SHEA 2022).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "A clorexidina saiu do bundle; escovar os dentes ficou.",
+"fonte": "Klompas M et al. SHEA/IDSA/APIC 2022 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🏆 TEMI</div>Cabeceira e pressão do cuff no ventilado?",
+"verso": "Cabeceira 30–45°; cuff entre 20 e 30 cmH₂O.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Medir o cuff toda hora ou com aparelho automático não reduziu PAV.",
+"fonte": "Klompas M et al. SHEA 2022 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🏆 TEMI</div>Quando cobrir MRSA na PAV?",
+"verso": "Antibiótico IV em 90 dias ou MRSA > 10–20% dos S. aureus da UTI (ou taxa desconhecida).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Cobrir MRSA para todos amplia espectro sem necessidade.",
+"fonte": "Kalil AC et al. IDSA/ATS 2016 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🏆 TEMI</div>Quando usar duas drogas antipseudomonas na PAV?",
+"verso": "Risco de multirresistência: ATB IV em 90 d, choque séptico, SDRA prévia, ≥ 5 dias de internação, diálise aguda.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Aminoglicosídeo não serve como única droga antipseudomonas.",
+"fonte": "Kalil AC et al. IDSA/ATS 2016 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🏆 TEMI</div>Duração do antibiótico na PAV?",
+"verso": "7 dias, com descalonamento pela cultura.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "No PneumA, não fermentadores recorreram mais com 8 dias (40,6% × 25,4%), sem pior mortalidade.",
+"fonte": "Chastre J et al. JAMA 2003; IDSA/ATS 2016 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"TEMI"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🩺 R3</div>Bacteriúria assintomática: quando tratar?",
+"verso": "Só na gestante e antes de procedimento urológico com sangramento de mucosa.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Idoso, diabético ou sondado sem sintoma: não tratar.",
+"fonte": "Nicolle LE et al. IDSA 2019 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🩺 R3</div>O que torna uma ITU complicada?",
+"verso": "Infecção além da bexiga: febre, dor lombar, obstrução, cateter, nefrostomia ou duplo J.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Ser homem, diabético ou imunossuprimido não basta.",
+"fonte": "Trautner BW et al. IDSA 2025 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🩺 R3</div>Duração na ITU complicada com melhora?",
+"verso": "Quinolona 5–7 dias ou outra classe 7 dias; bacteremia Gram-negativa 7 dias.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Suspeita de prostatite aguda pode exigir 10–14 dias.",
+"fonte": "Trautner BW et al. IDSA 2025 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🩺 R3</div>ITU com sonda há mais de 2 semanas?",
+"verso": "Trocar a sonda e colher a urocultura da nova.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Urina da bolsa coletora não vale.",
+"fonte": "Hooton TM et al. IDSA 2009 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"R3"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🔊 POCUS</div>O que é o sinal da coluna?",
+"verso": "Corpos vertebrais visíveis acima do diafragma: o líquido deixa o som passar.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Normalmente o ar do pulmão esconde a coluna acima do diafragma.",
+"fonte": "Dickman E et al. J Ultrasound Med 2015 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"POCUS"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🔊 POCUS</div>Derrame septado ou ecogênico é o quê?",
+"verso": "Exsudato: na febre, puncionar (parapneumônico complicado ou empiema).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Derrame anecoico pode ser transudato ou exsudato.",
+"fonte": "Yang PC et al. AJR 1992 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"POCUS"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🫀 ECG</div>QTc que indica risco de torsades?",
+"verso": "QTc > 500 ms ou alta ≥ 60 ms após um remédio.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Bazett superestima o QTc acima de 85 bpm: prefira Fridericia.",
+"fonte": "Drew BJ et al. AHA/ACCF 2010 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"ECG"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🫀 ECG</div>Primeira medida na torsades de pointes?",
+"verso": "Sulfato de magnésio 2 g IV, mesmo com Mg normal; K entre 4,5 e 5,0; desfibrilar se sustentada.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Amiodarona alonga ainda mais o QT.",
+"fonte": "Drew BJ et al. AHA/ACCF 2010 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"ECG"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 18/11/2026 · 🫁 VM</div>Fluxo expiratório que não volta a zero?",
+"verso": "Auto-PEEP: reduzir FR, volume ou tempo inspiratório e tratar broncoespasmo.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-18/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Em PCV o fluxo inspiratório é desacelerado; em VCV, quadrado.",
+"fonte": "Hess DR. Respir Care 2014 · Pílulas do Dia, Jornal Diário 360 (18/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-18",
+"VM"
+]
+}
+]
+}
