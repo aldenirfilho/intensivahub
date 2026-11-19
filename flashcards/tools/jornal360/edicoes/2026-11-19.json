@@ -1,0 +1,106 @@
+{
+ "data": "2026-11-19",
+ "numero": 14,
+ "tema": "Pâncreas e lipídios: pancreatite grave, triglicerídeo e LDL no Dia Mundial do Câncer de Pâncreas",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-19/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "Critérios diagnósticos da pancreatite aguda?",
+   "2 de 3: dor típica, lipase ou amilase ≥ 3 × o limite superior, imagem compatível.",
+   "TC na admissão não é rotina; o valor da lipase não mede gravidade.",
+   "Banks PA et al. Atlanta revisada, Gut 2013"
+  ],
+  [
+   "TEMI",
+   "O que define pancreatite grave na Atlanta revisada?",
+   "Falência orgânica persistente por mais de 48 h (Marshall modificado ≥ 2).",
+   "Falência que melhora em < 48 h é moderadamente grave.",
+   "Banks PA et al. Gut 2013"
+  ],
+  [
+   "TEMI",
+   "Hidratação na pancreatite aguda?",
+   "Ringer lactato moderado: bolus de 10 mL/kg só se hipovolemia e 1,5 mL/kg/h, reavaliando.",
+   "Agressiva (20 mL/kg + 3 mL/kg/h) deu mais sobrecarga: 20,5% × 6,3% (WATERFALL).",
+   "de-Madaria E et al. NEJM 2022"
+  ],
+  [
+   "TEMI",
+   "Antibiótico profilático na pancreatite necrosante?",
+   "Não. Antibiótico só na necrose infectada ou em outra infecção documentada.",
+   "Necrose estéril não é indicação de carbapenêmico.",
+   "Tenner S et al. ACG 2024"
+  ],
+  [
+   "TEMI",
+   "Necrose infectada: como intervir?",
+   "Step-up: drenagem percutânea ou endoscópica primeiro, necrosectomia mínima depois, de preferência após encapsular.",
+   "PANTER: complicação maior ou morte 40% × 69% com step-up × aberta.",
+   "van Santvoort HC et al. NEJM 2010"
+  ],
+  [
+   "TEMI",
+   "CPRE na pancreatite biliar?",
+   "Em até 24 h só com colangite associada.",
+   "Sem colangite, CPRE urgente não reduziu complicações (APEC).",
+   "Schepers NJ et al. Lancet 2020"
+  ],
+  [
+   "TEMI",
+   "Síndrome compartimental abdominal?",
+   "Pressão intra-abdominal > 20 mmHg com nova disfunção orgânica.",
+   "Medir na bexiga com até 25 mL, decúbito dorsal, zero na axilar média, fim da expiração.",
+   "Kirkpatrick AW et al. WSACS 2013"
+  ],
+  [
+   "R3",
+   "Meta de LDL no muito alto risco (ESC/EAS 2019)?",
+   "< 55 mg/dL e queda ≥ 50% do basal.",
+   "Alto risco < 70; moderado < 100; baixo < 116. A SBC tem categorias próprias.",
+   "Mach F et al. Eur Heart J 2020"
+  ],
+  [
+   "R3",
+   "Fora da meta com estatina de alta intensidade?",
+   "Somar ezetimiba 10 mg; persistindo, inibidor de PCSK9.",
+   "Dobrar a estatina reduz só cerca de 6% a mais de LDL.",
+   "Mach F et al. ESC/EAS 2019"
+  ],
+  [
+   "R3",
+   "Triglicerídeo a partir de quanto é alerta de pancreatite?",
+   "≥ 500 mg/dL = grave; > 1.000 mg/dL = risco alto.",
+   "Com TG > 400, a fórmula de Friedewald erra o LDL.",
+   "Grundy SM et al. AHA/ACC 2018"
+  ],
+  [
+   "R3",
+   "Icosapenta de etila: quem e qual resultado?",
+   "Estatina + TG 135–499 e alto risco: 4 g/dia; desfecho 17,2% × 22,0%.",
+   "Ômega-3 comum (EPA + DHA) foi neutro no STRENGTH.",
+   "Bhatt DL et al. NEJM 2019; Nicholls SJ et al. JAMA 2020"
+  ],
+  [
+   "POCUS",
+   "Quais as janelas do FAST?",
+   "Quadrante superior direito, superior esquerdo, pelve e subxifoide; eFAST soma os pulmões.",
+   "FAST negativo não descarta sangramento: repita.",
+   "ACEP Ultrasound Guidelines 2017"
+  ],
+  [
+   "ECG",
+   "Corte do supra de ST em V2–V3?",
+   "≥ 2 mm homem ≥ 40 anos; ≥ 2,5 mm homem < 40; ≥ 1,5 mm mulher; demais derivações ≥ 1 mm.",
+   "Infra recíproco favorece infarto; pericardite tem supra difuso e infra de PR.",
+   "Thygesen K et al. Circulation 2018"
+  ],
+  [
+   "VM",
+   "VCV × PCV: o que varia em cada um?",
+   "VCV: volume fixo, pressão varia (vigie o platô). PCV: pressão fixa, volume varia.",
+   "Em PCV, abdome distendido ou broncoespasmo derrubam o volume sem alarme de pressão.",
+   "Tobin MJ. Principles and Practice of Mechanical Ventilation"
+  ]
+ ]
+}
