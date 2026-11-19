@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.23.8";
+const APP_VERSION = "4.24.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -806,7 +806,8 @@ const MEDIAPACK = {
     try {
       const j = await this.load(path), b64 = (j.itens || {})[key || name]; if (!b64) return null;
       const bin = atob(b64), u8 = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
-      const u = URL.createObjectURL(new Blob([u8], { type: j.tipo || "image/png" })); S.mediaURL.set(name, u); return u;
+      const tp = /\.jpe?g$/i.test(key || name) || b64.startsWith("/9j/") ? "image/jpeg" : b64.startsWith("iVBOR") ? "image/png" : (j.tipo || "image/png");  // 4.24.0: pacotes mistos PNG + JPG
+      const u = URL.createObjectURL(new Blob([u8], { type: tp })); S.mediaURL.set(name, u); return u;
     } catch (e) { console.warn("mídia empacotada falhou", path, e); return null; }
   },
 };
@@ -1461,12 +1462,12 @@ const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i
   home() {
     this.block = null; const all = this.data[this.div] || [], R = QRES(), feitas = all.filter(q => R[q.id]), certas = feitas.filter(q => R[q.id][0]).length;
     const temas = [...new Set(all.map(q => q.tema))].sort((a, b) => a.localeCompare(b, "pt"));
-    const lst = this.list(), lote = lst.filter(q => q.lote), lotN = lote.filter(q => !R[q.id]).length, pend = lst.filter(q => !R[q.id]).length, err = lst.filter(q => R[q.id] && !R[q.id][0]).length, low = lst.filter(q => CF.low("q:" + q.id)).length;
+    const lst = this.list(), lote = lst.filter(q => q.lote === "2026-11"), ilu = lst.filter(q => q.fig), iluN = ilu.filter(q => !R[q.id]).length, lotN = lote.filter(q => !R[q.id]).length, pend = lst.filter(q => !R[q.id]).length, err = lst.filter(q => R[q.id] && !R[q.id][0]).length, low = lst.filter(q => CF.low("q:" + q.id)).length;
     $("#qzHost").innerHTML = `<div class="divTabs">${Object.entries(DIVS).map(([k, v]) => `<button class="btn ${k === this.div ? "gold" : ""}" data-div="${k}">${v}</button>`).join("")}</div>
      <div class="stats" style="margin:12px 0"><div class="stat"><b>${all.length}</b><span>questões</span></div><div class="stat"><b class="n">${feitas.length}</b><span>respondidas</span></div>
       <div class="stat"><b class="rv">${feitas.length ? Math.round(100 * certas / feitas.length) : 0}%</b><span>acerto (última tentativa)</span></div><div class="stat"><b style="color:var(--gold2)">${all.length - feitas.length}</b><span>inéditas</span></div></div>
      <div class="panel"><div class="metaRow"><label>📚 Tema:</label><select id="qzTema"><option value="">Todos os temas (${all.length})</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""}>${esc(t)}</option>`).join("")}</select></div>
-      <div class="metaRow"><button class="btn gold" data-st="10">▶️ Bloco de 10</button><button class="btn" data-st="20">▶️ Bloco de 20</button><button class="btn" data-st="new">🆕 Inéditas (${pend})</button><button class="btn" data-st="err" ${err ? "" : "disabled"}>🔁 Só as erradas (${err})</button><button class="btn" data-st="cf" ${low ? "" : "disabled"}>🔴 Confiança baixa (${low})</button><button class="btn" data-st="all">📚 Todas em ordem (${lst.length})</button>${lote.length ? `<button class="btn" data-st="lote" title="Questões ${lote[0].id.slice(0, 2)}601–${lote[0].id.slice(0, 2)}900, novas na 4.23.0">🆕 Lote nov/2026 · ${lotN} inéditas de ${lote.length}</button>` : ""}</div>
+      <div class="metaRow"><button class="btn gold" data-st="10">▶️ Bloco de 10</button><button class="btn" data-st="20">▶️ Bloco de 20</button><button class="btn" data-st="new">🆕 Inéditas (${pend})</button><button class="btn" data-st="err" ${err ? "" : "disabled"}>🔁 Só as erradas (${err})</button><button class="btn" data-st="cf" ${low ? "" : "disabled"}>🔴 Confiança baixa (${low})</button><button class="btn" data-st="all">📚 Todas em ordem (${lst.length})</button>${lote.length ? `<button class="btn" data-st="lote" title="Questões ${lote[0].id.slice(0, 2)}601–${lote[0].id.slice(0, 2)}900, novas na 4.23.0">🆕 Lote nov/2026 · ${lotN} inéditas de ${lote.length}</button>` : ""}${ilu.length ? `<button class="btn" data-st="ilu" title="Questões ${ilu[0].id.slice(0, 2)}901–${ilu[0].id.slice(0, 2)}1100, cada uma com figura (ECG, monitor, RX, TC, lâmina, POCUS, gráficos) · novas na 4.24.0">🖼️ Ilustradas · ${iluN} inéditas de ${ilu.length}</button>` : ""}</div>
       <p class="metaNow">🗺️ Veja onde você acerta e erra em <a href="#jornada" style="color:var(--cy)">Jornada › Mapa de domínio</a>.</p>
       <p class="metaNow">⌨️ Atalhos: <span class="kbd">A</span>–<span class="kbd">E</span> ou <span class="kbd">1</span>–<span class="kbd">5</span> responder · <span class="kbd">Enter</span> próxima · ✨ +15 XP por acerto, +5 por tentativa · 🎯 confiança 1–5 depois de responder: +1 a +5 XP (<span class="kbd">Shift</span>+<span class="kbd">1</span>–<span class="kbd">5</span>).</p></div>`;
     $$("#qzHost [data-div]").forEach(b => b.onclick = () => { this.div = b.dataset.div; lsSet("qzDiv", this.div); this.tema = ""; this.home(); });
@@ -1474,7 +1475,7 @@ const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i
     $$("#qzHost [data-st]").forEach(b => b.onclick = () => {
       const R = QRES(), l = this.list(), k = b.dataset.st, sh = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
       const fresh = sh(l.filter(q => !R[q.id])), old = sh(l.filter(q => R[q.id]));
-      const pick = k === "all" ? l : k === "new" ? fresh : k === "err" ? sh(l.filter(q => R[q.id] && !R[q.id][0])) : k === "cf" ? sh(l.filter(q => CF.low("q:" + q.id))) : k === "lote" ? fresh.filter(q => q.lote).concat(old.filter(q => q.lote)).slice(0, 20) : fresh.concat(old).slice(0, +k);
+      const pick = k === "all" ? l : k === "new" ? fresh : k === "err" ? sh(l.filter(q => R[q.id] && !R[q.id][0])) : k === "cf" ? sh(l.filter(q => CF.low("q:" + q.id))) : k === "lote" ? fresh.filter(q => q.lote === "2026-11").concat(old.filter(q => q.lote === "2026-11")).slice(0, 20) : k === "ilu" ? fresh.filter(q => q.fig).concat(old.filter(q => q.fig)).slice(0, 20) : fresh.concat(old).slice(0, +k);
       if (!pick.length) return toast("Nenhuma questão nesse filtro.");
       this.block = pick; this.i = 0; this.ok = 0; this.pickd = null; this.show();
     });
@@ -1485,10 +1486,11 @@ const QZ = { div: lsGet("qzDiv") || "temi", tema: "", data: null, block: null, i
     const QV = (S.logs._qv = S.logs._qv || {}); if (!QV[q.id]) { QV[q.id] = 1; addXP(1, "leitura", "r"); saveLog(); }
     $("#qzHost").innerHTML = `<div id="studyTop"><div class="grow">❓ ${DIVS[this.div]} · <b>${esc(q.tema)}</b></div><div class="cnt">${this.i + 1}/${this.block.length} · ✅ ${this.ok}</div></div>
      <div class="progress"><i style="width:${100 * this.i / this.block.length}%"></i></div>
-     <div class="panel qz"><div class="qzEnun">${q.enun}</div><div class="qzAlts">${q.alts.map((a, i) => `<button class="qzAlt" data-a="${i}"><b>${"ABCDE"[i]}</b><span>${a}</span></button>`).join("")}</div><div id="qzCom"></div></div>
+     <div class="panel qz"><div class="qzEnun">${q.enun}</div>${q.fig ? `<figure class="qzFig img"><img alt="${esc(q.fig.alt || "Figura da questão")}" data-qf="1"><figcaption>🔍 toque na imagem para ampliar · figura sintética didática</figcaption></figure>` : ""}<div class="qzAlts">${q.alts.map((a, i) => `<button class="qzAlt" data-a="${i}"><b>${"ABCDE"[i]}</b><span>${a}</span></button>`).join("")}</div><div id="qzCom"></div></div>
      <div class="metaRow" style="justify-content:center"><button class="btn" id="qzQuit">⏹️ Encerrar bloco</button></div>`;
     $$("#qzHost .qzAlt").forEach(b => b.onclick = () => this.pick(+b.dataset.a));
     $("#qzQuit").onclick = () => this.end(); window.scrollTo({ top: 0 });
+    if (q.fig) { const im = $("#qzHost [data-qf]"); MEDIAPACK.url(q.fig.p + "#" + q.fig.k, q.fig.k).then(u => { if (!im.isConnected) return; if (u) { im.src = u; ZOOM.bind(im.closest(".panel")); } else im.closest("figure").innerHTML = "<figcaption>🖼️ Figura indisponível agora (sem internet?). A questão continua respondível pelo enunciado.</figcaption>"; }); }
   },
   pick(i) {
     const q = this.block && this.block[this.i]; if (!q || this.pickd != null || i >= q.alts.length) return; this.pickd = i;
@@ -2537,7 +2539,7 @@ function jStats() {
   // 📚 categorias (pelas coleções ativas)
   const cat = {}, decks = new Set();
   for (const c of S.cards || []) { if (!c.official && c.origin !== "oficial" && !c.col) continue; const k = c.col || "temi", o = cat[k] = cat[k] || { tot: 0, st: 0, mat: 0 }; o.tot++; if (c.srs && c.srs.reps) { o.st++; decks.add(c.deck); if (c.srs.st === "review" && c.srs.ivl >= 21) o.mat++; } }
-  const G = S.logs._g || {}, gv = Object.values(G), gq = Object.entries(Q).filter(([id]) => id.startsWith("QG")).map(([, v]) => v), wcd = WC.done(), cfs = CF.stats(), fos = FO.stats();
+  const G = S.logs._g || {}, gv = Object.values(G), gq = Object.entries(Q).filter(([id]) => id.startsWith("QG")).map(([, v]) => v), qi = Object.entries(Q).filter(([id]) => /^Q[TR]\d+$/.test(id) && +id.slice(2) >= 901 && +id.slice(2) <= 1100).map(([, v]) => v), wcd = WC.done(), cfs = CF.stats(), fos = FO.stats();
   return { cur, max: Math.max(max, cur), xp: xpTotal(), lv: levelOf(xpTotal()).lv, sims, qAns: qv.length, qAcc: qv.length ? qOk / qv.length : 0, qc: Object.keys(S.logs._qc || {}).length,
     mic: Object.keys(S.logs._m || {}).length, mn: Object.values(S.logs._n || {}).filter(e => e && (e.s || 0) >= 2).length, hon: Object.values(S.logs._h || {}).filter(e => e && (e.s || 0) >= 2).length,
     hb: days.reduce((a, [, l]) => a + (l.hb || 0), 0), hbu: days.reduce((a, [, l]) => a + (l.hbu || 0) + (l.hf || 0), 0), hn: days.reduce((a, [, l]) => a + (l.hn ? 1 : 0), 0), cards: ans.reduce((a, b) => a + b, 0), metaDays, wk, xs, days,
@@ -2546,7 +2548,7 @@ function jStats() {
     perfDays: days.filter(([, l]) => (l.nAns || 0) >= 50 && l.nOk / l.nAns >= 0.95).length, maxRev: Math.max(0, ...days.map(([, l]) => l.nRev || 0)),
     balDays: days.filter(([, l]) => Object.keys(l.xs || {}).filter(k => k !== "a").length >= 4).length, gota: days.filter(([, l]) => (l.nAns || 0) >= 10 && (l.nAns || 0) <= 40).length,
     explor: decks.size, cat, rA, rOk, rDays, rNew, rRev, rSrc: rSrc.size,
-    gN: gv.filter(e => e && e.n).length, gP: gv.filter(e => e && e.p).length, gA: days.reduce((a, [, l]) => a + (l.gA || 0), 0), gqA: gq.length, gqAcc: gq.length ? gq.filter(x => x[0]).length / gq.length : 0, wcN: wcd.n, wcAll: wcd.all, cfN: cfs.n, cf5: cfs.top, cfLow: cfs.low,
+    gN: gv.filter(e => e && e.n).length, gP: gv.filter(e => e && e.p).length, gA: days.reduce((a, [, l]) => a + (l.gA || 0), 0), gqA: gq.length, gqAcc: gq.length ? gq.filter(x => x[0]).length / gq.length : 0, qiA: qi.length, qiAcc: qi.length ? qi.filter(x => x[0]).length / qi.length : 0, wcN: wcd.n, wcAll: wcd.all, cfN: cfs.n, cf5: cfs.top, cfLow: cfs.low,
     foN: fos.n, foM: fos.min, foZ: fos.z25, foAvg: fos.l7 >= 7 ? Math.floor(fos.avg7) : 0, foDeg: fos.top, foRt: fos.rt, foRun: fos.maxRun,
     foAmb: fos.ss.filter(x => x.amb && x.cl).length, foN1: (n => Math.min(n.com ? n.com.n : 0, n.sem ? n.sem.n : 0))(AMB.n1()) };
 }
@@ -2623,6 +2625,10 @@ const ACH = { list: [],
     /* ---------- 4.23.0: 🎧 som de estudo ---------- */
     A("foamb5", "medalha", "🎧", "Trilha do Foco", "Fechar 5 blocos limpos com som de fundo", s => s.foAmb, 5, "est");
     A("fon1", "trofeu", "🔬", "Cientista de Si", "Fazer 3 blocos com som e 3 sem som (libera a comparação N-de-1 na aba 🎧 Sons)", s => s.foN1, 3, "des");
+    /* ---------- 4.24.0: 🖼️ questões ilustradas (QT/QR 901–1100) ---------- */
+    [[25, "medalha", "👁️", "Olho Clínico I"], [100, "trofeu", "🔎", "Olho Clínico II"], [200, "brasao", "🩻", "Olho Clínico III"], [400, "honra", "🔭", "Vidente das Imagens"]]
+      .forEach(([n, t, ic, nm]) => A("qi" + n, t, ic, nm, `Responder ${n} questões ilustradas diferentes (🖼️ ECG, monitor, RX, TC, lâmina, POCUS, gráficos)`, s => s.qiA, n, "cat"));
+    A("qi80", "titulo", "🩻", "Leitor de Imagens", "Acerto ≥ 80% com ≥ 100 questões ilustradas", s => s.qiA >= 100 ? Math.round(100 * s.qiAcc) : 0, 80, "tit");
     /* ---------- 4.13.0: 🎭 estilo de comportamento ---------- */
     [[100, "medalha"], [500, "trofeu"]].forEach(([n, t]) => A("coruja" + n, t, "🦉", `Coruja do Plantão ${n}`, `Responder ${n} itens entre 0h e 4h59 (madrugada de plantão)`, s => s.coruja, n, "est"));
     [[100, "medalha"], [500, "trofeu"]].forEach(([n, t]) => A("madr" + n, t, "🌅", `Madrugador ${n}`, `Responder ${n} itens entre 5h e 7h59`, s => s.madrug, n, "est"));
