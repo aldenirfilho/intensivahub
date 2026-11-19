@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""136 cartões 1080×1920 para tela de bloqueio (mesmo desenho do botão 🖼️ do livro) + ZIP,
+"""137 cartões 1080×1920 para tela de bloqueio (mesmo desenho do botão 🖼️ do livro) + ZIP,
 folha de contato em PDF e roteiro do audiolivro (texto que a voz do aparelho lê, faixa por faixa)."""
 import base64
 import os
@@ -38,19 +38,19 @@ def main():
         pg2 = b.new_page()
         pg2.goto("file://" + folha)
         pg2.wait_for_timeout(800)
-        pg2.pdf(path=os.path.join(OUT, "Axiomas_360X_136_cartoes_folha_de_contato_A4.pdf"), format="A4", print_background=True)
+        pg2.pdf(path=os.path.join(OUT, "Axiomas_360X_137_cartoes_folha_de_contato_A4.pdf"), format="A4", print_background=True)
         b.close()
     os.remove(folha)
     rot = os.path.join(OUT, "Axiomas_360X_Audiolivro_roteiro.txt")
     cab = ("AXIOMAS 360X — roteiro do audiolivro (voz do aparelho, um eixo por faixa)\n"
            "Axiomas: Aldenir Rocha de Oliveira Filho · comentários da edição Códice 360X\n\n")
     open(rot, "w", encoding="utf-8").write(cab + "\n\n".join(f"===== FAIXA {i + 1} =====\n{t}" for i, t in enumerate(partes)) + "\n")
-    z = os.path.join(OUT, "Axiomas_360X_136_cartoes_tela_de_bloqueio.zip")
+    z = os.path.join(OUT, "Axiomas_360X_137_cartoes_tela_de_bloqueio.zip")
     with zipfile.ZipFile(z, "w", zipfile.ZIP_STORED) as zf:
         for a in ax:
             zf.write(os.path.join(DIR, f"Axioma_{a['n']:03d}.jpg"), f"Axiomas_360X_cartoes/Axioma_{a['n']:03d}.jpg")
         zf.writestr("Axiomas_360X_cartoes/LEIA-ME.txt",
-                    "136 cartões 1080×1920 (topo livre para o relógio do iPhone).\n"
+                    "137 cartões 1080×1920 (topo livre para o relógio do iPhone).\n"
                     "Um por dia: o 'axioma do dia' do livro começa no nº 1 em 17/11/2026 e segue em ciclo.\n"
                     "iPhone: Fotos → compartilhar → Usar como Papel de Parede.\n"
                     "Axiomas de Aldenir Rocha de Oliveira Filho · Códice 360X.\n")

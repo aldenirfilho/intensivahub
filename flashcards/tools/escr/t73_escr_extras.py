@@ -17,7 +17,7 @@ with sync_playwright() as p:
         ctx = br.new_context(viewport=vp); pg = ctx.new_page(); errs = []
         pg.on("pageerror", lambda e: errs.append(str(e)))
         pg.goto(BASE + "index.html#inicio"); pg.wait_for_function("S && S.cards && S.cards.length>1000", timeout=120000)
-        chk(pg.evaluate("APP_VERSION") == "4.23.1", f"{T} versão 4.23.1")
+        chk(pg.evaluate("APP_VERSION") == "4.23.2", f"{T} versão 4.23.2")
         chk(pg.locator("#homeFoot a[href='autor/mapa-axiomas.html']").count() == 1 and pg.locator("#homeFoot a[href='autor/axiomas-360x.html#leitor']").count() == 1, f"{T} rodapé com links do audiolivro e do mapa")
         pg.evaluate("location.hash='#estudar'"); pg.wait_for_timeout(300)
         for num, marca in [("01", "conferido no texto-fonte: Bíblia Almeida"), ("09", "Helmi Nasr"), ("08", "Sefaria"), ("14", "revisado sem o texto-fonte")]:
@@ -32,7 +32,7 @@ with sync_playwright() as p:
         pg2.add_init_script(FAKE)
         pg2.goto(BASE + "autor/axiomas-360x.html"); pg2.wait_for_load_state("load"); pg2.wait_for_timeout(300)
         dia = pg2.evaluate("window.AXLIVRO.axDoDia(new Date(2026,10,17)).n"), pg2.evaluate("window.AXLIVRO.axDoDia(new Date(2027,2,24)).n")
-        chk(dia == (1, 136) or dia[0] == 1, f"{T} axioma do dia: 17/11/2026 = nº 1, ciclo de 136 ({dia})")
+        chk(dia == (1, 137) or dia[0] == 1, f"{T} axioma do dia: 17/11/2026 = nº 1, ciclo de 137 ({dia})")
         chk(pg2.locator("#dia h3").inner_text().strip() != "", f"{T} painel mostra o axioma de hoje")
         pg2.click("#btCartao"); pg2.wait_for_timeout(1200)
         dim = pg2.evaluate("(()=>{const i=document.querySelector('#cartaoImg');return [i.naturalWidth,i.naturalHeight,i.src.slice(0,15)]})()")
@@ -63,7 +63,7 @@ with sync_playwright() as p:
         # mapa
         pg3 = ctx.new_page(); e3 = []; pg3.on("pageerror", lambda e: e3.append(str(e)))
         pg3.goto(BASE + "autor/mapa-axiomas.html"); pg3.wait_for_timeout(500)
-        chk(pg3.locator("circle.dot").count() == 136, f"{T} mapa com 136 axiomas")
+        chk(pg3.locator("circle.dot").count() == 137, f"{T} mapa com 137 axiomas")
         chk(pg3.locator(".chip").count() >= 10, f"{T} filtros por tema ({pg3.locator('.chip').count()})")
         pg3.locator("circle.dot[data-n='57']").click(force=True); pg3.wait_for_timeout(200)
         chk("AXIOMA 57" in pg3.inner_text("#info").upper() and pg3.locator("#info a[href='axiomas-360x.html#ax-57']").count() == 1, f"{T} tocar no ponto mostra o axioma e o link do livro")
