@@ -75,6 +75,7 @@ label{font-size:13px;color:var(--mut);font-weight:600}
 .simRow{margin-top:10px}.simRow select,#qzTema,#mcTema{background:#0b1017;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:8px;max-width:100%}
 .divTabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
 .qzEnun{font-size:17px;line-height:1.55;margin-bottom:14px}.qzAlts{display:grid;gap:8px}
+.qzFig{margin:0 0 14px;padding:8px;background:#0b1118;border:1px solid var(--line);border-radius:12px;text-align:center}.qzFig img{display:block;max-width:100%;max-height:62vh;height:auto;margin:0 auto;border-radius:8px;cursor:zoom-in;background:#fff;min-height:60px}.qzFig figcaption{font-size:12px;color:var(--mut,#8a97a8);margin-top:6px}
 .qzAlt{display:flex;gap:10px;align-items:flex-start;text-align:left;background:#121a24;border:1px solid var(--line);color:var(--txt);border-radius:12px;padding:11px 12px;font:15px/1.45 Inter;cursor:pointer}
 .qzAlt b{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#1f2a37;color:var(--gold2)}.qzAlt:hover:not(:disabled){border-color:var(--cy)}
 .qzAlt.ok{border-color:#5be38a;background:#10261a}.qzAlt.ok b{background:#5be38a;color:#08130c}.qzAlt.bad{border-color:#ff6b6b;background:#2a1215}.qzAlt.bad b{background:#ff6b6b;color:#1a0708}
@@ -412,6 +413,8 @@ html.lay-mobile .bar .cfBox .cfSt{display:none}
 @media (max-width:600px){.ambVol{width:110px}.ambT td,.ambT th{padding:4px 4px;font-size:12.5px}}
 
 
+
+
 /*LIGHT-START*/
 html.light{--bg:#f4efe2;--bg2:#fffcf4;--panel:#ffffff;--line:#d9cfb6;--txt:#1d1a14;--mut:#5b6270;--gold:#a47b12;--gold2:#7c5a08;--cy:#0a6f93;--red:#b8322a;--grn:#17783f;--amb:#9a6200;color-scheme:light}
 html.light,html.light body{background:radial-gradient(1200px 600px at 50% -200px,#fff6dc 0%,var(--bg) 60%) fixed}
@@ -440,6 +443,8 @@ html.light .btn.danger{border-color:#f5e9e9;color:#990000}
 html.light input[type=text],html.light input[type=number],html.light input[type=search],html.light input[type=password],html.light select,html.light textarea{background:#f7f9fb}
 html.light .xpTrack{background:#f3f5f8}
 html.light .simRow select,html.light #qzTema,html.light #mcTema{background:#f8f9fb}
+html.light .qzFig{background:#f7f9fb}
+html.light .qzFig figcaption{color:var(--mut,#46505e)}
 html.light .qzAlt{background:#f5f7fa}
 html.light .qzAlt b{background:#f2f4f7}
 html.light .qzAlt.ok{border-color:#16833c;background:#f5faf7}
