@@ -74,7 +74,7 @@ if __name__ == "__main__":
             seen.append((q["id"], t))
         print(k, len(L), "novas · gabaritos", dict(sorted(collections.Counter("ABCDE"[q["gab"]] for q in L).items())),
               "· temas", dict(collections.Counter(q["tema"] for q in L).most_common()))
-        d[k] = old + L
+        d[k] = old + L + [q for q in d[k] if int(q["id"][2:]) > 900]  # preserva o lote ilustrado (tools/q6, ≥ 901)
     print("\n".join(rep) if rep else "✅ sem enunciados muito parecidos (Jaccard < 0,5)")
     if "--check" not in sys.argv:
         json.dump(d, open(p, "w", encoding="utf-8"), ensure_ascii=False)
