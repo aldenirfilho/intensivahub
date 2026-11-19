@@ -78,8 +78,8 @@
    "id": "escr",
    "nome": "Escrituras & Axiomas 360X",
    "icone": "📜",
-   "descricao": "1137 flashcards de mensagens que importam: Torá, Salmos, Provérbios, Profetas, Evangelhos, Cartas, Talmude, Alcorão, Budismo, Confúcio, Taoísmo, Hinduísmo, Estoicos, filosofia, outras tradições, medicina, personalidades, mitos de citação e os 137 Axiomas 360X do autor com comentários. Organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho.",
-   "cards": 1137
+   "descricao": "1138 flashcards de mensagens que importam: Torá, Salmos, Provérbios, Profetas, Evangelhos, Cartas, Talmude, Alcorão, Budismo, Confúcio, Taoísmo, Hinduísmo, Estoicos, filosofia, outras tradições, medicina, personalidades, mitos de citação e os 138 Axiomas 360X do autor com comentários. Organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho.",
+   "cards": 1138
   }
  ],
  "decks": [
@@ -4274,7 +4274,7 @@
    "colecao": "escr",
    "arquivo": "data/decks/escr-20-axiomas_360x_aldenir_rocha_autor.json",
    "tema": "20 ⚜️ Axiomas 360X — Aldenir Rocha (autor)",
-   "cards": 137,
+   "cards": 138,
    "subtemas": [
     "20 ⚜️ Axiomas 360X — Aldenir Rocha (autor)"
    ],
@@ -4414,11 +4414,11 @@
    "gz": "data/packs/pack-8-escr.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-8-escr.json",
-   "sha": "caed94abab918b7d",
+   "sha": "1c4245769b486f99",
    "decks": 20,
-   "cards": 1137,
-   "bytes": 1603087,
-   "gzbytes": 178280
+   "cards": 1138,
+   "bytes": 1605264,
+   "gzbytes": 178752
   }
  ]
 }

@@ -32,7 +32,7 @@ with sync_playwright() as p:
         pg2.add_init_script(FAKE)
         pg2.goto(BASE + "autor/axiomas-360x.html"); pg2.wait_for_load_state("load"); pg2.wait_for_timeout(300)
         dia = pg2.evaluate("window.AXLIVRO.axDoDia(new Date(2026,10,17)).n"), pg2.evaluate("window.AXLIVRO.axDoDia(new Date(2027,2,24)).n")
-        chk(dia == (1, 137) or dia[0] == 1, f"{T} axioma do dia: 17/11/2026 = nº 1, ciclo de 137 ({dia})")
+        chk(dia == (1, 138) or dia[0] == 1, f"{T} axioma do dia: 17/11/2026 = nº 1, ciclo de 138 ({dia})")
         chk(pg2.locator("#dia h3").inner_text().strip() != "", f"{T} painel mostra o axioma de hoje")
         pg2.click("#btCartao"); pg2.wait_for_timeout(1200)
         dim = pg2.evaluate("(()=>{const i=document.querySelector('#cartaoImg');return [i.naturalWidth,i.naturalHeight,i.src.slice(0,15)]})()")
@@ -63,7 +63,7 @@ with sync_playwright() as p:
         # mapa
         pg3 = ctx.new_page(); e3 = []; pg3.on("pageerror", lambda e: e3.append(str(e)))
         pg3.goto(BASE + "autor/mapa-axiomas.html"); pg3.wait_for_timeout(500)
-        chk(pg3.locator("circle.dot").count() == 137, f"{T} mapa com 137 axiomas")
+        chk(pg3.locator("circle.dot").count() == 138, f"{T} mapa com 138 axiomas")
         chk(pg3.locator(".chip").count() >= 10, f"{T} filtros por tema ({pg3.locator('.chip').count()})")
         pg3.locator("circle.dot[data-n='57']").click(force=True); pg3.wait_for_timeout(200)
         chk("AXIOMA 57" in pg3.inner_text("#info").upper() and pg3.locator("#info a[href='axiomas-360x.html#ax-57']").count() == 1, f"{T} tocar no ponto mostra o axioma e o link do livro")

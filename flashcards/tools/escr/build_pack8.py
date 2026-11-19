@@ -68,7 +68,7 @@ for num, nome, *_ in decks:
 META = {"escr": {"id": "escr", "nome": "Escrituras & Axiomas 360X", "icone": "📜",
                  "descricao": f"{build.TOTAL} flashcards de mensagens que importam: Torá, Salmos, Provérbios, Profetas, Evangelhos, Cartas, Talmude, Alcorão, "
                               "Budismo, Confúcio, Taoísmo, Hinduísmo, Estoicos, filosofia, outras tradições, medicina, personalidades, mitos de citação "
-                              f"e os 137 Axiomas 360X do autor com comentários. Organização e axiomas: {AUTOR}."}}
+                              f"e os 138 Axiomas 360X do autor com comentários. Organização e axiomas: {AUTOR}."}}
 idx = json.load(open(f"{APP}/data/index.json"))
 idx["decks"] = [d for d in idx["decks"] if d["colecao"] not in COLS] + man
 cols = []
@@ -97,7 +97,7 @@ open(f"{APP}/autor/axiomas-360x.html", "w", encoding="utf-8").write(livro)
 os.makedirs(f"{APP}/downloads", exist_ok=True)
 shutil.copy(os.path.join(OUT, "mapa-axiomas.html"), f"{APP}/autor/mapa-axiomas.html")
 for fn in ("Axiomas_360X_Edicao_Comentada_A5.pdf", f"Escrituras_Axiomas_360X_{build.TOTAL}_flashcards.apkg",
-           "Axiomas_360X_137_cartoes_tela_de_bloqueio.zip", "Axiomas_360X_137_cartoes_folha_de_contato_A4.pdf",
+           "Axiomas_360X_138_cartoes_tela_de_bloqueio.zip", "Axiomas_360X_138_cartoes_folha_de_contato_A4.pdf",
            "Axiomas_360X_Audiolivro_roteiro.txt", "Axiomas_360X_Mapa_dos_Eixos.pdf",
            "Axiomas_360X_Miolo_Impressao_A5_sangria3mm.pdf", "Axiomas_360X_Capa_Dura_arte.pdf", "Axiomas_360X_Capa_Dura_gabarito.pdf"):
     shutil.copy(os.path.join(OUT, fn), f"{APP}/downloads/{fn}")
