@@ -45,7 +45,7 @@ def painel(eixos):
 <label><input type="checkbox" id="chkRolar" checked> acompanhar o texto</label></div>
 <div class="agora" id="agora">Voz do próprio aparelho, em português · funciona sem internet depois de aberto.</div>
 <div class="faixas" id="faixas">{faixas}</div>
-<div class="lin" style="margin-top:14px"><a class="bt" href="mapa-axiomas.html">🗺️ Mapa dos eixos e temas</a><a class="bt so-gh" href="../downloads/Axiomas_360X_136_cartoes_tela_de_bloqueio.zip">🗂️ 136 cartões (ZIP)</a><a class="bt so-gh" href="../downloads/Axiomas_360X_Audiolivro_roteiro.txt">📜 Roteiro do audiolivro</a></div>
+<div class="lin" style="margin-top:14px"><a class="bt" href="mapa-axiomas.html">🗺️ Mapa dos eixos e temas</a><a class="bt so-gh" href="../downloads/Axiomas_360X_138_cartoes_tela_de_bloqueio.zip">🗂️ 138 cartões (ZIP)</a><a class="bt so-gh" href="../downloads/Axiomas_360X_Audiolivro_roteiro.txt">📜 Roteiro do audiolivro</a></div>
 <small>O cartão e a voz são gerados no seu aparelho; nada é enviado para fora.</small>
 </section>
 <div id="mini" class="so-tela" role="region" aria-label="Controles do audiolivro"><button id="mPausa" aria-label="Pausar ou continuar">⏸️</button><button id="mProx" aria-label="Próxima faixa">⏭️</button><button id="mParar" aria-label="Parar">⏹️</button><span id="mTxt"></span><button id="mTopo" aria-label="Voltar ao painel">🎧</button></div>"""
@@ -63,7 +63,7 @@ const $=s=>document.querySelector(s);
 const sorted=AX.slice().sort((a,b)=>a.n-b.n);
 const porEixo=EIX.map(E=>sorted.filter(a=>a.e===E.k));
 /* ---------- 🃏 axioma do dia: 17/11/2026 = axioma 1, um por dia, em ciclo ---------- */
-function axDoDia(d){d=d||new Date();const base=Date.UTC(2026,10,17);const dia=Math.floor((Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())-base)/864e5);return sorted[((dia%136)+136)%136]}
+function axDoDia(d){d=d||new Date();const base=Date.UTC(2026,10,17);const dia=Math.floor((Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())-base)/864e5);return sorted[((dia%138)+138)%138]}
 function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 const hoje=axDoDia();
 if(!/github\.io$/.test(location.hostname))document.querySelectorAll('.so-gh').forEach(a=>a.remove());

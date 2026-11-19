@@ -58,12 +58,12 @@ body{{width:{W}mm;height:{H}mm;position:relative;overflow:hidden;background:#0b0
 <div class="moldura" style="left:{x_prim + 5}mm;top:{VIRA + 5}mm;width:{BW - 10}mm;height:{BH - 10}mm"></div>
 <div class="moldura" style="left:{x_quarta + 5}mm;top:{VIRA + 5}mm;width:{BW - 10}mm;height:{BH - 10}mm"></div>
 <div class="quarta"><blockquote>“A prosperidade justa é o reconhecimento da honra e do mérito.”</blockquote><div class="who">AXIOMA 57 · LEMA DA COLEÇÃO</div>
-<p>Cento e trinta e cinco axiomas formulados entre a beira do leito da terapia intensiva e as conversas sobre família, trabalho, dinheiro e honra. Cada um aparece como o autor o aprovou, seguido de um comentário curto que mostra como se aplica e com quais textos antigos dialoga — da Torá ao Dhammapada, de Sêneca aos Analectos.</p>
+<p>Cento e trinta e oito axiomas formulados entre a beira do leito da terapia intensiva e as conversas sobre família, trabalho, dinheiro e honra. Cada um aparece como o autor o aprovou, seguido de um comentário curto que mostra como se aplica e com quais textos antigos dialoga — da Torá ao Dhammapada, de Sêneca aos Analectos.</p>
 <p>Uma edição para ler devagar, um axioma por dia.</p></div>
 <div class="isbn">Espaço do código de barras (ISBN)</div>
 <div class="lomb"><div>AXIOMAS 360X<b>⚜</b>{AUTOR}</div></div>
 <div class="prim">{BRASAO}<div class="sup">Códice 360X · edição comentada</div><h1>AXIOMAS 360X</h1>
-<div class="sub">Cento e trinta e cinco axiomas de medicina, honra e humanidade</div><div class="aut">{AUTOR}</div></div>
+<div class="sub">Cento e trinta e oito axiomas de medicina, honra e humanidade</div><div class="aut">{AUTOR}</div></div>
 {g}</body></html>"""
 
 
