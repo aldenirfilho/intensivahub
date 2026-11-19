@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "4.23.1",
+ "versao": "4.23.2",
  "colecoes": [
   {
    "id": "ouro",
@@ -68,18 +68,18 @@
    "cards": 450
   },
   {
-   "id": "j360",
-   "nome": "Jornal 360 · Pílulas do Dia",
-   "icone": "📰",
-   "descricao": "Um baralho por edição do Jornal Diário 360 com os conceitos das Pílulas do Dia (TEMI, R3, POCUS, ECG e VM), fontes citadas e link para a edição completa no celular.",
-   "cards": 42
-  },
-  {
    "id": "escr",
    "nome": "Escrituras & Axiomas 360X",
    "icone": "📜",
    "descricao": "1136 flashcards de mensagens que importam: Torá, Salmos, Provérbios, Profetas, Evangelhos, Cartas, Talmude, Alcorão, Budismo, Confúcio, Taoísmo, Hinduísmo, Estoicos, filosofia, outras tradições, medicina, personalidades, mitos de citação e os 136 Axiomas 360X do autor com comentários. Organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho.",
    "cards": 1136
+  },
+  {
+   "id": "j360",
+   "nome": "Jornal 360 · Pílulas do Dia",
+   "icone": "📰",
+   "descricao": "Um baralho por edição do Jornal Diário 360 com os conceitos das Pílulas do Dia (TEMI, R3, POCUS, ECG e VM), fontes citadas e link para a edição completa no celular.",
+   "cards": 56
   }
  ],
  "decks": [
@@ -4025,48 +4025,6 @@
    "pacote": "pack-7-gaso"
   },
   {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-18.json",
-   "tema": "18/11/2026 · nº 013 · Antibiótico com critério na abertura da Semana Mundial da Resistência aos Antimicrobianos",
-   "cards": 14,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-17.json",
-   "tema": "17/11/2026 · nº 012 · Gasometria e VNI na véspera do Dia Mundial da DPOC",
-   "cards": 12,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-16.json",
-   "tema": "16/11/2026 · nº 011 · O choque que não responde",
-   "cards": 16,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
    "colecao": "escr",
    "arquivo": "data/decks/escr-01-tora_pentateuco.json",
    "tema": "01 📖 Torá (Pentateuco)",
@@ -4265,6 +4223,62 @@
     "20 ⚜️ Axiomas 360X — Aldenir Rocha (autor)"
    ],
    "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-19.json",
+   "tema": "19/11/2026 · nº 014 · Pâncreas e lipídios: pancreatite grave, triglicerídeo e LDL no Dia Mundial do Câncer de Pâncreas",
+   "cards": 14,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-18.json",
+   "tema": "18/11/2026 · nº 013 · Antibiótico com critério na abertura da Semana Mundial da Resistência aos Antimicrobianos",
+   "cards": 14,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-17.json",
+   "tema": "17/11/2026 · nº 012 · Gasometria e VNI na véspera do Dia Mundial da DPOC",
+   "cards": 12,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-16.json",
+   "tema": "16/11/2026 · nº 011 · O choque que não responde",
+   "cards": 16,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
   }
  ],
  "pacotes": [
@@ -4377,21 +4391,6 @@
    "gzbytes": 196620
   },
   {
-   "nome": "pack-9-j360",
-   "rotulo": "📰 Jornal 360 · Pílulas do Dia",
-   "colecoes": [
-    "j360"
-   ],
-   "gz": "data/packs/pack-9-j360.gz.txt",
-   "enc": "b64",
-   "json": "data/packs/pack-9-j360.json",
-   "sha": "c1f0f0149e57f3ff",
-   "decks": 3,
-   "cards": 42,
-   "bytes": 30799,
-   "gzbytes": 7848
-  },
-  {
    "nome": "pack-8-escr",
    "rotulo": "📜 Escrituras & Axiomas 360X",
    "colecoes": [
@@ -4405,6 +4404,21 @@
    "cards": 1136,
    "bytes": 1601157,
    "gzbytes": 177876
+  },
+  {
+   "nome": "pack-9-j360",
+   "rotulo": "📰 Jornal 360 · Pílulas do Dia",
+   "colecoes": [
+    "j360"
+   ],
+   "gz": "data/packs/pack-9-j360.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-9-j360.json",
+   "sha": "f06e18c3b3331145",
+   "decks": 4,
+   "cards": 56,
+   "bytes": 40948,
+   "gzbytes": 10180
   }
  ]
 }
