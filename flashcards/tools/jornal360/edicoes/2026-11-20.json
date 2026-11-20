@@ -1,0 +1,99 @@
+{
+ "data": "2026-11-20",
+ "numero": 15,
+ "tema": "O corpo fora da faixa: intermação, hipotermia e anemias no feriado de 39 °C da Consciência Negra",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-20/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "Qual a definição de intermação (heatstroke)?",
+   "Temperatura central > 40 °C com disfunção do sistema nervoso central (confusão, convulsão, coma).",
+   "Pele seca não é obrigatória; na forma por esforço o suor costuma persistir.",
+   "Epstein & Yanovich, NEJM 2019"
+  ],
+  [
+   "TEMI",
+   "Qual o método mais rápido de resfriar a intermação por esforço?",
+   "Imersão em água fria, no local, antes do transporte; meta abaixo de 39 °C em até 30 min.",
+   "Atrasar o resfriamento pela transferência piora o desfecho.",
+   "WMS 2019; ACSM 2023"
+  ],
+  [
+   "TEMI",
+   "Quando parar o resfriamento ativo?",
+   "Entre 38,5 e 39 °C, com temperatura central contínua.",
+   "Passar do ponto causa hipotermia de rebote.",
+   "WMS 2019"
+  ],
+  [
+   "TEMI",
+   "Dipirona ou paracetamol tratam intermação?",
+   "Não: o termostato hipotalâmico não está elevado, ao contrário da febre.",
+   "Dantroleno também não tem benefício.",
+   "Epstein & Yanovich, NEJM 2019"
+  ],
+  [
+   "TEMI",
+   "Na parada com hipotermia abaixo de 30 °C, o que muda?",
+   "Até 3 choques e adrenalina suspensa até > 30 °C; entre 30 e 35 °C, intervalo da adrenalina dobrado.",
+   "Instável ou em parada: considerar reaquecimento extracorpóreo.",
+   "ERC 2021"
+  ],
+  [
+   "R3",
+   "Qual ferritina confirma ferropenia?",
+   "< 30 ng/mL (AGA 2020 aceita < 45 no adulto anêmico).",
+   "Com inflamação, ferritina até ~100 ainda pode ser ferropenia.",
+   "Camaschella, NEJM 2015; AGA 2020"
+  ],
+  [
+   "R3",
+   "Como a anemia da inflamação se comporta no perfil de ferro?",
+   "Ferro e saturação baixos, ferritina normal ou alta, hepcidina alta.",
+   "Saturação < 20% aparece nas duas; o receptor solúvel de transferrina sobe só na ferropenia.",
+   "Weiss et al., Blood 2019"
+  ],
+  [
+   "R3",
+   "Homem com anemia ferropriva: qual investigação?",
+   "Endoscopia alta e colonoscopia.",
+   "Repor ferro sem investigar pode atrasar o diagnóstico de câncer colorretal.",
+   "AGA 2020"
+  ],
+  [
+   "R3",
+   "Como definir ferropenia na insuficiência cardíaca (ESC)?",
+   "Ferritina < 100 ng/mL, ou 100–299 com saturação de transferrina < 20%.",
+   "Ferro IV reduziu internações por IC (AFFIRM-AHF, IRONMAN).",
+   "ESC 2021"
+  ],
+  [
+   "POCUS",
+   "Hidronefrose bilateral no POCUS: primeiro passo?",
+   "Olhar a bexiga; se cheia, esvaziar e reavaliar.",
+   "Vasos do hilo e cistos parapiélicos imitam pelve dilatada: use Doppler.",
+   "Smith-Bindman, NEJM 2014"
+  ],
+  [
+   "ECG",
+   "O que é a onda J de Osborn?",
+   "Deflexão positiva no ponto J que cresce com a queda da temperatura, típica da hipotermia.",
+   "Também aparece em hipercalcemia, lesão cerebral aguda e repolarização precoce.",
+   "Brown et al., NEJM 2012"
+  ],
+  [
+   "VM",
+   "SpO₂ de 98% com Hb 7 garante oxigenação tecidual?",
+   "Não: CaO₂ = 1,34 × Hb × SaO₂ + 0,003 × PaO₂ fica cerca da metade do normal.",
+   "Saturação não é conteúdo de oxigênio.",
+   "Fisiologia; HOT-ICU 2021"
+  ],
+  [
+   "VM",
+   "Qual alvo de SpO₂ na maioria dos ventilados?",
+   "92–96%, reduzindo a FiO₂ para evitar hiperóxia; 88–92% se risco de hipercapnia.",
+   "Oxímetro superestima em má perfusão e pele mais escura; lê normal na intoxicação por CO.",
+   "HOT-ICU 2021; PILOT 2022; BTS 2017"
+  ]
+ ]
+}
