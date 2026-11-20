@@ -10,7 +10,7 @@ OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "out")
 os.makedirs(OUT, exist_ok=True)
 RAIZ = "📜 Escrituras & Axiomas 360X"
 VERSAO = "v1.2 · 16/11/2026"
-TOTAL = 1138
+TOTAL = 1139
 CREDITO = "📜 Escrituras & Axiomas 360X · organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho"
 
 TEMAS = {
@@ -324,7 +324,7 @@ def montar(cards):
 
 def indice(cards, por_deck, decks):
     linhas = [f"# 📜 Escrituras & Axiomas 360X — índice ({VERSAO})", "",
-              "**1138 flashcards** · 20 subbaralhos (19 tradições + ⚜️ Axiomas 360X do autor) · 15 temas · tags por obra e capítulo · arquivo `Escrituras_Axiomas_360X_1138_flashcards.apkg`", "", f"Créditos: {CREDITO}", "",
+              "**1139 flashcards** · 20 subbaralhos (19 tradições + ⚜️ Axiomas 360X do autor) · 15 temas · tags por obra e capítulo · arquivo `Escrituras_Axiomas_360X_1139_flashcards.apkg`", "", f"Créditos: {CREDITO}", "",
               "## 🗂️ Subbaralhos", "", "| # | Subbaralho | Cards |", "|---|---|---|"]
     for num, nome, *_ in decks:
         linhas.append(f"| {num} | {nome} | {por_deck[num]} |")
@@ -355,7 +355,7 @@ def main():
     print(f"avisos: {len(avisos)}"); [print("  •", a) for a in avisos]
     if erros:
         sys.exit(1)
-    base = "Escrituras_Axiomas_360X_1138_flashcards"
+    base = "Escrituras_Axiomas_360X_1139_flashcards"
     genanki.Package(montar(cards)).write_to_file(os.path.join(OUT, base + ".apkg"))
     with open(os.path.join(OUT, base + ".csv"), "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
