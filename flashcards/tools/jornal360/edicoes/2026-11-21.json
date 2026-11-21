@@ -1,0 +1,99 @@
+{
+ "data": "2026-11-21",
+ "numero": 16,
+ "tema": "Sábado de decisões: hemorragia digestiva, cirrose e a via aérea de quem sangra; no Dia Nacional da Homeopatia, o primeiro ensaio cego da história",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-21/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "Qual o gatilho transfusional na hemorragia digestiva alta?",
+   "Hb 7 g/dL, com alvo de 7–9; considerar 8 na doença cardiovascular.",
+   "Transfundir demais na variz eleva a pressão portal e o ressangramento.",
+   "Villanueva, NEJM 2013"
+  ],
+  [
+   "TEMI",
+   "Que escore permite alta sem endoscopia urgente?",
+   "Glasgow-Blatchford 0–1.",
+   "Rockall pré-endoscópico não serve para esta decisão.",
+   "Barkun, Ann Intern Med 2019"
+  ],
+  [
+   "TEMI",
+   "Quando fazer a endoscopia na HDA não varicosa?",
+   "Em até 24 h após estabilização.",
+   "EDA em ≤ 6 h não reduziu a mortalidade em 30 dias (8,9% × 6,6%).",
+   "Lau, NEJM 2020"
+  ],
+  [
+   "TEMI",
+   "Ácido tranexâmico na HDA?",
+   "Não: sem redução de óbito e com mais trombose venosa.",
+   "É pegadinha frequente por analogia com o trauma (CRASH-2).",
+   "HALT-IT, Lancet 2020"
+  ],
+  [
+   "TEMI",
+   "O que iniciar antes da EDA na suspeita de variz?",
+   "Vasoativo (terlipressina, octreotida ou somatostatina) e ceftriaxona 1 g/dia.",
+   "O antibiótico reduz infecção, ressangramento e morte; não é opcional.",
+   "Baveno VII, J Hepatol 2022"
+  ],
+  [
+   "TEMI",
+   "Quem recebe TIPS preemptivo?",
+   "Child C 10–13 ou Child B com sangramento ativo, em até 72 h.",
+   "Não é resgate: é feito após a ligadura bem-sucedida.",
+   "García-Pagán, NEJM 2010"
+  ],
+  [
+   "R3",
+   "Qual o critério de PBE?",
+   "Neutrófilos ≥ 250/mm³ no líquido ascítico.",
+   "Cultura negativa não exclui; vários germes sugerem peritonite secundária.",
+   "AASLD 2021"
+  ],
+  [
+   "R3",
+   "Qual a dose de albumina na PBE?",
+   "1,5 g/kg no 1º dia e 1 g/kg no 3º dia.",
+   "Reduziu disfunção renal de 33% para 10% e óbito de 29% para 10%.",
+   "Sort, NEJM 1999"
+  ],
+  [
+   "R3",
+   "Qual a proporção inicial dos diuréticos na ascite?",
+   "Espironolactona 100 mg + furosemida 40 mg, subindo na mesma proporção.",
+   "Restringir água só se sódio < 125 mEq/L.",
+   "AASLD 2021; EASL 2018"
+  ],
+  [
+   "R3",
+   "Amônia é necessária para diagnosticar encefalopatia hepática?",
+   "Não: o diagnóstico é clínico; procure o precipitante.",
+   "Amônia alta isolada não confirma; normal deve levar a rever o diagnóstico.",
+   "AASLD/EASL 2014"
+  ],
+  [
+   "POCUS",
+   "Como se define o grau 2 de Perlas?",
+   "Líquido no antro visível já em supino: volume alto (> ~1,5 mL/kg).",
+   "Sangue e coágulo são ecogênicos e imitam sólido.",
+   "Perlas, Br J Anaesth 2014"
+  ],
+  [
+   "ECG",
+   "Como diferenciar Mobitz I de Mobitz II?",
+   "Mobitz I: PR cresce até a P bloqueada; Mobitz II: PR fixo e bloqueio súbito.",
+   "Mobitz II é infra-hissiano: atropina falha e o marcapasso é indicado.",
+   "ACC/AHA/HRS 2018"
+  ],
+  [
+   "VM",
+   "Qual o melhor sinal de tubo na traqueia?",
+   "Curva contínua de capnografia por vários ciclos.",
+   "Ausculta e vapor no tubo enganam; sem curva, tubo no lugar errado.",
+   "Difficult Airway Society 2015"
+  ]
+ ]
+}
