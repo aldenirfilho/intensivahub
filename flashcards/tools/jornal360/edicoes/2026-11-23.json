@@ -1,0 +1,106 @@
+{
+ "data": "2026-11-23",
+ "numero": 17,
+ "tema": "Segunda de título e de votos: Flamengo campeão brasileiro, ajuste fiscal na Câmara; nas Pílulas, a cabeça que incha (TCE e PIC) e a pressão que engana",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-23/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "A partir de que PIC a BTF (4ª ed.) manda tratar?",
+   "PIC acima de 22 mmHg.",
+   "Na 3ª edição o corte era 20 mmHg.",
+   "Carney, Neurosurgery 2017"
+  ],
+  [
+   "TEMI",
+   "Qual o alvo de pressão de perfusão cerebral no TCE grave?",
+   "PPC = PAM − PIC, entre 60 e 70 mmHg.",
+   "Forçar PPC acima de 70 com volume e vasopressor aumenta SDRA.",
+   "Carney, Neurosurgery 2017"
+  ],
+  [
+   "TEMI",
+   "Qual a meta de PAS no TCE grave dos 15 aos 49 anos?",
+   "PAS ≥ 110 mmHg (≥ 100 dos 50 aos 69; ≥ 110 acima de 70).",
+   "O alvo é de PAS, não de PAM; uma só hipotensão piora o desfecho.",
+   "Carney, Neurosurgery 2017"
+  ],
+  [
+   "TEMI",
+   "Corticoide no TCE grave?",
+   "Não: no CRASH, morte em 2 semanas 21,1% × 17,9% com placebo.",
+   "Não confundir com o uso de dexametasona em edema peritumoral.",
+   "CRASH, Lancet 2004"
+  ],
+  [
+   "TEMI",
+   "Hiperventilação profilática no TCE?",
+   "Não; manter PaCO₂ 35–45 e hiperventilar só breve, como ponte na herniação.",
+   "Hipocapnia causa vasoconstrição e isquemia cerebral.",
+   "Carney, Neurosurgery 2017"
+  ],
+  [
+   "TEMI",
+   "O que mostrou o RESCUEicp com a craniectomia descompressiva?",
+   "Menos mortes, porém mais sobreviventes com incapacidade grave.",
+   "O DECRA, na fase precoce e difusa, teve pior desfecho funcional.",
+   "Hutchinson, NEJM 2016"
+  ],
+  [
+   "R3",
+   "O que separa emergência de urgência hipertensiva?",
+   "A lesão aguda de órgão-alvo, não o número da PA.",
+   "Cefaleia com PA alta e sem lesão não é emergência.",
+   "Whelton, ACC/AHA 2017"
+  ],
+  [
+   "R3",
+   "Quanto baixar a PA na 1ª hora da emergência hipertensiva sem condição especial?",
+   "No máximo 25%; depois 160/100–110 em 2–6 h e normal em 24–48 h.",
+   "Queda brusca causa isquemia cerebral, coronária e renal.",
+   "Whelton, ACC/AHA 2017"
+  ],
+  [
+   "R3",
+   "Qual o alvo na dissecção aórtica aguda?",
+   "PAS < 120 e FC < 60 o mais rápido possível, com betabloqueador antes do vasodilatador.",
+   "Vasodilatador primeiro causa taquicardia reflexa.",
+   "Whelton, ACC/AHA 2017"
+  ],
+  [
+   "R3",
+   "Nifedipino de ação rápida sublingual na urgência hipertensiva?",
+   "Não: queda imprevisível da PA; usar anti-hipertensivo oral e reavaliar.",
+   "Urgência não exige baixar a PA em minutos.",
+   "Whelton, ACC/AHA 2017"
+  ],
+  [
+   "POCUS",
+   "Onde medir a bainha do nervo óptico e qual o corte?",
+   "3 mm atrás do globo; acima de cerca de 5–5,7 mm sugere PIC > 20 mmHg.",
+   "É triagem; não substitui o monitor invasivo.",
+   "Dubourg, Intensive Care Med 2011"
+  ],
+  [
+   "ECG",
+   "Qual achado do ECG favorece pericardite sobre infarto?",
+   "Supra difuso côncavo com infradesnível de PR, sem espelho fora de aVR e V1.",
+   "Dissecção tipo A pode dar supra inferior: não trombolisar.",
+   "Spodick, NEJM 2003"
+  ],
+  [
+   "VM",
+   "Como termina o ciclo inspiratório na PSV?",
+   "Por fluxo, em geral quando cai a ~25% do pico.",
+   "PSV não tem FR de reserva: ajustar alarme e backup de apneia.",
+   "ATS/CHEST 2017"
+  ],
+  [
+   "VM",
+   "Como ajustar a pressão de suporte?",
+   "Para VC de 6–8 mL/kg de peso predito e FR < 30, sem musculatura acessória.",
+   "PS alta demais gera esforços ineficazes e alcalose.",
+   "Subirà, JAMA 2019"
+  ]
+ ]
+}
