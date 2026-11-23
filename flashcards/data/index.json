@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "4.23.8",
+ "versao": "4.23.9",
  "colecoes": [
   {
    "id": "ouro",
@@ -79,7 +79,7 @@
    "nome": "Jornal 360 · Pílulas do Dia",
    "icone": "📰",
    "descricao": "Um baralho por edição do Jornal Diário 360 com os conceitos das Pílulas do Dia (TEMI, R3, POCUS, ECG e VM), fontes citadas e link para a edição completa no celular.",
-   "cards": 82
+   "cards": 96
   }
  ],
  "decks": [
@@ -4226,6 +4226,20 @@
   },
   {
    "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-23.json",
+   "tema": "23/11/2026 · nº 017 · Segunda de título e de votos: Flamengo campeão brasileiro, ajuste fiscal na Câmara; nas Pílulas, a cabeça que incha (TCE e PIC) e a pressão que engana",
+   "cards": 14,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
    "arquivo": "data/decks/j360-2026-11-21.json",
    "tema": "21/11/2026 · nº 016 · Sábado de decisões: hemorragia digestiva, cirrose e a via aérea de quem sangra; no Dia Nacional da Homeopatia, o primeiro ensaio cego da história",
    "cards": 13,
@@ -4442,11 +4456,11 @@
    "gz": "data/packs/pack-9-j360.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-9-j360.json",
-   "sha": "77fe8a733fff998a",
-   "decks": 6,
-   "cards": 82,
-   "bytes": 59382,
-   "gzbytes": 14228
+   "sha": "a8ab850db493110d",
+   "decks": 7,
+   "cards": 96,
+   "bytes": 69221,
+   "gzbytes": 16208
   }
  ]
 }
