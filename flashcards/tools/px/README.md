@@ -20,6 +20,7 @@ Cada ficha: `id`, `area`, `cat`, `ti`, `quando` (indicação), `rx` (linhas da p
 ```bash
 python3 tools/px/build_px.py . --check   # só valida
 python3 tools/px/build_px.py .           # gera data/prescricoes.json
+python3 tools/px/export_caderno.py .     # exporta Markdown, HTML e PDF A4 (183 páginas) em tools/px/out/ (fora do Git)
 ```
 
 A validação exige pelo menos 4 linhas de ℞, monitorização e alertas preenchidos, título único e fichas sem macro ou marcador malformado.
