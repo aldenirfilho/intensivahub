@@ -1,7 +1,7 @@
 import re, sqlite3, zipfile, json, sys
 sys.path.insert(0,'.')
 import build
-z=zipfile.ZipFile('out/Escrituras_Axiomas_360X_1145_flashcards.apkg'); z.extract('collection.anki2','/tmp/rc')
+z=zipfile.ZipFile('out/Escrituras_Axiomas_360X_1147_flashcards.apkg'); z.extract('collection.anki2','/tmp/rc')
 db=sqlite3.connect('/tmp/rc/collection.anki2')
 rows={r[0].split('\x1f')[0]:r[0].split('\x1f') for r in db.execute('select flds from notes')}
 def render(t,f):
