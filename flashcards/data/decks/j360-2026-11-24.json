@@ -1,0 +1,174 @@
+{
+"formato": "codice360x-v1",
+"baralho": "📰 Jornal 360 · Pílulas do Dia::24/11/2026 · nº 018 · Terça de texto-base e de dólar a R$ 6: Câmara aprova o ajuste fiscal por 353 a 128; nas Pílulas, o sangue que se dá (transfusão, plaquetas e HIT) na véspera do Dia do Doador",
+"cards": [
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🏆 TEMI</div>Qual o limiar de hemoglobina para transfundir a maioria dos críticos estáveis?",
+"verso": "Hb < 7 g/dL (TRICC; AABB 2023).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "7 é gatilho, não meta: transfundir uma bolsa e reavaliar.",
+"fonte": "Carson, JAMA 2023 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🏆 TEMI</div>Qual o limiar de Hb no choque séptico segundo o TRISS?",
+"verso": "7 g/dL: metade das bolsas e mortalidade semelhante (43,0 × 45,0%).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Sepse não justifica alvo de 9 ou 10 por rotina.",
+"fonte": "Holst, NEJM 2014 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🏆 TEMI</div>Quais limiares a AABB 2023 propõe para cirurgia cardíaca e para ortopedia ou doença cardiovascular?",
+"verso": "7,5 g/dL na cirurgia cardíaca e 8 g/dL na ortopedia ou doença CV prévia.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "No infarto agudo com anemia, o MINT sugere considerar limiar mais alto.",
+"fonte": "Carson, JAMA 2023 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🏆 TEMI</div>Quanto uma bolsa de hemácias eleva a Hb de um adulto sem sangramento?",
+"verso": "Cerca de 1 g/dL.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Duas bolsas de rotina dobram o risco sem dobrar o benefício.",
+"fonte": "AABB 2023 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🏆 TEMI</div>Como diferenciar TRALI de TACO?",
+"verso": "TRALI: até 6 h, hipoxemia e infiltrado sem sobrecarga, suporte. TACO: até 12 h, hipertensão e congestão, responde a diurético.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Diurético não trata TRALI e pode piorar a hipotensão.",
+"fonte": "Vlaar, Transfusion 2019 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🏆 TEMI</div>Até quando iniciar ácido tranexâmico no trauma com sangramento?",
+"verso": "Até 3 h: 1 g em 10 min + 1 g em 8 h.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Depois de 3 h, o CRASH-2 mostrou mais morte por sangramento.",
+"fonte": "CRASH-2, Lancet 2010 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"TEMI"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🩺 R3</div>Como afastar pseudotrombocitopenia?",
+"verso": "Repetir em tubo com citrato e olhar o esfregaço (aglomerados).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Não transfundir número de laboratório sem confirmar.",
+"fonte": "Clínica médica · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🩺 R3</div>Quais os 4 itens do escore 4Ts?",
+"verso": "Queda > 50% com nadir ≥ 20 mil, início em 5–10 dias, trombose nova e ausência de outra causa (2 pontos cada).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "0–3 é baixo e dispensa anti-PF4 (VPN ~99,8%).",
+"fonte": "Lo, J Thromb Haemost 2006; Cuker, Blood 2012 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🩺 R3</div>Qual a primeira medida na HIT provável?",
+"verso": "Suspender toda heparina, inclusive flush, e iniciar anticoagulante não heparínico.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Plaqueta de rotina não; varfarina só com plaquetas recuperadas.",
+"fonte": "ASH 2018 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🩺 R3</div>Que exame confirma PTT?",
+"verso": "Atividade de ADAMTS13 < 10%.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Plasmaférese é urgente; transfundir plaqueta pode piorar a trombose.",
+"fonte": "Bendapudi, Lancet Haematol 2017 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"R3"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🔊 POCUS</div>Quais os 2 pontos da compressão para TVP?",
+"verso": "Veia femoral comum na junção safeno-femoral e veia poplítea.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Não vê a panturrilha: suspeita alta com exame negativo pede D-dímero ou repetição.",
+"fonte": "Bernardi, JAMA 2008 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"POCUS"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🫀 ECG</div>O que fala a favor de TV numa taquicardia de QRS largo?",
+"verso": "Dissociação AV, captura e fusão, concordância precordial, ausência de RS ou RS > 100 ms, R inicial em aVR.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Estabilidade hemodinâmica não descarta TV; verapamil pode levar ao colapso.",
+"fonte": "Brugada, Circulation 1991 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"ECG"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🫁 VM</div>Como se calcula o índice ROX?",
+"verso": "(SpO₂/FiO₂) ÷ frequência respiratória; ≥ 4,88 indica boa chance de sucesso do alto fluxo.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Alto fluxo não serve para adiar intubação indicada.",
+"fonte": "Roca, AJRCCM 2019 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"VM"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 24/11/2026 · 🫁 VM</div>O que mostrou o FLORALI?",
+"verso": "Intubação sem diferença significativa e menor morte em 90 dias com alto fluxo (12 × 23% com O₂ padrão).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "O braço de VNI teve a maior mortalidade (28%).",
+"fonte": "Frat, NEJM 2015 · Pílulas do Dia, Jornal Diário 360 (24/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-24",
+"VM"
+]
+}
+]
+}
