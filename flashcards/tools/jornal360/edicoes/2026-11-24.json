@@ -1,0 +1,106 @@
+{
+ "data": "2026-11-24",
+ "numero": 18,
+ "tema": "Terça de texto-base e de dólar a R$ 6: Câmara aprova o ajuste fiscal por 353 a 128; nas Pílulas, o sangue que se dá (transfusão, plaquetas e HIT) na véspera do Dia do Doador",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-24/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "Qual o limiar de hemoglobina para transfundir a maioria dos críticos estáveis?",
+   "Hb < 7 g/dL (TRICC; AABB 2023).",
+   "7 é gatilho, não meta: transfundir uma bolsa e reavaliar.",
+   "Carson, JAMA 2023"
+  ],
+  [
+   "TEMI",
+   "Qual o limiar de Hb no choque séptico segundo o TRISS?",
+   "7 g/dL: metade das bolsas e mortalidade semelhante (43,0 × 45,0%).",
+   "Sepse não justifica alvo de 9 ou 10 por rotina.",
+   "Holst, NEJM 2014"
+  ],
+  [
+   "TEMI",
+   "Quais limiares a AABB 2023 propõe para cirurgia cardíaca e para ortopedia ou doença cardiovascular?",
+   "7,5 g/dL na cirurgia cardíaca e 8 g/dL na ortopedia ou doença CV prévia.",
+   "No infarto agudo com anemia, o MINT sugere considerar limiar mais alto.",
+   "Carson, JAMA 2023"
+  ],
+  [
+   "TEMI",
+   "Quanto uma bolsa de hemácias eleva a Hb de um adulto sem sangramento?",
+   "Cerca de 1 g/dL.",
+   "Duas bolsas de rotina dobram o risco sem dobrar o benefício.",
+   "AABB 2023"
+  ],
+  [
+   "TEMI",
+   "Como diferenciar TRALI de TACO?",
+   "TRALI: até 6 h, hipoxemia e infiltrado sem sobrecarga, suporte. TACO: até 12 h, hipertensão e congestão, responde a diurético.",
+   "Diurético não trata TRALI e pode piorar a hipotensão.",
+   "Vlaar, Transfusion 2019"
+  ],
+  [
+   "TEMI",
+   "Até quando iniciar ácido tranexâmico no trauma com sangramento?",
+   "Até 3 h: 1 g em 10 min + 1 g em 8 h.",
+   "Depois de 3 h, o CRASH-2 mostrou mais morte por sangramento.",
+   "CRASH-2, Lancet 2010"
+  ],
+  [
+   "R3",
+   "Como afastar pseudotrombocitopenia?",
+   "Repetir em tubo com citrato e olhar o esfregaço (aglomerados).",
+   "Não transfundir número de laboratório sem confirmar.",
+   "Clínica médica"
+  ],
+  [
+   "R3",
+   "Quais os 4 itens do escore 4Ts?",
+   "Queda > 50% com nadir ≥ 20 mil, início em 5–10 dias, trombose nova e ausência de outra causa (2 pontos cada).",
+   "0–3 é baixo e dispensa anti-PF4 (VPN ~99,8%).",
+   "Lo, J Thromb Haemost 2006; Cuker, Blood 2012"
+  ],
+  [
+   "R3",
+   "Qual a primeira medida na HIT provável?",
+   "Suspender toda heparina, inclusive flush, e iniciar anticoagulante não heparínico.",
+   "Plaqueta de rotina não; varfarina só com plaquetas recuperadas.",
+   "ASH 2018"
+  ],
+  [
+   "R3",
+   "Que exame confirma PTT?",
+   "Atividade de ADAMTS13 < 10%.",
+   "Plasmaférese é urgente; transfundir plaqueta pode piorar a trombose.",
+   "Bendapudi, Lancet Haematol 2017"
+  ],
+  [
+   "POCUS",
+   "Quais os 2 pontos da compressão para TVP?",
+   "Veia femoral comum na junção safeno-femoral e veia poplítea.",
+   "Não vê a panturrilha: suspeita alta com exame negativo pede D-dímero ou repetição.",
+   "Bernardi, JAMA 2008"
+  ],
+  [
+   "ECG",
+   "O que fala a favor de TV numa taquicardia de QRS largo?",
+   "Dissociação AV, captura e fusão, concordância precordial, ausência de RS ou RS > 100 ms, R inicial em aVR.",
+   "Estabilidade hemodinâmica não descarta TV; verapamil pode levar ao colapso.",
+   "Brugada, Circulation 1991"
+  ],
+  [
+   "VM",
+   "Como se calcula o índice ROX?",
+   "(SpO₂/FiO₂) ÷ frequência respiratória; ≥ 4,88 indica boa chance de sucesso do alto fluxo.",
+   "Alto fluxo não serve para adiar intubação indicada.",
+   "Roca, AJRCCM 2019"
+  ],
+  [
+   "VM",
+   "O que mostrou o FLORALI?",
+   "Intubação sem diferença significativa e menor morte em 90 dias com alto fluxo (12 × 23% com O₂ padrão).",
+   "O braço de VNI teve a maior mortalidade (28%).",
+   "Frat, NEJM 2015"
+  ]
+ ]
+}
