@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "4.25.3",
+ "versao": "4.25.4",
  "colecoes": [
   {
    "id": "ouro",
@@ -79,7 +79,7 @@
    "nome": "Jornal 360 · Pílulas do Dia",
    "icone": "📰",
    "descricao": "Um baralho por edição do Jornal Diário 360 com os conceitos das Pílulas do Dia (TEMI, R3, POCUS, ECG e VM), fontes citadas e link para a edição completa no celular.",
-   "cards": 110
+   "cards": 126
   }
  ],
  "decks": [
@@ -4226,6 +4226,20 @@
   },
   {
    "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-25.json",
+   "tema": "25/11/2026 · nº 019 · Quarta do doador e do fim da violência contra a mulher: pacote fiscal à sanção e dólar a R$ 5,91; nas Pílulas, a morte encefálica e a tireoide na emergência; estreia a página fixa Serviço Humanitário 360",
+   "cards": 16,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
    "arquivo": "data/decks/j360-2026-11-24.json",
    "tema": "24/11/2026 · nº 018 · Terça de texto-base e de dólar a R$ 6: Câmara aprova o ajuste fiscal por 353 a 128; nas Pílulas, o sangue que se dá (transfusão, plaquetas e HIT) na véspera do Dia do Doador",
    "cards": 14,
@@ -4470,11 +4484,11 @@
    "gz": "data/packs/pack-9-j360.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-9-j360.json",
-   "sha": "a6acf05f0cb793b8",
-   "decks": 8,
-   "cards": 110,
-   "bytes": 79266,
-   "gzbytes": 18388
+   "sha": "69052e4c9ae15c0b",
+   "decks": 9,
+   "cards": 126,
+   "bytes": 90789,
+   "gzbytes": 20784
   }
  ]
 }
