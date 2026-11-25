@@ -33,7 +33,7 @@ def carregar():
             continue
         n, tit, eixo, sit, data, tema, enun, com = [x.strip() for x in l.split(" | ")]
         ax.append(dict(n=int(n), tit=tit, eixo=eixo, sit=sit, data=data, tema=tema, enun=enun, com=com))
-    assert len(ax) == 149 and sorted(a["n"] for a in ax) == list(range(1, 150)), "numeração incompleta"
+    assert len(ax) == 150 and sorted(a["n"] for a in ax) == list(range(1, 151)), "numeração incompleta"
     return ax
 
 def font_face():
@@ -148,7 +148,7 @@ def montar(ax, edicao="tela"):
     tela = edicao == "tela"
     e = html.escape
     por = {k: sorted([a for a in ax if a["eixo"] == k], key=lambda a: a["n"]) for k, *_ in EIXOS}
-    assert sum(len(v) for v in por.values()) == 149, "eixo desconhecido"
+    assert sum(len(v) for v in por.values()) == 150, "eixo desconhecido"
     P = []
     P.append(f"""<section class="pg capa" id="capa">{BRASAO}
 <div class="sup">Códice 360X · Edição comentada</div>
@@ -169,7 +169,7 @@ def montar(ax, edicao="tela"):
 <b>Texto dos axiomas:</b> transcrito sem alteração do catálogo “Axiomas 360X”, mantido pelo autor (versões lapidadas, consulta de {DATA}).<br>
 <b>Comentários:</b> edição Códice 360X, escritos com assistência do Claude (Anthropic) e assinalados como “Comentário” em cada axioma — não são palavras do autor.<br>
 <b>Edição:</b> digital (HTML e PDF), 1ª edição comentada. Sem ISBN.<br>
-<b>Organização:</b> 149 axiomas em dez eixos e o Armorial do Realmetaverso. Os axiomas 101 a 149 aparecem sob o eixo de tema mais próximo, como no catálogo, até o autor confirmar os eixos XI a XXIV.<br>
+<b>Organização:</b> 150 axiomas em dez eixos e o Armorial do Realmetaverso. Os axiomas 101 a 150 aparecem sob o eixo de tema mais próximo, como no catálogo, até o autor confirmar os eixos XI a XXIV.<br>
 <b>Selos:</b> <i>Lapidado</i> (versão editada e aprovada), <i>Confirmado pelo autor</i> e <i>Proposta do autor</i> (ideia ou hipótese ainda em aberto; hipóteses de pesquisa não são conduta médica).<br>
 <b>Tipografia:</b> Lora (SIL Open Font License).<br>
 <b>Uso:</b> as ideias podem circular livremente; o crédito ao autor é devido (axioma 109).</div></section>""")
@@ -180,7 +180,7 @@ def montar(ax, edicao="tela"):
 <p>Depois do texto vem um <b>comentário</b> curto, escrito para esta edição: o que o axioma propõe, como se aplica e, quando cabe, com quais textos antigos ele dialoga — da Torá ao Dhammapada, de Sêneca aos Analectos. Esses diálogos remetem ao baralho “Escrituras &amp; Axiomas 360X”, do qual este livro é a seção de créditos do autor.</p>
 <p>Os axiomas médicos e as hipóteses de pesquisa (93, 103 e 105) não substituem diretrizes nem a avaliação de cada paciente. São registros de raciocínio clínico e de ideias a testar.</p></section>""")
     sm = "".join(f'<li><span class="r">{r}</span><a href="#eixo-{i}">{e(t)}</a><span class="q">{len(por[k])} axiomas</span></li>' for i, (k, r, t, _) in enumerate(EIXOS))
-    P.append(f'<section class="pg sum"><h2 class="sec">Sumário</h2><ol>{sm}<li><span class="r">·</span><a href="#indice">Índice numérico</a><span class="q">1–149</span></li></ol></section>')
+    P.append(f'<section class="pg sum"><h2 class="sec">Sumário</h2><ol>{sm}<li><span class="r">·</span><a href="#indice">Índice numérico</a><span class="q">1–150</span></li></ol></section>')
     for i, (k, r, t, intro) in enumerate(EIXOS):
         blocos = []
         for a in por[k]:
