@@ -1,0 +1,120 @@
+{
+ "data": "2026-11-25",
+ "numero": 19,
+ "tema": "Quarta do doador e do fim da violência contra a mulher: pacote fiscal à sanção e dólar a R$ 5,91; nas Pílulas, a morte encefálica e a tireoide na emergência; estreia a página fixa Serviço Humanitário 360",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "Morte encefálica: quais parâmetros fisiológicos são exigidos antes de abrir o protocolo no adulto?",
+   "Temperatura central > 35 °C, SpO₂ > 94% e PAS ≥ 100 ou PAM ≥ 65 mmHg (CFM 2.173/2017).",
+   "Hipotermia e choque impedem iniciar: aqueça e estabilize antes.",
+   "Resolução CFM 2.173/2017"
+  ],
+  [
+   "TEMI",
+   "Tempo mínimo de observação antes do protocolo de morte encefálica?",
+   "6 horas; 24 horas quando a causa é encefalopatia hipóxico-isquêmica (pós-PCR).",
+   "Pós-PCR não segue a regra das 6 h.",
+   "Resolução CFM 2.173/2017"
+  ],
+  [
+   "TEMI",
+   "Intervalo mínimo entre os dois exames clínicos por idade?",
+   "24 h de 7 dias a 2 meses; 12 h de 2 a 24 meses; 1 h acima de 2 anos.",
+   "O intervalo é entre exames clínicos, não entre o exame e o complementar.",
+   "Resolução CFM 2.173/2017"
+  ],
+  [
+   "TEMI",
+   "Quando o teste de apneia é positivo?",
+   "PaCO₂ > 55 mmHg sem movimento respiratório; basta um teste.",
+   "Reflexos medulares (tríplice flexão) não excluem morte encefálica.",
+   "Resolução CFM 2.173/2017"
+  ],
+  [
+   "TEMI",
+   "O exame complementar é obrigatório no adulto no Brasil?",
+   "Sim: angiografia, Doppler transcraniano, cintilografia ou EEG.",
+   "Hora do óbito = conclusão do último procedimento.",
+   "Resolução CFM 2.173/2017"
+  ],
+  [
+   "R3",
+   "Crise tireotóxica: qual escore e qual corte sugere crise?",
+   "Burch-Wartofsky ≥ 45 (25–44 iminente; < 25 improvável).",
+   "Não espere o T4 livre para tratar o grave.",
+   "Burch e Wartofsky, 1993"
+  ],
+  [
+   "R3",
+   "Na crise tireotóxica, quando dar iodo?",
+   "Pelo menos 1 hora depois da tionamida (PTU ou metimazol).",
+   "Iodo antes vira substrato para mais hormônio.",
+   "ATA 2016"
+  ],
+  [
+   "R3",
+   "Por que PTU é preferido na crise tireotóxica?",
+   "Além de bloquear a síntese, reduz a conversão periférica de T4 em T3.",
+   "No 1º trimestre da gestação o PTU também é preferido.",
+   "ATA 2016"
+  ],
+  [
+   "R3",
+   "Coma mixedematoso: tratamento inicial?",
+   "Levotiroxina IV 200–400 µg de ataque e hidrocortisona 100 mg a cada 8 h até excluir insuficiência adrenal.",
+   "TSH normal não exclui causa central.",
+   "ATA 2014"
+  ],
+  [
+   "POCUS",
+   "Sinal ecográfico mais específico de tamponamento?",
+   "Colapso diastólico do ventrículo direito; o colapso sistólico do AD é mais precoce e sensível.",
+   "Faixa só anterior e ecogênica costuma ser gordura epicárdica.",
+   "Klein AL et al., JASE 2013"
+  ],
+  [
+   "POCUS",
+   "Derrame pericárdico × pleural no paraesternal longo?",
+   "O pericárdico passa na frente da aorta descendente; o pleural fica atrás.",
+   "No mixedema, derrame grande pode não tamponar.",
+   "Klein AL et al., JASE 2013"
+  ],
+  [
+   "ECG",
+   "TSV estável: primeira medida e primeira droga?",
+   "Valsalva modificada (REVERT 43% × 17%) e, se falhar, adenosina 6 mg em bolus rápido, depois 12 mg.",
+   "FC fixa em 150 pode ser flutter 2:1.",
+   "Appelboam A et al., Lancet 2015"
+  ],
+  [
+   "ECG",
+   "Taquicardia irregular de QRS largo com pré-excitação: o que evitar?",
+   "Bloqueadores do nó AV (adenosina, verapamil, betabloqueador).",
+   "Instável: cardioversão elétrica sincronizada.",
+   "AHA, ACLS"
+  ],
+  [
+   "VM",
+   "Esforço ineficaz: o que é e causas comuns?",
+   "Esforço do paciente que não dispara o ventilador; pense em auto-PEEP ou suporte excessivo.",
+   "Sedar não corrige a causa.",
+   "Thille AW et al., ICM 2006"
+  ],
+  [
+   "VM",
+   "Autodisparo: o que é e por que importa na morte encefálica?",
+   "Ciclos sem esforço por vazamento, água no circuito, oscilação cardíaca ou sensibilidade alta; pode simular respiração.",
+   "O teste de apneia é feito desconectado.",
+   "Thille AW et al., ICM 2006"
+  ],
+  [
+   "VM",
+   "Qual índice de assincronia define assincronia grave?",
+   "Acima de 10% dos ciclos (Thille 2006), associado a ventilação mais longa.",
+   "Olhe a curva antes de aumentar a sedação.",
+   "Thille AW et al., ICM 2006"
+  ]
+ ]
+}

@@ -1,0 +1,198 @@
+{
+"formato": "codice360x-v1",
+"baralho": "📰 Jornal 360 · Pílulas do Dia::25/11/2026 · nº 019 · Quarta do doador e do fim da violência contra a mulher: pacote fiscal à sanção e dólar a R$ 5,91; nas Pílulas, a morte encefálica e a tireoide na emergência; estreia a página fixa Serviço Humanitário 360",
+"cards": [
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🏆 TEMI</div>Morte encefálica: quais parâmetros fisiológicos são exigidos antes de abrir o protocolo no adulto?",
+"verso": "Temperatura central > 35 °C, SpO₂ > 94% e PAS ≥ 100 ou PAM ≥ 65 mmHg (CFM 2.173/2017).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Hipotermia e choque impedem iniciar: aqueça e estabilize antes.",
+"fonte": "Resolução CFM 2.173/2017 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🏆 TEMI</div>Tempo mínimo de observação antes do protocolo de morte encefálica?",
+"verso": "6 horas; 24 horas quando a causa é encefalopatia hipóxico-isquêmica (pós-PCR).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Pós-PCR não segue a regra das 6 h.",
+"fonte": "Resolução CFM 2.173/2017 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🏆 TEMI</div>Intervalo mínimo entre os dois exames clínicos por idade?",
+"verso": "24 h de 7 dias a 2 meses; 12 h de 2 a 24 meses; 1 h acima de 2 anos.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "O intervalo é entre exames clínicos, não entre o exame e o complementar.",
+"fonte": "Resolução CFM 2.173/2017 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🏆 TEMI</div>Quando o teste de apneia é positivo?",
+"verso": "PaCO₂ > 55 mmHg sem movimento respiratório; basta um teste.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Reflexos medulares (tríplice flexão) não excluem morte encefálica.",
+"fonte": "Resolução CFM 2.173/2017 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🏆 TEMI</div>O exame complementar é obrigatório no adulto no Brasil?",
+"verso": "Sim: angiografia, Doppler transcraniano, cintilografia ou EEG.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Hora do óbito = conclusão do último procedimento.",
+"fonte": "Resolução CFM 2.173/2017 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"TEMI"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🩺 R3</div>Crise tireotóxica: qual escore e qual corte sugere crise?",
+"verso": "Burch-Wartofsky ≥ 45 (25–44 iminente; < 25 improvável).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Não espere o T4 livre para tratar o grave.",
+"fonte": "Burch e Wartofsky, 1993 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🩺 R3</div>Na crise tireotóxica, quando dar iodo?",
+"verso": "Pelo menos 1 hora depois da tionamida (PTU ou metimazol).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Iodo antes vira substrato para mais hormônio.",
+"fonte": "ATA 2016 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🩺 R3</div>Por que PTU é preferido na crise tireotóxica?",
+"verso": "Além de bloquear a síntese, reduz a conversão periférica de T4 em T3.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "No 1º trimestre da gestação o PTU também é preferido.",
+"fonte": "ATA 2016 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🩺 R3</div>Coma mixedematoso: tratamento inicial?",
+"verso": "Levotiroxina IV 200–400 µg de ataque e hidrocortisona 100 mg a cada 8 h até excluir insuficiência adrenal.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "TSH normal não exclui causa central.",
+"fonte": "ATA 2014 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"R3"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🔊 POCUS</div>Sinal ecográfico mais específico de tamponamento?",
+"verso": "Colapso diastólico do ventrículo direito; o colapso sistólico do AD é mais precoce e sensível.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Faixa só anterior e ecogênica costuma ser gordura epicárdica.",
+"fonte": "Klein AL et al., JASE 2013 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"POCUS"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🔊 POCUS</div>Derrame pericárdico × pleural no paraesternal longo?",
+"verso": "O pericárdico passa na frente da aorta descendente; o pleural fica atrás.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "No mixedema, derrame grande pode não tamponar.",
+"fonte": "Klein AL et al., JASE 2013 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"POCUS"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🫀 ECG</div>TSV estável: primeira medida e primeira droga?",
+"verso": "Valsalva modificada (REVERT 43% × 17%) e, se falhar, adenosina 6 mg em bolus rápido, depois 12 mg.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "FC fixa em 150 pode ser flutter 2:1.",
+"fonte": "Appelboam A et al., Lancet 2015 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"ECG"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🫀 ECG</div>Taquicardia irregular de QRS largo com pré-excitação: o que evitar?",
+"verso": "Bloqueadores do nó AV (adenosina, verapamil, betabloqueador).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Instável: cardioversão elétrica sincronizada.",
+"fonte": "AHA, ACLS · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"ECG"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🫁 VM</div>Esforço ineficaz: o que é e causas comuns?",
+"verso": "Esforço do paciente que não dispara o ventilador; pense em auto-PEEP ou suporte excessivo.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Sedar não corrige a causa.",
+"fonte": "Thille AW et al., ICM 2006 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"VM"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🫁 VM</div>Autodisparo: o que é e por que importa na morte encefálica?",
+"verso": "Ciclos sem esforço por vazamento, água no circuito, oscilação cardíaca ou sensibilidade alta; pode simular respiração.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "O teste de apneia é feito desconectado.",
+"fonte": "Thille AW et al., ICM 2006 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"VM"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 25/11/2026 · 🫁 VM</div>Qual índice de assincronia define assincronia grave?",
+"verso": "Acima de 10% dos ciclos (Thille 2006), associado a ventilação mais longa.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-25/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Olhe a curva antes de aumentar a sedação.",
+"fonte": "Thille AW et al., ICM 2006 · Pílulas do Dia, Jornal Diário 360 (25/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-25",
+"VM"
+]
+}
+]
+}
