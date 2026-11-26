@@ -1,0 +1,106 @@
+{
+ "data": "2026-11-26",
+ "numero": 20,
+ "tema": "Quinta da Black Friday na véspera e dos 150 anos do inventor do ar frio: bolsa sobe, dólar cai a R$ 5,82 e Ormuz volta a esquentar; nas Pílulas, o queimado grave e a gota",
+ "jornal": "https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8",
+ "cards": [
+  [
+   "TEMI",
+   "Queimado: quais áreas entram no cálculo da superfície corporal queimada (SCQ)?",
+   "Só espessura parcial (2º grau) e total (3º grau); eritema de 1º grau não entra.",
+   "Somar queimadura solar superestima o volume.",
+   "ABLS 2018"
+  ],
+  [
+   "TEMI",
+   "Fórmula inicial de volume no adulto queimado segundo ABLS 2018/ATLS 10?",
+   "Ringer lactato 2 mL × kg × %SCQ em 24 h; metade nas primeiras 8 h contadas desde a queimadura.",
+   "As 8 h começam no acidente, não na chegada ao hospital.",
+   "ABLS 2018; ATLS 10ª ed."
+  ],
+  [
+   "TEMI",
+   "Qual a diurese-alvo para titular o volume no queimado adulto e na criança?",
+   "0,5 mL/kg/h no adulto; 1 mL/kg/h na criança.",
+   "A fórmula é ponto de partida; o excesso (fluid creep) causa síndrome compartimental.",
+   "ABLS 2018"
+  ],
+  [
+   "TEMI",
+   "Sinais de lesão inalatória que indicam intubação precoce?",
+   "Rouquidão, estridor, fuligem na orofaringe, escarro carbonáceo, queimadura profunda de face e pescoço.",
+   "O edema piora em 24–48 h; esperar o estridor pode impedir a IOT.",
+   "ABLS 2018"
+  ],
+  [
+   "TEMI",
+   "SpO₂ de 98% exclui intoxicação por monóxido de carbono?",
+   "Não. O oxímetro comum lê carboxi-hemoglobina como oxi-hemoglobina; peça co-oximetria e dê O₂ a 100%.",
+   "Lactato muito alto com choque sugere também cianeto.",
+   "Hampson NB, AJRCCM 2012"
+  ],
+  [
+   "R3",
+   "Como confirmar gota na articulação?",
+   "Cristais de urato monossódico em agulha, com birrefringência negativa à luz polarizada.",
+   "Urato sérico pode estar normal na crise.",
+   "ACR 2020"
+  ],
+  [
+   "R3",
+   "Colchicina na crise de gota: dose baixa ou alta?",
+   "Dose baixa: eficácia semelhante (37,8% × 32,7% de resposta em 24 h) e muito menos diarreia (23% × 76,9%).",
+   "Ajustar na DRC e evitar com inibidores fortes do CYP3A4/P-gp.",
+   "AGREE, Arthritis Rheum 2010"
+  ],
+  [
+   "R3",
+   "Paciente em uso de alopurinol tem crise de gota: suspender?",
+   "Não. Manter o alopurinol e tratar a crise.",
+   "Iniciar hipouricemiante durante a crise também é aceitável (ACR 2020).",
+   "ACR 2020"
+  ],
+  [
+   "R3",
+   "Alvo de ácido úrico no tratamento da gota?",
+   "< 6 mg/dL; < 5 mg/dL na presença de tofos.",
+   "Começar alopurinol com até 100 mg/dia (50 mg na DRC avançada) e subir.",
+   "ACR 2020; EULAR 2016"
+  ],
+  [
+   "R3",
+   "Qual o alerta do febuxostat?",
+   "Maior mortalidade cardiovascular no CARES (4,3% × 3,2% versus alopurinol).",
+   "Alopurinol segue como 1ª linha.",
+   "White WB, NEJM 2018"
+  ],
+  [
+   "POCUS",
+   "No corte transversal, como diferenciar veia de artéria antes da punção?",
+   "Veia ovalada que colapsa à compressão; artéria redonda, pulsátil, que não colapsa.",
+   "O ponto brilhante pode ser o corpo da agulha, não a ponta.",
+   "Brass P, Cochrane 2015"
+  ],
+  [
+   "ECG",
+   "Qual padrão de Brugada é diagnóstico?",
+   "Tipo 1 (em cúpula): supra de ST ≥ 2 mm em V1–V2 seguido de T negativa.",
+   "Febre, bloqueadores de sódio e tricíclicos desmascaram; hipercalemia cria fenocópia.",
+   "Antzelevitch, Heart Rhythm 2016"
+  ],
+  [
+   "VM",
+   "Teste de vazamento do cuff: qual valor sugere edema laríngeo?",
+   "Vazamento < 110 mL (ou < 10–15% do volume corrente) com o cuff desinsuflado.",
+   "Teste ruim não proíbe extubar: indica corticoide ≥ 4 h antes e preparo para via aérea difícil.",
+   "ATS/CHEST 2017; Miller e Cole 1996"
+  ],
+  [
+   "VM",
+   "Qual o efeito da metilprednisolona antes da extubação no estudo de François (2007)?",
+   "Edema laríngeo pós-extubação caiu de 22% para 3%, com 20 mg a cada 4 h começando 12 h antes.",
+   "Corticoide precisa de horas: dar no máximo em cima da hora não funciona.",
+   "François B, Lancet 2007"
+  ]
+ ]
+}
