@@ -1,5 +1,6 @@
-"""Mnemônicos 360X — gera data/mnemonicos.json e o .apkg a partir dos arquivos mt*.py (TEMI) e mr*.py (R3).
+"""Mnemônicos 360X (ALDENIR ROCHA DE OLIVEIRA FILHO · PROJETO 360X) — gera data/mnemonicos.json e o .apkg a partir dos arquivos mt*.py (TEMI) e mr*.py (R3).
 
+Uso: python3 build_mn.py <APP_DIR> [--check]
 Formato de cada arquivo (TXT = r\"\"\"...\"\"\"):
   ## 01 🫁 Nome do tema
   @ Para que serve (título)
@@ -11,7 +12,7 @@ Formato de cada arquivo (TXT = r\"\"\"...\"\"\"):
 """
 import re, sys, json, glob, hashlib, unicodedata, importlib, os
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
-OUT = "/home/claude/app2"
+OUT = next((a for a in sys.argv[1:] if not a.startswith("--")), "/home/claude/app2")   # 4.26.0: pasta do app como argumento
 LET = r"A-Za-zÀ-ÖØ-öø-ÿ"
 def base(c): return unicodedata.normalize("NFD", c)[0].upper()
 def units(s): return re.findall(rf"[{LET}]|\d+(?:[.,]\d+)?", s)
@@ -98,7 +99,7 @@ def apkg(data, path):
     for div in ("temi", "r3"):
         for c in data[div]:
             dn = f"{root[div]}::{c['tema']}"
-            dk = decks.setdefault(dn, genanki.Deck(int(hashlib.md5(dn.encode()).hexdigest()[:8], 16) + 1_400_000_000, dn))
+            dk = decks.setdefault(dn, genanki.Deck(int(hashlib.md5(dn.encode()).hexdigest()[:8], 16) + 1_400_000_000, dn, description="CÓDICE 360X · ALDENIR ROCHA DE OLIVEIRA FILHO · PROJETO 360X"))
             itens = "<table>" + "".join(f'<tr><td class="l">{esc(a)}</td><td>{esc(b)}</td></tr>' for a, b in c["k"]) + "</table>"
             dk.add_note(genanki.Note(model=model, fields=[esc(c["t"]), esc(c["m"]), itens, esc(c["x"]), esc(c["tema"]), "Clássico" if c["o"] == "c" else "Original 360X", esc(c["c"])],
                                      tags=["MN360X", "TEMI" if div == "temi" else "R3"], guid=genanki.guid_for("mn360x", c["id"])))
@@ -116,6 +117,6 @@ if __name__ == "__main__":
     for e in erros: print("  ✗", e)
     if erros or "--check" in sys.argv: sys.exit(1 if erros else 0)
     total = sum(len(v) for v in data.values())
-    json.dump({"versao": "2026.11.11-mn2", "temi": data["temi"], "r3": data["r3"]}, open(f"{OUT}/data/mnemonicos.json", "w", encoding="utf8"), ensure_ascii=False, separators=(",", ":"))
+    json.dump({"versao": "2026.11.26-mn3", "temi": data["temi"], "r3": data["r3"]}, open(f"{OUT}/data/mnemonicos.json", "w", encoding="utf8"), ensure_ascii=False, separators=(",", ":"))
     apkg(data, f"{OUT}/downloads/Mnemonicos_360X_{total}.apkg")
     print("ok", total, os.path.getsize(f"{OUT}/data/mnemonicos.json"), "bytes")

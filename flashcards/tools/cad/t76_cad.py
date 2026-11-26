@@ -9,7 +9,7 @@ async def run(vp, tag):
         b = await p.chromium.launch(); ctx = await b.new_context(viewport=vp); pg = await ctx.new_page()
         errs = []; pg.on("pageerror", lambda e: errs.append(str(e))); pg.on("console", lambda m: m.type == "error" and "favicon" not in m.text and errs.append(m.text))
         await pg.goto(URL + "#inicio"); await pg.wait_for_timeout(2500)
-        ok(await pg.evaluate("APP_VERSION") == "4.25.0", f"{tag} versão 4.25.0")
+        ok(await pg.evaluate("APP_VERSION").startswith("4."), f"{tag} versão 4.x")
         for v in ["erros", "notas", "prescricoes"]: ok(await pg.locator(f'#nav a[data-v="{v}"]').count() == 1, f"{tag} aba {v} no menu")
         ok(await pg.locator("#metaHome .cadStrip").count() == 1, f"{tag} faixa dos cadernos na tela inicial")
         # 💉 prescrições

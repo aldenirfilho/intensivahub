@@ -6,7 +6,7 @@
    - Ponte copiar/colar junta o progresso entre o app do GitHub e a página do Claude.
    - Importa .apkg (Anki legado e 2.1.50+), JSON de qualquer IA e TXT/CSV. */
 "use strict";
-const APP_VERSION = "4.25.3";
+const APP_VERSION = "4.26.0";
 const DAY = 86400000, MIN = 60000;
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -324,7 +324,7 @@ function mergeLogs(L, R) {
       const o = Object.assign({}, out._q || {});
       for (const [id, e] of Object.entries(rv || {})) { const c = o[id]; if (!Array.isArray(e)) continue; if (!c || (e[3] || 0) > (c[3] || 0) || ((e[3] || 0) === (c[3] || 0) && (e[1] || 0) > (c[1] || 0))) o[id] = e; }
       out._q = o;
-    } else if (k === "_hu" || k === "_ce" || k === "_nb" || k === "_px") {   // Honra (meus) e 📕🗒️💉 cadernos (4.25.0): vence o mod mais recente de cada item (inclui exclusões)
+    } else if (k === "_hu" || k === "_ce" || k === "_nb" || k === "_px" || k === "_nc") {   /* ☑️ _nc: checagem dos mnemônicos (4.26.0) */   // Honra (meus) e 📕🗒️💉 cadernos (4.25.0): vence o mod mais recente de cada item (inclui exclusões)
       const o = Object.assign({}, out[k] || {});
       for (const [id, e] of Object.entries(rv || {})) { if (!e || typeof e !== "object") continue; const c = o[id]; if (!c || (e.mod || 0) > (c.mod || 0)) o[id] = e; }
       out[k] = o;
@@ -2016,35 +2016,36 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
   list() {
     const q = this.nz(this.q).trim(), f = this.filt;
     return this.all().filter(m => (!this.tema || m.tema === this.tema)
-      && (!f || (f === "fav" && this.fav(m.id)) || (f === "pend" && !this.dom(m.id)) || (f === "dom" && this.dom(m.id)) || (f === "c" && m.o === "c") || (f === "o" && m.o === "o") || (f === "cf" && CF.low("n:" + m.id)) || (f === "cf0" && !CF.val("n:" + m.id)))
+      && (!f || (f === "fav" && this.fav(m.id)) || (f === "pend" && !this.dom(m.id)) || (f === "dom" && this.dom(m.id)) || (f === "c" && m.o === "c") || (f === "o" && m.o === "o") || (f === "cf" && CF.low("n:" + m.id)) || (f === "cf0" && !CF.val("n:" + m.id)) || (f === "ck" && MNCK.st(m) === 2) || (f === "ckp" && MNCK.st(m) === 1) || (f === "ck0" && !MNCK.st(m)))
       && (!q || this.nz(m.t + " " + m.m + " " + m.k.map(k => k.join(" ")).join(" ") + " " + (m.x || "") + " " + (m.c || "")).includes(q)));
   },
   sig(m) { return `<div class="mnSig${m.m.length > 14 ? " long" : ""}">${esc(m.m)}</div>`; },
-  body(m) {
-    const wide = m.tp !== "a" && m.k.some(k => k[0].length > 6);
-    return `<table class="mnTab${wide ? " wide" : ""}">${m.k.map(k => `<tr><td class="l">${esc(k[0])}</td><td>${esc(k[1])}</td></tr>`).join("")}</table>${m.x ? `<div class="mnTip">🎯 ${esc(m.x)}</div>` : ""}${m.c ? `<div class="mnCtx"><b>📖 Contexto</b>${esc(m.c)}</div>` : ""}`;
+  body(m, ck) {
+    const wide = m.tp !== "a" && m.k.some(k => k[0].length > 6), a = ck ? MNCK.bits(m) : null;   /* ☑️ 4.26.0: ck = caixinha em cada item */
+    return `<table class="mnTab${wide ? " wide" : ""}${ck ? " ck" : ""}">${m.k.map((k, i) => `<tr${ck && a[i] ? ' class="on"' : ""}>${ck ? MNCK.cell(m, i, a[i]) : ""}<td class="l">${esc(k[0])}</td><td>${esc(k[1])}</td></tr>`).join("")}</table>${ck ? MNCK.bar(m) : ""}${m.x ? `<div class="mnTip">🎯 ${esc(m.x)}</div>` : ""}${m.c ? `<div class="mnCtx"><b>📖 Contexto</b>${esc(m.c)}</div>` : ""}`;
   },
   orig(m) { return `<span class="mnOrig ${m.o}" title="${m.o === "c" ? "Mnemônico, tríade, regra ou critério consagrado na literatura" : "Sigla criada no CÓDICE 360X para memorizar o conteúdo"}">${m.o === "c" ? "🏛️ Clássico" : "⚒️ 360X"}</span>`; },
   foot(m) { const e = this.st(m.id); return e.n ? `<div class="mnFoot">${this.dom(m.id) ? "✅ Dominado" : "🎯 Em treino"} · ${e.n} treino(s), ${e.ok || 0} acerto(s)</div>` : ""; },
   card(m) {
-    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${this.orig(m)}<button class="mnImg" data-img="${m.id}" title="Gerar cartão-imagem" aria-label="Gerar cartão-imagem">🖼️</button><button class="mnFav" data-fav="${m.id}" title="Favoritar" aria-label="Favoritar">${this.fav(m.id) ? "⭐" : "☆"}</button></span></div>
-      <div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m)}${this.foot(m)}${CF.box("n:" + m.id, { sm: 1 })}</div>`;
+    return `<div class="mnCard${this.dom(m.id) ? " dom" : ""}"><div class="mcTop"><span class="pill">${esc(m.tema)}</span><span class="mnTools">${MNCK.chip(m)}${this.orig(m)}<button class="mnImg" data-img="${m.id}" title="Gerar cartão-imagem" aria-label="Gerar cartão-imagem">🖼️</button><button class="mnFav" data-fav="${m.id}" title="Favoritar" aria-label="Favoritar">${this.fav(m.id) ? "⭐" : "☆"}</button></span></div>
+      <div class="mnTit">${esc(m.t)}</div>${this.sig(m)}${this.body(m, 1)}${this.foot(m)}${CF.box("n:" + m.id, { sm: 1 })}</div>`;
   },
   head() {
     const all = this.all(), temas = [...new Set(all.map(x => x.tema))], nDom = all.filter(m => this.dom(m.id)).length, nFav = all.filter(m => this.fav(m.id)).length, hoje = (S.logs[today()] || {}).nN || 0;
-    const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"], ["c", "🏛️ Clássicos"], ["o", "⚒️ Criados no 360X"], ["cf", "🔴 Confiança baixa (1–2)"], ["cf0", "⬜ Confiança não marcada"]];
+    const F = [["", "Todos"], ["pend", "🎯 Ainda não dominados"], ["dom", "✅ Dominados"], ["fav", "⭐ Favoritos"], ["c", "🏛️ Clássicos"], ["o", "⚒️ Criados no 360X"], ["cf", "🔴 Confiança baixa (1–2)"], ["cf0", "⬜ Confiança não marcada"], ["ck", "☑️ Checados por inteiro"], ["ckp", "◐ Checagem em andamento"], ["ck0", "☐ Ainda não checados"]];
     return `<div class="divTabs">${Object.entries(DIVS).map(([k, v]) => `<button class="btn ${k === this.div ? "gold" : ""}" data-div="${k}">${v}</button>`).join("")}</div>
-     <div class="metaRow"><button class="btn ${this.mode === "lista" ? "cy" : ""}" data-mode="lista">📖 Consultar</button><button class="btn ${this.mode === "treino" ? "cy" : ""}" data-mode="treino">🎲 Treinar</button>
-      <span class="metaNow">🧠 Dominados: <b>${nDom}</b>/${all.length} · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span><button class="btn sm" id="mnFavImg" title="Cartões-imagem dos favoritos desta divisão">🖼️ Cartões dos ⭐</button></div>
+     <div class="metaRow"><button class="btn ${this.mode === "lista" ? "cy" : ""}" data-mode="lista">📖 Consultar</button><button class="btn ${this.mode === "treino" ? "cy" : ""}" data-mode="treino">🎲 Treinar</button><button class="btn ${this.mode === "check" ? "cy" : ""}" data-mode="check">☑️ Checklist</button>
+      <span class="metaNow">🧠 Dominados: <b>${nDom}</b>/${all.length} · ☑️ <b id="mnCkN">${MNCK.tot(all).full}</b> checados · ⭐ ${nFav} · hoje: ${hoje} treino(s)</span><button class="btn sm" id="mnFavImg" title="Cartões-imagem dos favoritos desta divisão">🖼️ Cartões dos ⭐</button></div>
      <div class="progress"><i style="width:${all.length ? 100 * nDom / all.length : 0}%"></i></div>
      <div class="mnBar"><select id="mnTema"><option value="">Todos os temas (${all.length})</option>${temas.map(t => `<option ${t === this.tema ? "selected" : ""} value="${esc(t)}">${esc(t)} (${all.filter(x => x.tema === t).length})</option>`).join("")}</select>
       <select id="mnFilt">${F.map(([v, l]) => `<option value="${v}" ${v === this.filt ? "selected" : ""}>${l}</option>`).join("")}</select>
-      ${this.mode === "lista" ? `<input type="search" id="mnQ" placeholder="🔎 Buscar sigla, tema ou palavra" value="${esc(this.q)}">` : ""}</div>`;
+      ${this.mode !== "treino" ? `<input type="search" id="mnQ" placeholder="🔎 Buscar sigla, tema ou palavra" value="${esc(this.q)}">` : ""}</div>`;
   },
   render() {
     if (!this.data) return;
     const host = $("#mnHost"); if (!host) return;
     if (this.mode === "treino") { if (!this.cur || !this.list().some(m => m.id === this.cur.id)) this.pick(); host.innerHTML = this.head() + this.train(); }
+    else if (this.mode === "check") host.innerHTML = this.head() + MNCK.view(this.list());   /* ☑️ 4.26.0 */
     else {
       const l = this.list(), show = l.slice(0, this.lim);
       host.innerHTML = this.head() + (l.length ? `<p class="metaNow">${l.length} mnemônico(s) neste filtro · 🏛️ consagrado na literatura · ⚒️ sigla criada aqui</p><div class="mnGrid">${show.map(m => this.card(m)).join("")}</div>
@@ -2097,11 +2098,106 @@ const MN = { div: lsGet("mnDiv") || "temi", tema: "", filt: "", q: "", mode: "li
     $$("[data-fav]", host).forEach(b => b.onclick = () => this.toggleFav(b.dataset.fav, b));
     $$("[data-img]", host).forEach(b => b.onclick = () => CARDIMG.show([this.all().find(m => m.id === b.dataset.img)]));
     const fi = $("#mnFavImg", host); if (fi) fi.onclick = () => CARDIMG.show(this.all().filter(m => this.fav(m.id)), "Favoritos " + DIVS[this.div]);
+    MNCK.bind(host);   /* ☑️ 4.26.0 */
   },
   key(e) {
     if (this.mode !== "treino" || !this.cur) return;
     if (!this.shown) { if (e.code === "Space" || e.key === "Enter") { e.preventDefault(); this.shown = true; this.render(); } else if (e.key === "d" || e.key === "D") { e.preventDefault(); this.hint = true; this.render(); } return; }
     const g = "123".indexOf(e.key); if (g >= 0) { e.preventDefault(); this.answer(g); }
+  } };
+
+/* ---------------- ☑️ 4.26.0: checagem dos itens dos mnemônicos (checklist de todos) ----------------
+   ALDENIR ROCHA DE OLIVEIRA FILHO · PROJETO 360X
+   Cada item (letra) de um mnemônico vira uma caixinha. No 📖 Consultar a caixinha fica ao lado de cada linha;
+   no modo ☑️ Checklist aparecem todos os mnemônicos da divisão, agrupados por tema, com progresso por tema e geral.
+   Registro em S.logs._nc { id: { b: "1010", c: 0|1, x: 0|1, mod } } — b = itens checados na ordem, c = todos checados,
+   x = XP do mnemônico completo já concedido (uma vez só). Sincroniza pelo `mod` mais recente (regra do _hu/_ce). */
+const NCRES = () => (S.logs._nc = S.logs._nc || {});
+const MNCK = { open: new Set(), ro: new Set(), all: false, rz: 0, _tk: null,
+  bits(m) { const e = NCRES()[m.id], b = e && !e.del && typeof e.b === "string" ? e.b : ""; return m.k.map((_, i) => b[i] === "1"); },
+  n(m) { return this.bits(m).filter(Boolean).length; },
+  st(m) { const n = this.n(m); return n === 0 ? 0 : n >= m.k.length ? 2 : 1; },
+  pc: (a, b) => b ? Math.round(100 * a / b) : 0,
+  save(m, arr) {
+    const R = NCRES(), old = R[m.id] || {}, full = arr.length > 0 && arr.every(Boolean), x = old.x || 0;
+    R[m.id] = { b: arr.map(v => v ? "1" : "0").join(""), c: full ? 1 : 0, x: x || (full ? 1 : 0), mod: Date.now() };
+    const L = L0(); L.nC = (L.nC || 0) + 1;
+    if (full && !x) { addXP(1, "mnemônico checado", "n"); toast("☑️ Mnemônico checado por inteiro! +1 XP"); }
+    saveLog();
+  },
+  toggle(m, i) { const a = this.bits(m); a[i] = !a[i]; this.save(m, a); },
+  setAll(m, v) { this.save(m, m.k.map(() => v)); },
+  tot(l) { let full = 0, part = 0, it = 0, itT = 0; for (const m of l) { const n = this.n(m); it += n; itT += m.k.length; if (n >= m.k.length) full++; else if (n) part++; } return { n: l.length, full, part, it, itT }; },
+  totTxt(T) { return `${T.full} de ${T.n} mnemônicos checados por inteiro · ${T.part} em andamento · ${T.it}/${T.itT} itens`; },
+  grpTxt(T) { return `✓ ${T.full}/${T.n} · ${T.it}/${T.itT} itens`; },
+  tk(t) { if (!this._tk || this._tk.div !== MN.div) this._tk = { div: MN.div, ts: [...new Set(MN.all().map(x => x.tema))] }; return "t" + this._tk.ts.indexOf(t); },
+  chip(m) { const n = this.n(m), s = this.st(m); return `<span class="ckChip${s === 2 ? " f" : s ? " p" : ""}" data-ckchip="${m.id}" title="Itens checados">☑️ ${n}/${m.k.length}</span>`; },
+  cell(m, i, on) { return `<td class="ck"><button class="nck${on ? " on" : ""}" data-nck="${m.id}" data-i="${i}" aria-pressed="${on}" aria-label="Checar o item ${esc(m.k[i][0])}">${on ? "✓" : ""}</button></td>`; },
+  bar(m) { return `<div class="ckBar"><button class="btn sm" data-ckall="${m.id}" data-v="1">☑️ Marcar todos</button><button class="btn sm" data-ckall="${m.id}" data-v="0">↺ Limpar</button></div>`; },
+  row(m) {
+    const a = this.bits(m), n = a.filter(Boolean).length, s = n === 0 ? 0 : n >= a.length ? 2 : 1;
+    return `<div class="ckRow${s === 2 ? " full" : ""}${this.ro.has(m.id) ? " open" : ""}" data-ckrow="${m.id}"><div class="ckHd">
+      <button class="nck big${s === 2 ? " on" : s ? " part" : ""}" data-ckall="${m.id}" data-v="t" aria-label="Checar o mnemônico inteiro">${s === 2 ? "✓" : s ? "–" : ""}</button>
+      <div class="ckT" data-cko="${m.id}"><b>${esc(m.t)}</b><small>${esc(m.m)}</small></div><span class="ckN" data-ckn="${m.id}">${n}/${a.length}</span><button class="ckX" data-cko="${m.id}" aria-label="Mostrar os itens">▾</button></div>
+      <ul class="ckItems">${m.k.map((k, i) => `<li${a[i] ? ' class="on"' : ""}><button class="nck${a[i] ? " on" : ""}" data-nck="${m.id}" data-i="${i}" aria-pressed="${a[i]}" aria-label="Checar o item ${esc(k[0])}">${a[i] ? "✓" : ""}</button><span><b>${esc(k[0])}</b> ${esc(k[1])}</span></li>`).join("")}</ul></div>`;
+  },
+  rows(tk) { return MN.list().filter(m => this.tk(m.tema) === tk).map(m => this.row(m)).join(""); },
+  view(l) {
+    const all = MN.all(), A = this.tot(all), grp = new Map();
+    for (const m of l) { if (!grp.has(m.tema)) grp.set(m.tema, []); grp.get(m.tema).push(m); }
+    const force = !!(MN.tema || MN.q.trim()) || grp.size === 1, armed = this.rz > Date.now();
+    const temas = [...grp].map(([t, ms]) => { const k = this.tk(t), T = this.tot(ms), op = force || this.all || this.open.has(k);
+      return `<details class="ckTema" data-ckt="${k}"${op ? " open" : ""}><summary><span class="ckTn">${esc(t)}</span><span class="ckN" data-cktn="${k}">${this.grpTxt(T)}</span></summary>
+        <div class="ckProg sm"><i data-cktb="${k}" style="width:${this.pc(T.it, T.itT)}%"></i></div><div class="ckBody" data-ckb="${k}">${op ? ms.map(m => this.row(m)).join("") : ""}</div></details>`; }).join("");
+    return `<div class="panel ckPanel"><div class="ckTop"><div><b>☑️ Checklist · ${esc(DIVS[MN.div] || MN.div)}</b><div class="ckN" id="ckTot">${this.totTxt(A)}</div></div>
+      <div class="ckBtns"><button class="btn sm" id="ckOpenAll">${this.all ? "▸ Fechar os temas" : "▾ Abrir os temas"}</button><button class="btn sm" id="ckExp">📋 Exportar (.md)</button><button class="btn sm danger" id="ckReset">${armed ? `⚠️ Confirmar: zerar ${l.length}` : "🔄 Zerar este filtro"}</button></div></div>
+      <div class="ckProg"><i id="ckTotBar" style="width:${this.pc(A.it, A.itT)}%"></i></div>
+      <p class="metaNow">Toque na caixinha de cada item para checar; a caixa grande marca o mnemônico inteiro e ▾ mostra os itens.${l.length !== all.length ? ` Filtro atual: ${l.length} de ${all.length}.` : ""}</p></div>
+      ${l.length ? temas : `<p class="empty">Nenhum mnemônico neste filtro.</p>`}`;
+  },
+  paint(host, m) {
+    const a = this.bits(m), n = a.filter(Boolean).length, s = this.st(m), id = m.id;
+    $$(`[data-nck="${id}"]`, host).forEach(b => { const on = !!a[+b.dataset.i]; b.classList.toggle("on", on); b.textContent = on ? "✓" : ""; b.setAttribute("aria-pressed", on); const r = b.closest("tr,li"); if (r) r.classList.toggle("on", on); });
+    $$(`[data-ckchip="${id}"]`, host).forEach(c => { c.outerHTML = this.chip(m); });
+    $$(`[data-ckn="${id}"]`, host).forEach(c => { c.textContent = `${n}/${a.length}`; });
+    $$(`.nck.big[data-ckall="${id}"]`, host).forEach(b => { b.classList.toggle("on", s === 2); b.classList.toggle("part", s === 1); b.textContent = s === 2 ? "✓" : s ? "–" : ""; });
+    $$(`[data-ckrow="${id}"]`, host).forEach(r => r.classList.toggle("full", s === 2));
+    const all = MN.all(), A = this.tot(all), mk = $("#mnCkN", host); if (mk) mk.textContent = A.full;
+    if (MN.mode !== "check") return;
+    const k = this.tk(m.tema), T = this.tot(MN.list().filter(x => x.tema === m.tema));
+    const tn = $(`[data-cktn="${k}"]`, host), tb = $(`[data-cktb="${k}"]`, host), tt = $("#ckTot", host), tg = $("#ckTotBar", host);
+    if (tn) tn.textContent = this.grpTxt(T); if (tb) tb.style.width = this.pc(T.it, T.itT) + "%";
+    if (tt) tt.textContent = this.totTxt(A); if (tg) tg.style.width = this.pc(A.it, A.itT) + "%";
+  },
+  reset(l) { const R = NCRES(), t = Date.now(); let z = 0; for (const m of l) { const e = R[m.id]; if (e && (e.b || "").includes("1")) { R[m.id] = { b: "", c: 0, x: e.x || 0, mod: t }; z++; } } saveLog(); toast(`🔄 Checagem zerada em ${z} mnemônico(s)`); },
+  exp(l) {
+    const T = this.tot(l), out = [`# ☑️ Checklist de mnemônicos — ${DIVS[MN.div] || MN.div}`, "", `**ALDENIR ROCHA DE OLIVEIRA FILHO · PROJETO 360X** · Códice 360X ${APP_VERSION} · ${new Date().toLocaleDateString("pt-BR")}`, "", `Progresso: ${this.totTxt(T)}`, ""];
+    let cur = null;
+    for (const m of l) {
+      if (m.tema !== cur) { cur = m.tema; const ms = l.filter(x => x.tema === cur); out.push(`## ${cur} (${this.tot(ms).full}/${ms.length})`, ""); }
+      const a = this.bits(m); out.push(`### [${a.every(Boolean) ? "x" : " "}] ${m.t} — ${m.m}`); m.k.forEach((k, i) => out.push(`- [${a[i] ? "x" : " "}] **${k[0]}** — ${k[1]}`)); out.push("");
+    }
+    out.push("---", "CÓDICE 360X · ALDENIR ROCHA DE OLIVEIRA FILHO · PROJETO 360X");
+    CAD.dl(`Checklist_mnemonicos_${MN.div.toUpperCase()}_${today()}.md`, out.join("\n")); toast("📋 Checklist exportado");
+  },
+  bind(host) {
+    host.onclick = e => {
+      const b = e.target.closest("[data-nck],[data-ckall],[data-cko]"); if (!b || !host.contains(b)) return;
+      const id = b.dataset.nck || b.dataset.ckall || b.dataset.cko, m = MN.all().find(x => x.id === id); if (!m) return;
+      if (b.dataset.nck) this.toggle(m, +b.dataset.i);
+      else if (b.dataset.ckall) this.setAll(m, b.dataset.v === "1" ? true : b.dataset.v === "0" ? false : this.st(m) !== 2);
+      else { const r = b.closest(".ckRow"); if (r) { r.classList.toggle("open"); if (r.classList.contains("open")) this.ro.add(id); else this.ro.delete(id); } return; }
+      this.paint(host, m);
+    };
+    $$("details.ckTema", host).forEach(d => d.ontoggle = () => { const k = d.dataset.ckt, bd = d.querySelector(".ckBody"); if (d.open) { this.open.add(k); if (bd && !bd.children.length) bd.innerHTML = this.rows(k); } else this.open.delete(k); });
+    const oa = $("#ckOpenAll", host), ex = $("#ckExp", host), rz = $("#ckReset", host);
+    if (oa) oa.onclick = () => { this.all = !this.all; if (!this.all) this.open.clear(); MN.render(); };
+    if (ex) ex.onclick = () => this.exp(MN.list());
+    if (rz) rz.onclick = () => {
+      if (this.rz > Date.now()) { this.rz = 0; this.reset(MN.list()); }
+      else { this.rz = Date.now() + 4000; setTimeout(() => { if (this.rz && this.rz <= Date.now() + 100) { this.rz = 0; if (MN.mode === "check") MN.render(); } }, 4100); }
+      MN.render();
+    };
   } };
 
 /* ---------------- 🕊️ Honra: guia espiritual, bússolas de decisão e fluxo ----------------
@@ -2541,7 +2637,7 @@ function jStats() {
   for (const c of S.cards || []) { if (!c.official && c.origin !== "oficial" && !c.col) continue; const k = c.col || "temi", o = cat[k] = cat[k] || { tot: 0, st: 0, mat: 0 }; o.tot++; if (c.srs && c.srs.reps) { o.st++; decks.add(c.deck); if (c.srs.st === "review" && c.srs.ivl >= 21) o.mat++; } }
   const G = S.logs._g || {}, gv = Object.values(G), gq = Object.entries(Q).filter(([id]) => id.startsWith("QG")).map(([, v]) => v), qi = Object.entries(Q).filter(([id]) => /^Q[TR]\d+$/.test(id) && +id.slice(2) >= 901 && +id.slice(2) <= 1100).map(([, v]) => v), wcd = WC.done(), cfs = CF.stats(), fos = FO.stats();
   return { cur, max: Math.max(max, cur), xp: xpTotal(), lv: levelOf(xpTotal()).lv, sims, qAns: qv.length, qAcc: qv.length ? qOk / qv.length : 0, qc: Object.keys(S.logs._qc || {}).length,
-    mic: Object.keys(S.logs._m || {}).length, mn: Object.values(S.logs._n || {}).filter(e => e && (e.s || 0) >= 2).length, hon: Object.values(S.logs._h || {}).filter(e => e && (e.s || 0) >= 2).length,
+    mic: Object.keys(S.logs._m || {}).length, mn: Object.values(S.logs._n || {}).filter(e => e && (e.s || 0) >= 2).length, nck: Object.values(S.logs._nc || {}).filter(e => e && e.c).length, hon: Object.values(S.logs._h || {}).filter(e => e && (e.s || 0) >= 2).length,
     hb: days.reduce((a, [, l]) => a + (l.hb || 0), 0), hbu: days.reduce((a, [, l]) => a + (l.hbu || 0) + (l.hf || 0), 0), hn: days.reduce((a, [, l]) => a + (l.hn ? 1 : 0), 0), cards: ans.reduce((a, b) => a + b, 0), metaDays, wk, xs, days,
     dias: on.size, wMax: Math.max(wMax, wCur), wCur, mesMax: Math.max(0, ...Object.values(byMonth)), mes: byMonth[today().slice(0, 7)] || 0, fds, returns, fenix,
     hr, coruja: hsum(0, 4), madrug: hsum(5, 7), noite: hsum(20, 23), maxDay: Math.max(0, ...ans), maxXP: Math.max(0, ...days.map(([, l]) => l.xp || 0)),
@@ -2571,7 +2667,8 @@ const ACH = { list: [],
     A("acc90", "honra", "🦅", "Olho de Águia", "Acerto ≥ 90% com ≥ 200 questões", s => s.qAns >= 200 ? Math.round(100 * s.qAcc) : 0, 90, "des");
     [[10, "medalha"], [50, "medalha"], [100, "trofeu"], [200, "brasao"], [400, "honra"]].forEach(([n, t]) => A("qc" + n, t, "📖", `Leitor de Comentários ${n}`, `Marcar ☑️ ${n} comentários de questões como lidos`, s => s.qc, n, "cat"));
     [[10, "medalha"], [50, "trofeu"], [100, "brasao"], [200, "honra"], [400, "honra"], [600, "honra"]].forEach(([n, t]) => A("mc" + n, t, "💊", `Alquimista ${n}`, `Ler ${n} micropartículas (☑️)`, s => s.mic, n, "cat"));
-    [[10, "medalha"], [50, "trofeu"], [150, "brasao"], [300, "honra"], [500, "honra"], [800, "honra"]].forEach(([n, t]) => A("mn" + n, t, "🧠", `Mnemonista ${n}`, `Dominar ${n} mnemônicos (2 acertos seguidos no treino)`, s => s.mn, n, "cat"));
+    [[10, "medalha"], [50, "trofeu"], [150, "brasao"], [300, "honra"], [500, "honra"], [800, "honra"], [1000, "honra"]].forEach(([n, t]) => A("mn" + n, t, "🧠", `Mnemonista ${n}`, `Dominar ${n} mnemônicos (2 acertos seguidos no treino)`, s => s.mn, n, "cat"));
+    [[25, "medalha"], [100, "trofeu"], [300, "brasao"], [700, "honra"], [1100, "honra"]].forEach(([n, t]) => A("nck" + n, t, "☑️", `Checklista ${n}`, `Checar todos os itens de ${n} mnemônicos (modo ☑️ Checklist)`, s => s.nck, n, "cat"));   /* ☑️ 4.26.0 */
     [[10, "medalha"], [50, "trofeu"], [150, "brasao"], [300, "honra"], [500, "honra"]].forEach(([n, t]) => A("ho" + n, t, "🕊️", `Peregrino da Honra ${n}`, `Dominar ${n} cards ou mnemônicos da aba 🕊️ Honra`, s => s.hon, n, "hon"));
     [[5, "medalha"], [30, "trofeu"], [100, "brasao"]].forEach(([n, t]) => A("hb" + n, t, "🌬️", `Fôlego Sereno ${n}`, `Concluir ${n} respirações guiadas na aba 🕊️ Honra`, s => s.hb, n, "hon"));
     [[1, "medalha"], [7, "trofeu"], [30, "brasao"], [100, "honra"]].forEach(([n, t]) => A("hn" + n, t, "🌙", `Vigília Serena ${n}`, `Concluir o Modo Noite em ${n} noite(s)`, s => s.hn, n, "hon"));
