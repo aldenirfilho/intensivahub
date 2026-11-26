@@ -1,0 +1,174 @@
+{
+"formato": "codice360x-v1",
+"baralho": "📰 Jornal 360 · Pílulas do Dia::26/11/2026 · nº 020 · Quinta da Black Friday na véspera e dos 150 anos do inventor do ar frio: bolsa sobe, dólar cai a R$ 5,82 e Ormuz volta a esquentar; nas Pílulas, o queimado grave e a gota",
+"cards": [
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🏆 TEMI</div>Queimado: quais áreas entram no cálculo da superfície corporal queimada (SCQ)?",
+"verso": "Só espessura parcial (2º grau) e total (3º grau); eritema de 1º grau não entra.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Somar queimadura solar superestima o volume.",
+"fonte": "ABLS 2018 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🏆 TEMI</div>Fórmula inicial de volume no adulto queimado segundo ABLS 2018/ATLS 10?",
+"verso": "Ringer lactato 2 mL × kg × %SCQ em 24 h; metade nas primeiras 8 h contadas desde a queimadura.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "As 8 h começam no acidente, não na chegada ao hospital.",
+"fonte": "ABLS 2018; ATLS 10ª ed. · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🏆 TEMI</div>Qual a diurese-alvo para titular o volume no queimado adulto e na criança?",
+"verso": "0,5 mL/kg/h no adulto; 1 mL/kg/h na criança.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "A fórmula é ponto de partida; o excesso (fluid creep) causa síndrome compartimental.",
+"fonte": "ABLS 2018 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🏆 TEMI</div>Sinais de lesão inalatória que indicam intubação precoce?",
+"verso": "Rouquidão, estridor, fuligem na orofaringe, escarro carbonáceo, queimadura profunda de face e pescoço.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "O edema piora em 24–48 h; esperar o estridor pode impedir a IOT.",
+"fonte": "ABLS 2018 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🏆 TEMI</div>SpO₂ de 98% exclui intoxicação por monóxido de carbono?",
+"verso": "Não. O oxímetro comum lê carboxi-hemoglobina como oxi-hemoglobina; peça co-oximetria e dê O₂ a 100%.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Lactato muito alto com choque sugere também cianeto.",
+"fonte": "Hampson NB, AJRCCM 2012 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"TEMI"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🩺 R3</div>Como confirmar gota na articulação?",
+"verso": "Cristais de urato monossódico em agulha, com birrefringência negativa à luz polarizada.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Urato sérico pode estar normal na crise.",
+"fonte": "ACR 2020 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🩺 R3</div>Colchicina na crise de gota: dose baixa ou alta?",
+"verso": "Dose baixa: eficácia semelhante (37,8% × 32,7% de resposta em 24 h) e muito menos diarreia (23% × 76,9%).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Ajustar na DRC e evitar com inibidores fortes do CYP3A4/P-gp.",
+"fonte": "AGREE, Arthritis Rheum 2010 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🩺 R3</div>Paciente em uso de alopurinol tem crise de gota: suspender?",
+"verso": "Não. Manter o alopurinol e tratar a crise.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Iniciar hipouricemiante durante a crise também é aceitável (ACR 2020).",
+"fonte": "ACR 2020 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🩺 R3</div>Alvo de ácido úrico no tratamento da gota?",
+"verso": "< 6 mg/dL; < 5 mg/dL na presença de tofos.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Começar alopurinol com até 100 mg/dia (50 mg na DRC avançada) e subir.",
+"fonte": "ACR 2020; EULAR 2016 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🩺 R3</div>Qual o alerta do febuxostat?",
+"verso": "Maior mortalidade cardiovascular no CARES (4,3% × 3,2% versus alopurinol).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Alopurinol segue como 1ª linha.",
+"fonte": "White WB, NEJM 2018 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"R3"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🔊 POCUS</div>No corte transversal, como diferenciar veia de artéria antes da punção?",
+"verso": "Veia ovalada que colapsa à compressão; artéria redonda, pulsátil, que não colapsa.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "O ponto brilhante pode ser o corpo da agulha, não a ponta.",
+"fonte": "Brass P, Cochrane 2015 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"POCUS"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🫀 ECG</div>Qual padrão de Brugada é diagnóstico?",
+"verso": "Tipo 1 (em cúpula): supra de ST ≥ 2 mm em V1–V2 seguido de T negativa.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Febre, bloqueadores de sódio e tricíclicos desmascaram; hipercalemia cria fenocópia.",
+"fonte": "Antzelevitch, Heart Rhythm 2016 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"ECG"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🫁 VM</div>Teste de vazamento do cuff: qual valor sugere edema laríngeo?",
+"verso": "Vazamento < 110 mL (ou < 10–15% do volume corrente) com o cuff desinsuflado.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Teste ruim não proíbe extubar: indica corticoide ≥ 4 h antes e preparo para via aérea difícil.",
+"fonte": "ATS/CHEST 2017; Miller e Cole 1996 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"VM"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 26/11/2026 · 🫁 VM</div>Qual o efeito da metilprednisolona antes da extubação no estudo de François (2007)?",
+"verso": "Edema laríngeo pós-extubação caiu de 22% para 3%, com 20 mg a cada 4 h começando 12 h antes.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-26/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Corticoide precisa de horas: dar no máximo em cima da hora não funciona.",
+"fonte": "François B, Lancet 2007 · Pílulas do Dia, Jornal Diário 360 (26/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-26",
+"VM"
+]
+}
+]
+}

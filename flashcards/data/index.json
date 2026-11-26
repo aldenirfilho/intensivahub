@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "4.25.3",
+ "versao": "4.25.4",
  "colecoes": [
   {
    "id": "ouro",
@@ -68,18 +68,18 @@
    "cards": 450
   },
   {
-   "id": "j360",
-   "nome": "Jornal 360 · Pílulas do Dia",
-   "icone": "📰",
-   "descricao": "Um baralho por edição do Jornal Diário 360 com os conceitos das Pílulas do Dia (TEMI, R3, POCUS, ECG e VM), fontes citadas e link para a edição completa no celular.",
-   "cards": 126
-  },
-  {
    "id": "escr",
    "nome": "Escrituras & Axiomas 360X",
    "icone": "📜",
    "descricao": "1150 flashcards de mensagens que importam: Torá, Salmos, Provérbios, Profetas, Evangelhos, Cartas, Talmude, Alcorão, Budismo, Confúcio, Taoísmo, Hinduísmo, Estoicos, filosofia, outras tradições, medicina, personalidades, mitos de citação e os 150 Axiomas 360X do autor com comentários. Organização e axiomas: Dr. Aldenir Rocha de Oliveira Filho.",
    "cards": 1150
+  },
+  {
+   "id": "j360",
+   "nome": "Jornal 360 · Pílulas do Dia",
+   "icone": "📰",
+   "descricao": "Um baralho por edição do Jornal Diário 360 com os conceitos das Pílulas do Dia (TEMI, R3, POCUS, ECG e VM), fontes citadas e link para a edição completa no celular.",
+   "cards": 140
   }
  ],
  "decks": [
@@ -4025,132 +4025,6 @@
    "pacote": "pack-7-gaso"
   },
   {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-25.json",
-   "tema": "25/11/2026 · nº 019 · Quarta do doador e do fim da violência contra a mulher: pacote fiscal à sanção e dólar a R$ 5,91; nas Pílulas, a morte encefálica e a tireoide na emergência; estreia a página fixa Serviço Humanitário 360",
-   "cards": 16,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-24.json",
-   "tema": "24/11/2026 · nº 018 · Terça de texto-base e de dólar a R$ 6: Câmara aprova o ajuste fiscal por 353 a 128; nas Pílulas, o sangue que se dá (transfusão, plaquetas e HIT) na véspera do Dia do Doador",
-   "cards": 14,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-23.json",
-   "tema": "23/11/2026 · nº 017 · Segunda de título e de votos: Flamengo campeão brasileiro, ajuste fiscal na Câmara; nas Pílulas, a cabeça que incha (TCE e PIC) e a pressão que engana",
-   "cards": 14,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-21.json",
-   "tema": "21/11/2026 · nº 016 · Sábado de decisões: hemorragia digestiva, cirrose e a via aérea de quem sangra; no Dia Nacional da Homeopatia, o primeiro ensaio cego da história",
-   "cards": 13,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-20.json",
-   "tema": "20/11/2026 · nº 015 · O corpo fora da faixa: intermação, hipotermia e anemias no feriado de 39 °C da Consciência Negra",
-   "cards": 13,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-19.json",
-   "tema": "19/11/2026 · nº 014 · Pâncreas e lipídios: pancreatite grave, triglicerídeo e LDL no Dia Mundial do Câncer de Pâncreas",
-   "cards": 14,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-18.json",
-   "tema": "18/11/2026 · nº 013 · Antibiótico com critério na abertura da Semana Mundial da Resistência aos Antimicrobianos",
-   "cards": 14,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-17.json",
-   "tema": "17/11/2026 · nº 012 · Gasometria e VNI na véspera do Dia Mundial da DPOC",
-   "cards": 12,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
-   "colecao": "j360",
-   "arquivo": "data/decks/j360-2026-11-16.json",
-   "tema": "16/11/2026 · nº 011 · O choque que não responde",
-   "cards": 16,
-   "subtemas": [
-    "🏆 TEMI",
-    "🔊 POCUS",
-    "🩺 R3",
-    "🫀 ECG",
-    "🫁 VM"
-   ],
-   "pacote": "pack-9-j360"
-  },
-  {
    "colecao": "escr",
    "arquivo": "data/decks/escr-01-tora_pentateuco.json",
    "tema": "01 📖 Torá (Pentateuco)",
@@ -4349,6 +4223,146 @@
     "20 ⚜️ Axiomas 360X — Aldenir Rocha (autor)"
    ],
    "pacote": "pack-8-escr"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-26.json",
+   "tema": "26/11/2026 · nº 020 · Quinta da Black Friday na véspera e dos 150 anos do inventor do ar frio: bolsa sobe, dólar cai a R$ 5,82 e Ormuz volta a esquentar; nas Pílulas, o queimado grave e a gota",
+   "cards": 14,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-25.json",
+   "tema": "25/11/2026 · nº 019 · Quarta do doador e do fim da violência contra a mulher: pacote fiscal à sanção e dólar a R$ 5,91; nas Pílulas, a morte encefálica e a tireoide na emergência; estreia a página fixa Serviço Humanitário 360",
+   "cards": 16,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-24.json",
+   "tema": "24/11/2026 · nº 018 · Terça de texto-base e de dólar a R$ 6: Câmara aprova o ajuste fiscal por 353 a 128; nas Pílulas, o sangue que se dá (transfusão, plaquetas e HIT) na véspera do Dia do Doador",
+   "cards": 14,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-23.json",
+   "tema": "23/11/2026 · nº 017 · Segunda de título e de votos: Flamengo campeão brasileiro, ajuste fiscal na Câmara; nas Pílulas, a cabeça que incha (TCE e PIC) e a pressão que engana",
+   "cards": 14,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-21.json",
+   "tema": "21/11/2026 · nº 016 · Sábado de decisões: hemorragia digestiva, cirrose e a via aérea de quem sangra; no Dia Nacional da Homeopatia, o primeiro ensaio cego da história",
+   "cards": 13,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-20.json",
+   "tema": "20/11/2026 · nº 015 · O corpo fora da faixa: intermação, hipotermia e anemias no feriado de 39 °C da Consciência Negra",
+   "cards": 13,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-19.json",
+   "tema": "19/11/2026 · nº 014 · Pâncreas e lipídios: pancreatite grave, triglicerídeo e LDL no Dia Mundial do Câncer de Pâncreas",
+   "cards": 14,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-18.json",
+   "tema": "18/11/2026 · nº 013 · Antibiótico com critério na abertura da Semana Mundial da Resistência aos Antimicrobianos",
+   "cards": 14,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-17.json",
+   "tema": "17/11/2026 · nº 012 · Gasometria e VNI na véspera do Dia Mundial da DPOC",
+   "cards": 12,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-16.json",
+   "tema": "16/11/2026 · nº 011 · O choque que não responde",
+   "cards": 16,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
   }
  ],
  "pacotes": [
@@ -4461,21 +4475,6 @@
    "gzbytes": 196620
   },
   {
-   "nome": "pack-9-j360",
-   "rotulo": "📰 Jornal 360 · Pílulas do Dia",
-   "colecoes": [
-    "j360"
-   ],
-   "gz": "data/packs/pack-9-j360.gz.txt",
-   "enc": "b64",
-   "json": "data/packs/pack-9-j360.json",
-   "sha": "69052e4c9ae15c0b",
-   "decks": 9,
-   "cards": 126,
-   "bytes": 90789,
-   "gzbytes": 20784
-  },
-  {
    "nome": "pack-8-escr",
    "rotulo": "📜 Escrituras & Axiomas 360X",
    "colecoes": [
@@ -4489,6 +4488,21 @@
    "cards": 1150,
    "bytes": 1628029,
    "gzbytes": 182560
+  },
+  {
+   "nome": "pack-9-j360",
+   "rotulo": "📰 Jornal 360 · Pílulas do Dia",
+   "colecoes": [
+    "j360"
+   ],
+   "gz": "data/packs/pack-9-j360.gz.txt",
+   "enc": "b64",
+   "json": "data/packs/pack-9-j360.json",
+   "sha": "7f2895ac1c29d0bf",
+   "decks": 10,
+   "cards": 140,
+   "bytes": 101107,
+   "gzbytes": 23216
   }
  ]
 }
