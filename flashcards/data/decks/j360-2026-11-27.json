@@ -1,0 +1,186 @@
+{
+"formato": "codice360x-v1",
+"baralho": "📰 Jornal 360 · Pílulas do Dia::27/11/2026 · nº 021 · Sexta de Black Friday e dos 325 anos de Celsius: Trabuco aceita a Fazenda de 2027, a Bolsa sobe 6,07% e o dólar cai a R$ 5,744; estreia a Neurodiversidade 360; nas Pílulas, sedação e delirium",
+"cards": [
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🏆 TEMI</div>Primeiro passo no paciente agitado em VM?",
+"verso": "Avaliar e tratar a dor (CPOT/BPS) com analgossedação.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Agitação não é falta de sedativo: dor, bexiga, hipóxia e abstinência vêm antes.",
+"fonte": "Devlin JW et al., PADIS, Crit Care Med 2018 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🏆 TEMI</div>Alvo padrão de sedação na UTI?",
+"verso": "Sedação leve: RASS de −2 a 0.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Sedação profunda só com indicação: SDRA grave com bloqueio, HIC ou estado de mal.",
+"fonte": "PADIS 2018 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🏆 TEMI</div>Resultado do despertar diário + teste de respiração (estudo ABC)?",
+"verso": "Óbito em 1 ano 44% × 58%; dias livres de VM 14,7 × 11,6.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Despertar sem o teste de respiração perde parte do benefício.",
+"fonte": "Girard TD et al., Lancet 2008 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🏆 TEMI</div>Pode-se aplicar o CAM-ICU com RASS −4?",
+"verso": "Não; só com RASS ≥ −3.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "RASS −4 ou −5 = coma; reavaliar depois.",
+"fonte": "PADIS 2018 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🏆 TEMI</div>Haloperidol de rotina previne ou encurta o delirium na UTI?",
+"verso": "Não (MIND-USA 2018, AID-ICU 2022).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Benzodiazepínico é 1ª escolha só na abstinência alcoólica e no estado de mal.",
+"fonte": "N Engl J Med 2018; 2022 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"TEMI"
+]
+},
+{
+"subtema": "🏆 TEMI",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🏆 TEMI</div>Dexmedetomidina × propofol em 2025?",
+"verso": "SCCM 2025 sugere dexmedetomidina quando se valoriza menos delirium (recomendação condicional).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "O estudo A2B (JAMA 2025) não mostrou extubação mais rápida com agonista α2.",
+"fonte": "Lewis K et al., Crit Care Med 2025; Walsh TS et al., JAMA 2025 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"TEMI"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🩺 R3</div>4AT de 4 ou mais indica?",
+"verso": "Provável delirium (1–3 = possível déficit cognitivo).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "A forma hipoativa é a mais comum e a mais perdida.",
+"fonte": "Tieges Z et al., Age Ageing 2021 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🩺 R3</div>Critério obrigatório do CAM?",
+"verso": "Início agudo ou flutuação + desatenção.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Precisa ainda de pensamento desorganizado ou nível de consciência alterado.",
+"fonte": "Inouye SK et al., Ann Intern Med 1990 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🩺 R3</div>Remédio &#x27;para dormir&#x27; que mais causa delirium iatrogênico no idoso?",
+"verso": "Anticolinérgicos como prometazina e difenidramina; benzodiazepínicos.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Beers 2023: evitar; benzodiazepínico só na abstinência.",
+"fonte": "American Geriatrics Society, Beers 2023 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"R3"
+]
+},
+{
+"subtema": "🩺 R3",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🩺 R3</div>Efeito do programa HELP?",
+"verso": "Delirium em 9,9% × 15,0% com cuidado multicomponente.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Antipsicótico não encurta o delirium: só para risco ou angústia, por até 1 semana.",
+"fonte": "Inouye SK et al., N Engl J Med 1999; NICE CG103 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"R3"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🔊 POCUS</div>Fórmula do volume vesical à beira do leito?",
+"verso": "Comprimento × largura × profundidade × 0,52.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Ascite, cisto de ovário e linfocele imitam a bexiga.",
+"fonte": "Protocolos de ultrassom vesical (fórmula do elipsoide) · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"POCUS"
+]
+},
+{
+"subtema": "🔊 POCUS",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🔊 POCUS</div>Balão da sonda visível dentro de uma bexiga cheia significa?",
+"verso": "Sonda dobrada ou obstruída.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Retenção urinária é causa tratável de delirium no idoso.",
+"fonte": "Protocolos de ultrassom vesical · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"POCUS"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🫀 ECG</div>ST &#x27;em colher&#x27; isolado indica intoxicação digitálica?",
+"verso": "Não; é efeito do remédio.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Intoxicação = extrassístoles, taquicardia atrial com BAV, FA regularizada, TV bidirecional.",
+"fonte": "Chan BS, Buckley NA, Clin Toxicol 2014 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"ECG"
+]
+},
+{
+"subtema": "🫀 ECG",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🫀 ECG</div>Marcador de gravidade na intoxicação digitálica aguda?",
+"verso": "Potássio > 5,0 mEq/L, que indica anticorpo Fab.<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Nível colhido menos de 6 h após a dose vem falsamente alto.",
+"fonte": "Bismuth C et al., Clin Toxicol 1973 · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"ECG"
+]
+},
+{
+"subtema": "🫁 VM",
+"frente": "<div style=\"font-size:12px;margin-bottom:6px;opacity:.85\">📰 Jornal 360 · 27/11/2026 · 🫁 VM</div>FR 30 com inspiração de 1 s: qual I:E?",
+"verso": "1:1 (ciclo de 2 s).<div style=\"margin-top:8px;font-size:12px\"><a href=\"https://aldenirfilho.github.io/aldenirmed89/jornal-360/leitura/2026-11-27/index.html#p8\" target=\"_blank\" rel=\"noopener\">📱 Ler as Pílulas do dia</a></div>",
+"pegadinha": "Subir a FR sem encurtar a inspiração encurta a expiração e gera auto-PEEP.",
+"fonte": "Hess DR, Kacmarek RM, Essentials of Mechanical Ventilation · Pílulas do Dia, Jornal Diário 360 (27/11/2026)",
+"tags": [
+"J360",
+"J360_2026-11-27",
+"VM"
+]
+}
+]
+}
