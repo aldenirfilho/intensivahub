@@ -1,6 +1,6 @@
 {
  "formato": "codice360x-index-v2",
- "versao": "4.26.0",
+ "versao": "4.26.1",
  "colecoes": [
   {
    "id": "ouro",
@@ -79,7 +79,7 @@
    "nome": "Jornal 360 · Pílulas do Dia",
    "icone": "📰",
    "descricao": "Um baralho por edição do Jornal Diário 360 com os conceitos das Pílulas do Dia (TEMI, R3, POCUS, ECG e VM), fontes citadas e link para a edição completa no celular.",
-   "cards": 140
+   "cards": 155
   }
  ],
  "decks": [
@@ -4226,6 +4226,20 @@
   },
   {
    "colecao": "j360",
+   "arquivo": "data/decks/j360-2026-11-27.json",
+   "tema": "27/11/2026 · nº 021 · Sexta de Black Friday e dos 325 anos de Celsius: Trabuco aceita a Fazenda de 2027, a Bolsa sobe 6,07% e o dólar cai a R$ 5,744; estreia a Neurodiversidade 360; nas Pílulas, sedação e delirium",
+   "cards": 15,
+   "subtemas": [
+    "🏆 TEMI",
+    "🔊 POCUS",
+    "🩺 R3",
+    "🫀 ECG",
+    "🫁 VM"
+   ],
+   "pacote": "pack-9-j360"
+  },
+  {
+   "colecao": "j360",
    "arquivo": "data/decks/j360-2026-11-26.json",
    "tema": "26/11/2026 · nº 020 · Quinta da Black Friday na véspera e dos 150 anos do inventor do ar frio: bolsa sobe, dólar cai a R$ 5,82 e Ormuz volta a esquentar; nas Pílulas, o queimado grave e a gota",
    "cards": 14,
@@ -4498,11 +4512,11 @@
    "gz": "data/packs/pack-9-j360.gz.txt",
    "enc": "b64",
    "json": "data/packs/pack-9-j360.json",
-   "sha": "7f2895ac1c29d0bf",
-   "decks": 10,
-   "cards": 140,
-   "bytes": 101107,
-   "gzbytes": 23216
+   "sha": "274c7eeddbe625b0",
+   "decks": 11,
+   "cards": 155,
+   "bytes": 111834,
+   "gzbytes": 25524
   }
  ]
 }
